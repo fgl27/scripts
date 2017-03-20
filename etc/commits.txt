@@ -1,0 +1,192 @@
+# Simple txt with changes I make to the source 
+#19-09
+
+repo sync -j1
+
+cd
+
+cd android/m/packages/apps/Settings
+
+git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ marshmallow && git cherry-pick 61bfea69281385692ac7c27598842a433401129d
+
+git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ marshmallow && git cherry-pick bb119f37a27715e6781ede172b022083c7877427^..b7bbf0bbc12e3e47baea19a35cf0428545deaf90
+
+
+git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ marshmallow && git cherry-pick 9f6c2036c8ea433550b829e0a5e236ced60500f0^..09d3429cc2fcae1733e7c0f60b0fd83151c356e5
+
+cd
+
+cd android/m/frameworks/base
+git revert 48d74226fda2a81108d3213bb6f2175d4012d2d2 --no-edit
+git fetch https://github.com/bhb27/android_frameworks_base/ marshmallow && git cherry-pick b74d6ec626f51d33ce5473aa71cb66f086420a2c
+
+git fetch https://github.com/bhb27/android_frameworks_base/ marshmallow && git cherry-pick b74d6ec626f51d33ce5473aa71cb66f086420a2c
+
+cd
+
+cd android/m/build
+
+git fetch https://github.com/bhb27/android_build/ my_m && git cherry-pick 02f5f982250518f4d34c7e053baa509472e820e2
+
+cd
+
+cd android/m/vendor/cm
+
+git fetch https://github.com/bhb27/android_vendor_resurrection/ marshmallow && git cherry-pick 4a8ec93f623560e1676a41ea969fcf3790b18d8d
+
+git fetch https://github.com/bhb27/android_vendor_resurrection/ marshmallow && git cherry-pick 832c60063c57e4a46d44c892410081eb3c84e17b^..eefac35a7c68dd55d7b0b98d39b557ef3644b308
+
+cd
+
+
+br
+
+
+
+extras
+
+
+
+
+
+cd android/rr/android_packages_apps_LockClock
+
+
+
+
+cd android/rr/android_packages_apps_Messaging
+
+
+cd
+
+
+
+cd android/rr/android_packages_services_Telecomm
+
+
+cd
+
+
+cd android/rr/android_packages_services_ThemeManagerService
+
+
+git fetch https://github.com/CyanogenMod/android_packages_services_ThemeManagerService/ cm-13.0 && git cherry-pick 449b0bb69fa6dc96101cd628ef8737c3a841c757
+
+cd
+
+
+cd android/rr/android_packages_apps_PackageInstaller
+
+
+git fetch https://github.com/CyanogenMod/android_packages_apps_PackageInstaller/ cm-13.0 && git cherry-pick 449b0bb69fa6dc96101cd628ef8737c3a841c757
+
+git fetch https://github.com/CyanogenMod/cm_platform_sdk/ cm-13.0 && git cherry-pick fceb077b6f4e691f031b027e1584e82ce350a5a6
+
+https://github.com/CyanogenMod/cm_platform_sdk/commits/cm-13.0
+cd
+
+
+
+
+
+
+**
+cd android/rr/cm_platform_sdk
+
+git fetch https://github.com/CyanogenMod/cm_platform_sdk/ cm-13.0 && git cherry-pick fceb077b6f4e691f031b027e1584e82ce350a5a6
+
+git fetch https://github.com/ResurrectionRemix/platform_manifest/ marshmallow && git cherry-pick  47c0e69e7031e7dd0417d474b2e450376e60c7fa
+
+cd
+
+
+cd
+
+
+#updater
+
+git fetch https://github.com/CyanogenMod/android_frameworks_base/ cm-13.0 && git cherry-pick d1274eb549a37fbf32a534e1b5bfc43267669383
+git clone https://github.com/bhb27/android_frameworks_base/ -b marshmallow --reference
+git pull https://github.com/CyanogenMod/android_packages_apps_Messaging/ cm-13.0
+
+  <project path="android" name="platform_manifest" remote="rr"/>
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
+  <project path="external/DUtils" name="external_DUtils" remote="rr" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="rr" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="rr" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rr" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
+  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="rr" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rr"  />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
+  <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
+  <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
+  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" groups="pdk-fs" remote="rr"/>
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="rr" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
+  <project path="system/core" name="system_core" groups="pdk" remote="rr" />
+  <project path="vendor/cm" name="android_vendor_resurrection" remote="rr" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="rr" />
+  <project path="packages/services/ThemeManagerService" name="android_packages_services_ThemeManagerService" remote="rr" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
+
+
+cd android/rr/my
+
+cd android_build
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/android_build/ cm-13.0 --no-edit
+git checkout my_marshmallow
+cd -
+
+cd platform_manifest
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/android_build/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd android_external_android-visualizer
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/android_external_android-visualizer/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd android_external_sepolicy
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/android_external_sepolicy/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd frameworks_av
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/frameworks_av/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd android_frameworks_base
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/android_frameworks_base/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd frameworks_av
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/frameworks_av/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd frameworks_av
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/frameworks_av/ cm-13.0 
+git checkout my_marshmallow
+cd -
+
+cd frameworks_av
+git checkout cm-13.0
+git pull https://github.com/CyanogenMod/frameworks_av/ cm-13.0 
+git checkout my_marshmallow
+cd -

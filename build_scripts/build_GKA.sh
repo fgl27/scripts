@@ -8,7 +8,7 @@ echo -e "\n Script start $(date)\n";
 
 #Folders Folder= you app folder SDK_Folder android sdk folder Download it if you don't have it, don't remove the sdk.dir= from the line
 
-FOLDER=/home/bhb27/android/KA27;
+FOLDER=/home/bhb27/android/GKA;
 SDK_FOLDER="sdk.dir=/home/bhb27/android/sdk";
 
 # Export Java path in some machines is necessary put your java path
@@ -24,15 +24,15 @@ ZIPALIGN_FOLDER=/home/bhb27/android/sdk/build-tools/24.0.2/zipalign;
 # out app folder and out app name
 
 OUT_FOLDER=$FOLDER/app/build/outputs/apk;
-APP_FINAL_NAME=KernelAdiutor.apk;
+APP_FINAL_NAME=GKA.apk;
 
 # make zip only used if you have the need to make a zip of this a flash zip template is need
 # ZIPFOLDER = folder of the zip the contains the flash zip template, 
 # ZIPAPPFOLDER = folder of the zip the contains the apk inside the zip
-MKZIP=1;
+MKZIP=0;
 ZIPFOLDER=$FOLDER/zip/;
-ZIPAPPFOLDER=$ZIPFOLDER/system/app/KernelAdiutor;
-ZIPNAME=kerneladiutor-update-0.9.9.4.+35.BHB27-Mod;
+ZIPAPPFOLDER=$ZIPFOLDER/system/priv-app/KernelAdiutor;
+ZIPNAME=kerneladiutor-update-0.9.9.4.+26.BHB27-Mod;
 
 #making start here...
 

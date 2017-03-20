@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <quark>
+            <Filename>RR-N-v5.8.2-20170316-quark-official.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download Latest ResurrectionRemix for Quark (20170316)">https://www.androidfilehost.com/?fid=745425885120715750</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://github.com/bhb27/scripts/blob/master/etc/changelogs/Changelog_RR_N.md</ChangelogUrl>
+            <SlimGappsUrl
+            	id="gapps"
+            	title="Open Gapps"
+            	description="Download latest Open GApps (Choose Arm, 7.1 and a Variant)">http://opengapps.org/</SlimGappsUrl>
+            <BanksGappsUrl
+            	id="bgapps"
+            	title="Banks Dynamic Gapps"
+            	description="Download latest Banks Dynamic GAPPS (Choose SDK25 version)">https://drive.google.com/drive/folders/0Bwcofov-xyI0ZVhQUWJhMm9PMkU</BanksGappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit the ResurrectionRemix XDA thread for Quark (Moto MAXX/Turbo and Droid Turbo - XT1225, XT1250 and XT1254)">http://forum.xda-developers.com/moto-maxx/development/rom-resurrection-remix-t3511109</XDAUrl>
+	</quark>
+    </Stable>
+</SlimOTA>

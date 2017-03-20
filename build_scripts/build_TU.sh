@@ -8,31 +8,38 @@ echo -e "\n Script start $(date)\n";
 
 #Folders Folder= you app folder SDK_Folder android sdk folder Download it if you don't have it, don't remove the sdk.dir= from the line
 
-FOLDER=/home/bhb27/android/KA27;
+FOLDER=/home/bhb27/android/TurboToast;
 SDK_FOLDER="sdk.dir=/home/bhb27/android/sdk";
 
 # Export Java path in some machines is necessary put your java path
+
 #export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/"
 
-# Auto sign apk Download from my folder link below extract and set the folder below on yours machine
-# https://www.androidfilehost.com/?fid=312978532265364585
-
+#Generate and use a sign key https://developer.android.com/studio/publish/app-signing.html
+#keytool -genkey -v -keystore key_name.key -alias <chose_a_alias> -keyalg RSA -keysize 2048 -validity 10000
+#sign with
+#jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -storepass <yours_password> -keystore <file_path.apk> <new_file_path.apk> <chose_a_alias>
+#check
+# jarsigner -verify -verbose -certs <my_application.apk>
 SIGN=1;
-SIGN_FOLDER=/home/bhb27/android/ZipScriptSign;
 ZIPALIGN_FOLDER=/home/bhb27/android/sdk/build-tools/24.0.2/zipalign;
+KEY_FOLDER=/home/bhb27/android/temp/sign/fgl.key;
+KEY_PASS=$(</home/bhb27/android/temp/sign/pass);
 
 # out app folder and out app name
-
 OUT_FOLDER=$FOLDER/app/build/outputs/apk;
-APP_FINAL_NAME=KernelAdiutor.apk;
+APP_FINAL_NAME=TurboToast.apk;
 
 # make zip only used if you have the need to make a zip of this a flash zip template is need
+# Auto sign zip Download from my folder link below extract and set the folder below on yours machine
+# https://www.androidfilehost.com/?fid=312978532265364585
 # ZIPFOLDER = folder of the zip the contains the flash zip template, 
 # ZIPAPPFOLDER = folder of the zip the contains the apk inside the zip
-MKZIP=1;
+MKZIP=0;
 ZIPFOLDER=$FOLDER/zip/;
-ZIPAPPFOLDER=$ZIPFOLDER/system/app/KernelAdiutor;
-ZIPNAME=kerneladiutor-update-0.9.9.4.+35.BHB27-Mod;
+ZIP_SIGN_FOLDER=/home/bhb27/android/ZipScriptSign;
+ZIPAPPFOLDER=$ZIPFOLDER/system/app/TurboToast;
+ZIPNAME=TurboToast-v1.0.5;
 
 #making start here...
 
@@ -61,9 +68,8 @@ if [ ! -e ./app/build/outputs/apk/app-release-unsigned.apk ]; then
 	echo -e "\n${bldred}App not build${txtrst}\n"
 	exit 1;
 else
-	echo -e "\n${bldred}Signing the App${txtrst}\n"
-	$SIGN_FOLDER/sign.sh test $OUT_FOLDER/app-release-unsigned.apk
-	mv $OUT_FOLDER/app-release-unsigned.apk-signed.zip $OUT_FOLDER/$APP_FINAL_NAME
+	jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -storepass $KEY_PASS -keystore $KEY_FOLDER $OUT_FOLDER/app-release-unsigned.apk Felipe_Leon
+	$ZIPALIGN_FOLDER -v 4 $OUT_FOLDER/app-release-unsigned.apk $OUT_FOLDER/$APP_FINAL_NAME
 fi;
 fi;
 
@@ -74,7 +80,7 @@ if [ $MKZIP == 1 ]; then
 	rm -rf *.zip
 	zip -r9 $ZIPNAME * -x *.gitignore
 	echo -e "\n${bldred}Signing the zip${txtrst}\n"
-	$SIGN_FOLDER/sign.sh test $ZIPFOLDER/$ZIPNAME
+	$ZIP_SIGN_FOLDER/sign.sh test $ZIPFOLDER/$ZIPNAME
 	rm -rf $ZIPFOLDER/$ZIPNAME
 	mv $ZIPFOLDER/$ZIPNAME-signed.zip $ZIPFOLDER/$ZIPNAME.zip
 fi;

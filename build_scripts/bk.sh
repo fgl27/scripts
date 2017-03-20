@@ -6,7 +6,7 @@ FOLDER=/home/bhb27/android/apq8084
 cd $FOLDER
 
 echo -e "\nAvailable branch to build: \n"
-ls .git/refs/remotes/origin/ | grep -v 'HEAD'
+ls .git/logs/refs/remotes/origin/ | grep -v 'HEAD'
 
 echo -e "\nChoose the branch to build: "
 read input_variable

@@ -8,14 +8,14 @@ echo -e "\n Script start $(date)\n";
 
 #Folders Folder= you app folder SDK_Folder android sdk folder Download it if you don't have it, don't remove the sdk.dir= from the line
 
-FOLDER=/home/bhb27/android/KA27;
+FOLDER=/home/bhb27/android/temp/multi/MultiROMMgr;
 SDK_FOLDER="sdk.dir=/home/bhb27/android/sdk";
 
 # Export Java path in some machines is necessary put your java path
 #export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/"
 
 # Auto sign apk Download from my folder link below extract and set the folder below on yours machine
-# https://www.androidfilehost.com/?fid=312978532265364585
+# https://www.androidfilehost.com/?fid=24588232905720654
 
 SIGN=1;
 SIGN_FOLDER=/home/bhb27/android/ZipScriptSign;
@@ -23,16 +23,16 @@ ZIPALIGN_FOLDER=/home/bhb27/android/sdk/build-tools/24.0.2/zipalign;
 
 # out app folder and out app name
 
-OUT_FOLDER=$FOLDER/app/build/outputs/apk;
-APP_FINAL_NAME=KernelAdiutor.apk;
+OUT_FOLDER=$FOLDER/MultiROMMgr/build/outputs/apk;
+APP_FINAL_NAME=MultiROMMgr.apk;
 
 # make zip only used if you have the need to make a zip of this a flash zip template is need
 # ZIPFOLDER = folder of the zip the contains the flash zip template, 
 # ZIPAPPFOLDER = folder of the zip the contains the apk inside the zip
-MKZIP=1;
+MKZIP=0;
 ZIPFOLDER=$FOLDER/zip/;
-ZIPAPPFOLDER=$ZIPFOLDER/system/app/KernelAdiutor;
-ZIPNAME=kerneladiutor-update-0.9.9.4.+35.BHB27-Mod;
+ZIPAPPFOLDER=$ZIPFOLDER/system/priv-app/KernelAdiutor;
+ZIPNAME=kerneladiutor-update-0.9.9.4.+24.BHB27-Mod;
 
 #making start here...
 
@@ -57,13 +57,13 @@ echo -e "\n The above is just the cleaning build start now\n";
 ./gradlew build
 
 if [ $SIGN == 1 ]; then
-if [ ! -e ./app/build/outputs/apk/app-release-unsigned.apk ]; then
+if [ ! -e $OUT_FOLDER/MultiROMMgr-release-unsigned.apk ]; then
 	echo -e "\n${bldred}App not build${txtrst}\n"
 	exit 1;
 else
 	echo -e "\n${bldred}Signing the App${txtrst}\n"
-	$SIGN_FOLDER/sign.sh test $OUT_FOLDER/app-release-unsigned.apk
-	mv $OUT_FOLDER/app-release-unsigned.apk-signed.zip $OUT_FOLDER/$APP_FINAL_NAME
+	$SIGN_FOLDER/sign.sh test $OUT_FOLDER/MultiROMMgr-release-unsigned.apk
+	mv $OUT_FOLDER/MultiROMMgr-release-unsigned.apk-signed.zip $OUT_FOLDER/$APP_FINAL_NAME
 fi;
 fi;
 

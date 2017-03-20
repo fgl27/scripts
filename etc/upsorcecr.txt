@@ -1,0 +1,52 @@
+cd frameworks/base
+git pull https://github.com/CyanogenMod/android_frameworks_base cm-14.1 --no-edit 
+cd -
+
+cd build
+git pull https://github.com/CyanogenMod/android_build/ cm-14.1 --no-edit 
+cd -
+
+cd frameworks/native
+git pull https://github.com/CyanogenMod/android_frameworks_native cm-14.1 --no-edit 
+cd -
+
+cd hardware/qcom/keymaster
+git pull https://github.com/CyanogenMod/android_hardware_qcom_keymaster cm-14.1 --no-edit 
+cd -
+
+cd packages/apps/Dialer
+git pull https://github.com/CyanogenMod/android_packages_apps_Dialer cm-14.1 --no-edit 
+cd -
+
+cd packages/apps/Messaging
+git pull https://github.com/CyanogenMod/android_packages_apps_Messaging cm-14.1 --no-edit 
+cd -
+
+cd packages/apps/Settings
+git pull https://github.com/CyanogenMod/android_packages_apps_Settings  cm-14.1 --no-edit 
+cd -
+
+cd packages/apps/SetupWizard
+git pull https://github.com/CyanogenMod/android_packages_apps_SetupWizard  cm-14.1 --no-edit 
+cd -
+
+cd packages/inputmethods/LatinIME
+git pull https://github.com/CyanogenMod/android_packages_inputmethods_LatinIME  cm-14.1 --no-edit 
+cd -
+
+cd packages/services/Telephony
+git pull https://github.com/CyanogenMod/android_packages_services_Telephony  cm-14.1 --no-edit 
+cd -
+
+cd system/core
+git pull https://github.com/CyanogenMod/android_system_core  cm-14.1 --no-edit 
+cd -
+
+cd system/sepolicy
+git pull https://github.com/CyanogenMod/android_system_sepolicy  cm-14.1 --no-edit 
+cd -
+
+cd vendor/cm
+#git pull https://github.com/CyanogenMod/android_vendor_cm  cm-14.1 --no-edit 
+cd -
+
