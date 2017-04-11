@@ -19,10 +19,9 @@ FOLDER2=/home/bhb27/android/n;
 cd $FOLDER2
 export RR_BUILDTYPE="official"
 export askvariant=1
-export days_to_log=10
+export days_to_log=0
 export rom=r
 export ROM_VVV=$(grep PRODUCT_VERSION vendor/cm/config/common.mk | head -1 | awk '{print $3}');
-export WITH_SU=true
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx10g"
 ./prebuilts/sdk/tools/jack-admin kill-server
