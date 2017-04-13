@@ -3,6 +3,1133 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+04-12-2017
+====================
+
+#### Device specific Changes of 04-12-2017 Start:
+
+#### Device/Quark/
+* 7144622 Quark: update init files
+* f685c14 Revert "Quark: always build SU"
+
+#### Vendor/Quark/
+* 67b8ae18 Quark: up isu and KA
+
+#### Device specific Changes of 04-12-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-12-2017:
+
+#### frameworks/base/
+* d9d19ba53b7 Automatic translation import
+
+#### packages/apps/Settings/
+* f2e81c373 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-12-2017 End.
+
+04-11-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-11-2017:
+
+#### frameworks/av/
+* eb06e419a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+* bcfb7ac8f stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+#### frameworks/base/
+* 500eed37d42 base: services: add config_fingerprintRemoveClientOnCancel
+* 5d314c8a644 Revert "SystemUI: Add SlotId for MultiSim"
+* 5f48e304db4 PowerManager: Bring back the compatibility with AOSP
+* 694c425dd7c Automatic translation import
+
+#### frameworks/native/
+* 0dd3703cc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+#### packages/apps/CMParts/
+* 4e7219f PerfProfileSettings: Update slider on powersave mode change
+* 5f7bb78 CMParts: Update quick QS pull-down summary for translation
+* 2bad1e9 Fix reorientation of volume buttons on portrait tablets
+* 46e207f Automatic translation import
+* bce1aed Automatic translation import
+* 1f68861 Automatic translation import
+* 7d8197d CMParts: update contributors db
+* 7e68b15 Automatic translation import
+* 296e4ae Automatic translation import
+
+#### packages/apps/Contacts/
+* e2478c8d6 contacts: Add support for import contacts to local phone storage
+* 61abda06b Contacts: Fix strings
+* 9ec209c23 Automatic translation import
+
+#### packages/apps/ContactsCommon/
+* 1ba3b92b Automatic translation import
+* eb9e971d Automatic translation import
+* 3dd19dc1 AccountType: use a pretty phone account icon for local storage account
+* 60791adf SelectAccountActivity : Support local phone account
+* 2445ce7a Add local phone account as a writable AccountTypes.
+* 61130003 Store all local contacts in only one account.
+* ad3262b3 contacts-common: Add support for import contacts to local phone storage
+* 0882da32 Automatic translation import
+* f310f243 Automatic translation import
+* 537858da Automatic translation import
+* 11fd9f95 Automatic translation import
+
+#### packages/apps/Dialer/
+* d9698be04 Automatic translation import
+* 868a21f27 Automatic translation import
+* eaecbaa7b Dialer: AIRPLANE_MODE_ON has moved
+* 7b08998a7 Automatic translation import
+* 90062f167 Automatic translation import
+* 1add6a970 Automatic translation import
+* 8d60bbe6b Dialer: Fix strings
+
+#### packages/apps/PackageInstaller/
+* 0e58481a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into nougat
+
+#### packages/apps/PhoneCommon/
+* ca6ed16 Automatic translation import
+* de1ac41 Automatic translation import
+* 2c86f6b Automatic translation import
+* 66902f4 Automatic translation import
+* 3957caa Automatic translation import
+* 64bae44 PhoneCommon: Another round of qtistring fixes
+* 5195006 Automatic translation import
+* 5416015 Automatic translation import
+
+#### packages/apps/Settings/
+* e59efecfa Rename ZUK Z1 mainatainer (#745)
+* f164a3162 Fixed device_maintainers_fragment.xml (#743)
+* a550dd0dc Fix required strings
+* e6df73eee Add ZTE Axon7 dev to the mix (#741)
+* ff35296ef Automatic translation import
+
+#### packages/apps/ThemeInterfacer/
+* 31b36ca Polish copyright
+
+#### packages/services/Telephony/
+* 3087a7d3 VoicemailSettingsActivity: Fix NPE
+* 9923974a telephony: fix crash when missing simcard
+
+#### system/core/
+* 918f328cb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+#### vendor/cm/
+* fcf5cff1 Add email app to device idle whitelist.
+* b7a56d27 kernel: Include openssl headers and dylibs on darwin
+* c665a885 build: Update smali and baksmali to 2.2.0
+* 6e0481c0 roomservice: handle devices with underscores
+
+#### vendor/cmsdk/
+* 62576c7 PerformanceManager: Don't override the user preference
+* ef95847 PerformanceManager: Don't force powersave mode with powersave profile
+* 4df71fb Automatic translation import
+* e416c6e Automatic translation import
+* 1f1f69b Automatic translation import
+* f70e2d0 Automatic translation import
+* 9939f9a Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-11-2017 End.
+
+04-10-2017
+====================
+
+#### Device specific Changes of 04-10-2017 Start:
+
+#### Device/Quark/
+* e650eff Quark: Fix ambient display switch on all sources
+* dc1794e Quark: always build SU
+
+#### Device specific Changes of 04-10-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-10-2017:
+
+#### frameworks/base/
+* c6723a6e76e Automatic translation import
+
+#### packages/apps/Settings/
+* 63072c2e1 Automatic translation import
+
+#### packages/apps/Snap/
+* 2ecc334e4 CameraControls: Toggle the status of disabled views
+* 7e10f005f Never remove unsupported controls
+* 30ba55822 WideAnglePanoramaUI: Correctly position the progressbar
+
+#### packages/services/Telecomm/
+* 100bc187 Merge pull request #2 from SoUnd001/nougat
+
+#### Resurrection Remix OS - Nougat source changes of 04-10-2017 End.
+
+04-09-2017
+====================
+
+#### Device specific Changes of 04-09-2017 Start:
+
+#### Vendor/Quark/
+* 35740f97 Quark: add permission to my apps
+
+#### Device specific Changes of 04-09-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-09-2017:
+
+#### frameworks/base/
+* 65a608a6829 Automatic translation import
+
+#### packages/apps/Dialer/
+* bd314bf99 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* f244ae5 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* fd80269 Automatic translation import
+
+#### packages/apps/Settings/
+* e573c0efe Automatic translation import
+* 347490743 Remove my name from A6020, osprey and falcon (#739)
+
+#### packages/apps/Snap/
+* f262e1a30 Snap: CaptureModule: set switcher index on resume
+* 054040364 Snap: CaptureUI: fix ModuleSwitcher being invisible
+
+#### Resurrection Remix OS - Nougat source changes of 04-09-2017 End.
+
+04-08-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-08-2017:
+
+#### frameworks/base/
+* 992e63cd6d4 Automatic translation import
+
+#### packages/apps/Dialer/
+* 3da6f89f3 Automatic translation import
+
+#### packages/apps/Settings/
+* 6a9003b05 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-08-2017 End.
+
+04-07-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-07-2017:
+
+#### frameworks/base/
+* dc5c93a3acd SystemUI: Fix "no notifications" font size
+* 8d99db1a26c Automatic translation import
+
+#### frameworks/native/
+* 82c472605 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+#### packages/apps/CarrierConfig/
+* 8821cae Consider Q-TELECOM Greece as non-roaming
+
+#### packages/apps/Dialer/
+* 2da75b7bd Automatic translation import
+
+#### packages/apps/Gallery2/
+* 54654ae8b Fix spelling error
+
+#### packages/apps/OmniSwitch/
+* e87ad3d Automatic translation import
+
+#### packages/apps/Settings/
+* 019db9c60 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-07-2017 End.
+
+04-05-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-05-2017:
+
+#### frameworks/av/
+* eb594c4b2 Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+#### frameworks/base/
+* b9df6b5fdeb Automatic translation import
+* f0757114440 Fix permission description string for DE.
+* f143cd6d8ef Merge pull request #188 from ashoksoni/changes
+* 15f89f627bd Fix Bluetooth battery icon after reboot
+
+#### packages/apps/Bluetooth/
+* cca216e4 Revert "Bluetooth: handle opening incoming APK files"
+
+#### packages/apps/Dialer/
+* 2ac217e50 Automatic translation import
+
+#### packages/apps/Settings/
+* 6fb24032c Fix magisk manager settings location
+* 448721150 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-05-2017 End.
+
+04-04-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-04-2017:
+
+#### frameworks/base/
+* 24b51957160 Automatic translation import
+* 89d8e6b68ea Fix Hotspot tile is shown on Guest user
+* eda1e77ebcb SettingsProvider: Update icon.
+
+#### hardware/ti/omap4/
+* 86ea9e8 omap4: add more common build properties
+* 368f365 omap4: define BOARD_CANT_REALLOCATE_OMX_BUFFERS
+* cce4d95 omap4: camera: restore compatibility with older Android versions (< Android N)
+* 0254e40 omap4: define TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES
+* 7839bd6 camera: Use GBAllocator.allocate for N_MR1.
+* 3c75dc7 Revert "camera: switch to Gralloc.allocate and generate unique Id for allocation"
+* c9d954d camera: Rename version_major/minor to the new, non-deprecated names.
+* 0f2b557 camera: clean up build when various OMAP_ENHANCEMENTs are disabled
+* 9cf111b Revert "hwc: publicly define omap specific usage flags"
+* 9a75172 seccomp: allow clock_nanosleep syscall
+* 3a17e59 Fix camera video recording on N.
+* 547e464 android-api: Add N_MR1 defines.
+* c7d8882 camera: fix build for LP
+* 9843c81 android-api: Add LP_MR1 defines.
+* ef46c42 Add DOMX syscalls to seccomp filter
+* 6c31b84 domx: Remove implicit libc shared library declarations.
+* 6fc761d domx: Overhaul omx_proxy_component makefile.
+* 0efd58f domx: for ion_alloc alloc flag must be (1 << ID) and not the ID
+* 3088f9e camera: for carveout alloc we must use ID OMAP_ION_HEAP_SECURE_INPUT
+* 16aca2a android-api: add N
+* 38636fa camera: fix build for KK
+* 6c5b8a8 libcorkscrew: only build for Lollipop and newer
+* 4cd6c92 camera: Init all members of camera_module_t to fix warnings.
+* f439503 libtiutils: C++11 compat fix.
+* 97eba14 libstagefrighthw: Build with -Wall -Werror.
+* 5076f97 libI420colorconvert: Build with -Wall -Werror.
+* 2c59035 Make bltsville opt-in.
+* 072fa04 camera: Makefile overhaul.
+* 07c4577 Revert "camera: call camera CFLAGS should use CAMERAHAL_CFLAGS"
+* 06ce617 omap4: Set TARGET_FORCE_SCREENSHOT_CPU_PATH.
+* d1f876f SGX-BIN: build: android: Don't override PLATFORM_VERSION if supplied
+
+#### packages/apps/CellBroadcastReceiver/
+* fa4d7a7 CellBroadcastReceiver: fix channel 50 not disabling
+
+#### packages/apps/DUI/
+* da18051 Add Chrome to MediaMonitor Blacklist Change-Id: Iabb2ef209ed4ca8b98da5260df107433eb540308 Signed-off-by: Varun Date <date.varun123@gmail.com>
+
+#### packages/apps/OmniSwitch/
+* bff0312 Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* e130126 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 1084edf Automatic translation import
+
+#### packages/apps/Settings/
+* 2407a933d Automatic translation import
+
+#### packages/apps/Snap/
+* 673547e19 CaptureUI: fix crash on setOrientation
+* a8285adbb Snap: Fix effect and picture program overlay buttons
+* 65aa6fdd3 Always apply frame size reduction to panorama pictures
+* 9e8d9195a Never ignore finger swipes in gallery mode
+* b9da2b071 Fix record time sometimes not seen
+
+#### Resurrection Remix OS - Nougat source changes of 04-04-2017 End.
+
+04-03-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-03-2017:
+
+#### external/DUtils/
+* e4af8c6 Smartbar media arrows: more code improvements [2/2]
+
+#### frameworks/base/
+* 3f2e2182465 Smartbar pixel animation: Ability to customize the dots [1/3]
+* a0e34fdaef8 FWB:Pulse: allow setting fading blocks opacity [1/3]
+* 236972d1271 Automatic translation import
+* 1a7d6549636 Switch to Enable or disable Vol up to disable overlays during boot [1/2]
+* f0b84851636 Hold "volume up" during boot to disable all overlays
+* cf709b8cc66 Slim recent membar colors settings: obey themes [1/2]
+* 76f94b8c84c Fix partial screenshot not working when dragging from left or top border
+* 6ba4bf46b59 SmartBar: allow set custom buttons opacity when Pulse is active [3/3]
+
+#### hardware/ti/omap4/
+* eb70ea8 SGX-BIN: build: android: Add fallback PLATFORM_VERSION mechanism
+* dbe532a board/init: Common PVR KM build target for reuse by devices
+* 492610c SGX-BIN: build/srvkm: Drop SGX core/version suffixes everywhere
+* 42c669c SGX-BIN: buildvars: Compile PVR KM with -fno-pic
+* 55bfee6 libpower: Avoid overwriting custom user frequencies.
+* 357aaac libpower: Initialize inited variable.
+* 5ae1155 libpower: Add optional support for API 0.3
+* c55f2bb Add OMAP PowerHAL
+
+#### packages/apps/DUI/
+* 29d8861 Smartbar pixel animation: Ability to customize the dots [2/3]
+* 645caf2 Pulse: allow setting fading blocks opacity [2/3]
+* 0ac9a97 Improve Pulse and MediaMonitor reliability
+* 11115e9 Smartbar media arrows: fix it hiding sometimes
+* 107d69c SmartBar Media Arrows: add streaming music support
+* a687b71 Smartbar media arrows: more code improvements [1/2]
+* e6ddfe6 Smartbar media arrows: more code improvements
+* 4b13131 Smartbar track arrows: code cleanup and don't show them on video playing
+* 3c7daeb SmartBar: allow set custom buttons opacity when Pulse is active [1/3]
+
+#### packages/apps/OmniSwitch/
+* 2828e47 OmniSwitch: reduce vertical padding on app icons
+* e02304c OmniSwitch: add missing docked task indicator for other views
+* 568c8ae Automatic translation import
+
+#### packages/apps/Settings/
+* d3ad76fc2 Smartbar pixel animation: Ability to customize the dots [3/3]
+* c1ebfd6d2 Settings:Pulse: allow setting fading blocks opacity [3/3]
+* 43683bbdc Automatic translation import
+* be3d94712 Add Reset Button to Pixel Animation Duration Settings
+* 6f35d50c4 Switch to Enable or disable Vol up to disable overlays during boot [2/2]
+* bbddeeb9b SlimRecents Membar Colors: Obey Themes when disabled [2/2]
+* 61354e2de SmartBar: allow set custom buttons opacity when Pulse is active [2/3]
+* 805e6dac0 Move Magisk Manager Settings shortcut to below KA settings shortcut, westcripp implied (#735)
+
+#### packages/providers/MediaProvider/
+* e0e756f New Material icon
+
+#### packages/services/Mms/
+* de8277e Add Material icon & app label
+
+#### packages/services/Telephony/
+* e14278b5 Revert "Add support to launch call barring"
+* 895d7643 Revert "CallFeatureSettings: Only show call barring option if QTI package installed"
+* db1a9acf Telephony: AIRPLANE_MODE_ON has moved
+
+#### vendor/cm/
+* c09a03af rr: tools: improve changelog script
+
+#### Resurrection Remix OS - Nougat source changes of 04-03-2017 End.
+
+04-02-2017
+====================
+
+#### Device specific Changes of 04-02-2017 Start:
+
+#### Device/Quark/
+* 2b3a7fe Quark: sepolicy for adb SU
+
+#### Device specific Changes of 04-02-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-02-2017:
+
+#### frameworks/base/
+* 53b04418785 Automatic translation import
+* a5745430b44 Automatic translation import
+
+#### packages/apps/CarrierConfig/
+* 65fe5ff Consider O2 and E-Plus as non-roaming
+
+#### packages/apps/DUI/
+* 13279b3 Make Smartbar Pixel Animation Durations Customizable [2/3]
+
+#### packages/apps/Settings/
+* 71552ce8f Automatic translation import
+* d8db799a9 Automatic translation import
+* f996487b7 Update rr_strings.xml
+
+#### packages/providers/CalendarProvider/
+* 94029d1 New Material icon
+
+#### packages/providers/TelephonyProvider/
+* 059380f TelephonyProvider: Update icon to Material
+
+#### packages/services/Telecomm/
+* 0e51d1bc fix incall
+
+#### packages/wallpapers/LivePicker/
+* bf06fdf New Material icon
+
+#### Resurrection Remix OS - Nougat source changes of 04-02-2017 End.
+
+04-01-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-01-2017:
+
+#### frameworks/base/
+* d5dc2ce9598 Automatic translation import
+* 1e219505893 Smarbar Pixel Navbar Animation Duration Settings [1/3]
+* e021aa8d071 LTE Tile: Make it Visible for Msim As well
+* 05a13f1c592 Better QS detail clip animation
+
+#### packages/apps/CMParts/
+* 780f4ad CMParts:Make Button Settings and Hardware Key Settings Non Searchable
+
+#### packages/apps/DUI/
+* 6f4e145 Unlock Home and Back Buttons from Smartbar
+* 84da14e SmartBar: show arrows for next/previous track when playing audio [1/2]
+
+#### packages/apps/Dialer/
+* 95ac18677 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 86af05f Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* 65a06bb Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 3131d3c Automatic translation import
+
+#### packages/apps/Settings/
+* fce0d71b3 Add more j5 models (#734)
+* f11b1bab5 Automatic translation import
+* 07ed70639 Settings: Make Smartbar Pixel Animation Durations Customizable [3/3]
+* 290319561 SmartBar: show arrows for next/previous track when playing audio [2/2]
+* 27cc5feb7 Fix Strings and whitespaces
+* 0341a617b Add Maintainer for Vibe P1a42 (#733)
+
+#### Resurrection Remix OS - Nougat source changes of 04-01-2017 End.
+
+03-31-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-31-2017:
+
+#### android/
+* bf14f32 Revert "cm: Remove ahbottomnavigation library"
+
+#### frameworks/base/
+* 42b1343b912 Themes: Expose Keyboard Shortcuts Dialog
+
+#### packages/apps/Settings/
+* 5875669bc Fix Magisk and re-arrange themes and Magisk settings shortcut to be below RR configuration.
+
+#### packages/apps/ThemeInterfacer/
+* ae4821c Fix failed authorization toast on restartService
+
+#### packages/resources/devicesettings/
+* a765ae0 Add strings for fingerprint pocketmode
+
+#### vendor/cm/
+* 05d77137 Update Prebuilts
+
+#### Resurrection Remix OS - Nougat source changes of 03-31-2017 End.
+
+03-30-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-30-2017:
+
+#### build/
+* 190f2fe28 Revert "ota: Remove cruft we don't care about"
+* fae00afb4 Avoid adding an extra slash if OUT_DIR_COMMON_BASE ends in a slash
+
+#### external/DUtils/
+* 93cc06a DUI: validate image size before attempting to set as icon [1/2]
+* 52f7f6d Kill App action: remove the killed app from Recents list
+
+#### frameworks/base/
+* 9080b847ecd Statusbar Weather Image: Make it update when iconpacks are changed
+* abdfead8046 BatteryTile: make the icon apply
+* ac183ba537e base: Apply roaming indicator changes instantly
+* 8e802de1fc5 Allow to set a different battery style for tile and statusbar [1/2]
+* 61d4294bd47 QS:Re-Enable Night Display Tile for devices that support it
+* 7d73fb83f1c Suspend Actions Qs Tile
+* 360e3fe2b29 Automatic translation import
+* 1ed99577a75 DocumentsUI: make shapes great again
+* 5e038ca7596 Revert "[1/2] base: support separate encryption/lockscreen passwords"
+* c89558003ca MountService: Don't run benchmarks after trimming
+* 4c1bf3c5afb BatteryService: add dash charging support
+* 0b7f30e135a Fw_base - Night auto brightness: restore user brightness values also after reboot
+* 46aba727b5f Fw_base - Night Light brightness mode options [1/2]
+* c3c55c542d4 Fix NPE while performing NetworkStatsService.removeUidsLocked()
+* 6151c0b436e Fix potential NULL dereference errors.
+* f85af0b8269 Frameworks/base: Fix old code in MediaPlayer
+
+#### packages/apps/DUI/
+* b9c7e39 SmartBar editor: Let's use the blue!
+* 67522d0 Smartbar: expose SmartButton ripple color
+
+#### packages/apps/Settings/
+* 44aca004f String Updates
+* a5e253762 Also Update RR dashboard theme icon
+* 3e2370d46 StorageSettings: Fix Color derp
+* ca047932e DUI: validate image size before attempting to set as icon [2/2]
+* f2c49537a  Allow to set a different battery style for tile and statusbar [2/2]
+* bcf2a2349 Themes: Expose SmartBar Dialogs from manifest
+* 27f2caa8f Redesigned Substratum icon
+* 3827d8054 Expose styles in the manifest for themes
+* 79d3b9bb1 Expose "ALL" hardcoded and @android colors
+* c52bbe4f6 Suspend Actions as an Activity
+* cb0a91c83 Revert "[2/2] settings: support setting a separate encryption password"
+* 314bc9e9e Settings - Night Light brightness mode options [2/2]
+
+#### packages/services/OmniJaws/
+* 79faaf8 Build as privileged and "fix" applying icon packs
+* 48ac8bd OmniJaws: Clean up unused imports, simpify few things
+* 1c052e1 OmniJaws: Add menu item to search for Chronus icons
+* 38f509f Fix potential actionbar npe
+* 303eae1 OmniJaws: manifest add DEFAULT category to activities
+* 960d49f Revert "Remove Weather icon pack pref"
+
+#### vendor/cm/
+* b73b386f Fix APNs for Cyprus
+* 089838d1 extract_utils: support extracting directly from an ota zip
+* 9fa9f1fa cm: remove special access to unused cmfm
+* 12011bff cm: allow apps to find profile manager service
+* 815c85af cm: build: Don't convert patchset to int if it's None
+* 2b4fe985 cm: build: Fix cherry picking specific patchsets
+* 58e04499 Make a data only config
+* ecdbb936 APN: Fix TalkTalk
+* 02ddc58a apn: Updating TelkomSA from 8ta South Africa APN
+* 3e253ac6 repopick: encode commit subjects in utf-8 for printing
+* b6087b8d overlay: Disable recovery updates
+* e8f46e3a apns: Remove proxy for the "TIM WAP" APN
+* f4c483e5 Add TvSettings to common tv config.
+* 739b20cb vendor: Add templates for proprietary extraction scripts
+* efc99d4f extract_utils: Fix locale issue with sort
+* b93ec4c1 vendor_cm : update Fastweb apn
+* 04ffdecc apns: Add Perfectum
+* 3c2dada1 cm: build: tasks: Remove BUILD_TINY_ANDROID check
+* 9184dd32 extract-utils: Fix handling of pulling src:dest pairs from dumps
+
+#### Resurrection Remix OS - Nougat source changes of 03-30-2017 End.
+
+03-29-2017
+====================
+
+#### Device specific Changes of 03-29-2017 Start:
+
+#### Device/Quark/
+* defb4ef Quark: enable suspend while charging
+
+#### Device specific Changes of 03-29-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 03-29-2017:
+
+#### android/
+* 79626b1 manifest: show download stats
+* 3b9d716 manifest: show how much % localization is done!
+
+#### frameworks/base/
+* 1e35ea2c7f7 Automatic translation import
+* 8f68368bf77 Automatic translation import
+
+#### packages/apps/AudioFX/
+* 2cd4a6e Automatic translation import
+
+#### packages/apps/Bluetooth/
+* f4196b3b Automatic translation import
+
+#### packages/apps/CMBugReport/
+* c3b040e Automatic translation import
+
+#### packages/apps/Calendar/
+* 918bd817 Automatic translation import
+
+#### packages/apps/Camera2/
+* e96a1aa74 Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* 17e633f Automatic translation import
+
+#### packages/apps/Dialer/
+* 6dbeeee48 Automatic translation import
+* 5c9a353ae Automatic translation import
+
+#### packages/apps/Eleven/
+* 3f8bab8 Automatic translation import
+
+#### packages/apps/Email/
+* 92c2de445 Automatic translation import
+
+#### packages/apps/Gello/
+* a80d06ab Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 39d506d Automatic translation import
+* 0a83aa9 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 0fc5fe15 Automatic translation import
+
+#### packages/apps/Profiles/
+* 2a86c63 Automatic translation import
+
+#### packages/apps/Recorder/
+* b427c2f Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* 772235a Automatic translation import
+* 9e1b4b4 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* f96984b Automatic translation import
+* 60aa1d2 Automatic translation import
+
+#### packages/apps/Settings/
+* c7d0663a2 Automatic translation import
+* 49bc1cca8 Automatic translation import
+
+#### packages/apps/SetupWizard/
+* cd33504 Automatic translation import
+
+#### packages/apps/Snap/
+* 13d43d7c2 Automatic translation import
+
+#### packages/apps/Terminal/
+* 44781da Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 39343e1 Automatic translation import
+
+#### packages/apps/ThemeInterfacer/
+* 0f51d79 JobService: Fix inital font application
+* bed5f44 JobService: fix initial theme dir creation
+
+#### packages/apps/Trebuchet/
+* defe11d3c Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* 251c7bd47 Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* 53836b2d8 Automatic translation import
+
+#### packages/providers/DataUsageProvider/
+* 149eb22 Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* 4f6cf59 Automatic translation import
+
+#### packages/providers/ThemesProvider/
+* 6d5910a Automatic translation import
+
+#### packages/providers/WeatherProvider/
+* fd0d410 Automatic translation import
+
+#### packages/resources/devicesettings/
+* d653283 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 77358cc Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* 7c8a02e Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 03-29-2017 End.
+
+03-28-2017
+====================
+
+#### Device specific Changes of 03-28-2017 Start:
+
+#### Vendor/Quark/
+* 9761e396 Quark: up isu v3.8
+
+#### Device specific Changes of 03-28-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 03-28-2017:
+
+#### bionic/
+* 5848aaf5c libc: memcpy_base: Disable opt for certain targets
+
+#### frameworks/base/
+* 2da0591484d FWB: SmartBar Color: Custom app color filter switch (1/3)
+* 37e82fc35bb Automatic translation import
+* 293d63a1e16 Automatic translation import
+* c1391e803b0 Automatic translation import
+
+#### packages/apps/DUI/
+* d2872b6 DUI: SmartBar Color: Custom app color filter switch (2/3)
+
+#### packages/apps/Settings/
+* 3df288e87 Settings: SmartBar Color: Custom app color filter switch (3/3)
+* d63bec1ce Automatic translation import
+* dc2e3e4a8 Automatic translation import
+* 146385a42 Settings: fix build
+* febccd578 Add VEGA Sky A910 (#729)
+
+#### Resurrection Remix OS - Nougat source changes of 03-28-2017 End.
+
+03-27-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-27-2017:
+
+#### android/
+* 0bcf782 crowdin: track the manifest
+* 23bb331 manifest: add in a crowdin.xml
+* 9f86f8b manifest: delete unnecessary file.
+
+#### frameworks/base/
+* 4442f2c0524 Automatic translation import
+* 62535b2dadc Automatic translation import
+* 55241a8736b Core: Make tethering notifications fully translatable
+* 918f9ba35a9 Automatic translation import
+
+#### packages/apps/Dialer/
+* 9272e56c3 Automatic translation import
+* 4562381ed Revert "Revert "Use TabLayout for DSDA tabs.""
+
+#### packages/apps/OmniSwitch/
+* 32a6bd4 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* e78c53a Automatic translation import
+
+#### packages/apps/Settings/
+* ccfbedc17 Automatic translation import
+* 3feebfe6c Fix zen mode allowed event preference summary.
+* c9c382a6a Settings: Fix AOSP WiFi AP translations
+* f1567f0f9 Settings: Fix german string
+* 5f20a95c5 Automatic translation import
+* 22b073d69 Automatic translation import
+* 984ddc2b3 Automatic translation import
+* 5a9c6e397 Automatic translation import
+* 74cd53950 Automatic translation import
+* 42a60eab5 Automatic translation import
+* a0124fc9c Add j5 (#728)
+
+#### system/core/
+* 1fc4f920b adb: Look for bu in /sbin when in recovery mode
+
+#### Resurrection Remix OS - Nougat source changes of 03-27-2017 End.
+
+03-26-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-26-2017:
+
+#### hardware/ti/omap4/
+* 71be556 Include common omap4 vendor repo if available.
+* 02837a7 libEGL_POWERVR: Replace remaining LOCAL_LDLIBS (KK compatibility)
+* 115c4a4 pvrsrvinit/libEGL_POWERVR: Actually ready needed vendor libraries
+* aff0723 pvrsrvinit/libEGL_POWERVR: Link against generic library symlinks
+* b132a61 pvrsrvinit: PVRScopeServices symlink lives in vendor/ti now
+* 3c61176 pvrsrvinit: define the libraries to link against in LOCAL_LDFLAGS
+* ca79788 symlinks: Move Gralloc's to vendor/ti (together with processing)
+
+#### packages/apps/Settings/
+* db1f9f024 Add Nougat Maintainer for LeEco Le 1s (X3) (#727)
+
+#### packages/apps/Trebuchet/
+* 315b2f9d6 Moving a few testing classes to a separate package
+* 3c5875382 Trebuchet: Remove ambient SDK leftover
+
+#### Resurrection Remix OS - Nougat source changes of 03-26-2017 End.
+
+03-25-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-25-2017:
+
+#### bionic/
+* 6f130ca2f linker: Restore optional platform text relocations use
+
+#### frameworks/base/
+* 65359b6df71 Fix Potential NPE on Msim
+* da1e367b61c Slim Recents: fix SystemUI fc
+
+#### packages/apps/Settings/
+* b7874b1bb Settings: Set correct default value to In-call DND switch (#725)
+* 964a86de6 Add Natrium maintainer (#723)
+* 727b7c851 Add Samsung Galaxy S7 maintainer (#724)
+* 5edc1d0da Option to Disable Blank network signal icons on Msim [2/2]
+
+#### Resurrection Remix OS - Nougat source changes of 03-25-2017 End.
+
+03-24-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-24-2017:
+
+#### frameworks/base/
+* fb47dc97a2c Option to Disable Blank network signal icons on Msim [1/2]
+* 42f66269093 SystemUI: Hide unprovisioned SIMs * There's no point of displaying null signal icon. clean up PSB while we're at it Signed-off-by: Varun Date <date.varun123@gmail.com>
+* 1533473d4df Slim Recents: more fixes, cleanup and improvements
+* 5e02a9abad6 Merge pull request #187 from ashoksoni/changes
+* 8b6ff71c998 Fix crash issue on Storage Manager app
+* 7bfdfda2df0 Fix for wakelock being held during bootup and idle scenario.
+* 4df2b2be9f0 SystemUI: Tiny expanding improvement Signed-off-by: BigBrother1984 <carlosavignano@aospa.co> Signed-off-by: xyyx <xyyx@mail.ru>
+* 4e0ee9f5b43 [BUG] fix NullPointerException in Notification.java
+* 738bd6e4f70 Slim Recents Membar Colors [1/2]
+* 5d257d2d962 Base: API to restart SystemUI without root
+* d9ea16f23f8 Weather tile longclick: alternative weather apps when google weather not installed
+* 5369e6476c4 Slim Recents: fix multiwindow glitch when docking app to bottom
+* 9b7f8a4b218 Slim Recent new multiwindow when multiwindow already active: make it more robust
+* 728368c1e4c Cleanups after Slim recents Refactor
+* 0dec18de98f Allow themers to customize battery frame color on darkintensity
+* 9cb2b588594 Slim Recents icon cache: clear it when changing scale factor
+* 9f09e14f8f3 Location tile: new icons
+* 838a66f3110 Slim Recents: add icon cache to improve performances
+* 4cf1b49745a Slim Recents icon pack: fallback to app icon if pack doesn't have any
+* 3cec48bcb36 Clean up a couple Uris in PSB
+* aac9a5684bf Slim recents: don't show content when screen is pinned
+* 9a7e481826a Slim recents: fix sometimes icons being invisible when they should not
+* e4b18130e24 Slim Recents: fix multiwindow glitch when docking app to bottom
+* e9026c1e023 Slim Recents: fix toptask header layout and other ui improvements
+* 37c03e3d049 Slim recents: no need to vibrate twice on longclick
+* 55213ddd1c1 Slim recents: Fix blinking cards on notifyDataSetChanged()
+* 02119f45de6 Slim recents style improvements
+* c4c2f588a6e Slim Recent: allow to dock new apps if a multiwindow session is already running
+* 54e0b028f28 Refactor SlimRecents (1/2)
+
+#### hardware/qcom/fm/
+* aff061a FM: Fix KHz->kHz
+
+#### packages/apps/Settings/
+* f0dd73933 Slim Recents Membar Color [2/2]
+* bf2130521 Refactor Slim Recents [2/2]
+
+#### Resurrection Remix OS - Nougat source changes of 03-24-2017 End.
+
+03-23-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-23-2017:
+
+#### frameworks/base/
+* 00d1fcc80db Slim Recents iconpack support [1/2]
+* 42d1838d89a Ability to disable Do not Disturb mode when calling [1/3]
+* 833629629e6 Suspend Actions [1/3]
+* 0c5dbdccd5d Make roaming indicator optional [1/2]
+
+#### packages/apps/PackageInstaller/
+* 9b194dd6 Revert all the changes introduced with cafrebase
+
+#### packages/apps/Recorder/
+* ed7a8b3 Recorder: add and fix missing copyrights
+* 779c197 Recorder: screen recorder overlay
+* 4bf3b75 Recorder: update gradle and support libraries
+
+#### packages/apps/Settings/
+* 0a64428c9 Update SlimRecentPanel.java
+* cce096d28 Slim Recents iconpack support [2/2]
+* ed6ad0390 Fix Build due to bad Pull request
+* 5076e301f Ability to disable Do not Disturb mode when calling [3/3]
+* 75b638085 Suspend Actions [3/3]
+* 0269bd3df Make roaming indicator optional [2/2]
+* cb6313288 add mising strings
+* 68d825d07 Add Nougat Maintainer of Nubia Z11(nx531j) (#722)
+
+#### packages/services/Telecomm/
+* b253df51 Ability to disable Do not Disturb mode when calling [2/3]
+
+#### packages/services/Telephony/
+* 3ac65375 Suspend Actions [2/3]
+
+#### Resurrection Remix OS - Nougat source changes of 03-23-2017 End.
+
+03-22-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-22-2017:
+
+#### frameworks/base/
+* 0628201143f Automatic translation import
+* 52ce3a3f1fc Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* f76431f Automatic translation import
+
+#### packages/apps/Dialer/
+* 95ae356d6 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* ef15f62 OmniSwitch: on the fly update on dpi changes
+* bcfc4b1 OmniSwitch: multi window madness
+* 37c5b8f OmniSwitch: delay task info loading to speedup open
+
+#### packages/apps/Recorder/
+* 14c2858 Automatic translation import
+
+#### packages/apps/Settings/
+* ff7b05f86 Automatic translation import
+* 28b13228a Batterybar Settings: Fix Color Previews
+* bb12331c5 Merge remote-tracking branch 'rr/nougat' into HEAD
+* 94bca5b5f Revert "Enable cool color temperature option"
+
+#### packages/apps/Snap/
+* 3deda7f14 Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* a9fa3b2 Automatic translation import
+
+#### packages/resources/devicesettings/
+* 8bbb278 Automatic translation import
+
+#### vendor/cm/
+* 24cd1a42 Revert "Update Magisk to V11.6"
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* d4703e3 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 03-22-2017 End.
+
+03-21-2017
+====================
+
+#### Device specific Changes of 03-21-2017 Start:
+
+#### Device/Quark/
+* 43312e5 Quark: enable OMX_LEGACY_RESCALING again
+
+#### Device specific Changes of 03-21-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 03-21-2017:
+
+#### packages/apps/Dialer/
+* 7939a38f9 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 7b2042d Automatic translation import
+
+#### packages/apps/Settings/
+* c4a06098e Add Nougat Maintainer of Lenovo P2(p2a42) (#720)
+* 58bfed9c2 Automatic translation import
+
+#### vendor/cm/
+* 4b42ac45 Update Magisk to V11.6
+
+#### Resurrection Remix OS - Nougat source changes of 03-21-2017 End.
+
+03-20-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-20-2017:
+
+#### frameworks/base/
+* d2d57c0d484 Add Compass tile
+* b54a260191c Statusbar ticker: apply statusbar tint when set to white
+* 24dbac1290a Location tile: add high accuracy state icon
+* e4d25c2655b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+* 41b8ae70b1c Location tile: dynamic icon state also when easy toggle enabled
+* 806928cee51 Expose Screenshot flash and background colors
+* 2641bdd1a25 Expose temperature text in DetailedWeatherView
+
+#### hardware/qcom/fm/
+* 953af70 Automatic translation import
+
+#### packages/apps/AudioFX/
+* dc65a0c Automatic translation import
+
+#### packages/apps/Bluetooth/
+* 888a04e2 Automatic translation import
+
+#### packages/apps/Calendar/
+* 1826775b Automatic translation import
+
+#### packages/apps/Camera2/
+* 8ee8d23c6 Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* 6950f2b Automatic translation import
+
+#### packages/apps/Eleven/
+* d46453b Automatic translation import
+
+#### packages/apps/Email/
+* af2af0bbe Automatic translation import
+
+#### packages/apps/Gello/
+* 18953eb6 Automatic translation import
+
+#### packages/apps/HTMLViewer/
+* eb1c5fa Automatic translation import
+
+#### packages/apps/Nfc/
+* 8bb1879b Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 6833a110 Automatic translation import
+
+#### packages/apps/Recorder/
+* 110c07c Automatic translation import
+
+#### packages/apps/SafetyRegulatoryInfo/
+* d458cf1 Automatic translation import
+
+#### packages/apps/Settings/
+* 84b4eb1fc AppOpsDetails: Check app permissions safely
+
+#### packages/apps/SetupWizard/
+* f834d21 Automatic translation import
+
+#### packages/apps/Snap/
+* 9ee33a511 Automatic translation import
+
+#### packages/apps/Stk/
+* 3c27506 Automatic translation import
+
+#### packages/apps/Terminal/
+* 5937cbf Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 993da14 Automatic translation import
+
+#### packages/apps/Trebuchet/
+* a5369311a Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* c2e4f01b3 Automatic translation import
+
+#### packages/apps/WallpaperPicker/
+* cfbd067 Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* f59371ad4 Automatic translation import
+
+#### packages/providers/BookmarkProvider/
+* 1b2cc77 Automatic translation import
+
+#### packages/providers/CalendarProvider/
+* a1aa622 Automatic translation import
+
+#### packages/providers/ContactsProvider/
+* e93ac19b Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* ae34e55 Automatic translation import
+
+#### packages/providers/MediaProvider/
+* 4d1a21f Automatic translation import
+
+#### packages/resources/devicesettings/
+* b75c745 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* a940996 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* 459f3db Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 03-20-2017 End.
+
+03-19-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-19-2017:
+
+#### frameworks/base/
+* f93be09f94a Move wakelock option for flashlight to CameraManager.
+* 09c2f181548 SingleHandWindow: Allow locking the rotation to 180°
+* 835fcfb2b63 Add VOLTE icon
+
+#### frameworks/opt/telephony/
+* c31cf848 telephony: Fix rebase mismerge breaking SIM detection when encrypted
+
+#### Resurrection Remix OS - Nougat source changes of 03-19-2017 End.
+
 03-16-2017
 ====================
 

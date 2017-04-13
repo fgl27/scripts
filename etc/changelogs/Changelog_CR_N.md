@@ -3,6 +3,1358 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+04-12-2017
+====================
+
+#### Device specific Changes of 04-12-2017 Start:
+
+#### Device/Quark/
+* 7144622 Quark: update init files
+* f685c14 Revert "Quark: always build SU"
+
+#### Vendor/Quark/
+* 67b8ae18 Quark: up isu and KA
+
+#### Device specific Changes of 04-12-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-12-2017:
+
+#### frameworks/base/
+* 01e12bd6234 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* e5b6f5354d3 Custom carrier label and customization [1/2]
+
+#### packages/services/Telephony/
+* 8f243e5c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1
+
+#### vendor/cmsdk/
+* b54bad8 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### CRDroid Android Nougat source changes of 04-12-2017 End.
+
+04-11-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-11-2017:
+
+#### frameworks/av/
+* bcfb7ac8f stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+#### CRDroid Android Nougat source changes of 04-11-2017 End.
+
+04-10-2017
+====================
+
+#### Device specific Changes of 04-10-2017 Start:
+
+#### Device/Quark/
+* e650eff Quark: Fix ambient display switch on all sources
+* dc1794e Quark: always build SU
+
+#### Device specific Changes of 04-10-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-10-2017:
+
+#### packages/apps/crDroidFileManager/
+* ae8282c Automatic translation import
+* 0fca73d Automatic translation import
+* 1f7bf1e Automatic translation import
+* 71b6a2a Automatic translation import
+* 3eb7db0 Automatic translation import
+* 67bbe53 Automatic translation import
+* 95ba0df Automatic translation import
+* 9a2341b Automatic translation import
+* b84a99e Update strings.xml
+* 6f31d6b Update fdroid
+* e0016a3 Add contributors in about page
+* d4f8c52 PROPS: Some UI fixes
+* 7fbb6fd HASH: Add sha256 in properties
+* 8414e59 CPY: Fix minor OTG fc
+* 0165e28 APK: Fix app files extraction
+* a27ac8d APK: Fix version no in backup
+* 65bd834 WTR: Fix race condition when requesting multiple service start before handler is instanciated
+* 6366a72 Automatic translation import
+* 7b72e67 Automatic translation import
+
+#### CRDroid Android Nougat source changes of 04-10-2017 End.
+
+04-09-2017
+====================
+
+#### Device specific Changes of 04-09-2017 Start:
+
+#### Vendor/Quark/
+* 35740f97 Quark: add permission to my apps
+
+#### Device specific Changes of 04-09-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-09-2017:
+
+#### frameworks/base/
+* d234822a815 Revert "SystemUI: Add SlotId for MultiSim"
+
+#### frameworks/native/
+* 68768a253 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1
+
+#### packages/services/Telephony/
+* d0f7c5fc telephony: fix crash when missing simcard
+* d9a24af8 VoicemailSettingsActivity: Fix NPE
+
+#### vendor/cm/
+* fe9f8426 Add email app to device idle whitelist.
+* 8e0c7cb2 kernel: Include openssl headers and dylibs on darwin
+
+#### vendor/cmsdk/
+* 4b14ba4 PerformanceManager: Don't override the user preference
+* b19fe20 PerformanceManager: Don't force powersave mode with powersave profile
+
+#### CRDroid Android Nougat source changes of 04-09-2017 End.
+
+04-08-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-08-2017:
+
+#### frameworks/base/
+* 65010f3593e Doze: Add option to set vibrate duration [1/2]
+* f50a0652deb Doze: Add gesture support for tilt, pickup, proximity sensors [1/2]
+* d1a64ffc841 Clean up doze [1/2]
+* ac0f78850bc RecentsView: Add color customization for mem bar [1/2]
+* 218b5557e50 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* 527e2073247 PowerManager: Bring back the compatibility with AOSP
+
+#### CRDroid Android Nougat source changes of 04-08-2017 End.
+
+04-07-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-07-2017:
+
+#### frameworks/native/
+* 82c472605 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+#### packages/apps/CarrierConfig/
+* 8821cae Consider Q-TELECOM Greece as non-roaming
+
+#### packages/apps/Gallery2/
+* 54654ae8b Fix spelling error
+
+#### vendor/cm/
+* 99da1557 crdroid: Turn off dexpreopt
+* 7474e988 build: Update smali and baksmali to 2.2.0
+
+#### CRDroid Android Nougat source changes of 04-07-2017 End.
+
+04-06-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-06-2017:
+
+#### packages/apps/PhoneCommon/
+* 1a40036 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1
+
+#### packages/apps/crDroidSettings/
+* cc730d7 Merge pull request #47 from boulzordev/7.1
+* ca096d3 add griffin maintainer
+
+#### CRDroid Android Nougat source changes of 04-06-2017 End.
+
+04-05-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-05-2017:
+
+#### art/
+* dbf804314 Fix for building with clang master
+* 1ad719021 build: switch ART to performance mode if possible
+* 848190761 LogMessageData: Fix assignment in constructor
+* 0d6781d79 Remove alignment bits in between stack maps
+* bb460ee79 Refactor and optimize memory region bit functions
+* e8926f5fd Avoid accessing the heap without mutator lock in Monitor::Lock.
+* c2a72fc05 Clean up some includes.
+* d51651a57 Recognize XOR-based periodic induction.
+* cb2a6868e Enable inlining of throwers.
+* 607cd662a Inline and optimize interface calls.
+* 62cce6716 Add a new control flow simplifier.
+* 6ab05f9cb add missing include
+* 95fe6b8a4 ART: Fix missing include
+* 9d56b6705 A first implementation of a loop optimization framework.
+* 37f268354 Make static helper methods member functions of OptimizingCompiler class
+* af2970233 Fixes and cleaning for test/458-checker-instruction-simplification.
+* 25fa3e13a Rename current register allocator implementation
+* 86fe8eadb Refactor SSA deconstruction into its own class
+* 9ac8c9d0f Minor induction variable analysis changes.
+* 5aeffeeb6 Added ability to generate last-value of linear induction.
+* f14519191 Combine offsets in loop-based dynamic BCE.
+* 7b3aa085c Make LinearizeGraph() public (and move it to nodes files)
+* 5d09a8a55 Create a typedef for HInstruction::GetInputs() return type.
+* e28664353 Fix arena allocation counting.
+* 9ca315795 art: force enable of heap poisoning
+* 3a4c8d02b ARM64: Clean-up and extend the supported cpu_variant list.
+* 7e6cae065 ARM: Update `ArmInstructionSetFeatures` to track ARMv8-A.
+* 1a73dbbed ARM: Instruction set features clean-up.
+* 2fc9c4236 Remove the unused SMP instruction set feature option.
+* 1b33c91a0 MIPS32: Fix MipsInstructionSetFeatures::FromVariant()
+* 3b78469b9 ART: Change InstructionSetFeatures to return unique_ptr
+* 4ab220aa3 X86/X86_64: Switch to locked add from mfence
+* 8289e9700 ART: Report cputime in dex2oat
+* 354de6c49 ART: Change return types of field access entrypoints
+* 24973d567 Use delete/delete[] rather than free/realloc in tracedump
+* f24984227 dex2oat: Use CLOCK_MONOTONIC not REALTIME for a watchdog
+* e60eec896 Fix a race condition on GC timing logger data.
+* 49d42d628 Ensure we get a ProfilingInfo object before compiling.
+* 42d935587 ART: Print jit memory use only if we have samples
+* 48358878a Load devirtualized methods directly in JIT mode
+* 00e7573d1 Initialize Heap's collector pointers to null.
+* 9b91cda09 Tune the GC ergnomics for the read barrier config.
+* aa1f512d7 Add support for CallKind::kCallOnMainAndSlowPath
+* 2501a5fc5 ART: Remove redundant MoveInstructionBefore method
+* bbb3796c0 More store/allocation elimination for singletons in case of loops
+* 2905d0cd7 Use art::Atomic for CopyObject
+* 514ebc143 Use word copying for CopyObject
+* b3c99b561 ARM: Shorter fast-path for read barrier field load.
+* aa1e42be5 Fixed NeedsEnvironment()
+* 3a29c6b72 Rename kCall to kCallOnMainOnly
+* dedecbd60 ART: Remove vestiges of GCC
+* 26197c094 ART: Remove -std=gnu++11
+* a87d50123 Use _exit instead of exit for the system exit.
+* 08e533c7a Avoid visiting just eliminated bounds check.
+* 34759a9db Fix JIT crash due to unverified dead code
+* 68f7a931f Avoid using memcpy for object header in ConcurrentCopying::Copy
+* ca09e53be Reduce unnecessary read barriers in GC
+* 2f938afcd Background full compaction for CC.
+* 029eb4df0 Add fast path to arm64 READ_BARRIER macro
+* 5b60c2bed Re-enable evacuation of recently allocated regions
+* 9a29312ec creating workflow for mirror::String compression
+* 9bf5f99ea Clean up JNI calling convention callee saves.
+* 352acfdc0 ARM: Try to emit branches early to save memory.
+* 50451272f Try to avoid allocation when interning strings.
+* f8d5d6942 ArraySet without type check does not need read barrier.
+* 14ba3133c ARM: Embed constants in add/sub-long.
+* 98e3fe4a9 ARM: Embed 0.0 in VCMP.
+* 06d308312 Align method code rather than method header in oat files.
+* 92750f63b ARM: Use 64-bit literals for LoadDImmediate().
+* eb0fb0f8a ARM: Remove unnecessary VMOV from float/double-to-int.
+* 96d4b573e Refactor handling of input records.
+* be77c06e6 Mark concrete HIR instructions as FINAL.
+* b9fea41fb Intrinsify String.length() and String.isEmpty() as HIR.
+* 0e3887dbe Re-enable most intrinsics with read barriers.
+* 489081cac build: Clean up common_build file and improve performance
+* f1a95ded6 tests: All or nothing
+* 669a27817 ART: remove ART_JIT makefile variable
+* 72315e76f Speed up stack map related functions
+* 6ece3e48f ARM: Add vldm/vstm assembler support.
+* db5dc0f5d ARM: Fix shifted register offset mem address mode for load signed.
+* 264f4cdaf Thumb2: Clean up 16-bit LDR/STR detection.
+* 2ba4b86df ARM64: Use the zero register in the parallel-move resolver.
+* 5eabe6ccc Math Round Intrinsic Implementations For Java8.
+* b2442ac2e Integer.bitCount and Long.bitCount intrinsics for ARM
+* c8af5433c ARM assembler support for VCNT and VPADDL.
+* 518672392 ARM64: Ensure stricter alignment when loading and storing register pairs
+* 70ce14868 Optimize away useless masking operations on shift amounts.
+* 20626ee18 ARM64: Improve String.getCharsNoCheck intrinsic.
+* 4076f2c2b Add missing calls to `RecordSimplification()`.
+* 4d164bdd0 ARM: Add new String.compareTo intrinsic.
+* 6bf0eb07e ARM64: Move BIC after branch in StringCompareTo intrinsic.
+* 53a76ac8e ARM64: Add new String.compareTo intrinsic.
+* bb36fd3de Optimizing: Fix handling empty fill-array-data.
+* 90d31945e Use FdFile::Copy() in dex2oat for better error checking.
+* f456ab103 ARM: Improve String.getCharsNoCheck intrinsic.
+* 7d67b8112 Apply String.equals() optimizations on arm, arm64 and x86-64.
+* fb9248720 Clean up String.indexOf() intrinsics.
+* 93d18ca26 Improve String.indexOf() intrinsics.
+* 579243049 ARM(64): Implement the isInfinite intrinsics
+* c06559cfa ARM64: Improve code generated to spill/restore for slow paths.
+* 341d403f4 Fix an assertion in the non-Baker read barrier ARM64 slow path.
+* b851169e8 ARM64: Shorter fast-path for read barrier field load.
+* 73b9bfd13 Remove libLLVM* from art
+* b2f7f9134 Fix a DCHECK failure in Arm64RelativePatcher with read barrier.
+* 42302edca Improvements in induction range analysis.
+* 1ca043ac0 Cache result of an expensive DCHECK
+* c61e49808 ARM64: Improve code generated to spill/restore for slow paths.
+* f442ecc2c Whitelist some more supported CPU types
+
+#### frameworks/av/
+* eb594c4b2 Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+#### frameworks/base/
+* 4fc77ee26c3 Fix NPE while performing NetworkStatsService.removeUidsLocked()
+* 0adec772256 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* 9d85a42d7eb Fix permission description string for DE.
+
+#### packages/apps/Bluetooth/
+* cca216e4 Revert "Bluetooth: handle opening incoming APK files"
+
+#### packages/apps/Contacts/
+* 72a3a32f7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1
+
+#### packages/apps/ContactsCommon/
+* fa6673b0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1
+
+#### packages/apps/Dialer/
+* 32d77dc9b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1
+
+#### packages/apps/Messaging/
+* d0ca6db Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1
+
+#### packages/apps/PackageInstaller/
+* efe829cf Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into 7.1
+
+#### packages/apps/Settings/
+* 29d917ca46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/apps/Trebuchet/
+* f7c03066f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1
+
+#### packages/inputmethods/LatinIME/
+* bf17678a4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1
+
+#### packages/services/Telephony/
+* 538547b3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1
+
+#### CRDroid Android Nougat source changes of 04-05-2017 End.
+
+04-04-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-04-2017:
+
+#### packages/apps/CellBroadcastReceiver/
+* fa4d7a7 CellBroadcastReceiver: fix channel 50 not disabling
+
+#### CRDroid Android Nougat source changes of 04-04-2017 End.
+
+04-03-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-03-2017:
+
+#### android/
+* 9fd0bfe manifest: Track crDroid Music
+
+#### external/DUtils/
+* f64cbbf Smartbar media arrows: more code improvements [2/2]
+
+#### frameworks/base/
+* 78bbe1550a8 base: Add permission for crDroid Music
+* 16c5153ea4d Hotspot Tile: longclick should open Tethering settings
+* 91053a5c374 Fix Hotspot tile is shown on Guest user
+* 79df09d3a2d SmartBar: allow set custom buttons opacity when Pulse is  active [3/3]
+
+#### packages/apps/DUI/
+* 6718d10 DUI mediamonitor: exclude youtube from isPlaying check
+* f7a9ba9 Improve Pulse and MediaMonitor reliability
+* 4acde5e Smartbar media arrows: more code improvements [1/2]
+* 8df9b32 SmartBar: show arrows for next/previous track when media playing [1/2]
+* c7f6bf7 SmartBar: allow set custom buttons opacity when Pulse is active [1/3]
+
+#### packages/apps/crDroidSettings/
+* d6b0bb8 SmartBar: allow set custom buttons opacity when Pulse is active [2/3]
+* c8d9689 SmartBar: show arrows for next/previous track when media playing [2/2]
+
+#### packages/providers/MediaProvider/
+* e0e756f New Material icon
+
+#### packages/services/Mms/
+* de8277e Add Material icon & app label
+
+#### packages/services/OmniJaws/
+* 400f0ca OmniJaws: use vector logo
+* 9da23a2 Omnijaws: Disable statusbar weather when disabling weather service
+
+#### vendor/cm/
+* e9088f60 crdroid: Build crDroidMusic
+* 3183e95c roomservice: handle devices with underscores
+
+#### CRDroid Android Nougat source changes of 04-03-2017 End.
+
+04-02-2017
+====================
+
+#### Device specific Changes of 04-02-2017 Start:
+
+#### Device/Quark/
+* 2b3a7fe Quark: sepolicy for adb SU
+
+#### Device specific Changes of 04-02-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-02-2017:
+
+#### external/DUtils/
+* a204b3e Kill App action: remove the killed app from Recents list
+* cd341b6 Slim Recent: fix topmost app when using lastapp action
+
+#### frameworks/base/
+* 5c923f27278 SettingsProvider: Update icon.
+* ef873dd0c62 BatteryMeterView: Extend pulsating animation to solid batter style
+* 0929f790166 Expose temperature text in DetailedWeatherView
+* 6796454a03e base: Add permissions for OmniJaws
+* f93a5d20ec1 statubar weather: Image should be before temp
+* ca7a66eff2c Themes: Expose Keyboard Shortcuts Dialog
+* ccd88ed4324 Restart persistent process if start timeout.
+* 2c9226951eb Fix race condition when writing UidState of appops.
+* d866a3b3523 Ensure that the decor view is attached to window.
+* f33d55013fc fix foreground process will be mistakenly killed when it uses content provider.
+* 38255863aed fix anr when concurrent request provider
+* 30d656e683f Frameworks/base: Fix old code in MediaPlayer
+* 80bf296cb4c Fix partial screenshot not working when dragging from left or top border
+
+#### packages/apps/CarrierConfig/
+* 65fe5ff Consider O2 and E-Plus as non-roaming
+
+#### packages/apps/CustomTiles/
+* a25d845 WakelockService: Refactor
+* e4a5f65 Caffeine: Stop service if not enabled
+
+#### packages/apps/DUI/
+* c3b26bc Smartbar: expose SmartButton ripple color
+
+#### packages/apps/SlimRecents/
+* 7006799 Fix killapp button being black sometimes
+
+#### packages/apps/crDroidMusic/
+* 796c6f1c crDroidMusic: Rebrand and clean up code
+* 94a860ea crDroidMusic: Clean up changelog frag
+* 8456bd9f crDroidMusic: Initial clean up
+
+#### packages/apps/crDroidSettings/
+* 64c1368 crdroid: Launch AdAway from crDroid Settings
+* 55f43bf update athene maintainer
+
+#### packages/providers/CalendarProvider/
+* 94029d1 New Material icon
+
+#### packages/providers/TelephonyProvider/
+* 059380f TelephonyProvider: Update icon to Material
+
+#### packages/wallpapers/LivePicker/
+* bf06fdf New Material icon
+
+#### vendor/addons/
+* 22ebcf6 addons: Update MagiskManager to v12.0
+* 60b9c11 addons: Update AdAway
+
+#### CRDroid Android Nougat source changes of 04-02-2017 End.
+
+04-01-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-01-2017:
+
+#### android/
+* 5ac9765 crdroid: Dont waste my space
+* f28687e Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1
+* cf49fbb Sync infra-related projects
+
+#### packages/apps/Trebuchet/
+* 0d8779ce1 crdroid: Initial changes
+
+#### packages/services/Telephony/
+* 823aaaf3 Revert "Add support to launch call barring"
+* 8fa82741 Revert "CallFeatureSettings: Only show call barring option if QTI package installed"
+
+#### vendor/cmsdk/
+* ebe232a Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### CRDroid Android Nougat source changes of 04-01-2017 End.
+
+03-31-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-31-2017:
+
+#### android/
+* 04a83ea Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1
+
+#### packages/apps/crDroidMusic/
+* e81cbec3 Phonograph: use vector logo
+
+#### packages/apps/crDroidSettings/
+* 41fa07a add Lenovo k4 note maintainer
+
+#### packages/resources/devicesettings/
+* a765ae0 Add strings for fingerprint pocketmode
+
+#### vendor/cm/
+* 39b8e3a1 Fix APNs for Cyprus
+* 9bb90ee3 extract_utils: support extracting directly from an ota zip
+
+#### CRDroid Android Nougat source changes of 03-31-2017 End.
+
+03-30-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-30-2017:
+
+#### frameworks/base/
+* d57acd68903 Bluetooth: Prioritize Bluetooth state change intent to start Service
+* 81fec2f9a4a Handle IpReachabilityMonitor errors better.
+* 4514d718c0d combo bug when location reported by providers do not come with extras
+* 2c5e18a76ac Fix for black screen at boot up in N-MR1
+* 2ce5d40dfa4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+
+#### packages/apps/CustomTiles/
+* ee80e81 CaffeineTile: Use 'off' icon by default
+* 6bcbc09 AdbOverNetworkTile: Use 'off' icon by default
+* cb6961e WakelockService: Don't check if wakelock is held twice
+* 513dfbf WakelockService: reference the wakelock
+* 04e54c3 CaffeineTile: Start service connection as current user
+
+#### packages/apps/OmniSwitch/
+* b9fec87 Omniswitch: Kill stats
+* 3369f21 Omniswitch: Import translations
+* d835cfb Omniswitch: Update drawables
+* b28fc3b Add ability hide/show app launcher icon
+* 5f82182 Omniswitch: Dont use light theme
+* 0c85d50 OmniSwitch: reduce vertical padding on app icons
+* d607095 OmniSwitch: add missing docked task indicator for other views
+* ba2aa0b OmniSwitch: on the fly update on dpi changes
+* 32901f9 OmniSwitch: multi window madness
+* 3069eda OmniSwitch: delay task info loading to speedup open
+* 9993119 OmniSwitch: more multi window tweaks
+* 3a35620 OmniSwitch: basic multi window support
+* 47ffd0c Remove OmniSwitch from launcher
+
+#### system/core/
+* 1ff7478de Revert "Create "theme extras" directory"
+
+#### CRDroid Android Nougat source changes of 03-30-2017 End.
+
+03-29-2017
+====================
+
+#### Device specific Changes of 03-29-2017 Start:
+
+#### Device/Quark/
+* defb4ef Quark: enable suspend while charging
+
+#### Device specific Changes of 03-29-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 03-29-2017:
+
+#### android/
+* 797a125 Revert "cm: Remove ahbottomnavigation library"
+
+#### frameworks/base/
+* d1f8936727a Automatic translation import
+* 52c8658718f base: Add default permissions for gallery3d and file manager
+* 0edad365dc5 Fix potential NPE in application state
+
+#### packages/apps/AudioFX/
+* 2cd4a6e Automatic translation import
+
+#### packages/apps/Bluetooth/
+* f4196b3b Automatic translation import
+
+#### packages/apps/Browser/
+* bc8a6c75 Automatic translation import
+
+#### packages/apps/CMBugReport/
+* c3b040e Automatic translation import
+
+#### packages/apps/Calendar/
+* 918bd817 Automatic translation import
+
+#### packages/apps/Camera2/
+* e96a1aa74 Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* 17e633f Automatic translation import
+
+#### packages/apps/Contacts/
+* d17c7176b Automatic translation import
+
+#### packages/apps/ContactsCommon/
+* 52a6643c Automatic translation import
+
+#### packages/apps/CustomTiles/
+* 5bfa7e9 Automatic translation import
+
+#### packages/apps/DeskClock/
+* ded6afbe Automatic translation import
+* 8de8bd06 AlarmService : Change stopSelf into stopSelfResult
+* 1f3d3931 DeskClock: fix ringtones stored on /sdcard/Alarms
+
+#### packages/apps/Dialer/
+* 38030852a Automatic translation import
+
+#### packages/apps/Email/
+* 92c2de445 Automatic translation import
+
+#### packages/apps/Gello/
+* a80d06ab Automatic translation import
+
+#### packages/apps/LockClock/
+* 4afc8af Automatic translation import
+
+#### packages/apps/Messaging/
+* 6e37349 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 0fc5fe15 Automatic translation import
+
+#### packages/apps/PhoneCommon/
+* eedc20a Automatic translation import
+
+#### packages/apps/Profiles/
+* 2a86c63 Automatic translation import
+
+#### packages/apps/Recorder/
+* b427c2f Automatic translation import
+
+#### packages/apps/Settings/
+* 210f42fb6b Automatic translation import
+
+#### packages/apps/Terminal/
+* 44781da Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 39343e1 Automatic translation import
+
+#### packages/apps/ThemeInterfacer/
+* 0f51d79 JobService: Fix inital font application
+* bed5f44 JobService: fix initial theme dir creation
+
+#### packages/apps/Trebuchet/
+* defe11d3c Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* 251c7bd47 Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* 53836b2d8 Automatic translation import
+
+#### packages/providers/DataUsageProvider/
+* 149eb22 Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* 4f6cf59 Automatic translation import
+
+#### packages/providers/ThemesProvider/
+* 6d5910a Automatic translation import
+
+#### packages/providers/WeatherProvider/
+* fd0d410 Automatic translation import
+
+#### packages/resources/devicesettings/
+* d653283 Automatic translation import
+
+#### packages/services/Telephony/
+* c21ccee5 Automatic translation import
+
+#### vendor/cm/
+* 19097605 crdroid: Set Gboard theme to Pixel blue on clean flash
+
+#### vendor/cmsdk/
+* 54996d4 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 77358cc Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* 7c8a02e Automatic translation import
+
+#### CRDroid Android Nougat source changes of 03-29-2017 End.
+
+03-28-2017
+====================
+
+#### Device specific Changes of 03-28-2017 Start:
+
+#### Vendor/Quark/
+* 9761e396 Quark: up isu v3.8
+
+#### Device specific Changes of 03-28-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 03-28-2017:
+
+#### android/
+* 351a42a manifest: Track file manager
+
+#### bionic/
+* 5848aaf5c libc: memcpy_base: Disable opt for certain targets
+
+#### frameworks/base/
+* a6c8af0c34d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* 263acf959de Revert "[1/2] base: support separate encryption/lockscreen passwords"
+
+#### packages/apps/Settings/
+* 8cb873afb1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+* 867d97d17e Revert "[2/2] settings: support setting a separate encryption password"
+
+#### packages/apps/crDroidFileManager/
+* c56771c Automatic translation import
+* 499bbb5 make toolbar intellihide configureable
+* 8f36664 Initial commit
+
+#### packages/apps/crDroidSettings/
+* 0146f4b Merge pull request #46 from soubhik-khan/7.1-n
+* 3a80eb4 crdroid: Add maintainer for Xiaomi Note 4
+
+#### CRDroid Android Nougat source changes of 03-28-2017 End.
+
+03-27-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-27-2017:
+
+#### android/
+* 293f7db manifest: Track play service
+
+#### frameworks/base/
+* def23b2f626 crdroid: 3 shades darker
+* bb5de3c7e03 packages: Hide documents UI
+* 379523ec90f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* c55af10771e Merge pull request #19 from beroid/7.1
+* df6dc15805c SystemUI: Update RU translations
+
+#### packages/apps/Contacts/
+* 9145c8f7c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1
+
+#### packages/apps/Settings/
+* ac5aced2ee Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/apps/crDroidSettings/
+* 5deac43 Merge pull request #44 from beroid/7.1
+* 3d39182 crdroid: Update RU translations
+
+#### system/core/
+* 97f634cb2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
+* 1fc4f920b adb: Look for bu in /sbin when in recovery mode
+
+#### vendor/cm/
+* 706bbfbb crDroid v2.5
+* 97533dd4 crdroid: Build file manager
+* a2405e86 cm: remove special access to unused cmfm
+* abd83af3 cm: allow apps to find profile manager service
+
+#### vendor/cmsdk/
+* 1ed86b4 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### CRDroid Android Nougat source changes of 03-27-2017 End.
+
+03-26-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-26-2017:
+
+#### android/
+* 2a52182 manifest: Track our Trebuchet
+* c4194e4 manifest: Readd wallpaper picker
+
+#### frameworks/base/
+* d43db800a3d DocumentsUI: make shapes great again
+* 3e5683c31ce base: Apply roaming indicator changes instantly
+* ce1ce4df093 StatusBarIconController: Clean up redundancy for custom left icons
+* 55df3cc4a5f Ability to toggle VoLTE icon in statusbar [1/2]
+
+#### packages/apps/Settings/
+* e97413de26 Settings: Fix AOSP WiFi AP translations
+* 29ef72e1b9 Settings: Allow root options for Magicsk
+* 8a3d4556c6 Settings: Fix german string
+
+#### packages/apps/Trebuchet/
+* ad31f474a Remove clock widget by default on screen
+* 315b2f9d6 Moving a few testing classes to a separate package
+* 3c5875382 Trebuchet: Remove ambient SDK leftover
+
+#### packages/apps/crDroidMusic/
+* fc7caef6 Merge "Revert "Phonograph: remove MaterialProgressBar"" into android-7.1
+* 963af1d4 Revert "Phonograph: remove MaterialProgressBar"
+* 1218dc2e Revert "Phonograph: remove MaterialProgressBar"
+
+#### packages/apps/crDroidSettings/
+* 8628f0c Ability to toggle VoLTE icon in statusbar [2/2]
+* 17c6661 crdroid: Modify status bar icon tunables
+
+#### packages/apps/crDroidWallpapers/
+* 463e8f8 Rename to crDroid Wallpapers
+* 81e820e Revamp interface
+
+#### vendor/addons/
+* acf4fa9 addons: Add default wallpaper overlay
+
+#### vendor/cm/
+* e13447fb crdroid: Readd wallpaper picker
+* fd2baa40 crdroid: Remove wallpaper overlay
+* 3a21c89c crdroid: Fix crdroid display version
+
+#### CRDroid Android Nougat source changes of 03-26-2017 End.
+
+03-25-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-25-2017:
+
+#### android/
+* 5594b39 manifest: Track slim recents
+* e32f82d manifest: Track vendor addons
+
+#### bionic/
+* 6f130ca2f linker: Restore optional platform text relocations use
+
+#### build/
+* b129f8e05 Switch to Magisk as the built in root [2/2]
+
+#### frameworks/base/
+* 30616f3848d Statusbar weather: Fix FC on boot
+* 73e916c550c Build Slim Recents into SystemUI [1/2]
+* 9dbc7bd4dcc KeyguardStatusBarView: Add missing Userhandle
+* 914f4fac304 Revert SlimRecents and Slim Side app bar
+* 311f24ec7b4 Merge pull request #17 from beroid/7.1
+* 1b4f619eaf0 Slim Recents: fix SystemUI fc
+* 89234641190 SystemUI: Update RU translations
+
+#### packages/apps/PackageInstaller/
+* e50b7e7d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into 7.1
+
+#### packages/apps/SlimRecents/
+* a683317 Slim Recents: Add tint color for empty screen
+* 8245136 Performances: move some settings checks from doInBackground to SettingsObserver
+
+#### packages/apps/crDroidSettings/
+* bdd93cf Revert "Slim Recent App Sidebar [2/2]"
+* d1f5f65 Revert "crdroid: Disable slim sidebar till we add icon pack support"
+* b120963 crdroid: Rework about fragment codebase
+* 74e888c Merge pull request #43 from beroid/7.1
+* f967287 crdroid: Update RU translations
+
+#### vendor/addons/
+* cab93df addons: Add boot animations
+* 2f0d58d addons: Add latinime blob for to enable ime gestures
+* 0f16e0e addons: Add AdAway
+* 1346e4c Switch to Magisk as the built in root [1/2]
+* 14c754e Initialize vendor addons [1/2]
+
+#### vendor/cm/
+* 52e9a0a2 crdroid: Enable google assistant
+* fb65c80c overlay: Use pixel colors for few system apps
+* c95d0155 overlay: Add icon for Settings app
+* b87237be overlay: Add good looking icons for DeskClock
+* e3a8ec67 overlay: Add icons for messaging and gallery
+* 4a895b47 crdroid: Build crDroidWallpapers
+* 3f9f161f crdroid: Compile OmniJaws service
+* faf863c2 crdroid: Compile OmniStyle
+* df765a88 sepolicy: Remove CMTE leftover for OMS-rootless
+* 0d0b1765 crdroid: Compile ThemeInterfacer for OMS
+* fed13669 crdroid: Enable storage manager by default
+* 2cb95cfc crdroid: Overlay doze component
+* 24f7b522 crdroid: Build utils library and add as boot jar
+* b4dd7e29 crdroid: Compile OmniSwitch
+* f65a966e crdroid: Disable livedisplay by default
+* 4063b496 Use Google Nexus Audio Files [3/3]
+* a0a3e2d1 crdroid: Prevent compiling SystemUI tests
+* 206a2cc8 vendor: Allow platform_app to run su_exec() (2/2)
+* 67465494 vendor: Allow system_server to run su_exec() (2/2)
+* 6e1a0a60 vendor: sepolicy: Allow system_app to run su_exec()
+* d7e011c3 Add changelog generator (1/2)
+* a7ce5312 crdroid: Remove su compilation
+* b878f069 Initialize vendor addons [2/2]
+* fed37f9a vendor: crDroidify the build
+
+#### CRDroid Android Nougat source changes of 03-25-2017 End.
+
+03-24-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-24-2017:
+
+#### frameworks/base/
+* 36ee44f5aa6 statusbar: Improve transitions for custom left icons
+
+#### hardware/qcom/fm/
+* aff061a FM: Fix KHz->kHz
+
+#### packages/apps/CustomTiles/
+* 440b231 CustomTiles: rename app_name to "Extra tiles"
+
+#### packages/apps/Settings/
+* cb2414a331 Revamp crdroid changelog [1/2]
+* 5a22cf8744 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/apps/SlimRecents/
+* 3dcee9b Remove useless ic_menu_delete
+* 4aee805 Slim Recents: fix SystemUI fc 03-23 23:34:49.053 24500  9597 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #183 03-23 23:34:49.053 24500  9597 E AndroidRuntime: Process: com.android.systemui, PID: 24500 03-23 23:34:49.053 24500  9597 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground() 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.os.AsyncTask$3.done(AsyncTask.java:325) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.util.concurrent.FutureTask.setException(FutureTask.java:223) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.util.concurrent.FutureTask.run(FutureTask.java:242) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:243) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.lang.Thread.run(Thread.java:761) 03-23 23:34:49.053 24500  9597 E AndroidRuntime: Caused by: java.lang.IllegalStateException: Cannot call this method while RecyclerView is computing a layout or scrolling 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.support.v7.widget.RecyclerView.assertNotInLayoutOrScroll(RecyclerView.java:2455) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.support.v7.widget.RecyclerView$RecyclerViewDataObserver.onItemRangeChanged(RecyclerView.java:4801) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.support.v7.widget.RecyclerView$AdapterDataObservable.notifyItemRangeChanged(RecyclerView.java:10781) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.support.v7.widget.RecyclerView$AdapterDataObservable.notifyItemRangeChanged(RecyclerView.java:10772) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.support.v7.widget.RecyclerView$Adapter.notifyItemChanged(RecyclerView.java:6361) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at com.android.systemui.slimrecent.RecentPanelView$CardLoader.addCard(RecentPanelView.java:1166) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at com.android.systemui.slimrecent.RecentPanelView$CardLoader.doInBackground(RecentPanelView.java:1118) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at com.android.systemui.slimrecent.RecentPanelView$CardLoader.doInBackground(RecentPanelView.java:959) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at android.os.AsyncTask$2.call(AsyncTask.java:305) 03-23 23:34:49.053 24500  9597 E AndroidRuntime:        at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+* affc50f Slim Recents: more fixes, cleanup and improvements -code cleanup -set max cache size to 1/6 max maxMemory -we use drawables for app icons, let's handle drawables also into the cache without bitmap to drawable conversions -add back mCardAdapter.notifyItemChanged(index) for app icon and thumbs loading, (those drawable are loaded in separated async tasks so sometimes they are ready after the card has been shown).
+* 588804d Slim Recents icon cache: clear it when changing scale factor
+* e00a733 Slim Recents: add icon cache to improve performances - add back kufi LRU cache implementation to improve performances - adapt it to the new iconpack code - allow to clear the whole cache when changing the iconpack - don'd do a notifyItemChanged when loading card icon and screenshot, we do already notifyItemInserted in the mCardAdapter.addCard (this could also avoid sysui fc due to notifyItemChanged during animation).
+* d2e53fe Slim Recents icon pack: fallback to app icon if pack doesn't have any
+* 543fb9c Slim Recents iconpack support [1/2] ezio: adapted IconPackHelper from CM trebuchet (https://review.lineageos.org/#/c/136600/) with latest OmniSwitch improvements; splitted the whole dialog part and moved it into Settings; i've set here Danesh as commit author because he made the original IconPackHelper code long time ago.
+* 98f165b SlimRecents: Fix potential SystemUI NPE 03-17 08:18:33.344 E/AndroidRuntime(1412): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean android.graphics.Bitmap.isRecycled()' on a null object reference https://www.hastebin.com/unoluyugih.bash
+* eed0087 Slim Recents: fix black killapp button on white cards the button is red, no need to apply light/dark color
+* db0ccfd Slim Recents: don't show panel if app pinning is currently active ezio edits: don't show the panel at all like stock aosp recents and also don't allow multiwindow action if slimrecents enabled and app pinning active
+* b18cac8 Slim Recents: fix multiwindow glitch when docking app to bottom aosp multiwindow has this limitation, but we can easly bypass it just docking first the app we want to top, then the bottom one
+* 067cf36 SlimRecents: add killapp button to toptask card
+* 30bf4d3 Slim Recents: fix toptask header layout and other ui improvements
+* 457744c Slim Recent new multiwindow when multiwindow already active: make it more robust
+* 7afab28 Slim Recent Refactor: full code rewrite and new UI
+* dbbd82e Slim Recent ui/logic/performances improvements, multiwindow and dynam… …ic drag actions
+* e3cc099 lim recents: fix entries order, fix drawable FC, improve longpress O… …ptions
+* f731c78 Slim Recents [1/2]
+
+#### packages/apps/crDroidWallpapers/
+* 693c72b initial commit
+* 70f2206 Create README.md
+
+#### vendor/cm/
+* ad5d9a0f cm: build: Don't convert patchset to int if it's None
+* 27564188 cm: build: Fix cherry picking specific patchsets
+* fc9a4c57 Make a data only config
+* 12ee4592 APN: Fix TalkTalk
+
+#### CRDroid Android Nougat source changes of 03-24-2017 End.
+
+03-23-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-23-2017:
+
+#### frameworks/base/
+* 17f2a1c738c Fix the reset of boosted zygote thread priority.
+* d10c31b417a Skip ListPopupWindow position update if detached
+* 5a1f767fd77 java.lang.NullPointerException Attempt to get length of null array in FileRotator
+* 842d6c2b471 StrictJarFile: Handle multiple cert files correctly.
+* f767e134a87 Add finally block to close the stream.
+* b7972790658 fix system_server crash issue caused by fd leak.
+* 5f39b26526c Slim Recents: more fixes, cleanup and improvements
+
+#### packages/apps/LockClock/
+* 6f2b2cc Update weather data only when the screen is on
+* e039264 Register network status change listener explicity
+* 54e41b5 Save timestamp of last update
+* 069c3d1 Fix typo in method name
+
+#### packages/apps/PackageInstaller/
+* 9b194dd6 Revert all the changes introduced with cafrebase
+
+#### packages/apps/Recorder/
+* ed7a8b3 Recorder: add and fix missing copyrights
+* 779c197 Recorder: screen recorder overlay
+* 4bf3b75 Recorder: update gradle and support libraries
+
+#### packages/apps/crDroidMusic/
+* 6338045a Phonograph: remove MaterialProgressBar
+* 2c5e7e84 Phonograph: shorten our about string for smaller resolutions
+* 8cd5e705 Phonograph: add toast for write error in tag editor
+* f9214500 Phonograph: remove lyrics related code
+* fad5acdc Phonograph: remove obsolete jars
+* 6abd5ccb Phonograph: remove bugreport activity
+
+#### CRDroid Android Nougat source changes of 03-23-2017 End.
+
+03-22-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-22-2017:
+
+#### frameworks/base/
+* 01071518755 Automatic translation import
+* 65acf6501a1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* 9b94d125d67 Revert "QS: Add NFC tile"
+* c814ff54ff0 Core: Make tethering notifications fully translatable
+
+#### packages/apps/CellBroadcastReceiver/
+* f76431f Automatic translation import
+
+#### packages/apps/Contacts/
+* fa2ba7b39 Automatic translation import
+* 4d1cc457d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1
+
+#### packages/apps/ContactsCommon/
+* b753fabb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1
+
+#### packages/apps/CustomTiles/
+* 7e4ebb2 Automatic translation import
+
+#### packages/apps/Dialer/
+* 95cbaf73d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1
+
+#### packages/apps/Messaging/
+* 97d64a7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1
+
+#### packages/apps/PackageInstaller/
+* 65584085 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into 7.1
+
+#### packages/apps/PhoneCommon/
+* dd36017 Automatic translation import
+* 270d6ef Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1
+
+#### packages/apps/Recorder/
+* 14c2858 Automatic translation import
+
+#### packages/apps/Settings/
+* e4ce390898 Automatic translation import
+* 88e07b132c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/apps/crDroidMusic/
+* 43de8a14 Phonograph: about: hide version and add omni
+* 0c637b44 Phonograph: match also ogg files in folder mode
+
+#### packages/inputmethods/LatinIME/
+* c3dfc3bcc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1
+
+#### packages/providers/DownloadProvider/
+* a9fa3b2 Automatic translation import
+
+#### packages/resources/devicesettings/
+* 8bbb278 Automatic translation import
+
+#### packages/services/Telecomm/
+* 72e1bd72 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into 7.1
+
+#### packages/services/Telephony/
+* 583e857e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1
+
+#### vendor/cm/
+* 84582dd5 apns: Update Swiss APNs
+
+#### vendor/cmsdk/
+* f0a3ce9 Automatic translation import
+* 3b7e8e7 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* d4703e3 Automatic translation import
+
+#### CRDroid Android Nougat source changes of 03-22-2017 End.
+
+03-21-2017
+====================
+
+#### Device specific Changes of 03-21-2017 Start:
+
+#### Device/Quark/
+* 43312e5 Quark: enable OMX_LEGACY_RESCALING again
+
+#### Device specific Changes of 03-21-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 03-21-2017:
+
+#### android/
+* a00f3a1 track our wallpapers
+
+#### frameworks/base/
+* 6673c60c844 Statusbar weather: Clean up and optimize code base
+
+#### packages/apps/Settings/
+* 641dd97d74 Fix zen mode allowed event preference summary.
+
+#### packages/apps/crDroidMusic/
+* a4ef8f71 change package to org.omnirom.phonograph
+* 31d7de50 reduce about dialog to otiginal author
+* 0ba79d03 simplify SettingsActivity
+* 7be90b56 Restructure the project to allow building using Android.mk
+
+#### packages/apps/crDroidSettings/
+* 460a36d Add status bar weather [2/2]
+
+#### CRDroid Android Nougat source changes of 03-21-2017 End.
+
+03-20-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-20-2017:
+
+#### frameworks/base/
+* 76eae7889d8 Automatic translation import
+* c5b1c265eeb Add status bar weather [1/2]
+* 265c2b8b718 Slim Recents: add icon cache to improve performances
+* ca76af356d6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+
+#### hardware/qcom/fm/
+* 953af70 Automatic translation import
+
+#### packages/apps/AudioFX/
+* dc65a0c Automatic translation import
+
+#### packages/apps/Bluetooth/
+* 888a04e2 Automatic translation import
+
+#### packages/apps/Browser/
+* 4192efbe Automatic translation import
+
+#### packages/apps/Calendar/
+* 1826775b Automatic translation import
+
+#### packages/apps/Camera2/
+* 8ee8d23c6 Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* 6950f2b Automatic translation import
+
+#### packages/apps/Contacts/
+* e48e0f3c0 Automatic translation import
+
+#### packages/apps/ContactsCommon/
+* 89272caf Automatic translation import
+
+#### packages/apps/CustomTiles/
+* 4f757e8 Automatic translation import
+* c934927 CustomTiles: Add heads up long press action
+* 60897d0 CustomTiles: Add USB tethering long press action
+
+#### packages/apps/DeskClock/
+* ef9fb84e Automatic translation import
+
+#### packages/apps/Dialer/
+* 47708397a Automatic translation import
+
+#### packages/apps/Email/
+* af2af0bbe Automatic translation import
+
+#### packages/apps/Gello/
+* 18953eb6 Automatic translation import
+
+#### packages/apps/HTMLViewer/
+* eb1c5fa Automatic translation import
+
+#### packages/apps/LockClock/
+* 09482ca Automatic translation import
+
+#### packages/apps/Messaging/
+* cecd56f Automatic translation import
+
+#### packages/apps/Nfc/
+* 8bb1879b Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 6833a110 Automatic translation import
+
+#### packages/apps/PhoneCommon/
+* a86d274 Automatic translation import
+
+#### packages/apps/Recorder/
+* 110c07c Automatic translation import
+
+#### packages/apps/SafetyRegulatoryInfo/
+* d458cf1 Automatic translation import
+
+#### packages/apps/Settings/
+* 3bea55c623 Automatic translation import
+
+#### packages/apps/Stk/
+* 3c27506 Automatic translation import
+
+#### packages/apps/Terminal/
+* 5937cbf Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 993da14 Automatic translation import
+
+#### packages/apps/Trebuchet/
+* a5369311a Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* c2e4f01b3 Automatic translation import
+
+#### packages/apps/WallpaperPicker/
+* cfbd067 Automatic translation import
+
+#### packages/apps/crDroidMusic/
+* 98d19458 Bumped version, updated changelog.
+* 4615e84c Merge pull request #98 from oshmoun/master
+* 3e5ba30a Cleaned up media button handling
+* 5d58808d Add MediaButtonIntentReceiver back into AndroidManifest
+
+#### packages/inputmethods/LatinIME/
+* f59371ad4 Automatic translation import
+
+#### packages/providers/BookmarkProvider/
+* 1b2cc77 Automatic translation import
+
+#### packages/providers/CalendarProvider/
+* a1aa622 Automatic translation import
+
+#### packages/providers/ContactsProvider/
+* e93ac19b Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* ae34e55 Automatic translation import
+
+#### packages/providers/MediaProvider/
+* 4d1a21f Automatic translation import
+
+#### packages/resources/devicesettings/
+* b75c745 Automatic translation import
+
+#### packages/services/Telecomm/
+* 1d870ae0 Automatic translation import
+
+#### packages/services/Telephony/
+* 3e9e1732 Automatic translation import
+
+#### vendor/cmsdk/
+* c0378c8 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* a940996 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* 459f3db Automatic translation import
+
+#### CRDroid Android Nougat source changes of 03-20-2017 End.
+
+03-19-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-19-2017:
+
+#### frameworks/base/
+* ce561af9ab9 SystemUI: enable NFC tile
+* 735eb597bf8 SystemUI: Add NFC tile
+* a4cf16e4aee SlimRecents: fallback to app icon if pack doesn't have any
+* b010d6972da SystemUI: Update RU translations
+* bff663bd304 Location tile: dynamic icon state
+* ef078c66fbf Add ability to toggle bluetooth battery level [1/2]
+* ec294b55585 PhoneStatusBarPolicy: Use Tuner API
+
+#### frameworks/opt/telephony/
+* c31cf848 telephony: Fix rebase mismerge breaking SIM detection when encrypted
+
+#### packages/apps/Settings/
+* d185ec4b50 Make Build Date and API Level unselectable
+
+#### packages/apps/crDroidMusic/
+* 7898f9bc Add lyrics editor in SongTagEditorActivity
+* 24ed81db Add MediaButtonIntentReceiver back into AndroidManifest
+* 528db65d Merge pull request #88 from wzv5/master
+
+#### packages/apps/crDroidSettings/
+* 3553d7e crdroid: Disable slim sidebar till we add icon pack support
+* ccf989a Merge pull request #42 from beroid/7.1
+* 104c442 crdroid: Update RU translations
+
+#### vendor/cm/
+* 024efe79 apn: Updating TelkomSA from 8ta South Africa APN
+
+#### CRDroid Android Nougat source changes of 03-19-2017 End.
+
+03-18-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-18-2017:
+
+#### android/
+* ba7fd2b manifest: Track telecomm service
+
+#### frameworks/base/
+* d3771dd78a7 Slim Recents iconpack support [1/2]
+* 86713ff1935 Slim Recent App Sidebar [1/2]
+* 9fbf7c09837 RecentsView: Make it more robust
+* 49c03b862a5 Fix for wakelock being held during bootup and idle scenario.
+* b265060128e fix NullPointerException in Notification.java
+* bccd1ecfcc6 Revert "Add Caffeine QS Tile"
+* 6689072870b Revert "Add longpress action for caffeine tile"
+* a4866772716 Revert "Add USB Tether QS Tile"
+* 9b5e2ebec39 Revert "Add Sync QS Tile"
+* b523847c611 Revert "SystemUI: Add heads up tile"
+* 05dcfdd8516 Revert "QS: Add Smart Ambient-LiftToWake tile"
+* 47a42bf706b Move wakelock option for flashlight to CameraManager.
+
+#### packages/apps/crDroidSettings/
+* 45e00ff Add ability to toggle bluetooth battery level [2/2]
+* 07ed14a crdroid: Improve few strings
+* ade5c68 Slim Recents iconpack support [2/2]
+* 12a5f0e Slim Recent App Sidebar [2/2]
+* 25b6050 crdroid: Rectify Moto G 2014 maintainer
+* fa54e2b crdroid: Update moto G maintainers
+* 0fa5185 crdroid: Rename few generic font strings
+* b3d9de0 crdroid: Make font array generic
+
+#### CRDroid Android Nougat source changes of 03-18-2017 End.
+
+03-17-2017
+====================
+
+#### CRDroid Android Nougat source changes of 03-17-2017:
+
+#### android/
+* 676bd0a Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1
+
+#### bionic/
+* 08aff0dce linker: Allow devices to force shim libs
+
+#### frameworks/base/
+* dad1c420b9b Ability to disable Do not Disturb mode when calling [1/3]
+* 13024f45454 SlimRecents: fix black killapp button on white cards
+* 21170730325 SlimRecents: Fix SystemUI NPE
+* 1c54b12b329 SlimRecents: don't show panel if app pinning is currently active
+* 4272b10fc87 base: Remove duplicate translations
+* c9c75920a35 Location tile: add high accuracy state icon
+* cab0f474091 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* ad1ea62b8f3 SingleHandWindow: Allow locking the rotation to 180°
+
+#### packages/apps/Bluetooth/
+* d3c06ce1 Revert "Introduced Active device for volume updates and volume update in pause state"
+* ff3d0d86 Bluetooth: AIRPLANE_MODE_ON has moved
+
+#### packages/apps/Contacts/
+* 85eacfe85 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1
+
+#### packages/apps/ContactsCommon/
+* fa2b5cda Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1
+
+#### packages/apps/Dialer/
+* 72387147b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1
+* 019704c73 Dialer: AIRPLANE_MODE_ON has moved
+
+#### packages/apps/ExactCalculator/
+* 004f066 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into 7.1
+
+#### packages/apps/Messaging/
+* 60ee444 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1
+
+#### packages/apps/PackageInstaller/
+* dc7300c2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into 7.1
+
+#### packages/apps/PhoneCommon/
+* 9bc72fa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1
+
+#### packages/apps/Settings/
+* 837e49fc0f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+* 95c0f7dd42 AppOpsDetails: Check app permissions safely
+
+#### packages/apps/crDroidMusic/
+* d80efe57 Bumped version number and updated changelog
+* 3a26d43b Updated build tools and google libs
+* 826d8747 Completely switched to MediaSession
+* 8f297964 update build tools version to 25.0.2
+* 16a6218c Removed obsolete release folder
+* 8616c38c Use old notifications for API < 21
+
+#### packages/apps/crDroidSettings/
+* 0948d4e Ability to disable Do not Disturb mode when calling [3/3]
+
+#### packages/inputmethods/LatinIME/
+* f2ee2e39d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1
+
+#### packages/services/Telecomm/
+* caded082 Ability to disable Do not Disturb mode when calling [2/3]
+
+#### packages/services/Telephony/
+* 11865a47 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1
+* f6c9974d Telephony: AIRPLANE_MODE_ON has moved
+
+#### system/core/
+* bf8aafc6d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
+
+#### vendor/cmsdk/
+* a11967e Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### CRDroid Android Nougat source changes of 03-17-2017 End.
+
 03-16-2017
 ====================
 
