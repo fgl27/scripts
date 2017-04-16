@@ -3,6 +3,194 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+04-16-2017
+====================
+
+#### Device specific Changes of 04-16-2017 Start:
+
+#### Vendor/Quark/
+* b91194b8 Quark: update substratum app
+
+#### Device specific Changes of 04-16-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-16-2017:
+
+#### android/
+* 34db8bf Revert "Sync infra-related projects"
+
+#### frameworks/base/
+* dd8ae2c3c1b Automatic translation import
+* 57858e88ea8 Basestatusbar:Fix Headsup Not Working
+* c74a2d4b45c Fix Another Illegal Argument Exception when Changing DPI
+* b118d772bcc base:Optional weather info in expanded header [1/2]
+
+#### packages/apps/Dialer/
+* 7c18d1cf2 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 6795838 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* b66aff6 Automatic translation import
+
+#### packages/apps/Settings/
+* 9d1def781 Automatic translation import
+* 8a346c215 Add Headsup Settings as an Activity
+* cad32b82e Update Z2 Tablet Maintainer
+* 1e7d35be3 Optional Expanded statusbar Weather info [2/2]
+* ad9f195e8 Add Xperia Z Ultra Maintainer
+
+#### Resurrection Remix OS - Nougat source changes of 04-16-2017 End.
+
+04-15-2017
+====================
+
+#### Device specific Changes of 04-15-2017 Start:
+
+#### Kernel/Quark/
+* dd4d993e4e0 wifi update driver
+* 66da8a920ea fs/proc: don't use module_init for non-modular core code
+* acd1de975d2 sg: Fix double-free when drives detach during SG_IO
+* 90383e2f23d BACKPORT: UPSTREAM: selinux: fix off-by-one in setprocattr
+
+#### Device specific Changes of 04-15-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-15-2017:
+
+#### frameworks/base/
+* cca1591dc51 QSTileHost: Dont Show Performance tile if No power profiles present
+* 574a6892e84 Automatic translation import
+* 904ce140095 fix build
+* cda086adf55 Various fixes and cleanups after 7.1.2 merge
+* e06c6ea74f0 Zygote: Fix GL preload property evaluation
+* 1b051d8b7ff systemui: Fix DE translation for navbar buttons
+* 94fd33025f1 Dialer: show headsup on incoming call even if headsup are off [1/2]
+* 6585850e53b Statusbar ticker: use a gentle smooth fade animation
+* 3a2552bc6fa SystemUI : port performance profile toggle from M
+* 6bc95dd6a1e Option to Display Data Disabled Indicator Icon [1/2]
+* e7443eb336e Show lockscreen wallpaper when blur effect is enabled
+* c7b3d2e1f71 Keyguard Weather : Refactor for new API[1/2]
+* 76c3eee26eb Extend OmniJaws Client to Keyguard Signed-off-by: Varun Date <date.varun123@gmail.com>
+* 4ec50462a16 Automatic translation import
+* 0f67b8391ea Revert "SystemUI: Add SlotId for MultiSim"
+* ff5103e969b PowerManager: Bring back the compatibility with AOSP
+* 4e641ad228d Slim Recents: refresh sizes on dpi change
+* 9af66a613d4 base: services: add config_fingerprintRemoveClientOnCancel
+* 1759a98a030 Automatic translation import
+* b01edbdf99f Automatic translation import
+* 49c3c9181a9 Ticker: allow to show music track info on new track being played [1/2]
+* 6bfc714d541 Fix Aosp bug on custom apps tiles: color not changing on tile state change
+* 7aa24a29581 ScreenshotEditor: Fix Navbar Glitch for Good.
+* f0cc961bb79 Themes: Expose Keyguard affordance circle background
+* 7f5e8e4db83 Merge tag 'android-7.1.2_r2' of https://android.googlesource.com/platform//frameworks/base into HEAD
+* 285e748c5cf Automatic translation import
+* 2486fbe8d0f Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 3833cd4 Constants: update stats reporting/viewing URL   * http://resurrectionremix.sourceforge.net -> https://resurrectionremix.sourceforge.io
+* 8fde88f ResurrectionStats: cleanup
+
+#### packages/apps/Settings/
+* e79fca4f9 Add my name as maintainer for moto g 2015 (osprey) (#749)
+* e1189838e Automatic translation import
+* d5a421a5e Update resurrection_device_maintainers_strings.xml (#747)
+* 889c5acac Dialer: show headsup on incoming call even if headsup are off [2/2]
+* 4f9e13e89 Automatic translation import
+* b0b766388 Update Oneplus2 maintainer (#746)
+* 7fd0f34de Option to Display Data Disabled indicator Icons [2/2]
+* 2c579844d Port "Battery Usage Alerts" feature from factory images to aosp
+* 7058c9dd6 Automatic translation import
+* cbea28df8 Settings: Refactor Keyguard Weather [2/2]
+* 29eab70ee Automatic translation import
+* 1bcad6404 Rename ZUK Z1 mainatainer (#745)
+* f1962b72a Fixed device_maintainers_fragment.xml (#743)
+* e863204be Fix required strings
+* 02d0b195a Add ZTE Axon7 dev to the mix (#741)
+* 68d6bbe82 Automatic translation import
+* 547ebfa32 Automatic translation import
+* cebfd4028 Ticker: allow to show music track info on new track being played [2/2]
+* 31a9d2d70 Settings: Expose and add tint mode to custom icons
+
+#### vendor/cm/
+* c6c708ce rr: clean up Makefiles
+* 04d30eff [SQUASH] rr: update changelog script for 5.8.3 and to work with anyone's source dir
+* 5ff1809d Update 5.8.2 to 5.8.3
+
+#### Resurrection Remix OS - Nougat source changes of 04-15-2017 End.
+
+04-14-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-14-2017:
+
+#### android/
+* adb6be3 manifest: android-7.1.1_r25 -> android-7.1.2_r2
+* e14b742 Sync infra-related projects
+
+#### build/
+* f21b9cf8b build: allow to disable recovery-two-step.img generation
+
+#### frameworks/av/
+* 08597437e Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_av into nougat
+* 88b9d7843 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+#### frameworks/native/
+* 450e5a147 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_native into nougat
+* 005ce144f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+#### packages/apps/Contacts/
+* 143e1fef2 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_Contacts into nougat
+
+#### packages/apps/ContactsCommon/
+* f97eb228 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_ContactsCommon into nougat
+
+#### packages/apps/Dialer/
+* 8c9e2ae49 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
+
+#### packages/apps/PackageInstaller/
+* c11d7538 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_apps_PackageInstaller into nougat
+
+#### packages/apps/PhoneCommon/
+* 75e864f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PhoneCommon into nougat
+
+#### packages/apps/ResurrectionStats/
+* 3bd814e Merge branch 'nougat' of https://github.com/ResurrectionRemix/packages_apps_ResurrectionStats into nougat
+* 17c21f3 Bump version to 5.8.3
+* 443ab3f Merge remote-tracking branch 'rr/nougat' into HEAD
+* 384acbc stats: RR 5.8.3
+* f062757 Automatic translation import
+
+#### packages/services/Telecomm/
+* 357ff909 Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_services_Telecomm into nougat
+
+#### packages/services/Telephony/
+* 6d1d221e Merge branch '7.1.2' of https://github.com/ResurrectionRemix/android_packages_services_Telephony into nougat
+
+#### system/core/
+* ae467cada Merge branch '7.1.2' of https://github.com/ResurrectionRemix/system_core into nougat
+
+#### vendor/cm/
+* c04ffd6d Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat
+
+#### Resurrection Remix OS - Nougat source changes of 04-14-2017 End.
+
+04-13-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-13-2017:
+
+#### frameworks/av/
+* 4a9859015 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
+
+#### packages/apps/Nfc/
+* 30909804 Nfc: Include android-support-v4 for the NXP stack
+
+#### Resurrection Remix OS - Nougat source changes of 04-13-2017 End.
+
 04-12-2017
 ====================
 
@@ -21,11 +209,13 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 04-12-2017:
 
-#### frameworks/base/
-* d9d19ba53b7 Automatic translation import
+#### packages/apps/Gallery2/
+* aad548ed3 Gallery2: support the newly added media file types in MTP mode
+* 99a5354e4 Gallery2: Fix use of uninitialized stack variables
+* 7959af661 Gallery2: Remove unused renderscript class
 
-#### packages/apps/Settings/
-* f2e81c373 Automatic translation import
+#### packages/apps/ThemeInterfacer/
+* 754b6ea restartService --> forceStopService
 
 #### Resurrection Remix OS - Nougat source changes of 04-12-2017 End.
 
@@ -35,14 +225,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Resurrection Remix OS - Nougat source changes of 04-11-2017:
 
 #### frameworks/av/
+* 18a402d67 stagefright: Remove the HAL3 limitation from the video reference clock selection
 * eb06e419a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
 * bcfb7ac8f stagefright: Remove the HAL3 limitation from the video reference clock selection
-
-#### frameworks/base/
-* 500eed37d42 base: services: add config_fingerprintRemoveClientOnCancel
-* 5d314c8a644 Revert "SystemUI: Add SlotId for MultiSim"
-* 5f48e304db4 PowerManager: Bring back the compatibility with AOSP
-* 694c425dd7c Automatic translation import
 
 #### frameworks/native/
 * 0dd3703cc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
@@ -57,6 +242,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * 7d8197d CMParts: update contributors db
 * 7e68b15 Automatic translation import
 * 296e4ae Automatic translation import
+
+#### packages/apps/CarrierConfig/
+* fd64a03 Consider O2 and E-Plus as non-roaming
 
 #### packages/apps/Contacts/
 * e2478c8d6 contacts: Add support for import contacts to local phone storage
@@ -97,13 +285,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * 64bae44 PhoneCommon: Another round of qtistring fixes
 * 5195006 Automatic translation import
 * 5416015 Automatic translation import
-
-#### packages/apps/Settings/
-* e59efecfa Rename ZUK Z1 mainatainer (#745)
-* f164a3162 Fixed device_maintainers_fragment.xml (#743)
-* a550dd0dc Fix required strings
-* e6df73eee Add ZTE Axon7 dev to the mix (#741)
-* ff35296ef Automatic translation import
 
 #### packages/apps/ThemeInterfacer/
 * 31b36ca Polish copyright
@@ -147,11 +328,8 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 04-10-2017:
 
-#### frameworks/base/
-* c6723a6e76e Automatic translation import
-
-#### packages/apps/Settings/
-* 63072c2e1 Automatic translation import
+#### packages/apps/PhoneCommon/
+* ae769b0 Merge tag 'android-7.1.2_r2' into cm-14.1
 
 #### packages/apps/Snap/
 * 2ecc334e4 CameraControls: Toggle the status of disabled views
@@ -161,7 +339,11 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/services/Telecomm/
 * 100bc187 Merge pull request #2 from SoUnd001/nougat
 
+#### vendor/cm/
+* 36cd412d Bump version to 5.8.3
+
 #### Resurrection Remix OS - Nougat source changes of 04-10-2017 End.
+
 
 04-09-2017
 ====================
