@@ -3,10 +3,215 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
-04-17-2017
+04-22-2017
 ====================
 
-#### CRDroid Android Nougat source changes of 04-17-2017:
+#### Device specific Changes of 04-22-2017 Start:
+
+#### Kernel/Quark/
+* ea58798aca7 drivers: wakeup: add netlink and timerfd wakelock
+
+#### Vendor/Quark/
+* e7742283 Quark: up substratum
+
+#### Device specific Changes of 04-22-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-22-2017:
+
+#### frameworks/base/
+* 78957e872b3 CustomLogo: Fix incorrect logo style
+
+#### packages/apps/Settings/
+* 1f29fccaaa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### CRDroid Android Nougat source changes of 04-22-2017 End.
+
+04-21-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-21-2017:
+
+#### frameworks/base/
+* 5f724f564c6 Bluetoothtile: Rectify and fix compilation
+* 7235fde635a Port "Battery Usage Alerts" feature from factory images to aosp
+* 510d51c2c79 SystemUI: vector support for action icons
+* da614e4459c Actually make sure qs detail item isnt focusable
+* 13669228231 QSList: Option to restore old items height
+* 7850dec4803 Ensure qs detail item isn't focusable
+* 65d12641e84 Fix DateTimeView fc issue
+* 257d87123c9 fix KeyEvent can't correctly finish when inputmethod time out happend
+* eafd89fe54c uce: make status code precise
+* 760e77b59e8 QS BluetoothTile proiritizes connected device
+* e83be09cc8a QSTiles: set disconnect callback in bluetooth details list adapter
+* 0bad477a27c Allow WiFi & Bluetooth tile details to scroll
+* efd4bf4aa5c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+
+#### hardware/qcom/fm/
+* c9258ae Automatic translation import
+
+#### packages/apps/AudioFX/
+* c22088c Automatic translation import
+
+#### packages/apps/Bluetooth/
+* f5679297 Automatic translation import
+
+#### packages/apps/Browser/
+* daa40d11 Automatic translation import
+
+#### packages/apps/CMBugReport/
+* 8a4fb41 Automatic translation import
+
+#### packages/apps/Calendar/
+* cabf3f55 Automatic translation import
+
+#### packages/apps/Camera2/
+* 19537ec3e Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* c5318ec Automatic translation import
+
+#### packages/apps/CustomTiles/
+* 39732b7 Automatic translation import
+
+#### packages/apps/DeskClock/
+* 9e20cdf3 Automatic translation import
+
+#### packages/apps/Email/
+* 7c7d90c33 Automatic translation import
+
+#### packages/apps/EmergencyInfo/
+* 985550c Automatic translation import
+
+#### packages/apps/Gallery2/
+* fe9ee1225 Automatic translation import
+
+#### packages/apps/Gello/
+* 2cbe2dde Automatic translation import
+
+#### packages/apps/LockClock/
+* 552041b Automatic translation import
+
+#### packages/apps/Profiles/
+* 5f9b3b1 Automatic translation import
+
+#### packages/apps/Recorder/
+* 9ab0326 Automatic translation import
+
+#### packages/apps/Settings/
+* a9fac17f81 Automatic translation import
+
+#### packages/apps/Stk/
+* 726621f Automatic translation import
+
+#### packages/apps/Terminal/
+* b3167ed Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 3fa04c4 Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* fdb59c739 Automatic translation import
+
+#### packages/providers/ContactsProvider/
+* 31514963 Automatic translation import
+
+#### packages/providers/DataUsageProvider/
+* 16bd17e Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* 6b65be9 Automatic translation import
+
+#### packages/providers/ThemesProvider/
+* b8d4369 Automatic translation import
+
+#### packages/providers/WeatherProvider/
+* 187ce37 Automatic translation import
+
+#### packages/resources/devicesettings/
+* dccf644 Automatic translation import
+
+#### packages/services/CMAudioService/
+* f9a30eb Automatic translation import
+
+#### packages/services/LiveLockScreenService/
+* 5d6b6ee Automatic translation import
+
+#### packages/services/ThemeManagerService/
+* 2f285e8 Automatic translation import
+
+#### packages/services/WeatherService/
+* 3049526 Automatic translation import
+
+#### system/sepolicy/
+* 2d24193 sepolicy: add file and domain trans to interfacer
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 125dd91 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* d0d6665 Automatic translation import
+
+#### CRDroid Android Nougat source changes of 04-21-2017 End.
+
+04-20-2017
+====================
+
+#### Device specific Changes of 04-20-2017 Start:
+
+#### Vendor/Quark/
+* 9e77ad54 Quark: Update KA
+* 7869be9d Quark: update substratum app
+
+#### Device specific Changes of 04-20-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-20-2017:
+
+#### frameworks/base/
+* 1cd61103221 SystemUI:Notification bar custom notification display problems
+* e0eb83c34d0 SystemUI:Bluetooth can't be turn off
+* 57e4bf7aecd BT: Update wait function in ManagerService to handle  BLE states
+* e5b82e0b494 frameworks/base: Fix password/PIN/pattern update issue
+* 357c5168fa3 SystemUI: Fix QSTileHost exception
+* cc5b481c5af SystemUI: [RJIL new function] AutoBrightness
+* dc364ad5d50 SystemUI: Fix SystemUI ANR
+
+#### CRDroid Android Nougat source changes of 04-20-2017 End.
+
+04-19-2017
+====================
+
+#### Device specific Changes of 04-19-2017 Start:
+
+#### Kernel/Quark/
+* 81534662f7a Wifi upadte wcnss config
+
+#### Device specific Changes of 04-19-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-19-2017:
+
+#### frameworks/base/
+* 65a8b120d4d Fix PacketKeepalive.stop() crash
+* 9dc407f0001 Make the allPendingIntents add operation thread-safe.
+* 1648b12ca50 ConnectivityService: safer locking
+* a75b2eb87d2 Added mapping files for DualShock3 and DualShock4
+* 8819752bf48 When monkey test, the object of mHost throws NullPointerException.
+* 371f29154f5 Make sure that the device name is not null before returning it
+* ffe74417a07 Fix NPE when call stack.setLauncheTime.
+* d515df64e08 fix incorrect context classloader initialization in system_server
+* 96794cec894 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+
+#### CRDroid Android Nougat source changes of 04-19-2017 End.
+
+04-18-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-18-2017:
 
 #### frameworks/base/
 * b7b05ab4505 Fix missing lockscreen shortcut icons after reboot
@@ -19,9 +224,80 @@ CRDroid Android Nougat source and Quark Changelog:
 * 93199c56c LatinIME: Fix to English dictionary can be added after deleting
 
 #### system/extras/
+* b5332df Update verity_verifier from master branch
 * 196ed2f verity: Include libcrypto_utils_static
 * 252fe23 Revert "Revert "Switch to BoringSSL for crypto.""
+
+#### CRDroid Android Nougat source changes of 04-18-2017 End.
+
+04-17-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-17-2017:
+
+#### art/
+* a9061125c Revert "Lower daemons priority to 124 (art)."
+* 2d0c42248 Lower daemons priority to 124 (art).
+
+#### build/
+* b829c1e67 build: fix verity generation
+
+#### frameworks/base/
+* 4b04b6ae7b4 Revert "Fix for wakelock being held during bootup and idle scenario."
+* 8a7fff5bd79 Skip send broadcast to the receiver whoes user has not started.
+* cac39ec03cb TileAdapter: use colorPrimary for tile item decoration background
+* 154cabb64d9 Fix NPE caused by custom small QS tiles
+* 406a4849260 SystemUI: Don't disable rotation tile
+* b1e1631f50b QS: Add live display tile
+* 3d701ac3eed QS: Add Pulse Tile
+* 541ebce3778 QS: Add LTE tile [1/2]
+* d35900839af Add IME selector QS Tile
+* 411ba890d0b Add Music QS Tile
+* 8967a471ed8 Add Reboot/Recovery QS Tile
+* 6e8633e2dfc Add Screenshot QS Tile
+* 966831bbdae QS: Expanded Desktop Tile Reloaded
+* e799820ebfc Add Expanded Desktop QS Tile
+* 7ee85690c81 Fix for wakelock being held during bootup and idle scenario.
+* 4d3e3625662 fix NullPointerException in Notification.java
+* 69613ee60b8 Need to resize new created stack to fullscreen after docked stack tasks has moved into it.
+* eafdb4c2721 Complete cleanup broadcast receivers of target user
+* 8a724a215f0 modify the parameter in cleanupLocked
+* df74046d433 Fix a null pointer exception in FragmentManager
+* 05f556ca502 hwui: skip draw empty frame
+* 3cfc520c4a0 base: set scrolling to 0.006f
+* 13fdfd9e2ea Open /data/anr/traces.txt with O_APPEND.
+* 34c14a26bee Use theme accent color for the multiwindows divider
+* 82ab4d9cc14 Ability to toggle VoLTE icon in statusbar [1/2]
+* e2af99c61c0 Themes: Allow volume slider and thumb to work with custom images.
+* 8f7d5e711d1 Separate tile label color from icon drawable color
+* a71b1ab3acd statusbar weather: Change default position to the left [1/2]
+* 85a23cc31b0 Fix Aosp bug on custom apps tiles: color not changing on tile state change
+* 9d3cedbcc04 Move status bar carrier label to right location
+
+#### packages/apps/OmniSwitch/
+* 56407a7 Automatic translation import
+* 6b92ae2 Revert "Remove OmniSwitch from launcher"
+* 750dba2 Revert "Add ability hide/show app launcher icon"
+
+#### packages/apps/Trebuchet/
+* e3eedc8d6 Update icon and default colors
+* c9e0d0b70 Revert "Remove clock widget by default on screen"
+
+#### packages/apps/crDroidSettings/
+* 53429b4 crdroid: Enable volte icon feature
+* cc0d789 statusbar weather: Change default position to the left [2/2]
+
+#### packages/apps/crDroidWallpapers/
+* 287ea8f Add new wallpapers
+
+#### system/extras/
 * 442b784 Revert "Switch to BoringSSL for crypto."
+
+#### vendor/addons/
+* 7466db3 addons: Update default wallpaper
+
+#### vendor/cm/
+* 4bc1de7d crDroid v3.0
 
 #### CRDroid Android Nougat source changes of 04-17-2017 End.
 

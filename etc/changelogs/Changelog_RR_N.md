@@ -3,6 +3,300 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+04-22-2017
+====================
+
+#### Device specific Changes of 04-22-2017 Start:
+
+#### Kernel/Quark/
+* ea58798aca7 drivers: wakeup: add netlink and timerfd wakelock
+
+#### Vendor/Quark/
+* e7742283 Quark: up substratum
+
+#### Device specific Changes of 04-22-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-22-2017:
+
+#### frameworks/base/
+* 4bbc37b55f7 Automatic translation import
+* 5dc497d1eb0 Revert "Fix exploit where can hide the fact that a location was mocked"
+
+#### packages/apps/Dialer/
+* 30ec2b60d Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* 6779a69 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 20c446d Automatic translation import
+
+#### packages/apps/Settings/
+* a27c59e48 Automatic translation import
+* d40aee26b Update Moto G4 Plus Maintainer (#760)
+
+#### packages/services/OmniJaws/
+* 288eeda Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-22-2017 End.
+
+04-21-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-21-2017:
+
+#### frameworks/base/
+* 62992142f16 Automatic translation import
+
+#### hardware/qcom/fm/
+* c9258ae Automatic translation import
+
+#### packages/apps/AudioFX/
+* c22088c Automatic translation import
+
+#### packages/apps/Bluetooth/
+* f5679297 Automatic translation import
+
+#### packages/apps/CMBugReport/
+* 8a4fb41 Automatic translation import
+
+#### packages/apps/Calendar/
+* cabf3f55 Automatic translation import
+
+#### packages/apps/Camera2/
+* 19537ec3e Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* c5318ec Automatic translation import
+
+#### packages/apps/Dialer/
+* a4ce9ad2a Automatic translation import
+
+#### packages/apps/Eleven/
+* f4cab90 Automatic translation import
+
+#### packages/apps/Email/
+* 7c7d90c33 Automatic translation import
+
+#### packages/apps/EmergencyInfo/
+* 985550c Automatic translation import
+
+#### packages/apps/Gallery2/
+* fe9ee1225 Automatic translation import
+
+#### packages/apps/Gello/
+* 2cbe2dde Automatic translation import
+
+#### packages/apps/Profiles/
+* 5f9b3b1 Automatic translation import
+
+#### packages/apps/Recorder/
+* 9ab0326 Automatic translation import
+
+#### packages/apps/Settings/
+* 22974ab37 Fix screenshots delay default value
+* c166531de Automatic translation import
+* 71280d1db Add me as Sirius maintainer (#758)
+* 304dc7702 Fix the build up !
+* 7b807dcab Add Capricorn maintanier (#757)
+* 9f4c6318d Add Nougat Maintainer for LeEco Le Max2 (x2) (#755)
+* 1257948cf Settings: update string
+
+#### packages/apps/SetupWizard/
+* e8e7a54 Automatic translation import
+
+#### packages/apps/Snap/
+* 58fa0bd2f Automatic translation import
+
+#### packages/apps/Stk/
+* 726621f Automatic translation import
+
+#### packages/apps/Terminal/
+* b3167ed Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 3fa04c4 Automatic translation import
+
+#### packages/apps/Trebuchet/
+* aed0d6455 Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* fdb59c739 Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* e443900ae Automatic translation import
+
+#### packages/providers/ContactsProvider/
+* 31514963 Automatic translation import
+
+#### packages/providers/DataUsageProvider/
+* 16bd17e Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* 6b65be9 Automatic translation import
+
+#### packages/providers/ThemesProvider/
+* b8d4369 Automatic translation import
+
+#### packages/providers/WeatherProvider/
+* 187ce37 Automatic translation import
+
+#### packages/resources/devicesettings/
+* dccf644 Automatic translation import
+
+#### packages/services/CMAudioService/
+* f9a30eb Automatic translation import
+
+#### packages/services/LiveLockScreenService/
+* 5d6b6ee Automatic translation import
+
+#### packages/services/OmniJaws/
+* ccb0711 Automatic translation import
+
+#### packages/services/ThemeManagerService/
+* 2f285e8 Automatic translation import
+
+#### packages/services/WeatherService/
+* 3049526 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 125dd91 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* d0d6665 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-21-2017 End.
+
+04-20-2017
+====================
+
+#### Device specific Changes of 04-20-2017 Start:
+
+#### Vendor/Quark/
+* 9e77ad54 Quark: Update KA
+* 7869be9d Quark: update substratum app
+
+#### Device specific Changes of 04-20-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-20-2017:
+
+#### frameworks/base/
+* d535a696c32 Automatic translation import
+* f1e008ad1dd SystemUI:Notification bar custom notification display problems
+* d44c3f30763 BT: Update wait function in ManagerService to handle  BLE states
+* e5e5b092274 SystemUI: Fix QSTileHost exception
+* 8a6203859df SystemUI: [RJIL new function] AutoBrightness
+* 3f767d03803 SystemUI: Fix SystemUI ANR
+
+#### packages/apps/DUI/
+* eaf848b DUI: Basenavigationbar: Catch Slippery Exception
+
+#### packages/apps/Dialer/
+* f86b3b41b Automatic translation import
+
+#### packages/apps/Settings/
+* 5cf9a3310 Automatic translation import
+
+#### packages/services/OmniJaws/
+* 37897b2 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-20-2017 End.
+
+04-19-2017
+====================
+
+#### Device specific Changes of 04-19-2017 Start:
+
+#### Kernel/Quark/
+* 81534662f7a Wifi upadte wcnss config
+
+#### Device specific Changes of 04-19-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-19-2017:
+
+#### android/
+* 30d3069 crowdin: fix sync
+* d1362da [2/2] crowdin: add OmniJaws
+
+#### packages/apps/Dialer/
+* aa280a651 Automatic translation import
+
+#### packages/apps/Settings/
+* dea4c30d2 add device vega (#754)
+
+#### Resurrection Remix OS - Nougat source changes of 04-19-2017 End.
+
+04-18-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-18-2017:
+
+#### frameworks/base/
+* aa46183b5b5 Automatic translation import
+* 3da5ccced06 Improve Hw keys Tile
+* 9703f9a0736 Add vpn and data saver to statusbar icon blacklist *fixed vpn toggle it is now instant
+* a04a27f9455 Make Data/Wifi activity icon in statusbar optional [1/2]
+* 65916883030 Data activity icon in statusbar
+* 88921e111b0 SystemUI: Add tile for enable/disable HW keys
+* bc651feee76 fix wrong algorithm in WifiPowerPerPacket()
+* 23130208f07 FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+* 87763528368 Ticker:Set default color to White [1/2]
+* 286d50cc828 Automatic translation import
+* f8609ef2e29 Fix missing lockscreen shortcut icons after reboot
+* 0d361756901 Themes: Allow volume slider and thumb to work with custom images.
+* 8355307c2b1 Separate tile label color from icon drawable color
+* ec99e84faa7 Automatic translation import
+* 11576a86314 Basestatusbar:Fix Headsup Not Working
+* 036a71d1b15 Fix Another Illegal Argument Exception when Changing DPI
+* 0c31a309671 base:Optional weather info in expanded header [1/2]
+
+#### packages/apps/Dialer/
+* 867613342 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* eaf1058 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 0f6820f Automatic translation import
+
+#### packages/apps/Settings/
+* c5ce86a1d Settings: Fix ugly whitespacing and build
+* 5e5d45ce8 add maintainer for clark, flounder, manta, vs980, d2lte, and tenderloin (#753)
+* 0b8484923 Automatic translation import
+* e2bb742b8 Fix 7.1.2 mismerge
+* b6aa3ee9d Option to disable data & wifi indicators
+* cf618916f Add HWkeys Settings as an activity
+* 08a6aa1f9 Ticker:Set default colors to white [2/2]
+
+#### system/extras/
+* b5332df Update verity_verifier from master branch
+* 196ed2f verity: Include libcrypto_utils_static
+* 252fe23 Revert "Revert "Switch to BoringSSL for crypto.""
+
+#### Resurrection Remix OS - Nougat source changes of 04-18-2017 End.
+
+04-17-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-17-2017:
+
+#### packages/apps/Dialer/
+* a5b497f3b Dialpad: option to show dialpad automatically (#1)
+
+#### packages/apps/Settings/
+* 433b9db41 Automatic translation import
+
+#### system/extras/
+* 442b784 Revert "Switch to BoringSSL for crypto."
+
+#### Resurrection Remix OS - Nougat source changes of 04-17-2017 End.
+
 04-16-2017
 ====================
 

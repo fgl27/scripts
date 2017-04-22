@@ -50,11 +50,11 @@ tput setaf 3
 	echo  
 	sleep 3
 tput setaf 2
-	time sudo apt-get -y install git-core python gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev \
+	time sudo apt-get -y install git-core python gnupg flex bison gperf libsdl1.2-dev libesd0-dev  \
 squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev pngcrush \
 schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev g++-multilib lib32z1-dev lib32ncurses5-dev \
-lib32readline-gplv2-dev gcc-multilib liblz4-* pngquant ncurses-dev texinfo gcc patch libtool \
-automake g++ gawk subversion expat libexpat1-dev python-all-dev binutils-static libgcc1:i386 bc libcloog-isl-dev \
+ gcc-multilib liblz4-* pngquant ncurses-dev texinfo gcc patch libtool \
+automake g++ gawk subversion expat libexpat1-dev python-all-dev  libgcc1:i386 bc libcloog-isl-dev \
 libcap-dev autoconf libgmp-dev pkg-config libmpc-dev libmpfr-dev lzma* \
 liblzma* w3m phablet-tools android-tools-adb screen maven tmux
 tput setaf 3
