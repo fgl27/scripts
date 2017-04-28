@@ -3,6 +3,166 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+04-28-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-28-2017:
+
+#### packages/apps/Settings/
+* 57fbef231 Settings: Add 25ms and 50ms animation duration cause smallest value (100ms) to long for some effects (#770)
+* 800c80e03 Fix SB ticker icon and text default color
+
+#### packages/apps/ThemeInterfacer/
+* 40e3809 JobService: Expose configuration shim refresh delay
+
+#### Resurrection Remix OS - Nougat source changes of 04-28-2017 End.
+
+04-27-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-27-2017:
+
+#### frameworks/base/
+* 4a2eb612d16 Automatic translation import
+
+#### packages/apps/Settings/
+* 7774d2b4c Automatic translation import
+
+#### packages/apps/ThemeInterfacer/
+* 3f3c33b Add a looper to the locale change handler
+
+#### packages/apps/Trebuchet/
+* 29b0b0a29 Trebuchet: lineage launcher icon
+
+#### Resurrection Remix OS - Nougat source changes of 04-27-2017 End.
+
+04-26-2017
+====================
+
+#### Device specific Changes of 04-26-2017 Start:
+
+#### Kernel/Quark/
+* 1d4d509883c Update wifi config
+
+#### Device specific Changes of 04-26-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 04-26-2017:
+
+#### frameworks/base/
+* bf7e2ac6b9d Automatic translation import
+* b250de637b9 Fix animation duration for custom animations
+
+#### packages/apps/Settings/
+* c50d9a616 added zuk Z2 plus (#768)
+* a642167f3 Automatic translation import
+* 52d689034 Settings: Custom animation duration settings [2/2]
+
+#### packages/apps/ThemeInterfacer/
+* 9936dc3 README: Recommend Interfacer be put in the services folder
+
+#### packages/apps/Trebuchet/
+* c9e76546f Trebuchet: Do not crash if normalized string for sorting is empty
+
+#### packages/services/OmniJaws/
+* aaaf9d0 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-26-2017 End.
+
+04-25-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-25-2017:
+
+#### frameworks/base/
+* 89aed696492 Automatic translation import
+* 4863e2520d4 Fix DUI slippery flag logic and IllegalArgumentException [2/2]
+* 1650a12b5b5 Need to resize new created stack to fullscreen after docked stack tasks has moved into it.
+* cda2cbe4719 Fix race condition when writing UidState of appops.
+* 000c5b89025 Fix PacketKeepalive.stop() crash
+* deef9431fa7 ActivityStack index OOB cause device restart
+* 07a5433bbbc Remove force weather update bits
+* 48f1315eb5f Redundant waiting time of keyguard unlocking after reboot
+* 7911e226488 Make sure that the device name is not null before returning it
+* 8c3fb3ba6fd Fix a null pointer exception in FragmentManager
+* aa5f6e69909 Keyguard: Move CAF strings to cm_strings.xml.
+* 405c66701f7 Automatic translation import
+* 94a3bb6da2e fingerprint: notify client when cancelling succeeded
+* 2e7a8386df1 Revert "base: services: add config_fingerprintRemoveClientOnCancel"
+
+#### frameworks/opt/telephony/
+* bc432281 Create cdma dummy apns.
+
+#### hardware/qcom/display-caf/apq8084/
+* c21ccb4 backport:  hwcomposer: Fix regression in hwc_sync
+
+#### packages/apps/DUI/
+* 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
+
+#### packages/apps/Dialer/
+* 5249b9ed3 Automatic translation import
+
+#### packages/apps/Gallery2/
+* 1f0ec6ea1 Revert "Gallery2: hide navigation bar when we turn off lights"
+
+#### packages/apps/Settings/
+* 34684704a Automatic translation import
+* 4382afda1 Screenshot Delay:Make it faster optionally
+
+#### packages/apps/Trebuchet/
+* 99649a575 Don't show market links if market app is protected
+* 1cc5cef42 Trebuchet: use normalized strings for sorting into bucket
+
+#### packages/services/OmniJaws/
+* b983f09 Automatic translation import
+* 772c1b8 OmniJaws: remove separation between force and not force update
+* 7193cd8 OmniJaws: add fetch weather data retry loop
+
+#### Resurrection Remix OS - Nougat source changes of 04-25-2017 End.
+
+04-24-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-24-2017:
+
+#### frameworks/base/
+* 483008b9f00 Automatic translation import
+
+#### packages/apps/Dialer/
+* fac35909f Automatic translation import
+
+#### packages/apps/Settings/
+* 358259499 Automatic translation import
+
+#### packages/apps/ThemeInterfacer/
+* 97eceaf JobService: Transition to the Binder Interprocess Communication System
+
+#### packages/services/OmniJaws/
+* 598974e Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-24-2017 End.
+
+04-23-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-23-2017:
+
+#### frameworks/base/
+* 6c1934d052f Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* e6a68a9 Automatic translation import
+
+#### packages/apps/Settings/
+* ad6b02163 Automatic translation import
+* e27dd961f Add Galaxy S7/edge maintainer (#761)
+
+#### packages/services/OmniJaws/
+* 342da5a Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-23-2017 End.
+
 04-22-2017
 ====================
 
@@ -20,9 +180,16 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 04-22-2017:
 
+#### external/stagefright-plugins/
+* 3846013 Revert "codecs: Disable AC3/EAC3"
+
 #### frameworks/base/
 * 4bbc37b55f7 Automatic translation import
 * 5dc497d1eb0 Revert "Fix exploit where can hide the fact that a location was mocked"
+
+#### hardware/qcom/fm/
+* 51e71fd libfm_jni: Fix strchr implicit char* typecast in ConfFileParser
+* 56dd18a libjm_jni: Missing liblog dependency and jni core headers
 
 #### packages/apps/Dialer/
 * 30ec2b60d Automatic translation import
