@@ -27,15 +27,15 @@
     .param p2, "sev"    # I
 
     .prologue
-    .line 2172
+    .line 2149
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2173
+    .line 2150
     iput p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;->moduleId:I
 
-    .line 2174
+    .line 2151
     iput p2, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;->severity:I
 
-    .line 2172
+    .line 2149
     return-void
 .end method

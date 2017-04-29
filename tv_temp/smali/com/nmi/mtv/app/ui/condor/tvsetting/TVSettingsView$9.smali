@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     .prologue
-    .line 542
+    .line 540
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +42,12 @@
     .param p1, "position"    # I
 
     .prologue
-    .line 545
+    .line 543
     const/4 v1, 0x7
 
     if-ne p1, v1, :cond_0
 
-    .line 546
+    .line 544
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
@@ -58,7 +58,7 @@
 
     invoke-direct {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;-><init>(Landroid/content/Context;)V
 
-    .line 547
+    .line 545
     .local v0, "dialog":Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9$1;
 
@@ -66,12 +66,12 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;->setClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 562
+    .line 560
     const v1, 0x7f0a006f
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;->setTitle(I)V
 
-    .line 563
+    .line 561
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;
@@ -86,7 +86,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;->setHour(I)V
 
-    .line 564
+    .line 562
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;
@@ -101,15 +101,15 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;->setMinute(I)V
 
-    .line 565
+    .line 563
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;->show()V
 
-    .line 543
+    .line 541
     .end local v0    # "dialog":Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;
     :goto_0
     return-void
 
-    .line 568
+    .line 566
     :cond_0
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
@@ -125,7 +125,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 569
+    .line 567
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get18(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;

@@ -853,7 +853,7 @@
 .end method
 
 .method public pushData([BIJ)I
-    .locals 23
+    .locals 21
     .param p1, "_data"    # [B
     .param p2, "_size"    # I
     .param p3, "_timestamp"    # J
@@ -981,13 +981,11 @@
 
     iget-object v2, v0, Lcom/nmi/mtv/player/VideoDecoder;->Decoder:Landroid/media/MediaCodec;
 
-    const-wide/16 v6, 0x3e8
-
-    mul-long v6, v6, p3
-
     const/4 v4, 0x0
 
     const/4 v8, 0x0
+
+    move-wide/from16 v6, p3
 
     invoke-virtual/range {v2 .. v8}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
     :try_end_1
@@ -1071,10 +1069,6 @@
     iget-wide v0, v13, Landroid/media/MediaCodec$BufferInfo;->presentationTimeUs:J
 
     move-wide/from16 v18, v0
-
-    const-wide/16 v20, 0x3e8
-
-    div-long v18, v18, v20
 
     move-wide/from16 v0, v18
 

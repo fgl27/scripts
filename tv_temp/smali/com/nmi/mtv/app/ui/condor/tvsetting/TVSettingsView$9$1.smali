@@ -30,7 +30,7 @@
     .param p2, "val$dialog"    # Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;
 
     .prologue
-    .line 547
+    .line 545
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;
 
     iput-object p2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9$1;->val$dialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;
@@ -47,10 +47,10 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 549
+    .line 547
     const/4 v0, 0x0
 
-    .line 550
+    .line 548
     .local v0, "ReaminTime":I
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -58,12 +58,12 @@
 
     packed-switch v1, :pswitch_data_0
 
-    .line 548
+    .line 546
     :goto_0
     :pswitch_0
     return-void
 
-    .line 552
+    .line 550
     :pswitch_1
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;
 
@@ -83,7 +83,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 553
+    .line 551
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9$1;->val$dialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;
 
     invoke-virtual {v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogDuration;->getHour()I
@@ -100,7 +100,7 @@
 
     add-int v0, v1, v2
 
-    .line 554
+    .line 552
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;
 
     iget-object v1, v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
@@ -119,7 +119,7 @@
 
     goto :goto_0
 
-    .line 550
+    .line 548
     nop
 
     :pswitch_data_0

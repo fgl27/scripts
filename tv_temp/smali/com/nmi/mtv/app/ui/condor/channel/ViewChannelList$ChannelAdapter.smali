@@ -2386,38 +2386,8 @@
 
     check-cast v1, Lcom/nmi/mtv/app/core/db/DBChannel;
 
-    .line 813
-    .restart local v1    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_a
-
-    .line 814
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList$ChannelAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
-
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->-get11(Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
-
-    move-result-object v5
-
-    if-eqz v5, :cond_0
-
-    .line 815
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList$ChannelAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
-
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->-get11(Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
-
-    move-result-object v5
-
-    const/16 v6, 0x42e
-
-    invoke-interface {v5, v6, v7, v7, v1}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
-
-    goto/16 :goto_0
-
     .line 818
-    :cond_a
+    .restart local v1    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList$ChannelAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
 
     invoke-virtual {v5, v1}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->addSchedule(Lcom/nmi/mtv/app/core/db/DBChannel;)V
@@ -2425,8 +2395,6 @@
     goto/16 :goto_0
 
     .line 713
-    nop
-
     :pswitch_data_0
     .packed-switch 0x7f0f0001
         :pswitch_1

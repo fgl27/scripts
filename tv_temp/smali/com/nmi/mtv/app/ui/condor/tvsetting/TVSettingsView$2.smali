@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     .prologue
-    .line 209
+    .line 210
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$2;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,7 +46,7 @@
     .prologue
     const/4 v4, 0x0
 
-    .line 217
+    .line 218
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$2;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get18(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
@@ -55,7 +55,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 218
+    .line 219
     sget v1, Lcom/nmi/mtv/app/core/common/CommonType$ScreenBrightness;->SCREEN_BRIGHTNESS_MIN:F
 
     int-to-float v2, p2
@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    .line 219
+    .line 220
     .local v0, "value":Ljava/lang/Float;
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$2;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
@@ -82,7 +82,7 @@
 
     invoke-interface {v1, v2, v4, v4, v0}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 216
+    .line 217
     .end local v0    # "value":Ljava/lang/Float;
     :cond_0
     return-void
@@ -93,7 +93,7 @@
     .param p1, "seekBar"    # Landroid/widget/SeekBar;
 
     .prologue
-    .line 213
+    .line 214
     return-void
 .end method
 
@@ -102,6 +102,6 @@
     .param p1, "seekBar"    # Landroid/widget/SeekBar;
 
     .prologue
-    .line 210
+    .line 211
     return-void
 .end method

@@ -629,11 +629,13 @@
 .end method
 
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
-    .locals 12
+    .locals 13
     .param p1, "context"    # Landroid/content/Context;
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
+    const/16 v12, 0x17
+
     const/4 v11, 0x7
 
     const/4 v10, 0x0
@@ -774,11 +776,9 @@
 
     .line 49
     .local v0, "SD_path":Ljava/lang/String;
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+    sget v7, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    move-result v7
-
-    if-eqz v7, :cond_3
+    if-lt v7, v12, :cond_3
 
     .line 50
     if-eqz v6, :cond_4
@@ -932,11 +932,9 @@
 
     .line 71
     .restart local v6    # "tmp_string":Ljava/lang/String;
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+    sget v7, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    move-result v7
-
-    if-eqz v7, :cond_7
+    if-lt v7, v12, :cond_7
 
     .line 72
     if-eqz v6, :cond_8

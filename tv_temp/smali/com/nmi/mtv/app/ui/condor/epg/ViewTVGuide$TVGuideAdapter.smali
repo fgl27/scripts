@@ -638,12 +638,10 @@
 .end method
 
 .method public onClick(Landroid/view/View;)V
-    .locals 4
+    .locals 2
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    const/4 v3, 0x0
-
     .line 402
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -652,7 +650,6 @@
     packed-switch v1, :pswitch_data_0
 
     .line 400
-    :cond_0
     :goto_0
     return-void
 
@@ -664,38 +661,8 @@
 
     check-cast v0, Lcom/nmi/mtv/app/core/db/DBProgram;
 
-    .line 405
-    .local v0, "program":Lcom/nmi/mtv/app/core/db/DBProgram;
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 406
-    iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide$TVGuideAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;
-
-    invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;->-get3(Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_0
-
-    .line 407
-    iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide$TVGuideAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;
-
-    invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;->-get3(Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
-
-    move-result-object v1
-
-    const/16 v2, 0x42e
-
-    invoke-interface {v1, v2, v3, v3, v0}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
-
-    goto :goto_0
-
     .line 409
-    :cond_1
+    .local v0, "program":Lcom/nmi/mtv/app/core/db/DBProgram;
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide$TVGuideAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;
 
     invoke-virtual {v1, v0}, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;->addReservation(Lcom/nmi/mtv/app/core/db/DBProgram;)V
@@ -703,8 +670,6 @@
     goto :goto_0
 
     .line 402
-    nop
-
     :pswitch_data_0
     .packed-switch 0x7f0f00cd
         :pswitch_0

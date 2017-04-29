@@ -30,7 +30,7 @@
     .locals 1
 
     .prologue
-    .line 2101
+    .line 2078
     const/16 v0, 0x27
 
     new-array v0, v0, [I
@@ -39,10 +39,10 @@
 
     sput-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController;->modules:[I
 
-    .line 2031
+    .line 2008
     return-void
 
-    .line 2101
+    .line 2078
     :array_0
     .array-data 4
         0x101
@@ -91,7 +91,7 @@
     .locals 0
 
     .prologue
-    .line 2031
+    .line 2008
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -102,7 +102,7 @@
     .param p0, "msd"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
     .prologue
-    .line 2193
+    .line 2170
     const/4 v0, 0x0
 
     .local v0, "i":I
@@ -113,12 +113,12 @@
 
     if-ge v0, v2, :cond_0
 
-    .line 2194
+    .line 2171
     invoke-virtual {p0, v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;->elementAt(I)Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;
 
     move-result-object v1
 
-    .line 2195
+    .line 2172
     .local v1, "sd":Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;
     iget v2, v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;->moduleId:I
 
@@ -126,12 +126,12 @@
 
     invoke-static {v2, v3}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-wrap2(II)I
 
-    .line 2193
+    .line 2170
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 2192
+    .line 2169
     .end local v1    # "sd":Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;
     :cond_0
     return-void
@@ -142,14 +142,14 @@
     .param p0, "severity"    # I
 
     .prologue
-    .line 2179
+    .line 2156
     new-instance v1, Ljava/util/Vector;
 
     const/16 v3, 0x1e
 
     invoke-direct {v1, v3}, Ljava/util/Vector;-><init>(I)V
 
-    .line 2180
+    .line 2157
     .local v1, "msd":Ljava/util/Vector;, "Ljava/util/Vector<Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;>;"
     const/4 v0, 0x0
 
@@ -161,7 +161,7 @@
 
     if-ge v0, v3, :cond_0
 
-    .line 2181
+    .line 2158
     new-instance v3, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$ModuleSeverityDescriptor;
 
     sget-object v4, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController;->modules:[I
@@ -172,29 +172,29 @@
 
     invoke-virtual {v1, v3}, Ljava/util/Vector;->add(Ljava/lang/Object;)Z
 
-    .line 2180
+    .line 2157
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 2183
+    .line 2160
     :cond_0
     new-instance v2, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
     invoke-direct {v2, v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;-><init>(Ljava/util/Vector;)V
 
-    .line 2185
+    .line 2162
     .local v2, "psd":Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
     if-eqz p0, :cond_1
 
-    .line 2186
+    .line 2163
     add-int/lit8 v3, p0, 0x1
 
     const v4, 0x8012
 
     invoke-virtual {v2, v4, v3}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;->changeModuleSeverity(II)I
 
-    .line 2188
+    .line 2165
     :cond_1
     return-object v2
 .end method

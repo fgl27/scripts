@@ -58,18 +58,18 @@
     .param p1, "stringID"    # I
 
     .prologue
-    .line 219
+    .line 213
     const/4 v3, 0x1
 
     invoke-static {p0, p1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
     move-result-object v1
 
-    .line 221
+    .line 215
     .local v1, "toast":Landroid/widget/Toast;
     const/4 v2, 0x0
 
-    .line 222
+    .line 216
     .local v2, "xOffset":I
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -81,7 +81,7 @@
 
     iget v0, v3, Landroid/content/res/Configuration;->orientation:I
 
-    .line 224
+    .line 218
     .local v0, "orientation":I
     sget-boolean v3, Lcom/nmi/mtv/app/core/util/Util;->isNavigationShowing:Z
 
@@ -91,10 +91,10 @@
 
     if-ne v3, v0, :cond_0
 
-    .line 225
+    .line 219
     sget v2, Lcom/nmi/mtv/app/core/common/CommonType$ScreenSize;->NAVIGATIONBAR_WIDTH:I
 
-    .line 226
+    .line 220
     :cond_0
     invoke-virtual {v1}, Landroid/widget/Toast;->getGravity()I
 
@@ -106,10 +106,10 @@
 
     invoke-virtual {v1, v3, v2, v4}, Landroid/widget/Toast;->setGravity(III)V
 
-    .line 227
+    .line 221
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
-    .line 218
+    .line 212
     return-void
 .end method
 
@@ -120,25 +120,25 @@
     .param p2, "state"    # Z
 
     .prologue
-    .line 244
+    .line 238
     const/4 v2, 0x1
 
     invoke-static {p0, p1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
     move-result-object v0
 
-    .line 246
+    .line 240
     .local v0, "toast":Landroid/widget/Toast;
     const/4 v1, 0x0
 
-    .line 248
+    .line 242
     .local v1, "xOffset":I
     if-eqz p2, :cond_0
 
-    .line 249
+    .line 243
     sget v1, Lcom/nmi/mtv/app/core/common/CommonType$ScreenSize;->NAVIGATIONBAR_WIDTH:I
 
-    .line 250
+    .line 244
     :cond_0
     invoke-virtual {v0}, Landroid/widget/Toast;->getGravity()I
 
@@ -150,10 +150,10 @@
 
     invoke-virtual {v0, v2, v1, v3}, Landroid/widget/Toast;->setGravity(III)V
 
-    .line 251
+    .line 245
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 243
+    .line 237
     return-void
 .end method
 
@@ -470,7 +470,7 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 193
+    .line 187
     :try_start_0
     const-class v3, Landroid/os/UserManager;
 
@@ -484,7 +484,7 @@
 
     move-result-object v1
 
-    .line 194
+    .line 188
     .local v1, "getUserHandle":Ljava/lang/reflect/Method;
     const-string/jumbo v3, "user"
 
@@ -508,17 +508,17 @@
 
     move-result v2
 
-    .line 195
+    .line 189
     .local v2, "userHandle":I
     return v2
 
-    .line 198
+    .line 192
     .end local v1    # "getUserHandle":Ljava/lang/reflect/Method;
     .end local v2    # "userHandle":I
     :catch_0
     move-exception v0
 
-    .line 199
+    .line 193
     .local v0, "ex":Ljava/lang/Exception;
     return v6
 .end method
@@ -530,7 +530,7 @@
     .prologue
     const/4 v4, 0x0
 
-    .line 179
+    .line 173
     :try_start_0
     const-class v3, Landroid/os/UserManager;
 
@@ -544,7 +544,7 @@
 
     move-result-object v1
 
-    .line 180
+    .line 174
     .local v1, "getUserHandle":Ljava/lang/reflect/Method;
     const-string/jumbo v3, "user"
 
@@ -568,7 +568,7 @@
 
     move-result v2
 
-    .line 181
+    .line 175
     .local v2, "userHandle":I
     if-nez v2, :cond_0
 
@@ -582,13 +582,13 @@
 
     goto :goto_0
 
-    .line 184
+    .line 178
     .end local v1    # "getUserHandle":Ljava/lang/reflect/Method;
     .end local v2    # "userHandle":I
     :catch_0
     move-exception v0
 
-    .line 185
+    .line 179
     .local v0, "ex":Ljava/lang/Exception;
     return v4
 .end method
@@ -610,29 +610,6 @@
     return v0
 
     .line 166
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public static isUpper_M()Z
-    .locals 2
-
-    .prologue
-    .line 170
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x17
-
-    if-lt v0, v1, :cond_0
-
-    .line 171
-    const/4 v0, 0x1
-
-    return v0
-
-    .line 172
     :cond_0
     const/4 v0, 0x0
 

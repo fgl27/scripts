@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
     .prologue
-    .line 127
+    .line 128
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$4;->this$0:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,8 +53,11 @@
     .end annotation
 
     .prologue
-    .line 130
+    .line 131
     .local p1, "parent":Landroid/widget/AdapterView;, "Landroid/widget/AdapterView<*>;"
+    if-eqz p2, :cond_0
+
+    .line 132
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$4;->this$0:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
     invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
@@ -65,7 +68,8 @@
 
     invoke-static {v1, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->-set1(Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;Lcom/nmi/mtv/app/core/db/DBChannel;)Lcom/nmi/mtv/app/core/db/DBChannel;
 
-    .line 129
+    .line 130
+    :cond_0
     return-void
 .end method
 
@@ -80,7 +84,7 @@
     .end annotation
 
     .prologue
-    .line 134
+    .line 136
     .local p1, "parent":Landroid/widget/AdapterView;, "Landroid/widget/AdapterView<*>;"
     return-void
 .end method

@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 1422
+    .line 1446
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +55,7 @@
     .param p4, "obj"    # Ljava/lang/Object;
 
     .prologue
-    .line 1424
+    .line 1448
     const-string/jumbo v9, "com.nmi.mtv.app.condor.RESERVATION_START"
 
     invoke-virtual {p1, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -64,19 +64,19 @@
 
     if-eqz v9, :cond_4
 
-    .line 1426
+    .line 1450
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-nez v9, :cond_0
 
-    .line 1427
+    .line 1451
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v9
 
     sput-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
-    .line 1429
+    .line 1453
     :cond_0
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -86,7 +86,7 @@
 
     if-nez v9, :cond_2
 
-    .line 1430
+    .line 1454
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -99,15 +99,15 @@
 
     if-nez v9, :cond_1
 
-    .line 1431
+    .line 1455
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->finish()V
 
-    .line 1432
+    .line 1456
     return-void
 
-    .line 1435
+    .line 1459
     :cond_1
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -119,7 +119,7 @@
 
     iput-object v10, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mChannelEventListener:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$ChannelEventListener;
 
-    .line 1436
+    .line 1460
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     new-instance v10, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$PlayerListener;
@@ -130,7 +130,7 @@
 
     iput-object v10, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mPlayerListener:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$PlayerListener;
 
-    .line 1437
+    .line 1461
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     new-instance v10, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DSMCCListener;
@@ -141,7 +141,7 @@
 
     iput-object v10, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDSMCCListener:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DSMCCListener;
 
-    .line 1439
+    .line 1463
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -150,7 +150,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/isdbt/controller/MtvController;->registerChannelEventListener(Lcom/nmi/mtv/isdbt/controller/MtvInterface$onChannelEventListener;)V
 
-    .line 1440
+    .line 1464
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -159,7 +159,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/isdbt/controller/MtvController;->registerPlayerListener(Lcom/nmi/mtv/isdbt/controller/MtvInterface$onPlayerListener;)V
 
-    .line 1441
+    .line 1465
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -168,7 +168,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/isdbt/controller/MtvController;->registerDSMCCListener(Lcom/nmi/mtv/isdbt/controller/MtvInterface$onDSMCCListener;)V
 
-    .line 1443
+    .line 1467
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/isdbt/controller/MtvController;->isInitializedCaption()Z
@@ -177,7 +177,7 @@
 
     if-nez v9, :cond_2
 
-    .line 1444
+    .line 1468
     sget-object v10, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -200,7 +200,7 @@
 
     invoke-virtual {v10, v11, v9, v12}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionView(Landroid/content/Context;Landroid/widget/LinearLayout;Landroid/graphics/Typeface;)V
 
-    .line 1445
+    .line 1469
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     const/16 v10, 0x14
@@ -209,7 +209,7 @@
 
     invoke-virtual {v9, v10, v11}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionSize(II)V
 
-    .line 1446
+    .line 1470
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     const/4 v10, 0x1
@@ -219,16 +219,16 @@
     :cond_2
     move-object/from16 v7, p4
 
-    .line 1451
+    .line 1475
     check-cast v7, Landroid/content/Intent;
 
-    .line 1452
+    .line 1476
     .local v7, "intent":Landroid/content/Intent;
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9, v7}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startReservation(Landroid/content/Intent;)V
 
-    .line 1456
+    .line 1480
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const-string/jumbo v10, "activity"
@@ -239,7 +239,7 @@
 
     check-cast v2, Landroid/app/ActivityManager;
 
-    .line 1457
+    .line 1481
     .local v2, "am":Landroid/app/ActivityManager;
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -251,12 +251,12 @@
 
     invoke-virtual {v2, v9, v10}, Landroid/app/ActivityManager;->moveTaskToFront(II)V
 
-    .line 1459
+    .line 1483
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v9, :cond_3
 
-    .line 1460
+    .line 1484
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -267,7 +267,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1461
+    .line 1485
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -280,14 +280,14 @@
 
     invoke-virtual {v9, v10, v12, v13}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1423
+    .line 1447
     .end local v2    # "am":Landroid/app/ActivityManager;
     .end local v7    # "intent":Landroid/content/Intent;
     :cond_3
     :goto_0
     return-void
 
-    .line 1465
+    .line 1489
     :cond_4
     const-string/jumbo v9, "com.nmi.mtv.app.condor.SCAN_START"
 
@@ -297,7 +297,7 @@
 
     if-eqz v9, :cond_5
 
-    .line 1466
+    .line 1490
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isTVApplicationTopMost()Z
@@ -310,14 +310,14 @@
 
     if-eqz v9, :cond_3
 
-    .line 1467
+    .line 1491
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     const/4 v10, 0x2
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->sendEmptyMessage(I)Z
 
-    .line 1468
+    .line 1492
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/16 v10, 0x32
@@ -332,7 +332,7 @@
 
     goto :goto_0
 
-    .line 1471
+    .line 1495
     :cond_5
     const-string/jumbo v9, "com.nmi.mtv.app.condor.RESERVATION_STOP"
 
@@ -342,7 +342,7 @@
 
     if-eqz v9, :cond_8
 
-    .line 1472
+    .line 1496
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     iget v9, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mReservationState:I
@@ -351,7 +351,7 @@
 
     if-eq v9, v10, :cond_6
 
-    .line 1473
+    .line 1497
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     iget v9, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mReservationState:I
@@ -360,7 +360,7 @@
 
     if-ne v9, v10, :cond_7
 
-    .line 1474
+    .line 1498
     :cond_6
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -368,7 +368,7 @@
 
     iput v10, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mReservationState:I
 
-    .line 1475
+    .line 1499
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/16 v10, 0xd
@@ -383,7 +383,7 @@
 
     goto :goto_0
 
-    .line 1477
+    .line 1501
     :cond_7
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -393,14 +393,14 @@
 
     if-ne v9, v10, :cond_3
 
-    .line 1478
+    .line 1502
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/4 v10, -0x1
 
     iput v10, v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mReservationState:I
 
-    .line 1479
+    .line 1503
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/16 v10, 0xe
@@ -415,7 +415,7 @@
 
     goto :goto_0
 
-    .line 1482
+    .line 1506
     :cond_8
     const-string/jumbo v9, "android.intent.action.BATTERY_CHANGED"
 
@@ -425,7 +425,7 @@
 
     if-eqz v9, :cond_9
 
-    .line 1483
+    .line 1507
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -440,7 +440,7 @@
 
     if-gt v0, v9, :cond_3
 
-    .line 1484
+    .line 1508
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/16 v10, 0x46
@@ -455,7 +455,7 @@
 
     goto/16 :goto_0
 
-    .line 1487
+    .line 1511
     :cond_9
     const-string/jumbo v9, "android.intent.action.MEDIA_EJECT"
 
@@ -465,12 +465,12 @@
 
     if-eqz v9, :cond_c
 
-    .line 1489
+    .line 1513
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-eqz v9, :cond_b
 
-    .line 1491
+    .line 1515
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/isdbt/controller/MtvController;->isRecording()Z
@@ -493,14 +493,14 @@
 
     if-ne v9, v10, :cond_a
 
-    .line 1492
+    .line 1516
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     const/4 v10, 0x0
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/isdbt/controller/MtvController;->stopRec(Z)V
 
-    .line 1494
+    .line 1518
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -511,7 +511,7 @@
 
     invoke-static {v9, v10}, Lcom/nmi/mtv/app/core/util/Util;->ToastShow(Landroid/content/Context;I)V
 
-    .line 1496
+    .line 1520
     :cond_a
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -527,7 +527,7 @@
 
     if-ne v9, v10, :cond_b
 
-    .line 1497
+    .line 1521
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -538,7 +538,7 @@
 
     invoke-static {v9, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setStorageType(Landroid/content/Context;I)Z
 
-    .line 1500
+    .line 1524
     :cond_b
     const/4 v9, 0x1
 
@@ -546,14 +546,14 @@
 
     if-ne v0, v9, :cond_3
 
-    .line 1501
+    .line 1525
     const/4 v9, 0x0
 
     sput-object v9, Lcom/nmi/mtv/app/core/common/CommonType;->MY_TV_FILES_SD_PATH:Ljava/lang/String;
 
     goto/16 :goto_0
 
-    .line 1504
+    .line 1528
     :cond_c
     const-string/jumbo v9, "android.intent.action.MEDIA_MOUNTED"
 
@@ -563,14 +563,14 @@
 
     if-eqz v9, :cond_d
 
-    .line 1506
+    .line 1530
     const/4 v9, 0x1
 
     move/from16 v0, p2
 
     if-ne v0, v9, :cond_3
 
-    .line 1507
+    .line 1531
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -581,7 +581,7 @@
 
     goto/16 :goto_0
 
-    .line 1510
+    .line 1534
     :cond_d
     const-string/jumbo v9, "android.intent.action.MEDIA_SCANNER_STARTED"
 
@@ -591,7 +591,7 @@
 
     if-eqz v9, :cond_e
 
-    .line 1511
+    .line 1535
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const v10, 0x7f0a00a9
@@ -602,7 +602,7 @@
 
     goto/16 :goto_0
 
-    .line 1513
+    .line 1537
     :cond_e
     const-string/jumbo v9, "android.intent.action.USER_PRESENT"
 
@@ -612,7 +612,7 @@
 
     if-eqz v9, :cond_10
 
-    .line 1515
+    .line 1539
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isTVApplicationTopMost()Z
@@ -621,7 +621,7 @@
 
     if-eqz v9, :cond_3
 
-    .line 1516
+    .line 1540
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -636,7 +636,7 @@
 
     if-lt v9, v10, :cond_3
 
-    .line 1517
+    .line 1541
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -657,11 +657,11 @@
 
     move-result-object v4
 
-    .line 1518
+    .line 1542
     .local v4, "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
     if-nez v4, :cond_f
 
-    .line 1519
+    .line 1543
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -672,7 +672,7 @@
 
     move-result-object v4
 
-    .line 1521
+    .line 1545
     :cond_f
     if-eqz v4, :cond_3
 
@@ -682,12 +682,12 @@
 
     if-nez v9, :cond_3
 
-    .line 1522
+    .line 1546
     invoke-static {v4}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startTV(Lcom/nmi/mtv/app/core/db/DBChannel;)Z
 
     goto/16 :goto_0
 
-    .line 1526
+    .line 1550
     .end local v4    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
     :cond_10
     const-string/jumbo v9, "com.nmi.mtv.app.condor.DTV_START"
@@ -700,19 +700,19 @@
 
     move-object/from16 v6, p4
 
-    .line 1527
+    .line 1551
     check-cast v6, Landroid/content/Intent;
 
-    .line 1528
+    .line 1552
     .local v6, "i":Landroid/content/Intent;
     if-eqz v6, :cond_11
 
-    .line 1529
+    .line 1553
     new-instance v3, Lcom/nmi/mtv/app/core/db/DBChannel;
 
     invoke-direct {v3}, Lcom/nmi/mtv/app/core/db/DBChannel;-><init>()V
 
-    .line 1530
+    .line 1554
     .local v3, "ch":Lcom/nmi/mtv/app/core/db/DBChannel;
     const-string/jumbo v9, "last_pch"
 
@@ -724,7 +724,7 @@
 
     iput v9, v3, Lcom/nmi/mtv/app/core/db/DBChannel;->mPhysicalNum:I
 
-    .line 1531
+    .line 1555
     const-string/jumbo v9, "last_serviceid"
 
     const/4 v10, -0x1
@@ -735,7 +735,7 @@
 
     iput v9, v3, Lcom/nmi/mtv/app/core/db/DBChannel;->mServiceID:I
 
-    .line 1532
+    .line 1556
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -746,16 +746,16 @@
 
     move-result-object v4
 
-    .line 1533
+    .line 1557
     .restart local v4    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
     if-eqz v4, :cond_3
 
-    .line 1534
+    .line 1558
     invoke-static {v4}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startTV(Lcom/nmi/mtv/app/core/db/DBChannel;)Z
 
     goto/16 :goto_0
 
-    .line 1537
+    .line 1561
     .end local v3    # "ch":Lcom/nmi/mtv/app/core/db/DBChannel;
     .end local v4    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
     :cond_11
@@ -779,16 +779,16 @@
 
     move-result-object v5
 
-    .line 1538
+    .line 1562
     .local v5, "curChannel":Lcom/nmi/mtv/app/core/db/DBChannel;
     if-eqz v5, :cond_3
 
-    .line 1539
+    .line 1563
     invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startTV(Lcom/nmi/mtv/app/core/db/DBChannel;)Z
 
     goto/16 :goto_0
 
-    .line 1542
+    .line 1566
     .end local v5    # "curChannel":Lcom/nmi/mtv/app/core/db/DBChannel;
     .end local v6    # "i":Landroid/content/Intent;
     :cond_12
@@ -800,14 +800,14 @@
 
     if-eqz v9, :cond_13
 
-    .line 1543
+    .line 1567
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->stopTV()V
 
     goto/16 :goto_0
 
-    .line 1545
+    .line 1569
     :cond_13
     const-string/jumbo v9, "com.nmi.mtv.app.condor.DTV_MUTE"
 
@@ -817,12 +817,12 @@
 
     if-eqz v9, :cond_14
 
-    .line 1546
+    .line 1570
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-eqz v9, :cond_3
 
-    .line 1547
+    .line 1571
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     const/4 v10, 0x1
@@ -831,7 +831,7 @@
 
     goto/16 :goto_0
 
-    .line 1549
+    .line 1573
     :cond_14
     const-string/jumbo v9, "com.nmi.mtv.app.condor.DTV_UNMUTE"
 
@@ -841,7 +841,7 @@
 
     if-eqz v9, :cond_15
 
-    .line 1550
+    .line 1574
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -858,7 +858,7 @@
 
     if-eqz v9, :cond_3
 
-    .line 1551
+    .line 1575
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     const/4 v10, 0x0
@@ -867,7 +867,7 @@
 
     goto/16 :goto_0
 
-    .line 1553
+    .line 1577
     :cond_15
     const-string/jumbo v9, "com.nmi.mtv.app.condor.AUDIO_FOCUS_LOSS"
 
@@ -877,7 +877,7 @@
 
     if-eqz v9, :cond_16
 
-    .line 1554
+    .line 1578
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const v10, 0x7f0a00b1
@@ -888,7 +888,7 @@
 
     goto/16 :goto_0
 
-    .line 1556
+    .line 1580
     :cond_16
     const-string/jumbo v9, "android.provider.Telephony.SMS_RECEIVED"
 
@@ -898,7 +898,7 @@
 
     if-eqz v9, :cond_17
 
-    .line 1558
+    .line 1582
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -911,7 +911,7 @@
 
     goto/16 :goto_0
 
-    .line 1560
+    .line 1584
     :cond_17
     const-string/jumbo v9, "com.nmi.mtv.app.condor.GINGA_STARTED"
 
@@ -921,7 +921,7 @@
 
     if-eqz v9, :cond_18
 
-    .line 1561
+    .line 1585
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/16 v10, 0x18
@@ -936,7 +936,7 @@
 
     goto/16 :goto_0
 
-    .line 1563
+    .line 1587
     :cond_18
     const-string/jumbo v9, "com.nmi.mtv.app.condor.GINGA_TERMINATED"
 
@@ -946,7 +946,7 @@
 
     if-eqz v9, :cond_19
 
-    .line 1564
+    .line 1588
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/16 v10, 0x19
@@ -961,7 +961,7 @@
 
     goto/16 :goto_0
 
-    .line 1566
+    .line 1590
     :cond_19
     const-string/jumbo v9, "com.nmi.mtv.app.condor.CHANGE_VIDEO_SIZE"
 
@@ -971,7 +971,7 @@
 
     if-eqz v9, :cond_1b
 
-    .line 1567
+    .line 1591
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-static {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-get9(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
@@ -984,16 +984,16 @@
 
     move-object/from16 v6, p4
 
-    .line 1568
+    .line 1592
     check-cast v6, Landroid/content/Intent;
 
-    .line 1569
+    .line 1593
     .restart local v6    # "i":Landroid/content/Intent;
     new-instance v8, Landroid/graphics/Rect;
 
     invoke-direct {v8}, Landroid/graphics/Rect;-><init>()V
 
-    .line 1570
+    .line 1594
     .local v8, "size":Landroid/graphics/Rect;
     const-string/jumbo v9, "com.nmi.mtv.app.condor.INTENT_EXTRA_VIDEO_REGION_LEFT"
 
@@ -1005,7 +1005,7 @@
 
     iput v9, v8, Landroid/graphics/Rect;->left:I
 
-    .line 1571
+    .line 1595
     const-string/jumbo v9, "com.nmi.mtv.app.condor.INTENT_EXTRA_VIDEO_REGION_TOP"
 
     const/high16 v10, -0x80000000
@@ -1016,7 +1016,7 @@
 
     iput v9, v8, Landroid/graphics/Rect;->top:I
 
-    .line 1572
+    .line 1596
     const-string/jumbo v9, "com.nmi.mtv.app.condor.INTENT_EXTRA_VIDEO_REGION_RIGHT"
 
     const/high16 v10, -0x80000000
@@ -1027,7 +1027,7 @@
 
     iput v9, v8, Landroid/graphics/Rect;->right:I
 
-    .line 1573
+    .line 1597
     const-string/jumbo v9, "com.nmi.mtv.app.condor.INTENT_EXTRA_VIDEO_REGION_BOTTOM"
 
     const/high16 v10, -0x80000000
@@ -1038,14 +1038,14 @@
 
     iput v9, v8, Landroid/graphics/Rect;->bottom:I
 
-    .line 1575
+    .line 1599
     iget v9, v8, Landroid/graphics/Rect;->left:I
 
     const/high16 v10, -0x80000000
 
     if-ne v9, v10, :cond_1a
 
-    .line 1576
+    .line 1600
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-static {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-get9(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
@@ -1064,7 +1064,7 @@
 
     goto/16 :goto_0
 
-    .line 1578
+    .line 1602
     :cond_1a
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -1082,7 +1082,7 @@
 
     goto/16 :goto_0
 
-    .line 1581
+    .line 1605
     .end local v6    # "i":Landroid/content/Intent;
     .end local v8    # "size":Landroid/graphics/Rect;
     :cond_1b
@@ -1094,14 +1094,14 @@
 
     if-eqz v9, :cond_1c
 
-    .line 1583
+    .line 1607
     const/4 v9, 0x1
 
     move/from16 v0, p2
 
     if-ne v0, v9, :cond_3
 
-    .line 1584
+    .line 1608
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -1112,7 +1112,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1585
+    .line 1609
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -1127,7 +1127,7 @@
 
     goto/16 :goto_0
 
-    .line 1590
+    .line 1614
     :cond_1c
     const-string/jumbo v9, "com.nmi.mtv.app.condor.MTV_APP_TERMINATE"
 
@@ -1137,17 +1137,17 @@
 
     if-eqz v9, :cond_1d
 
-    .line 1591
+    .line 1615
     const-string/jumbo v9, "MainActivity SystemEvent ACTION_MTV_APP_TERMINATE"
 
     invoke-static {v9}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 1593
+    .line 1617
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v9, :cond_3
 
-    .line 1594
+    .line 1618
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -1158,7 +1158,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1595
+    .line 1619
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -1171,7 +1171,7 @@
 
     goto/16 :goto_0
 
-    .line 1597
+    .line 1621
     :cond_1d
     const-string/jumbo v9, "android.intent.action.USER_BACKGROUND"
 
@@ -1181,12 +1181,12 @@
 
     if-eqz v9, :cond_20
 
-    .line 1598
+    .line 1622
     const-string/jumbo v9, "MainActivity SystemEvent ACTION_USER_BACKGROUND"
 
     invoke-static {v9}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 1600
+    .line 1624
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-static {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-get1(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
@@ -1195,7 +1195,7 @@
 
     if-eqz v9, :cond_1e
 
-    .line 1601
+    .line 1625
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -1210,25 +1210,25 @@
 
     invoke-static {v9, v10}, Lcom/nmi/mtv/app/core/sound/SoundManager;->abandonAudioFocus(Landroid/content/Context;Landroid/media/AudioManager$OnAudioFocusChangeListener;)V
 
-    .line 1602
+    .line 1626
     iget-object v9, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/4 v10, 0x0
 
     invoke-static {v9, v10}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-set1(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;)Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
-    .line 1605
+    .line 1629
     :cond_1e
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v9, :cond_1f
 
-    .line 1606
+    .line 1630
     const-string/jumbo v9, "MainActivity SystemEvent ACTION_USER_BACKGROUND handler is not null"
 
     invoke-static {v9}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 1607
+    .line 1631
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -1239,7 +1239,7 @@
 
     invoke-virtual {v9, v10}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1608
+    .line 1632
     sget-object v9, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v10, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -1252,13 +1252,13 @@
 
     goto/16 :goto_0
 
-    .line 1610
+    .line 1634
     :cond_1f
     const-string/jumbo v9, "MainActivity SystemEvent ACTION_USER_BACKGROUND handler is null"
 
     invoke-static {v9}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 1611
+    .line 1635
     new-instance v9, Landroid/os/Handler;
 
     invoke-direct {v9}, Landroid/os/Handler;-><init>()V
@@ -1273,7 +1273,7 @@
 
     goto/16 :goto_0
 
-    .line 1615
+    .line 1639
     :cond_20
     const-string/jumbo v9, "android.intent.action.USER_FOREGROUND"
 
@@ -1283,7 +1283,7 @@
 
     if-eqz v9, :cond_3
 
-    .line 1616
+    .line 1640
     const-string/jumbo v9, "chantest MainActivity SystemEvent ACTION_USER_FOREGROUND"
 
     invoke-static {v9}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V

@@ -169,11 +169,11 @@
     invoke-static {v3}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
     .line 60
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    move-result v3
+    const/16 v4, 0x17
 
-    if-eqz v3, :cond_0
+    if-lt v3, v4, :cond_0
 
     .line 61
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/shortcut/ShortCutActivity;->getWindow()Landroid/view/Window;

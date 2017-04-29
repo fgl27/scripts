@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 1384
+    .line 1389
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -52,7 +52,7 @@
     .param p1, "focusChange"    # I
 
     .prologue
-    .line 1387
+    .line 1392
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -71,53 +71,31 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
+    invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 1388
+    .line 1393
     packed-switch p1, :pswitch_data_0
 
-    .line 1386
+    .line 1391
     :cond_0
     :goto_0
     :pswitch_0
     return-void
 
-    .line 1390
+    .line 1401
     :pswitch_1
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    if-eqz v1, :cond_1
-
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    invoke-virtual {v1}, Lcom/nmi/mtv/isdbt/controller/MtvController;->isRecording()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 1391
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    const/4 v2, 0x1
-
-    invoke-virtual {v1, v2}, Lcom/nmi/mtv/isdbt/controller/MtvController;->stopRec(Z)V
-
-    .line 1396
-    :cond_1
-    :pswitch_2
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v1, :cond_0
 
-    .line 1397
+    .line 1402
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMute:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1398
+    .line 1403
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMute:Ljava/lang/Runnable;
@@ -128,8 +106,8 @@
 
     goto :goto_0
 
-    .line 1402
-    :pswitch_3
+    .line 1407
+    :pswitch_2
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-eqz v1, :cond_0
@@ -138,14 +116,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 1403
+    .line 1408
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMute:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1404
+    .line 1409
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     const/4 v2, 0x0
@@ -154,13 +132,13 @@
 
     goto :goto_0
 
-    .line 1408
-    :pswitch_4
+    .line 1413
+    :pswitch_3
     const-string/jumbo v1, "AudioManager.AUDIOFOCUS_LOSS"
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 1409
+    .line 1414
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v1
@@ -179,18 +157,18 @@
 
     if-ne v1, v2, :cond_0
 
-    .line 1410
+    .line 1415
     new-instance v0, Landroid/content/Intent;
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    .line 1411
+    .line 1416
     .local v0, "i":Landroid/content/Intent;
     const-string/jumbo v1, "com.nmi.mtv.app.condor.AUDIO_FOCUS_LOSS"
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 1412
+    .line 1417
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isFinishing()Z
@@ -199,7 +177,7 @@
 
     if-nez v1, :cond_0
 
-    .line 1413
+    .line 1418
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-static {v1}, Landroid/support/v4/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroid/support/v4/content/LocalBroadcastManager;
@@ -210,15 +188,15 @@
 
     goto :goto_0
 
-    .line 1388
+    .line 1393
     nop
 
     :pswitch_data_0
     .packed-switch -0x3
-        :pswitch_2
         :pswitch_1
-        :pswitch_4
-        :pswitch_0
+        :pswitch_1
         :pswitch_3
+        :pswitch_0
+        :pswitch_2
     .end packed-switch
 .end method

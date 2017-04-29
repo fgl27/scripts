@@ -67,11 +67,11 @@
 
     .line 155
     :pswitch_2
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    move-result v0
+    const/16 v1, 0x17
 
-    if-eqz v0, :cond_1
+    if-lt v0, v1, :cond_1
 
     .line 156
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerListView$1;->this$0:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerListView;

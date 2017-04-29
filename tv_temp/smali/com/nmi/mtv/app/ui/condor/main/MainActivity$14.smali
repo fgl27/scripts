@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 1274
+    .line 1279
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$14;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,7 +43,7 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 1276
+    .line 1281
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$14;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -54,13 +54,13 @@
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setBatteryLimit(Landroid/content/Context;I)Z
 
-    .line 1277
+    .line 1282
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$14;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-set2(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Landroid/app/AlertDialog;)Landroid/app/AlertDialog;
 
-    .line 1275
+    .line 1280
     return-void
 .end method

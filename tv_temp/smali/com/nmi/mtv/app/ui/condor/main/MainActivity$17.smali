@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 1300
+    .line 1305
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$17;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +42,12 @@
     .param p1, "dialog"    # Landroid/content/DialogInterface;
 
     .prologue
-    .line 1303
+    .line 1308
     invoke-static {}, Lcom/nmi/mtv/app/core/util/TopContext;->getTopContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 1304
+    .line 1309
     .local v0, "context":Landroid/content/Context;
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$17;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -59,7 +59,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 1305
+    .line 1310
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$17;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-get2(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)Landroid/app/AlertDialog;
@@ -84,7 +84,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setTextColor(I)V
 
-    .line 1302
+    .line 1307
     :cond_0
     return-void
 .end method

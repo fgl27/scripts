@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 626
+    .line 631
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$12;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,9 +43,9 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 630
+    .line 635
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 628
+    .line 633
     return-void
 .end method

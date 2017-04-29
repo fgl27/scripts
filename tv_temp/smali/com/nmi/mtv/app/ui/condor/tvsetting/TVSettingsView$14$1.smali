@@ -27,7 +27,7 @@
     .param p1, "this$1"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;
 
     .prologue
-    .line 710
+    .line 708
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,14 +44,14 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 712
+    .line 710
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;
 
     iget-object v0, v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->resetAllSettings()V
 
-    .line 713
+    .line 711
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;
 
     iget-object v0, v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
@@ -62,7 +62,7 @@
 
     invoke-virtual {v0, v1, v1}, Landroid/widget/ScrollView;->scrollTo(II)V
 
-    .line 714
+    .line 712
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;
 
     iget-object v0, v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
@@ -81,7 +81,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 711
+    .line 709
     return-void
 .end method
 
@@ -89,6 +89,6 @@
     .locals 0
 
     .prologue
-    .line 717
+    .line 715
     return-void
 .end method

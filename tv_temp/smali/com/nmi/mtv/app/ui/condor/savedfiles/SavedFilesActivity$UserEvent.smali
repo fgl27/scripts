@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     .prologue
-    .line 115
+    .line 114
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -45,14 +45,14 @@
     .param p4, "obj"    # Ljava/lang/Object;
 
     .prologue
-    .line 119
+    .line 118
     packed-switch p1, :pswitch_data_0
 
-    .line 117
+    .line 116
     :goto_0
     return-void
 
-    .line 121
+    .line 120
     :pswitch_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
@@ -60,7 +60,7 @@
 
     goto :goto_0
 
-    .line 119
+    .line 118
     :pswitch_data_0
     .packed-switch 0x3e9
         :pswitch_0

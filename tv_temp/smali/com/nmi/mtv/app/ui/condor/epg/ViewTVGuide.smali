@@ -70,14 +70,6 @@
     return-object v0
 .end method
 
-.method static synthetic -get3(Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
-    .locals 1
-
-    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
-
-    return-object v0
-.end method
-
 .method static synthetic -wrap0(Lcom/nmi/mtv/app/ui/condor/epg/ViewTVGuide;)V
     .locals 0
 

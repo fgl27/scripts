@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     .prologue
-    .line 164
+    .line 163
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -55,7 +55,7 @@
     .param p4, "obj"    # Ljava/lang/Object;
 
     .prologue
-    .line 166
+    .line 165
     const-string/jumbo v0, "com.nmi.mtv.app.condor.ACTIVITY_CLOSE"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -64,17 +64,17 @@
 
     if-eqz v0, :cond_1
 
-    .line 167
+    .line 166
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->finish()V
 
-    .line 165
+    .line 164
     :cond_0
     :goto_0
     return-void
 
-    .line 168
+    .line 167
     :cond_1
     const-string/jumbo v0, "android.intent.action.MEDIA_EJECT"
 
@@ -84,7 +84,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 169
+    .line 168
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;)Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
@@ -93,7 +93,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 170
+    .line 169
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;)Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
@@ -104,7 +104,7 @@
 
     goto :goto_0
 
-    .line 171
+    .line 170
     :cond_2
     const-string/jumbo v0, "android.intent.action.MEDIA_MOUNTED"
 
@@ -114,7 +114,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 172
+    .line 171
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;)Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
@@ -123,7 +123,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 173
+    .line 172
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;)Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;

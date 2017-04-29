@@ -38,41 +38,41 @@
 
 # virtual methods
 .method public onUserEvent(IIILjava/lang/Object;)V
-    .locals 11
+    .locals 8
     .param p1, "event"    # I
     .param p2, "arg1"    # I
     .param p3, "arg2"    # I
     .param p4, "obj"    # Ljava/lang/Object;
 
     .prologue
-    const/16 v10, 0x3e8
+    const/16 v7, 0x3e8
 
-    const/4 v9, 0x0
+    const/4 v6, 0x0
 
-    const/4 v8, 0x0
+    const/4 v5, 0x0
 
-    const/4 v7, 0x0
+    const/4 v4, 0x0
 
     .line 274
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get1(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)I
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get1(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)I
 
-    move-result v5
+    move-result v2
 
-    const/16 v6, 0x6a
+    const/16 v3, 0x6a
 
-    if-eq v5, v6, :cond_0
+    if-eq v2, v3, :cond_0
 
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get1(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)I
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get1(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)I
 
-    move-result v5
+    move-result v2
 
-    const/16 v6, 0xbf
+    const/16 v3, 0xbf
 
-    if-ne v5, v6, :cond_1
+    if-ne v2, v3, :cond_1
 
     .line 275
     :cond_0
@@ -80,9 +80,9 @@
 
     .line 277
     :cond_1
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5, p1}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-set0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;I)I
+    invoke-static {v2, p1}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-set0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;I)I
 
     .line 279
     sparse-switch p1, :sswitch_data_0
@@ -95,46 +95,46 @@
 
     .line 281
     :sswitch_1
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->finish()V
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->finish()V
 
     goto :goto_0
 
     .line 286
     :sswitch_2
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v2
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/core/db/DBChannelManager;->deleteAll(Landroid/content/Context;)V
+    invoke-static {v2}, Lcom/nmi/mtv/app/core/db/DBChannelManager;->deleteAll(Landroid/content/Context;)V
 
     .line 287
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v2
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/core/db/DBProgramManager;->deleteAll(Landroid/content/Context;)V
+    invoke-static {v2}, Lcom/nmi/mtv/app/core/db/DBProgramManager;->deleteAll(Landroid/content/Context;)V
 
     .line 288
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
 
-    move-result-object v5
+    move-result-object v2
 
-    const/16 v6, 0x32
+    const/16 v3, 0x32
 
-    invoke-virtual {v5, v6, v8, v8, v7}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->update(IIILjava/lang/Object;)V
+    invoke-virtual {v2, v3, v5, v5, v4}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->update(IIILjava/lang/Object;)V
 
     .line 289
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->scanStart()V
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->scanStart()V
 
     goto :goto_0
 
@@ -146,13 +146,13 @@
 
     .line 294
     .local v0, "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v2
 
-    invoke-static {v5, v0}, Lcom/nmi/mtv/app/core/db/DBChannelManager;->find(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBChannel;)Lcom/nmi/mtv/app/core/db/DBChannel;
+    invoke-static {v2, v0}, Lcom/nmi/mtv/app/core/db/DBChannelManager;->find(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBChannel;)Lcom/nmi/mtv/app/core/db/DBChannel;
 
     move-result-object v0
 
@@ -162,26 +162,26 @@
     .line 302
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->startTV(Lcom/nmi/mtv/app/core/db/DBChannel;)Z
 
-    move-result v5
+    move-result v2
 
-    if-eqz v5, :cond_2
+    if-eqz v2, :cond_2
 
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
 
-    move-result-object v5
+    move-result-object v2
 
-    if-eqz v5, :cond_2
+    if-eqz v2, :cond_2
 
     .line 303
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
 
-    move-result-object v5
+    move-result-object v2
 
-    invoke-virtual {v5, v8, v8, v8, v7}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->update(IIILjava/lang/Object;)V
+    invoke-virtual {v2, v5, v5, v5, v4}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->update(IIILjava/lang/Object;)V
 
     goto :goto_0
 
@@ -203,58 +203,58 @@
 
     .line 313
     .local v1, "intent":Landroid/content/Intent;
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v2
 
-    const-class v6, Lcom/nmi/mtv/app/ui/condor/epg/TVGuideActivity;
+    const-class v3, Lcom/nmi/mtv/app/ui/condor/epg/TVGuideActivity;
 
-    invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
     .line 314
-    const-string/jumbo v5, "com.nmi.mtv.app.condor.CHANNEL_NAME"
+    const-string/jumbo v2, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
-    iget-object v6, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mChannelName:Ljava/lang/String;
+    iget-object v3, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mChannelName:Ljava/lang/String;
 
-    invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 315
-    const-string/jumbo v5, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
+    const-string/jumbo v2, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
-    iget v6, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mPhysicalNum:I
+    iget v3, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mPhysicalNum:I
 
-    invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 317
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5, v1, v10}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {v2, v1, v7}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 318
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
 
-    move-result-object v5
+    move-result-object v2
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->hide()V
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->hide()V
 
     .line 319
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v2
 
-    iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v6}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getWindow()Landroid/view/Window;
 
-    move-result-object v6
+    move-result-object v3
 
-    invoke-static {v5, v6, v9}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
+    invoke-static {v2, v3, v6}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
 
     goto/16 :goto_0
 
@@ -277,132 +277,55 @@
 
     .line 329
     .restart local v1    # "intent":Landroid/content/Intent;
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
 
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
-
-    move-result-object v5
-
-    const-class v6, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;
-
-    invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
-
-    .line 330
-    const-string/jumbo v5, "com.nmi.mtv.app.condor.DTV_MANUAL_RESERVE"
-
-    const/4 v6, 0x1
-
-    invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
-
-    .line 331
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-virtual {v5, v1, v10}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->startActivityForResult(Landroid/content/Intent;I)V
-
-    .line 332
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->hide()V
-
-    .line 333
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
-
-    move-result-object v5
-
-    iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-virtual {v6}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getWindow()Landroid/view/Window;
-
-    move-result-object v6
-
-    invoke-static {v5, v6, v9}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
-
-    goto/16 :goto_0
-
-    .end local v0    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
-    .end local v1    # "intent":Landroid/content/Intent;
-    :sswitch_6
-    move-object v0, p4
-
-    .line 338
-    check-cast v0, Lcom/nmi/mtv/app/core/db/DBChannel;
-
-    .line 341
-    .restart local v0    # "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-virtual {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v2
 
-    .line 342
-    .local v2, "packageName":Ljava/lang/String;
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+    const-class v3, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;
 
-    const-string/jumbo v6, "power"
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    invoke-virtual {v5, v6}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    .line 330
+    const-string/jumbo v2, "com.nmi.mtv.app.condor.DTV_MANUAL_RESERVE"
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+
+    .line 331
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+
+    invoke-virtual {v2, v1, v7}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->startActivityForResult(Landroid/content/Intent;I)V
+
+    .line 332
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+
+    invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->hide()V
+
+    .line 333
+    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+
+    invoke-virtual {v2}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getBaseContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
+
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v3
 
-    check-cast v3, Landroid/os/PowerManager;
-
-    .line 343
-    .local v3, "pm":Landroid/os/PowerManager;
-    sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v6, 0x17
-
-    if-lt v5, v6, :cond_3
-
-    .line 344
-    invoke-virtual {v3, v2}, Landroid/os/PowerManager;->isIgnoringBatteryOptimizations(Ljava/lang/String;)Z
-
-    move-result v4
-
-    .line 345
-    .local v4, "ret":Z
-    if-nez v4, :cond_3
-
-    .line 346
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-virtual {v5, v0}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->ckeckBatteryOptimizations(Lcom/nmi/mtv/app/core/db/DBChannel;)V
-
-    .line 347
-    return-void
-
-    .line 350
-    .end local v4    # "ret":Z
-    :cond_3
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
-
-    move-result-object v5
-
-    if-eqz v5, :cond_2
-
-    .line 351
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity$UserEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;
-
-    invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->-get0(Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;)Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v0}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->addSchedule(Lcom/nmi/mtv/app/core/db/DBChannel;)V
+    invoke-static {v2, v3, v6}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
 
     goto/16 :goto_0
 
     .line 279
-    nop
-
     :sswitch_data_0
     .sparse-switch
         0x65 -> :sswitch_3
@@ -411,6 +334,5 @@
         0x6e -> :sswitch_0
         0xbf -> :sswitch_5
         0x3e9 -> :sswitch_1
-        0x42e -> :sswitch_6
     .end sparse-switch
 .end method

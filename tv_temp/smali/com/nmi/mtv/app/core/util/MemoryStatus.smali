@@ -8,7 +8,7 @@
     .locals 0
 
     .prologue
-    .line 16
+    .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -21,48 +21,48 @@
     .prologue
     const-wide/high16 v4, 0x4090000000000000L    # 1024.0
 
-    .line 183
+    .line 171
     const-string/jumbo v2, ""
 
-    .line 184
+    .line 172
     .local v2, "suffix":Ljava/lang/String;
     long-to-double v0, p0
 
-    .line 186
+    .line 174
     .local v0, "dSize":D
     cmpl-double v3, v0, v4
 
     if-ltz v3, :cond_0
 
-    .line 187
+    .line 175
     const-string/jumbo v2, "KB"
 
-    .line 188
+    .line 176
     div-double/2addr v0, v4
 
-    .line 189
+    .line 177
     cmpl-double v3, v0, v4
 
     if-ltz v3, :cond_0
 
-    .line 190
+    .line 178
     const-string/jumbo v2, "MB"
 
-    .line 191
+    .line 179
     div-double/2addr v0, v4
 
-    .line 192
+    .line 180
     cmpl-double v3, v0, v4
 
     if-ltz v3, :cond_0
 
-    .line 193
+    .line 181
     const-string/jumbo v2, "GB"
 
-    .line 194
+    .line 182
     div-double/2addr v0, v4
 
-    .line 199
+    .line 187
     :cond_0
     const-string/jumbo v3, "KB"
 
@@ -76,7 +76,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 200
+    .line 188
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -105,7 +105,7 @@
 
     return-object v3
 
-    .line 202
+    .line 190
     :cond_1
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -141,21 +141,21 @@
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 28
+    .line 27
     invoke-static {p0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getStorageType(Landroid/content/Context;)I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 29
+    .line 28
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->getAvailableInternalMemorySize(Landroid/content/Context;)J
 
     move-result-wide v0
 
     return-wide v0
 
-    .line 31
+    .line 30
     :cond_0
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->getAvailableExternalMemorySize(Landroid/content/Context;)J
 
@@ -165,108 +165,90 @@
 .end method
 
 .method public static getAvailableExternalMemorySize(Landroid/content/Context;)J
-    .locals 8
+    .locals 4
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 150
+    .line 139
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->isExternalMemoryMounted(Landroid/content/Context;)Z
 
-    move-result v5
+    move-result v2
 
-    if-eqz v5, :cond_0
+    if-eqz v2, :cond_0
 
-    .line 151
-    new-instance v4, Landroid/os/StatFs;
+    .line 140
+    const/4 v0, 0x0
 
+    .line 141
+    .local v0, "file":Ljava/io/File;
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->getExternalDirectoryPath(Landroid/content/Context;)Ljava/lang/String;
 
-    move-result-object v5
+    move-result-object v1
 
-    invoke-direct {v4, v5}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+    .line 142
+    .local v1, "path":Ljava/lang/String;
+    if-eqz v1, :cond_0
 
-    .line 153
-    .local v4, "stat":Landroid/os/StatFs;
-    invoke-virtual {v4}, Landroid/os/StatFs;->getBlockSizeLong()J
+    .line 143
+    new-instance v0, Ljava/io/File;
+
+    .end local v0    # "file":Ljava/io/File;
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    .line 144
+    .local v0, "file":Ljava/io/File;
+    if-eqz v0, :cond_0
+
+    .line 145
+    invoke-virtual {v0}, Ljava/io/File;->getUsableSpace()J
 
     move-result-wide v2
 
-    .line 154
-    .local v2, "blockSize":J
-    invoke-virtual {v4}, Landroid/os/StatFs;->getAvailableBlocksLong()J
+    return-wide v2
 
-    move-result-wide v0
-
-    .line 156
-    .local v0, "availableBlocks":J
-    mul-long v6, v0, v2
-
-    return-wide v6
-
-    .line 158
-    .end local v0    # "availableBlocks":J
-    .end local v2    # "blockSize":J
-    .end local v4    # "stat":Landroid/os/StatFs;
+    .line 148
+    .end local v0    # "file":Ljava/io/File;
+    .end local v1    # "path":Ljava/lang/String;
     :cond_0
-    const-wide/16 v6, -0x1
+    const-wide/16 v2, 0x0
 
-    return-wide v6
+    return-wide v2
 .end method
 
 .method public static getAvailableInternalMemorySize(Landroid/content/Context;)J
-    .locals 8
+    .locals 4
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 43
+    .line 42
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->isInternalMemoryMounted(Landroid/content/Context;)Z
 
-    move-result v6
+    move-result v1
 
-    if-eqz v6, :cond_0
+    if-eqz v1, :cond_0
 
-    .line 44
+    .line 43
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
-    move-result-object v4
+    move-result-object v0
+
+    .line 44
+    .local v0, "file":Ljava/io/File;
+    if-eqz v0, :cond_0
 
     .line 45
-    .local v4, "path":Ljava/io/File;
-    new-instance v5, Landroid/os/StatFs;
-
-    invoke-virtual {v4}, Ljava/io/File;->getPath()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-direct {v5, v6}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
-
-    .line 47
-    .local v5, "stat":Landroid/os/StatFs;
-    invoke-virtual {v5}, Landroid/os/StatFs;->getBlockSizeLong()J
+    invoke-virtual {v0}, Ljava/io/File;->getUsableSpace()J
 
     move-result-wide v2
 
-    .line 48
-    .local v2, "blockSize":J
-    invoke-virtual {v5}, Landroid/os/StatFs;->getAvailableBlocksLong()J
+    return-wide v2
 
-    move-result-wide v0
-
-    .line 50
-    .local v0, "availableBlocks":J
-    mul-long v6, v0, v2
-
-    return-wide v6
-
-    .line 52
-    .end local v0    # "availableBlocks":J
-    .end local v2    # "blockSize":J
-    .end local v4    # "path":Ljava/io/File;
-    .end local v5    # "stat":Landroid/os/StatFs;
+    .line 47
+    .end local v0    # "file":Ljava/io/File;
     :cond_0
-    const-wide/16 v6, -0x1
+    const-wide/16 v2, 0x0
 
-    return-wide v6
+    return-wide v2
 .end method
 
 .method public static getExternalDirectoryPath(Landroid/content/Context;)Ljava/lang/String;
@@ -276,26 +258,26 @@
     .prologue
     const/4 v6, 0x1
 
-    .line 80
+    .line 71
     const/4 v1, 0x0
 
-    .line 81
+    .line 72
     .local v1, "path":Ljava/lang/String;
-    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    move-result v3
+    const/16 v4, 0x17
 
-    if-eqz v3, :cond_2
+    if-lt v3, v4, :cond_2
 
-    .line 82
+    .line 73
     sget-object v3, Lcom/nmi/mtv/app/core/common/CommonType;->MY_TV_FILES_SD_PATH_FROM_BROADCAST:Ljava/lang/String;
 
     if-eqz v3, :cond_1
 
-    .line 83
+    .line 74
     sget-object v1, Lcom/nmi/mtv/app/core/common/CommonType;->MY_TV_FILES_SD_PATH_FROM_BROADCAST:Ljava/lang/String;
 
-    .line 95
+    .line 86
     .end local v1    # "path":Ljava/lang/String;
     :cond_0
     :goto_0
@@ -319,10 +301,10 @@
 
     invoke-static {v3}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 96
+    .line 87
     return-object v1
 
-    .line 86
+    .line 77
     .restart local v1    # "path":Ljava/lang/String;
     :cond_1
     sget-object v3, Landroid/os/Environment;->DIRECTORY_DCIM:Ljava/lang/String;
@@ -331,7 +313,7 @@
 
     move-result-object v0
 
-    .line 88
+    .line 79
     .local v0, "files":[Ljava/io/File;
     if-eqz v0, :cond_0
 
@@ -343,7 +325,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 89
+    .line 80
     aget-object v3, v0, v6
 
     invoke-virtual {v3}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -358,7 +340,7 @@
 
     move-result-object v2
 
-    .line 90
+    .line 81
     .local v2, "strList":[Ljava/lang/String;
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -397,7 +379,7 @@
     .local v1, "path":Ljava/lang/String;
     goto :goto_0
 
-    .line 94
+    .line 85
     .end local v0    # "files":[Ljava/io/File;
     .end local v2    # "strList":[Ljava/lang/String;
     .local v1, "path":Ljava/lang/String;
@@ -417,28 +399,28 @@
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 58
+    .line 53
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->isInternalMemoryMounted(Landroid/content/Context;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 59
+    .line 54
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v0
 
-    .line 60
-    .local v0, "path":Ljava/io/File;
+    .line 55
+    .local v0, "file":Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v1
 
     return-object v1
 
-    .line 62
-    .end local v0    # "path":Ljava/io/File;
+    .line 57
+    .end local v0    # "file":Ljava/io/File;
     :cond_0
     const/4 v1, 0x0
 
@@ -450,36 +432,36 @@
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 125
+    .line 114
     const/4 v2, 0x0
 
-    .line 127
+    .line 116
     .local v2, "ret":Z
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->getExternalDirectoryPath(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 128
+    .line 117
     .local v1, "path":Ljava/lang/String;
     if-nez v1, :cond_0
 
-    .line 129
+    .line 118
     const/4 v4, 0x0
 
     return v4
 
-    .line 131
+    .line 120
     :cond_0
     :try_start_0
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 132
+    .line 121
     .local v3, "tmpfile":Ljava/io/File;
     invoke-virtual {v3}, Ljava/io/File;->createNewFile()Z
 
-    .line 133
+    .line 122
     invoke-virtual {v3}, Ljava/io/File;->exists()Z
 
     move-result v4
@@ -498,25 +480,25 @@
 
     if-eqz v4, :cond_1
 
-    .line 134
+    .line 123
     const/4 v2, 0x1
 
-    .line 135
+    .line 124
     :cond_1
     invoke-virtual {v3}, Ljava/io/File;->delete()Z
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 141
+    .line 130
     .end local v3    # "tmpfile":Ljava/io/File;
     :goto_0
     return v2
 
-    .line 136
+    .line 125
     :catch_0
     move-exception v0
 
-    .line 137
+    .line 126
     .local v0, "e":Ljava/io/IOException;
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
 
@@ -526,38 +508,33 @@
 .method public static isExternalMemoryMounted(Landroid/content/Context;)Z
     .locals 5
     .param p0, "context"    # Landroid/content/Context;
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "NewApi"
-        }
-    .end annotation
 
     .prologue
-    .line 109
+    .line 98
     const/4 v2, 0x0
 
-    .line 110
+    .line 99
     .local v2, "ret":Z
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->getExternalDirectoryPath(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 111
+    .line 100
     .local v1, "path":Ljava/lang/String;
     if-nez v1, :cond_0
 
-    .line 112
+    .line 101
     const/4 v3, 0x0
 
     return v3
 
-    .line 113
+    .line 102
     :cond_0
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 115
+    .line 104
     .local v0, "file":Ljava/io/File;
     invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isL_Version()Z
 
@@ -565,7 +542,7 @@
 
     if-eqz v3, :cond_1
 
-    .line 116
+    .line 105
     invoke-static {v0}, Landroid/os/Environment;->getExternalStorageState(Ljava/io/File;)Ljava/lang/String;
 
     move-result-object v3
@@ -576,12 +553,12 @@
 
     move-result v2
 
-    .line 121
+    .line 110
     .local v2, "ret":Z
     :goto_0
     return v2
 
-    .line 118
+    .line 107
     .local v2, "ret":Z
     :cond_1
     invoke-static {v0}, Landroid/os/Environment;->getStorageState(Ljava/io/File;)Ljava/lang/String;
@@ -603,7 +580,7 @@
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 24
+    .line 23
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v0

@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: 31diG2+dPyRpLrrqubMLCjh5zS4=
+SHA1-Digest-Manifest: kdGwsb6FbQdjEjY8d+3esWcKqb0=
 
 Name: res/drawable-xhdpi-v4/ic_schedule_add_grey.png
 SHA1-Digest-Manifest: jFZDutU/gDSXZTrY1mf2W2/V71k=
@@ -128,6 +128,9 @@ SHA1-Digest-Manifest: JibqoH2HIyqTOEuhMqs3HaS7nIo=
 Name: res/drawable-xhdpi-v4/tv_ch_info_f.png
 SHA1-Digest-Manifest: 9Kgj31q+pJYYjuR3491HFX/ClLM=
 
+Name: lib/armeabi-v7a/libMTVMFClsForM.so
+SHA1-Digest-Manifest: 3WHFse5Ay/bjZqeFh+FH3nonAao=
+
 Name: res/drawable-xhdpi-v4/navigate_down_white.png
 SHA1-Digest-Manifest: 7fbGIC1HngbwUM1B8NjQXjirAdc=
 
@@ -140,11 +143,11 @@ SHA1-Digest-Manifest: zYoJa7end6+j8Oh7pib50sxY+i4=
 Name: res/drawable-xhdpi-v4/navigate_right.png
 SHA1-Digest-Manifest: XQbcFP/TZGo3MvlJuiSsHwNs9IM=
 
-Name: res/drawable-xhdpi-v4/ic_schedule_purple.png
-SHA1-Digest-Manifest: wtBLUz+I73SFk82UcTK+H0+ct0U=
-
 Name: res/drawable-xhdpi-v4/tv_ch_f.png
 SHA1-Digest-Manifest: 2mh+J1kAcF4d+tbpgwEU0PgPShE=
+
+Name: res/drawable-xhdpi-v4/ic_schedule_purple.png
+SHA1-Digest-Manifest: wtBLUz+I73SFk82UcTK+H0+ct0U=
 
 Name: res/layout-xhdpi-v4/widget.xml
 SHA1-Digest-Manifest: oJ1jlR8Nzr+y21kb+f4a2wHKxbM=
@@ -164,11 +167,11 @@ SHA1-Digest-Manifest: reYeR3KIprO8nWVwq9MZTLU3s+s=
 Name: res/drawable-xhdpi-v4/info_f.png
 SHA1-Digest-Manifest: VXd1zTjE26A2KJRc8SJBhwrtwwA=
 
-Name: res/drawable-xhdpi-v4/arrow_left.png
-SHA1-Digest-Manifest: prI/fHvyIv4qUsS1cy+//Tp8dHU=
-
 Name: res/drawable-xhdpi-v4/bg_control.png
 SHA1-Digest-Manifest: qZp2CquiVbc0y2q1ItLn8BDm8RM=
+
+Name: res/drawable-xhdpi-v4/arrow_left.png
+SHA1-Digest-Manifest: prI/fHvyIv4qUsS1cy+//Tp8dHU=
 
 Name: res/drawable-xhdpi-v4/radiobutton_w_u.png
 SHA1-Digest-Manifest: CffByj8l+Jmhlwytudtupsc1tp4=
@@ -386,14 +389,17 @@ SHA1-Digest-Manifest: TwwP+gfkJa6ZoEokv5Tnt6n4rUM=
 Name: res/drawable/icon_control_rec.xml
 SHA1-Digest-Manifest: TbLBAqk3u2HdO1dQwH5C5YokKt8=
 
+Name: lib/armeabi-v7a/libGingaPlayer.so
+SHA1-Digest-Manifest: RfAgJTtrDgPF4xY/nn6xQq2gUks=
+
 Name: res/drawable/icon_menu_favourites.xml
 SHA1-Digest-Manifest: QJBKPlXlhdDI1DKaXGh/lKVjLmI=
 
-Name: res/drawable-xhdpi-v4/dtv_widget_icon.png
-SHA1-Digest-Manifest: SZ6gX4dcShAtcpAPBUqNoAmObOQ=
-
 Name: res/drawable-xhdpi-v4/ic_close_white_24dp.png
 SHA1-Digest-Manifest: 7x70vZlHB2JPpDUCG8yaj/RSnkg=
+
+Name: res/drawable-xhdpi-v4/dtv_widget_icon.png
+SHA1-Digest-Manifest: SZ6gX4dcShAtcpAPBUqNoAmObOQ=
 
 Name: res/drawable/btn_add_schedule.xml
 SHA1-Digest-Manifest: 38Ka63GPdperp25ho4EZocvzDls=
@@ -497,6 +503,9 @@ SHA1-Digest-Manifest: 1xqTbupvuarcTHBGiX9yD9MSITQ=
 Name: res/layout-hdpi-v4/testmode_activity.xml
 SHA1-Digest-Manifest: JkZZyqaAO75QdmJ4zWjdvn7LXHA=
 
+Name: lib/armeabi-v7a/libJellyPGForM.so
+SHA1-Digest-Manifest: WG3ixb/5qyW4uhlePpkHjOCSsO8=
+
 Name: res/layout-hdpi-v4/tv_guide_list.xml
 SHA1-Digest-Manifest: akaFC7rp7+iAoRY1OhFmurTsZ9w=
 
@@ -576,7 +585,7 @@ Name: res/layout-hdpi-v4/dialog_percent.xml
 SHA1-Digest-Manifest: KrmPrNn3VXWPB034c3SZc7RMDfM=
 
 Name: AndroidManifest.xml
-SHA1-Digest-Manifest: qyvCJ7h+DlxHcnfXC7Xb44F+k+c=
+SHA1-Digest-Manifest: xicYmzU0Vc780/pPMqKK1FdSvCU=
 
 Name: res/drawable-xhdpi-v4/bg_favourite_1.9.png
 SHA1-Digest-Manifest: EqR/04e0k58Aol2FI987NJGzIZE=
@@ -615,7 +624,7 @@ Name: res/drawable-xhdpi-v4/rec_color.png
 SHA1-Digest-Manifest: YCii+NdHSYSaNBxaB7kmFXp2lNo=
 
 Name: classes.dex
-SHA1-Digest-Manifest: 0YkaCkwAlAHeqCTYecco1CPTee4=
+SHA1-Digest-Manifest: HwbBoI2Srk+G1x/Gy/A9F/bPDH4=
 
 Name: res/drawable/fav_icon.xml
 SHA1-Digest-Manifest: PQDgP8tMWlyf94ujA87Y3peb4Zc=
@@ -628,6 +637,9 @@ SHA1-Digest-Manifest: 1YxxoRYg466PMTVJGXd132zpZuE=
 
 Name: res/drawable-xhdpi-v4/navigate_down.png
 SHA1-Digest-Manifest: TN4/zOQdJ29siBFrXMhYkwyyKWY=
+
+Name: lib/armeabi-v7a/libJellyPGForL.so
+SHA1-Digest-Manifest: eWrSszEMaWDruxf74Okm883Emkw=
 
 Name: res/drawable/icon_checkbox_w.xml
 SHA1-Digest-Manifest: KrmxOoMVuGN0aRFP1CnhVNXBMmw=
@@ -742,6 +754,9 @@ SHA1-Digest-Manifest: eEgicsH9AF0IK3BbKoViwLCNzOY=
 
 Name: res/drawable-xhdpi-v4/ic_signal_4_bar.png
 SHA1-Digest-Manifest: 6b9RK9XohhN4QdLBBSM6VqMLCJ4=
+
+Name: lib/armeabi-v7a/libMTVMFClsForL.so
+SHA1-Digest-Manifest: 7l7gIsK5DDnnnMAjcTXzJUEW8gY=
 
 Name: res/layout-hdpi-v4/shortcut_activity.xml
 SHA1-Digest-Manifest: 5bnCIMl14KpZ70/qT9CSDaMrDi8=

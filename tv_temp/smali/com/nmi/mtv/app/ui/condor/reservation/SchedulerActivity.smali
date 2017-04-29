@@ -130,106 +130,6 @@
     return-void
 .end method
 
-.method private ckeckBatteryOptimizations()V
-    .locals 6
-    .annotation build Landroid/annotation/TargetApi;
-        value = 0x17
-    .end annotation
-
-    .prologue
-    .line 367
-    invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 368
-    .local v1, "packageName":Ljava/lang/String;
-    const-string/jumbo v4, "power"
-
-    invoke-virtual {p0, v4}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Landroid/os/PowerManager;
-
-    .line 369
-    .local v2, "pm":Landroid/os/PowerManager;
-    invoke-virtual {v2, v1}, Landroid/os/PowerManager;->isIgnoringBatteryOptimizations(Ljava/lang/String;)Z
-
-    move-result v3
-
-    .line 370
-    .local v3, "ret":Z
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string/jumbo v5, "isIgnoringBatteryOptimizations ret = "
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
-
-    .line 372
-    if-nez v3, :cond_0
-
-    .line 375
-    new-instance v0, Landroid/content/Intent;
-
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
-
-    .line 377
-    .local v0, "intent":Landroid/content/Intent;
-    const-string/jumbo v4, "android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
-
-    invoke-virtual {v0, v4}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
-
-    .line 378
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string/jumbo v5, "package:"
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object v4
-
-    invoke-virtual {v0, v4}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
-
-    .line 379
-    const/16 v4, 0x42e
-
-    invoke-virtual {p0, v0, v4}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->startActivityForResult(Landroid/content/Intent;I)V
-
-    .line 365
-    .end local v0    # "intent":Landroid/content/Intent;
-    :cond_0
-    return-void
-.end method
-
 
 # virtual methods
 .method protected checkReadWritePermission(I)V
@@ -317,100 +217,6 @@
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->runAddReservation()V
 
     goto :goto_0
-.end method
-
-.method protected onActivityResult(IILandroid/content/Intent;)V
-    .locals 2
-    .param p1, "requestCode"    # I
-    .param p2, "resultCode"    # I
-    .param p3, "data"    # Landroid/content/Intent;
-
-    .prologue
-    .line 355
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string/jumbo v1, "onActivityResult requestCode = "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string/jumbo v1, " resultCode = "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string/jumbo v1, " data = "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
-
-    .line 356
-    const/16 v0, 0x42e
-
-    if-ne p1, v0, :cond_0
-
-    const/4 v0, -0x1
-
-    if-ne p2, v0, :cond_0
-
-    .line 357
-    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
-
-    invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->initialize()V
-
-    .line 358
-    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
-
-    invoke-virtual {v0}, Ljava/util/Stack;->peek()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/nmi/mtv/app/core/common/CommonViewStub;
-
-    invoke-virtual {v0}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
-
-    .line 359
-    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
-
-    iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
-
-    invoke-virtual {v0, v1}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/nmi/mtv/app/core/common/CommonViewStub;
-
-    invoke-virtual {v0}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
-
-    .line 361
-    :cond_0
-    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onActivityResult(IILandroid/content/Intent;)V
-
-    .line 354
-    return-void
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
@@ -1202,7 +1008,7 @@
 .end method
 
 .method public onUserEvent(IIILjava/lang/Object;)V
-    .locals 6
+    .locals 5
     .param p1, "event"    # I
     .param p2, "arg1"    # I
     .param p3, "arg2"    # I
@@ -1225,15 +1031,15 @@
     .line 252
     :pswitch_0
     :try_start_0
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    invoke-virtual {v4}, Ljava/util/Stack;->peek()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1258,9 +1064,9 @@
 
     .line 262
     .local v1, "packageName":Ljava/lang/String;
-    const-string/jumbo v4, "power"
+    const-string/jumbo v3, "power"
 
-    invoke-virtual {p0, v4}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1268,88 +1074,72 @@
 
     .line 263
     .local v2, "pm":Landroid/os/PowerManager;
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v5, 0x17
+    const/16 v4, 0x17
 
-    if-lt v4, v5, :cond_1
-
-    .line 264
-    invoke-virtual {v2, v1}, Landroid/os/PowerManager;->isIgnoringBatteryOptimizations(Ljava/lang/String;)Z
-
-    move-result v3
-
-    .line 265
-    .local v3, "ret":Z
-    if-nez v3, :cond_0
-
-    .line 266
-    invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->ckeckBatteryOptimizations()V
-
-    goto :goto_0
+    if-lt v3, v4, :cond_0
 
     .line 269
-    :cond_0
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->initialize()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->initialize()V
 
     .line 270
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    invoke-virtual {v4}, Ljava/util/Stack;->peek()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
 
     .line 271
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
+    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
-    invoke-virtual {v4, v5}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v4}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
 
     goto :goto_0
 
     .line 276
-    .end local v3    # "ret":Z
-    :cond_1
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
+    :cond_0
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->initialize()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->initialize()V
 
     .line 277
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    invoke-virtual {v4}, Ljava/util/Stack;->peek()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
 
     .line 278
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
+    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mScheduleAddView:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
-    invoke-virtual {v4, v5}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v4}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
 
     goto :goto_0
 
@@ -1358,15 +1148,15 @@
     .end local v2    # "pm":Landroid/os/PowerManager;
     :sswitch_1
     :try_start_1
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    invoke-virtual {v4}, Ljava/util/Stack;->size()I
+    invoke-virtual {v3}, Ljava/util/Stack;->size()I
 
-    move-result v4
+    move-result v3
 
-    const/4 v5, 0x1
+    const/4 v4, 0x1
 
-    if-ne v4, v5, :cond_2
+    if-ne v3, v4, :cond_1
 
     .line 286
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->finish()V
@@ -1387,28 +1177,28 @@
 
     .line 288
     .end local v0    # "e":Ljava/lang/Exception;
-    :cond_2
+    :cond_1
     :try_start_2
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    invoke-virtual {v4}, Ljava/util/Stack;->pop()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/Stack;->pop()Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->hide()V
 
     .line 289
-    iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
+    iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerActivity;->mViewStack:Ljava/util/Stack;
 
-    invoke-virtual {v4}, Ljava/util/Stack;->peek()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/Stack;->peek()Ljava/lang/Object;
 
-    move-result-object v4
+    move-result-object v3
 
-    check-cast v4, Lcom/nmi/mtv/app/core/common/CommonViewStub;
+    check-cast v3, Lcom/nmi/mtv/app/core/common/CommonViewStub;
 
-    invoke-virtual {v4}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
+    invoke-virtual {v3}, Lcom/nmi/mtv/app/core/common/CommonViewStub;->show()V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
