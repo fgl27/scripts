@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-46643232-1</string>
+    <string name="ga_logLevel">verbose</string>
+    <string name="add">+</string>
+    <string name="app_name">Mobile TV</string>
+    <string name="CH">CH</string>
+    <string name="chup">up</string>
+    <string name="delete_title">Delete file</string>
+    <string name="delete">Delete</string>
+    <string name="delete_file">"Would you like to delete this file?
+"</string>
+    <string name="delete_success">File was successfully deleted.</string>
+    <string name="tv">TV</string>
+    <string name="save">Save</string>
+    <string name="brightness">Brightness</string>
+    <string name="caption">Caption</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="program_name">Program name</string>
+    <string name="reserved_to_play">The program was scheduled to Play</string>
+    <string name="reserved_to_record">The program was scheduled to Record</string>
+    <string name="reserve_item_removed">The program schedule was canceled</string>
+    <string name="scheduled_program">Scheduled programs</string>
+    <string name="set_password">Set password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="new_password">New password</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="parental_password_set">Parental password set.</string>
+    <string name="unlock_parental">Unlock parental rating</string>
+    <string name="lock_parental">Lock parental rating</string>
+    <string name="alert">Confirm</string>
+    <string name="none">None</string>
+    <string name="after">After</string>
+    <string name="percent">Percent</string>
+    <string name="empty_channel_list_info">0 channels available. Please tap the refresh icon to try again.</string>
+    <string name="schedule_record">Schedule to Record</string>
+    <string name="schedule_play">Schedule to Play</string>
+    <string name="set">Set</string>
+    <string name="exist_scheduled">There is already a program scheduled for that time. To add a new one, cancel existing one first.</string>
+    <string name="rec_stop">Stop</string>
+    <string name="unknown_Program_info">Channel guide not available</string>
+    <string name="recording">Recording...</string>
+    <string name="weak_signal_title">Weak signal channel</string>
+    <string name="do_you_want_finish">"
+Would you like to exit?
+"</string>
+    <string name="type">Type</string>
+    <string name="record">Record</string>
+    <string name="play">Play</string>
+    <string name="insert_password_here">Insert password here</string>
+    <string name="local_setting">Local Setting</string>
+    <string name="parental_rating">Parental rating</string>
+    <string name="set_age">Set age</string>
+    <string name="storage_location">Storage location</string>
+    <string name="screen_ratio">Screen ratio</string>
+    <string name="audio_language">Audio language preference</string>
+    <string name="interactive_service">Interactive service</string>
+    <string name="transparency">Transparency</string>
+    <string name="channel_5_1">Channel 5.1</string>
+    <string name="age_none">None</string>
+    <string name="age_10">10</string>
+    <string name="age_12">12</string>
+    <string name="age_14">14</string>
+    <string name="age_16">16</string>
+    <string name="age_18">18</string>
+    <string name="ratio_43_title">4:3</string>
+    <string name="ratio_169_title">16:9</string>
+    <string name="ratio_default_title">Default</string>
+    <string name="ratio_zoom_title">Zoom</string>
+    <string name="ratio_43">"4:3
+May be compressed"</string>
+    <string name="ratio_169">"16:9
+May be stretched vertically"</string>
+    <string name="ratio_default">"Default
+As transmitted"</string>
+    <string name="ratio_zoom">"Zoom
+May be stretched horizontally"</string>
+    <string name="main">Main</string>
+    <string name="sub">Sub</string>
+    <string name="main_sub">Main + Sub</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_tv_guide">TV Guide</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="add_schedule">Add schedule</string>
+    <string name="free_space">Free space</string>
+    <string name="sleep_timer">Sleep timer</string>
+    <string name="battery_limit">Battery limit</string>
+    <string name="record_saved">Recording saved</string>
+    <string name="phone_memory">Phone</string>
+    <string name="sd_card">SD card</string>
+    <string name="phone_memory_space">"Free Phone Memory: "</string>
+    <string name="sdcard_memory_space">"Free SD card Memory: "</string>
+    <string name="memory_status">Memory status</string>
+    <string name="memory_card_not_inserted">Memory card not inserted</string>
+    <string name="alert_not_enough_memory">Insufficient memory.</string>
+    <string name="error_accessing_memory_card">Error accessing memory card.</string>
+    <string name="accessing_memory_alert_title">Error accessing memory card.</string>
+    <string name="accessing_memory_alert_content">The scheduled TV recording could not be performed.</string>
+    <string name="memory_error">Error accessing device storage.</string>
+    <string name="duration">Duration</string>
+    <string name="signal_weak">"Very weak signal or program is not available.
+Would you like to repeat search?"</string>
+    <string name="channel_found">%d channel found</string>
+    <string name="channels_found">%d channels found</string>
+    <string name="search_channels">Search channels</string>
+    <string name="insert_password">Insert password</string>
+    <string name="program_blocked">"Program blocked by parental rating.
+Unlock?"</string>
+    <string name="channels">Channels</string>
+    <string name="no_description">Information not available</string>
+    <string name="no_schedule_time">00:00 - 00:00</string>
+    <string name="no_channel">Channel is not available</string>
+    <string name="program_not_available">Program not available</string>
+    <string name="after_none">OFF</string>
+    <string name="after_15min">15 minutes</string>
+    <string name="after_30min">30 minutes</string>
+    <string name="after_45min">45 minutes</string>
+    <string name="after_60min">60 minutes</string>
+    <string name="after_90min">90 minutes</string>
+    <string name="after_120min">120 minutes</string>
+    <string name="after_custom">Custom</string>
+    <string name="batter_limited">"Battery level has reached %d%%.
+Do you want to turn off Mobile TV?"</string>
+    <string name="batterylimit_off">OFF</string>
+    <string name="batterylimit_50">50%</string>
+    <string name="batterylimit_30">30%</string>
+    <string name="batterylimit_15">15%</string>
+    <string name="batterylimit_10">10%</string>
+    <string name="batterylimit_custom">Custom</string>
+    <string name="recorded_files">Recorded files</string>
+    <string name="downloading">Downloading</string>
+    <string name="earphone_not_connected">Earphone not connected.</string>
+    <string name="insert_valid_time">Please insert a valid time.</string>
+    <string name="reserve_finished">"Scheduling has expired. 
+Do you want to turn off the TV?"</string>
+    <string name="sms_bill_warning">Billing Warning</string>
+    <string name="sms_single_sim">Data will be sent via Network, continue?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="zero_percent">0%</string>
+    <string name="reset">Reset</string>
+    <string name="reset_settings">Restore Settings</string>
+    <string name="reset_detail">"This action will restore all settings to default settings.
+Would you like to restore all settings now?
+
+"</string>
+    <string name="insert_valid_battery">Please insert a valid battery value.</string>
+    <string name="sms_service">SMS Service</string>
+    <string name="sim1">SIM 1</string>
+    <string name="sim2">SIM 2</string>
+    <string name="search">Search</string>
+    <string name="channel_change">"Please wait
+Loading channel"</string>
+    <string name="notification_reminder">Notification reminder</string>
+    <string name="tv_mode">TV Mode</string>
+    <string name="need_to_scan">"When you change the Local Setting or TV Mode,
+the channel scan begins again.
+Continue?"</string>
+    <string name="favorites">Favorites</string>
+    <string name="today">Today</string>
+    <string name="reserve_passed">This program has already passed.</string>
+    <string name="warning">Warning</string>
+    <string name="recording_stop_dialog">This recording will stop if you leave. Do you want to exit?</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="sleep_20_s">20 s</string>
+    <string name="until_sleep">Until sleep</string>
+    <string name="rename">Rename</string>
+    <string name="share">Share</string>
+    <string name="reset_successfully">Settings successfully reset.</string>
+    <string name="saved_files_size">Size: %s</string>
+    <string name="saved_files_date">Date: %s</string>
+    <string name="delete_schedule">Are you sure you want to cancel</string>
+    <string name="colon">:</string>
+    <string name="antenna_title">Improve Mobile TV quality</string>
+    <string name="antenna_message">"To enhance your Mobile TV experience, please plug in the antenna. In case you don't have one, please use your earphones."</string>
+    <string name="antenna_checkbox">Never show this again</string>
+    <string name="scheduler">Schedule</string>
+    <string name="fail_to_initialize_TV">Failed to initialize TV</string>
+    <string name="settings">Settings</string>
+    <string name="saved_files">Saved files</string>
+    <string name="recommend_portrait_view">Portrait view is recommended for current interactive service.</string>
+    <string name="recommend_landscape_view">Landscape view is recommended for current interactive service.</string>
+    <string name="channel_list">Channel list</string>
+    <string name="tv_settings">TV settings</string>
+    <string name="low_battery_when_starting">Battery too low to open TV app.</string>
+    <string name="media_scanner_running_when_starting">Try again after scanning media files.</string>
+    <string name="calling_when_starting">Unable to start TV app during call.</string>
+    <string name="scanning_channels">Scanning channels</string>
+    <string name="reservation_started">Scheduling started</string>
+    <string name="not_registered_channel">This scheduled channel is not registered. Check the channel setting.</string>
+    <string name="tv_recording">TV recording</string>
+    <string name="media_unmounted_while_watching">SD card is unexpectedly removed.</string>
+    <string name="media_mounted_while_watching">Preparing SD card... Try again after SD card is ready.</string>
+    <string name="tv_is_terminated">Mobile TV ended.</string>
+    <string name="message_received">New message received</string>
+    <string name="no_program_name">No program name</string>
+    <string name="watch">Watch</string>
+    <string name="reservation">Scheduling</string>
+    <string name="reservation_time">Scheduling time %s</string>
+    <string name="tv_reservation">TV scheduling</string>
+    <string name="missed_reservation">Missed scheduling</string>
+    <string name="excute_reservation_before">It is 10 seconds before scheduled program.</string>
+    <string name="channel_is_not_selected">Channel is not selected.</string>
+    <string name="past_can_not_be_scheduled">Past cannot be scheduled.</string>
+    <string name="check_end_time">Check end time.</string>
+    <string name="time_is_overlapped">"This time and date overlaps with another TV scheduling.
+To add a new one, cancel existing first."</string>
+    <string name="cannot_save_recording_over_forehours">Cannot save record scheduling that exceeds 5 hours.</string>
+    <string name="reservation_set">Scheduling set</string>
+    <string name="saved">Saved</string>
+    <string name="rec_time_exceed_saved">"Maximum recording time exceeded.
+File is saved."</string>
+    <string name="invalid_file_name">Please enter a valid name</string>
+    <string name="File_with_name_already_exists">Cannot rename file. Filename already exists.</string>
+    <string name="tv_experience">Make Mobile TV Better</string>
+    <string name="tv_experience_detail">"Automatically send usage statistics to further improve the application.
+
+You may disable this at anytime by accessing 'Application improvement' under 'Settings'."</string>
+    <string name="application_improvement">Application improvement</string>
+    <string name="multi_user_alert_message">Your scheduled programs will not launch if a different user is logged in.</string>
+    <string name="multi_user_alert_checkbox">Never show this again</string>
+    <string name="plus">+</string>
+    <string name="sdcard_removed_during_record">Error accessing memory card. The recording could not be performed.</string>
+    <string name="num_key">123</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+    <string name="num_7">7</string>
+    <string name="num_8">8</string>
+    <string name="num_9">9</string>
+    <string name="num_0">0</string>
+    <string name="ginga_ok">OK</string>
+    <string name="ginga_off">OFF</string>
+</resources>

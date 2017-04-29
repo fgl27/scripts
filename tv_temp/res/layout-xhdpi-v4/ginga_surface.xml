@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gingaRelativeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <SurfaceView android:id="@id/gingaSurface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/remote_control_bg" android:background="@color/setting_BG" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ginga_keypad_numeric" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_1" />
+                    <Button android:id="@id/ginga_btn_1" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_2" />
+                    <Button android:id="@id/ginga_btn_2" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_3" />
+                    <Button android:id="@id/ginga_btn_3" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_num_btn_move_keypad" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_4" />
+                    <Button android:id="@id/ginga_btn_4" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_5" />
+                    <Button android:id="@id/ginga_btn_5" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_6" />
+                    <Button android:id="@id/ginga_btn_6" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_open_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_num_btn_collapse_keypad" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_7" />
+                    <Button android:id="@id/ginga_btn_7" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_8" />
+                    <Button android:id="@id/ginga_btn_8" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_9" />
+                    <Button android:id="@id/ginga_btn_9" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_open_with" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_switch_directional" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ginga_ok" />
+                    <Button android:id="@id/ginga_num_btn_ok" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_0" />
+                    <Button android:id="@id/ginga_btn_0" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_arrow_back_white_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_num_btn_back" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_close_white_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_num_btn_off" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ginga_keypad_directional" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center" android:background="@color/ginga_button_bg" android:layout_width="74.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageButton android:background="@color/red" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_red" android:background="@drawable/btn_ginga" android:layout_width="74.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="74.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@color/yellow" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_yellow" android:background="@drawable/btn_ginga" android:layout_width="74.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_expand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_dir_btn_move_keypad" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center" android:background="@color/ginga_button_bg" android:layout_width="74.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageButton android:background="@color/green" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_green" android:background="@drawable/btn_ginga" android:layout_width="74.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center" android:background="@color/ginga_button_bg" android:layout_width="74.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageButton android:background="@color/blue" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_blue" android:background="@drawable/btn_ginga" android:layout_width="74.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_open_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_dir_btn_collapse_keypad" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/navigate_left_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_left" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/navigate_up_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_up" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/navigate_right_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_right" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/num_key" />
+                    <Button android:id="@id/ginga_btn_switch_numeric" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ginga_ok" />
+                    <Button android:id="@id/ginga_dir_btn_ok" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/navigate_down_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_btn_down" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_arrow_back_white_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_dir_btn_back" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:background="@color/ginga_button_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+                    <ImageView android:background="@drawable/ic_close_white_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                    <Button android:id="@id/ginga_dir_btn_off" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/ginga_btn_expand_keypad_layout" android:background="@color/ginga_button_bg" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="2.0dip">
+            <ImageView android:background="@drawable/ic_close_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <Button android:id="@id/ginga_btn_expand_keypad" android:background="@drawable/btn_ginga" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

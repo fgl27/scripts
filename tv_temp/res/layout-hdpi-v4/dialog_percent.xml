@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="360.0dip" android:layout_height="wrap_content">
+        <TextView android:id="@id/percent_title" android:text="@string/insert_password" style="@style/DialogBlackTitleText" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="180.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/percent" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="30.0dip" android:layout_height="fill_parent" />
+            <com.nmi.mtv.app.core.util.ExtendedNumberPicker android:id="@id/number10per" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="2.0dip" android:layout_height="wrap_content" />
+            <com.nmi.mtv.app.core.util.ExtendedNumberPicker android:id="@id/number1per" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_margin="5.0dip">
+            <Button android:id="@id/percent_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/cancel" style="@style/AlertBlackButton" />
+            <Button android:id="@id/percent_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/set" style="@style/AlertBlackButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

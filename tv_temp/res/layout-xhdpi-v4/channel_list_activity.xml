@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/channel_list_stub" android:layout="@layout/channel_list_ch_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

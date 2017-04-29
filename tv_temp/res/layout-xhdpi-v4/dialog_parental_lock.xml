@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="287.0dip" android:layout_height="220.0dip">
+        <TextView android:id="@id/lock_title" android:text="@string/insert_password" style="@style/DialogBlackTitleText" />
+        <ImageView android:background="@drawable/divider_h" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="107.0dip">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <EditText android:textSize="18.0dip" android:textColor="@color/white" android:id="@id/lock_edit" android:layout_width="247.0dip" android:layout_height="38.0dip" android:hint="@string/insert_password_here" android:password="true" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip">
+            <ImageView android:background="@drawable/lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="47.0dip">
+            <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/lock_cancel" android:background="@drawable/btn_pressed" android:layout_width="143.0dip" android:layout_height="fill_parent" android:text="@string/cancel" />
+            <ImageView android:background="@drawable/lines" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/lock_ok" android:background="@drawable/btn_pressed" android:layout_width="143.0dip" android:layout_height="fill_parent" android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

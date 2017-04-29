@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/basic_colur" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <LinearLayout android:gravity="fill_horizontal|center" android:orientation="horizontal" android:background="@color/basic_colur" android:layout_width="fill_parent" android:layout_height="53.0dip">
+        <LinearLayout android:gravity="center|left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/btn_icon_back" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/white" android:gravity="center|left" android:id="@id/manual_reserve_header" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:text="@string/add_schedule" style="@android:style/TextAppearance.Material.Title" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:background="#ff999999" android:layout_width="1.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/btn_ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:text="@string/save" style="@android:style/TextAppearance.Material.Subhead" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@color/header_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/reserve_scrollview" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip">
+                <TextView android:textColor="@color/add_schedule_header_text" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/program_name" style="@android:style/TextAppearance.Material.Body1" />
+                <Spinner android:id="@id/btn_channel_name" android:background="@drawable/spinner_under2" android:paddingLeft="0.0px" android:paddingRight="20.0px" android:paddingBottom="10.0px" android:layout_width="396.0dip" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip">
+                <TextView android:textColor="@color/add_schedule_header_text" android:gravity="center_vertical" android:layout_width="450.0px" android:layout_height="wrap_content" android:text="@string/from" style="@android:style/TextAppearance.Material.Body1" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/add_schedule_body_text" android:gravity="center_vertical" android:id="@id/btn_start_time_date" android:background="@drawable/spinner_under2" android:paddingLeft="0.0px" android:paddingRight="20.0px" android:paddingBottom="10.0px" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/add_schedule_body_text" android:gravity="center_vertical" android:id="@id/btn_start_time_time" android:background="@drawable/spinner_under2" android:paddingLeft="0.0px" android:paddingRight="20.0px" android:paddingBottom="10.0px" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip">
+                <TextView android:textColor="@color/add_schedule_header_text" android:gravity="center_vertical" android:layout_width="450.0px" android:layout_height="wrap_content" android:text="@string/to" style="@android:style/TextAppearance.Material.Body1" />
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/add_schedule_body_text" android:id="@id/btn_end_time_date" android:background="@drawable/spinner_under2" android:paddingLeft="0.0px" android:paddingRight="20.0px" android:paddingBottom="10.0px" android:layout_width="220.0dip" android:layout_height="wrap_content" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/add_schedule_body_text" android:gravity="center_vertical" android:id="@id/btn_end_time_time" android:background="@drawable/spinner_under2" android:paddingLeft="0.0px" android:paddingRight="20.0px" android:paddingBottom="10.0px" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="15.0px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip">
+                <TextView android:textColor="@color/add_schedule_header_text" android:gravity="center_vertical" android:layout_width="240.0px" android:layout_height="fill_parent" android:layout_marginRight="15.0px" android:text="@string/type" style="@android:style/TextAppearance.Material.Body1" />
+                <LinearLayout android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="57.0px" android:layout_marginLeft="60.0dip">
+                    <RadioGroup android:orientation="horizontal" android:id="@id/manual_reserve_type_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <RadioButton android:textSize="16.0sp" android:textColor="@color/add_schedule_body_text" android:id="@id/btn_reserve_type_record" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="50.0px" android:text="@string/record" />
+                        <RadioButton android:textSize="16.0sp" android:textColor="@color/add_schedule_body_text" android:layout_gravity="center_horizontal" android:id="@id/btn_reserve_type_play" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/play" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="3.0px" />
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0px">
+                <ImageView android:gravity="center" android:background="@drawable/lines" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="2.0px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
