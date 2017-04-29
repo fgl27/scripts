@@ -97,11 +97,11 @@
 
     .line 1199
     :cond_1
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v2, 0x17
+    move-result v1
 
-    if-lt v1, v2, :cond_2
+    if-eqz v1, :cond_2
 
     .line 1200
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$15;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;

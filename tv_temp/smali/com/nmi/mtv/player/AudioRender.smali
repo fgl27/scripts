@@ -270,6 +270,16 @@
     goto :goto_1
 .end method
 
+.method public getAudioLatency()J
+    .locals 2
+
+    .prologue
+    .line 170
+    iget-wide v0, p0, Lcom/nmi/mtv/player/AudioRender;->mLatency:J
+
+    return-wide v0
+.end method
+
 .method public isStarted()Z
     .locals 1
 

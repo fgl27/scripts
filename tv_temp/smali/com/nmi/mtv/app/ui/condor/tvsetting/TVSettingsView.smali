@@ -303,61 +303,61 @@
     .prologue
     const/4 v4, 0x6
 
-    .line 74
+    .line 73
     const v0, 0x7f0a003e
 
-    .line 75
+    .line 74
     const v1, 0x7f0a003d
 
-    .line 76
+    .line 75
     const v2, 0x7f0a003f
 
-    .line 77
+    .line 76
     const v3, 0x7f0a0040
 
-    .line 73
+    .line 72
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->RATIO_TYPE_TITLE:[I
 
-    .line 80
+    .line 79
     const v0, 0x7f0a0042
 
-    .line 81
+    .line 80
     const v1, 0x7f0a0041
 
-    .line 82
+    .line 81
     const v2, 0x7f0a0043
 
-    .line 83
+    .line 82
     const v3, 0x7f0a0044
 
-    .line 79
+    .line 78
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->RATIO_TYPE:[I
 
-    .line 98
+    .line 97
     const v0, 0x7f0a0045
 
-    .line 99
+    .line 98
     const v1, 0x7f0a0046
 
-    .line 100
+    .line 99
     const v2, 0x7f0a0047
 
-    .line 97
+    .line 96
     filled-new-array {v0, v1, v2}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->LANGUAGE_TYPE:[I
 
-    .line 105
+    .line 104
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -366,37 +366,37 @@
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->SLEEPTIMER_TYPE:[I
 
-    .line 124
+    .line 123
     const v0, 0x7f0a0051
 
-    .line 125
+    .line 124
     const v1, 0x7f0a0052
 
-    .line 123
+    .line 122
     filled-new-array {v0, v1}, [I
 
     move-result-object v0
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->STORAGE_TYPE:[I
 
-    .line 136
+    .line 135
     new-array v0, v4, [I
 
     fill-array-data v0, :array_1
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->AGE_TYPE:[I
 
-    .line 147
+    .line 146
     new-array v0, v4, [I
 
     fill-array-data v0, :array_2
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->BATTERYLIMIT_TYPE:[I
 
-    .line 59
+    .line 58
     return-void
 
-    .line 105
+    .line 104
     :array_0
     .array-data 4
         0x7f0a0068
@@ -409,7 +409,7 @@
         0x7f0a006f
     .end array-data
 
-    .line 136
+    .line 135
     :array_1
     .array-data 4
         0x7f0a0037
@@ -420,7 +420,7 @@
         0x7f0a003c
     .end array-data
 
-    .line 147
+    .line 146
     :array_2
     .array-data 4
         0x7f0a0071
@@ -447,120 +447,120 @@
 
     const/4 v1, 0x0
 
-    .line 187
+    .line 186
     invoke-direct {p0}, Lcom/nmi/mtv/app/core/common/CommonViewStub;-><init>()V
 
-    .line 60
+    .line 59
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
-    .line 61
+    .line 60
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
-    .line 62
+    .line 61
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    .line 63
+    .line 62
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetting_Changed:I
 
-    .line 65
+    .line 64
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStings_scrollview:Landroid/widget/ScrollView;
 
-    .line 68
+    .line 67
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
-    .line 71
+    .line 70
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mRatioText:Landroid/widget/TextView;
 
-    .line 90
+    .line 89
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBrilhoBar:Landroid/widget/SeekBar;
 
-    .line 93
+    .line 92
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContrasteBar:Landroid/widget/SeekBar;
 
-    .line 96
+    .line 95
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mLangText:Landroid/widget/TextView;
 
-    .line 104
+    .line 103
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mTimerText:Landroid/widget/TextView;
 
-    .line 117
+    .line 116
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
-    .line 121
+    .line 120
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationTitle:Landroid/widget/TextView;
 
-    .line 122
+    .line 121
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
-    .line 130
+    .line 129
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParentalTitle:Landroid/widget/TextView;
 
-    .line 131
+    .line 130
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
-    .line 134
+    .line 133
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetAgeText:Landroid/widget/TextView;
 
-    .line 135
+    .line 134
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
-    .line 146
+    .line 145
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBatteryText:Landroid/widget/TextView;
 
-    .line 158
+    .line 157
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
-    .line 159
+    .line 158
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordText:Landroid/widget/TextView;
 
-    .line 162
+    .line 161
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageTitle:Landroid/widget/TextView;
 
-    .line 163
+    .line 162
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
-    .line 164
+    .line 163
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageChecker:Z
 
-    .line 165
+    .line 164
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageCheckerDialog:Landroid/app/AlertDialog;
 
-    .line 170
+    .line 169
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetTitle:Landroid/widget/TextView;
 
-    .line 171
+    .line 170
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetBtn:Landroid/widget/Switch;
 
-    .line 172
+    .line 171
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetChecker:Z
 
-    .line 173
+    .line 172
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetCheckerDialog:Landroid/app/AlertDialog;
 
-    .line 175
+    .line 174
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
-    .line 177
+    .line 176
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$1;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$1;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
-    .line 188
+    .line 187
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
-    .line 189
+    .line 188
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
@@ -579,7 +579,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
-    .line 190
+    .line 189
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f0036
@@ -592,7 +592,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStings_scrollview:Landroid/widget/ScrollView;
 
-    .line 191
+    .line 190
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00d2
@@ -603,7 +603,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 192
+    .line 191
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f0094
@@ -614,7 +614,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 195
+    .line 194
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00d4
@@ -627,7 +627,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
-    .line 196
+    .line 195
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -638,7 +638,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOn(Ljava/lang/CharSequence;)V
 
-    .line 197
+    .line 196
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -649,15 +649,15 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOff(Ljava/lang/CharSequence;)V
 
-    .line 198
+    .line 197
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
     invoke-virtual {v0, p0}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 199
+    .line 198
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->setCaptionStatus()V
 
-    .line 202
+    .line 201
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00d5
@@ -670,7 +670,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mRatioText:Landroid/widget/TextView;
 
-    .line 203
+    .line 202
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mRatioText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->RATIO_TYPE_TITLE:[I
@@ -685,12 +685,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 204
+    .line 203
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mRatioText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 207
+    .line 206
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00d6
@@ -703,14 +703,14 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBrilhoBar:Landroid/widget/SeekBar;
 
-    .line 209
+    .line 208
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBrilhoBar:Landroid/widget/SeekBar;
 
     const/16 v1, 0x64
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setMax(I)V
 
-    .line 210
+    .line 209
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBrilhoBar:Landroid/widget/SeekBar;
 
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$2;
@@ -719,7 +719,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 224
+    .line 223
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBrilhoBar:Landroid/widget/SeekBar;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
@@ -744,7 +744,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 228
+    .line 227
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00d7
@@ -757,14 +757,14 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContrasteBar:Landroid/widget/SeekBar;
 
-    .line 229
+    .line 228
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContrasteBar:Landroid/widget/SeekBar;
 
     const/16 v1, 0x64
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setMax(I)V
 
-    .line 230
+    .line 229
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContrasteBar:Landroid/widget/SeekBar;
 
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$3;
@@ -773,7 +773,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    .line 245
+    .line 244
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContrasteBar:Landroid/widget/SeekBar;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
@@ -798,7 +798,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 248
+    .line 247
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00d8
@@ -811,7 +811,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mLangText:Landroid/widget/TextView;
 
-    .line 249
+    .line 248
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mLangText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->LANGUAGE_TYPE:[I
@@ -824,12 +824,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 250
+    .line 249
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mLangText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 253
+    .line 252
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00da
@@ -842,12 +842,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mTimerText:Landroid/widget/TextView;
 
-    .line 254
+    .line 253
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mTimerText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 255
+    .line 254
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mTimerText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->SLEEPTIMER_TYPE:[I
@@ -866,7 +866,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 258
+    .line 257
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00db
@@ -879,12 +879,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
-    .line 259
+    .line 258
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
     invoke-virtual {v0, p0}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 260
+    .line 259
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -895,7 +895,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOn(Ljava/lang/CharSequence;)V
 
-    .line 261
+    .line 260
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -906,10 +906,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOff(Ljava/lang/CharSequence;)V
 
-    .line 262
+    .line 261
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->setInteractiveStatus()V
 
-    .line 265
+    .line 264
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00df
@@ -922,7 +922,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationTitle:Landroid/widget/TextView;
 
-    .line 266
+    .line 265
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e0
@@ -935,7 +935,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
-    .line 267
+    .line 266
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->STORAGE_TYPE:[I
@@ -948,19 +948,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
+    .line 267
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
     .line 268
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x17
-
-    if-lt v0, v1, :cond_0
-
-    .line 269
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 272
+    .line 271
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
@@ -974,7 +974,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParentalTitle:Landroid/widget/TextView;
 
-    .line 273
+    .line 272
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e2
@@ -987,12 +987,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
-    .line 274
+    .line 273
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
     invoke-virtual {v0, p0}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 275
+    .line 274
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1003,7 +1003,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOn(Ljava/lang/CharSequence;)V
 
-    .line 276
+    .line 275
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1014,7 +1014,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOff(Ljava/lang/CharSequence;)V
 
-    .line 279
+    .line 278
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e4
@@ -1027,7 +1027,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetAgeText:Landroid/widget/TextView;
 
-    .line 280
+    .line 279
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e5
@@ -1040,12 +1040,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
-    .line 281
+    .line 280
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 282
+    .line 281
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->AGE_TYPE:[I
@@ -1058,7 +1058,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 285
+    .line 284
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e6
@@ -1071,7 +1071,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordText:Landroid/widget/TextView;
 
-    .line 286
+    .line 285
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e7
@@ -1084,15 +1084,15 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
-    .line 287
+    .line 286
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 288
+    .line 287
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->setParentalState()V
 
-    .line 291
+    .line 290
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00e8
@@ -1105,12 +1105,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBatteryText:Landroid/widget/TextView;
 
-    .line 292
+    .line 291
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBatteryText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 293
+    .line 292
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBatteryText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->BATTERYLIMIT_TYPE:[I
@@ -1129,7 +1129,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 297
+    .line 296
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00ed
@@ -1142,7 +1142,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageTitle:Landroid/widget/TextView;
 
-    .line 298
+    .line 297
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00ee
@@ -1155,7 +1155,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
-    .line 300
+    .line 299
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1166,7 +1166,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOn(Ljava/lang/CharSequence;)V
 
-    .line 301
+    .line 300
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1177,7 +1177,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOff(Ljava/lang/CharSequence;)V
 
-    .line 302
+    .line 301
     invoke-static {p1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getUsage(Landroid/content/Context;)I
 
     move-result v0
@@ -1186,18 +1186,18 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 303
+    .line 302
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     invoke-virtual {v0, v3}, Landroid/widget/Switch;->setChecked(Z)V
 
-    .line 304
+    .line 303
     :cond_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     invoke-virtual {v0, p0}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 309
+    .line 308
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00ef
@@ -1210,7 +1210,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetTitle:Landroid/widget/TextView;
 
-    .line 310
+    .line 309
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00f0
@@ -1223,7 +1223,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetBtn:Landroid/widget/Switch;
 
-    .line 311
+    .line 310
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetBtn:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1234,7 +1234,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOn(Ljava/lang/CharSequence;)V
 
-    .line 312
+    .line 311
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetBtn:Landroid/widget/Switch;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1245,19 +1245,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setTextOff(Ljava/lang/CharSequence;)V
 
-    .line 313
+    .line 312
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetBtn:Landroid/widget/Switch;
 
     invoke-virtual {v0, p0}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 315
+    .line 314
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 335
+    .line 334
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParentalTitle:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1272,7 +1272,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 336
+    .line 335
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetAgeText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1287,7 +1287,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 337
+    .line 336
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1302,7 +1302,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 338
+    .line 337
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageTitle:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1317,7 +1317,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 339
+    .line 338
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetTitle:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1332,32 +1332,32 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 341
+    .line 340
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
     invoke-virtual {v0, v3}, Landroid/widget/Switch;->setEnabled(Z)V
 
-    .line 342
+    .line 341
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 343
+    .line 342
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 344
+    .line 343
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     invoke-virtual {v0, v3}, Landroid/widget/Switch;->setEnabled(Z)V
 
-    .line 345
+    .line 344
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetBtn:Landroid/widget/Switch;
 
     invoke-virtual {v0, v3}, Landroid/widget/Switch;->setEnabled(Z)V
 
-    .line 187
+    .line 186
     return-void
 .end method
 
@@ -1366,19 +1366,19 @@
     .param p0, "dir"    # Ljava/io/File;
 
     .prologue
-    .line 859
+    .line 861
     invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
 
     move-result v3
 
     if-eqz v3, :cond_3
 
-    .line 860
+    .line 862
     invoke-virtual {p0}, Ljava/io/File;->list()[Ljava/lang/String;
 
     move-result-object v0
 
-    .line 861
+    .line 863
     .local v0, "children":[Ljava/lang/String;
     if-eqz v0, :cond_2
 
@@ -1386,7 +1386,7 @@
 
     if-lez v3, :cond_2
 
-    .line 862
+    .line 864
     const/4 v1, 0x0
 
     .local v1, "i":I
@@ -1395,47 +1395,47 @@
 
     if-ge v1, v3, :cond_2
 
-    .line 863
+    .line 865
     new-instance v2, Ljava/io/File;
 
     aget-object v3, v0, v1
 
     invoke-direct {v2, p0, v3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 864
+    .line 866
     .local v2, "sub":Ljava/io/File;
     if-eqz v2, :cond_0
 
-    .line 865
+    .line 867
     invoke-virtual {v2}, Ljava/io/File;->isDirectory()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 866
+    .line 868
     invoke-static {v2}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->DeleteRecursive(Ljava/io/File;)V
 
-    .line 862
+    .line 864
     :cond_0
     :goto_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 868
+    .line 870
     :cond_1
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
     goto :goto_1
 
-    .line 873
+    .line 875
     .end local v1    # "i":I
     .end local v2    # "sub":Ljava/io/File;
     :cond_2
     invoke-virtual {p0}, Ljava/io/File;->delete()Z
 
-    .line 858
+    .line 860
     .end local v0    # "children":[Ljava/lang/String;
     :cond_3
     return-void
@@ -1445,7 +1445,7 @@
     .locals 2
 
     .prologue
-    .line 352
+    .line 354
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getSubtitleOn(Landroid/content/Context;)Z
@@ -1454,18 +1454,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 354
+    .line 356
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setChecked(Z)V
 
-    .line 351
+    .line 353
     :goto_0
     return-void
 
-    .line 357
+    .line 359
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
@@ -1480,7 +1480,7 @@
     .locals 2
 
     .prologue
-    .line 363
+    .line 365
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getInteractiveServiceOn(Landroid/content/Context;)Z
@@ -1489,18 +1489,18 @@
 
     if-eqz v0, :cond_0
 
-    .line 364
+    .line 366
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setChecked(Z)V
 
-    .line 362
+    .line 364
     :goto_0
     return-void
 
-    .line 366
+    .line 368
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
 
@@ -1525,7 +1525,7 @@
 
     const/4 v3, 0x0
 
-    .line 371
+    .line 373
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getParentalLock(Landroid/content/Context;)Z
@@ -1534,7 +1534,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 373
+    .line 375
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1543,7 +1543,7 @@
 
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 374
+    .line 376
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetAgeText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1558,7 +1558,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 375
+    .line 377
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1573,7 +1573,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 376
+    .line 378
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1588,7 +1588,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 377
+    .line 379
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1603,12 +1603,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
 
-    .line 378
+    .line 380
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 379
+    .line 381
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1625,16 +1625,16 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 380
+    .line 382
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
     invoke-virtual {v0, v5}, Landroid/widget/Switch;->setChecked(Z)V
 
-    .line 370
+    .line 372
     :goto_0
     return-void
 
-    .line 384
+    .line 386
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
@@ -1644,7 +1644,7 @@
 
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 385
+    .line 387
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetAgeText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1659,7 +1659,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 386
+    .line 388
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1674,7 +1674,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 387
+    .line 389
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1689,7 +1689,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 388
+    .line 390
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1704,12 +1704,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
 
-    .line 389
+    .line 391
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 390
+    .line 392
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetPasswordBtn:Landroid/widget/Button;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -1726,7 +1726,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundColor(I)V
 
-    .line 391
+    .line 393
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mParental:Landroid/widget/Switch;
 
     invoke-virtual {v0, v3}, Landroid/widget/Switch;->setChecked(Z)V
@@ -1738,7 +1738,7 @@
     .locals 3
 
     .prologue
-    .line 478
+    .line 480
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     const v1, 0x7f0a0030
@@ -1755,31 +1755,31 @@
 
     move-result-object v0
 
-    .line 479
+    .line 481
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getParentalLockAge(Landroid/content/Context;)I
 
     move-result v1
 
-    .line 478
+    .line 480
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setBasePosition(I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
-    .line 480
+    .line 482
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 478
+    .line 480
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo$SpinnerListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->show()V
 
-    .line 477
+    .line 479
     return-void
 .end method
 
@@ -1789,7 +1789,7 @@
     .locals 0
 
     .prologue
-    .line 469
+    .line 471
     return-void
 .end method
 
@@ -1797,60 +1797,60 @@
     .locals 3
 
     .prologue
-    .line 431
+    .line 433
     iget v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetting_Changed:I
 
     const/4 v1, 0x1
 
     if-ne v0, v1, :cond_0
 
-    .line 434
+    .line 436
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 435
+    .line 437
     const v1, 0x7f0a008c
 
-    .line 434
+    .line 436
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 436
+    .line 438
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$4;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$4;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v2, 0x7f0a0048
 
-    .line 434
+    .line 436
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 442
+    .line 444
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$5;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$5;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v2, 0x7f0a0049
 
-    .line 434
+    .line 436
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
-    .line 460
+    .line 462
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSetting_Changed:I
 
-    .line 462
+    .line 464
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
@@ -1860,14 +1860,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 464
+    .line 466
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 430
+    .line 432
     :cond_1
     return-void
 .end method
@@ -1886,19 +1886,19 @@
 
     const/4 v4, 0x0
 
-    .line 885
+    .line 887
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->getId()I
 
     move-result v1
 
     sparse-switch v1, :sswitch_data_0
 
-    .line 884
+    .line 886
     :cond_0
     :goto_0
     return-void
 
-    .line 888
+    .line 890
     :sswitch_0
     iget-boolean v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetChecker:Z
 
@@ -1906,59 +1906,59 @@
 
     if-eqz p2, :cond_1
 
-    .line 889
+    .line 891
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-direct {v1, v2, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
-    .line 890
+    .line 892
     const v2, 0x7f0a0082
 
-    .line 889
+    .line 891
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 891
+    .line 893
     const v2, 0x7f0a0083
 
-    .line 889
+    .line 891
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 892
+    .line 894
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$16;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$16;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v3, 0x7f0a0048
 
-    .line 889
+    .line 891
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 914
+    .line 916
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$17;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$17;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v3, 0x7f0a0049
 
-    .line 889
+    .line 891
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 919
+    .line 921
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$18;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$18;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 889
+    .line 891
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
@@ -1969,13 +1969,13 @@
 
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetCheckerDialog:Landroid/app/AlertDialog;
 
-    .line 931
+    .line 933
     :cond_1
     iput-boolean v4, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mResetChecker:Z
 
     goto :goto_0
 
-    .line 934
+    .line 936
     :sswitch_1
     iget-boolean v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageChecker:Z
 
@@ -1983,14 +1983,14 @@
 
     if-eqz p2, :cond_2
 
-    .line 935
+    .line 937
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-direct {v1, v2, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
-    .line 936
+    .line 938
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -2003,12 +2003,12 @@
 
     move-result-object v2
 
-    .line 935
+    .line 937
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 937
+    .line 939
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -2021,31 +2021,31 @@
 
     move-result-object v2
 
-    .line 935
+    .line 937
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 938
+    .line 940
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$19;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$19;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const/high16 v3, 0x1040000
 
-    .line 935
+    .line 937
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 949
+    .line 951
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v3, 0x104000a
 
-    .line 935
+    .line 937
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
@@ -2056,13 +2056,13 @@
 
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageCheckerDialog:Landroid/app/AlertDialog;
 
-    .line 969
+    .line 971
     :goto_1
     iput-boolean v4, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageChecker:Z
 
     goto/16 :goto_0
 
-    .line 967
+    .line 969
     :cond_2
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2070,7 +2070,7 @@
 
     goto :goto_1
 
-    .line 985
+    .line 987
     :sswitch_2
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mCaption:Landroid/widget/Switch;
 
@@ -2078,7 +2078,7 @@
 
     move-result v0
 
-    .line 986
+    .line 988
     .local v0, "b":Z
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -2086,10 +2086,10 @@
 
     if-eqz v1, :cond_3
 
-    .line 987
+    .line 989
     if-eqz v0, :cond_4
 
-    .line 988
+    .line 990
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v1
@@ -2100,33 +2100,33 @@
 
     if-nez v1, :cond_3
 
-    .line 989
+    .line 991
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v1
 
     invoke-virtual {v1, v4}, Lcom/nmi/mtv/isdbt/controller/MtvController;->startCaption(I)Z
 
-    .line 997
+    .line 999
     :cond_3
     :goto_2
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1, v0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setSubtitleOn(Landroid/content/Context;Z)Z
 
-    .line 998
+    .line 1000
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_0
 
-    .line 999
+    .line 1001
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1000
+    .line 1002
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
@@ -2135,7 +2135,7 @@
 
     goto/16 :goto_0
 
-    .line 992
+    .line 994
     :cond_4
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -2147,7 +2147,7 @@
 
     if-eqz v1, :cond_3
 
-    .line 993
+    .line 995
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v1
@@ -2156,7 +2156,7 @@
 
     goto :goto_2
 
-    .line 1007
+    .line 1009
     .end local v0    # "b":Z
     :sswitch_3
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mInteractive:Landroid/widget/Switch;
@@ -2165,7 +2165,7 @@
 
     move-result v0
 
-    .line 1008
+    .line 1010
     .restart local v0    # "b":Z
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -2173,10 +2173,10 @@
 
     if-eqz v1, :cond_5
 
-    .line 1009
+    .line 1011
     if-eqz v0, :cond_6
 
-    .line 1010
+    .line 1012
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v1
@@ -2185,7 +2185,7 @@
 
     invoke-virtual {v1, v2}, Lcom/nmi/mtv/isdbt/controller/MtvController;->startDsmcc(Ljava/lang/String;)Z
 
-    .line 1016
+    .line 1018
     :cond_5
     :goto_3
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -2194,7 +2194,7 @@
 
     goto/16 :goto_0
 
-    .line 1012
+    .line 1014
     :cond_6
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -2204,7 +2204,7 @@
 
     goto :goto_3
 
-    .line 1021
+    .line 1023
     .end local v0    # "b":Z
     :sswitch_4
     if-eqz p2, :cond_9
@@ -2217,26 +2217,26 @@
 
     if-nez v1, :cond_9
 
-    .line 1022
+    .line 1024
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_7
 
-    .line 1023
+    .line 1025
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1024
+    .line 1026
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2, v6, v7}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1026
+    .line 1028
     :cond_7
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2250,7 +2250,7 @@
 
     if-eqz v1, :cond_8
 
-    .line 1027
+    .line 1029
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     const v2, 0x7f0a001b
@@ -2261,24 +2261,24 @@
 
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
-    .line 1028
+    .line 1030
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1, v3}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setParentalLock(Landroid/content/Context;Z)Z
 
-    .line 1029
+    .line 1031
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_0
 
-    .line 1030
+    .line 1032
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1031
+    .line 1033
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
@@ -2287,7 +2287,7 @@
 
     goto/16 :goto_0
 
-    .line 1034
+    .line 1036
     :cond_8
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2297,12 +2297,12 @@
 
     move-result-object v1
 
-    .line 1035
+    .line 1037
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$21;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$21;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 1034
+    .line 1036
     invoke-virtual {v1, v2}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock$OnParentalLockListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v1
@@ -2311,7 +2311,7 @@
 
     goto/16 :goto_0
 
-    .line 1049
+    .line 1051
     :cond_9
     if-nez p2, :cond_0
 
@@ -2323,26 +2323,26 @@
 
     if-eqz v1, :cond_0
 
-    .line 1050
+    .line 1052
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     if-eqz v1, :cond_a
 
-    .line 1051
+    .line 1053
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 1052
+    .line 1054
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mHandler:Landroid/os/Handler;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mSwitchControl:Ljava/lang/Runnable;
 
     invoke-virtual {v1, v2, v6, v7}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1054
+    .line 1056
     :cond_a
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2352,12 +2352,12 @@
 
     move-result-object v1
 
-    .line 1055
+    .line 1057
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$22;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$22;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 1054
+    .line 1056
     invoke-virtual {v1, v2}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock$OnParentalLockListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v1
@@ -2366,7 +2366,7 @@
 
     goto/16 :goto_0
 
-    .line 885
+    .line 887
     nop
 
     :sswitch_data_0
@@ -2392,25 +2392,25 @@
 
     const/4 v2, 0x1
 
-    .line 503
+    .line 505
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    .line 502
+    .line 504
     :cond_0
     :goto_0
     return-void
 
-    .line 505
+    .line 507
     :sswitch_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     if-eqz v0, :cond_0
 
-    .line 506
+    .line 508
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     const/16 v1, 0x3e9
@@ -2419,7 +2419,7 @@
 
     goto :goto_0
 
-    .line 509
+    .line 511
     :sswitch_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2435,24 +2435,24 @@
 
     move-result-object v0
 
-    .line 510
+    .line 512
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getScreenSize(Landroid/content/Context;)I
 
     move-result v1
 
-    .line 509
+    .line 511
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setBasePosition(I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
-    .line 511
+    .line 513
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$7;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$7;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 509
+    .line 511
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo$SpinnerListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
@@ -2461,7 +2461,7 @@
 
     goto :goto_0
 
-    .line 525
+    .line 527
     :sswitch_2
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2477,24 +2477,24 @@
 
     move-result-object v0
 
-    .line 526
+    .line 528
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getMultiLanguage(Landroid/content/Context;)I
 
     move-result v1
 
-    .line 525
+    .line 527
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setBasePosition(I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
-    .line 527
+    .line 529
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$8;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$8;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 525
+    .line 527
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo$SpinnerListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
@@ -2503,7 +2503,7 @@
 
     goto :goto_0
 
-    .line 538
+    .line 540
     :sswitch_3
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2519,7 +2519,7 @@
 
     move-result-object v0
 
-    .line 539
+    .line 541
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getSleepTimer(Landroid/content/Context;)I
@@ -2530,17 +2530,17 @@
 
     move-result v1
 
-    .line 538
+    .line 540
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setBasePosition(I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
-    .line 540
+    .line 542
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$9;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 538
+    .line 540
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo$SpinnerListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
@@ -2549,7 +2549,7 @@
 
     goto/16 :goto_0
 
-    .line 575
+    .line 577
     :sswitch_4
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2565,7 +2565,7 @@
 
     move-result-object v0
 
-    .line 576
+    .line 578
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getBatteryLimit(Landroid/content/Context;)I
@@ -2576,17 +2576,17 @@
 
     move-result v1
 
-    .line 575
+    .line 577
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setBasePosition(I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
-    .line 577
+    .line 579
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 575
+    .line 577
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo$SpinnerListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
@@ -2595,7 +2595,7 @@
 
     goto/16 :goto_0
 
-    .line 609
+    .line 611
     :sswitch_5
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2611,24 +2611,24 @@
 
     move-result-object v0
 
-    .line 610
+    .line 612
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getStorageType(Landroid/content/Context;)I
 
     move-result v1
 
-    .line 609
+    .line 611
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setBasePosition(I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
 
-    .line 611
+    .line 613
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$11;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$11;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 609
+    .line 611
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo$SpinnerListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogSpinnerTwo;
 
     move-result-object v0
@@ -2637,7 +2637,7 @@
 
     goto/16 :goto_0
 
-    .line 642
+    .line 644
     :sswitch_6
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2647,19 +2647,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 644
+    .line 646
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->DialogBuilder(Landroid/content/Context;I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v0
 
-    .line 645
+    .line 647
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$12;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$12;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 644
+    .line 646
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock$OnParentalLockListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v0
@@ -2668,7 +2668,7 @@
 
     goto/16 :goto_0
 
-    .line 655
+    .line 657
     :sswitch_7
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2678,19 +2678,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 657
+    .line 659
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->DialogBuilder(Landroid/content/Context;I)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v0
 
-    .line 658
+    .line 660
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 657
+    .line 659
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock$OnParentalLockListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v0
@@ -2699,7 +2699,7 @@
 
     goto/16 :goto_0
 
-    .line 700
+    .line 702
     :sswitch_8
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
@@ -2709,42 +2709,42 @@
 
     invoke-direct {v0, v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
-    .line 701
+    .line 703
     const v1, 0x7f0a0082
 
-    .line 700
+    .line 702
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 702
+    .line 704
     const v1, 0x7f0a0083
 
-    .line 700
+    .line 702
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 703
+    .line 705
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$14;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v2, 0x7f0a0048
 
-    .line 700
+    .line 702
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    .line 727
+    .line 729
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$15;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$15;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
     const v2, 0x7f0a0049
 
-    .line 700
+    .line 702
     invoke-virtual {v0, v2, v1}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
@@ -2753,7 +2753,7 @@
 
     goto/16 :goto_0
 
-    .line 503
+    .line 505
     :sswitch_data_0
     .sparse-switch
         0x7f0f0094 -> :sswitch_0
@@ -2773,7 +2773,7 @@
     .param p1, "keyCode"    # I
 
     .prologue
-    .line 1080
+    .line 1082
     const/4 v0, 0x0
 
     return v0
@@ -2789,27 +2789,27 @@
 
     const/4 v2, 0x0
 
-    .line 492
+    .line 494
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v0
 
     packed-switch v0, :pswitch_data_0
 
-    .line 499
+    .line 501
     :cond_0
     :goto_0
     const/4 v0, 0x1
 
     return v0
 
-    .line 494
+    .line 496
     :pswitch_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     if-eqz v0, :cond_0
 
-    .line 495
+    .line 497
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     const/16 v1, 0x3e9
@@ -2818,7 +2818,7 @@
 
     goto :goto_0
 
-    .line 492
+    .line 494
     nop
 
     :pswitch_data_0
@@ -2832,10 +2832,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     .prologue
-    .line 1084
+    .line 1086
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    .line 1083
+    .line 1085
     return-void
 .end method
 
@@ -2851,20 +2851,20 @@
 
     const/4 v10, 0x0
 
-    .line 777
+    .line 779
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setSubtitleOn(Landroid/content/Context;Z)Z
 
-    .line 778
+    .line 780
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->setCaptionStatus()V
 
-    .line 780
+    .line 782
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v8}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setScreenSize(Landroid/content/Context;I)Z
 
-    .line 781
+    .line 783
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mRatioText:Landroid/widget/TextView;
 
     sget-object v7, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->RATIO_TYPE_TITLE:[I
@@ -2873,7 +2873,7 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
-    .line 784
+    .line 786
     :try_start_0
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
@@ -2887,13 +2887,13 @@
 
     move-result v0
 
-    .line 785
+    .line 787
     .local v0, "brightness":F
     sput v0, Lcom/nmi/mtv/app/core/common/CommonType$ScreenBrightness;->SCREEN_BRIGHTNESS_DEFAULT:F
     :try_end_0
     .catch Landroid/provider/Settings$SettingNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 790
+    .line 792
     .end local v0    # "brightness":F
     :goto_0
     iget-object v7, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -2910,14 +2910,14 @@
 
     invoke-static {v7, v6, v8}, Lcom/nmi/mtv/app/core/util/BrightnessUtil;->setBrightness(Landroid/content/Context;Landroid/view/Window;F)I
 
-    .line 791
+    .line 793
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     sget v7, Lcom/nmi/mtv/app/core/common/CommonType$ScreenBrightness;->SCREEN_BRIGHTNESS_DEFAULT:F
 
     invoke-static {v6, v7}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setBrightness(Landroid/content/Context;F)Z
 
-    .line 792
+    .line 794
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBrilhoBar:Landroid/widget/SeekBar;
 
     iget-object v7, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -2938,7 +2938,7 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 795
+    .line 797
     iget-object v7, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -2953,7 +2953,7 @@
 
     invoke-static {v7, v6, v8}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
 
-    .line 796
+    .line 798
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContrasteBar:Landroid/widget/SeekBar;
 
     iget-object v7, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -2970,12 +2970,12 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    .line 798
+    .line 800
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setMultiLanguage(Landroid/content/Context;I)Z
 
-    .line 799
+    .line 801
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mLangText:Landroid/widget/TextView;
 
     sget-object v7, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->LANGUAGE_TYPE:[I
@@ -2984,15 +2984,15 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
-    .line 801
+    .line 803
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v9}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setInteractiveServiceOn(Landroid/content/Context;Z)Z
 
-    .line 802
+    .line 804
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->setInteractiveStatus()V
 
-    .line 805
+    .line 807
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->isExternalMemoryMounted(Landroid/content/Context;)Z
@@ -3009,12 +3009,12 @@
 
     if-eqz v6, :cond_0
 
-    .line 806
+    .line 808
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v9}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setStorageType(Landroid/content/Context;I)Z
 
-    .line 809
+    .line 811
     :goto_1
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
@@ -3030,22 +3030,22 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
-    .line 811
+    .line 813
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setParentalLock(Landroid/content/Context;Z)Z
 
-    .line 812
+    .line 814
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setParentalLockAge(Landroid/content/Context;I)Z
 
-    .line 813
+    .line 815
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->clearParentalLockPassword(Landroid/content/Context;)V
 
-    .line 814
+    .line 816
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mAgeText:Landroid/widget/TextView;
 
     sget-object v7, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->AGE_TYPE:[I
@@ -3060,10 +3060,10 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
-    .line 815
+    .line 817
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->setParentalState()V
 
-    .line 819
+    .line 821
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mBatteryText:Landroid/widget/TextView;
 
     sget-object v7, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->BATTERYLIMIT_TYPE:[I
@@ -3072,24 +3072,24 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
-    .line 820
+    .line 822
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setBatteryLimit(Landroid/content/Context;I)Z
 
-    .line 821
+    .line 823
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setSleepTimer(Landroid/content/Context;I)Z
 
-    .line 822
+    .line 824
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     const/16 v7, 0x41c
 
     invoke-interface {v6, v7, v10, v10, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 823
+    .line 825
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mTimerText:Landroid/widget/TextView;
 
     sget-object v7, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->SLEEPTIMER_TYPE:[I
@@ -3098,14 +3098,14 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(I)V
 
-    .line 826
+    .line 828
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/db/DBReserveManager;->getAllReserves(Landroid/content/Context;)[Lcom/nmi/mtv/app/core/db/DBReservation;
 
     move-result-object v4
 
-    .line 828
+    .line 830
     .local v4, "reservation":[Lcom/nmi/mtv/app/core/db/DBReservation;
     if-eqz v4, :cond_1
 
@@ -3113,7 +3113,7 @@
 
     if-lez v6, :cond_1
 
-    .line 829
+    .line 831
     const/4 v3, 0x0
 
     .local v3, "i":I
@@ -3122,7 +3122,7 @@
 
     if-ge v3, v6, :cond_1
 
-    .line 830
+    .line 832
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     aget-object v7, v4, v3
@@ -3131,24 +3131,24 @@
 
     invoke-static {v6, v8, v9}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->deleteReservation(Landroid/content/Context;J)V
 
-    .line 829
+    .line 831
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_2
 
-    .line 786
+    .line 788
     .end local v3    # "i":I
     .end local v4    # "reservation":[Lcom/nmi/mtv/app/core/db/DBReservation;
     :catch_0
     move-exception v2
 
-    .line 787
+    .line 789
     .local v2, "e":Landroid/provider/Settings$SettingNotFoundException;
     invoke-virtual {v2}, Landroid/provider/Settings$SettingNotFoundException;->printStackTrace()V
 
     goto/16 :goto_0
 
-    .line 808
+    .line 810
     .end local v2    # "e":Landroid/provider/Settings$SettingNotFoundException;
     :cond_0
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -3157,88 +3157,88 @@
 
     goto :goto_1
 
-    .line 835
+    .line 837
     .restart local v4    # "reservation":[Lcom/nmi/mtv/app/core/db/DBReservation;
     :cond_1
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v11}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setLastChannel(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBChannel;)Z
 
-    .line 836
+    .line 838
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setAlertAntenna(Landroid/content/Context;Z)Z
 
-    .line 837
+    .line 839
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setMultiUser_Check_Alert(Landroid/content/Context;Z)Z
 
-    .line 838
+    .line 840
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/db/DBChannelManager;->deleteAll(Landroid/content/Context;)V
 
-    .line 839
+    .line 841
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/db/DBFavoriteManager;->deleteAll(Landroid/content/Context;)V
 
-    .line 840
+    .line 842
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v6
 
     invoke-virtual {v6}, Lcom/nmi/mtv/isdbt/controller/MtvController;->stopTV()Z
 
-    .line 841
+    .line 843
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
 
     invoke-static {v6, v10}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setUsage(Landroid/content/Context;I)Z
 
-    .line 843
+    .line 845
     new-instance v5, Ljava/io/File;
 
     sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->THUMBNAIL_PATH:Ljava/lang/String;
 
     invoke-direct {v5, v6}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 844
+    .line 846
     .local v5, "thumb_dir":Ljava/io/File;
     invoke-static {v5}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->DeleteRecursive(Ljava/io/File;)V
 
-    .line 845
+    .line 847
     new-instance v1, Ljava/io/File;
 
     sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->DSMCC_PATH:Ljava/lang/String;
 
     invoke-direct {v1, v6}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 846
+    .line 848
     .local v1, "dsmcc_dir":Ljava/io/File;
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->DeleteRecursive(Ljava/io/File;)V
 
-    .line 849
+    .line 851
     sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->DSMCC_PATH:Ljava/lang/String;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/util/Util;->checkDirnMakeDir(Ljava/lang/String;)V
-
-    .line 850
-    sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->DSMCC_PATH:Ljava/lang/String;
-
-    invoke-static {v6}, Lcom/nmi/mtv/app/core/util/Util;->preventMediaScan(Ljava/lang/String;)V
 
     .line 852
+    sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->DSMCC_PATH:Ljava/lang/String;
+
+    invoke-static {v6}, Lcom/nmi/mtv/app/core/util/Util;->preventMediaScan(Ljava/lang/String;)V
+
+    .line 854
     sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->THUMBNAIL_PATH:Ljava/lang/String;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/util/Util;->checkDirnMakeDir(Ljava/lang/String;)V
 
-    .line 853
+    .line 855
     sget-object v6, Lcom/nmi/mtv/app/core/common/CommonType;->THUMBNAIL_PATH:Ljava/lang/String;
 
     invoke-static {v6}, Lcom/nmi/mtv/app/core/util/Util;->preventMediaScan(Ljava/lang/String;)V
 
-    .line 775
+    .line 777
     return-void
 .end method
 
@@ -3251,10 +3251,10 @@
 
     const v2, 0x7f070004
 
-    .line 401
+    .line 403
     if-eqz p1, :cond_0
 
-    .line 402
+    .line 404
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationTitle:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -3269,7 +3269,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 403
+    .line 405
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -3284,16 +3284,16 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 404
+    .line 406
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 400
+    .line 402
     :goto_0
     return-void
 
-    .line 407
+    .line 409
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationTitle:Landroid/widget/TextView;
 
@@ -3309,7 +3309,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 408
+    .line 410
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mContext:Landroid/content/Context;
@@ -3324,7 +3324,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 409
+    .line 411
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     const/4 v1, 0x0
@@ -3338,7 +3338,7 @@
     .locals 3
 
     .prologue
-    .line 396
+    .line 398
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     if-eqz v0, :cond_0
@@ -3347,7 +3347,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 397
+    .line 399
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStorageLocationText:Landroid/widget/TextView;
 
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->STORAGE_TYPE:[I
@@ -3362,7 +3362,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 395
+    .line 397
     :cond_0
     return-void
 .end method
@@ -3375,7 +3375,7 @@
 
     const/4 v3, 0x0
 
-    .line 418
+    .line 420
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->isShown()Z
@@ -3384,23 +3384,23 @@
 
     if-eqz v0, :cond_0
 
-    .line 419
+    .line 421
     return-void
 
-    .line 420
+    .line 422
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v1, 0x17
+    move-result v0
 
-    if-lt v0, v1, :cond_1
+    if-eqz v0, :cond_1
 
-    .line 421
+    .line 423
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     if-eqz v0, :cond_1
 
-    .line 422
+    .line 424
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     const/16 v1, 0x424
@@ -3409,13 +3409,13 @@
 
     invoke-interface {v0, v1, v2, v3, v4}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 426
+    .line 428
     :cond_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 417
+    .line 419
     return-void
 .end method
 
@@ -3423,19 +3423,19 @@
     .locals 2
 
     .prologue
-    .line 880
+    .line 882
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     if-eqz v0, :cond_0
 
-    .line 881
+    .line 883
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUsageBtn:Landroid/widget/Switch;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/Switch;->setChecked(Z)V
 
-    .line 878
+    .line 880
     :cond_0
     return-void
 .end method
@@ -3444,11 +3444,11 @@
     .locals 1
 
     .prologue
-    .line 1088
+    .line 1090
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->mUserEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    .line 1087
+    .line 1089
     return-void
 .end method

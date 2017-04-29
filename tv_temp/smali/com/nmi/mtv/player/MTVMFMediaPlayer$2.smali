@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     .prologue
-    .line 435
+    .line 432
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$2;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 2
 
     .prologue
-    .line 437
+    .line 434
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$2;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get9(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)Lcom/nmi/mtv/player/MediaFrameHandler;
@@ -50,7 +50,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 438
+    .line 435
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$2;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get9(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)Lcom/nmi/mtv/player/MediaFrameHandler;
@@ -65,7 +65,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/player/MediaFrameHandler;->setSurface(Landroid/view/Surface;)V
 
-    .line 436
+    .line 433
     :cond_0
     return-void
 .end method

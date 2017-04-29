@@ -1325,7 +1325,7 @@
     .line 1355
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
-    invoke-virtual {v0, p0}, Lcom/nmi/mtv/isdbt/controller/MtvController;->initializeTV(Landroid/content/Context;)Z
+    invoke-virtual {v0}, Lcom/nmi/mtv/isdbt/controller/MtvController;->initializeTV()Z
 
     move-result v0
 
@@ -3183,11 +3183,11 @@
 
     .line 273
     .local v4, "reservePCh":I
-    sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v7, 0x17
+    move-result v6
 
-    if-lt v6, v7, :cond_4
+    if-eqz v6, :cond_4
 
     .line 274
     if-eqz v0, :cond_2
@@ -3596,11 +3596,11 @@
 
     .line 188
     :cond_0
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v5, 0x17
+    move-result v4
 
-    if-lt v4, v5, :cond_4
+    if-eqz v4, :cond_4
 
     .line 189
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->getWindow()Landroid/view/Window;
@@ -4083,11 +4083,11 @@
 
     .line 361
     :cond_0
-    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v2, 0x17
+    move-result v1
 
-    if-lt v1, v2, :cond_1
+    if-eqz v1, :cond_1
 
     .line 362
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->getIntent()Landroid/content/Intent;
@@ -4145,7 +4145,7 @@
 .end method
 
 .method protected onStart()V
-    .locals 2
+    .locals 1
 
     .prologue
     .line 373
@@ -4157,11 +4157,11 @@
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
 
     .line 376
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v1, 0x17
+    move-result v0
 
-    if-lt v0, v1, :cond_0
+    if-eqz v0, :cond_0
 
     .line 377
     invoke-direct {p0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onStartForM(Landroid/content/Context;)V
@@ -4473,11 +4473,11 @@
 
     .line 1018
     .local v8, "startTime":J
-    sget v7, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v10, 0x17
+    move-result v7
 
-    if-lt v7, v10, :cond_0
+    if-eqz v7, :cond_0
 
     .line 1019
     const-wide/16 v10, -0x1
@@ -4626,11 +4626,11 @@
     if-eqz v1, :cond_a
 
     .line 1052
-    sget v7, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v10, 0x17
+    move-result v7
 
-    if-lt v7, v10, :cond_4
+    if-eqz v7, :cond_4
 
     .line 1053
     const/4 v7, 0x1

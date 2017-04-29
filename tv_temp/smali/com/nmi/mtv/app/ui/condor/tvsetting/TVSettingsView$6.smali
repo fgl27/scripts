@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     .prologue
-    .line 480
+    .line 482
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p1, "position"    # I
 
     .prologue
-    .line 482
+    .line 484
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;
@@ -53,12 +53,12 @@
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setParentalLock(Landroid/content/Context;Z)Z
 
-    .line 483
+    .line 485
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-wrap2(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 484
+    .line 486
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;
@@ -67,7 +67,7 @@
 
     invoke-static {v0, p1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setParentalLockAge(Landroid/content/Context;I)Z
 
-    .line 485
+    .line 487
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$6;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get6(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/widget/TextView;
@@ -92,6 +92,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    .line 481
+    .line 483
     return-void
 .end method

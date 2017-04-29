@@ -8,7 +8,6 @@
     value = {
         Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;,
         Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;,
-        Lcom/nmi/mtv/app/ui/condor/main/MainActivity$TeleListener;,
         Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;,
         Lcom/nmi/mtv/app/ui/condor/main/MainActivity$1;,
         Lcom/nmi/mtv/app/ui/condor/main/MainActivity$2;,
@@ -235,12 +234,12 @@
     .locals 1
 
     .prologue
-    .line 97
+    .line 95
     const/4 v0, 0x0
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
-    .line 74
+    .line 72
     return-void
 .end method
 
@@ -250,92 +249,92 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 74
+    .line 72
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;-><init>()V
 
-    .line 76
+    .line 74
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
-    .line 78
+    .line 76
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
-    .line 82
+    .line 80
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
-    .line 84
+    .line 82
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mFinishDialog:Landroid/app/AlertDialog;
 
-    .line 86
+    .line 84
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
-    .line 87
+    .line 85
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMemoryAccessingDialog:Landroid/app/AlertDialog;
 
-    .line 90
+    .line 88
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAppFinishDialog:Landroid/app/AlertDialog;
 
-    .line 92
+    .line 90
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecTimeExceed:I
 
-    .line 94
+    .line 92
     const/4 v0, -0x1
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mLastProcessedDTVEvent:I
 
-    .line 95
+    .line 93
     const/16 v0, 0x3e8
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mLastProcessedUserEvent:I
 
-    .line 232
+    .line 226
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$1;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$1;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->msetScreenFull:Ljava/lang/Runnable;
 
-    .line 239
+    .line 233
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$2;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$2;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setAudioPath:Ljava/lang/Runnable;
 
-    .line 1325
+    .line 1320
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$3;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$3;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mFinish:Ljava/lang/Runnable;
 
-    .line 1348
+    .line 1343
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$4;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$4;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mFinishSleepTimer:Ljava/lang/Runnable;
 
-    .line 1354
+    .line 1349
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$5;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$5;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSleepTimerSet:Ljava/lang/Runnable;
 
-    .line 1376
+    .line 1371
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$6;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$6;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mActivityClose:Ljava/lang/Runnable;
 
-    .line 74
+    .line 72
     return-void
 .end method
 
@@ -344,17 +343,17 @@
     .param p0, "eventListener"    # Ljava/lang/Object;
 
     .prologue
-    .line 165
+    .line 163
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     if-eqz v0, :cond_0
 
-    .line 166
+    .line 164
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v0, p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->addSystemEventListener(Ljava/lang/Object;)V
 
-    .line 164
+    .line 162
     :cond_0
     return-void
 .end method
@@ -363,7 +362,7 @@
     .locals 2
 
     .prologue
-    .line 612
+    .line 607
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v0
@@ -372,7 +371,7 @@
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/util/Util;->ToastShow(Landroid/content/Context;I)V
 
-    .line 610
+    .line 605
     return-void
 .end method
 
@@ -380,7 +379,7 @@
     .locals 1
 
     .prologue
-    .line 766
+    .line 761
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAntennaDialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogAntenna;
 
     if-eqz v0, :cond_0
@@ -393,7 +392,7 @@
 
     if-nez v0, :cond_7
 
-    .line 767
+    .line 762
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mFinishDialog:Landroid/app/AlertDialog;
 
@@ -407,7 +406,7 @@
 
     if-nez v0, :cond_7
 
-    .line 768
+    .line 763
     :cond_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
@@ -421,7 +420,7 @@
 
     if-nez v0, :cond_7
 
-    .line 769
+    .line 764
     :cond_2
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAppFinishDialog:Landroid/app/AlertDialog;
 
@@ -435,7 +434,7 @@
 
     if-nez v0, :cond_7
 
-    .line 770
+    .line 765
     :cond_3
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSignalWeakDialog:Landroid/app/AlertDialog;
 
@@ -449,7 +448,7 @@
 
     if-nez v0, :cond_7
 
-    .line 771
+    .line 766
     :cond_4
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBlockedDialog:Landroid/app/AlertDialog;
 
@@ -463,7 +462,7 @@
 
     if-nez v0, :cond_7
 
-    .line 772
+    .line 767
     :cond_5
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mParentalDialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
@@ -477,13 +476,13 @@
 
     if-nez v0, :cond_7
 
-    .line 773
+    .line 768
     :cond_6
     const/4 v0, 0x0
 
     return v0
 
-    .line 775
+    .line 770
     :cond_7
     const/4 v0, 0x1
 
@@ -494,7 +493,7 @@
     .locals 1
 
     .prologue
-    .line 605
+    .line 600
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -518,157 +517,157 @@
 
     const/4 v2, 0x0
 
-    .line 697
+    .line 692
     const-string/jumbo v0, "releaseAllInstances"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 699
+    .line 694
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
     if-eqz v0, :cond_0
 
-    .line 701
+    .line 696
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
 
-    .line 702
+    .line 697
     iput-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
-    .line 706
+    .line 701
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     if-eqz v0, :cond_1
 
-    .line 707
+    .line 702
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     invoke-static {p0, v0}, Lcom/nmi/mtv/app/core/sound/SoundManager;->abandonAudioFocus(Landroid/content/Context;Landroid/media/AudioManager$OnAudioFocusChangeListener;)V
 
-    .line 708
+    .line 703
     iput-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
-    .line 712
+    .line 707
     :cond_1
     sput-boolean v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mParentalRatingUnlocked:Z
 
-    .line 713
+    .line 708
     invoke-static {v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setViewParentalBlock(Z)V
 
-    .line 714
+    .line 709
     const/4 v0, -0x1
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mParentalRatingAge:I
 
-    .line 716
+    .line 711
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v0
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setSleepTimer(Landroid/content/Context;I)Z
 
-    .line 717
+    .line 712
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v0, :cond_2
 
-    .line 718
+    .line 713
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSleepTimerSet:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 719
+    .line 714
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mFinishSleepTimer:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 720
+    .line 715
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mActivityClose:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 723
+    .line 718
     :cond_2
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     if-eqz v0, :cond_3
 
-    .line 724
+    .line 719
     iput-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
-    .line 726
+    .line 721
     :cond_3
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v0, :cond_4
 
-    .line 727
+    .line 722
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->unregisterSurfaceEventListener()V
 
-    .line 728
+    .line 723
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->destroy()V
 
-    .line 729
+    .line 724
     sput-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
-    .line 732
+    .line 727
     :cond_4
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     if-eqz v0, :cond_5
 
-    .line 733
+    .line 728
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->destroy()V
 
-    .line 734
+    .line 729
     sput-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
-    .line 737
+    .line 732
     :cond_5
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     if-eqz v0, :cond_7
 
-    .line 739
+    .line 734
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     if-eqz v0, :cond_6
 
-    .line 740
+    .line 735
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->removeSystemEventListener(Ljava/lang/Object;)V
 
-    .line 741
+    .line 736
     :cond_6
     iput-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
-    .line 742
+    .line 737
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v0, p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->unregisterReceiver(Landroid/content/Context;)V
 
-    .line 743
+    .line 738
     sput-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
-    .line 744
+    .line 739
     iput-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
-    .line 696
+    .line 691
     :cond_7
     return-void
 .end method
@@ -678,17 +677,17 @@
     .param p0, "eventListener"    # Ljava/lang/Object;
 
     .prologue
-    .line 170
+    .line 168
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     if-eqz v0, :cond_0
 
-    .line 171
+    .line 169
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v0, p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->removeSystemEventListener(Ljava/lang/Object;)V
 
-    .line 169
+    .line 167
     :cond_0
     return-void
 .end method
@@ -697,7 +696,7 @@
     .locals 2
 
     .prologue
-    .line 556
+    .line 550
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v1
@@ -706,7 +705,7 @@
 
     move-result-object v0
 
-    .line 557
+    .line 551
     .local v0, "decorView":Landroid/view/View;
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$11;
 
@@ -714,7 +713,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnSystemUiVisibilityChangeListener(Landroid/view/View$OnSystemUiVisibilityChangeListener;)V
 
-    .line 555
+    .line 549
     return-void
 .end method
 
@@ -725,10 +724,10 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 578
+    .line 573
     if-nez p1, :cond_0
 
-    .line 579
+    .line 574
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -739,19 +738,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setSystemUiVisibility(I)V
 
-    .line 575
+    .line 570
     :goto_0
     return-void
 
-    .line 581
+    .line 576
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v1, 0x17
+    move-result v0
 
-    if-lt v0, v1, :cond_1
+    if-eqz v0, :cond_1
 
-    .line 582
+    .line 577
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -760,15 +759,15 @@
 
     move-result-object v0
 
-    .line 583
+    .line 578
     const/16 v1, 0x706
 
-    .line 582
+    .line 577
     invoke-virtual {v0, v1}, Landroid/view/View;->setSystemUiVisibility(I)V
 
     goto :goto_0
 
-    .line 591
+    .line 586
     :cond_1
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
@@ -778,10 +777,10 @@
 
     move-result-object v0
 
-    .line 592
+    .line 587
     const/16 v1, 0x1706
 
-    .line 591
+    .line 586
     invoke-virtual {v0, v1}, Landroid/view/View;->setSystemUiVisibility(I)V
 
     goto :goto_0
@@ -797,19 +796,19 @@
 
     const/4 v6, 0x0
 
-    .line 617
+    .line 612
     sget-object v1, Lcom/nmi/mtv/app/core/common/CommonType;->MY_TV_FILES_PHONE_PATH:Ljava/lang/String;
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Util;->checkDirnMakeDir(Ljava/lang/String;)V
 
-    .line 618
+    .line 613
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Util;->checkExternalDirnMakeDir(Landroid/content/Context;)V
 
-    .line 621
+    .line 616
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
@@ -822,7 +821,7 @@
 
     if-ne v1, v2, :cond_1
 
-    .line 622
+    .line 617
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
@@ -831,10 +830,10 @@
 
     move-result v1
 
-    .line 621
+    .line 616
     if-eqz v1, :cond_1
 
-    .line 623
+    .line 618
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
@@ -845,32 +844,32 @@
 
     if-nez v1, :cond_1
 
-    .line 624
+    .line 619
     invoke-virtual {p0, v8, v6, v6, v7}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->receivedDTVEvent(IIILjava/lang/Object;)V
 
-    .line 626
+    .line 621
     invoke-static {}, Lcom/nmi/mtv/app/core/util/TopContext;->getTopContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 627
+    .line 622
     .local v0, "context":Landroid/content/Context;
     if-eqz v0, :cond_0
 
-    .line 628
+    .line 623
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v1, v0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 629
+    .line 624
     const v2, 0x7f0a0059
 
-    .line 628
+    .line 623
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 630
+    .line 625
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -901,12 +900,12 @@
 
     move-result-object v2
 
-    .line 628
+    .line 623
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 631
+    .line 626
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -921,7 +920,7 @@
 
     invoke-direct {v3, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$12;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
-    .line 628
+    .line 623
     invoke-virtual {v1, v2, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
@@ -932,7 +931,7 @@
 
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMemoryAccessingDialog:Landroid/app/AlertDialog;
 
-    .line 640
+    .line 635
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMemoryAccessingDialog:Landroid/app/AlertDialog;
 
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$13;
@@ -941,16 +940,16 @@
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    .line 649
+    .line 644
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mMemoryAccessingDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
 
-    .line 652
+    .line 647
     :cond_0
     return-void
 
-    .line 659
+    .line 654
     .end local v0    # "context":Landroid/content/Context;
     :cond_1
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -967,18 +966,18 @@
 
     if-gez v1, :cond_3
 
-    .line 661
+    .line 656
     invoke-virtual {p0, v8, v6, v6, v7}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->receivedDTVEvent(IIILjava/lang/Object;)V
 
-    .line 662
+    .line 657
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->alert_StroageFull()V
 
-    .line 615
+    .line 610
     :cond_2
     :goto_0
     return-void
 
-    .line 666
+    .line 661
     :cond_3
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -990,7 +989,7 @@
 
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecordFileName:Ljava/lang/String;
 
-    .line 667
+    .line 662
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1013,17 +1012,17 @@
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 669
+    .line 664
     const/4 v1, 0x6
 
     invoke-virtual {p0, v1, v6, v6, v7}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->receivedDTVEvent(IIILjava/lang/Object;)V
 
-    .line 670
+    .line 665
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v1, :cond_2
 
-    .line 671
+    .line 666
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
@@ -1049,7 +1048,7 @@
 
     const/4 v3, 0x0
 
-    .line 750
+    .line 745
     invoke-static {}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isLockState()Z
 
     move-result v1
@@ -1058,7 +1057,7 @@
 
     return-void
 
-    .line 751
+    .line 746
     :cond_0
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->anyDialogShowing()Z
 
@@ -1068,7 +1067,7 @@
 
     return-void
 
-    .line 752
+    .line 747
     :cond_1
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->hasWindowFocus()Z
 
@@ -1078,7 +1077,7 @@
 
     return-void
 
-    .line 753
+    .line 748
     :cond_2
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
@@ -1094,7 +1093,7 @@
 
     return-void
 
-    .line 754
+    .line 749
     :cond_3
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
@@ -1112,12 +1111,12 @@
 
     if-eqz v1, :cond_5
 
-    .line 749
+    .line 744
     :cond_4
     :goto_0
     return-void
 
-    .line 754
+    .line 749
     :cond_5
     iget v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mReservationState:I
 
@@ -1125,20 +1124,20 @@
 
     if-eq v1, v2, :cond_4
 
-    .line 755
+    .line 750
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/nmi/mtv/app/ui/condor/shortcut/ShortCutActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 756
+    .line 751
     .local v0, "i":Landroid/content/Intent;
     const/high16 v1, 0x24000000
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 757
+    .line 752
     const-string/jumbo v1, "com.nmi.mtv.app.condor.GINGA_START_PATH"
 
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
@@ -1149,19 +1148,19 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 758
+    .line 753
     const-string/jumbo v1, "com.nmi.mtv.app.condor.DTV_SIGNAL_STRENGTH"
 
     iget v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCurrentSQ:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 759
+    .line 754
     const/16 v1, 0x3e8
 
     invoke-virtual {p0, v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 761
+    .line 756
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     const/16 v2, 0x14
@@ -1179,14 +1178,14 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 679
+    .line 674
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x17
 
     if-lt v0, v1, :cond_1
 
-    .line 680
+    .line 675
     const-string/jumbo v0, "android.permission.READ_EXTERNAL_STORAGE"
 
     invoke-virtual {p0, v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->checkSelfPermission(Ljava/lang/String;)I
@@ -1195,7 +1194,7 @@
 
     if-nez v0, :cond_0
 
-    .line 681
+    .line 676
     const-string/jumbo v0, "android.permission.WRITE_EXTERNAL_STORAGE"
 
     invoke-virtual {p0, v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->checkSelfPermission(Ljava/lang/String;)I
@@ -1204,7 +1203,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 687
+    .line 682
     :cond_0
     const/4 v0, 0x2
 
@@ -1224,12 +1223,12 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->requestPermissions([Ljava/lang/String;I)V
 
-    .line 676
+    .line 671
     :cond_1
     :goto_0
     return-void
 
-    .line 689
+    .line 684
     :cond_2
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startRecordiing()V
 
@@ -1237,119 +1236,100 @@
 .end method
 
 .method protected initialize(Landroid/os/Bundle;)V
-    .locals 6
+    .locals 5
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const/4 v5, 0x1
-
-    const/4 v4, 0x0
-
-    .line 176
-    new-instance v1, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
-
-    new-instance v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$7;
-
-    invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$7;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
-
-    invoke-direct {v1, p0, v2}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;-><init>(Landroid/content/Context;Landroid/view/SurfaceHolder$Callback;)V
-
-    sput-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
-
-    .line 198
-    new-instance v1, Lcom/nmi/mtv/app/ui/condor/main/CleanView;
-
-    invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;-><init>(Landroid/content/Context;)V
-
-    sput-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
-
-    .line 199
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
-
-    const/16 v2, 0x60
+    const/4 v4, 0x1
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3, v5, v4}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->update(IIILjava/lang/Object;)V
+    .line 174
+    new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
-    .line 200
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
+    new-instance v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$7;
 
-    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
+    invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$7;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
-    invoke-virtual {v1, v2}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->registerUserEventListener(Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;)V
+    invoke-direct {v0, p0, v1}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;-><init>(Landroid/content/Context;Landroid/view/SurfaceHolder$Callback;)V
+
+    sput-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
+
+    .line 196
+    new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/CleanView;
+
+    invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;-><init>(Landroid/content/Context;)V
+
+    sput-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
+
+    .line 197
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
+
+    const/16 v1, 0x60
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2, v4, v3}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->update(IIILjava/lang/Object;)V
+
+    .line 198
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
+
+    iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
+
+    invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->registerUserEventListener(Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;)V
+
+    .line 199
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
+
+    iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
+
+    invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->registerUserEventListener(Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;)V
 
     .line 201
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
-    iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
+    if-eqz v0, :cond_0
 
-    invoke-virtual {v1, v2}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->registerUserEventListener(Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;)V
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
-    .line 203
+    invoke-virtual {v0}, Lcom/nmi/mtv/isdbt/controller/MtvController;->isInitializedCaption()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 202
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
-    if-eqz v1, :cond_0
+    const v0, 0x7f0f0076
 
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    invoke-virtual {v1}, Lcom/nmi/mtv/isdbt/controller/MtvController;->isInitializedCaption()Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    .line 204
-    sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    const v1, 0x7f0f0076
-
-    invoke-virtual {p0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/widget/LinearLayout;
-
-    invoke-virtual {v2, p0, v1, v4}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionView(Landroid/content/Context;Landroid/widget/LinearLayout;Landroid/graphics/Typeface;)V
-
-    .line 205
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    const/16 v2, 0x14
-
-    const/16 v3, 0x17
-
-    invoke-virtual {v1, v2, v3}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionSize(II)V
-
-    .line 206
-    sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
-
-    invoke-virtual {v1, v5}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionViewShow(Z)V
-
-    .line 209
-    :cond_0
-    const-string/jumbo v1, "phone"
-
-    invoke-virtual {p0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Landroid/telephony/TelephonyManager;
+    check-cast v0, Landroid/widget/LinearLayout;
 
-    .line 210
-    .local v0, "TelephonyMgr":Landroid/telephony/TelephonyManager;
-    new-instance v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$TeleListener;
+    invoke-virtual {v1, p0, v0, v3}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionView(Landroid/content/Context;Landroid/widget/LinearLayout;Landroid/graphics/Typeface;)V
 
-    invoke-direct {v1, p0, v4}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$TeleListener;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Lcom/nmi/mtv/app/ui/condor/main/MainActivity$TeleListener;)V
+    .line 203
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
-    const/16 v2, 0x20
+    const/16 v1, 0x14
 
-    invoke-virtual {v0, v1, v2}, Landroid/telephony/TelephonyManager;->listen(Landroid/telephony/PhoneStateListener;I)V
+    const/16 v2, 0x17
 
-    .line 211
+    invoke-virtual {v0, v1, v2}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionSize(II)V
+
+    .line 204
+    sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
+
+    invoke-virtual {v0, v4}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setCaptionViewShow(Z)V
+
+    .line 207
+    :cond_0
     invoke-super {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->initialize(Landroid/os/Bundle;)V
 
-    .line 175
+    .line 173
     return-void
 .end method
 
@@ -1366,23 +1346,23 @@
 
     const/4 v4, 0x0
 
-    .line 422
+    .line 416
     const/16 v2, 0x3e8
 
     if-ne p1, v2, :cond_1
 
-    .line 423
+    .line 417
     sparse-switch p2, :sswitch_data_0
 
-    .line 457
+    .line 451
     :cond_0
     :goto_0
     invoke-super {p0, p1, p2, p3}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onActivityResult(IILandroid/content/Intent;)V
 
-    .line 421
+    .line 415
     return-void
 
-    .line 434
+    .line 428
     :sswitch_0
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
@@ -1390,7 +1370,7 @@
 
     goto :goto_0
 
-    .line 437
+    .line 431
     :sswitch_1
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -1404,7 +1384,7 @@
 
     move-result-object v0
 
-    .line 438
+    .line 432
     .local v0, "ch":Lcom/nmi/mtv/app/core/db/DBChannel;
     if-eqz v0, :cond_0
 
@@ -1412,45 +1392,45 @@
 
     if-eqz v2, :cond_0
 
-    .line 439
+    .line 433
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     invoke-virtual {v2, p2, v4, v4, v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;->onUserEvent(IIILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 442
+    .line 436
     .end local v0    # "ch":Lcom/nmi/mtv/app/core/db/DBChannel;
     :sswitch_2
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     if-eqz v2, :cond_0
 
-    .line 443
+    .line 437
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     invoke-virtual {v2, p2, v4, v4, v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;->onUserEvent(IIILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 446
+    .line 440
     :sswitch_3
     new-instance v1, Landroid/view/KeyEvent;
 
     invoke-direct {v1, v3, v4}, Landroid/view/KeyEvent;-><init>(II)V
 
-    .line 447
+    .line 441
     .local v1, "event":Landroid/view/KeyEvent;
     invoke-virtual {p0, v3, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     goto :goto_0
 
-    .line 450
+    .line 444
     .end local v1    # "event":Landroid/view/KeyEvent;
     :cond_1
     if-ne p1, v3, :cond_0
 
-    .line 451
+    .line 445
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -1471,19 +1451,19 @@
 
     invoke-static {v2}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 452
+    .line 446
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     const/16 v3, 0xb4
 
     invoke-virtual {v2, v3, v4, v4, v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 453
+    .line 447
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     if-eqz v2, :cond_0
 
-    .line 454
+    .line 448
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     const/16 v3, 0x19
@@ -1492,7 +1472,7 @@
 
     goto :goto_0
 
-    .line 423
+    .line 417
     nop
 
     :sswitch_data_0
@@ -1518,10 +1498,10 @@
     .param p1, "newConfig"    # Landroid/content/res/Configuration;
 
     .prologue
-    .line 402
+    .line 396
     invoke-super {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
-    .line 401
+    .line 395
     return-void
 .end method
 
@@ -1532,7 +1512,7 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 101
+    .line 99
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1553,15 +1533,15 @@
 
     invoke-static {v3}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 102
+    .line 100
     invoke-super {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 104
+    .line 102
     const v3, 0x7f040013
 
     invoke-virtual {p0, v3}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setContentView(I)V
 
-    .line 106
+    .line 104
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
@@ -1570,7 +1550,7 @@
 
     move-result-object v2
 
-    .line 108
+    .line 106
     .local v2, "metrics":Landroid/util/DisplayMetrics;
     iget v3, v2, Landroid/util/DisplayMetrics;->widthPixels:I
 
@@ -1584,17 +1564,17 @@
 
     if-ne v3, v4, :cond_4
 
-    .line 109
+    .line 107
     :cond_0
     const/16 v3, 0x3f
 
     sput v3, Lcom/nmi/mtv/app/core/common/CommonType$ScreenSize;->NAVIGATIONBAR_WIDTH:I
 
-    .line 113
+    .line 111
     :goto_0
     invoke-static {}, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->init()V
 
-    .line 116
+    .line 114
     :try_start_0
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -1606,49 +1586,49 @@
 
     move-result v0
 
-    .line 117
+    .line 115
     .local v0, "brightness":F
     sput v0, Lcom/nmi/mtv/app/core/common/CommonType$ScreenBrightness;->SCREEN_BRIGHTNESS_DEFAULT:F
     :try_end_0
     .catch Landroid/provider/Settings$SettingNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 123
+    .line 121
     .end local v0    # "brightness":F
     :goto_1
     sget-object v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     if-nez v3, :cond_1
 
-    .line 124
+    .line 122
     new-instance v3, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-direct {v3}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;-><init>()V
 
     sput-object v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
-    .line 125
+    .line 123
     sget-object v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v3, p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->registerReceiver(Landroid/content/Context;)V
 
-    .line 127
+    .line 125
     iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     if-nez v3, :cond_1
 
-    .line 128
+    .line 126
     new-instance v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     invoke-direct {v3, p0, v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;)V
 
     iput-object v3, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
-    .line 129
+    .line 127
     iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     invoke-static {v3}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->addSystemEventListener(Ljava/lang/Object;)V
 
-    .line 139
+    .line 137
     :cond_1
     invoke-static {p0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->isFirstLaunch(Landroid/content/Context;)Z
 
@@ -1668,12 +1648,12 @@
 
     if-eqz v3, :cond_2
 
-    .line 140
+    .line 138
     const/4 v3, 0x1
 
     invoke-static {p0, v3}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setStorageType(Landroid/content/Context;I)Z
 
-    .line 142
+    .line 140
     :cond_2
     invoke-static {p0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->isFirstLaunch(Landroid/content/Context;)Z
 
@@ -1681,42 +1661,42 @@
 
     if-eqz v3, :cond_3
 
-    .line 143
+    .line 141
     const/4 v3, 0x0
 
     invoke-static {p0, v3}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setFirstLaunch(Landroid/content/Context;Z)Z
 
-    .line 148
+    .line 146
     :cond_3
     sget-object v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-nez v3, :cond_5
 
-    .line 149
+    .line 147
     const-string/jumbo v3, "mDTVController is null!!"
 
     invoke-static {v3}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 150
+    .line 148
     sget-object v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v3}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->removeAllSystemEventListener()V
 
-    .line 151
+    .line 149
     sget-object v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v3, p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->unregisterReceiver(Landroid/content/Context;)V
 
-    .line 152
+    .line 150
     sput-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
-    .line 153
+    .line 151
     iput-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
-    .line 154
+    .line 152
     return-void
 
-    .line 111
+    .line 109
     :cond_4
     const/16 v3, 0x54
 
@@ -1724,25 +1704,25 @@
 
     goto :goto_0
 
-    .line 118
+    .line 116
     :catch_0
     move-exception v1
 
-    .line 119
+    .line 117
     .local v1, "e":Landroid/provider/Settings$SettingNotFoundException;
     invoke-virtual {v1}, Landroid/provider/Settings$SettingNotFoundException;->printStackTrace()V
 
     goto :goto_1
 
-    .line 157
+    .line 155
     .end local v1    # "e":Landroid/provider/Settings$SettingNotFoundException;
     :cond_5
     invoke-virtual {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->initialize(Landroid/os/Bundle;)V
 
-    .line 159
+    .line 157
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setOnSystemUiVisibilityChangeListener()V
 
-    .line 100
+    .line 98
     return-void
 .end method
 
@@ -1750,24 +1730,24 @@
     .locals 1
 
     .prologue
-    .line 382
+    .line 376
     const-string/jumbo v0, "onDestroy"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 388
+    .line 382
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     if-eqz v0, :cond_0
 
-    .line 389
+    .line 383
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->releaseAllInstances()V
 
-    .line 392
+    .line 386
     :cond_0
     invoke-super {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onDestroy()V
 
-    .line 381
+    .line 375
     return-void
 .end method
 
@@ -1785,7 +1765,7 @@
 
     const/4 v3, 0x0
 
-    .line 483
+    .line 477
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1806,26 +1786,26 @@
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 485
+    .line 479
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isFinishing()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 486
+    .line 480
     const-string/jumbo v1, "onKeyDown is ignored because activity is finishing."
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->w(Ljava/lang/String;)V
 
-    .line 487
+    .line 481
     return v4
 
-    .line 490
+    .line 484
     :cond_0
     sparse-switch p1, :sswitch_data_0
 
-    .line 551
+    .line 545
     :cond_1
     :goto_0
     invoke-super {p0, p1, p2}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -1834,7 +1814,7 @@
 
     return v1
 
-    .line 493
+    .line 487
     :sswitch_0
     :try_start_0
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
@@ -1849,10 +1829,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 494
+    .line 488
     return v4
 
-    .line 495
+    .line 489
     :cond_2
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
@@ -1870,7 +1850,7 @@
 
     if-nez v1, :cond_3
 
-    .line 499
+    .line 493
     :goto_1
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
@@ -1878,7 +1858,7 @@
 
     invoke-direct {v1, p0, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
-    .line 500
+    .line 494
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -1889,12 +1869,12 @@
 
     move-result-object v2
 
-    .line 499
+    .line 493
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 501
+    .line 495
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
@@ -1905,41 +1885,41 @@
 
     move-result-object v2
 
-    .line 499
+    .line 493
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 502
+    .line 496
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$8;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$8;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     const v3, 0x7f0a0048
 
-    .line 499
+    .line 493
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 509
+    .line 503
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$9;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$9;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     const v3, 0x7f0a0049
 
-    .line 499
+    .line 493
     invoke-virtual {v1, v3, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    .line 515
+    .line 509
     new-instance v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$10;
 
     invoke-direct {v2, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$10;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
-    .line 499
+    .line 493
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
@@ -1950,10 +1930,10 @@
 
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAppFinishDialog:Landroid/app/AlertDialog;
 
-    .line 525
+    .line 519
     return v4
 
-    .line 496
+    .line 490
     :cond_3
     invoke-static {p0}, Lcom/nmi/mtv/app/core/db/DBChannelManager;->getCount(Landroid/content/Context;)I
 
@@ -1969,17 +1949,17 @@
 
     goto :goto_1
 
-    .line 528
+    .line 522
     :catch_0
     move-exception v0
 
-    .line 529
+    .line 523
     .local v0, "e":Ljava/lang/Exception;
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     goto :goto_0
 
-    .line 534
+    .line 528
     .end local v0    # "e":Ljava/lang/Exception;
     :sswitch_1
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
@@ -1990,7 +1970,7 @@
 
     goto/16 :goto_0
 
-    .line 538
+    .line 532
     :sswitch_2
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
@@ -1998,7 +1978,7 @@
 
     goto/16 :goto_0
 
-    .line 543
+    .line 537
     :sswitch_3
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -2012,10 +1992,10 @@
 
     if-ne v1, v6, :cond_4
 
-    .line 544
+    .line 538
     return v4
 
-    .line 545
+    .line 539
     :cond_4
     sget-object v1, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
@@ -2029,10 +2009,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 546
+    .line 540
     return v4
 
-    .line 490
+    .line 484
     :sswitch_data_0
     .sparse-switch
         0x4 -> :sswitch_0
@@ -2048,15 +2028,15 @@
     .param p1, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 247
+    .line 241
     invoke-super {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onNewIntent(Landroid/content/Intent;)V
 
-    .line 248
+    .line 242
     const-string/jumbo v0, "onNewIntent"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 246
+    .line 240
     return-void
 .end method
 
@@ -2064,28 +2044,28 @@
     .locals 2
 
     .prologue
-    .line 329
+    .line 323
     const-string/jumbo v0, "onPause"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 331
+    .line 325
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v0, :cond_0
 
-    .line 332
+    .line 326
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->msetScreenFull:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 334
+    .line 328
     :cond_0
     invoke-super {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onPause()V
 
-    .line 328
+    .line 322
     return-void
 .end method
 
@@ -2098,7 +2078,7 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 462
+    .line 456
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2119,33 +2099,33 @@
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
 
-    .line 463
+    .line 457
     packed-switch p1, :pswitch_data_0
 
-    .line 461
+    .line 455
     :goto_0
     :pswitch_0
     return-void
 
-    .line 466
+    .line 460
     :pswitch_1
     aget v0, p3, v2
 
     if-nez v0, :cond_0
 
-    .line 467
+    .line 461
     const/4 v0, 0x1
 
     aget v0, p3, v0
 
     if-nez v0, :cond_0
 
-    .line 468
+    .line 462
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->startRecordiing()V
 
     goto :goto_0
 
-    .line 470
+    .line 464
     :cond_0
     const v0, 0x7f0a005b
 
@@ -2153,13 +2133,13 @@
 
     goto :goto_0
 
-    .line 475
+    .line 469
     :pswitch_2
     invoke-super {p0, p1, p2, p3}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
 
     goto :goto_0
 
-    .line 463
+    .line 457
     :pswitch_data_0
     .packed-switch 0xa
         :pswitch_2
@@ -2172,15 +2152,15 @@
     .locals 1
 
     .prologue
-    .line 253
+    .line 247
     const-string/jumbo v0, "onRestart"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 254
+    .line 248
     invoke-super {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onRestart()V
 
-    .line 252
+    .line 246
     return-void
 .end method
 
@@ -2192,17 +2172,17 @@
 
     const/4 v4, 0x0
 
-    .line 259
+    .line 253
     const-string/jumbo v0, "onResume"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 260
+    .line 254
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v0, :cond_0
 
-    .line 261
+    .line 255
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -2215,7 +2195,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->setScreenSize(I)V
 
-    .line 262
+    .line 256
     :cond_0
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
@@ -2227,7 +2207,7 @@
 
     invoke-static {p0, v0, v1}, Lcom/nmi/mtv/app/core/util/BrightnessUtil;->setBrightness(Landroid/content/Context;Landroid/view/Window;F)I
 
-    .line 263
+    .line 257
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -2238,19 +2218,19 @@
 
     invoke-static {p0, v0, v1}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
 
-    .line 265
+    .line 259
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     if-eqz v0, :cond_1
 
-    .line 266
+    .line 260
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->msetScreenFull:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    .line 267
+    .line 261
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mHandler:Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->msetScreenFull:Ljava/lang/Runnable;
@@ -2259,7 +2239,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity$DTVHandler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 270
+    .line 264
     :cond_1
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
@@ -2271,7 +2251,7 @@
 
     if-gtz v0, :cond_2
 
-    .line 271
+    .line 265
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     const/16 v1, 0x5f
@@ -2280,26 +2260,26 @@
 
     invoke-virtual {v0, v1, v2, v5, v4}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->update(IIILjava/lang/Object;)V
 
-    .line 272
+    .line 266
     iput v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCurrentSQ:I
 
-    .line 274
+    .line 268
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v0, :cond_2
 
-    .line 275
+    .line 269
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->setSurfaceVisibility(I)V
 
-    .line 280
+    .line 274
     :cond_2
     invoke-super {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onResume()V
 
-    .line 258
+    .line 252
     return-void
 .end method
 
@@ -2308,10 +2288,10 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    .line 397
+    .line 391
     invoke-super {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
-    .line 396
+    .line 390
     return-void
 .end method
 
@@ -2323,76 +2303,76 @@
 
     const/4 v2, 0x0
 
-    .line 284
+    .line 278
     const-string/jumbo v0, "onStart"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 285
+    .line 279
     invoke-super {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onStart()V
 
-    .line 287
+    .line 281
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-nez v0, :cond_0
 
-    .line 288
+    .line 282
     return-void
 
-    .line 289
+    .line 283
     :cond_0
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v0, :cond_1
 
-    .line 290
+    .line 284
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     invoke-virtual {v0, v3}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->setSurfaceVisibility(I)V
 
-    .line 292
+    .line 286
     :cond_1
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     if-nez v0, :cond_2
 
-    .line 293
+    .line 287
     new-instance v0, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-direct {v0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;-><init>()V
 
     sput-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
-    .line 294
+    .line 288
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     invoke-virtual {v0, p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->registerReceiver(Landroid/content/Context;)V
 
-    .line 296
+    .line 290
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     if-nez v0, :cond_2
 
-    .line 297
+    .line 291
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     invoke-direct {v0, p0, v2}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
-    .line 298
+    .line 292
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBroadcastReceiver:Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->addSystemEventListener(Ljava/lang/Object;)V
 
-    .line 299
+    .line 293
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$SystemEvent;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->addSystemEventListener(Ljava/lang/Object;)V
 
-    .line 304
+    .line 298
     :cond_2
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/MemoryStatus;->isExternalMemoryMounted(Landroid/content/Context;)Z
 
@@ -2406,11 +2386,11 @@
 
     if-nez v0, :cond_4
 
-    .line 305
+    .line 299
     :cond_3
     invoke-static {p0, v3}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setStorageType(Landroid/content/Context;I)Z
 
-    .line 307
+    .line 301
     :cond_4
     new-instance v0, Landroid/content/ComponentName;
 
@@ -2420,24 +2400,24 @@
 
     invoke-static {p0, v0}, Lcom/nmi/mtv/app/core/sound/SoundManager;->registerBTKeyEventReceiver(Landroid/content/Context;Landroid/content/ComponentName;)V
 
-    .line 309
+    .line 303
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     if-nez v0, :cond_5
 
-    .line 310
+    .line 304
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     invoke-direct {v0, p0, v2}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
-    .line 311
+    .line 305
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     invoke-static {p0, v0}, Lcom/nmi/mtv/app/core/sound/SoundManager;->requestAudioFocus(Landroid/content/Context;Landroid/media/AudioManager$OnAudioFocusChangeListener;)V
 
-    .line 314
+    .line 308
     :cond_5
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -2449,7 +2429,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 315
+    .line 309
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2460,7 +2440,7 @@
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/sound/SoundManager;->setAudioPath(Landroid/content/Context;Z)V
 
-    .line 317
+    .line 311
     :cond_6
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -2472,14 +2452,14 @@
 
     if-nez v0, :cond_7
 
-    .line 318
+    .line 312
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     const/16 v1, 0x97
 
     invoke-virtual {v0, v1, v3, v3, v2}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 321
+    .line 315
     :cond_7
     invoke-static {p0}, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;->getBatteryLevel(Landroid/content/Context;)I
 
@@ -2491,16 +2471,16 @@
 
     if-gt v0, v1, :cond_8
 
-    .line 322
+    .line 316
     const/16 v0, 0x46
 
     invoke-virtual {p0, v0, v3, v3, v2}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->receivedDTVEvent(IIILjava/lang/Object;)V
 
-    .line 324
+    .line 318
     :cond_8
     invoke-static {v3}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setViewParentalBlock(Z)V
 
-    .line 283
+    .line 277
     return-void
 .end method
 
@@ -2512,49 +2492,49 @@
 
     const/4 v4, 0x0
 
-    .line 338
+    .line 332
     const-string/jumbo v2, "onStop"
 
     invoke-static {v2}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 339
+    .line 333
     invoke-super {p0}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onStop()V
 
-    .line 342
+    .line 336
     new-instance v0, Landroid/content/Intent;
 
     const-class v2, Lcom/nmi/mtv/app/ui/condor/widget/WidgetMobileTV;
 
     invoke-direct {v0, p0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 343
+    .line 337
     .local v0, "excuteIntent":Landroid/content/Intent;
     const-string/jumbo v2, "android.appwidget.action.APPWIDGET_UPDATE"
 
     invoke-virtual {v0, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 347
+    .line 341
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-virtual {v2, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
-    .line 350
+    .line 344
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isFinishing()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 351
+    .line 345
     new-instance v1, Landroid/content/Intent;
 
     const-string/jumbo v2, "com.nmi.mtv.app.condor.ACTIVITY_CLOSE"
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 352
+    .line 346
     .local v1, "i":Landroid/content/Intent;
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -2566,7 +2546,7 @@
 
     invoke-virtual {v2, v1}, Landroid/support/v4/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
 
-    .line 353
+    .line 347
     new-instance v2, Landroid/content/ComponentName;
 
     const-class v3, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
@@ -2575,28 +2555,28 @@
 
     invoke-static {p0, v2}, Lcom/nmi/mtv/app/core/sound/SoundManager;->unregisterBTKeyEventReceiver(Landroid/content/Context;Landroid/content/ComponentName;)V
 
-    .line 355
+    .line 349
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->releaseAllInstances()V
 
-    .line 337
+    .line 331
     .end local v1    # "i":Landroid/content/Intent;
     :cond_0
     :goto_0
     return-void
 
-    .line 360
+    .line 354
     :cond_1
     sput-boolean v3, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mParentalRatingUnlocked:Z
 
-    .line 361
+    .line 355
     invoke-static {v3}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setViewParentalBlock(Z)V
 
-    .line 362
+    .line 356
     const/4 v2, -0x1
 
     iput v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mParentalRatingAge:I
 
-    .line 368
+    .line 362
     new-instance v2, Landroid/content/ComponentName;
 
     const-class v3, Lcom/nmi/mtv/app/core/receiver/MTVBroadcastReceiver;
@@ -2605,30 +2585,30 @@
 
     invoke-static {p0, v2}, Lcom/nmi/mtv/app/core/sound/SoundManager;->unregisterBTKeyEventReceiver(Landroid/content/Context;Landroid/content/ComponentName;)V
 
-    .line 369
+    .line 363
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v2, :cond_2
 
-    .line 370
+    .line 364
     sget-object v2, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     const/16 v3, 0x8
 
     invoke-virtual {v2, v3}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->setSurfaceVisibility(I)V
 
-    .line 372
+    .line 366
     :cond_2
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     if-eqz v2, :cond_0
 
-    .line 373
+    .line 367
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     invoke-static {p0, v2}, Lcom/nmi/mtv/app/core/sound/SoundManager;->abandonAudioFocus(Landroid/content/Context;Landroid/media/AudioManager$OnAudioFocusChangeListener;)V
 
-    .line 374
+    .line 368
     iput-object v4, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mAudioFocusListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$AudioFocusChangeListener;
 
     goto :goto_0
@@ -2639,10 +2619,10 @@
     .param p1, "focus"    # Z
 
     .prologue
-    .line 223
+    .line 219
     invoke-super {p0, p1}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->onWindowFocusChanged(Z)V
 
-    .line 224
+    .line 220
     if-eqz p1, :cond_0
 
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
@@ -2665,12 +2645,12 @@
 
     if-nez v0, :cond_0
 
-    .line 226
+    .line 222
     const/4 v0, 0x4
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setSystemUiVisibility(I)V
 
-    .line 222
+    .line 218
     :cond_0
     return-void
 .end method
@@ -2683,7 +2663,7 @@
     .param p4, "obj"    # Ljava/lang/Object;
 
     .prologue
-    .line 1093
+    .line 1088
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -2724,21 +2704,21 @@
 
     invoke-static {v5}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
 
-    .line 1095
+    .line 1090
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     if-nez v5, :cond_0
 
-    .line 1096
+    .line 1091
     return-void
 
-    .line 1099
+    .line 1094
     :cond_0
     iget v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mLastProcessedDTVEvent:I
 
     if-nez v5, :cond_3
 
-    .line 1100
+    .line 1095
     const/16 v5, 0x16
 
     if-eq p1, v5, :cond_1
@@ -2747,7 +2727,7 @@
 
     if-ne p1, v5, :cond_2
 
-    .line 1102
+    .line 1097
     :cond_1
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -2775,30 +2755,30 @@
 
     invoke-static {v5}, Lcom/nmi/mtv/app/core/util/Trace;->w(Ljava/lang/String;)V
 
-    .line 1103
+    .line 1098
     return-void
 
-    .line 1101
+    .line 1096
     :cond_2
     const/16 v5, 0x15
 
     if-eq p1, v5, :cond_1
 
-    .line 1107
+    .line 1102
     :cond_3
     iput p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mLastProcessedDTVEvent:I
 
-    .line 1109
+    .line 1104
     sparse-switch p1, :sswitch_data_0
 
-    .line 1092
+    .line 1087
     .end local p4    # "obj":Ljava/lang/Object;
     :cond_4
     :goto_0
     :sswitch_0
     return-void
 
-    .line 1122
+    .line 1117
     .restart local p4    # "obj":Ljava/lang/Object;
     :sswitch_1
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
@@ -2811,16 +2791,16 @@
 
     goto :goto_0
 
-    .line 1128
+    .line 1123
     :sswitch_2
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecordFileName:Ljava/lang/String;
 
     if-nez v5, :cond_5
 
-    .line 1129
+    .line 1124
     return-void
 
-    .line 1130
+    .line 1125
     :cond_5
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -2842,7 +2822,7 @@
 
     move-result-object v3
 
-    .line 1131
+    .line 1126
     .local v3, "newRecordFileName":Ljava/lang/String;
     new-instance v2, Ljava/io/File;
 
@@ -2850,7 +2830,7 @@
 
     invoke-direct {v2, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1132
+    .line 1127
     .local v2, "from":Ljava/io/File;
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
@@ -2858,23 +2838,23 @@
 
     if-eqz v5, :cond_8
 
-    .line 1133
+    .line 1128
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1134
+    .line 1129
     .local v4, "to":Ljava/io/File;
     if-eqz v4, :cond_6
 
-    .line 1135
+    .line 1130
     invoke-virtual {v2, v4}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
-    .line 1137
+    .line 1132
     :cond_6
     if-eqz v3, :cond_7
 
-    .line 1139
+    .line 1134
     :try_start_0
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -2884,7 +2864,7 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1146
+    .line 1141
     :cond_7
     :goto_1
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -2895,14 +2875,14 @@
 
     invoke-static {v5, v6}, Lcom/nmi/mtv/app/core/util/Util;->ToastShow(Landroid/content/Context;I)V
 
-    .line 1149
+    .line 1144
     .end local v4    # "to":Ljava/io/File;
     :cond_8
     const/4 v5, 0x0
 
     iput-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecordFileName:Ljava/lang/String;
 
-    .line 1150
+    .line 1145
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     iget v6, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecTimeExceed:I
@@ -2913,30 +2893,30 @@
 
     invoke-virtual {v5, p1, v6, v7, v8}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->update(IIILjava/lang/Object;)V
 
-    .line 1151
+    .line 1146
     const/4 v5, 0x0
 
     iput v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecTimeExceed:I
 
-    .line 1152
+    .line 1147
     const/4 v5, 0x4
 
     invoke-direct {p0, v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setSystemUiVisibility(I)V
 
     goto :goto_0
 
-    .line 1140
+    .line 1135
     .restart local v4    # "to":Ljava/io/File;
     :catch_0
     move-exception v1
 
-    .line 1141
+    .line 1136
     .local v1, "e":Ljava/io/IOException;
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_1
 
-    .line 1159
+    .line 1154
     .end local v1    # "e":Ljava/io/IOException;
     .end local v2    # "from":Ljava/io/File;
     .end local v3    # "newRecordFileName":Ljava/lang/String;
@@ -2946,7 +2926,7 @@
 
     if-ne p2, v5, :cond_b
 
-    .line 1160
+    .line 1155
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -2967,7 +2947,7 @@
 
     move-result-object v3
 
-    .line 1162
+    .line 1157
     .restart local v3    # "newRecordFileName":Ljava/lang/String;
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -2981,7 +2961,7 @@
 
     if-ne v5, v6, :cond_9
 
-    .line 1163
+    .line 1158
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
     move-result-object v5
@@ -2990,20 +2970,20 @@
 
     invoke-static {v5, v6}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setStorageType(Landroid/content/Context;I)Z
 
-    .line 1167
+    .line 1162
     :cond_9
     const v5, 0x7f0a0057
 
     invoke-static {p0, v5}, Lcom/nmi/mtv/app/core/util/Util;->ToastShow(Landroid/content/Context;I)V
 
-    .line 1168
+    .line 1163
     new-instance v2, Ljava/io/File;
 
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecordFileName:Ljava/lang/String;
 
     invoke-direct {v2, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1169
+    .line 1164
     .restart local v2    # "from":Ljava/io/File;
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
@@ -3011,19 +2991,19 @@
 
     if-eqz v5, :cond_b
 
-    .line 1170
+    .line 1165
     new-instance v4, Ljava/io/File;
 
     invoke-direct {v4, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1171
+    .line 1166
     .restart local v4    # "to":Ljava/io/File;
     invoke-virtual {v2, v4}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
-    .line 1173
+    .line 1168
     if-eqz v3, :cond_a
 
-    .line 1175
+    .line 1170
     :try_start_1
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
 
@@ -3033,14 +3013,14 @@
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 1182
+    .line 1177
     :cond_a
     :goto_2
     const v5, 0x7f0a0050
 
     invoke-static {p0, v5}, Lcom/nmi/mtv/app/core/util/Util;->ToastShow(Landroid/content/Context;I)V
 
-    .line 1187
+    .line 1182
     .end local v2    # "from":Ljava/io/File;
     .end local v3    # "newRecordFileName":Ljava/lang/String;
     .end local v4    # "to":Ljava/io/File;
@@ -3049,7 +3029,7 @@
 
     iput-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecordFileName:Ljava/lang/String;
 
-    .line 1188
+    .line 1183
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     const/4 v6, 0x0
@@ -3058,27 +3038,27 @@
 
     invoke-virtual {v5, p1, p2, v6, v7}, Lcom/nmi/mtv/app/ui/condor/main/CleanView;->update(IIILjava/lang/Object;)V
 
-    .line 1189
+    .line 1184
     const/4 v5, 0x4
 
     invoke-direct {p0, v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setSystemUiVisibility(I)V
 
     goto/16 :goto_0
 
-    .line 1176
+    .line 1171
     .restart local v2    # "from":Ljava/io/File;
     .restart local v3    # "newRecordFileName":Ljava/lang/String;
     .restart local v4    # "to":Ljava/io/File;
     :catch_1
     move-exception v1
 
-    .line 1177
+    .line 1172
     .restart local v1    # "e":Ljava/io/IOException;
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
     goto :goto_2
 
-    .line 1194
+    .line 1189
     .end local v1    # "e":Ljava/io/IOException;
     .end local v2    # "from":Ljava/io/File;
     .end local v3    # "newRecordFileName":Ljava/lang/String;
@@ -3092,7 +3072,7 @@
 
     goto/16 :goto_0
 
-    .line 1198
+    .line 1193
     :sswitch_5
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
@@ -3102,13 +3082,13 @@
 
     goto/16 :goto_0
 
-    .line 1202
+    .line 1197
     :sswitch_6
     const/4 v5, 0x0
 
     invoke-direct {p0, v5}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->setSystemUiVisibility(I)V
 
-    .line 1203
+    .line 1198
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     const/4 v6, 0x0
@@ -3117,60 +3097,60 @@
 
     goto/16 :goto_0
 
-    .line 1207
+    .line 1202
     :sswitch_7
     sget-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;->DSMCC_NOT_STARTED:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
     sput-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mState:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
-    .line 1208
+    .line 1203
     const/4 v5, 0x0
 
     sput v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mProgress:I
 
-    .line 1209
+    .line 1204
     const/4 v5, 0x0
 
     sput-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mGinga_path:Ljava/lang/String;
 
     goto/16 :goto_0
 
-    .line 1213
+    .line 1208
     :sswitch_8
     sget-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;->DSMCC_DOWNLOADING:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
     sput-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mState:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
-    .line 1214
+    .line 1209
     const/4 v5, 0x0
 
     sput v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mProgress:I
 
-    .line 1215
+    .line 1210
     const/4 v5, 0x0
 
     sput-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mGinga_path:Ljava/lang/String;
 
     goto/16 :goto_0
 
-    .line 1219
+    .line 1214
     :sswitch_9
     sget-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;->DSMCC_DOWNLOADING:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
     sput-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mState:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
-    .line 1220
+    .line 1215
     sput p2, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mProgress:I
 
     goto/16 :goto_0
 
-    .line 1225
+    .line 1220
     :sswitch_a
     sget-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;->DSMCC_DOWNLOAD_COMPLETED:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
     sput-object v5, Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_Info;->mState:Lcom/nmi/mtv/app/core/common/CommonType$DSMCC_STATE;
 
-    .line 1226
+    .line 1221
     check-cast p4, Ljava/lang/String;
 
     .end local p4    # "obj":Ljava/lang/Object;
@@ -3178,19 +3158,19 @@
 
     goto/16 :goto_0
 
-    .line 1230
+    .line 1225
     .restart local p4    # "obj":Ljava/lang/Object;
     :sswitch_b
     const/16 v5, 0x4650
 
     if-le p2, v5, :cond_c
 
-    .line 1232
+    .line 1227
     const/4 v5, 0x1
 
     iput v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mRecTimeExceed:I
 
-    .line 1233
+    .line 1228
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     sget-object v6, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -3205,7 +3185,7 @@
 
     goto/16 :goto_0
 
-    .line 1237
+    .line 1232
     :cond_c
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
@@ -3215,7 +3195,7 @@
 
     goto/16 :goto_0
 
-    .line 1252
+    .line 1247
     :sswitch_c
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
@@ -3229,13 +3209,13 @@
 
     goto/16 :goto_0
 
-    .line 1257
+    .line 1252
     :sswitch_d
     const/16 v5, 0xd
 
     if-ne p1, v5, :cond_4
 
-    .line 1258
+    .line 1253
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
     const/16 v6, 0x79
@@ -3248,7 +3228,7 @@
 
     goto/16 :goto_0
 
-    .line 1263
+    .line 1258
     :sswitch_e
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
@@ -3262,7 +3242,7 @@
 
     goto/16 :goto_0
 
-    .line 1268
+    .line 1263
     :sswitch_f
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;
 
@@ -3276,7 +3256,7 @@
 
     invoke-virtual {v5, v6, v7, v8, v9}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$UserEvent;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 1269
+    .line 1264
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mCleanView:Lcom/nmi/mtv/app/ui/condor/main/CleanView;
 
     const/4 v6, 0x0
@@ -3285,13 +3265,13 @@
 
     goto/16 :goto_0
 
-    .line 1273
+    .line 1268
     :sswitch_10
     invoke-static {}, Lcom/nmi/mtv/app/core/util/TopContext;->getTopContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 1274
+    .line 1269
     .local v0, "context":Landroid/content/Context;
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
@@ -3299,20 +3279,20 @@
 
     if-eqz v0, :cond_4
 
-    .line 1276
+    .line 1271
     new-instance v5, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v5, v0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 1277
+    .line 1272
     const v6, 0x7f0a004f
 
-    .line 1276
+    .line 1271
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
 
-    .line 1278
+    .line 1273
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
@@ -3363,41 +3343,41 @@
 
     move-result-object v6
 
-    .line 1276
+    .line 1271
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
 
-    .line 1279
+    .line 1274
     new-instance v6, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$14;
 
     invoke-direct {v6, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$14;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     const v7, 0x1040009
 
-    .line 1276
+    .line 1271
     invoke-virtual {v5, v7, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
 
-    .line 1286
+    .line 1281
     new-instance v6, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$15;
 
     invoke-direct {v6, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$15;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
     const v7, 0x1040013
 
-    .line 1276
+    .line 1271
     invoke-virtual {v5, v7, v6}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
 
-    .line 1299
+    .line 1294
     new-instance v6, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$16;
 
     invoke-direct {v6, p0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$16;-><init>(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
-    .line 1276
+    .line 1271
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
@@ -3408,7 +3388,7 @@
 
     iput-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
-    .line 1305
+    .line 1300
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
     new-instance v6, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$17;
@@ -3417,28 +3397,28 @@
 
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    .line 1314
+    .line 1309
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mBatteryLimitDialog:Landroid/app/AlertDialog;
 
     invoke-virtual {v5}, Landroid/app/AlertDialog;->show()V
 
     goto/16 :goto_0
 
-    .line 1319
+    .line 1314
     .end local v0    # "context":Landroid/content/Context;
     :sswitch_11
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v5, :cond_4
 
-    .line 1320
+    .line 1315
     sget-object v5, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     invoke-virtual {v5, p2, p3}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->setVideoResolution(II)V
 
     goto/16 :goto_0
 
-    .line 1109
+    .line 1104
     nop
 
     :sswitch_data_0

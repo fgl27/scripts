@@ -34,17 +34,17 @@
     .param p2, "looper"    # Landroid/os/Looper;
 
     .prologue
-    .line 1743
+    .line 1766
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 1744
+    .line 1767
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$RenderEventHandler;->player:Ljava/lang/ref/WeakReference;
 
-    .line 1742
+    .line 1765
     return-void
 .end method
 
@@ -55,7 +55,7 @@
     .param p1, "msg"    # Landroid/os/Message;
 
     .prologue
-    .line 1749
+    .line 1772
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$RenderEventHandler;->player:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -64,29 +64,29 @@
 
     check-cast v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
-    .line 1750
+    .line 1773
     .local v0, "mp":Lcom/nmi/mtv/player/MTVMFMediaPlayer;
     if-nez v0, :cond_0
 
-    .line 1751
+    .line 1774
     const-string/jumbo v1, "mtvmf_java"
 
     const-string/jumbo v2, "Render event handler is null"
 
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1754
+    .line 1777
     :cond_0
     iget v1, p1, Landroid/os/Message;->what:I
 
     packed-switch v1, :pswitch_data_0
 
-    .line 1747
+    .line 1770
     :cond_1
     :goto_0
     return-void
 
-    .line 1757
+    .line 1780
     :pswitch_0
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get9(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)Lcom/nmi/mtv/player/MediaFrameHandler;
 
@@ -100,7 +100,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 1758
+    .line 1781
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get9(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)Lcom/nmi/mtv/player/MediaFrameHandler;
 
     move-result-object v1
@@ -117,7 +117,7 @@
 
     goto :goto_0
 
-    .line 1763
+    .line 1786
     :pswitch_1
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get9(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)Lcom/nmi/mtv/player/MediaFrameHandler;
 
@@ -131,7 +131,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 1764
+    .line 1787
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get9(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)Lcom/nmi/mtv/player/MediaFrameHandler;
 
     move-result-object v1
@@ -148,7 +148,7 @@
 
     goto :goto_0
 
-    .line 1754
+    .line 1777
     nop
 
     :pswitch_data_0

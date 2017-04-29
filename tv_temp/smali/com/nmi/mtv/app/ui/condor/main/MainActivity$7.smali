@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 176
+    .line 174
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$7;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -45,7 +45,7 @@
     .param p4, "height"    # I
 
     .prologue
-    .line 185
+    .line 183
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -76,17 +76,17 @@
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 186
+    .line 184
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-eqz v0, :cond_0
 
-    .line 187
+    .line 185
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     invoke-virtual {v0, p1, p3, p4}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setSurfaceHolder(Landroid/view/SurfaceHolder;II)V
 
-    .line 184
+    .line 182
     :cond_0
     return-void
 .end method
@@ -98,22 +98,22 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 191
+    .line 189
     const-string/jumbo v0, "surfaceCreated"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 192
+    .line 190
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-eqz v0, :cond_0
 
-    .line 193
+    .line 191
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     invoke-virtual {v0, p1, v1, v1}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setSurfaceHolder(Landroid/view/SurfaceHolder;II)V
 
-    .line 190
+    .line 188
     :cond_0
     return-void
 .end method
@@ -127,22 +127,22 @@
 
     const/4 v1, 0x0
 
-    .line 178
+    .line 176
     const-string/jumbo v0, "surfaceDestroyed"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 179
+    .line 177
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     if-eqz v0, :cond_0
 
-    .line 180
+    .line 178
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mDTVController:Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     invoke-virtual {v0, v2, v1, v1}, Lcom/nmi/mtv/isdbt/controller/MtvController;->setSurfaceHolder(Landroid/view/SurfaceHolder;II)V
 
-    .line 177
+    .line 175
     :cond_0
     return-void
 .end method

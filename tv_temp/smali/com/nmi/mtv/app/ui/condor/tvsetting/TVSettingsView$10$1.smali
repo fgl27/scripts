@@ -30,7 +30,7 @@
     .param p2, "val$dialog"    # Lcom/nmi/mtv/app/ui/condor/dialog/DialogPercent;
 
     .prologue
-    .line 581
+    .line 583
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10;
 
     iput-object p2, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10$1;->val$dialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogPercent;
@@ -47,19 +47,19 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 583
+    .line 585
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v1
 
     packed-switch v1, :pswitch_data_0
 
-    .line 582
+    .line 584
     :goto_0
     :pswitch_0
     return-void
 
-    .line 585
+    .line 587
     :pswitch_1
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10;
 
@@ -79,14 +79,14 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    .line 586
+    .line 588
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10$1;->val$dialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogPercent;
 
     invoke-virtual {v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogPercent;->getPercent()I
 
     move-result v0
 
-    .line 587
+    .line 589
     .local v0, "setLimitvalue":I
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10$1;->this$1:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$10;
 
@@ -100,7 +100,7 @@
 
     goto :goto_0
 
-    .line 583
+    .line 585
     :pswitch_data_0
     .packed-switch 0x7f0f0043
         :pswitch_0

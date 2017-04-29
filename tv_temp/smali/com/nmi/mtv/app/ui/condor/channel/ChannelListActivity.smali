@@ -98,6 +98,187 @@
 
 
 # virtual methods
+.method public ckeckBatteryOptimizations(Lcom/nmi/mtv/app/core/db/DBChannel;)V
+    .locals 6
+    .param p1, "channel"    # Lcom/nmi/mtv/app/core/db/DBChannel;
+    .annotation build Landroid/annotation/TargetApi;
+        value = 0x17
+    .end annotation
+
+    .prologue
+    .line 251
+    invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getPackageName()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 252
+    .local v1, "packageName":Ljava/lang/String;
+    const-string/jumbo v4, "power"
+
+    invoke-virtual {p0, v4}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/os/PowerManager;
+
+    .line 253
+    .local v2, "pm":Landroid/os/PowerManager;
+    invoke-virtual {v2, v1}, Landroid/os/PowerManager;->isIgnoringBatteryOptimizations(Ljava/lang/String;)Z
+
+    move-result v3
+
+    .line 254
+    .local v3, "ret":Z
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v5, "isIgnoringBatteryOptimizations ret = "
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
+
+    .line 256
+    if-nez v3, :cond_0
+
+    .line 259
+    iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->mReservationChannel:Lcom/nmi/mtv/app/core/db/DBChannel;
+
+    .line 260
+    new-instance v0, Landroid/content/Intent;
+
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+
+    .line 262
+    .local v0, "intent":Landroid/content/Intent;
+    const-string/jumbo v4, "android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+
+    invoke-virtual {v0, v4}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 263
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v5, "package:"
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v4}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v4}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+
+    .line 264
+    const/16 v4, 0x42e
+
+    invoke-virtual {p0, v0, v4}, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->startActivityForResult(Landroid/content/Intent;I)V
+
+    .line 249
+    .end local v0    # "intent":Landroid/content/Intent;
+    :cond_0
+    return-void
+.end method
+
+.method protected onActivityResult(IILandroid/content/Intent;)V
+    .locals 2
+    .param p1, "requestCode"    # I
+    .param p2, "resultCode"    # I
+    .param p3, "data"    # Landroid/content/Intent;
+
+    .prologue
+    .line 240
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v1, "onActivityResult requestCode = "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, " resultCode = "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, " data = "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
+
+    .line 241
+    const/16 v0, 0x42e
+
+    if-ne p1, v0, :cond_0
+
+    const/4 v0, -0x1
+
+    if-ne p2, v0, :cond_0
+
+    .line 242
+    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->mChannelListView:Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+
+    if-eqz v0, :cond_0
+
+    .line 243
+    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->mChannelListView:Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;
+
+    iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/channel/ChannelListActivity;->mReservationChannel:Lcom/nmi/mtv/app/core/db/DBChannel;
+
+    invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/channel/ViewChannelList;->addSchedule(Lcom/nmi/mtv/app/core/db/DBChannel;)V
+
+    .line 245
+    :cond_0
+    invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->onActivityResult(IILandroid/content/Intent;)V
+
+    .line 239
+    return-void
+.end method
+
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 2
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;

@@ -8,7 +8,7 @@
     .locals 0
 
     .prologue
-    .line 29
+    .line 28
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -25,7 +25,7 @@
     .param p8, "ReserveType"    # I
 
     .prologue
-    .line 88
+    .line 87
     const/4 v5, 0x1
 
     move/from16 v0, p8
@@ -38,33 +38,33 @@
 
     if-eq v0, v5, :cond_0
 
-    .line 89
+    .line 88
     const/4 v5, 0x1
 
     return v5
 
-    .line 102
+    .line 101
     :cond_0
     if-eqz p7, :cond_1
 
-    .line 103
+    .line 102
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v22
 
-    .line 104
+    .line 103
     .local v22, "today":Ljava/util/Calendar;
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v18
 
-    .line 105
+    .line 104
     .local v18, "endDate":Ljava/util/Calendar;
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v21
 
-    .line 106
+    .line 105
     .local v21, "startDate":Ljava/util/Calendar;
     move-object/from16 v0, v18
 
@@ -72,12 +72,41 @@
 
     invoke-virtual {v0, v1, v2}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 107
+    .line 106
     move-object/from16 v0, v21
 
     move-wide/from16 v1, p2
 
     invoke-virtual {v0, v1, v2}, Ljava/util/Calendar;->setTimeInMillis(J)V
+
+    .line 108
+    const/4 v5, 0x1
+
+    move-object/from16 v0, v22
+
+    invoke-virtual {v0, v5}, Ljava/util/Calendar;->get(I)I
+
+    move-result v5
+
+    const/4 v6, 0x2
+
+    move-object/from16 v0, v22
+
+    invoke-virtual {v0, v6}, Ljava/util/Calendar;->get(I)I
+
+    move-result v6
+
+    const/4 v7, 0x5
+
+    move-object/from16 v0, v22
+
+    invoke-virtual {v0, v7}, Ljava/util/Calendar;->get(I)I
+
+    move-result v7
+
+    move-object/from16 v0, v18
+
+    invoke-virtual {v0, v5, v6, v7}, Ljava/util/Calendar;->set(III)V
 
     .line 109
     const/4 v5, 0x1
@@ -104,60 +133,31 @@
 
     move-result v7
 
-    move-object/from16 v0, v18
-
-    invoke-virtual {v0, v5, v6, v7}, Ljava/util/Calendar;->set(III)V
-
-    .line 110
-    const/4 v5, 0x1
-
-    move-object/from16 v0, v22
-
-    invoke-virtual {v0, v5}, Ljava/util/Calendar;->get(I)I
-
-    move-result v5
-
-    const/4 v6, 0x2
-
-    move-object/from16 v0, v22
-
-    invoke-virtual {v0, v6}, Ljava/util/Calendar;->get(I)I
-
-    move-result v6
-
-    const/4 v7, 0x5
-
-    move-object/from16 v0, v22
-
-    invoke-virtual {v0, v7}, Ljava/util/Calendar;->get(I)I
-
-    move-result v7
-
     move-object/from16 v0, v21
 
     invoke-virtual {v0, v5, v6, v7}, Ljava/util/Calendar;->set(III)V
 
-    .line 112
+    .line 111
     invoke-virtual/range {v21 .. v21}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide p2
 
-    .line 113
+    .line 112
     invoke-virtual/range {v18 .. v18}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide p4
 
-    .line 115
+    .line 114
     cmp-long v5, p4, p2
 
     if-gez v5, :cond_1
 
-    .line 116
+    .line 115
     const-wide/32 v6, 0x5265c00
 
     add-long p4, p4, v6
 
-    .line 120
+    .line 119
     .end local v18    # "endDate":Ljava/util/Calendar;
     .end local v21    # "startDate":Ljava/util/Calendar;
     .end local v22    # "today":Ljava/util/Calendar;
@@ -168,7 +168,7 @@
 
     if-ne v0, v5, :cond_2
 
-    .line 121
+    .line 120
     sub-long v6, p4, p2
 
     const-wide/32 v8, 0x112a880
@@ -177,16 +177,16 @@
 
     if-lez v5, :cond_2
 
-    .line 122
+    .line 121
     const/4 v5, 0x7
 
     return v5
 
-    .line 126
+    .line 125
     :cond_2
     if-nez p1, :cond_3
 
-    .line 127
+    .line 126
     const/4 v5, 0x2
 
     return v5
@@ -200,19 +200,19 @@
 
     move/from16 v9, p7
 
-    .line 130
+    .line 129
     invoke-static/range {v4 .. v9}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->validateTime(JJII)I
 
     move-result v20
 
-    .line 131
+    .line 130
     .local v20, "ret":I
     if-eqz v20, :cond_4
 
-    .line 132
+    .line 131
     return v20
 
-    .line 142
+    .line 141
     :cond_4
     const/4 v11, 0x0
 
@@ -228,13 +228,13 @@
 
     move-result v20
 
-    .line 143
+    .line 142
     if-eqz v20, :cond_5
 
-    .line 144
+    .line 143
     return v20
 
-    .line 147
+    .line 146
     :cond_5
     new-instance v4, Lcom/nmi/mtv/app/core/db/DBReservation;
 
@@ -250,7 +250,7 @@
 
     iget v7, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mServiceID:I
 
-    .line 148
+    .line 147
     move-object/from16 v0, p1
 
     iget v8, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mNetworkID:I
@@ -273,19 +273,19 @@
 
     move/from16 v17, p7
 
-    .line 147
+    .line 146
     invoke-direct/range {v4 .. v17}, Lcom/nmi/mtv/app/core/db/DBReservation;-><init>(IIIIIJJLjava/lang/String;Ljava/lang/String;II)V
 
-    .line 149
+    .line 148
     .local v4, "reservation":Lcom/nmi/mtv/app/core/db/DBReservation;
     move-object/from16 v0, p0
 
     invoke-static {v0, v4}, Lcom/nmi/mtv/app/core/db/DBReserveManager;->updateOrInsert(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBReservation;)V
 
-    .line 152
+    .line 151
     if-nez p7, :cond_6
 
-    .line 153
+    .line 152
     move-object/from16 v0, p1
 
     iget-object v5, v0, Lcom/nmi/mtv/app/core/db/DBChannel;->mChannelName:Ljava/lang/String;
@@ -296,7 +296,7 @@
 
     invoke-static {v0, v5, v4, v6}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->setAlarm(Landroid/content/Context;Ljava/lang/String;Lcom/nmi/mtv/app/core/db/DBReservation;Z)Z
 
-    .line 158
+    .line 157
     :goto_0
     move-object/from16 v0, p1
 
@@ -310,20 +310,20 @@
 
     move-result-object v19
 
-    .line 160
+    .line 159
     .local v19, "program":Lcom/nmi/mtv/app/core/db/DBProgram;
     if-eqz v19, :cond_8
 
     if-nez p7, :cond_8
 
-    .line 162
+    .line 161
     const/4 v5, 0x2
 
     move/from16 v0, p8
 
     if-ne v0, v5, :cond_7
 
-    .line 164
+    .line 163
     move-object/from16 v0, v19
 
     iget-wide v6, v0, Lcom/nmi/mtv/app/core/db/DBProgram;->mEndTime:J
@@ -332,12 +332,12 @@
 
     if-eqz v5, :cond_7
 
-    .line 165
+    .line 164
     const/4 v5, 0x0
 
     return v5
 
-    .line 155
+    .line 154
     .end local v19    # "program":Lcom/nmi/mtv/app/core/db/DBProgram;
     :cond_6
     move-object/from16 v0, p1
@@ -352,7 +352,7 @@
 
     goto :goto_0
 
-    .line 168
+    .line 167
     .restart local v19    # "program":Lcom/nmi/mtv/app/core/db/DBProgram;
     :cond_7
     move/from16 v0, p8
@@ -361,14 +361,14 @@
 
     iput v0, v1, Lcom/nmi/mtv/app/core/db/DBProgram;->mReserveType:I
 
-    .line 169
+    .line 168
     move-object/from16 v0, p0
 
     move-object/from16 v1, v19
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/db/DBProgramManager;->updateOrInsert(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBProgram;)V
 
-    .line 173
+    .line 172
     :cond_8
     const/4 v5, 0x0
 
@@ -385,56 +385,56 @@
 
     const/4 v3, 0x0
 
-    .line 308
+    .line 307
     invoke-static {p0, p1, p2, v3}, Lcom/nmi/mtv/app/core/db/DBReserveManager;->find(Landroid/content/Context;JI)Lcom/nmi/mtv/app/core/db/DBReservation;
 
     move-result-object v1
 
-    .line 310
+    .line 309
     .local v1, "reservation":Lcom/nmi/mtv/app/core/db/DBReservation;
     if-eqz v1, :cond_1
 
-    .line 312
+    .line 311
     iget v2, v1, Lcom/nmi/mtv/app/core/db/DBReservation;->mEventId:I
 
     if-lez v2, :cond_0
 
-    .line 313
+    .line 312
     iget v2, v1, Lcom/nmi/mtv/app/core/db/DBReservation;->mPch:I
 
     invoke-static {p0, p1, p2, v2}, Lcom/nmi/mtv/app/core/db/DBProgramManager;->find(Landroid/content/Context;JI)Lcom/nmi/mtv/app/core/db/DBProgram;
 
     move-result-object v0
 
-    .line 314
+    .line 313
     .local v0, "program":Lcom/nmi/mtv/app/core/db/DBProgram;
     if-eqz v0, :cond_0
 
-    .line 315
+    .line 314
     iput v3, v0, Lcom/nmi/mtv/app/core/db/DBProgram;->mReserveType:I
 
-    .line 316
+    .line 315
     invoke-static {p0, v0}, Lcom/nmi/mtv/app/core/db/DBProgramManager;->updateOrInsert(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBProgram;)V
 
-    .line 320
+    .line 319
     .end local v0    # "program":Lcom/nmi/mtv/app/core/db/DBProgram;
     :cond_0
     iget v2, v1, Lcom/nmi/mtv/app/core/db/DBReservation;->mRepeat:I
 
     if-nez v2, :cond_2
 
-    .line 321
+    .line 320
     invoke-static {p0, v4, v1, v3}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->setAlarm(Landroid/content/Context;Ljava/lang/String;Lcom/nmi/mtv/app/core/db/DBReservation;Z)Z
 
-    .line 325
+    .line 324
     :goto_0
     invoke-static {p0, p1, p2}, Lcom/nmi/mtv/app/core/db/DBReserveManager;->delete(Landroid/content/Context;J)V
 
-    .line 307
+    .line 306
     :cond_1
     return-void
 
-    .line 323
+    .line 322
     :cond_2
     invoke-static {p0, v4, v1, v3}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->setNextAlarm(Landroid/content/Context;Ljava/lang/String;Lcom/nmi/mtv/app/core/db/DBReservation;Z)Z
 
@@ -447,12 +447,12 @@
     .param p2, "repeat"    # I
 
     .prologue
-    .line 518
+    .line 508
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v4
 
-    .line 519
+    .line 509
     .local v4, "today":Ljava/util/Calendar;
     const/4 v5, 0x7
 
@@ -466,11 +466,11 @@
 
     shl-int v0, v6, v5
 
-    .line 520
+    .line 510
     .local v0, "dayOfWeek":I
     move v3, v0
 
-    .line 522
+    .line 512
     .local v3, "repeatDayForCheck":I
     const/4 v1, 0x0
 
@@ -480,21 +480,21 @@
 
     if-ge v1, v5, :cond_3
 
-    .line 523
+    .line 513
     and-int v5, p2, v3
 
     if-lez v5, :cond_1
 
-    .line 524
+    .line 514
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v2
 
-    .line 525
+    .line 515
     .local v2, "nextStartTime":Ljava/util/Calendar;
     invoke-virtual {v2, p0, p1}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 526
+    .line 516
     const/4 v5, 0x1
 
     invoke-virtual {v4, v5}, Ljava/util/Calendar;->get(I)I
@@ -515,7 +515,7 @@
 
     invoke-virtual {v2, v5, v6, v7}, Ljava/util/Calendar;->set(III)V
 
-    .line 527
+    .line 517
     invoke-virtual {v2}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v6
@@ -530,7 +530,7 @@
 
     invoke-virtual {v2, v6, v7}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 529
+    .line 519
     invoke-virtual {v2}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v6
@@ -547,14 +547,14 @@
 
     if-gez v5, :cond_0
 
-    .line 522
+    .line 512
     .end local v2    # "nextStartTime":Ljava/util/Calendar;
     :goto_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 532
+    .line 522
     .restart local v2    # "nextStartTime":Ljava/util/Calendar;
     :cond_0
     new-instance v5, Ljava/lang/StringBuilder;
@@ -589,32 +589,32 @@
 
     invoke-static {v5}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
 
-    .line 533
+    .line 523
     invoke-virtual {v2}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v6
 
     return-wide v6
 
-    .line 537
+    .line 527
     .end local v2    # "nextStartTime":Ljava/util/Calendar;
     :cond_1
     const/16 v5, 0x40
 
     if-ne v3, v5, :cond_2
 
-    .line 538
+    .line 528
     const/4 v3, 0x1
 
     goto :goto_1
 
-    .line 540
+    .line 530
     :cond_2
     mul-int/lit8 v3, v3, 0x2
 
     goto :goto_1
 
-    .line 543
+    .line 533
     :cond_3
     const-wide/16 v6, 0x0
 
@@ -626,20 +626,20 @@
     .param p0, "time"    # J
 
     .prologue
-    .line 642
+    .line 628
     const-wide/16 v2, 0x0
 
-    .line 643
+    .line 629
     .local v2, "timeInSecsOfDay":J
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
-    .line 644
+    .line 630
     .local v0, "cal":Ljava/util/Calendar;
     invoke-virtual {v0, p0, p1}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 645
+    .line 631
     const/16 v1, 0xb
 
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
@@ -652,7 +652,7 @@
 
     int-to-long v2, v1
 
-    .line 646
+    .line 632
     const/16 v1, 0xc
 
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
@@ -665,7 +665,7 @@
 
     add-long/2addr v2, v4
 
-    .line 647
+    .line 633
     const/16 v1, 0xd
 
     invoke-virtual {v0, v1}, Ljava/util/Calendar;->get(I)I
@@ -676,7 +676,7 @@
 
     add-long/2addr v2, v4
 
-    .line 649
+    .line 635
     const-wide/16 v4, 0x3e8
 
     mul-long/2addr v4, v2
@@ -693,52 +693,52 @@
     .param p8, "repeat"    # I
 
     .prologue
-    .line 547
+    .line 537
     invoke-static {p0, p1}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v10
 
-    .line 548
+    .line 538
     .local v10, "repeatStartTime":J
     invoke-static/range {p2 .. p3}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v8
 
-    .line 549
+    .line 539
     .local v8, "repeatEndTime":J
     invoke-static/range {p4 .. p5}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v6
 
-    .line 550
+    .line 540
     .local v6, "oneStartTime":J
     invoke-static/range {p6 .. p7}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v4
 
-    .line 552
+    .line 542
     .local v4, "oneEndTime":J
     cmp-long v12, v10, v8
 
     if-lez v12, :cond_0
 
-    .line 553
+    .line 543
     const-wide/32 v12, 0x5265c00
 
     add-long/2addr v8, v12
 
-    .line 555
+    .line 545
     :cond_0
     cmp-long v12, v6, v4
 
     if-lez v12, :cond_1
 
-    .line 556
+    .line 546
     const-wide/32 v12, 0x5265c00
 
     add-long/2addr v4, v12
 
-    .line 558
+    .line 548
     :cond_1
     cmp-long v12, v6, v10
 
@@ -752,19 +752,19 @@
 
     if-lez v12, :cond_3
 
-    .line 559
+    .line 549
     :cond_2
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v2
 
-    .line 560
+    .line 550
     .local v2, "oneDate":Ljava/util/Calendar;
     move-wide/from16 v0, p4
 
     invoke-virtual {v2, v0, v1}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 561
+    .line 551
     const/4 v12, 0x7
 
     invoke-virtual {v2, v12}, Ljava/util/Calendar;->get(I)I
@@ -777,18 +777,18 @@
 
     shl-int v3, v13, v12
 
-    .line 563
+    .line 553
     .local v3, "oneDayOfWeek":I
     and-int v12, p8, v3
 
     if-lez v12, :cond_3
 
-    .line 564
+    .line 554
     const/4 v12, 0x1
 
     return v12
 
-    .line 567
+    .line 557
     .end local v2    # "oneDate":Ljava/util/Calendar;
     .end local v3    # "oneDayOfWeek":I
     :cond_3
@@ -807,52 +807,52 @@
     .param p9, "repeatB"    # I
 
     .prologue
-    .line 571
+    .line 561
     invoke-static {p0, p1}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v4
 
-    .line 572
+    .line 562
     .local v4, "repeatStartTimeA":J
     invoke-static {p2, p3}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v0
 
-    .line 573
+    .line 563
     .local v0, "repeatEndTimeA":J
     invoke-static {p4, p5}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v6
 
-    .line 574
+    .line 564
     .local v6, "repeatStartTimeB":J
     invoke-static/range {p6 .. p7}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->getTimeInMillsOfDay(J)J
 
     move-result-wide v2
 
-    .line 576
+    .line 566
     .local v2, "repeatEndTimeB":J
     cmp-long v8, v4, v0
 
     if-lez v8, :cond_0
 
-    .line 577
+    .line 567
     const-wide/32 v8, 0x5265c00
 
     add-long/2addr v0, v8
 
-    .line 579
+    .line 569
     :cond_0
     cmp-long v8, v6, v2
 
     if-lez v8, :cond_1
 
-    .line 580
+    .line 570
     const-wide/32 v8, 0x5265c00
 
     add-long/2addr v2, v8
 
-    .line 582
+    .line 572
     :cond_1
     cmp-long v8, v4, v6
 
@@ -866,18 +866,18 @@
 
     if-lez v8, :cond_3
 
-    .line 583
+    .line 573
     :cond_2
     and-int v8, p8, p9
 
     if-lez v8, :cond_3
 
-    .line 584
+    .line 574
     const/4 v8, 0x1
 
     return v8
 
-    .line 587
+    .line 577
     :cond_3
     const/4 v8, 0x0
 
@@ -889,7 +889,7 @@
     .param p0, "time"    # J
 
     .prologue
-    .line 418
+    .line 408
     const-wide/32 v2, 0x7fffffff
 
     div-long v2, p0, v2
@@ -902,43 +902,41 @@
 
     long-to-int v0, v2
 
-    .line 419
+    .line 409
     .local v0, "requestId":I
     return v0
 .end method
 
 .method public static setAlarm(Landroid/content/Context;Ljava/lang/String;Lcom/nmi/mtv/app/core/db/DBReservation;Z)Z
-    .locals 12
+    .locals 11
     .param p0, "context"    # Landroid/content/Context;
     .param p1, "chName"    # Ljava/lang/String;
     .param p2, "reserve"    # Lcom/nmi/mtv/app/core/db/DBReservation;
     .param p3, "isSet"    # Z
 
     .prologue
-    const-wide/16 v10, 0x4e20
+    const/4 v10, 0x0
 
-    const/4 v8, 0x0
-
-    .line 339
+    .line 338
     if-nez p2, :cond_0
 
-    return v8
+    return v10
 
-    .line 340
+    .line 339
     :cond_0
     if-nez p1, :cond_1
 
     if-eqz p3, :cond_1
 
-    .line 341
+    .line 340
     const-string/jumbo v5, "setAlaram, chName is null"
 
     invoke-static {v5}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 342
-    return v8
+    .line 341
+    return v10
 
-    .line 346
+    .line 345
     :cond_1
     new-instance v1, Landroid/content/Intent;
 
@@ -946,53 +944,53 @@
 
     invoke-direct {v1, p0, v5}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 347
+    .line 346
     .local v1, "intent":Landroid/content/Intent;
     const-string/jumbo v5, "com.nmi.mtv.app.condor.RESERVATION_REGISTER_NOTIFICATION"
 
     invoke-virtual {v1, v5}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 348
+    .line 347
     const-string/jumbo v5, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     invoke-virtual {v1, v5, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 349
+    .line 348
     const-string/jumbo v5, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     iget v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mServiceId:I
 
     invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 350
+    .line 349
     const-string/jumbo v5, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     iget v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mPch:I
 
     invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 351
+    .line 350
     const-string/jumbo v5, "com.nmi.mtv.app.condor.START_TIME"
 
     iget-wide v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
 
     invoke-virtual {v1, v5, v6, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 352
+    .line 351
     const-string/jumbo v5, "com.nmi.mtv.app.condor.END_TIME"
 
     iget-wide v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mEndTime:J
 
     invoke-virtual {v1, v5, v6, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 353
+    .line 352
     const-string/jumbo v5, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     iget v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mReserveType:I
 
     invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 354
+    .line 353
     const-string/jumbo v5, "com.nmi.mtv.app.condor.USER_ID"
 
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/Util;->getCurrentUserID(Landroid/content/Context;)I
@@ -1001,14 +999,14 @@
 
     invoke-virtual {v1, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 356
+    .line 355
     iget-wide v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
 
     invoke-static {v6, v7}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v3
 
-    .line 358
+    .line 357
     .local v3, "requestId":I
     const/high16 v5, 0x8000000
 
@@ -1016,15 +1014,15 @@
 
     move-result-object v4
 
-    .line 360
+    .line 359
     .local v4, "sender":Landroid/app/PendingIntent;
     const/4 v0, 0x0
 
-    .line 362
+    .line 361
     .local v0, "am":Landroid/app/AlarmManager;
-    if-eqz p3, :cond_3
+    if-eqz p3, :cond_2
 
-    .line 363
+    .line 362
     const-string/jumbo v5, "alarm"
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1034,40 +1032,25 @@
     .end local v0    # "am":Landroid/app/AlarmManager;
     check-cast v0, Landroid/app/AlarmManager;
 
-    .line 364
+    .line 363
     .local v0, "am":Landroid/app/AlarmManager;
-    sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v6, 0x17
-
-    if-lt v5, v6, :cond_2
-
-    .line 365
     iget-wide v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
 
-    sub-long/2addr v6, v10
+    const-wide/16 v8, 0x4e20
 
-    invoke-virtual {v0, v8, v6, v7, v4}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
+    sub-long/2addr v6, v8
 
-    .line 378
+    invoke-virtual {v0, v10, v6, v7, v4}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
+
+    .line 372
     :goto_0
     const/4 v5, 0x1
 
     return v5
 
-    .line 367
-    :cond_2
-    iget-wide v6, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
-
-    sub-long/2addr v6, v10
-
-    invoke-virtual {v0, v8, v6, v7, v4}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
-
-    goto :goto_0
-
-    .line 371
+    .line 365
     .local v0, "am":Landroid/app/AlarmManager;
-    :cond_3
+    :cond_2
     const-string/jumbo v5, "alarm"
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1077,11 +1060,11 @@
     .end local v0    # "am":Landroid/app/AlarmManager;
     check-cast v0, Landroid/app/AlarmManager;
 
-    .line 372
+    .line 366
     .local v0, "am":Landroid/app/AlarmManager;
     invoke-virtual {v0, v4}, Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
 
-    .line 374
+    .line 368
     const-string/jumbo v5, "notification"
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1090,7 +1073,7 @@
 
     check-cast v2, Landroid/app/NotificationManager;
 
-    .line 375
+    .line 369
     .local v2, "notificationManager":Landroid/app/NotificationManager;
     invoke-virtual {v2, v3}, Landroid/app/NotificationManager;->cancel(I)V
 
@@ -1104,12 +1087,12 @@
     .param p2, "reservation"    # Lcom/nmi/mtv/app/core/db/DBReservation;
 
     .prologue
-    .line 388
+    .line 382
     const/4 v0, 0x1
 
     invoke-static {p0, p1, p2, v0}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->setNextAlarm(Landroid/content/Context;Ljava/lang/String;Lcom/nmi/mtv/app/core/db/DBReservation;Z)Z
 
-    .line 387
+    .line 381
     return-void
 .end method
 
@@ -1121,30 +1104,30 @@
     .param p3, "isSet"    # Z
 
     .prologue
-    .line 591
+    .line 581
     if-nez p2, :cond_0
 
     const/4 v7, 0x0
 
     return v7
 
-    .line 592
+    .line 582
     :cond_0
     if-nez p1, :cond_1
 
     if-eqz p3, :cond_1
 
-    .line 593
+    .line 583
     const-string/jumbo v7, "setNextAlarm, chName is null"
 
     invoke-static {v7}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 594
+    .line 584
     const/4 v7, 0x0
 
     return v7
 
-    .line 597
+    .line 587
     :cond_1
     iget-wide v8, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
 
@@ -1154,7 +1137,7 @@
 
     move-result-wide v2
 
-    .line 599
+    .line 589
     .local v2, "nextStartTime":J
     const-wide/16 v8, 0x0
 
@@ -1162,17 +1145,17 @@
 
     if-nez v7, :cond_2
 
-    .line 600
+    .line 590
     const-string/jumbo v7, "setNextAlarm, cannot find the next start time."
 
     invoke-static {v7}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 601
+    .line 591
     const/4 v7, 0x0
 
     return v7
 
-    .line 605
+    .line 595
     :cond_2
     new-instance v1, Landroid/content/Intent;
 
@@ -1180,44 +1163,44 @@
 
     invoke-direct {v1, p0, v7}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 606
+    .line 596
     .local v1, "intent":Landroid/content/Intent;
     const-string/jumbo v7, "com.nmi.mtv.app.condor.RESERVATION_REGISTER_NOTIFICATION"
 
     invoke-virtual {v1, v7}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 607
+    .line 597
     const-string/jumbo v7, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     invoke-virtual {v1, v7, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 608
+    .line 598
     const-string/jumbo v7, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     iget v8, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mServiceId:I
 
     invoke-virtual {v1, v7, v8}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 609
+    .line 599
     const-string/jumbo v7, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     iget v8, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mPch:I
 
     invoke-virtual {v1, v7, v8}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 610
+    .line 600
     const-string/jumbo v7, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
     iget-wide v8, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
 
     invoke-virtual {v1, v7, v8, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 611
+    .line 601
     const-string/jumbo v7, "com.nmi.mtv.app.condor.START_TIME"
 
     invoke-virtual {v1, v7, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 612
+    .line 602
     const-string/jumbo v7, "com.nmi.mtv.app.condor.END_TIME"
 
     iget-wide v8, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mEndTime:J
@@ -1230,14 +1213,14 @@
 
     invoke-virtual {v1, v7, v8, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 613
+    .line 603
     const-string/jumbo v7, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     iget v8, p2, Lcom/nmi/mtv/app/core/db/DBReservation;->mReserveType:I
 
     invoke-virtual {v1, v7, v8}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 614
+    .line 604
     const-string/jumbo v7, "com.nmi.mtv.app.condor.USER_ID"
 
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/Util;->getCurrentUserID(Landroid/content/Context;)I
@@ -1246,12 +1229,12 @@
 
     invoke-virtual {v1, v7, v8}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 616
+    .line 606
     invoke-static {v2, v3}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v5
 
-    .line 617
+    .line 607
     .local v5, "requestId":I
     const/high16 v7, 0x8000000
 
@@ -1259,15 +1242,15 @@
 
     move-result-object v6
 
-    .line 619
+    .line 609
     .local v6, "sender":Landroid/app/PendingIntent;
     const/4 v0, 0x0
 
-    .line 621
+    .line 611
     .local v0, "am":Landroid/app/AlarmManager;
-    if-eqz p3, :cond_4
+    if-eqz p3, :cond_3
 
-    .line 622
+    .line 612
     const-string/jumbo v7, "alarm"
 
     invoke-virtual {p0, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1277,25 +1260,17 @@
     .end local v0    # "am":Landroid/app/AlarmManager;
     check-cast v0, Landroid/app/AlarmManager;
 
-    .line 623
+    .line 613
     .local v0, "am":Landroid/app/AlarmManager;
-    sget v7, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v8, 0x17
-
-    if-lt v7, v8, :cond_3
-
-    .line 624
     const-wide/16 v8, 0x4e20
 
     sub-long v8, v2, v8
 
     const/4 v7, 0x0
 
-    invoke-virtual {v0, v7, v8, v9, v6}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
+    invoke-virtual {v0, v7, v8, v9, v6}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
 
-    .line 629
-    :goto_0
+    .line 615
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -1324,27 +1299,15 @@
 
     invoke-static {v7}, Lcom/nmi/mtv/app/core/util/Trace;->v(Ljava/lang/String;)V
 
-    .line 638
-    :goto_1
+    .line 624
+    :goto_0
     const/4 v7, 0x1
 
     return v7
 
-    .line 626
-    :cond_3
-    const-wide/16 v8, 0x4e20
-
-    sub-long v8, v2, v8
-
-    const/4 v7, 0x0
-
-    invoke-virtual {v0, v7, v8, v9, v6}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
-
-    goto :goto_0
-
-    .line 631
+    .line 617
     .local v0, "am":Landroid/app/AlarmManager;
-    :cond_4
+    :cond_3
     const-string/jumbo v7, "alarm"
 
     invoke-virtual {p0, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1354,11 +1317,11 @@
     .end local v0    # "am":Landroid/app/AlarmManager;
     check-cast v0, Landroid/app/AlarmManager;
 
-    .line 632
+    .line 618
     .local v0, "am":Landroid/app/AlarmManager;
     invoke-virtual {v0, v6}, Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
 
-    .line 634
+    .line 620
     const-string/jumbo v7, "notification"
 
     invoke-virtual {p0, v7}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1367,11 +1330,11 @@
 
     check-cast v4, Landroid/app/NotificationManager;
 
-    .line 635
+    .line 621
     .local v4, "notificationManager":Landroid/app/NotificationManager;
     invoke-virtual {v4, v5}, Landroid/app/NotificationManager;->cancel(I)V
 
-    goto :goto_1
+    goto :goto_0
 .end method
 
 .method public static setStopAlarm(Landroid/content/Context;JZ)V
@@ -1383,14 +1346,12 @@
     .prologue
     const/high16 v5, 0x8000000
 
-    const/4 v6, 0x0
-
-    .line 394
+    .line 388
     invoke-static {p1, p2}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v3
 
-    .line 396
+    .line 390
     .local v3, "requestId":I
     new-instance v1, Landroid/content/Intent;
 
@@ -1398,31 +1359,31 @@
 
     invoke-direct {v1, p0, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 397
+    .line 391
     .local v1, "launchIntent":Landroid/content/Intent;
     const-string/jumbo v4, "com.nmi.mtv.app.condor.RESERVATION_STOP_ALARM"
 
     invoke-virtual {v1, v4}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 398
+    .line 392
     const/high16 v4, 0x800000
 
     invoke-virtual {v1, v4}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 399
+    .line 393
     invoke-virtual {v1, v5}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 400
+    .line 394
     const-string/jumbo v4, "com.nmi.mtv.app.condor.END_TIME"
 
     invoke-virtual {v1, v4, p1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 403
+    .line 397
     invoke-static {p0, v3, v1, v5}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object v2
 
-    .line 404
+    .line 398
     .local v2, "launchPendingIntent":Landroid/app/PendingIntent;
     const-string/jumbo v4, "alarm"
 
@@ -1432,32 +1393,21 @@
 
     check-cast v0, Landroid/app/AlarmManager;
 
-    .line 406
+    .line 400
     .local v0, "am":Landroid/app/AlarmManager;
-    if-eqz p3, :cond_1
+    if-eqz p3, :cond_0
 
-    .line 407
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    .line 401
+    const/4 v4, 0x0
 
-    const/16 v5, 0x17
+    invoke-virtual {v0, v4, p1, p2, v2}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
 
-    if-lt v4, v5, :cond_0
-
-    .line 408
-    invoke-virtual {v0, v6, p1, p2, v2}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
-
-    .line 391
+    .line 385
     :goto_0
     return-void
 
-    .line 410
+    .line 403
     :cond_0
-    invoke-virtual {v0, v6, p1, p2, v2}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
-
-    goto :goto_0
-
-    .line 413
-    :cond_1
     invoke-virtual {v0, v2}, Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
 
     goto :goto_0
@@ -1472,16 +1422,16 @@
     .param p6, "oldReservation"    # Lcom/nmi/mtv/app/core/db/DBReservation;
 
     .prologue
-    .line 443
+    .line 433
     invoke-static {p0}, Lcom/nmi/mtv/app/core/db/DBReserveManager;->getAllReserves(Landroid/content/Context;)[Lcom/nmi/mtv/app/core/db/DBReservation;
 
     move-result-object v13
 
-    .line 445
+    .line 435
     .local v13, "reservation":[Lcom/nmi/mtv/app/core/db/DBReservation;
     if-eqz v13, :cond_6
 
-    .line 446
+    .line 436
     const/4 v12, 0x0
 
     .local v12, "i":I
@@ -1490,7 +1440,7 @@
 
     if-ge v12, v2, :cond_6
 
-    .line 448
+    .line 438
     if-eqz p6, :cond_1
 
     move-object/from16 v0, p6
@@ -1503,18 +1453,18 @@
 
     if-ne v2, v3, :cond_1
 
-    .line 449
+    .line 439
     const-string/jumbo v2, "validateDuplicate is called for update, so skip compare with old reservation\'s time."
 
     invoke-static {v2}, Lcom/nmi/mtv/app/core/util/Trace;->v(Ljava/lang/String;)V
 
-    .line 446
+    .line 436
     :cond_0
     add-int/lit8 v12, v12, 0x1
 
     goto :goto_0
 
-    .line 455
+    .line 445
     :cond_1
     if-nez p5, :cond_3
 
@@ -1524,7 +1474,7 @@
 
     if-nez v2, :cond_3
 
-    .line 456
+    .line 446
     aget-object v2, v13, v12
 
     iget-wide v2, v2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
@@ -1549,13 +1499,13 @@
 
     if-lez v2, :cond_3
 
-    .line 457
+    .line 447
     :cond_2
     const/4 v2, 0x6
 
     return v2
 
-    .line 461
+    .line 451
     :cond_3
     if-lez p5, :cond_4
 
@@ -1565,7 +1515,7 @@
 
     if-nez v2, :cond_4
 
-    .line 462
+    .line 452
     aget-object v2, v13, v12
 
     iget-wide v6, v2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
@@ -1586,12 +1536,12 @@
 
     if-eqz v2, :cond_4
 
-    .line 463
+    .line 453
     const/4 v2, 0x6
 
     return v2
 
-    .line 468
+    .line 458
     :cond_4
     if-nez p5, :cond_5
 
@@ -1601,7 +1551,7 @@
 
     if-lez v2, :cond_5
 
-    .line 469
+    .line 459
     aget-object v2, v13, v12
 
     iget-wide v2, v2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
@@ -1624,12 +1574,12 @@
 
     if-eqz v2, :cond_5
 
-    .line 470
+    .line 460
     const/4 v2, 0x6
 
     return v2
 
-    .line 475
+    .line 465
     :cond_5
     if-lez p5, :cond_0
 
@@ -1639,7 +1589,7 @@
 
     if-lez v2, :cond_0
 
-    .line 476
+    .line 466
     aget-object v2, v13, v12
 
     iget-wide v2, v2, Lcom/nmi/mtv/app/core/db/DBReservation;->mStartTime:J
@@ -1664,12 +1614,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 477
+    .line 467
     const/4 v2, 0x6
 
     return v2
 
-    .line 483
+    .line 473
     .end local v12    # "i":I
     :cond_6
     const/4 v2, 0x0
@@ -1687,7 +1637,7 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 423
+    .line 413
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
@@ -1702,23 +1652,23 @@
 
     if-nez p5, :cond_0
 
-    .line 424
+    .line 414
     const/4 v0, 0x3
 
     return v0
 
-    .line 428
+    .line 418
     :cond_0
     cmp-long v0, p2, p0
 
     if-gtz v0, :cond_1
 
-    .line 429
+    .line 419
     const/4 v0, 0x4
 
     return v0
 
-    .line 431
+    .line 421
     :cond_1
     return v2
 .end method

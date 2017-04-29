@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     .prologue
-    .line 658
+    .line 660
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p1, "password"    # Ljava/lang/String;
 
     .prologue
-    .line 660
+    .line 662
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;
@@ -51,7 +51,7 @@
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->clearParentalLockPassword(Landroid/content/Context;)V
 
-    .line 661
+    .line 663
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;
@@ -64,19 +64,19 @@
 
     move-result-object v0
 
-    .line 662
+    .line 664
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13$1;
 
     invoke-direct {v1, p0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13$1;-><init>(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$13;)V
 
-    .line 661
+    .line 663
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->setListener(Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock$OnParentalLockListener;)Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogParentalLock;->show()V
 
-    .line 659
+    .line 661
     return-void
 .end method
 
@@ -84,6 +84,6 @@
     .locals 0
 
     .prologue
-    .line 673
+    .line 675
     return-void
 .end method

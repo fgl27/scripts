@@ -534,9 +534,8 @@
     throw v0
 .end method
 
-.method public declared-synchronized initializeTV(Landroid/content/Context;)Z
+.method public declared-synchronized initializeTV()Z
     .locals 5
-    .param p1, "context"    # Landroid/content/Context;
 
     .prologue
     const/4 v4, 0x0
@@ -654,7 +653,7 @@
     .line 118
     new-instance v2, Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
-    invoke-direct {v2, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;-><init>()V
 
     iput-object v2, p0, Lcom/nmi/mtv/isdbt/controller/MtvController;->mtvmfPlayer:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 

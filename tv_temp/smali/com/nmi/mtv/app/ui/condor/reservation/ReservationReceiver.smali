@@ -32,31 +32,31 @@
 
     const/4 v0, -0x1
 
-    .line 36
+    .line 35
     sput-object v1, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mChannelName:Ljava/lang/String;
 
-    .line 37
+    .line 36
     sput v0, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mServiceID:I
 
-    .line 38
+    .line 37
     sput v0, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReservePCh:I
 
-    .line 39
+    .line 38
     sput v0, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReserveType:I
 
-    .line 40
+    .line 39
     sput-wide v2, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mOriginalStartTime:J
 
-    .line 41
+    .line 40
     sput-wide v2, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
-    .line 42
+    .line 41
     sput-wide v2, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mEndTime:J
 
-    .line 44
+    .line 43
     sput-object v1, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mContext:Landroid/content/Context;
 
-    .line 33
+    .line 32
     return-void
 .end method
 
@@ -64,7 +64,7 @@
     .locals 0
 
     .prologue
-    .line 33
+    .line 32
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     return-void
@@ -79,7 +79,7 @@
 
     const/4 v6, -0x1
 
-    .line 210
+    .line 205
     const-string/jumbo v1, "phone"
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -92,7 +92,7 @@
 
     move-result v0
 
-    .line 211
+    .line 206
     .local v0, "callState":I
     if-nez v0, :cond_0
 
@@ -104,22 +104,22 @@
 
     if-lez v1, :cond_0
 
-    .line 214
+    .line 209
     sput v6, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mServiceID:I
 
-    .line 215
+    .line 210
     sput v6, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReservePCh:I
 
-    .line 216
+    .line 211
     sput v6, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReserveType:I
 
-    .line 217
+    .line 212
     sput-wide v8, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mOriginalStartTime:J
 
-    .line 218
+    .line 213
     sput-wide v8, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
-    .line 209
+    .line 204
     :cond_0
     return-void
 .end method
@@ -130,12 +130,12 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 165
+    .line 160
     const-string/jumbo v18, "registerNotification"
 
     invoke-static/range {v18 .. v18}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 167
+    .line 162
     const-string/jumbo v18, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, p2
@@ -146,7 +146,7 @@
 
     move-result-object v4
 
-    .line 168
+    .line 163
     .local v4, "channelName":Ljava/lang/String;
     const-string/jumbo v18, "com.nmi.mtv.app.condor.START_TIME"
 
@@ -162,7 +162,7 @@
 
     move-result-wide v14
 
-    .line 169
+    .line 164
     .local v14, "startTime":J
     const-string/jumbo v18, "com.nmi.mtv.app.condor.END_TIME"
 
@@ -178,13 +178,13 @@
 
     move-result-wide v6
 
-    .line 170
+    .line 165
     .local v6, "endTime":J
     invoke-static {v14, v15}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v12
 
-    .line 173
+    .line 168
     .local v12, "requestId":I
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -196,7 +196,7 @@
 
     move-result-object v16
 
-    .line 174
+    .line 169
     .local v16, "title":Ljava/lang/String;
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -208,15 +208,15 @@
 
     move-result-object v5
 
-    .line 175
+    .line 170
     .local v5, "content":Ljava/lang/String;
     move-object v13, v5
 
-    .line 176
+    .line 171
     .local v13, "ticker":Ljava/lang/String;
     const v8, 0x7f0200b8
 
-    .line 177
+    .line 172
     .local v8, "icon":I
     const/16 v18, 0x2
 
@@ -229,7 +229,7 @@
     .local v17, "vibrationPattern":[J
     fill-array-data v17, :array_0
 
-    .line 178
+    .line 173
     new-instance v18, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v18 .. v18}, Ljava/lang/StringBuilder;-><init>()V
@@ -256,7 +256,7 @@
 
     move-result-object v5
 
-    .line 179
+    .line 174
     new-instance v18, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v18 .. v18}, Ljava/lang/StringBuilder;-><init>()V
@@ -277,7 +277,7 @@
 
     move-result-object v5
 
-    .line 180
+    .line 175
     new-instance v18, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v18 .. v18}, Ljava/lang/StringBuilder;-><init>()V
@@ -310,7 +310,7 @@
 
     move-result-object v5
 
-    .line 181
+    .line 176
     new-instance v18, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v18 .. v18}, Ljava/lang/StringBuilder;-><init>()V
@@ -331,7 +331,7 @@
 
     move-result-object v5
 
-    .line 182
+    .line 177
     new-instance v18, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v18 .. v18}, Ljava/lang/StringBuilder;-><init>()V
@@ -364,14 +364,14 @@
 
     move-result-object v5
 
-    .line 183
+    .line 178
     invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isL_Version()Z
 
     move-result v18
 
     if-eqz v18, :cond_0
 
-    .line 184
+    .line 179
     new-instance v18, Landroid/support/v4/app/NotificationCompat$Builder;
 
     move-object/from16 v0, v18
@@ -386,7 +386,7 @@
 
     move-result-object v18
 
-    .line 187
+    .line 182
     invoke-virtual/range {p1 .. p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v19
@@ -397,7 +397,7 @@
 
     move-result v19
 
-    .line 184
+    .line 179
     invoke-virtual/range {v18 .. v19}, Landroid/support/v4/app/NotificationCompat$Builder;->setColor(I)Landroid/support/v4/app/NotificationCompat$Builder;
 
     move-result-object v18
@@ -416,10 +416,10 @@
 
     move-result-object v18
 
-    .line 190
+    .line 185
     sget-object v19, Landroid/provider/Settings$System;->DEFAULT_NOTIFICATION_URI:Landroid/net/Uri;
 
-    .line 184
+    .line 179
     invoke-virtual/range {v18 .. v19}, Landroid/support/v4/app/NotificationCompat$Builder;->setSound(Landroid/net/Uri;)Landroid/support/v4/app/NotificationCompat$Builder;
 
     move-result-object v18
@@ -438,7 +438,7 @@
 
     move-result-object v10
 
-    .line 193
+    .line 188
     .local v10, "mBuilder":Landroid/support/v4/app/NotificationCompat$Builder;
     const-string/jumbo v18, "notification"
 
@@ -452,7 +452,7 @@
 
     check-cast v11, Landroid/app/NotificationManager;
 
-    .line 194
+    .line 189
     .local v11, "mNotificationManager":Landroid/app/NotificationManager;
     invoke-virtual {v10}, Landroid/support/v4/app/NotificationCompat$Builder;->build()Landroid/app/Notification;
 
@@ -462,12 +462,12 @@
 
     invoke-virtual {v11, v12, v0}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
 
-    .line 164
+    .line 159
     .end local v10    # "mBuilder":Landroid/support/v4/app/NotificationCompat$Builder;
     :goto_0
     return-void
 
-    .line 196
+    .line 191
     .end local v11    # "mNotificationManager":Landroid/app/NotificationManager;
     :cond_0
     new-instance v18, Landroid/app/Notification$Builder;
@@ -504,7 +504,7 @@
 
     move-result-object v9
 
-    .line 201
+    .line 196
     .local v9, "mBuilder":Landroid/app/Notification$Builder;
     const-string/jumbo v18, "notification"
 
@@ -518,7 +518,7 @@
 
     check-cast v11, Landroid/app/NotificationManager;
 
-    .line 202
+    .line 197
     .restart local v11    # "mNotificationManager":Landroid/app/NotificationManager;
     invoke-virtual {v9}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
 
@@ -530,7 +530,7 @@
 
     goto :goto_0
 
-    .line 177
+    .line 172
     nop
 
     :array_0
@@ -546,12 +546,12 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 283
+    .line 279
     const-string/jumbo v18, "setAlarm"
 
     invoke-static/range {v18 .. v18}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 284
+    .line 280
     const-string/jumbo v18, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, p2
@@ -562,7 +562,7 @@
 
     move-result-object v5
 
-    .line 285
+    .line 281
     .local v5, "channelName":Ljava/lang/String;
     const-string/jumbo v18, "com.nmi.mtv.app.condor.SERVICE_ID"
 
@@ -578,7 +578,7 @@
 
     move-result v15
 
-    .line 286
+    .line 282
     .local v15, "serviceID":I
     const-string/jumbo v18, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
@@ -594,7 +594,7 @@
 
     move-result v13
 
-    .line 287
+    .line 283
     .local v13, "reservePCh":I
     const-string/jumbo v18, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
@@ -610,7 +610,7 @@
 
     move-result v14
 
-    .line 288
+    .line 284
     .local v14, "reserveType":I
     const-string/jumbo v18, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
@@ -626,7 +626,7 @@
 
     move-result-wide v10
 
-    .line 289
+    .line 285
     .local v10, "originalStartTime":J
     const-string/jumbo v18, "com.nmi.mtv.app.condor.START_TIME"
 
@@ -642,7 +642,7 @@
 
     move-result-wide v16
 
-    .line 290
+    .line 286
     .local v16, "startTime":J
     const-string/jumbo v18, "com.nmi.mtv.app.condor.END_TIME"
 
@@ -658,17 +658,17 @@
 
     move-result-wide v6
 
-    .line 291
+    .line 287
     .local v6, "endTime":J
     invoke-static/range {v16 .. v17}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v12
 
-    .line 293
+    .line 289
     .local v12, "requestId":I
     const/4 v4, 0x0
 
-    .line 295
+    .line 291
     .local v4, "am":Landroid/app/AlarmManager;
     new-instance v8, Landroid/content/Intent;
 
@@ -680,7 +680,7 @@
 
     invoke-direct {v8, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 296
+    .line 292
     .local v8, "launchIntent":Landroid/content/Intent;
     const-string/jumbo v18, "com.nmi.mtv.app.condor.RESERVATION_PREPARE_ALARM"
 
@@ -688,35 +688,35 @@
 
     invoke-virtual {v8, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 297
+    .line 293
     const-string/jumbo v18, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, v18
 
     invoke-virtual {v8, v0, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 298
+    .line 294
     const-string/jumbo v18, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     move-object/from16 v0, v18
 
     invoke-virtual {v8, v0, v15}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 299
+    .line 295
     const-string/jumbo v18, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     move-object/from16 v0, v18
 
     invoke-virtual {v8, v0, v13}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 300
+    .line 296
     const-string/jumbo v18, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
     move-object/from16 v0, v18
 
     invoke-virtual {v8, v0, v10, v11}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 301
+    .line 297
     const-string/jumbo v18, "com.nmi.mtv.app.condor.START_TIME"
 
     move-object/from16 v0, v18
@@ -725,21 +725,21 @@
 
     invoke-virtual {v8, v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 302
+    .line 298
     const-string/jumbo v18, "com.nmi.mtv.app.condor.END_TIME"
 
     move-object/from16 v0, v18
 
     invoke-virtual {v8, v0, v6, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 303
+    .line 299
     const-string/jumbo v18, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     move-object/from16 v0, v18
 
     invoke-virtual {v8, v0, v14}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 304
+    .line 300
     const-string/jumbo v18, "com.nmi.mtv.app.condor.USER_ID"
 
     invoke-static/range {p1 .. p1}, Lcom/nmi/mtv/app/core/util/Util;->getCurrentUserID(Landroid/content/Context;)I
@@ -752,7 +752,7 @@
 
     invoke-virtual {v8, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 306
+    .line 302
     const/high16 v18, 0x8000000
 
     move-object/from16 v0, p1
@@ -763,7 +763,7 @@
 
     move-result-object v9
 
-    .line 307
+    .line 303
     .local v9, "launchPendingIntent":Landroid/app/PendingIntent;
     const-string/jumbo v18, "alarm"
 
@@ -778,37 +778,8 @@
     .end local v4    # "am":Landroid/app/AlarmManager;
     check-cast v4, Landroid/app/AlarmManager;
 
-    .line 308
+    .line 304
     .local v4, "am":Landroid/app/AlarmManager;
-    sget v18, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v19, 0x17
-
-    move/from16 v0, v18
-
-    move/from16 v1, v19
-
-    if-lt v0, v1, :cond_0
-
-    .line 309
-    const-wide/16 v18, 0x2710
-
-    sub-long v18, v16, v18
-
-    const/16 v20, 0x0
-
-    move/from16 v0, v20
-
-    move-wide/from16 v1, v18
-
-    invoke-virtual {v4, v0, v1, v2, v9}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
-
-    .line 282
-    :goto_0
-    return-void
-
-    .line 311
-    :cond_0
     const-wide/16 v18, 0x2710
 
     sub-long v18, v16, v18
@@ -821,7 +792,8 @@
 
     invoke-virtual {v4, v0, v1, v2, v9}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
 
-    goto :goto_0
+    .line 278
+    return-void
 .end method
 
 
@@ -832,12 +804,12 @@
     .param p2, "intent"    # Landroid/content/Intent;
 
     .prologue
-    .line 47
+    .line 46
     invoke-virtual/range {p2 .. p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 48
+    .line 47
     .local v4, "action":Ljava/lang/String;
     const-string/jumbo v26, "com.nmi.mtv.app.condor.USER_ID"
 
@@ -853,11 +825,11 @@
 
     move-result v24
 
-    .line 49
+    .line 48
     .local v24, "userID":I
     sput-object p1, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mContext:Landroid/content/Context;
 
-    .line 51
+    .line 50
     new-instance v26, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v26 .. v26}, Ljava/lang/StringBuilder;-><init>()V
@@ -894,26 +866,26 @@
 
     invoke-static/range {v26 .. v26}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 53
+    .line 52
     sget-boolean v26, Lcom/nmi/mtv/app/core/receiver/MTVUserSwitchReceiver;->mIsOwner:Z
 
     if-nez v26, :cond_0
 
-    .line 54
+    .line 53
     const-string/jumbo v26, "This user is not owner!!!! return onReceive"
 
     invoke-static/range {v26 .. v26}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 55
+    .line 54
     return-void
 
-    .line 57
+    .line 56
     :cond_0
     const-string/jumbo v26, "This user is owner!!!! regist notification"
 
     invoke-static/range {v26 .. v26}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 61
+    .line 60
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVATION_REGISTER_NOTIFICATION"
 
     move-object/from16 v0, v26
@@ -924,14 +896,14 @@
 
     if-eqz v26, :cond_4
 
-    .line 62
+    .line 61
     invoke-static/range {p1 .. p1}, Lcom/nmi/mtv/app/core/sound/SoundManager;->isCalling(Landroid/content/Context;)Z
 
     move-result v26
 
     if-nez v26, :cond_2
 
-    .line 63
+    .line 62
     const-string/jumbo v26, "power"
 
     move-object/from16 v0, p1
@@ -944,7 +916,7 @@
 
     check-cast v16, Landroid/os/PowerManager;
 
-    .line 64
+    .line 63
     .local v16, "pm":Landroid/os/PowerManager;
     const-string/jumbo v26, "DTV"
 
@@ -960,27 +932,27 @@
 
     move-result-object v25
 
-    .line 65
+    .line 64
     .local v25, "wl":Landroid/os/PowerManager$WakeLock;
     const-wide/16 v26, 0x2710
 
     invoke-virtual/range {v25 .. v27}, Landroid/os/PowerManager$WakeLock;->acquire(J)V
 
-    .line 67
+    .line 66
     invoke-direct/range {p0 .. p2}, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->registerNotification(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 83
+    .line 82
     .end local v16    # "pm":Landroid/os/PowerManager;
     .end local v25    # "wl":Landroid/os/PowerManager$WakeLock;
     :goto_0
     invoke-direct/range {p0 .. p2}, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->setAlarm(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 46
+    .line 45
     :cond_1
     :goto_1
     return-void
 
-    .line 70
+    .line 69
     :cond_2
     sget-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
@@ -990,7 +962,7 @@
 
     if-lez v26, :cond_3
 
-    .line 74
+    .line 73
     :cond_3
     const-string/jumbo v26, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
@@ -1004,7 +976,7 @@
 
     sput-object v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mChannelName:Ljava/lang/String;
 
-    .line 75
+    .line 74
     const-string/jumbo v26, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     const/16 v27, -0x1
@@ -1021,7 +993,7 @@
 
     sput v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mServiceID:I
 
-    .line 76
+    .line 75
     const-string/jumbo v26, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     const/16 v27, -0x1
@@ -1038,7 +1010,7 @@
 
     sput v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReservePCh:I
 
-    .line 77
+    .line 76
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     const/16 v27, -0x1
@@ -1055,7 +1027,7 @@
 
     sput v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReserveType:I
 
-    .line 78
+    .line 77
     const-string/jumbo v26, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
     const-wide/16 v28, -0x1
@@ -1072,7 +1044,7 @@
 
     sput-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mOriginalStartTime:J
 
-    .line 79
+    .line 78
     const-string/jumbo v26, "com.nmi.mtv.app.condor.START_TIME"
 
     const-wide/16 v28, -0x1
@@ -1089,7 +1061,7 @@
 
     sput-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
-    .line 80
+    .line 79
     const-string/jumbo v26, "com.nmi.mtv.app.condor.END_TIME"
 
     const-wide/16 v28, -0x1
@@ -1108,7 +1080,7 @@
 
     goto :goto_0
 
-    .line 85
+    .line 84
     :cond_4
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVATION_PREPARE_ALARM"
 
@@ -1118,16 +1090,16 @@
 
     move-result v26
 
-    if-eqz v26, :cond_7
+    if-eqz v26, :cond_6
 
-    .line 87
+    .line 86
     invoke-static/range {p1 .. p1}, Lcom/nmi/mtv/app/core/sound/SoundManager;->isCalling(Landroid/content/Context;)Z
 
     move-result v26
 
-    if-nez v26, :cond_6
+    if-nez v26, :cond_5
 
-    .line 88
+    .line 87
     const-string/jumbo v26, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, p2
@@ -1138,7 +1110,7 @@
 
     move-result-object v7
 
-    .line 89
+    .line 88
     .local v7, "channelName":Ljava/lang/String;
     const-string/jumbo v26, "com.nmi.mtv.app.condor.SERVICE_ID"
 
@@ -1154,7 +1126,7 @@
 
     move-result v21
 
-    .line 90
+    .line 89
     .local v21, "serviceID":I
     const-string/jumbo v26, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
@@ -1170,7 +1142,7 @@
 
     move-result v18
 
-    .line 91
+    .line 90
     .local v18, "reservePCh":I
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
@@ -1186,7 +1158,7 @@
 
     move-result v19
 
-    .line 92
+    .line 91
     .local v19, "reserveType":I
     const-string/jumbo v26, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
@@ -1202,7 +1174,7 @@
 
     move-result-wide v14
 
-    .line 93
+    .line 92
     .local v14, "originalStartTime":J
     const-string/jumbo v26, "com.nmi.mtv.app.condor.START_TIME"
 
@@ -1218,7 +1190,7 @@
 
     move-result-wide v22
 
-    .line 94
+    .line 93
     .local v22, "startTime":J
     const-string/jumbo v26, "com.nmi.mtv.app.condor.END_TIME"
 
@@ -1234,13 +1206,13 @@
 
     move-result-wide v8
 
-    .line 95
+    .line 94
     .local v8, "endTime":J
     invoke-static/range {v22 .. v23}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v17
 
-    .line 97
+    .line 96
     .local v17, "requestId":I
     new-instance v11, Landroid/content/Intent;
 
@@ -1252,7 +1224,7 @@
 
     invoke-direct {v11, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 98
+    .line 97
     .local v11, "launchIntent":Landroid/content/Intent;
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVATION_START_ALARM"
 
@@ -1260,28 +1232,28 @@
 
     invoke-virtual {v11, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 99
+    .line 98
     const/high16 v26, 0x800000
 
     move/from16 v0, v26
 
     invoke-virtual {v11, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 100
+    .line 99
     const/high16 v26, 0x8000000
 
     move/from16 v0, v26
 
     invoke-virtual {v11, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 101
+    .line 100
     const-string/jumbo v26, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, v26
 
     invoke-virtual {v11, v0, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 102
+    .line 101
     const-string/jumbo v26, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     move-object/from16 v0, v26
@@ -1290,7 +1262,7 @@
 
     invoke-virtual {v11, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 103
+    .line 102
     const-string/jumbo v26, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     move-object/from16 v0, v26
@@ -1299,14 +1271,14 @@
 
     invoke-virtual {v11, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 104
+    .line 103
     const-string/jumbo v26, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
     move-object/from16 v0, v26
 
     invoke-virtual {v11, v0, v14, v15}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 105
+    .line 104
     const-string/jumbo v26, "com.nmi.mtv.app.condor.START_TIME"
 
     move-object/from16 v0, v26
@@ -1315,14 +1287,14 @@
 
     invoke-virtual {v11, v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 106
+    .line 105
     const-string/jumbo v26, "com.nmi.mtv.app.condor.END_TIME"
 
     move-object/from16 v0, v26
 
     invoke-virtual {v11, v0, v8, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 107
+    .line 106
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     move-object/from16 v0, v26
@@ -1331,7 +1303,7 @@
 
     invoke-virtual {v11, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 108
+    .line 107
     const-string/jumbo v26, "com.nmi.mtv.app.condor.USER_ID"
 
     move-object/from16 v0, v26
@@ -1340,7 +1312,7 @@
 
     invoke-virtual {v11, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 110
+    .line 109
     const/high16 v26, 0x8000000
 
     move-object/from16 v0, p1
@@ -1353,7 +1325,7 @@
 
     move-result-object v12
 
-    .line 111
+    .line 110
     .local v12, "launchPendingIntent":Landroid/app/PendingIntent;
     const-string/jumbo v26, "alarm"
 
@@ -1367,35 +1339,8 @@
 
     check-cast v5, Landroid/app/AlarmManager;
 
-    .line 112
+    .line 111
     .local v5, "am":Landroid/app/AlarmManager;
-    sget v26, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v27, 0x17
-
-    move/from16 v0, v26
-
-    move/from16 v1, v27
-
-    if-lt v0, v1, :cond_5
-
-    .line 113
-    const-wide/16 v26, 0x2710
-
-    sub-long v26, v22, v26
-
-    const/16 v28, 0x0
-
-    move/from16 v0, v28
-
-    move-wide/from16 v1, v26
-
-    invoke-virtual {v5, v0, v1, v2, v12}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
-
-    goto/16 :goto_1
-
-    .line 115
-    :cond_5
     const-wide/16 v26, 0x2710
 
     sub-long v26, v22, v26
@@ -1410,7 +1355,7 @@
 
     goto/16 :goto_1
 
-    .line 119
+    .line 114
     .end local v5    # "am":Landroid/app/AlarmManager;
     .end local v7    # "channelName":Ljava/lang/String;
     .end local v8    # "endTime":J
@@ -1422,7 +1367,7 @@
     .end local v19    # "reserveType":I
     .end local v21    # "serviceID":I
     .end local v22    # "startTime":J
-    :cond_6
+    :cond_5
     const-string/jumbo v26, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, p2
@@ -1435,7 +1380,7 @@
 
     sput-object v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mChannelName:Ljava/lang/String;
 
-    .line 120
+    .line 115
     const-string/jumbo v26, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     const/16 v27, -0x1
@@ -1452,7 +1397,7 @@
 
     sput v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mServiceID:I
 
-    .line 121
+    .line 116
     const-string/jumbo v26, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     const/16 v27, -0x1
@@ -1469,7 +1414,7 @@
 
     sput v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReservePCh:I
 
-    .line 122
+    .line 117
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     const/16 v27, -0x1
@@ -1486,7 +1431,7 @@
 
     sput v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mReserveType:I
 
-    .line 123
+    .line 118
     const-string/jumbo v26, "com.nmi.mtv.app.condor.ORIGINAL_START_TIME"
 
     const-wide/16 v28, -0x1
@@ -1503,7 +1448,7 @@
 
     sput-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mOriginalStartTime:J
 
-    .line 124
+    .line 119
     const-string/jumbo v26, "com.nmi.mtv.app.condor.START_TIME"
 
     const-wide/16 v28, -0x1
@@ -1520,7 +1465,7 @@
 
     sput-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
-    .line 125
+    .line 120
     const-string/jumbo v26, "com.nmi.mtv.app.condor.END_TIME"
 
     const-wide/16 v28, -0x1
@@ -1537,14 +1482,14 @@
 
     sput-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mEndTime:J
 
-    .line 126
+    .line 121
     sget-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
     invoke-static/range {v26 .. v27}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->makeUniqueIdUsingTime(J)I
 
     move-result v17
 
-    .line 128
+    .line 123
     .restart local v17    # "requestId":I
     const-string/jumbo v26, "notification"
 
@@ -1558,18 +1503,18 @@
 
     check-cast v13, Landroid/app/NotificationManager;
 
-    .line 129
+    .line 124
     .local v13, "notificationManager":Landroid/app/NotificationManager;
     move/from16 v0, v17
 
     invoke-virtual {v13, v0}, Landroid/app/NotificationManager;->cancel(I)V
 
-    .line 131
+    .line 126
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v6
 
-    .line 132
+    .line 127
     .local v6, "cal":Ljava/util/Calendar;
     sget-wide v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mStartTime:J
 
@@ -1577,7 +1522,7 @@
 
     invoke-virtual {v6, v0, v1}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 133
+    .line 128
     new-instance v26, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v26 .. v26}, Ljava/lang/StringBuilder;-><init>()V
@@ -1648,7 +1593,7 @@
 
     move-result-object v20
 
-    .line 134
+    .line 129
     .local v20, "rev_text":Ljava/lang/String;
     sget-object v26, Lcom/nmi/mtv/app/ui/condor/reservation/ReservationReceiver;->mContext:Landroid/content/Context;
 
@@ -1692,12 +1637,12 @@
 
     goto/16 :goto_1
 
-    .line 137
+    .line 132
     .end local v6    # "cal":Ljava/util/Calendar;
     .end local v13    # "notificationManager":Landroid/app/NotificationManager;
     .end local v17    # "requestId":I
     .end local v20    # "rev_text":Ljava/lang/String;
-    :cond_7
+    :cond_6
     const-string/jumbo v26, "com.nmi.mtv.app.condor.MISSED_RESERVATION_START"
 
     move-object/from16 v0, v26
@@ -1708,7 +1653,7 @@
 
     if-eqz v26, :cond_1
 
-    .line 138
+    .line 133
     const-string/jumbo v26, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, p2
@@ -1719,7 +1664,7 @@
 
     move-result-object v7
 
-    .line 139
+    .line 134
     .restart local v7    # "channelName":Ljava/lang/String;
     const-string/jumbo v26, "com.nmi.mtv.app.condor.SERVICE_ID"
 
@@ -1735,7 +1680,7 @@
 
     move-result v21
 
-    .line 140
+    .line 135
     .restart local v21    # "serviceID":I
     const-string/jumbo v26, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
@@ -1751,7 +1696,7 @@
 
     move-result v18
 
-    .line 141
+    .line 136
     .restart local v18    # "reservePCh":I
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
@@ -1767,7 +1712,7 @@
 
     move-result v19
 
-    .line 142
+    .line 137
     .restart local v19    # "reserveType":I
     const-string/jumbo v26, "com.nmi.mtv.app.condor.START_TIME"
 
@@ -1783,7 +1728,7 @@
 
     move-result-wide v22
 
-    .line 143
+    .line 138
     .restart local v22    # "startTime":J
     const-string/jumbo v26, "com.nmi.mtv.app.condor.END_TIME"
 
@@ -1799,13 +1744,13 @@
 
     move-result-wide v8
 
-    .line 145
+    .line 140
     .restart local v8    # "endTime":J
     new-instance v10, Landroid/content/Intent;
 
     invoke-direct {v10}, Landroid/content/Intent;-><init>()V
 
-    .line 146
+    .line 141
     .local v10, "i":Landroid/content/Intent;
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVATION_START"
 
@@ -1813,14 +1758,14 @@
 
     invoke-virtual {v10, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 147
+    .line 142
     const-string/jumbo v26, "com.nmi.mtv.app.condor.CHANNEL_NAME"
 
     move-object/from16 v0, v26
 
     invoke-virtual {v10, v0, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 148
+    .line 143
     const-string/jumbo v26, "com.nmi.mtv.app.condor.SERVICE_ID"
 
     move-object/from16 v0, v26
@@ -1829,7 +1774,7 @@
 
     invoke-virtual {v10, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 149
+    .line 144
     const-string/jumbo v26, "com.nmi.mtv.app.condor.PHYSICAL_CH_NUM"
 
     move-object/from16 v0, v26
@@ -1838,7 +1783,7 @@
 
     invoke-virtual {v10, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 150
+    .line 145
     const-string/jumbo v26, "com.nmi.mtv.app.condor.START_TIME"
 
     move-object/from16 v0, v26
@@ -1847,14 +1792,14 @@
 
     invoke-virtual {v10, v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 151
+    .line 146
     const-string/jumbo v26, "com.nmi.mtv.app.condor.END_TIME"
 
     move-object/from16 v0, v26
 
     invoke-virtual {v10, v0, v8, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
-    .line 152
+    .line 147
     const-string/jumbo v26, "com.nmi.mtv.app.condor.RESERVE_TYPE"
 
     move-object/from16 v0, v26
@@ -1863,7 +1808,7 @@
 
     invoke-virtual {v10, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 154
+    .line 149
     invoke-static {}, Lcom/nmi/mtv/isdbt/controller/MtvController;->getInstance()Lcom/nmi/mtv/isdbt/controller/MtvController;
 
     move-result-object v26
@@ -1872,9 +1817,9 @@
 
     move-result v26
 
-    if-eqz v26, :cond_8
+    if-eqz v26, :cond_7
 
-    .line 155
+    .line 150
     invoke-static/range {p1 .. p1}, Landroid/support/v4/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroid/support/v4/content/LocalBroadcastManager;
 
     move-result-object v26
@@ -1885,15 +1830,15 @@
 
     goto/16 :goto_1
 
-    .line 158
-    :cond_8
+    .line 153
+    :cond_7
     const/high16 v26, 0x10000000
 
     move/from16 v0, v26
 
     invoke-virtual {v10, v0}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
-    .line 159
+    .line 154
     move-object/from16 v0, p1
 
     invoke-virtual {v0, v10}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V

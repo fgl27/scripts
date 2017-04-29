@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     .prologue
-    .line 949
+    .line 951
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,14 +47,14 @@
 
     const/4 v4, 0x1
 
-    .line 951
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    .line 953
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v1, 0x17
+    move-result v0
 
-    if-lt v0, v1, :cond_2
+    if-eqz v0, :cond_2
 
-    .line 952
+    .line 954
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get18(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
@@ -63,7 +63,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 953
+    .line 955
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get18(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
@@ -78,7 +78,7 @@
 
     invoke-interface {v0, v1, v2, v3, v5}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 958
+    .line 960
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
@@ -93,12 +93,12 @@
 
     if-nez v0, :cond_1
 
-    .line 959
+    .line 961
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0, v4}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-set1(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;Z)Z
 
-    .line 960
+    .line 962
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get17(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/widget/Switch;
@@ -107,11 +107,11 @@
 
     invoke-virtual {v0, v4}, Landroid/widget/Switch;->setChecked(Z)V
 
-    .line 950
+    .line 952
     :cond_1
     return-void
 
-    .line 955
+    .line 957
     :cond_2
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
@@ -123,7 +123,7 @@
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->setUsage(Landroid/content/Context;I)Z
 
-    .line 956
+    .line 958
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$20;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-get8(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)Landroid/content/Context;

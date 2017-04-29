@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 515
+    .line 509
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$10;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,13 +42,13 @@
     .param p1, "dialog"    # Landroid/content/DialogInterface;
 
     .prologue
-    .line 519
+    .line 513
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$10;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-set0(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;Landroid/app/AlertDialog;)Landroid/app/AlertDialog;
 
-    .line 518
+    .line 512
     return-void
 .end method

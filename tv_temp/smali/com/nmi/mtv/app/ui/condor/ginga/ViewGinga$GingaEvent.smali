@@ -136,11 +136,11 @@
     invoke-static {v0, p2}, Lcom/nmi/mtv/app/ui/condor/ginga/ViewGinga;->-set6(Lcom/nmi/mtv/app/ui/condor/ginga/ViewGinga;Ljava/lang/String;)Ljava/lang/String;
 
     .line 521
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v1, 0x17
+    move-result v0
 
-    if-lt v0, v1, :cond_0
+    if-eqz v0, :cond_0
 
     .line 522
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/ginga/ViewGinga$GingaEvent;->this$0:Lcom/nmi/mtv/app/ui/condor/ginga/ViewGinga;

@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/player/MediaFrameHandler;
 
     .prologue
-    .line 148
+    .line 118
     iput-object p1, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,66 +38,73 @@
 
 # virtual methods
 .method public onAudioBufferFilled([BIJ)V
-    .locals 5
+    .locals 7
     .param p1, "data"    # [B
     .param p2, "dataSize"    # I
     .param p3, "presentationTimeUs"    # J
 
     .prologue
-    .line 164
-    iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
+    .line 134
+    const-wide/16 v0, 0x0
 
-    invoke-static {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->-get1(Lcom/nmi/mtv/player/MediaFrameHandler;)Lcom/nmi/mtv/player/AudioRender;
+    .line 135
+    .local v0, "audioLatency":J
+    iget-object v2, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
-    move-result-object v0
+    invoke-static {v2}, Lcom/nmi/mtv/player/MediaFrameHandler;->-get0(Lcom/nmi/mtv/player/MediaFrameHandler;)Lcom/nmi/mtv/player/AudioRender;
 
-    if-eqz v0, :cond_1
+    move-result-object v2
 
-    .line 165
-    iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
+    if-eqz v2, :cond_1
 
-    invoke-static {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->-get1(Lcom/nmi/mtv/player/MediaFrameHandler;)Lcom/nmi/mtv/player/AudioRender;
+    .line 136
+    iget-object v2, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
-    move-result-object v0
+    invoke-static {v2}, Lcom/nmi/mtv/player/MediaFrameHandler;->-get0(Lcom/nmi/mtv/player/MediaFrameHandler;)Lcom/nmi/mtv/player/AudioRender;
 
-    invoke-virtual {v0, p1, p2}, Lcom/nmi/mtv/player/AudioRender;->feedAudio([BI)V
+    move-result-object v2
 
-    .line 170
+    invoke-virtual {v2, p1, p2}, Lcom/nmi/mtv/player/AudioRender;->feedAudio([BI)V
+
+    .line 137
+    iget-object v2, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
+
+    invoke-static {v2}, Lcom/nmi/mtv/player/MediaFrameHandler;->-get0(Lcom/nmi/mtv/player/MediaFrameHandler;)Lcom/nmi/mtv/player/AudioRender;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/nmi/mtv/player/AudioRender;->getAudioLatency()J
+
+    move-result-wide v0
+
+    .line 142
     :goto_0
-    iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
+    iget-object v2, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
-    iget-object v0, v0, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
+    iget-object v2, v2, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
 
-    if-eqz v0, :cond_0
+    if-eqz v2, :cond_0
 
-    .line 171
-    iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
+    .line 143
+    iget-object v2, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
-    iget-object v0, v0, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
+    iget-object v2, v2, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
 
-    iget-object v1, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
+    sub-long v4, p3, v0
 
-    invoke-static {v1}, Lcom/nmi/mtv/player/MediaFrameHandler;->-get0(Lcom/nmi/mtv/player/MediaFrameHandler;)I
+    invoke-interface {v2, v4, v5}, Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;->onAudioFramePlayed(J)V
 
-    move-result v1
-
-    int-to-long v2, v1
-
-    sub-long v2, p3, v2
-
-    invoke-interface {v0, v2, v3}, Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;->onAudioFramePlayed(J)V
-
-    .line 163
+    .line 133
     :cond_0
     return-void
 
-    .line 167
+    .line 139
     :cond_1
-    const-string/jumbo v0, "media frame handler"
+    const-string/jumbo v2, "media frame handler"
 
-    const-string/jumbo v1, "audio render is null"
+    const-string/jumbo v3, "audio render is null"
 
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -106,21 +113,21 @@
     .locals 1
 
     .prologue
-    .line 154
+    .line 124
     iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     iget-object v0, v0, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
 
     if-eqz v0, :cond_0
 
-    .line 155
+    .line 125
     iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     iget-object v0, v0, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;->onAudioDecoderSetupDone()V
 
-    .line 153
+    .line 123
     :cond_0
     return-void
 .end method
@@ -129,21 +136,21 @@
     .locals 1
 
     .prologue
-    .line 158
+    .line 128
     iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     iget-object v0, v0, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
 
     if-eqz v0, :cond_0
 
-    .line 159
+    .line 129
     iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     iget-object v0, v0, Lcom/nmi/mtv/player/MediaFrameHandler;->mListener:Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;->onAudioDecoderStopDone()V
 
-    .line 157
+    .line 127
     :cond_0
     return-void
 .end method
@@ -154,11 +161,11 @@
     .param p2, "channel"    # I
 
     .prologue
-    .line 150
+    .line 120
     iget-object v0, p0, Lcom/nmi/mtv/player/MediaFrameHandler$1;->this$0:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0, p1, p2}, Lcom/nmi/mtv/player/MediaFrameHandler;->prepareAudioRender(II)V
 
-    .line 149
+    .line 119
     return-void
 .end method

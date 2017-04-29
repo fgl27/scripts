@@ -29,17 +29,17 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     .prologue
-    .line 1236
+    .line 1233
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1238
+    .line 1235
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;->previousBufferState:I
 
-    .line 1236
+    .line 1233
     return-void
 .end method
 
@@ -59,14 +59,14 @@
     .locals 7
 
     .prologue
-    .line 1241
+    .line 1238
     iget-object v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     invoke-static {v3}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-wrap0(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)I
 
     move-result v1
 
-    .line 1243
+    .line 1240
     .local v1, "i":I
     :goto_0
     iget-object v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
@@ -89,7 +89,7 @@
 
     if-ne v4, v3, :cond_1
 
-    .line 1245
+    .line 1242
     :cond_0
     const-wide/16 v4, 0x32
 
@@ -100,14 +100,14 @@
 
     goto :goto_0
 
-    .line 1246
+    .line 1243
     :catch_0
     move-exception v0
 
     .local v0, "e":Ljava/lang/Exception;
     goto :goto_0
 
-    .line 1249
+    .line 1246
     .end local v0    # "e":Ljava/lang/Exception;
     :cond_1
     :goto_1
@@ -125,32 +125,32 @@
 
     if-ne v4, v3, :cond_3
 
-    .line 1251
+    .line 1248
     const-wide/16 v4, 0x32
 
     :try_start_1
     invoke-static {v4, v5}, Ljava/lang/Thread;->sleep(J)V
 
-    .line 1252
+    .line 1249
     iget-object v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;->this$0:Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
     invoke-static {v3}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-wrap0(Lcom/nmi/mtv/player/MTVMFMediaPlayer;)I
 
     move-result v1
 
-    .line 1253
+    .line 1250
     iget v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;->previousBufferState:I
 
     if-eq v3, v1, :cond_2
 
-    .line 1254
+    .line 1251
     invoke-static {}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get10()Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;
 
     move-result-object v3
 
     if-eqz v3, :cond_2
 
-    .line 1255
+    .line 1252
     invoke-static {}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get10()Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;
 
     move-result-object v3
@@ -169,7 +169,7 @@
 
     move-result-object v2
 
-    .line 1256
+    .line 1253
     .local v2, "m":Landroid/os/Message;
     invoke-static {}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->-get10()Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;
 
@@ -177,7 +177,7 @@
 
     invoke-virtual {v3, v2}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 1259
+    .line 1256
     .end local v2    # "m":Landroid/os/Message;
     :cond_2
     const-string/jumbo v3, "mtvmf_java"
@@ -206,11 +206,11 @@
 
     goto :goto_1
 
-    .line 1260
+    .line 1257
     :catch_1
     move-exception v0
 
-    .line 1261
+    .line 1258
     .restart local v0    # "e":Ljava/lang/Exception;
     const-string/jumbo v3, "mtvmf_java"
 
@@ -222,7 +222,7 @@
 
     goto :goto_1
 
-    .line 1264
+    .line 1261
     .end local v0    # "e":Ljava/lang/Exception;
     :cond_3
     const-string/jumbo v3, "mtvmf_java"
@@ -231,6 +231,6 @@
 
     invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1240
+    .line 1237
     return-void
 .end method

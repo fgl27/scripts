@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 1376
+    .line 1371
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$6;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,14 +41,14 @@
     .locals 2
 
     .prologue
-    .line 1379
+    .line 1374
     new-instance v0, Landroid/content/Intent;
 
     const-string/jumbo v1, "com.nmi.mtv.app.condor.ACTIVITY_CLOSE"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 1383
+    .line 1378
     .local v0, "i":Landroid/content/Intent;
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$6;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
@@ -62,6 +62,6 @@
 
     invoke-virtual {v1, v0}, Landroid/support/v4/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
 
-    .line 1378
+    .line 1373
     return-void
 .end method

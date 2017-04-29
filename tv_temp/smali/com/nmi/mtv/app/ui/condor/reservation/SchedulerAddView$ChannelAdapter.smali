@@ -33,16 +33,16 @@
     .param p3, "c"    # Landroid/database/Cursor;
 
     .prologue
-    .line 150
+    .line 148
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;->this$0:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;
 
-    .line 151
+    .line 149
     invoke-direct {p0, p2, p3}, Landroid/widget/CursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;)V
 
-    .line 153
+    .line 151
     iput-object p2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;->mContext:Landroid/content/Context;
 
-    .line 154
+    .line 152
     const-string/jumbo v0, "layout_inflater"
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    .line 150
+    .line 148
     return-void
 .end method
 
@@ -66,12 +66,12 @@
     .param p3, "c"    # Landroid/database/Cursor;
 
     .prologue
-    .line 159
+    .line 157
     invoke-static {p3}, Lcom/nmi/mtv/app/core/db/DBChannel;->builder(Landroid/database/Cursor;)Lcom/nmi/mtv/app/core/db/DBChannel;
 
     move-result-object v0
 
-    .line 160
+    .line 158
     .local v0, "channel":Lcom/nmi/mtv/app/core/db/DBChannel;
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -93,10 +93,10 @@
 
     invoke-static {v3}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 161
+    .line 159
     invoke-virtual {p1, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 163
+    .line 161
     const v3, 0x7f0f002a
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    .line 164
+    .line 162
     .local v2, "channelNum":Landroid/widget/TextView;
     const v3, 0x7f0f002b
 
@@ -115,7 +115,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    .line 166
+    .line 164
     .local v1, "channelName":Landroid/widget/TextView;
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -149,12 +149,12 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 167
+    .line 165
     const v3, 0x10301f7
 
     invoke-virtual {v2, p2, v3}, Landroid/widget/TextView;->setTextAppearance(Landroid/content/Context;I)V
 
-    .line 158
+    .line 156
     return-void
 .end method
 
@@ -165,7 +165,7 @@
     .param p3, "parent"    # Landroid/view/ViewGroup;
 
     .prologue
-    .line 175
+    .line 173
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;->mInflater:Landroid/view/LayoutInflater;
 
     const v1, 0x7f040005
@@ -184,6 +184,6 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 178
+    .line 176
     return-void
 .end method

@@ -180,8 +180,6 @@
 
 .field public labTimer:Lcom/nmi/mtv/player/LabTimer;
 
-.field private mContext:Landroid/content/Context;
-
 .field private mLeftVolume:F
 
 .field private mNativeContext:I
@@ -419,7 +417,7 @@
     .locals 3
 
     .prologue
-    .line 2193
+    .line 2216
     :try_start_0
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -427,29 +425,29 @@
 
     if-lt v1, v2, :cond_0
 
-    .line 2194
+    .line 2217
     const-string/jumbo v1, "System.loadLibrary MTVMFClsForM"
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 2195
+    .line 2218
     const-string/jumbo v1, "MTVMFClsForM"
 
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 33
+    .line 32
     .local v0, "e":Ljava/lang/UnsatisfiedLinkError;
     :goto_0
     return-void
 
-    .line 2199
+    .line 2222
     .end local v0    # "e":Ljava/lang/UnsatisfiedLinkError;
     :cond_0
     const-string/jumbo v1, "System.loadLibrary MTVMFClsForL"
 
     invoke-static {v1}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 2200
+    .line 2223
     const-string/jumbo v1, "MTVMFClsForL"
 
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
@@ -458,71 +456,64 @@
 
     goto :goto_0
 
-    .line 2202
+    .line 2225
     :catch_0
     move-exception v0
 
-    .line 2203
+    .line 2226
     .restart local v0    # "e":Ljava/lang/UnsatisfiedLinkError;
     invoke-virtual {v0}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
     goto :goto_0
 .end method
 
-.method public constructor <init>(Landroid/content/Context;)V
-    .locals 4
-    .param p1, "context"    # Landroid/content/Context;
+.method public constructor <init>()V
+    .locals 3
 
     .prologue
-    const/4 v3, 0x0
-
     const/high16 v2, 0x3f800000    # 1.0f
 
     const/4 v1, 0x0
 
-    .line 153
+    .line 150
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 40
-    iput-object v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mContext:Landroid/content/Context;
-
-    .line 1172
+    .line 1169
     iput v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mStoreLocation:I
 
-    .line 1173
+    .line 1170
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->RecordingState_code:I
 
-    .line 1174
-    iput-object v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
+    .line 1171
+    const/4 v0, 0x0
 
-    .line 1176
+    iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
+
+    .line 1173
     iput v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isBuildingReplayFile:I
 
-    .line 154
-    iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mContext:Landroid/content/Context;
-
-    .line 155
+    .line 152
     invoke-static {}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_init()V
 
-    .line 167
+    .line 164
     invoke-direct {p0, v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->setState(I)V
 
-    .line 169
+    .line 166
     iput v2, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mLeftVolume:F
 
-    .line 170
+    .line 167
     iput v2, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mRightVolume:F
 
-    .line 172
+    .line 169
     const-string/jumbo v0, "render buffering time"
 
     const/16 v1, 0x7d0
 
     invoke-virtual {p0, v0, v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->setCorePlayerOption(Ljava/lang/String;I)I
 
-    .line 153
+    .line 150
     return-void
 .end method
 
@@ -530,7 +521,7 @@
     .locals 4
 
     .prologue
-    .line 1327
+    .line 1324
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -557,13 +548,13 @@
 
     move-result-object v1
 
-    .line 1328
+    .line 1325
     .local v1, "sExternalPath":Ljava/lang/String;
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 1330
+    .line 1327
     .local v0, "file":Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
@@ -571,12 +562,12 @@
 
     if-nez v2, :cond_0
 
-    .line 1331
+    .line 1328
     const/4 v2, 0x0
 
     return v2
 
-    .line 1333
+    .line 1330
     :cond_0
     const/4 v2, 0x1
 
@@ -593,7 +584,7 @@
     .param p3, "arg2"    # I
 
     .prologue
-    .line 2000
+    .line 2023
     return-void
 .end method
 
@@ -606,7 +597,7 @@
     .param p4, "arg3"    # I
 
     .prologue
-    .line 2005
+    .line 2028
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -659,7 +650,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 2004
+    .line 2027
     return-void
 .end method
 
@@ -671,7 +662,7 @@
     .param p4, "arg3"    # I
 
     .prologue
-    .line 1997
+    .line 2020
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_genericFunction(IIII)I
 
     move-result v0
@@ -686,18 +677,18 @@
     .end annotation
 
     .prologue
-    .line 1382
+    .line 1405
     const-wide/16 v4, -0x1
 
-    .line 1383
+    .line 1406
     .local v4, "nAvailable_size":J
     const-wide/16 v6, -0x1
 
-    .line 1384
+    .line 1407
     .local v6, "nBlockSize":J
     const-wide/16 v2, -0x1
 
-    .line 1386
+    .line 1409
     .local v2, "nAvailableBlocks":J
     invoke-static {}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->canUseExternalMemory()Z
 
@@ -705,25 +696,25 @@
 
     if-nez v8, :cond_0
 
-    .line 1387
+    .line 1410
     const-string/jumbo v8, "mtvmf_java"
 
     const-string/jumbo v9, "Device has no External MemoryCard "
 
     invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1388
+    .line 1411
     const-wide/16 v8, -0x1
 
     return-wide v8
 
-    .line 1391
+    .line 1414
     :cond_0
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v0
 
-    .line 1392
+    .line 1415
     .local v0, "externalMemPath":Ljava/io/File;
     new-instance v1, Landroid/os/StatFs;
 
@@ -751,7 +742,7 @@
 
     invoke-direct {v1, v8}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 1394
+    .line 1417
     .local v1, "fs":Landroid/os/StatFs;
     const-string/jumbo v8, "mtvmf_java"
 
@@ -779,20 +770,20 @@
 
     invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1396
+    .line 1419
     invoke-virtual {v1}, Landroid/os/StatFs;->getBlockSizeLong()J
 
     move-result-wide v6
 
-    .line 1397
+    .line 1420
     invoke-virtual {v1}, Landroid/os/StatFs;->getAvailableBlocksLong()J
 
     move-result-wide v2
 
-    .line 1399
+    .line 1422
     mul-long v4, v6, v2
 
-    .line 1401
+    .line 1424
     return-wide v4
 .end method
 
@@ -804,7 +795,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 1405
+    .line 1428
     check-cast p1, Ljava/lang/ref/WeakReference;
 
     .end local p1    # "player":Ljava/lang/Object;
@@ -814,54 +805,54 @@
 
     check-cast v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
-    .line 1406
+    .line 1429
     .local v0, "mp":Lcom/nmi/mtv/player/MTVMFMediaPlayer;
     if-nez v0, :cond_0
 
-    .line 1407
+    .line 1430
     const-string/jumbo v1, "mtvmf_java"
 
     const-string/jumbo v2, "delever message failure"
 
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1408
+    .line 1431
     return-object v3
 
-    .line 1411
+    .line 1434
     :cond_0
     const/16 v1, 0x32
 
     if-ge p0, v1, :cond_1
 
-    .line 1412
+    .line 1435
     sget-object v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;
 
     return-object v1
 
-    .line 1413
+    .line 1436
     :cond_1
     const/16 v1, 0x3c
 
     if-ge p0, v1, :cond_2
 
-    .line 1414
+    .line 1437
     sget-object v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$AudioEventHandler;
 
     return-object v1
 
-    .line 1415
+    .line 1438
     :cond_2
     const/16 v1, 0x46
 
     if-ge p0, v1, :cond_3
 
-    .line 1416
+    .line 1439
     sget-object v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
     return-object v1
 
-    .line 1418
+    .line 1441
     :cond_3
     sget-object v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$RenderEventHandler;
 
@@ -875,24 +866,24 @@
     .end annotation
 
     .prologue
-    .line 1360
+    .line 1383
     const-wide/16 v4, -0x1
 
-    .line 1361
+    .line 1384
     .local v4, "nAvailable_size":J
     const-wide/16 v6, -0x1
 
-    .line 1362
+    .line 1385
     .local v6, "nBlockSize":J
     const-wide/16 v2, -0x1
 
-    .line 1364
+    .line 1387
     .local v2, "nAvailableBlocks":J
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v0
 
-    .line 1366
+    .line 1389
     .local v0, "externalMemPath":Ljava/io/File;
     const-string/jumbo v8, "mtvmf_java"
 
@@ -902,7 +893,7 @@
 
     invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1368
+    .line 1391
     new-instance v1, Landroid/os/StatFs;
 
     invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
@@ -911,21 +902,21 @@
 
     invoke-direct {v1, v8}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 1370
+    .line 1393
     .local v1, "fs":Landroid/os/StatFs;
     invoke-virtual {v1}, Landroid/os/StatFs;->getBlockSizeLong()J
 
     move-result-wide v6
 
-    .line 1371
+    .line 1394
     invoke-virtual {v1}, Landroid/os/StatFs;->getAvailableBlocksLong()J
 
     move-result-wide v2
 
-    .line 1373
+    .line 1396
     mul-long v4, v6, v2
 
-    .line 1375
+    .line 1398
     const-string/jumbo v8, "mtvmf_java"
 
     new-instance v9, Ljava/lang/StringBuilder;
@@ -952,51 +943,69 @@
 
     invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1377
+    .line 1400
     return-wide v4
 .end method
 
 .method private static getInternalPhoneMemoryAvailableSize()J
-    .locals 4
+    .locals 10
     .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
     .prologue
-    .line 1350
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
+    .line 1360
+    const-wide/16 v4, -0x1
+
+    .line 1361
+    .local v4, "nAvailable_size":J
+    const-wide/16 v6, -0x1
+
+    .line 1362
+    .local v6, "nBlockSize":J
+    const-wide/16 v2, -0x1
+
+    .line 1365
+    .local v2, "nAvailableBlocks":J
+    invoke-static {}, Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
 
     move-result-object v1
 
-    const-string/jumbo v2, "mounted"
+    .line 1368
+    .local v1, "internalphoneMemPath":Ljava/io/File;
+    new-instance v0, Landroid/os/StatFs;
 
-    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
-    move-result v1
+    move-result-object v8
 
-    if-eqz v1, :cond_0
+    invoke-direct {v0, v8}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 1351
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+    .line 1370
+    .local v0, "fs":Landroid/os/StatFs;
+    const-string/jumbo v8, "mtvmf_java"
 
-    move-result-object v0
+    invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
-    .line 1352
-    .local v0, "file":Ljava/io/File;
-    if-eqz v0, :cond_0
+    move-result-object v9
 
-    .line 1353
-    invoke-virtual {v0}, Ljava/io/File;->getUsableSpace()J
+    invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 1373
+    invoke-virtual {v0}, Landroid/os/StatFs;->getBlockSizeLong()J
+
+    move-result-wide v6
+
+    .line 1374
+    invoke-virtual {v0}, Landroid/os/StatFs;->getAvailableBlocksLong()J
 
     move-result-wide v2
 
-    return-wide v2
+    .line 1376
+    mul-long v4, v6, v2
 
-    .line 1355
-    :cond_0
-    const-wide/16 v2, 0x0
-
-    return-wide v2
+    .line 1378
+    return-wide v4
 .end method
 
 .method private getStateString(I)Ljava/lang/String;
@@ -1004,10 +1013,10 @@
     .param p1, "state"    # I
 
     .prologue
-    .line 393
+    .line 390
     packed-switch p1, :pswitch_data_0
 
-    .line 413
+    .line 410
     new-instance v0, Ljava/lang/String;
 
     const-string/jumbo v1, "undefined"
@@ -1016,7 +1025,7 @@
 
     return-object v0
 
-    .line 395
+    .line 392
     :pswitch_0
     new-instance v0, Ljava/lang/String;
 
@@ -1026,7 +1035,7 @@
 
     return-object v0
 
-    .line 398
+    .line 395
     :pswitch_1
     new-instance v0, Ljava/lang/String;
 
@@ -1036,7 +1045,7 @@
 
     return-object v0
 
-    .line 401
+    .line 398
     :pswitch_2
     new-instance v0, Ljava/lang/String;
 
@@ -1046,7 +1055,7 @@
 
     return-object v0
 
-    .line 403
+    .line 400
     :pswitch_3
     new-instance v0, Ljava/lang/String;
 
@@ -1056,7 +1065,7 @@
 
     return-object v0
 
-    .line 405
+    .line 402
     :pswitch_4
     new-instance v0, Ljava/lang/String;
 
@@ -1066,7 +1075,7 @@
 
     return-object v0
 
-    .line 407
+    .line 404
     :pswitch_5
     new-instance v0, Ljava/lang/String;
 
@@ -1076,7 +1085,7 @@
 
     return-object v0
 
-    .line 409
+    .line 406
     :pswitch_6
     new-instance v0, Ljava/lang/String;
 
@@ -1086,7 +1095,7 @@
 
     return-object v0
 
-    .line 411
+    .line 408
     :pswitch_7
     new-instance v0, Ljava/lang/String;
 
@@ -1096,7 +1105,7 @@
 
     return-object v0
 
-    .line 393
+    .line 390
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -1111,49 +1120,68 @@
 .end method
 
 .method private static getStorageAvailableSize(Ljava/lang/String;)J
-    .locals 4
+    .locals 10
     .param p0, "filePath"    # Ljava/lang/String;
     .annotation build Landroid/annotation/TargetApi;
         value = 0x12
     .end annotation
 
     .prologue
-    .line 1339
-    const/4 v0, 0x0
+    .line 1336
+    const-wide/16 v4, -0x1
 
-    .line 1340
-    .local v0, "file":Ljava/io/File;
-    if-eqz p0, :cond_0
+    .line 1337
+    .local v4, "nAvailable_size":J
+    const-wide/16 v6, -0x1
 
-    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    .line 1341
-    new-instance v0, Ljava/io/File;
-
-    .end local v0    # "file":Ljava/io/File;
-    invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    .line 1338
+    .local v6, "nBlockSize":J
+    const-wide/16 v2, -0x1
 
     .line 1342
-    .local v0, "file":Ljava/io/File;
-    if-eqz v0, :cond_0
+    .local v2, "nAvailableBlocks":J
+    :try_start_0
+    new-instance v1, Landroid/os/StatFs;
 
-    .line 1343
-    invoke-virtual {v0}, Ljava/io/File;->getUsableSpace()J
+    invoke-direct {v1, p0}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+
+    .line 1345
+    .local v1, "fs":Landroid/os/StatFs;
+    invoke-virtual {v1}, Landroid/os/StatFs;->getBlockSizeLong()J
+
+    move-result-wide v6
+
+    .line 1346
+    invoke-virtual {v1}, Landroid/os/StatFs;->getAvailableBlocksLong()J
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     move-result-wide v2
 
-    return-wide v2
+    .line 1348
+    mul-long v4, v6, v2
 
-    .line 1345
-    .end local v0    # "file":Ljava/io/File;
-    :cond_0
-    const-wide/16 v2, 0x0
+    .line 1355
+    .end local v1    # "fs":Landroid/os/StatFs;
+    :goto_0
+    return-wide v4
 
-    return-wide v2
+    .line 1350
+    :catch_0
+    move-exception v0
+
+    .line 1351
+    .local v0, "e":Ljava/lang/Exception;
+    const-string/jumbo v8, "mtvmf_java"
+
+    const-string/jumbo v9, "Can\'t get Available Size"
+
+    invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 1352
+    const-wide/16 v4, 0x0
+
+    goto :goto_0
 .end method
 
 .method private native initialize_core(Ljava/lang/Object;)V
@@ -1164,34 +1192,34 @@
     .param p0, "what"    # I
 
     .prologue
-    .line 1423
+    .line 1446
     const/16 v0, 0x32
 
     if-eq v0, p0, :cond_0
 
-    .line 1424
+    .line 1447
     const/16 v0, 0x33
 
     if-ne v0, p0, :cond_1
 
-    .line 1428
+    .line 1451
     :cond_0
     const/4 v0, 0x1
 
     return v0
 
-    .line 1425
+    .line 1448
     :cond_1
     const/16 v0, 0x3c
 
     if-eq v0, p0, :cond_0
 
-    .line 1426
+    .line 1449
     const/16 v0, 0x3d
 
     if-eq v0, p0, :cond_0
 
-    .line 1430
+    .line 1453
     const/4 v0, 0x0
 
     return v0
@@ -1369,7 +1397,7 @@
     .prologue
     move-object v10, p0
 
-    .line 1483
+    .line 1506
     check-cast v10, Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v10}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
@@ -1378,72 +1406,72 @@
 
     check-cast v8, Lcom/nmi/mtv/player/MTVMFMediaPlayer;
 
-    .line 1484
+    .line 1507
     .local v8, "mp":Lcom/nmi/mtv/player/MTVMFMediaPlayer;
     if-nez v8, :cond_0
 
-    .line 1485
+    .line 1508
     const-string/jumbo v10, "mtvmf_java"
 
     const-string/jumbo v11, "delever message failure"
 
     invoke-static {v10, v11}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1486
+    .line 1509
     return-void
 
-    .line 1489
+    .line 1512
     :cond_0
     invoke-static {p1, p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getHandler(ILjava/lang/Object;)Landroid/os/Handler;
 
     move-result-object v4
 
-    .line 1491
+    .line 1514
     .local v4, "h":Landroid/os/Handler;
     if-eqz v4, :cond_1
 
-    .line 1493
+    .line 1516
     const/16 v10, 0x12
 
     if-ne v10, p1, :cond_3
 
-    .line 1495
+    .line 1518
     invoke-virtual {v8}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getVideoWidth()I
 
     move-result v9
 
-    .line 1496
+    .line 1519
     .local v9, "width":I
     invoke-virtual {v8}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getVideoHeight()I
 
     move-result v5
 
-    .line 1498
+    .line 1521
     .local v5, "height":I
     new-instance v1, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    .line 1499
+    .line 1522
     .local v1, "bfo":Landroid/graphics/BitmapFactory$Options;
     sget-object v10, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
     iput-object v10, v1, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    .line 1500
+    .line 1523
     iput v9, v1, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    .line 1501
+    .line 1524
     iput v5, v1, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
-    .line 1503
+    .line 1526
     sget-object v10, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
     invoke-static {v9, v5, v10}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
-    .line 1504
+    .line 1527
     .local v2, "capturedImage":Landroid/graphics/Bitmap;
     invoke-static/range {p4 .. p4}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
@@ -1451,14 +1479,14 @@
 
     invoke-virtual {v2, v10}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    .line 1506
+    .line 1529
     iget v10, v1, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     const/16 v11, 0xc0
 
     if-ne v11, v10, :cond_2
 
-    .line 1507
+    .line 1530
     const-string/jumbo v10, "mtvmf_java"
 
     new-instance v11, Ljava/lang/StringBuilder;
@@ -1483,7 +1511,7 @@
 
     invoke-static {v10, v11}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1508
+    .line 1531
     add-int/lit8 v10, v5, -0xc
 
     const/4 v11, 0x0
@@ -1494,7 +1522,7 @@
 
     move-result-object v3
 
-    .line 1510
+    .line 1533
     .local v3, "cropedBitmap":Landroid/graphics/Bitmap;
     const/16 v10, 0x12
 
@@ -1504,11 +1532,11 @@
 
     move-result-object v6
 
-    .line 1511
+    .line 1534
     .local v6, "m":Landroid/os/Message;
     invoke-virtual {v4, v6}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 1480
+    .line 1503
     .end local v1    # "bfo":Landroid/graphics/BitmapFactory$Options;
     .end local v2    # "capturedImage":Landroid/graphics/Bitmap;
     .end local v3    # "cropedBitmap":Landroid/graphics/Bitmap;
@@ -1519,7 +1547,7 @@
     :goto_0
     return-void
 
-    .line 1513
+    .line 1536
     .restart local v1    # "bfo":Landroid/graphics/BitmapFactory$Options;
     .restart local v2    # "capturedImage":Landroid/graphics/Bitmap;
     .restart local v5    # "height":I
@@ -1549,7 +1577,7 @@
 
     invoke-static {v10, v11}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1514
+    .line 1537
     const/16 v10, 0x12
 
     const/4 v11, 0x0
@@ -1558,13 +1586,13 @@
 
     move-result-object v6
 
-    .line 1515
+    .line 1538
     .restart local v6    # "m":Landroid/os/Message;
     invoke-virtual {v4, v6}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
     goto :goto_0
 
-    .line 1518
+    .line 1541
     .end local v1    # "bfo":Landroid/graphics/BitmapFactory$Options;
     .end local v2    # "capturedImage":Landroid/graphics/Bitmap;
     .end local v5    # "height":I
@@ -1577,7 +1605,7 @@
 
     new-array v7, v10, [B
 
-    .line 1519
+    .line 1542
     .local v7, "messageData":[B
     move-object/from16 v0, p4
 
@@ -1591,14 +1619,14 @@
 
     invoke-static {v0, v11, v7, v12, v10}, Ljava/lang/System;->arraycopy([BI[BII)V
 
-    .line 1520
+    .line 1543
     const/4 v10, 0x0
 
     invoke-virtual {v4, p1, p2, v10, v7}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object v6
 
-    .line 1521
+    .line 1544
     .restart local v6    # "m":Landroid/os/Message;
     invoke-virtual {v4, v6}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
@@ -1614,21 +1642,21 @@
     .param p4, "obj"    # Ljava/lang/Object;
 
     .prologue
-    .line 1437
+    .line 1460
     invoke-static {p1, p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getHandler(ILjava/lang/Object;)Landroid/os/Handler;
 
     move-result-object v0
 
-    .line 1439
+    .line 1462
     .local v0, "h":Landroid/os/Handler;
     if-eqz v0, :cond_1
 
-    .line 1440
+    .line 1463
     invoke-virtual {v0, p1, p2, p3, p4}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object v1
 
-    .line 1442
+    .line 1465
     .local v1, "m":Landroid/os/Message;
     invoke-static {p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isUrgentMessage(I)Z
 
@@ -1636,47 +1664,47 @@
 
     if-eqz v2, :cond_0
 
-    .line 1443
+    .line 1466
     sparse-switch p1, :sswitch_data_0
 
-    .line 1453
+    .line 1476
     invoke-virtual {v0, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 1434
+    .line 1457
     .end local v1    # "m":Landroid/os/Message;
     :goto_0
     return-void
 
-    .line 1445
+    .line 1468
     .restart local v1    # "m":Landroid/os/Message;
     :sswitch_0
     const/16 v2, 0x36
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1446
+    .line 1469
     invoke-virtual {v0, v1}, Landroid/os/Handler;->sendMessageAtFrontOfQueue(Landroid/os/Message;)Z
 
     goto :goto_0
 
-    .line 1449
+    .line 1472
     :sswitch_1
     const/16 v2, 0x42
 
     invoke-virtual {v0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 1450
+    .line 1473
     invoke-virtual {v0, v1}, Landroid/os/Handler;->sendMessageAtFrontOfQueue(Landroid/os/Message;)Z
 
     goto :goto_0
 
-    .line 1457
+    .line 1480
     :cond_0
     invoke-virtual {v0, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
     goto :goto_0
 
-    .line 1460
+    .line 1483
     .end local v1    # "m":Landroid/os/Message;
     :cond_1
     const-string/jumbo v2, "mtvmf_java"
@@ -1687,7 +1715,7 @@
 
     goto :goto_0
 
-    .line 1443
+    .line 1466
     nop
 
     :sswitch_data_0
@@ -1707,36 +1735,36 @@
     .param p5, "data"    # [I
 
     .prologue
-    .line 1467
+    .line 1490
     invoke-static {p1, p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getHandler(ILjava/lang/Object;)Landroid/os/Handler;
 
     move-result-object v0
 
-    .line 1469
+    .line 1492
     .local v0, "h":Landroid/os/Handler;
     if-eqz v0, :cond_0
 
-    .line 1470
+    .line 1493
     const/16 v1, 0x11
 
     if-ne v1, p1, :cond_0
 
-    .line 1471
+    .line 1494
     sget-object v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnCaptionEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptionEventListener;
 
     if-eqz v1, :cond_1
 
-    .line 1472
+    .line 1495
     sget-object v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnCaptionEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptionEventListener;
 
     invoke-interface {v1, p2, p3, p4, p5}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptionEventListener;->onCaptionDataReceived(III[I)V
 
-    .line 1464
+    .line 1487
     :cond_0
     :goto_0
     return-void
 
-    .line 1474
+    .line 1497
     :cond_1
     const-string/jumbo v1, "mtvmf_java"
 
@@ -1752,7 +1780,7 @@
     .param p1, "state"    # I
 
     .prologue
-    .line 1180
+    .line 1177
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1787,70 +1815,70 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1181
+    .line 1178
     iput p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->currentState:I
 
-    .line 1183
+    .line 1180
     iget v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->currentState:I
 
     packed-switch v0, :pswitch_data_0
 
-    .line 1179
+    .line 1176
     :cond_0
     :goto_0
     return-void
 
-    .line 1185
+    .line 1182
     :pswitch_0
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnPreparedListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnPreparedListener;
 
     if-eqz v0, :cond_0
 
-    .line 1186
+    .line 1183
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnPreparedListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnPreparedListener;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnPreparedListener;->onPrepared()V
 
     goto :goto_0
 
-    .line 1191
+    .line 1188
     :pswitch_1
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     if-eqz v0, :cond_0
 
-    .line 1192
+    .line 1189
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;->onBuffering()V
 
     goto :goto_0
 
-    .line 1197
+    .line 1194
     :pswitch_2
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     if-eqz v0, :cond_0
 
-    .line 1198
+    .line 1195
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;->onStarted()V
 
     goto :goto_0
 
-    .line 1203
+    .line 1200
     :pswitch_3
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     if-eqz v0, :cond_1
 
-    .line 1204
+    .line 1201
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;->onLowBuffer()V
 
-    .line 1206
+    .line 1203
     :cond_1
     const-string/jumbo v0, "mtvmf_java"
 
@@ -1858,7 +1886,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 1209
+    .line 1206
     sget-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
     new-instance v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer$5;
@@ -1869,20 +1897,20 @@
 
     goto :goto_0
 
-    .line 1225
+    .line 1222
     :pswitch_4
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     if-eqz v0, :cond_0
 
-    .line 1226
+    .line 1223
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     invoke-interface {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;->onPlaying()V
 
     goto :goto_0
 
-    .line 1183
+    .line 1180
     :pswitch_data_0
     .packed-switch 0x2
         :pswitch_0
@@ -1902,12 +1930,12 @@
     .locals 1
 
     .prologue
-    .line 659
+    .line 656
     const/4 v0, 0x0
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_captureCurrentScreen(I)V
 
-    .line 658
+    .line 655
     return-void
 .end method
 
@@ -1916,10 +1944,10 @@
     .param p1, "enable"    # I
 
     .prologue
-    .line 736
+    .line 733
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_enableBufferForReplay(I)I
 
-    .line 735
+    .line 732
     return-void
 .end method
 
@@ -1927,10 +1955,10 @@
     .locals 0
 
     .prologue
-    .line 1142
+    .line 1139
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_finalize()V
 
-    .line 1141
+    .line 1138
     return-void
 .end method
 
@@ -1939,7 +1967,7 @@
     .param p1, "option"    # Ljava/lang/String;
 
     .prologue
-    .line 614
+    .line 611
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getcorePlayerOption(Ljava/lang/String;)I
 
     move-result v0
@@ -1951,7 +1979,7 @@
     .locals 2
 
     .prologue
-    .line 797
+    .line 794
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getFirstAudioTS()J
 
     move-result-wide v0
@@ -1963,7 +1991,7 @@
     .locals 2
 
     .prologue
-    .line 813
+    .line 810
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getFirstRenderedAudioTS()J
 
     move-result-wide v0
@@ -1975,7 +2003,7 @@
     .locals 2
 
     .prologue
-    .line 845
+    .line 842
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getFirstRenderedVideoTS()J
 
     move-result-wide v0
@@ -1987,7 +2015,7 @@
     .locals 2
 
     .prologue
-    .line 829
+    .line 826
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getFirstVideoTS()J
 
     move-result-wide v0
@@ -1999,7 +2027,7 @@
     .locals 2
 
     .prologue
-    .line 805
+    .line 802
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getLatestAudioTS()J
 
     move-result-wide v0
@@ -2011,7 +2039,7 @@
     .locals 2
 
     .prologue
-    .line 821
+    .line 818
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getLatestRenderedAudioTS()J
 
     move-result-wide v0
@@ -2023,7 +2051,7 @@
     .locals 2
 
     .prologue
-    .line 853
+    .line 850
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getLatestRenderedVideoTS()J
 
     move-result-wide v0
@@ -2035,7 +2063,7 @@
     .locals 2
 
     .prologue
-    .line 837
+    .line 834
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getLatestVideoTS()J
 
     move-result-wide v0
@@ -2047,7 +2075,7 @@
     .locals 1
 
     .prologue
-    .line 511
+    .line 508
     iget v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->currentState:I
 
     return v0
@@ -2057,7 +2085,7 @@
     .locals 1
 
     .prologue
-    .line 623
+    .line 620
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getVideoHeight()I
 
     move-result v0
@@ -2069,7 +2097,7 @@
     .locals 1
 
     .prologue
-    .line 632
+    .line 629
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_getVideoWidth()I
 
     move-result v0
@@ -2081,7 +2109,7 @@
     .locals 1
 
     .prologue
-    .line 861
+    .line 858
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_isDiscontinuityFilterEnabled()I
 
     move-result v0
@@ -2093,7 +2121,7 @@
     .locals 1
 
     .prologue
-    .line 755
+    .line 752
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_isLikelyOverflow()I
 
     move-result v0
@@ -2105,19 +2133,19 @@
     .locals 2
 
     .prologue
-    .line 519
+    .line 516
     iget v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->currentState:I
 
     const/4 v1, 0x5
 
     if-ne v1, v0, :cond_0
 
-    .line 520
+    .line 517
     const/4 v0, 0x1
 
     return v0
 
-    .line 522
+    .line 519
     :cond_0
     const/4 v0, 0x0
 
@@ -2129,10 +2157,10 @@
     .param p1, "isAudio"    # I
 
     .prologue
-    .line 1127
+    .line 1124
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_notifyDecoderOperationDone(I)V
 
-    .line 1126
+    .line 1123
     return-void
 .end method
 
@@ -2140,24 +2168,24 @@
     .locals 2
 
     .prologue
-    .line 469
+    .line 466
     const-string/jumbo v0, "mtvmf_java"
 
     const-string/jumbo v1, "notify surface created"
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 470
+    .line 467
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_0
 
-    .line 471
+    .line 468
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->surfaceCreated()V
 
-    .line 468
+    .line 465
     :cond_0
     return-void
 .end method
@@ -2166,24 +2194,24 @@
     .locals 2
 
     .prologue
-    .line 490
+    .line 487
     const-string/jumbo v0, "mtvmf_java"
 
     const-string/jumbo v1, "notify surface destroyed"
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 491
+    .line 488
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_0
 
-    .line 492
+    .line 489
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->disableSurface()V
 
-    .line 496
+    .line 493
     :cond_0
     sget-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
@@ -2193,7 +2221,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;->post(Ljava/lang/Runnable;)Z
 
-    .line 489
+    .line 486
     return-void
 .end method
 
@@ -2203,14 +2231,14 @@
     .param p2, "height"    # I
 
     .prologue
-    .line 482
+    .line 479
     const-string/jumbo v0, "mtvmf_java"
 
     const-string/jumbo v1, "notify surface changed"
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 481
+    .line 478
     return-void
 .end method
 
@@ -2218,7 +2246,7 @@
     .locals 1
 
     .prologue
-    .line 764
+    .line 761
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_pausePlayer()I
 
     move-result v0
@@ -2230,10 +2258,10 @@
     .locals 3
 
     .prologue
-    .line 184
+    .line 181
     monitor-enter p0
 
-    .line 185
+    .line 182
     :try_start_0
     new-instance v0, Landroid/os/HandlerThread;
 
@@ -2243,12 +2271,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioHandlerThread:Landroid/os/HandlerThread;
 
-    .line 186
+    .line 183
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 187
+    .line 184
     new-instance v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$AudioEventHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioHandlerThread:Landroid/os/HandlerThread;
@@ -2261,7 +2289,7 @@
 
     sput-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$AudioEventHandler;
 
-    .line 189
+    .line 186
     new-instance v0, Landroid/os/HandlerThread;
 
     const-string/jumbo v1, "VideoTask Handler"
@@ -2270,12 +2298,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoHandlerThread:Landroid/os/HandlerThread;
 
-    .line 190
+    .line 187
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 191
+    .line 188
     new-instance v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoHandlerThread:Landroid/os/HandlerThread;
@@ -2288,7 +2316,7 @@
 
     sput-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
-    .line 193
+    .line 190
     new-instance v0, Landroid/os/HandlerThread;
 
     const-string/jumbo v1, "RenderTask Handler"
@@ -2297,12 +2325,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderHandlerThread:Landroid/os/HandlerThread;
 
-    .line 194
+    .line 191
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 195
+    .line 192
     new-instance v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$RenderEventHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderHandlerThread:Landroid/os/HandlerThread;
@@ -2315,7 +2343,7 @@
 
     sput-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$RenderEventHandler;
 
-    .line 197
+    .line 194
     new-instance v0, Landroid/os/HandlerThread;
 
     const-string/jumbo v1, "Event Handler"
@@ -2324,12 +2352,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandlerThread:Landroid/os/HandlerThread;
 
-    .line 198
+    .line 195
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
 
-    .line 199
+    .line 196
     new-instance v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;
 
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandlerThread:Landroid/os/HandlerThread;
@@ -2342,12 +2370,12 @@
 
     sput-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$EventHandler;
 
-    .line 202
+    .line 199
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->selectedChannel:I
 
-    .line 203
+    .line 200
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2378,16 +2406,14 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 204
+    .line 201
     new-instance v0, Lcom/nmi/mtv/player/MediaFrameHandler;
 
-    iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mContext:Landroid/content/Context;
-
-    invoke-direct {v0, v1}, Lcom/nmi/mtv/player/MediaFrameHandler;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;-><init>()V
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
-    .line 205
+    .line 202
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     iget v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mLeftVolume:F
@@ -2396,19 +2422,19 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nmi/mtv/player/MediaFrameHandler;->setVolume(FF)V
 
-    .line 207
+    .line 204
     const/4 v0, 0x1
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->setState(I)V
 
-    .line 209
+    .line 206
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setup(Ljava/lang/Object;)V
 
-    .line 210
+    .line 207
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
@@ -2419,10 +2445,10 @@
 
     monitor-exit p0
 
-    .line 183
+    .line 180
     return-void
 
-    .line 184
+    .line 181
     :catchall_0
     move-exception v0
 
@@ -2442,15 +2468,15 @@
 
     const/4 v3, 0x1
 
-    .line 670
+    .line 667
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
     if-eqz v0, :cond_0
 
-    .line 672
+    .line 669
     iput-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
-    .line 674
+    .line 671
     :cond_0
     new-instance v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
@@ -2458,17 +2484,17 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
-    .line 675
+    .line 672
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
     invoke-virtual {v0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;->setFilePath(Ljava/lang/String;)V
 
-    .line 676
+    .line 673
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
     invoke-virtual {v0, v3}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;->setRecordingOn(Z)V
 
-    .line 677
+    .line 674
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2493,7 +2519,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 679
+    .line 676
     const-string/jumbo v0, "sdcard"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -2502,26 +2528,26 @@
 
     if-eqz v0, :cond_2
 
-    .line 680
+    .line 677
     iput v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mStoreLocation:I
 
-    .line 684
+    .line 681
     :goto_0
     iget v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->RecordingState_code:I
 
     if-ne v0, v3, :cond_1
 
-    .line 685
+    .line 682
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;->start()V
 
-    .line 686
+    .line 683
     const/4 v0, 0x2
 
     iput v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->RecordingState_code:I
 
-    .line 688
+    .line 685
     :cond_1
     const/4 v0, -0x1
 
@@ -2531,7 +2557,7 @@
 
     return v0
 
-    .line 682
+    .line 679
     :cond_2
     iput v4, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mStoreLocation:I
 
@@ -2543,24 +2569,24 @@
     .param p1, "bSave"    # I
 
     .prologue
-    .line 698
+    .line 695
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->RecordingState_code:I
 
-    .line 699
+    .line 696
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
     if-eqz v0, :cond_0
 
-    .line 700
+    .line 697
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;->setRecordingOn(Z)V
 
-    .line 701
+    .line 698
     :cond_0
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_recStop(I)I
 
@@ -2573,10 +2599,10 @@
     .locals 3
 
     .prologue
-    .line 219
+    .line 216
     monitor-enter p0
 
-    .line 222
+    .line 219
     :try_start_0
     const-string/jumbo v0, "mtvmf_java"
 
@@ -2608,124 +2634,124 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 223
+    .line 220
     invoke-virtual {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getState()I
 
     move-result v0
 
     if-lez v0, :cond_4
 
-    .line 224
+    .line 221
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->recChecker:Lcom/nmi/mtv/player/MTVMFMediaPlayer$recCheck;
 
-    .line 226
+    .line 223
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->terminate_core()V
 
-    .line 227
+    .line 224
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_release()V
 
-    .line 229
+    .line 226
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioHandlerThread:Landroid/os/HandlerThread;
 
     if-eqz v0, :cond_0
 
-    .line 230
+    .line 227
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 231
+    .line 228
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->audioHandlerThread:Landroid/os/HandlerThread;
 
-    .line 234
+    .line 231
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoHandlerThread:Landroid/os/HandlerThread;
 
     if-eqz v0, :cond_1
 
-    .line 235
+    .line 232
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 236
+    .line 233
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoHandlerThread:Landroid/os/HandlerThread;
 
-    .line 239
+    .line 236
     :cond_1
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderHandlerThread:Landroid/os/HandlerThread;
 
     if-eqz v0, :cond_2
 
-    .line 240
+    .line 237
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 241
+    .line 238
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->renderHandlerThread:Landroid/os/HandlerThread;
 
-    .line 244
+    .line 241
     :cond_2
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandlerThread:Landroid/os/HandlerThread;
 
     if-eqz v0, :cond_3
 
-    .line 245
+    .line 242
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandlerThread:Landroid/os/HandlerThread;
 
     invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
-    .line 246
+    .line 243
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->playerEventHandlerThread:Landroid/os/HandlerThread;
 
-    .line 249
+    .line 246
     :cond_3
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mSurfaceHolder:Landroid/view/SurfaceHolder;
 
-    .line 250
+    .line 247
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnBufferingUpdateListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnBufferingUpdateListener;
 
-    .line 251
+    .line 248
     const/4 v0, 0x0
 
     sput-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnCaptionEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptionEventListener;
 
-    .line 252
+    .line 249
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnPreparedListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnPreparedListener;
 
-    .line 253
+    .line 250
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnRecordingEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnRecordingEventListener;
 
-    .line 254
+    .line 251
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnReplayEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
-    .line 255
+    .line 252
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
-    .line 257
+    .line 254
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
@@ -2735,10 +2761,10 @@
     :goto_0
     monitor-exit p0
 
-    .line 218
+    .line 215
     return-void
 
-    .line 259
+    .line 256
     :cond_4
     :try_start_1
     const-string/jumbo v0, "mtvmf_java"
@@ -2751,7 +2777,7 @@
 
     goto :goto_0
 
-    .line 219
+    .line 216
     :catchall_0
     move-exception v0
 
@@ -2764,7 +2790,7 @@
     .locals 1
 
     .prologue
-    .line 744
+    .line 741
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_resetMediaBuffer()I
 
     move-result v0
@@ -2776,7 +2802,7 @@
     .locals 1
 
     .prologue
-    .line 773
+    .line 770
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_resumePlayer()I
 
     move-result v0
@@ -2789,23 +2815,23 @@
     .param p1, "isAudioOnly"    # I
 
     .prologue
-    .line 531
+    .line 528
     const/4 v0, 0x1
 
     if-ne v0, p1, :cond_0
 
-    .line 532
+    .line 529
     const-string/jumbo v0, "mtvmf_java"
 
     const-string/jumbo v1, "Audio Only mode is set"
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 534
+    .line 531
     :cond_0
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setAudioOnly(I)V
 
-    .line 530
+    .line 527
     return-void
 .end method
 
@@ -2815,7 +2841,7 @@
     .param p2, "value"    # I
 
     .prologue
-    .line 605
+    .line 602
     invoke-direct {p0, p1, p2}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setcorePlayerOption(Ljava/lang/String;I)I
 
     move-result v0
@@ -2828,10 +2854,10 @@
     .param p1, "timestamp"    # J
 
     .prologue
-    .line 2182
+    .line 2205
     invoke-static {p1, p2}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setCurrentAudioTimestamp(J)V
 
-    .line 2181
+    .line 2204
     return-void
 .end method
 
@@ -2840,7 +2866,7 @@
     .param p1, "enable"    # I
 
     .prologue
-    .line 857
+    .line 854
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setDiscontinuityFilter(I)I
 
     move-result v0
@@ -2855,7 +2881,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 429
+    .line 426
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2878,25 +2904,25 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 430
+    .line 427
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mSurfaceHolder:Landroid/view/SurfaceHolder;
 
     if-eq v0, p1, :cond_0
 
-    .line 431
+    .line 428
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mSurfaceHolder:Landroid/view/SurfaceHolder;
 
-    .line 432
+    .line 429
     if-eqz p1, :cond_1
 
-    .line 433
+    .line 430
     invoke-interface {p1}, Landroid/view/SurfaceHolder;->getSurface()Landroid/view/Surface;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mSurface:Landroid/view/Surface;
 
-    .line 435
+    .line 432
     sget-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
     new-instance v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer$2;
@@ -2905,26 +2931,26 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;->post(Ljava/lang/Runnable;)Z
 
-    .line 428
+    .line 425
     :cond_0
     :goto_0
     return-void
 
-    .line 443
+    .line 440
     :cond_1
     iput-object v3, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mSurface:Landroid/view/Surface;
 
-    .line 444
+    .line 441
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_2
 
-    .line 445
+    .line 442
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->disableSurface()V
 
-    .line 448
+    .line 445
     :cond_2
     sget-object v0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->videoEventHandler:Lcom/nmi/mtv/player/MTVMFMediaPlayer$VideoEventHandler;
 
@@ -2942,30 +2968,30 @@
     .param p1, "type"    # I
 
     .prologue
-    .line 587
+    .line 584
     iput p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->selectedChannel:I
 
-    .line 589
+    .line 586
     iget-boolean v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isMultiLanguageChannel:Z
 
     if-eqz v0, :cond_1
 
-    .line 590
+    .line 587
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_0
 
-    .line 591
+    .line 588
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0, p1}, Lcom/nmi/mtv/player/MediaFrameHandler;->selectChannel(I)Z
 
-    .line 586
+    .line 583
     :cond_0
     :goto_0
     return-void
 
-    .line 594
+    .line 591
     :cond_1
     const-string/jumbo v0, "mtvmf_java"
 
@@ -2981,10 +3007,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnBufferingUpdateListener;
 
     .prologue
-    .line 906
+    .line 903
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnBufferingUpdateListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnBufferingUpdateListener;
 
-    .line 905
+    .line 902
     return-void
 .end method
 
@@ -2993,7 +3019,7 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptionEventListener;
 
     .prologue
-    .line 961
+    .line 958
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3016,10 +3042,10 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 962
+    .line 959
     sput-object p1, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnCaptionEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptionEventListener;
 
-    .line 960
+    .line 957
     return-void
 .end method
 
@@ -3028,10 +3054,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptureEventListener;
 
     .prologue
-    .line 989
+    .line 986
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnCaptureEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnCaptureEventListener;
 
-    .line 988
+    .line 985
     return-void
 .end method
 
@@ -3040,10 +3066,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnPreparedListener;
 
     .prologue
-    .line 884
+    .line 881
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnPreparedListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnPreparedListener;
 
-    .line 883
+    .line 880
     return-void
 .end method
 
@@ -3052,10 +3078,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnRecordingEventListener;
 
     .prologue
-    .line 1074
+    .line 1071
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnRecordingEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnRecordingEventListener;
 
-    .line 1073
+    .line 1070
     return-void
 .end method
 
@@ -3064,10 +3090,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
     .prologue
-    .line 1123
+    .line 1120
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnReplayEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
-    .line 1122
+    .line 1119
     return-void
 .end method
 
@@ -3076,10 +3102,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnServiceDieListener;
 
     .prologue
-    .line 1139
+    .line 1136
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnServiceDieListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnServiceDieListener;
 
-    .line 1138
+    .line 1135
     return-void
 .end method
 
@@ -3088,10 +3114,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
     .prologue
-    .line 939
+    .line 936
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnStateTransitionListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnStateTransitionListener;
 
-    .line 938
+    .line 935
     return-void
 .end method
 
@@ -3100,10 +3126,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnVideoEventListener;
 
     .prologue
-    .line 997
+    .line 994
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnVideoEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnVideoEventListener;
 
-    .line 996
+    .line 993
     return-void
 .end method
 
@@ -3112,10 +3138,10 @@
     .param p1, "listener"    # Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnVideoResolutionChangedListener;
 
     .prologue
-    .line 1097
+    .line 1094
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnVideoResolutionChangedListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnVideoResolutionChangedListener;
 
-    .line 1096
+    .line 1093
     return-void
 .end method
 
@@ -3124,7 +3150,7 @@
     .param p1, "ms"    # I
 
     .prologue
-    .line 569
+    .line 566
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setPlayerBufferingTime(I)I
 
     move-result v0
@@ -3137,19 +3163,19 @@
     .param p1, "severity"    # I
 
     .prologue
-    .line 642
+    .line 639
     invoke-static {p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController;->getDefaultPlayerSeverityDescriptor(I)Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->severityDescripter:Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
-    .line 643
+    .line 640
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->severityDescripter:Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController;->applyModuleSeverityDescriptor(Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;)V
 
-    .line 644
+    .line 641
     const/4 v0, 0x0
 
     return v0
@@ -3161,17 +3187,17 @@
     .param p2, "severity"    # I
 
     .prologue
-    .line 648
+    .line 645
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->severityDescripter:Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
     invoke-virtual {v0, p1, p2}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;->changeModuleSeverity(II)I
 
-    .line 649
+    .line 646
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->severityDescripter:Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;
 
     invoke-static {v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController;->applyModuleSeverityDescriptor(Lcom/nmi/mtv/player/MTVMFMediaPlayer$MTVMFLogLevelController$PlayerSeverityDescriptor;)V
 
-    .line 650
+    .line 647
     const/4 v0, 0x0
 
     return v0
@@ -3182,7 +3208,7 @@
     .param p1, "value"    # I
 
     .prologue
-    .line 578
+    .line 575
     invoke-direct {p0, p1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_setVideoLatency(I)I
 
     move-result v0
@@ -3200,17 +3226,17 @@
 
     const-wide/high16 v2, 0x3ff0000000000000L    # 1.0
 
-    .line 545
+    .line 542
     float-to-double v0, p1
 
     cmpl-double v0, v0, v2
 
     if-lez v0, :cond_3
 
-    .line 546
+    .line 543
     const/high16 p1, 0x3f800000    # 1.0f
 
-    .line 551
+    .line 548
     :cond_0
     :goto_0
     float-to-double v0, p2
@@ -3219,49 +3245,49 @@
 
     if-lez v0, :cond_4
 
-    .line 552
+    .line 549
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 556
+    .line 553
     :cond_1
     :goto_1
     iput p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mLeftVolume:F
 
-    .line 557
+    .line 554
     iput p2, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mRightVolume:F
 
-    .line 558
+    .line 555
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_2
 
-    .line 559
+    .line 556
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0, p1, p2}, Lcom/nmi/mtv/player/MediaFrameHandler;->setVolume(FF)V
 
-    .line 543
+    .line 540
     :cond_2
     return-void
 
-    .line 547
+    .line 544
     :cond_3
     cmpg-float v0, p1, v4
 
     if-gez v0, :cond_0
 
-    .line 548
+    .line 545
     const/4 p1, 0x0
 
     goto :goto_0
 
-    .line 553
+    .line 550
     :cond_4
     cmpg-float v0, p2, v4
 
     if-gez v0, :cond_1
 
-    .line 554
+    .line 551
     const/4 p2, 0x0
 
     goto :goto_1
@@ -3271,21 +3297,21 @@
     .locals 3
 
     .prologue
-    .line 269
+    .line 266
     monitor-enter p0
 
-    .line 270
+    .line 267
     const/4 v0, 0x0
 
     :try_start_0
     iput-boolean v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isVideoSupplied:Z
 
-    .line 272
+    .line 269
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isMultiLanguageChannel:Z
 
-    .line 274
+    .line 271
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3316,7 +3342,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 278
+    .line 275
     invoke-virtual {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getState()I
 
     move-result v0
@@ -3333,18 +3359,18 @@
 
     if-ne v1, v0, :cond_2
 
-    .line 280
+    .line 277
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_1
 
-    .line 281
+    .line 278
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->prepare()I
 
-    .line 283
+    .line 280
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     new-instance v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer$1;
@@ -3353,11 +3379,11 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/player/MediaFrameHandler;->setMediaInformationListener(Lcom/nmi/mtv/player/MediaFrameHandler$OnMediaInformationUpdated;)V
 
-    .line 356
+    .line 353
     :cond_1
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_start()V
 
-    .line 357
+    .line 354
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Lcom/nmi/mtv/player/MTVMFMediaPlayer$BufferingChecker;
@@ -3370,7 +3396,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->bufferingChecker:Ljava/lang/Thread;
 
-    .line 358
+    .line 355
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->bufferingChecker:Ljava/lang/Thread;
 
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
@@ -3380,10 +3406,10 @@
     :goto_0
     monitor-exit p0
 
-    .line 268
+    .line 265
     return-void
 
-    .line 278
+    .line 275
     :cond_2
     :try_start_1
     invoke-virtual {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getState()I
@@ -3394,7 +3420,7 @@
 
     if-eq v1, v0, :cond_0
 
-    .line 360
+    .line 357
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3429,7 +3455,7 @@
 
     goto :goto_0
 
-    .line 269
+    .line 266
     :catchall_0
     move-exception v0
 
@@ -3442,10 +3468,10 @@
     .locals 0
 
     .prologue
-    .line 781
+    .line 778
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_startTrickPlay()I
 
-    .line 780
+    .line 777
     return-void
 .end method
 
@@ -3453,10 +3479,10 @@
     .locals 3
 
     .prologue
-    .line 369
+    .line 366
     monitor-enter p0
 
-    .line 371
+    .line 368
     :try_start_0
     const-string/jumbo v0, "mtvmf_java"
 
@@ -3488,7 +3514,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 373
+    .line 370
     invoke-virtual {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getState()I
 
     move-result v0
@@ -3505,26 +3531,26 @@
 
     if-ne v1, v0, :cond_1
 
-    .line 374
+    .line 371
     :cond_0
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->bufferingChecker:Ljava/lang/Thread;
 
-    .line 375
+    .line 372
     const/4 v0, 0x7
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->setState(I)V
 
-    .line 377
+    .line 374
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_stop()V
 
-    .line 379
+    .line 376
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     if-eqz v0, :cond_2
 
-    .line 380
+    .line 377
     iget-object v0, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mediaFrameHandler:Lcom/nmi/mtv/player/MediaFrameHandler;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/player/MediaFrameHandler;->release()I
@@ -3534,10 +3560,10 @@
     :goto_0
     monitor-exit p0
 
-    .line 368
+    .line 365
     return-void
 
-    .line 373
+    .line 370
     :cond_1
     :try_start_1
     invoke-virtual {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->getState()I
@@ -3556,7 +3582,7 @@
 
     if-eq v1, v0, :cond_0
 
-    .line 386
+    .line 383
     const-string/jumbo v0, "mtvmf_java"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3591,7 +3617,7 @@
 
     goto :goto_0
 
-    .line 369
+    .line 366
     :catchall_0
     move-exception v0
 
@@ -3599,7 +3625,7 @@
 
     throw v0
 
-    .line 382
+    .line 379
     :cond_2
     :try_start_2
     const-string/jumbo v0, "mtvmf_java"
@@ -3617,10 +3643,10 @@
     .locals 0
 
     .prologue
-    .line 789
+    .line 786
     invoke-direct {p0}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_stopTrickPlay()I
 
-    .line 788
+    .line 785
     return-void
 .end method
 
@@ -3630,56 +3656,56 @@
     .param p2, "durationInSec"    # I
 
     .prologue
-    .line 713
+    .line 710
     iget v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isBuildingReplayFile:I
 
     if-nez v1, :cond_2
 
-    .line 714
+    .line 711
     iput-object p1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->replayFileName:Ljava/lang/String;
 
-    .line 715
+    .line 712
     invoke-direct {p0, p1, p2}, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->native_sotreReplayFile(Ljava/lang/String;I)I
 
     move-result v0
 
-    .line 716
+    .line 713
     .local v0, "ret":I
     if-nez v0, :cond_1
 
-    .line 717
+    .line 714
     const/4 v1, 0x1
 
     iput v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->isBuildingReplayFile:I
 
-    .line 712
+    .line 709
     .end local v0    # "ret":I
     :cond_0
     :goto_0
     return-void
 
-    .line 719
+    .line 716
     .restart local v0    # "ret":I
     :cond_1
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnReplayEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
     if-eqz v1, :cond_0
 
-    .line 720
+    .line 717
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnReplayEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
     invoke-interface {v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;->onReplayFailed()V
 
     goto :goto_0
 
-    .line 724
+    .line 721
     .end local v0    # "ret":I
     :cond_2
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnReplayEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
     if-eqz v1, :cond_0
 
-    .line 725
+    .line 722
     iget-object v1, p0, Lcom/nmi/mtv/player/MTVMFMediaPlayer;->mOnReplayEventListener:Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;
 
     invoke-interface {v1}, Lcom/nmi/mtv/player/MTVMFMediaPlayer$OnReplayEventListener;->onReplayFailed()V

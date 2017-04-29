@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 232
+    .line 226
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$1;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,12 +41,12 @@
     .locals 2
 
     .prologue
-    .line 234
+    .line 228
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     if-eqz v0, :cond_0
 
-    .line 235
+    .line 229
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->mSurfaceView:Lcom/nmi/mtv/app/ui/condor/main/TVSurface;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$1;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
@@ -61,7 +61,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/main/TVSurface;->setScreenSize(I)V
 
-    .line 233
+    .line 227
     :cond_0
     return-void
 .end method

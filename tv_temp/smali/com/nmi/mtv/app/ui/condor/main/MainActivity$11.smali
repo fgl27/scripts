@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 557
+    .line 551
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$11;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -44,24 +44,24 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 561
+    .line 555
     and-int/lit8 v0, p1, 0x4
 
     if-nez v0, :cond_1
 
-    .line 562
+    .line 556
     const/4 v0, 0x1
 
     sput-boolean v0, Lcom/nmi/mtv/app/core/util/Util;->isNavigationShowing:Z
 
-    .line 563
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    .line 557
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v1, 0x17
+    move-result v0
 
-    if-lt v0, v1, :cond_0
+    if-eqz v0, :cond_0
 
-    .line 564
+    .line 558
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$11;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->isFinishing()Z
@@ -78,17 +78,17 @@
 
     if-nez v0, :cond_0
 
-    .line 565
+    .line 559
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$11;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->-wrap3(Lcom/nmi/mtv/app/ui/condor/main/MainActivity;)V
 
-    .line 560
+    .line 554
     :cond_0
     :goto_0
     return-void
 
-    .line 569
+    .line 563
     :cond_1
     sput-boolean v1, Lcom/nmi/mtv/app/core/util/Util;->isNavigationShowing:Z
 

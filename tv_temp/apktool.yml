@@ -1,9 +1,8 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: base.apk
+apkFileName: GMobileTV.apk
 compressionType: false
 doNotCompress:
 - arsc
-- so
 isFrameworkApk: false
 packageInfo:
   forcedPackageId: '127'
@@ -20,5 +19,5 @@ usesFramework:
   tag: null
 version: 2.1.0
 versionInfo:
-  versionCode: '2050010'
-  versionName: 2.05.0010
+  versionCode: '2050006'
+  versionName: 2.05.0006

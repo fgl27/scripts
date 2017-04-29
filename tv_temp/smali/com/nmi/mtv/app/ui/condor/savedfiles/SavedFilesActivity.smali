@@ -35,19 +35,19 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 27
+    .line 28
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
-    .line 28
+    .line 29
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
-    .line 30
+    .line 31
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
-    .line 31
+    .line 32
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;
 
-    .line 27
+    .line 28
     return-void
 .end method
 
@@ -57,14 +57,14 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 149
+    .line 150
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x17
 
     if-lt v0, v1, :cond_1
 
-    .line 150
+    .line 151
     const-string/jumbo v0, "android.permission.READ_EXTERNAL_STORAGE"
 
     invoke-virtual {p0, v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->checkSelfPermission(Ljava/lang/String;)I
@@ -73,7 +73,7 @@
 
     if-nez v0, :cond_0
 
-    .line 151
+    .line 152
     const-string/jumbo v0, "android.permission.WRITE_EXTERNAL_STORAGE"
 
     invoke-virtual {p0, v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->checkSelfPermission(Ljava/lang/String;)I
@@ -82,7 +82,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 156
+    .line 157
     :cond_0
     const/4 v0, 0x2
 
@@ -102,12 +102,12 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->requestPermissions([Ljava/lang/String;I)V
 
-    .line 146
+    .line 147
     :cond_1
     :goto_0
     return-void
 
-    .line 158
+    .line 159
     :cond_2
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
@@ -123,10 +123,10 @@
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    .line 35
+    .line 36
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 37
+    .line 38
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -135,19 +135,19 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->addFlags(I)V
 
-    .line 40
+    .line 41
     const v0, 0x7f04001a
 
     invoke-virtual {p0, v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->setContentView(I)V
 
-    .line 42
+    .line 43
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
-    .line 34
+    .line 35
     return-void
 .end method
 
@@ -157,39 +157,39 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 103
+    .line 104
     const-string/jumbo v0, "onDestroy"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 104
-    invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
-
     .line 105
-    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
-
-    if-eqz v0, :cond_0
+    invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
     .line 106
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
+    if-eqz v0, :cond_0
+
+    .line 107
+    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
+
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;->destroy()V
 
-    .line 108
+    .line 109
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
     if-eqz v0, :cond_1
 
-    .line 109
+    .line 110
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->removeSystemEventListener(Ljava/lang/Object;)V
 
-    .line 110
+    .line 111
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
-    .line 102
+    .line 103
     :cond_1
     return-void
 .end method
@@ -205,7 +205,7 @@
 
     const/4 v2, 0x0
 
-    .line 128
+    .line 129
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -226,32 +226,32 @@
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->d(Ljava/lang/String;)V
 
-    .line 129
+    .line 130
     packed-switch p1, :pswitch_data_0
 
-    .line 127
+    .line 128
     :goto_0
     return-void
 
-    .line 132
+    .line 133
     :pswitch_0
     aget v0, p3, v2
 
     if-nez v0, :cond_0
 
-    .line 133
+    .line 134
     aget v0, p3, v3
 
     if-nez v0, :cond_0
 
-    .line 134
+    .line 135
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;->DrawList()V
 
     goto :goto_0
 
-    .line 137
+    .line 138
     :cond_0
     const v0, 0x7f0a005b
 
@@ -261,12 +261,12 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 138
+    .line 139
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->finish()V
 
     goto :goto_0
 
-    .line 129
+    .line 130
     nop
 
     :pswitch_data_0
@@ -279,62 +279,62 @@
     .locals 1
 
     .prologue
-    .line 46
+    .line 47
     const-string/jumbo v0, "onRestart"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 47
+    .line 48
     invoke-super {p0}, Landroid/app/Activity;->onRestart()V
 
-    .line 45
+    .line 46
     return-void
 .end method
 
 .method protected onResume()V
-    .locals 2
+    .locals 1
 
     .prologue
-    .line 71
+    .line 72
     const-string/jumbo v0, "onResume"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 72
+    .line 73
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
-    .line 73
+    .line 74
     invoke-static {p0}, Lcom/nmi/mtv/app/core/util/TopContext;->setTopContext(Landroid/content/Context;)V
 
-    .line 74
+    .line 75
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     if-nez v0, :cond_0
 
-    .line 75
+    .line 76
     return-void
 
-    .line 76
+    .line 77
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;->show()V
 
-    .line 77
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x17
-
-    if-lt v0, v1, :cond_1
-
     .line 78
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 79
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->checkReadWritePermission()V
 
-    .line 70
+    .line 71
     :goto_0
     return-void
 
-    .line 80
+    .line 81
     :cond_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
@@ -349,46 +349,46 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 50
+    .line 51
     const-string/jumbo v0, "onStart"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 51
+    .line 52
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
 
-    .line 57
+    .line 58
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;-><init>(Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;
 
-    .line 58
+    .line 59
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;
 
     invoke-virtual {v0, v1}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;->registerUserEventListener(Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;)V
 
-    .line 60
+    .line 61
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
     if-nez v0, :cond_0
 
-    .line 61
+    .line 62
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
     invoke-direct {v0, p0, v2}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;-><init>(Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
-    .line 62
+    .line 63
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSystemListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$SystemEvent;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->addSystemEventListener(Ljava/lang/Object;)V
 
-    .line 65
+    .line 66
     :cond_0
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->getWindow()Landroid/view/Window;
 
@@ -400,7 +400,7 @@
 
     invoke-static {p0, v0, v1}, Lcom/nmi/mtv/app/core/util/BrightnessUtil;->setBrightness(Landroid/content/Context;Landroid/view/Window;F)I
 
-    .line 66
+    .line 67
     invoke-virtual {p0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -411,7 +411,7 @@
 
     invoke-static {p0, v0, v1}, Lcom/nmi/mtv/app/core/util/ContrastUtil;->setContrast(Landroid/content/Context;Landroid/view/Window;F)I
 
-    .line 49
+    .line 50
     return-void
 .end method
 
@@ -419,38 +419,38 @@
     .locals 1
 
     .prologue
-    .line 85
+    .line 86
     const-string/jumbo v0, "onStop"
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->i(Ljava/lang/String;)V
 
-    .line 86
+    .line 87
     invoke-super {p0}, Landroid/app/Activity;->onStop()V
 
-    .line 88
+    .line 89
     invoke-static {}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->ReCreateParentalDialog()V
 
-    .line 89
+    .line 90
     invoke-static {}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->DismissWeakSignalDialog()V
 
-    .line 90
+    .line 91
     invoke-static {}, Lcom/nmi/mtv/app/ui/condor/main/MtvBaseActivity;->scanStopForOtherActivity()Z
 
-    .line 94
+    .line 95
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;->unregisterUserEventListener()V
 
-    .line 95
+    .line 96
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mUserEventListener:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity$UserEvent;
 
-    .line 97
+    .line 98
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesActivity;->mSavedFilesView:Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/savedfiles/SavedFilesView;->hide()V
 
-    .line 84
+    .line 85
     return-void
 .end method

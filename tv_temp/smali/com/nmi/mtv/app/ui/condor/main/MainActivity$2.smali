@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 239
+    .line 233
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$2;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 2
 
     .prologue
-    .line 242
+    .line 236
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$2;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->getBaseContext()Landroid/content/Context;
@@ -54,6 +54,6 @@
 
     invoke-static {v0, v1}, Lcom/nmi/mtv/app/core/sound/SoundManager;->setAudioPath(Landroid/content/Context;Z)V
 
-    .line 241
+    .line 235
     return-void
 .end method

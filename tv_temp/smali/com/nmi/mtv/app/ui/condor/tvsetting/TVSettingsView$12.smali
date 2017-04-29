@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     .prologue
-    .line 645
+    .line 647
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$12;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +42,12 @@
     .param p1, "password"    # Ljava/lang/String;
 
     .prologue
-    .line 647
+    .line 649
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView$12;->this$0:Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;->-wrap3(Lcom/nmi/mtv/app/ui/condor/tvsetting/TVSettingsView;)V
 
-    .line 646
+    .line 648
     return-void
 .end method
 
@@ -55,6 +55,6 @@
     .locals 0
 
     .prologue
-    .line 649
+    .line 651
     return-void
 .end method

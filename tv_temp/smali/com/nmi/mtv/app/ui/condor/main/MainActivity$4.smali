@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     .prologue
-    .line 1348
+    .line 1343
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$4;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,11 +41,11 @@
     .locals 1
 
     .prologue
-    .line 1350
+    .line 1345
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/main/MainActivity$4;->this$0:Lcom/nmi/mtv/app/ui/condor/main/MainActivity;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/main/MainActivity;->finish()V
 
-    .line 1349
+    .line 1344
     return-void
 .end method

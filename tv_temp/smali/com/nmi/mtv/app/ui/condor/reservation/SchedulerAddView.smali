@@ -150,86 +150,86 @@
 
     const/4 v1, 0x0
 
-    .line 78
+    .line 77
     invoke-direct {p0}, Lcom/nmi/mtv/app/core/common/CommonViewStub;-><init>()V
 
-    .line 44
+    .line 43
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
-    .line 45
+    .line 44
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    .line 46
+    .line 45
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mContext:Landroid/content/Context;
 
-    .line 48
+    .line 47
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mMultiUserAlertDialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogAlertMultiUser;
 
-    .line 50
+    .line 49
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mScrollView:Landroid/widget/ScrollView;
 
-    .line 52
+    .line 51
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextChannelName:Landroid/widget/Spinner;
 
-    .line 54
+    .line 53
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartDate:Landroid/widget/TextView;
 
-    .line 55
+    .line 54
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartTime:Landroid/widget/TextView;
 
-    .line 56
+    .line 55
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndDate:Landroid/widget/TextView;
 
-    .line 57
+    .line 56
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndTime:Landroid/widget/TextView;
 
-    .line 58
+    .line 57
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypeRecord:Landroid/widget/RadioButton;
 
-    .line 59
+    .line 58
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypePlay:Landroid/widget/RadioButton;
 
-    .line 60
+    .line 59
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
-    .line 63
+    .line 62
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
-    .line 64
+    .line 63
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedDBChannel:Lcom/nmi/mtv/app/core/db/DBChannel;
 
-    .line 65
+    .line 64
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
-    .line 66
+    .line 65
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
-    .line 69
+    .line 68
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelListAdapter:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;
 
-    .line 76
+    .line 75
     sget-object v0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;->NOT_SELECT:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTimeMode_type:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
-    .line 547
+    .line 545
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$1;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$1;-><init>(Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;)V
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->DateListener:Landroid/app/DatePickerDialog$OnDateSetListener;
 
-    .line 566
+    .line 564
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$2;
 
     invoke-direct {v0, p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$2;-><init>(Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;)V
@@ -238,7 +238,7 @@
 
     move-object v0, p1
 
-    .line 79
+    .line 78
     check-cast v0, Landroid/app/Activity;
 
     const v1, 0x7f0f0099
@@ -255,13 +255,13 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
-    .line 80
+    .line 79
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mContext:Landroid/content/Context;
 
-    .line 81
+    .line 80
     iput-object p2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    .line 83
+    .line 82
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f009b
@@ -272,7 +272,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 84
+    .line 83
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f009a
@@ -283,7 +283,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 86
+    .line 85
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 87
+    .line 86
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -301,7 +301,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 88
+    .line 87
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -310,7 +310,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 89
+    .line 88
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -319,7 +319,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 90
+    .line 89
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00a2
@@ -330,7 +330,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 91
+    .line 90
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00a3
@@ -341,7 +341,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 94
+    .line 93
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,7 +352,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartDate:Landroid/widget/TextView;
 
-    .line 95
+    .line 94
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartTime:Landroid/widget/TextView;
 
-    .line 96
+    .line 95
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndDate:Landroid/widget/TextView;
 
-    .line 97
+    .line 96
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndTime:Landroid/widget/TextView;
 
-    .line 98
+    .line 97
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00a2
@@ -398,7 +398,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypeRecord:Landroid/widget/RadioButton;
 
-    .line 99
+    .line 98
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f00a3
@@ -411,7 +411,7 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypePlay:Landroid/widget/RadioButton;
 
-    .line 100
+    .line 99
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f009c
@@ -424,17 +424,17 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mScrollView:Landroid/widget/ScrollView;
 
-    .line 102
+    .line 101
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 104
+    .line 103
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->initSpinnerList()V
 
-    .line 78
+    .line 77
     return-void
 .end method
 
@@ -446,10 +446,10 @@
 
     const/4 v7, 0x0
 
-    .line 363
+    .line 361
     const/4 v10, 0x0
 
-    .line 364
+    .line 362
     .local v10, "ret":I
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -485,7 +485,7 @@
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 365
+    .line 363
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -520,14 +520,14 @@
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/util/Trace;->e(Ljava/lang/String;)V
 
-    .line 368
+    .line 366
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    .line 369
+    .line 367
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedDBChannel:Lcom/nmi/mtv/app/core/db/DBChannel;
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
@@ -536,37 +536,37 @@
 
     move-result-wide v2
 
-    .line 370
+    .line 368
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-virtual {v4}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v4
 
-    .line 371
+    .line 369
     iget v8, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
-    .line 370
+    .line 368
     const/4 v6, 0x0
 
-    .line 368
+    .line 366
     invoke-static/range {v0 .. v8}, Lcom/nmi/mtv/app/core/reservation/MTVReservation;->addReservation(Landroid/content/Context;Lcom/nmi/mtv/app/core/db/DBChannel;JJLjava/lang/String;II)I
 
     move-result v10
 
-    .line 373
+    .line 371
     if-eqz v10, :cond_0
 
-    .line 374
+    .line 372
     new-instance v9, Ljava/lang/String;
 
     invoke-direct {v9}, Ljava/lang/String;-><init>()V
 
-    .line 375
+    .line 373
     .local v9, "errorMsg":Ljava/lang/String;
     packed-switch v10, :pswitch_data_0
 
-    .line 400
+    .line 398
     :goto_0
     :pswitch_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
@@ -581,10 +581,10 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 401
+    .line 399
     return v7
 
-    .line 377
+    .line 375
     :pswitch_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -600,7 +600,7 @@
 
     goto :goto_0
 
-    .line 381
+    .line 379
     :pswitch_2
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -614,12 +614,12 @@
 
     move-result-object v9
 
-    .line 382
+    .line 380
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->setDefaultDateTime()V
 
     goto :goto_0
 
-    .line 386
+    .line 384
     :pswitch_3
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -633,19 +633,19 @@
 
     move-result-object v9
 
-    .line 387
+    .line 385
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndDate(Ljava/util/Calendar;)V
 
-    .line 388
+    .line 386
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
     goto :goto_0
 
-    .line 392
+    .line 390
     :pswitch_4
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -661,7 +661,7 @@
 
     goto :goto_0
 
-    .line 396
+    .line 394
     :pswitch_5
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -677,7 +677,7 @@
 
     goto :goto_0
 
-    .line 403
+    .line 401
     .end local v9    # "errorMsg":Ljava/lang/String;
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
@@ -708,10 +708,10 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 405
+    .line 403
     return v11
 
-    .line 375
+    .line 373
     :pswitch_data_0
     .packed-switch 0x2
         :pswitch_1
@@ -729,7 +729,7 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 110
+    .line 109
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const v1, 0x7f0f009d
@@ -742,17 +742,17 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextChannelName:Landroid/widget/Spinner;
 
-    .line 111
+    .line 110
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
     if-eqz v0, :cond_0
 
-    .line 112
+    .line 111
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
-    .line 113
+    .line 112
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -778,12 +778,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
-    .line 115
+    .line 114
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
     if-eqz v0, :cond_1
 
-    .line 116
+    .line 115
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
@@ -798,14 +798,14 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelListAdapter:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;
 
-    .line 117
+    .line 116
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextChannelName:Landroid/widget/Spinner;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelListAdapter:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;
 
     invoke-virtual {v0, v1}, Landroid/widget/Spinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
-    .line 121
+    .line 120
     :cond_1
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextChannelName:Landroid/widget/Spinner;
 
@@ -815,7 +815,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Spinner;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 128
+    .line 127
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextChannelName:Landroid/widget/Spinner;
 
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$4;
@@ -824,7 +824,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Spinner;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    .line 108
+    .line 107
     return-void
 .end method
 
@@ -832,12 +832,12 @@
     .locals 4
 
     .prologue
-    .line 207
+    .line 205
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
     move-result-object v0
 
-    .line 209
+    .line 207
     .local v0, "date":Ljava/util/Calendar;
     invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
@@ -845,26 +845,26 @@
 
     invoke-virtual {v0, v2, v3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 210
+    .line 208
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateStartDate(Ljava/util/Calendar;)V
 
-    .line 211
+    .line 209
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateStartTime(Ljava/util/Calendar;)V
 
-    .line 214
+    .line 212
     invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v2
 
     invoke-virtual {v0, v2, v3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 215
+    .line 213
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndDate(Ljava/util/Calendar;)V
 
-    .line 216
+    .line 214
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
-    .line 205
+    .line 203
     return-void
 .end method
 
@@ -873,12 +873,12 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 584
+    .line 582
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mMultiUserAlertDialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogAlertMultiUser;
 
     if-nez v0, :cond_0
 
-    .line 585
+    .line 583
     new-instance v0, Lcom/nmi/mtv/app/ui/condor/dialog/DialogAlertMultiUser;
 
     new-instance v1, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$5;
@@ -889,12 +889,12 @@
 
     iput-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mMultiUserAlertDialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogAlertMultiUser;
 
-    .line 600
+    .line 598
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mMultiUserAlertDialog:Lcom/nmi/mtv/app/ui/condor/dialog/DialogAlertMultiUser;
 
     invoke-virtual {v0}, Lcom/nmi/mtv/app/ui/condor/dialog/DialogAlertMultiUser;->show()V
 
-    .line 582
+    .line 580
     :cond_0
     return-void
 .end method
@@ -904,10 +904,10 @@
     .param p1, "channel"    # Lcom/nmi/mtv/app/core/db/DBChannel;
 
     .prologue
-    .line 238
+    .line 236
     iput-object p1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedDBChannel:Lcom/nmi/mtv/app/core/db/DBChannel;
 
-    .line 237
+    .line 235
     return-void
 .end method
 
@@ -916,29 +916,29 @@
     .param p1, "date"    # Ljava/util/Calendar;
 
     .prologue
-    .line 294
+    .line 292
     const/4 v0, 0x1
 
-    .line 307
+    .line 305
     .local v0, "enabled":Z
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndDate:Landroid/widget/TextView;
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 308
+    .line 306
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndDate:Landroid/widget/TextView;
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setClickable(Z)V
 
-    .line 310
+    .line 308
     if-eqz p1, :cond_0
 
-    .line 311
+    .line 309
     invoke-static {}, Ljava/text/DateFormat;->getDateInstance()Ljava/text/DateFormat;
 
     move-result-object v1
 
-    .line 312
+    .line 310
     .local v1, "format":Ljava/text/DateFormat;
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndDate:Landroid/widget/TextView;
 
@@ -952,7 +952,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 313
+    .line 311
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     const/4 v3, 0x1
@@ -975,12 +975,12 @@
 
     invoke-virtual {v2, v3, v4, v5}, Ljava/util/Calendar;->set(III)V
 
-    .line 293
+    .line 291
     .end local v1    # "format":Ljava/text/DateFormat;
     :goto_0
     return-void
 
-    .line 315
+    .line 313
     :cond_0
     const-string/jumbo v2, "updateEndDate : date is null."
 
@@ -994,51 +994,51 @@
     .param p1, "date"    # Ljava/util/Calendar;
 
     .prologue
-    .line 319
+    .line 317
     const/4 v7, 0x1
 
-    .line 332
+    .line 330
     .local v7, "enabled":Z
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndTime:Landroid/widget/TextView;
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 333
+    .line 331
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndTime:Landroid/widget/TextView;
 
     invoke-virtual {v0, v7}, Landroid/widget/TextView;->setClickable(Z)V
 
-    .line 336
+    .line 334
     if-eqz p1, :cond_0
 
-    .line 337
+    .line 335
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextEndTime:Landroid/widget/TextView;
 
-    .line 338
+    .line 336
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 337
+    .line 335
     invoke-static {v1}, Landroid/text/format/DateFormat;->getTimeFormat(Landroid/content/Context;)Ljava/text/DateFormat;
 
     move-result-object v1
 
-    .line 338
+    .line 336
     invoke-virtual {p1}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
 
     move-result-object v2
 
-    .line 337
+    .line 335
     invoke-virtual {v1, v2}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 339
+    .line 337
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
@@ -1049,7 +1049,7 @@
 
     move-result v1
 
-    .line 340
+    .line 338
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     const/4 v3, 0x2
@@ -1058,7 +1058,7 @@
 
     move-result v2
 
-    .line 341
+    .line 339
     iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     const/4 v4, 0x5
@@ -1067,7 +1067,7 @@
 
     move-result v3
 
-    .line 342
+    .line 340
     const/16 v4, 0xb
 
     invoke-virtual {p1, v4}, Ljava/util/Calendar;->get(I)I
@@ -1080,20 +1080,20 @@
 
     move-result v5
 
-    .line 343
+    .line 341
     const/4 v6, 0x0
 
-    .line 339
+    .line 337
     invoke-virtual/range {v0 .. v6}, Ljava/util/Calendar;->set(IIIIII)V
 
-    .line 345
+    .line 343
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v8
 
-    .line 346
+    .line 344
     .local v8, "endTime":J
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
@@ -1105,12 +1105,12 @@
 
     invoke-virtual {v0, v2, v3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 318
+    .line 316
     .end local v8    # "endTime":J
     :goto_0
     return-void
 
-    .line 348
+    .line 346
     :cond_0
     const-string/jumbo v0, "updateEndTime : date is null."
 
@@ -1128,75 +1128,75 @@
 
     const/4 v1, 0x1
 
-    .line 220
+    .line 218
     iput p1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
-    .line 221
+    .line 219
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypePlay:Landroid/widget/RadioButton;
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setEnabled(Z)V
+
+    .line 220
+    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypeRecord:Landroid/widget/RadioButton;
+
+    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setEnabled(Z)V
+
+    .line 221
+    if-ne p1, v1, :cond_0
 
     .line 222
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypeRecord:Landroid/widget/RadioButton;
 
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setEnabled(Z)V
-
-    .line 223
-    if-ne p1, v1, :cond_0
-
-    .line 224
-    iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypeRecord:Landroid/widget/RadioButton;
-
     invoke-virtual {v0, v2}, Landroid/widget/RadioButton;->setChecked(Z)V
 
-    .line 225
+    .line 223
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypePlay:Landroid/widget/RadioButton;
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setChecked(Z)V
 
-    .line 226
+    .line 224
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndDate(Ljava/util/Calendar;)V
 
-    .line 227
+    .line 225
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
-    .line 219
+    .line 217
     :goto_0
     return-void
 
-    .line 228
+    .line 226
     :cond_0
     const/4 v0, 0x2
 
     if-ne p1, v0, :cond_1
 
-    .line 229
+    .line 227
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypeRecord:Landroid/widget/RadioButton;
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setChecked(Z)V
 
-    .line 230
+    .line 228
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mBtnTypePlay:Landroid/widget/RadioButton;
 
     invoke-virtual {v0, v2}, Landroid/widget/RadioButton;->setChecked(Z)V
 
-    .line 231
+    .line 229
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndDate(Ljava/util/Calendar;)V
 
-    .line 232
+    .line 230
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
     goto :goto_0
 
-    .line 234
+    .line 232
     :cond_1
     const-string/jumbo v0, "updateReservationType : Unknow type."
 
@@ -1212,29 +1212,29 @@
     .prologue
     const/4 v6, 0x2
 
-    .line 250
+    .line 248
     const/4 v0, 0x1
 
-    .line 252
+    .line 250
     .local v0, "enabled":Z
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartDate:Landroid/widget/TextView;
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    .line 253
+    .line 251
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartDate:Landroid/widget/TextView;
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setClickable(Z)V
 
-    .line 255
+    .line 253
     if-eqz p1, :cond_1
 
-    .line 256
+    .line 254
     invoke-static {}, Ljava/text/DateFormat;->getDateInstance()Ljava/text/DateFormat;
 
     move-result-object v1
 
-    .line 257
+    .line 255
     .local v1, "format":Ljava/text/DateFormat;
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartDate:Landroid/widget/TextView;
 
@@ -1248,7 +1248,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 258
+    .line 256
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/4 v3, 0x1
@@ -1269,12 +1269,12 @@
 
     invoke-virtual {v2, v3, v4, v5}, Ljava/util/Calendar;->set(III)V
 
-    .line 260
+    .line 258
     iget v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
     if-ne v2, v6, :cond_0
 
-    .line 261
+    .line 259
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v2}, Ljava/util/Calendar;->getTimeInMillis()J
@@ -1291,23 +1291,23 @@
 
     if-lez v2, :cond_0
 
-    .line 263
+    .line 261
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v2}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndDate(Ljava/util/Calendar;)V
 
-    .line 264
+    .line 262
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v2}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
-    .line 249
+    .line 247
     .end local v1    # "format":Ljava/text/DateFormat;
     :cond_0
     :goto_0
     return-void
 
-    .line 267
+    .line 265
     :cond_1
     const-string/jumbo v2, "updateStartDate : date is null."
 
@@ -1323,37 +1323,37 @@
     .prologue
     const/4 v7, 0x2
 
-    .line 271
+    .line 269
     if-eqz p1, :cond_1
 
-    .line 272
+    .line 270
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextStartTime:Landroid/widget/TextView;
 
-    .line 273
+    .line 271
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    .line 272
+    .line 270
     invoke-static {v1}, Landroid/text/format/DateFormat;->getTimeFormat(Landroid/content/Context;)Ljava/text/DateFormat;
 
     move-result-object v1
 
-    .line 273
+    .line 271
     invoke-virtual {p1}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
 
     move-result-object v2
 
-    .line 272
+    .line 270
     invoke-virtual {v1, v2}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 275
+    .line 273
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
@@ -1364,14 +1364,14 @@
 
     move-result v1
 
-    .line 276
+    .line 274
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v2, v7}, Ljava/util/Calendar;->get(I)I
 
     move-result v2
 
-    .line 277
+    .line 275
     iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/4 v4, 0x5
@@ -1380,7 +1380,7 @@
 
     move-result v3
 
-    .line 278
+    .line 276
     const/16 v4, 0xb
 
     invoke-virtual {p1, v4}, Ljava/util/Calendar;->get(I)I
@@ -1393,20 +1393,20 @@
 
     move-result v5
 
-    .line 279
+    .line 277
     const/4 v6, 0x0
 
-    .line 275
+    .line 273
     invoke-virtual/range {v0 .. v6}, Ljava/util/Calendar;->set(IIIIII)V
 
-    .line 281
+    .line 279
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v8
 
-    .line 282
+    .line 280
     .local v8, "startTime":J
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
@@ -1418,12 +1418,12 @@
 
     invoke-virtual {v0, v2, v3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    .line 284
+    .line 282
     iget v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
     if-ne v0, v7, :cond_0
 
-    .line 285
+    .line 283
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
@@ -1440,23 +1440,23 @@
 
     if-lez v0, :cond_0
 
-    .line 286
+    .line 284
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndDate(Ljava/util/Calendar;)V
 
-    .line 287
+    .line 285
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
-    .line 270
+    .line 268
     .end local v8    # "startTime":J
     :cond_0
     :goto_0
     return-void
 
-    .line 290
+    .line 288
     :cond_1
     const-string/jumbo v0, "updateStartTime : date is null."
 
@@ -1473,24 +1473,24 @@
     .prologue
     const/4 v1, 0x0
 
-    .line 431
+    .line 429
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    .line 433
+    .line 431
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelListAdapter:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$ChannelAdapter;
 
-    .line 434
+    .line 432
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
-    .line 435
+    .line 433
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mChannelCursor:Landroid/database/Cursor;
 
-    .line 436
+    .line 434
     iput-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
-    .line 430
+    .line 428
     return-void
 .end method
 
@@ -1498,14 +1498,14 @@
     .locals 2
 
     .prologue
-    .line 421
+    .line 419
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 420
+    .line 418
     return-void
 .end method
 
@@ -1515,22 +1515,22 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 192
+    .line 190
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mScrollView:Landroid/widget/ScrollView;
 
     invoke-virtual {v1, v2, v2}, Landroid/widget/ScrollView;->scrollTo(II)V
 
-    .line 194
+    .line 192
     const/4 v1, 0x2
 
     iput v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
-    .line 195
+    .line 193
     iget v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
     invoke-direct {p0, v1}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateReservationType(I)V
 
-    .line 196
+    .line 194
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1553,7 +1553,7 @@
 
     invoke-direct {p0, v1}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateCurrentChannel(Lcom/nmi/mtv/app/core/db/DBChannel;)V
 
-    .line 199
+    .line 197
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1566,25 +1566,25 @@
 
     move-result v0
 
-    .line 200
+    .line 198
     .local v0, "index":I
     iget-object v1, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTextChannelName:Landroid/widget/Spinner;
 
     invoke-virtual {v1, v0}, Landroid/widget/Spinner;->setSelection(I)V
 
-    .line 202
+    .line 200
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->setDefaultDateTime()V
 
-    .line 190
+    .line 188
     return-void
 .end method
 
 .method public onClick(Landroid/view/View;)V
-    .locals 13
+    .locals 12
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    const/16 v12, 0x3e9
+    const/16 v5, 0x3e9
 
     const/4 v6, 0x1
 
@@ -1594,33 +1594,33 @@
 
     const/4 v7, 0x0
 
-    .line 451
+    .line 449
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result v4
 
     packed-switch v4, :pswitch_data_0
 
-    .line 449
+    .line 447
     :cond_0
     :goto_0
     :pswitch_0
     return-void
 
-    .line 453
+    .line 451
     :pswitch_1
-    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isUpper_M()Z
 
-    const/16 v5, 0x17
+    move-result v4
 
-    if-lt v4, v5, :cond_2
+    if-eqz v4, :cond_2
 
-    .line 454
+    .line 452
     iget v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedReservationType:I
 
     if-ne v4, v8, :cond_1
 
-    .line 455
+    .line 453
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     const/16 v5, 0x424
@@ -1631,7 +1631,7 @@
 
     goto :goto_0
 
-    .line 457
+    .line 455
     :cond_1
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->addReservation()Z
 
@@ -1639,14 +1639,14 @@
 
     if-eqz v4, :cond_0
 
-    .line 458
+    .line 456
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    invoke-interface {v4, v12, v7, v7, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
+    invoke-interface {v4, v5, v7, v7, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 462
+    .line 460
     :cond_2
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->addReservation()Z
 
@@ -1654,31 +1654,31 @@
 
     if-eqz v4, :cond_0
 
-    .line 463
+    .line 461
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    invoke-interface {v4, v12, v7, v7, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
+    invoke-interface {v4, v5, v7, v7, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 468
+    .line 466
     :pswitch_2
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
-    invoke-interface {v4, v12, v7, v7, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
+    invoke-interface {v4, v5, v7, v7, v11}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
     goto :goto_0
 
-    .line 485
+    .line 483
     :pswitch_3
     sget-object v4, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;->FROM_DATE:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
     iput-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTimeMode_type:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
-    .line 486
+    .line 484
     new-instance v0, Landroid/app/DatePickerDialog;
 
-    .line 487
+    .line 485
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1687,21 +1687,21 @@
 
     iget-object v2, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->DateListener:Landroid/app/DatePickerDialog$OnDateSetListener;
 
-    .line 488
+    .line 486
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v4, v6}, Ljava/util/Calendar;->get(I)I
 
     move-result v3
 
-    .line 489
+    .line 487
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v4, v8}, Ljava/util/Calendar;->get(I)I
 
     move-result v4
 
-    .line 490
+    .line 488
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/4 v6, 0x5
@@ -1710,16 +1710,16 @@
 
     move-result v5
 
-    .line 486
+    .line 484
     invoke-direct/range {v0 .. v5}, Landroid/app/DatePickerDialog;-><init>(Landroid/content/Context;Landroid/app/DatePickerDialog$OnDateSetListener;III)V
 
-    .line 492
+    .line 490
     .local v0, "from_date_dialog":Landroid/app/DatePickerDialog;
     invoke-virtual {v0}, Landroid/app/DatePickerDialog;->show()V
 
     goto :goto_0
 
-    .line 498
+    .line 496
     .end local v0    # "from_date_dialog":Landroid/app/DatePickerDialog;
     :pswitch_4
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
@@ -1736,16 +1736,16 @@
 
     move-result-object v9
 
-    .line 499
+    .line 497
     .local v9, "is24Hour":Ljava/lang/Boolean;
     sget-object v4, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;->FROM_TIME:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
     iput-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTimeMode_type:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
-    .line 500
+    .line 498
     new-instance v1, Landroid/app/TimePickerDialog;
 
-    .line 501
+    .line 499
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1754,7 +1754,7 @@
 
     iget-object v3, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->TimeListener:Landroid/app/TimePickerDialog$OnTimeSetListener;
 
-    .line 502
+    .line 500
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/16 v5, 0xb
@@ -1763,7 +1763,7 @@
 
     move-result v4
 
-    .line 503
+    .line 501
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/16 v6, 0xc
@@ -1776,16 +1776,16 @@
 
     move-result v6
 
-    .line 500
+    .line 498
     invoke-direct/range {v1 .. v6}, Landroid/app/TimePickerDialog;-><init>(Landroid/content/Context;Landroid/app/TimePickerDialog$OnTimeSetListener;IIZ)V
 
-    .line 504
+    .line 502
     .local v1, "from_time_dialog":Landroid/app/TimePickerDialog;
     invoke-virtual {v1}, Landroid/app/TimePickerDialog;->show()V
 
     goto/16 :goto_0
 
-    .line 510
+    .line 508
     .end local v1    # "from_time_dialog":Landroid/app/TimePickerDialog;
     .end local v9    # "is24Hour":Ljava/lang/Boolean;
     :pswitch_5
@@ -1793,10 +1793,10 @@
 
     iput-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTimeMode_type:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
-    .line 511
+    .line 509
     new-instance v2, Landroid/app/DatePickerDialog;
 
-    .line 512
+    .line 510
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1805,21 +1805,21 @@
 
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->DateListener:Landroid/app/DatePickerDialog$OnDateSetListener;
 
-    .line 513
+    .line 511
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v5, v6}, Ljava/util/Calendar;->get(I)I
 
     move-result v5
 
-    .line 514
+    .line 512
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-virtual {v6, v8}, Ljava/util/Calendar;->get(I)I
 
     move-result v6
 
-    .line 515
+    .line 513
     iget-object v7, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/4 v8, 0x5
@@ -1828,27 +1828,27 @@
 
     move-result v7
 
-    .line 511
+    .line 509
     invoke-direct/range {v2 .. v7}, Landroid/app/DatePickerDialog;-><init>(Landroid/content/Context;Landroid/app/DatePickerDialog$OnDateSetListener;III)V
 
-    .line 516
+    .line 514
     .local v2, "to_date_dialog":Landroid/app/DatePickerDialog;
     invoke-virtual {v2}, Landroid/app/DatePickerDialog;->show()V
 
     goto/16 :goto_0
 
-    .line 523
+    .line 521
     .end local v2    # "to_date_dialog":Landroid/app/DatePickerDialog;
     :pswitch_6
     const/4 v10, 0x0
 
-    .line 524
+    .line 522
     .local v10, "view":Landroid/view/View;
     sget-object v4, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;->TO_TIME:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
     iput-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mTimeMode_type:Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView$TIMEMODE_TYPE;
 
-    .line 525
+    .line 523
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1863,11 +1863,11 @@
 
     move-result-object v9
 
-    .line 526
+    .line 524
     .restart local v9    # "is24Hour":Ljava/lang/Boolean;
     new-instance v3, Landroid/app/TimePickerDialog;
 
-    .line 527
+    .line 525
     iget-object v4, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
     invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1876,7 +1876,7 @@
 
     iget-object v5, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->TimeListener:Landroid/app/TimePickerDialog$OnTimeSetListener;
 
-    .line 528
+    .line 526
     iget-object v6, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/16 v7, 0xb
@@ -1885,7 +1885,7 @@
 
     move-result v6
 
-    .line 529
+    .line 527
     iget-object v7, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     const/16 v8, 0xc
@@ -1898,16 +1898,16 @@
 
     move-result v8
 
-    .line 526
+    .line 524
     invoke-direct/range {v3 .. v8}, Landroid/app/TimePickerDialog;-><init>(Landroid/content/Context;Landroid/app/TimePickerDialog$OnTimeSetListener;IIZ)V
 
-    .line 531
+    .line 529
     .local v3, "to_time_dialog":Landroid/app/TimePickerDialog;
     invoke-virtual {v3}, Landroid/app/TimePickerDialog;->show()V
 
     goto/16 :goto_0
 
-    .line 538
+    .line 536
     .end local v3    # "to_time_dialog":Landroid/app/TimePickerDialog;
     .end local v9    # "is24Hour":Ljava/lang/Boolean;
     .end local v10    # "view":Landroid/view/View;
@@ -1916,13 +1916,13 @@
 
     goto/16 :goto_0
 
-    .line 542
+    .line 540
     :pswitch_8
     invoke-direct {p0, v6}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateReservationType(I)V
 
     goto/16 :goto_0
 
-    .line 451
+    .line 449
     :pswitch_data_0
     .packed-switch 0x7f0f009a
         :pswitch_2
@@ -1943,7 +1943,7 @@
     .param p1, "keyCode"    # I
 
     .prologue
-    .line 445
+    .line 443
     const/4 v0, 0x0
 
     return v0
@@ -1953,17 +1953,17 @@
     .locals 1
 
     .prologue
-    .line 352
+    .line 350
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedStartTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateStartTime(Ljava/util/Calendar;)V
 
-    .line 353
+    .line 351
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mSelectedEndTime:Ljava/util/Calendar;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->updateEndTime(Ljava/util/Calendar;)V
 
-    .line 351
+    .line 349
     return-void
 .end method
 
@@ -1973,14 +1973,14 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 358
+    .line 356
     invoke-direct {p0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->addReservation()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 359
+    .line 357
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mOnViewEventListener:Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;
 
     const/16 v1, 0x3e9
@@ -1989,7 +1989,7 @@
 
     invoke-interface {v0, v1, v3, v3, v2}, Lcom/nmi/mtv/app/core/common/CommonInterface$OnUserEventListener;->onUserEvent(IIILjava/lang/Object;)V
 
-    .line 357
+    .line 355
     :cond_0
     return-void
 .end method
@@ -1998,14 +1998,14 @@
     .locals 2
 
     .prologue
-    .line 411
+    .line 409
     invoke-static {}, Lcom/nmi/mtv/app/core/util/Util;->isL_Version()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 412
+    .line 410
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mContext:Landroid/content/Context;
 
     invoke-static {v0}, Lcom/nmi/mtv/app/core/preferences/MTVPreferences;->getMultiUser_Check_Alert(Landroid/content/Context;)Z
@@ -2014,12 +2014,12 @@
 
     if-nez v0, :cond_0
 
-    .line 413
+    .line 411
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mContext:Landroid/content/Context;
 
     invoke-direct {p0, v0}, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->showAlertMultiUser(Landroid/content/Context;)V
 
-    .line 416
+    .line 414
     :cond_0
     iget-object v0, p0, Lcom/nmi/mtv/app/ui/condor/reservation/SchedulerAddView;->mStub:Landroid/view/View;
 
@@ -2027,6 +2027,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 409
+    .line 407
     return-void
 .end method
