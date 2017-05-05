@@ -3,6 +3,358 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+05-05-2017
+====================
+
+#### Device specific Changes of 05-05-2017 Start:
+
+#### Device/Quark/
+* 8d74c4e Quark: Update branch to a more stable config
+
+#### Vendor/Quark/
+* e2ec1873 Quark: update camera vendor lib
+
+#### Device specific Changes of 05-05-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 05-05-2017:
+
+#### frameworks/base/
+* 029c177129e Automatic translation import
+
+#### packages/apps/Dialer/
+* 8a5e439a9 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 222f925 Automatic translation import
+
+#### packages/apps/Settings/
+* 34a8e66fc Change codename of K3 Note (#783)
+* 4d8e878e1 Automatic translation import
+
+#### packages/services/OmniJaws/
+* d6c38bd Automatic translation import
+
+#### system/bt/
+* 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
+
+#### Resurrection Remix OS - Nougat source changes of 05-05-2017 End.
+
+05-04-2017
+====================
+
+#### Device specific Changes of 05-04-2017 Start:
+
+#### Device/Quark/
+* 2abd7b0 Quark: update readme
+
+#### Device specific Changes of 05-04-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 05-04-2017:
+
+#### bootable/recovery/
+* 616bf9a recovery: Fix event system
+
+#### frameworks/base/
+* ed3936ee3f7 Make Scrolling for TaskManager list a lot easier
+* ebb01f07094 Automatic translation import
+* 03a9a2ed77e Base:Dont do anything on weather errors for header & keyguard
+
+#### hardware/qcom/display-caf/apq8084/
+* 3ae2e50 backport:  hwcomposer: Fix regression in hwc_sync
+* ec2c246 qdutils: correct error checking of MetaData's handle mapping
+* f765cfe hwc: Handle DOZE_SUSPEND properly
+* 58a8416 hwc: Try MDP composition eventhough skip layer is present
+* 9a8cf0e ovelray: Tolerate the absense of an RGB pipe
+* 0f96086 hwc/overlay: Get rot dest dimensions instead of manipulating source
+
+#### packages/apps/Dialer/
+* 1f733f253 Automatic translation import
+
+#### packages/apps/Jelly/
+* 2006774 Jelly: no need of using srcCompat for imageviews
+* 9be745e Jelly: fix InflateException on builds compiled with aosp build system
+
+#### packages/apps/OmniSwitch/
+* 3530c16 Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* 920fa0c Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 0fbdeff Automatic translation import
+
+#### packages/apps/Settings/
+* 008a015c1 Update resurrection_device_maintainers_strings.xml (#782)
+* da7778ec0 Automatic translation import
+* 33f769f7a Add device_maintainers_fragment for device thea (#780)
+* 3e9cabcc2 Add Device Maintainer for motorola moto g2 LTE (#781)
+
+#### packages/services/OmniJaws/
+* a626ff0 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 05-04-2017 End.
+
+05-03-2017
+====================
+
+#### Device specific Changes of 05-03-2017 Start:
+
+#### Device/Quark/
+* e605dcf Quark: update sepolicy and general updates
+
+#### Device specific Changes of 05-03-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 05-03-2017:
+
+#### bionic/
+* 22d6b5b57 libc: ARM: Add 32-bit Kryo memcpy
+* 45a39871e libc: use Cortex-A7/A53 memset on Kryo
+* ba97f82ba Add kryo support.
+
+#### bootable/recovery/
+* 8011e66 recovery: Fix UI freezing
+
+#### frameworks/base/
+* e67fe653545 KeyguardStatusBar: Add missing TouchAnimation for hiding statusbar
+* 640db943193 Base: Make sure keyguard and header handle weather errors as well
+* d9c5ba7c620 base: SystemUI: dont hide navbar for screenshot crop
+* 9fa52a54508 base: SystemUI: qs: location tile quickbar press is just toggle
+* 3db79794f1f base: SystemUI: dont hide weather forcast data on errors
+* 4c605724d86 base: SystemUI: use new OmniJaws error broadcasts
+* ad493bf657c Fix keyguard is black background while screen turning off/on quickly
+* 41d90baeccd Reboot/Recovery QS Tile: Use vectorized icons
+* 5cb48ac5776 Automatic translation import
+
+#### hardware/qcom/display-caf/apq8084/
+* 299383f liboverlay: Invoke commit before freeing the writeback device
+* b2f6a92 hwc: mdpcomp: Free pipeinfo objects every drawing round
+* 4c5c4da gralloc: Change loglevel of adreno_utils warning
+* f87ac82 hwc: Avoid switching rotator session between secure and non secure
+* 9704534 hwc: Avoid redoing GPU comp under certain conditions
+* 13f280d hwc: Avoid MDP draw if prepare is not successful.
+* 334ada2 hwc: vds: isActive need to be set for wfd using vds solution
+* 2f39647 hwc: Reset mode tracking in MDPComp constructor
+* 16bc9e1 Revert "hwc: Skip load based composition for video playback."
+* 9906d74 hwc: reset overlay and writeback in unblank if writeback is active
+* 21d5c4a hwc: Integerize in the outward direction of rectangle
+* 1dcca6e hwc: Set ioprio for vsync thread
+* 6e49812 display: Set thread priority using cutils
+
+#### packages/apps/DUI/
+* aba99d5 Fix Fling swipe up gesture being hard to trigger
+
+#### packages/apps/Dialer/
+* b239b707a Dialer: InCallUI: Enable Sustained Performance Mode We should make sure that thermals are stable during active calls, so we should enable Sustained Performance Mode for the InCallActivity.
+
+#### packages/apps/Jelly/
+* b01a7b8 Jelly: handle rotation and multiwindow changes
+
+#### packages/apps/Settings/
+* a2cd85e36 update a string
+* 02f94fccc Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* 4eb982d55 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1
+
+#### packages/services/OmniJaws/
+* aa857b5 OmniJaws: come here all you hidden bugs into the bright light
+* a169929 OmniJaws: weather widget fixes
+* a9b5863 OmniJaws: add weather widget
+* d106dcd OmniJaws: add error broadcast
+* 7d52cc9 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 05-03-2017 End.
+
+05-02-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-02-2017:
+
+#### android/
+* 7c6e872 manifests: 7.1.2_r2-> r8
+* 16e5022 android: nuke browser, welcome jelly
+* 8ead0d4 Manifest : Stop syncing blank intel sensor repo.
+* 1aaf24e manifest: Track our external/libchrome
+
+#### build/
+* fab5d1d51 Merge tag 'android-7.1.2_r8' into nougat
+* e6c0264e5 Revert "We want Browser"
+
+#### external/boringssl/
+* 8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### frameworks/av/
+* 24697a328 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+* 16dcaaaca Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### frameworks/base/
+* 0501270c3b3 Merge tag 'android-7.1.2_r8' into nougat
+* 0cb47fafc25 Automatic translation import
+* e8d78b45e62 fix anr when concurrent request provider
+* d0d7aee3365 Ensure that the decor view is attached to window.
+* 119e0d3298c Bad token of activity when do the launch work at the app process side.
+* 05558351189 Query geo description in worker thread to prevent ANR
+* a87340f99fe remove duplicated incorrectly code in ProcessRecord
+* 3f190335d14 fix foreground process will be mistakenly killed when it uses content provider.
+* 1e33d08a439 Restart persistent process if start timeout.
+* 88fd7c1467d fix system_server crash issue caused by fd leak.
+* 2f5069ebe90 Compass qs tile: Fix icon in edit mode
+
+#### frameworks/native/
+* c544fcc05 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+* b8fb318de Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### packages/apps/Jelly/
+* 2f41ee6 Jelly: expose toolbar elevation
+* 74270cc Jelly: history: swipe to delete
+* 244fab9 Jelly: use custom dialog for home page selection
+
+#### packages/apps/Messaging/
+* 9ea833a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
+
+#### packages/apps/Settings/
+* 2c2376a4f Change username of Github from PixlernBlitz to PainKiller3 (#776)
+* 38863c06f Fix typo in resurrection_device_maintainers.xml (#775)
+* e6d2f898d Merge tag 'android-7.1.2_r8' into nougat
+* 8bac20269 Automatic translation import
+* f69dd8c6e Revert "Settings: Lost cached BT devices in found devices list"
+* 226f681b7 Settings[Wifi]: fix the input invalid length for WEP encryption.
+* 20f7649f8 Settings: Fix internal storage summary for non-emulated storage
+* a8ca4b42d Add v521 device and maintainer  (#774)
+* 9283d7e25 Add Galaxy Grand Prime As Official. (#773)
+
+#### system/bt/
+* 85d4e422 Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### system/core/
+* 259efc162 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+* d7cbf4b4c Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### vendor/cm/
+* 137c340c cm: nuke browser, welcome jelly
+* b43a7980 cm: Remove obsolete and unused overlays and configs
+
+#### Resurrection Remix OS - Nougat source changes of 05-02-2017 End.
+
+05-01-2017
+====================
+
+#### Device specific Changes of 05-01-2017 Start:
+
+#### Device/Quark/
+* 1e55dc5 cmactions: Remove no more needed workaround
+* 8a0e345 Quark: Update cmactions
+
+#### Device specific Changes of 05-01-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 05-01-2017:
+
+#### frameworks/base/
+* 1c72ba57c9e Automatic translation import
+
+#### packages/apps/Jelly/
+* 17755b3 Jelly: add option to clear cookies
+
+#### packages/apps/OmniSwitch/
+* 61ce833 Automatic translation import
+
+#### packages/apps/Settings/
+* d78311b81 Automatic translation import
+
+#### packages/services/OmniJaws/
+* b7da8af Automatic translation import
+
+#### system/extras/su/
+* 7344440 su: Don't start daemon for adb only mode
+
+#### Resurrection Remix OS - Nougat source changes of 05-01-2017 End.
+
+04-30-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-30-2017:
+
+#### build/
+* 1856c8bcb Revert "build: releasetools: ota: Add support for 32-64 bit upgrades"
+* 37969284d build: fix verity generation
+
+#### frameworks/base/
+* 42c3f5845ef am: Handle unchecked activity starts for protected components (2)
+
+#### packages/apps/Dialer/
+* 8c8f1395f InCallUI: Don't force enable the prox sensor for incoming calls
+
+#### packages/apps/Jelly/
+* 13c1311 Jelly: Fix typo
+
+#### packages/apps/Settings/
+* a7c15e032 Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-30-2017 End.
+
+04-29-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-29-2017:
+
+#### bootable/recovery/
+* 5d701cc recovery: Complete project pathmap usage
+* 39ce741 Revert "recovery:updater: Changes to support 32->64 bit upgrades"
+
+#### device/qcom/common/
+* 0dc3673 recovery: Use project pathmap for recovery
+
+#### frameworks/base/
+* 8fa52cdca67 Automatic translation import
+
+#### hardware/libhardware_legacy/
+* ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+#### hardware/qcom/fm/
+* d17952e Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* b7d1a8b Automatic translation import
+
+#### packages/apps/Gallery2/
+* ed6763f13 Automatic translation import
+
+#### packages/apps/Recorder/
+* 9b9c5c9 Automatic translation import
+
+#### packages/apps/Settings/
+* 4a73b1be6 Added Device Maintainer For K3 Note (K50a40) (#771)
+* 51f85b0d0 Automatic translation import
+
+#### packages/apps/SetupWizard/
+* 8518aa3 Automatic translation import
+
+#### packages/apps/Snap/
+* 1d0e136c0 Automatic translation import
+
+#### packages/resources/devicesettings/
+* 55faa1d Automatic translation import
+
+#### system/core/
+* 3efb4eca7 fs_mgr: Use project pathmap for recovery
+* 783cb54ee healthd: Use project pathmap for recovery
+
+#### system/extras/
+* f30ae7f Use project pathmap for recovery
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 5de40fe Automatic translation import
+
+#### Resurrection Remix OS - Nougat source changes of 04-29-2017 End.
+
 04-28-2017
 ====================
 
@@ -16,6 +368,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * 40e3809 JobService: Expose configuration shim refresh delay
 
 #### Resurrection Remix OS - Nougat source changes of 04-28-2017 End.
+
 
 04-27-2017
 ====================

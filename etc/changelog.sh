@@ -6,15 +6,30 @@
 # file.md can work with more data or have more lines then a page wiki
 
 # input variables set the below the rest must be automatic
-#source_tree="android/crn"; #path here must be inside your home directory
-source_tree="android/n"; #path here must be inside your home directory
+source_tree_c="/media/bhb27/4508858d-ffa9-4a7f-a111-f598c9425438/crn"; #path here must be inside your home directory
+source_tree_r="android/n"; #path here must be inside your home directory
 device_tree="device/motorola/quark/"; #path here must be inside of source tree
 kernel_tree="kernel/motorola/apq8084/"; #path here must be inside of source tree
 vendor_tree="vendor/motorola/"; #path here must be inside of source tree
 device_name="Quark"
-#source_name="CRDroid Android Nougat"
-source_name="Resurrection Remix OS - Nougat"
+source_name_c="CRDroid Android Nougat"
+source_name_r="Resurrection Remix OS - Nougat"
 # input variables end
+
+echo -e "\nr or c?\n"
+read -r rom
+echo -e "\nYou choose: $rom"
+export rom
+if [ ! "$rom" == "r" ] && [ ! "$rom" == "c" ]; then
+	echo -e "\nNO CHANGE FOR YOU\n";
+	exit;
+elif [ "$rom" == "r" ]; then
+        source_tree=$source_tree_r
+	source_name=$source_name_r
+elif [ "$rom" == "c" ]; then
+        source_tree=$source_tree_c
+	source_name=$source_name_c
+fi;
 
 export Changelog=$HOME/$source_tree/Changelog.md
 
