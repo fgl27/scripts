@@ -22,12 +22,13 @@ export askvariant=1
 export days_to_log=0
 export rom=r
 export ROM_VVV=$(grep PRODUCT_VERSION vendor/cm/config/common.mk | head -1 | awk '{print $3}');
+export WITH_SU=true
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
 ./prebuilts/sdk/tools/jack-admin start-server
 make clean
-lunch cm_quark-userdebug
+lunch lineage_quark-userdebug
 time mka bacon -j8 2>&1 | tee quark.txt
 
 # final time display *cosmetic...

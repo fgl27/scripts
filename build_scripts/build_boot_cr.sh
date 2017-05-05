@@ -19,7 +19,7 @@ export days_to_log=0
 . build/envsetup.sh 
 lunch cm_quark-userdebug
 make clean
-time mka bootimage -j4 2>&1 | tee quark.txt
+time mka bootimage -j8 2>&1 | tee quark.txt
 
 # final time display *cosmetic...
 END2="$(date)";
