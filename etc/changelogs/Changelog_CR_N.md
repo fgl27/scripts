@@ -3,6 +3,817 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+05-05-2017
+====================
+
+#### Device specific Changes of 05-05-2017 Start:
+
+#### Device/Quark/
+* 8d74c4e Quark: Update branch to a more stable config
+
+#### Vendor/Quark/
+* e2ec1873 Quark: update camera vendor lib
+
+#### Device specific Changes of 05-05-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-05-2017:
+
+#### build/
+* ab0891af4 Revert "core: use 0 compression when creating the target_files package"
+
+#### system/bt/
+* 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
+
+#### CRDroid Android Nougat source changes of 05-05-2017 End.
+
+05-04-2017
+====================
+
+#### Device specific Changes of 05-04-2017 Start:
+
+#### Device/Quark/
+* 2abd7b0 Quark: update readme
+
+#### Device specific Changes of 05-04-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-04-2017:
+
+#### bootable/recovery/
+* 616bf9a recovery: Fix event system
+
+#### packages/apps/Jelly/
+* 2006774 Jelly: no need of using srcCompat for imageviews
+* 9be745e Jelly: fix InflateException on builds compiled with aosp build system
+
+#### CRDroid Android Nougat source changes of 05-04-2017 End.
+
+05-03-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-03-2017:
+
+#### art/
+* 88d5636d9 art: Support more variants of ARM
+
+#### bionic/
+* 9c227a72b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_bionic into 7.1
+* 22d6b5b57 libc: ARM: Add 32-bit Kryo memcpy
+* 45a39871e libc: use Cortex-A7/A53 memset on Kryo
+* ba97f82ba Add kryo support.
+
+#### bootable/recovery/
+* 8011e66 recovery: Fix UI freezing
+
+#### build/
+* 403195ade build: Dump crdroid opt in banner
+
+#### external/libavc/
+* 3421ac6 Merge tag 'android-7.1.2_r8' of https://android.googlesource.com/platform/external/libavc into 7.1
+
+#### external/pdfium/
+* 32813be Merge tag 'android-7.1.2_r8' of https://android.googlesource.com/platform/external/pdfium into 7.1
+
+#### frameworks/av/
+* faa8b85e0 seccomp: Fix policy for ffmpeg
+
+#### frameworks/base/
+* a803e60c0e9 Aapt2: Fix png leak
+* d970962effa Fix the Wi-Fi wrong status when turning Wi-Fi on
+* 46af356f9e1 wifi: catch UnsupportedOperationException for getMatchingWifiConfig
+* 79a993f6f72 SettingsLib: wifi: Fixed AccessPoint tracking for Passpoint networks
+* b48b294a28b Destroy Allocation with ScriptIntrinsicLut
+* 8b4eda96840 Destroy Allocation right away on exception
+* 67c2de24954 Do not CloseGuard KernelID or FieldID
+* 95915669a77 Fix keyguard is black background while screen turning off/on quickly
+* 64435e74f23 sensors: intern jstrings for memory savings
+* eab78af1efc sensors: fix native crash when dynamic sensor is removed
+* 23c1c4a0da2 Remove custom tiles from the same uninstalled package
+* d05ec1e8120 The network event should be an asynchronous callback.
+* 2318bf13c2e SystemUI: remove force weather update bits
+* 074e456138d Clear mGuestRestrictions before loading from disk
+* 05328a3c8ad AssetAtlasService: fix multi-threaded computeBestConfiguration
+* ea2471234d7 Fix DUI slippery flag logic and IllegalArgumentException [2/2]
+* f3d8df5e123 statusbar weather: Update omnijaws API
+* 1b5c3ad35f0 base: SystemUI: dont hide weather forcast data on errors
+* 0edfa2b06fd base: SystemUI: use new OmniJaws error broadcasts
+* cdc36293381 Compass qs tile: Fix icon in edit mode
+* 56679e9de95 Add Compass tile
+
+#### frameworks/native/
+* 64c0f4392 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1
+
+#### packages/apps/Contacts/
+* 443069409 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1
+
+#### packages/apps/DUI/
+* 5afe6f9 Add Chrome to MediaMonitor Blacklist
+* 2d6ca01 Fix Fling swipe up gesture being hard to trigger
+* c3fbe2c Fix DUI slippery flag logic and IllegalArgumentException [1/2]
+* 3ac1ff3 DUI: Basenavigationbar: Catch Slippery Exception
+
+#### packages/apps/Dialer/
+* a572b5332 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1
+
+#### packages/apps/Jelly/
+* b01a7b8 Jelly: handle rotation and multiwindow changes
+
+#### packages/apps/Messaging/
+* a82230e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1
+
+#### packages/apps/PhoneCommon/
+* 6f24d14 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1
+
+#### packages/apps/Settings/
+* ecb716e5fd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/apps/Trebuchet/
+* 6e906bb90 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1
+
+#### packages/inputmethods/LatinIME/
+* 4eb982d55 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1
+
+#### system/core/
+* e5b60ab5b libadf: adf_test: fix crash on adf.devices failure
+* d66db81bf libadf: convert to C++
+* a47bc0f69 libadf: adf_test: fix clang + kati build
+* 5e79a9bb5 <cutils/atomic.h> has been inlined for two years now.
+* 704063e1f Fix reference counting for Assembly
+* e255c7c84 Fix warnings in cutils/atomic.h
+* 39e928521 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
+
+#### vendor/cmsdk/
+* 6d90cdc Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### CRDroid Android Nougat source changes of 05-03-2017 End.
+
+05-02-2017
+====================
+
+#### Device specific Changes of 05-02-2017 Start:
+
+#### Device/Quark/
+* e605dcf Quark: update sepolicy and general updates
+
+#### Device specific Changes of 05-02-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-02-2017:
+
+#### android/
+* ffe1c33 Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1
+* ee708d0 manifest: Track arm-eabi-6.3
+* 55ebcda manifest: Track aosp compiler-rt
+* fc78b86 manifest: android-7.1.2_r2 -> android-7.1.2_r8
+* 9182986 android: nuke browser, welcome jelly
+* dec5499 manifest: Track clang-2690385
+* bcc3032 manifest: Track clang 3.8
+* 5934f9d manifest: Track clang 3.6
+* 8f9085b Sync contributors cloud generator and random scripts
+
+#### build/
+* 4fb9766e9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1
+* a73f68a38 Merge tag 'android-7.1.2_r8' into cm-14.1
+* dd1d7caa6 Revert "We want Browser"
+* 0fc0aacd7 build: Switch prebuilt clang to proper version if no dtc
+* c743ec750 build: Add more missing flags
+* f487039d9 build: Dont enable undefined flags unless dtc opt available
+* 0a62d2742 dtc: Update disable list
+
+#### external/boringssl/
+* 8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### external/compiler-rt/
+* 3e4ad372 Add dtc opt flag
+
+#### external/compiler-rt_aosp/
+* 2881b001 Add dtc opt flag
+
+#### frameworks/av/
+* 16dcaaaca Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### frameworks/base/
+* 15e52c41d75 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* abe50aacbd7 Merge tag 'android-7.1.2_r8' into cm-14.1
+* c3b68eef558 Automatic translation import
+
+#### frameworks/native/
+* b8fb318de Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### packages/apps/Jelly/
+* 2f41ee6 Jelly: expose toolbar elevation
+* 74270cc Jelly: history: swipe to delete
+* 244fab9 Jelly: use custom dialog for home page selection
+
+#### packages/services/OmniJaws/
+* 6d2ec38 Automatic translation import
+* c6f8208 OmniJaws: come here all you hidden bugs into the bright light
+* 7f59a61 OmniJaws: weather widget fixes
+* 5e5e496 OmniJaws: add error broadcast
+* 2a29597 OmniJaws: add weather widget
+* 2a0e0a3 OmniJaws: remove separation between force and not force update
+* c1020bb OmniJaws: add fetch weather data retry loop
+
+#### prebuilts/clang/host/linux-x86/3.8/
+* 2e2ea9b Initial commit
+
+#### prebuilts/clang/host/linux-x86/clang-2690385/
+* 1f1e274 Initial commit
+
+#### system/bt/
+* 85d4e422 Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### system/core/
+* d7cbf4b4c Merge tag 'android-7.1.2_r8' into cm-14.1
+
+#### vendor/cm/
+* b1bba601 addonsu: Add Lineage version to zip name
+* d776d4bb Add target to make a flashable su addon
+* 8125fbec cm: nuke browser, welcome jelly
+* 87ed1b9f cm: Remove obsolete and unused overlays and configs
+* 3b461d04 crdroid: Use clang 3.8 by default
+* 520eb77f crdroid: Use optional crdroid optimization flag
+
+#### CRDroid Android Nougat source changes of 05-02-2017 End.
+
+05-01-2017
+====================
+
+#### Device specific Changes of 05-01-2017 Start:
+
+#### Device/Quark/
+* 1e55dc5 cmactions: Remove no more needed workaround
+* 8a0e345 Quark: Update cmactions
+
+#### Device specific Changes of 05-01-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-01-2017:
+
+#### android/
+* 4642900 manifest: track our own FMRadio
+
+#### frameworks/base/
+* 72d1b67cb40 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* 5dccf5e13f1 Revert "remove the extra synchronized lock"
+* ff45b3f2722 Revert "Fix BaseBundle IllegalArgumentException"
+* bbddf5904a1 Revert "QS: Add advanced location tile"
+* 75cb163eec7 Revert "QS: Location Easy Toggle [1/2]"
+* 8d6b6594d04 Revert "Location tile: add high accuracy state icon"
+* 03494b72ac6 Revert "Location tile: dynamic icon state"
+* f7c5bff4f52 Revert "core: Set the power menu volume selector as green"
+
+#### packages/apps/Jelly/
+* 17755b3 Jelly: add option to clear cookies
+
+#### packages/apps/crDroidSettings/
+* 9d69c1a crdroid: Disable location easy toggle for now
+
+#### system/extras/su/
+* 7344440 su: Don't start daemon for adb only mode
+
+#### vendor/cm/
+* 1b9456e6 crdroid: Remove outdated and unsupported packages
+* f650a65e crdroid: Add exports for modern toolchains
+* e335c509 crdroid: Use DTC 5.0
+
+#### CRDroid Android Nougat source changes of 05-01-2017 End.
+
+04-30-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-30-2017:
+
+#### build/
+* c471fd9d4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1
+
+#### frameworks/base/
+* ac8641d9e4c base: don't show reboot options for safe mode
+* d1fecb13e0f SystemUI: Use already existing overlay to show QS auto brightness
+* f3faf1fffc1 SystemUI: use vector drawables for brightness icons
+* 39738c7ffc9 fix anr when concurrent request provider
+* 94d8c279b3b Ensure that the decor view is attached to window.
+* 07ece0caf97 Bad token of activity when do the launch work at the app process side.
+* aac81bb3205 Query geo description in worker thread to prevent ANR
+* 45bff3775d9 remove duplicated incorrectly code in ProcessRecord
+* bdb9183230f fix foreground process will be mistakenly killed when it uses content provider.
+* 400822e62c2 Fix PacketKeepalive.stop() crash
+* 217b8fcd22c FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+* 525f760c0be Restart persistent process if start timeout.
+* 105067d0bcf fix system_server crash issue caused by fd leak.
+* eefd167d308 base: LocationTile detail
+* 6fde90a2a9d SytemUI: Move brightness icon to the left of slider
+
+#### packages/apps/Jelly/
+* 13c1311 Jelly: Fix typo
+
+#### system/core/
+* f7c27488c Make libbacktrace build with LLVM r275480
+
+#### system/extras/
+* 9caa4aa Fix clang warnings and leak of full_stats_file .
+* 220b1ca simpleperf: Fix an error after adding newer Clang
+
+#### CRDroid Android Nougat source changes of 04-30-2017 End.
+
+04-29-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-29-2017:
+
+#### bionic/
+* 77e40e416 Revert "libm: add AArch32 math instructions"
+
+#### bootable/recovery/
+* 5d701cc recovery: Complete project pathmap usage
+* 39ce741 Revert "recovery:updater: Changes to support 32->64 bit upgrades"
+
+#### build/
+* 7a517a0e3 Revert "build: releasetools: ota: Add support for 32-64 bit upgrades"
+* 48683c3c8 dtc: Update disable module list
+
+#### device/qcom/common/
+* 0dc3673 recovery: Use project pathmap for recovery
+
+#### external/libvpx/
+* 4ece4e7 Temporarily disable neon opt
+
+#### frameworks/base/
+* 92e64187cb6 Revert "Do not stop while mCurrentClient is already in the process of stop."
+* 72450a91283 Fix a NPE with outlineProvider="none"
+* 37d9456d9fc Reboot/Recovery QS Tile: Use vectorized icons
+* e0b8cf1bde7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+
+#### hardware/libhardware_legacy/
+* ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+#### hardware/qcom/fm/
+* d17952e Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* b7d1a8b Automatic translation import
+
+#### packages/apps/Contacts/
+* ecc144ce7 Automatic translation import
+
+#### packages/apps/CustomTiles/
+* 7c2b32d Automatic translation import
+
+#### packages/apps/Dialer/
+* d5d1e6947 Automatic translation import
+
+#### packages/apps/Gallery2/
+* ed6763f13 Automatic translation import
+
+#### packages/apps/PhoneCommon/
+* be5e9c9 Automatic translation import
+
+#### packages/apps/Recorder/
+* 9b9c5c9 Automatic translation import
+
+#### packages/apps/Settings/
+* 3ad29ebbb1 Automatic translation import
+* 3fe1d9f1d1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/resources/devicesettings/
+* 55faa1d Automatic translation import
+
+#### system/core/
+* 6915aa985 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
+* 3efb4eca7 fs_mgr: Use project pathmap for recovery
+* 783cb54ee healthd: Use project pathmap for recovery
+
+#### system/extras/
+* 610356d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_extras into 7.1
+* f30ae7f Use project pathmap for recovery
+
+#### vendor/cmsdk/
+* e2c64b8 Automatic translation import
+* 0cc43e4 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 5de40fe Automatic translation import
+
+#### CRDroid Android Nougat source changes of 04-29-2017 End.
+
+04-28-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-28-2017:
+
+#### build/
+* 8d9471c39 build: Remove vendor check
+* 545d31b50 build: cflags: update to match soong
+* 187e3602d Use ASAN prebuilts if SANITIZE_HOST includes address
+* 44dbd835b Don't pass empty arguments to ninja
+* 6f3290948 cout: move to $out
+* 79762e917 build: Don't build tests
+* dffa4f5a0 edify: Fix _WordWrap function calls
+* 5c10c558a build: Remove annoying text when flashing
+* ad13b1d00 Only update previous product config when changed
+* 392492dfc Remove objclean
+* 095f826ea Update combined build.ninja to depend on Soong's build.ninja
+* 745eed3da Remove bootclasspath handling for Jack
+* 382665521 Remove static libraries from Jack classpath
+* e09a82273 Propagate signals through makeparallel
+* ac521b04c exec makeparallel
+* 866489017 releasetools: Fix an equality check bug when asserting stash size.
+* aa745fcb7 findleaves.py: prevent recursion into symlink loops
+* 1f06153c2 Add --dir option to findleaves.py
+* 1d44314ed Use 'release-keys' for build tag
+* 262e24ad0 Prevent findleaves.py from traversing copies of $(OUT_DIR)
+* cc15095f6 Add tool to run kati for all products
+* 520253d02 Use more prebuilt build-tools
+* 681e0ab25 Update prebuilt build tools path
+* 66e7bf5ed Use hermetic ckati/makeparallel prebuilts
+* 1a692425d DTC: Update module list for Clang 3.9 and 4.0
+* f82cedf73 build: symlink /system/bin/sh to bash
+* 4b0589a99 RenderScript-specific build updates for LLVM rebase
+* 85cf43223 Bring in few optimizations
+* ccdfcc4e8 DragonTC and Polly support Test 12
+* eb67b5455 build: Use -march=native for host
+* a8a090bc3 Remove Feedback Directed Optimization support
+
+#### external/skia/
+* d204b1001 Revert "Implement SkNx_fma() for Sk4f on ARMv8."
+
+#### frameworks/base/
+* 209d32f2474 Revert "send cancel cmd to hal in Lockout mode."
+
+#### packages/apps/ThemeInterfacer/
+* 40e3809 JobService: Expose configuration shim refresh delay
+
+#### CRDroid Android Nougat source changes of 04-28-2017 End.
+
+04-27-2017
+====================
+
+#### Device specific Changes of 04-27-2017 Start:
+
+#### Kernel/Quark/
+* 1d4d509883c Update wifi config
+
+#### Device specific Changes of 04-27-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-27-2017:
+
+#### android/
+* 12f1ffd Manifest : Stop syncing blank intel sensor repo.
+* bc5479a cm: Sync ansible repo
+* 60901d0 Revert "manifest: Switch back to old clang and remove new toolchains"
+* e43dd04 Revert "manifest: Bring back few old projects"
+* 8517e64 Revert "manifest: Revert prebuilt tools"
+* 6cc7608 Revert "manifest: Revert zlib for now"
+
+#### external/zlib/
+* a8eff8d zlib: Remove usage of cpu directive in inline asm
+* 140727f minizip: Clean up the code
+* 8289982 zlib: Fix build under M
+
+#### frameworks/base/
+* 3de2807241d SystemUI: Use AOSP AutoBrightness implementation
+* fe901354f87 Revert "SystemUI: [RJIL new function] AutoBrightness"
+* 81cc243b415 Revert "SystemUI: Fix QSTileHost exception"
+* 9208c083312 statusbar ticker: Update tickercolorhelper
+
+#### packages/apps/Settings/
+* df80559148 Revert "Settings: Lost cached BT devices in found devices list"
+* 9663c3179f Settings[Wifi]: fix the input invalid length for WEP encryption.
+
+#### packages/apps/ThemeInterfacer/
+* 3f3c33b Add a looper to the locale change handler
+
+#### packages/apps/Trebuchet/
+* 29b0b0a29 Trebuchet: lineage launcher icon
+
+#### packages/apps/crDroidSettings/
+* f87ea2c crdroid: Add missing include
+
+#### CRDroid Android Nougat source changes of 04-27-2017 End.
+
+04-26-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-26-2017:
+
+#### android/
+* a5b6e0e manifest: Revert zlib for now
+* b34ccb2 manifest: Revert prebuilt tools
+* 7e015aa manifest: Bring back few old projects
+* 0206844 manifest: Switch back to old clang and remove new toolchains
+
+#### frameworks/base/
+* ea0963cbf35 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* d183b097096 am: Handle unchecked activity starts for protected components (2)
+* 9cffad599d8 fix wrong algorithm in WifiPowerPerPacket()
+
+#### frameworks/opt/telephony/
+* bc432281 Create cdma dummy apns.
+
+#### packages/apps/Dialer/
+* e8dd4879f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1
+* 8604a37bf InCallUI: Don't force enable the prox sensor for incoming calls
+
+#### packages/apps/Gallery2/
+* 1f0ec6ea1 Revert "Gallery2: hide navigation bar when we turn off lights"
+
+#### packages/apps/ThemeInterfacer/
+* 9936dc3 README: Recommend Interfacer be put in the services folder
+
+#### packages/apps/Trebuchet/
+* c9e76546f Trebuchet: Do not crash if normalized string for sorting is empty
+* e4e27ba8e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1
+* 99649a575 Don't show market links if market app is protected
+* 1cc5cef42 Trebuchet: use normalized strings for sorting into bucket
+
+#### system/extras/
+* 2cf0157 ext4_utils: disable secure discard globally
+
+#### vendor/addons/
+* 1886d2b addons: Add turbo apk
+
+#### vendor/cmsdk/
+* 117d242 Protect system profiles related broadcasts
+
+#### CRDroid Android Nougat source changes of 04-26-2017 End.
+
+04-25-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-25-2017:
+
+#### android/
+* 7d3bce7 manifest: Track more projects
+
+#### bionic/
+* b6213797d libc: ARM64: optimize memmove for Cortex-A53
+* cdc55ca56 libc: arm64: memcpy optimization
+* 772a1dbe2 libc: ARM64: optimize memmove
+* 69d41fbe2 libc: ARM: memcmp: remove unused NEON_UNALIGNED_ACCESS flag
+* 6ec68d2f4 libc: use NEON-optimized memset on Cortex-A15
+* 649cf28b9 libc: import ARM strlen from Apple C library
+* 72d1fd838 libm: add AArch32 math instructions
+* 3788dc409 libm: add more aarch64 hardware instructions
+* 68d6e8b6e libm: add optimized expf/logf/powf from ARM
+
+#### external/skia/
+* 6ab4a0ad1 Adaptive skjpeg_source_mgr buffer size
+* 49d14b436 Use only registered users in skia/OWNERS.
+* 8987b8e2f skia: pass skia opt flags
+* 90d9e40b4 Fix memory leaks reported by clang static analyzer.
+* 498ea3edd tight bounds optimization
+* f52d70c25 Fix BUG=skia:5662
+* cd3ec7570 Make SSE2/Neon convolution functions not to read extra bytes
+* 286446aa3 nanobench: Add per-run time reporting.
+* 966a5cbb6 Implement SkNx_fma() for Sk4f on ARMv8.
+* af758c5c1 Add a hook for CPU-optimized sRGB-sRGB srcover.
+* feaee0f89 SkNx refresh
+* 6aabc27e3 Delete quickRejectY()
+* 9bd6b019c Optimized implementation of quickReject()
+* 3dc8373ab Restore scratch texture reuse on Adreno.
+* b3fd48890 arithmetic mode with Sk4f
+* 613a78eb8 skia: always enable jpeg decode fast path
+* eb27398f7 remove sprintf
+* 25ff940a6 skia: Update libpng header for libpng-1.6.26rc01
+* 1c04b010f skia: Force arm mode
+* 800f56162 Skia: don't build tests
+* 504beb9ac skia: Perform -O3 optimization
+
+#### frameworks/native/
+* e3b2e0d1f installd create_data_user_ce_path uses dir instead of symlink
+* bbaa2bf45 Fix memory ordering issues; document IMemory peculiarities
+* 68eaa63dd libagl: fix depth buffer memory leak
+* c3a514512 Fix using the wrong array index as display id.
+* 0dccc9f81 Fix error BufferQueue attaching flow.
+* 886dbae47 surfaceflinger:Fix potential crash issue when do AIDL FUZZ test
+* 7c2cc791c binder: remove cgroup interactions
+* f81d0402d Remove ATRACE from SurfaceFlinger
+* d490bd397 installd: Simplify Dalvik cache path creation
+
+#### hardware/qcom/display/
+* c0317ec hwcomposer: Fix regression in hwc_sync
+
+#### hardware/qcom/display-caf/apq8084/
+* c21ccb4 backport:  hwcomposer: Fix regression in hwc_sync
+
+#### CRDroid Android Nougat source changes of 04-25-2017 End.
+
+04-24-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-24-2017:
+
+#### android/
+* a88923e manifest: Track frameworks support
+* 7a4044c manifest: Track frameworks ex
+* 62a52d5 manifest: Track aac
+* e61de0e manifest: Track libavc
+* 5125f3f manifest: Track expat
+* 4d824fb manifest: Track libjpeg-turbo
+* 7e63974 manifest: Track libxml2
+* 2b6847c manifest: Remove duplicate libncurses
+* 4d6992a manifest: Track libphonenumber and libncurses
+* c67003d manifest: Track libpng and libvpx
+* c948020 Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1
+
+#### external/llvm/
+* f85bb8c155 stop short-circuiting the SSP code for sspstrong
+
+#### frameworks/base/
+* 4fb6a6d0e37 Keyguard: Move CAF strings to cm_strings.xml.
+
+#### frameworks/support/
+* 33ae112d3 fix non-UI thread crash
+* cd25005fb Prevent potential NPE
+* a6c7b37dd Replaced duplicate lookup with unused assignment value.
+* d5c6e632d Replaced duplicate lookup with unused assignment value in findActionPositionById.
+* 1f0fdb781 Fixed Fragment's LoaderManagers leaking the previous Activity after configuration change.
+
+#### packages/apps/Settings/
+* c78a1d176b Settings: Fix internal storage summary for non-emulated storage
+
+#### packages/apps/ThemeInterfacer/
+* 97eceaf JobService: Transition to the Binder Interprocess Communication System
+
+#### CRDroid Android Nougat source changes of 04-24-2017 End.
+
+04-23-2017
+====================
+
+#### CRDroid Android Nougat source changes of 04-23-2017:
+
+#### android/
+* 3658a3e manifest: Track okhttp
+* da382f0 manifest: Track ImageMagick
+* 09f44a5 manifest: Track mdnsresponder
+* f271db1 manifest: Track v8 and vixl
+* e40077c manifest: Track freetype
+* 308c05c manifest: Track webp and webrtc
+* 705e4dd manifest: Track pdfium
+* d5f3860 manifest: Track jemalloc
+* 0705017 manifest: Track guava
+* e6e4114 manifest: Track zlib
+* 4b35ce2 manifest: Track libcore
+* 0720d1c manifest: Track system extras
+* d9f71b4 manifest: Track sqlite
+* 542c713 manifest: Track rendersctipt and tools for sdk
+* df631a2 manifest: Track frameworks rs
+* 079a3c1 manifest: Track prebuilts
+* bd6ed35 manifest: Dont track libunwind_llvm
+* 0e7ee8e manifest: Track llvm dependent projects
+* 685039f manifest: Track llvm
+* e85b55f manifest: Track external clang
+* 873234b manifest: Track clang linux host
+* 0cdff56 manifest: Track clang 5.0
+* 5e2e0e9 manifest: Switch to prebuilt build tools
+* 9050d83 manifest: Track libcxx
+* 47e4fd4 manifest: Track libbcc
+* 9bd8aa3 manifest: Track linaro gcc toolchains
+
+#### build/
+* 52bfca8d8 disable Dalvik lock contention logging as it isnt needed
+* 592780261 zipalign missing header
+* 70c2e791e Disable the after flash image verification
+* 93e476a99 core: use 0 compression when creating the target_files package
+* aa38b0112 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1
+
+#### external/ImageMagick/
+* 0cdfda2 Initial commit imagemagick: 7.0.5-4
+
+#### external/guava/
+* d9e146c Backport: Work around a type inference change in javac
+
+#### external/jemalloc/
+* 684dcea Allow devices to specify a default decay time
+
+#### external/okhttp/
+* 0770b38 Initial commit
+
+#### external/sqlite/
+* dc2b63a sqlite: upgrade to SQLite 3.18.0
+* e6be146 enable ATOMIC_WRITE
+* f665e2d external/sqlite/android cleanup.
+* 7b33452 Add HAVE_POSIX_FALLOCATE into Android.mk
+
+#### external/stagefright-plugins/
+* 3846013 Revert "codecs: Disable AC3/EAC3"
+
+#### frameworks/base/
+* 2da5690d840 Changes for upgrade to OkHttp 2.7.5
+* 25d9fc8844c Screenshot tile: single tap to choose the mode, long press to fire
+* bcc6cdacfa5 Ticker: Set default color to White [1/2]
+* a442f50a746 Statusbar ticker: use a gentle smooth fade animation
+* b126a04cfe5 Statusbar ticker: apply statusbar tint when set to white
+* 72c97b6cd91 Ticker: allow to show music track info on new track being played [1/2]
+* 0868ff40400 MountService: Don't run benchmarks after trimming
+* 6283a1c4655 ActivityStack index OOB cause device restart
+
+#### frameworks/compile/libbcc/
+* 175376f libbcc: fix building with renderscript and clang4+
+* 8216cec libbcc: fix memory leak warnings.
+* 963f200 Remove libbcc.sha1.mk
+* f059f16 Do not link libLLVM.so into libbcinfo.so
+* 79acf77 Fix libbcc to compile with LLVM r275480
+* 958bb3d Allow undefined symbols if we are loading libbcc dynamically.
+
+#### frameworks/rs/
+* 6601bf71 fw/rs: fix renderscript build for newer clang [1/2]
+* a583cb68 Potential leak of memory pointed to by 'reduceDescriptions'
+* decec6d9 Do not link libRS and libRSDriver with libLLVM.so
+* da38f18d Fix script that updates RS prebuilts
+* 4062be05 Use LLVM's RenderScript triples
+* b33b6920 driver: runtime: Use defined LLVM and fix upstream compatibility
+* 06550df5 Cleanup uses of sprintf so we can deprecate it.
+
+#### libcore/
+* 8d900f7e6 fix warning: Function call argument is an uninitialized value
+* ba6b139a8 Remove ojluni test resources from general tests.
+* 7fe503bcf Convert lower case when find item with extension
+* 16e893d8a System: Remove unnecessary null check.
+* 152419075 VMRuntime: Default unset targetSdkVersion to 10000 rather than 0.
+* dcc7e645e Lower daemons priority to 124 (libcore).
+* 51ef5e844 Stop optimizing dex files when class loaders are created
+* 830e805f7 Libcore: Make java.security.Provider compile-time initializable
+* 24758530e libcore: add package-info.java for java.util.function
+* f7a319827 Fix ByteBuffer.put(ByteBuffer) edge case.
+* 0c1a50ff6 Fix the infinite loop issue of the conversion from string to double
+* d357878e6 StrictMode to detect untagged network traffic.
+* 14052db67 Support clearing cookies by adding it with "max-age=0"
+* 1013f3b78 Make Cookes "expires" parsing more lenient
+* c97abeb05 Fix CookiesTest#testCookieStoreNullUris
+* 557380ef6 Import upstream change: CookieHandler does not work with localhost
+* 44514a70c Disable builtins in libcore native io memory test.
+* 1a670bcb6 Fix NPE in Signature getCurrentSpi.
+* 09269f2bd Remove unused initialization code
+* e11a07b6c Libcore: Remove usage of ScopedFd
+* e1b35306d Libcore: Remove unused timing code
+* e77557446 Improve performance of Enum.valueOf(Class, String)
+* 7ad9ebdcb Performance tweak to CollectionUtils.removeDuplicates
+* 82f031b7f URLConnectionTest changes for upgrade to OkHttp 2.7.5
+* 3cb5994b6 Rely on the platform -std default.
+* 07790e52a Make sure that threads are cleaned up by OldThreadGroupTest
+* 5f828f0fb Remove an infinite loop / put a Thread out of its misery
+* 55effbf90 Drop redundant calculation the result of which is unused.
+* abba05ed6 Fix BigDecimal rounding 50/101 up rather than down.
+* 0724e43e1 Fix two different long overflow bugs in BigDecimal division.
+* a38914a8b libcore: Address misc minor issues identified by FindBugs
+* b5b2e1d42 Fix stream not being closed on all exception paths
+* 0942f4b0e Close InputStream in case of Exception
+* 6fdc33eab Make broken JSONOBject.NULL.equals(null) consistent with Objects.hashCode(null)
+* 177ee19f8 Fix BigDecimal result for -Long.MIN_VALUE / -1L
+* e32bb1908 Work around 32 bit glibc bug.
+* 9448914dc Fix aliasing rules violations
+
+#### packages/apps/Settings/
+* b79b920959 Show search results when query string contains trailing space
+* 77aa19c354 Port "Battery Usage Alerts" feature from factory images to aosp
+* 1bc386a41f Optimized Code: call direct method to get integer extra
+* 0932f3cf61 Optimize code on get UidDetail in AppDataUsage
+* 3d697b6645 Bluetooth: leave screen off for permission request
+* 20fd72cc60 RejectedExecutionException in DataUsageLIst
+* cfd4715583 Settings: Fix wrong wifi drawable in screen zooming preview
+* 5655c19137 Redundant waiting time of keyguard unlocking after reboot
+* 1f29fccaaa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+
+#### packages/apps/crDroidSettings/
+* 7f7e02f Ticker: Set default color to White [2/2]
+* 9431494 Ticker: allow to show music track info on new track being played [2/2]
+* a0b49e4 add zenfone2 and s7-s7edge maintainers
+* 31a0932 add pixel maintainer
+
+#### prebuilts/build-tools/
+* 37bfc2b Initial commit ab/3916447
+
+#### prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3/
+* 1c71775 Initial commit
+
+#### prebuilts/gcc/linux-x86/arm/arm-eabi-6.3/
+* 72f827f Initial commit
+
+#### prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3/
+* 406e4cd Initial commit
+
+#### prebuilts/go/linux-x86/
+* 9dbf3c1 Initial commit - prebuilt go 1.8
+
+#### prebuilts/misc/
+* 0155e5a Initial commit
+
+#### system/core/
+* 1b46d4093 init.rc: don't start console unless asked to
+
+#### vendor/cmsdk/
+* c33eff8 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### CRDroid Android Nougat source changes of 04-23-2017 End.
+
 04-22-2017
 ====================
 
@@ -23,8 +834,9 @@ CRDroid Android Nougat source and Quark Changelog:
 #### frameworks/base/
 * 78957e872b3 CustomLogo: Fix incorrect logo style
 
-#### packages/apps/Settings/
-* 1f29fccaaa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
+#### hardware/qcom/fm/
+* 51e71fd libfm_jni: Fix strchr implicit char* typecast in ConfFileParser
+* 56dd18a libjm_jni: Missing liblog dependency and jni core headers
 
 #### CRDroid Android Nougat source changes of 04-22-2017 End.
 
@@ -34,6 +846,7 @@ CRDroid Android Nougat source and Quark Changelog:
 #### CRDroid Android Nougat source changes of 04-21-2017:
 
 #### frameworks/base/
+* fca6082d959 Automatic translation import
 * 5f724f564c6 Bluetoothtile: Rectify and fix compilation
 * 7235fde635a Port "Battery Usage Alerts" feature from factory images to aosp
 * 510d51c2c79 SystemUI: vector support for action icons
@@ -57,9 +870,6 @@ CRDroid Android Nougat source and Quark Changelog:
 #### packages/apps/Bluetooth/
 * f5679297 Automatic translation import
 
-#### packages/apps/Browser/
-* daa40d11 Automatic translation import
-
 #### packages/apps/CMBugReport/
 * 8a4fb41 Automatic translation import
 
@@ -72,11 +882,17 @@ CRDroid Android Nougat source and Quark Changelog:
 #### packages/apps/CellBroadcastReceiver/
 * c5318ec Automatic translation import
 
+#### packages/apps/Contacts/
+* 0d6c369b6 Automatic translation import
+
 #### packages/apps/CustomTiles/
 * 39732b7 Automatic translation import
 
 #### packages/apps/DeskClock/
 * 9e20cdf3 Automatic translation import
+
+#### packages/apps/Dialer/
+* 4b88202c6 Automatic translation import
 
 #### packages/apps/Email/
 * 7c7d90c33 Automatic translation import
@@ -90,8 +906,29 @@ CRDroid Android Nougat source and Quark Changelog:
 #### packages/apps/Gello/
 * 2cbe2dde Automatic translation import
 
+#### packages/apps/Jelly/
+* ee20ec4 Jelly: Allow window.open() in javascript
+* 8442f13 Jelly: search bar: always show the beginning of the url when loosing focus
+* aa4b9db Jelly: Invert location permission check
+* 2e5f147 Jelly: properly handle edittext search event
+* 57049b9 Jelly: select url on search bar focus
+* a0dea6a Jelly: use system editText for edit favorite dialog
+* 00c26b2 Jelly: Switch to share chooser
+* e468079 Jelly: add android.mk
+* 0b331a3 Jelly: Don't add item if we're in incognito
+* 5cf7e1a Jelly: Update android tools build
+* fc1b3c3 Jelly: Don't parse null/empty url
+* 60de878 Initial push
+* c11c303 Initial commit
+
 #### packages/apps/LockClock/
 * 552041b Automatic translation import
+
+#### packages/apps/Messaging/
+* b3fc116 Automatic translation import
+
+#### packages/apps/PhoneCommon/
+* df09655 Automatic translation import
 
 #### packages/apps/Profiles/
 * 5f9b3b1 Automatic translation import
@@ -111,8 +948,14 @@ CRDroid Android Nougat source and Quark Changelog:
 #### packages/apps/ThemeChooser/
 * 3fa04c4 Automatic translation import
 
+#### packages/apps/Trebuchet/
+* aed0d6455 Automatic translation import
+
 #### packages/apps/UnifiedEmail/
 * fdb59c739 Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* e443900ae Automatic translation import
 
 #### packages/providers/ContactsProvider/
 * 31514963 Automatic translation import
@@ -147,6 +990,9 @@ CRDroid Android Nougat source and Quark Changelog:
 #### system/sepolicy/
 * 2d24193 sepolicy: add file and domain trans to interfacer
 
+#### vendor/cmsdk/
+* 1908152 Automatic translation import
+
 #### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
 * 125dd91 Automatic translation import
 
@@ -170,6 +1016,15 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 04-20-2017:
 
+#### external/webp/
+* b2b4c8d webp: fix for clang5 and arm-v8
+* a0d5b66 webp: kill CPU features and use upstream NEON detection
+* 493618b Compile mux files (v0.6.0) with libwebp-encode target
+
+#### external/webrtc/
+* 91c7ca610 webrtc: fix for clang5 and arm-v8
+* 41d294e7d webrtc: Use the NDK cpufeatures directly
+
 #### frameworks/base/
 * 1cd61103221 SystemUI:Notification bar custom notification display problems
 * e0eb83c34d0 SystemUI:Bluetooth can't be turn off
@@ -178,6 +1033,9 @@ CRDroid Android Nougat source and Quark Changelog:
 * 357c5168fa3 SystemUI: Fix QSTileHost exception
 * cc5b481c5af SystemUI: [RJIL new function] AutoBrightness
 * dc364ad5d50 SystemUI: Fix SystemUI ANR
+
+#### packages/services/OmniJaws/
+* 23348e2 OmniJaws: Update Russian translation
 
 #### CRDroid Android Nougat source changes of 04-20-2017 End.
 

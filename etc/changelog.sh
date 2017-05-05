@@ -24,14 +24,14 @@ if [ ! "$rom" == "r" ] && [ ! "$rom" == "c" ]; then
 	echo -e "\nNO CHANGE FOR YOU\n";
 	exit;
 elif [ "$rom" == "r" ]; then
-        source_tree=$source_tree_r
-	source_name=$source_name_r
+        source_tree=$HOME/$source_tree_r
+	source_name=$HOME/$source_name_r
 elif [ "$rom" == "c" ]; then
         source_tree=$source_tree_c
 	source_name=$source_name_c
 fi;
 
-export Changelog=$HOME/$source_tree/Changelog.md
+export Changelog=$source_tree/Changelog.md
 
 if [ -f $Changelog ];
 then
@@ -44,7 +44,7 @@ touch $Changelog
 echo -e "Generating changelog $source_tree...\n"
 #amount of days
 echo -e "How many days to log?"
-read -r -t 5 days_to_log
+read -r -t 15 days_to_log
 echo -e "Amount of days to log: $days_to_log"
 
 echo "### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)"    >> $Changelog;
