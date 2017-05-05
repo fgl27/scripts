@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <quark>
-            <Filename>RR-N-v5.8.3-20170428-quark-Official.zip</Filename>
+            <Filename>RR-N-v5.8.3-20170505-quark-Official.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download Latest ResurrectionRemix for Quark (20170428)">https://www.androidfilehost.com/?fid=817550096634765573</RomUrl>
+                description="Download Latest ResurrectionRemix for Quark (20170505)">https://www.androidfilehost.com/?fid=745425885120729587</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -15,10 +15,6 @@
             	id="gapps"
             	title="Open Gapps"
             	description="Download latest Open GApps (Choose Arm, 7.1 and a Variant)">http://opengapps.org/</SlimGappsUrl>
-            <BanksGappsUrl
-            	id="bgapps"
-            	title="Banks Dynamic Gapps"
-            	description="Download latest Banks Dynamic GAPPS (Choose SDK25 version)">https://drive.google.com/drive/folders/0Bwcofov-xyI0ZVhQUWJhMm9PMkU</BanksGappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
