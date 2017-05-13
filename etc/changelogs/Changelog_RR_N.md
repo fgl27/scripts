@@ -3,6 +3,266 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+05-13-2017
+====================
+
+#### Device specific Changes of 05-13-2017 Start:
+
+#### Kernel/Quark/
+* abf4a5fdb17 stm401: update buffers size
+* 2c2e73da18b wifi correct RTSThreshold value
+
+#### Device specific Changes of 05-13-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-13-2017:
+
+#### frameworks/base/
+* 9d044c3cc35 Automatic translation import
+
+#### packages/apps/DUI/
+* 4647a55 Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* 46097f6 Automatic translation import
+
+#### packages/apps/Settings/
+* c36ecf5ce Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-13-2017 End.
+
+05-12-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-12-2017:
+
+#### android/
+* 6bab65e crowdin: add DUI [1/2]
+
+#### frameworks/base/
+* 59afca83ac8 fix build
+* d3fff6c7dbe incall vibration options [1/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
+* 6a61a8fefac frameworks/base: reduce the setTransactions
+* 4c50d5ee521 hwui: skip draw empty frame
+* 9a1acd4a27e Stop holding mProxyLock while downloading PAC script data.
+* c065fddfe1f sensors: fix native crash when dynamic sensor is removed
+* c5b1119168a sensors: intern jstrings for memory savings
+* b8ca031cb2f NullPointerException: Attempt to invoke virtual method 'int android.os.Parcel.dataSize()' on a null object reference
+* 147dc3bfc84 Keyguard: disable logspilling debug
+* 9ba0ce50d45 Fix carrier label not getting scaled properly
+* 33c5cabe486 StatusBar: Catch OOM caused by third-party icons
+* 3d1c711d08c The network event should be an asynchronous callback.
+* ebf3cbee878 wifi: catch UnsupportedOperationException for getMatchingWifiConfig
+* b79fd00f763 SettingsLib: wifi: Fixed AccessPoint tracking for Passpoint networks
+* 492cf8634b9 Destroy Allocation right away on exception
+* 2e58436a421 Destroy Allocation with ScriptIntrinsicLut
+* 4c1a6e90a24 Aapt2: Fix png leak
+* e5e45713297 Deadlock in PackageInstallerSession
+* 8465fcfba9d Save "mState.restored" in onSaveInstanceState of FilesActivity
+* c0d9ee27087 Avoid deadlock when installing app
+* e7be2273efa Resolve deadlock between ActivityManagerService and PowerManagerService
+* d2a6ccc4851 OBEX : Handle Negative index Exception
+* 7492ebd44c7 ExtShared build as priv-app
+* 8b797f8f1ea Fix dead lock in Tethering state machine
+* 3383e64664f Skip ListPopupWindow position update if detached
+* 385f7d6fc24 Fix system server crash caused by CME in usage stats
+* 11ef661f6de Fix NPE while attempting to get length of null array in FileRotator
+* 3b26d60f53a Fix NPE in SettingsLib
+* 6c32d05510c Validate handler of wakelock option for flashlight.
+* 0b3a6ba8d0b Automatic translation import
+
+#### packages/apps/DUI/
+* 5d95ee1 Improve MediaMonitor readability
+* d450ac0 DUI: Fix Smartbar back button hiding on lockscreen intents
+* 7476295 Automatic translation import
+
+#### packages/apps/Dialer/
+* 24f39efb6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat
+* 4ad8faa38 Dialer:Remove redundant vibration options for InCallUI
+
+#### packages/apps/OmniSwitch/
+* f143c73 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* ae93518 Automatic translation import
+
+#### packages/apps/Settings/
+* debffd211 Settings:Incall Vibration options [3/3]
+* 339bf9c03 Automatic translation import
+
+#### packages/services/Telecomm/
+* 566782eb Use double vibration on hang-up call
+* 14a17744 incall vibration options [2/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-12-2017 End.
+
+05-11-2017
+====================
+
+#### Device specific Changes of 05-11-2017 Start:
+
+#### Device/Quark/
+* ccacddf Quark: cmactions prevent crashes from wakelocks
+* 2527518 Quark: cmactions send broadcast as user
+* 07d368b Revert "Quark: cmactions: Improve doze denial thresholds"
+* f9c7054 cmactions: Hold a wakelock when the screen is on
+* 4f7061a Revert "cmactions: Hold a wakelock when the screen is on"
+* d5d011a Revert "cmactions: set wakelock based on screen state"
+
+#### Device specific Changes of 05-11-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-11-2017:
+
+#### packages/apps/Dialer/
+* 9670686e8 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 7df4be8 Automatic translation import
+
+#### packages/services/OmniJaws/
+* 1899197 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-11-2017 End.
+
+05-10-2017
+====================
+
+#### Device specific Changes of 05-10-2017 Start:
+
+#### Device/Quark/
+* 0f1aca6 Quark: props enable root by default
+* ae8137a Quark: Fix charge_only_mode updating it's sepolicy for N
+
+#### Device specific Changes of 05-10-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-10-2017:
+
+#### frameworks/base/
+* 695bd5c117c base: Allow to disable qs footer warnings [1/2]
+* 6fd71cfa12c telecom: Fix order of arguments when creating Details object
+* 299da89c85c NetworkTraffic: Dont show wrong values when connected to VPN
+* 7d8a9137381 Automatic translation import
+
+#### packages/apps/Dialer/
+* 12af56713 Automatic translation import
+
+#### packages/apps/Settings/
+* d37d080c0 Add Maintainer for Coolpad Note 3 Lite(CP8298_I00) (#788)
+* aeb32457c Settings:Allow to disable qs footer warnings [2/2]
+* f070b9079 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-10-2017 End.
+
+05-09-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-09-2017:
+
+#### frameworks/av/
+* 5d49fde2a Merge pull request #3 from github-cygwin/nougat
+* a93018337 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+#### frameworks/base/
+* 27b18312ed7 Automatic translation import
+
+#### packages/apps/Dialer/
+* 5a8ca438d Automatic translation import
+
+#### packages/apps/Settings/
+* ed3445d41 Add Maintainer for Coolpad Note 3(CP8676_I02) (#787)
+* b3790dade Automatic translation import
+
+#### packages/services/OmniJaws/
+* d74e6ea Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-09-2017 End.
+
+05-08-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-08-2017:
+
+#### frameworks/base/
+* a40c062360f Automatic translation import
+
+#### packages/apps/Dialer/
+* cae68b708 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* cb8a109 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 45eb825 Automatic translation import
+
+#### packages/apps/Settings/
+* bc723bd20 Automatic translation import
+
+#### packages/apps/Snap/
+* 31499ecf2 Snap: Fix crash switching from back to front cam in video mode
+
+#### packages/services/OmniJaws/
+* ab40693 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-08-2017 End.
+
+05-07-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-07-2017:
+
+#### frameworks/base/
+* 1f1f25f8002 Automatic translation import
+
+#### packages/apps/Settings/
+* 372d14fbb Add missing string
+* b6e99b734 Automatic translation import
+* 048aad925 Refactor Recents Category
+
+#### packages/services/OmniJaws/
+* 3b3ac0c Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-07-2017 End.
+
+05-06-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-06-2017:
+
+#### frameworks/base/
+* 948bba934f7 base: SystemUI: use content observer for recent grid config
+* 73dbc18833c base:refactor recents code to switch between recents
+* b0f21223cb8 [1/2] base: featureize ro.recents.grid
+* 319c5f7b075 Update OmniSwitch string
+* 9733626f54a OmniJawsClient : Move to framework
+* e2192bcb6cb SysUI : Use a different approach to Make perf profile tile invisible
+* 7805dad2973 base: SystemUI: add dedicated TextView for OmniJaws error marker
+* 9bdaacffb3d base: SystemUI: dont show OmniJaws error that prominent
+* b2245dbe645 Automatic translation import
+
+#### packages/apps/Dialer/
+* 4191c7ab9 Automatic translation import
+
+#### packages/apps/ResurrectionOTA/
+* b0b0b4a ResurrectionOTA: squash all translations
+
+#### packages/apps/ResurrectionStats/
+* 20ea10d ROMStats: modify for ResurrectionRemix
+
+#### packages/apps/Settings/
+* d55ce18f4 Settings:featurize ro.recents.grid [2/2]
+* c415aa0b9 Mantainers: Delete WinKarbik from ido mantainer (#784)
+* 9d417b5c1 Automatic translation import
+
+#### packages/services/OmniJaws/
+* ffe7b03 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-06-2017 End.
+
 05-05-2017
 ====================
 
@@ -18,7 +278,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 ***
 
-#### Resurrection Remix OS - Nougat source changes of 05-05-2017:
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-05-2017:
 
 #### frameworks/base/
 * 029c177129e Automatic translation import
@@ -39,7 +299,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### system/bt/
 * 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
 
-#### Resurrection Remix OS - Nougat source changes of 05-05-2017 End.
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-05-2017 End.
 
 05-04-2017
 ====================

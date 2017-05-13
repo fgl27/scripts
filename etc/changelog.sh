@@ -54,7 +54,7 @@ echo "$source_name source and $device_name Changelog:"    >> $Changelog;
 echo '============================================================' >> $Changelog;
 echo >> $Changelog;
 
-cd $HOME/$source_tree
+cd $source_tree
 
 for i in $(seq $days_to_log);
 do
