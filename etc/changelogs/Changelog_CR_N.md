@@ -3,6 +3,613 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+05-17-2017
+====================
+
+#### Device specific Changes of 05-17-2017 Start:
+
+#### Device/Quark/
+* 3ca1c4d Quark: cleanup some uneed overlays and props
+* 3406c72 Quark: cmactions remove some wakelock
+* 2ae14db Quark: add notification led support
+* fa915a1 Revert "Quark: Add Notification Led"
+
+#### Kernel/Quark/
+* f81713e31b7 led-class: Add blink support
+
+#### Device specific Changes of 05-17-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-17-2017:
+
+#### frameworks/base/
+* 2f477c96b48 Revert "The network event should be an asynchronous callback."
+
+#### packages/apps/crDroidOTA/
+* 07f96c2 crDroidOTA: Clean up duplicate permission
+
+#### packages/apps/crDroidSettings/
+* bf24208 crdroid: Add marlin and sailfish maintainer info
+* 898b117 crdroid: Add Spanish translations
+
+#### CRDroid Android Nougat source changes of 05-17-2017 End.
+
+05-16-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-16-2017:
+
+#### vendor/crDroidOTA-devices/
+* cff2131 lettuce: Add v3.2
+* 6d076e3 Added device: sailfish
+* c9d94d3 shamu: Update to new build
+
+#### CRDroid Android Nougat source changes of 05-16-2017 End.
+
+05-15-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-15-2017:
+
+#### android/
+* 334a9ae Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1
+* 49992bb Revert "Revert "manifest: Switch display_qcom to los""
+
+#### packages/apps/AudioFX/
+* e696bf0 AudioFX: Fix choppy preset transitions
+
+#### packages/apps/ContactsCommon/
+* 459b95fb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1
+
+#### packages/apps/Jelly/
+* eab04da Jelly: lint cleanup
+* a8dcb76 Jelly: Don't sign the app with a system certificate
+* 5e5fb97 Jelly: Fix storage permission check
+* c315497 Jelly: add Desktop mode toggle
+* 5859bc6 Jelly: Actually disable cookies
+* fd7418e Jelly: Flush cookies when calling onStop()
+* eb6375d Jelly: Don't make app persistent
+* 2d4853b Jelly: Add proguard rules
+* d583aad Jelly: Improve URL/search query handling
+
+#### packages/apps/Trebuchet/
+* 0724b3414 Use compact drawer interface by default
+* df0425b32 Change clings to pixel blue
+
+#### packages/apps/crDroidFileManager/
+* b2e288cc Merge branch 'mkn-mr1' of https://github.com/MoKee/android_packages_apps_AmazeFileManager into 7.1
+
+#### packages/inputmethods/LatinIME/
+* 4d52929fc LatinIME: Switch to pixel theme
+
+#### system/keymaster/
+* a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+#### vendor/cm/
+* bc0900dc cm: Remove Gello
+
+#### vendor/crDroidOTA-devices/
+* eda06ef rest of G3 - 3.2
+* be75b97 Update h811/h815
+* 9e196b5 Update m8/m8d/deb/flo/bullhead/angler.
+* 6a73ec5 d850 - 3.2
+* 01377f2 d855 - 3.2
+* 4df4940 Update changelog_kipper.txt
+* 1f04006 new build
+
+#### CRDroid Android Nougat source changes of 05-15-2017 End.
+
+05-14-2017
+====================
+
+#### Device specific Changes of 05-14-2017 Start:
+
+#### Device/Quark/
+* f761752 Quark: trigger led on charge only mode
+
+#### Device specific Changes of 05-14-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-14-2017:
+
+#### android/
+* 340dd76 Revert "manifest: Switch display_qcom to los"
+* 2712bf2 manifest: Keep 6.3 gcc toolchains
+* a28d7b9 manifest: Switch display_qcom to los
+
+#### external/chromium-webview/
+* b544e48 Update README
+
+#### frameworks/base/
+* df85d0e85d2 doze: Extend settings to statusbar window manager
+* 1a0513454d7 QSPanel: Fix missing setting after merge derp
+* 340e7679271 Custom logo customizations [1/2]
+* da0d79a772e Revert "Custom logo customizations [1/2]"
+* b54c5e432f1 SystemUI: Do not use LOS auto brightness implementation
+* 14bf6bc36e7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+
+#### packages/apps/Dialer/
+* ef293c089 Fixed the issue that speaker icon does not match volume
+* 360d45244 The seek position jumps to the end when voice messages playback ends
+* 59dcdb8b7 Fixed NPE crash on Dialpad
+* a1f20c493 Dialer: use right blue for fab
+* 49b9642aa Show contacts with phone numbers only
+* a1f4eba83 Fix OOM issue of InCallUI
+* 50282598c Add missing lock discovered by GuardedBy checker
+
+#### packages/apps/Jelly/
+* 21c6894 Jelly: strings: Various pedantics
+
+#### packages/apps/crDroidFileManager/
+* ccf2df48 Automatic translation import
+* 6f4fd443 Merge branch 'remote' into mkn-mr1
+* 2299fc77 Merge branch 'master' of https://github.com/arpitkh96/AmazeFileManager
+* 30aac06c UI: Revert refreshDrawer to be on main thread
+
+#### packages/apps/crDroidSettings/
+* b5951e9 add Wileyfox Storm maintainer
+
+#### vendor/crDroidOTA-devices/
+* dfd9ce7 update my devices
+* 8b8d739 add Wileyfox Storm
+* e9ec11a changelog Wileyfox Storm
+* 00576df OTA: update mido build date
+* 1638c2b update herolte & hero2lte to build crDroidAndroid-7.1.2-20170513
+* 4a5c861 Update marlin
+* 0e16249 Update changelog_hokie.txt
+* 5eb1c43 Update changelog_hokie.txt
+
+#### CRDroid Android Nougat source changes of 05-14-2017 End.
+
+05-13-2017
+====================
+
+#### Device specific Changes of 05-13-2017 Start:
+
+#### Kernel/Quark/
+* abf4a5fdb17 stm401: update buffers size
+* 2c2e73da18b wifi correct RTSThreshold value
+
+#### Device specific Changes of 05-13-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-13-2017:
+
+#### android/
+* 4b79332 manifest: Drop gcc 6.3 and add gcc 4.9 of arm
+
+#### frameworks/base/
+* 123bef7a194 Stop holding mProxyLock while downloading PAC script data.
+* 7be85589603 NullPointerException: Attempt to invoke virtual method 'int android.os.Parcel.dataSize()' on a null object reference
+* a191f602b49 frameworks/base: reduce the setTransactions
+* 09e15e24c99 Fix system app can't uninstall apps silently
+* 26fa6ef1679 Fix memory leak in WifP2pManager
+* a24ffa3d46d statusbar weather: Clear visibility only if weather data is null
+
+#### packages/apps/Dialer/
+* db06953e6 Dialer: Checkbox to Switches
+* 786da4529 Dialer: deblur fab_blue.png
+
+#### packages/apps/Settings/
+* dffb3f686c Correct fingerprint position during setup
+
+#### packages/apps/crDroidFileManager/
+* a42a2fcc Automatic translation import
+* 04afee6a Merge branch 'remote' into mkn-mr1
+
+#### packages/services/OmniJaws/
+* 724055c OmniJaws: fix OWM metric wind speed units
+
+#### packages/services/Telecomm/
+* 4ab71c16 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into 7.1
+
+#### packages/services/Telephony/
+* df20d23d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1
+
+#### vendor/cm/
+* ce907f8d crdroid: Add disclaimer for new maintainers
+* 49c309bb Revert "crdroid: Remove outdated and unsupported packages"
+
+#### vendor/crDroidOTA-devices/
+* eba3d73 devices: Method to madness
+* d190381 falcon: Add v3.2
+* f50be47 add & and update ks01lte and oneplus3
+* df69995 update hydrogen to latest crdroid version v3.2
+* 1548e44 shamu: Update to 3.2
+* 7a23ce9 v500: Update 3.1
+* b9eeb06 update herolte & hero2lte to build crDroidAndroid-7.1.2-20170512
+* 14ecf00 OTA: update mido, tomato, s2 with 3.2
+
+#### CRDroid Android Nougat source changes of 05-13-2017 End.
+
+05-12-2017
+====================
+
+#### Device specific Changes of 05-12-2017 Start:
+
+#### Device/Quark/
+* ccacddf Quark: cmactions prevent crashes from wakelocks
+
+#### Device specific Changes of 05-12-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-12-2017:
+
+#### android/
+* 13a20cc manifest: Back to present
+* f9ffaa1 cm: Remove Gello
+
+#### build/
+* 2baeecd6d build: Remove vendor check
+* 438f48dc3 Don't pass empty arguments to ninja
+* c042e0225 cout: move to $out
+* 187859bb8 build: Don't build tests
+* 8a02231c2 edify: Fix _WordWrap function calls
+* 03b94160b build: Remove annoying text when flashing
+* de45524aa releasetools: Fix an equality check bug when asserting stash size.
+* 077c08bea Use 'release-keys' for build tag
+* 9e07df2c2 Remove Feedback Directed Optimization support
+* c13983042 disable Dalvik lock contention logging as it isnt needed
+* ff3cd07e5 zipalign missing header
+* f2374f29f Disable the after flash image verification
+* 1a38d05a7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1
+
+#### frameworks/base/
+* e081fad11bc Revert "Changes for upgrade to OkHttp 2.7.5"
+
+#### libcore/
+* 388891d01 Lower daemons priority to 124 (libcore).
+* 7fd40b9f3 Stop optimizing dex files when class loaders are created
+* 9300c10d2 libcore: Address misc minor issues identified by FindBugs
+
+#### packages/apps/crDroidFileManager/
+* 3c9b8928 Merge pull request #571 from martincz/master
+* ff3b2bbd Automatic translation import
+* e143bdf6 Automatic translation import
+* 3860f005 Automatic translation import
+* 7ea1f9e8 Automatic translation import
+* a2387b08 Merge branch 'remote' into mkn-mr1
+
+#### system/core/
+* 81f4d9c9e Revert "Make libbacktrace build with LLVM r275480"
+
+#### vendor/cm/
+* fcfe09aa crDroid v3.2
+
+#### vendor/cmsdk/
+* f6e0679 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1
+
+#### vendor/crDroidOTA-devices/
+* d3b138e OTA: tomato bug fix update
+* 17aff34 crackling: Update 3.1
+
+#### CRDroid Android Nougat source changes of 05-12-2017 End.
+
+05-11-2017
+====================
+
+#### Device specific Changes of 05-11-2017 Start:
+
+#### Device/Quark/
+* 2527518 Quark: cmactions send broadcast as user
+* 07d368b Revert "Quark: cmactions: Improve doze denial thresholds"
+* f9c7054 cmactions: Hold a wakelock when the screen is on
+* 4f7061a Revert "cmactions: Hold a wakelock when the screen is on"
+* d5d011a Revert "cmactions: set wakelock based on screen state"
+* 0f1aca6 Quark: props enable root by default
+* ae8137a Quark: Fix charge_only_mode updating it's sepolicy for N
+
+#### Device specific Changes of 05-11-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-11-2017:
+
+#### frameworks/base/
+* 12f09031d6a SystemUI: Add tunable for auto brightness icon
+* 4bb74af81a2 Validate handler of wakelock option for flashlight.
+
+#### packages/apps/crDroidFileManager/
+* 8867d7c1 Merge pull request #566 from EmmanuelMess/develop
+* 41e84aa0 Merge pull request #567 from EmmanuelMess/fix-rootcrash
+* b1ed02bc Solved crash
+
+#### vendor/cmsdk/
+* 2b1cf2b cmsdk: Add CMSettings option for QS auto brightness
+
+#### vendor/crDroidOTA-devices/
+* 3d407f2 LG G2 - 3.1
+* 318a75b Update marlin.
+* 7c50980 LG G3 - 3.1
+
+#### CRDroid Android Nougat source changes of 05-11-2017 End.
+
+05-10-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-10-2017:
+
+#### android/
+* 6df1bfd manifest: Rectiffy project name
+* 3dd35ab manifest: Track new projects
+
+#### packages/apps/OmniSwitch/
+* bf75d13 Omniswitch: Kill stats
+* 0de6ef0 OmniSwitch: Change styles and colors to match frameworks
+
+#### packages/apps/crDroidFileManager/
+* 5b737a7e Automatic translation import
+* 59e31843 Merge branch 'remote' into mkn-mr1
+* e6855f7a UI: Minor fix for drawer adapter selection
+* 044021a9 UTIL: Add helper method for compact AsyncTask handeling
+* 95bc0ff5 800->700
+* 4edb777c Merge branch 'remote' into mkn-mr1
+* 4582c3d4 Added comment
+* 15b4619f Changed black to grey 800 on shourtcut settings icons
+* 3d43d5da CRY: Fix service unbinding in onPause
+
+#### packages/apps/crDroidSettings/
+* 272a8c6 crdroid: Keep omniswitch settings enabled
+
+#### system/media/
+* cd76f5fa __ARM_ARCH__ is always >= 6.
+* 7527b8a5 Fix false positive memory leak warning.
+* 69c9d2de spdif: add support for type-2 e-ac3 streams
+
+#### system/netd/
+* 39a0a99 move netd to class core
+
+#### system/sepolicy/
+* 192ea8e sepolicy: Allow system_server to set theme_prop
+
+#### vendor/crDroidOTA-devices/
+* da18c9a update herolte & hero2lte to build crDroidAndroid-7.1.2-20170510
+* 912d17a Update h81x & kltex
+* 025728b shamu: Update 3.1
+* 7b1436e Update deb, flo, m8, m8d
+* 63c6976 Update angler & bullhead
+* a7ee85d Updated marlin build date/version.
+* 5db39f3 Update changelog_hokie.txt
+* 7605f18 update changelog addison
+* 7c1e861 Update changelog_hokie.txt
+
+#### CRDroid Android Nougat source changes of 05-10-2017 End.
+
+05-09-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-09-2017:
+
+#### frameworks/base/
+* ff8f50ca21c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1
+* a1edc6a55c8 Fix carrier label not getting scaled properly
+* 69622591d1f Revert "Add toggle for fancy QS animation [1/2]"
+
+#### packages/apps/DeskClock/
+* 3f87ce61 DeskClock: Use accelerometer instead of orientation sensor
+* 0adea055 DeskClock: Move default action for flip and shake to overlay
+* 8ca73f73 DeskClock: Fix "GoogleNow cancel alarms crash"
+
+#### packages/apps/Settings/
+* f7927c4a30 Fix synchronization of Wi-Fi hotspot switch
+* 0ec8d5a116 PowerUsageFeatureProviderImpl: little cleanup
+
+#### packages/apps/crDroidFileManager/
+* 45ef6733 Automatic translation import
+* ddc03be0 Merge branch 'remote' into mkn-mr1
+* 2028387b Merge branch 'master' of https://github.com/arpitkh96/AmazeFileManager
+* 91b618fc CPY: Fix directory copy for cloud services
+* 39f743b1 Merge pull request #565 from martincz/master
+* 350dc491 Automatic translation import
+* 1165b734 Automatic translation import
+* d77bd7c4 Automatic translation import
+* 4f844125 Automatic translation import
+* 8f16329f Automatic translation import
+* deae14a2 Automatic translation import
+* 21104233 Automatic translation import
+* 942a08d3 Merge branch 'remote' into mkn-mr1
+* 8379bbc3 Merge pull request #563 from EmmanuelMess/searchappbar-fix
+* 9515fc6a Merge pull request #564 from EmmanuelMess/develop
+* 6d8e02a5 Created ThemedImageButton and used it in namepathswich_preference
+* e9540143 Changed ThemedImageView to having just one image
+* 76b8b6f5 Automatic translation import
+* 5a4f9086 Solved advanced search not having appbar
+
+#### packages/apps/crDroidSettings/
+* 5635bfd Merge pull request #58 from beroid/7.1
+* 36037b8 crdroid: Update RU translations
+* 4c0d173 crdroid: Remove fancy animation settings for now
+* 132c012 Revert "remove moto maxx maintainer"
+
+#### packages/services/OmniJaws/
+* d5fc59c OmniJaws: added missing de-translations
+* 1d7b158 OmniJaws: widget layout madness
+* ed3a8d2 OmniJaws: dont show OmniJaws error that prominent
+
+#### system/core/
+* a317642fa Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
+* 28cbdd146 Revert "init.rc: set initial cpuset to all cores"
+* 983413aa6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
+
+#### vendor/cm/
+* 121cc987 crDroid v3.1
+* e86b66b8 crdroid: Do not set clang version at this place
+
+#### vendor/crDroidOTA-devices/
+* 9b603cb update herolte and hero2lte + commonize changelog
+* 6b9a3d8 d855 3.1
+* 515beb9 OTA: update mido, tomato, s2 for 3.1
+* c96304d thea: Fix tags
+* b68e505 shamu: Update for 3.1
+* 8f14b63 fix hydrogen
+* 91ce980 add hydrogen to the mix
+* 96af91d Add devices and changelog file for Addison, Thea and Titan
+
+#### CRDroid Android Nougat source changes of 05-09-2017 End.
+
+05-08-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-08-2017:
+
+#### frameworks/base/
+* 3f98df2a15e telecom: Fix order of arguments when creating Details object
+* 07cad468a12 Merge pull request #21 from beroid/7.1
+* a3023ea4b1e Add RU translations
+
+#### packages/apps/crDroidFileManager/
+* 3b4c873a Merge branch 'remote' into mkn-mr1
+* 766f34b3 Merge origin master
+* 4d4b9d73 Merge pull request #559 from EmmanuelMess/develop
+* 584c2ab4 Merge pull request #562 from arpitkh96/revert-556-revert-555-master
+* 3bb39cb2 Revert "Revert "Added setting to change shortcuts and disable shortcuts and quick accesses""
+* 504ac738 AmazeFileManager: update proguard.flags
+* 4a9651b8 Solved annoying Toast glich
+* b378acd3 Solved missing resource crash
+
+#### packages/apps/crDroidSettings/
+* b868852 add moto g5 plus
+* 8893de4 add moto z play maintainer
+* 17e4dc6 remove moto maxx maintainer
+* 3eb5801 remove lux maintainer
+* 5669508 crdroid: Fix FP crash on lockscreen settings
+
+#### system/core/
+* ada295f88 init.rc: set initial cpuset to all cores
+
+#### vendor/crDroidOTA-devices/
+* f3895e2 Rename changelog_marlin.txt to changelog_hokie.txt
+* ad7b4f4 Added back changelog
+* e6868d4 add LG G3
+* 3c4f536 Add potter
+* 1e40222 Update devices.xml
+* 57d4faa Create changelog_oneplus3.txt
+* b564a52 Removed changelog from my devices.
+
+#### CRDroid Android Nougat source changes of 05-08-2017 End.
+
+05-07-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-07-2017:
+
+#### frameworks/base/
+* 1d30c50aee3 SlimRecents: refresh sizes on dpi change [2/2]
+* 59c5b041533 Show icons of only background apps in Toasts
+* 5191e9c3e33 Toast icon switch [1/2]
+* 51940795025 voLTE icon: fix spaces
+* 2a241b9eb70 hwui: Fix HWUI_COMPILE_FOR_PERF for non-arm
+* a7a83746b18 StatusBar: Catch OOM caused by third-party icons
+* f4992b4f5fc Add fp authentication vibrate and unlock keystore with fp [1/2]
+* ed710ee038e Make weather in lock screen and status bar more robust
+* bdc65c145d4 Add keyguard weather [1/2]
+
+#### packages/apps/Trebuchet/
+* e64c23667 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1
+
+#### packages/apps/crDroidFileManager/
+* f2557d03 Automatic translation import
+* 62f5791d Merge branch 'remote' into mkn-mr1
+* 82ad23e9 Merge origin
+* a22d9666 Merge pull request #556 from arpitkh96/revert-555-master
+* 49f80f61 Revert "Added setting to change shortcuts and disable shortcuts and quick accesses"
+* 7c79ee4e Merge origin
+* 8d4d879b Merge pull request #555 from EmmanuelMess/master
+* da0fc139 CRY: Fix CryptUtil for Kitkat and Lollipop
+* d04fb3a4 Merge pull request #2 from EmmanuelMess/develop
+* bc537cf1 Checked code and renamed PathSwitchPreference
+* 6a20e90d Edit button diabled if title is empty
+* 7375d1e1 Repaired code that broke with conflicts checking
+* 994573bf Merge branch 'master' into develop
+* 3e42e939 Checks in place so that shortcuts are accessible
+* 0a9f4b80 crDroidFileManager: Change to generic file manager
+* 72782e61 AmazeFileManager: keep org.apache.mina classes
+* 0b262392 Merge branch 'remote' into mkn-mr1
+* fd93b43f UI: Merge updateDrawer and refreshDrawer methods
+* 56af4e6a AmazeFileManager: switch to platform cert
+
+#### packages/apps/crDroidMusic/
+* 7d30f0d8 crDroidMusic: Initiate generic music app
+
+#### packages/apps/crDroidOTA/
+* f93b897 crDroidOTA: Refresh icons
+
+#### packages/apps/crDroidSettings/
+* 4b95eff crdroid: Use SwitchPreference for FP features
+* a969907 crdroid: Set FP settings properly
+* 99e769b crdroid: Rename fingerprint icon drawable
+* f2397a3 Toast icon switch [2/2]
+* 670e5c3 Merge pull request #57 from beroid/7.1
+* 18ee3db crdroid: Update RU translations
+* 60fc899 Add fp authentication vibrate and unlock keystore with fp [2/2]
+* 0528405 crdroid: Also fix dependencies for lock screen weather
+
+#### vendor/crDroidOTA-devices/
+* a6a9be5 OTA: update mido, tomato, s2 changes
+* 4cd2e51 Added crackling, v500
+* 2fccc6b ota
+* 8010bc1 OTA:add ferrari
+* 49fc378 Updated marlin version
+* b27d68f Added marlin changelog
+
+#### CRDroid Android Nougat source changes of 05-07-2017 End.
+
+05-06-2017
+====================
+
+#### CRDroid Android Nougat source changes of 05-06-2017:
+
+#### android/
+* eb1cfdf manifest: Use different path for crDroidOTA devices
+* 425405d manifest: Track crDroid OTA repos
+
+#### packages/apps/OmniSwitch/
+* 7bcd427 OmniSwitch: update de-translations
+
+#### packages/apps/crDroidFileManager/
+* 44341650 Automatic translation import
+* 2e7ea0da Changed item to be more clickable
+* 4b4c2d3c Checks for root and hidden files in dialogs
+* 6c2e178e Merge branch 'remote' into mkn-mr1
+
+#### packages/apps/crDroidOTA/
+* 961def4 crDroidOTA: Remove useless and faulty translation
+* 39c98aa crDroidOTA: Update icons
+* 0887a3b crDroidOTA: Use static ota_conf
+* 4c34fe3 crDroidOTA: Update devices path
+
+#### packages/apps/crDroidSettings/
+* 1d59358 crdroid: Fix weather setting switches
+* a2528d2 crdroid: Fix strings for lock screen weather
+* 33f5b02 crdroid: Add preference for OTA update
+* 8355bb8 Add keygard weather [2/2]
+
+#### system/core/
+* 836145724 Revert "rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings"
+
+#### vendor/cm/
+* 2ccf6071 crdroid: Add crDroidOTA
+
+#### vendor/crDroidOTA-devices/
+* 14c15b4 generated goo.gl shortlinks to fix "&" or "&amp;"
+* b4741db Correct all changelog URLs
+* 35b2bd1 cleanup amp; and updated S7, S7 Edge url
+* 15ad96f Add griffin
+* 5963eab OTA: add tomato, s2, mido
+* c740d44 Added nine klte variants.
+* 2fe6d5b Added deb, flo, h811, h815, m8, & m8d
+* 95c9a10 Added angler & bullhead.
+* d77ca0a added herolte and hero2lte
+* e62b4dd Fixing mistake (& instaed of &amp;)
+* 11152b7 Added Marlin
+* c52cdef Initial commit
+
+#### CRDroid Android Nougat source changes of 05-06-2017 End.
+
 05-05-2017
 ====================
 
@@ -20,8 +627,22 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 05-05-2017:
 
-#### build/
-* ab0891af4 Revert "core: use 0 compression when creating the target_files package"
+#### packages/apps/SlimRecents/
+* c6320ca Show PlayStore option also for system gapps and manually installed apk
+
+#### packages/apps/crDroidFileManager/
+* 79b9c2f3 FS: Synchronize FileObserver
+* 196db185 Automatic translation import
+* d7665095 Merge branch 'remote' into mkn-mr1
+* eb2c28f1 Merge origin
+* 7c293a63 UX: Implement observer for local filesystem
+* 3c903a2b Merge branch 'remote' into mkn-mr1
+* fc4770fc Merge pull request #549 from MaanooAk/things
+
+#### packages/apps/crDroidOTA/
+* b569395 Merge remote-tracking branch 'ResurrectionRemix/nougat' into 7.1
+* c8bfa58 update icon
+* 761af0f added proper ota_conf example and changed to crDroidOTA
 
 #### system/bt/
 * 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
@@ -49,6 +670,27 @@ CRDroid Android Nougat source and Quark Changelog:
 * 2006774 Jelly: no need of using srcCompat for imageviews
 * 9be745e Jelly: fix InflateException on builds compiled with aosp build system
 
+#### packages/apps/crDroidFileManager/
+* 525ce6f7 Automatic translation import
+* 1cc75207 Text reader intent filter mime types
+* 0564d0bb AmazeFileManager: update cloudrail
+* 0f3a08ba Merge branch 'remote' into mkn-mr1
+* 74ef963f GIT: Merge origin
+* 40cba3e7 CPY: Fix upload for cloud services
+* 93253efc Solved conflicts with current master
+* fe59a775 Integral names fix
+* fbddb1b5 Extend mime types support
+* a0e53723 Text reader monospace font option
+* 79a754c4 Show option for headers and modified date
+* 810f60f9 Extend text tditor mime types
+* 77823a0f Update delete dialog
+* 5f292753 Automatic translation import
+
+#### packages/apps/crDroidOTA/
+* 920fa0c Automatic translation import
+* 3e5a60d update ota_conf example
+* 5ac26f5 crDroid-ify
+
 #### CRDroid Android Nougat source changes of 05-04-2017 End.
 
 05-03-2017
@@ -60,7 +702,6 @@ CRDroid Android Nougat source and Quark Changelog:
 * 88d5636d9 art: Support more variants of ARM
 
 #### bionic/
-* 9c227a72b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_bionic into 7.1
 * 22d6b5b57 libc: ARM: Add 32-bit Kryo memcpy
 * 45a39871e libc: use Cortex-A7/A53 memset on Kryo
 * ba97f82ba Add kryo support.
@@ -68,19 +709,11 @@ CRDroid Android Nougat source and Quark Changelog:
 #### bootable/recovery/
 * 8011e66 recovery: Fix UI freezing
 
-#### build/
-* 403195ade build: Dump crdroid opt in banner
-
-#### external/libavc/
-* 3421ac6 Merge tag 'android-7.1.2_r8' of https://android.googlesource.com/platform/external/libavc into 7.1
-
-#### external/pdfium/
-* 32813be Merge tag 'android-7.1.2_r8' of https://android.googlesource.com/platform/external/pdfium into 7.1
-
 #### frameworks/av/
 * faa8b85e0 seccomp: Fix policy for ffmpeg
 
 #### frameworks/base/
+* 9bf60060606 Fix animation duration for custom animations
 * a803e60c0e9 Aapt2: Fix png leak
 * d970962effa Fix the Wi-Fi wrong status when turning Wi-Fi on
 * 46af356f9e1 wifi: catch UnsupportedOperationException for getMatchingWifiConfig
@@ -105,6 +738,30 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### frameworks/native/
 * 64c0f4392 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1
+
+#### hardware/qcom/display-caf/apq8084/
+* 3ae2e50 backport:  hwcomposer: Fix regression in hwc_sync
+* ec2c246 qdutils: correct error checking of MetaData's handle mapping
+* f765cfe hwc: Handle DOZE_SUSPEND properly
+* 58a8416 hwc: Try MDP composition eventhough skip layer is present
+* 9a8cf0e ovelray: Tolerate the absense of an RGB pipe
+* 0f96086 hwc/overlay: Get rot dest dimensions instead of manipulating source
+* 299383f liboverlay: Invoke commit before freeing the writeback device
+* b2f6a92 hwc: mdpcomp: Free pipeinfo objects every drawing round
+* 4c5c4da gralloc: Change loglevel of adreno_utils warning
+* f87ac82 hwc: Avoid switching rotator session between secure and non secure
+* 9704534 hwc: Avoid redoing GPU comp under certain conditions
+* 13f280d hwc: Avoid MDP draw if prepare is not successful.
+* 334ada2 hwc: vds: isActive need to be set for wfd using vds solution
+* 2f39647 hwc: Reset mode tracking in MDPComp constructor
+* 16bc9e1 Revert "hwc: Skip load based composition for video playback."
+* 9906d74 hwc: reset overlay and writeback in unblank if writeback is active
+* 21d5c4a hwc: Integerize in the outward direction of rectangle
+* 1dcca6e hwc: Set ioprio for vsync thread
+* 6e49812 display: Set thread priority using cutils
+
+#### hardware/qcom/media-caf/apq8084/
+* b49f2c04 Fix duplicated OMX.qcom.audio.decoder.aac entry
 
 #### packages/apps/Contacts/
 * 443069409 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1
@@ -131,7 +788,16 @@ CRDroid Android Nougat source and Quark Changelog:
 * ecb716e5fd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1
 
 #### packages/apps/Trebuchet/
+* c69c73627 Trebuchet: Add Jelly to hotseat
 * 6e906bb90 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1
+
+#### packages/apps/crDroidFileManager/
+* 52588aeb Merge branch 'remote' into mkn-mr1
+* 22d01f0e Merge pull request #546 from gitcoderoid/fix_crash_color_picker
+* c72ed374 Fix crash when user rotates screen with color picker in settings screen
+* 5f638468 Positive buttons in dialogs are disable if path invalid
+* 5ce7f6de Merge branch 'remote' into mkn-mr1
+* c6545261 Merge pull request #545 from martincz/master
 
 #### packages/inputmethods/LatinIME/
 * 4eb982d55 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1

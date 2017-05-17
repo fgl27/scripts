@@ -28,7 +28,7 @@ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -X
 ./prebuilts/sdk/tools/jack-admin kill-server
 ./prebuilts/sdk/tools/jack-admin start-server
 make clean
-lunch lineage_quark-userdebug
+lunch cm_quark-userdebug
 time mka bacon -j8 2>&1 | tee quark.txt
 
 # final time display *cosmetic...
