@@ -3,6 +3,89 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+05-18-2017
+====================
+
+#### Device specific Changes of 05-18-2017 Start:
+
+#### Device/Quark/
+* 8156e14 Quark: camera warapper fix hdr mode on all camera apps
+* 750a513 Quark: notification led *blink honor user blink timers
+
+#### Vendor/Quark/
+* ca72842a Quark: up turbotoast and substratum apps
+
+#### Device specific Changes of 05-18-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 05-18-2017:
+
+#### android/
+* bd09b29 manifest: Track frameworks support
+
+#### bionic/
+* a733301e8 libm: Aarch32 instructions not supported by arm-v8
+* 1cf45f242 libc: arm: add NEON-optimized memchr implementation from newlib
+* 9a03cfe95 libc: add optimized ARM64 strrchr from newlib
+* 1424ed9b5 libc: import ARM strcmp from newlib
+* 916cf045e bionic: strip libc and linker
+* 54e04b996 linker: convert 'mov pc' instruction to 'bx'
+* 84656f004 Check overflows in c-tor instead of doing it in d-tor
+* f057455da Increase map size for block allocator to 5 pages
+* 08d220925 linker: try remaining locations on library load failure
+* d8d5e2e36 Data connection not working due to invalid dns server used
+* 3b1d5a82e Eliminate deadlock in forked child due to delayed resetting mutex lock
+* 73f87212d libc: ARM: add Apple strcmp
+* 54bd9238d libm: add AArch32 instructions for fmax and fmin
+* bacc656e0 libm: add floor/floorf assembly for AArch32
+* 7a92a5ff4 libm: add AArch32 math instructions
+* 02d293251 The default locale "" should be a UTF-8 locale.
+* 6c8fb3765 Move glibc-syscalls.h into bits/.
+* bac07d3c4 Move math headers in with the other headers.
+* 1427e65bd Add missing <complex.h> functions.
+* 61a2ce8bc Clean up bcopy cruft.
+* 1c03decf8 Teach our script to ignore more dead POSIX stuff.
+* c116870c7 Fix memmem behavior with empty needles.
+* 1a864ac65 bionic: arm64: generic: strcmp: align to cache and preload
+* a1006c35f Fix cortex-a53 inclusion of files.
+* e3b4a743f Small cleanup of cortex-a15 code.
+* d66c1edab Improve diagnostics for FORTIFY failure and assembler
+* 67483bcac libc: arm64: optimize large copies in memcpy
+* b428c2dfb libc: Import cortex-strings strlen for A7/A15/A53/A53.A57/Denver/Krait
+* 42d7eb68d libc: arm64: add optimized strcpy implementation
+* b3aa9c086 libc: ARM64: optimize memmove for Cortex-A53
+* 9f9b44b3f libc: arm64: memcpy optimization
+* 6ff8b0126 libc: ARM: memcmp: remove unused NEON_UNALIGNED_ACCESS flag
+* 805008cd4 libc: use NEON-optimized memset on Cortex-A15
+* e6eff1e15 libc: import ARM strlen from Apple C library
+* 6a8800053 libm: add more aarch64 hardware instructions
+* 13e7e8db3 libm: add optimized expf/logf/powf from ARM
+
+#### frameworks/base/
+* b2cb71ce4f9 base: show battery info on lockscreen when charging [1/2]
+* 29980d56977 Fix screenpinning from showing up unless enabled
+* ad4a2864c05 base: Screen pinning improvements
+* 221f5931068 SettingsProvider: Add missing INTERACT_ACROSS_USERS_FULL permission
+
+#### frameworks/native/
+* d01b4ea6a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1
+
+#### system/core/
+* 80072adbf core: host: Remove ads
+
+#### vendor/cm/
+* 1ea19509 extract_utils: fix extracting XML files containing binary characters
+
+#### vendor/crDroidOTA-devices/
+* 3ddc1e1 update my devices - 3.2
+* d58bba5 update herolte & hero2lte to build crDroidAndroid-7.1.2-20170518
+* 211b7f6 Samsung S4 I9506 ks01lte update
+* 9ee4911 Update klte, all
+* bdb1faa update oneplus3
+
+#### CRDroid Android Nougat source changes of 05-18-2017 End.
+
 05-17-2017
 ====================
 
@@ -24,14 +107,24 @@ CRDroid Android Nougat source and Quark Changelog:
 #### CRDroid Android Nougat source changes of 05-17-2017:
 
 #### frameworks/base/
-* 2f477c96b48 Revert "The network event should be an asynchronous callback."
+* a409f664e30 Revert "Fix right lockscreen shortcut icon resetting"
 
-#### packages/apps/crDroidOTA/
-* 07f96c2 crDroidOTA: Clean up duplicate permission
+#### frameworks/native/
+* c68520a0a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
 
 #### packages/apps/crDroidSettings/
-* bf24208 crdroid: Add marlin and sailfish maintainer info
-* 898b117 crdroid: Add Spanish translations
+* 431bcfb crdroid: Update about fragment
+* 62688ee crdroid: Update g+ community link
+* fa1ae25 crdroid: Add Coolpad Note 3 Lite to official list
+
+#### packages/inputmethods/LatinIME/
+* 17331451a Change keyboard height
+* 6e58cb454 LatinIME: Pixel Blue Accent
+* 6fcf0e6c2 LatinIME: Pixel Blue
+* be2f6475f Revert "LatinIME: Switch to pixel theme"
+
+#### system/core/
+* ad084ec14 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into 7.1
 
 #### CRDroid Android Nougat source changes of 05-17-2017 End.
 
