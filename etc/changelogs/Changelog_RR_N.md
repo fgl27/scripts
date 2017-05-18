@@ -3,10 +3,166 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+05-18-2017
+====================
+
+#### Device specific Changes of 05-18-2017 Start:
+
+#### Device/Quark/
+* 8156e14 Quark: camera warapper fix hdr mode on all camera apps
+* 750a513 Quark: notification led *blink honor user blink timers
+
+#### Vendor/Quark/
+* ca72842a Quark: up turbotoast and substratum apps
+
+#### Device specific Changes of 05-18-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-18-2017:
+
+#### build/
+* 167b25afa Merge branch 'optional-root-method' into nougat
+* 3c0ffb426 Revert "Revert "ota: Remove cruft we don't care about""
+* f800e5fc2 apicheck_msg_current: Don't do this in LineageOS
+
+#### packages/apps/DUI/
+* bd50c31 Automatic translation import
+
+#### packages/apps/Settings/
+* 504b5aaf8 Automatic translation import
+
+#### vendor/cm/
+* 3e169144 Merge branch 'optional-root-method' into nougat
+* 0901e93f extract_utils: fix extracting XML files containing binary characters
+* ac48cb6a cm: Remove Gello
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-18-2017 End.
+
+05-17-2017
+====================
+
+#### Device specific Changes of 05-17-2017 Start:
+
+#### Device/Quark/
+* 3ca1c4d Quark: cleanup some uneed overlays and props
+* 3406c72 Quark: cmactions remove some wakelock
+* 2ae14db Quark: add notification led support
+* fa915a1 Revert "Quark: Add Notification Led"
+
+#### Kernel/Quark/
+* f81713e31b7 led-class: Add blink support
+
+#### Device specific Changes of 05-17-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-17-2017:
+
+#### packages/apps/DUI/
+* 9a5c505 Automatic translation import
+
+#### packages/apps/Settings/
+* a1d362b32 Mi Mix (Lithium) maintainer change (#794)
+* 86705087a Automatic translation import
+* 3774bb8f2 add Jiayu S3 maintainer (#793)
+
+#### packages/inputmethods/LatinIME/
+* 17331451a Change keyboard height
+* 6e58cb454 LatinIME: Pixel Blue Accent
+* 6fcf0e6c2 LatinIME: Pixel Blue
+* be2f6475f Revert "LatinIME: Switch to pixel theme"
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-17-2017 End.
+
+05-16-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-16-2017:
+
+#### frameworks/base/
+* 7e1c6aff114 Automatic translation import
+
+#### packages/apps/DUI/
+* 485508a Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* db39d91 Automatic translation import
+
+#### packages/apps/Settings/
+* aa8c68f0b Automatic translation import
+
+#### system/sepolicy/
+* 3797a6e Merge pull request #3 from ashoksoni/nougat
+* a688894 sepolicy: Allow system_server to set theme_prop
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-16-2017 End.
+
+05-15-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-15-2017:
+
+#### frameworks/base/
+* 1aa51a6763b Automatic translation import
+
+#### packages/apps/AudioFX/
+* e696bf0 AudioFX: Fix choppy preset transitions
+
+#### packages/apps/DUI/
+* cbdbce3 Automatic translation import
+
+#### packages/apps/Dialer/
+* 2027dd98f Automatic translation import
+
+#### packages/apps/Settings/
+* 05e6b1e43 Add a new device Htc One S(Ville) to Device Maintaners list. (#791)
+* 152d9065a Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* 4d52929fc LatinIME: Switch to pixel theme
+
+#### system/keymaster/
+* a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-15-2017 End.
+
+05-14-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-14-2017:
+
+#### frameworks/base/
+* 1e9483b012c Automatic translation import
+
+#### packages/apps/DUI/
+* 14d25ee Automatic translation import
+
+#### packages/apps/Jelly/
+* eab04da Jelly: lint cleanup
+* a8dcb76 Jelly: Don't sign the app with a system certificate
+* 5e5fb97 Jelly: Fix storage permission check
+* c315497 Jelly: add Desktop mode toggle
+* 5859bc6 Jelly: Actually disable cookies
+* fd7418e Jelly: Flush cookies when calling onStop()
+* eb6375d Jelly: Don't make app persistent
+* 2d4853b Jelly: Add proguard rules
+* d583aad Jelly: Improve URL/search query handling
+* 21c6894 Jelly: strings: Various pedantics
+
+#### packages/apps/Settings/
+* 565e2113b Add Scorpio & Lithium maintanier (#790)
+* bff4df5b6 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-14-2017 End.
+
 05-13-2017
 ====================
 
 #### Device specific Changes of 05-13-2017 Start:
+
+#### Device/Quark/
+* f761752 Quark: trigger led on charge only mode
 
 #### Kernel/Quark/
 * abf4a5fdb17 stm401: update buffers size
@@ -17,6 +173,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 ***
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-13-2017:
+
+#### external/chromium-webview/
+* b544e48 Update README
 
 #### frameworks/base/
 * 9d044c3cc35 Automatic translation import
@@ -36,9 +195,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 ====================
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-12-2017:
-
-#### android/
-* 6bab65e crowdin: add DUI [1/2]
 
 #### frameworks/base/
 * 59afca83ac8 fix build
@@ -115,6 +271,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 ***
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-11-2017:
+
+#### android/
+* 6bab65e crowdin: add DUI [1/2]
 
 #### packages/apps/Dialer/
 * 9670686e8 Automatic translation import
