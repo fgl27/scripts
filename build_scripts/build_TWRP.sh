@@ -2,7 +2,7 @@
 # simple build sh ... alias bt='/home/user/source_folder/device/motorola/quark/rootdir/etc/sbin/build_TWRP.sh'
 #make -j4 multirom_zip
 #make -j4 multirom_uninstaller
-export TW_DEVICE_VERSION=MOD_2;
+export TW_DEVICE_VERSION=MOD_1;
 om_folder="/media/bhb27/4508858d-ffa9-4a7f-a111-f598c9425438/om6/";
 cd $om_folder
 TWRP_V=$(grep '#define TW_MAIN_VERSION_STR       "' bootable/recovery/variables.h | head -1 | awk '{print $3}' | sed 's/\"//g');
