@@ -3,17 +3,363 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+05-28-2017
+====================
+
+#### Device specific Changes of 05-28-2017 Start:
+
+#### Device/Quark/
+* 00182e3 Quark: Disable Toolchain opt
+* 462649c Quark: Enable nightDisplayAvailable overlays and cleanup none existent overlays
+* 9681431 Quark: Update Led notification
+
+#### Device specific Changes of 05-28-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-28-2017:
+
+#### frameworks/base/
+* 253e2512868 Recents: Ensure Lock icon animates only when Dismiss icon is visible
+* ae11a40228a Automatic translation import
+
+#### packages/apps/DUI/
+* deff77e Automatic translation import
+
+#### packages/apps/Dialer/
+* d45493e93 Automatic translation import
+
+#### packages/apps/Settings/
+* 5de955c326 ButtonBacklight: Preview timeout once user stops dragging
+* f30a1b4a33 Configurations: Update button backlight brightness in real time
+* 9a67911cbc Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-28-2017 End.
+
+05-27-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-27-2017:
+
+#### frameworks/base/
+* 14cfa5d9547 Fix launch music player on headset connect on reboot
+* d36849a1cc4 Recents:Optional lock to task icon in recents task view header [1/2]
+* 4763e9edac1 Base:Add Lock task action to recents
+* 669850aa34c base: notifications: DEFAULT_LIGHTS and FLAG_SHOW_LIGHTS must count as noisy
+* 307bfad9b34 Frameworks AppOps: Enable MODE_IGNORED for OP_WAKE_LOCK
+* c34f0fe100f CaptivePortal: login activity UI improvements
+* e947bf6ad09 Fix an apk icon animation corruption issue
+* 21dd4e8e8c8 Fix crash by IllegalStateException in sendAccessibilityEvent
+* 13091e7cfb7 Clean up pending broadcast receivers when force stopping package
+* 018ff90cdee base: enable power save config of system apps [1/2]
+* 9df3a9e8593 Fix memory leak in WifP2pManager
+* 1b42b5b8653 Add QS pulldown with one swipe on fp sensor [1/2]
+* 1ca6a1762df SystemUI: Misc fixes for right (custom) lockscreen shortcuts
+* 10378db5f78 Automatic translation import
+
+#### packages/apps/DUI/
+* d55c041 Automatic translation import
+
+#### packages/apps/Jelly/
+* 576d1b9 Jelly: Make download_message not specific to sdcard
+* 8f1365c Jelly: Handle screenLayout changes
+
+#### packages/apps/Settings/
+* c018f9073e QSPulldown: Remove FP gesture if device FP doesnt support it
+* 8be928a964 Settings:Optional lock to task icon in recents task header [2/2]
+* 2aa08c3d04 Settings: enable power save config of system apps [2/2]
+* a99ac4b00f Add QS pulldown with one swipe on fp sensor [2/2]
+* dce8298b9d Automatic translation import
+
+#### packages/services/OmniJaws/
+* c0c0d26 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-27-2017 End.
+
+05-26-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-26-2017:
+
+#### frameworks/base/
+* 7e84fe80b97 Automatic translation import
+
+#### packages/apps/DUI/
+* 67552c4 Automatic translation import
+
+#### packages/apps/Settings/
+* c7832f3e4e Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-26-2017 End.
+
+05-25-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-25-2017:
+
+#### frameworks/base/
+* 0cc21727b55 Automatic translation import
+* 0e04ea650d2 Automatic translation import
+
+#### packages/apps/Jelly/
+* c9f336c Jelly: Pause WebView along with the activity
+
+#### packages/apps/Settings/
+* b6ee80686f Remove Z010D maintainer  ;( (#769)
+* 79f560a681 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-25-2017 End.
+
+05-24-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-24-2017:
+
+#### frameworks/base/
+* 95406166de2 Automatic translation import
+
+#### packages/apps/DUI/
+* 7bbec75 Automatic translation import
+
+#### packages/apps/Email/
+* c0e5d54c0 Search in folder specified via URI parameter, if possible.
+
+#### packages/apps/Jelly/
+* c23c013 Jelly: Don't claim to be a simple WebView
+* c218521 Jelly: Define base class for Activities containing WebViewExt
+* 1607c0d Jelly: Make it easier to initiate gestures
+* 978e74e Jelly: Don't leak fileoutputstream if bm is null
+
+#### packages/apps/Settings/
+* ae856238ac Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* 5462df5cd Pass selected folder to message search.
+
+#### packages/services/OmniJaws/
+* 8a37ee9 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-24-2017 End.
+
+05-23-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-23-2017:
+
+#### external/DUtils/
+* 52668d8 Killapp action: restore home screen before killing the app
+
+#### frameworks/base/
+* 8334e799434 Automatic translation import
+* 63665e27251 Automatic translation import
+
+#### packages/apps/DUI/
+* 59a68e6 SmartBar editor: block quick popup when dragging the button
+
+#### packages/apps/Settings/
+* 46b451a93a Configurations:Add Some more Settings to Reset
+* 841d40b414 Avoid a NullPointerException in security
+* ad8e9317b6 Optimized Code: call direct method to get integer extra
+* fef2b3dec7 RejectedExecutionException  in DataUsageLIst
+* fb41cfd89d Optimize code on get UidDetail in AppDataUsage
+* e774dc4925 Settings: Fix wrong wifi drawable in screen zooming preview
+* fab5b35023 Avoid FC when entering Accessibility Settings with a font size of 100%
+* 4f798e73ef DisplaySettings: font size in 5% steps from 80% to 130%
+* f6fe632d6f Correct fingerprint position during setup
+* f83f0cb1fe PowerUsageFeatureProviderImpl: little cleanup
+* cdbcb1b098 Fix synchronization of Wi-Fi hotspot switch
+* 4c287a8819 Automatic translation import
+
+#### system/core/
+* 8f5e34cdf Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+#### vendor/cmsdk/
+* be5430f Automatic translation import
+* af33af3 cmsdk: Add CMSettings option for QS auto brightness
+* bc244cf Automatic translation import
+* 6bd7762 Protect system profiles related broadcasts
+* 5f9a738 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-23-2017 End.
+
+05-22-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-22-2017:
+
+#### frameworks/base/
+* 1f5e5cc2166 Automatic translation import
+* 3e04527c362 base: update updateUsbStateBroadcastIfNeeded types
+* fe1cfd9612f Check and send usb state broadcast when devices boots
+* 73733621f92 Only send usb disconnect intents after boot.
+* ef0fcc26c41 fix KeyEvent can't correctly finish when inputmethod time out happened
+* 779a3e9463d Fixed NPE in canAddMoreManagedProfiles
+* 60a339e5d4d Fix permissions for CTS [1/2]
+
+#### frameworks/native/
+* a0c6b9f6e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
+
+#### packages/apps/Dialer/
+* afc79eb04 Dialer: lock screen appear before incoming call screen
+
+#### packages/apps/OmniSwitch/
+* 77352ab Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* d797ad9 Automatic translation import
+
+#### packages/apps/Settings/
+* 67feccc702 Automatic translation import
+* 1f45da190e Add Nougat maintainer Leeco LePro 3 (x720/x727) (#796)
+
+#### packages/services/OmniJaws/
+* c4e406d OwmniJaws Use own API key
+* 3d1c664 OmniJaws: fix OWM metric wind speed units
+* 299c137 OmniJaws: widget layout madness
+* 896d5fb OmniJaws: dont show OmniJaws error that prominent
+
+#### packages/services/ThemeInterfacer/
+* 2a46d48 Add interface to get API version and app authentication status
+* 8e55d57 Fix permissions for CTS [2/2]
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-22-2017 End.
+
+05-21-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-21-2017:
+
+#### android/
+* 26c1bb4 manifest: track own ThemeInterfacer, and move to services
+
+#### frameworks/base/
+* 113ff66fb68 Automatic translation import
+* a99c1364dbc Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
+* 81b97bfc751 OMS: StrictMode and files under /data/system/theme/
+* 22d22863a27 Add protected broadcast for app crash broadcast
+
+#### packages/apps/Settings/
+* 5a18e22210 Automatic translation import
+
+#### packages/services/OmniJaws/
+* 5ef9237 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-21-2017 End.
+
+05-20-2017
+====================
+
+#### Device specific Changes of 05-20-2017 Start:
+
+#### Device/Quark/
+* f62b430 Quark: enable real time lockscreen charging
+
+#### Device specific Changes of 05-20-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-20-2017:
+
+#### build/
+* c698ef784 envsetup: fix small derp calling root method chooser script
+
+#### frameworks/base/
+* 452eb373150 Update Drawer header
+* 185d71e3df1 Dont use CMSettings for Headset intents[1/2]
+* c711fa32bdb Settings left drawer: make the view more compact and show more entries per page
+* 6afb2ae75bf Fix lag when opening an entry from the Settings left drawer
+* 08ad038c7aa Option to Show Custom header in settings drawer [1/2]
+* 9efa551d387 Add SettingsDrawerActivity header
+* eccc09632d4 Fix the Wi-Fi wrong status when turning Wi-Fi on
+* 759c96e2bd1 Launch music player on headset connect: add BT compatibility [1/2]
+* 313bf881448 Add navigation disabled notification [1/2]
+* 3f93af930a5 Automatic translation import
+
+#### packages/apps/DUI/
+* 9b7512d Automatic translation import
+
+#### packages/apps/Dialer/
+* 0366e19ae Automatic translation import
+
+#### packages/apps/Jelly/
+* 96e4243 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 8829bce5 PackageInstaller: Show current & new version Forward ported to Marshmallow By: @dwitherell Forward ported to Nougat By: @BeansTown106
+* 2f4fee0a Fix PackageInstaller FC when tapping on a downloaded apk notification 2
+
+#### packages/apps/Settings/
+* 4fb4f6d765 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat
+* 15f982985a Automatic translation import
+* 397950cc24 Fix expandable desktop
+* 5af5556201 Make sure to rebuild on app entries loaded
+* beff6c3e3b Don't re-populate the app list in rebuild()
+* 1a4cf52510 Move Headset Settings out of CMSettings
+* fa02ac36e0 Option to show Settings header in settings drawer[2/2]
+* 9accf7634d Launch music player on headset connect: add BT compatibility [2/2]
+
+#### packages/services/OmniJaws/
+* 0c75553 Automatic translation import
+
+#### vendor/cm/
+* 8b85edf5 cm: Remove root access prop
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-20-2017 End.
+
+05-19-2017
+====================
+
+#### Device specific Changes of 05-19-2017 Start:
+
+#### Device/Quark/
+* 8156e14 Quark: camera warapper fix hdr mode on all camera apps
+
+#### Vendor/Quark/
+* ca72842a Quark: up turbotoast and substratum apps
+
+#### Device specific Changes of 05-19-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-19-2017:
+
+#### build/
+* 19852667d Merge branch 'optional-root-method' into nougat
+* 179e18cc6 rr: show buildtype in dumpvar, call root method type chooser script
+* 3c0ffb426 Revert "Revert "ota: Remove cruft we don't care about""
+* f800e5fc2 apicheck_msg_current: Don't do this in LineageOS
+
+#### packages/apps/Jelly/
+* 7c65684 Jelly: EditTextExt: Remove shader before drawing
+* 0a0fcbd Jelly: Don't reload webview on screen rotation
+
+#### packages/apps/Settings/
+* bf8c859551 Add J500Y (#795)
+
+#### packages/resources/devicesettings/
+* bd3c549 Automatic translation import
+
+#### vendor/cm/
+* 8ead5c50 Merge branch 'optional-root-method' into nougat
+* 0901e93f extract_utils: fix extracting XML files containing binary characters
+* ac48cb6a cm: Remove Gello
+* 782912bb rr: add in a script to choose root variant
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 359c449 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* d275bf3 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-19-2017 End.
+
 05-18-2017
 ====================
 
 #### Device specific Changes of 05-18-2017 Start:
 
 #### Device/Quark/
-* 8156e14 Quark: camera warapper fix hdr mode on all camera apps
 * 750a513 Quark: notification led *blink honor user blink timers
-
-#### Vendor/Quark/
-* ca72842a Quark: up turbotoast and substratum apps
 
 #### Device specific Changes of 05-18-2017 End.
 
@@ -21,21 +367,59 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-18-2017:
 
-#### build/
-* 167b25afa Merge branch 'optional-root-method' into nougat
-* 3c0ffb426 Revert "Revert "ota: Remove cruft we don't care about""
-* f800e5fc2 apicheck_msg_current: Don't do this in LineageOS
+#### frameworks/native/
+* c68520a0a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
+
+#### hardware/qcom/fm/
+* 68e8f7d Automatic translation import
+
+#### packages/apps/CMBugReport/
+* c5d0492 Automatic translation import
+
+#### packages/apps/Calendar/
+* 57b015eb Automatic translation import
+
+#### packages/apps/Camera2/
+* 206a9cd11 Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* 45cead5 Automatic translation import
 
 #### packages/apps/DUI/
 * bd50c31 Automatic translation import
 
-#### packages/apps/Settings/
-* 504b5aaf8 Automatic translation import
+#### packages/apps/Eleven/
+* 7c62b1d Automatic translation import
 
-#### vendor/cm/
-* 3e169144 Merge branch 'optional-root-method' into nougat
-* 0901e93f extract_utils: fix extracting XML files containing binary characters
-* ac48cb6a cm: Remove Gello
+#### packages/apps/Gallery2/
+* 68f782bfd Automatic translation import
+
+#### packages/apps/Recorder/
+* 85a167b Automatic translation import
+
+#### packages/apps/Settings/
+* 504b5aaf8f Automatic translation import
+
+#### packages/apps/SetupWizard/
+* 4972a32 Automatic translation import
+
+#### packages/apps/Snap/
+* 48e6c6d48 Automatic translation import
+
+#### packages/apps/ThemeChooser/
+* 500c253 Automatic translation import
+
+#### packages/apps/Trebuchet/
+* 8b5e27a79 Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* 226fafcae Automatic translation import
+
+#### packages/inputmethods/LatinIME/
+* 17331451a Change keyboard height
+* 6e58cb454 LatinIME: Pixel Blue Accent
+* 6fcf0e6c2 LatinIME: Pixel Blue
+* be2f6475f Revert "LatinIME: Switch to pixel theme"
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-18-2017 End.
 
