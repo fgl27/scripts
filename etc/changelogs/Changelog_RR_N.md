@@ -3,25 +3,307 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
-05-28-2017
+06-03-2017
 ====================
 
-#### Device specific Changes of 05-28-2017 Start:
+#### Device specific Changes of 06-03-2017 Start:
+
+#### Kernel/Quark/
+* 1970e522e1d Revert "stm401: update buffers size"
+* b6d3ef1f187 kernel: Fix potential refcount leak in su check
+* b4cbfd0c1e1 kernel: Only expose su when daemon is running
+
+#### Vendor/Quark/
+* d836d22d Up substratum and turbotoast apk
+
+#### Device specific Changes of 06-03-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-03-2017:
+
+#### frameworks/base/
+* de5cb92c2de Automatic translation import
+* 8ff5e2e07c9 Recents:improve task locking code & mechanism
+* d0bf58906cc fw: Don't consume home key press when KEY_ACTION_SLEEP is used
+
+#### packages/apps/DUI/
+* c342921 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* d620d6f Automatic translation import
+
+#### packages/apps/Settings/
+* 24d120ae4e Automatic translation import
+* 4012daa98a Mi Note 2 Maintainer Update (#797)
+
+#### vendor/cmsdk/
+* 5c781da Double tap to sleep anywhere on lock screen [3/3]
+* 4fb9332 cmsdk: Disable Lockscreen Media Art [3/3]
+* 2f25936 cmsdk: fix twilight state not updating in live display auto mode
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-03-2017 End.
+
+06-02-2017
+====================
+
+#### Device specific Changes of 06-02-2017 Start:
+
+#### Device/Quark/
+* 84549b6 Quark: prevent Led on When is not needed
+
+#### Device specific Changes of 06-02-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-02-2017:
+
+#### frameworks/base/
+* cc8e5e68a9e SystemUI: Specify user while changing brightness mode
+* fbcc481fda5 Automatic translation import
+
+#### packages/apps/Dialer/
+* ae7d2f6a8 Dialer: update fab color to match aosp primary color
+
+#### packages/apps/OmniSwitch/
+* dd6fde0 Automatic translation import
+
+#### packages/apps/Settings/
+* e939b4cda1 Automatic translation import
+
+#### packages/resources/devicesettings/
+* fe6b096 Automatic translation import
+
+#### packages/services/Telecomm/
+* 4ded59b1 (1/2) Make sensitive phone numbers not to be shown in call log history.
+
+#### packages/services/Telephony/
+* 81713408 Fix minor inconsistency in the CDMA call settings
+* 6c91d6c0 telephony: Fix and move CAF strings
+* 8f1f81ec Automatic translation import
+
+#### system/sepolicy/
+* 759e540 Add policy to fix interfacer derp on boot
+* 31468f5 Allow recovery to alter / on userdebug/eng builds
+
+#### vendor/cm/
+* 3b631c04 sensitive_pn: Add sensitive phone numbers for India
+* 6d364bf1 sensitive_pn: Add more numbers for Germany
+* bf099c9f sensitive_pn: Add sensitive phone numbers for Norway
+* 9f417a1c sensitive_pn: Add additional US numbers
+* 2f24950d sensitive_pn: add sensitive number for Indonesia
+* e0f17b90 sensitive_pn: Add sensitive phone number for Romania
+* cd6c6be2 sensitive_pn: Added sensitive number for the Netherlands
+* 3575664b sensitive_pn: add sensitive numbers for Turkey
+* 229f62f0 sensitive_pn: Add sensitive phone number for Bangladesh
+* 5630a4a5 sensitive_pn: Add US number
+* 269c86cc Add sensitive phone numbers for Brazil
+* 3fbdf51f sensitive_pn: reorder by MCC code
+* 56658d2a sensitive_pn: Add Australian sensitive phone number.
+* 34d9d561 sensitive_pn: Add New Zealand sensitive numbers.
+* 7ce9ff5e (2/2) Make sensitive phone numbers not to be shown in call log history.
+* a3f80fd3 overlay: Enable Wi-Fi by default on first boot
+* b52ed87b Show full alarm info
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* 0b94297 Automatic translation import
+
+#### vendor/qcom/opensource/cryptfs_hw/
+* da6e595 cryptfs_hw: Fix stack out of bound issue
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-02-2017 End.
+
+06-01-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-01-2017:
+
+#### frameworks/base/
+* aaafa730025 Automatic translation import
+* 9916373605f Fix nav bar showing always on the left when rotated to 270 degrees. Also, fix the order of the buttons so the back button always shows on the bottom
+
+#### hardware/qcom/fm/
+* 10a0e49 Automatic translation import
+
+#### packages/apps/AudioFX/
+* a9e6e96 Automatic translation import
+
+#### packages/apps/Bluetooth/
+* a1d4b44a Automatic translation import
+
+#### packages/apps/Calendar/
+* 1716e53a Automatic translation import
+
+#### packages/apps/Camera2/
+* 1bd06454d Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* f8d149a Automatic translation import
+
+#### packages/apps/DUI/
+* 9b28ae6 Automatic translation import
+
+#### packages/apps/EmergencyInfo/
+* 3ea2db7 Automatic translation import
+
+#### packages/apps/Gallery2/
+* 97a397b58 Automatic translation import
+
+#### packages/apps/Jelly/
+* 153b7b7 Automatic translation import
+
+#### packages/apps/ManagedProvisioning/
+* 4b787a27 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 789bd99 Automatic translation import
+
+#### packages/apps/Recorder/
+* 8c0b44d Automatic translation import
+
+#### packages/apps/Settings/
+* 3b35f19082 Settings: enable fast scroll for all app list views
+* 3c757a3079 Automatic translation import
+
+#### packages/apps/SetupWizard/
+* 0f16837 Automatic translation import
+
+#### packages/apps/Snap/
+* d8c3f8267 Automatic translation import
+
+#### packages/apps/Tag/
+* 1dc7751 Automatic translation import
+
+#### packages/apps/Trebuchet/
+* e4411d635 Automatic translation import
+
+#### packages/providers/WeatherProvider/
+* 7f81c53 Automatic translation import
+
+#### packages/resources/devicesettings/
+* 1935d69 Add fingerprint sleep strings
+
+#### packages/services/LiveLockScreenService/
+* 15d4966 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-01-2017 End.
+
+05-31-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-31-2017:
+
+#### frameworks/base/
+* d6d36109961 Automatic translation import
+
+#### packages/apps/DUI/
+* e0c0a80 Automatic translation import
+
+#### packages/apps/Jelly/
+* 0106448 Jelly: Enable adjust bounds for incognito image
+* c642120 Jelly: Never hide history view
+* ea83c6c Jelly: Use an observer to refresh the history view
+* 837ec77 Add an indicator icon for incognito mode.
+* c35cc24 Jelly: Update android tools build
+
+#### packages/apps/OmniSwitch/
+* fab5e78 OmniSwitch: cleanup BitmapUtils
+* 0ad4cd0 OmniSwitch: fix crash on special app icon formats
+* e6e21ad OmniSwitch: shadow wars
+* 3de4c24 OmniSwitch: Launcher: refine assist activity check
+* 4ec4e60 OmnSwitch: enable update thumbs during swipe
+* 74acfe7 OmniSwitch: Launcher: check for existing assist activities
+
+#### packages/apps/ResurrectionStats/
+* 2290cb6 Automatic translation import
+
+#### packages/apps/Settings/
+* c64170949c Automatic translation import
+
+#### packages/apps/Snap/
+* f68cddc15 SnapdragonCamera: Fix torch mode with continuous shot
+* c737df520 Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started"
+* 09a7a0b4e SnapdragonCamera: Camera2 force close after focused
+* 018fdd0c5 SnapdragonCamera: GPS location can't be turn On in camera settings
+
+#### packages/services/OmniJaws/
+* d4c6084 Automatic translation import
+
+#### vendor/cm/
+* 46fc5413 typo fixed (#92)
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-31-2017 End.
+
+05-30-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-30-2017:
+
+#### external/stagefright-plugins/
+* 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
+
+#### frameworks/base/
+* 39b9d5b7be5 Recents: Ensure Lock icon animates only when Dismiss icon is visible
+* a5fb1930352 Automatic translation import
+* 85736909a3f Fix launch music player on headset connect on reboot
+* 7b24b4935c6 Recents:Optional lock to task icon in recents task view header [1/2]
+* 352535992a7 Base:Add Lock task action to recents
+
+#### packages/apps/Jelly/
+* 020a697 Jelly: Don't accept cookies in incognito mode
+* dc48da6 Jelly: Don't add duplicates to the history
+* 78e3754 Jelly: Query an already ordered history
+* c8e5ebe Jelly: Enable the DOM storage API
+
+#### packages/apps/Settings/
+* c0af83935f Automatic translation import
+
+#### packages/apps/Snap/
+* 26d9aecb6 Fixed camera crash on exit
+
+#### packages/apps/Stk/
+* f9f50a5 Do not display toast if alpha text is null.
+
+#### packages/apps/Trebuchet/
+* 1a65ab8b1 Trebuchet: Sign with platform key
+
+#### vendor/cm/
+* a8b16ae8 Update pixel launcher
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-30-2017 End.
+
+05-29-2017
+====================
+
+#### Device specific Changes of 05-29-2017 Start:
 
 #### Device/Quark/
 * 00182e3 Quark: Disable Toolchain opt
 * 462649c Quark: Enable nightDisplayAvailable overlays and cleanup none existent overlays
 * 9681431 Quark: Update Led notification
 
-#### Device specific Changes of 05-28-2017 End.
+#### Device specific Changes of 05-29-2017 End.
 
 ***
 
-#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-28-2017:
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-29-2017:
 
-#### frameworks/base/
-* 253e2512868 Recents: Ensure Lock icon animates only when Dismiss icon is visible
-* ae11a40228a Automatic translation import
+#### packages/apps/Email/
+* b76ada5c5 Fix check for deleted messages.
+* 70ccb25cd Close body InputStreams correctly.
+
+#### packages/apps/Settings/
+* 59c5eb409a Automatic translation import
+
+#### packages/apps/UnifiedEmail/
+* e353ae2ea Properly close body InputStreams.
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-29-2017 End.
+
+05-28-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 05-28-2017:
 
 #### packages/apps/DUI/
 * deff77e Automatic translation import
