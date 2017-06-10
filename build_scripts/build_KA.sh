@@ -64,6 +64,7 @@ else
 	echo -e "\n${bldred}Signing the App${txtrst}\n"
 	$SIGN_FOLDER/sign.sh test $OUT_FOLDER/app-release-unsigned.apk
 	mv $OUT_FOLDER/app-release-unsigned.apk-signed.zip $OUT_FOLDER/$APP_FINAL_NAME
+	cp "$OUT_FOLDER"/"$APP_FINAL_NAME" "$OUT_FOLDER"/ka"$(date +%s)".apk
 fi;
 fi;
 
