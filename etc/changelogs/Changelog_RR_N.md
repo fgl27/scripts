@@ -3,10 +3,536 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
-06-10-2017
+06-17-2017
 ====================
 
-#### Device specific Changes of 06-10-2017 Start:
+#### Device specific Changes of 06-17-2017 Start:
+
+#### Device/Quark/
+* b3ded36 Revert "Quark: CMActions: don't activate Double-twist when prox covered"
+* a95bd1a Revert "Quark: CMActions: don't activate chop-chop when prox covered"
+
+#### Kernel/Quark/
+* c073367 DTB: set max gpu freq to max when mitigation
+* cd27ed5 stm401 display add NULL check in stm401_display_handle_quickpeek_locked
+* 81ce600 stm401: remove global i2c buffers
+* 41b0fd7 video fbcmap: reset after linux merge
+* c46f454 cpufreq: interactive governor drops bits in time calculation
+
+#### Vendor/Quark/
+* 3043944 Quark: Update KA and TUrboToast
+
+#### Device specific Changes of 06-17-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-17-2017:
+
+#### frameworks/base/
+* e720cb4 Automatic translation import
+* ac0c76c TaskViewHeader:Don't allow lock button icon to show on grid view
+* 4bdd900 Base: Improve OmniSwitch implementation
+
+#### hardware/ril/
+* 5758b0e ril: fix a memory leak.
+
+#### hardware/ril-caf/
+* 588e49d ril: fix a memory leak.
+
+#### packages/apps/OmniSwitch/
+* b96f0d5 Automatic translation import
+* 53163a7 Update Enable switch consistency
+
+#### packages/apps/Settings/
+* cb653de Automatic translation import
+* 2ebdc3d RecentsSettings:Make OmniSwitch fragment directly accessible
+
+#### packages/apps/WallpaperPicker/
+* 5b27292 Fix bad wallpaper preview image format
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-17-2017 End.
+
+06-16-2017
+====================
+
+#### Device specific Changes of 06-16-2017 Start:
+
+#### Device/Quark/
+* 90a226a Quark: sepolicy add sdcard.te
+
+#### Kernel/Quark/
+* 7a9df8a Linux 3.10.106
+* aed7e9c dccp: fix freeing skb too early for IPV6_RECVPKTINFO
+* 6b6ddfd char: lp: fix possible integer overflow in lp_setup()
+* 6160b6a mm/huge_memory.c: respect FOLL_FORCE/FOLL_COW for thp
+* 91f97d0 fs: exec: apply CLOEXEC before changing dumpable task flags
+* 601a161 ipv6: handle -EFAULT from skb_copy_bits
+* c766ecb tty: n_hdlc: get rid of racy n_hdlc.tbuf
+* 393d1bb TTY: n_hdlc, fix lockdep false positive
+* 7107306 KVM: kvm_io_bus_unregister_dev() should never fail
+* 5fdcac9 kvm: exclude ioeventfd from counting kvm_io_range limit
+* 2e75042 KVM: x86: clear bus pointer when destroyed
+* 4cc23b2 sctp: deny peeloff operation on asocs with threads sleeping on it
+* e1457bc sctp: avoid BUG_ON on sctp_wait_for_sndbuf
+* 9c10421 ipv6: fix the use of pcpu_tstats in ip6_tunnel
+* 980be9e ipv6: pointer math error in ip6_tnl_parse_tlv_enc_lim()
+* 68d635d ipv6: fix ip6_tnl_parse_tlv_enc_lim()
+* 31e71d6 xc2028: Fix use-after-free bug properly
+* 12bcf28 xc2028: unlock on error in xc2028_set_config()
+* 5d3d406 xc2028: avoid use after free
+* 318e710 Drivers: hv: avoid vfree() on crash
+* ef34ed1 can: Fix kernel panic at security_sock_rcv_skb
+* 7628a0f mm/init: fix zone boundary creation
+* 8ab5e9c USB: dummy-hcd: fix bug in stop_activity (handle ep0)
+* f024050 USB: fix problems with duplicate endpoint addresses
+* ae7bf45 ping: implement proper locking
+* 33b84f4 net: ping: check minimum size on ICMP header length
+* c193772 USB: usbtmc: add missing endpoint sanity check
+* 9d30b9a perf trace: Use the syscall raw_syscalls:sys_enter timestamp
+* 2319aa0 net: sctp: rework multihoming retransmission path selection to rfc4960
+* 3b498ea Staging: vt6655-6: potential NULL dereference in hostap_disable_hostapd()
+* 34859be tun: Fix TUN_PKT_STRIP setting
+* 2d244ba ARM: dts: imx31: fix AVIC base address
+* 9698fc4 ARM: dts: imx31: move CCM device node to AIPS2 bus devices
+* e6922a7 MIPS: KGDB: Use kernel context for sleeping threads
+* 85d0664 l2tp: take reference on sessions being dumped
+* 12dc8b8 net: phy: handle state correctly in phy_stop_machine
+* 1a43764 netfilter: arp_tables: fix invoking 32bit "iptable -P INPUT ACCEPT" failed in 64bit kernel
+* 3ce5cf2 ring-buffer: Have ring_buffer_iter_empty() return true when empty
+* 6f7f5c8 tracing: Allocate the snapshot buffer before enabling probe
+* 439b657 rtl8150: Use heap buffers for all register access
+* 260b1bb pegasus: Use heap buffers for all register access
+* c866fe6 powerpc: Disable HFSCR[TM] if TM is not supported
+* 5980dc9 char: Drop bogus dependency of DEVPORT on !M68K
+* a9bba09 net/mlx4_core: Fix racy CQ (Completion Queue) free
+* f33548a net/mlx4_en: Fix bad WQE issue
+* e3d928a s390/decompressor: fix initrd corruption caused by bss clear
+* d67d659 metag/usercopy: Add missing fixups
+* fbb9949 metag/usercopy: Fix src fixup in from user rapf loops
+* f3f7e1e metag/usercopy: Set flags before ADDZ
+* 2a2016f metag/usercopy: Add early abort to copy_to_user
+* 4dd6b23 metag/usercopy: Fix alignment error checking
+* 8fa4022 ring-buffer: Fix return value check in test_ringbuffer()
+* 3fb57cb ptrace: fix PTRACE_LISTEN race corrupting task->state
+* 80428b5 ipv4: igmp: Allow removing groups from a removed interface
+* 3dc30a4 i2c: at91: manage unexpected RXRDY flag when starting a transfer
+* 1fdeca3 USB: OHCI: Fix race between ED unlink and URB submission
+* e0d0c47 ACPI / PNP: Reserve ACPI resources at the fs_initcall_sync stage
+* 88a7a58 ACPI / resources: free memory on error in add_region_before()
+* 2ce80cd ACPI / PNP: Avoid conflicting resource reservations
+* f1ad4f9 ALSA: ctxfi: Fix the incorrect check of dma_set_mask() call
+* 34da31d ALSA: ctxfi: Fallback DMA mask to 32bit
+* 275ad9d scsi: libsas: fix ata xfer length
+* e48523e ext4: mark inode dirty after converting inline directory
+* bf9955e mmc: ushc: fix NULL-deref at probe
+* f2f1207 uwb: hwa-rc: fix NULL-deref at probe
+* 9304f70 uwb: i1480-dfu: fix NULL-deref at probe
+* b62a48b USB: wusbcore: fix NULL-deref at probe
+* d1639de USB: idmouse: fix NULL-deref at probe
+* dea38b6 USB: uss720: fix NULL-deref at probe
+* 7e4662d Input: cm109 - validate number of endpoints before using them
+* 0c8b4c5 Input: yealink - validate number of endpoints before using them
+* d9d6816 Input: hanwang - validate number of endpoints before using them
+* 96f4121 Input: ims-pcu - validate number of endpoints before using them
+* fbd195d net: unix: properly re-increment inflight counter of GC discarded candidates
+* e80dd44 net: properly release sk_frag.page
+* 828099d xen: do not re-use pirq number cached in pci device msi msg data
+* 84fee98 isdn/gigaset: fix NULL-deref at probe
+* 9663e6e perf/core: Fix event inheritance on fork()
+* 18d7690 net sched actions: decrement module reference count after table flush.
+* 9e85b50 dccp/tcp: fix routing redirect race
+* 425cabd net: net_enable_timestamp() can be called from irq contexts
+* eb131b3 locking/static_keys: Add static_key_{en,dis}able() helpers
+* 56932ec ipv4: mask tos for input route
+* 1db530d vxlan: correctly validate VXLAN ID against VXLAN_N_VID
+* 102bb02 USB: serial: io_ti: fix information leak in completion handler
+* 4eef271 USB: serial: io_ti: fix NULL-deref in interrupt callback
+* 1e07185 USB: iowarrior: fix NULL-deref in write
+* 5f6bd0e USB: iowarrior: fix NULL-deref at probe
+* a15a0a0 USB: serial: omninet: fix reference leaks at open
+* 461d852 USB: serial: safe_serial: fix information leak in completion handler
+* 4d3ab83 tracing: Add #undef to fix compile error
+* 9239813 MIPS: ip27: Disable qlge driver in defconfig
+* 26ec9da USB: serial: digi_acceleport: fix OOB-event processing
+* d69d791 USB: serial: digi_acceleport: fix OOB data sanity check
+* f5a27bf dm: flush queued bios when process blocks to avoid deadlock
+* 45a8565 nlm: Ensure callback code also checks that the files match
+* e1f8b6d ktest: Fix child exit code processing
+* 258187c IB/ipoib: Fix deadlock between rmmod and set_mode
+* 7331ed6 s390/qdio: clear DSCI prior to scanning multiple input queues
+* 7d64884 NFSv4: fix getacl head length estimation
+* 37f84b3 RDMA/core: Fix incorrect structure packing for booleans
+* ecf585d fuse: add missing FR_FORCE
+* 175d6c4 ath9k: use correct OTP register offsets for the AR9340 and AR9550
+* 4ed8d78 scsi: aacraid: Reorder Adapter status check
+* beabe2b uvcvideo: Fix a wrong macro
+* 81a2cb3 MIPS: Handle microMIPS jumps in the same way as MIPS32/MIPS64 jumps
+* cc9e757 MIPS: Calculate microMIPS ra properly when unwinding the stack
+* cde7f9a MIPS: Fix is_jump_ins() handling of 16b microMIPS instructions
+* af9e3fd MIPS: Fix get_frame_info() handling of microMIPS function size
+* fde7ae0 MIPS: Prevent unaligned accesses during stack unwinding
+* 134efc2 MIPS: Clear ISA bit correctly in get_frame_info()
+* 7b2cfba MIPS: OCTEON: Fix copy_from_user fault handling for large buffers
+* 9e6975b net/sched: em_meta: Fix 'meta vlan' to correctly recognize zero VID frames
+* 8385ed5 vti4: Don't count header length twice.
+* 8bf9b86 net: 6lowpan: fix lowpan_header_create non-compression memcpy call
+* 85804ce drm/nv50/disp: min/max are reversed in nv50_crtc_gamma_set()
+* 3f71561 ocfs2: do not write error flag to user structure we cannot copy from/to
+* 73df3a5 goldfish: Sanitize the broken interrupt handler
+* f12d7f8 x86/platform/goldfish: Prevent unconditional loading
+* 4ea1e6c USB: serial: ark3116: fix register-accessor error handling
+* b4b034f USB: serial: opticon: fix CTS retrieval at open
+* fe6c18c USB: serial: spcp8x5: fix modem-status handling
+* a5be8dd USB: serial: ftdi_sio: fix line-status over-reporting
+* 59ffb20 USB: serial: ftdi_sio: fix extreme low-latency setting
+* 833669f USB: serial: ftdi_sio: fix modem-status error handling
+* ed20c5a USB: serial: mos7840: fix another NULL-deref at open
+* cd9545e net: socket: fix recvmmsg not returning error from sock_error
+* dda97b2 packet: Do not call fanout_release from atomic contexts
+* daeadf83 packet: fix races in fanout_add()
+* 2631370 l2tp: do not use udp_ioctl()
+* 63a59a8 ping: fix a null pointer dereference
+* bd3e68c ip6_gre: fix ip6gre_err() invalid reads
+* 09b8f59 netlabel: out of bound access in cipso_v4_validate()
+* fc9adfe ipv4: keep skb->dst around in presence of IP options
+* 885516d net: use a work queue to defer net_disable_timestamp() work
+* 7904874 drm/i915: fix use-after-free in page_flip_completed()
+* 67162bd scsi: zfcp: fix use-after-free by not tracing WKA port open/close on failed send
+* 0537881 mac80211: Fix adding of mesh vendor IEs
+* 3970ac4 ARM: 8643/3: arm/ptrace: Preserve previous registers for short regset write
+* e5e10ef svcrpc: fix oops in absence of krb5 module
+* 2f94a8d tcp: initialize max window for a new fastopen socket
+* e685742 net: fix harmonize_features() vs NETIF_F_HIGHDMA
+* 12b83ab platform/x86: intel_mid_powerbtn: Set IRQ_ONESHOT
+* 9086c0a s5k4ecgx: select CRC32 helper
+* b1e4cb4 drm/i915: Don't leak edid in intel_crt_detect_ddc()
+* 0a595cf crypto: caam - fix non-hmac hashes
+* 3aabb9b fuse: do not use iocb after it may have been freed
+* 407e007 ite-cir: initialize use_demodulator before using it
+* fec6f6a ARM: ux500: fix prcmu_is_cpu_in_wfi() calculation
+* 14bce60 arm64/ptrace: Reject attempts to set incomplete hardware breakpoint fields
+* ccb4e59 arm64/ptrace: Avoid uninitialised struct padding in fpr_set()
+* d5e30b6 arm64/ptrace: Preserve previous registers for short regset write
+* 8857dc1 ubifs: Fix journal replay wrt. xattr nodes
+* c44367c mtd: nand: xway: disable module support
+* c63a8ba mmc: mxs-mmc: Fix additional cycles after transmission stop
+* bf7b922 svcrpc: don't leak contexts on PROC_DESTROY
+* fb85a30 ARM: dts: imx31: fix clock control module interrupts description
+* 1f51370 perf scripting: Avoid leaking the scripting_context variable
+* 5f3e244 IB/mlx4: Fix port query for 56Gb Ethernet links
+* 890e2f0 IB/mlx4: Set traffic class in AH
+* 899fec8 powerpc/ibmebus: Fix device reference leaks in sysfs interface
+* 9077f15 powerpc/ibmebus: Fix further device reference leaks
+* 42c1a21 NFSv4.1: nfs4_fl_prepare_ds must be careful about reporting success.
+* 36bcd27 x86/cpu: Fix bootup crashes by sanitizing the argument of the 'clearcpuid=' command-line option
+* f346310 USB: serial: ch341: fix modem-control and B0 handling
+* 8d0bfff USB: serial: ch341: fix resume after reset
+* 2e5ad90 USB: serial: ch341: fix open and resume after B0
+* cbe6a87 USB: serial: ch341: fix control-message error handling
+* 59ab534 USB: serial: ch341: fix open error handling
+* 3daadef USB: serial: ch341: fix initial modem-control state
+* a93ed4a USB: serial: kl5kusb105: fix line-state error handling
+* a06b4ee mm/hugetlb.c: fix reservation race when freeing surplus pages
+* 470d99f Input: i8042 - add Pegatron touchpad to noloop table
+* f8b802f powerpc: Fix build warning on 32-bit PPC
+* f3a8b3d gro: Disable frag0 optimization on IPv6 ext headers
+* ab2a771 gro: use min_t() in skb_gro_reset_offset()
+* 94dd210 gro: Enter slow-path if there is no tailroom
+* 5476cce net: stmmac: Fix race between stmmac_drv_probe and stmmac_open
+* d12c516 net, sched: fix soft lockup in tc_classify
+* 030516d ser_gigaset: return -ENOMEM on error instead of success
+* 9cc44d5 powerpc/pci/rpadlpar: Fix device reference leaks
+* 4bc24b1 mmc: mmc_test: Uninitialized return value
+* 024a953 target/iscsi: Fix double free in lio_target_tiqn_addtpg()
+* 16e865b scsi: mvsas: fix command_active typo
+* 336d2c0 iommu/amd: Fix the left value check of cmd buffer
+* 18a257b clk: clk-wm831x: fix a logic error
+* 97213c0 hwmon: (ds620) Fix overflows seen when writing temperature limits
+* 1a7ca78 cris: Only build flash rescue image if CONFIG_ETRAX_AXISFLASHMAP is selected
+* 447df79 usb: dwc3: gadget: always unmap EP0 requests
+* f3e911f staging: iio: ad7606: fix improper setting of oversampling pins
+* df874da USB: serial: kl5kusb105: abort on open exception path
+* 0599309 ALSA: usb-audio: Fix bogus error return in snd_usb_create_stream()
+* 3942b60 usb: musb: Fix trying to free already-free IRQ 4
+* 1ffac1c usb: xhci-mem: use passed in GFP flags instead of GFP_KERNEL
+* bf65b67 USB: serial: mos7720: fix parallel probe
+* 3a79779 USB: serial: mos7720: fix parport use-after-free on probe errors
+* 617e40e USB: serial: mos7720: fix use-after-free on probe errors
+* 5ddce41 USB: serial: mos7720: fix NULL-deref at open
+* e746626 USB: serial: mos7840: fix NULL-deref at open
+* 9d5e6a6 USB: serial: kobil_sct: fix NULL-deref in write
+* 77c2938 USB: serial: cyberjack: fix NULL-deref at open
+* ebd5b18 USB: serial: oti6858: fix NULL-deref at open
+* c0792b4 USB: serial: io_edgeport: fix NULL-deref at open
+* 4d4f0f4 USB: serial: ti_usb_3410_5052: fix NULL-deref at open
+* 671c5ad USB: serial: garmin_gps: fix memory leak on failed URB submit
+* 20feb0f USB: serial: iuu_phoenix: fix NULL-deref at open
+* c4b20cb USB: serial: io_ti: fix another NULL-deref at open
+* 3c010ae USB: serial: io_ti: fix NULL-deref at open
+* 20a3975 USB: serial: spcp8x5: fix NULL-deref at open
+* 6ca33fd USB: serial: keyspan_pda: verify endpoints at probe
+* 6583e52 USB: serial: pl2303: fix NULL-deref at open
+* 830b639 USB: serial: quatech2: fix sleep-while-atomic in close
+* a773d19 USB: serial: omninet: fix NULL-derefs at open and disconnect
+* 79a2867 usb: gadget: composite: Test get_alt() presence instead of set_alt()
+* 3edb513 powerpc: Convert cmp to cmpd in idle enter sequence
+* 5024cf6 IB/multicast: Check ib_find_pkey() return value
+* 13a0b4e IB/mad: Fix an array index check
+* 4f4483f ftrace/x86_32: Set ftrace_stub to weak to prevent gcc from using short jumps to it
+* 87b3d1d scsi: zfcp: fix rport unblock race with LUN recovery
+* 25b956d scsi: zfcp: do not trace pure benign residual HBA responses at default level
+* 0c85c94 scsi: zfcp: fix use-after-"free" in FC ingress path after TMF
+* e4bd890 block: protect iterate_bdevs() against concurrent close
+* 662bd29 f2fs: set ->owner for debugfs status file's file_operations
+* 8c0c4d8 ext4: return -ENOMEM instead of success
+* c4faad4 ext4: reject inodes with negative size
+* c989a4c ext4: fix stack memory corruption with 64k block size
+* a09a423 ext4: fix mballoc breakage with 64k block size
+* 91b1be6 crypto: caam - fix AEAD givenc descriptors
+* 2dfea76 block_dev: don't test bdev->bd_contains when it is not stable
+* cc79bdf USB: serial: kl5kusb105: fix open error path
+* e6cfa32 Btrfs: fix tree search logic when replaying directory entry deletes
+* 72dd2df hotplug: Make register and unregister notifier API symmetric
+* 81fc2fe m68k: Fix ndelay() macro
+* 8e0f9de locking/rtmutex: Prevent dequeue vs. unlock race
+* 3d32237 ext4: fix data exposure after a crash
+* 114a707e KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings
+* a97da68 KEYS: Change the name of the dead type to ".dead" to prevent user access
+* f32744c KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings
+* be63304 xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder
+* a3aa0f4 xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+* 34a5b0b tcp: avoid infinite loop in tcp_splice_read()
+* ebc4d2b fbdev: color map copying bounds checking
+* 4678a52 tmpfs: clear S_ISGID when setting posix ACLs
+* c8147df posix_acl: Clear SGID bit when setting file permissions
+* ad089e7 KVM: x86: Introduce segmented_write_std
+* 7618188 KVM: x86: fix emulation of "MOV SS, null selector"
+* 5c863f6 libceph: don't set weight to IN when OSD is destroyed
+* ccce4de EVM: Use crypto_memneq() for digest comparisons
+* 8f72df7 crypto: crypto_memneq - add equality testing of memory regions w/o timing leaks
+* 202f4ec packet: fix race condition in packet_set_ring
+
+#### Device specific Changes of 06-16-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-16-2017:
+
+#### frameworks/base/
+* 1aca92c KernelCpuSpeedReader: Account for missing sysfs nodes
+* bf156ad Fix batterySendBroadcast not synchronized issue.
+* dda5803 bless python versions newer than 2.6
+* 7638fee Handle ActivityNotFoundException for contacts activity
+* 9459285 extend PreferenceActivity for title text on a single pane mode
+* 6ebcc53 Override onRestoreInstanceState() in MultiSelectListPreference
+* 4253bcf Fragment animations are not being saved across configuration changes
+* 9ab8bae Fix to NullPointerException when activity is relaunched
+* 7e41a2e Fix right mLastTimeUsed when aggregate UsageStats
+* 4037823 Fix ListView is not scrolled properly with arrows
+* ed61430 Synchronize access of mSubscriptions
+* f3cfda4 Provide synchronization to setview to avoid NPE
+* d970a26 AsyncTask: Fix to remove canceled tasks from executor's queue.
+* 4c1c6bf frameworks/base: Fix to avoid crash when the tab is not set from app
+* 3dff401 IInputMethodWrapper to recycle SomeArgs in all cases.
+* e62cfea Catch corruptexception during Transaction operation
+* 5e7b3b0 Fix force idle issue
+* 8f0c320 preloaded drawables few
+* b2732eb Schedule agentDisconnected() in handler thread
+* abeed16 Fix PrcessRecord.renderThreadTid not reset in some case.
+* ef47c88 SoundPool: decrease binder call when calling SoundPool.play
+* 3d9544d BluetoothTile: Fix in the off state while entering the detail view
+* be8cecc WiFiTile: Fix in the off state while entering the detail view
+* d71604e Net monitor: fix arrows not showing when data saver is enabled
+* c6bf6f8 Automatic translation import
+* 397e946 Adding PitchBlack skull header (#201)
+* 780245f Change of translation
+
+#### packages/apps/CarrierConfig/
+* 1249ef5 Remove TIM from non-roaming networks list of H3G IT
+
+#### packages/apps/OmniSwitch/
+* da3cb30 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 37b4ee4 Automatic translation import
+
+#### packages/apps/Settings/
+* bbf6b18 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-16-2017 End.
+
+06-15-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-15-2017:
+
+#### frameworks/base/
+* 9fb0e68 Automatic translation import
+* 2cc801f Check for spurious wake ups
+* f6f0ebf Fix TaskRecord wrong dump element firstActiveTime
+
+#### packages/apps/DUI/
+* 75985cf Automatic translation import
+* c94593b Automatic translation import
+* eab3999 Automatic translation import
+* adf6bee DUI:Uncomment Navbar Left in Landscape [1/2]
+
+#### packages/apps/Dialer/
+* 44db081 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* ae3fc6c Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* a4ee449 Automatic translation import
+
+#### packages/apps/Settings/
+* be72733 Automatic translation import
+* 8dad24f SeekBarPreference: fix progressbar glitch with custom min-max values
+* 75aad61 do not include saved network in scan list
+* 08a42d0 Allow sorting applications by size
+* 6489e06 Volume can not be updated in Sound&notification
+* a37247e AllowBindAppWidgetActivity: Fix crash when the activity is closing
+* 91b6f1c Squash commit of SAR and IC Code.
+* bdaf696 Fix crash when calling remove() with a null variable
+
+#### packages/services/OmniJaws/
+* 43db7a4 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-15-2017 End.
+
+06-14-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-14-2017:
+
+#### frameworks/base/
+* 5051229 Automatic translation import
+
+#### packages/apps/Nfc/
+* 182c26e NfcNci: make T3T/Nfc-F HCE optional
+
+#### packages/apps/OmniSwitch/
+* 3601c06 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* ec3db3d Automatic translation import
+
+#### packages/apps/Settings/
+* f60e3ec Automatic translation import
+* b65b342 Add Samsung Galaxy Alpha as Official (#806)
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-14-2017 End.
+
+06-13-2017
+====================
+
+#### Device specific Changes of 06-13-2017 Start:
+
+#### Device/Quark/
+* 222ad33 Quark: disable ro.sys.sdcardfs
+* 51b108b Quark: update readme
+
+#### Device specific Changes of 06-13-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-13-2017:
+
+#### frameworks/base/
+* 2d01eae Automatic translation import
+* 00e4452 Fix IME switcher not being shown in notifications when enabled
+* 01df159 SignalClusterView:Tighten up loose ends for no sim subscriptions
+* 6cdb4e7 Revert "Fix nav bar showing always on the left when rotated to 270 degrees."
+
+#### packages/apps/Eleven/
+* 6665277 Eleven: Remove unused permission REAL_GET_TASKS
+
+#### packages/apps/PackageInstaller/
+* 25c5b2e Automatic translation import
+
+#### packages/apps/Settings/
+* 9882dbe Automatic translation import
+* 6e0d35e Settings:Add back Left navigation bar in landscape [2/2]
+
+#### packages/apps/Snap/
+* 0f83363 SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size
+* 202f50a SnapdragonCamera: Fix live shot image stretch when recording is 4K
+* fffbe39 SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+* dd1b09c SnapdragonCamera: Fix photo reversed when enable selfie Mirror
+* b37ea18 SnapdragonCamera: Fix preview in wrong size
+* 708af54 SnapdragonCamera: Fix front camera preview flipped
+* 9d21c69 SnapdragonCamera: Fix preview is flipped on 8996
+* cc08b44 SnapdragonCamera: Camera1 Selfie Mirror orientation check
+* c188ffe SnapdragonCamera: Fix Camera1 force close when refocusing the picture.
+* d24a8ed SnapdragonCamera: Change video snapshot picture size logic
+* bdb5068 SnapdragonCamera: Avoid cancel AF shortly after trigger
+* 3de435d SnapdragonCamera: Fix crash during UI stress test
+* f870393 SnapdragonCamera: Fix OutOfBoundsException in monkey test
+* 367758c SnapdragonCamera: Fix FC for NullPointerException
+* c8a45a3 SnapdragonCamera: Reset zoom value when resuming
+* a5054be SnapdragonCamera: Fix capture with flash will get black image.
+* 975aeca SnapdragonCamera: Fix FC cause by Null pointer
+* 922c4b3 SnapdragonCamera: Make copy of location before altering timestamp
+* bd1d6ea Snap: Sign with platform key
+* d7247ff Add orientation correction for landscape devices
+
+#### system/bt/
+* 331fc1e bt: Disable AVRCP 1.6
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-13-2017 End.
+
+06-12-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-12-2017:
+
+#### frameworks/base/
+* d49173c FWB:Smartbar touch sounds:make it optional[1/3]
+* 2f037a2 BatteryMeterDrawable:Sync with upstream
+* 17409ca SystemUI:Disable carrier label by default - Increase font size
+* 07ab6ef RRUtils:Add missing Omniswitch contants
+* b7b6261 CaptivePortalLoginActivity correctly gets UserAgent
+* 106869b Prettify the captive portal sign-in activity
+* 60a5ede [1/2] base: OmniSwitch: add preload task broadcast
+* 0f9e9d3 SystemUI: animate icon when locking a task
+* c1dffc8 Automatic translation import
+
+#### packages/apps/DUI/
+* 2562dc1 Fix spammed hindi strings
+* 0e3dedc Update strings.xml
+* 9175a54 Fix bad strings
+* 8ab23f1 Smartbar touch sounds:make it optional [2/3]
+* 885fa36 Pulse: Navbar left in landscape support
+* e9daee7 SmartBar: Touch sound support
+* 6607429 DUI: Fix NPE in MediaMonitor
+* 4bec8d1 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* 6e90ddf [2/2] OmniSwitch: add preload task broadcast
+* 830770d Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 6d6ac17 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 51f326e Automatic translation import
+
+#### packages/apps/Settings/
+* 05fe606 Settings:Smartbar touch sounds:make it optional [3/3]
+* 8666f80 Configurations:Disable carrier label by default
+* 8eaf0a3 Automatic translation import
+* c50618e Add Moto G5 Plus as Official (#805)
+
+#### packages/services/OmniJaws/
+* bc24678 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-12-2017 End.
+
+06-11-2017
+====================
+
+#### Device specific Changes of 06-11-2017 Start:
 
 #### Kernel/Quark/
 * ff49ae7 BACKPORT: mm: oom_kill: don't ignore oom score on exiting tasks
@@ -20,9 +546,40 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * 8878d74 ASoC: msm: qdsp6v2: set pointer to NULL after free.
 * eedc701 led-class: blink support add show function
 
-#### Device specific Changes of 06-10-2017 End.
+#### Device specific Changes of 06-11-2017 End.
 
 ***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-11-2017:
+
+#### frameworks/base/
+* 011d506 Automatic translation import
+
+#### packages/apps/DUI/
+* 8903fe1 Automatic translation import
+
+#### packages/apps/Dialer/
+* 3a806d8 Automatic translation import
+
+#### packages/apps/OmniSwitch/
+* ed35119 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 5cced94 Automatic translation import
+
+#### packages/apps/ResurrectionStats/
+* 4089278 Automatic translation import
+
+#### packages/apps/Settings/
+* a84a1f4 Automatic translation import
+
+#### packages/services/OmniJaws/
+* 0339244 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-11-2017 End.
+
+06-10-2017
+====================
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-10-2017:
 
