@@ -3,6 +3,287 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+06-26-2017
+====================
+
+#### Device specific Changes of 06-26-2017 Start:
+
+#### Device/Quark/
+* a5fc189 Quark: disable charging/trigger for led full
+
+#### Kernel/Quark/
+* a71027e power: bcl vph_low/high_store check with is high/low before store
+* cb0017d power: bcl: mitigate all cores
+* d98afd6 power: bcl: Fix store of wr functions
+* fe1b400 power: bcl: Fix store max freq
+
+#### Vendor/Quark/
+* 5386b45 Quark: update substratum and KA
+
+#### Device specific Changes of 06-26-2017 End.
+
+***
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-26-2017:
+
+#### packages/apps/Jelly/
+* cc66a61 Jelly: Add WebChromeClientCompat
+* e3b22ba Jelly: Fix some lint warnings
+
+#### packages/apps/Settings/
+* 0094be6 Automatic translation import
+* 5d3664d Add Xiaomi MI6(sagit) maintainer (#812)
+
+#### packages/providers/MediaProvider/
+* 0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+* 815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+* f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+* eb0378b MediaProvider: Fix SQLiteDiskIOException.
+* b619475 Revert "Fix check for existence of parent"
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-26-2017 End.
+
+06-25-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-25-2017:
+
+#### packages/apps/DUI/
+* a294b32 Automatic translation import
+
+#### packages/apps/Dialer/
+* e8df87a Automatic translation import
+
+#### packages/apps/Eleven/
+* 38c5aea Eleven: request record audio permission for visualizer
+
+#### packages/apps/Jelly/
+* 2d1bdcd Jelly: Add save form data setting
+* d2926c7 Jelly: add Do Not Track setting
+* 42d6446 Jelly: Add incognito mode shortcut
+* 69c2401 Jelly: Update android tools build
+
+#### packages/apps/OmniSwitch/
+* 63849c9 Automatic translation import
+
+#### packages/apps/PackageInstaller/
+* 6cc1dcc Automatic translation import
+
+#### packages/apps/Settings/
+* e67cf09 Automatic translation import
+
+#### packages/apps/Trebuchet/
+* 8b8de5f Trebuchet: Rename settings provider
+
+#### packages/providers/MediaProvider/
+* 21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
+
+#### packages/services/OmniJaws/
+* 7a2cf75 Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-25-2017 End.
+
+06-24-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-24-2017:
+
+#### frameworks/base/
+* 705744a Automatic translation import
+
+#### packages/apps/Jelly/
+* eff2fd2 Open link in Incognito tab automatically when in Incognito mode
+* f7338cf Jelly: Enable safe browsing
+
+#### packages/apps/Settings/
+* 36c8b81 Automatic translation import
+
+#### packages/apps/SetupWizard/
+* 092d0fa Disable SetupWraith, the ATV SUW.
+
+#### packages/services/Telephony/
+* 091ccb6 Fix Phone Service crash on MSIM devices as Guest user
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-24-2017 End.
+
+06-23-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-23-2017:
+
+#### frameworks/base/
+* 9f0a98e Fix System Navigation fp switch
+
+#### hardware/qcom/fm/
+* 4c2e39e Automatic translation import
+
+#### packages/apps/Bluetooth/
+* 7f2b5c8 Automatic translation import
+
+#### packages/apps/CMBugReport/
+* 2a50a65 Automatic translation import
+
+#### packages/apps/Calendar/
+* ca094f3 Automatic translation import
+
+#### packages/apps/CellBroadcastReceiver/
+* ebf9e97 Automatic translation import
+
+#### packages/apps/Gallery2/
+* 06d5e55 Automatic translation import
+
+#### packages/apps/Jelly/
+* dd23317 Automatic translation import
+* 818e92d Jelly: Guess filename from URL
+* 1a4f237 Jelly: Allow media scan on download
+* a8fe6fa Jelly: Show download notification on completed
+
+#### packages/apps/OmniSwitch/
+* 94907af Automatic translation import
+
+#### packages/apps/Recorder/
+* 67d5b07 Automatic translation import
+
+#### packages/apps/Settings/
+* d16687a Automatic translation import
+
+#### packages/apps/SetupWizard/
+* 33b4491 Automatic translation import
+
+#### packages/apps/Snap/
+* 7e76c83 Automatic translation import
+
+#### packages/apps/Terminal/
+* a2a05d2 Automatic translation import
+
+#### packages/providers/DownloadProvider/
+* 30cc23d Automatic translation import
+
+#### packages/resources/devicesettings/
+* 75498f7 Automatic translation import
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* dd1766a Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-23-2017 End.
+
+06-22-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-22-2017:
+
+#### frameworks/base/
+* 16cf7d0 SystemUI: force a clock update if the screen is turned back on
+* af8a38c SystemUI: disable statusbar time refresh when screen off
+* cdf8770 base: SystemUI: CPU Info: show CPU temp if supported
+* e57631d Frameworks: Fix Null Pointer Issue
+
+#### packages/apps/PackageInstaller/
+* 5ff06fa Automatic translation import
+
+#### packages/apps/Settings/
+* de0afaf Automatic translation import
+* b2b5093 Settings: Fragment cleanups
+* 7a3bbf2 Add nubia Z9 Max nx512j as official (#811)
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-22-2017 End.
+
+06-21-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-21-2017:
+
+#### build/
+* e984480 Clean option: deviceclean
+
+#### frameworks/base/
+* 2e64d3a SystemUI: Fix task lock & freeform buttons placement
+* d7bad2d SymbolComparator operator() is missing const
+* bf079b8 PowerProfile: allow reading from a file instead of resource
+* 73645e5 When updating a split app, copy compiled files from base.apk only.
+* a5691f6 QS Tile: increase DEFAULT_MAX_BOUND to 6
+* 4bf8cbf Fix service cannot start when service removed from restartList
+* fcfcc0a Binder: Log details of pending exception.
+* 648c2d4 Binder: Be forceful about a forceful exit.
+* 11a0aac Only destory ce data when prepare user CE data failed.
+* 8240c47 When backup schedule version error will be caused system_server crash
+* 63a5ada fix ArraySet crash
+* a5ca9a4 Battery icon: Improve theme compatibility
+* 9fba0b5 Adopt lockscreen shortcut hint from AOSP
+* 5ed7a43 Fingerprint swipe gesture to answer/silence incoming call [1/2]
+* 12cadaa Notification panel fingerprint gesture: fix axis on landscape [1/2]
+
+#### packages/apps/OmniSwitch/
+* cfde0e5 Automatic translation import
+
+#### packages/apps/Settings/
+* 1f92081 Settings: update OnePlus 3/3t maintainer, add flo, deb, dragon maintainer
+* 69d2464 Automatic translation import
+* b5c3924 Maintainers: Fix up somethings
+* d0f0f3d Increase Max Small qs tiles to 9
+* be420f3 Fingerprint swipe gesture to answer/silence incoming call [2/2]
+
+#### packages/providers/MediaProvider/
+* fadf365 MediaProvider: Fix where condition of delete queries
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-21-2017 End.
+
+06-20-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-20-2017:
+
+#### frameworks/base/
+* 5399cd9 Revert "edit app_label (#202)"
+
+#### packages/apps/OmniSwitch/
+* d8f1cfc Automatic translation import
+
+#### packages/apps/Settings/
+* 604919b Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-20-2017 End.
+
+06-19-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-19-2017:
+
+#### hardware/qcom/bt-caf/
+* 6473ddb Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD
+
+#### packages/apps/OmniSwitch/
+* 4589f1d Automatic translation import
+
+#### packages/apps/Settings/
+* c94351f Automatic translation import
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-19-2017 End.
+
+06-18-2017
+====================
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-18-2017:
+
+#### device/qcom/common/
+* 5985a61 power: Use the correct opcode for STOR_CLK_SCALE_DIS
+
+#### frameworks/base/
+* 4dbe060 BatteryMeterDrawable:Make it more theme friendly
+
+#### packages/apps/OmniSwitch/
+* a81f49c Automatic translation import
+
+#### packages/apps/Settings/
+* bf3bf5c add Lenovo A7000-a to Official (#810)
+* 9c44dc1 Add Nextbit Robin as Official (#804)
+* 12b187f Automatic translation import
+
+#### packages/apps/SetupWizard/
+* d82d392 The bluetooth pairing page cannot be exited, disable it for now.
+
+#### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-18-2017 End.
+
 06-17-2017
 ====================
 
@@ -29,6 +310,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-17-2017:
 
 #### frameworks/base/
+* ebbfef3 edit app_label (#202)
 * e720cb4 Automatic translation import
 * ac0c76c TaskViewHeader:Don't allow lock button icon to show on grid view
 * 4bdd900 Base: Improve OmniSwitch implementation
@@ -49,6 +331,13 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### packages/apps/WallpaperPicker/
 * 5b27292 Fix bad wallpaper preview image format
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* 37e893a Fix missing s/cyanogenmod/lineageos
+
+#### vendor/qcom/opensource/dataservices/
+* ca40d29 datatop: Remove unused variables from datatop_ip_table_poll.c
+* 76076b1 datatop: Fix out_dir array empty content verification
 
 #### /home/bhb27/Resurrection Remix OS - Nougat source changes of 06-17-2017 End.
 
