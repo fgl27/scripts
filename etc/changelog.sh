@@ -1,8 +1,7 @@
 #!/bin/bash
 # Simple sh to automatic generate a file with source and device specif git commit changes to use in a github wiki pages or file.md
 # like this:
-# https://github.com/bhb27/scripts/wiki/CRDroid-Android-Nougat-source-and-Quark-Changelog
-# https://github.com/bhb27/scripts/blob/master/etc/changelogs/Changelog_CR_N.md
+# https://github.com/bhb27/scripts/blob/master/etc/Sample.md
 # file.md can work with more data or have more lines then a page wiki
 
 # input variables set the below the rest must be automatic
@@ -25,7 +24,7 @@ if [ ! "$rom" == "r" ] && [ ! "$rom" == "c" ]; then
 	exit;
 elif [ "$rom" == "r" ]; then
         source_tree=$HOME/$source_tree_r
-	source_name=$HOME/$source_name_r
+	source_name=$source_name_r
 elif [ "$rom" == "c" ]; then
         source_tree=$source_tree_c
 	source_name=$source_name_c
@@ -56,8 +55,62 @@ echo >> $Changelog;
 
 cd $source_tree
 
+git_log_tree() {
+	cd $1
+	git log --oneline --after=$2 --until=$3 | sed 's/^//' | while read string; do
+		temp_one=${string:8}
+                temp_two="${string// /%20}"
+		temp_two="${temp_two//(/%28}"
+		temp_two="${temp_two//#/%23}"
+		temp_two="${temp_two//)/%29}"
+		temp_two="${temp_two//@/%40}"
+		temp_two="${temp_two//:/%3A}"
+		echo "* [$string](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
+        done
+	cd -  > /dev/null
+	echo >> $Changelog;
+}
+
+contains() {
+    string="$1"
+    substring="$2"
+    if test "${string#*$substring}" != "$string"
+    then
+        return 0    # $substring is in $string
+    else
+        return 1    # $substring is not in $string
+    fi
+}
+
+git_log_repo() {
+	repo forall -pc 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
+		project=0;
+                temp_test="$string"
+		contains "$temp_test" "project" && project=1;
+		if [ -n "${string##+([:space:])}" ]; then
+			if [ "$project" == 0 ]; then
+				temp_one=${string:8}
+				temp_two="${temp_one// /%20}"
+				temp_two="${temp_two//(/%28}"
+				temp_two="${temp_two//#/%23}"
+				temp_two="${temp_two//)/%29}"
+				temp_two="${temp_two//@/%40}"
+				temp_two="${temp_two//:/%3A}"
+				echo "* [$string](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
+			else
+				echo "* $string" >> $Changelog;
+			fi;
+                else
+			echo >> $Changelog;
+		fi
+        done
+	echo >> $Changelog;
+	echo "#### $source_name source changes of $Until_Date End." >>  $Changelog;
+	echo >> $Changelog;
+}
+
 for i in $(seq $days_to_log);
-do
+do	
 export After_Date=`date --date="$i days ago" +%m-%d-%Y`
 k=$(expr $i - 1)
 	export Until_Date=`date --date="$k days ago" +%m-%d-%Y`
@@ -82,26 +135,17 @@ k=$(expr $i - 1)
 
 	if [ -n "${device##+([:space:])}" ]; then
 		echo "#### Device/$device_name/" >>  $Changelog;
-		cd $device_tree 
-		git log --oneline --after=$After_Date --until=$Until_Date | sed 's/^/* /' >> $Changelog
-		cd -  > /dev/null
-		echo >> $Changelog;
+                git_log_tree $device_tree $After_Date $Until_Date
 	fi
 
 	if [ -n "${kernel##+([:space:])}" ]; then
 		echo "#### Kernel/$device_name/" >>  $Changelog;
-		cd $kernel_tree 
-		git log --oneline --after=$After_Date --until=$Until_Date | sed 's/^/* /' >> $Changelog
-		cd -  > /dev/null
-		echo >> $Changelog;
+                git_log_tree $kernel_tree $After_Date $Until_Date
 	fi
 
 	if [ -n "${vendor##+([:space:])}" ]; then
 		echo "#### Vendor/$device_name/" >>  $Changelog;
-		cd $vendor_tree
-		git log --oneline --after=$After_Date --until=$Until_Date | sed 's/^/* /' >> $Changelog
-		cd -  > /dev/null
-		echo >> $Changelog;
+                git_log_tree $vendor_tree $After_Date $Until_Date
 	fi
 
 
@@ -114,10 +158,7 @@ k=$(expr $i - 1)
 
 	if [ -n "${source##+([:space:])}" ]; then
 		echo "#### $source_name source changes of $Until_Date:" >>  $Changelog;
-		repo forall -pc 'git log --oneline --after=$After_Date --until=$Until_Date' | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' >> $Changelog
-		echo >> $Changelog;
-		echo "#### $source_name source changes of $Until_Date End." >>  $Changelog;
-		echo >> $Changelog;
+                git_log_repo $After_Date $Until_Date
 	fi
 
 done
