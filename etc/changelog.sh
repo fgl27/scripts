@@ -59,7 +59,7 @@ git_log_tree() {
 	cd $1
 	git log --oneline --after=$2 --until=$3 | sed 's/^//' | while read string; do
 		temp_one=${string:8}
-                temp_two="${string// /%20}"
+                temp_two="${temp_one// /%20}"
 		temp_two="${temp_two//(/%28}"
 		temp_two="${temp_two//#/%23}"
 		temp_two="${temp_two//)/%29}"
