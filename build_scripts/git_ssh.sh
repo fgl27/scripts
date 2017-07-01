@@ -72,4 +72,4 @@ elif [ "$tree" == 6 ]; then
    echo -e "$url/turbotoast \n"
 fi
 
-echo -e "Use - git remote show origin - in the device tree to see the effect \n"
+echo -e "Use - git remote show origin - in the tree to see the effect \n"
