@@ -4,7 +4,7 @@
 #make -j4 multirom_uninstaller
 export TW_DEVICE_VERSION=MOD_1;
 
-echo -e "n\Omni?\n 1 = Yes\n"
+echo -e "\nOmni?\n 1 = Yes\n"
 read -r input1
 echo -e "\nYou choose: $input1"
 
@@ -21,7 +21,7 @@ echo $TWRP_V;
 if [ "$input1" == "1" ]; then
 echo -e "\nCommit?\n 1 = Yes\n"
 read -r input2
-echo -e "\nYou choose: $input1"
+echo -e "\nYou choose: $input2"
 	if [ "$input2" == "1" ]; then
 		cd build/
 		git fetch https://review.lineageos.org/LineageOS/android_build refs/changes/89/2689/1 && git cherry-pick FETCH_HEAD
@@ -30,11 +30,11 @@ echo -e "\nYou choose: $input1"
 . build/envsetup.sh 
 lunch omni_quark-eng
 else
-	. build/envsetup.sh
 	export RR_BUILDTYPE="official"
 	export days_to_log=0
 	export WITH_ROOT_METHOD="rootless"
 	export WITH_SU=true
+	. build/envsetup.sh
 	lunch cm_quark-userdebug
 fi
 make clean
