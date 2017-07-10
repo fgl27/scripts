@@ -4,7 +4,7 @@
 #make -j4 multirom_uninstaller
 export TW_DEVICE_VERSION=MOD_1;
 
-echo -e "\Omni?\n 1 = Yes\n"
+echo -e "n\Omni?\n 1 = Yes\n"
 read -r input1
 echo -e "\nYou choose: $input1"
 
@@ -31,9 +31,10 @@ echo -e "\nYou choose: $input1"
 lunch omni_quark-eng
 else
 	. build/envsetup.sh
-	1
-	1
-	0
+	export RR_BUILDTYPE="official"
+	export days_to_log=0
+	export WITH_ROOT_METHOD="rootless"
+	export WITH_SU=true
 	lunch cm_quark-userdebug
 fi
 make clean
