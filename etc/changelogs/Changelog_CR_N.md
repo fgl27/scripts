@@ -3,6 +3,559 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+07-09-2017
+====================
+
+#### Device specific Changes of 07-09-2017 Start:
+
+#### Device/Quark/
+* [b2150f9 Quark: cmactions use TimerTask to enable irsensor](https://github.com/search?q=Quark%3A%20cmactions%20use%20TimerTask%20to%20enable%20irsensor&type=Commits)
+
+#### Kernel/Quark/
+* [9f54558 bcl: allow lower mit freq](https://github.com/search?q=bcl%3A%20allow%20lower%20mit%20freq&type=Commits)
+
+#### Vendor/Quark/
+* [957ce35 Quark: remove InductiveChargeUI it causes wakealock](https://github.com/search?q=Quark%3A%20remove%20InductiveChargeUI%20it%20causes%20wakealock&type=Commits)
+
+#### Device specific Changes of 07-09-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 07-09-2017:
+
+#### packages/services/Telecomm/
+* [82aecd1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%207.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [1c698f7 Update sailfish, angler & bullhead](https://github.com/search?q=Update%20sailfish,%20angler%20&%20bullhead&type=Commits)
+* [562c2d5 Update harpia build](https://github.com/search?q=Update%20harpia%20build&type=Commits)
+* [aa52139 I9506 ks01ltexx update](https://github.com/search?q=I9506%20ks01ltexx%20update&type=Commits)
+* [6494f33 Update marlin](https://github.com/search?q=Update%20marlin&type=Commits)
+* [72e4d50 onpleus3 update](https://github.com/search?q=onpleus3%20update&type=Commits)
+* [f60acd8 Merge branch '7.1' of https://github.com/crdroid-devices/android_vendor_crDroidOTA into HEAD](https://github.com/search?q=Merge%20branch%20'7.1'%20of%20https%3A//github.com/crdroid-devices/android_vendor_crDroidOTA%20into%20HEAD&type=Commits)
+* [1856bde mido: tomato: s2: update build dates](https://github.com/search?q=mido%3A%20tomato%3A%20s2%3A%20update%20build%20dates&type=Commits)
+* [c243e61 v500: Update to 3.5](https://github.com/search?q=v500%3A%20Update%20to%203.5&type=Commits)
+* [c1d6a48 Merge branch '7.1' of https://github.com/crdroid-devices/android_vendor_crDroidOTA into HEAD](https://github.com/search?q=Merge%20branch%20'7.1'%20of%20https%3A//github.com/crdroid-devices/android_vendor_crDroidOTA%20into%20HEAD&type=Commits)
+* [20898dd mido: tomato: s2: upadate to 3.5](https://github.com/search?q=mido%3A%20tomato%3A%20s2%3A%20upadate%20to%203.5&type=Commits)
+* [414c238 crackling: Update to 3.5](https://github.com/search?q=crackling%3A%20Update%20to%203.5&type=Commits)
+* [e39bed8 Update chagelog - 7/9/17](https://github.com/search?q=Update%20chagelog%20-%207/9/17&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-09-2017 End.
+
+07-08-2017
+====================
+
+#### Device specific Changes of 07-08-2017 Start:
+
+#### Device/Quark/
+* [8619483 Quark: cmactions use TimerTask to disable irsensor](https://github.com/search?q=Quark%3A%20cmactions%20use%20TimerTask%20to%20disable%20irsensor&type=Commits)
+
+#### Device specific Changes of 07-08-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 07-08-2017:
+
+#### packages/apps/AudioFX/
+* [4273aee Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [bd7c0d6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [99c0a8b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [e0810ea Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [9f2ff45 LockClock: add option to suppress date on widget](https://github.com/search?q=LockClock%3A%20add%20option%20to%20suppress%20date%20on%20widget&type=Commits)
+
+#### packages/apps/Terminal/
+* [2e009e8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [0c57bc3 crdroid: Fix typo](https://github.com/search?q=crdroid%3A%20Fix%20typo&type=Commits)
+* [57adad6 Merge pull request #67 from soubhik-khan/7.1](https://github.com/search?q=Merge%20pull%20request%20%2367%20from%20soubhik-khan/7.1&type=Commits)
+* [7c563c8 crdroid: fix mido maintainer username](https://github.com/search?q=crdroid%3A%20fix%20mido%20maintainer%20username&type=Commits)
+* [0fa2610 crdroid: Fix device maintainer string](https://github.com/search?q=crdroid%3A%20Fix%20device%20maintainer%20string&type=Commits)
+* [3f155b4 crdroid: Add Redmi 2 maintainer](https://github.com/search?q=crdroid%3A%20Add%20Redmi%202%20maintainer&type=Commits)
+* [d8f77bf Merge pull request #66 from beroid/7.1](https://github.com/search?q=Merge%20pull%20request%20%2366%20from%20beroid/7.1&type=Commits)
+* [c15a5ad crdroid: Fix RU translations](https://github.com/search?q=crdroid%3A%20Fix%20RU%20translations&type=Commits)
+* [21bfffb Merge pull request #63 from beroid/7.1](https://github.com/search?q=Merge%20pull%20request%20%2363%20from%20beroid/7.1&type=Commits)
+* [8712df0 crdroid: Update RU translations](https://github.com/search?q=crdroid%3A%20Update%20RU%20translations&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [37f067f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [48a177f update herolte & hero2lte to build crDroidAndroid-7.1.2-20170708](https://github.com/search?q=update%20herolte%20&%20hero2lte%20to%20build%20crDroidAndroid-7.1.2-20170708&type=Commits)
+* [b7c3e6e shamu: Update to v3.5](https://github.com/search?q=shamu%3A%20Update%20to%20v3.5&type=Commits)
+* [69eaf6c Create changelog_axon7.txt](https://github.com/search?q=Create%20changelog_axon7.txt&type=Commits)
+* [1d20121 Add Axon7](https://github.com/search?q=Add%20Axon7&type=Commits)
+* [4e7af01 crdroidOTA: House keeping](https://github.com/search?q=crdroidOTA%3A%20House%20keeping&type=Commits)
+* [3de85a7 Merge pull request #14 from Ayushd70/patch-5](https://github.com/search?q=Merge%20pull%20request%20%2314%20from%20Ayushd70/patch-5&type=Commits)
+* [8f12aed Merge pull request #13 from Ayushd70/patch-4](https://github.com/search?q=Merge%20pull%20request%20%2313%20from%20Ayushd70/patch-4&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-08-2017 End.
+
+07-07-2017
+====================
+
+#### Device specific Changes of 07-07-2017 Start:
+
+#### Device/Quark/
+* [443b4dd Quark: add first_api_level property](https://github.com/search?q=Quark%3A%20add%20first_api_level%20property&type=Commits)
+* [97670e0 Quark: remove discard from fstab](https://github.com/search?q=Quark%3A%20remove%20discard%20from%20fstab&type=Commits)
+* [38f1138 Quark: Ensure device does not use "allow hold" carrier config option.](https://github.com/search?q=Quark%3A%20Ensure%20device%20does%20not%20use%20"allow%20hold"%20carrier%20config%20option.&type=Commits)
+* [705442c Quark: Compile libhwui in perf mode](https://github.com/search?q=Quark%3A%20Compile%20libhwui%20in%20perf%20mode&type=Commits)
+* [363bae4 Quark: Enable triple framebuffers](https://github.com/search?q=Quark%3A%20Enable%20triple%20framebuffers&type=Commits)
+* [81f6730 Quark: Abandon TARGET_UNIFIED_DEVICE flag](https://github.com/search?q=Quark%3A%20Abandon%20TARGET_UNIFIED_DEVICE%20flag&type=Commits)
+* [b0f65b3 Quark: Allow vendor init to override props](https://github.com/search?q=Quark%3A%20Allow%20vendor%20init%20to%20override%20props&type=Commits)
+
+#### Kernel/Quark/
+* [9a0ba17 defconfig ena FB_MSM_TRIPLE_BUFFER](https://github.com/search?q=defconfig%20ena%20FB_MSM_TRIPLE_BUFFER&type=Commits)
+
+#### Device specific Changes of 07-07-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 07-07-2017:
+
+#### frameworks/base/
+* [a13e154 base: Enable/disable kill button on notification guts [1/2]](https://github.com/search?q=base%3A%20Enable/disable%20kill%20button%20on%20notification%20guts%20[1/2]&type=Commits)
+* [4f14cac SmartBar: make button longpress delay configurable [2/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[2/3]&type=Commits)
+* [74e9a9d fingerprint: Speed up wake-and-unlock scenario](https://github.com/search?q=fingerprint%3A%20Speed%20up%20wake-and-unlock%20scenario&type=Commits)
+* [b2ac9b5 QSTiles: update LiveDisplay tile](https://github.com/search?q=QSTiles%3A%20update%20LiveDisplay%20tile&type=Commits)
+
+#### packages/apps/CMParts/
+* [347fa2b CMParts: Use vector drawables for most system icons](https://github.com/search?q=CMParts%3A%20Use%20vector%20drawables%20for%20most%20system%20icons&type=Commits)
+
+#### packages/apps/DUI/
+* [73ffaf1 SmartBar: make button longpress delay configurable [1/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[1/3]&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [2ffbd66 Merge branch 'mkn-mr1' of https://github.com/MoKee/android_packages_apps_AmazeFileManager into 7.1](https://github.com/search?q=Merge%20branch%20'mkn-mr1'%20of%20https%3A//github.com/MoKee/android_packages_apps_AmazeFileManager%20into%207.1&type=Commits)
+* [f1d70d7 Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [65b4242 Make DataUtils singleton](https://github.com/search?q=Make%20DataUtils%20singleton&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [30c502b crdroid: Add icon for torch settings](https://github.com/search?q=crdroid%3A%20Add%20icon%20for%20torch%20settings&type=Commits)
+* [4866548 Torch long press power: add auto-off function [3/3]](https://github.com/search?q=Torch%20long%20press%20power%3A%20add%20auto-off%20function%20[3/3]&type=Commits)
+* [f8aa1e9 crdroid: Enable/disable kill button on notification guts [2/2]](https://github.com/search?q=crdroid%3A%20Enable/disable%20kill%20button%20on%20notification%20guts%20[2/2]&type=Commits)
+* [91c762b SmartBar: make button longpress delay configurable [3/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[3/3]&type=Commits)
+
+#### packages/services/Telecomm/
+* [de50734 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%207.1&type=Commits)
+* [021cadd SensitivePhoneNumbers: Fix number comparison](https://github.com/search?q=SensitivePhoneNumbers%3A%20Fix%20number%20comparison&type=Commits)
+
+#### system/sepolicy/
+* [6b5977e sepolicy: More tmpfs denial fixes](https://github.com/search?q=sepolicy%3A%20More%20tmpfs%20denial%20fixes&type=Commits)
+
+#### vendor/cm/
+* [318c8da crDroid v3.5](https://github.com/search?q=crDroid%20v3.5&type=Commits)
+* [0a9ff6e sensitive_pn: Update from LOS](https://github.com/search?q=sensitive_pn%3A%20Update%20from%20LOS&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [46937b3 Create changelog_wt88047.txt](https://github.com/search?q=Create%20changelog_wt88047.txt&type=Commits)
+* [4a7f4bc Add REDMI2](https://github.com/search?q=Add%20REDMI2&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-07-2017 End.
+
+07-06-2017
+====================
+
+#### Device specific Changes of 07-06-2017 Start:
+
+#### Device/Quark/
+* [c6de6c3 Quark: cmaction prevent crash from registerListener in IrSilencer](https://github.com/search?q=Quark%3A%20cmaction%20prevent%20crash%20from%20registerListener%20in%20IrSilencer&type=Commits)
+* [46f3c7e Quark: enable sdlang toolchaing](https://github.com/search?q=Quark%3A%20enable%20sdlang%20toolchaing&type=Commits)
+* [39a1c4f Quark: cmaction prevent crash of Irgestures sensor](https://github.com/search?q=Quark%3A%20cmaction%20prevent%20crash%20of%20Irgestures%20sensor&type=Commits)
+* [79ea254 Quark: cmactions fix wave to silence](https://github.com/search?q=Quark%3A%20cmactions%20fix%20wave%20to%20silence&type=Commits)
+* [30c108e Revert "Quark: cmactions prevent crash of Irgestures sensor"](https://github.com/search?q=Revert%20"Quark%3A%20cmactions%20prevent%20crash%20of%20Irgestures%20sensor"&type=Commits)
+* [93a9e8c Revert "Quark: cmactions fix wave to silence"](https://github.com/search?q=Revert%20"Quark%3A%20cmactions%20fix%20wave%20to%20silence"&type=Commits)
+* [ee186cc Revert "Quark: cmactions UserAwareDisplay prevent crash of Irgestures sensor"](https://github.com/search?q=Revert%20"Quark%3A%20cmactions%20UserAwareDisplay%20prevent%20crash%20of%20Irgestures%20sensor"&type=Commits)
+
+#### Device specific Changes of 07-06-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 07-06-2017:
+
+#### android/
+* [e80d6ca Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android%20into%207.1&type=Commits)
+* [6c8d659 manifest: android-7.1.2_r17 -> android-7.1.2_r24](https://github.com/search?q=manifest%3A%20android-7.1.2_r17%20->%20android-7.1.2_r24&type=Commits)
+
+#### art/
+* [3f3971d Avoid use of pthread_getschedparam](https://github.com/search?q=Avoid%20use%20of%20pthread_getschedparam&type=Commits)
+
+#### build/
+* [7033bca Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_build%20into%207.1&type=Commits)
+* [644d84d Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### external/boringssl/
+* [c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### external/libxml2/
+* [ad8c0d4 Heap-buffer-overflow read of size 1 in xmlFAParsePosCharGroup](https://github.com/search?q=Heap-buffer-overflow%20read%20of%20size%201%20in%20xmlFAParsePosCharGroup&type=Commits)
+* [5aefc6c Fix NULL pointer deref in xmlFAParseCharClassEsc](https://github.com/search?q=Fix%20NULL%20pointer%20deref%20in%20xmlFAParseCharClassEsc&type=Commits)
+* [6f42be5 Fix infinite loops with push parser in recovery mode](https://github.com/search?q=Fix%20infinite%20loops%20with%20push%20parser%20in%20recovery%20mode&type=Commits)
+* [50ca706 Send xmllint usage error to stderr](https://github.com/search?q=Send%20xmllint%20usage%20error%20to%20stderr&type=Commits)
+* [f8a8859 Fix NULL deref in xmlParseExternalEntityPrivate](https://github.com/search?q=Fix%20NULL%20deref%20in%20xmlParseExternalEntityPrivate&type=Commits)
+* [39e1239 Get rid of "blanks wrapper" for parameter entities](https://github.com/search?q=Get%20rid%20of%20"blanks%20wrapper"%20for%20parameter%20entities&type=Commits)
+* [79e4a7b Make sure not to call IS_BLANK_CH when parsing the DTD](https://github.com/search?q=Make%20sure%20not%20to%20call%20IS_BLANK_CH%20when%20parsing%20the%20DTD&type=Commits)
+* [e9bd9ff Remove unnecessary calls to xmlPopInput](https://github.com/search?q=Remove%20unnecessary%20calls%20to%20xmlPopInput&type=Commits)
+* [815efa2 Simplify handling of parameter entity references](https://github.com/search?q=Simplify%20handling%20of%20parameter%20entity%20references&type=Commits)
+* [4c7c36c Fix xmlHaltParser](https://github.com/search?q=Fix%20xmlHaltParser&type=Commits)
+* [179ebbd Fix pathological performance when outputting charrefs](https://github.com/search?q=Fix%20pathological%20performance%20when%20outputting%20charrefs&type=Commits)
+* [25f6344 Deduplicate code in encoding.c](https://github.com/search?q=Deduplicate%20code%20in%20encoding.c&type=Commits)
+* [4f6d2b3 Documentation fixes](https://github.com/search?q=Documentation%20fixes&type=Commits)
+* [2ec47e8 Spelling and grammar fixes](https://github.com/search?q=Spelling%20and%20grammar%20fixes&type=Commits)
+* [dd470d0 Make HTML parser functions take const pointers](https://github.com/search?q=Make%20HTML%20parser%20functions%20take%20const%20pointers&type=Commits)
+* [767ba5b Build test programs only when needed](https://github.com/search?q=Build%20test%20programs%20only%20when%20needed&type=Commits)
+* [ba4d1ff Fix doc/examples/index.py](https://github.com/search?q=Fix%20doc/examples/index.py&type=Commits)
+* [9d8b96b Fix compiler warnings in threads.c](https://github.com/search?q=Fix%20compiler%20warnings%20in%20threads.c&type=Commits)
+* [259edbe Fix empty-body warning in nanohttp.c](https://github.com/search?q=Fix%20empty-body%20warning%20in%20nanohttp.c&type=Commits)
+* [78025b4 Fix cast-align warnings](https://github.com/search?q=Fix%20cast-align%20warnings&type=Commits)
+* [1cb2cec Fix unused-parameter warnings](https://github.com/search?q=Fix%20unused-parameter%20warnings&type=Commits)
+* [d624150 Fix invalid-source-encoding warnings in testWriter.c](https://github.com/search?q=Fix%20invalid-source-encoding%20warnings%20in%20testWriter.c&type=Commits)
+* [62939f7 Rework entity boundary checks](https://github.com/search?q=Rework%20entity%20boundary%20checks&type=Commits)
+* [106e849 Don't switch encoding for internal parameter entities](https://github.com/search?q=Don't%20switch%20encoding%20for%20internal%20parameter%20entities&type=Commits)
+* [02bd0c4 Merge duplicate code paths handling PE references](https://github.com/search?q=Merge%20duplicate%20code%20paths%20handling%20PE%20references&type=Commits)
+* [3d36ce8 Test SAX2 callbacks with entity substitution](https://github.com/search?q=Test%20SAX2%20callbacks%20with%20entity%20substitution&type=Commits)
+* [ef2be65 Fix duplicate SAX callbacks for entity content](https://github.com/search?q=Fix%20duplicate%20SAX%20callbacks%20for%20entity%20content&type=Commits)
+* [e99941e Support catalog and threads tests under --without-sax1](https://github.com/search?q=Support%20catalog%20and%20threads%20tests%20under%20--without-sax1&type=Commits)
+* [9e83cfc Treat URIs with scheme as absolute in C14N](https://github.com/search?q=Treat%20URIs%20with%20scheme%20as%20absolute%20in%20C14N&type=Commits)
+* [a7230a0 Misc fixes for 'make tests'](https://github.com/search?q=Misc%20fixes%20for%20'make%20tests'&type=Commits)
+* [3d690b5 Initialize keepBlanks in HTML parser](https://github.com/search?q=Initialize%20keepBlanks%20in%20HTML%20parser&type=Commits)
+* [f3133e8 Add test cases for bug 758518](https://github.com/search?q=Add%20test%20cases%20for%20bug%20758518&type=Commits)
+* [a281af9 Fix copy-paste errors in error messages](https://github.com/search?q=Fix%20copy-paste%20errors%20in%20error%20messages&type=Commits)
+* [fa8c829 Print error messages for truncated UTF-8 sequences](https://github.com/search?q=Print%20error%20messages%20for%20truncated%20UTF-8%20sequences&type=Commits)
+* [b25a02e Fix potential infinite loop in xmlStringLenDecodeEntities](https://github.com/search?q=Fix%20potential%20infinite%20loop%20in%20xmlStringLenDecodeEntities&type=Commits)
+* [2699614 Remove useless check in xmlParseAttributeListDecl](https://github.com/search?q=Remove%20useless%20check%20in%20xmlParseAttributeListDecl&type=Commits)
+* [035f5a7 Reset parser input pointers on encoding failure](https://github.com/search?q=Reset%20parser%20input%20pointers%20on%20encoding%20failure&type=Commits)
+* [49d506c Fix memory leak in xmlParseEntityDecl error path](https://github.com/search?q=Fix%20memory%20leak%20in%20xmlParseEntityDecl%20error%20path&type=Commits)
+* [5959b76 Allow zero sized memory input buffers](https://github.com/search?q=Allow%20zero%20sized%20memory%20input%20buffers&type=Commits)
+* [bb4ef6d Fix xmlBuildRelativeURI for URIs starting with './'](https://github.com/search?q=Fix%20xmlBuildRelativeURI%20for%20URIs%20starting%20with%20'./'&type=Commits)
+* [3df1351 Add TODO comment in xmlSwitchEncoding](https://github.com/search?q=Add%20TODO%20comment%20in%20xmlSwitchEncoding&type=Commits)
+* [47a2412 Fix type confusion in xmlValidateOneNamespace](https://github.com/search?q=Fix%20type%20confusion%20in%20xmlValidateOneNamespace&type=Commits)
+* [b2a3151 Fix memory leak in xmlStringLenGetNodeList](https://github.com/search?q=Fix%20memory%20leak%20in%20xmlStringLenGetNodeList&type=Commits)
+* [012c6cc Fix NULL pointer deref in xmlDumpElementContent](https://github.com/search?q=Fix%20NULL%20pointer%20deref%20in%20xmlDumpElementContent&type=Commits)
+* [afe54e7 Fix memory leak in xmlBufAttrSerializeTxtContent](https://github.com/search?q=Fix%20memory%20leak%20in%20xmlBufAttrSerializeTxtContent&type=Commits)
+* [4ca111e Stop parser on unsupported encodings](https://github.com/search?q=Stop%20parser%20on%20unsupported%20encodings&type=Commits)
+* [5eacc3a Revert "Add an XML_PARSE_NOXXE flag to block all entities loading even local"](https://github.com/search?q=Revert%20"Add%20an%20XML_PARSE_NOXXE%20flag%20to%20block%20all%20entities%20loading%20even%20local"&type=Commits)
+* [7e8b43b Check for integer overflow in memory debug code](https://github.com/search?q=Check%20for%20integer%20overflow%20in%20memory%20debug%20code&type=Commits)
+* [aea3cee Fix buffer size checks in xmlSnprintfElementContent](https://github.com/search?q=Fix%20buffer%20size%20checks%20in%20xmlSnprintfElementContent&type=Commits)
+* [747acf3 Fix handling of parameter-entity references](https://github.com/search?q=Fix%20handling%20of%20parameter-entity%20references&type=Commits)
+* [bdef411 Check for integer overflow in xmlXPathFormatNumber](https://github.com/search?q=Check%20for%20integer%20overflow%20in%20xmlXPathFormatNumber&type=Commits)
+* [a642422 Make Travis print UBSan stacktraces](https://github.com/search?q=Make%20Travis%20print%20UBSan%20stacktraces&type=Commits)
+* [e30f1c8 Add .travis.yml](https://github.com/search?q=Add%20.travis.yml&type=Commits)
+* [f71d49d Fix expected error output in Python tests](https://github.com/search?q=Fix%20expected%20error%20output%20in%20Python%20tests&type=Commits)
+* [0e967a5 Avoid reparsing in xmlParseStartTag2](https://github.com/search?q=Avoid%20reparsing%20in%20xmlParseStartTag2&type=Commits)
+* [4f54a8d Simplify control flow in xmlParseStartTag2](https://github.com/search?q=Simplify%20control%20flow%20in%20xmlParseStartTag2&type=Commits)
+* [6455923 Disable LeakSanitizer when running API tests](https://github.com/search?q=Disable%20LeakSanitizer%20when%20running%20API%20tests&type=Commits)
+* [9510b61 Avoid out-of-bound array access in API tests](https://github.com/search?q=Avoid%20out-of-bound%20array%20access%20in%20API%20tests&type=Commits)
+* [ae9bf6f Fix undefined behavior in xmlRegExecPushStringInternal](https://github.com/search?q=Fix%20undefined%20behavior%20in%20xmlRegExecPushStringInternal&type=Commits)
+* [9a610e9 Avoid spurious UBSan errors in parser.c](https://github.com/search?q=Avoid%20spurious%20UBSan%20errors%20in%20parser.c&type=Commits)
+* [4721fc5 Check XPath exponents for overflow](https://github.com/search?q=Check%20XPath%20exponents%20for%20overflow&type=Commits)
+* [1a86d09 Check for overflow in xmlXPathIsPositionalPredicate](https://github.com/search?q=Check%20for%20overflow%20in%20xmlXPathIsPositionalPredicate&type=Commits)
+* [17e3b79 Parse small XPath numbers more accurately](https://github.com/search?q=Parse%20small%20XPath%20numbers%20more%20accurately&type=Commits)
+* [34f233f Rework XPath rounding functions](https://github.com/search?q=Rework%20XPath%20rounding%20functions&type=Commits)
+* [604a414 Fix white space in test output](https://github.com/search?q=Fix%20white%20space%20in%20test%20output&type=Commits)
+* [fe2c02e Fix axis traversal from attribute and namespace nodes](https://github.com/search?q=Fix%20axis%20traversal%20from%20attribute%20and%20namespace%20nodes&type=Commits)
+
+#### external/skia/
+* [8610591 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_external_skia into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_external_skia%20into%207.1&type=Commits)
+* [7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### frameworks/av/
+* [82c7e89 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%207.1&type=Commits)
+* [9295880 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### frameworks/base/
+* [9c176f2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+* [bf088b8 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### frameworks/native/
+* [8c863f2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%207.1&type=Commits)
+* [f83381f Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### frameworks/support/
+* [839d2bd Prevent stopped Loaders from starting during configuration change.](https://github.com/search?q=Prevent%20stopped%20Loaders%20from%20starting%20during%20configuration%20change.&type=Commits)
+
+#### libcore/
+* [884be32 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_libcore into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_libcore%20into%207.1&type=Commits)
+* [30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/Contacts/
+* [0c60561 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%207.1&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [4e29607 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%207.1&type=Commits)
+
+#### packages/apps/Dialer/
+* [3800d8d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%207.1&type=Commits)
+
+#### packages/apps/Settings/
+* [ab68d39 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+* [eaf55d5 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [20e6492 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [f197de0 Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [b633b92 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### packages/services/Telephony/
+* [6a77904 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%207.1&type=Commits)
+
+#### system/sepolicy/
+* [2043d50 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_sepolicy into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%207.1&type=Commits)
+* [e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### vendor/addons/
+* [f6a7930 addons: Update Turbo apk](https://github.com/search?q=addons%3A%20Update%20Turbo%20apk&type=Commits)
+
+#### vendor/cm/
+* [9a5078d Add LTE support for China Telecom Macau.](https://github.com/search?q=Add%20LTE%20support%20for%20China%20Telecom%20Macau.&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-06-2017 End.
+
+07-05-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-05-2017:
+
+#### android/
+* [69ac95d manifest: Track libjpeg-turbo](https://github.com/search?q=manifest%3A%20Track%20libjpeg-turbo&type=Commits)
+* [8895e80 manifest: Track expat](https://github.com/search?q=manifest%3A%20Track%20expat&type=Commits)
+
+#### external/expat/
+* [2302f15 Upgrade to expat 2.2.1](https://github.com/search?q=Upgrade%20to%20expat%202.2.1&type=Commits)
+
+#### external/libjpeg-turbo/
+* [a627505 TurboJPEG: Document xform issue w/ big marker data](https://github.com/search?q=TurboJPEG%3A%20Document%20xform%20issue%20w/%20big%20marker%20data&type=Commits)
+* [edb916f Java TJBench: Fix parsing of -warmup argument](https://github.com/search?q=Java%20TJBench%3A%20Fix%20parsing%20of%20-warmup%20argument&type=Commits)
+* [4dbbb15 Build: Disable warmup in TJBench regression tests](https://github.com/search?q=Build%3A%20Disable%20warmup%20in%20TJBench%20regression%20tests&type=Commits)
+* [b1e1753 TJBench: Improve consistency of results](https://github.com/search?q=TJBench%3A%20Improve%20consistency%20of%20results&type=Commits)
+* [fe4d227 TurboJPEG: C API documentation buglet](https://github.com/search?q=TurboJPEG%3A%20C%20API%20documentation%20buglet&type=Commits)
+* [2050ad5 TJBench: Code formatting tweaks](https://github.com/search?q=TJBench%3A%20Code%20formatting%20tweaks&type=Commits)
+* [1ac8104 TJBench: Fix errors when decomp. files w/ ICC data](https://github.com/search?q=TJBench%3A%20Fix%20errors%20when%20decomp.%20files%20w/%20ICC%20data&type=Commits)
+* [905a652 BUILDING.md: Include Android/x86 build recipes](https://github.com/search?q=BUILDING.md%3A%20Include%20Android/x86%20build%20recipes&type=Commits)
+* [bab9662 Travis: Fix OS X build](https://github.com/search?q=Travis%3A%20Fix%20OS%20X%20build&type=Commits)
+* [def9f42 Restore compatibility with older autoconf releases](https://github.com/search?q=Restore%20compatibility%20with%20older%20autoconf%20releases&type=Commits)
+* [c815ee2 Attribute ARM runtime detection code to Nokia](https://github.com/search?q=Attribute%20ARM%20runtime%20detection%20code%20to%20Nokia&type=Commits)
+
+#### external/libpng/
+* [55628a3 [libpng16] Added "Requires: zlib" to libpng.pc.in (Pieter Neerincx).](https://github.com/search?q=[libpng16]%20Added%20"Requires%3A%20zlib"%20to%20libpng.pc.in%20%28Pieter%20Neerincx%29.&type=Commits)
+* [90bd75a libpng: Upgrade to 1.6.30](https://github.com/search?q=libpng%3A%20Upgrade%20to%201.6.30&type=Commits)
+
+#### external/zlib/
+* [0c79b14 Using ARMv8 CRC32 specific instruction](https://github.com/search?q=Using%20ARMv8%20CRC32%20specific%20instruction&type=Commits)
+* [c8ed945 NEON implementation for Adler32](https://github.com/search?q=NEON%20implementation%20for%20Adler32&type=Commits)
+* [cb655f2 Cache s->ins_h in a scalar while looping.](https://github.com/search?q=Cache%20s->ins_h%20in%20a%20scalar%20while%20looping.&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [7f23f6c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [3735743 CLOUD: Fix loader initialization to fetch keys](https://github.com/search?q=CLOUD%3A%20Fix%20loader%20initialization%20to%20fetch%20keys&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-05-2017 End.
+
+07-04-2017
+====================
+
+#### Device specific Changes of 07-04-2017 Start:
+
+#### Device/Quark/
+* [6ddb978 Quark: cmactions UserAwareDisplay bigger delayed off](https://github.com/search?q=Quark%3A%20cmactions%20UserAwareDisplay%20bigger%20delayed%20off&type=Commits)
+* [3d4b1dc Quark: cmactions UserAwareDisplay prevent crash of Irgestures sensor](https://github.com/search?q=Quark%3A%20cmactions%20UserAwareDisplay%20prevent%20crash%20of%20Irgestures%20sensor&type=Commits)
+* [3059d54 Quark: cmactions fix wave to silence](https://github.com/search?q=Quark%3A%20cmactions%20fix%20wave%20to%20silence&type=Commits)
+
+#### Device specific Changes of 07-04-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 07-04-2017:
+
+#### external/freetype/
+* [ce543d2 [truetype] Integer overflow.](https://github.com/search?q=[truetype]%20Integer%20overflow.&type=Commits)
+* [b05ddef * src/sfnt/sfobjs.c (sfnt_load_face): Ignore No_Unicode_Glyph_Name.](https://github.com/search?q=*%20src/sfnt/sfobjs.c%20%28sfnt_load_face%29%3A%20Ignore%20No_Unicode_Glyph_Name.&type=Commits)
+* [10e06ff Avoid Microsoft compiler warnings (#51331).](https://github.com/search?q=Avoid%20Microsoft%20compiler%20warnings%20%28%2351331%29.&type=Commits)
+* [ec088df * src/cff/cffparse.c (do_fixed): Fix typo.](https://github.com/search?q=*%20src/cff/cffparse.c%20%28do_fixed%29%3A%20Fix%20typo.&type=Commits)
+* [457f53e [truetype] Integer overflows.](https://github.com/search?q=[truetype]%20Integer%20overflows.&type=Commits)
+* [8a4e026 [truetype] Integer overflows.](https://github.com/search?q=[truetype]%20Integer%20overflows.&type=Commits)
+* [6256b05 [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [5174224 [sfnt] Synthesize a Unicode charmap if one is missing.](https://github.com/search?q=[sfnt]%20Synthesize%20a%20Unicode%20charmap%20if%20one%20is%20missing.&type=Commits)
+* [0ee8aea Remove deprecated comment.](https://github.com/search?q=Remove%20deprecated%20comment.&type=Commits)
+* [37711d1 [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [d1c9f41 [base, smooth] LCD filtering cleanups.](https://github.com/search?q=[base,%20smooth]%20LCD%20filtering%20cleanups.&type=Commits)
+* [9996828 [truetype] Integer overflows.](https://github.com/search?q=[truetype]%20Integer%20overflows.&type=Commits)
+* [05545c5 [bdf, cff] Integer overflows.](https://github.com/search?q=[bdf,%20cff]%20Integer%20overflows.&type=Commits)
+* [0b855ea * src/winfonts/winfnt.c (FNT_Face_Init): Don't set active encoding.](https://github.com/search?q=*%20src/winfonts/winfnt.c%20%28FNT_Face_Init%29%3A%20Don't%20set%20active%20encoding.&type=Commits)
+* [cc2f31d [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [a8299e4 [cff] Integer overflows.](https://github.com/search?q=[cff]%20Integer%20overflows.&type=Commits)
+* [02d8b38 [truetype] Fix TT_Set_Var_Design.](https://github.com/search?q=[truetype]%20Fix%20TT_Set_Var_Design.&type=Commits)
+* [efd2ccf * src/base/ftcalc.c (FT_DivFix): Fix embarrassing typo.](https://github.com/search?q=*%20src/base/ftcalc.c%20%28FT_DivFix%29%3A%20Fix%20embarrassing%20typo.&type=Commits)
+* [244a5ae [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [5796326 Provide more macros for flooring, ceiling, and rounding.](https://github.com/search?q=Provide%20more%20macros%20for%20flooring,%20ceiling,%20and%20rounding.&type=Commits)
+* [b2e5039 Remove unused macros.](https://github.com/search?q=Remove%20unused%20macros.&type=Commits)
+* [85619a1 */*: Remove `OVERFLOW_' prefix.](https://github.com/search?q=*/*%3A%20Remove%20`OVERFLOW_'%20prefix.&type=Commits)
+* [65b784b [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [f235b58 [cff] Integer overflow.](https://github.com/search?q=[cff]%20Integer%20overflow.&type=Commits)
+* [7393a36 [cff] Integer overflow.](https://github.com/search?q=[cff]%20Integer%20overflow.&type=Commits)
+* [0a40301 [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [2759c06 [base, cff, truetype] Integer overflows.](https://github.com/search?q=[base,%20cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [bf7e4af [bdf] Synchronize sanity checks with pcf driver.](https://github.com/search?q=[bdf]%20Synchronize%20sanity%20checks%20with%20pcf%20driver.&type=Commits)
+* [3d2ff98 [cff, truetype] Integer overflows.](https://github.com/search?q=[cff,%20truetype]%20Integer%20overflows.&type=Commits)
+* [5cb6ecf ftcalc.h: Avoid left-shift of negative numbers.](https://github.com/search?q=ftcalc.h%3A%20Avoid%20left-shift%20of%20negative%20numbers.&type=Commits)
+* [0aa3384 [cff] Even more integer overflows.](https://github.com/search?q=[cff]%20Even%20more%20integer%20overflows.&type=Commits)
+* [5fc0a0e [cff] More integer overflows.](https://github.com/search?q=[cff]%20More%20integer%20overflows.&type=Commits)
+* [54a77b6 [bdf] Don't left-shift negative numbers.](https://github.com/search?q=[bdf]%20Don't%20left-shift%20negative%20numbers.&type=Commits)
+* [c044396 [bdf] Fix integer scanning routines.](https://github.com/search?q=[bdf]%20Fix%20integer%20scanning%20routines.&type=Commits)
+* [311cf25 [cff] Fix integer overflows.](https://github.com/search?q=[cff]%20Fix%20integer%20overflows.&type=Commits)
+* [6ef1a03 [smooth] Some 32bit integer overflow run-time errors.](https://github.com/search?q=[smooth]%20Some%2032bit%20integer%20overflow%20run-time%20errors.&type=Commits)
+* [d870a4e Minor comment.](https://github.com/search?q=Minor%20comment.&type=Commits)
+* [7ad282c * src/base/ftglyph.c (FT_Get_Glyph): Check `slot->advance'.](https://github.com/search?q=*%20src/base/ftglyph.c%20%28FT_Get_Glyph%29%3A%20Check%20`slot->advance'.&type=Commits)
+* [6861f0d [psaux] 32bit integer overflow tun-time errors (#46149).](https://github.com/search?q=[psaux]%2032bit%20integer%20overflow%20tun-time%20errors%20%28%2346149%29.&type=Commits)
+* [abf9999 * src/truetype/ttinterp.c (TT_RunIns): Adjust loop counter again.](https://github.com/search?q=*%20src/truetype/ttinterp.c%20%28TT_RunIns%29%3A%20Adjust%20loop%20counter%20again.&type=Commits)
+* [fe9a018 [cff] 32bit integer overflow run-time errors 2/2 (#46149).](https://github.com/search?q=[cff]%2032bit%20integer%20overflow%20run-time%20errors%202/2%20%28%2346149%29.&type=Commits)
+* [9f628d0 [cff] 32bit integer overflow run-time errors 1/2 (#46149).](https://github.com/search?q=[cff]%2032bit%20integer%20overflow%20run-time%20errors%201/2%20%28%2346149%29.&type=Commits)
+* [9d328f9 [psaux] Correctly handle sequences of multiple number signs.](https://github.com/search?q=[psaux]%20Correctly%20handle%20sequences%20of%20multiple%20number%20signs.&type=Commits)
+* [98c04b8 [pcf] 32bit integer overflow run-time errors (#46149).](https://github.com/search?q=[pcf]%2032bit%20integer%20overflow%20run-time%20errors%20%28%2346149%29.&type=Commits)
+* [6104fbb Handle some integer overflow run-time errors (#46149, #48979).](https://github.com/search?q=Handle%20some%20integer%20overflow%20run-time%20errors%20%28%2346149,%20%2348979%29.&type=Commits)
+* [e817a5a * include/freetype/internal/ftcalc.h (FLOAT_TO_FIXED): Remove.](https://github.com/search?q=*%20include/freetype/internal/ftcalc.h%20%28FLOAT_TO_FIXED%29%3A%20Remove.&type=Commits)
+* [fa167a3 [cff] s/cf2_floatToFixed/cf2_doubleToFixed/.](https://github.com/search?q=[cff]%20s/cf2_floatToFixed/cf2_doubleToFixed/.&type=Commits)
+* [69b7569 Fix negation of INT_MIN and LONG_MIN (#46149).](https://github.com/search?q=Fix%20negation%20of%20INT_MIN%20and%20LONG_MIN%20%28%2346149%29.&type=Commits)
+* [abe617a [truetype] Fix handling of design coordinates (#51127).](https://github.com/search?q=[truetype]%20Fix%20handling%20of%20design%20coordinates%20%28%2351127%29.&type=Commits)
+* [11aad3b [bdf, pcf] Support ISO646.1991-IRV character encoding (aka ASCII).](https://github.com/search?q=[bdf,%20pcf]%20Support%20ISO646.1991-IRV%20character%20encoding%20%28aka%20ASCII%29.&type=Commits)
+* [238aed2 [truetype] Always use interpreter v35 for B/W rendering (#51051).](https://github.com/search?q=[truetype]%20Always%20use%20interpreter%20v35%20for%20B/W%20rendering%20%28%2351051%29.&type=Commits)
+* [67c5810 [smooth] Implement minimal dynamic padding for LCD filtering.](https://github.com/search?q=[smooth]%20Implement%20minimal%20dynamic%20padding%20for%20LCD%20filtering.&type=Commits)
+* [08077c6 [autofit] More code sorting.](https://github.com/search?q=[autofit]%20More%20code%20sorting.&type=Commits)
+* [b46e79f Code sorting.](https://github.com/search?q=Code%20sorting.&type=Commits)
+* [915eb2c [sfnt] Return proper scaling values for SBIX bitmaps.](https://github.com/search?q=[sfnt]%20Return%20proper%20scaling%20values%20for%20SBIX%20bitmaps.&type=Commits)
+* [2083148 [truetype] Fix error handling for embedded bitmaps.](https://github.com/search?q=[truetype]%20Fix%20error%20handling%20for%20embedded%20bitmaps.&type=Commits)
+* [8a52d37 [autofit] Make autohint warping NORMAL option.](https://github.com/search?q=[autofit]%20Make%20autohint%20warping%20NORMAL%20option.&type=Commits)
+* [ddd8646 Remove remnants of raster pool.](https://github.com/search?q=Remove%20remnants%20of%20raster%20pool.&type=Commits)
+
+#### frameworks/base/
+* [82e0cb1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/fm/
+* [2e20c17 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [5fef2c6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [ebaed92 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [0b08d5d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [fa0b42a Jelly: Don't save form data in incognito mode](https://github.com/search?q=Jelly%3A%20Don't%20save%20form%20data%20in%20incognito%20mode&type=Commits)
+* [1fd384c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [9d14b09 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [e354e84 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [7c34511 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [6637927 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [d5ebc76 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [bc9d3c1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [282384c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [243e89a update herolte & hero2lte to build crDroidAndroid-7.1.2-20170704](https://github.com/search?q=update%20herolte%20&%20hero2lte%20to%20build%20crDroidAndroid-7.1.2-20170704&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-04-2017 End.
+
+07-03-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-03-2017:
+
+#### android/
+* [cd14a08 manifest: Track gcc linaro 7.1 toolchain for ARM](https://github.com/search?q=manifest%3A%20Track%20gcc%20linaro%207.1%20toolchain%20for%20ARM&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [c0136b1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-03-2017 End.
+
+07-02-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-02-2017:
+
+#### android/
+* [995f792 Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android%20into%207.1&type=Commits)
+* c9079fb Revert "cm: add custom tiles project"
+
+#### bionic/
+* [91e7393 AArch64 Optimized memcmp](https://github.com/search?q=AArch64%20Optimized%20memcmp&type=Commits)
+* [78f7947 memcmp: optimize the unaligned case](https://github.com/search?q=memcmp%3A%20optimize%20the%20unaligned%20case&type=Commits)
+* [4fe6e75 libc: Fix minor issues in memchr NEON implementation](https://github.com/search?q=libc%3A%20Fix%20minor%20issues%20in%20memchr%20NEON%20implementation&type=Commits)
+
+#### frameworks/base/
+* [4825fbc SystemUI: Fix heads up tile off color](https://github.com/search?q=SystemUI%3A%20Fix%20heads%20up%20tile%20off%20color&type=Commits)
+* [e24b357 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+* [29c48ef Added show volume panel tile to QS](https://github.com/search?q=Added%20show%20volume%20panel%20tile%20to%20QS&type=Commits)
+* [f82cc7e SystemUI: add USB Tether tile](https://github.com/search?q=SystemUI%3A%20add%20USB%20Tether%20tile&type=Commits)
+* [2d3c433 QS: add Sync tile (1/2)](https://github.com/search?q=QS%3A%20add%20Sync%20tile%20%281/2%29&type=Commits)
+* [ceb91b8 SystemUI: Add heads up tile (1/2)](https://github.com/search?q=SystemUI%3A%20Add%20heads%20up%20tile%20%281/2%29&type=Commits)
+* [4e964de SystemUI: add caffeine qs tile (1/2)](https://github.com/search?q=SystemUI%3A%20add%20caffeine%20qs%20tile%20%281/2%29&type=Commits)
+* [aa10679 SystemUI: Readd AmbientDisplayTile.](https://github.com/search?q=SystemUI%3A%20Readd%20AmbientDisplayTile.&type=Commits)
+* [3413642 SystemUI: Add adb over network tile](https://github.com/search?q=SystemUI%3A%20Add%20adb%20over%20network%20tile&type=Commits)
+
+#### hardware/qcom/fm/
+* [7a29d93 FM: Fix helium hal build](https://github.com/search?q=FM%3A%20Fix%20helium%20hal%20build&type=Commits)
+* [0df98d3 Change rename_dialog background color to default](https://github.com/search?q=Change%20rename_dialog%20background%20color%20to%20default&type=Commits)
+* [f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee](https://github.com/search?q=FMStats%3A%20fix%20GetFMStatsForFreq%20error%20for%20non-cherokee&type=Commits)
+
+#### packages/apps/DeskClock/
+* [44b2580 Alarm: fix database indices](https://github.com/search?q=Alarm%3A%20fix%20database%20indices&type=Commits)
+
+#### packages/apps/Gallery2/
+* [c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20after%20returning%20from%20albums%20in%20wallpaper%20picker&type=Commits)
+
+#### packages/apps/Jelly/
+* [b8109ec Jelly: Update suggestions provider API URLs](https://github.com/search?q=Jelly%3A%20Update%20suggestions%20provider%20API%20URLs&type=Commits)
+
+#### prebuilts/gcc/linux-x86/arm/arm-eabi-7.1/
+* [3508219 arm-linaro-linux-gnueabi 7.1.1: 20170702](https://github.com/search?q=arm-linaro-linux-gnueabi%207.1.1%3A%2020170702&type=Commits)
+
+#### vendor/cm/
+* [82b0d00 crdroid: New default icons](https://github.com/search?q=crdroid%3A%20New%20default%20icons&type=Commits)
+* [765fbad crdroid: Remove custom tiles](https://github.com/search?q=crdroid%3A%20Remove%20custom%20tiles&type=Commits)
+
+#### vendor/cmsdk/
+* [80b3953 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/cm_platform_sdk%20into%207.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [566eefe op3 & ks01lte update](https://github.com/search?q=op3%20&%20ks01lte%20update&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-02-2017 End.
+
 07-01-2017
 ====================
 
@@ -282,12 +835,11 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 07-01-2017:
 
-#### android/
-* [99530fa manifest: Drop unused packages](https://github.com/search?q=manifest%3A%20Drop%20unused%20packages&type=Commits)
-* [b3045ea manifest: Sync weather provider and service](https://github.com/search?q=manifest%3A%20Sync%20weather%20provider%20and%20service&type=Commits)
-
 #### build/
 * [192a651 build: Add ANSI name](https://github.com/search?q=build%3A%20Add%20ANSI%20name&type=Commits)
+
+#### frameworks/base/
+* [1a26448 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### hardware/qcom/fm/
 * [9477a03 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -301,11 +853,14 @@ CRDroid Android Nougat source and Quark Changelog:
 #### packages/apps/CellBroadcastReceiver/
 * [49ba52e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### packages/apps/CustomTiles/
-* [4b0ab89 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+#### packages/apps/Contacts/
+* [0311d54 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### packages/apps/DUI/
-* [98aae9d Fix button size not refreshing after a dpi change](https://github.com/search?q=Fix%20button%20size%20not%20refreshing%20after%20a%20dpi%20change&type=Commits)
+#### packages/apps/ContactsCommon/
+* [c141c1f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [1e9846e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Gallery2/
 * [a66d49f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -325,10 +880,13 @@ CRDroid Android Nougat source and Quark Changelog:
 * [07f7017 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Settings/
-* [cdcb697 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+* [05f6b88 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Terminal/
 * [23d836b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [259c45d Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
 
 #### packages/providers/DataUsageProvider/
 * [081bb6a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -338,6 +896,12 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### packages/resources/devicesettings/
 * [1b90917 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [37292e6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cmsdk/
+* [58c23ed Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### CRDroid Android Nougat source changes of 07-01-2017 End.
 

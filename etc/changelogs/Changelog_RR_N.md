@@ -3,6 +3,342 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+07-09-2017
+====================
+
+#### Device specific Changes of 07-09-2017 Start:
+
+#### Device/Quark/
+* [b2150f9 Quark: cmactions use TimerTask to enable irsensor](https://github.com/search?q=Quark%3A%20cmactions%20use%20TimerTask%20to%20enable%20irsensor&type=Commits)
+
+#### Kernel/Quark/
+* [9f54558 bcl: allow lower mit freq](https://github.com/search?q=bcl%3A%20allow%20lower%20mit%20freq&type=Commits)
+
+#### Vendor/Quark/
+* [957ce35 Quark: remove InductiveChargeUI it causes wakealock](https://github.com/search?q=Quark%3A%20remove%20InductiveChargeUI%20it%20causes%20wakealock&type=Commits)
+
+#### Device specific Changes of 07-09-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-09-2017:
+
+#### bionic/
+* [d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### frameworks/base/
+* [4f899b1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [eb76f77 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [92aa3ac Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [65e114e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-09-2017 End.
+
+07-08-2017
+====================
+
+#### Device specific Changes of 07-08-2017 Start:
+
+#### Device/Quark/
+* [8619483 Quark: cmactions use TimerTask to disable irsensor](https://github.com/search?q=Quark%3A%20cmactions%20use%20TimerTask%20to%20disable%20irsensor&type=Commits)
+
+#### Device specific Changes of 07-08-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-08-2017:
+
+#### android/
+* [61a497f manifest: don't track themeengine related repos](https://github.com/search?q=manifest%3A%20don't%20track%20themeengine%20related%20repos&type=Commits)
+* [dafbf6a rr: don't track MusicFX](https://github.com/search?q=rr%3A%20don't%20track%20MusicFX&type=Commits)
+
+#### build/
+* [75e05d5 core: Makefile: Correct package signature disable](https://github.com/search?q=core%3A%20Makefile%3A%20Correct%20package%20signature%20disable&type=Commits)
+* [72cd3b1 core: assume non-release recoveries to skip signature check](https://github.com/search?q=core%3A%20assume%20non-release%20recoveries%20to%20skip%20signature%20check&type=Commits)
+* [b101356 core: use 0 compression when creating the target_files package](https://github.com/search?q=core%3A%20use%200%20compression%20when%20creating%20the%20target_files%20package&type=Commits)
+* [912e52a releasetools: silence binary info printed by blockimgdiff](https://github.com/search?q=releasetools%3A%20silence%20binary%20info%20printed%20by%20blockimgdiff&type=Commits)
+* [189d8fd Create 0 compression ratio jar files](https://github.com/search?q=Create%200%20compression%20ratio%20jar%20files&type=Commits)
+
+#### frameworks/base/
+* [79e9a27 aapt: enforce 0 compression](https://github.com/search?q=aapt%3A%20enforce%200%20compression&type=Commits)
+* [2ca4ef8 aapt: allow opting out of uncompressed aapt](https://github.com/search?q=aapt%3A%20allow%20opting%20out%20of%20uncompressed%20aapt&type=Commits)
+* [f6ef9b2 aapt: default to 0 compression](https://github.com/search?q=aapt%3A%20default%20to%200%20compression&type=Commits)
+* [6c9941d PowerManagerService: add a config to light up buttons only when pressed](https://github.com/search?q=PowerManagerService%3A%20add%20a%20config%20to%20light%20up%20buttons%20only%20when%20pressed&type=Commits)
+
+#### packages/apps/AudioFX/
+* [4273aee Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [bd7c0d6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [99c0a8b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [50da943 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [2e009e8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [37f067f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cm/
+* [fbb261c sensitive_pn: Enter full list of Indian MCC codes](https://github.com/search?q=sensitive_pn%3A%20Enter%20full%20list%20of%20Indian%20MCC%20codes&type=Commits)
+* [a736075 sensitive_pn: Enter full list of GB MCC codes](https://github.com/search?q=sensitive_pn%3A%20Enter%20full%20list%20of%20GB%20MCC%20codes&type=Commits)
+* [8388b24 sensitive_pn: Enter full list of US MCC codes](https://github.com/search?q=sensitive_pn%3A%20Enter%20full%20list%20of%20US%20MCC%20codes&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* [8a9c801 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-08-2017 End.
+
+07-07-2017
+====================
+
+#### Device specific Changes of 07-07-2017 Start:
+
+#### Device/Quark/
+* [443b4dd Quark: add first_api_level property](https://github.com/search?q=Quark%3A%20add%20first_api_level%20property&type=Commits)
+* [97670e0 Quark: remove discard from fstab](https://github.com/search?q=Quark%3A%20remove%20discard%20from%20fstab&type=Commits)
+* [38f1138 Quark: Ensure device does not use "allow hold" carrier config option.](https://github.com/search?q=Quark%3A%20Ensure%20device%20does%20not%20use%20"allow%20hold"%20carrier%20config%20option.&type=Commits)
+* [705442c Quark: Compile libhwui in perf mode](https://github.com/search?q=Quark%3A%20Compile%20libhwui%20in%20perf%20mode&type=Commits)
+* [363bae4 Quark: Enable triple framebuffers](https://github.com/search?q=Quark%3A%20Enable%20triple%20framebuffers&type=Commits)
+* [81f6730 Quark: Abandon TARGET_UNIFIED_DEVICE flag](https://github.com/search?q=Quark%3A%20Abandon%20TARGET_UNIFIED_DEVICE%20flag&type=Commits)
+* [b0f65b3 Quark: Allow vendor init to override props](https://github.com/search?q=Quark%3A%20Allow%20vendor%20init%20to%20override%20props&type=Commits)
+
+#### Kernel/Quark/
+* [9a0ba17 defconfig ena FB_MSM_TRIPLE_BUFFER](https://github.com/search?q=defconfig%20ena%20FB_MSM_TRIPLE_BUFFER&type=Commits)
+
+#### Device specific Changes of 07-07-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-07-2017:
+
+#### frameworks/base/
+* [7359783 SmartBar: make button longpress delay configurable [2/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[2/3]&type=Commits)
+
+#### packages/apps/DUI/
+* [0e7263f SmartBar: make button longpress delay configurable [1/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[1/3]&type=Commits)
+
+#### packages/apps/Settings/
+* [1f19428 SmartBar: make button longpress delay configurable [3/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[3/3]&type=Commits)
+* [a9a780d Edit a string](https://github.com/search?q=Edit%20a%20string&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-07-2017 End.
+
+07-06-2017
+====================
+
+#### Device specific Changes of 07-06-2017 Start:
+
+#### Device/Quark/
+* [c6de6c3 Quark: cmaction prevent crash from registerListener in IrSilencer](https://github.com/search?q=Quark%3A%20cmaction%20prevent%20crash%20from%20registerListener%20in%20IrSilencer&type=Commits)
+* [46f3c7e Quark: enable sdlang toolchaing](https://github.com/search?q=Quark%3A%20enable%20sdlang%20toolchaing&type=Commits)
+* [39a1c4f Quark: cmaction prevent crash of Irgestures sensor](https://github.com/search?q=Quark%3A%20cmaction%20prevent%20crash%20of%20Irgestures%20sensor&type=Commits)
+* [79ea254 Quark: cmactions fix wave to silence](https://github.com/search?q=Quark%3A%20cmactions%20fix%20wave%20to%20silence&type=Commits)
+* [30c108e Revert "Quark: cmactions prevent crash of Irgestures sensor"](https://github.com/search?q=Revert%20"Quark%3A%20cmactions%20prevent%20crash%20of%20Irgestures%20sensor"&type=Commits)
+* [93a9e8c Revert "Quark: cmactions fix wave to silence"](https://github.com/search?q=Revert%20"Quark%3A%20cmactions%20fix%20wave%20to%20silence"&type=Commits)
+* [ee186cc Revert "Quark: cmactions UserAwareDisplay prevent crash of Irgestures sensor"](https://github.com/search?q=Revert%20"Quark%3A%20cmactions%20UserAwareDisplay%20prevent%20crash%20of%20Irgestures%20sensor"&type=Commits)
+
+#### Device specific Changes of 07-06-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-06-2017:
+
+#### android/
+* [095f157 manifest: android-7.1.2_r17 -> android-7.1.2_r24](https://github.com/search?q=manifest%3A%20android-7.1.2_r17%20->%20android-7.1.2_r24&type=Commits)
+
+#### build/
+* [5bd5c1f Don't build MusicFX](https://github.com/search?q=Don't%20build%20MusicFX&type=Commits)
+* [01f92d6 Merge tag 'android-7.1.2_r24' into nougat](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20nougat&type=Commits)
+
+#### external/boringssl/
+* [c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### external/skia/
+* [d41b284 Merge tag 'android-7.1.2_r24' into nougat](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20nougat&type=Commits)
+
+#### frameworks/av/
+* [4d87ec3 Merge tag 'android-7.1.2_r24' into nougat](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [0f18cce fingerprint: Speed up wake-and-unlock scenario](https://github.com/search?q=fingerprint%3A%20Speed%20up%20wake-and-unlock%20scenario&type=Commits)
+* [10484a5 [1/2] Add support for pulsing battery icon when charging](https://github.com/search?q=[1/2]%20Add%20support%20for%20pulsing%20battery%20icon%20when%20charging&type=Commits)
+* [7cc34a0 Merge tag 'android-7.1.2_r24' into nougat](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20nougat&type=Commits)
+
+#### frameworks/native/
+* [cfac6d5 Merge tag 'android-7.1.2_r24' into nougat](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20nougat&type=Commits)
+
+#### libcore/
+* [30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/Settings/
+* [a9bba60 [2/2] Add support for pulsing battery icon regardless of style](https://github.com/search?q=[2/2]%20Add%20support%20for%20pulsing%20battery%20icon%20regardless%20of%20style&type=Commits)
+* [15be728 DeviceInfoSettings: don't hardcode tag/build id](https://github.com/search?q=DeviceInfoSettings%3A%20don't%20hardcode%20tag/build%20id&type=Commits)
+* [658c831 Merge tag 'android-7.1.2_r24' into nougat](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20nougat&type=Commits)
+* [77bc9ec Change Oneplus2 maintainer (#816)](https://github.com/search?q=Change%20Oneplus2%20maintainer%20%28%23816%29&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [b633b92 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### system/sepolicy/
+* [ca57649 Add policy to fix interfacer derp on boot](https://github.com/search?q=Add%20policy%20to%20fix%20interfacer%20derp%20on%20boot&type=Commits)
+* [f0546f1 sepolicy: Allow system_server to set theme_prop](https://github.com/search?q=sepolicy%3A%20Allow%20system_server%20to%20set%20theme_prop&type=Commits)
+* [188e2fb sepolicy: add file and domain trans to interfacer](https://github.com/search?q=sepolicy%3A%20add%20file%20and%20domain%20trans%20to%20interfacer&type=Commits)
+* [bb79e15 Rename Masquerade to ThemeInterfacer [2/2]](https://github.com/search?q=Rename%20Masquerade%20to%20ThemeInterfacer%20[2/2]&type=Commits)
+* [e9e8cf5 sepolicy: Redo masquerade rules](https://github.com/search?q=sepolicy%3A%20Redo%20masquerade%20rules&type=Commits)
+* [3ce5f05  sepolicy: Attempt to fix bootanim](https://github.com/search?q=%20sepolicy%3A%20Attempt%20to%20fix%20bootanim&type=Commits)
+* [61f8622 sepolicy: allow masquerade to read and write theme assets](https://github.com/search?q=sepolicy%3A%20allow%20masquerade%20to%20read%20and%20write%20theme%20assets&type=Commits)
+* [e394d92 sepolicy: rename masquerade domain and allow JobService in system_server](https://github.com/search?q=sepolicy%3A%20rename%20masquerade%20domain%20and%20allow%20JobService%20in%20system_server&type=Commits)
+* [36c882b initial policy edits for masquerade to operate rootless](https://github.com/search?q=initial%20policy%20edits%20for%20masquerade%20to%20operate%20rootless&type=Commits)
+* [4eb146b Revert "Revert "sepolicy: fix themed sounds""](https://github.com/search?q=Revert%20"Revert%20"sepolicy%3A%20fix%20themed%20sounds""&type=Commits)
+* [d7a63a4 Revert "Revert "sepolicy: fix themed boot animation""](https://github.com/search?q=Revert%20"Revert%20"sepolicy%3A%20fix%20themed%20boot%20animation""&type=Commits)
+* [ba0e461 Revert "Revert "Introduce sepolicy exceptions for theme assets""](https://github.com/search?q=Revert%20"Revert%20"Introduce%20sepolicy%20exceptions%20for%20theme%20assets""&type=Commits)
+* [8384671 Revert "Revert "Allow apps in /system/priv-app to call and execute su commands""](https://github.com/search?q=Revert%20"Revert%20"Allow%20apps%20in%20/system/priv-app%20to%20call%20and%20execute%20su%20commands""&type=Commits)
+* [48fd011 Revert "Allow apps in /system/priv-app to call and execute su commands"](https://github.com/search?q=Revert%20"Allow%20apps%20in%20/system/priv-app%20to%20call%20and%20execute%20su%20commands"&type=Commits)
+* [3d9b49b Revert "Introduce sepolicy exceptions for theme assets"](https://github.com/search?q=Revert%20"Introduce%20sepolicy%20exceptions%20for%20theme%20assets"&type=Commits)
+* [c156db4 Revert "sepolicy: fix themed boot animation"](https://github.com/search?q=Revert%20"sepolicy%3A%20fix%20themed%20boot%20animation"&type=Commits)
+* [fdad3fd Revert "sepolicy: fix themed sounds"](https://github.com/search?q=Revert%20"sepolicy%3A%20fix%20themed%20sounds"&type=Commits)
+* [b6bc55f sepolicy: fix themed sounds](https://github.com/search?q=sepolicy%3A%20fix%20themed%20sounds&type=Commits)
+* [2b33b12 sepolicy: fix themed boot animation](https://github.com/search?q=sepolicy%3A%20fix%20themed%20boot%20animation&type=Commits)
+* [bb40596 Introduce sepolicy exceptions for theme assets](https://github.com/search?q=Introduce%20sepolicy%20exceptions%20for%20theme%20assets&type=Commits)
+* [06635a9 Allow apps in /system/priv-app to call and execute su commands](https://github.com/search?q=Allow%20apps%20in%20/system/priv-app%20to%20call%20and%20execute%20su%20commands&type=Commits)
+* [36164c6 Add policy to SELinux to allow ViPER4Android in enforcing mode](https://github.com/search?q=Add%20policy%20to%20SELinux%20to%20allow%20ViPER4Android%20in%20enforcing%20mode&type=Commits)
+* [3b528f0 OMS7-N: Add service 'overlay' to service_contexts](https://github.com/search?q=OMS7-N%3A%20Add%20service%20'overlay'%20to%20service_contexts&type=Commits)
+* [5663ce2 RR: 7.1 fix](https://github.com/search?q=RR%3A%207.1%20fix&type=Commits)
+* [53bc460 sepolicy: Allow platform_app to run su_exec() (1/2)](https://github.com/search?q=sepolicy%3A%20Allow%20platform_app%20to%20run%20su_exec%28%29%20%281/2%29&type=Commits)
+* [c7c2125 sepolicy: Allow system_server to run su_exec() (1/2)](https://github.com/search?q=sepolicy%3A%20Allow%20system_server%20to%20run%20su_exec%28%29%20%281/2%29&type=Commits)
+* [2f058da sepolicy: Allow system_app to run su_exec()](https://github.com/search?q=sepolicy%3A%20Allow%20system_app%20to%20run%20su_exec%28%29&type=Commits)
+* [cf4570d sepolicy: Allow remount /system](https://github.com/search?q=sepolicy%3A%20Allow%20remount%20/system&type=Commits)
+* [e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### vendor/cm/
+* [44d782b vendor: add a prop to get the AOSP tag from manifest](https://github.com/search?q=vendor%3A%20add%20a%20prop%20to%20get%20the%20AOSP%20tag%20from%20manifest&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-06-2017 End.
+
+07-05-2017
+====================
+
+#### Device specific Changes of 07-05-2017 Start:
+
+#### Device/Quark/
+* [6ddb978 Quark: cmactions UserAwareDisplay bigger delayed off](https://github.com/search?q=Quark%3A%20cmactions%20UserAwareDisplay%20bigger%20delayed%20off&type=Commits)
+
+#### Device specific Changes of 07-05-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-05-2017:
+
+#### packages/apps/Jelly/
+* [fa0b42a Jelly: Don't save form data in incognito mode](https://github.com/search?q=Jelly%3A%20Don't%20save%20form%20data%20in%20incognito%20mode&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-05-2017 End.
+
+07-04-2017
+====================
+
+#### Device specific Changes of 07-04-2017 Start:
+
+#### Device/Quark/
+* [3d4b1dc Quark: cmactions UserAwareDisplay prevent crash of Irgestures sensor](https://github.com/search?q=Quark%3A%20cmactions%20UserAwareDisplay%20prevent%20crash%20of%20Irgestures%20sensor&type=Commits)
+* [3059d54 Quark: cmactions fix wave to silence](https://github.com/search?q=Quark%3A%20cmactions%20fix%20wave%20to%20silence&type=Commits)
+
+#### Device specific Changes of 07-04-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-04-2017:
+
+#### hardware/qcom/fm/
+* [2e20c17 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [0b08d5d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [1fd384c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [9d14b09 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [7c34511 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [6637927 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [d5ebc76 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [bc9d3c1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/core/
+* [01a7186 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_system_core%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [3739625 Add LTE support for China Telecom Macau.](https://github.com/search?q=Add%20LTE%20support%20for%20China%20Telecom%20Macau.&type=Commits)
+* [3f2013a qcom_utils: Cleanup supported QCOM_BOARD_PLATFORMS](https://github.com/search?q=qcom_utils%3A%20Cleanup%20supported%20QCOM_BOARD_PLATFORMS&type=Commits)
+* [3177211 build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST](https://github.com/search?q=build%3A%20qcom_target%3A%20Define%20MASTER_SIDE_CP_TARGET_LIST&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* [fb40ce0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-04-2017 End.
+
+07-02-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-02-2017:
+
+#### frameworks/base/
+* [5905a98 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/fm/
+* [7a29d93 FM: Fix helium hal build](https://github.com/search?q=FM%3A%20Fix%20helium%20hal%20build&type=Commits)
+* [0df98d3 Change rename_dialog background color to default](https://github.com/search?q=Change%20rename_dialog%20background%20color%20to%20default&type=Commits)
+* [f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee](https://github.com/search?q=FMStats%3A%20fix%20GetFMStatsForFreq%20error%20for%20non-cherokee&type=Commits)
+
+#### packages/apps/DUI/
+* [1f48442 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20after%20returning%20from%20albums%20in%20wallpaper%20picker&type=Commits)
+
+#### packages/apps/Jelly/
+* [b8109ec Jelly: Update suggestions provider API URLs](https://github.com/search?q=Jelly%3A%20Update%20suggestions%20provider%20API%20URLs&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [ddd73f0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [7563208 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [f45c2e9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [8e2ed2d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-02-2017 End.
+
 07-01-2017
 ====================
 
@@ -285,6 +621,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### hardware/qcom/fm/
 * [9477a03 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### hardware/ti/omap4/
+* [030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade](https://github.com/search?q=BUGBASH-733%20Memory%20leak%20in%20system_server%20caused%20by%20suspend%20/%20color%20fade&type=Commits)
+
 #### packages/apps/AudioFX/
 * [efb0b87 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
@@ -301,6 +640,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [a66d49f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Jelly/
+* [a7659df Jelly: Make UrlResolvedReceiver final](https://github.com/search?q=Jelly%3A%20Make%20UrlResolvedReceiver%20final&type=Commits)
 * [b15286f Jelly: Move bing suggestions provider to https](https://github.com/search?q=Jelly%3A%20Move%20bing%20suggestions%20provider%20to%20https&type=Commits)
 * [f50b7e9 Jelly: Fix Suggestions Provider strings (suggestion / uggestion)](https://github.com/search?q=Jelly%3A%20Fix%20Suggestions%20Provider%20strings%20%28suggestion%20/%20uggestion%29&type=Commits)
 * [697e32d Jelly: Remove unused parameter](https://github.com/search?q=Jelly%3A%20Remove%20unused%20parameter&type=Commits)
@@ -363,11 +703,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### frameworks/base/
 * [9265366 Fix potential KeyguardMonitor FC on unlock](https://github.com/search?q=Fix%20potential%20KeyguardMonitor%20FC%20on%20unlock&type=Commits)
-* [b2edd93 Revert "BluetoothTile: Fix in the off state while entering the detail view"](https://github.com/search?q=Revert%20"BluetoothTile%3A%20Fix%20in%20the%20off%20state%20while%20entering%20the%20detail%20view"&type=Commits)
-
-#### packages/apps/DUI/
-* [08efc6c Fix button size not refreshing after a dpi change](https://github.com/search?q=Fix%20button%20size%20not%20refreshing%20after%20a%20dpi%20change&type=Commits)
-* [f758ef8 Media arrows: hide them on keyguard bouncer](https://github.com/search?q=Media%20arrows%3A%20hide%20them%20on%20keyguard%20bouncer&type=Commits)
 
 #### packages/apps/Jelly/
 * [9d693cc Jelly: Remove unneeded getApplicationContext call](https://github.com/search?q=Jelly%3A%20Remove%20unneeded%20getApplicationContext%20call&type=Commits)
@@ -377,6 +712,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### packages/apps/Settings/
 * [3e1184d Enable some more power menu actions](https://github.com/search?q=Enable%20some%20more%20power%20menu%20actions&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [2b021c4 WallpaperPicker: Update for wallpaper API changes](https://github.com/search?q=WallpaperPicker%3A%20Update%20for%20wallpaper%20API%20changes&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 06-30-2017 End.
 
