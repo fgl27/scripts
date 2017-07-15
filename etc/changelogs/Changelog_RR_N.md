@@ -3,16 +3,136 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
-07-09-2017
+07-15-2017
 ====================
 
-#### Device specific Changes of 07-09-2017 Start:
+#### Device specific Changes of 07-15-2017 Start:
+
+#### Device/Quark/
+* [e166a30 Quark: fix IrSilencer sensor unregister](https://github.com/search?q=Quark%3A%20fix%20IrSilencer%20sensor%20unregister&type=Commits)
+
+#### Kernel/Quark/
+* [fc4b70c Wifi: update driver history N_c branch](https://github.com/search?q=Wifi%3A%20update%20driver%20history%20N_c%20branch&type=Commits)
+
+#### Vendor/Quark/
+* [a95c7ed Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
+* [08e02be Quark: up KA and substratum](https://github.com/search?q=Quark%3A%20up%20KA%20and%20substratum&type=Commits)
+
+#### Device specific Changes of 07-15-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-15-2017:
+
+#### packages/apps/Jelly/
+* [4d40bf7 Jelly: Remove unneeded parameter type in addResult](https://github.com/search?q=Jelly%3A%20Remove%20unneeded%20parameter%20type%20in%20addResult&type=Commits)
+* [69f2dad Jelly: Remove redundant character escape](https://github.com/search?q=Jelly%3A%20Remove%20redundant%20character%20escape&type=Commits)
+* [55f3a05 Jelly: Make suggestion provider "None" translatable](https://github.com/search?q=Jelly%3A%20Make%20suggestion%20provider%20"None"%20translatable&type=Commits)
+* [c3794c5 Hide Sheet Menu after clicking on an entry](https://github.com/search?q=Hide%20Sheet%20Menu%20after%20clicking%20on%20an%20entry&type=Commits)
+* [4e7e82e Jelly: Query an already ordered favorite list](https://github.com/search?q=Jelly%3A%20Query%20an%20already%20ordered%20favorite%20list&type=Commits)
+
+#### vendor/cm/
+* [ac623bd Update Magisk Binary to v13.2 and Magisk Manager to v5.0.6 (#93)](https://github.com/search?q=Update%20Magisk%20Binary%20to%20v13.2%20and%20Magisk%20Manager%20to%20v5.0.6%20%28%2393%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-15-2017 End.
+
+07-14-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-14-2017:
+
+#### packages/apps/Settings/
+* [089a928 Official support for Moto E3 Power(taido_row) (#818)](https://github.com/search?q=Official%20support%20for%20Moto%20E3%20Power%28taido_row%29%20%28%23818%29&type=Commits)
+* [93a2c68 Official support for Moto E3 Power(taido_row) (#819)](https://github.com/search?q=Official%20support%20for%20Moto%20E3%20Power%28taido_row%29%20%28%23819%29&type=Commits)
+
+#### packages/apps/Snap/
+* [5c51d47 Revert some permissions related changes](https://github.com/search?q=Revert%20some%20permissions%20related%20changes&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-14-2017 End.
+
+07-13-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-13-2017:
+
+#### packages/apps/Jelly/
+* [6934a68 Jelly: use Google as default all the things](https://github.com/search?q=Jelly%3A%20use%20Google%20as%20default%20all%20the%20things&type=Commits)
+
+#### packages/apps/Settings/
+* [809857c Add maintainer for Xiaomi RedMi 3 (#817)](https://github.com/search?q=Add%20maintainer%20for%20Xiaomi%20RedMi%203%20%28%23817%29&type=Commits)
+
+#### packages/apps/Snap/
+* [0dbf891 Add overlay for restarting camera preview for additional cameras](https://github.com/search?q=Add%20overlay%20for%20restarting%20camera%20preview%20for%20additional%20cameras&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-13-2017 End.
+
+07-12-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-12-2017:
+
+#### frameworks/base/
+* [b0a68f3 PowerManagerService:Allow Device to set default value for hw keys light up[1/2]](https://github.com/search?q=PowerManagerService%3AAllow%20Device%20to%20set%20default%20value%20for%20hw%20keys%20light%20up[1/2]&type=Commits)
+
+#### packages/apps/Settings/
+* [e79d383 Settings:Allow Device to set default value for hw keys light up[2/2]](https://github.com/search?q=Settings%3AAllow%20Device%20to%20set%20default%20value%20for%20hw%20keys%20light%20up[2/2]&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-12-2017 End.
+
+07-11-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-11-2017:
+
+#### vendor/cm/
+* [3fa356a Magisk,Manager: update to v13.1 stable](https://github.com/search?q=Magisk,Manager%3A%20update%20to%20v13.1%20stable&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-11-2017 End.
+
+07-10-2017
+====================
+
+#### Device specific Changes of 07-10-2017 Start:
 
 #### Device/Quark/
 * [b2150f9 Quark: cmactions use TimerTask to enable irsensor](https://github.com/search?q=Quark%3A%20cmactions%20use%20TimerTask%20to%20enable%20irsensor&type=Commits)
 
 #### Kernel/Quark/
 * [9f54558 bcl: allow lower mit freq](https://github.com/search?q=bcl%3A%20allow%20lower%20mit%20freq&type=Commits)
+
+#### Device specific Changes of 07-10-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-10-2017:
+
+#### bionic/
+* [d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
+
+#### frameworks/base/
+* [f1c724e Base: make button backlight light up user configurable [1/2]](https://github.com/search?q=Base%3A%20make%20button%20backlight%20light%20up%20user%20configurable%20[1/2]&type=Commits)
+* [2a7f84f Fix a crashed when clicking list item and button meanwhile](https://github.com/search?q=Fix%20a%20crashed%20when%20clicking%20list%20item%20and%20button%20meanwhile&type=Commits)
+* [c2d809b Camera2: Fix Error Callback if buffer lost.](https://github.com/search?q=Camera2%3A%20Fix%20Error%20Callback%20if%20buffer%20lost.&type=Commits)
+* [fb62603 [ams]set the resultTo to null started by a finishing activity](https://github.com/search?q=[ams]set%20the%20resultTo%20to%20null%20started%20by%20a%20finishing%20activity&type=Commits)
+* [5b8f52d remove the lock-use for prunePrintService in case blocking main thread](https://github.com/search?q=remove%20the%20lock-use%20for%20prunePrintService%20in%20case%20blocking%20main%20thread&type=Commits)
+* [0246757 Move screen on message to new thread](https://github.com/search?q=Move%20screen%20on%20message%20to%20new%20thread&type=Commits)
+* [6d688cd FlashlightTile: Retry opening camera later on if it failed before](https://github.com/search?q=FlashlightTile%3A%20Retry%20opening%20camera%20later%20on%20if%20it%20failed%20before&type=Commits)
+* [6bcd55e hwui: Remove deprecated compiler flag](https://github.com/search?q=hwui%3A%20Remove%20deprecated%20compiler%20flag&type=Commits)
+* [6d2489c SystemUI: move time tick to bg handler](https://github.com/search?q=SystemUI%3A%20move%20time%20tick%20to%20bg%20handler&type=Commits)
+
+#### packages/apps/DUI/
+* [5198175 DUI:Smartbar longpress delay:make it more configurable [1/2]](https://github.com/search?q=DUI%3ASmartbar%20longpress%20delay%3Amake%20it%20more%20configurable%20[1/2]&type=Commits)
+
+#### packages/apps/Settings/
+* [fbdd17e Settings: make hw keys light up user configurable [2/2]](https://github.com/search?q=Settings%3A%20make%20hw%20keys%20light%20up%20user%20configurable%20[2/2]&type=Commits)
+* [8ffe089 Smartbar longpress delay:make it more configurable [2/2]](https://github.com/search?q=Smartbar%20longpress%20delay%3Amake%20it%20more%20configurable%20[2/2]&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-10-2017 End.
+
+07-09-2017
+====================
+
+#### Device specific Changes of 07-09-2017 Start:
 
 #### Vendor/Quark/
 * [957ce35 Quark: remove InductiveChargeUI it causes wakealock](https://github.com/search?q=Quark%3A%20remove%20InductiveChargeUI%20it%20causes%20wakealock&type=Commits)
@@ -22,9 +142,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Nougat source changes of 07-09-2017:
-
-#### bionic/
-* [d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r24'%20into%20cm-14.1&type=Commits)
 
 #### frameworks/base/
 * [4f899b1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -122,8 +239,13 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 07-07-2017:
 
+#### build/
+* [5bd5c1f Don't build MusicFX](https://github.com/search?q=Don't%20build%20MusicFX&type=Commits)
+
 #### frameworks/base/
 * [7359783 SmartBar: make button longpress delay configurable [2/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[2/3]&type=Commits)
+* [0f18cce fingerprint: Speed up wake-and-unlock scenario](https://github.com/search?q=fingerprint%3A%20Speed%20up%20wake-and-unlock%20scenario&type=Commits)
+* [10484a5 [1/2] Add support for pulsing battery icon when charging](https://github.com/search?q=[1/2]%20Add%20support%20for%20pulsing%20battery%20icon%20when%20charging&type=Commits)
 
 #### packages/apps/DUI/
 * [0e7263f SmartBar: make button longpress delay configurable [1/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[1/3]&type=Commits)
@@ -131,6 +253,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/Settings/
 * [1f19428 SmartBar: make button longpress delay configurable [3/3]](https://github.com/search?q=SmartBar%3A%20make%20button%20longpress%20delay%20configurable%20[3/3]&type=Commits)
 * [a9a780d Edit a string](https://github.com/search?q=Edit%20a%20string&type=Commits)
+* [a9bba60 [2/2] Add support for pulsing battery icon regardless of style](https://github.com/search?q=[2/2]%20Add%20support%20for%20pulsing%20battery%20icon%20regardless%20of%20style&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 07-07-2017 End.
 
