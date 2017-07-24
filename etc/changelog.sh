@@ -5,8 +5,8 @@
 # file.md can work with more data or have more lines then a page wiki
 
 # input variables set the below the rest must be automatic
-source_tree_c="$HOME/hd/crn"; #path here must be inside your home directory
-source_tree_r="android/n"; #path here must be inside your home directory
+source_tree_c="$HOME/android/crn"; #path here must be inside your home directory
+source_tree_r="$HOME/android/n"; #path here must be inside your home directory
 device_tree="device/motorola/quark/"; #path here must be inside of source tree
 kernel_tree="kernel/motorola/apq8084/"; #path here must be inside of source tree
 vendor_tree="vendor/motorola/"; #path here must be inside of source tree
