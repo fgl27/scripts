@@ -3,20 +3,319 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+07-24-2017
+====================
+
+#### Device specific Changes of 07-24-2017 Start:
+
+#### Device/Quark/
+* [8cd0c3d Quark: use default dalvik-heap sizes](https://github.com/search?q=Quark%3A%20use%20default%20dalvik-heap%20sizes&type=Commits)
+* [fcdf2e2 Quark: enable config to light up buttons only when pressed](https://github.com/search?q=Quark%3A%20enable%20config%20to%20light%20up%20buttons%20only%20when%20pressed&type=Commits)
+
+#### Vendor/Quark/
+* [84b4a15 Quark: update ka app](https://github.com/search?q=Quark%3A%20update%20ka%20app&type=Commits)
+
+#### Device specific Changes of 07-24-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 07-24-2017:
+
+#### packages/apps/crDroidSettings/
+* [2bff1ae Merge pull request #73 from saikatrockz/7.1](https://github.com/search?q=Merge%20pull%20request%20%2373%20from%20saikatrockz/7.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [e1309a6 Update Xiaomi Mi Max (hydrogen).](https://github.com/search?q=Update%20Xiaomi%20Mi%20Max%20%28hydrogen%29.&type=Commits)
+* [65b5d4a Update h811/h815/m8/m8d/all klte devices.](https://github.com/search?q=Update%20h811/h815/m8/m8d/all%20klte%20devices.&type=Commits)
+* [d686e2d v500: Update to 3.6](https://github.com/search?q=v500%3A%20Update%20to%203.6&type=Commits)
+* [e24f8cb Update angler/bullhead/deb/flo/marlin/sailfish](https://github.com/search?q=Update%20angler/bullhead/deb/flo/marlin/sailfish&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-24-2017 End.
+
+07-23-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-23-2017:
+
+#### frameworks/base/
+* [aa6f3db Fix potential KeyguardMonitor FC on unlock](https://github.com/search?q=Fix%20potential%20KeyguardMonitor%20FC%20on%20unlock&type=Commits)
+* [a24451b Init MemoryIntArray#mFd with -1](https://github.com/search?q=Init%20MemoryIntArray%23mFd%20with%20-1&type=Commits)
+* [6243b09 base: SystemUI: add OmniSwitch hide on home](https://github.com/search?q=base%3A%20SystemUI%3A%20add%20OmniSwitch%20hide%20on%20home&type=Commits)
+* [74863fb SystemUI: Clean up BaseStatusBar](https://github.com/search?q=SystemUI%3A%20Clean%20up%20BaseStatusBar&type=Commits)
+
+#### hardware/qcom/fm/
+* [41ccba0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [530b16b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [2cf33d5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [8627c94 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [607056c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [94ece9d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%207.1&type=Commits)
+* [b70e599 BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups](https://github.com/search?q=BUGBASH-612%3A%20do%20not%20send%20phone%20numbers%20to%20non-ssl%20sites%20for%20reverse/forward/people%20lookups&type=Commits)
+* [c0fcaa7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [c708d67 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [1e0f603 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [6d962e1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [361756d Fix potential FC in the async task](https://github.com/search?q=Fix%20potential%20FC%20in%20the%20async%20task&type=Commits)
+* [b8cdb16 OmniSwitch: bring back hide broadcast](https://github.com/search?q=OmniSwitch%3A%20bring%20back%20hide%20broadcast&type=Commits)
+* [209caca OmniSwitch: add unchanged recent task list](https://github.com/search?q=OmniSwitch%3A%20add%20unchanged%20recent%20task%20list&type=Commits)
+* [c7980a1 OmniSwitch: round corners are sexy](https://github.com/search?q=OmniSwitch%3A%20round%20corners%20are%20sexy&type=Commits)
+
+#### packages/apps/Recorder/
+* [5c6ba77 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [7ba583e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+* [d883515 MSIM: Fix user set DDS sub in hotswap cases.](https://github.com/search?q=MSIM%3A%20Fix%20user%20set%20DDS%20sub%20in%20hotswap%20cases.&type=Commits)
+* [2af7cb2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [9f5d391 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [ba9f78f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [1ff6d8c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cm/
+* [3221aec crDroid v3.6](https://github.com/search?q=crDroid%20v3.6&type=Commits)
+* [0f8b465 charger: Fix small battery capacity font](https://github.com/search?q=charger%3A%20Fix%20small%20battery%20capacity%20font&type=Commits)
+* [3168f54 repopick: Add 'reset' option](https://github.com/search?q=repopick%3A%20Add%20'reset'%20option&type=Commits)
+
+#### vendor/cmsdk/
+* [69ef86e Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/cm_platform_sdk%20into%207.1&type=Commits)
+* [1319a28 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [79a71f1 crackling: Update to 3.6](https://github.com/search?q=crackling%3A%20Update%20to%203.6&type=Commits)
+* [1bb2c85 Update to 3.6](https://github.com/search?q=Update%20to%203.6&type=Commits)
+* [528f817 update herolte & hero2lte to build crDroidAndroid-7.1.2-20170723](https://github.com/search?q=update%20herolte%20&%20hero2lte%20to%20build%20crDroidAndroid-7.1.2-20170723&type=Commits)
+* [3138ea0 falcon: Update to v3.6](https://github.com/search?q=falcon%3A%20Update%20to%20v3.6&type=Commits)
+* [b886ae7 shamu: Update to v3.6](https://github.com/search?q=shamu%3A%20Update%20to%20v3.6&type=Commits)
+* [5149b8a v3.6 :)](https://github.com/search?q=v3.6%20%3A%29&type=Commits)
+* [3e4b4e5 Update Redmi2](https://github.com/search?q=Update%20Redmi2&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-23-2017 End.
+
+07-22-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-22-2017:
+
+#### android/
+* [966ca8f manifest: Track LOS for frameworks/av](https://github.com/search?q=manifest%3A%20Track%20LOS%20for%20frameworks/av&type=Commits)
+
+#### build/
+* [b724900 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_build%20into%207.1&type=Commits)
+
+#### frameworks/base/
+* [d88889a Base: OmniSwitch: Fix incorrect merge](https://github.com/search?q=Base%3A%20OmniSwitch%3A%20Fix%20incorrect%20merge&type=Commits)
+
+#### packages/apps/DeskClock/
+* [3e8d52b Use density independent units for the timer digits for sw360dp](https://github.com/search?q=Use%20density%20independent%20units%20for%20the%20timer%20digits%20for%20sw360dp&type=Commits)
+
+#### packages/apps/Jelly/
+* [b8270d7 Jelly: Allow to display pages in full screen mode](https://github.com/search?q=Jelly%3A%20Allow%20to%20display%20pages%20in%20full%20screen%20mode&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [2e6a350 OmniSwitch: transparents also wants to see locked apps :)](https://github.com/search?q=OmniSwitch%3A%20transparents%20also%20wants%20to%20see%20locked%20apps%20%3A%29&type=Commits)
+* [1ac38b4 OmniSwitch: locked apps support](https://github.com/search?q=OmniSwitch%3A%20locked%20apps%20support&type=Commits)
+* [5f95a51 OmniSwitch: add force stop in context menu](https://github.com/search?q=OmniSwitch%3A%20add%20force%20stop%20in%20context%20menu&type=Commits)
+* [a0a8b0c OmniSwitch: icon pack loading needs an early start](https://github.com/search?q=OmniSwitch%3A%20icon%20pack%20loading%20needs%20an%20early%20start&type=Commits)
+* [c5ec4f4 OmniSwitch: fix terrible wrong resizing on compose icons](https://github.com/search?q=OmniSwitch%3A%20fix%20terrible%20wrong%20resizing%20on%20compose%20icons&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [a4c83cd Merge branch 'mkn-mr1' of https://github.com/MoKee/android_packages_apps_AmazeFileManager into 7.1](https://github.com/search?q=Merge%20branch%20'mkn-mr1'%20of%20https%3A//github.com/MoKee/android_packages_apps_AmazeFileManager%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [4348298 Merge pull request #74 from beroid/7.1](https://github.com/search?q=Merge%20pull%20request%20%2374%20from%20beroid/7.1&type=Commits)
+* [72a66cf crdroid: Update RU translations](https://github.com/search?q=crdroid%3A%20Update%20RU%20translations&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-22-2017 End.
+
+07-21-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-21-2017:
+
+#### frameworks/base/
+* [f4ee551 Merge pull request #23 from crNougat/7.1](https://github.com/search?q=Merge%20pull%20request%20%2323%20from%20crNougat/7.1&type=Commits)
+* [b9cb112 Merge pull request #1 from crdroidandroid/7.1](https://github.com/search?q=Merge%20pull%20request%20%231%20from%20crdroidandroid/7.1&type=Commits)
+
+#### packages/apps/Jelly/
+* [54d8d10 Jelly: Remove unused variable in SearchBarController](https://github.com/search?q=Jelly%3A%20Remove%20unused%20variable%20in%20SearchBarController&type=Commits)
+* [063d6a9 Jelly: Use proper popup background attr](https://github.com/search?q=Jelly%3A%20Use%20proper%20popup%20background%20attr&type=Commits)
+* [ca27881 Jelly: Add "search in page" feature](https://github.com/search?q=Jelly%3A%20Add%20"search%20in%20page"%20feature&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [4ff853d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [4ee8cee Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [cbfc873 Update README.md](https://github.com/search?q=Update%20README.md&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [d20b40a Added LG G6 INTL (H870)](https://github.com/search?q=Added%20LG%20G6%20INTL%20%28H870%29&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-21-2017 End.
+
+07-20-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-20-2017:
+
+#### frameworks/base/
+* [c1d60de Allow using 4G icon instead LTE [1/2]](https://github.com/search?q=Allow%20using%204G%20icon%20instead%20LTE%20[1/2]&type=Commits)
+* [32ea681 Connectivity: Fix format arguments](https://github.com/search?q=Connectivity%3A%20Fix%20format%20arguments&type=Commits)
+* [5092f1e Fix and cleanup dui protected broadcasts [2/2]](https://github.com/search?q=Fix%20and%20cleanup%20dui%20protected%20broadcasts%20[2/2]&type=Commits)
+* [5a93eef Add protected broadcast for app crash broadcast](https://github.com/search?q=Add%20protected%20broadcast%20for%20app%20crash%20broadcast&type=Commits)
+* [c61a091 Fix custom button icon making touch and animation area smaller [2/3]](https://github.com/search?q=Fix%20custom%20button%20icon%20making%20touch%20and%20animation%20area%20smaller%20[2/3]&type=Commits)
+* [9d0cae0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### frameworks/native/
+* [74d8dd9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%207.1&type=Commits)
+
+#### packages/apps/DUI/
+* [a73d6ca Fix custom button icon making touch and animation area smaller [1/3]](https://github.com/search?q=Fix%20custom%20button%20icon%20making%20touch%20and%20animation%20area%20smaller%20[1/3]&type=Commits)
+* [17e5fc1 Media arrows icons: same size for both skip_next and skip_previous](https://github.com/search?q=Media%20arrows%20icons%3A%20same%20size%20for%20both%20skip_next%20and%20skip_previous&type=Commits)
+* [22e58d3 Change menu drawables](https://github.com/search?q=Change%20menu%20drawables&type=Commits)
+
+#### packages/apps/Settings/
+* [7a88ebc Development Settings: Show on all build types](https://github.com/search?q=Development%20Settings%3A%20Show%20on%20all%20build%20types&type=Commits)
+* [5f3f446 Correctly align cursor in renaming BT device](https://github.com/search?q=Correctly%20align%20cursor%20in%20renaming%20BT%20device&type=Commits)
+* [1df9595 Correctly align cursor in DPI settings (smallest width)](https://github.com/search?q=Correctly%20align%20cursor%20in%20DPI%20settings%20%28smallest%20width%29&type=Commits)
+* [57471f7 Storage settings for devices with ext sdcard: fix bar color](https://github.com/search?q=Storage%20settings%20for%20devices%20with%20ext%20sdcard%3A%20fix%20bar%20color&type=Commits)
+* [915a91a Fix and cleanup dui protected broadcasts [1/2]](https://github.com/search?q=Fix%20and%20cleanup%20dui%20protected%20broadcasts%20[1/2]&type=Commits)
+* [4c05960 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [2b3968f Merge branch 'mkn-mr1' of https://github.com/MoKee/android_packages_apps_AmazeFileManager into 7.1](https://github.com/search?q=Merge%20branch%20'mkn-mr1'%20of%20https%3A//github.com/MoKee/android_packages_apps_AmazeFileManager%20into%207.1&type=Commits)
+* [a212245 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidMusic/
+* [99841df Merge branch 'android-7.1' of https://github.com/omnirom/android_packages_apps_Phonograph into 7.1](https://github.com/search?q=Merge%20branch%20'android-7.1'%20of%20https%3A//github.com/omnirom/android_packages_apps_Phonograph%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [f1cfdbc Allow using 4G icon instead LTE [2/2]](https://github.com/search?q=Allow%20using%204G%20icon%20instead%20LTE%20[2/2]&type=Commits)
+* [2dcea0f Fix custom button icon making touch and animation area smaller [3/3]](https://github.com/search?q=Fix%20custom%20button%20icon%20making%20touch%20and%20animation%20area%20smaller%20[3/3]&type=Commits)
+* [23cca3c SeekBarPreference: fix progressbar glitch with custom min-max  values](https://github.com/search?q=SeekBarPreference%3A%20fix%20progressbar%20glitch%20with%20custom%20min-max%20%20values&type=Commits)
+
+#### prebuilts/gcc/linux-x86/arm/arm-eabi-7.1/
+* [ecfaa13 arm-linaro-linux-gnueabi 7.1.1: 20170720](https://github.com/search?q=arm-linaro-linux-gnueabi%207.1.1%3A%2020170720&type=Commits)
+
+#### system/sepolicy/
+* [ace786f interfacer: Allow interfacer to find content_service](https://github.com/search?q=interfacer%3A%20Allow%20interfacer%20to%20find%20content_service&type=Commits)
+
+#### vendor/cm/
+* [620b3b2 kernel: Add savedefconfig target](https://github.com/search?q=kernel%3A%20Add%20savedefconfig%20target&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-20-2017 End.
+
+07-19-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-19-2017:
+
+#### frameworks/base/
+* [af06f11 BootReceiver: check console-ramoops-0](https://github.com/search?q=BootReceiver%3A%20check%20console-ramoops-0&type=Commits)
+
+#### hardware/qcom/fm/
+* [165ef42 FM: Use some sane colors](https://github.com/search?q=FM%3A%20Use%20some%20sane%20colors&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [a096e54 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-19-2017 End.
+
+07-18-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-18-2017:
+
+#### external/ImageMagick/
+* [3205bac imagemagick: 7.0.6-1](https://github.com/search?q=imagemagick%3A%207.0.6-1&type=Commits)
+
+#### frameworks/base/
+* [d137184 PowerProfile: allow overriding default power profile](https://github.com/search?q=PowerProfile%3A%20allow%20overriding%20default%20power%20profile&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-18-2017 End.
+
+07-17-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-17-2017:
+
+#### frameworks/base/
+* [16c042a ScreenCap : Add jpeg support](https://github.com/search?q=ScreenCap%20%3A%20Add%20jpeg%20support&type=Commits)
+
+#### packages/apps/Gallery2/
+* [d9f1451 Gallery: Fix potential crash](https://github.com/search?q=Gallery%3A%20Fix%20potential%20crash&type=Commits)
+* [8af515d Gallery2: Switch to navigationbar from support libs](https://github.com/search?q=Gallery2%3A%20Switch%20to%20navigationbar%20from%20support%20libs&type=Commits)
+
+#### packages/apps/SlimRecents/
+* [5bc8633 Pinch-in-to-clear-all warning color = full opacity panel background color](https://github.com/search?q=Pinch-in-to-clear-all%20warning%20color%20=%20full%20opacity%20panel%20background%20color&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [605a5b2 Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [bc56f4a Merge pull request #668 from martincz/master](https://github.com/search?q=Merge%20pull%20request%20%23668%20from%20martincz/master&type=Commits)
+* [90dc250 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [4e37886 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [58a7dcc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [4813102 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [ad9f1dc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [62acc2c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [1332418 Add device and Maintainer for Yu Yureka Black](https://github.com/search?q=Add%20device%20and%20Maintainer%20for%20Yu%20Yureka%20Black&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [efe8cd4 Update potter build](https://github.com/search?q=Update%20potter%20build&type=Commits)
+* [967de41 potter: update build and fix links](https://github.com/search?q=potter%3A%20update%20build%20and%20fix%20links&type=Commits)
+* [63da3fb Add potter changelog](https://github.com/search?q=Add%20potter%20changelog&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-17-2017 End.
+
+07-16-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-16-2017:
+
+#### packages/apps/ThemeInterfacer/
+* [0fded63 JobService: Use a ContentObserver to check for force authorisation of packages](https://github.com/search?q=JobService%3A%20Use%20a%20ContentObserver%20to%20check%20for%20force%20authorisation%20of%20packages&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [222813e Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [a178278 FTP: Fix certificate for secure connection](https://github.com/search?q=FTP%3A%20Fix%20certificate%20for%20secure%20connection&type=Commits)
+* [91a44ca Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-16-2017 End.
+
 07-15-2017
 ====================
 
 #### Device specific Changes of 07-15-2017 Start:
-
-#### Device/Quark/
-* [e166a30 Quark: fix IrSilencer sensor unregister](https://github.com/search?q=Quark%3A%20fix%20IrSilencer%20sensor%20unregister&type=Commits)
 
 #### Kernel/Quark/
 * [fc4b70c Wifi: update driver history N_c branch](https://github.com/search?q=Wifi%3A%20update%20driver%20history%20N_c%20branch&type=Commits)
 
 #### Vendor/Quark/
 * [a95c7ed Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
-* [08e02be Quark: up KA and substratum](https://github.com/search?q=Quark%3A%20up%20KA%20and%20substratum&type=Commits)
 
 #### Device specific Changes of 07-15-2017 End.
 
@@ -24,12 +323,31 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 07-15-2017:
 
+#### frameworks/native/
+* [d461e7a Surface: Use async lock/unlock in copyBlt](https://github.com/search?q=Surface%3A%20Use%20async%20lock/unlock%20in%20copyBlt&type=Commits)
+* [c8aefcf Surface: Ensure synchronisation of copyBlt](https://github.com/search?q=Surface%3A%20Ensure%20synchronisation%20of%20copyBlt&type=Commits)
+* [a3b93a7 surfaceflinger: Validate setposition parameters](https://github.com/search?q=surfaceflinger%3A%20Validate%20setposition%20parameters&type=Commits)
+* [96d3138 sf: Fix GPU coordinates computation.](https://github.com/search?q=sf%3A%20Fix%20GPU%20coordinates%20computation.&type=Commits)
+* [0adab82 sf: Limit co-ordinates difference fix for high res panel](https://github.com/search?q=sf%3A%20Limit%20co-ordinates%20difference%20fix%20for%20high%20res%20panel&type=Commits)
+* [db0e94b surfaceflinger: Fix continuous SF dump.](https://github.com/search?q=surfaceflinger%3A%20Fix%20continuous%20SF%20dump.&type=Commits)
+
 #### packages/apps/Jelly/
 * [4d40bf7 Jelly: Remove unneeded parameter type in addResult](https://github.com/search?q=Jelly%3A%20Remove%20unneeded%20parameter%20type%20in%20addResult&type=Commits)
 * [69f2dad Jelly: Remove redundant character escape](https://github.com/search?q=Jelly%3A%20Remove%20redundant%20character%20escape&type=Commits)
 * [55f3a05 Jelly: Make suggestion provider "None" translatable](https://github.com/search?q=Jelly%3A%20Make%20suggestion%20provider%20"None"%20translatable&type=Commits)
 * [c3794c5 Hide Sheet Menu after clicking on an entry](https://github.com/search?q=Hide%20Sheet%20Menu%20after%20clicking%20on%20an%20entry&type=Commits)
 * [4e7e82e Jelly: Query an already ordered favorite list](https://github.com/search?q=Jelly%3A%20Query%20an%20already%20ordered%20favorite%20list&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [da16ac4 Bump version number](https://github.com/search?q=Bump%20version%20number&type=Commits)
+* [5e0dc94 Update fdroid](https://github.com/search?q=Update%20fdroid&type=Commits)
+* [5e65531 Merge pull request #666 from EmmanuelMess/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23666%20from%20EmmanuelMess/patch-1&type=Commits)
+* [6e09cc2 Update strings.xml](https://github.com/search?q=Update%20strings.xml&type=Commits)
+* [0789fc2 Update strings.xml](https://github.com/search?q=Update%20strings.xml&type=Commits)
+* [d41f643 CLOUD: Fix initialization of loader](https://github.com/search?q=CLOUD%3A%20Fix%20initialization%20of%20loader&type=Commits)
+* [b6e2514 Corrected capitalization](https://github.com/search?q=Corrected%20capitalization&type=Commits)
+* [c891f91 FTP: Display IP address on screen](https://github.com/search?q=FTP%3A%20Display%20IP%20address%20on%20screen&type=Commits)
+* [fd875b0 Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
 
 #### vendor/crDroidOTA-devices/
 * [b7221fc Redmi 2 update](https://github.com/search?q=Redmi%202%20update&type=Commits)

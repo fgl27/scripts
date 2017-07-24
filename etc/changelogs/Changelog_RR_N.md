@@ -3,6 +3,289 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+07-24-2017
+====================
+
+#### Device specific Changes of 07-24-2017 Start:
+
+#### Device/Quark/
+* [8cd0c3d Quark: use default dalvik-heap sizes](https://github.com/search?q=Quark%3A%20use%20default%20dalvik-heap%20sizes&type=Commits)
+* [fcdf2e2 Quark: enable config to light up buttons only when pressed](https://github.com/search?q=Quark%3A%20enable%20config%20to%20light%20up%20buttons%20only%20when%20pressed&type=Commits)
+
+#### Vendor/Quark/
+* [84b4a15 Quark: update ka app](https://github.com/search?q=Quark%3A%20update%20ka%20app&type=Commits)
+
+#### Device specific Changes of 07-24-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 07-24-2017:
+
+#### frameworks/base/
+* [12fb6d6 Base: Fix global actions menu emergency button position](https://github.com/search?q=Base%3A%20Fix%20global%20actions%20menu%20emergency%20button%20position&type=Commits)
+
+#### vendor/cm/
+* [d235a41 Update Changelog](https://github.com/search?q=Update%20Changelog&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-24-2017 End.
+
+07-23-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-23-2017:
+
+#### frameworks/base/
+* [03342f8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [d47c995 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/fm/
+* [41ccba0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [530b16b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [2cf33d5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CMBugReport/
+* [11a2d62 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [8627c94 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [607056c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [14c5f7b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [1261ee8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [06bbfac Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [c708d67 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [1e0f603 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [63dad92 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [5c6ba77 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [cb8d91d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [500a0c1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [7d36378 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [32892fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [b32e764 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [9f5d391 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [ba9f78f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [1ff6d8c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [72ea547 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cm/
+* [982208b DeskClock: switch to version 5.0.1 (3745617)](https://github.com/search?q=DeskClock%3A%20switch%20to%20version%205.0.1%20%283745617%29&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* [53f0e73 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-23-2017 End.
+
+07-22-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-22-2017:
+
+#### frameworks/base/
+* [963b2ad Fix custom button icon making touch and animation area smaller [2/3]](https://github.com/search?q=Fix%20custom%20button%20icon%20making%20touch%20and%20animation%20area%20smaller%20[2/3]&type=Commits)
+* [6f90390 Merge pull request #204 from AndropaX/patch-4](https://github.com/search?q=Merge%20pull%20request%20%23204%20from%20AndropaX/patch-4&type=Commits)
+
+#### packages/apps/DUI/
+* [6515568 Fix custom button icon making touch and animation area smaller [1/3]](https://github.com/search?q=Fix%20custom%20button%20icon%20making%20touch%20and%20animation%20area%20smaller%20[1/3]&type=Commits)
+
+#### packages/apps/Jelly/
+* [b8270d7 Jelly: Allow to display pages in full screen mode](https://github.com/search?q=Jelly%3A%20Allow%20to%20display%20pages%20in%20full%20screen%20mode&type=Commits)
+
+#### packages/apps/Settings/
+* [2353503 Fix custom button icon making touch and animation area smaller [3/3]](https://github.com/search?q=Fix%20custom%20button%20icon%20making%20touch%20and%20animation%20area%20smaller%20[3/3]&type=Commits)
+* [4f8d736 Merge pull request #825 from AndropaX/patch-2](https://github.com/search?q=Merge%20pull%20request%20%23825%20from%20AndropaX/patch-2&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-22-2017 End.
+
+07-21-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-21-2017:
+
+#### frameworks/base/
+* [51cc188 DeviceInfoUtils: decentralize processor Regex](https://github.com/search?q=DeviceInfoUtils%3A%20decentralize%20processor%20Regex&type=Commits)
+* [021e65a DeviceInfoUtils: Expand Processor string #3](https://github.com/search?q=DeviceInfoUtils%3A%20Expand%20Processor%20string%20%233&type=Commits)
+* [a700be4 Fix new Processor regex in Nexus 4](https://github.com/search?q=Fix%20new%20Processor%20regex%20in%20Nexus%204&type=Commits)
+
+#### packages/apps/Jelly/
+* [54d8d10 Jelly: Remove unused variable in SearchBarController](https://github.com/search?q=Jelly%3A%20Remove%20unused%20variable%20in%20SearchBarController&type=Commits)
+* [063d6a9 Jelly: Use proper popup background attr](https://github.com/search?q=Jelly%3A%20Use%20proper%20popup%20background%20attr&type=Commits)
+* [ca27881 Jelly: Add "search in page" feature](https://github.com/search?q=Jelly%3A%20Add%20"search%20in%20page"%20feature&type=Commits)
+
+#### packages/apps/Settings/
+* [5cd394f Add processor model in device info screen (2/2)](https://github.com/search?q=Add%20processor%20model%20in%20device%20info%20screen%20%282/2%29&type=Commits)
+* [88342d3 Add maintainer for lenovo k6/power (#824)](https://github.com/search?q=Add%20maintainer%20for%20lenovo%20k6/power%20%28%23824%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-21-2017 End.
+
+07-20-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-20-2017:
+
+#### android/
+* [eedb930 Remove ahbottomnavigation](https://github.com/search?q=Remove%20ahbottomnavigation&type=Commits)
+
+#### frameworks/base/
+* [3aa1c51 BootReceiver: check console-ramoops-0](https://github.com/search?q=BootReceiver%3A%20check%20console-ramoops-0&type=Commits)
+* [f27f73e Merge remote-tracking branch 'remotes/rr/nougat' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20'remotes/rr/nougat'%20into%20HEAD&type=Commits)
+* [7e09920 PowerProfile: allow overriding default power profile](https://github.com/search?q=PowerProfile%3A%20allow%20overriding%20default%20power%20profile&type=Commits)
+* [e5e8dad Revert "PowerProfile: allow reading from a file instead of resource"](https://github.com/search?q=Revert%20"PowerProfile%3A%20allow%20reading%20from%20a%20file%20instead%20of%20resource"&type=Commits)
+* [3008b48 Add processor info in device info screen (1/2)](https://github.com/search?q=Add%20processor%20info%20in%20device%20info%20screen%20%281/2%29&type=Commits)
+
+#### system/sepolicy/
+* [34cc176 interfacer: Allow interfacer to find content_service](https://github.com/search?q=interfacer%3A%20Allow%20interfacer%20to%20find%20content_service&type=Commits)
+* [72d06e9 Add policy to fix interfacer derp on boot](https://github.com/search?q=Add%20policy%20to%20fix%20interfacer%20derp%20on%20boot&type=Commits)
+* [458839a sepolicy: Allow system_server to set theme_prop](https://github.com/search?q=sepolicy%3A%20Allow%20system_server%20to%20set%20theme_prop&type=Commits)
+* [86e3f9d sepolicy: add file and domain trans to interfacer](https://github.com/search?q=sepolicy%3A%20add%20file%20and%20domain%20trans%20to%20interfacer&type=Commits)
+* [caa8674 Welcome to Theme Interfacer! [2/2]](https://github.com/search?q=Welcome%20to%20Theme%20Interfacer!%20[2/2]&type=Commits)
+* [3890c0e sepolicy: Redo masquerade rules](https://github.com/search?q=sepolicy%3A%20Redo%20masquerade%20rules&type=Commits)
+* [1f43bf4 sepolicy: Fix application of bootanimation](https://github.com/search?q=sepolicy%3A%20Fix%20application%20of%20bootanimation&type=Commits)
+* [d9cc632 sepolicy: allow masquerade to read and write theme assets](https://github.com/search?q=sepolicy%3A%20allow%20masquerade%20to%20read%20and%20write%20theme%20assets&type=Commits)
+* [0a3d0fc sepolicy: rename masquerade domain and allow JobService in system_server](https://github.com/search?q=sepolicy%3A%20rename%20masquerade%20domain%20and%20allow%20JobService%20in%20system_server&type=Commits)
+* [5ac375f initial policy edits for masquerade to operate rootless](https://github.com/search?q=initial%20policy%20edits%20for%20masquerade%20to%20operate%20rootless&type=Commits)
+* [2965e98 sepolicy: fix themed sounds](https://github.com/search?q=sepolicy%3A%20fix%20themed%20sounds&type=Commits)
+* [8edd6b3 sepolicy: fix themed boot animation](https://github.com/search?q=sepolicy%3A%20fix%20themed%20boot%20animation&type=Commits)
+* [a03a002 Introduce sepolicy exceptions for theme assets](https://github.com/search?q=Introduce%20sepolicy%20exceptions%20for%20theme%20assets&type=Commits)
+* [13c7a73 OMS7-N: Add service 'overlay' to service_contexts](https://github.com/search?q=OMS7-N%3A%20Add%20service%20'overlay'%20to%20service_contexts&type=Commits)
+* [39875f9 Add policy to SELinux to allow ViPER4Android in enforcing mode](https://github.com/search?q=Add%20policy%20to%20SELinux%20to%20allow%20ViPER4Android%20in%20enforcing%20mode&type=Commits)
+* [1820ef3 RR: 7.1 fix](https://github.com/search?q=RR%3A%207.1%20fix&type=Commits)
+* [40ebd92 sepolicy: Allow platform_app to run su_exec() (1/2)](https://github.com/search?q=sepolicy%3A%20Allow%20platform_app%20to%20run%20su_exec%28%29%20%281/2%29&type=Commits)
+* [6606f8c sepolicy: Allow system_server to run su_exec() (1/2)](https://github.com/search?q=sepolicy%3A%20Allow%20system_server%20to%20run%20su_exec%28%29%20%281/2%29&type=Commits)
+* [1f5ad77 sepolicy: Allow system_app to run su_exec()](https://github.com/search?q=sepolicy%3A%20Allow%20system_app%20to%20run%20su_exec%28%29&type=Commits)
+* [f73b438 sepolicy: Allow remount /system](https://github.com/search?q=sepolicy%3A%20Allow%20remount%20/system&type=Commits)
+
+#### vendor/cm/
+* [715986b Merge remote-tracking branch 'remotes/rr/nougat' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20'remotes/rr/nougat'%20into%20HEAD&type=Commits)
+* [bc96cad repopick: Add 'reset' option](https://github.com/search?q=repopick%3A%20Add%20'reset'%20option&type=Commits)
+* [5a5e439 kernel: Add savedefconfig target](https://github.com/search?q=kernel%3A%20Add%20savedefconfig%20target&type=Commits)
+* [4438599 qcom: Enable TARGET_USES_QCOM_MM_AUDIO](https://github.com/search?q=qcom%3A%20Enable%20TARGET_USES_QCOM_MM_AUDIO&type=Commits)
+* [5b71695 repopick: don't bail on drafts](https://github.com/search?q=repopick%3A%20don't%20bail%20on%20drafts&type=Commits)
+* [82a5e5a prebuilt: update Magisk Manager 5.1.1 (#96)](https://github.com/search?q=prebuilt%3A%20update%20Magisk%20Manager%205.1.1%20%28%2396%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-20-2017 End.
+
+07-19-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-19-2017:
+
+#### hardware/qcom/fm/
+* [165ef42 FM: Use some sane colors](https://github.com/search?q=FM%3A%20Use%20some%20sane%20colors&type=Commits)
+
+#### vendor/cm/
+* [ac577f3 Update prebuilts to latest versions (#95)](https://github.com/search?q=Update%20prebuilts%20to%20latest%20versions%20%28%2395%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-19-2017 End.
+
+07-18-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-18-2017:
+
+#### frameworks/base/
+* [8320284 SEEMP: Adding auth framework for outgoing SMS messages.](https://github.com/search?q=SEEMP%3A%20Adding%20auth%20framework%20for%20outgoing%20SMS%20messages.&type=Commits)
+* [7490b95 SEEMP: Adding auth framework for outgoing SMS messages.](https://github.com/search?q=SEEMP%3A%20Adding%20auth%20framework%20for%20outgoing%20SMS%20messages.&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-18-2017 End.
+
+07-17-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-17-2017:
+
+#### frameworks/base/
+* [bdfc59e ScreenCap : Add jpeg support](https://github.com/search?q=ScreenCap%20%3A%20Add%20jpeg%20support&type=Commits)
+* [df6580a Configurable Keyguard alpha and Keyguard Bouncer alpha [1/2] inspired by the BrightLockscreen xposed module: https://github.com/Generalbrus/BrightLockscreen](https://github.com/search?q=Configurable%20Keyguard%20alpha%20and%20Keyguard%20Bouncer%20alpha%20[1/2]%20inspired%20by%20the%20BrightLockscreen%20xposed%20module%3A%20https%3A//github.com/Generalbrus/BrightLockscreen&type=Commits)
+* [33fb4dd RecentsView: Hiding membar, memtext and fab on drag start.](https://github.com/search?q=RecentsView%3A%20Hiding%20membar,%20memtext%20and%20fab%20on%20drag%20start.&type=Commits)
+* [b66c326 Connectivity: Fix format arguments](https://github.com/search?q=Connectivity%3A%20Fix%20format%20arguments&type=Commits)
+* [9fcae18 SystemUI: Fix Notification Background Color Issue](https://github.com/search?q=SystemUI%3A%20Fix%20Notification%20Background%20Color%20Issue&type=Commits)
+* [73d5dc4 Fix keyguard prompt reason showing with fingerprint reboot enabled](https://github.com/search?q=Fix%20keyguard%20prompt%20reason%20showing%20with%20fingerprint%20reboot%20enabled&type=Commits)
+* [de35001 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [d9f1451 Gallery: Fix potential crash](https://github.com/search?q=Gallery%3A%20Fix%20potential%20crash&type=Commits)
+* [8af515d Gallery2: Switch to navigationbar from support libs](https://github.com/search?q=Gallery2%3A%20Switch%20to%20navigationbar%20from%20support%20libs&type=Commits)
+
+#### packages/apps/Settings/
+* [2fdd40f MiscSettings: Remove SElinux Switch & System App remover if no Magisk](https://github.com/search?q=MiscSettings%3A%20Remove%20SElinux%20Switch%20&%20System%20App%20remover%20if%20no%20Magisk&type=Commits)
+* [61a20bc Fix up Suspend actions fragment summary string value](https://github.com/search?q=Fix%20up%20Suspend%20actions%20fragment%20summary%20string%20value&type=Commits)
+* [09611a0 Settings:Configurable Keyguard & bouncer alpha [2/2]](https://github.com/search?q=Settings%3AConfigurable%20Keyguard%20&%20bouncer%20alpha%20[2/2]&type=Commits)
+
+#### vendor/cm/
+* [e4a1100 Add Proper Magisk 13.2 zip](https://github.com/search?q=Add%20Proper%20Magisk%2013.2%20zip&type=Commits)
+* [a860ae3 Delete this corrupt zip](https://github.com/search?q=Delete%20this%20corrupt%20zip&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-17-2017 End.
+
+07-16-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-16-2017:
+
+#### packages/apps/Dialer/
+* [7ea85a1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [09beeb1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [9618142 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [70866bf Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [3dec931 Bring back some physical keyboard settings](https://github.com/search?q=Bring%20back%20some%20physical%20keyboard%20settings&type=Commits)
+* [582837b Add maintainer for samsung galaxy s5(k3gxx) (#823)](https://github.com/search?q=Add%20maintainer%20for%20samsung%20galaxy%20s5%28k3gxx%29%20%28%23823%29&type=Commits)
+* [937057f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [9d7e6ca Add maintainer Yu Yreka Black(garlic) (#820)](https://github.com/search?q=Add%20maintainer%20Yu%20Yreka%20Black%28garlic%29%20%28%23820%29&type=Commits)
+
+#### packages/services/OmniJaws/
+* [cb5e8f7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/ThemeInterfacer/
+* [0fded63 JobService: Use a ContentObserver to check for force authorisation of packages](https://github.com/search?q=JobService%3A%20Use%20a%20ContentObserver%20to%20check%20for%20force%20authorisation%20of%20packages&type=Commits)
+
+#### vendor/cm/
+* [fb83d97 Fix magisk 13.2 Location](https://github.com/search?q=Fix%20magisk%2013.2%20Location&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-16-2017 End.
+
 07-15-2017
 ====================
 
@@ -16,7 +299,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Vendor/Quark/
 * [a95c7ed Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
-* [08e02be Quark: up KA and substratum](https://github.com/search?q=Quark%3A%20up%20KA%20and%20substratum&type=Commits)
 
 #### Device specific Changes of 07-15-2017 End.
 
