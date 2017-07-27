@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="action_menu">
-        <item>@string/scheduler</item>
-        <item>@string/saved_files</item>
-        <item>@string/settings</item>
-    </string-array>
-</resources>

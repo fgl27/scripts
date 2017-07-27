@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="58.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:layout_gravity="center" android:id="@id/content_radioBtn" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:checked="false" android:button="@drawable/icon_radiobutton_b" />
-    <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center|left" android:id="@id/content_name" android:layout_width="fill_parent" android:layout_height="58.0dip" />
-</LinearLayout>

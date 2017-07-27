@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/add_reservation" android:title="@string/add" android:showAsAction="always" />
-    <item android:id="@id/del_reservation" android:title="@string/delete" android:showAsAction="always" />
-</menu>

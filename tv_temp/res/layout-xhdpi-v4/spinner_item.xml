@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:background="@drawable/ic_schedule_record_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:textAlignment="inherit" style="?android:attr/spinnerItemStyle" />
-</LinearLayout>

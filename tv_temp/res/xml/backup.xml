@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<full-backup-content>
-    <exclude domanin="file" />
-    <exclude domanin="external" />
-    <exclude domanin="root" />
-</full-backup-content>
