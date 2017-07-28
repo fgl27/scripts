@@ -2,10 +2,10 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 use ieee.numeric_std.all;
 
-ENTITY mac IS
-	GENERIC ( MT :     time := 20 us;
-		  AT :     time := 10 us;
-		  RT :     time := 200 ns
+ENTITY mac_pipe IS
+	GENERIC ( MT :     time := 20 ns;
+		  AT :     time := 10 ns;
+		  RT :     time := 0.2 ns
                 );
 	PORT (
 		XIN     : IN unsigned(15 DOWNTO 0) := (OTHERS => '0');
@@ -16,48 +16,54 @@ ENTITY mac IS
 		DONE    : OUT std_logic;
 		ACCOUT  : OUT unsigned(31 DOWNTO 0) := (OTHERS => '0')
 	);
-END ENTITY mac;
+END ENTITY mac_pipe;
 
-ARCHITECTURE funcional OF mac IS
+ARCHITECTURE funcional OF mac_pipe IS
 
-	SIGNAL acc_value : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL multi_value : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL reg_value : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL CLK : std_logic := '0';
+	SIGNAL acumulador : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL multiplicador : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_multi : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_acc : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	
 	SIGNAL reg_done : std_logic := '0';
+
 	SIGNAL STEPSCOUNTER : integer := 0;
-	SIGNAL  TT : time := MT + AT + RT; -- tempo total de processamento de cada passo sem pipeline
+	SIGNAL STEPSCOUNTER_temp : integer := 0;
+	SIGNAL reg_acc_temp : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+
 BEGIN
 
-	PROCESS (CLK) -- clock interno
-	BEGIN
-		CLK <= NOT(CLK) AFTER TT;
-	END PROCESS;
-
-	PROCESS (RST, CLK, LOAD, STEPS)
+	PROCESS (acumulador, multiplicador, reg_acc, RST, LOAD, STEPS)
 	BEGIN
 		IF RST = '1' THEN -- zera todos sinais internos
-			reg_value <= (OTHERS => '0');
-			STEPSCOUNTER <= 0;
+			reg_acc_temp <= (OTHERS => '0');
+			STEPSCOUNTER_temp <= -1;
 			reg_done <= '0';
-			multi_value <= (OTHERS => '0');
-			acc_value <= (OTHERS => '0');
 		ELSIF LOAD = '1' THEN
-			IF rising_edge (CLK) THEN
-				IF STEPSCOUNTER < (STEPS + 1) THEN
-					IF reg_done = '0' THEN
-						multi_value <= (XIN * YIN); -- MT
-						acc_value <= reg_value + multi_value; --AT
-						reg_value <= acc_value; --RT
-						STEPSCOUNTER <= STEPSCOUNTER + 1;
-					END IF;
-				ELSIF STEPSCOUNTER > STEPS THEN
-					reg_done <= '1';
+			IF STEPSCOUNTER_temp <= STEPS THEN
+				IF reg_done = '0' THEN
+        	                	reg_acc_temp <= acumulador;
+                			STEPSCOUNTER_temp <= STEPSCOUNTER;
 				END IF;
+			ELSE
+				reg_done <= '1';
 			END IF;
 		END IF;
 	END PROCESS;
 
+	PROCESS
+	BEGIN
+		FOR i IN 0 TO STEPS LOOP
+			WAIT FOR MT;
+                	multiplicador <= (XIN * YIN);
+			WAIT FOR AT;
+                	acumulador <= reg_acc + multiplicador;
+			WAIT FOR RT;
+                	reg_acc <= reg_acc_temp;
+      			STEPSCOUNTER <= STEPSCOUNTER_temp + 1;
+		END LOOP;
+	END PROCESS;
+
 	DONE <= reg_done;
-	ACCOUT <= reg_value;
+	ACCOUT <= reg_acc;
 END funcional;
