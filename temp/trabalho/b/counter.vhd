@@ -6,7 +6,7 @@ ENTITY counter IS
 	PORT (
 		RST    : IN std_logic;
 		LOAD   : IN std_logic;
-		ACCOUT : OUT unsigned(3 DOWNTO 0)
+		ACCOUT : OUT unsigned(3 DOWNTO 0) := (OTHERS => '0')
 	);
 END ENTITY counter;
 

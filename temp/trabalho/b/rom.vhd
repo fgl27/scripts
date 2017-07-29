@@ -5,7 +5,7 @@ USE ieee.numeric_std.ALL;
 ENTITY ROM IS
 	PORT (
 		ADDRESS  : IN unsigned(3 DOWNTO 0);
-		DATA_OUT : OUT unsigned(15 DOWNTO 0)
+		DATA_OUT : OUT unsigned(15 DOWNTO 0) := (others => '0')
 	);
 END ENTITY ROM;
 

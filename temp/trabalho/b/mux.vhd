@@ -18,7 +18,6 @@ BEGIN
 
   S <= A WHEN sel = "0000" ELSE
        B WHEN sel = "0001" ELSE
-       C WHEN sel = "0010" ELSE 
-       D WHEN sel = "0011" ELSE (OTHERS => '0');
+       C WHEN sel = "0010" ELSE D;
 
 END funcional;
