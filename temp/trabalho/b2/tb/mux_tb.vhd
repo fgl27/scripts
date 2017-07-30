@@ -8,12 +8,12 @@ END mux_tb;
 ARCHITECTURE testebench OF mux_tb IS
   COMPONENT mux 
   PORT(
-        A : IN unsigned(15 DOWNTO 0); -- entrada A
-        B : IN unsigned(15 DOWNTO 0); -- entrada B
-        C : IN unsigned(15 DOWNTO 0); -- entrada C
-        D : IN unsigned(15 DOWNTO 0); -- entrada D
-        S : OUT unsigned(15 DOWNTO 0);  -- saída do circuito
-        sel : IN unsigned(3 DOWNTO 0));  -- sinal de seleção
+        A : IN unsigned(15 DOWNTO 0);
+        B : IN unsigned(15 DOWNTO 0);
+        C : IN unsigned(15 DOWNTO 0);
+        D : IN unsigned(15 DOWNTO 0);
+        S : OUT unsigned(15 DOWNTO 0);
+        sel : IN unsigned(3 DOWNTO 0));
    END COMPONENT;
 
    signal atb : unsigned(15 DOWNTO 0) := (others => '0');

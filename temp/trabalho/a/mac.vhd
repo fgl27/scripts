@@ -11,8 +11,8 @@ ENTITY mac IS
 	);
 
 	PORT (
-		XIN : IN unsigned(15 DOWNTO 0);
-		YIN : IN unsigned(15 DOWNTO 0);
+		XIN     : IN unsigned(15 DOWNTO 0);
+		YIN     : IN unsigned(15 DOWNTO 0);
 		RST     : IN std_logic;
 		LOAD    : IN std_logic;
 		MAC_OUT : OUT unsigned(31 DOWNTO 0)

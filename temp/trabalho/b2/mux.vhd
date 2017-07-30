@@ -4,12 +4,12 @@ use ieee.numeric_std.all;
 
 ENTITY mux IS
   PORT(
-        A : IN unsigned(15 DOWNTO 0); -- entrada 0
-        B : IN unsigned(15 DOWNTO 0); -- entrada 1
-        C : IN unsigned(15 DOWNTO 0); -- entrada 2
-        D : IN unsigned(15 DOWNTO 0); -- entrada 3
-        S : OUT unsigned(15 DOWNTO 0);  -- saída do circuito
-        sel : IN unsigned(3 DOWNTO 0));  -- sinal de seleção
+        A : IN unsigned(15 DOWNTO 0);
+        B : IN unsigned(15 DOWNTO 0);
+        C : IN unsigned(15 DOWNTO 0);
+        D : IN unsigned(15 DOWNTO 0);
+        S : OUT unsigned(15 DOWNTO 0);
+        sel : IN unsigned(3 DOWNTO 0));
 END mux;
 
 ARCHITECTURE    funcional OF mux IS
