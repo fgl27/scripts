@@ -27,8 +27,8 @@ ARCHITECTURE funcional OF mac_pipe IS
 	
 	SIGNAL reg_done : std_logic := '0';
 
-	SIGNAL STEPSCOUNTER : integer := 0;
-	SIGNAL STEPSCOUNTER_temp : integer := 0;
+	SIGNAL STEPS_COUNTER_ADDER : integer := 0;
+	SIGNAL REG_STEPS_COUNTER : integer := 0;
 	SIGNAL reg_multi_temp : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_acc_temp : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 
@@ -37,16 +37,16 @@ BEGIN
 	PROCESS (acumulador, multiplicador, reg_multi, reg_acc, RST, LOAD, STEPS)
 	BEGIN
 		IF RST = '1' THEN -- zera todos sinais internos
+			reg_done <= '0';
 			reg_acc_temp <= (OTHERS => '0');
                 	reg_multi_temp <=  (OTHERS => '0');
-			STEPSCOUNTER_temp <= -1;
-			reg_done <= '0';
+			STEPS_COUNTER_ADDER <= -1; -- -1 apos um reset para que os passos sejão todos executados
 		ELSIF LOAD = '1' THEN
-			IF STEPSCOUNTER_temp <= (STEPS + 1) THEN
+			IF STEPS_COUNTER_ADDER <= (STEPS + 1) THEN
 				IF reg_done = '0' THEN
         	                	reg_acc_temp <= acumulador;
                                 	reg_multi_temp <= multiplicador;
-                			STEPSCOUNTER_temp <= STEPSCOUNTER;
+                			STEPS_COUNTER_ADDER <= REG_STEPS_COUNTER;
 				END IF;
 			ELSE
 				reg_done <= '1';
@@ -63,7 +63,7 @@ BEGIN
 			WAIT FOR RT;
                        	reg_multi <= reg_multi_temp;
                 	reg_acc <= reg_acc_temp;
-      			STEPSCOUNTER <= STEPSCOUNTER_temp + 1;
+      			REG_STEPS_COUNTER <= STEPS_COUNTER_ADDER + 1;
 		END LOOP;
 	END PROCESS;
 
