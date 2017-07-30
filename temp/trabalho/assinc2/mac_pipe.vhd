@@ -34,19 +34,19 @@ ARCHITECTURE funcional OF mac_pipe IS
 
 BEGIN
 
-	PROCESS (acumulador, multiplicador, reg_multi, reg_acc, RST, LOAD, STEPS)
+	PROCESS (acumulador, multiplicador, reg_multi, reg_acc, reg_done, RST, LOAD)
 	BEGIN
-		IF RST = '1' THEN -- zera todos sinais internos
+		IF RST = '1' THEN
 			reg_done <= '0';
 			reg_acc_temp <= (OTHERS => '0');
                 	reg_multi_temp <=  (OTHERS => '0');
-			STEPS_COUNTER_ADDER <= -1; -- -1 apos um reset para que os passos sejão todos executados
+			STEPS_COUNTER_ADDER <= 0;
 		ELSIF LOAD = '1' THEN
 			IF STEPS_COUNTER_ADDER <= (STEPS + 1) THEN
 				IF reg_done = '0' THEN
         	                	reg_acc_temp <= acumulador;
                                 	reg_multi_temp <= multiplicador;
-                			STEPS_COUNTER_ADDER <= REG_STEPS_COUNTER;
+                			STEPS_COUNTER_ADDER <= REG_STEPS_COUNTER + 1;
 				END IF;
 			ELSE
 				reg_done <= '1';
@@ -63,7 +63,7 @@ BEGIN
 			WAIT FOR RT;
                        	reg_multi <= reg_multi_temp;
                 	reg_acc <= reg_acc_temp;
-      			REG_STEPS_COUNTER <= STEPS_COUNTER_ADDER + 1;
+      			REG_STEPS_COUNTER <= STEPS_COUNTER_ADDER;
 		END LOOP;
 	END PROCESS;
 
