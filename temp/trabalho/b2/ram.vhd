@@ -31,6 +31,7 @@ BEGIN
 		IF rising_edge(RST) THEN
 		        FOR i IN 0 TO MEMSIZE LOOP
 			        ram_position(i) <= (OTHERS => '0');
+                                DATA_OUT <= (OTHERS => '0');
 		        END LOOP;
 		ELSIF rising_edge(LOAD) THEN
 			IF READ = '1' THEN
