@@ -9,13 +9,13 @@ ARCHITECTURE funcional OF mac_b_tb IS
 
 	COMPONENT mac_b IS
 		PORT (
-			AIN       : IN unsigned(15 DOWNTO 0); -- entrada 0 mux
-			BIN       : IN unsigned(15 DOWNTO 0); -- entrada 1 mux
-			CIN       : IN unsigned(15 DOWNTO 0); -- entrada 2 mux
-			DIN       : IN unsigned(15 DOWNTO 0); -- entrada 3 mux
-			MACB_RST  : IN std_logic;
-			MACB_LOAD : IN std_logic;
-			MACB_OUT  : OUT unsigned(31 DOWNTO 0) := (OTHERS => '0')
+		        VIN       : IN unsigned(15 DOWNTO 0);
+		        XIN       : IN unsigned(15 DOWNTO 0);
+		        YIN       : IN unsigned(15 DOWNTO 0);
+		        ZIN       : IN unsigned(15 DOWNTO 0);
+		        MAC_B_RST  : IN std_logic;
+		        MAC_B_LOAD : IN std_logic;
+		        MAC_B_OUT  : OUT unsigned(31 DOWNTO 0)
 			);
 		END COMPONENT;
 

@@ -7,13 +7,14 @@ END mux_tb;
 
 ARCHITECTURE testebench OF mux_tb IS
   COMPONENT mux 
-  PORT(
-        A : IN unsigned(15 DOWNTO 0);
-        B : IN unsigned(15 DOWNTO 0);
-        C : IN unsigned(15 DOWNTO 0);
-        D : IN unsigned(15 DOWNTO 0);
-        S : OUT unsigned(15 DOWNTO 0);
-        sel : IN unsigned(3 DOWNTO 0));
+  PORT (
+		V   : IN unsigned(15 DOWNTO 0);
+		X   : IN unsigned(15 DOWNTO 0);
+		Y   : IN unsigned(15 DOWNTO 0);
+		Z   : IN unsigned(15 DOWNTO 0);
+		MUX_OUT   : OUT unsigned(15 DOWNTO 0);
+		SELCT : IN unsigned(1 DOWNTO 0)
+	);
    END COMPONENT;
 
    signal atb : unsigned(15 DOWNTO 0) := (others => '0');
@@ -21,14 +22,14 @@ ARCHITECTURE testebench OF mux_tb IS
    signal ctb : unsigned(15 DOWNTO 0) := (others => '0');
    signal dtb : unsigned(15 DOWNTO 0) := (others => '0');
    signal stb : unsigned(15 DOWNTO 0);
-   signal seltb : unsigned(3 DOWNTO 0) := "0000";
+   signal seltb : unsigned(1 DOWNTO 0) := "00";
             
 BEGIN
 
   circuito_sob_teste: mux
      port map(atb, btb, ctb,dtb, stb, seltb);
 
-  seltb <= "0011" after 20 ns, "0001" after 60 ns, "0010" after 100 ns, "0000" after 180 ns, "0111" after 200 ns;
+  seltb <= "11" after 20 ns, "01" after 60 ns, "10" after 100 ns, "00" after 180 ns, "11" after 200 ns;
   
   process
     begin

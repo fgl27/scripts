@@ -1,3 +1,22 @@
+-- Trabalho Segunda avaliação Sistemas Digitais I 2017/02
+--
+-- Projeto: MAC assíncrono, multiplicador somador com pipeline
+--
+-- Nome do arquivo: mac_pipe.vhd
+--
+-- Descrição: Projeto funcional. Entradas de 16 bits (0 a 15) do tipo UNSIGNED, saída 31 bits (0 a 31) do tipo UNSIGNED.
+--
+-- Limitações: Nenhuma
+-- 
+-- Autor: Felipe de Leon (Aluno)
+--      : felipe.deleon@yahoo.com.br
+--      : Eng. Eletrônica
+--      : Centro de Engenharias
+--      : UFPel
+--      : Rua Benjamin Constant, 989
+--      
+-- Revisão: Versão 1.0 - 31/07/2017
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
@@ -5,9 +24,9 @@ USE ieee.numeric_std.ALL;
 ENTITY mac_pipe IS
 
 	GENERIC (
-		MT : TIME := 20 ns;
-		AT : TIME := 10 ns;
-		RT : TIME := 0.2 ns
+		MT : TIME := 20 ns; -- Tempo de execução de uma multiplicação
+		AT : TIME := 10 ns; -- Tempo de execução de uma soma
+		RT : TIME := 0.2 ns -- Tempo de execução de um registrador
 	);
 
 	PORT (
@@ -22,11 +41,11 @@ END ENTITY mac_pipe;
 
 ARCHITECTURE funcional OF mac_pipe IS
 
-	SIGNAL soma          : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL multiplica    : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL reg_multi     : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL reg_soma      : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL reg_soma_temp : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL multiplica       : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_multiplica   : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL soma             : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_soma_entrada : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_soma_saida   : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 
 BEGIN
 
@@ -34,13 +53,13 @@ BEGIN
 	BEGIN
 		WAIT FOR MT;
 		multiplica <= (XIN * YIN);
-		soma       <= reg_soma + reg_multi;
+		soma       <= reg_soma_saida + reg_multiplica;
 		WAIT FOR RT;
-		reg_multi     <= multiplica;
-		reg_soma_temp <= soma;
+		reg_multiplica   <= multiplica;
+		reg_soma_entrada <= soma;
 	END PROCESS;
 
-	reg_soma <= soma WHEN (RST = '0' AND LOAD = '1') ELSE (OTHERS => '0') WHEN RST = '1';
-	MAC_OUT  <= reg_soma_temp WHEN (RST = '0' AND LOAD = '1') ELSE (OTHERS => '0') WHEN RST = '1';
+	reg_soma_saida <= soma WHEN (RST = '0' AND LOAD = '1') ELSE (OTHERS => '0') WHEN RST = '1';
+	MAC_OUT        <= reg_soma_saida;
 
 END funcional;

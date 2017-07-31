@@ -11,7 +11,7 @@ ARCHITECTURE funcional OF counter_tb IS
 		PORT (
 		RST    : IN std_logic;
 		LOAD   : IN std_logic;
-		ACCOUT : OUT unsigned(3 DOWNTO 0)
+		COUNTER_OUT : OUT unsigned(1 DOWNTO 0)
 		);
 	END COMPONENT;
 
@@ -19,7 +19,7 @@ ARCHITECTURE funcional OF counter_tb IS
 	SIGNAL tb_load : std_logic := '0';
 	SIGNAL tb_rst : std_logic := '0';
 
-	SIGNAL accsaida : unsigned(3 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL accsaida : unsigned(1 DOWNTO 0) := (OTHERS => '0');
 BEGIN
 	-- Instancia do componete
 
