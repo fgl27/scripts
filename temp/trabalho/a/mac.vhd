@@ -24,9 +24,9 @@ USE ieee.numeric_std.ALL;
 ENTITY mac IS
 
 	GENERIC (
-		MT : TIME := 20 ns; -- Tempo de execução de uma multiplicação
-		AT : TIME := 10 ns; -- Tempo de execução de uma soma
-		RT : TIME := 0.2 ns -- Tempo de execução de um registrador
+		MT : TIME := 20 us; -- Tempo de execução de uma multiplicação
+		AT : TIME := 10 us; -- Tempo de execução de uma soma
+		RT : TIME := 200 ns -- Tempo de execução de um registrador
 	);
 
 	PORT (
@@ -58,7 +58,7 @@ BEGIN
 		reg_soma_entrada <= soma;
 	END PROCESS;
 
-	reg_soma_saida <= soma WHEN (RST = '0' AND LOAD = '1') ELSE (OTHERS => '0') WHEN RST = '1';
+	reg_soma_saida <= reg_soma_entrada WHEN (RST = '0' AND LOAD = '1') ELSE (OTHERS => '0') WHEN RST = '1';
 	MAC_OUT        <= reg_soma_saida;
 
 END funcional;
