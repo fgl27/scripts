@@ -57,12 +57,12 @@ ARCHITECTURE funcional OF mac_b IS
 	COMPONENT mux IS
 
 		PORT (
-			V       : IN unsigned(15 DOWNTO 0);
-			X       : IN unsigned(15 DOWNTO 0);
-			Y       : IN unsigned(15 DOWNTO 0);
-			Z       : IN unsigned(15 DOWNTO 0);
-			MUX_OUT : OUT unsigned(15 DOWNTO 0);
-			SELCT   : IN unsigned(1 DOWNTO 0)
+			V          : IN unsigned(15 DOWNTO 0);
+			X          : IN unsigned(15 DOWNTO 0);
+			Y          : IN unsigned(15 DOWNTO 0);
+			Z          : IN unsigned(15 DOWNTO 0);
+			MUX_OUT    : OUT unsigned(15 DOWNTO 0);
+			POSITION   : IN unsigned(1 DOWNTO 0)
 		);
 
 	END COMPONENT;
@@ -116,34 +116,34 @@ BEGIN
 	RAM1 : ram
 	PORT MAP(ram_load, MAC_B_RST, ram_r, ram_wr, counter_value, counter_value, ram_data_in, ram_data_out);
 
-ROM1 : rom
-PORT MAP(counter_value, rom_out);
+        ROM1 : rom
+        PORT MAP(counter_value, rom_out);
 
-PROCESS
-BEGIN
-	WAIT FOR LT;
-	counter_load <= '0';
-	ram_wr       <= '0';
-	ram_r        <= '0';
-	ram_load     <= '0';
-	WAIT FOR MT;
-	multiplica <= (mux_out * rom_out);
-	WAIT FOR AT;
-	soma <= ram_data_out + multiplica;
-	WAIT FOR RT;
-	ram_data_in <= soma;
-	ram_wr   <= '1';
-	ram_load <= MAC_B_LOAD;
-	WAIT FOR LT;
-	ram_wr   <= '0';
-	ram_load <= '0';
-	WAIT FOR LT;
-	ram_r        <= '1';
-	ram_load     <= MAC_B_LOAD;
-	WAIT FOR LT;
-	counter_load <= MAC_B_LOAD;
-END PROCESS;
+        PROCESS
+        BEGIN
+	        WAIT FOR LT;
+	        counter_load <= '0';
+	        ram_wr       <= '0';
+	        ram_r        <= '0';
+	        ram_load     <= '0';
+	        WAIT FOR MT;
+	        multiplica <= (mux_out * rom_out);
+	        WAIT FOR AT;
+	        soma <= ram_data_out + multiplica;
+	        WAIT FOR RT;
+	        ram_data_in <= soma;
+	        ram_wr   <= '1';
+	        ram_load <= MAC_B_LOAD;
+	        WAIT FOR LT;
+	        ram_wr   <= '0';
+	        ram_load <= '0';
+	        WAIT FOR LT;
+	        ram_r        <= '1';
+	        ram_load     <= MAC_B_LOAD;
+	        WAIT FOR LT;
+	        counter_load <= MAC_B_LOAD;
+        END PROCESS;
 
-MAC_B_OUT <= ram_data_out;
+        MAC_B_OUT <= ram_data_out;
 
 END funcional;

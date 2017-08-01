@@ -24,12 +24,12 @@ USE ieee.numeric_std.ALL;
 ENTITY mux IS
 
 	PORT (
-		V       : IN unsigned(15 DOWNTO 0);
-		X       : IN unsigned(15 DOWNTO 0);
-		Y       : IN unsigned(15 DOWNTO 0);
-		Z       : IN unsigned(15 DOWNTO 0);
-		MUX_OUT : OUT unsigned(15 DOWNTO 0);
-		SELCT   : IN unsigned(1 DOWNTO 0)
+		V          : IN unsigned(15 DOWNTO 0);
+		X          : IN unsigned(15 DOWNTO 0);
+		Y          : IN unsigned(15 DOWNTO 0);
+		Z          : IN unsigned(15 DOWNTO 0);
+		MUX_OUT    : OUT unsigned(15 DOWNTO 0);
+		POSITION   : IN unsigned(1 DOWNTO 0)
 	);
 
 END mux;
