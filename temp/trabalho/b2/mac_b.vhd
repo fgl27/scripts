@@ -91,6 +91,8 @@ ARCHITECTURE funcional OF mac_b IS
 
 	END COMPONENT;
 
+	SIGNAL RST_PC         : std_logic := '0';
+
 	SIGNAL counter_value : unsigned(1 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL counter_load  : std_logic := '0';
 
@@ -108,13 +110,13 @@ ARCHITECTURE funcional OF mac_b IS
 
 BEGIN
 	ACC : counter
-	PORT MAP(MAC_B_RST, counter_load, counter_value);
+	PORT MAP(RST_PC, counter_load, counter_value);
 
 	MUX1 : mux
 	PORT MAP(VIN, XIN, YIN, ZIN, mux_out, counter_value);
 
 	RAM1 : ram
-	PORT MAP(ram_load, MAC_B_RST, ram_r, ram_wr, counter_value, counter_value, ram_data_in, ram_data_out);
+	PORT MAP(ram_load, RST_PC, ram_r, ram_wr, counter_value, counter_value, ram_data_in, ram_data_out);
 
         ROM1 : rom
         PORT MAP(counter_value, rom_out);
@@ -145,5 +147,6 @@ BEGIN
         END PROCESS;
 
         MAC_B_OUT <= ram_data_out;
+        RST_PC <= MAC_B_RST;
 
 END funcional;
