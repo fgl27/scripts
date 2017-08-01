@@ -23,7 +23,7 @@ if [ ! "$rom" == "r" ] && [ ! "$rom" == "c" ]; then
 	echo -e "\nNO CHANGE FOR YOU\n";
 	exit;
 elif [ "$rom" == "r" ]; then
-        source_tree=$HOME/$source_tree_r
+        source_tree=$source_tree_r
 	source_name=$source_name_r
 elif [ "$rom" == "c" ]; then
         source_tree=$source_tree_c
