@@ -33,7 +33,7 @@ ARCHITECTURE funcional OF mac_b_tb IS
 		DUT : mac_b
 		PORT MAP(a, b, c, d, tb_rst, tb_load, saida);
 
-		tb_load <= '1' AFTER 10 ns, '0' AFTER 200 ns, '1' AFTER 415 ns;
-		tb_rst  <= '0' AFTER 10 ns, '1' AFTER 400 ns, '0' AFTER 402 ns;
+		tb_load <= '1' AFTER 0 us, '0' AFTER 200 us, '1' AFTER 415 us;
+		tb_rst  <= '0' AFTER 0 us, '1' AFTER 400 us, '0' AFTER 402 us;
 
 END funcional;

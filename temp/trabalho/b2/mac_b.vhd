@@ -24,10 +24,10 @@ USE ieee.numeric_std.ALL;
 ENTITY mac_b IS
 
 	GENERIC (
-		MT : TIME := 20 ns; -- Tempo de execução de uma multiplicação
-		AT : TIME := 10 ns; -- Tempo de execução de uma soma
-		RT : TIME := 0.2 ns; -- Tempo de execução de um registrador
-		LT : TIME := 0.1 ps -- Tempo de execução de uma mudança de estado de load interno
+		MT : TIME := 20 us; -- Tempo de execução de uma multiplicação
+		AT : TIME := 10 us; -- Tempo de execução de uma soma
+		RT : TIME := 0.2 us; -- Tempo de execução de um registrador
+		LT : TIME := 0.1 ns -- Tempo de execução de uma mudança de estado de load interno
 	);
 
 	PORT (
@@ -91,24 +91,24 @@ ARCHITECTURE funcional OF mac_b IS
 
 	END COMPONENT;
 
-	SIGNAL counter_value      : unsigned(1 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL mac_b_counter_load : std_logic := '0';
+	SIGNAL counter_value : unsigned(1 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL counter_load  : std_logic := '0';
 
-	SIGNAL mux_out            : unsigned(15 DOWNTO 0);
-	SIGNAL rom_out_temp       : unsigned(15 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL mux_out       : unsigned(15 DOWNTO 0);
+	SIGNAL rom_out       : unsigned(15 DOWNTO 0) := (OTHERS => '0');
 
-	SIGNAL ram_r              : std_logic := '0';
-	SIGNAL ram_wr             : std_logic := '0';
-	SIGNAL ram_load           : std_logic := '0';
-	SIGNAL ram_data_in        : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL ram_data_out       : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL ram_r         : std_logic := '0';
+	SIGNAL ram_wr        : std_logic := '0';
+	SIGNAL ram_load      : std_logic := '0';
+	SIGNAL ram_data_in   : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL ram_data_out  : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 
-	SIGNAL soma               : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL multiplica         : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL soma          : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL multiplica    : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 
 BEGIN
 	ACC : counter
-	PORT MAP(MAC_B_RST, mac_b_counter_load, counter_value);
+	PORT MAP(MAC_B_RST, counter_load, counter_value);
 
 	MUX1 : mux
 	PORT MAP(VIN, XIN, YIN, ZIN, mux_out, counter_value);
@@ -116,34 +116,34 @@ BEGIN
 	RAM1 : ram
 	PORT MAP(ram_load, MAC_B_RST, ram_r, ram_wr, counter_value, counter_value, ram_data_in, ram_data_out);
 
-        ROM1 : rom
-        PORT MAP(counter_value, rom_out_temp);
+ROM1 : rom
+PORT MAP(counter_value, rom_out);
 
-        PROCESS
-        BEGIN
-	        WAIT FOR LT;
-	        mac_b_counter_load <= '0';
-	        ram_wr             <= '0';
-	        ram_r              <= '0';
-	        ram_load           <= '0';
-	        WAIT FOR MT;
-	        multiplica <= (mux_out * rom_out_temp);
-	        WAIT FOR LT;
-	        ram_r    <= '1';
-	        ram_load <= MAC_B_LOAD;
-	        WAIT FOR LT;
-	        ram_load <= '0';
-	        WAIT FOR AT;
-	        soma <= ram_data_out + multiplica;
-	        WAIT FOR RT;
-	        ram_data_in <= soma;
-	        WAIT FOR LT;
-	        ram_wr <= '1';
-	        WAIT FOR LT;
-	        ram_load           <= MAC_B_LOAD;
-	        mac_b_counter_load <= MAC_B_LOAD;
-        END PROCESS;
+PROCESS
+BEGIN
+	WAIT FOR LT;
+	counter_load <= '0';
+	ram_wr       <= '0';
+	ram_r        <= '0';
+	ram_load     <= '0';
+	WAIT FOR MT;
+	multiplica <= (mux_out * rom_out);
+	WAIT FOR AT;
+	soma <= ram_data_out + multiplica;
+	WAIT FOR RT;
+	ram_data_in <= soma;
+	ram_wr   <= '1';
+	ram_load <= MAC_B_LOAD;
+	WAIT FOR LT;
+	ram_wr   <= '0';
+	ram_load <= '0';
+	WAIT FOR LT;
+	ram_r        <= '1';
+	ram_load     <= MAC_B_LOAD;
+	WAIT FOR LT;
+	counter_load <= MAC_B_LOAD;
+END PROCESS;
 
-        MAC_B_OUT <= ram_data_out;
+MAC_B_OUT <= ram_data_out;
 
 END funcional;
