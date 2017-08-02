@@ -3,6 +3,280 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+08-01-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 08-01-2017:
+
+#### hardware/qcom/display-caf/apq8084/
+* [74f4007 qdutils: correct error checking of MetaData's handle mapping](https://github.com/search?q=qdutils%3A%20correct%20error%20checking%20of%20MetaData's%20handle%20mapping&type=Commits)
+* [e66af28 hwc: Handle DOZE_SUSPEND properly](https://github.com/search?q=hwc%3A%20Handle%20DOZE_SUSPEND%20properly&type=Commits)
+* [74c186f hwc: Try MDP composition eventhough skip layer is present](https://github.com/search?q=hwc%3A%20Try%20MDP%20composition%20eventhough%20skip%20layer%20is%20present&type=Commits)
+* [9c4dc29 ovelray: Tolerate the absense of an RGB pipe](https://github.com/search?q=ovelray%3A%20Tolerate%20the%20absense%20of%20an%20RGB%20pipe&type=Commits)
+* [209ee71 hwc/overlay: Get rot dest dimensions instead of manipulating source](https://github.com/search?q=hwc/overlay%3A%20Get%20rot%20dest%20dimensions%20instead%20of%20manipulating%20source&type=Commits)
+* [d3720d2 liboverlay: Invoke commit before freeing the writeback device](https://github.com/search?q=liboverlay%3A%20Invoke%20commit%20before%20freeing%20the%20writeback%20device&type=Commits)
+* [b8d177f hwc: mdpcomp: Free pipeinfo objects every drawing round](https://github.com/search?q=hwc%3A%20mdpcomp%3A%20Free%20pipeinfo%20objects%20every%20drawing%20round&type=Commits)
+* [ac8ca8e gralloc: Change loglevel of adreno_utils warning](https://github.com/search?q=gralloc%3A%20Change%20loglevel%20of%20adreno_utils%20warning&type=Commits)
+* [0b6532f hwc: Avoid switching rotator session between secure and non secure](https://github.com/search?q=hwc%3A%20Avoid%20switching%20rotator%20session%20between%20secure%20and%20non%20secure&type=Commits)
+* [9a914b1 hwc: Avoid redoing GPU comp under certain conditions](https://github.com/search?q=hwc%3A%20Avoid%20redoing%20GPU%20comp%20under%20certain%20conditions&type=Commits)
+* [1c124c6 hwc: Avoid MDP draw if prepare is not successful.](https://github.com/search?q=hwc%3A%20Avoid%20MDP%20draw%20if%20prepare%20is%20not%20successful.&type=Commits)
+* [5d31b1d hwc: vds: isActive need to be set for wfd using vds solution](https://github.com/search?q=hwc%3A%20vds%3A%20isActive%20need%20to%20be%20set%20for%20wfd%20using%20vds%20solution&type=Commits)
+* [16ef924 hwc: Reset mode tracking in MDPComp constructor](https://github.com/search?q=hwc%3A%20Reset%20mode%20tracking%20in%20MDPComp%20constructor&type=Commits)
+* [e4fdc6b Revert "hwc: Skip load based composition for video playback."](https://github.com/search?q=Revert%20"hwc%3A%20Skip%20load%20based%20composition%20for%20video%20playback."&type=Commits)
+* [56e0fa4 hwc: reset overlay and writeback in unblank if writeback is active](https://github.com/search?q=hwc%3A%20reset%20overlay%20and%20writeback%20in%20unblank%20if%20writeback%20is%20active&type=Commits)
+* [5807c72 hwc: Integerize in the outward direction of rectangle](https://github.com/search?q=hwc%3A%20Integerize%20in%20the%20outward%20direction%20of%20rectangle&type=Commits)
+* [2765c7e hwc: Set ioprio for vsync thread](https://github.com/search?q=hwc%3A%20Set%20ioprio%20for%20vsync%20thread&type=Commits)
+* [df5adfa display: Set thread priority using cutils](https://github.com/search?q=display%3A%20Set%20thread%20priority%20using%20cutils&type=Commits)
+
+#### packages/apps/Eleven/
+* [1cc8b9e Eleven: Add WRITE_MEDIA_STORAGE permission](https://github.com/search?q=Eleven%3A%20Add%20WRITE_MEDIA_STORAGE%20permission&type=Commits)
+* [083e7f9 Eleven: Promote to privileged app](https://github.com/search?q=Eleven%3A%20Promote%20to%20privileged%20app&type=Commits)
+* [5301693 Eleven: allow artwork to scale down](https://github.com/search?q=Eleven%3A%20allow%20artwork%20to%20scale%20down&type=Commits)
+
+#### packages/apps/Gallery2/
+* [3b11d2a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [c88c572 Gallery2: Fix various issues and glitches](https://github.com/search?q=Gallery2%3A%20Fix%20various%20issues%20and%20glitches&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-01-2017 End.
+
+07-31-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-31-2017:
+
+#### hardware/qcom/display-caf/apq8084/
+* [54c0734 cec: Fix breakage due to API change](https://github.com/search?q=cec%3A%20Fix%20breakage%20due%20to%20API%20change&type=Commits)
+
+#### packages/apps/Gallery2/
+* [d74ca5a Gallery2: Fix potential crash](https://github.com/search?q=Gallery2%3A%20Fix%20potential%20crash&type=Commits)
+* [7e1b2d2 Gallery2: Switch to navigationbar from support libs](https://github.com/search?q=Gallery2%3A%20Switch%20to%20navigationbar%20from%20support%20libs&type=Commits)
+* [82b6848 Gallery2: Fix can't parse documents uri](https://github.com/search?q=Gallery2%3A%20Fix%20can't%20parse%20documents%20uri&type=Commits)
+
+#### packages/apps/Snap/
+* [a206d75 Snap: fix low resolution front camera switch icon](https://github.com/search?q=Snap%3A%20fix%20low%20resolution%20front%20camera%20switch%20icon&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-31-2017 End.
+
+07-30-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-30-2017:
+
+#### frameworks/base/
+* [ac82479 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [1487933 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [ebcdee7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [c689d05 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [0534047 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [1681b9a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [50bd45c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [c4a83cf Allow to disable battery light when in DND mode [1/2]](https://github.com/search?q=Allow%20to%20disable%20battery%20light%20when%20in%20DND%20mode%20[1/2]&type=Commits)
+* [20dce16 SystemUI: Store value of lockscreen media art](https://github.com/search?q=SystemUI%3A%20Store%20value%20of%20lockscreen%20media%20art&type=Commits)
+* [3dff8ca AppOps: Prevent deadlock when making note of applications](https://github.com/search?q=AppOps%3A%20Prevent%20deadlock%20when%20making%20note%20of%20applications&type=Commits)
+* [0e93f34 KernelCpuSpeedReader: Account for missing sysfs nodes](https://github.com/search?q=KernelCpuSpeedReader%3A%20Account%20for%20missing%20sysfs%20nodes&type=Commits)
+* [33c6d4f Revert "KernelCpuSpeedReader: Account for missing sysfs nodes"](https://github.com/search?q=Revert%20"KernelCpuSpeedReader%3A%20Account%20for%20missing%20sysfs%20nodes"&type=Commits)
+* [6f93f57 slim recents: Be sure to catch all exceptions for startActivityFromRecents](https://github.com/search?q=slim%20recents%3A%20Be%20sure%20to%20catch%20all%20exceptions%20for%20startActivityFromRecents&type=Commits)
+* [da27683 slim recents: Favlist creation: use HashSet instead of Arraylist](https://github.com/search?q=slim%20recents%3A%20Favlist%20creation%3A%20use%20HashSet%20instead%20of%20Arraylist&type=Commits)
+* [c46b63c SystemUI: locked tasks should have a valid view](https://github.com/search?q=SystemUI%3A%20locked%20tasks%20should%20have%20a%20valid%20view&type=Commits)
+* [8aed571 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [ad2c96a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [2fd5e8e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [eceb1ed Gallery2: Fix views overlap](https://github.com/search?q=Gallery2%3A%20Fix%20views%20overlap&type=Commits)
+* [8c7fe64 Gallery2: Support GIF animation](https://github.com/search?q=Gallery2%3A%20Support%20GIF%20animation&type=Commits)
+* [b923c25 Gallery2: Increase the size of the tiles when decoding images](https://github.com/search?q=Gallery2%3A%20Increase%20the%20size%20of%20the%20tiles%20when%20decoding%20images&type=Commits)
+* [ccaf2e4 Gallery2: Support the newly added media file types in MTP mode](https://github.com/search?q=Gallery2%3A%20Support%20the%20newly%20added%20media%20file%20types%20in%20MTP%20mode&type=Commits)
+* [ebce130 Gallery2: Fix use of uninitialized stack variables](https://github.com/search?q=Gallery2%3A%20Fix%20use%20of%20uninitialized%20stack%20variables&type=Commits)
+* [1fbe342 Gallery2: Remove unused renderscript class](https://github.com/search?q=Gallery2%3A%20Remove%20unused%20renderscript%20class&type=Commits)
+* [40fe6d2 Gallery2: Fix spelling error](https://github.com/search?q=Gallery2%3A%20Fix%20spelling%20error&type=Commits)
+* [5a0501d Gallery2: Properly declare the own permissions](https://github.com/search?q=Gallery2%3A%20Properly%20declare%20the%20own%20permissions&type=Commits)
+* [9c69a82 Gallery2: Remove more possible NPEs](https://github.com/search?q=Gallery2%3A%20Remove%20more%20possible%20NPEs&type=Commits)
+* [4288cf9 Gallery2: Enable frames in the editor](https://github.com/search?q=Gallery2%3A%20Enable%20frames%20in%20the%20editor&type=Commits)
+* [09a950e Gallery2: Remove slideshow option if there are only videos](https://github.com/search?q=Gallery2%3A%20Remove%20slideshow%20option%20if%20there%20are%20only%20videos&type=Commits)
+* [75e883a Gallery2: Remove 3D overscroll effect](https://github.com/search?q=Gallery2%3A%20Remove%203D%20overscroll%20effect&type=Commits)
+* [4cbaf64 Gallery2: Disable dummy starting window](https://github.com/search?q=Gallery2%3A%20Disable%20dummy%20starting%20window&type=Commits)
+* [7aeaefc Gallery2: Fix up audio effects dialog](https://github.com/search?q=Gallery2%3A%20Fix%20up%20audio%20effects%20dialog&type=Commits)
+* [cc80b1b Gallery2: Everyone or no one](https://github.com/search?q=Gallery2%3A%20Everyone%20or%20no%20one&type=Commits)
+* [a0dc1b8 Gallery2: Replace hamburger menu with bottom bar](https://github.com/search?q=Gallery2%3A%20Replace%20hamburger%20menu%20with%20bottom%20bar&type=Commits)
+* [ae2d5c1 Gallery2: Change all share intents to chooser style](https://github.com/search?q=Gallery2%3A%20Change%20all%20share%20intents%20to%20chooser%20style&type=Commits)
+* [1b893a4 Gallery2: Update menu](https://github.com/search?q=Gallery2%3A%20Update%20menu&type=Commits)
+* [b091264 Gallery2: Update theme](https://github.com/search?q=Gallery2%3A%20Update%20theme&type=Commits)
+* [7eb847c Gallery2: Move & improve CAF strings](https://github.com/search?q=Gallery2%3A%20Move%20&%20improve%20CAF%20strings&type=Commits)
+* [81e24fe Gallery2: Make sure no NPE happens](https://github.com/search?q=Gallery2%3A%20Make%20sure%20no%20NPE%20happens&type=Commits)
+* [9c735ae Gallery2: Remove invalid comment from manifest](https://github.com/search?q=Gallery2%3A%20Remove%20invalid%20comment%20from%20manifest&type=Commits)
+* [5b0141c Gallery2: Cleanup renderscript flags in Android.mk](https://github.com/search?q=Gallery2%3A%20Cleanup%20renderscript%20flags%20in%20Android.mk&type=Commits)
+* [108756a Gallery2: Reduce logspam in video player](https://github.com/search?q=Gallery2%3A%20Reduce%20logspam%20in%20video%20player&type=Commits)
+* [e0c0ac0 Gallery2: Store DATE_TAKEN as milliseconds](https://github.com/search?q=Gallery2%3A%20Store%20DATE_TAKEN%20as%20milliseconds&type=Commits)
+* [bb16314 Gallery2: Modify AOSP EL translations](https://github.com/search?q=Gallery2%3A%20Modify%20AOSP%20EL%20translations&type=Commits)
+* [3861e97 Gallery2: Remove CAF translations](https://github.com/search?q=Gallery2%3A%20Remove%20CAF%20translations&type=Commits)
+* [3bf31b2 Gallery2: Add record time to details view](https://github.com/search?q=Gallery2%3A%20Add%20record%20time%20to%20details%20view&type=Commits)
+* [c1cf324 Gallery2: Fix crash of gallery on showing details](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20of%20gallery%20on%20showing%20details&type=Commits)
+* [880d507 Gallery2: Fix crash when Bluetooth service is disabled](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20when%20Bluetooth%20service%20is%20disabled&type=Commits)
+* [2c75f40 Gallery2: Try to open existing camera](https://github.com/search?q=Gallery2%3A%20Try%20to%20open%20existing%20camera&type=Commits)
+* [db84f5b Gallery2: New icon](https://github.com/search?q=Gallery2%3A%20New%20icon&type=Commits)
+* [5f5c892 Gallery2: Bump minsdk and targetsdk version](https://github.com/search?q=Gallery2%3A%20Bump%20minsdk%20and%20targetsdk%20version&type=Commits)
+* [6587213 Gallery: FilterShowActivity: Fix loading spinner being show forever](https://github.com/search?q=Gallery%3A%20FilterShowActivity%3A%20Fix%20loading%20spinner%20being%20show%20forever&type=Commits)
+* [55bf17f Gallery: TileImageView: fix NPE](https://github.com/search?q=Gallery%3A%20TileImageView%3A%20fix%20NPE&type=Commits)
+* [be9357b FaceDetect: Catch more linker errors during initialization](https://github.com/search?q=FaceDetect%3A%20Catch%20more%20linker%20errors%20during%20initialization&type=Commits)
+* [8beb6f9 FaceDetect: Catch linker errors during initialization](https://github.com/search?q=FaceDetect%3A%20Catch%20linker%20errors%20during%20initialization&type=Commits)
+* [ea5a309 Bump API to match dependencies.](https://github.com/search?q=Bump%20API%20to%20match%20dependencies.&type=Commits)
+* [1a3f292 Add missing includes.](https://github.com/search?q=Add%20missing%20includes.&type=Commits)
+* [5c74612 Cleanup warnings in jni.](https://github.com/search?q=Cleanup%20warnings%20in%20jni.&type=Commits)
+* [b7d08f9 Fix misc-macro-parentheses warnings in Gallery2.](https://github.com/search?q=Fix%20misc-macro-parentheses%20warnings%20in%20Gallery2.&type=Commits)
+* [9110325 Float.NaN != ... always evaluates to true, use Float.isNaN.](https://github.com/search?q=Float.NaN%20!=%20...%20always%20evaluates%20to%20true,%20use%20Float.isNaN.&type=Commits)
+* [69f87c4 Rename app back to Gallery](https://github.com/search?q=Rename%20app%20back%20to%20Gallery&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [4ebad17 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [a0efaaa Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [648e102 MSIM: Fix user set DDS sub in hotswap cases.](https://github.com/search?q=MSIM%3A%20Fix%20user%20set%20DDS%20sub%20in%20hotswap%20cases.&type=Commits)
+* [5a56b01 Allow to disable battery light when in DND mode[2/2]](https://github.com/search?q=Allow%20to%20disable%20battery%20light%20when%20in%20DND%20mode[2/2]&type=Commits)
+* [80eaf37 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [0be2da3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-30-2017 End.
+
+07-29-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-29-2017:
+
+#### packages/apps/Jelly/
+* [083e503 Jelly: remove 'Mobile' from desktop user agent](https://github.com/search?q=Jelly%3A%20remove%20'Mobile'%20from%20desktop%20user%20agent&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-29-2017 End.
+
+07-28-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-28-2017:
+
+#### packages/apps/Calendar/
+* [c7912b5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [c8ce5ef Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [19f777a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [adeb6e5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [7bf040a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [b17bee6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [8214795 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [d261c7a SetupWizard: Don't show ChooseDataSimActivity on single sim devices](https://github.com/search?q=SetupWizard%3A%20Don't%20show%20ChooseDataSimActivity%20on%20single%20sim%20devices&type=Commits)
+* [6971663 SetupWizard: Fix crash when sims are absent](https://github.com/search?q=SetupWizard%3A%20Fix%20crash%20when%20sims%20are%20absent&type=Commits)
+* [b1dd429 SetupWizard: Fix a few possible NPEs](https://github.com/search?q=SetupWizard%3A%20Fix%20a%20few%20possible%20NPEs&type=Commits)
+
+#### packages/apps/Snap/
+* [db73354 Revert "Revert "SnapdragonCamera: Adding PRIVILEGED true""](https://github.com/search?q=Revert%20"Revert%20"SnapdragonCamera%3A%20Adding%20PRIVILEGED%20true""&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-28-2017 End.
+
+07-27-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-27-2017:
+
+#### external/chromium-webview/
+* [e205b2a Update webview](https://github.com/search?q=Update%20webview&type=Commits)
+
+#### packages/apps/Snap/
+* [bbb6ee1 Revert "SnapdragonCamera: Adding PRIVILEGED true"](https://github.com/search?q=Revert%20"SnapdragonCamera%3A%20Adding%20PRIVILEGED%20true"&type=Commits)
+
+#### system/bt/
+* [b30e393 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1](https://github.com/search?q=Merge%20tag%20'LA.UM.5.5.r1-05300-8x96.0'%20into%20cm-14.1&type=Commits)
+
+#### vendor/cm/
+* [cfcd5e2 Fix build scripts color format](https://github.com/search?q=Fix%20build%20scripts%20color%20format&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-27-2017 End.
+
+07-26-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-26-2017:
+
+#### frameworks/native/
+* [a3768a9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%20nougat&type=Commits)
+
+#### hardware/qcom/fm/
+* [7e027bc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [00af046 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [b40c1b5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [cf5278b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [48eecf4 Add Maintainer for LG G2 (Sprint) LS980 variant (#830)](https://github.com/search?q=Add%20Maintainer%20for%20LG%20G2%20%28Sprint%29%20LS980%20variant%20%28%23830%29&type=Commits)
+* [213c4d9 Settings: Allow our root options to work with LineageSu as well](https://github.com/search?q=Settings%3A%20Allow%20our%20root%20options%20to%20work%20with%20LineageSu%20as%20well&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [fe4f010 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [9a17e64 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [1550893 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/netd/
+* [b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.](https://github.com/search?q=SoftAp%3A%20Fix%20compilation%20in%20netd%20if%20%20LIBWPA_CLIENT_EXISTS%20undefined.&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-26-2017 End.
+
+07-25-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 07-25-2017:
+
+#### frameworks/base/
+* [8454510 Fix and cleanup dui protected broadcasts [2/2]](https://github.com/search?q=Fix%20and%20cleanup%20dui%20protected%20broadcasts%20[2/2]&type=Commits)
+* [242cf2c base: SystemUI: add OmniSwitch hide on home](https://github.com/search?q=base%3A%20SystemUI%3A%20add%20OmniSwitch%20hide%20on%20home&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [89e029a Fix potential FC in the async task](https://github.com/search?q=Fix%20potential%20FC%20in%20the%20async%20task&type=Commits)
+* [083543e OmniSwitch: bring back hide broadcast](https://github.com/search?q=OmniSwitch%3A%20bring%20back%20hide%20broadcast&type=Commits)
+* [0f4b052 OmniSwitch: add unchanged recent task list](https://github.com/search?q=OmniSwitch%3A%20add%20unchanged%20recent%20task%20list&type=Commits)
+* [a58f458 OmniSwitch: round corners are sexy](https://github.com/search?q=OmniSwitch%3A%20round%20corners%20are%20sexy&type=Commits)
+* [89e9691 OmniSwitch: transparents also wants to see locked apps :)](https://github.com/search?q=OmniSwitch%3A%20transparents%20also%20wants%20to%20see%20locked%20apps%20%3A%29&type=Commits)
+* [92f3ac7 OmniSwitch: locked apps support](https://github.com/search?q=OmniSwitch%3A%20locked%20apps%20support&type=Commits)
+* [006ea5a OmniSwitch: add force stop in context menu](https://github.com/search?q=OmniSwitch%3A%20add%20force%20stop%20in%20context%20menu&type=Commits)
+* [b51a26c OmniSwitch: icon pack loading needs an early start](https://github.com/search?q=OmniSwitch%3A%20icon%20pack%20loading%20needs%20an%20early%20start&type=Commits)
+* [423639f OmniSwitch: fix terrible wrong resizing on compose icons](https://github.com/search?q=OmniSwitch%3A%20fix%20terrible%20wrong%20resizing%20on%20compose%20icons&type=Commits)
+* [908e593 OmniSwitch: better safe then sorry](https://github.com/search?q=OmniSwitch%3A%20better%20safe%20then%20sorry&type=Commits)
+
+#### packages/apps/Settings/
+* [2bdc971 Fix and cleanup dui protected broadcasts [1/2]](https://github.com/search?q=Fix%20and%20cleanup%20dui%20protected%20broadcasts%20[1/2]&type=Commits)
+* [c3e7f21 Utils: Fix onboot crash until magisk is found](https://github.com/search?q=Utils%3A%20Fix%20onboot%20crash%20until%20magisk%20is%20found&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 07-25-2017 End.
+
 07-24-2017
 ====================
 
@@ -24,8 +298,10 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### frameworks/base/
 * [12fb6d6 Base: Fix global actions menu emergency button position](https://github.com/search?q=Base%3A%20Fix%20global%20actions%20menu%20emergency%20button%20position&type=Commits)
 
-#### vendor/cm/
-* [d235a41 Update Changelog](https://github.com/search?q=Update%20Changelog&type=Commits)
+#### packages/apps/Settings/
+* [4856b02 Update LG G3 (D855) Maintainer. (#829)](https://github.com/search?q=Update%20LG%20G3%20%28D855%29%20Maintainer.%20%28%23829%29&type=Commits)
+* [51a82c8 Add Maintainer for ZTE BLADE A610 (a610) (#826)](https://github.com/search?q=Add%20Maintainer%20for%20ZTE%20BLADE%20A610%20%28a610%29%20%28%23826%29&type=Commits)
+* [b7e811c Add Co-Maintainer for Lettuce (#827)](https://github.com/search?q=Add%20Co-Maintainer%20for%20Lettuce%20%28%23827%29&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 07-24-2017 End.
 

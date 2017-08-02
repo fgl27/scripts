@@ -3,6 +3,392 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+08-01-2017
+====================
+
+#### CRDroid Android Nougat source changes of 08-01-2017:
+
+#### hardware/qcom/display-caf/apq8084/
+* [74f4007 qdutils: correct error checking of MetaData's handle mapping](https://github.com/search?q=qdutils%3A%20correct%20error%20checking%20of%20MetaData's%20handle%20mapping&type=Commits)
+* [e66af28 hwc: Handle DOZE_SUSPEND properly](https://github.com/search?q=hwc%3A%20Handle%20DOZE_SUSPEND%20properly&type=Commits)
+* [74c186f hwc: Try MDP composition eventhough skip layer is present](https://github.com/search?q=hwc%3A%20Try%20MDP%20composition%20eventhough%20skip%20layer%20is%20present&type=Commits)
+* [9c4dc29 ovelray: Tolerate the absense of an RGB pipe](https://github.com/search?q=ovelray%3A%20Tolerate%20the%20absense%20of%20an%20RGB%20pipe&type=Commits)
+* [209ee71 hwc/overlay: Get rot dest dimensions instead of manipulating source](https://github.com/search?q=hwc/overlay%3A%20Get%20rot%20dest%20dimensions%20instead%20of%20manipulating%20source&type=Commits)
+* [d3720d2 liboverlay: Invoke commit before freeing the writeback device](https://github.com/search?q=liboverlay%3A%20Invoke%20commit%20before%20freeing%20the%20writeback%20device&type=Commits)
+* [b8d177f hwc: mdpcomp: Free pipeinfo objects every drawing round](https://github.com/search?q=hwc%3A%20mdpcomp%3A%20Free%20pipeinfo%20objects%20every%20drawing%20round&type=Commits)
+* [ac8ca8e gralloc: Change loglevel of adreno_utils warning](https://github.com/search?q=gralloc%3A%20Change%20loglevel%20of%20adreno_utils%20warning&type=Commits)
+* [0b6532f hwc: Avoid switching rotator session between secure and non secure](https://github.com/search?q=hwc%3A%20Avoid%20switching%20rotator%20session%20between%20secure%20and%20non%20secure&type=Commits)
+* [9a914b1 hwc: Avoid redoing GPU comp under certain conditions](https://github.com/search?q=hwc%3A%20Avoid%20redoing%20GPU%20comp%20under%20certain%20conditions&type=Commits)
+* [1c124c6 hwc: Avoid MDP draw if prepare is not successful.](https://github.com/search?q=hwc%3A%20Avoid%20MDP%20draw%20if%20prepare%20is%20not%20successful.&type=Commits)
+* [5d31b1d hwc: vds: isActive need to be set for wfd using vds solution](https://github.com/search?q=hwc%3A%20vds%3A%20isActive%20need%20to%20be%20set%20for%20wfd%20using%20vds%20solution&type=Commits)
+* [16ef924 hwc: Reset mode tracking in MDPComp constructor](https://github.com/search?q=hwc%3A%20Reset%20mode%20tracking%20in%20MDPComp%20constructor&type=Commits)
+* [e4fdc6b Revert "hwc: Skip load based composition for video playback."](https://github.com/search?q=Revert%20"hwc%3A%20Skip%20load%20based%20composition%20for%20video%20playback."&type=Commits)
+* [56e0fa4 hwc: reset overlay and writeback in unblank if writeback is active](https://github.com/search?q=hwc%3A%20reset%20overlay%20and%20writeback%20in%20unblank%20if%20writeback%20is%20active&type=Commits)
+* [5807c72 hwc: Integerize in the outward direction of rectangle](https://github.com/search?q=hwc%3A%20Integerize%20in%20the%20outward%20direction%20of%20rectangle&type=Commits)
+* [2765c7e hwc: Set ioprio for vsync thread](https://github.com/search?q=hwc%3A%20Set%20ioprio%20for%20vsync%20thread&type=Commits)
+* [df5adfa display: Set thread priority using cutils](https://github.com/search?q=display%3A%20Set%20thread%20priority%20using%20cutils&type=Commits)
+
+#### packages/apps/Gallery2/
+* [3b11d2a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [c88c572 Gallery2: Fix various issues and glitches](https://github.com/search?q=Gallery2%3A%20Fix%20various%20issues%20and%20glitches&type=Commits)
+
+#### packages/apps/SlimRecents/
+* [3a8f058 Merge branch 'n2' of https://github.com/ezio84/abc-n_packages_apps_SlimRecents into 7.1](https://github.com/search?q=Merge%20branch%20'n2'%20of%20https%3A//github.com/ezio84/abc-n_packages_apps_SlimRecents%20into%207.1&type=Commits)
+
+#### vendor/cm/
+* [bd7c473 qcom: Allow setting custom audio, display, and media HALs](https://github.com/search?q=qcom%3A%20Allow%20setting%20custom%20audio,%20display,%20and%20media%20HALs&type=Commits)
+* [98a4a39 templates: Update to show usage for new extract_files features](https://github.com/search?q=templates%3A%20Update%20to%20show%20usage%20for%20new%20extract_files%20features&type=Commits)
+* [db5a87f extract_files: Add support for paths without system/](https://github.com/search?q=extract_files%3A%20Add%20support%20for%20paths%20without%20system/&type=Commits)
+* [5a5c5b9 extract_files: Add support for specifying blob sections](https://github.com/search?q=extract_files%3A%20Add%20support%20for%20specifying%20blob%20sections&type=Commits)
+* [19b74c5 build: Update smali and baksmali to 2.2.1](https://github.com/search?q=build%3A%20Update%20smali%20and%20baksmali%20to%202.2.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [ee6e9a7 Update m8/m8d/h811/h815](https://github.com/search?q=Update%20m8/m8d/h811/h815&type=Commits)
+* [4d3763a Update angler/bullhead/deb/flo/sailfish/marlin](https://github.com/search?q=Update%20angler/bullhead/deb/flo/sailfish/marlin&type=Commits)
+* [bebfcf9 Update to 7/31/17](https://github.com/search?q=Update%20to%207/31/17&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-01-2017 End.
+
+07-31-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-31-2017:
+
+#### hardware/qcom/display-caf/apq8084/
+* [54c0734 cec: Fix breakage due to API change](https://github.com/search?q=cec%3A%20Fix%20breakage%20due%20to%20API%20change&type=Commits)
+
+#### packages/apps/Gallery2/
+* [d74ca5a Gallery2: Fix potential crash](https://github.com/search?q=Gallery2%3A%20Fix%20potential%20crash&type=Commits)
+* [7e1b2d2 Gallery2: Switch to navigationbar from support libs](https://github.com/search?q=Gallery2%3A%20Switch%20to%20navigationbar%20from%20support%20libs&type=Commits)
+* [82b6848 Gallery2: Fix can't parse documents uri](https://github.com/search?q=Gallery2%3A%20Fix%20can't%20parse%20documents%20uri&type=Commits)
+
+#### packages/apps/SlimRecents/
+* [439031f Translations](https://github.com/search?q=Translations&type=Commits)
+* [5f42f62 Make strings straightforward and simple](https://github.com/search?q=Make%20strings%20straightforward%20and%20simple&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-31-2017 End.
+
+07-30-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-30-2017:
+
+#### bionic/
+* [6878b8f Revert "Add support for modifying decay timer."](https://github.com/search?q=Revert%20"Add%20support%20for%20modifying%20decay%20timer."&type=Commits)
+* [bea9367 libc: fix incorrectly named cortex-a73 makefile](https://github.com/search?q=libc%3A%20fix%20incorrectly%20named%20cortex-a73%20makefile&type=Commits)
+* [6c25d2d Add support for cortex-a73.](https://github.com/search?q=Add%20support%20for%20cortex-a73.&type=Commits)
+
+#### external/zlib/
+* [dc840bb zlib: Remove usage of cpu directive in inline asm](https://github.com/search?q=zlib%3A%20Remove%20usage%20of%20cpu%20directive%20in%20inline%20asm&type=Commits)
+* [5ba8253 minizip: Clean up the code](https://github.com/search?q=minizip%3A%20Clean%20up%20the%20code&type=Commits)
+* [8674b89 zlib: Fix build under M](https://github.com/search?q=zlib%3A%20Fix%20build%20under%20M&type=Commits)
+
+#### frameworks/base/
+* [aae06f0 Revert "Set the decay timer for all forked apps."](https://github.com/search?q=Revert%20"Set%20the%20decay%20timer%20for%20all%20forked%20apps."&type=Commits)
+* [48118cc Revert "base: enable power save config of system apps [1/2]"](https://github.com/search?q=Revert%20"base%3A%20enable%20power%20save%20config%20of%20system%20apps%20[1/2]"&type=Commits)
+* [38be909 Revert "AsyncTask: Fix to remove canceled tasks from executor's queue."](https://github.com/search?q=Revert%20"AsyncTask%3A%20Fix%20to%20remove%20canceled%20tasks%20from%20executor's%20queue."&type=Commits)
+* [14980e1 Merge pull request #24 from entony80/patch-1](https://github.com/search?q=Merge%20pull%20request%20%2324%20from%20entony80/patch-1&type=Commits)
+* [85afd1a Update Italian translations](https://github.com/search?q=Update%20Italian%20translations&type=Commits)
+* [df4b9da Revert "Add Wakelock Blocker [1/3]"](https://github.com/search?q=Revert%20"Add%20Wakelock%20Blocker%20[1/3]"&type=Commits)
+
+#### packages/apps/DUI/
+* [255f5bc Merge pull request #2 from entony80/patch-1](https://github.com/search?q=Merge%20pull%20request%20%232%20from%20entony80/patch-1&type=Commits)
+* [2eff3ae Update Italian translation](https://github.com/search?q=Update%20Italian%20translation&type=Commits)
+
+#### packages/apps/Dialer/
+* [3a2e770 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%207.1&type=Commits)
+
+#### packages/apps/Gallery2/
+* [eceb1ed Gallery2: Fix views overlap](https://github.com/search?q=Gallery2%3A%20Fix%20views%20overlap&type=Commits)
+* [8c7fe64 Gallery2: Support GIF animation](https://github.com/search?q=Gallery2%3A%20Support%20GIF%20animation&type=Commits)
+* [b923c25 Gallery2: Increase the size of the tiles when decoding images](https://github.com/search?q=Gallery2%3A%20Increase%20the%20size%20of%20the%20tiles%20when%20decoding%20images&type=Commits)
+* [ccaf2e4 Gallery2: Support the newly added media file types in MTP mode](https://github.com/search?q=Gallery2%3A%20Support%20the%20newly%20added%20media%20file%20types%20in%20MTP%20mode&type=Commits)
+* [ebce130 Gallery2: Fix use of uninitialized stack variables](https://github.com/search?q=Gallery2%3A%20Fix%20use%20of%20uninitialized%20stack%20variables&type=Commits)
+* [1fbe342 Gallery2: Remove unused renderscript class](https://github.com/search?q=Gallery2%3A%20Remove%20unused%20renderscript%20class&type=Commits)
+* [40fe6d2 Gallery2: Fix spelling error](https://github.com/search?q=Gallery2%3A%20Fix%20spelling%20error&type=Commits)
+* [5a0501d Gallery2: Properly declare the own permissions](https://github.com/search?q=Gallery2%3A%20Properly%20declare%20the%20own%20permissions&type=Commits)
+* [9c69a82 Gallery2: Remove more possible NPEs](https://github.com/search?q=Gallery2%3A%20Remove%20more%20possible%20NPEs&type=Commits)
+* [4288cf9 Gallery2: Enable frames in the editor](https://github.com/search?q=Gallery2%3A%20Enable%20frames%20in%20the%20editor&type=Commits)
+* [09a950e Gallery2: Remove slideshow option if there are only videos](https://github.com/search?q=Gallery2%3A%20Remove%20slideshow%20option%20if%20there%20are%20only%20videos&type=Commits)
+* [75e883a Gallery2: Remove 3D overscroll effect](https://github.com/search?q=Gallery2%3A%20Remove%203D%20overscroll%20effect&type=Commits)
+* [4cbaf64 Gallery2: Disable dummy starting window](https://github.com/search?q=Gallery2%3A%20Disable%20dummy%20starting%20window&type=Commits)
+* [7aeaefc Gallery2: Fix up audio effects dialog](https://github.com/search?q=Gallery2%3A%20Fix%20up%20audio%20effects%20dialog&type=Commits)
+* [cc80b1b Gallery2: Everyone or no one](https://github.com/search?q=Gallery2%3A%20Everyone%20or%20no%20one&type=Commits)
+* [a0dc1b8 Gallery2: Replace hamburger menu with bottom bar](https://github.com/search?q=Gallery2%3A%20Replace%20hamburger%20menu%20with%20bottom%20bar&type=Commits)
+* [ae2d5c1 Gallery2: Change all share intents to chooser style](https://github.com/search?q=Gallery2%3A%20Change%20all%20share%20intents%20to%20chooser%20style&type=Commits)
+* [1b893a4 Gallery2: Update menu](https://github.com/search?q=Gallery2%3A%20Update%20menu&type=Commits)
+* [b091264 Gallery2: Update theme](https://github.com/search?q=Gallery2%3A%20Update%20theme&type=Commits)
+* [7eb847c Gallery2: Move & improve CAF strings](https://github.com/search?q=Gallery2%3A%20Move%20&%20improve%20CAF%20strings&type=Commits)
+* [81e24fe Gallery2: Make sure no NPE happens](https://github.com/search?q=Gallery2%3A%20Make%20sure%20no%20NPE%20happens&type=Commits)
+* [9c735ae Gallery2: Remove invalid comment from manifest](https://github.com/search?q=Gallery2%3A%20Remove%20invalid%20comment%20from%20manifest&type=Commits)
+* [5b0141c Gallery2: Cleanup renderscript flags in Android.mk](https://github.com/search?q=Gallery2%3A%20Cleanup%20renderscript%20flags%20in%20Android.mk&type=Commits)
+* [108756a Gallery2: Reduce logspam in video player](https://github.com/search?q=Gallery2%3A%20Reduce%20logspam%20in%20video%20player&type=Commits)
+* [e0c0ac0 Gallery2: Store DATE_TAKEN as milliseconds](https://github.com/search?q=Gallery2%3A%20Store%20DATE_TAKEN%20as%20milliseconds&type=Commits)
+* [bb16314 Gallery2: Modify AOSP EL translations](https://github.com/search?q=Gallery2%3A%20Modify%20AOSP%20EL%20translations&type=Commits)
+* [3861e97 Gallery2: Remove CAF translations](https://github.com/search?q=Gallery2%3A%20Remove%20CAF%20translations&type=Commits)
+* [3bf31b2 Gallery2: Add record time to details view](https://github.com/search?q=Gallery2%3A%20Add%20record%20time%20to%20details%20view&type=Commits)
+* [c1cf324 Gallery2: Fix crash of gallery on showing details](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20of%20gallery%20on%20showing%20details&type=Commits)
+* [880d507 Gallery2: Fix crash when Bluetooth service is disabled](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20when%20Bluetooth%20service%20is%20disabled&type=Commits)
+* [2c75f40 Gallery2: Try to open existing camera](https://github.com/search?q=Gallery2%3A%20Try%20to%20open%20existing%20camera&type=Commits)
+* [db84f5b Gallery2: New icon](https://github.com/search?q=Gallery2%3A%20New%20icon&type=Commits)
+* [5f5c892 Gallery2: Bump minsdk and targetsdk version](https://github.com/search?q=Gallery2%3A%20Bump%20minsdk%20and%20targetsdk%20version&type=Commits)
+* [6587213 Gallery: FilterShowActivity: Fix loading spinner being show forever](https://github.com/search?q=Gallery%3A%20FilterShowActivity%3A%20Fix%20loading%20spinner%20being%20show%20forever&type=Commits)
+* [55bf17f Gallery: TileImageView: fix NPE](https://github.com/search?q=Gallery%3A%20TileImageView%3A%20fix%20NPE&type=Commits)
+* [be9357b FaceDetect: Catch more linker errors during initialization](https://github.com/search?q=FaceDetect%3A%20Catch%20more%20linker%20errors%20during%20initialization&type=Commits)
+* [8beb6f9 FaceDetect: Catch linker errors during initialization](https://github.com/search?q=FaceDetect%3A%20Catch%20linker%20errors%20during%20initialization&type=Commits)
+* [ea5a309 Bump API to match dependencies.](https://github.com/search?q=Bump%20API%20to%20match%20dependencies.&type=Commits)
+* [1a3f292 Add missing includes.](https://github.com/search?q=Add%20missing%20includes.&type=Commits)
+* [5c74612 Cleanup warnings in jni.](https://github.com/search?q=Cleanup%20warnings%20in%20jni.&type=Commits)
+* [b7d08f9 Fix misc-macro-parentheses warnings in Gallery2.](https://github.com/search?q=Fix%20misc-macro-parentheses%20warnings%20in%20Gallery2.&type=Commits)
+* [9110325 Float.NaN != ... always evaluates to true, use Float.isNaN.](https://github.com/search?q=Float.NaN%20!=%20...%20always%20evaluates%20to%20true,%20use%20Float.isNaN.&type=Commits)
+* [69f87c4 Rename app back to Gallery](https://github.com/search?q=Rename%20app%20back%20to%20Gallery&type=Commits)
+
+#### packages/apps/Settings/
+* [bc9a62d Revert "Settings: enable power save config of system apps [2/2]"](https://github.com/search?q=Revert%20"Settings%3A%20enable%20power%20save%20config%20of%20system%20apps%20[2/2]"&type=Commits)
+* [ce1bd97 Merge pull request #24 from entony80/patch-2](https://github.com/search?q=Merge%20pull%20request%20%2324%20from%20entony80/patch-2&type=Commits)
+* [b6e43c8 Update Italian translations](https://github.com/search?q=Update%20Italian%20translations&type=Commits)
+* [ed1de45 Revert "Add Wakelock Blocker [2/3]"](https://github.com/search?q=Revert%20"Add%20Wakelock%20Blocker%20[2/3]"&type=Commits)
+* [6b33bda Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+
+#### packages/apps/SlimRecents/
+* [b53d92e Merge pull request #1 from entony80/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231%20from%20entony80/patch-1&type=Commits)
+* [757fd8b Update Italian Translations](https://github.com/search?q=Update%20Italian%20Translations&type=Commits)
+
+#### packages/apps/ThemeInterfacer/
+* [1007e3a Merge pull request #1 from entony80/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231%20from%20entony80/patch-1&type=Commits)
+* [9918066 Update Italian translations](https://github.com/search?q=Update%20Italian%20translations&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [fc2eadc Merge branch 'mkn-mr1' of https://github.com/MoKee/android_packages_apps_AmazeFileManager into 7.1](https://github.com/search?q=Merge%20branch%20'mkn-mr1'%20of%20https%3A//github.com/MoKee/android_packages_apps_AmazeFileManager%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [e1c54a3 Revert "Update Italian translations"](https://github.com/search?q=Revert%20"Update%20Italian%20translations"&type=Commits)
+* [e3631ba Merge pull request #76 from entony80/patch-1](https://github.com/search?q=Merge%20pull%20request%20%2376%20from%20entony80/patch-1&type=Commits)
+* [3bb03f5 Update Italian translations](https://github.com/search?q=Update%20Italian%20translations&type=Commits)
+* [d969de1 Revert "Add Wakelock Blocker [3/3]"](https://github.com/search?q=Revert%20"Add%20Wakelock%20Blocker%20[3/3]"&type=Commits)
+
+#### packages/services/Telephony/
+* [e8041fb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%207.1&type=Commits)
+
+#### system/core/
+* [0b4fe48 libcutils: only change cgroup when fd is initialized](https://github.com/search?q=libcutils%3A%20only%20change%20cgroup%20when%20fd%20is%20initialized&type=Commits)
+* [a498a1a libcutils: fix system-background tasks shown in top command](https://github.com/search?q=libcutils%3A%20fix%20system-background%20tasks%20shown%20in%20top%20command&type=Commits)
+* [875790e Fix access check](https://github.com/search?q=Fix%20access%20check&type=Commits)
+* [b55d58e init.rc: Fix potential task-throttling for regular tasks](https://github.com/search?q=init.rc%3A%20Fix%20potential%20task-throttling%20for%20regular%20tasks&type=Commits)
+
+#### vendor/cm/
+* [ecc0c37 extract_utils: Fix cleanup variables assigment](https://github.com/search?q=extract_utils%3A%20Fix%20cleanup%20variables%20assigment&type=Commits)
+* [6974a0e config: Set some default TWRP flags](https://github.com/search?q=config%3A%20Set%20some%20default%20TWRP%20flags&type=Commits)
+* [a37614c templates: Remove empty cat << EOF](https://github.com/search?q=templates%3A%20Remove%20empty%20cat%20<<%20EOF&type=Commits)
+* [343a9d1 sensitive_pn: add EU 116 Numbers](https://github.com/search?q=sensitive_pn%3A%20add%20EU%20116%20Numbers&type=Commits)
+* [434ec04 vendor: cm: sepolicy: Allow rw-access to system_app_data_file](https://github.com/search?q=vendor%3A%20cm%3A%20sepolicy%3A%20Allow%20rw-access%20to%20system_app_data_file&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-30-2017 End.
+
+07-29-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-29-2017:
+
+#### external/libphonenumber/
+* [90d30e4 Upgrade to 8.7.0](https://github.com/search?q=Upgrade%20to%208.7.0&type=Commits)
+* [e056548 Upgrade to 8.3.3](https://github.com/search?q=Upgrade%20to%208.3.3&type=Commits)
+* [e49a9c6 Upgrade to 8.3.1](https://github.com/search?q=Upgrade%20to%208.3.1&type=Commits)
+* [18b6885 Upgrade to 8.3.0](https://github.com/search?q=Upgrade%20to%208.3.0&type=Commits)
+
+#### external/libpng/
+* [5250751 libpng: Upgrade to 1.6.31](https://github.com/search?q=libpng%3A%20Upgrade%20to%201.6.31&type=Commits)
+
+#### frameworks/base/
+* [2d4e4a7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### packages/apps/Jelly/
+* [083e503 Jelly: remove 'Mobile' from desktop user agent](https://github.com/search?q=Jelly%3A%20remove%20'Mobile'%20from%20desktop%20user%20agent&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [8e8e3fc Redmi 2 update](https://github.com/search?q=Redmi%202%20update&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-29-2017 End.
+
+07-28-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-28-2017:
+
+#### external/zlib/
+* [24aa21b Avoid the use of ptrdiff_t.](https://github.com/search?q=Avoid%20the%20use%20of%20ptrdiff_t.&type=Commits)
+* [6cb8378 Handle case where inflateSync used when header never processed.](https://github.com/search?q=Handle%20case%20where%20inflateSync%20used%20when%20header%20never%20processed.&type=Commits)
+* [20728af Don't compute check value for raw inflate if asked to validate.](https://github.com/search?q=Don't%20compute%20check%20value%20for%20raw%20inflate%20if%20asked%20to%20validate.&type=Commits)
+* [bc7bb9b Add address checking in clang to -w option of configure.](https://github.com/search?q=Add%20address%20checking%20in%20clang%20to%20-w%20option%20of%20configure.&type=Commits)
+* [762d17d Small speedup to inflate [psumbera].](https://github.com/search?q=Small%20speedup%20to%20inflate%20[psumbera].&type=Commits)
+* [5e26c87 Update use of errno for newer Windows CE versions.](https://github.com/search?q=Update%20use%20of%20errno%20for%20newer%20Windows%20CE%20versions.&type=Commits)
+* [91ddf82 Have Makefile return non-zero error code on test failure.](https://github.com/search?q=Have%20Makefile%20return%20non-zero%20error%20code%20on%20test%20failure.&type=Commits)
+* [b9e50e8 Avoid a conversion error in gzseek when off_t type too small.](https://github.com/search?q=Avoid%20a%20conversion%20error%20in%20gzseek%20when%20off_t%20type%20too%20small.&type=Commits)
+* [2c6447c Fix CLEAR_HASH macro to be usable as a single statement.](https://github.com/search?q=Fix%20CLEAR_HASH%20macro%20to%20be%20usable%20as%20a%20single%20statement.&type=Commits)
+* [087520c Fix bug when window full in deflate_stored().](https://github.com/search?q=Fix%20bug%20when%20window%20full%20in%20deflate_stored%28%29.&type=Commits)
+* [d56dc56 Limit hash table inserts after switch from stored deflate.](https://github.com/search?q=Limit%20hash%20table%20inserts%20after%20switch%20from%20stored%20deflate.&type=Commits)
+* [e91e464 Permit a deflateParams() parameter change as soon as possible.](https://github.com/search?q=Permit%20a%20deflateParams%28%29%20parameter%20change%20as%20soon%20as%20possible.&type=Commits)
+* [1c459c8 Cygwin does not have _wopen(), so do not create gzopen_w() there.](https://github.com/search?q=Cygwin%20does%20not%20have%20_wopen%28%29,%20so%20do%20not%20create%20gzopen_w%28%29%20there.&type=Commits)
+* [bc0b445 Change version number to 1.2.11.1.](https://github.com/search?q=Change%20version%20number%20to%201.2.11.1.&type=Commits)
+* [08fc4e9 Add explicit casts for safe conversions](https://github.com/search?q=Add%20explicit%20casts%20for%20safe%20conversions&type=Commits)
+* [0f7ad4e Fix reported memory leak (strdup without free)](https://github.com/search?q=Fix%20reported%20memory%20leak%20%28strdup%20without%20free%29&type=Commits)
+* [ac7f87a Add explicit checks and casts for conversions](https://github.com/search?q=Add%20explicit%20checks%20and%20casts%20for%20conversions&type=Commits)
+* [b015353 call memset for read after write dependences at distance 1](https://github.com/search?q=call%20memset%20for%20read%20after%20write%20dependences%20at%20distance%201&type=Commits)
+* [46a5a6b Prevent potential division-by-zero in gzfwrite and gzfread.](https://github.com/search?q=Prevent%20potential%20division-by-zero%20in%20gzfwrite%20and%20gzfread.&type=Commits)
+
+#### frameworks/base/
+* [5da28b9 GC in heapDumpFinished to cleanup hprof fd](https://github.com/search?q=GC%20in%20heapDumpFinished%20to%20cleanup%20hprof%20fd&type=Commits)
+* [04cb1022 Automatic translation import](https://github.com/search?q=%20Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [c7912b5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [c8ce5ef Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [19f777a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [9d4e770 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%207.1&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [2c68d83 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%207.1&type=Commits)
+
+#### packages/apps/DeskClock/
+* [ffd4233 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [f0fd78e Dialer: Fix compilation warnings](https://github.com/search?q=Dialer%3A%20Fix%20compilation%20warnings&type=Commits)
+* [0aacac6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [7bf040a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [b17bee6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [8214795 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [04247c6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [5792c6f Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [eead7d8 Merge pull request #686 from TranceLove/feature/issue515](https://github.com/search?q=Merge%20pull%20request%20%23686%20from%20TranceLove/feature/issue515&type=Commits)
+* [4ff55d4 Further improvement to pull request #685: getPort() should take SharedPreferences instead of Context](https://github.com/search?q=Further%20improvement%20to%20pull%20request%20%23685%3A%20getPort%28%29%20should%20take%20SharedPreferences%20instead%20of%20Context&type=Commits)
+* [1b833ac Update gitignore](https://github.com/search?q=Update%20gitignore&type=Commits)
+* [27ae6ce Merge pull request #685 from TranceLove/feature/issue515](https://github.com/search?q=Merge%20pull%20request%20%23685%20from%20TranceLove/feature/issue515&type=Commits)
+* [d9d99aa Refix URL of FTP server at status display after merge](https://github.com/search?q=Refix%20URL%20of%20FTP%20server%20at%20status%20display%20after%20merge&type=Commits)
+* [2976e32 Merge remote-tracking branch 'upstream/master' into feature/issue515](https://github.com/search?q=Merge%20remote-tracking%20branch%20'upstream/master'%20into%20feature/issue515&type=Commits)
+* [dd4923a AmazeFileManager: Restructure Android.mk](https://github.com/search?q=AmazeFileManager%3A%20Restructure%20Android.mk&type=Commits)
+* [36d7cb1 Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [98b7d83 Fix display of FTP service URL when device IP address changed with connectivity status changed, e.g. from wifi enabled to wifi hotspot](https://github.com/search?q=Fix%20display%20of%20FTP%20service%20URL%20when%20device%20IP%20address%20changed%20with%20connectivity%20status%20changed,%20e.g.%20from%20wifi%20enabled%20to%20wifi%20hotspot&type=Commits)
+* [876ec2b Enable FTP service to run when device is running at wifi spot mode](https://github.com/search?q=Enable%20FTP%20service%20to%20run%20when%20device%20is%20running%20at%20wifi%20spot%20mode&type=Commits)
+* [15fe5f2 Make FTPService.getPort() to require Context, to fix UI display problem](https://github.com/search?q=Make%20FTPService.getPort%28%29%20to%20require%20Context,%20to%20fix%20UI%20display%20problem&type=Commits)
+* [569133e Check if enabled network interfaces is a Wifi AP address.](https://github.com/search?q=Check%20if%20enabled%20network%20interfaces%20is%20a%20Wifi%20AP%20address.&type=Commits)
+* [550ded3 Log message fix](https://github.com/search?q=Log%20message%20fix&type=Commits)
+* [fa27b0f Typo fix](https://github.com/search?q=Typo%20fix&type=Commits)
+* [a5cd7bc Decouple Wifi status checking to individual method.](https://github.com/search?q=Decouple%20Wifi%20status%20checking%20to%20individual%20method.&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [3984205 more 3.6](https://github.com/search?q=more%203.6&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-28-2017 End.
+
+07-27-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-27-2017:
+
+#### external/chromium-webview/
+* [e205b2a Update webview](https://github.com/search?q=Update%20webview&type=Commits)
+
+#### frameworks/base/
+* [a1f9aa2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [fe66a97 Allow to edit the SIP field of contacts stored locally](https://github.com/search?q=Allow%20to%20edit%20the%20SIP%20field%20of%20contacts%20stored%20locally&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [622115a Merge pull request #683 from Jawnnypoo/restructure](https://github.com/search?q=Merge%20pull%20request%20%23683%20from%20Jawnnypoo/restructure&type=Commits)
+* [474a3eb Commit gradle wrapper](https://github.com/search?q=Commit%20gradle%20wrapper&type=Commits)
+* 1cd2dbc Restructure project
+* [1461072 Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [91e5217 FTP: Fix authentication failure](https://github.com/search?q=FTP%3A%20Fix%20authentication%20failure&type=Commits)
+
+#### system/bt/
+* [b30e393 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1](https://github.com/search?q=Merge%20tag%20'LA.UM.5.5.r1-05300-8x96.0'%20into%20cm-14.1&type=Commits)
+
+#### system/netd/
+* [a1bb7cd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_netd into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_system_netd%20into%207.1&type=Commits)
+
+#### vendor/cm/
+* [0dc5069 overlay: Enable “Panic Detection” mode](https://github.com/search?q=overlay%3A%20Enable%20“Panic%20Detection”%20mode&type=Commits)
+* [1ecc716 sensitive_pn: Include France DOM (Overseas regions) codes](https://github.com/search?q=sensitive_pn%3A%20Include%20France%20DOM%20%28Overseas%20regions%29%20codes&type=Commits)
+* [ae3c5ac apns: correct the mvno_match_data for MasMovil Spain](https://github.com/search?q=apns%3A%20correct%20the%20mvno_match_data%20for%20MasMovil%20Spain&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-27-2017 End.
+
+07-26-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-26-2017:
+
+#### android/
+* [73cc342 manifest: Add caf remote](https://github.com/search?q=manifest%3A%20Add%20caf%20remote&type=Commits)
+
+#### frameworks/base/
+* [123fc30 AppOps: Prevent deadlock when making note of applications](https://github.com/search?q=AppOps%3A%20Prevent%20deadlock%20when%20making%20note%20of%20applications&type=Commits)
+* [013b62c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/fm/
+* [7e027bc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [00af046 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [b40c1b5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [7a0cdc8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [b3d31ad Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [e4db461 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [1550893 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/netd/
+* [b2d5c79 SoftAp: Fix compilation in netd if  LIBWPA_CLIENT_EXISTS undefined.](https://github.com/search?q=SoftAp%3A%20Fix%20compilation%20in%20netd%20if%20%20LIBWPA_CLIENT_EXISTS%20undefined.&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-26-2017 End.
+
+07-25-2017
+====================
+
+#### CRDroid Android Nougat source changes of 07-25-2017:
+
+#### packages/apps/SlimRecents/
+* [fade0a9 Be sure to catch all exceptions for startActivityFromRecents](https://github.com/search?q=Be%20sure%20to%20catch%20all%20exceptions%20for%20startActivityFromRecents&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [0f247eb Merge branch 'remote' into mkn-mr1](https://github.com/search?q=Merge%20branch%20'remote'%20into%20mkn-mr1&type=Commits)
+* [aadf575 Merge pull request #680 from Luca1991/master](https://github.com/search?q=Merge%20pull%20request%20%23680%20from%20Luca1991/master&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [d49d8f0 3.6 for some](https://github.com/search?q=3.6%20for%20some&type=Commits)
+* [bc46595 Kipper v3.6](https://github.com/search?q=Kipper%20v3.6&type=Commits)
+* [16f1518 Update changelog_kipper.txt](https://github.com/search?q=Update%20changelog_kipper.txt&type=Commits)
+* [63185c4 kipper-v3.6](https://github.com/search?q=kipper-v3.6&type=Commits)
+
+#### CRDroid Android Nougat source changes of 07-25-2017 End.
+
 07-24-2017
 ====================
 
@@ -21,14 +407,33 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 07-24-2017:
 
+#### external/zlib/
+* [867ab33 zlib: enable unaligned memory access](https://github.com/search?q=zlib%3A%20enable%20unaligned%20memory%20access&type=Commits)
+
+#### frameworks/base/
+* [30e9660 SystemUI: locked tasks should have a valid view](https://github.com/search?q=SystemUI%3A%20locked%20tasks%20should%20have%20a%20valid%20view&type=Commits)
+* [7dcc666 Hide SlimRecents api in WindowManager](https://github.com/search?q=Hide%20SlimRecents%20api%20in%20WindowManager&type=Commits)
+
+#### packages/apps/Dialer/
+* [eaf1a0e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%207.1&type=Commits)
+* [f59ad0c Dialer: Move padding from layout to spinner](https://github.com/search?q=Dialer%3A%20Move%20padding%20from%20layout%20to%20spinner&type=Commits)
+
+#### packages/apps/SlimRecents/
+* [904b949 Favlist creation: use HashSet instead of Arraylist](https://github.com/search?q=Favlist%20creation%3A%20use%20HashSet%20instead%20of%20Arraylist&type=Commits)
+
+#### packages/apps/crDroidFileManager/
+* [6e2e44c Fixed FTP Server while using Eth connection](https://github.com/search?q=Fixed%20FTP%20Server%20while%20using%20Eth%20connection&type=Commits)
+* [14c9a30 Merge pull request #1 from arpitkh96/master](https://github.com/search?q=Merge%20pull%20request%20%231%20from%20arpitkh96/master&type=Commits)
+* [5690ec2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/apps/crDroidSettings/
 * [2bff1ae Merge pull request #73 from saikatrockz/7.1](https://github.com/search?q=Merge%20pull%20request%20%2373%20from%20saikatrockz/7.1&type=Commits)
 
 #### vendor/crDroidOTA-devices/
+* [564171f tomato, s2, mido : updated to 3.6](https://github.com/search?q=tomato,%20s2,%20mido%20%3A%20updated%20to%203.6&type=Commits)
 * [e1309a6 Update Xiaomi Mi Max (hydrogen).](https://github.com/search?q=Update%20Xiaomi%20Mi%20Max%20%28hydrogen%29.&type=Commits)
 * [65b5d4a Update h811/h815/m8/m8d/all klte devices.](https://github.com/search?q=Update%20h811/h815/m8/m8d/all%20klte%20devices.&type=Commits)
 * [d686e2d v500: Update to 3.6](https://github.com/search?q=v500%3A%20Update%20to%203.6&type=Commits)
-* [e24f8cb Update angler/bullhead/deb/flo/marlin/sailfish](https://github.com/search?q=Update%20angler/bullhead/deb/flo/marlin/sailfish&type=Commits)
 
 #### CRDroid Android Nougat source changes of 07-24-2017 End.
 

@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <quark>
-            <Filename>crDroidAndroid-7.1.2-20170724-quark-v3.6.zip</Filename>
+            <Filename>crDroidAndroid-7.1.2-20170801-quark-v3.6.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download Latest crDroidAndroid for Quark (20170724)">https://www.androidfilehost.com/?fid=817550096634788228</RomUrl>
+                description="Download Latest crDroidAndroid for Quark (20170801)">https://www.androidfilehost.com/?fid=817550096634790038</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
