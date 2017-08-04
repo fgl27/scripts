@@ -23,7 +23,7 @@ ZIPALIGN_FOLDER=/home/bhb27/android/sdk/build-tools/24.0.2/zipalign;
 
 # out app folder and out app name
 
-OUT_FOLDER=$FOLDER/app/build/outputs/apk;
+OUT_FOLDER=$FOLDER/app/build/outputs/apk/release;
 APP_FINAL_NAME=KernelAdiutor.apk;
 
 # make zip only used if you have the need to make a zip of this a flash zip template is need
@@ -57,7 +57,7 @@ echo -e "\n The above is just the cleaning build start now\n";
 ./gradlew build
 
 if [ $SIGN == 1 ]; then
-if [ ! -e ./app/build/outputs/apk/app-release-unsigned.apk ]; then
+if [ ! -e $OUT_FOLDER/app-release-unsigned.apk ]; then
 	echo -e "\n${bldred}App not build${txtrst}\n"
 	exit 1;
 else

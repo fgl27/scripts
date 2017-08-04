@@ -41,43 +41,25 @@ END ENTITY mac;
 
 ARCHITECTURE funcional OF mac IS
 
-	COMPONENT reg IS
-
-		PORT (
-		        LOAD          : IN std_logic;
-		        RST           : IN std_logic;
-		        DATA_IN       : IN unsigned(34 DOWNTO 0);
-		        DATA_OUT      : OUT unsigned(34 DOWNTO 0) := (others => '0')
-		);
-
-	END COMPONENT;
-
 	SIGNAL multiplica : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL soma : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_soma_entrada : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_soma_saida : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 
-	SIGNAL REG_LOAD : std_logic := '0';
-	SIGNAL REG_RST : std_logic := '0';
-
 BEGIN
-
-	REG_PM : reg
-	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
-
 	PROCESS
 	BEGIN
-	        WAIT FOR MT;
-                REG_LOAD <= '0';
-	        multiplica <= (XIN * YIN);
-	        WAIT FOR AT;
-	        soma <= reg_soma_saida + multiplica;
-	        WAIT FOR RT;
-                reg_soma_entrada <= soma;
-                REG_LOAD <= LOAD;
+		WAIT FOR MT;
+		multiplica <= (XIN * YIN);
+		WAIT FOR AT;
+		soma <= reg_soma_saida + multiplica;
+		WAIT FOR RT;
+		reg_soma_entrada <= soma;
 	END PROCESS;
 
-        REG_RST <= RST;
+	reg_soma_saida <= reg_soma_saida WHEN (RST = '0' AND LOAD = '0') ELSE
+	                  reg_soma_entrada WHEN (RST = '0' AND LOAD = '1') ELSE
+	                  (OTHERS => '0') WHEN RST = '1';
 	MAC_OUT <= reg_soma_saida;
 
 END funcional;

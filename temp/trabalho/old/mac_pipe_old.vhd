@@ -34,67 +34,37 @@ ENTITY mac_pipe IS
 		YIN     : IN unsigned(15 DOWNTO 0);
 		RST     : IN std_logic;
 		LOAD    : IN std_logic;
-		MAC_OUT : OUT unsigned(34 DOWNTO 0)
+		MAC_OUT : OUT unsigned(31 DOWNTO 0)
 	);
 
 END ENTITY mac_pipe;
 
 ARCHITECTURE funcional OF mac_pipe IS
 
-	COMPONENT reg_31 IS
-
-		PORT (
-		        LOAD          : IN std_logic;
-		        RST           : IN std_logic;
-		        DATA_IN       : IN unsigned(31 DOWNTO 0);
-		        DATA_OUT      : OUT unsigned(31 DOWNTO 0) := (others => '0')
-		);
-
-	END COMPONENT;
-
-	COMPONENT reg_34 IS
-
-		PORT (
-		        LOAD          : IN std_logic;
-		        RST           : IN std_logic;
-		        DATA_IN       : IN unsigned(34 DOWNTO 0);
-		        DATA_OUT      : OUT unsigned(34 DOWNTO 0) := (others => '0')
-		);
-
-	END COMPONENT;
-
-
 	SIGNAL multiplica             : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_multiplica_entrada : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_multiplica_saida   : unsigned(31 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL soma                   : unsigned(34 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL reg_soma_entrada       : unsigned(34 DOWNTO 0) := (OTHERS => '0');
-	SIGNAL reg_soma_saida         : unsigned(34 DOWNTO 0) := (OTHERS => '0');
-
-	SIGNAL REG_LOAD : std_logic := '0';
-	SIGNAL REG_RST : std_logic := '0';
+	SIGNAL soma                   : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_soma_entrada       : unsigned(31 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL reg_soma_saida         : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 
 BEGIN
-
-	REG_MULTIPLICA : reg_31
-	PORT MAP(REG_LOAD, REG_RST, reg_multiplica_entrada, reg_multiplica_saida);
-
-	REG_SOMA : reg_34
-	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
-
 	PROCESS
 	BEGIN
 		WAIT FOR MT;
-                REG_LOAD <= '0';
-		multiplica <= unsigned(XIN * YIN);
+		multiplica <= (XIN * YIN);
 		soma       <= reg_soma_saida + reg_multiplica_saida;
 		WAIT FOR RT;
 		reg_multiplica_entrada <= multiplica;
 		reg_soma_entrada       <= soma;
-                REG_LOAD <= LOAD;
 	END PROCESS;
 
-        REG_RST <= RST;
-	MAC_OUT <= reg_soma_saida;
+	reg_multiplica_saida <=  reg_multiplica_saida WHEN (RST = '0' AND LOAD = '0') ELSE 
+                                 reg_multiplica_entrada WHEN (RST = '0' AND LOAD = '1') ELSE 
+                                 (OTHERS => '0') WHEN RST = '1';
+	reg_soma_saida       <=  reg_soma_saida WHEN (RST = '0' AND LOAD = '0') ELSE
+                                 reg_soma_entrada WHEN (RST = '0' AND LOAD = '1') ELSE
+                                 (OTHERS => '0') WHEN RST = '1';
+	MAC_OUT              <= reg_soma_saida;
 
 END funcional;
