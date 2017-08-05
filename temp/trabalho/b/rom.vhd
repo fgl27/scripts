@@ -22,21 +22,27 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
 ENTITY rom IS
+
 	PORT (
 		ADDRESS  : IN unsigned(1 DOWNTO 0);
 		DATA_OUT : OUT unsigned(15 DOWNTO 0) := (others => '0')
 	);
+
 END ENTITY rom;
 
 ARCHITECTURE funcional OF rom IS
+
 	TYPE mem IS ARRAY (0 TO 2 ** 2 - 1) OF unsigned(15 DOWNTO 0);
+
 	CONSTANT rom_val : mem := (
 		0 => "0000000000000010",
 		1 => "0000000000000101",
 		2 => "0000000000000111",
 		3 => "0000000000000011"
 	);
+
 BEGIN
+
 	PROCESS (ADDRESS)
 	BEGIN
 		CASE ADDRESS IS
@@ -47,4 +53,5 @@ BEGIN
 			WHEN OTHERS => DATA_OUT <= "0000000000000000";
 		END CASE;
 	END PROCESS;
+
 END ARCHITECTURE funcional;

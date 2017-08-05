@@ -22,13 +22,16 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
 ENTITY reg_34 IS
+
 	PORT (
 		LOAD          : IN std_logic;
 		RST           : IN std_logic;
 		DATA_IN       : IN unsigned(34 DOWNTO 0);
 		DATA_OUT      : OUT unsigned(34 DOWNTO 0) := (others => '0')
 	);
+
 END reg_34;
+
 ARCHITECTURE funcional OF reg_34 IS
 
 	SIGNAL reg_out : unsigned(34 DOWNTO 0) := (OTHERS => '0');

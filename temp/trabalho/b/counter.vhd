@@ -27,28 +27,28 @@ ENTITY counter IS
 		RST         : IN std_logic;
 		LOAD        : IN std_logic;
 		COUNTER_OUT : OUT unsigned(1 DOWNTO 0) := (OTHERS => '0') -- inicia em zero para evitar Avisos (Warning: NUMERIC_STD."=": metavalue detected, returning FALSE # Time: 0 ns Iteration: 0 Instance: /posição do mux no testbench)
-		);
+	);
 
-	END ENTITY counter;
+END ENTITY counter;
 
-	ARCHITECTURE funcional OF counter IS
+ARCHITECTURE funcional OF counter IS
 
-		SIGNAL counter_value : unsigned(1 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL counter_value : unsigned(1 DOWNTO 0) := (OTHERS => '0');
 
+BEGIN
+	PROCESS (RST, LOAD)
 	BEGIN
-		PROCESS (RST, LOAD)
-		BEGIN
-			IF RST = '1' THEN
+		IF RST = '1' THEN
+			counter_value <= (OTHERS => '0');
+		ELSIF rising_edge(LOAD) THEN
+			IF counter_value = "11" THEN
 				counter_value <= (OTHERS => '0');
-			ELSIF rising_edge(LOAD) THEN
-				IF counter_value = "11" THEN
-					counter_value <= (OTHERS => '0');
-				ELSE
-					counter_value <= counter_value + 1;
-				END IF;
+			ELSE
+				counter_value <= counter_value + 1;
 			END IF;
-		END PROCESS;
+		END IF;
+	END PROCESS;
 
-		COUNTER_OUT <= counter_value;
+	COUNTER_OUT <= counter_value;
 
 END funcional;

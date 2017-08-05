@@ -71,6 +71,7 @@ ARCHITECTURE funcional OF mac_pipe IS
 	SIGNAL REG_RST                : std_logic := '0';
 
 BEGIN
+
 	REG_MULTIPLICA : reg_multiplica
 	PORT MAP(REG_LOAD, REG_RST, reg_multiplica_entrada, reg_multiplica_saida);
 

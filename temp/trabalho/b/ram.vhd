@@ -22,7 +22,9 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
 ENTITY ram IS
+
 	GENERIC (MEMSIZE : INTEGER := (2 ** 2 - 1)); -- Posições de memoria ou do vetor que forma a memoria.
+
 	PORT (
 		LOAD          : IN std_logic;
 		RST           : IN std_logic;
@@ -33,10 +35,13 @@ ENTITY ram IS
 		DATA_IN       : IN unsigned(34 DOWNTO 0);
 		DATA_OUT      : OUT unsigned(34 DOWNTO 0) := (others => '0')
 	);
+
 END ram;
+
 ARCHITECTURE funcional OF ram IS
 
 	TYPE ram_mem IS ARRAY (0 TO MEMSIZE) OF unsigned(34 DOWNTO 0);
+
 	SIGNAL ram_position : ram_mem := (
 		0 => (OTHERS => '0'),
 		1 => (OTHERS => '0'),
@@ -45,6 +50,7 @@ ARCHITECTURE funcional OF ram IS
 	);
 
 BEGIN
+
 	PROCESS (RST, LOAD)
 	BEGIN
 		IF rising_edge(RST) THEN

@@ -61,6 +61,7 @@ ARCHITECTURE funcional OF mac IS
 	SIGNAL REG_RST          : std_logic := '0';
 
 BEGIN
+
 	REG_PM : reg
 	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
 
