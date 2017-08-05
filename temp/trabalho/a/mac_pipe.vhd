@@ -61,6 +61,7 @@ ARCHITECTURE funcional OF mac_pipe IS
 		);
 
 	END COMPONENT;
+
 	SIGNAL multiplica             : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_multiplica_entrada : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_multiplica_saida   : unsigned(31 DOWNTO 0) := (OTHERS => '0');
@@ -72,10 +73,10 @@ ARCHITECTURE funcional OF mac_pipe IS
 
 BEGIN
 
-	REG_MULTIPLICA : reg_multiplica
+	reg_multiplica : reg_31
 	PORT MAP(REG_LOAD, REG_RST, reg_multiplica_entrada, reg_multiplica_saida);
 
-	REG_SOMA : reg_soma
+	reg_soma : reg_34
 	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
 
 	PROCESS

@@ -41,7 +41,7 @@ END ENTITY mac;
 
 ARCHITECTURE funcional OF mac IS
 
-	COMPONENT reg IS
+	COMPONENT reg_34 IS
 
 		PORT (
 			LOAD     : IN std_logic;
@@ -62,7 +62,7 @@ ARCHITECTURE funcional OF mac IS
 
 BEGIN
 
-	REG_PM : reg
+	REG_PM : reg_34
 	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
 
 	PROCESS
