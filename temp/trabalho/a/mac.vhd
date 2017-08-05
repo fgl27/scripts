@@ -62,7 +62,7 @@ ARCHITECTURE funcional OF mac IS
 
 BEGIN
 
-	REG_PM : reg_34
+	REG : reg_34
 	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
 
 	PROCESS
