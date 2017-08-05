@@ -2,7 +2,7 @@
 --
 -- Projeto: MAC assíncrono, multiplicador somador sem e com pipeline
 --
--- Nome do arquivo: reg.vhd
+-- Nome do arquivo: reg_34.vhd
 --
 -- Descrição: Projeto funcional de uma reg Entradas e saída de 32 bits (0 a 31) do tipo UNSIGNED.
 --

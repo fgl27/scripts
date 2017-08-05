@@ -82,7 +82,7 @@ ARCHITECTURE funcional OF mac_b IS
 
 	END COMPONENT;
 
-	COMPONENT ROM IS
+	COMPONENT rom IS
 
 		PORT (
 			ADDRESS  : IN unsigned(1 DOWNTO 0);
