@@ -9,7 +9,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Device specific Changes of 08-08-2017 Start:
 
 #### Device/Quark/
-* [b1d3b23 Quark: add hdmi_cec and libOmxVdpp Change-Id: I7325035b55651d9c03b3aff9f1ab129581d90ef7 Signed-off-by: Corinna Vinschen <xda@vinschen.de>](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
+* [b1d3b23 Quark: add hdmi_cec and libOmxVdpp](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
 
 #### Kernel/Quark/
 * [c149e95 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc](https://github.com/search?q=USB%3A%20f_qc_rndis%3A%20Prevent%20use-after-free%20for%20_rndis_qc&type=Commits)
