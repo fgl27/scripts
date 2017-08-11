@@ -3,13 +3,81 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
-08-08-2017
+08-11-2017
 ====================
 
-#### Device specific Changes of 08-08-2017 Start:
+#### Device specific Changes of 08-11-2017 Start:
 
 #### Device/Quark/
-* [b1d3b23 Quark: add hdmi_cec and libOmxVdpp Change-Id](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
+* [d569f1b Quark: Disable HW_DISK_ENCRYPTION to fix encryption](https://github.com/search?q=Quark%3A%20Disable%20HW_DISK_ENCRYPTION%20to%20fix%20encryption&type=Commits)
+* [d469a77 Quark: use xhdpi-2048-dalvik-heap](https://github.com/search?q=Quark%3A%20use%20xhdpi-2048-dalvik-heap&type=Commits)
+
+#### Kernel/Quark/
+* [86270a7 usb: dwc3-msm: Handle erratic event with full POR sequence](https://github.com/search?q=usb%3A%20dwc3-msm%3A%20Handle%20erratic%20event%20with%20full%20POR%20sequence&type=Commits)
+* [32eaca5 msm_bam_rmnet: fix deadlock during device encryption](https://github.com/search?q=msm_bam_rmnet%3A%20fix%20deadlock%20during%20device%20encryption&type=Commits)
+* [160ec3e qcacld-2.0: Add lost AP sample size entry to nla policy](https://github.com/search?q=qcacld-2.0%3A%20Add%20lost%20AP%20sample%20size%20entry%20to%20nla%20policy&type=Commits)
+* [5ad0874 qcacld-2.0: Trim extn capability to max supported in change station](https://github.com/search?q=qcacld-2.0%3A%20Trim%20extn%20capability%20to%20max%20supported%20in%20change%20station&type=Commits)
+* [1e09bd4 ANDROID: sdcardfs: Remove unnecessary lock](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Remove%20unnecessary%20lock&type=Commits)
+
+#### Vendor/Quark/
+* [020b84c Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
+
+#### Device specific Changes of 08-11-2017 End.
+
+***
+
+08-10-2017
+====================
+
+#### CRDroid Android Nougat source changes of 08-10-2017:
+
+#### frameworks/base/
+* [e64e73f QS Tile: increase DEFAULT_MAX_BOUND](https://github.com/search?q=QS%20Tile%3A%20increase%20DEFAULT_MAX_BOUND&type=Commits)
+* [8950d93 Drop-down data switch through Cellular tile.](https://github.com/search?q=Drop-down%20data%20switch%20through%20Cellular%20tile.&type=Commits)
+* [39bfc6a SystemUI: add telephony-ext so that imports can be resolved](https://github.com/search?q=SystemUI%3A%20add%20telephony-ext%20so%20that%20imports%20can%20be%20resolved&type=Commits)
+* [4b1c804 base: Update pocket judge defaults](https://github.com/search?q=base%3A%20Update%20pocket%20judge%20defaults&type=Commits)
+* [7b18682 pocket: introduce pocket bridge](https://github.com/search?q=pocket%3A%20introduce%20pocket%20bridge&type=Commits)
+* [e274853 policy: introduce pocket lock](https://github.com/search?q=policy%3A%20introduce%20pocket%20lock&type=Commits)
+* [93b0904 pocket: introduce pocket judge](https://github.com/search?q=pocket%3A%20introduce%20pocket%20judge&type=Commits)
+* [4ca8729 Default 'persist.sys.timezone' property to GMT if not set on init.](https://github.com/search?q=Default%20'persist.sys.timezone'%20property%20to%20GMT%20if%20not%20set%20on%20init.&type=Commits)
+* [aa2e86e FWB: Sensor block per-package switch (1/2)](https://github.com/search?q=FWB%3A%20Sensor%20block%20per-package%20switch%20%281/2%29&type=Commits)
+* [755429c SystemSensorManager: sensor block per-package](https://github.com/search?q=SystemSensorManager%3A%20sensor%20block%20per-package&type=Commits)
+* [fed0102 DUI: Left in landscape navbar API [1/3]](https://github.com/search?q=DUI%3A%20Left%20in%20landscape%20navbar%20API%20[1/3]&type=Commits)
+* [4d52adb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### packages/apps/DUI/
+* [0691b58 DUI: Left in landscape navbar API [3/3]](https://github.com/search?q=DUI%3A%20Left%20in%20landscape%20navbar%20API%20[3/3]&type=Commits)
+* [6fb5ff1 Revert "Pulse: Navbar left in landscape support"](https://github.com/search?q=Revert%20"Pulse%3A%20Navbar%20left%20in%20landscape%20support"&type=Commits)
+* [4c61594 Fling logo on pulse: add transparency instead of hiding it](https://github.com/search?q=Fling%20logo%20on%20pulse%3A%20add%20transparency%20instead%20of%20hiding%20it&type=Commits)
+* [7d6c13b Fling: if KB is showing, double tap right/left to move text cursor](https://github.com/search?q=Fling%3A%20if%20KB%20is%20showing,%20double%20tap%20right/left%20to%20move%20text%20cursor&type=Commits)
+
+#### packages/apps/Jelly/
+* [d76965a Jelly: Improve incognito mode privacy](https://github.com/search?q=Jelly%3A%20Improve%20incognito%20mode%20privacy&type=Commits)
+* [6767c48 Jelly: Enable more HTML5 features](https://github.com/search?q=Jelly%3A%20Enable%20more%20HTML5%20features&type=Commits)
+* [2e53eb0 Jelly: Don't crash on non-http downloads](https://github.com/search?q=Jelly%3A%20Don't%20crash%20on%20non-http%20downloads&type=Commits)
+* [3347ed4 Jelly: Avoid Url bar interraction when focused](https://github.com/search?q=Jelly%3A%20Avoid%20Url%20bar%20interraction%20when%20focused&type=Commits)
+* [f67c692 Jelly: The app should not close when search is active and back-button is pressed.](https://github.com/search?q=Jelly%3A%20The%20app%20should%20not%20close%20when%20search%20is%20active%20and%20back-button%20is%20pressed.&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [157612b crdroid: Add preference for pocket judge](https://github.com/search?q=crdroid%3A%20Add%20preference%20for%20pocket%20judge&type=Commits)
+* [da6f364 crdroid: Sensor block per-package switch (2/2)](https://github.com/search?q=crdroid%3A%20Sensor%20block%20per-package%20switch%20%282/2%29&type=Commits)
+* [b028905 crdroid: Add accidental touch settings](https://github.com/search?q=crdroid%3A%20Add%20accidental%20touch%20settings&type=Commits)
+* [c6e8147 crdroid: Reshuffle navbar features](https://github.com/search?q=crdroid%3A%20Reshuffle%20navbar%20features&type=Commits)
+
+#### vendor/cm/
+* [e946472 pa: Add pocket judge selinux policy](https://github.com/search?q=pa%3A%20Add%20pocket%20judge%20selinux%20policy&type=Commits)
+* [42e56eb vendor: Add selinux policy for pocket bridge](https://github.com/search?q=vendor%3A%20Add%20selinux%20policy%20for%20pocket%20bridge&type=Commits)
+* [4ad21ed vendor:Add sysfs permissions for pocket bridge](https://github.com/search?q=vendor%3AAdd%20sysfs%20permissions%20for%20pocket%20bridge&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-10-2017 End.
+
+08-09-2017
+====================
+
+#### Device specific Changes of 08-09-2017 Start:
+
+#### Device/Quark/
+* [9f80d8d Quark: add hdmi_cec and libOmxVdpp](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
 
 #### Kernel/Quark/
 * [c149e95 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc](https://github.com/search?q=USB%3A%20f_qc_rndis%3A%20Prevent%20use-after-free%20for%20_rndis_qc&type=Commits)
@@ -22,9 +90,67 @@ CRDroid Android Nougat source and Quark Changelog:
 * [bdc7e6e qcdev: Check the digest length during the SHA operations](https://github.com/search?q=qcdev%3A%20Check%20the%20digest%20length%20during%20the%20SHA%20operations&type=Commits)
 * [ebac83b UPSTREAM: f2fs: sanity check segment count](https://github.com/search?q=UPSTREAM%3A%20f2fs%3A%20sanity%20check%20segment%20count&type=Commits)
 
-#### Device specific Changes of 08-08-2017 End.
+#### Device specific Changes of 08-09-2017 End.
 
 ***
+
+#### CRDroid Android Nougat source changes of 08-09-2017:
+
+#### frameworks/base/
+* [d20e022 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [c5cf2ef base: Introduce Accidental Touch](https://github.com/search?q=base%3A%20Introduce%20Accidental%20Touch&type=Commits)
+* [7c7f254 input: introduce new navigation bar key event source](https://github.com/search?q=input%3A%20introduce%20new%20navigation%20bar%20key%20event%20source&type=Commits)
+* [65eb1d8 core/jni: Use sdclang lto for building libandroid_runtime](https://github.com/search?q=core/jni%3A%20Use%20sdclang%20lto%20for%20building%20libandroid_runtime&type=Commits)
+* [883248d Switch frameworks/base/core/jni from gcc to clang.](https://github.com/search?q=Switch%20frameworks/base/core/jni%20from%20gcc%20to%20clang.&type=Commits)
+* [c440f34 Revert "Switch frameworks/base/core/jni from gcc to clang."](https://github.com/search?q=Revert%20"Switch%20frameworks/base/core/jni%20from%20gcc%20to%20clang."&type=Commits)
+* [c9c58be PIE: Use vector tile icons](https://github.com/search?q=PIE%3A%20Use%20vector%20tile%20icons&type=Commits)
+* [965a6b1 PIE: clean up unused flags](https://github.com/search?q=PIE%3A%20clean%20up%20unused%20flags&type=Commits)
+* [bf1c80b PIE: Hide network type if wifi is enabled](https://github.com/search?q=PIE%3A%20Hide%20network%20type%20if%20wifi%20is%20enabled&type=Commits)
+
+#### frameworks/native/
+* [8e4a88d Fix installd get wrong inode cause APK crash](https://github.com/search?q=Fix%20installd%20get%20wrong%20inode%20cause%20APK%20crash&type=Commits)
+
+#### packages/apps/AudioFX/
+* [97f5e59 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [c129b6c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [edb28f5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [867064c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [d541118 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [50cdda7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [f8793e8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [4e5fd56 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [12b8906 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [34a12f1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/core/
+* [83906c5 init: No fsck for /data and /cache when shutdown](https://github.com/search?q=init%3A%20No%20fsck%20for%20/data%20and%20/cache%20when%20shutdown&type=Commits)
+* [2780b1d System Server Force Close.](https://github.com/search?q=System%20Server%20Force%20Close.&type=Commits)
+
+#### system/extras/
+* [af809eb Fix a memory leak](https://github.com/search?q=Fix%20a%20memory%20leak&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-09-2017 End.
+
+08-08-2017
+====================
 
 #### CRDroid Android Nougat source changes of 08-08-2017:
 
@@ -62,6 +188,9 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### hardware/qcom/audio/default/
 * [a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r29'%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/CarrierConfig/
+* [ea0ad38 Fix up incorrect domestic roaming and non-roaming cases](https://github.com/search?q=Fix%20up%20incorrect%20domestic%20roaming%20and%20non-roaming%20cases&type=Commits)
 
 #### packages/apps/Contacts/
 * [8d4043a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%207.1&type=Commits)

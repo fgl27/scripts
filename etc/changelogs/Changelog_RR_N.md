@@ -3,13 +3,66 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
-08-08-2017
-====================
-
-#### Device specific Changes of 08-08-2017 Start:
+#### Device specific Changes of 08-11-2017 Start:
 
 #### Device/Quark/
-* [b1d3b23 Quark: add hdmi_cec and libOmxVdpp](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
+* [d569f1b Quark: Disable HW_DISK_ENCRYPTION to fix encryption](https://github.com/search?q=Quark%3A%20Disable%20HW_DISK_ENCRYPTION%20to%20fix%20encryption&type=Commits)
+* [d469a77 Quark: use xhdpi-2048-dalvik-heap](https://github.com/search?q=Quark%3A%20use%20xhdpi-2048-dalvik-heap&type=Commits)
+
+#### Kernel/Quark/
+* [86270a7 usb: dwc3-msm: Handle erratic event with full POR sequence](https://github.com/search?q=usb%3A%20dwc3-msm%3A%20Handle%20erratic%20event%20with%20full%20POR%20sequence&type=Commits)
+* [32eaca5 msm_bam_rmnet: fix deadlock during device encryption](https://github.com/search?q=msm_bam_rmnet%3A%20fix%20deadlock%20during%20device%20encryption&type=Commits)
+* [160ec3e qcacld-2.0: Add lost AP sample size entry to nla policy](https://github.com/search?q=qcacld-2.0%3A%20Add%20lost%20AP%20sample%20size%20entry%20to%20nla%20policy&type=Commits)
+* [5ad0874 qcacld-2.0: Trim extn capability to max supported in change station](https://github.com/search?q=qcacld-2.0%3A%20Trim%20extn%20capability%20to%20max%20supported%20in%20change%20station&type=Commits)
+* [1e09bd4 ANDROID: sdcardfs: Remove unnecessary lock](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Remove%20unnecessary%20lock&type=Commits)
+
+#### Vendor/Quark/
+* [020b84c Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
+
+#### Device specific Changes of 08-11-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 08-11-2017:
+
+#### packages/apps/Settings/
+* [6a459f6 Edit Moto G4 Plus Maintainer name (added full name) (#836)](https://github.com/search?q=Edit%20Moto%20G4%20Plus%20Maintainer%20name%20%28added%20full%20name%29%20%28%23836%29&type=Commits)
+* [37c5cff Add maintainer for Xiaomi RedMi 3s (#835)](https://github.com/search?q=Add%20maintainer%20for%20Xiaomi%20RedMi%203s%20%28%23835%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-11-2017 End.
+
+08-10-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 08-10-2017:
+
+#### frameworks/base/
+* [558ad5d FWB:Single tap tile add switch [1/2]](https://github.com/search?q=FWB%3ASingle%20tap%20tile%20add%20switch%20[1/2]&type=Commits)
+* [ced6494 Allow user to add/remove QS with one click](https://github.com/search?q=Allow%20user%20to%20add/remove%20QS%20with%20one%20click&type=Commits)
+* [9059f7a Merge pull request #206 from ashoksoni/dataswitch](https://github.com/search?q=Merge%20pull%20request%20%23206%20from%20ashoksoni/dataswitch&type=Commits)
+* [e5d459f Drop-down data switch through Cellular tile.](https://github.com/search?q=Drop-down%20data%20switch%20through%20Cellular%20tile.&type=Commits)
+* [db1dea3 SystemUI: add telephony-ext so that imports can be resolved](https://github.com/search?q=SystemUI%3A%20add%20telephony-ext%20so%20that%20imports%20can%20be%20resolved&type=Commits)
+
+#### packages/apps/Jelly/
+* [d76965a Jelly: Improve incognito mode privacy](https://github.com/search?q=Jelly%3A%20Improve%20incognito%20mode%20privacy&type=Commits)
+* [6767c48 Jelly: Enable more HTML5 features](https://github.com/search?q=Jelly%3A%20Enable%20more%20HTML5%20features&type=Commits)
+* [2e53eb0 Jelly: Don't crash on non-http downloads](https://github.com/search?q=Jelly%3A%20Don't%20crash%20on%20non-http%20downloads&type=Commits)
+* [3347ed4 Jelly: Avoid Url bar interraction when focused](https://github.com/search?q=Jelly%3A%20Avoid%20Url%20bar%20interraction%20when%20focused&type=Commits)
+* [f67c692 Jelly: The app should not close when search is active and back-button is pressed.](https://github.com/search?q=Jelly%3A%20The%20app%20should%20not%20close%20when%20search%20is%20active%20and%20back-button%20is%20pressed.&type=Commits)
+
+#### packages/apps/Settings/
+* [fabd9ef Settings:Single tap tile add switch [2/2]](https://github.com/search?q=Settings%3ASingle%20tap%20tile%20add%20switch%20[2/2]&type=Commits)
+* [0afef7a Settings:remove Selinux Switch](https://github.com/search?q=Settings%3Aremove%20Selinux%20Switch&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-10-2017 End.
+
+08-09-2017
+====================
+
+#### Device specific Changes of 08-09-2017 Start:
+
+#### Device/Quark/
+* [9f80d8d Quark: add hdmi_cec and libOmxVdpp](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
 
 #### Kernel/Quark/
 * [c149e95 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc](https://github.com/search?q=USB%3A%20f_qc_rndis%3A%20Prevent%20use-after-free%20for%20_rndis_qc&type=Commits)
@@ -22,9 +75,69 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [bdc7e6e qcdev: Check the digest length during the SHA operations](https://github.com/search?q=qcdev%3A%20Check%20the%20digest%20length%20during%20the%20SHA%20operations&type=Commits)
 * [ebac83b UPSTREAM: f2fs: sanity check segment count](https://github.com/search?q=UPSTREAM%3A%20f2fs%3A%20sanity%20check%20segment%20count&type=Commits)
 
-#### Device specific Changes of 08-08-2017 End.
+#### Device specific Changes of 08-09-2017 End.
 
 ***
+
+#### Resurrection Remix OS - Nougat source changes of 08-09-2017:
+
+#### frameworks/base/
+* [198fc03 DUI: Left in landscape navbar API [1/3]](https://github.com/search?q=DUI%3A%20Left%20in%20landscape%20navbar%20API%20[1/3]&type=Commits)
+
+#### packages/apps/AudioFX/
+* [97f5e59 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [c129b6c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CMBugReport/
+* [1c87436 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [edb28f5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [867064c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [d541118 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [84de443 Fling logo on pulse: add transparency instead of hiding it](https://github.com/search?q=Fling%20logo%20on%20pulse%3A%20add%20transparency%20instead%20of%20hiding%20it&type=Commits)
+* [f8f8b22 Fling: if KB is showing, double tap right/left to move text cursor](https://github.com/search?q=Fling%3A%20if%20KB%20is%20showing,%20double%20tap%20right/left%20to%20move%20text%20cursor&type=Commits)
+* [ac4d117 DUI: Left in landscape navbar API [3/3]](https://github.com/search?q=DUI%3A%20Left%20in%20landscape%20navbar%20API%20[3/3]&type=Commits)
+* [ab65f5a Revert "Pulse: Navbar left in landscape support" [2/3]](https://github.com/search?q=Revert%20"Pulse%3A%20Navbar%20left%20in%20landscape%20support"%20[2/3]&type=Commits)
+* [009b591 Revert "DUI:Uncomment Navbar Left in Landscape [1/2]"](https://github.com/search?q=Revert%20"DUI%3AUncomment%20Navbar%20Left%20in%20Landscape%20[1/2]"&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [6a76690 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [50cdda7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [f8793e8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [d2d91c9 Updated Hydrogen Maintainer (#834)](https://github.com/search?q=Updated%20Hydrogen%20Maintainer%20%28%23834%29&type=Commits)
+* [b739eec Add galaxy s4 i9500 maintainer (#833)](https://github.com/search?q=Add%20galaxy%20s4%20i9500%20maintainer%20%28%23833%29&type=Commits)
+
+#### packages/apps/Snap/
+* [0eed750 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [4e5fd56 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [12b8906 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [34a12f1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-09-2017 End.
+
+08-08-2017
+====================
 
 #### Resurrection Remix OS - Nougat source changes of 08-08-2017:
 
@@ -62,6 +175,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### hardware/qcom/audio/default/
 * [a4f1bc5 Merge tag 'android-7.1.2_r29' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r29'%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/CarrierConfig/
+* [ea0ad38 Fix up incorrect domestic roaming and non-roaming cases](https://github.com/search?q=Fix%20up%20incorrect%20domestic%20roaming%20and%20non-roaming%20cases&type=Commits)
 
 #### packages/apps/Jelly/
 * [f20c0a4 Jelly: Add Yandex search engine](https://github.com/search?q=Jelly%3A%20Add%20Yandex%20search%20engine&type=Commits)
