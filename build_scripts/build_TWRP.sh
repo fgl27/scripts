@@ -2,7 +2,7 @@
 # simple build sh ... alias bt='/home/user/source_folder/device/motorola/quark/rootdir/etc/sbin/build_TWRP.sh'
 #make -j4 multirom_zip
 #make -j4 multirom_uninstaller
-export TW_DEVICE_VERSION=mod_1;
+export TW_DEVICE_VERSION=mod_2;
 
 echo -e "\nOmni?\n 1 = Yes\n"
 read -r input1
