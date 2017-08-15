@@ -3,21 +3,95 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+08-15-2017
+====================
+
+#### Device specific Changes of 08-15-2017 Start:
+
+#### Kernel/Quark/
+* [702a0b9 defconfig: removed MOBICORE aka gub driver](https://github.com/search?q=defconfig%3A%20removed%20MOBICORE%20aka%20gub%20driver&type=Commits)
+* [23a7e66 msm: vidc: Protect debug_buffer access in core_info_read with lock, part 2](https://github.com/search?q=msm%3A%20vidc%3A%20Protect%20debug_buffer%20access%20in%20core_info_read%20with%20lock,%20part%202&type=Commits)
+* [bbdaf08 apq8084: disable spurious WARN in rcg_clk_prepare](https://github.com/search?q=apq8084%3A%20disable%20spurious%20WARN%20in%20rcg_clk_prepare&type=Commits)
+* [71986fb msm: gud: Remove gud driver](https://github.com/search?q=msm%3A%20gud%3A%20Remove%20gud%20driver&type=Commits)
+
+#### Device specific Changes of 08-15-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 08-15-2017:
+
+#### hardware/qcom/bt-caf/
+* [328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"](https://github.com/search?q=Revert%20"Merge%20tag%20'LA.UM.5.5.r1-04900-8x96.0'%20into%20HEAD"&type=Commits)
+
+#### packages/apps/Settings/
+* [7d771ca Fix i9500 maintainer dont show (#842)](https://github.com/search?q=Fix%20i9500%20maintainer%20dont%20show%20%28%23842%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-15-2017 End.
+
+08-14-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 08-14-2017:
+
+#### packages/apps/Settings/
+* [df1f26e Fix i9500 maintainer dont show (#840)](https://github.com/search?q=Fix%20i9500%20maintainer%20dont%20show%20%28%23840%29&type=Commits)
+* [72deb12 Fix land device position (#839)](https://github.com/search?q=Fix%20land%20device%20position%20%28%23839%29&type=Commits)
+* [90390d0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [f6cc7a7 Add Redmi 4X device maintainer (#838)](https://github.com/search?q=Add%20Redmi%204X%20device%20maintainer%20%28%23838%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-14-2017 End.
+
+08-13-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 08-13-2017:
+
+#### frameworks/base/
+* [07576d0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [63df1f1 PowerManagerService: fix HW button illumination timeout](https://github.com/search?q=PowerManagerService%3A%20fix%20HW%20button%20illumination%20timeout&type=Commits)
+* [87a1af4 SystemUI: Fix battery meter view blacklist handling](https://github.com/search?q=SystemUI%3A%20Fix%20battery%20meter%20view%20blacklist%20handling&type=Commits)
+* [3bedecb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/broadcom/wlan/
+* [5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r28'%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/DUI/
+* [97ed95e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [eb48cbd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [70dbc05 Snap: add missing null check on isCamera2Supported](https://github.com/search?q=Snap%3A%20add%20missing%20null%20check%20on%20isCamera2Supported&type=Commits)
+
+#### packages/services/OmniJaws/
+* [2db7749 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-13-2017 End.
+
+08-12-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 08-12-2017:
+
+#### packages/services/Telephony/
+* [3933dac VoicemailSettingsActivity: Fix some NPEs](https://github.com/search?q=VoicemailSettingsActivity%3A%20Fix%20some%20NPEs&type=Commits)
+* [f824b46 Telephony: Correct missing italian translation](https://github.com/search?q=Telephony%3A%20Correct%20missing%20italian%20translation&type=Commits)
+* [2c3c9b0 PhoneToggler: Update preferred network mode setting](https://github.com/search?q=PhoneToggler%3A%20Update%20preferred%20network%20mode%20setting&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-12-2017 End.
+
+08-11-2017
+====================
+
 #### Device specific Changes of 08-11-2017 Start:
 
 #### Device/Quark/
 * [d569f1b Quark: Disable HW_DISK_ENCRYPTION to fix encryption](https://github.com/search?q=Quark%3A%20Disable%20HW_DISK_ENCRYPTION%20to%20fix%20encryption&type=Commits)
-* [d469a77 Quark: use xhdpi-2048-dalvik-heap](https://github.com/search?q=Quark%3A%20use%20xhdpi-2048-dalvik-heap&type=Commits)
 
 #### Kernel/Quark/
 * [86270a7 usb: dwc3-msm: Handle erratic event with full POR sequence](https://github.com/search?q=usb%3A%20dwc3-msm%3A%20Handle%20erratic%20event%20with%20full%20POR%20sequence&type=Commits)
 * [32eaca5 msm_bam_rmnet: fix deadlock during device encryption](https://github.com/search?q=msm_bam_rmnet%3A%20fix%20deadlock%20during%20device%20encryption&type=Commits)
-* [160ec3e qcacld-2.0: Add lost AP sample size entry to nla policy](https://github.com/search?q=qcacld-2.0%3A%20Add%20lost%20AP%20sample%20size%20entry%20to%20nla%20policy&type=Commits)
-* [5ad0874 qcacld-2.0: Trim extn capability to max supported in change station](https://github.com/search?q=qcacld-2.0%3A%20Trim%20extn%20capability%20to%20max%20supported%20in%20change%20station&type=Commits)
-* [1e09bd4 ANDROID: sdcardfs: Remove unnecessary lock](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Remove%20unnecessary%20lock&type=Commits)
-
-#### Vendor/Quark/
-* [020b84c Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
 
 #### Device specific Changes of 08-11-2017 End.
 
@@ -25,63 +99,60 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 08-11-2017:
 
+#### bootable/recovery/
+* [b9211f4 Fix -Wformat warning](https://github.com/search?q=Fix%20-Wformat%20warning&type=Commits)
+* [02a51ae Show scrollbar on TWRP Settings](https://github.com/search?q=Show%20scrollbar%20on%20TWRP%20Settings&type=Commits)
+* [4b1fac3 Fix issues building with LineageOS cryptfs_hw](https://github.com/search?q=Fix%20issues%20building%20with%20LineageOS%20cryptfs_hw&type=Commits)
+
+#### hardware/qcom/bt-caf/
+* [b60954a libbt-qcom: Allow reading BT address from property](https://github.com/search?q=libbt-qcom%3A%20Allow%20reading%20BT%20address%20from%20property&type=Commits)
+
 #### packages/apps/Settings/
 * [6a459f6 Edit Moto G4 Plus Maintainer name (added full name) (#836)](https://github.com/search?q=Edit%20Moto%20G4%20Plus%20Maintainer%20name%20%28added%20full%20name%29%20%28%23836%29&type=Commits)
-* [37c5cff Add maintainer for Xiaomi RedMi 3s (#835)](https://github.com/search?q=Add%20maintainer%20for%20Xiaomi%20RedMi%203s%20%28%23835%29&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 08-11-2017 End.
 
 08-10-2017
 ====================
 
+#### Device specific Changes of 08-10-2017 Start:
+
+#### Device/Quark/
+* [d469a77 Quark: use xhdpi-2048-dalvik-heap](https://github.com/search?q=Quark%3A%20use%20xhdpi-2048-dalvik-heap&type=Commits)
+
+#### Kernel/Quark/
+* [160ec3e qcacld-2.0: Add lost AP sample size entry to nla policy](https://github.com/search?q=qcacld-2.0%3A%20Add%20lost%20AP%20sample%20size%20entry%20to%20nla%20policy&type=Commits)
+* [5ad0874 qcacld-2.0: Trim extn capability to max supported in change station](https://github.com/search?q=qcacld-2.0%3A%20Trim%20extn%20capability%20to%20max%20supported%20in%20change%20station&type=Commits)
+* [1e09bd4 ANDROID: sdcardfs: Remove unnecessary lock](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Remove%20unnecessary%20lock&type=Commits)
+
+#### Vendor/Quark/
+* [020b84c Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
+
+#### Device specific Changes of 08-10-2017 End.
+
+***
+
 #### Resurrection Remix OS - Nougat source changes of 08-10-2017:
 
 #### frameworks/base/
 * [558ad5d FWB:Single tap tile add switch [1/2]](https://github.com/search?q=FWB%3ASingle%20tap%20tile%20add%20switch%20[1/2]&type=Commits)
 * [ced6494 Allow user to add/remove QS with one click](https://github.com/search?q=Allow%20user%20to%20add/remove%20QS%20with%20one%20click&type=Commits)
-* [9059f7a Merge pull request #206 from ashoksoni/dataswitch](https://github.com/search?q=Merge%20pull%20request%20%23206%20from%20ashoksoni/dataswitch&type=Commits)
-* [e5d459f Drop-down data switch through Cellular tile.](https://github.com/search?q=Drop-down%20data%20switch%20through%20Cellular%20tile.&type=Commits)
-* [db1dea3 SystemUI: add telephony-ext so that imports can be resolved](https://github.com/search?q=SystemUI%3A%20add%20telephony-ext%20so%20that%20imports%20can%20be%20resolved&type=Commits)
-
-#### packages/apps/Jelly/
-* [d76965a Jelly: Improve incognito mode privacy](https://github.com/search?q=Jelly%3A%20Improve%20incognito%20mode%20privacy&type=Commits)
-* [6767c48 Jelly: Enable more HTML5 features](https://github.com/search?q=Jelly%3A%20Enable%20more%20HTML5%20features&type=Commits)
-* [2e53eb0 Jelly: Don't crash on non-http downloads](https://github.com/search?q=Jelly%3A%20Don't%20crash%20on%20non-http%20downloads&type=Commits)
-* [3347ed4 Jelly: Avoid Url bar interraction when focused](https://github.com/search?q=Jelly%3A%20Avoid%20Url%20bar%20interraction%20when%20focused&type=Commits)
-* [f67c692 Jelly: The app should not close when search is active and back-button is pressed.](https://github.com/search?q=Jelly%3A%20The%20app%20should%20not%20close%20when%20search%20is%20active%20and%20back-button%20is%20pressed.&type=Commits)
 
 #### packages/apps/Settings/
+* [37c5cff Add maintainer for Xiaomi RedMi 3s (#835)](https://github.com/search?q=Add%20maintainer%20for%20Xiaomi%20RedMi%203s%20%28%23835%29&type=Commits)
 * [fabd9ef Settings:Single tap tile add switch [2/2]](https://github.com/search?q=Settings%3ASingle%20tap%20tile%20add%20switch%20[2/2]&type=Commits)
-* [0afef7a Settings:remove Selinux Switch](https://github.com/search?q=Settings%3Aremove%20Selinux%20Switch&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 08-10-2017 End.
 
 08-09-2017
 ====================
 
-#### Device specific Changes of 08-09-2017 Start:
-
-#### Device/Quark/
-* [9f80d8d Quark: add hdmi_cec and libOmxVdpp](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
-
-#### Kernel/Quark/
-* [c149e95 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc](https://github.com/search?q=USB%3A%20f_qc_rndis%3A%20Prevent%20use-after-free%20for%20_rndis_qc&type=Commits)
-* [826201b usb: gadget: qc_rndis: Properly handle rndis_ipa_init failure](https://github.com/search?q=usb%3A%20gadget%3A%20qc_rndis%3A%20Properly%20handle%20rndis_ipa_init%20failure&type=Commits)
-* [0ff807c f_qc_rndis: Check config or cdev is NULL in before accessing](https://github.com/search?q=f_qc_rndis%3A%20Check%20config%20or%20cdev%20is%20NULL%20in%20before%20accessing&type=Commits)
-* [33cf676 msm: ipa: Fix for missing int overflow check in the refcount library](https://github.com/search?q=msm%3A%20ipa%3A%20Fix%20for%20missing%20int%20overflow%20check%20in%20the%20refcount%20library&type=Commits)
-* [9c7d6ac UPSTREAM: timerfd: Protect the might cancel mechanism proper](https://github.com/search?q=UPSTREAM%3A%20timerfd%3A%20Protect%20the%20might%20cancel%20mechanism%20proper&type=Commits)
-* [399598c msm: kgsl: Fix the race between context create and destroy](https://github.com/search?q=msm%3A%20kgsl%3A%20Fix%20the%20race%20between%20context%20create%20and%20destroy&type=Commits)
-* [7578fb3 BACKPORT: f2fs: sanity check checkpoint segno and blkoff](https://github.com/search?q=BACKPORT%3A%20f2fs%3A%20sanity%20check%20checkpoint%20segno%20and%20blkoff&type=Commits)
-* [bdc7e6e qcdev: Check the digest length during the SHA operations](https://github.com/search?q=qcdev%3A%20Check%20the%20digest%20length%20during%20the%20SHA%20operations&type=Commits)
-* [ebac83b UPSTREAM: f2fs: sanity check segment count](https://github.com/search?q=UPSTREAM%3A%20f2fs%3A%20sanity%20check%20segment%20count&type=Commits)
-
-#### Device specific Changes of 08-09-2017 End.
-
-***
-
 #### Resurrection Remix OS - Nougat source changes of 08-09-2017:
 
 #### frameworks/base/
+* [9059f7a Merge pull request #206 from ashoksoni/dataswitch](https://github.com/search?q=Merge%20pull%20request%20%23206%20from%20ashoksoni/dataswitch&type=Commits)
+* [e5d459f Drop-down data switch through Cellular tile.](https://github.com/search?q=Drop-down%20data%20switch%20through%20Cellular%20tile.&type=Commits)
+* [db1dea3 SystemUI: add telephony-ext so that imports can be resolved](https://github.com/search?q=SystemUI%3A%20add%20telephony-ext%20so%20that%20imports%20can%20be%20resolved&type=Commits)
 * [198fc03 DUI: Left in landscape navbar API [1/3]](https://github.com/search?q=DUI%3A%20Left%20in%20landscape%20navbar%20API%20[1/3]&type=Commits)
 
 #### packages/apps/AudioFX/
@@ -116,9 +187,15 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [50cdda7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Jelly/
+* [d76965a Jelly: Improve incognito mode privacy](https://github.com/search?q=Jelly%3A%20Improve%20incognito%20mode%20privacy&type=Commits)
+* [6767c48 Jelly: Enable more HTML5 features](https://github.com/search?q=Jelly%3A%20Enable%20more%20HTML5%20features&type=Commits)
+* [2e53eb0 Jelly: Don't crash on non-http downloads](https://github.com/search?q=Jelly%3A%20Don't%20crash%20on%20non-http%20downloads&type=Commits)
+* [3347ed4 Jelly: Avoid Url bar interraction when focused](https://github.com/search?q=Jelly%3A%20Avoid%20Url%20bar%20interraction%20when%20focused&type=Commits)
+* [f67c692 Jelly: The app should not close when search is active and back-button is pressed.](https://github.com/search?q=Jelly%3A%20The%20app%20should%20not%20close%20when%20search%20is%20active%20and%20back-button%20is%20pressed.&type=Commits)
 * [f8793e8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Settings/
+* [0afef7a Settings:remove Selinux Switch](https://github.com/search?q=Settings%3Aremove%20Selinux%20Switch&type=Commits)
 * [d2d91c9 Updated Hydrogen Maintainer (#834)](https://github.com/search?q=Updated%20Hydrogen%20Maintainer%20%28%23834%29&type=Commits)
 * [b739eec Add galaxy s4 i9500 maintainer (#833)](https://github.com/search?q=Add%20galaxy%20s4%20i9500%20maintainer%20%28%23833%29&type=Commits)
 
@@ -138,6 +215,26 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 08-08-2017
 ====================
+
+#### Device specific Changes of 08-08-2017 Start:
+
+#### Device/Quark/
+* [9f80d8d Quark: add hdmi_cec and libOmxVdpp](https://github.com/search?q=Quark%3A%20add%20hdmi_cec%20and%20libOmxVdpp&type=Commits)
+
+#### Kernel/Quark/
+* [c149e95 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc](https://github.com/search?q=USB%3A%20f_qc_rndis%3A%20Prevent%20use-after-free%20for%20_rndis_qc&type=Commits)
+* [826201b usb: gadget: qc_rndis: Properly handle rndis_ipa_init failure](https://github.com/search?q=usb%3A%20gadget%3A%20qc_rndis%3A%20Properly%20handle%20rndis_ipa_init%20failure&type=Commits)
+* [0ff807c f_qc_rndis: Check config or cdev is NULL in before accessing](https://github.com/search?q=f_qc_rndis%3A%20Check%20config%20or%20cdev%20is%20NULL%20in%20before%20accessing&type=Commits)
+* [33cf676 msm: ipa: Fix for missing int overflow check in the refcount library](https://github.com/search?q=msm%3A%20ipa%3A%20Fix%20for%20missing%20int%20overflow%20check%20in%20the%20refcount%20library&type=Commits)
+* [9c7d6ac UPSTREAM: timerfd: Protect the might cancel mechanism proper](https://github.com/search?q=UPSTREAM%3A%20timerfd%3A%20Protect%20the%20might%20cancel%20mechanism%20proper&type=Commits)
+* [399598c msm: kgsl: Fix the race between context create and destroy](https://github.com/search?q=msm%3A%20kgsl%3A%20Fix%20the%20race%20between%20context%20create%20and%20destroy&type=Commits)
+* [7578fb3 BACKPORT: f2fs: sanity check checkpoint segno and blkoff](https://github.com/search?q=BACKPORT%3A%20f2fs%3A%20sanity%20check%20checkpoint%20segno%20and%20blkoff&type=Commits)
+* [bdc7e6e qcdev: Check the digest length during the SHA operations](https://github.com/search?q=qcdev%3A%20Check%20the%20digest%20length%20during%20the%20SHA%20operations&type=Commits)
+* [ebac83b UPSTREAM: f2fs: sanity check segment count](https://github.com/search?q=UPSTREAM%3A%20f2fs%3A%20sanity%20check%20segment%20count&type=Commits)
+
+#### Device specific Changes of 08-08-2017 End.
+
+***
 
 #### Resurrection Remix OS - Nougat source changes of 08-08-2017:
 
@@ -179,9 +276,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/CarrierConfig/
 * [ea0ad38 Fix up incorrect domestic roaming and non-roaming cases](https://github.com/search?q=Fix%20up%20incorrect%20domestic%20roaming%20and%20non-roaming%20cases&type=Commits)
 
-#### packages/apps/Jelly/
-* [f20c0a4 Jelly: Add Yandex search engine](https://github.com/search?q=Jelly%3A%20Add%20Yandex%20search%20engine&type=Commits)
-
 #### packages/apps/Settings/
 * [9f245e7 Settings:Sensor block per-package switch[2/2]](https://github.com/search?q=Settings%3ASensor%20block%20per-package%20switch[2/2]&type=Commits)
 
@@ -198,200 +292,17 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 08-07-2017:
 
-#### packages/apps/ResurrectionStats/
-* [6b6f3b3 Stats: RR v5.8.4](https://github.com/search?q=Stats%3A%20RR%20v5.8.4&type=Commits)
+#### packages/apps/Jelly/
+* [f20c0a4 Jelly: Add Yandex search engine](https://github.com/search?q=Jelly%3A%20Add%20Yandex%20search%20engine&type=Commits)
 
 #### packages/services/OmniJaws/
 * [271b581 Update config.xml](https://github.com/search?q=Update%20config.xml&type=Commits)
 * [3f47dbd Use our key](https://github.com/search?q=Use%20our%20key&type=Commits)
 
-#### vendor/cm/
-* [e74670c Update changelog to 5.8.4](https://github.com/search?q=Update%20changelog%20to%205.8.4&type=Commits)
-
 #### Resurrection Remix OS - Nougat source changes of 08-07-2017 End.
 
 08-06-2017
 ====================
-
-#### Device specific Changes of 08-06-2017 Start:
-
-#### Device/Quark/
-* [021b776 Revert "Quark: enable flipflap"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20flipflap"&type=Commits)
-* [92f52ca Quark: enable flipflap](https://github.com/search?q=Quark%3A%20enable%20flipflap&type=Commits)
-
-#### Kernel/Quark/
-* [56e3fa1 ASoC: compress: Derive substream from stream based on direction](https://github.com/search?q=ASoC%3A%20compress%3A%20Derive%20substream%20from%20stream%20based%20on%20direction&type=Commits)
-* [6328c93 sync: Add a "details" callback for sync points](https://github.com/search?q=sync%3A%20Add%20a%20"details"%20callback%20for%20sync%20points&type=Commits)
-* [dd22ebb sync: Fix a race condition between release_obj and print_obj](https://github.com/search?q=sync%3A%20Fix%20a%20race%20condition%20between%20release_obj%20and%20print_obj&type=Commits)
-* [258266b sync: signal pt before sync_timeline object gets destroyed](https://github.com/search?q=sync%3A%20signal%20pt%20before%20sync_timeline%20object%20gets%20destroyed&type=Commits)
-* [037c8e3 staging: android: Change %p to %pK in debug messages](https://github.com/search?q=staging%3A%20android%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
-* [b0cdd8c msm: kgsl_iommu: initialized phys_addr_t domain_ptbase](https://github.com/search?q=msm%3A%20kgsl_iommu%3A%20initialized%20phys_addr_t%20domain_ptbase&type=Commits)
-* [d7cd2f5 msm: kgsl: Add a sync fence timeout callback](https://github.com/search?q=msm%3A%20kgsl%3A%20Add%20a%20sync%20fence%20timeout%20callback&type=Commits)
-* [77b9c51 msm: kgsl: Separate HW_FAULT register for A4XX](https://github.com/search?q=msm%3A%20kgsl%3A%20Separate%20HW_FAULT%20register%20for%20A4XX&type=Commits)
-* [c79564d apq8084: gpu: Vote against deep low power modes correctly](https://github.com/search?q=apq8084%3A%20gpu%3A%20Vote%20against%20deep%20low%20power%20modes%20correctly&type=Commits)
-* [bd634a1 msm: kgsl: Wake up GPU only for touch events](https://github.com/search?q=msm%3A%20kgsl%3A%20Wake%20up%20GPU%20only%20for%20touch%20events&type=Commits)
-* [13968c2 msm: kgsl: Add the oxili_rbbmtimer_clk to the list of gpu clks](https://github.com/search?q=msm%3A%20kgsl%3A%20Add%20the%20oxili_rbbmtimer_clk%20to%20the%20list%20of%20gpu%20clks&type=Commits)
-* [86b0b93 msm: kgsl: Check the address range before mapping to GPU](https://github.com/search?q=msm%3A%20kgsl%3A%20Check%20the%20address%20range%20before%20mapping%20to%20GPU&type=Commits)
-* [16334fc msm: kgsl: Clear pending transactions from VBIF on hang](https://github.com/search?q=msm%3A%20kgsl%3A%20Clear%20pending%20transactions%20from%20VBIF%20on%20hang&type=Commits)
-* [ec1f1d4 msm: kgsl: Check for integer overflow before allocating memory](https://github.com/search?q=msm%3A%20kgsl%3A%20Check%20for%20integer%20overflow%20before%20allocating%20memory&type=Commits)
-* [8641cb2 msm: kgsl: Add spinlock last timestamp in kgsl_sync](https://github.com/search?q=msm%3A%20kgsl%3A%20Add%20spinlock%20last%20timestamp%20in%20kgsl_sync&type=Commits)
-* [be706b3 Revert "Cover flip support test code from a samy device"](https://github.com/search?q=Revert%20"Cover%20flip%20support%20test%20code%20from%20a%20samy%20device"&type=Commits)
-* [f7177b7 Cover flip support test code from a samy device](https://github.com/search?q=Cover%20flip%20support%20test%20code%20from%20a%20samy%20device&type=Commits)
-* [a13c04f ASoC: msm: qdsp6v2: Add support to set volume in ASM loopback](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Add%20support%20to%20set%20volume%20in%20ASM%20loopback&type=Commits)
-* [75761dc ASoC: msm-lsm-client: use kzalloc instead of kmalloc](https://github.com/search?q=ASoC%3A%20msm-lsm-client%3A%20use%20kzalloc%20instead%20of%20kmalloc&type=Commits)
-* [388c147 ASoC: msm: qdsp6v2: fix for pcm_write failure during voip](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20for%20pcm_write%20failure%20during%20voip&type=Commits)
-* [f1355b1 ANDROID: exec_domains: Disable request_module() call for personalities](https://github.com/search?q=ANDROID%3A%20exec_domains%3A%20Disable%20request_module%28%29%20call%20for%20personalities&type=Commits)
-* [049b952 ANDROID: mnt: Fix next_descendent](https://github.com/search?q=ANDROID%3A%20mnt%3A%20Fix%20next_descendent&type=Commits)
-* [7d9ad6e BACKPORT: smarter propagate_mnt()](https://github.com/search?q=BACKPORT%3A%20smarter%20propagate_mnt%28%29&type=Commits)
-* [4d9ab87 BACKPORT: don't bother with propagate_mnt() unless the target is shared](https://github.com/search?q=BACKPORT%3A%20don't%20bother%20with%20propagate_mnt%28%29%20unless%20the%20target%20is%20shared&type=Commits)
-* [f8fb5c9 ANDROID: mnt: remount should propagate to slaves of slaves](https://github.com/search?q=ANDROID%3A%20mnt%3A%20remount%20should%20propagate%20to%20slaves%20of%20slaves&type=Commits)
-* [dd1b838 mnt: Add filesystem private data to mount points](https://github.com/search?q=mnt%3A%20Add%20filesystem%20private%20data%20to%20mount%20points&type=Commits)
-* [6b30ba4 apq8084: ehci: hsic: try harder to get rid of wakelock](https://github.com/search?q=apq8084%3A%20ehci%3A%20hsic%3A%20try%20harder%20to%20get%20rid%20of%20wakelock&type=Commits)
-* [e794cb8 memcg: Allow non-root users permission to control memory](https://github.com/search?q=memcg%3A%20Allow%20non-root%20users%20permission%20to%20control%20memory&type=Commits)
-* [f8e08d6 wlan:Check priviledge permission for SET_CHANNEL_RANGE](https://github.com/search?q=wlan%3ACheck%20priviledge%20permission%20for%20SET_CHANNEL_RANGE&type=Commits)
-* [c195c6e qcacld 2.0: Fix formatting](https://github.com/search?q=qcacld%202.0%3A%20Fix%20formatting&type=Commits)
-* [118c6c4 qcacld-2.0: Remove WLAN_FEATURE_HOLD_RX_WAKELOCK feature](https://github.com/search?q=qcacld-2.0%3A%20Remove%20WLAN_FEATURE_HOLD_RX_WAKELOCK%20feature&type=Commits)
-* [af8d165 netlink: Fix dump skb leak/double free](https://github.com/search?q=netlink%3A%20Fix%20dump%20skb%20leak/double%20free&type=Commits)
-* [1bdb2ff netlink: Eliminate kmalloc in netlink dump operation.](https://github.com/search?q=netlink%3A%20Eliminate%20kmalloc%20in%20netlink%20dump%20operation.&type=Commits)
-* [908fb6c ARM: VFP: use optimal flags for Krait](https://github.com/search?q=ARM%3A%20VFP%3A%20use%20optimal%20flags%20for%20Krait&type=Commits)
-* [2121ce5 makefile drop modflags](https://github.com/search?q=makefile%20drop%20modflags&type=Commits)
-* [cd62157 Makefile: Enable ld fix for cortex-a53 errata 843419](https://github.com/search?q=Makefile%3A%20Enable%20ld%20fix%20for%20cortex-a53%20errata%20843419&type=Commits)
-* [46853a9 msm: mdss: Update RT priority](https://github.com/search?q=msm%3A%20mdss%3A%20Update%20RT%20priority&type=Commits)
-* [c3d78a2 mdss: move to a kthread for vsync_retire_work_handler](https://github.com/search?q=mdss%3A%20move%20to%20a%20kthread%20for%20vsync_retire_work_handler&type=Commits)
-* [e35954a msm: display: release kickoff before fence waiting](https://github.com/search?q=msm%3A%20display%3A%20release%20kickoff%20before%20fence%20waiting&type=Commits)
-* [6517dad mdss: Change kickoff timeout to 300ms](https://github.com/search?q=mdss%3A%20Change%20kickoff%20timeout%20to%20300ms&type=Commits)
-* [fbf1ffe msm: mdss: rate limit log spam](https://github.com/search?q=msm%3A%20mdss%3A%20rate%20limit%20log%20spam&type=Commits)
-* [6d18691 kgsl: Increase priority of RT thread](https://github.com/search?q=kgsl%3A%20Increase%20priority%20of%20RT%20thread&type=Commits)
-* [c04f4bd msm: kgsl: Add compat.h header explicitly](https://github.com/search?q=msm%3A%20kgsl%3A%20Add%20compat.h%20header%20explicitly&type=Commits)
-* [ebcc784 msm: kgsl: Unbind the kgsl-event workqueue](https://github.com/search?q=msm%3A%20kgsl%3A%20Unbind%20the%20kgsl-event%20workqueue&type=Commits)
-* [7d2b230 kgsl: convert some workqueues to use kthreads](https://github.com/search?q=kgsl%3A%20convert%20some%20workqueues%20to%20use%20kthreads&type=Commits)
-* [cc26952 msm: kgsl: Ratelimit memory related error messages](https://github.com/search?q=msm%3A%20kgsl%3A%20Ratelimit%20memory%20related%20error%20messages&type=Commits)
-* [79052b3 ./Makefile: tell gcc optimizer to never introduce new data races](https://github.com/search?q=./Makefile%3A%20tell%20gcc%20optimizer%20to%20never%20introduce%20new%20data%20races&type=Commits)
-* [cf25551 msm: mdss: skip configuring when pipes are dirty](https://github.com/search?q=msm%3A%20mdss%3A%20skip%20configuring%20when%20pipes%20are%20dirty&type=Commits)
-* [1e32d6b msm: mdss: fix ret value during error case](https://github.com/search?q=msm%3A%20mdss%3A%20fix%20ret%20value%20during%20error%20case&type=Commits)
-* [96191b3 msm: mdss: allow unused SMP for targets with high number of SMPs](https://github.com/search?q=msm%3A%20mdss%3A%20allow%20unused%20SMP%20for%20targets%20with%20high%20number%20of%20SMPs&type=Commits)
-* [1847f6b msm: mdss: Remove the unused has_buf pipe member](https://github.com/search?q=msm%3A%20mdss%3A%20Remove%20the%20unused%20has_buf%20pipe%20member&type=Commits)
-* [b1985a4 msm: mdss: Clear PP pipe resources before copying new userspace config](https://github.com/search?q=msm%3A%20mdss%3A%20Clear%20PP%20pipe%20resources%20before%20copying%20new%20userspace%20config&type=Commits)
-* [89b213c msm: mdss: blacklist %p kptr_restrict](https://github.com/search?q=msm%3A%20mdss%3A%20blacklist%20%p%20kptr_restrict&type=Commits)
-* [4257cd7 msm: mdss: Correct block id check for mdss_mdp_misr_table](https://github.com/search?q=msm%3A%20mdss%3A%20Correct%20block%20id%20check%20for%20mdss_mdp_misr_table&type=Commits)
-* [93ae36f msm: mdss: Remove pwm_disable from backlight pwm driver](https://github.com/search?q=msm%3A%20mdss%3A%20Remove%20pwm_disable%20from%20backlight%20pwm%20driver&type=Commits)
-* [fe96bda msm: mdss: Correct the format specifiers in sscanf function](https://github.com/search?q=msm%3A%20mdss%3A%20Correct%20the%20format%20specifiers%20in%20sscanf%20function&type=Commits)
-* [5484118 msm: mdss: Fix null dereference](https://github.com/search?q=msm%3A%20mdss%3A%20Fix%20null%20dereference&type=Commits)
-* [e79c452 alarmtimer: don't rate limit one-shot timers](https://github.com/search?q=alarmtimer%3A%20don't%20rate%20limit%20one-shot%20timers&type=Commits)
-* [6964e79b alarmtimer: Rate limit periodic intervals](https://github.com/search?q=%20alarmtimer%3A%20Rate%20limit%20periodic%20intervals&type=Commits)
-* [a13dd54 PM / Domains: Fix unsafe iteration over modified list of device links](https://github.com/search?q=PM%20/%20Domains%3A%20Fix%20unsafe%20iteration%20over%20modified%20list%20of%20device%20links&type=Commits)
-* [c70a609 cgroup: Allow non-root users permission to attach](https://github.com/search?q=cgroup%3A%20Allow%20non-root%20users%20permission%20to%20attach&type=Commits)
-* [971f5ed cgroup: refactor allow_attach function into common code](https://github.com/search?q=cgroup%3A%20refactor%20allow_attach%20function%20into%20common%20code&type=Commits)
-* [3a40be7 cgroup: prefer %pK to %p](https://github.com/search?q=cgroup%3A%20prefer%20%pK%20to%20%p&type=Commits)
-* [43382cf signal: Only reschedule timers on signals timers have sent](https://github.com/search?q=signal%3A%20Only%20reschedule%20timers%20on%20signals%20timers%20have%20sent&type=Commits)
-* [334b1bb usb: replace %p with %pK](https://github.com/search?q=usb%3A%20replace%20%p%20with%20%pK&type=Commits)
-* [fc369ed msm: ADSPRPC: Initialize hlist node pointers](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Initialize%20hlist%20node%20pointers&type=Commits)
-* [3ca4983 ion: msm: remove superfluous function argument](https://github.com/search?q=ion%3A%20msm%3A%20remove%20superfluous%20function%20argument&type=Commits)
-* [d19f77b net: tcp: check for SOCK_DEAD again in tcp_nuke_addr](https://github.com/search?q=net%3A%20tcp%3A%20check%20for%20SOCK_DEAD%20again%20in%20tcp_nuke_addr&type=Commits)
-* [c1119ba Fix NULL pointer dereference in tcp_nuke_addr.](https://github.com/search?q=Fix%20NULL%20pointer%20dereference%20in%20tcp_nuke_addr.&type=Commits)
-* [554865f i2c-qup: improve the bus recovery procedure in qup i2c driver](https://github.com/search?q=i2c-qup%3A%20improve%20the%20bus%20recovery%20procedure%20in%20qup%20i2c%20driver&type=Commits)
-* [ca52b59 i2c-qup: don't ignore the last byte of a message](https://github.com/search?q=i2c-qup%3A%20don't%20ignore%20the%20last%20byte%20of%20a%20message&type=Commits)
-* [f24bb4b binder: Quiet Binder](https://github.com/search?q=binder%3A%20Quiet%20Binder&type=Commits)
-* [5b7e90e msm: mdss: Fix uninitialized return value for compact ioctl function](https://github.com/search?q=msm%3A%20mdss%3A%20Fix%20uninitialized%20return%20value%20for%20compact%20ioctl%20function&type=Commits)
-* [1ca8253 msm: mdss: prevent excessive logging after shutdown requested.](https://github.com/search?q=msm%3A%20mdss%3A%20prevent%20excessive%20logging%20after%20shutdown%20requested.&type=Commits)
-* [a65818b Turn off trace_printk in vidc's dprink.](https://github.com/search?q=Turn%20off%20trace_printk%20in%20vidc's%20dprink.&type=Commits)
-* [9a0f52b usb: gadget: ci13xxx: Fix define scope](https://github.com/search?q=usb%3A%20gadget%3A%20ci13xxx%3A%20Fix%20define%20scope&type=Commits)
-* [d7cf67e defconfig dis not needed drivers](https://github.com/search?q=defconfig%20dis%20not%20needed%20drivers&type=Commits)
-* [877737c defconfig disable not used fs](https://github.com/search?q=defconfig%20disable%20not%20used%20fs&type=Commits)
-* [258f843 fs/exec: fix use after free in execve](https://github.com/search?q=fs/exec%3A%20fix%20use%20after%20free%20in%20execve&type=Commits)
-* [caa82b7 qdsp6v2: blacklist %p kptr_restrict](https://github.com/search?q=qdsp6v2%3A%20blacklist%20%p%20kptr_restrict&type=Commits)
-* [050fd48 msm: kgsl: Fix kgsl memory allocation and free race condition](https://github.com/search?q=msm%3A%20kgsl%3A%20Fix%20kgsl%20memory%20allocation%20and%20free%20race%20condition&type=Commits)
-* [4480854 BACKPORT: msm: camera: Add regulator enable and disable independent of CSID](https://github.com/search?q=BACKPORT%3A%20msm%3A%20camera%3A%20Add%20regulator%20enable%20and%20disable%20independent%20of%20CSID&type=Commits)
-* [ed91517 Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE"](https://github.com/search?q=Revert%20"proc%3A%20smaps%3A%20Allow%20smaps%20access%20for%20CAP_SYS_RESOURCE"&type=Commits)
-* [53a3bcf ashmem: remove cache maintenance support](https://github.com/search?q=ashmem%3A%20remove%20cache%20maintenance%20support&type=Commits)
-* [4553dc8 msm-vidc: Allocate bus vote data during initialization](https://github.com/search?q=msm-vidc%3A%20Allocate%20bus%20vote%20data%20during%20initialization&type=Commits)
-* [c69bad5 msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl.](https://github.com/search?q=msm%3A%20vidc%3A%20use%20%pK%20instead%20of%20%p%20which%20respects%20kptr_restrict%20sysctl.&type=Commits)
-* [4e85e9e msm: vidc: handle dynamic buffers in pendingq during flush](https://github.com/search?q=msm%3A%20vidc%3A%20handle%20dynamic%20buffers%20in%20pendingq%20during%20flush&type=Commits)
-* [cc2c5ce msm: vidc: add ion_handle checking before mapping buffers](https://github.com/search?q=msm%3A%20vidc%3A%20add%20ion_handle%20checking%20before%20mapping%20buffers&type=Commits)
-* [b0cc279 msm: vidc: Cache bus votes properly when client votes](https://github.com/search?q=msm%3A%20vidc%3A%20Cache%20bus%20votes%20properly%20when%20client%20votes&type=Commits)
-* [46acab3 BACKPORT: udf: Check path length when reading symlink](https://github.com/search?q=BACKPORT%3A%20udf%3A%20Check%20path%20length%20when%20reading%20symlink&type=Commits)
-* [50ae364 defconfig Disable /dev/port](https://github.com/search?q=defconfig%20Disable%20/dev/port&type=Commits)
-* [3980181 msm: camera: don't cut to 8bits for validating enum variable](https://github.com/search?q=msm%3A%20camera%3A%20don't%20cut%20to%208bits%20for%20validating%20enum%20variable&type=Commits)
-* [57c89ee msm: camera: sensor: Add boundary check for cci master](https://github.com/search?q=msm%3A%20camera%3A%20sensor%3A%20Add%20boundary%20check%20for%20cci%20master&type=Commits)
-* [8a3ceba ASoC: msm: qdsp6v2: check audio client pointer before accessing](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20check%20audio%20client%20pointer%20before%20accessing&type=Commits)
-* [0d7c177 ASoC: msm: qdsp6v2: validate audio client in callback](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20validate%20audio%20client%20in%20callback&type=Commits)
-* [105e53d ASoC: Add backend user count checking](https://github.com/search?q=ASoC%3A%20Add%20backend%20user%20count%20checking&type=Commits)
-* [26ebe00 msm: mdss: install the rel_fence even if retire_fence is skipped](https://github.com/search?q=msm%3A%20mdss%3A%20install%20the%20rel_fence%20even%20if%20retire_fence%20is%20skipped&type=Commits)
-* [d98720e tracing: do not leak kernel addresses](https://github.com/search?q=tracing%3A%20do%20not%20leak%20kernel%20addresses&type=Commits)
-* [cd9aa05 BACKPORT: pinctrl: msm: fix function name allocation length](https://github.com/search?q=BACKPORT%3A%20pinctrl%3A%20msm%3A%20fix%20function%20name%20allocation%20length&type=Commits)
-* [f91ee6a FROMLIST: ASoC: soc: prevent risk of buffer overflow](https://github.com/search?q=FROMLIST%3A%20ASoC%3A%20soc%3A%20prevent%20risk%20of%20buffer%20overflow&type=Commits)
-* [2f20589 BACKPORT: trace: resolve stack corruption due to string copy](https://github.com/search?q=BACKPORT%3A%20trace%3A%20resolve%20stack%20corruption%20due%20to%20string%20copy&type=Commits)
-* [52239c5 msm: crypto: set CLR_CNTXT bit for crypto operations](https://github.com/search?q=msm%3A%20crypto%3A%20set%20CLR_CNTXT%20bit%20for%20crypto%20operations&type=Commits)
-* [47af505 qseecom: check buffer size when loading firmware images](https://github.com/search?q=qseecom%3A%20check%20buffer%20size%20when%20loading%20firmware%20images&type=Commits)
-* [a7ae0c4 soc: qcom: scm: check for size_t overflow.](https://github.com/search?q=soc%3A%20qcom%3A%20scm%3A%20check%20for%20size_t%20overflow.&type=Commits)
-* [94436d1 ASoC: soc: msm: initialize buffer to prevent kernel data leakage](https://github.com/search?q=ASoC%3A%20soc%3A%20msm%3A%20initialize%20buffer%20to%20prevent%20kernel%20data%20leakage&type=Commits)
-* [f8eee42 ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Add%20range%20checking%20in%20msm_dai_q6_set_channel_map&type=Commits)
-* [27cd55d slim-msm: Synchronize SSR callbacks](https://github.com/search?q=slim-msm%3A%20Synchronize%20SSR%20callbacks&type=Commits)
-* [df3de3e crypto: msm: check length before copying to buf in _debug_stats_read](https://github.com/search?q=crypto%3A%20msm%3A%20check%20length%20before%20copying%20to%20buf%20in%20_debug_stats_read&type=Commits)
-* [3731c3d UPSTREAM: regulator: core: Fix regualtor_ena_gpio_free not to access pin after freeing](https://github.com/search?q=UPSTREAM%3A%20regulator%3A%20core%3A%20Fix%20regualtor_ena_gpio_free%20not%20to%20access%20pin%20after%20freeing&type=Commits)
-* [e075eaf ASoC: msm: qdsp6v2: return error when copy from userspace fails](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20return%20error%20when%20copy%20from%20userspace%20fails&type=Commits)
-* [9e0dba1 msm: mdss: Install sync fences after user copy](https://github.com/search?q=msm%3A%20mdss%3A%20Install%20sync%20fences%20after%20user%20copy&type=Commits)
-* [50b72c9 FROMLIST: ASoC: wcd9320: Fix out of bounds for mad input value](https://github.com/search?q=FROMLIST%3A%20ASoC%3A%20wcd9320%3A%20Fix%20out%20of%20bounds%20for%20mad%20input%20value&type=Commits)
-* [fddedf3 qseecom: improve input validatation for qseecom_send_service_cmd](https://github.com/search?q=qseecom%3A%20improve%20input%20validatation%20for%20qseecom_send_service_cmd&type=Commits)
-* [9a4fa22 msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c](https://github.com/search?q=msm%3A%20crypto%3A%20fix%20issues%20on%20digest%20buf%20and%20copy_from_user%20in%20qcedev.c&type=Commits)
-* [4b6e3f6 net: ipc_router: Register services only on client port](https://github.com/search?q=net%3A%20ipc_router%3A%20Register%20services%20only%20on%20client%20port&type=Commits)
-* [e672180 qseecom: whitelist support for kernel client and listener](https://github.com/search?q=qseecom%3A%20whitelist%20support%20for%20kernel%20client%20and%20listener&type=Commits)
-* [311ed6a qseecom: validate the inputs of __qseecom_send_modfd_resp](https://github.com/search?q=qseecom%3A%20validate%20the%20inputs%20of%20__qseecom_send_modfd_resp&type=Commits)
-* [3290aa2 qseecom: fix secure app loading failure by kernel client -- part 2](https://github.com/search?q=qseecom%3A%20fix%20secure%20app%20loading%20failure%20by%20kernel%20client%20--%20part%202&type=Commits)
-* [623ba77 qseecom: Change format specifier %p to %pK](https://github.com/search?q=qseecom%3A%20Change%20format%20specifier%20%p%20to%20%pK&type=Commits)
-* [5da9395 qseecom: Change whitelist_support flag to false if TZ failed to check](https://github.com/search?q=qseecom%3A%20Change%20whitelist_support%20flag%20to%20false%20if%20TZ%20failed%20to%20check&type=Commits)
-* [bcb29bc qseecom: allocate sglistinfo buffer for kernel clients](https://github.com/search?q=qseecom%3A%20allocate%20sglistinfo%20buffer%20for%20kernel%20clients&type=Commits)
-* [5895d14 qseecom: support whitelist memory for qseecom_send_modfd_cmd](https://github.com/search?q=qseecom%3A%20support%20whitelist%20memory%20for%20qseecom_send_modfd_cmd&type=Commits)
-* [d58c3e5 ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20out-of-bounds%20access%20in%20put%20functions&type=Commits)
-* [25ef9dc ASoC: msm: qdsp6v2: Restrict capture path to LL mode](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Restrict%20capture%20path%20to%20LL%20mode&type=Commits)
-* [fee7e41 ASoC: msm: Reduce min capture period size](https://github.com/search?q=ASoC%3A%20msm%3A%20Reduce%20min%20capture%20period%20size&type=Commits)
-* [634c2cf ASoC: qdsp6v2: update perf mode flag for LL capture cases](https://github.com/search?q=ASoC%3A%20qdsp6v2%3A%20update%20perf%20mode%20flag%20for%20LL%20capture%20cases&type=Commits)
-* [18ed6cc FROMLIST: 9p: fix a potential acl leak](https://github.com/search?q=FROMLIST%3A%209p%3A%20fix%20a%20potential%20acl%20leak&type=Commits)
-* [3ec2968 sdcardfs: limit stacking depth](https://github.com/search?q=sdcardfs%3A%20limit%20stacking%20depth&type=Commits)
-* [f0a293d crypto: msm: check integer overflow on total data len in qcedev.c](https://github.com/search?q=crypto%3A%20msm%3A%20check%20integer%20overflow%20on%20total%20data%20len%20in%20qcedev.c&type=Commits)
-* [73301ef qcedev: Validate Source and Destination addresses](https://github.com/search?q=qcedev%3A%20Validate%20Source%20and%20Destination%20addresses&type=Commits)
-* [7e36321 msm: crypto: Fix integer overflow check in qcedev driver](https://github.com/search?q=msm%3A%20crypto%3A%20Fix%20integer%20overflow%20check%20in%20qcedev%20driver&type=Commits)
-* [01d277f crypto: msm: add suspend/resume callback for qcedev driver](https://github.com/search?q=crypto%3A%20msm%3A%20add%20suspend/resume%20callback%20for%20qcedev%20driver&type=Commits)
-* [1feff4d FROMLIST: qcrypto: protect potential integer overflow.](https://github.com/search?q=FROMLIST%3A%20qcrypto%3A%20protect%20potential%20integer%20overflow.&type=Commits)
-* [59dd264 Kconfig: msm: disable ultrasound driver](https://github.com/search?q=Kconfig%3A%20msm%3A%20disable%20ultrasound%20driver&type=Commits)
-* [2e74ed0 fs/proc/array.c: make safe access to group_leader](https://github.com/search?q=fs/proc/array.c%3A%20make%20safe%20access%20to%20group_leader&type=Commits)
-* [6b8510d qseecom: remove entry from qseecom_registered_app_list](https://github.com/search?q=qseecom%3A%20remove%20entry%20from%20qseecom_registered_app_list&type=Commits)
-* [97ed3e2 BACKPORT: aio: mark AIO pseudo-fs noexec](https://github.com/search?q=BACKPORT%3A%20aio%3A%20mark%20AIO%20pseudo-fs%20noexec&type=Commits)
-* [584eced msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c](https://github.com/search?q=msm%3A%20crypto%3A%20fix%20issues%20on%20digest%20buf%20and%20copy_from_user%20in%20qcedev.c&type=Commits)
-* [744235c msm: camera: sensor: Validate eeprom_name string length](https://github.com/search?q=msm%3A%20camera%3A%20sensor%3A%20Validate%20eeprom_name%20string%20length&type=Commits)
-* [7393e34 msm: cpp: Fix for buffer overflow in cpp.](https://github.com/search?q=msm%3A%20cpp%3A%20Fix%20for%20buffer%20overflow%20in%20cpp.&type=Commits)
-* [8a62c12 msm: camera: fix bound check of offset to avoid overread overwrite](https://github.com/search?q=msm%3A%20camera%3A%20fix%20bound%20check%20of%20offset%20to%20avoid%20overread%20overwrite&type=Commits)
-* [7fe1aef ANDROID: ion: Protect kref from userspace manipulation](https://github.com/search?q=ANDROID%3A%20ion%3A%20Protect%20kref%20from%20userspace%20manipulation&type=Commits)
-* [a661f05 ANDROID: ion: check for kref overflow](https://github.com/search?q=ANDROID%3A%20ion%3A%20check%20for%20kref%20overflow&type=Commits)
-* [60ebcd0 ion: Fix use after free during ION_IOC_ALLOC](https://github.com/search?q=ion%3A%20Fix%20use%20after%20free%20during%20ION_IOC_ALLOC&type=Commits)
-* [17cc585 ion: blacklist %p kptr_restrict](https://github.com/search?q=ion%3A%20blacklist%20%p%20kptr_restrict&type=Commits)
-* [3f8e2f6 UPSTREAM: staging/android/ion : fix a race condition in the ion driver](https://github.com/search?q=UPSTREAM%3A%20staging/android/ion%20%3A%20fix%20a%20race%20condition%20in%20the%20ion%20driver&type=Commits)
-* [5c448b0 ion: Disable ION_HEAP_TYPE_SYSTEM_CONTIG](https://github.com/search?q=ion%3A%20Disable%20ION_HEAP_TYPE_SYSTEM_CONTIG&type=Commits)
-* [add5b74 msm: kgsl: Reserve a context ID slot but don't populate immediately](https://github.com/search?q=msm%3A%20kgsl%3A%20Reserve%20a%20context%20ID%20slot%20but%20don't%20populate%20immediately&type=Commits)
-* [699ec01 net: rmnet_data: Fix incorrect netlink handling](https://github.com/search?q=net%3A%20rmnet_data%3A%20Fix%20incorrect%20netlink%20handling&type=Commits)
-* [2096dbc UPSTREAM: l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()](https://github.com/search?q=UPSTREAM%3A%20l2tp%3A%20fix%20racy%20SOCK_ZAPPED%20flag%20check%20in%20l2tp_ip{,6}_bind%28%29&type=Commits)
-* [b72bd9e UPSTREAM: net: avoid signed overflows for SO_{SND|RCV}BUFFORCE](https://github.com/search?q=UPSTREAM%3A%20net%3A%20avoid%20signed%20overflows%20for%20SO_{SND|RCV}BUFFORCE&type=Commits)
-* [1b6720c msm: ipa: Update IPA rule temp buffer size](https://github.com/search?q=msm%3A%20ipa%3A%20Update%20IPA%20rule%20temp%20buffer%20size&type=Commits)
-* [5cd9bbb mm: vmscan: fix the page state calculation in too_many_isolated](https://github.com/search?q=mm%3A%20vmscan%3A%20fix%20the%20page%20state%20calculation%20in%20too_many_isolated&type=Commits)
-* [8e92d86 mm: compaction: fix the page state calculation in too_many_isolated](https://github.com/search?q=mm%3A%20compaction%3A%20fix%20the%20page%20state%20calculation%20in%20too_many_isolated&type=Commits)
-* [9ea1912 Revert "fs/exec.c: account for argv/envp pointers"](https://github.com/search?q=Revert%20"fs/exec.c%3A%20account%20for%20argv/envp%20pointers"&type=Commits)
-* [4964211 fs/exec.c: account for argv/envp pointers](https://github.com/search?q=fs/exec.c%3A%20account%20for%20argv/envp%20pointers&type=Commits)
-* [9a3ef68 fs/block_dev: always invalidate cleancache in invalidate_bdev()](https://github.com/search?q=fs/block_dev%3A%20always%20invalidate%20cleancache%20in%20invalidate_bdev%28%29&type=Commits)
-* [338cf26 defconfig ena PM_SYNC_BEFORE_SUSPEND SUSPEND_TIME_TIMEKEEPING](https://github.com/search?q=defconfig%20ena%20PM_SYNC_BEFORE_SUSPEND%20SUSPEND_TIME_TIMEKEEPING&type=Commits)
-* [43bab53 power: Avoids bogus error messages for the suspend aborts.](https://github.com/search?q=power%3A%20Avoids%20bogus%20error%20messages%20for%20the%20suspend%20aborts.&type=Commits)
-* [bbaaea9 PM / Sleep: Print last wakeup source on failed wakeup_count write](https://github.com/search?q=PM%20/%20Sleep%3A%20Print%20last%20wakeup%20source%20on%20failed%20wakeup_count%20write&type=Commits)
-* [72bfcaf pm: suspend: read suspend time from timekeeping](https://github.com/search?q=pm%3A%20suspend%3A%20read%20suspend%20time%20from%20timekeeping&type=Commits)
-* [6242d9f power: make sync on suspend optional](https://github.com/search?q=power%3A%20make%20sync%20on%20suspend%20optional&type=Commits)
-* [15a4dd9 PM / suspend: Remove unnecessary !! Double ! or !! are normally required to get 0 or 1 out of a expression. A comparision always returns 0 or 1 and hence there is no need to apply double ! over it again.](https://github.com/search?q=PM%20/%20suspend%3A%20Remove%20unnecessary%20!!%20Double%20!%20or%20!!%20are%20normally%20required%20to%20get%200%20or%201%20out%20of%20a%20expression.%20A%20comparision%20always%20returns%200%20or%201%20and%20hence%20there%20is%20no%20need%20to%20apply%20double%20!%20over%20it%20again.&type=Commits)
-* [fff7923 PM / Runtime: Fix error path for prepare](https://github.com/search?q=PM%20/%20Runtime%3A%20Fix%20error%20path%20for%20prepare&type=Commits)
-* [8bebb21 cpuidle: don't disable cpuidle when entering suspend](https://github.com/search?q=cpuidle%3A%20don't%20disable%20cpuidle%20when%20entering%20suspend&type=Commits)
-* [000530c PM: Fix a bug in dpm_suspend_late()](https://github.com/search?q=PM%3A%20Fix%20a%20bug%20in%20dpm_suspend_late%28%29&type=Commits)
-* [52de550 power: align wakeup_sources format](https://github.com/search?q=power%3A%20align%20wakeup_sources%20format&type=Commits)
-* [50d9737 PM / sleep: unregister wakeup source when disabling device wakeup](https://github.com/search?q=PM%20/%20sleep%3A%20unregister%20wakeup%20source%20when%20disabling%20device%20wakeup&type=Commits)
-
-#### Device specific Changes of 08-06-2017 End.
-
-***
 
 #### Resurrection Remix OS - Nougat source changes of 08-06-2017:
 
@@ -406,9 +317,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [5a0945c frameworks: PIE 3.0 (nougat)](https://github.com/search?q=frameworks%3A%20PIE%203.0%20%28nougat%29&type=Commits)
 * [4df7925 Revert "Forward Port: PIE 3.0 (1/2)"](https://github.com/search?q=Revert%20"Forward%20Port%3A%20PIE%203.0%20%281/2%29"&type=Commits)
 * [a88bb8e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### hardware/qcom/media-caf/apq8084/
-* [02e5750 videopp: fix include paths for lineage](https://github.com/search?q=videopp%3A%20fix%20include%20paths%20for%20lineage&type=Commits)
 
 #### packages/apps/DUI/
 * [50f3858 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -425,6 +333,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/ResurrectionOTA/
 * [bb68a89 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### packages/apps/ResurrectionStats/
+* [6b6f3b3 Stats: RR v5.8.4](https://github.com/search?q=Stats%3A%20RR%20v5.8.4&type=Commits)
+
 #### packages/apps/Settings/
 * [3701c92 Dslv: Fix FC when adding duplicate shortcuts](https://github.com/search?q=Dslv%3A%20Fix%20FC%20when%20adding%20duplicate%20shortcuts&type=Commits)
 * [c1348a0 Settings:Add preference for pocket judge [2/2]](https://github.com/search?q=Settings%3AAdd%20preference%20for%20pocket%20judge%20[2/2]&type=Commits)
@@ -433,7 +344,11 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [5fd64be Update PIE settings to 3.0](https://github.com/search?q=Update%20PIE%20settings%20to%203.0&type=Commits)
 * [c86bfa8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### prebuilts/gcc/linux-x86/arm/uber_arm-eabi-4.9/
+* [562be18 Initial commit](https://github.com/search?q=Initial%20commit&type=Commits)
+
 #### vendor/cm/
+* [e74670c Update changelog to 5.8.4](https://github.com/search?q=Update%20changelog%20to%205.8.4&type=Commits)
 * [f869205 Bump version to 5.8.4](https://github.com/search?q=Bump%20version%20to%205.8.4&type=Commits)
 * [8272685 vendor: Fix a user profile data denial](https://github.com/search?q=vendor%3A%20Fix%20a%20user%20profile%20data%20denial&type=Commits)
 * [be1cf97 vendor: Add selinux policy for pocket bridge](https://github.com/search?q=vendor%3A%20Add%20selinux%20policy%20for%20pocket%20bridge&type=Commits)
