@@ -3,36 +3,82 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+08-15-2017
+====================
+
+#### Device specific Changes of 08-15-2017 Start:
+
+#### Kernel/Quark/
+* [702a0b9 defconfig: removed MOBICORE aka gub driver](https://github.com/search?q=defconfig%3A%20removed%20MOBICORE%20aka%20gub%20driver&type=Commits)
+* [23a7e66 msm: vidc: Protect debug_buffer access in core_info_read with lock, part 2](https://github.com/search?q=msm%3A%20vidc%3A%20Protect%20debug_buffer%20access%20in%20core_info_read%20with%20lock,%20part%202&type=Commits)
+* [bbdaf08 apq8084: disable spurious WARN in rcg_clk_prepare](https://github.com/search?q=apq8084%3A%20disable%20spurious%20WARN%20in%20rcg_clk_prepare&type=Commits)
+* [71986fb msm: gud: Remove gud driver](https://github.com/search?q=msm%3A%20gud%3A%20Remove%20gud%20driver&type=Commits)
+
+#### Device specific Changes of 08-15-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 08-15-2017:
+
+* project hardware/qcom/bt-caf/
+* [328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"](https://github.com/search?q=Revert%20"Merge%20tag%20'LA.UM.5.5.r1-04900-8x96.0'%20into%20HEAD"&type=Commits)
+
+* project vendor/crDroidOTA-devices/
+* [8e95c98 Xiaomi Mi Max (hydrogen) OTA + Changelog](https://github.com/search?q=Xiaomi%20Mi%20Max%20%28hydrogen%29%20OTA%20+%20Changelog&type=Commits)
+* [9422bf1 Merge branch '7.1' of https://github.com/crdroid-devices/android_vendor_crDroidOTA into HEAD](https://github.com/search?q=Merge%20branch%20'7.1'%20of%20https%3A//github.com/crdroid-devices/android_vendor_crDroidOTA%20into%20HEAD&type=Commits)
+* [d5b7a25 update h870 to build crDroidAndroid-7.1.2-20170815](https://github.com/search?q=update%20h870%20to%20build%20crDroidAndroid-7.1.2-20170815&type=Commits)
+* [871cfef OTA: update tomato & s2 to 3.7](https://github.com/search?q=OTA%3A%20update%20tomato%20&%20s2%20to%203.7&type=Commits)
+* [0b09ac6 OTA: update mido to 3.7](https://github.com/search?q=OTA%3A%20update%20mido%20to%203.7&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-15-2017 End.
+
+08-14-2017
+====================
+
+#### CRDroid Android Nougat source changes of 08-14-2017:
+
+* project packages/apps/DeskClock/
+* [436ce6a clock: Reset profile if profile is already selected](https://github.com/search?q=clock%3A%20Reset%20profile%20if%20profile%20is%20already%20selected&type=Commits)
+
+* project vendor/crDroidOTA-devices/
+* [14b055f Update all klte variants.](https://github.com/search?q=Update%20all%20klte%20variants.&type=Commits)
+* [32bc167 Kipper v3.7](https://github.com/search?q=Kipper%20v3.7&type=Commits)
+* [43097dd V3.7](https://github.com/search?q=V3.7&type=Commits)
+* [6d35639 fixed cheeseburger xml info](https://github.com/search?q=fixed%20cheeseburger%20xml%20info&type=Commits)
+* [40f19f9 update herolte & hero2lte to build crDroidAndroid-7.1.2-20170814](https://github.com/search?q=update%20herolte%20&%20hero2lte%20to%20build%20crDroidAndroid-7.1.2-20170814&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-14-2017 End.
+
+08-13-2017
+====================
+
+#### CRDroid Android Nougat source changes of 08-13-2017:
+
+* project hardware/broadcom/wlan/
+* [5ef057d Merge tag 'android-7.1.2_r28' into cm-14.1](https://github.com/search?q=Merge%20tag%20'android-7.1.2_r28'%20into%20cm-14.1&type=Commits)
+
+* project vendor/crDroidOTA-devices/
+* [414bed0 Update OP3 & add OP5](https://github.com/search?q=Update%20OP3%20&%20add%20OP5&type=Commits)
+* [cbd6802 v500: Update to 3.7](https://github.com/search?q=v500%3A%20Update%20to%203.7&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-13-2017 End.
+
 08-12-2017
 ====================
 
 #### CRDroid Android Nougat source changes of 08-12-2017:
 
-#### bionic/
-* [ae203fe Update <arpa/*> from FreeBSD.](https://github.com/search?q=Update%20<arpa/*>%20from%20FreeBSD.&type=Commits)
-
-#### external/skia/
+* project external/skia/
 * [b2c5de5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_external_skia into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_external_skia%20into%207.1&type=Commits)
 
-#### external/zlib/
+* project external/zlib/
 * [d4ab516 Merge branch 'nonetwo' of https://github.com/BenzoRoms/external_zlib into 7.1](https://github.com/search?q=Merge%20branch%20'nonetwo'%20of%20https%3A//github.com/BenzoRoms/external_zlib%20into%207.1&type=Commits)
 
-#### frameworks/base/
+* project frameworks/base/
 * [a3a71ce Enforce call log length limit on a per PhoneAccount basis.](https://github.com/search?q=Enforce%20call%20log%20length%20limit%20on%20a%20per%20PhoneAccount%20basis.&type=Commits)
 * [63f6471 ExtService: Fix no icon shown for data limit notification](https://github.com/search?q=ExtService%3A%20Fix%20no%20icon%20shown%20for%20data%20limit%20notification&type=Commits)
-* [d247491 Avoid strict mode warning when persisting sync state](https://github.com/search?q=Avoid%20strict%20mode%20warning%20when%20persisting%20sync%20state&type=Commits)
-* [bb0728f Fix classnotfound exception for backup](https://github.com/search?q=Fix%20classnotfound%20exception%20for%20backup&type=Commits)
-* [68f7aa0 MessageQueue: explicitly remove FD event listeners.](https://github.com/search?q=MessageQueue%3A%20explicitly%20remove%20FD%20event%20listeners.&type=Commits)
-* [a3c8fe0 Handle Cell STATE_EMERGENCY_ONLY in BatteryStats](https://github.com/search?q=Handle%20Cell%20STATE_EMERGENCY_ONLY%20in%20BatteryStats&type=Commits)
-* [c15fc79 Prevent data usage dialog from being displayed again](https://github.com/search?q=Prevent%20data%20usage%20dialog%20from%20being%20displayed%20again&type=Commits)
 
-#### hardware/qcom/bt-caf/
-* [b60954a libbt-qcom: Allow reading BT address from property](https://github.com/search?q=libbt-qcom%3A%20Allow%20reading%20BT%20address%20from%20property&type=Commits)
-
-#### packages/apps/PackageInstaller/
-* [9c40c82 fix toggling off current permissions in review](https://github.com/search?q=fix%20toggling%20off%20current%20permissions%20in%20review&type=Commits)
-
-#### packages/apps/Settings/
+* project packages/apps/Settings/
 * [3531588 CryptKeeper need release all StatusBar blocks when it is destroyed by system](https://github.com/search?q=CryptKeeper%20need%20release%20all%20StatusBar%20blocks%20when%20it%20is%20destroyed%20by%20system&type=Commits)
 * [55c3c20 Fix Settings crashes after tapping "Learn more" in fingerprint page](https://github.com/search?q=Fix%20Settings%20crashes%20after%20tapping%20"Learn%20more"%20in%20fingerprint%20page&type=Commits)
 * [32f88b0 Fix Settings crash when setting only decimal point to data usage warning](https://github.com/search?q=Fix%20Settings%20crash%20when%20setting%20only%20decimal%20point%20to%20data%20usage%20warning&type=Commits)
@@ -40,24 +86,18 @@ CRDroid Android Nougat source and Quark Changelog:
 * [126d27b Settings: Make shortcut icon colors match settings accent](https://github.com/search?q=Settings%3A%20Make%20shortcut%20icon%20colors%20match%20settings%20accent&type=Commits)
 * [0271a09 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
 
-#### packages/apps/crDroidSettings/
+* project packages/apps/crDroidSettings/
 * [b656ad1 crdroid: Fix crash with anbi settings](https://github.com/search?q=crdroid%3A%20Fix%20crash%20with%20anbi%20settings&type=Commits)
 * [acb3dc6 Merge pull request #80 from beroid/7.1](https://github.com/search?q=Merge%20pull%20request%20%2380%20from%20beroid/7.1&type=Commits)
 * [dd81bf6 crdroid: Update RU translations](https://github.com/search?q=crdroid%3A%20Update%20RU%20translations&type=Commits)
 * [cc72d9a crdroid: Place width settings at proper place](https://github.com/search?q=crdroid%3A%20Place%20width%20settings%20at%20proper%20place&type=Commits)
 
-#### packages/services/Telecomm/
-* [6af302f Avoid telecom crash](https://github.com/search?q=Avoid%20telecom%20crash&type=Commits)
-
-#### packages/services/Telephony/
-* [015a5d4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%207.1&type=Commits)
-* [6890143 Telephony: Correct missing italian translation](https://github.com/search?q=Telephony%3A%20Correct%20missing%20italian%20translation&type=Commits)
-
-#### vendor/cm/
+* project vendor/cm/
 * [feb038a crDroid v3.7](https://github.com/search?q=crDroid%20v3.7&type=Commits)
-* [fc85cb3 Add Correios Celular (BR) APN](https://github.com/search?q=Add%20Correios%20Celular%20%28BR%29%20APN&type=Commits)
 
-#### vendor/crDroidOTA-devices/
+* project vendor/crDroidOTA-devices/
+* [3c96268 falcon: Update to v3.7](https://github.com/search?q=falcon%3A%20Update%20to%20v3.7&type=Commits)
+* [d4882d4 crackling: Update to 3.7](https://github.com/search?q=crackling%3A%20Update%20to%203.7&type=Commits)
 * [77fca04 Switch to goo.gl url for gapps on marlin/sailfish.](https://github.com/search?q=Switch%20to%20goo.gl%20url%20for%20gapps%20on%20marlin/sailfish.&type=Commits)
 * [6afe4e2 Added marlin/sailfish gapps links.](https://github.com/search?q=Added%20marlin/sailfish%20gapps%20links.&type=Commits)
 * [6413c91 Update deb/flo/m8/m8d/h811/h815](https://github.com/search?q=Update%20deb/flo/m8/m8d/h811/h815&type=Commits)
