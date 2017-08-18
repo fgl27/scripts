@@ -35,7 +35,7 @@ else
 	export WITH_ROOT_METHOD="rootless"
 	export WITH_SU=true
 	. build/envsetup.sh
-	lunch cm_quark-userdebug
+	lunch cm_quark-eng
 fi
 make clean
 time make recoveryimage -j8 2>&1 | tee twrp.txt
