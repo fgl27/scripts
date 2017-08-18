@@ -1,0 +1,32 @@
+{
+    "status": "ok",
+    "date": "2017-08-18",
+    "commands": "",
+    "gpg": false,
+    "devices": [
+        {
+            "files": [
+                {
+                    "url": "https://raw.githubusercontent.com/multirom-xiaomi/multirom-xiaomi.github.io/mido-stable/multirom-20170329-v33-UNOFFICIAL-mido.zip",
+                    "version": "33-20170329-01",
+                    "type": "multirom",
+                    "size": "4440828"
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/multirom-xiaomi/multirom-xiaomi.github.io/mido-stable/mr-twrp-recovery-20170329-01-STABLE8.img",
+                    "version": "mrom20170329-01",
+                    "type": "recovery",
+                    "size": "33333248"
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/multirom-xiaomi/multirom-xiaomi.github.io/mido-stable/multirom_uninstaller.zip",
+                    "version": "",
+                    "type": "uninstaller",
+                    "size": "1706497"
+                }
+            ],
+            "changelogs": [],
+            "name": "quark"
+        }
+    ]
+}
