@@ -7,22 +7,16 @@
         {
             "files": [
                 {
-                    "url": "https://raw.githubusercontent.com/multirom-xiaomi/multirom-xiaomi.github.io/mido-stable/multirom-20170329-v33-UNOFFICIAL-mido.zip",
-                    "version": "33-20170329-01",
+                    "url": "https://github.com/bhb27/boot_quark/blob/6.0_vzw/Uplods/multi/multirom-20170818-v33-quark.zip",
+                    "version": "33-20170818-01",
                     "type": "multirom",
-                    "size": "4440828"
+                    "size": "6516988"
                 },
                 {
-                    "url": "https://raw.githubusercontent.com/multirom-xiaomi/multirom-xiaomi.github.io/mido-stable/mr-twrp-recovery-20170329-01-STABLE8.img",
-                    "version": "mrom20170329-01",
+                    "url": "https://github.com/bhb27/boot_quark/blob/6.0_vzw/Uplods/multi/multirom_twrp-3.1.1-mod_2-quark-20170818-01.img",
+                    "version": "mrom20170818-01",
                     "type": "recovery",
-                    "size": "33333248"
-                },
-                {
-                    "url": "https://raw.githubusercontent.com/multirom-xiaomi/multirom-xiaomi.github.io/mido-stable/multirom_uninstaller.zip",
-                    "version": "",
-                    "type": "uninstaller",
-                    "size": "1706497"
+                    "size": "16793600"
                 }
             ],
             "changelogs": [],
