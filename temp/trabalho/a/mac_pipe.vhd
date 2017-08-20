@@ -4,7 +4,7 @@
 --
 -- Nome do arquivo: mac_pipe.vhd
 --
--- Descrição: Projeto funcional. Entradas de 16 bits (0 a 15) do tipo UNSIGNED, saída 31 bits (0 a 31) do tipo UNSIGNED.
+-- Descrição: Projeto funcional de um MAC. Entradas de 16 bits (0 a 15) do tipo UNSIGNED, saída 31 bits (0 a 31) do tipo UNSIGNED.
 --
 -- Limitações: Duração de um RST maior que (MT + RT)
 --

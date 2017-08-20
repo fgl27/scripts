@@ -4,7 +4,7 @@
 --
 -- Nome do arquivo: reg_34.vhd
 --
--- Descrição: Projeto funcional de uma reg Entradas e saída de 32 bits (0 a 31) do tipo UNSIGNED.
+-- Descrição: Projeto funcional de uma registrador entradas e saída de 32 bits (0 a 31) do tipo UNSIGNED.
 --
 -- Limitações: Nenhuma
 --

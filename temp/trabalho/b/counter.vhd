@@ -4,7 +4,7 @@
 --
 -- Nome do arquivo: counter.vhd
 --
--- Descrição: Projeto funcional. Saída "0" a "11" (0 a 3 decimal)
+-- Descrição: Projeto funcional de um contador. Saída "0" a "11" (0 a 3 decimal)
 --
 -- Limitações: Nenhuma
 --

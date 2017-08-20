@@ -4,7 +4,7 @@
 --
 -- Nome do arquivo: mux.vhd
 --
--- Descrição: Projeto funcional. Entradas e saída de 16 bits (0 a 15) do tipo UNSIGNED.
+-- Descrição: Projeto funcional de um multiplexador. Entradas e saída de 16 bits (0 a 15) do tipo UNSIGNED.
 --
 -- Limitações: Nenhuma
 --

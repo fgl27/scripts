@@ -59,7 +59,7 @@
     <node id="n2">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="651.9166666666666" y="101.0"/>
+          <y:Geometry height="30.0" width="30.0" x="621.9166666666666" y="101.0"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="19.251953125" x="5.3740234375" y="6.015625">S3<y:LabelModel>
@@ -110,7 +110,7 @@ soma = reg_soma_saida + reg_multiplica_saida<y:LabelModel>
     <node id="n5">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="18.0" width="138.0" x="699.9166666666666" y="107.0"/>
+          <y:Geometry height="18.0" width="138.0" x="669.9166666666666" y="107.0"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="218.376953125" x="-11.188476562499773" y="-6.96875">reg_soma_entrada = soma
@@ -160,7 +160,7 @@ reg_multiplica_saida=0<y:LabelModel>
     <node id="n8">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="18.0" width="75.5" x="43.00000000000003" y="174.41666666666669"/>
+          <y:Geometry height="18.0" width="75.5" x="67.00000000000003" y="144.41666666666669"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="58.50390625" x="8.498046875" y="0.015625">RST_REG<y:LabelModel>
@@ -176,7 +176,7 @@ reg_multiplica_saida=0<y:LabelModel>
     <node id="n9">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="18.0" width="138.0" x="492.9999999999999" y="76.45833333333334"/>
+          <y:Geometry height="18.0" width="138.0" x="462.9999999999999" y="76.45833333333334"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.619140625" x="22.1904296875" y="-4.953125">  LOAD_REG 
@@ -194,7 +194,7 @@ NOT(RST_REG)<y:LabelModel>
     <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="18.0" width="138.0" x="457.7499999999998" y="239.91666666666669"/>
+          <y:Geometry height="18.0" width="138.0" x="346.7499999999998" y="231.91666666666669"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.9140625" x="17.04296875" y="-4.953125">NOT(LOAD_REG)
@@ -229,20 +229,7 @@ NOT(RST_REG)<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n1" target="n0">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="121.00000000000003" y="117.0"/>
-            <y:Point x="121.00000000000003" y="116.0"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e3" source="n0" target="n1">
+    <edge id="e2" source="n0" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -252,29 +239,43 @@ NOT(RST_REG)<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n2" target="n3">
+    <edge id="e3" source="n1" target="n3">
+      <data key="d9"/>
       <data key="d10">
-        <y:PolyLineEdge>
+        <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="666.9166666666666" y="399.6666666666667"/>
+            <y:Point x="354.0" y="248.91666666666669"/>
+            <y:Point x="354.0" y="248.91666666666669"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
+        </y:BezierEdge>
       </data>
     </edge>
-    <edge id="e5" source="n1" target="n3">
+    <edge id="e4" source="n1" target="n0">
+      <data key="d9"/>
       <data key="d10">
-        <y:PolyLineEdge>
+        <y:BezierEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="476.8056959999998" y="259.2035199999999"/>
-            <y:Point x="476.8056959999998" y="261.7035199999999"/>
+            <y:Point x="150.33333333333331" y="130.5"/>
+            <y:Point x="150.33333333333331" y="132.5"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n2" target="n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="617.3333333333334" y="353.5"/>
+            <y:Point x="617.3333333333334" y="356.5"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
       </data>
     </edge>
   </graph>

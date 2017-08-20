@@ -4,7 +4,7 @@
 --
 -- Nome do arquivo: mac.vhd
 --
--- Descrição: Projeto funcional. Entradas de 16 bits (0 a 15) do tipo UNSIGNED, saída 31 bits (0 a 31) do tipo UNSIGNED.
+-- Descrição: Projeto funcional de um MAC. Entradas de 16 bits (0 a 15) do tipo UNSIGNED, saída 31 bits (0 a 31) do tipo UNSIGNED.
 --
 -- Limitações: Duração de um RST maior que (MT + AT + RT)
 --
@@ -57,27 +57,27 @@ ARCHITECTURE funcional OF mac IS
 	SIGNAL reg_soma_entrada : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL reg_soma_saida   : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 
-	SIGNAL REG_LOAD         : std_logic := '0';
-	SIGNAL REG_RST          : std_logic := '0';
+	SIGNAL LOAD_REG         : std_logic := '0';
+	SIGNAL RST_REG          : std_logic := '0';
 
 BEGIN
 
 	REG : reg_34
-	PORT MAP(REG_LOAD, REG_RST, reg_soma_entrada, reg_soma_saida);
+	PORT MAP(LOAD_REG, RST_REG, reg_soma_entrada, reg_soma_saida);
 
 	PROCESS
 	BEGIN
 		WAIT FOR MT;
-		REG_LOAD   <= '0';
+		LOAD_REG   <= '0';
 		multiplica <= (XIN * YIN);
 		WAIT FOR AT;
 		soma <= reg_soma_saida + multiplica;
 		WAIT FOR RT;
 		reg_soma_entrada <= soma;
-		REG_LOAD         <= LOAD;
+		LOAD_REG         <= LOAD;
 	END PROCESS;
 
-	REG_RST <= RST;
+	RST_REG <= RST;
 	MAC_OUT <= reg_soma_saida;
 
 END funcional;
