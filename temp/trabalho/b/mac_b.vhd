@@ -105,6 +105,10 @@ ARCHITECTURE funcional OF mac_b IS
 	SIGNAL ram_data_in   : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL ram_data_out  : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 
+	SIGNAL ram_addres    : unsigned(1 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL rom_addres    : unsigned(1 DOWNTO 0) := (OTHERS => '0');
+	SIGNAL mux_position  : unsigned(1 DOWNTO 0) := (OTHERS => '0');
+
 	SIGNAL soma          : unsigned(34 DOWNTO 0) := (OTHERS => '0');
 	SIGNAL multiplica    : unsigned(31 DOWNTO 0) := (OTHERS => '0');
 
@@ -114,13 +118,13 @@ BEGIN
 	PORT MAP(RST_PO, counter_load, counter_value);
 
 	MUX1 : mux
-	PORT MAP(VIN, XIN, YIN, ZIN, mux_out, counter_value);
+	PORT MAP(VIN, XIN, YIN, ZIN, mux_out, mux_position);
 
 	RAM1 : ram
-	PORT MAP(ram_load, RST_PO, ram_r, ram_wr, counter_value, counter_value, ram_data_in, ram_data_out);
+	PORT MAP(ram_load, RST_PO, ram_r, ram_wr, ram_addres, ram_addres, ram_data_in, ram_data_out);
 
         ROM1 : rom
-        PORT MAP(counter_value, rom_out);
+        PORT MAP(rom_addres, rom_out);
 
         PROCESS
         BEGIN
@@ -134,20 +138,20 @@ BEGIN
 	        WAIT FOR AT;
 	        soma <= ram_data_out + multiplica;
 	        WAIT FOR RT;
+	        ram_load <= MAC_B_LOAD;
 	        ram_data_in <= soma;
 	        ram_wr   <= '1';
-	        ram_load <= MAC_B_LOAD;
 	        WAIT FOR LT;
 	        ram_wr   <= '0';
-	        ram_load <= '0';
-	        WAIT FOR LT;
-	        ram_r        <= '1';
-	        ram_load     <= MAC_B_LOAD;
+	        ram_r    <= '1';
 	        WAIT FOR LT;
 	        counter_load <= MAC_B_LOAD;
         END PROCESS;
 
-        MAC_B_OUT <= ram_data_out;
-        RST_PO <= MAC_B_RST;
+        ram_addres   <= counter_value;
+        rom_addres   <= counter_value;
+        mux_position <= counter_value;
+        MAC_B_OUT    <= ram_data_out;
+        RST_PO       <= MAC_B_RST;
 
 END funcional;

@@ -51,23 +51,14 @@ ARCHITECTURE funcional OF ram IS
 
 BEGIN
 
-	PROCESS (RST, LOAD)
+	PROCESS (RST, LOAD, WRITE, READ)
 	BEGIN
 		IF rising_edge(RST) THEN
 		        FOR i IN 0 TO MEMSIZE LOOP
 			        ram_position(i) <= (OTHERS => '0');
                                 DATA_OUT <= (OTHERS => '0');
 		        END LOOP;
-		ELSIF rising_edge(LOAD) THEN
-			IF READ = '1' THEN
-				CASE READ_ADDRESS IS
-					WHEN "00" => DATA_OUT <= ram_position(0);
-					WHEN "01" => DATA_OUT <= ram_position(1);
-					WHEN "10" => DATA_OUT <= ram_position(2);
-					WHEN "11" => DATA_OUT <= ram_position(3);
-					WHEN OTHERS => DATA_OUT <= (OTHERS => '0');
-				END CASE;
-			END IF;
+		ELSIF LOAD = '1' THEN
 			IF WRITE = '1' THEN
 				CASE WRITE_ADDRESS IS
 					WHEN "00" => ram_position(0) <= DATA_IN;
@@ -75,6 +66,15 @@ BEGIN
 					WHEN "10" => ram_position(2) <= DATA_IN;
 					WHEN "11" => ram_position(3) <= DATA_IN;
 					WHEN OTHERS => NULL;
+				END CASE;
+			END IF;
+			IF READ = '1' THEN
+				CASE READ_ADDRESS IS
+					WHEN "00" => DATA_OUT <= ram_position(0);
+					WHEN "01" => DATA_OUT <= ram_position(1);
+					WHEN "10" => DATA_OUT <= ram_position(2);
+					WHEN "11" => DATA_OUT <= ram_position(3);
+					WHEN OTHERS => DATA_OUT <= (OTHERS => '0');
 				END CASE;
 			END IF;
 		END IF;
