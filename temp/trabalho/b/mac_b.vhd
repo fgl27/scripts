@@ -24,10 +24,10 @@ USE ieee.numeric_std.ALL;
 ENTITY mac_b IS
 
 	GENERIC (
-		MT : TIME := 20 us; -- Tempo de execução de uma multiplicação
-		AT : TIME := 10 us; -- Tempo de execução de uma soma
+		MT : TIME := 20 us;  -- Tempo de execução de uma multiplicação
+		AT : TIME := 10 us;  -- Tempo de execução de uma soma
 		RT : TIME := 0.2 us; -- Tempo de execução de um registro da RAM
-		LT : TIME := 0.1 ps -- Tempo de execução de uma mudança de estado de LOAD interno
+		LT : TIME := 0.1 ps  -- Tempo de execução de uma mudança de estado de LOAD interno entre PC e PO
 	);
 
 	PORT (
