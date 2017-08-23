@@ -3,6 +3,115 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+08-23-2017
+====================
+
+#### Device specific Changes of 08-23-2017 Start:
+
+#### Device/Quark/
+* [5d47d0d Quark: sepolicy allow sys to search for firmware](https://github.com/search?q=Quark%3A%20sepolicy%20allow%20sys%20to%20search%20for%20firmware&type=Commits)
+* [4d40f46 Quark: correct system read status after bootup](https://github.com/search?q=Quark%3A%20correct%20system%20read%20status%20after%20bootup&type=Commits)
+* [e4bffad Quark: overlays cleanup carriers configs](https://github.com/search?q=Quark%3A%20overlays%20cleanup%20carriers%20configs&type=Commits)
+* [f7de11d Quakr: correct selinux permission for rmt_storage](https://github.com/search?q=Quakr%3A%20correct%20selinux%20permission%20for%20rmt_storage&type=Commits)
+* [88ad011 Quark: ril caf ril version 10 and disable opts](https://github.com/search?q=Quark%3A%20ril%20caf%20ril%20version%2010%20and%20disable%20opts&type=Commits)
+* [d7b6a5e Quark: remove deprecated EXTENDED_FONT_FOOTPRINT flag](https://github.com/search?q=Quark%3A%20remove%20deprecated%20EXTENDED_FONT_FOOTPRINT%20flag&type=Commits)
+
+#### Kernel/Quark/
+* [a2cd381 msm: Remove store_ttbr0](https://github.com/search?q=msm%3A%20Remove%20store_ttbr0&type=Commits)
+* [60405d3 ashmem: remove cache maintenance support](https://github.com/search?q=ashmem%3A%20remove%20cache%20maintenance%20support&type=Commits)
+* [c32a95a staging: android: ashmem: Factor out compat code from uapi](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20Factor%20out%20compat%20code%20from%20uapi&type=Commits)
+* [301b0ea msm: pm-boot: flush msm_pm_boot_vector to main memory](https://github.com/search?q=msm%3A%20pm-boot%3A%20flush%20msm_pm_boot_vector%20to%20main%20memory&type=Commits)
+* [b44937a iommu: msm: Use standard caching APIs](https://github.com/search?q=iommu%3A%20msm%3A%20Use%20standard%20caching%20APIs&type=Commits)
+* [6be2e67 msm: Remove cache wrappers](https://github.com/search?q=msm%3A%20Remove%20cache%20wrappers&type=Commits)
+* [d35535e8 msm: cachedump: Move to standard caching APIs](https://github.com/search?q=%20msm%3A%20cachedump%3A%20Move%20to%20standard%20caching%20APIs&type=Commits)
+* [3bb93b0 drivers: staging: android: Use standard cache APIs](https://github.com/search?q=drivers%3A%20staging%3A%20android%3A%20Use%20standard%20cache%20APIs&type=Commits)
+* [1bd32bf drivers: staging: android: Remove OUTER_CACHE support](https://github.com/search?q=drivers%3A%20staging%3A%20android%3A%20Remove%20OUTER_CACHE%20support&type=Commits)
+* [f9ef9d9 Revert "ashmem: remove cache maintenance support"](https://github.com/search?q=Revert%20"ashmem%3A%20remove%20cache%20maintenance%20support"&type=Commits)
+* [eec5042 Shrink ashmem directly through shmem_fallocate](https://github.com/search?q=Shrink%20ashmem%20directly%20through%20shmem_fallocate&type=Commits)
+* [07a6670 UPSTREAM: arm: perf: Fix callchain parse error with kernel tracepoint events](https://github.com/search?q=UPSTREAM%3A%20arm%3A%20perf%3A%20Fix%20callchain%20parse%20error%20with%20kernel%20tracepoint%20events&type=Commits)
+* [5d3c63b UPSTREAM: ARM: 8170/1: Add global named register current_stack_pointer for ARM](https://github.com/search?q=UPSTREAM%3A%20ARM%3A%208170/1%3A%20Add%20global%20named%20register%20current_stack_pointer%20for%20ARM&type=Commits)
+* [859de36 ASoC: qcom: qdsp6v2: fix crash due to asynchronous read/write](https://github.com/search?q=ASoC%3A%20qcom%3A%20qdsp6v2%3A%20fix%20crash%20due%20to%20asynchronous%20read/write&type=Commits)
+* [1a124ca ASoC: qcom: qdsp6v2: update sanity check](https://github.com/search?q=ASoC%3A%20qcom%3A%20qdsp6v2%3A%20update%20sanity%20check&type=Commits)
+* [5d2279a ASoC: msm: qdsp6v2: extend validation of virtual address](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20extend%20validation%20of%20virtual%20address&type=Commits)
+* [2a58a99 ASoC: msm: lock read/write when add/free audio ion memory](https://github.com/search?q=ASoC%3A%20msm%3A%20lock%20read/write%20when%20add/free%20audio%20ion%20memory&type=Commits)
+* [f35a3ba net: inet: diag: expose the socket mark to privileged processes.](https://github.com/search?q=net%3A%20inet%3A%20diag%3A%20expose%20the%20socket%20mark%20to%20privileged%20processes.&type=Commits)
+* [01b2ab6 net: diag: make udp_diag_destroy work for mapped addresses.](https://github.com/search?q=net%3A%20diag%3A%20make%20udp_diag_destroy%20work%20for%20mapped%20addresses.&type=Commits)
+* [abe587f net: diag: support SOCK_DESTROY for UDP sockets](https://github.com/search?q=net%3A%20diag%3A%20support%20SOCK_DESTROY%20for%20UDP%20sockets&type=Commits)
+* [7e638d4 net: diag: allow socket bytecode filters to match socket marks](https://github.com/search?q=net%3A%20diag%3A%20allow%20socket%20bytecode%20filters%20to%20match%20socket%20marks&type=Commits)
+* [d19c46d net: diag: slightly refactor the inet_diag_bc_audit error checks.](https://github.com/search?q=net%3A%20diag%3A%20slightly%20refactor%20the%20inet_diag_bc_audit%20error%20checks.&type=Commits)
+* [e656a55 net: diag: Add support to filter on device index](https://github.com/search?q=net%3A%20diag%3A%20Add%20support%20to%20filter%20on%20device%20index&type=Commits)
+* [5a31338 Revert "netfilter: have ip*t REJECT set the sock err when an icmp is to be sent"](https://github.com/search?q=Revert%20"netfilter%3A%20have%20ip*t%20REJECT%20set%20the%20sock%20err%20when%20an%20icmp%20is%20to%20be%20sent"&type=Commits)
+* [bf40e62 trace: net: use %pK for kernel pointers](https://github.com/search?q=trace%3A%20net%3A%20use%20%pK%20for%20kernel%20pointers&type=Commits)
+* [b7a115b defconfig ena CONFIG_INET_DIAG_DESTROY](https://github.com/search?q=defconfig%20ena%20CONFIG_INET_DIAG_DESTROY&type=Commits)
+* [642e07f net: diag: support v4mapped sockets in inet_diag_find_one_icsk()](https://github.com/search?q=net%3A%20diag%3A%20support%20v4mapped%20sockets%20in%20inet_diag_find_one_icsk%28%29&type=Commits)
+* [800df9c net: tcp: deal with listen sockets properly in tcp_abort.](https://github.com/search?q=net%3A%20tcp%3A%20deal%20with%20listen%20sockets%20properly%20in%20tcp_abort.&type=Commits)
+* [8df6ad4 net: diag: Support destroying TCP sockets.](https://github.com/search?q=net%3A%20diag%3A%20Support%20destroying%20TCP%20sockets.&type=Commits)
+* [b841199 net: diag: Support SOCK_DESTROY for inet sockets.](https://github.com/search?q=net%3A%20diag%3A%20Support%20SOCK_DESTROY%20for%20inet%20sockets.&type=Commits)
+* [306e08e net: diag: split inet_diag_dump_one_icsk into two](https://github.com/search?q=net%3A%20diag%3A%20split%20inet_diag_dump_one_icsk%20into%20two&type=Commits)
+* [784ef30 tcp: fix more NULL deref after prequeue changes](https://github.com/search?q=tcp%3A%20fix%20more%20NULL%20deref%20after%20prequeue%20changes&type=Commits)
+* [3e2a47d net: add sk_fullsock() helper](https://github.com/search?q=net%3A%20add%20sk_fullsock%28%29%20helper&type=Commits)
+* [3ff3dca sched: s/do_each_thread/for_each_process_thread/ in core.c](https://github.com/search?q=sched%3A%20s/do_each_thread/for_each_process_thread/%20in%20core.c&type=Commits)
+* [d3d3147 cpufreq: Check current frequency in device driver](https://github.com/search?q=cpufreq%3A%20Check%20current%20frequency%20in%20device%20driver&type=Commits)
+* [7c22222 sched/fair: Fix fairness issue on migration](https://github.com/search?q=sched/fair%3A%20Fix%20fairness%20issue%20on%20migration&type=Commits)
+* [01a1833 net: socket: don't set sk_uid to garbage value in ->setattr()](https://github.com/search?q=net%3A%20socket%3A%20don't%20set%20sk_uid%20to%20garbage%20value%20in%20->setattr%28%29&type=Commits)
+* [1d512bc net: ipv4: Don't crash if passing a null sk to ip_rt_update_pmtu.](https://github.com/search?q=net%3A%20ipv4%3A%20Don't%20crash%20if%20passing%20a%20null%20sk%20to%20ip_rt_update_pmtu.&type=Commits)
+* [62d82de net: inet: Support UID-based routing in IP protocols.](https://github.com/search?q=net%3A%20inet%3A%20Support%20UID-based%20routing%20in%20IP%20protocols.&type=Commits)
+* [0fb5107 net: core: add UID to flows, rules, and routes](https://github.com/search?q=net%3A%20core%3A%20add%20UID%20to%20flows,%20rules,%20and%20routes&type=Commits)
+* [f1cf3d0 net: core: Add a UID field to struct sock.](https://github.com/search?q=net%3A%20core%3A%20Add%20a%20UID%20field%20to%20struct%20sock.&type=Commits)
+* [d9c7293 Revert "net: core: Support UID-based routing."](https://github.com/search?q=Revert%20"net%3A%20core%3A%20Support%20UID-based%20routing."&type=Commits)
+* [712d25c Revert "Handle 'sk' being NULL in UID-based routing."](https://github.com/search?q=Revert%20"Handle%20'sk'%20being%20NULL%20in%20UID-based%20routing."&type=Commits)
+* [7a0542d net: Indicate whether a socket is a transparent socket](https://github.com/search?q=net%3A%20Indicate%20whether%20a%20socket%20is%20a%20transparent%20socket&type=Commits)
+* [35e8570 net: ipv6: make "ip -6 route get mark xyz" work.](https://github.com/search?q=net%3A%20ipv6%3A%20make%20"ip%20-6%20route%20get%20mark%20xyz"%20work.&type=Commits)
+* [6ab29a0 netfilter: x_tables: check for size overflow](https://github.com/search?q=netfilter%3A%20x_tables%3A%20check%20for%20size%20overflow&type=Commits)
+* [57812cd netfilter: Fix is to allow successful restore](https://github.com/search?q=netfilter%3A%20Fix%20is%20to%20allow%20successful%20restore&type=Commits)
+* [5e7b367 netfilter:Changes to Allow IRC DCC](https://github.com/search?q=netfilter%3AChanges%20to%20Allow%20IRC%20DCC&type=Commits)
+* [b5d9be6 net: ipc_router: Fix reading invalid txn_Ids response return code](https://github.com/search?q=net%3A%20ipc_router%3A%20Fix%20reading%20invalid%20txn_Ids%20response%20return%20code&type=Commits)
+* [a062e68 net: ipc_router: Handle error condition](https://github.com/search?q=net%3A%20ipc_router%3A%20Handle%20error%20condition&type=Commits)
+* [3372bd2 net: ipc_router: Initialize IPC Router on a first interface attempt](https://github.com/search?q=net%3A%20ipc_router%3A%20Initialize%20IPC%20Router%20on%20a%20first%20interface%20attempt&type=Commits)
+* [129a66f net: ipc_router: Reorganize reader work item](https://github.com/search?q=net%3A%20ipc_router%3A%20Reorganize%20reader%20work%20item&type=Commits)
+* [80d902b net: ipc_router: Cleanup redundant code](https://github.com/search?q=net%3A%20ipc_router%3A%20Cleanup%20redundant%20code&type=Commits)
+* [03b70c9 net: ipc_router: Use optimized wakeup_source APIs](https://github.com/search?q=net%3A%20ipc_router%3A%20Use%20optimized%20wakeup_source%20APIs&type=Commits)
+* [a7dfd15 net: ipc_router: Fix the race condition during SSR](https://github.com/search?q=net%3A%20ipc_router%3A%20Fix%20the%20race%20condition%20during%20SSR&type=Commits)
+* [48162e0 lib: qmi_encdec: Add support for string data type](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Add%20support%20for%20string%20data%20type&type=Commits)
+* [22234e3 lib: qmi_encdec: Fix encoding a variable length element](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Fix%20encoding%20a%20variable%20length%20element&type=Commits)
+* [604f0f5 netfilter: IDLETIMER: fix lockdep warning](https://github.com/search?q=netfilter%3A%20IDLETIMER%3A%20fix%20lockdep%20warning&type=Commits)
+* [527fa25 netfilter: xt_HARDIDLETIMER: Fix use after free condition](https://github.com/search?q=netfilter%3A%20xt_HARDIDLETIMER%3A%20Fix%20use%20after%20free%20condition&type=Commits)
+* [7c74b53 netfilter: xt_HARDIDLETIMER: Add null check](https://github.com/search?q=netfilter%3A%20xt_HARDIDLETIMER%3A%20Add%20null%20check&type=Commits)
+* [4051c00 netfilter: xtables: hardidletimer target implementation](https://github.com/search?q=netfilter%3A%20xtables%3A%20hardidletimer%20target%20implementation&type=Commits)
+* [a86a22b nf: IDLETIMER: Fix possible use before initialization in idletimer_resume](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20Fix%20possible%20use%20before%20initialization%20in%20idletimer_resume&type=Commits)
+* [9fbcb6b netfilter: Changes to handle MT call issue in SIP ALG](https://github.com/search?q=netfilter%3A%20Changes%20to%20handle%20MT%20call%20issue%20in%20SIP%20ALG&type=Commits)
+* [3c1d819 netfilter: Changes to handle segmentation in SIP ALG](https://github.com/search?q=netfilter%3A%20Changes%20to%20handle%20segmentation%20in%20SIP%20ALG&type=Commits)
+* [56406cd netfilter: nf_conntrack_sip: Dynamically enable/disable SIP ALG.](https://github.com/search?q=netfilter%3A%20nf_conntrack_sip%3A%20Dynamically%20enable/disable%20SIP%20ALG.&type=Commits)
+* [9582295 netfilter: nf_conntrack_sip: Register SIP ALG sysctl table into procfs.](https://github.com/search?q=netfilter%3A%20nf_conntrack_sip%3A%20Register%20SIP%20ALG%20sysctl%20table%20into%20procfs.&type=Commits)
+* [2741acf netfilter: nf_conntrack: decrement global counter after object release](https://github.com/search?q=netfilter%3A%20nf_conntrack%3A%20decrement%20global%20counter%20after%20object%20release&type=Commits)
+* [b07508e misc: uidstat: change release handler for stat read operation](https://github.com/search?q=misc%3A%20uidstat%3A%20change%20release%20handler%20for%20stat%20read%20operation&type=Commits)
+* [bddb928 nf: xt_qtaguid: fix handling for cases where tunnels are used.](https://github.com/search?q=nf%3A%20xt_qtaguid%3A%20fix%20handling%20for%20cases%20where%20tunnels%20are%20used.&type=Commits)
+* [7f38f2e netfilter: fix seq_printf type mismatch warning](https://github.com/search?q=netfilter%3A%20fix%20seq_printf%20type%20mismatch%20warning&type=Commits)
+* [5b48085 net: socket: make sure refs are not released on fd before calling sockev](https://github.com/search?q=net%3A%20socket%3A%20make%20sure%20refs%20are%20not%20released%20on%20fd%20before%20calling%20sockev&type=Commits)
+* [0a2f461 net: socket: Added notifier chains for socket administrative functions](https://github.com/search?q=net%3A%20socket%3A%20Added%20notifier%20chains%20for%20socket%20administrative%20functions&type=Commits)
+* [ec04927 net: ipv6: add support for UL checksum offload for IPv6 over UDP](https://github.com/search?q=net%3A%20ipv6%3A%20add%20support%20for%20UL%20checksum%20offload%20for%20IPv6%20over%20UDP&type=Commits)
+* [27e4706 netlink: Queue the kernel socket after setting the flag.](https://github.com/search?q=netlink%3A%20Queue%20the%20kernel%20socket%20after%20setting%20the%20flag.&type=Commits)
+* [1bfdf47 netfilter: xt_socket: add XT_SOCKET_RESTORESKMARK flag](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20add%20XT_SOCKET_RESTORESKMARK%20flag&type=Commits)
+* [88f178e netfilter: xt_socket: use IP early demux](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20use%20IP%20early%20demux&type=Commits)
+* [0fa761a netfilter: xt_socket: add XT_SOCKET_NOWILDCARD flag](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20add%20XT_SOCKET_NOWILDCARD%20flag&type=Commits)
+* [18296d1 netfilter: xt_socket: fix broken v0 support](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20fix%20broken%20v0%20support&type=Commits)
+* [649b9d1 netfilter: Change %p to %pK in debug messages](https://github.com/search?q=netfilter%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
+* [59539e1 net: netfilter: fix compilation warnings](https://github.com/search?q=net%3A%20netfilter%3A%20fix%20compilation%20warnings&type=Commits)
+* [e9226f0 nf: IDLETIMER: Adds the uid field in the msg](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20Adds%20the%20uid%20field%20in%20the%20msg&type=Commits)
+* [99faa1a nf: Remove compilation error caused by e8430cbed3ef15fdb1ac26cfd020e010aa5f1c35](https://github.com/search?q=nf%3A%20Remove%20compilation%20error%20caused%20by%20e8430cbed3ef15fdb1ac26cfd020e010aa5f1c35&type=Commits)
+* [a26bb02 nf: IDLETIMER: time-stamp and suspend/resume handling.](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20time-stamp%20and%20suspend/resume%20handling.&type=Commits)
+
+#### Device specific Changes of 08-23-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 08-23-2017:
+
+#### packages/apps/Settings/
+* [3c8b4d4 Responsible arrangement for the Seed device.  (#851)](https://github.com/search?q=Responsible%20arrangement%20for%20the%20Seed%20device.%20%20%28%23851%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 08-23-2017 End.
+
 08-21-2017
 ====================
 
