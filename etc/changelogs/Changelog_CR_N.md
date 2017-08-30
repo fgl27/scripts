@@ -57,7 +57,7 @@ CRDroid Android Nougat source and Quark Changelog:
 * [51aa452 ion: Skip zeroing on secure buffers](https://github.com/search?q=ion%3A%20Skip%20zeroing%20on%20secure%20buffers&type=Commits)
 * [9bd1d89 staging: ion: Return correct value from map_kernel](https://github.com/search?q=staging%3A%20ion%3A%20Return%20correct%20value%20from%20map_kernel&type=Commits)
 * [172c043 ion: cma_secure_heap: validate buffer length](https://github.com/search?q=ion%3A%20cma_secure_heap%3A%20validate%20buffer%20length&type=Commits)
-* [0aa8b9a ion: add `0x' prefix to hex numbers in debugfs output](https://github.com/search?q=ion%3A%20add%20`0x'%20prefix%20to%20hex%20numbers%20in%20debugfs%20output&type=Commits)
+* [0aa8b9a ion: add `0x' prefix to hex numbers in debugfs output](https://github.com/search?q=ion%3A%20add%20%600x%27%20prefix%20to%20hex%20numbers%20in%20debugfs%20output&type=Commits)
 * [417642c staging: ion: Add HAVE_MEMBLOCK config dependency](https://github.com/search?q=staging%3A%20ion%3A%20Add%20HAVE_MEMBLOCK%20config%20dependency&type=Commits)
 * [f390506 ion: Kconfig: Provide a support to allocate 4KB chunks](https://github.com/search?q=ion%3A%20Kconfig%3A%20Provide%20a%20support%20to%20allocate%204KB%20chunks&type=Commits)
 * [c8214b7 ion: adjust system heap pool orders](https://github.com/search?q=ion%3A%20adjust%20system%20heap%20pool%20orders&type=Commits)

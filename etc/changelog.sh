@@ -65,6 +65,8 @@ git_log_tree() {
 		temp_two="${temp_two//)/%29}"
 		temp_two="${temp_two//@/%40}"
 		temp_two="${temp_two//:/%3A}"
+		temp_two="${temp_two//\'/%27}"
+		temp_two="${temp_two//\`/%60}"
 		echo "* [$string](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
         done
 	cd -  > /dev/null
@@ -96,6 +98,8 @@ git_log_repo() {
 				temp_two="${temp_two//)/%29}"
 				temp_two="${temp_two//@/%40}"
 				temp_two="${temp_two//:/%3A}"
+				temp_two="${temp_two//\'/%27}"
+				temp_two="${temp_two//\`/%60}"
 				echo "* [$string](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
 			else
 				echo "* $string" >> $Changelog;
