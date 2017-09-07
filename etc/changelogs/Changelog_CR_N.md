@@ -3,6 +3,85 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+09-04-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-04-2017:
+
+#### packages/apps/Settings/
+* [e8e6303 Settings: Fix mismerge for storage settings](https://github.com/search?q=Settings%3A%20Fix%20mismerge%20for%20storage%20settings&type=Commits)
+* [2b41564 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+
+#### vendor/cmsdk/
+* [223f0ea Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/cm_platform_sdk%20into%207.1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-04-2017 End.
+
+09-03-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-03-2017:
+
+#### vendor/crDroidOTA-devices/
+* [0edfdc6 OTA update for garlic](https://github.com/search?q=OTA%20update%20for%20garlic&type=Commits)
+* [bb65d62 changelog for crDroid v3.7.1](https://github.com/search?q=changelog%20for%20crDroid%20v3.7.1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-03-2017 End.
+
+09-02-2017
+====================
+
+#### Device specific Changes of 09-02-2017 Start:
+
+#### Device/Quark/
+* [9c61a1c Revert "Quark: enable flac offload sound lib"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20flac%20offload%20sound%20lib"&type=Commits)
+
+#### Device specific Changes of 09-02-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 09-02-2017:
+
+#### frameworks/av/
+* [be37655 omx: Skip the whole dataspace signaling on legacy QCOM](https://github.com/search?q=omx%3A%20Skip%20the%20whole%20dataspace%20signaling%20on%20legacy%20QCOM&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [4510714 update mido & tomato](https://github.com/search?q=update%20mido%20&%20tomato&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-02-2017 End.
+
+09-01-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-01-2017:
+
+#### packages/apps/Settings/
+* [2701395 AppOpsDetails: Generate correct summary when changing list prefs](https://github.com/search?q=AppOpsDetails%3A%20Generate%20correct%20summary%20when%20changing%20list%20prefs&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-01-2017 End.
+
+08-31-2017
+====================
+
+#### Device specific Changes of 08-31-2017 Start:
+
+#### Device/Quark/
+* [0d522b6 Quark: unmount sustem on boot](https://github.com/search?q=Quark%3A%20unmount%20sustem%20on%20boot&type=Commits)
+
+#### Device specific Changes of 08-31-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 08-31-2017:
+
+#### packages/resources/devicesettings/
+* [ff0aa81 Add strings for devices' custom gesture handlers](https://github.com/search?q=Add%20strings%20for%20devices%27%20custom%20gesture%20handlers&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [da1becf Update devices.xml](https://github.com/search?q=Update%20devices.xml&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-31-2017 End.
+
 08-30-2017
 ====================
 
@@ -14,12 +93,12 @@ CRDroid Android Nougat source and Quark Changelog:
 * [1495470 ipv6: addrconf: validate new MTU before applying it](https://github.com/search?q=ipv6%3A%20addrconf%3A%20validate%20new%20MTU%20before%20applying%20it&type=Commits)
 * [c791f18 net: tcp: Scale the TCP backlog queue to absorb packet bursts](https://github.com/search?q=net%3A%20tcp%3A%20Scale%20the%20TCP%20backlog%20queue%20to%20absorb%20packet%20bursts&type=Commits)
 * [2d76cb5 msm: perf: fix potential memory errors](https://github.com/search?q=msm%3A%20perf%3A%20fix%20potential%20memory%20errors&type=Commits)
-* [533d70a ipv4: Don't do expensive useless work during inetdev destroy.](https://github.com/search?q=ipv4%3A%20Don't%20do%20expensive%20useless%20work%20during%20inetdev%20destroy.&type=Commits)
+* [533d70a ipv4: Don't do expensive useless work during inetdev destroy.](https://github.com/search?q=ipv4%3A%20Don%27t%20do%20expensive%20useless%20work%20during%20inetdev%20destroy.&type=Commits)
 * [e606f31 apq8084: ion: disable system contig heap](https://github.com/search?q=apq8084%3A%20ion%3A%20disable%20system%20contig%20heap&type=Commits)
 * [c1d24a6 timer: make deferrable cpu unbound timers really not bound to a cpu](https://github.com/search?q=timer%3A%20make%20deferrable%20cpu%20unbound%20timers%20really%20not%20bound%20to%20a%20cpu&type=Commits)
 * [540f55e proc: stat: fix idle time jump](https://github.com/search?q=proc%3A%20stat%3A%20fix%20idle%20time%20jump&type=Commits)
 * [98e27fc Revert "Revert "nohz: Fix idle ticks in cpu summary line of /proc/stat""](https://github.com/search?q=Revert%20"Revert%20"nohz%3A%20Fix%20idle%20ticks%20in%20cpu%20summary%20line%20of%20/proc/stat""&type=Commits)
-* [a5726d6 tick: don't update idle time if cpu offline](https://github.com/search?q=tick%3A%20don't%20update%20idle%20time%20if%20cpu%20offline&type=Commits)
+* [a5726d6 tick: don't update idle time if cpu offline](https://github.com/search?q=tick%3A%20don%27t%20update%20idle%20time%20if%20cpu%20offline&type=Commits)
 * [8d9f77a defconfig ena ANDROID_LMK_ADJ_RBTREE](https://github.com/search?q=defconfig%20ena%20ANDROID_LMK_ADJ_RBTREE&type=Commits)
 * [0cbc5b1 lowmemorykiller: Run the lowmemory notifier when killing](https://github.com/search?q=lowmemorykiller%3A%20Run%20the%20lowmemory%20notifier%20when%20killing&type=Commits)
 * [02965d4 lowmemorykiller: Dump out slab state information](https://github.com/search?q=lowmemorykiller%3A%20Dump%20out%20slab%20state%20information&type=Commits)
@@ -29,20 +108,20 @@ CRDroid Android Nougat source and Quark Changelog:
 * [41e2059 lowmemorykiller: Do proper NULL checks](https://github.com/search?q=lowmemorykiller%3A%20Do%20proper%20NULL%20checks&type=Commits)
 * [1c76f29 lowmemorykiller: use for_each_thread instead of buggy while_each_thread](https://github.com/search?q=lowmemorykiller%3A%20use%20for_each_thread%20instead%20of%20buggy%20while_each_thread&type=Commits)
 * [2e046a0 fs: avoid adding non-thread-group task to LMK rbtree](https://github.com/search?q=fs%3A%20avoid%20adding%20non-thread-group%20task%20to%20LMK%20rbtree&type=Commits)
-* [e395039 fs: support task's adj rbtree](https://github.com/search?q=fs%3A%20support%20task's%20adj%20rbtree&type=Commits)
+* [e395039 fs: support task's adj rbtree](https://github.com/search?q=fs%3A%20support%20task%27s%20adj%20rbtree&type=Commits)
 * [6c8af59 kernel: avoid adding non-thread-group task to LMK rbtree](https://github.com/search?q=kernel%3A%20avoid%20adding%20non-thread-group%20task%20to%20LMK%20rbtree&type=Commits)
-* [6b6b882 kernel: support task's adj rbtree](https://github.com/search?q=kernel%3A%20support%20task's%20adj%20rbtree&type=Commits)
+* [6b6b882 kernel: support task's adj rbtree](https://github.com/search?q=kernel%3A%20support%20task%27s%20adj%20rbtree&type=Commits)
 * [0ff2f21 lowmemorykiller: maintain LMK rbtree with signal->adj_node](https://github.com/search?q=lowmemorykiller%3A%20maintain%20LMK%20rbtree%20with%20signal->adj_node&type=Commits)
 * [18f6ce8 staging:android:lmk: read rb tree root with spinlock](https://github.com/search?q=staging%3Aandroid%3Almk%3A%20read%20rb%20tree%20root%20with%20spinlock&type=Commits)
 * [9187e2d lowmemorykiller: Check tgid with rcu lock held](https://github.com/search?q=lowmemorykiller%3A%20Check%20tgid%20with%20rcu%20lock%20held&type=Commits)
 * [8126164 drivers:lmk: Fix null pointer issue](https://github.com/search?q=drivers%3Almk%3A%20Fix%20null%20pointer%20issue&type=Commits)
 * [da34fdd staging: android: lowmemorykiller: skip dying or exiting task](https://github.com/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20skip%20dying%20or%20exiting%20task&type=Commits)
 * [34000e4 drivers:lmk: Fix double delete issue](https://github.com/search?q=drivers%3Almk%3A%20Fix%20double%20delete%20issue&type=Commits)
-* [3f20a2f drivers:lmk: implement task's adj rbtree](https://github.com/search?q=drivers%3Almk%3A%20implement%20task's%20adj%20rbtree&type=Commits)
+* [3f20a2f drivers:lmk: implement task's adj rbtree](https://github.com/search?q=drivers%3Almk%3A%20implement%20task%27s%20adj%20rbtree&type=Commits)
 * [77fd78a Revert "trace: memkill: per-zone page state for LMK"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20per-zone%20page%20state%20for%20LMK"&type=Commits)
 * [28b6ba6 Revert "trace: memkill: provide fixed zone info columns"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20provide%20fixed%20zone%20info%20columns"&type=Commits)
 * [b226dc5 Revert "lowmemorykiller: Check tgid with rcu lock held"](https://github.com/search?q=Revert%20"lowmemorykiller%3A%20Check%20tgid%20with%20rcu%20lock%20held"&type=Commits)
-* [a630a0c lowmemorykiller: Don't count reserve page twice](https://github.com/search?q=lowmemorykiller%3A%20Don't%20count%20reserve%20page%20twice&type=Commits)
+* [a630a0c lowmemorykiller: Don't count reserve page twice](https://github.com/search?q=lowmemorykiller%3A%20Don%27t%20count%20reserve%20page%20twice&type=Commits)
 * [8135f23 ksm: Add showmem notifier](https://github.com/search?q=ksm%3A%20Add%20showmem%20notifier&type=Commits)
 * [356aee0 iommu: Move IOMMU mapping out of Ion directory](https://github.com/search?q=iommu%3A%20Move%20IOMMU%20mapping%20out%20of%20Ion%20directory&type=Commits)
 * [db6b549 ion: do not use sg_dma_len() macro](https://github.com/search?q=ion%3A%20do%20not%20use%20sg_dma_len%28%29%20macro&type=Commits)
@@ -51,7 +130,7 @@ CRDroid Android Nougat source and Quark Changelog:
 * [c4ba150 ion: fix overflow and list bugs in system heap](https://github.com/search?q=ion%3A%20fix%20overflow%20and%20list%20bugs%20in%20system%20heap&type=Commits)
 * [49f1556 staging: ion: Fix possible null pointer dereference](https://github.com/search?q=staging%3A%20ion%3A%20Fix%20possible%20null%20pointer%20dereference&type=Commits)
 * [7b92691 ion: Error out on memory secure failure](https://github.com/search?q=ion%3A%20Error%20out%20on%20memory%20secure%20failure&type=Commits)
-* [b171cf0 ion: Don't free memory if unsecure fails](https://github.com/search?q=ion%3A%20Don't%20free%20memory%20if%20unsecure%20fails&type=Commits)
+* [b171cf0 ion: Don't free memory if unsecure fails](https://github.com/search?q=ion%3A%20Don%27t%20free%20memory%20if%20unsecure%20fails&type=Commits)
 * [15f3694 ion: secure_buffer: fix iteration of sg_table](https://github.com/search?q=ion%3A%20secure_buffer%3A%20fix%20iteration%20of%20sg_table&type=Commits)
 * [d44461d ion: Use dma_free_attrs for freeing secure memory](https://github.com/search?q=ion%3A%20Use%20dma_free_attrs%20for%20freeing%20secure%20memory&type=Commits)
 * [51aa452 ion: Skip zeroing on secure buffers](https://github.com/search?q=ion%3A%20Skip%20zeroing%20on%20secure%20buffers&type=Commits)
@@ -76,7 +155,7 @@ CRDroid Android Nougat source and Quark Changelog:
 * [584e0c1 ion: Always flush using kernel virtual address](https://github.com/search?q=ion%3A%20Always%20flush%20using%20kernel%20virtual%20address&type=Commits)
 * [b015033 staging: ion: msm: Only parse available dt nodes](https://github.com/search?q=staging%3A%20ion%3A%20msm%3A%20Only%20parse%20available%20dt%20nodes&type=Commits)
 * [d285ebd ion: move shrinker out of heaps](https://github.com/search?q=ion%3A%20move%20shrinker%20out%20of%20heaps&type=Commits)
-* [2cdb3d3 ion: msm: move custom zero'ing functions out of core Ion](https://github.com/search?q=ion%3A%20msm%3A%20move%20custom%20zero'ing%20functions%20out%20of%20core%20Ion&type=Commits)
+* [2cdb3d3 ion: msm: move custom zero'ing functions out of core Ion](https://github.com/search?q=ion%3A%20msm%3A%20move%20custom%20zero%27ing%20functions%20out%20of%20core%20Ion&type=Commits)
 * [f71fb37 ion: Remove custom compat framework](https://github.com/search?q=ion%3A%20Remove%20custom%20compat%20framework&type=Commits)
 * [a13b76a mm, oom: make dump_tasks public](https://github.com/search?q=mm,%20oom%3A%20make%20dump_tasks%20public&type=Commits)
 * [3be9782 drivers: dma: map pages only if required](https://github.com/search?q=drivers%3A%20dma%3A%20map%20pages%20only%20if%20required&type=Commits)
@@ -119,7 +198,7 @@ CRDroid Android Nougat source and Quark Changelog:
 * [405ea73 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent](https://github.com/search?q=sctp%3A%20do%20not%20inherit%20ipv6_{mc|ac|fl}_list%20from%20parent&type=Commits)
 * [839bed7 netfilter: xt_hashlimit: perform garbage collection from process context](https://github.com/search?q=netfilter%3A%20xt_hashlimit%3A%20perform%20garbage%20collection%20from%20process%20context&type=Commits)
 * [dc6ef22 netfilter: xt_hashlimit: fix proc entry leak in netns destroy path](https://github.com/search?q=netfilter%3A%20xt_hashlimit%3A%20fix%20proc%20entry%20leak%20in%20netns%20destroy%20path&type=Commits)
-* [fe7a3ad netfilter: don't use mutex_lock_interruptible()](https://github.com/search?q=netfilter%3A%20don't%20use%20mutex_lock_interruptible%28%29&type=Commits)
+* [fe7a3ad netfilter: don't use mutex_lock_interruptible()](https://github.com/search?q=netfilter%3A%20don%27t%20use%20mutex_lock_interruptible%28%29&type=Commits)
 * [97870b5 netfilter: nf_qeueue: Drop queue entries on nf_unregister_hook](https://github.com/search?q=netfilter%3A%20nf_qeueue%3A%20Drop%20queue%20entries%20on%20nf_unregister_hook&type=Commits)
 * [4713446 BACKPORT: netfilter: Kconfig: get rid of parens around depends on](https://github.com/search?q=BACKPORT%3A%20netfilter%3A%20Kconfig%3A%20get%20rid%20of%20parens%20around%20depends%20on&type=Commits)
 * [5324a35 UPSTREAM: netfilter: Fix build errors with xt_socket.c](https://github.com/search?q=UPSTREAM%3A%20netfilter%3A%20Fix%20build%20errors%20with%20xt_socket.c&type=Commits)
@@ -157,13 +236,13 @@ CRDroid Android Nougat source and Quark Changelog:
 * [7910166 BACKPORT: ipv6 addrconf: implement RFC7559 router solicitation backoff](https://github.com/search?q=BACKPORT%3A%20ipv6%20addrconf%3A%20implement%20RFC7559%20router%20solicitation%20backoff&type=Commits)
 * [5b445ab net: ipv6: Add sysctl for minimum prefix len acceptable in RIOs.](https://github.com/search?q=net%3A%20ipv6%3A%20Add%20sysctl%20for%20minimum%20prefix%20len%20acceptable%20in%20RIOs.&type=Commits)
 * [5a7daef net: ipv6: send unsolicited NA if enabled for all interfaces](https://github.com/search?q=net%3A%20ipv6%3A%20send%20unsolicited%20NA%20if%20enabled%20for%20all%20interfaces&type=Commits)
-* [1fb2b4e ipv6: dad: don't remove dynamic addresses if link is down](https://github.com/search?q=ipv6%3A%20dad%3A%20don't%20remove%20dynamic%20addresses%20if%20link%20is%20down&type=Commits)
+* [1fb2b4e ipv6: dad: don't remove dynamic addresses if link is down](https://github.com/search?q=ipv6%3A%20dad%3A%20don%27t%20remove%20dynamic%20addresses%20if%20link%20is%20down&type=Commits)
 * [9d24b13 ipv6: always add flag an address that failed DAD with DADFAILED](https://github.com/search?q=ipv6%3A%20always%20add%20flag%20an%20address%20that%20failed%20DAD%20with%20DADFAILED&type=Commits)
 * [decdbec ipv6: avoid unregistering inet6_dev for loopback](https://github.com/search?q=ipv6%3A%20avoid%20unregistering%20inet6_dev%20for%20loopback&type=Commits)
 * [3153aa4 ipv6: Remove privacy config option.](https://github.com/search?q=ipv6%3A%20Remove%20privacy%20config%20option.&type=Commits)
 * [80ab505 ipv6: fix possible deadlock in ip6_fl_purge / ip6_fl_gc](https://github.com/search?q=ipv6%3A%20fix%20possible%20deadlock%20in%20ip6_fl_purge%20/%20ip6_fl_gc&type=Commits)
 * [e47eb3f ipv6: Should use consistent conditional judgement for ip6 fragment between __ip6_append_data and ip6_finish_output](https://github.com/search?q=ipv6%3A%20Should%20use%20consistent%20conditional%20judgement%20for%20ip6%20fragment%20between%20__ip6_append_data%20and%20ip6_finish_output&type=Commits)
-* [ff28620f Sanitize 'move_pages()' permission checks](https://github.com/search?q=%20Sanitize%20'move_pages%28%29'%20permission%20checks&type=Commits)
+* [ff28620f Sanitize 'move_pages()' permission checks](https://github.com/search?q=%20Sanitize%20%27move_pages%28%29%27%20permission%20checks&type=Commits)
 * [b3fe24b mm/mempolicy: fix use after free when calling get_mempolicy](https://github.com/search?q=mm/mempolicy%3A%20fix%20use%20after%20free%20when%20calling%20get_mempolicy&type=Commits)
 * [1d7a784 audit: Fix use after free in audit_remove_watch_rule()](https://github.com/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
 * [8d8f967 netfilter: nf_ct_ext: fix possible panic after nf_ct_extend_unregister](https://github.com/search?q=netfilter%3A%20nf_ct_ext%3A%20fix%20possible%20panic%20after%20nf_ct_extend_unregister&type=Commits)
@@ -195,6 +274,16 @@ CRDroid Android Nougat source and Quark Changelog:
 * [eb42782 Quark: up KernelAdiutor](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor&type=Commits)
 
 #### Device specific Changes of 08-30-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 08-30-2017:
+
+#### packages/apps/Settings/
+* [79287b5 Settings: Allow devices to provide remote gesture preferences](https://github.com/search?q=Settings%3A%20Allow%20devices%20to%20provide%20remote%20gesture%20preferences&type=Commits)
+* [33ecd38 Settings: Fix internal storage summary for non-emulated storage devices](https://github.com/search?q=Settings%3A%20Fix%20internal%20storage%20summary%20for%20non-emulated%20storage%20devices&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-30-2017 End.
 
 ***
 
