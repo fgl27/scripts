@@ -3,10 +3,170 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+09-12-2017
+====================
+
+#### Device specific Changes of 09-12-2017 Start:
+
+#### Kernel/Quark/
+* [bc40878 netfilter: x_tables: check for size overflow](https://github.com/search?q=netfilter%3A%20x_tables%3A%20check%20for%20size%20overflow&type=Commits)
+* [6c3cd5c netfilter: Change %p to %pK in debug messages](https://github.com/search?q=netfilter%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
+* [1ab88cf net: netfilter: fix compilation warnings](https://github.com/search?q=net%3A%20netfilter%3A%20fix%20compilation%20warnings&type=Commits)
+* [2e83656 nf: IDLETIMER: Adds the uid field in the msg](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20Adds%20the%20uid%20field%20in%20the%20msg&type=Commits)
+* [7951767 nf: Remove compilation error caused by e8430cbed3ef15fdb1ac26cfd020e010aa5f1c35](https://github.com/search?q=nf%3A%20Remove%20compilation%20error%20caused%20by%20e8430cbed3ef15fdb1ac26cfd020e010aa5f1c35&type=Commits)
+* [9899d55 nf: IDLETIMER: time-stamp and suspend/resume handling.](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20time-stamp%20and%20suspend/resume%20handling.&type=Commits)
+
+#### Vendor/Quark/
+* [5254007 Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
+
+#### Device specific Changes of 09-12-2017 End.
+
+***
+
+09-11-2017
+====================
+
+#### Device specific Changes of 09-11-2017 Start:
+
+#### Kernel/Quark/
+* [555766a defconfig ena CONFIG_INET_DIAG_DESTROY](https://github.com/search?q=defconfig%20ena%20CONFIG_INET_DIAG_DESTROY&type=Commits)
+* [8125419 net: inet: diag: expose the socket mark to privileged processes.](https://github.com/search?q=net%3A%20inet%3A%20diag%3A%20expose%20the%20socket%20mark%20to%20privileged%20processes.&type=Commits)
+* [8bf080c net: diag: make udp_diag_destroy work for mapped addresses.](https://github.com/search?q=net%3A%20diag%3A%20make%20udp_diag_destroy%20work%20for%20mapped%20addresses.&type=Commits)
+* [63651e1 net: diag: support SOCK_DESTROY for UDP sockets](https://github.com/search?q=net%3A%20diag%3A%20support%20SOCK_DESTROY%20for%20UDP%20sockets&type=Commits)
+* [a8f1159 net: diag: allow socket bytecode filters to match socket marks](https://github.com/search?q=net%3A%20diag%3A%20allow%20socket%20bytecode%20filters%20to%20match%20socket%20marks&type=Commits)
+* [03e8aa2 net: diag: slightly refactor the inet_diag_bc_audit error checks.](https://github.com/search?q=net%3A%20diag%3A%20slightly%20refactor%20the%20inet_diag_bc_audit%20error%20checks.&type=Commits)
+* [bd45e2b net: diag: Add support to filter on device index](https://github.com/search?q=net%3A%20diag%3A%20Add%20support%20to%20filter%20on%20device%20index&type=Commits)
+* [b5ab840 Revert "netfilter: have ip*t REJECT set the sock err when an icmp is to be sent"](https://github.com/search?q=Revert%20"netfilter%3A%20have%20ip*t%20REJECT%20set%20the%20sock%20err%20when%20an%20icmp%20is%20to%20be%20sent"&type=Commits)
+* [9354c34 trace: net: use %pK for kernel pointers](https://github.com/search?q=trace%3A%20net%3A%20use%20%pK%20for%20kernel%20pointers&type=Commits)
+* [8854c41 net: add sk_fullsock() helper](https://github.com/search?q=net%3A%20add%20sk_fullsock%28%29%20helper&type=Commits)
+* [5a5972a net: diag: support v4mapped sockets in inet_diag_find_one_icsk()](https://github.com/search?q=net%3A%20diag%3A%20support%20v4mapped%20sockets%20in%20inet_diag_find_one_icsk%28%29&type=Commits)
+* [34a6ad9 net: tcp: deal with listen sockets properly in tcp_abort.](https://github.com/search?q=net%3A%20tcp%3A%20deal%20with%20listen%20sockets%20properly%20in%20tcp_abort.&type=Commits)
+* [9df201d1 net: diag: Support destroying TCP sockets.](https://github.com/search?q=%20net%3A%20diag%3A%20Support%20destroying%20TCP%20sockets.&type=Commits)
+* [6916821 net: diag: Support SOCK_DESTROY for inet sockets.](https://github.com/search?q=net%3A%20diag%3A%20Support%20SOCK_DESTROY%20for%20inet%20sockets.&type=Commits)
+* [46696cf net: diag: split inet_diag_dump_one_icsk into two](https://github.com/search?q=net%3A%20diag%3A%20split%20inet_diag_dump_one_icsk%20into%20two&type=Commits)
+* [c9d0fc5 tcp: fix more NULL deref after prequeue changes](https://github.com/search?q=tcp%3A%20fix%20more%20NULL%20deref%20after%20prequeue%20changes&type=Commits)
+* [c40aef1 cpufreq: interactive: fix compiling warnings](https://github.com/search?q=cpufreq%3A%20interactive%3A%20fix%20compiling%20warnings&type=Commits)
+* [c7e07bd drivers/cpufreq: add cpufreq_notify_utilization to some drivers](https://github.com/search?q=drivers/cpufreq%3A%20add%20cpufreq_notify_utilization%20to%20some%20drivers&type=Commits)
+* [2c19b93 cpufreq: Add a notifer chain that governors can use to report information](https://github.com/search?q=cpufreq%3A%20Add%20a%20notifer%20chain%20that%20governors%20can%20use%20to%20report%20information&type=Commits)
+* [8782c57 CpuFreq: Add cpu_utilization](https://github.com/search?q=CpuFreq%3A%20Add%20cpu_utilization&type=Commits)
+* [4b31cfb ecm_ipa: remove redundant code](https://github.com/search?q=ecm_ipa%3A%20remove%20redundant%20code&type=Commits)
+* [540450e msm: mdss: fix race condition in mdp debugfs](https://github.com/search?q=msm%3A%20mdss%3A%20fix%20race%20condition%20in%20mdp%20debugfs&type=Commits)
+* [662a824 ion: Fix unprotected userspace access](https://github.com/search?q=ion%3A%20Fix%20unprotected%20userspace%20access&type=Commits)
+* [7eb2b93 mm: Fix incorrect type conversion for size during dma allocation](https://github.com/search?q=mm%3A%20Fix%20incorrect%20type%20conversion%20for%20size%20during%20dma%20allocation&type=Commits)
+* [e5a87e6 soc: qcom: msm_bus: add mutex lock for cllist data](https://github.com/search?q=soc%3A%20qcom%3A%20msm_bus%3A%20add%20mutex%20lock%20for%20cllist%20data&type=Commits)
+* [9ccb796 msm: msm_bus: Fix architecture dependant types](https://github.com/search?q=msm%3A%20msm_bus%3A%20Fix%20architecture%20dependant%20types&type=Commits)
+* [7e750a8 Revert "msm: msm_bus: add mutex to protect cl_list"](https://github.com/search?q=Revert%20"msm%3A%20msm_bus%3A%20add%20mutex%20to%20protect%20cl_list"&type=Commits)
+* [9b019d7 ASoC: msm: remove unused msm-compr-q6-v2](https://github.com/search?q=ASoC%3A%20msm%3A%20remove%20unused%20msm-compr-q6-v2&type=Commits)
+* [eac94df qcacld-2.0: Avoid concurrent matrix max param overread](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20concurrent%20matrix%20max%20param%20overread&type=Commits)
+* [2ff7bfb qcacld: Increase SSR timeout to 30 seconds](https://github.com/search?q=qcacld%3A%20Increase%20SSR%20timeout%20to%2030%20seconds&type=Commits)
+* [6740f16 qcacld-2.0: Do not allow NoA setting in non P2P GO mode](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20allow%20NoA%20setting%20in%20non%20P2P%20GO%20mode&type=Commits)
+* [8ad0060 qcacld-2.0: Fix agc registers dump logic to avoid fw assert](https://github.com/search?q=qcacld-2.0%3A%20Fix%20agc%20registers%20dump%20logic%20to%20avoid%20fw%20assert&type=Commits)
+* [314bff4 ipv6: addrconf: validate new MTU before applying it](https://github.com/search?q=ipv6%3A%20addrconf%3A%20validate%20new%20MTU%20before%20applying%20it&type=Commits)
+* [ad45585 ipv4: Don't do expensive useless work during inetdev destroy.](https://github.com/search?q=ipv4%3A%20Don%27t%20do%20expensive%20useless%20work%20during%20inetdev%20destroy.&type=Commits)
+* [ab4654d apq8084: ion: disable system contig heap](https://github.com/search?q=apq8084%3A%20ion%3A%20disable%20system%20contig%20heap&type=Commits)
+* [568f7b8 cpuidle: Fix cpuidle_state_is_coupled() argument in cpuidle_enter()](https://github.com/search?q=cpuidle%3A%20Fix%20cpuidle_state_is_coupled%28%29%20argument%20in%20cpuidle_enter%28%29&type=Commits)
+* [0b16679 cpuidle: delay enabling interrupts until all coupled CPUs leave idle](https://github.com/search?q=cpuidle%3A%20delay%20enabling%20interrupts%20until%20all%20coupled%20CPUs%20leave%20idle&type=Commits)
+* [9ed53eb msm: Remove store_ttbr0](https://github.com/search?q=msm%3A%20Remove%20store_ttbr0&type=Commits)
+* [68eaf97 ashmem: remove cache maintenance support](https://github.com/search?q=ashmem%3A%20remove%20cache%20maintenance%20support&type=Commits)
+* [0fa9b3a staging: android: ashmem: Factor out compat code from uapi](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20Factor%20out%20compat%20code%20from%20uapi&type=Commits)
+* [3e53278 msm: pm-boot: flush msm_pm_boot_vector to main memory](https://github.com/search?q=msm%3A%20pm-boot%3A%20flush%20msm_pm_boot_vector%20to%20main%20memory&type=Commits)
+* [319742f iommu: msm: Use standard caching APIs](https://github.com/search?q=iommu%3A%20msm%3A%20Use%20standard%20caching%20APIs&type=Commits)
+* [020535b msm: Remove cache wrappers](https://github.com/search?q=msm%3A%20Remove%20cache%20wrappers&type=Commits)
+* [28301b3 msm: cachedump: Move to standard caching APIs](https://github.com/search?q=msm%3A%20cachedump%3A%20Move%20to%20standard%20caching%20APIs&type=Commits)
+* [be97a53 drivers: staging: android: Use standard cache APIs](https://github.com/search?q=drivers%3A%20staging%3A%20android%3A%20Use%20standard%20cache%20APIs&type=Commits)
+* [3e01444 drivers: staging: android: Remove OUTER_CACHE support](https://github.com/search?q=drivers%3A%20staging%3A%20android%3A%20Remove%20OUTER_CACHE%20support&type=Commits)
+* [6474dd4 Revert "ashmem: remove cache maintenance support"](https://github.com/search?q=Revert%20"ashmem%3A%20remove%20cache%20maintenance%20support"&type=Commits)
+* [2a2eb3f Shrink ashmem directly through shmem_fallocate](https://github.com/search?q=Shrink%20ashmem%20directly%20through%20shmem_fallocate&type=Commits)
+* [e578ec2 UPSTREAM: arm: perf: Fix callchain parse error with kernel tracepoint events](https://github.com/search?q=UPSTREAM%3A%20arm%3A%20perf%3A%20Fix%20callchain%20parse%20error%20with%20kernel%20tracepoint%20events&type=Commits)
+* [9701527 UPSTREAM: ARM: 8170/1: Add global named register current_stack_pointer for ARM](https://github.com/search?q=UPSTREAM%3A%20ARM%3A%208170/1%3A%20Add%20global%20named%20register%20current_stack_pointer%20for%20ARM&type=Commits)
+* [80bab4e ASoC: qcom: qdsp6v2: fix crash due to asynchronous read/write](https://github.com/search?q=ASoC%3A%20qcom%3A%20qdsp6v2%3A%20fix%20crash%20due%20to%20asynchronous%20read/write&type=Commits)
+* [a317ca8 ASoC: qcom: qdsp6v2: update sanity check](https://github.com/search?q=ASoC%3A%20qcom%3A%20qdsp6v2%3A%20update%20sanity%20check&type=Commits)
+* [296e907 ASoC: msm: qdsp6v2: extend validation of virtual address](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20extend%20validation%20of%20virtual%20address&type=Commits)
+* [4433c82 ASoC: msm: lock read/write when add/free audio ion memory](https://github.com/search?q=ASoC%3A%20msm%3A%20lock%20read/write%20when%20add/free%20audio%20ion%20memory&type=Commits)
+
+#### Vendor/Quark/
+* [1885091 Quark: up substratum and arrierServices](https://github.com/search?q=Quark%3A%20up%20substratum%20and%20arrierServices&type=Commits)
+* [cdd0fde Revert "Quark: update Thermal-engine and thermal libs"](https://github.com/search?q=Revert%20"Quark%3A%20update%20Thermal-engine%20and%20thermal%20libs"&type=Commits)
+
+#### Device specific Changes of 09-11-2017 End.
+
+***
+
+09-09-2017
+====================
+
+#### Device specific Changes of 09-09-2017 Start:
+
+#### Kernel/Quark/
+* [03c6956 Revert "msm: vidc: add ion_handle checking before mapping buffers"](https://github.com/search?q=Revert%20"msm%3A%20vidc%3A%20add%20ion_handle%20checking%20before%20mapping%20buffers"&type=Commits)
+* [28bd03a Add missing definitions for PTR_ERR_OR_ZERO() and NEED_KEY_SEARCH](https://github.com/search?q=Add%20missing%20definitions%20for%20PTR_ERR_OR_ZERO%28%29%20and%20NEED_KEY_SEARCH&type=Commits)
+* [f7a6727 cpufreq: Resolve CPUFREQ_NOTIFY issue](https://github.com/search?q=cpufreq%3A%20Resolve%20CPUFREQ_NOTIFY%20issue&type=Commits)
+* [8f33f67 cpufreq: Refactor cpufreq_set_policy()](https://github.com/search?q=cpufreq%3A%20Refactor%20cpufreq_set_policy%28%29&type=Commits)
+* [ce20b00 cpufreq: stats: Fix memory leaks when updating stats table](https://github.com/search?q=cpufreq%3A%20stats%3A%20Fix%20memory%20leaks%20when%20updating%20stats%20table&type=Commits)
+* [4ff76d5 cpufreq: stats: Don't update cpufreq_stats_table if it's NULL](https://github.com/search?q=cpufreq%3A%20stats%3A%20Don%27t%20update%20cpufreq_stats_table%20if%20it%27s%20NULL&type=Commits)
+* [c29c0e5 cpufreq: stats: Print error messages if table initialization fails](https://github.com/search?q=cpufreq%3A%20stats%3A%20Print%20error%20messages%20if%20table%20initialization%20fails&type=Commits)
+* [607890b cpufreq: Iterate over all the possible cpus to create powerstats.](https://github.com/search?q=cpufreq%3A%20Iterate%20over%20all%20the%20possible%20cpus%20to%20create%20powerstats.&type=Commits)
+* [b90fb0c cpufreq: fallback to interactive if governor is not found](https://github.com/search?q=cpufreq%3A%20fallback%20to%20interactive%20if%20governor%20is%20not%20found&type=Commits)
+* [808481c cpufreq: conservative: Allow down_threshold to take values from 1 to 10](https://github.com/search?q=cpufreq%3A%20conservative%3A%20Allow%20down_threshold%20to%20take%20values%20from%201%20to%2010&type=Commits)
+* [b408e79 xfrm: policy: check policy direction value](https://github.com/search?q=xfrm%3A%20policy%3A%20check%20policy%20direction%20value&type=Commits)
+* [aae5595 cpuidle: Wakeup only cpus for which qos has changed.](https://github.com/search?q=cpuidle%3A%20Wakeup%20only%20cpus%20for%20which%20qos%20has%20changed.&type=Commits)
+* [fb3fe03 cpuidle: Check for dev before deregistering it.](https://github.com/search?q=cpuidle%3A%20Check%20for%20dev%20before%20deregistering%20it.&type=Commits)
+* [79e2df7 cpuidle: remove cpuidle_unregister_governor()](https://github.com/search?q=cpuidle%3A%20remove%20cpuidle_unregister_governor%28%29&type=Commits)
+* [892c936 cpuidle: Make it clear that governors cannot be modules](https://github.com/search?q=cpuidle%3A%20Make%20it%20clear%20that%20governors%20cannot%20be%20modules&type=Commits)
+* [db169774 cpuidle: don't call poll_idle_init() for every cpu](https://github.com/search?q=%20cpuidle%3A%20don%27t%20call%20poll_idle_init%28%29%20for%20every%20cpu&type=Commits)
+* [da8561f cpuidle: use drv instead of cpuidle_driver in show_current_driver()](https://github.com/search?q=cpuidle%3A%20use%20drv%20instead%20of%20cpuidle_driver%20in%20show_current_driver%28%29&type=Commits)
+* [a636b22 cpuidle: call cpuidle_get_driver() from after taking cpuidle_driver_lock](https://github.com/search?q=cpuidle%3A%20call%20cpuidle_get_driver%28%29%20from%20after%20taking%20cpuidle_driver_lock&type=Commits)
+* [51ebbf4 cpuidle: replace multiline statements with single line in cpuidle_idle_call()](https://github.com/search?q=cpuidle%3A%20replace%20multiline%20statements%20with%20single%20line%20in%20cpuidle_idle_call%28%29&type=Commits)
+* [0f09105 cpuidle: reduce code duplication inside cpuidle_idle_call()](https://github.com/search?q=cpuidle%3A%20reduce%20code%20duplication%20inside%20cpuidle_idle_call%28%29&type=Commits)
+* [ea06b31 cpuidle: merge two if() statements for checking error cases](https://github.com/search?q=cpuidle%3A%20merge%20two%20if%28%29%20statements%20for%20checking%20error%20cases&type=Commits)
+* [b5578a6 cpuidle: rearrange __cpuidle_register_device() to keep minimal exit points](https://github.com/search?q=cpuidle%3A%20rearrange%20__cpuidle_register_device%28%29%20to%20keep%20minimal%20exit%20points&type=Commits)
+* [2465cca cpuidle: rearrange code in __cpuidle_driver_init()](https://github.com/search?q=cpuidle%3A%20rearrange%20code%20in%20__cpuidle_driver_init%28%29&type=Commits)
+* [8012c36 cpuidle: make __cpuidle_driver_init() return void](https://github.com/search?q=cpuidle%3A%20make%20__cpuidle_driver_init%28%29%20return%20void&type=Commits)
+* [13b37497 cpuidle: Comment the driver's framework code](https://github.com/search?q=%20cpuidle%3A%20Comment%20the%20driver%27s%20framework%20code&type=Commits)
+* [0b0321d cpuidle: make __cpuidle_device_init() return void](https://github.com/search?q=cpuidle%3A%20make%20__cpuidle_device_init%28%29%20return%20void&type=Commits)
+* [69dede3 cpuidle: Check if device is already registered](https://github.com/search?q=cpuidle%3A%20Check%20if%20device%20is%20already%20registered&type=Commits)
+* [498a250 cpuidle: Introduce __cpuidle_device_init()](https://github.com/search?q=cpuidle%3A%20Introduce%20__cpuidle_device_init%28%29&type=Commits)
+* [dac57a4 cpuidle: Introduce __cpuidle_unregister_device()](https://github.com/search?q=cpuidle%3A%20Introduce%20__cpuidle_unregister_device%28%29&type=Commits)
+* [384ebfe cpuidle: Check cpuidle_enable_device() return value](https://github.com/search?q=cpuidle%3A%20Check%20cpuidle_enable_device%28%29%20return%20value&type=Commits)
+* [3c1c085 cpuidle: improve governor Kconfig options](https://github.com/search?q=cpuidle%3A%20improve%20governor%20Kconfig%20options&type=Commits)
+* [f4f09ab cpuidle: fix improper return value on error](https://github.com/search?q=cpuidle%3A%20fix%20improper%20return%20value%20on%20error&type=Commits)
+* [0ee33bd arm: idle: add missing need_resched check](https://github.com/search?q=arm%3A%20idle%3A%20add%20missing%20need_resched%20check&type=Commits)
+* [5108d0b cpuidle: kick all cpu after idle handler installed](https://github.com/search?q=cpuidle%3A%20kick%20all%20cpu%20after%20idle%20handler%20installed&type=Commits)
+* [520eaaa cpuidle: lpm-levels: Remove local_irq_enable from lpm_cpuidle_select](https://github.com/search?q=cpuidle%3A%20lpm-levels%3A%20Remove%20local_irq_enable%20from%20lpm_cpuidle_select&type=Commits)
+* [259ddc8 cpuidle: simplify multiple driver support](https://github.com/search?q=cpuidle%3A%20simplify%20multiple%20driver%20support&type=Commits)
+* [0f160a0 cpuidle: Replace strnicmp with strncasecmp](https://github.com/search?q=cpuidle%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
+* [83ae2ef cpuidle: Add need_resched() check](https://github.com/search?q=cpuidle%3A%20Add%20need_resched%28%29%20check&type=Commits)
+* [ae17833 lpm-levels: Move cpuidle tracepoints within lpm_levels](https://github.com/search?q=lpm-levels%3A%20Move%20cpuidle%20tracepoints%20within%20lpm_levels&type=Commits)
+* [f601aa9 msm: lpm_levels: return new idle level to cpuidle framework](https://github.com/search?q=msm%3A%20lpm_levels%3A%20return%20new%20idle%20level%20to%20cpuidle%20framework&type=Commits)
+* [4571495 cpuidle: check for need_resched() after the idle entry trace event](https://github.com/search?q=cpuidle%3A%20check%20for%20need_resched%28%29%20after%20the%20idle%20entry%20trace%20event&type=Commits)
+* [e72ad20 drivers: cpuidle: Remove counting of last_residency](https://github.com/search?q=drivers%3A%20cpuidle%3A%20Remove%20counting%20of%20last_residency&type=Commits)
+* [d9f9cce drivers: lpm-levels: Don't allow idle low power modes during resume](https://github.com/search?q=drivers%3A%20lpm-levels%3A%20Don%27t%20allow%20idle%20low%20power%20modes%20during%20resume&type=Commits)
+* [240c745 asmlinkage: Make main_extable_sort_needed visible](https://github.com/search?q=asmlinkage%3A%20Make%20main_extable_sort_needed%20visible&type=Commits)
+* [138e398 extable: skip sorting if the table is empty](https://github.com/search?q=extable%3A%20skip%20sorting%20if%20the%20table%20is%20empty&type=Commits)
+* [59204d23 extable: add support for relative extables to search and sort routines](https://github.com/search?q=%20extable%3A%20add%20support%20for%20relative%20extables%20to%20search%20and%20sort%20routines&type=Commits)
+* [e79c90c lib/bsearch.c: micro-optimize pivot position calculation](https://github.com/search?q=lib/bsearch.c%3A%20micro-optimize%20pivot%20position%20calculation&type=Commits)
+
+#### Device specific Changes of 09-09-2017 End.
+
+***
+
+09-08-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-08-2017:
+
+#### prebuilts/gcc/linux-x86/arm/arm-eabi-7.1/
+* [ca2883f arm-linaro-linux-androideabi 7.2.1: 20170908](https://github.com/search?q=arm-linaro-linux-androideabi%207.2.1%3A%2020170908&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-08-2017 End.
+
 09-04-2017
 ====================
 
 #### CRDroid Android Nougat source changes of 09-04-2017:
+
+#### frameworks/base/
+* [7a588a9 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
 
 #### packages/apps/Settings/
 * [e8e6303 Settings: Fix mismerge for storage settings](https://github.com/search?q=Settings%3A%20Fix%20mismerge%20for%20storage%20settings&type=Commits)
@@ -74,6 +234,9 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 08-31-2017:
 
+#### frameworks/base/
+* [7467536 Don't disable the GPS prematurely](https://github.com/search?q=Don%27t%20disable%20the%20GPS%20prematurely&type=Commits)
+
 #### packages/resources/devicesettings/
 * [ff0aa81 Add strings for devices' custom gesture handlers](https://github.com/search?q=Add%20strings%20for%20devices%27%20custom%20gesture%20handlers&type=Commits)
 
@@ -87,188 +250,6 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### Device specific Changes of 08-30-2017 Start:
 
-#### Kernel/Quark/
-* [29a6d80 Revert "ion: move some UAPI header files"](https://github.com/search?q=Revert%20"ion%3A%20move%20some%20UAPI%20header%20files"&type=Commits)
-* [771d357 defconfig dis SUSPEND_TIME counters](https://github.com/search?q=defconfig%20dis%20SUSPEND_TIME%20counters&type=Commits)
-* [1495470 ipv6: addrconf: validate new MTU before applying it](https://github.com/search?q=ipv6%3A%20addrconf%3A%20validate%20new%20MTU%20before%20applying%20it&type=Commits)
-* [c791f18 net: tcp: Scale the TCP backlog queue to absorb packet bursts](https://github.com/search?q=net%3A%20tcp%3A%20Scale%20the%20TCP%20backlog%20queue%20to%20absorb%20packet%20bursts&type=Commits)
-* [2d76cb5 msm: perf: fix potential memory errors](https://github.com/search?q=msm%3A%20perf%3A%20fix%20potential%20memory%20errors&type=Commits)
-* [533d70a ipv4: Don't do expensive useless work during inetdev destroy.](https://github.com/search?q=ipv4%3A%20Don%27t%20do%20expensive%20useless%20work%20during%20inetdev%20destroy.&type=Commits)
-* [e606f31 apq8084: ion: disable system contig heap](https://github.com/search?q=apq8084%3A%20ion%3A%20disable%20system%20contig%20heap&type=Commits)
-* [c1d24a6 timer: make deferrable cpu unbound timers really not bound to a cpu](https://github.com/search?q=timer%3A%20make%20deferrable%20cpu%20unbound%20timers%20really%20not%20bound%20to%20a%20cpu&type=Commits)
-* [540f55e proc: stat: fix idle time jump](https://github.com/search?q=proc%3A%20stat%3A%20fix%20idle%20time%20jump&type=Commits)
-* [98e27fc Revert "Revert "nohz: Fix idle ticks in cpu summary line of /proc/stat""](https://github.com/search?q=Revert%20"Revert%20"nohz%3A%20Fix%20idle%20ticks%20in%20cpu%20summary%20line%20of%20/proc/stat""&type=Commits)
-* [a5726d6 tick: don't update idle time if cpu offline](https://github.com/search?q=tick%3A%20don%27t%20update%20idle%20time%20if%20cpu%20offline&type=Commits)
-* [8d9f77a defconfig ena ANDROID_LMK_ADJ_RBTREE](https://github.com/search?q=defconfig%20ena%20ANDROID_LMK_ADJ_RBTREE&type=Commits)
-* [0cbc5b1 lowmemorykiller: Run the lowmemory notifier when killing](https://github.com/search?q=lowmemorykiller%3A%20Run%20the%20lowmemory%20notifier%20when%20killing&type=Commits)
-* [02965d4 lowmemorykiller: Dump out slab state information](https://github.com/search?q=lowmemorykiller%3A%20Dump%20out%20slab%20state%20information&type=Commits)
-* [12f6a86 lowmemorykiller: enhance debug information](https://github.com/search?q=lowmemorykiller%3A%20enhance%20debug%20information&type=Commits)
-* [c63462d mm: Add notifier framework for showing memory](https://github.com/search?q=mm%3A%20Add%20notifier%20framework%20for%20showing%20memory&type=Commits)
-* [6534c79 lowmemorykiller: account for unevictable pages](https://github.com/search?q=lowmemorykiller%3A%20account%20for%20unevictable%20pages&type=Commits)
-* [41e2059 lowmemorykiller: Do proper NULL checks](https://github.com/search?q=lowmemorykiller%3A%20Do%20proper%20NULL%20checks&type=Commits)
-* [1c76f29 lowmemorykiller: use for_each_thread instead of buggy while_each_thread](https://github.com/search?q=lowmemorykiller%3A%20use%20for_each_thread%20instead%20of%20buggy%20while_each_thread&type=Commits)
-* [2e046a0 fs: avoid adding non-thread-group task to LMK rbtree](https://github.com/search?q=fs%3A%20avoid%20adding%20non-thread-group%20task%20to%20LMK%20rbtree&type=Commits)
-* [e395039 fs: support task's adj rbtree](https://github.com/search?q=fs%3A%20support%20task%27s%20adj%20rbtree&type=Commits)
-* [6c8af59 kernel: avoid adding non-thread-group task to LMK rbtree](https://github.com/search?q=kernel%3A%20avoid%20adding%20non-thread-group%20task%20to%20LMK%20rbtree&type=Commits)
-* [6b6b882 kernel: support task's adj rbtree](https://github.com/search?q=kernel%3A%20support%20task%27s%20adj%20rbtree&type=Commits)
-* [0ff2f21 lowmemorykiller: maintain LMK rbtree with signal->adj_node](https://github.com/search?q=lowmemorykiller%3A%20maintain%20LMK%20rbtree%20with%20signal->adj_node&type=Commits)
-* [18f6ce8 staging:android:lmk: read rb tree root with spinlock](https://github.com/search?q=staging%3Aandroid%3Almk%3A%20read%20rb%20tree%20root%20with%20spinlock&type=Commits)
-* [9187e2d lowmemorykiller: Check tgid with rcu lock held](https://github.com/search?q=lowmemorykiller%3A%20Check%20tgid%20with%20rcu%20lock%20held&type=Commits)
-* [8126164 drivers:lmk: Fix null pointer issue](https://github.com/search?q=drivers%3Almk%3A%20Fix%20null%20pointer%20issue&type=Commits)
-* [da34fdd staging: android: lowmemorykiller: skip dying or exiting task](https://github.com/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20skip%20dying%20or%20exiting%20task&type=Commits)
-* [34000e4 drivers:lmk: Fix double delete issue](https://github.com/search?q=drivers%3Almk%3A%20Fix%20double%20delete%20issue&type=Commits)
-* [3f20a2f drivers:lmk: implement task's adj rbtree](https://github.com/search?q=drivers%3Almk%3A%20implement%20task%27s%20adj%20rbtree&type=Commits)
-* [77fd78a Revert "trace: memkill: per-zone page state for LMK"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20per-zone%20page%20state%20for%20LMK"&type=Commits)
-* [28b6ba6 Revert "trace: memkill: provide fixed zone info columns"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20provide%20fixed%20zone%20info%20columns"&type=Commits)
-* [b226dc5 Revert "lowmemorykiller: Check tgid with rcu lock held"](https://github.com/search?q=Revert%20"lowmemorykiller%3A%20Check%20tgid%20with%20rcu%20lock%20held"&type=Commits)
-* [a630a0c lowmemorykiller: Don't count reserve page twice](https://github.com/search?q=lowmemorykiller%3A%20Don%27t%20count%20reserve%20page%20twice&type=Commits)
-* [8135f23 ksm: Add showmem notifier](https://github.com/search?q=ksm%3A%20Add%20showmem%20notifier&type=Commits)
-* [356aee0 iommu: Move IOMMU mapping out of Ion directory](https://github.com/search?q=iommu%3A%20Move%20IOMMU%20mapping%20out%20of%20Ion%20directory&type=Commits)
-* [db6b549 ion: do not use sg_dma_len() macro](https://github.com/search?q=ion%3A%20do%20not%20use%20sg_dma_len%28%29%20macro&type=Commits)
-* [7190f35 ion: use %pk instead of %p which respects kptr_restrict sysctl](https://github.com/search?q=ion%3A%20use%20%pk%20instead%20of%20%p%20which%20respects%20kptr_restrict%20sysctl&type=Commits)
-* [98d2240 staging: ion: Return correct type from map_kernel](https://github.com/search?q=staging%3A%20ion%3A%20Return%20correct%20type%20from%20map_kernel&type=Commits)
-* [c4ba150 ion: fix overflow and list bugs in system heap](https://github.com/search?q=ion%3A%20fix%20overflow%20and%20list%20bugs%20in%20system%20heap&type=Commits)
-* [49f1556 staging: ion: Fix possible null pointer dereference](https://github.com/search?q=staging%3A%20ion%3A%20Fix%20possible%20null%20pointer%20dereference&type=Commits)
-* [7b92691 ion: Error out on memory secure failure](https://github.com/search?q=ion%3A%20Error%20out%20on%20memory%20secure%20failure&type=Commits)
-* [b171cf0 ion: Don't free memory if unsecure fails](https://github.com/search?q=ion%3A%20Don%27t%20free%20memory%20if%20unsecure%20fails&type=Commits)
-* [15f3694 ion: secure_buffer: fix iteration of sg_table](https://github.com/search?q=ion%3A%20secure_buffer%3A%20fix%20iteration%20of%20sg_table&type=Commits)
-* [d44461d ion: Use dma_free_attrs for freeing secure memory](https://github.com/search?q=ion%3A%20Use%20dma_free_attrs%20for%20freeing%20secure%20memory&type=Commits)
-* [51aa452 ion: Skip zeroing on secure buffers](https://github.com/search?q=ion%3A%20Skip%20zeroing%20on%20secure%20buffers&type=Commits)
-* [9bd1d89 staging: ion: Return correct value from map_kernel](https://github.com/search?q=staging%3A%20ion%3A%20Return%20correct%20value%20from%20map_kernel&type=Commits)
-* [172c043 ion: cma_secure_heap: validate buffer length](https://github.com/search?q=ion%3A%20cma_secure_heap%3A%20validate%20buffer%20length&type=Commits)
-* [0aa8b9a ion: add `0x' prefix to hex numbers in debugfs output](https://github.com/search?q=ion%3A%20add%20%600x%27%20prefix%20to%20hex%20numbers%20in%20debugfs%20output&type=Commits)
-* [417642c staging: ion: Add HAVE_MEMBLOCK config dependency](https://github.com/search?q=staging%3A%20ion%3A%20Add%20HAVE_MEMBLOCK%20config%20dependency&type=Commits)
-* [f390506 ion: Kconfig: Provide a support to allocate 4KB chunks](https://github.com/search?q=ion%3A%20Kconfig%3A%20Provide%20a%20support%20to%20allocate%204KB%20chunks&type=Commits)
-* [c8214b7 ion: adjust system heap pool orders](https://github.com/search?q=ion%3A%20adjust%20system%20heap%20pool%20orders&type=Commits)
-* [bf8e0ee ion: Support an option to allocate buffers in 4KB chunks](https://github.com/search?q=ion%3A%20Support%20an%20option%20to%20allocate%20buffers%20in%204KB%20chunks&type=Commits)
-* [f5fb770 ion: add debug log to clearly account memory held in pools](https://github.com/search?q=ion%3A%20add%20debug%20log%20to%20clearly%20account%20memory%20held%20in%20pools&type=Commits)
-* [72162ff ion: Use up_read where appropriate](https://github.com/search?q=ion%3A%20Use%20up_read%20where%20appropriate&type=Commits)
-* [1cf73ac msm: ion: Do not check for overlapping ion heaps](https://github.com/search?q=msm%3A%20ion%3A%20Do%20not%20check%20for%20overlapping%20ion%20heaps&type=Commits)
-* [0d49914 ion: Register with show_mem notification framework](https://github.com/search?q=ion%3A%20Register%20with%20show_mem%20notification%20framework&type=Commits)
-* [1e0acf7 ion: msm: plumb ION_HEAP_TYPE_DMA to core Ion](https://github.com/search?q=ion%3A%20msm%3A%20plumb%20ION_HEAP_TYPE_DMA%20to%20core%20Ion&type=Commits)
-* [cddc0e7 gpu: ion: Switch max num_heaps to 16 to work around an issue elsewere](https://github.com/search?q=gpu%3A%20ion%3A%20Switch%20max%20num_heaps%20to%2016%20to%20work%20around%20an%20issue%20elsewere&type=Commits)
-* [6acdbc7 gpu: ion: Fix bug in heap type enum](https://github.com/search?q=gpu%3A%20ion%3A%20Fix%20bug%20in%20heap%20type%20enum&type=Commits)
-* [43543d5 ion: move "freed from shrinker" flag to buffer private_flags](https://github.com/search?q=ion%3A%20move%20"freed%20from%20shrinker"%20flag%20to%20buffer%20private_flags&type=Commits)
-* [62422c8 staging: ion: Avoid using rt_mutexes directly](https://github.com/search?q=staging%3A%20ion%3A%20Avoid%20using%20rt_mutexes%20directly&type=Commits)
-* [e59eb83 ion: optimize ion_heap_buffer_zero](https://github.com/search?q=ion%3A%20optimize%20ion_heap_buffer_zero&type=Commits)
-* [2451a80 ion: move some UAPI header files](https://github.com/search?q=ion%3A%20move%20some%20UAPI%20header%20files&type=Commits)
-* [584e0c1 ion: Always flush using kernel virtual address](https://github.com/search?q=ion%3A%20Always%20flush%20using%20kernel%20virtual%20address&type=Commits)
-* [b015033 staging: ion: msm: Only parse available dt nodes](https://github.com/search?q=staging%3A%20ion%3A%20msm%3A%20Only%20parse%20available%20dt%20nodes&type=Commits)
-* [d285ebd ion: move shrinker out of heaps](https://github.com/search?q=ion%3A%20move%20shrinker%20out%20of%20heaps&type=Commits)
-* [2cdb3d3 ion: msm: move custom zero'ing functions out of core Ion](https://github.com/search?q=ion%3A%20msm%3A%20move%20custom%20zero%27ing%20functions%20out%20of%20core%20Ion&type=Commits)
-* [f71fb37 ion: Remove custom compat framework](https://github.com/search?q=ion%3A%20Remove%20custom%20compat%20framework&type=Commits)
-* [a13b76a mm, oom: make dump_tasks public](https://github.com/search?q=mm,%20oom%3A%20make%20dump_tasks%20public&type=Commits)
-* [3be9782 drivers: dma: map pages only if required](https://github.com/search?q=drivers%3A%20dma%3A%20map%20pages%20only%20if%20required&type=Commits)
-* [59e068b arm: dma-removed: Add option to skip buffer zeroing](https://github.com/search?q=arm%3A%20dma-removed%3A%20Add%20option%20to%20skip%20buffer%20zeroing&type=Commits)
-* [792afba drivers: dma: warn if ioremap fails](https://github.com/search?q=drivers%3A%20dma%3A%20warn%20if%20ioremap%20fails&type=Commits)
-* [e605cbe cma: assign to correct variable in __iommu_alloc_buffer](https://github.com/search?q=cma%3A%20assign%20to%20correct%20variable%20in%20__iommu_alloc_buffer&type=Commits)
-* [bf04922 arm: Skip DMA zeroing completely only if specified](https://github.com/search?q=arm%3A%20Skip%20DMA%20zeroing%20completely%20only%20if%20specified&type=Commits)
-* [14e1d2a arm: Add option to skip buffer zeroing](https://github.com/search?q=arm%3A%20Add%20option%20to%20skip%20buffer%20zeroing&type=Commits)
-* [383ca7a ARM: 8654/1: decompressor: add strlen prototype The decompress.c file contains a declaration for strstr() so we can include some compression library code.](https://github.com/search?q=ARM%3A%208654/1%3A%20decompressor%3A%20add%20strlen%20prototype%20The%20decompress.c%20file%20contains%20a%20declaration%20for%20strstr%28%29%20so%20we%20can%20include%20some%20compression%20library%20code.&type=Commits)
-* [3cedde3 cpumask.h: silence warning with -Wsign-compare](https://github.com/search?q=cpumask.h%3A%20silence%20warning%20with%20-Wsign-compare&type=Commits)
-* [7aab484 initramfs: avoid "label at end of compound statement" error](https://github.com/search?q=initramfs%3A%20avoid%20"label%20at%20end%20of%20compound%20statement"%20error&type=Commits)
-* [2e45a03 initramfs: Always do fput() and load modules after rootfs populate](https://github.com/search?q=initramfs%3A%20Always%20do%20fput%28%29%20and%20load%20modules%20after%20rootfs%20populate&type=Commits)
-* [e5fb4a2 initramfs: finish fput() before accessing any binary from initramfs](https://github.com/search?q=initramfs%3A%20finish%20fput%28%29%20before%20accessing%20any%20binary%20from%20initramfs&type=Commits)
-* [0c357ed init/initramfs.c: resolve shadow warnings](https://github.com/search?q=init/initramfs.c%3A%20resolve%20shadow%20warnings&type=Commits)
-* [dddcd57 initramfs: add write error checks](https://github.com/search?q=initramfs%3A%20add%20write%20error%20checks&type=Commits)
-* [abdc604 initramfs: support initramfs that is bigger than 2GiB](https://github.com/search?q=initramfs%3A%20support%20initramfs%20that%20is%20bigger%20than%202GiB&type=Commits)
-* [b816505 initramfs: support initrd that is bigger than 2GiB](https://github.com/search?q=initramfs%3A%20support%20initrd%20that%20is%20bigger%20than%202GiB&type=Commits)
-* [00aade4 init: fix possible format string bug](https://github.com/search?q=init%3A%20fix%20possible%20format%20string%20bug&type=Commits)
-* [8cabed3 lib/decompress_inflate.c: include appropriate header file](https://github.com/search?q=lib/decompress_inflate.c%3A%20include%20appropriate%20header%20file&type=Commits)
-* [2abc3b8 initrd: fix lz4 decompress with initrd](https://github.com/search?q=initrd%3A%20fix%20lz4%20decompress%20with%20initrd&type=Commits)
-* [fdc7c76 lib/decompress_unlz4.c: always set an error return code on failures](https://github.com/search?q=lib/decompress_unlz4.c%3A%20always%20set%20an%20error%20return%20code%20on%20failures&type=Commits)
-* [72ee473 arm: add support for LZ4-compressed kernel](https://github.com/search?q=arm%3A%20add%20support%20for%20LZ4-compressed%20kernel&type=Commits)
-* [2bbefbb net: fix miss merge](https://github.com/search?q=net%3A%20fix%20miss%20merge&type=Commits)
-* [9d00983 ARM: 7868/1: arm/arm64: remove atomic_clear_mask() in "include/asm/atomic.h"](https://github.com/search?q=ARM%3A%207868/1%3A%20arm/arm64%3A%20remove%20atomic_clear_mask%28%29%20in%20"include/asm/atomic.h"&type=Commits)
-* [71005d5 locking: Remove deprecated smp_mb__() barriers](https://github.com/search?q=locking%3A%20Remove%20deprecated%20smp_mb__%28%29%20barriers&type=Commits)
-* [d93f7a1 arch: convert smp_mb__*()](https://github.com/search?q=arch%3A%20convert%20smp_mb__*%28%29&type=Commits)
-* [5f26d7c arch,arm: Convert smp_mb__*()](https://github.com/search?q=arch,arm%3A%20Convert%20smp_mb__*%28%29&type=Commits)
-* [427b619 ARM: barrier: allow options to be passed to memory barrier instructions](https://github.com/search?q=ARM%3A%20barrier%3A%20allow%20options%20to%20be%20passed%20to%20memory%20barrier%20instructions&type=Commits)
-* [4711862 arch: Prepare for smp_mb__{before,after}_atomic()](https://github.com/search?q=arch%3A%20Prepare%20for%20smp_mb__{before,after}_atomic%28%29&type=Commits)
-* [882224a netfilter: xt_hashlimit: Do not use power efficient wq](https://github.com/search?q=netfilter%3A%20xt_hashlimit%3A%20Do%20not%20use%20power%20efficient%20wq&type=Commits)
-* [da6ce68 net: Fix build failure due to lockdep_sock_is_held().](https://github.com/search?q=net%3A%20Fix%20build%20failure%20due%20to%20lockdep_sock_is_held%28%29.&type=Commits)
-* [9355536 sock: make lockdep_sock_is_held static inline](https://github.com/search?q=sock%3A%20make%20lockdep_sock_is_held%20static%20inline&type=Commits)
-* [f416bf6 ipv6: Prevent overrun when parsing v6 header options](https://github.com/search?q=ipv6%3A%20Prevent%20overrun%20when%20parsing%20v6%20header%20options&type=Commits)
-* [ac5eba7 ipv6: reorder ip6_route_dev_notifier after ipv6_dev_notf](https://github.com/search?q=ipv6%3A%20reorder%20ip6_route_dev_notifier%20after%20ipv6_dev_notf&type=Commits)
-* [7a8bbdd ipv6: initialize route null entry in addrconf_init()](https://github.com/search?q=ipv6%3A%20initialize%20route%20null%20entry%20in%20addrconf_init%28%29&type=Commits)
-* [53d04c3 ipv6: release dst in ping_v6_sendmsg](https://github.com/search?q=ipv6%3A%20release%20dst%20in%20ping_v6_sendmsg&type=Commits)
-* [8de8beb UPSTREAM: ipv6: tcp: add rcu locking in tcp_v6_send_synack()](https://github.com/search?q=UPSTREAM%3A%20ipv6%3A%20tcp%3A%20add%20rcu%20locking%20in%20tcp_v6_send_synack%28%29&type=Commits)
-* [55fecc9 ipv6: sctp: fix lockdep splat in sctp_v6_get_dst()](https://github.com/search?q=ipv6%3A%20sctp%3A%20fix%20lockdep%20splat%20in%20sctp_v6_get_dst%28%29&type=Commits)
-* [67b3546 ipv6: sctp: add rcu protection around np->opt](https://github.com/search?q=ipv6%3A%20sctp%3A%20add%20rcu%20protection%20around%20np->opt&type=Commits)
-* [405ea73 sctp: do not inherit ipv6_{mc|ac|fl}_list from parent](https://github.com/search?q=sctp%3A%20do%20not%20inherit%20ipv6_{mc|ac|fl}_list%20from%20parent&type=Commits)
-* [839bed7 netfilter: xt_hashlimit: perform garbage collection from process context](https://github.com/search?q=netfilter%3A%20xt_hashlimit%3A%20perform%20garbage%20collection%20from%20process%20context&type=Commits)
-* [dc6ef22 netfilter: xt_hashlimit: fix proc entry leak in netns destroy path](https://github.com/search?q=netfilter%3A%20xt_hashlimit%3A%20fix%20proc%20entry%20leak%20in%20netns%20destroy%20path&type=Commits)
-* [fe7a3ad netfilter: don't use mutex_lock_interruptible()](https://github.com/search?q=netfilter%3A%20don%27t%20use%20mutex_lock_interruptible%28%29&type=Commits)
-* [97870b5 netfilter: nf_qeueue: Drop queue entries on nf_unregister_hook](https://github.com/search?q=netfilter%3A%20nf_qeueue%3A%20Drop%20queue%20entries%20on%20nf_unregister_hook&type=Commits)
-* [4713446 BACKPORT: netfilter: Kconfig: get rid of parens around depends on](https://github.com/search?q=BACKPORT%3A%20netfilter%3A%20Kconfig%3A%20get%20rid%20of%20parens%20around%20depends%20on&type=Commits)
-* [5324a35 UPSTREAM: netfilter: Fix build errors with xt_socket.c](https://github.com/search?q=UPSTREAM%3A%20netfilter%3A%20Fix%20build%20errors%20with%20xt_socket.c&type=Commits)
-* [b6ba869 net: tcp: fix rtable leak in tcp_is_local[6]](https://github.com/search?q=net%3A%20tcp%3A%20fix%20rtable%20leak%20in%20tcp_is_local[6]&type=Commits)
-* [1527e80 net: tcp: split ack slow/fast events from cwnd_event](https://github.com/search?q=net%3A%20tcp%3A%20split%20ack%20slow/fast%20events%20from%20cwnd_event&type=Commits)
-* [1280907 ipv4, ipv6: ensure raw socket message is big enough to hold an IP header](https://github.com/search?q=ipv4,%20ipv6%3A%20ensure%20raw%20socket%20message%20is%20big%20enough%20to%20hold%20an%20IP%20header&type=Commits)
-* [bbb2cbe tcp: fix a compile error in DBGUNDO()](https://github.com/search?q=tcp%3A%20fix%20a%20compile%20error%20in%20DBGUNDO%28%29&type=Commits)
-* [05abbfe ANDROID: Add untag hacks to inet_release function](https://github.com/search?q=ANDROID%3A%20Add%20untag%20hacks%20to%20inet_release%20function&type=Commits)
-* [ce82d30 CHROMIUM: net: xt_qtaguid: Remove unnecessary check for in_ifaddr.ifa_label != NULL](https://github.com/search?q=CHROMIUM%3A%20net%3A%20xt_qtaguid%3A%20Remove%20unnecessary%20check%20for%20in_ifaddr.ifa_label%20!=%20NULL&type=Commits)
-* [8d2ebb7 sock: tigthen lockdep checks for sock_owned_by_user](https://github.com/search?q=sock%3A%20tigthen%20lockdep%20checks%20for%20sock_owned_by_user&type=Commits)
-* [14facf9 net: introduce lockdep_is_held and update various places to use it](https://github.com/search?q=net%3A%20introduce%20lockdep_is_held%20and%20update%20various%20places%20to%20use%20it&type=Commits)
-* [90149d8 net/dccp: fix use after free in tw_timer_handler()](https://github.com/search?q=net/dccp%3A%20fix%20use%20after%20free%20in%20tw_timer_handler%28%29&type=Commits)
-* [031ddd2 ipv6/dccp: do not inherit ipv6_mc_list from parent](https://github.com/search?q=ipv6/dccp%3A%20do%20not%20inherit%20ipv6_mc_list%20from%20parent&type=Commits)
-* [3ad4ba0 ipv6: add complete rcu protection around np->opt](https://github.com/search?q=ipv6%3A%20add%20complete%20rcu%20protection%20around%20np->opt&type=Commits)
-* [fb33086 net: fix IP early demux races](https://github.com/search?q=net%3A%20fix%20IP%20early%20demux%20races&type=Commits)
-* [42c9bfe tcp: do not underestimate skb->truesize in tcp_trim_head()](https://github.com/search?q=tcp%3A%20do%20not%20underestimate%20skb->truesize%20in%20tcp_trim_head%28%29&type=Commits)
-* [0e4e736 tcp: fix wraparound issue in tcp_lp](https://github.com/search?q=tcp%3A%20fix%20wraparound%20issue%20in%20tcp_lp&type=Commits)
-* [d315aee tcp: remove unused min_cwnd member of tcp_congestion_ops](https://github.com/search?q=tcp%3A%20remove%20unused%20min_cwnd%20member%20of%20tcp_congestion_ops&type=Commits)
-* [c3299a2 skbuff: support disabling of skb fragment cache](https://github.com/search?q=skbuff%3A%20support%20disabling%20of%20skb%20fragment%20cache&type=Commits)
-* [2f7fd72 net: less interrupt masking in NAPI](https://github.com/search?q=net%3A%20less%20interrupt%20masking%20in%20NAPI&type=Commits)
-* [b68a90e arch: Mass conversion of smp_mb__*()](https://github.com/search?q=arch%3A%20Mass%20conversion%20of%20smp_mb__*%28%29&type=Commits)
-* [27de83c net: core: neighbour: Change the print format for addresses](https://github.com/search?q=net%3A%20core%3A%20neighbour%3A%20Change%20the%20print%20format%20for%20addresses&type=Commits)
-* [b9ab2cf net: core: Send ARP probe and trigger RTM_NEWNEIGH](https://github.com/search?q=net%3A%20core%3A%20Send%20ARP%20probe%20and%20trigger%20RTM_NEWNEIGH&type=Commits)
-* [84055db net: rest NAPI bit if IPI failed](https://github.com/search?q=net%3A%20rest%20NAPI%20bit%20if%20IPI%20failed&type=Commits)
-* [9665d5d4 net: fix uninitialized variable usage](https://github.com/search?q=%20net%3A%20fix%20uninitialized%20variable%20usage&type=Commits)
-* [3756298 af_unix: fix struct pid memory leak](https://github.com/search?q=af_unix%3A%20fix%20struct%20pid%20memory%20leak&type=Commits)
-* [1843902 packet: Do not call fanout_release from atomic contexts](https://github.com/search?q=packet%3A%20Do%20not%20call%20fanout_release%20from%20atomic%20contexts&type=Commits)
-* [79d0163 packet: remove unnecessary break after return](https://github.com/search?q=packet%3A%20remove%20unnecessary%20break%20after%20return&type=Commits)
-* [abddadf af_packet: make tpacket_rcv to not set status value before run_filter](https://github.com/search?q=af_packet%3A%20make%20tpacket_rcv%20to%20not%20set%20status%20value%20before%20run_filter&type=Commits)
-* [854cf34 packet: race condition in packet_bind](https://github.com/search?q=packet%3A%20race%20condition%20in%20packet_bind&type=Commits)
-* [fe3adfc packet: call fanout_release, while UNREGISTERING a netdev](https://github.com/search?q=packet%3A%20call%20fanout_release,%20while%20UNREGISTERING%20a%20netdev&type=Commits)
-* [7429c1c net: Clean up code base](https://github.com/search?q=net%3A%20Clean%20up%20code%20base&type=Commits)
-* [3aece05 packet: missing dev_put() in packet_do_bind()](https://github.com/search?q=packet%3A%20missing%20dev_put%28%29%20in%20packet_do_bind%28%29&type=Commits)
-* [0d03a07 packet: improve socket create/bind latency in some cases](https://github.com/search?q=packet%3A%20improve%20socket%20create/bind%20latency%20in%20some%20cases&type=Commits)
-* [7910166 BACKPORT: ipv6 addrconf: implement RFC7559 router solicitation backoff](https://github.com/search?q=BACKPORT%3A%20ipv6%20addrconf%3A%20implement%20RFC7559%20router%20solicitation%20backoff&type=Commits)
-* [5b445ab net: ipv6: Add sysctl for minimum prefix len acceptable in RIOs.](https://github.com/search?q=net%3A%20ipv6%3A%20Add%20sysctl%20for%20minimum%20prefix%20len%20acceptable%20in%20RIOs.&type=Commits)
-* [5a7daef net: ipv6: send unsolicited NA if enabled for all interfaces](https://github.com/search?q=net%3A%20ipv6%3A%20send%20unsolicited%20NA%20if%20enabled%20for%20all%20interfaces&type=Commits)
-* [1fb2b4e ipv6: dad: don't remove dynamic addresses if link is down](https://github.com/search?q=ipv6%3A%20dad%3A%20don%27t%20remove%20dynamic%20addresses%20if%20link%20is%20down&type=Commits)
-* [9d24b13 ipv6: always add flag an address that failed DAD with DADFAILED](https://github.com/search?q=ipv6%3A%20always%20add%20flag%20an%20address%20that%20failed%20DAD%20with%20DADFAILED&type=Commits)
-* [decdbec ipv6: avoid unregistering inet6_dev for loopback](https://github.com/search?q=ipv6%3A%20avoid%20unregistering%20inet6_dev%20for%20loopback&type=Commits)
-* [3153aa4 ipv6: Remove privacy config option.](https://github.com/search?q=ipv6%3A%20Remove%20privacy%20config%20option.&type=Commits)
-* [80ab505 ipv6: fix possible deadlock in ip6_fl_purge / ip6_fl_gc](https://github.com/search?q=ipv6%3A%20fix%20possible%20deadlock%20in%20ip6_fl_purge%20/%20ip6_fl_gc&type=Commits)
-* [e47eb3f ipv6: Should use consistent conditional judgement for ip6 fragment between __ip6_append_data and ip6_finish_output](https://github.com/search?q=ipv6%3A%20Should%20use%20consistent%20conditional%20judgement%20for%20ip6%20fragment%20between%20__ip6_append_data%20and%20ip6_finish_output&type=Commits)
-* [ff28620f Sanitize 'move_pages()' permission checks](https://github.com/search?q=%20Sanitize%20%27move_pages%28%29%27%20permission%20checks&type=Commits)
-* [b3fe24b mm/mempolicy: fix use after free when calling get_mempolicy](https://github.com/search?q=mm/mempolicy%3A%20fix%20use%20after%20free%20when%20calling%20get_mempolicy&type=Commits)
-* [1d7a784 audit: Fix use after free in audit_remove_watch_rule()](https://github.com/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
-* [8d8f967 netfilter: nf_ct_ext: fix possible panic after nf_ct_extend_unregister](https://github.com/search?q=netfilter%3A%20nf_ct_ext%3A%20fix%20possible%20panic%20after%20nf_ct_extend_unregister&type=Commits)
-* [62837ec fuse: initialize the flock flag in fuse_file on allocation](https://github.com/search?q=fuse%3A%20initialize%20the%20flock%20flag%20in%20fuse_file%20on%20allocation&type=Commits)
-* [c8a0afb packet: fix tp_reserve race in packet_set_ring](https://github.com/search?q=packet%3A%20fix%20tp_reserve%20race%20in%20packet_set_ring&type=Commits)
-* [4c81e08 net: avoid skb_warn_bad_offload false positives on UFO](https://github.com/search?q=net%3A%20avoid%20skb_warn_bad_offload%20false%20positives%20on%20UFO&type=Commits)
-* [00dfa3a tcp: fastopen: tcp_connect() must refresh the route](https://github.com/search?q=tcp%3A%20fastopen%3A%20tcp_connect%28%29%20must%20refresh%20the%20route&type=Commits)
-* [d9cedf7 net: sched: set xt_tgchk_param par.nft_compat as 0 in ipt_init_target](https://github.com/search?q=net%3A%20sched%3A%20set%20xt_tgchk_param%20par.nft_compat%20as%200%20in%20ipt_init_target&type=Commits)
-* [776f7e2 net: fix keepalive code vs TCP_FASTOPEN_CONNECT](https://github.com/search?q=net%3A%20fix%20keepalive%20code%20vs%20TCP_FASTOPEN_CONNECT&type=Commits)
-* [7d61695 tcp: avoid setting cwnd to invalid ssthresh after cwnd reduction states](https://github.com/search?q=tcp%3A%20avoid%20setting%20cwnd%20to%20invalid%20ssthresh%20after%20cwnd%20reduction%20states&type=Commits)
-* [96056d4 net: skb_needs_check() accepts CHECKSUM_NONE for tx](https://github.com/search?q=net%3A%20skb_needs_check%28%29%20accepts%20CHECKSUM_NONE%20for%20tx&type=Commits)
-* [61e96c1 net: reduce skb_warn_bad_offload() noise](https://github.com/search?q=net%3A%20reduce%20skb_warn_bad_offload%28%29%20noise&type=Commits)
-* [23d8ff1 net: remove open-coded skb_cow_head.](https://github.com/search?q=net%3A%20remove%20open-coded%20skb_cow_head.&type=Commits)
-* [ddda14c defconfig: enable kerel lz4](https://github.com/search?q=defconfig%3A%20enable%20kerel%20lz4&type=Commits)
-* [c86aa42 lib: update LZ4 compressor module](https://github.com/search?q=lib%3A%20update%20LZ4%20compressor%20module&type=Commits)
-* [f93e369 Revert "lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS"](https://github.com/search?q=Revert%20"lib%3A%20lz4%3A%20Set%20ARM_EFFICIENT_UNALIGNED_ACCESS"&type=Commits)
-* [1d333cd lz4: fix wrong compress buffer size for 64-bits](https://github.com/search?q=lz4%3A%20fix%20wrong%20compress%20buffer%20size%20for%2064-bits&type=Commits)
-* [142ba84 lib: lz4: cleanup unaligned access efficiency detection](https://github.com/search?q=lib%3A%20lz4%3A%20cleanup%20unaligned%20access%20efficiency%20detection&type=Commits)
-* [e1a322a lib: lz4: fixed zram with lz4 on big endian machines](https://github.com/search?q=lib%3A%20lz4%3A%20fixed%20zram%20with%20lz4%20on%20big%20endian%20machines&type=Commits)
-* [b364c93 lz4: fix system halt at boot kernel on x86_64](https://github.com/search?q=lz4%3A%20fix%20system%20halt%20at%20boot%20kernel%20on%20x86_64&type=Commits)
-* [2db2a3a lib/lz4: Pull out constant tables](https://github.com/search?q=lib/lz4%3A%20Pull%20out%20constant%20tables&type=Commits)
-* [23cacfe LZ4 : fix the data abort issue](https://github.com/search?q=LZ4%20%3A%20fix%20the%20data%20abort%20issue&type=Commits)
-* [ab5c263 ANDROID: check dir value of xfrm_userpolicy_id](https://github.com/search?q=ANDROID%3A%20check%20dir%20value%20of%20xfrm_userpolicy_id&type=Commits)
-* [3a38e63 cpuidle: Fix cpuidle_state_is_coupled() argument in cpuidle_enter()](https://github.com/search?q=cpuidle%3A%20Fix%20cpuidle_state_is_coupled%28%29%20argument%20in%20cpuidle_enter%28%29&type=Commits)
-* [5354f60 cpuidle: delay enabling interrupts until all coupled CPUs leave idle](https://github.com/search?q=cpuidle%3A%20delay%20enabling%20interrupts%20until%20all%20coupled%20CPUs%20leave%20idle&type=Commits)
-
 #### Vendor/Quark/
 * [cd923a2 Quark: removed not used xml from mk](https://github.com/search?q=Quark%3A%20removed%20not%20used%20xml%20from%20mk&type=Commits)
 * [eb42782 Quark: up KernelAdiutor](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor&type=Commits)
@@ -279,18 +260,25 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 08-30-2017:
 
+#### frameworks/base/
+* [9f7aa44 PrivateStorageInfo: Exclude primary physical volume total space](https://github.com/search?q=PrivateStorageInfo%3A%20Exclude%20primary%20physical%20volume%20total%20space&type=Commits)
+
 #### packages/apps/Settings/
 * [79287b5 Settings: Allow devices to provide remote gesture preferences](https://github.com/search?q=Settings%3A%20Allow%20devices%20to%20provide%20remote%20gesture%20preferences&type=Commits)
 * [33ecd38 Settings: Fix internal storage summary for non-emulated storage devices](https://github.com/search?q=Settings%3A%20Fix%20internal%20storage%20summary%20for%20non-emulated%20storage%20devices&type=Commits)
 
 #### CRDroid Android Nougat source changes of 08-30-2017 End.
 
-***
-
 08-29-2017
 ====================
 
 #### CRDroid Android Nougat source changes of 08-29-2017:
+
+#### packages/apps/Jelly/
+* [5f4c6b0 Jelly: Add elevation effect to searchBar](https://github.com/search?q=Jelly%3A%20Add%20elevation%20effect%20to%20searchBar&type=Commits)
+
+#### vendor/cmsdk/
+* [621f229 cmsdk: Disable unused services](https://github.com/search?q=cmsdk%3A%20Disable%20unused%20services&type=Commits)
 
 #### vendor/crDroidOTA-devices/
 * [0ffeab7 Update devices.xml](https://github.com/search?q=Update%20devices.xml&type=Commits)
@@ -301,6 +289,9 @@ CRDroid Android Nougat source and Quark Changelog:
 ====================
 
 #### CRDroid Android Nougat source changes of 08-28-2017:
+
+#### frameworks/base/
+* [c0f1177 Keyguard: Change fingerprint listening behavior](https://github.com/search?q=Keyguard%3A%20Change%20fingerprint%20listening%20behavior&type=Commits)
 
 #### packages/apps/crDroidSettings/
 * [04fcd6b Merge pull request #90 from lohanbarth/patch-4](https://github.com/search?q=Merge%20pull%20request%20%2390%20from%20lohanbarth/patch-4&type=Commits)
@@ -357,39 +348,33 @@ CRDroid Android Nougat source and Quark Changelog:
 #### CRDroid Android Nougat source changes of 08-26-2017:
 
 #### frameworks/base/
-* [30b5fb3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+* [30b5fb3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
 
 #### frameworks/native/
-* [1f46240 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%207.1&type=Commits)
+* [1f46240 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%207.1&type=Commits)
+
+#### packages/apps/Settings/
+* [6d4bee5 Settings: Change Updater package name](https://github.com/search?q=Settings%3A%20Change%20Updater%20package%20name&type=Commits)
 
 #### packages/services/Telephony/
-* [9fe10cb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%207.1&type=Commits)
+* [9fe10cb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%207.1&type=Commits)
 
 #### CRDroid Android Nougat source changes of 08-26-2017 End.
 
 08-25-2017
 ====================
 
-#### Device specific Changes of 08-25-2017 Start:
-
-#### Device/Quark/
-* [11078f3 Quark: Update cleanup sh and multirom support fix](https://github.com/search?q=Quark%3A%20Update%20cleanup%20sh%20and%20multirom%20support%20fix&type=Commits)
-
-#### Device specific Changes of 08-25-2017 End.
-
-***
-
 #### CRDroid Android Nougat source changes of 08-25-2017:
 
 #### frameworks/base/
 * [0f1f3418 Allow to ignore presentation indicator of outgoing calls [1/3]](https://github.com/search?q=%20Allow%20to%20ignore%20presentation%20indicator%20of%20outgoing%20calls%20[1/3]&type=Commits)
-* [c77ee61 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+* [c77ee61 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
 
 #### frameworks/opt/telephony/
 * [b231815 Allow to ignore presentation indicator of outgoing calls [2/3]](https://github.com/search?q=Allow%20to%20ignore%20presentation%20indicator%20of%20outgoing%20calls%20[2/3]&type=Commits)
 
 #### packages/apps/ContactsCommon/
-* [3fa4714 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%207.1&type=Commits)
+* [3fa4714 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%207.1&type=Commits)
 
 #### packages/apps/UnifiedEmail/
 * [2dd00df Email: Fix led notification settings](https://github.com/search?q=Email%3A%20Fix%20led%20notification%20settings&type=Commits)
@@ -401,9 +386,6 @@ CRDroid Android Nougat source and Quark Changelog:
 #### packages/services/Telephony/
 * [33954d1 Allow to ignore presentation indicator of outgoing calls [3/3]](https://github.com/search?q=Allow%20to%20ignore%20presentation%20indicator%20of%20outgoing%20calls%20[3/3]&type=Commits)
 
-#### prebuilts/gcc/linux-x86/arm/arm-eabi-7.1/
-* [4dfb54a arm-linaro-linux-androideabi 7.2.1: 20170825](https://github.com/search?q=arm-linaro-linux-androideabi%207.2.1%3A%2020170825&type=Commits)
-
 #### CRDroid Android Nougat source changes of 08-25-2017 End.
 
 08-24-2017
@@ -412,97 +394,13 @@ CRDroid Android Nougat source and Quark Changelog:
 #### Device specific Changes of 08-24-2017 Start:
 
 #### Device/Quark/
+* [11078f3 Quark: Update cleanup sh and multirom support fix](https://github.com/search?q=Quark%3A%20Update%20cleanup%20sh%20and%20multirom%20support%20fix&type=Commits)
 * [5d47d0d Quark: sepolicy allow sys to search for firmware](https://github.com/search?q=Quark%3A%20sepolicy%20allow%20sys%20to%20search%20for%20firmware&type=Commits)
 * [4d40f46 Quark: correct system read status after bootup](https://github.com/search?q=Quark%3A%20correct%20system%20read%20status%20after%20bootup&type=Commits)
 * [e4bffad Quark: overlays cleanup carriers configs](https://github.com/search?q=Quark%3A%20overlays%20cleanup%20carriers%20configs&type=Commits)
 * [f7de11d Quakr: correct selinux permission for rmt_storage](https://github.com/search?q=Quakr%3A%20correct%20selinux%20permission%20for%20rmt_storage&type=Commits)
 * [88ad011 Quark: ril caf ril version 10 and disable opts](https://github.com/search?q=Quark%3A%20ril%20caf%20ril%20version%2010%20and%20disable%20opts&type=Commits)
 * [d7b6a5e Quark: remove deprecated EXTENDED_FONT_FOOTPRINT flag](https://github.com/search?q=Quark%3A%20remove%20deprecated%20EXTENDED_FONT_FOOTPRINT%20flag&type=Commits)
-
-#### Kernel/Quark/
-* [a2cd381 msm: Remove store_ttbr0](https://github.com/search?q=msm%3A%20Remove%20store_ttbr0&type=Commits)
-* [60405d3 ashmem: remove cache maintenance support](https://github.com/search?q=ashmem%3A%20remove%20cache%20maintenance%20support&type=Commits)
-* [c32a95a staging: android: ashmem: Factor out compat code from uapi](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20Factor%20out%20compat%20code%20from%20uapi&type=Commits)
-* [301b0ea msm: pm-boot: flush msm_pm_boot_vector to main memory](https://github.com/search?q=msm%3A%20pm-boot%3A%20flush%20msm_pm_boot_vector%20to%20main%20memory&type=Commits)
-* [b44937a iommu: msm: Use standard caching APIs](https://github.com/search?q=iommu%3A%20msm%3A%20Use%20standard%20caching%20APIs&type=Commits)
-* [6be2e67 msm: Remove cache wrappers](https://github.com/search?q=msm%3A%20Remove%20cache%20wrappers&type=Commits)
-* [d35535e8 msm: cachedump: Move to standard caching APIs](https://github.com/search?q=%20msm%3A%20cachedump%3A%20Move%20to%20standard%20caching%20APIs&type=Commits)
-* [3bb93b0 drivers: staging: android: Use standard cache APIs](https://github.com/search?q=drivers%3A%20staging%3A%20android%3A%20Use%20standard%20cache%20APIs&type=Commits)
-* [1bd32bf drivers: staging: android: Remove OUTER_CACHE support](https://github.com/search?q=drivers%3A%20staging%3A%20android%3A%20Remove%20OUTER_CACHE%20support&type=Commits)
-* [f9ef9d9 Revert "ashmem: remove cache maintenance support"](https://github.com/search?q=Revert%20"ashmem%3A%20remove%20cache%20maintenance%20support"&type=Commits)
-* [eec5042 Shrink ashmem directly through shmem_fallocate](https://github.com/search?q=Shrink%20ashmem%20directly%20through%20shmem_fallocate&type=Commits)
-* [07a6670 UPSTREAM: arm: perf: Fix callchain parse error with kernel tracepoint events](https://github.com/search?q=UPSTREAM%3A%20arm%3A%20perf%3A%20Fix%20callchain%20parse%20error%20with%20kernel%20tracepoint%20events&type=Commits)
-* [5d3c63b UPSTREAM: ARM: 8170/1: Add global named register current_stack_pointer for ARM](https://github.com/search?q=UPSTREAM%3A%20ARM%3A%208170/1%3A%20Add%20global%20named%20register%20current_stack_pointer%20for%20ARM&type=Commits)
-* [859de36 ASoC: qcom: qdsp6v2: fix crash due to asynchronous read/write](https://github.com/search?q=ASoC%3A%20qcom%3A%20qdsp6v2%3A%20fix%20crash%20due%20to%20asynchronous%20read/write&type=Commits)
-* [1a124ca ASoC: qcom: qdsp6v2: update sanity check](https://github.com/search?q=ASoC%3A%20qcom%3A%20qdsp6v2%3A%20update%20sanity%20check&type=Commits)
-* [5d2279a ASoC: msm: qdsp6v2: extend validation of virtual address](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20extend%20validation%20of%20virtual%20address&type=Commits)
-* [2a58a99 ASoC: msm: lock read/write when add/free audio ion memory](https://github.com/search?q=ASoC%3A%20msm%3A%20lock%20read/write%20when%20add/free%20audio%20ion%20memory&type=Commits)
-* [f35a3ba net: inet: diag: expose the socket mark to privileged processes.](https://github.com/search?q=net%3A%20inet%3A%20diag%3A%20expose%20the%20socket%20mark%20to%20privileged%20processes.&type=Commits)
-* [01b2ab6 net: diag: make udp_diag_destroy work for mapped addresses.](https://github.com/search?q=net%3A%20diag%3A%20make%20udp_diag_destroy%20work%20for%20mapped%20addresses.&type=Commits)
-* [abe587f net: diag: support SOCK_DESTROY for UDP sockets](https://github.com/search?q=net%3A%20diag%3A%20support%20SOCK_DESTROY%20for%20UDP%20sockets&type=Commits)
-* [7e638d4 net: diag: allow socket bytecode filters to match socket marks](https://github.com/search?q=net%3A%20diag%3A%20allow%20socket%20bytecode%20filters%20to%20match%20socket%20marks&type=Commits)
-* [d19c46d net: diag: slightly refactor the inet_diag_bc_audit error checks.](https://github.com/search?q=net%3A%20diag%3A%20slightly%20refactor%20the%20inet_diag_bc_audit%20error%20checks.&type=Commits)
-* [e656a55 net: diag: Add support to filter on device index](https://github.com/search?q=net%3A%20diag%3A%20Add%20support%20to%20filter%20on%20device%20index&type=Commits)
-* [5a31338 Revert "netfilter: have ip*t REJECT set the sock err when an icmp is to be sent"](https://github.com/search?q=Revert%20"netfilter%3A%20have%20ip*t%20REJECT%20set%20the%20sock%20err%20when%20an%20icmp%20is%20to%20be%20sent"&type=Commits)
-* [bf40e62 trace: net: use %pK for kernel pointers](https://github.com/search?q=trace%3A%20net%3A%20use%20%pK%20for%20kernel%20pointers&type=Commits)
-* [b7a115b defconfig ena CONFIG_INET_DIAG_DESTROY](https://github.com/search?q=defconfig%20ena%20CONFIG_INET_DIAG_DESTROY&type=Commits)
-* [642e07f net: diag: support v4mapped sockets in inet_diag_find_one_icsk()](https://github.com/search?q=net%3A%20diag%3A%20support%20v4mapped%20sockets%20in%20inet_diag_find_one_icsk%28%29&type=Commits)
-* [800df9c net: tcp: deal with listen sockets properly in tcp_abort.](https://github.com/search?q=net%3A%20tcp%3A%20deal%20with%20listen%20sockets%20properly%20in%20tcp_abort.&type=Commits)
-* [8df6ad4 net: diag: Support destroying TCP sockets.](https://github.com/search?q=net%3A%20diag%3A%20Support%20destroying%20TCP%20sockets.&type=Commits)
-* [b841199 net: diag: Support SOCK_DESTROY for inet sockets.](https://github.com/search?q=net%3A%20diag%3A%20Support%20SOCK_DESTROY%20for%20inet%20sockets.&type=Commits)
-* [306e08e net: diag: split inet_diag_dump_one_icsk into two](https://github.com/search?q=net%3A%20diag%3A%20split%20inet_diag_dump_one_icsk%20into%20two&type=Commits)
-* [784ef30 tcp: fix more NULL deref after prequeue changes](https://github.com/search?q=tcp%3A%20fix%20more%20NULL%20deref%20after%20prequeue%20changes&type=Commits)
-* [3e2a47d net: add sk_fullsock() helper](https://github.com/search?q=net%3A%20add%20sk_fullsock%28%29%20helper&type=Commits)
-* [3ff3dca sched: s/do_each_thread/for_each_process_thread/ in core.c](https://github.com/search?q=sched%3A%20s/do_each_thread/for_each_process_thread/%20in%20core.c&type=Commits)
-* [d3d3147 cpufreq: Check current frequency in device driver](https://github.com/search?q=cpufreq%3A%20Check%20current%20frequency%20in%20device%20driver&type=Commits)
-* [7c22222 sched/fair: Fix fairness issue on migration](https://github.com/search?q=sched/fair%3A%20Fix%20fairness%20issue%20on%20migration&type=Commits)
-* [01a1833 net: socket: don't set sk_uid to garbage value in ->setattr()](https://github.com/search?q=net%3A%20socket%3A%20don't%20set%20sk_uid%20to%20garbage%20value%20in%20->setattr%28%29&type=Commits)
-* [1d512bc net: ipv4: Don't crash if passing a null sk to ip_rt_update_pmtu.](https://github.com/search?q=net%3A%20ipv4%3A%20Don't%20crash%20if%20passing%20a%20null%20sk%20to%20ip_rt_update_pmtu.&type=Commits)
-* [62d82de net: inet: Support UID-based routing in IP protocols.](https://github.com/search?q=net%3A%20inet%3A%20Support%20UID-based%20routing%20in%20IP%20protocols.&type=Commits)
-* [0fb5107 net: core: add UID to flows, rules, and routes](https://github.com/search?q=net%3A%20core%3A%20add%20UID%20to%20flows,%20rules,%20and%20routes&type=Commits)
-* [f1cf3d0 net: core: Add a UID field to struct sock.](https://github.com/search?q=net%3A%20core%3A%20Add%20a%20UID%20field%20to%20struct%20sock.&type=Commits)
-* [d9c7293 Revert "net: core: Support UID-based routing."](https://github.com/search?q=Revert%20"net%3A%20core%3A%20Support%20UID-based%20routing."&type=Commits)
-* [712d25c Revert "Handle 'sk' being NULL in UID-based routing."](https://github.com/search?q=Revert%20"Handle%20'sk'%20being%20NULL%20in%20UID-based%20routing."&type=Commits)
-* [7a0542d net: Indicate whether a socket is a transparent socket](https://github.com/search?q=net%3A%20Indicate%20whether%20a%20socket%20is%20a%20transparent%20socket&type=Commits)
-* [35e8570 net: ipv6: make "ip -6 route get mark xyz" work.](https://github.com/search?q=net%3A%20ipv6%3A%20make%20"ip%20-6%20route%20get%20mark%20xyz"%20work.&type=Commits)
-* [6ab29a0 netfilter: x_tables: check for size overflow](https://github.com/search?q=netfilter%3A%20x_tables%3A%20check%20for%20size%20overflow&type=Commits)
-* [57812cd netfilter: Fix is to allow successful restore](https://github.com/search?q=netfilter%3A%20Fix%20is%20to%20allow%20successful%20restore&type=Commits)
-* [5e7b367 netfilter:Changes to Allow IRC DCC](https://github.com/search?q=netfilter%3AChanges%20to%20Allow%20IRC%20DCC&type=Commits)
-* [b5d9be6 net: ipc_router: Fix reading invalid txn_Ids response return code](https://github.com/search?q=net%3A%20ipc_router%3A%20Fix%20reading%20invalid%20txn_Ids%20response%20return%20code&type=Commits)
-* [a062e68 net: ipc_router: Handle error condition](https://github.com/search?q=net%3A%20ipc_router%3A%20Handle%20error%20condition&type=Commits)
-* [3372bd2 net: ipc_router: Initialize IPC Router on a first interface attempt](https://github.com/search?q=net%3A%20ipc_router%3A%20Initialize%20IPC%20Router%20on%20a%20first%20interface%20attempt&type=Commits)
-* [129a66f net: ipc_router: Reorganize reader work item](https://github.com/search?q=net%3A%20ipc_router%3A%20Reorganize%20reader%20work%20item&type=Commits)
-* [80d902b net: ipc_router: Cleanup redundant code](https://github.com/search?q=net%3A%20ipc_router%3A%20Cleanup%20redundant%20code&type=Commits)
-* [03b70c9 net: ipc_router: Use optimized wakeup_source APIs](https://github.com/search?q=net%3A%20ipc_router%3A%20Use%20optimized%20wakeup_source%20APIs&type=Commits)
-* [a7dfd15 net: ipc_router: Fix the race condition during SSR](https://github.com/search?q=net%3A%20ipc_router%3A%20Fix%20the%20race%20condition%20during%20SSR&type=Commits)
-* [48162e0 lib: qmi_encdec: Add support for string data type](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Add%20support%20for%20string%20data%20type&type=Commits)
-* [22234e3 lib: qmi_encdec: Fix encoding a variable length element](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Fix%20encoding%20a%20variable%20length%20element&type=Commits)
-* [604f0f5 netfilter: IDLETIMER: fix lockdep warning](https://github.com/search?q=netfilter%3A%20IDLETIMER%3A%20fix%20lockdep%20warning&type=Commits)
-* [527fa25 netfilter: xt_HARDIDLETIMER: Fix use after free condition](https://github.com/search?q=netfilter%3A%20xt_HARDIDLETIMER%3A%20Fix%20use%20after%20free%20condition&type=Commits)
-* [7c74b53 netfilter: xt_HARDIDLETIMER: Add null check](https://github.com/search?q=netfilter%3A%20xt_HARDIDLETIMER%3A%20Add%20null%20check&type=Commits)
-* [4051c00 netfilter: xtables: hardidletimer target implementation](https://github.com/search?q=netfilter%3A%20xtables%3A%20hardidletimer%20target%20implementation&type=Commits)
-* [a86a22b nf: IDLETIMER: Fix possible use before initialization in idletimer_resume](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20Fix%20possible%20use%20before%20initialization%20in%20idletimer_resume&type=Commits)
-* [9fbcb6b netfilter: Changes to handle MT call issue in SIP ALG](https://github.com/search?q=netfilter%3A%20Changes%20to%20handle%20MT%20call%20issue%20in%20SIP%20ALG&type=Commits)
-* [3c1d819 netfilter: Changes to handle segmentation in SIP ALG](https://github.com/search?q=netfilter%3A%20Changes%20to%20handle%20segmentation%20in%20SIP%20ALG&type=Commits)
-* [56406cd netfilter: nf_conntrack_sip: Dynamically enable/disable SIP ALG.](https://github.com/search?q=netfilter%3A%20nf_conntrack_sip%3A%20Dynamically%20enable/disable%20SIP%20ALG.&type=Commits)
-* [9582295 netfilter: nf_conntrack_sip: Register SIP ALG sysctl table into procfs.](https://github.com/search?q=netfilter%3A%20nf_conntrack_sip%3A%20Register%20SIP%20ALG%20sysctl%20table%20into%20procfs.&type=Commits)
-* [2741acf netfilter: nf_conntrack: decrement global counter after object release](https://github.com/search?q=netfilter%3A%20nf_conntrack%3A%20decrement%20global%20counter%20after%20object%20release&type=Commits)
-* [b07508e misc: uidstat: change release handler for stat read operation](https://github.com/search?q=misc%3A%20uidstat%3A%20change%20release%20handler%20for%20stat%20read%20operation&type=Commits)
-* [bddb928 nf: xt_qtaguid: fix handling for cases where tunnels are used.](https://github.com/search?q=nf%3A%20xt_qtaguid%3A%20fix%20handling%20for%20cases%20where%20tunnels%20are%20used.&type=Commits)
-* [7f38f2e netfilter: fix seq_printf type mismatch warning](https://github.com/search?q=netfilter%3A%20fix%20seq_printf%20type%20mismatch%20warning&type=Commits)
-* [5b48085 net: socket: make sure refs are not released on fd before calling sockev](https://github.com/search?q=net%3A%20socket%3A%20make%20sure%20refs%20are%20not%20released%20on%20fd%20before%20calling%20sockev&type=Commits)
-* [0a2f461 net: socket: Added notifier chains for socket administrative functions](https://github.com/search?q=net%3A%20socket%3A%20Added%20notifier%20chains%20for%20socket%20administrative%20functions&type=Commits)
-* [ec04927 net: ipv6: add support for UL checksum offload for IPv6 over UDP](https://github.com/search?q=net%3A%20ipv6%3A%20add%20support%20for%20UL%20checksum%20offload%20for%20IPv6%20over%20UDP&type=Commits)
-* [27e4706 netlink: Queue the kernel socket after setting the flag.](https://github.com/search?q=netlink%3A%20Queue%20the%20kernel%20socket%20after%20setting%20the%20flag.&type=Commits)
-* [1bfdf47 netfilter: xt_socket: add XT_SOCKET_RESTORESKMARK flag](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20add%20XT_SOCKET_RESTORESKMARK%20flag&type=Commits)
-* [88f178e netfilter: xt_socket: use IP early demux](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20use%20IP%20early%20demux&type=Commits)
-* [0fa761a netfilter: xt_socket: add XT_SOCKET_NOWILDCARD flag](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20add%20XT_SOCKET_NOWILDCARD%20flag&type=Commits)
-* [18296d1 netfilter: xt_socket: fix broken v0 support](https://github.com/search?q=netfilter%3A%20xt_socket%3A%20fix%20broken%20v0%20support&type=Commits)
-* [649b9d1 netfilter: Change %p to %pK in debug messages](https://github.com/search?q=netfilter%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
-* [59539e1 net: netfilter: fix compilation warnings](https://github.com/search?q=net%3A%20netfilter%3A%20fix%20compilation%20warnings&type=Commits)
-* [e9226f0 nf: IDLETIMER: Adds the uid field in the msg](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20Adds%20the%20uid%20field%20in%20the%20msg&type=Commits)
-* [99faa1a nf: Remove compilation error caused by e8430cbed3ef15fdb1ac26cfd020e010aa5f1c35](https://github.com/search?q=nf%3A%20Remove%20compilation%20error%20caused%20by%20e8430cbed3ef15fdb1ac26cfd020e010aa5f1c35&type=Commits)
-* [a26bb02 nf: IDLETIMER: time-stamp and suspend/resume handling.](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20time-stamp%20and%20suspend/resume%20handling.&type=Commits)
 
 #### Device specific Changes of 08-24-2017 End.
 
@@ -552,10 +450,8 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### Device specific Changes of 08-21-2017 Start:
 
-#### Kernel/Quark/
-* [9ac24fb Revert "msm: vidc: add ion_handle checking before mapping buffers"](https://github.com/search?q=Revert%20"msm%3A%20vidc%3A%20add%20ion_handle%20checking%20before%20mapping%20buffers"&type=Commits)
-
 #### Vendor/Quark/
+* [220b6fc Quak: cleanup not used](https://github.com/search?q=Quak%3A%20cleanup%20not%20used&type=Commits)
 * [2694507 Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
 * [4a8055f Quark: clean up](https://github.com/search?q=Quark%3A%20clean%20up&type=Commits)
 
@@ -567,16 +463,20 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### frameworks/base/
 * [539b36e base: Fix mismerge in SEMP](https://github.com/search?q=base%3A%20Fix%20mismerge%20in%20SEMP&type=Commits)
-* [d9e2a0a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+* [d9e2a0a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
 
 #### frameworks/native/
-* [862dd19 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%207.1&type=Commits)
+* [9fe7f3c InputDispatcher_test: fix pokeUserActivity after afbd1c1265de317f5ecf44cd400586c53a001ee7](https://github.com/search?q=InputDispatcher_test%3A%20fix%20pokeUserActivity%20after%20afbd1c1265de317f5ecf44cd400586c53a001ee7&type=Commits)
+* [862dd19 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%207.1&type=Commits)
+
+#### packages/apps/Jelly/
+* [2a6aa75 Fix NPE.](https://github.com/search?q=Fix%20NPE.&type=Commits)
 
 #### packages/apps/Messaging/
-* [c35d294 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%207.1&type=Commits)
+* [c35d294 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%207.1&type=Commits)
 
 #### packages/apps/Settings/
-* [6d9de5d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20'cm-14.1'%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+* [6d9de5d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
 
 #### packages/apps/crDroidSettings/
 * [7ead779 fix italian translations](https://github.com/search?q=fix%20italian%20translations&type=Commits)
@@ -594,199 +494,63 @@ CRDroid Android Nougat source and Quark Changelog:
 08-20-2017
 ====================
 
-#### Device specific Changes of 08-20-2017 Start:
+#### CRDroid Android Nougat source changes of 08-20-2017:
+
+#### frameworks/base/
+* [e8836cd Tweak Privacy Guard dialog layout](https://github.com/search?q=Tweak%20Privacy%20Guard%20dialog%20layout&type=Commits)
+* [79509bc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/ril-caf/
+* [d8290dd ril: Allow targets to disable Clang](https://github.com/search?q=ril%3A%20Allow%20targets%20to%20disable%20Clang&type=Commits)
+
+#### packages/apps/AudioFX/
+* [39c6ce2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [b6ba24f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [0b0899a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [5bb707b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [3f23959 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [8a9f67d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [ee8af30 Update Italian translations](https://github.com/search?q=Update%20Italian%20translations&type=Commits)
+* [187af84 Merge pull request #85 from gwolf2u/patch-1](https://github.com/search?q=Merge%20pull%20request%20%2385%20from%20gwolf2u/patch-1&type=Commits)
+* [cc2fc6d crdroid: corrected typo](https://github.com/search?q=crdroid%3A%20corrected%20typo&type=Commits)
+* [b6a11e3 Merge pull request #83 from saikatrockz/7.1](https://github.com/search?q=Merge%20pull%20request%20%2383%20from%20saikatrockz/7.1&type=Commits)
+* [ca66f7f Merge pull request #84 from gwolf2u/7.1](https://github.com/search?q=Merge%20pull%20request%20%2384%20from%20gwolf2u/7.1&type=Commits)
+
+#### packages/resources/devicesettings/
+* [9620e09 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cm/
+* [d05e465 update readme](https://github.com/search?q=update%20readme&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [4635638 Update oneplus5 cheeseburger](https://github.com/search?q=Update%20oneplus5%20cheeseburger&type=Commits)
+* [79ebdbe v3.7](https://github.com/search?q=v3.7&type=Commits)
+
+#### CRDroid Android Nougat source changes of 08-20-2017 End.
+
+08-19-2017
+====================
+
+#### Device specific Changes of 08-19-2017 Start:
 
 #### Device/Quark/
 * [5ae9c9f Quark: enable flac offload sound lib](https://github.com/search?q=Quark%3A%20enable%20flac%20offload%20sound%20lib&type=Commits)
+* [2455568 Quark: use default RIL repo](https://github.com/search?q=Quark%3A%20use%20default%20RIL%20repo&type=Commits)
+* [96f36cb Quark: CarrierConfig: Enable world mode for verizon Prevents duplication of the APN menu.](https://github.com/search?q=Quark%3A%20CarrierConfig%3A%20Enable%20world%20mode%20for%20verizon%20Prevents%20duplication%20of%20the%20APN%20menu.&type=Commits)
 
 #### Kernel/Quark/
-* [c830c90 Revert "cpufreq: cache tunables for ondemand and conservative governors"](https://github.com/search?q=Revert%20"cpufreq%3A%20cache%20tunables%20for%20ondemand%20and%20conservative%20governors"&type=Commits)
-* [1aa045d Add missing definitions for PTR_ERR_OR_ZERO() and NEED_KEY_SEARCH](https://github.com/search?q=Add%20missing%20definitions%20for%20PTR_ERR_OR_ZERO%28%29%20and%20NEED_KEY_SEARCH&type=Commits)
-* [65b8d05 cpufreq: Resolve CPUFREQ_NOTIFY issue](https://github.com/search?q=cpufreq%3A%20Resolve%20CPUFREQ_NOTIFY%20issue&type=Commits)
-* [c01d045 cpufreq: Refactor cpufreq_set_policy()](https://github.com/search?q=cpufreq%3A%20Refactor%20cpufreq_set_policy%28%29&type=Commits)
-* [9df5e0e cpufreq: stats: Fix memory leaks when updating stats table](https://github.com/search?q=cpufreq%3A%20stats%3A%20Fix%20memory%20leaks%20when%20updating%20stats%20table&type=Commits)
-* [ade97b1 cpufreq: stats: Don't update cpufreq_stats_table if it's NULL](https://github.com/search?q=cpufreq%3A%20stats%3A%20Don't%20update%20cpufreq_stats_table%20if%20it's%20NULL&type=Commits)
-* [5d2bf44 cpufreq: stats: Print error messages if table initialization fails](https://github.com/search?q=cpufreq%3A%20stats%3A%20Print%20error%20messages%20if%20table%20initialization%20fails&type=Commits)
-* [622a4e3 cpufreq: Iterate over all the possible cpus to create powerstats.](https://github.com/search?q=cpufreq%3A%20Iterate%20over%20all%20the%20possible%20cpus%20to%20create%20powerstats.&type=Commits)
-* [66230cc cpufreq: fallback to interactive if governor is not found](https://github.com/search?q=cpufreq%3A%20fallback%20to%20interactive%20if%20governor%20is%20not%20found&type=Commits)
-* [c8212d9 cpufreq: cache tunables for ondemand and conservative governors](https://github.com/search?q=cpufreq%3A%20cache%20tunables%20for%20ondemand%20and%20conservative%20governors&type=Commits)
-* [2a50246 cpufreq: ondemand: Work is guaranteed to be pending](https://github.com/search?q=cpufreq%3A%20ondemand%3A%20Work%20is%20guaranteed%20to%20be%20pending&type=Commits)
-* [d017ac4 cpufreq: ondemand: Drop unnecessary locks from update_sampling_rate()](https://github.com/search?q=cpufreq%3A%20ondemand%3A%20Drop%20unnecessary%20locks%20from%20update_sampling_rate%28%29&type=Commits)
-* [2c8ff69 cpufreq: ondemand: Eliminate the deadband effect](https://github.com/search?q=cpufreq%3A%20ondemand%3A%20Eliminate%20the%20deadband%20effect&type=Commits)
-* [aaa990a cpufreq:governor: Fix negative idle_time with CONFIG_HZ_PERIODIC](https://github.com/search?q=cpufreq%3Agovernor%3A%20Fix%20negative%20idle_time%20with%20CONFIG_HZ_PERIODIC&type=Commits)
-* [af83112 cpufreq: governor: Name delayed-work as dwork](https://github.com/search?q=cpufreq%3A%20governor%3A%20Name%20delayed-work%20as%20dwork&type=Commits)
-* [81cc870 cpufreq: conservative: Fix condition logic in touch boost](https://github.com/search?q=cpufreq%3A%20conservative%3A%20Fix%20condition%20logic%20in%20touch%20boost&type=Commits)
-* [1115c8e cpufreq: conservative: Decrease frequency faster when the timer deferred](https://github.com/search?q=cpufreq%3A%20conservative%3A%20Decrease%20frequency%20faster%20when%20the%20timer%20deferred&type=Commits)
-* [1a6b929 cpufreq: governor: Remove unused comments](https://github.com/search?q=cpufreq%3A%20governor%3A%20Remove%20unused%20comments&type=Commits)
-* [ca03167 cpufreq: governor: Clean up code after commit ab3fc7fb9cc5](https://github.com/search?q=cpufreq%3A%20governor%3A%20Clean%20up%20code%20after%20commit%20ab3fc7fb9cc5&type=Commits)
-* [f2e8d34 cpufreq: ondemand: Use more accurate calculation when the timer is deferred](https://github.com/search?q=cpufreq%3A%20ondemand%3A%20Use%20more%20accurate%20calculation%20when%20the%20timer%20is%20deferred&type=Commits)
-* [50aec9b cpufreq: governor: remove copy_prev_load from 'struct cpu_dbs_common_info'](https://github.com/search?q=cpufreq%3A%20governor%3A%20remove%20copy_prev_load%20from%20'struct%20cpu_dbs_common_info'&type=Commits)
-* [ea1dadd cpufreq: governor: Be friendly towards latency-sensitive bursty workloads](https://github.com/search?q=cpufreq%3A%20governor%3A%20Be%20friendly%20towards%20latency-sensitive%20bursty%20workloads&type=Commits)
-* [ee82d9a cpufreq: remove race while accessing cur_policy](https://github.com/search?q=cpufreq%3A%20remove%20race%20while%20accessing%20cur_policy&type=Commits)
-* [a8426e4 cpufreq: Introduce touch boost tunables to ondemand and conservative](https://github.com/search?q=cpufreq%3A%20Introduce%20touch%20boost%20tunables%20to%20ondemand%20and%20conservative&type=Commits)
-* [e7da96b cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
-* [038ba2b cpufreq: conservative: added micro frequency sample rate](https://github.com/search?q=cpufreq%3A%20conservative%3A%20added%20micro%20frequency%20sample%20rate&type=Commits)
-* [5ae0898 cpufreq: conservative: Allow down_threshold to take values from 1 to 10](https://github.com/search?q=cpufreq%3A%20conservative%3A%20Allow%20down_threshold%20to%20take%20values%20from%201%20to%2010&type=Commits)
-* [b2460fe xfrm: policy: check policy direction value](https://github.com/search?q=xfrm%3A%20policy%3A%20check%20policy%20direction%20value&type=Commits)
-* [d6ffe88 cpuidle: Wakeup only cpus for which qos has changed.](https://github.com/search?q=cpuidle%3A%20Wakeup%20only%20cpus%20for%20which%20qos%20has%20changed.&type=Commits)
-* [63f043f cpuidle: Check for dev before deregistering it.](https://github.com/search?q=cpuidle%3A%20Check%20for%20dev%20before%20deregistering%20it.&type=Commits)
-* [7ebcf43 cpuidle: remove cpuidle_unregister_governor()](https://github.com/search?q=cpuidle%3A%20remove%20cpuidle_unregister_governor%28%29&type=Commits)
-* [7e4bd7b cpuidle: Make it clear that governors cannot be modules](https://github.com/search?q=cpuidle%3A%20Make%20it%20clear%20that%20governors%20cannot%20be%20modules&type=Commits)
-* [6630ec8 cpuidle: don't call poll_idle_init() for every cpu](https://github.com/search?q=cpuidle%3A%20don't%20call%20poll_idle_init%28%29%20for%20every%20cpu&type=Commits)
-* [1802b7f cpuidle: use drv instead of cpuidle_driver in show_current_driver()](https://github.com/search?q=cpuidle%3A%20use%20drv%20instead%20of%20cpuidle_driver%20in%20show_current_driver%28%29&type=Commits)
-* [5b9c890 cpuidle: call cpuidle_get_driver() from after taking cpuidle_driver_lock](https://github.com/search?q=cpuidle%3A%20call%20cpuidle_get_driver%28%29%20from%20after%20taking%20cpuidle_driver_lock&type=Commits)
-* [8587512 cpuidle: replace multiline statements with single line in cpuidle_idle_call()](https://github.com/search?q=cpuidle%3A%20replace%20multiline%20statements%20with%20single%20line%20in%20cpuidle_idle_call%28%29&type=Commits)
-* [9d4e206 cpuidle: reduce code duplication inside cpuidle_idle_call()](https://github.com/search?q=cpuidle%3A%20reduce%20code%20duplication%20inside%20cpuidle_idle_call%28%29&type=Commits)
-* [524f2fb cpuidle: merge two if() statements for checking error cases](https://github.com/search?q=cpuidle%3A%20merge%20two%20if%28%29%20statements%20for%20checking%20error%20cases&type=Commits)
-* [707a764 cpuidle: rearrange __cpuidle_register_device() to keep minimal exit points](https://github.com/search?q=cpuidle%3A%20rearrange%20__cpuidle_register_device%28%29%20to%20keep%20minimal%20exit%20points&type=Commits)
-* [e7304e7 cpuidle: rearrange code in __cpuidle_driver_init()](https://github.com/search?q=cpuidle%3A%20rearrange%20code%20in%20__cpuidle_driver_init%28%29&type=Commits)
-* [8473d55 cpuidle: make __cpuidle_driver_init() return void](https://github.com/search?q=cpuidle%3A%20make%20__cpuidle_driver_init%28%29%20return%20void&type=Commits)
-* [bca28e5 cpuidle: Comment the driver's framework code](https://github.com/search?q=cpuidle%3A%20Comment%20the%20driver's%20framework%20code&type=Commits)
-* [62b2f29 cpuidle: make __cpuidle_device_init() return void](https://github.com/search?q=cpuidle%3A%20make%20__cpuidle_device_init%28%29%20return%20void&type=Commits)
-* [5ee644c cpuidle: Check if device is already registered](https://github.com/search?q=cpuidle%3A%20Check%20if%20device%20is%20already%20registered&type=Commits)
-* [26c2de7 cpuidle: Introduce __cpuidle_device_init()](https://github.com/search?q=cpuidle%3A%20Introduce%20__cpuidle_device_init%28%29&type=Commits)
-* [72cc539 cpuidle: Introduce __cpuidle_unregister_device()](https://github.com/search?q=cpuidle%3A%20Introduce%20__cpuidle_unregister_device%28%29&type=Commits)
-* [44d9f98 cpuidle: Check cpuidle_enable_device() return value](https://github.com/search?q=cpuidle%3A%20Check%20cpuidle_enable_device%28%29%20return%20value&type=Commits)
-* [d8be195 cpuidle: improve governor Kconfig options](https://github.com/search?q=cpuidle%3A%20improve%20governor%20Kconfig%20options&type=Commits)
-* [cd23542 cpuidle: fix improper return value on error](https://github.com/search?q=cpuidle%3A%20fix%20improper%20return%20value%20on%20error&type=Commits)
-* [4cb6aba arm: idle: add missing need_resched check](https://github.com/search?q=arm%3A%20idle%3A%20add%20missing%20need_resched%20check&type=Commits)
-* [a657124 cpuidle: kick all cpu after idle handler installed](https://github.com/search?q=cpuidle%3A%20kick%20all%20cpu%20after%20idle%20handler%20installed&type=Commits)
-* [781f964 cpuidle: lpm-levels: Remove local_irq_enable from lpm_cpuidle_select](https://github.com/search?q=cpuidle%3A%20lpm-levels%3A%20Remove%20local_irq_enable%20from%20lpm_cpuidle_select&type=Commits)
-* [473dac1 cpuidle: simplify multiple driver support](https://github.com/search?q=cpuidle%3A%20simplify%20multiple%20driver%20support&type=Commits)
-* [54ca6e3 cpuidle: Replace strnicmp with strncasecmp](https://github.com/search?q=cpuidle%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
-* [f0ee7cc cpuidle: Add need_resched() check](https://github.com/search?q=cpuidle%3A%20Add%20need_resched%28%29%20check&type=Commits)
-* [66a4884 lpm-levels: Move cpuidle tracepoints within lpm_levels](https://github.com/search?q=lpm-levels%3A%20Move%20cpuidle%20tracepoints%20within%20lpm_levels&type=Commits)
-* [c3d2ffd msm: lpm_levels: return new idle level to cpuidle framework](https://github.com/search?q=msm%3A%20lpm_levels%3A%20return%20new%20idle%20level%20to%20cpuidle%20framework&type=Commits)
-* [ecadeee cpuidle: check for need_resched() after the idle entry trace event](https://github.com/search?q=cpuidle%3A%20check%20for%20need_resched%28%29%20after%20the%20idle%20entry%20trace%20event&type=Commits)
-* [08d116a drivers: cpuidle: Remove counting of last_residency](https://github.com/search?q=drivers%3A%20cpuidle%3A%20Remove%20counting%20of%20last_residency&type=Commits)
-* [de0a749 drivers: lpm-levels: Don't allow idle low power modes during resume](https://github.com/search?q=drivers%3A%20lpm-levels%3A%20Don't%20allow%20idle%20low%20power%20modes%20during%20resume&type=Commits)
-* [a241941 asmlinkage: Make main_extable_sort_needed visible](https://github.com/search?q=asmlinkage%3A%20Make%20main_extable_sort_needed%20visible&type=Commits)
-* [74c6a9b extable: skip sorting if the table is empty](https://github.com/search?q=extable%3A%20skip%20sorting%20if%20the%20table%20is%20empty&type=Commits)
-* [4a4281d extable: add support for relative extables to search and sort routines](https://github.com/search?q=extable%3A%20add%20support%20for%20relative%20extables%20to%20search%20and%20sort%20routines&type=Commits)
-* [c89f994 lib/bsearch.c: micro-optimize pivot position calculation](https://github.com/search?q=lib/bsearch.c%3A%20micro-optimize%20pivot%20position%20calculation&type=Commits)
-* [42caef9 ASoC: tfa9890: Improve logging](https://github.com/search?q=ASoC%3A%20tfa9890%3A%20Improve%20logging&type=Commits)
-* [4742bf8 ASoC: tfa9890: Fix typo and improve formatting](https://github.com/search?q=ASoC%3A%20tfa9890%3A%20Fix%20typo%20and%20improve%20formatting&type=Commits)
-* [aea9944 ALSA: compress: Add ioctl declaration for gapless -Add ioctl declaration of SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM](https://github.com/search?q=ALSA%3A%20compress%3A%20Add%20ioctl%20declaration%20for%20gapless%20-Add%20ioctl%20declaration%20of%20SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM&type=Commits)
-* [453d4cb ASoC: core: Don't assign an out-of-bounds address to rtd_aux](https://github.com/search?q=ASoC%3A%20core%3A%20Don't%20assign%20an%20out-of-bounds%20address%20to%20rtd_aux&type=Commits)
-* [9a9b270 ALSA: timer: Fix race between read and ioctl](https://github.com/search?q=ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl&type=Commits)
-* [75b4047 ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT](https://github.com/search?q=ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT&type=Commits)
-* [5101b84 ALSA: compress: Add support to send codec specific data](https://github.com/search?q=ALSA%3A%20compress%3A%20Add%20support%20to%20send%20codec%20specific%20data&type=Commits)
-* [86ad8d8 ASoC: Avoid wrong map/unmap of ocmem](https://github.com/search?q=ASoC%3A%20Avoid%20wrong%20map/unmap%20of%20ocmem&type=Commits)
-* [fbc86a0 soc: msm: Fix offload may be no sound when user resumes music](https://github.com/search?q=soc%3A%20msm%3A%20Fix%20offload%20may%20be%20no%20sound%20when%20user%20resumes%20music&type=Commits)
-* [af11199 ASoC: msm: qdsp6v2: fix wma gapless failure](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20wma%20gapless%20failure&type=Commits)
-* [c4174e1 ASoC: msm: qdsp6v2: Handle additional codec specific metadata](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Handle%20additional%20codec%20specific%20metadata&type=Commits)
-* [47ef12b ASoC: msm: qdsp6v2: add support for ALAC/APE/VORBIS](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20add%20support%20for%20ALAC/APE/VORBIS&type=Commits)
-* [0b10c61 ASoC: msm: qdsp6v2: Fix bit alignment in snd_codec params](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20bit%20alignment%20in%20snd_codec%20params&type=Commits)
-* [e4903f6 ASoC: core: Add compat support for compress driver](https://github.com/search?q=ASoC%3A%20core%3A%20Add%20compat%20support%20for%20compress%20driver&type=Commits)
-* [4e5f353 Revert "ASoC: msm: qdsp6v2: Return error for invalid ioctl's"](https://github.com/search?q=Revert%20"ASoC%3A%20msm%3A%20qdsp6v2%3A%20Return%20error%20for%20invalid%20ioctl's"&type=Commits)
-* [ca26c6d ASoC: msm: qdsp6v2: enable gapless for FLAC offload playback](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20enable%20gapless%20for%20FLAC%20offload%20playback&type=Commits)
-* [36d97d2 ASoC: msm: Fix mismerge for FLAC path](https://github.com/search?q=ASoC%3A%20msm%3A%20Fix%20mismerge%20for%20FLAC%20path&type=Commits)
-* [2734737 ASoC: msm: fix indefinite wait in compress drain](https://github.com/search?q=ASoC%3A%20msm%3A%20fix%20indefinite%20wait%20in%20compress%20drain&type=Commits)
-* [5e7c5921 ASoC: compress: propagate the error code from the compress framework](https://github.com/search?q=%20ASoC%3A%20compress%3A%20propagate%20the%20error%20code%20from%20the%20compress%20framework&type=Commits)
-* [475f8a3 ASoC: msm: Interrupt events in compress free](https://github.com/search?q=ASoC%3A%20msm%3A%20Interrupt%20events%20in%20compress%20free&type=Commits)
-* [98b3641 ASoC: msm: Add support to improve debug logging](https://github.com/search?q=ASoC%3A%20msm%3A%20Add%20support%20to%20improve%20debug%20logging&type=Commits)
-* [1a00a3f ASoC: msm: qdsp6v2: Prevent ASM callback when client freed](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Prevent%20ASM%20callback%20when%20client%20freed&type=Commits)
-* [dd8b42d ASoC: msm: qdsp6v2: Track no wait commands](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Track%20no%20wait%20commands&type=Commits)
-* [4f29899 ASoC: msm: qdsp6v2: reduce debug logs](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20reduce%20debug%20logs&type=Commits)
-* [5130394 ASoC: msm: qdsp6v2: send right stream ID to DSP for FLAC](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20send%20right%20stream%20ID%20to%20DSP%20for%20FLAC&type=Commits)
-* [0c9912a ASoC: msm: qdsp6v2: add support for any number of ASM buffers](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20add%20support%20for%20any%20number%20of%20ASM%20buffers&type=Commits)
-* [a7d2cda ASoC: msm: qdsp6v2: fix callback handling of removing silence cmds](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20callback%20handling%20of%20removing%20silence%20cmds&type=Commits)
-* [9037040 ASoC: msm: qdsp6v2: update int to size_t](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20update%20int%20to%20size_t&type=Commits)
-* [9ab8002 ASoC: msm: Configure correct gain on set Volume command](https://github.com/search?q=ASoC%3A%20msm%3A%20Configure%20correct%20gain%20on%20set%20Volume%20command&type=Commits)
-* [82b25a9 ASoC: msm: qdsp6v2: add error handling on write done during partial drain](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20add%20error%20handling%20on%20write%20done%20during%20partial%20drain&type=Commits)
-* [403c19f SoC: msm: qdsp6v2: Enable gapless for pcm offload](https://github.com/search?q=SoC%3A%20msm%3A%20qdsp6v2%3A%20Enable%20gapless%20for%20pcm%20offload&type=Commits)
-* [22964f7 ASoC: msm: qdsp6v2: fix incomplete playback issue for non-gapless formats](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incomplete%20playback%20issue%20for%20non-gapless%20formats&type=Commits)
-* [30f951d ASoC: msm: Add check for NULL pointer and buffer overflow](https://github.com/search?q=ASoC%3A%20msm%3A%20Add%20check%20for%20NULL%20pointer%20and%20buffer%20overflow&type=Commits)
-* [14270e9 ASoC: msm: qdsp6v2: Handles additional flac metadata](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Handles%20additional%20flac%20metadata&type=Commits)
-* [8de498c ASoC: msm: qdsp6v2: Use EOS status flag for TRIGGER DRAIN](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Use%20EOS%20status%20flag%20for%20TRIGGER%20DRAIN&type=Commits)
-* [ac2627f ASoC: msm: qdsp6v2: Unblock EOS on reset event callback](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Unblock%20EOS%20on%20reset%20event%20callback&type=Commits)
-* [3472043 ASoC: compress: fix the target not going to TCXO shutdown](https://github.com/search?q=ASoC%3A%20compress%3A%20fix%20the%20target%20not%20going%20to%20TCXO%20shutdown&type=Commits)
-* [cb67fdb ASoC: msm: propagate the error code from the compr driver](https://github.com/search?q=ASoC%3A%20msm%3A%20propagate%20the%20error%20code%20from%20the%20compr%20driver&type=Commits)
-* [8765bfe ASoC: msm: qdsp6v2: remove flush wait queue](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20remove%20flush%20wait%20queue&type=Commits)
-* [6decbc6 ASoC: msm: qdsp6v2: post ENETRESET error during SSR](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20post%20ENETRESET%20error%20during%20SSR&type=Commits)
-* [eb09750 ASoC: msm: qdsp6v2: Fix invalid num_codecs](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20invalid%20num_codecs&type=Commits)
-* [5ad0ffc ASoC: compr: timestamp fix for non-gapless mode](https://github.com/search?q=ASoC%3A%20compr%3A%20timestamp%20fix%20for%20non-gapless%20mode&type=Commits)
-* [884c206 ASoC: msm: qdsp6v2: Fix offload gapless transition](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20offload%20gapless%20transition&type=Commits)
-* [df3c66d mfd: wcd9xxx-slimslave: Change slim driver to use %pK](https://github.com/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Change%20slim%20driver%20to%20use%20%pK&type=Commits)
-* [6725166 ASoC: wcd9xxx: Add check for pointer before dereferencing](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20pointer%20before%20dereferencing&type=Commits)
-* [0a6a228 mfd: wcd9xxx-irq: add pm awake and relax to hold wake lock](https://github.com/search?q=mfd%3A%20wcd9xxx-irq%3A%20add%20pm%20awake%20and%20relax%20to%20hold%20wake%20lock&type=Commits)
-* [ee6c594 ASoC: wcd9xxx: Add wcd codec interrupt ack](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20wcd%20codec%20interrupt%20ack&type=Commits)
-* [4473149 ASoC: wcd9xxx: Add check for array boundary](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20array%20boundary&type=Commits)
-* [8b30b58 mfd: wcd9xxx: Prevent null pointer dereference](https://github.com/search?q=mfd%3A%20wcd9xxx%3A%20Prevent%20null%20pointer%20dereference&type=Commits)
-* [44fe322 wcd9xxx: core: Fix crash while headset insert and remove](https://github.com/search?q=wcd9xxx%3A%20core%3A%20Fix%20crash%20while%20headset%20insert%20and%20remove&type=Commits)
-* [0e3ca98 ASoC: wcd9xxx: fix the NULL pointer dereference causing the crash](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20fix%20the%20NULL%20pointer%20dereference%20causing%20the%20crash&type=Commits)
-* [506710f mfd: wcd9xxx: Add range checking in function wcd9xxx_init_slimslave](https://github.com/search?q=mfd%3A%20wcd9xxx%3A%20Add%20range%20checking%20in%20function%20wcd9xxx_init_slimslave&type=Commits)
-* [cceebb0 mfd: wcd9xxx-slimslave: Return error to caller if buffer timeout happens](https://github.com/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Return%20error%20to%20caller%20if%20buffer%20timeout%20happens&type=Commits)
-* [8bd7160 ASoC: wcdxxxx: Add check for buffer overflow](https://github.com/search?q=ASoC%3A%20wcdxxxx%3A%20Add%20check%20for%20buffer%20overflow&type=Commits)
-* [0cd9e4e drivers: mfd: Cleanup of wcd drivers](https://github.com/search?q=drivers%3A%20mfd%3A%20Cleanup%20of%20wcd%20drivers&type=Commits)
-* [6ceeb7f mfd: wcd9xxx-slimslave: Remove unnecessary logging](https://github.com/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Remove%20unnecessary%20logging&type=Commits)
-* [5f913c4 ASoC: wcd9xxx: Add check for array boundary](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20array%20boundary&type=Commits)
-* [f65ffa2 ASoC: msm: qdsp6v2: Do not free memory that has not been unmapped from DSP](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Do%20not%20free%20memory%20that%20has%20not%20been%20unmapped%20from%20DSP&type=Commits)
-* [2d9e165 ASoC: qdsp6v2: fix potential bug of infinite loop](https://github.com/search?q=ASoC%3A%20qdsp6v2%3A%20fix%20potential%20bug%20of%20infinite%20loop&type=Commits)
-* [3f0850b ASoC: msm: qdsp6v2: check proxy port is open when closing](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20check%20proxy%20port%20is%20open%20when%20closing&type=Commits)
-* [f2453e5 ASoC: msm: qdsp6v2: Fix an incorrect string comparison logic](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20an%20incorrect%20string%20comparison%20logic&type=Commits)
-* [86cbd25 drivers: soc: qcom: Add overflow check in ADM driver](https://github.com/search?q=drivers%3A%20soc%3A%20qcom%3A%20Add%20overflow%20check%20in%20ADM%20driver&type=Commits)
-* [7e96c86 SoC: msm: qdsp6v2: Use the correct waitqueue name](https://github.com/search?q=SoC%3A%20msm%3A%20qdsp6v2%3A%20Use%20the%20correct%20waitqueue%20name&type=Commits)
-* [12d689e ASoC: q6asm: add the error handling for the interfaces from asm driver](https://github.com/search?q=ASoC%3A%20q6asm%3A%20add%20the%20error%20handling%20for%20the%20interfaces%20from%20asm%20driver&type=Commits)
-* [9787b89 ASoC: q6asm: fix the error during playback in ffbm](https://github.com/search?q=ASoC%3A%20q6asm%3A%20fix%20the%20error%20during%20playback%20in%20ffbm&type=Commits)
-* [28858a6 ASoC: q6asm: Fix the memory leak during the SSR](https://github.com/search?q=ASoC%3A%20q6asm%3A%20Fix%20the%20memory%20leak%20during%20the%20SSR&type=Commits)
-* [60d985b ASoC: msm: unblock the calls sent to the driver during SSR](https://github.com/search?q=ASoC%3A%20msm%3A%20unblock%20the%20calls%20sent%20to%20the%20driver%20during%20SSR&type=Commits)
-* [aa7ec45 ASoC: msm: qdsp6v2: fix null pointer access during SSR](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20null%20pointer%20access%20during%20SSR&type=Commits)
-* [970a181 ASoC: msm: qdsp6v2: check ion alloc return value](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20check%20ion%20alloc%20return%20value&type=Commits)
-* [0ff9fd7 ASoC: msm: qdsp6v2: Change client names for ion alloc](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20client%20names%20for%20ion%20alloc&type=Commits)
-* [d9cc8ae ASoC: msm: qdsp6v2: validate audio client in callback](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20validate%20audio%20client%20in%20callback&type=Commits)
-* [c38c7c6 ASoC: q6asm: add rate limit for prints to avoid excessive logging](https://github.com/search?q=ASoC%3A%20q6asm%3A%20add%20rate%20limit%20for%20prints%20to%20avoid%20excessive%20logging&type=Commits)
-* [7f1625e ASoC: msm: q6dspv2: fix potentional information leak](https://github.com/search?q=ASoC%3A%20msm%3A%20q6dspv2%3A%20fix%20potentional%20information%20leak&type=Commits)
-* [03eba2f ASoC: qdsp6v2: fix potential bug of infinite loop](https://github.com/search?q=ASoC%3A%20qdsp6v2%3A%20fix%20potential%20bug%20of%20infinite%20loop&type=Commits)
-* [b31c3aa ASoC: msm: qdsp6v2: Fix asm bitwidth for next track in gapless mode](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20asm%20bitwidth%20for%20next%20track%20in%20gapless%20mode&type=Commits)
-* [6b442ed ASoC: msm: qdsp6v2: Add FLAC in compress offload path](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Add%20FLAC%20in%20compress%20offload%20path&type=Commits)
-* [4e46c28 ASoC: msm: qdsp6v2: Unblock drain on reset event callback](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Unblock%20drain%20on%20reset%20event%20callback&type=Commits)
-* [fcf1107 ASoC: msm: qdsp6v2: Fix for cmd status overwrite](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20for%20cmd%20status%20overwrite&type=Commits)
-* [8d7ecc4 ASoC: msm: compr: Ensure drain sequence is executed](https://github.com/search?q=ASoC%3A%20msm%3A%20compr%3A%20Ensure%20drain%20sequence%20is%20executed&type=Commits)
-* [322ffaf msm: compr: Use irq{save/restore} version of spinlock](https://github.com/search?q=msm%3A%20compr%3A%20Use%20irq{save/restore}%20version%20of%20spinlock&type=Commits)
-* [38a7db7 drivers: qcom: ultrasound: Change audio drivers to use %pK](https://github.com/search?q=drivers%3A%20qcom%3A%20ultrasound%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
-* [65557d6 drivers: qcom: ultrasound: check concurrent device open operations](https://github.com/search?q=drivers%3A%20qcom%3A%20ultrasound%3A%20check%20concurrent%20device%20open%20operations&type=Commits)
-* [f8d673f drivers: qcom: ultrasound: Lock async driver calls](https://github.com/search?q=drivers%3A%20qcom%3A%20ultrasound%3A%20Lock%20async%20driver%20calls&type=Commits)
-* [3c624d7 drivers: qcom: ultrasound: fix to struct used in compat mode](https://github.com/search?q=drivers%3A%20qcom%3A%20ultrasound%3A%20fix%20to%20struct%20used%20in%20compat%20mode&type=Commits)
-* [fe7a4e9 msm: ultrasound: ignore kmemleak false detection](https://github.com/search?q=msm%3A%20ultrasound%3A%20ignore%20kmemleak%20false%20detection&type=Commits)
-* [5bc9d50 msm: ultrasound: add support for stream parameters](https://github.com/search?q=msm%3A%20ultrasound%3A%20add%20support%20for%20stream%20parameters&type=Commits)
-* [e810a3e msm: ultrasound: add support for aDSP Sub-System Restart](https://github.com/search?q=msm%3A%20ultrasound%3A%20add%20support%20for%20aDSP%20Sub-System%20Restart&type=Commits)
-* [46174d3 msm: ultrasound: reorganize kernel driver under misc drivers](https://github.com/search?q=msm%3A%20ultrasound%3A%20reorganize%20kernel%20driver%20under%20misc%20drivers&type=Commits)
-* [8f931cd Revert "msm: qdsp6v2: optimize for size"](https://github.com/search?q=Revert%20"msm%3A%20qdsp6v2%3A%20optimize%20for%20size"&type=Commits)
-* [d540ad7 ALSA: timer: remove legacy rtctimer](https://github.com/search?q=ALSA%3A%20timer%3A%20remove%20legacy%20rtctimer&type=Commits)
-* [4331fc2 ALSA: timer: Fix zero-division by continue of uninitialized instance](https://github.com/search?q=ALSA%3A%20timer%3A%20Fix%20zero-division%20by%20continue%20of%20uninitialized%20instance&type=Commits)
-* [610e440 ALSA: Replace with IS_ENABLED()](https://github.com/search?q=ALSA%3A%20Replace%20with%20IS_ENABLED%28%29&type=Commits)
-* [85fa896 ALSA: timer: Fix negative queue usage by racy accesses](https://github.com/search?q=ALSA%3A%20timer%3A%20Fix%20negative%20queue%20usage%20by%20racy%20accesses&type=Commits)
-* [f4109cf ALSA: timer: Call notifier in the same spinlock](https://github.com/search?q=ALSA%3A%20timer%3A%20Call%20notifier%20in%20the%20same%20spinlock&type=Commits)
-* [662051e ALSA: timer: Protect the whole snd_timer_close() with open race](https://github.com/search?q=ALSA%3A%20timer%3A%20Protect%20the%20whole%20snd_timer_close%28%29%20with%20open%20race&type=Commits)
-* [dce6f5d ALSA: timer: Sync timer deletion at closing the system timer](https://github.com/search?q=ALSA%3A%20timer%3A%20Sync%20timer%20deletion%20at%20closing%20the%20system%20timer&type=Commits)
-* [eeac537 ALSA: timer: Introduce disconnect op to snd_timer_instance](https://github.com/search?q=ALSA%3A%20timer%3A%20Introduce%20disconnect%20op%20to%20snd_timer_instance&type=Commits)
-* [f7f5904 ALSA: timer: fix NULL pointer dereference in read()/ioctl() race](https://github.com/search?q=ALSA%3A%20timer%3A%20fix%20NULL%20pointer%20dereference%20in%20read%28%29/ioctl%28%29%20race&type=Commits)
-* [c316d8d ALSA: timer: Fix race at concurrent reads](https://github.com/search?q=ALSA%3A%20timer%3A%20Fix%20race%20at%20concurrent%20reads&type=Commits)
-* [943fb49 ALSA: timer: Handle disconnection more safely](https://github.com/search?q=ALSA%3A%20timer%3A%20Handle%20disconnection%20more%20safely&type=Commits)
-* [9497b9b Revert "ALSA: timer: fix NULL pointer dereference in read()/ioctl() race"](https://github.com/search?q=Revert%20"ALSA%3A%20timer%3A%20fix%20NULL%20pointer%20dereference%20in%20read%28%29/ioctl%28%29%20race"&type=Commits)
-* [1304bb9 ASoC: msm: qdsp6v2: Update supported sample rates](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Update%20supported%20sample%20rates&type=Commits)
-* [714a3c7 wcd9xxx: Fix NCP fclk level enable/disable sequence](https://github.com/search?q=wcd9xxx%3A%20Fix%20NCP%20fclk%20level%20enable/disable%20sequence&type=Commits)
-* [ed91dbf ASoC: msm: fix the hph and lineout concurrency](https://github.com/search?q=ASoC%3A%20msm%3A%20fix%20the%20hph%20and%20lineout%20concurrency&type=Commits)
-* [d2eae58 ASoC: wcd_cpe_services: Fix CPE reset sequence](https://github.com/search?q=ASoC%3A%20wcd_cpe_services%3A%20Fix%20CPE%20reset%20sequence&type=Commits)
-* [9d2f064 ASoC: wcd9320: Change headphone CnP settings](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Change%20headphone%20CnP%20settings&type=Commits)
-* [36cb40c ASoC: wcd9xxx: Add check for NULL pointer and buffer overflow](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20NULL%20pointer%20and%20buffer%20overflow&type=Commits)
-* [4c3b5e6 ASoC: wcd9320: Change formating for mbhc detection](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Change%20formating%20for%20mbhc%20detection&type=Commits)
-* [6e259fd ASoC: wcd9320: Add HD2 tuning coefficients for HPH path](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Add%20HD2%20tuning%20coefficients%20for%20HPH%20path&type=Commits)
-* [46b2475 ASoC: wcd9320: Fix 24 bit format for codec dai's](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Fix%2024%20bit%20format%20for%20codec%20dai's&type=Commits)
-* [92390a2 ASoC: wcd9xxx: Clear unsupported jack from hph status](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Clear%20unsupported%20jack%20from%20hph%20status&type=Commits)
-* [5cf3df0 ASoC: wcd9320: Update condition to disable HPH PA after impedance detection](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Update%20condition%20to%20disable%20HPH%20PA%20after%20impedance%20detection&type=Commits)
-* [5344d7f ASoC: wcd9320: Add NULL check to avoid crash](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Add%20NULL%20check%20to%20avoid%20crash&type=Commits)
-* [a1b25b5 ASoC: wcd9320: Adjust HPH bias current to 3.5uA](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Adjust%20HPH%20bias%20current%20to%203.5uA&type=Commits)
-* [8dda2b8 ASoC: wcd9320: Optimize delay after micbias enable](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Optimize%20delay%20after%20micbias%20enable&type=Commits)
-* [f48cf6d ASoC: wcd9320: Notify MBHC as soon as HPH PA is turned off](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Notify%20MBHC%20as%20soon%20as%20HPH%20PA%20is%20turned%20off&type=Commits)
-* [9c26a8f ASoC: wcd9320: UHQA mode changes](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20UHQA%20mode%20changes&type=Commits)
-* [3411429 ASoC: wcd9320: Enable proper teardown sequence](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Enable%20proper%20teardown%20sequence&type=Commits)
-* [748547b ASoC: wcd9xxx: Change in sequence of HPH Rx path](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Change%20in%20sequence%20of%20HPH%20Rx%20path&type=Commits)
-* [4d9940d ASoC: wcd9320: Wait for enough time for Line PAs to get settled](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Wait%20for%20enough%20time%20for%20Line%20PAs%20to%20get%20settled&type=Commits)
-* [e541ef3 ASoC: wcd9xxx: Set chopper settings for UHQA mode](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Set%20chopper%20settings%20for%20UHQA%20mode&type=Commits)
-* [13efe7a ASoC: wcd9xxx: Changes for High performance mode](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Changes%20for%20High%20performance%20mode&type=Commits)
-* [2dd4548 ASoC: wcd9320: Use class AB headphone path for high-res formats](https://github.com/search?q=ASoC%3A%20wcd9320%3A%20Use%20class%20AB%20headphone%20path%20for%20high-res%20formats&type=Commits)
 * [03e1358 lib: introduce upper case hex ascii helpers](https://github.com/search?q=lib%3A%20introduce%20upper%20case%20hex%20ascii%20helpers&type=Commits)
 * [c63275b rcu: Squashed commit of the following:](https://github.com/search?q=rcu%3A%20Squashed%20commit%20of%20the%20following%3A&type=Commits)
 * [ccdbaef lib/vsprintf.c: squash commits up tp https://github.com/torvalds/linux/commit/675cf53c1deaffadc7b6a0b4afe6cdafec86bedb#diff-26ab5d5fc75f4b8ed497c269d1f33ff2](https://github.com/search?q=lib/vsprintf.c%3A%20squash%20commits%20up%20tp%20https%3A//github.com/torvalds/linux/commit/675cf53c1deaffadc7b6a0b4afe6cdafec86bedb%23diff-26ab5d5fc75f4b8ed497c269d1f33ff2&type=Commits)
@@ -869,72 +633,7 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### Vendor/Quark/
 * [ee7463c Quark: update substratum and carrierservices](https://github.com/search?q=Quark%3A%20update%20substratum%20and%20carrierservices&type=Commits)
-* [151f5ed Quark: don't use all app prebuild as it will breack updates](https://github.com/search?q=Quark%3A%20don't%20use%20all%20app%20prebuild%20as%20it%20will%20breack%20updates&type=Commits)
-
-#### Device specific Changes of 08-20-2017 End.
-
-***
-
-#### CRDroid Android Nougat source changes of 08-20-2017:
-
-#### frameworks/base/
-* [e8836cd Tweak Privacy Guard dialog layout](https://github.com/search?q=Tweak%20Privacy%20Guard%20dialog%20layout&type=Commits)
-* [79509bc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-* [85f87c4 PowerManager: Allow to distinguish different keypresses](https://github.com/search?q=PowerManager%3A%20Allow%20to%20distinguish%20different%20keypresses&type=Commits)
-
-#### hardware/ril-caf/
-* [d8290dd ril: Allow targets to disable Clang](https://github.com/search?q=ril%3A%20Allow%20targets%20to%20disable%20Clang&type=Commits)
-
-#### packages/apps/AudioFX/
-* [39c6ce2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Jelly/
-* [b6ba24f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Messaging/
-* [0b0899a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Settings/
-* [5bb707b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Terminal/
-* [3f23959 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/UnifiedEmail/
-* [8a9f67d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/crDroidSettings/
-* [ee8af30 Update Italian translations](https://github.com/search?q=Update%20Italian%20translations&type=Commits)
-* [187af84 Merge pull request #85 from gwolf2u/patch-1](https://github.com/search?q=Merge%20pull%20request%20%2385%20from%20gwolf2u/patch-1&type=Commits)
-* [cc2fc6d crdroid: corrected typo](https://github.com/search?q=crdroid%3A%20corrected%20typo&type=Commits)
-* [b6a11e3 Merge pull request #83 from saikatrockz/7.1](https://github.com/search?q=Merge%20pull%20request%20%2383%20from%20saikatrockz/7.1&type=Commits)
-* [ca66f7f Merge pull request #84 from gwolf2u/7.1](https://github.com/search?q=Merge%20pull%20request%20%2384%20from%20gwolf2u/7.1&type=Commits)
-* [4e2576a crdroid: add LG G6 INTL](https://github.com/search?q=crdroid%3A%20add%20LG%20G6%20INTL&type=Commits)
-* [6a5d8a1 Add device and maintainer for Redmi 4/4x](https://github.com/search?q=Add%20device%20and%20maintainer%20for%20Redmi%204/4x&type=Commits)
-* [68d9e17 Merge pull request #75 from sunsettrack4/7.1](https://github.com/search?q=Merge%20pull%20request%20%2375%20from%20sunsettrack4/7.1&type=Commits)
-
-#### packages/resources/devicesettings/
-* [9620e09 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### vendor/cm/
-* [d05e465 update readme](https://github.com/search?q=update%20readme&type=Commits)
-
-#### vendor/crDroidOTA-devices/
-* [4635638 Update oneplus5 cheeseburger](https://github.com/search?q=Update%20oneplus5%20cheeseburger&type=Commits)
-* [79ebdbe v3.7](https://github.com/search?q=v3.7&type=Commits)
-
-#### CRDroid Android Nougat source changes of 08-20-2017 End.
-
-08-19-2017
-====================
-
-#### Device specific Changes of 08-19-2017 Start:
-
-#### Device/Quark/
-* [2455568 Quark: use default RIL repo](https://github.com/search?q=Quark%3A%20use%20default%20RIL%20repo&type=Commits)
-* [96f36cb Quark: CarrierConfig: Enable world mode for verizon Prevents duplication of the APN menu.](https://github.com/search?q=Quark%3A%20CarrierConfig%3A%20Enable%20world%20mode%20for%20verizon%20Prevents%20duplication%20of%20the%20APN%20menu.&type=Commits)
-
-#### Vendor/Quark/
+* [151f5ed Quark: don't use all app prebuild as it will breack updates](https://github.com/search?q=Quark%3A%20don%27t%20use%20all%20app%20prebuild%20as%20it%20will%20breack%20updates&type=Commits)
 * [f571314 Quark: update app from shamu](https://github.com/search?q=Quark%3A%20update%20app%20from%20shamu&type=Commits)
 * [1d26d00 Quark: update Thermal-engine and thermal libs](https://github.com/search?q=Quark%3A%20update%20Thermal-engine%20and%20thermal%20libs&type=Commits)
 * [7ff085c Quark: use BUILD_PREBUILT on all apks](https://github.com/search?q=Quark%3A%20use%20BUILD_PREBUILT%20on%20all%20apks&type=Commits)
@@ -946,11 +645,12 @@ CRDroid Android Nougat source and Quark Changelog:
 #### CRDroid Android Nougat source changes of 08-19-2017:
 
 #### frameworks/base/
-* [c43051c Add @hide annotation to the privacy guard ops set](https://github.com/search?q=Add%20%40hide%20annotation%20to%20the%20privacy%20guard%20ops%20set&type=Commits)
-* [d0bf054 Change visibility of the Privacy Guard ops set](https://github.com/search?q=Change%20visibility%20of%20the%20Privacy%20Guard%20ops%20set&type=Commits)
+* [85f87c4 PowerManager: Allow to distinguish different keypresses](https://github.com/search?q=PowerManager%3A%20Allow%20to%20distinguish%20different%20keypresses&type=Commits)
 
-#### packages/apps/Settings/
-* [f02e040 Settings: Always show Privacy Guard permissions](https://github.com/search?q=Settings%3A%20Always%20show%20Privacy%20Guard%20permissions&type=Commits)
+#### packages/apps/crDroidSettings/
+* [4e2576a crdroid: add LG G6 INTL](https://github.com/search?q=crdroid%3A%20add%20LG%20G6%20INTL&type=Commits)
+* [6a5d8a1 Add device and maintainer for Redmi 4/4x](https://github.com/search?q=Add%20device%20and%20maintainer%20for%20Redmi%204/4x&type=Commits)
+* [68d9e17 Merge pull request #75 from sunsettrack4/7.1](https://github.com/search?q=Merge%20pull%20request%20%2375%20from%20sunsettrack4/7.1&type=Commits)
 
 #### vendor/crDroidOTA-devices/
 * [9baa014 OTA: update potter to 3.7](https://github.com/search?q=OTA%3A%20update%20potter%20to%203.7&type=Commits)
@@ -967,9 +667,6 @@ CRDroid Android Nougat source and Quark Changelog:
 * [4b631c5 Quark: Update sepolicy](https://github.com/search?q=Quark%3A%20Update%20sepolicy&type=Commits)
 * [83d0f13 Quark: update cleanup sh](https://github.com/search?q=Quark%3A%20update%20cleanup%20sh&type=Commits)
 
-#### Vendor/Quark/
-* [c6be077 Quark: update Turbotoast](https://github.com/search?q=Quark%3A%20update%20Turbotoast&type=Commits)
-
 #### Device specific Changes of 08-18-2017 End.
 
 ***
@@ -977,29 +674,43 @@ CRDroid Android Nougat source and Quark Changelog:
 #### CRDroid Android Nougat source changes of 08-18-2017:
 
 #### device/qcom/sepolicy/
+* [96615af msm8974: Do not grant DAC override permission to netmgrd](https://github.com/search?q=msm8974%3A%20Do%20not%20grant%20DAC%20override%20permission%20to%20netmgrd&type=Commits)
 * [c631819 Use set_prop() macro for property sets](https://github.com/search?q=Use%20set_prop%28%29%20macro%20for%20property%20sets&type=Commits)
 
 #### external/libphonenumber/
 * [05120d3 Upgrade to 8.7.1](https://github.com/search?q=Upgrade%20to%208.7.1&type=Commits)
+
+#### frameworks/base/
+* [c43051c Add @hide annotation to the privacy guard ops set](https://github.com/search?q=Add%20%40hide%20annotation%20to%20the%20privacy%20guard%20ops%20set&type=Commits)
+* [d0bf054 Change visibility of the Privacy Guard ops set](https://github.com/search?q=Change%20visibility%20of%20the%20Privacy%20Guard%20ops%20set&type=Commits)
 
 #### frameworks/native/
 * [afbd1c1 InputDispatcher: On keypress, deliver keycode to pokeUserActivity](https://github.com/search?q=InputDispatcher%3A%20On%20keypress,%20deliver%20keycode%20to%20pokeUserActivity&type=Commits)
 * [766d692 PowerManager.h: Define USER_ACTIVITY_FLAG values](https://github.com/search?q=PowerManager.h%3A%20Define%20USER_ACTIVITY_FLAG%20values&type=Commits)
 * [c1f311b native: Increase ART heap limit to 192MB for 1024MB RAM devices](https://github.com/search?q=native%3A%20Increase%20ART%20heap%20limit%20to%20192MB%20for%201024MB%20RAM%20devices&type=Commits)
 
+#### packages/apps/Settings/
+* [f02e040 Settings: Always show Privacy Guard permissions](https://github.com/search?q=Settings%3A%20Always%20show%20Privacy%20Guard%20permissions&type=Commits)
+
 #### CRDroid Android Nougat source changes of 08-18-2017 End.
 
 08-17-2017
 ====================
 
+#### Device specific Changes of 08-17-2017 Start:
+
+#### Vendor/Quark/
+* [c6be077 Quark: update Turbotoast](https://github.com/search?q=Quark%3A%20update%20Turbotoast&type=Commits)
+
+#### Device specific Changes of 08-17-2017 End.
+
+***
+
 #### CRDroid Android Nougat source changes of 08-17-2017:
 
-#### frameworks/base/
-* [72a04fd Camera2: Fix Error Callback if buffer lost.](https://github.com/search?q=Camera2%3A%20Fix%20Error%20Callback%20if%20buffer%20lost.&type=Commits)
-* [92add56 Camera: ignore torch status update for aux or compsite camera](https://github.com/search?q=Camera%3A%20ignore%20torch%20status%20update%20for%20aux%20or%20compsite%20camera&type=Commits)
-
-#### packages/apps/Settings/
-* [a2f914c Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."](https://github.com/search?q=Revert%20"Settings[Wifi]%3A%20fix%20the%20input%20invalid%20length%20for%20WEP%20encryption."&type=Commits)
+#### hardware/qcom/wlan-caf/
+* [93c8631 WifiHAL: Free the stats received so far if requestResponse() fails](https://github.com/search?q=WifiHAL%3A%20Free%20the%20stats%20received%20so%20far%20if%20requestResponse%28%29%20fails&type=Commits)
+* [eabd5a6 Wifi-HAL: Move llstats freeing to a common API](https://github.com/search?q=Wifi-HAL%3A%20Move%20llstats%20freeing%20to%20a%20common%20API&type=Commits)
 
 #### CRDroid Android Nougat source changes of 08-17-2017 End.
 
@@ -1020,17 +731,21 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 08-16-2017:
 
+#### frameworks/base/
+* [72a04fd Camera2: Fix Error Callback if buffer lost.](https://github.com/search?q=Camera2%3A%20Fix%20Error%20Callback%20if%20buffer%20lost.&type=Commits)
+* [92add56 Camera: ignore torch status update for aux or compsite camera](https://github.com/search?q=Camera%3A%20ignore%20torch%20status%20update%20for%20aux%20or%20compsite%20camera&type=Commits)
+
 #### hardware/cyanogen/
 * [e2f8e45 livedisplay: SDM: Add support for DCI-P3 display mode](https://github.com/search?q=livedisplay%3A%20SDM%3A%20Add%20support%20for%20DCI-P3%20display%20mode&type=Commits)
 
 #### hardware/qcom/bt-caf/
-* [328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"](https://github.com/search?q=Revert%20"Merge%20tag%20'LA.UM.5.5.r1-04900-8x96.0'%20into%20HEAD"&type=Commits)
+* [328d8af Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD"](https://github.com/search?q=Revert%20"Merge%20tag%20%27LA.UM.5.5.r1-04900-8x96.0%27%20into%20HEAD"&type=Commits)
 
 #### packages/apps/Jelly/
 * [21b9d05 Jelly: Check for onChanged in history data observer](https://github.com/search?q=Jelly%3A%20Check%20for%20onChanged%20in%20history%20data%20observer&type=Commits)
 
-#### vendor/crDroidOTA-devices/
-* [8e95c98 Xiaomi Mi Max (hydrogen) OTA + Changelog](https://github.com/search?q=Xiaomi%20Mi%20Max%20%28hydrogen%29%20OTA%20+%20Changelog&type=Commits)
+#### packages/apps/Settings/
+* [a2f914c Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."](https://github.com/search?q=Revert%20"Settings[Wifi]%3A%20fix%20the%20input%20invalid%20length%20for%20WEP%20encryption."&type=Commits)
 
 #### CRDroid Android Nougat source changes of 08-16-2017 End.
 
@@ -1055,11 +770,11 @@ CRDroid Android Nougat source and Quark Changelog:
 * [1ea2382 Jelly: Improve URL bar behavior](https://github.com/search?q=Jelly%3A%20Improve%20URL%20bar%20behavior&type=Commits)
 
 #### vendor/crDroidOTA-devices/
-* [9422bf1 Merge branch '7.1' of https://github.com/crdroid-devices/android_vendor_crDroidOTA into HEAD](https://github.com/search?q=Merge%20branch%20'7.1'%20of%20https%3A//github.com/crdroid-devices/android_vendor_crDroidOTA%20into%20HEAD&type=Commits)
+* [8e95c98 Xiaomi Mi Max (hydrogen) OTA + Changelog](https://github.com/search?q=Xiaomi%20Mi%20Max%20%28hydrogen%29%20OTA%20+%20Changelog&type=Commits)
+* [9422bf1 Merge branch '7.1' of https://github.com/crdroid-devices/android_vendor_crDroidOTA into HEAD](https://github.com/search?q=Merge%20branch%20%277.1%27%20of%20https%3A//github.com/crdroid-devices/android_vendor_crDroidOTA%20into%20HEAD&type=Commits)
 * [d5b7a25 update h870 to build crDroidAndroid-7.1.2-20170815](https://github.com/search?q=update%20h870%20to%20build%20crDroidAndroid-7.1.2-20170815&type=Commits)
 * [871cfef OTA: update tomato & s2 to 3.7](https://github.com/search?q=OTA%3A%20update%20tomato%20&%20s2%20to%203.7&type=Commits)
 * [0b09ac6 OTA: update mido to 3.7](https://github.com/search?q=OTA%3A%20update%20mido%20to%203.7&type=Commits)
-* [14b055f Update all klte variants.](https://github.com/search?q=Update%20all%20klte%20variants.&type=Commits)
 
 #### CRDroid Android Nougat source changes of 08-15-2017 End.
 
@@ -1067,9 +782,6 @@ CRDroid Android Nougat source and Quark Changelog:
 ====================
 
 #### CRDroid Android Nougat source changes of 08-14-2017:
-
-#### frameworks/base/
-* [0bea0a1 SEEMP: Adding auth framework for outgoing SMS messages.](https://github.com/search?q=SEEMP%3A%20Adding%20auth%20framework%20for%20outgoing%20SMS%20messages.&type=Commits)
 
 #### packages/apps/DeskClock/
 * [436ce6a clock: Reset profile if profile is already selected](https://github.com/search?q=clock%3A%20Reset%20profile%20if%20profile%20is%20already%20selected&type=Commits)
@@ -1080,6 +792,7 @@ CRDroid Android Nougat source and Quark Changelog:
 * [876d51c AppOps: Redesign](https://github.com/search?q=AppOps%3A%20Redesign&type=Commits)
 
 #### vendor/crDroidOTA-devices/
+* [14b055f Update all klte variants.](https://github.com/search?q=Update%20all%20klte%20variants.&type=Commits)
 * [32bc167 Kipper v3.7](https://github.com/search?q=Kipper%20v3.7&type=Commits)
 * [43097dd V3.7](https://github.com/search?q=V3.7&type=Commits)
 * [6d35639 fixed cheeseburger xml info](https://github.com/search?q=fixed%20cheeseburger%20xml%20info&type=Commits)
