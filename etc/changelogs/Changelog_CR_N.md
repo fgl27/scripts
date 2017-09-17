@@ -3,6 +3,278 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+09-17-2017
+====================
+
+#### Device specific Changes of 09-17-2017 Start:
+
+#### Device/Quark/
+* [13d8303 Quark: init.power set bcl mitigation-freq 1267200 at bootcomplete](https://github.com/search?q=Quark%3A%20init.power%20set%20bcl%20mitigation-freq%201267200%20at%20bootcomplete&type=Commits)
+
+#### Kernel/Quark/
+* [576e53b defconfig disable not used SCSI configs](https://github.com/search?q=defconfig%20disable%20not%20used%20SCSI%20configs&type=Commits)
+* [c4c4d6f devfreq: Fix store_polling_interval](https://github.com/search?q=devfreq%3A%20Fix%20store_polling_interval&type=Commits)
+* [ffff8d1 apq8084: ipa: remove redundant NULL pointer check](https://github.com/search?q=apq8084%3A%20ipa%3A%20remove%20redundant%20NULL%20pointer%20check&type=Commits)
+* [29fe063 msm: camera: isp: fix for out of bound access array](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20fix%20for%20out%20of%20bound%20access%20array&type=Commits)
+* [fc1ed68 wcnss: fix the potential memory leak and heap overflow](https://github.com/search?q=wcnss%3A%20fix%20the%20potential%20memory%20leak%20and%20heap%20overflow&type=Commits)
+* [5793949 Add missing fix from caf commit 23c6ea43b](https://github.com/search?q=Add%20missing%20fix%20from%20caf%20commit%2023c6ea43b&type=Commits)
+* [476248d wcnss: add condition to check for pronto ver3 hardware](https://github.com/search?q=wcnss%3A%20add%20condition%20to%20check%20for%20pronto%20ver3%20hardware&type=Commits)
+* [c5d5532 bcl: allow even lower mit freq](https://github.com/search?q=bcl%3A%20allow%20even%20lower%20mit%20freq&type=Commits)
+* [b113919 Revert "Prevent potential double frees in sg driver"](https://github.com/search?q=Revert%20"Prevent%20potential%20double%20frees%20in%20sg%20driver"&type=Commits)
+* [18f3cf6 Revert "dm ioctl: prevent stack leak in dm ioctl call"](https://github.com/search?q=Revert%20"dm%20ioctl%3A%20prevent%20stack%20leak%20in%20dm%20ioctl%20call"&type=Commits)
+* [75da7e1 Revert "UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT"](https://github.com/search?q=Revert%20"UPSTREAM%3A%20ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT"&type=Commits)
+* [dc073ee Revert "BACKPORT: ALSA: timer: Fix race between read and ioctl"](https://github.com/search?q=Revert%20"BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl"&type=Commits)
+* [e5a6718 Revert "msm: sensor: Validationg function pointers before using them"](https://github.com/search?q=Revert%20"msm%3A%20sensor%3A%20Validationg%20function%20pointers%20before%20using%20them"&type=Commits)
+* [928b6ba Revert "BACKPORT: crypto: msm: Fix buffer overflow issue"](https://github.com/search?q=Revert%20"BACKPORT%3A%20crypto%3A%20msm%3A%20Fix%20buffer%20overflow%20issue"&type=Commits)
+* [a5eeefe Revert "msm: sps: Fix race condition in SPS debugfs APIs"](https://github.com/search?q=Revert%20"msm%3A%20sps%3A%20Fix%20race%20condition%20in%20SPS%20debugfs%20APIs"&type=Commits)
+* [bdcaac4 Revert "msm: camera: isp: Avoid information leak in ISPIF"](https://github.com/search?q=Revert%20"msm%3A%20camera%3A%20isp%3A%20Avoid%20information%20leak%20in%20ISPIF"&type=Commits)
+* [74fbde5 msm: camera: Allow driver file to be opend only once.](https://github.com/search?q=msm%3A%20camera%3A%20Allow%20driver%20file%20to%20be%20opend%20only%20once.&type=Commits)
+* [2af62a5 BACKPORT: ipv6/dccp: do not inherit ipv6_mc_list from parent](https://github.com/search?q=BACKPORT%3A%20ipv6/dccp%3A%20do%20not%20inherit%20ipv6_mc_list%20from%20parent&type=Commits)
+* [a62d3a0 UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT](https://github.com/search?q=UPSTREAM%3A%20ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT&type=Commits)
+* [aaedf8f BACKPORT: ALSA: timer: Fix race between read and ioctl](https://github.com/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl&type=Commits)
+* [0fee5c2 BACKPORT: dccp/tcp: do not inherit mc_list from parent](https://github.com/search?q=BACKPORT%3A%20dccp/tcp%3A%20do%20not%20inherit%20mc_list%20from%20parent&type=Commits)
+* [08066e3 BACKPORT: msm: camera: Avoid exposing kernel addresses](https://github.com/search?q=BACKPORT%3A%20msm%3A%20camera%3A%20Avoid%20exposing%20kernel%20addresses&type=Commits)
+* [a7235f0 msm: camera: sensor: remove unnecessary logs](https://github.com/search?q=msm%3A%20camera%3A%20sensor%3A%20remove%20unnecessary%20logs&type=Commits)
+* [4886381 msm: camera: Make wait functions in camera driver not interruptible](https://github.com/search?q=msm%3A%20camera%3A%20Make%20wait%20functions%20in%20camera%20driver%20not%20interruptible&type=Commits)
+* [0c50e94 ASoC: msm: qdsp6v2: extend validation of virtual address](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20extend%20validation%20of%20virtual%20address&type=Commits)
+* [78d64fd msm: sensor: Validationg function pointers before using them](https://github.com/search?q=msm%3A%20sensor%3A%20Validationg%20function%20pointers%20before%20using%20them&type=Commits)
+* [4af3c1b BACKPORT: crypto: msm: Fix buffer overflow issue](https://github.com/search?q=BACKPORT%3A%20crypto%3A%20msm%3A%20Fix%20buffer%20overflow%20issue&type=Commits)
+* [2fbaa61 msm: camera: isp: Avoid information leak in ISPIF](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20Avoid%20information%20leak%20in%20ISPIF&type=Commits)
+* [36eb53a msm: ipa: fix security issues in ipa wan driver](https://github.com/search?q=msm%3A%20ipa%3A%20fix%20security%20issues%20in%20ipa%20wan%20driver&type=Commits)
+* [559ed1c msm: ipa: fix the mux_channel buffer overflow](https://github.com/search?q=msm%3A%20ipa%3A%20fix%20the%20mux_channel%20buffer%20overflow&type=Commits)
+* [5186250 msm:camera: correct stats query out of boundary](https://github.com/search?q=msm%3Acamera%3A%20correct%20stats%20query%20out%20of%20boundary&type=Commits)
+* [c5c1276 msm: camera: fix off-by-one overflow in msm_isp_get_bufq](https://github.com/search?q=msm%3A%20camera%3A%20fix%20off-by-one%20overflow%20in%20msm_isp_get_bufq&type=Commits)
+* [aa6ec66 Prevent potential double frees in sg driver](https://github.com/search?q=Prevent%20potential%20double%20frees%20in%20sg%20driver&type=Commits)
+* [3a52cde dm ioctl: prevent stack leak in dm ioctl call](https://github.com/search?q=dm%20ioctl%3A%20prevent%20stack%20leak%20in%20dm%20ioctl%20call&type=Commits)
+* [641cfa2 msm: camera: Fix Use after free bug in msm_vb2.c.](https://github.com/search?q=msm%3A%20camera%3A%20Fix%20Use%20after%20free%20bug%20in%20msm_vb2.c.&type=Commits)
+* [04c29e2 msm: camera: Use mutex lock to avoid race condition](https://github.com/search?q=msm%3A%20camera%3A%20Use%20mutex%20lock%20to%20avoid%20race%20condition&type=Commits)
+* [15ab424 msm: sps: Fix race condition in SPS debugfs APIs](https://github.com/search?q=msm%3A%20sps%3A%20Fix%20race%20condition%20in%20SPS%20debugfs%20APIs&type=Commits)
+* [97a4478 apq8084: Silence log spam](https://github.com/search?q=apq8084%3A%20Silence%20log%20spam&type=Commits)
+* [2523d6c CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free](https://github.com/search?q=CHROMIUM%3A%20usb%3A%20gadget%3A%20configfs%3A%20Fix%20KASAN%20use-after-free&type=Commits)
+* [939c8d7 usb: gadget: dwc3: Improve interrupt handler performance](https://github.com/search?q=usb%3A%20gadget%3A%20dwc3%3A%20Improve%20interrupt%20handler%20performance&type=Commits)
+
+#### Vendor/Quark/
+* [8f00a8a Quark: up KA](https://github.com/search?q=Quark%3A%20up%20KA&type=Commits)
+
+#### Device specific Changes of 09-17-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 09-17-2017:
+
+#### frameworks/av/
+* [f80e21a audioflinger: Use offloaded effects in case of PCM offload](https://github.com/search?q=audioflinger%3A%20Use%20offloaded%20effects%20in%20case%20of%20PCM%20offload&type=Commits)
+
+#### frameworks/base/
+* [62df546 Revert "Fix memory-leak warnings from the static analyzer"](https://github.com/search?q=Revert%20"Fix%20memory-leak%20warnings%20from%20the%20static%20analyzer"&type=Commits)
+* [4300365 Revert "Add make_unique function for jni"](https://github.com/search?q=Revert%20"Add%20make_unique%20function%20for%20jni"&type=Commits)
+* [5819336 Revert "Fix AVD memory leak"](https://github.com/search?q=Revert%20"Fix%20AVD%20memory%20leak"&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-17-2017 End.
+
+09-16-2017
+====================
+
+#### Device specific Changes of 09-16-2017 Start:
+
+#### Device/Quark/
+* [31534c1 Quark: update clenup sh](https://github.com/search?q=Quark%3A%20update%20clenup%20sh&type=Commits)
+* [4e77cba Quark: liblight only disable led if brightness is 0](https://github.com/search?q=Quark%3A%20liblight%20only%20disable%20led%20if%20brightness%20is%200&type=Commits)
+* [067fe3b Quark: init.qcom drop not existent led paths](https://github.com/search?q=Quark%3A%20init.qcom%20drop%20not%20existent%20led%20paths&type=Commits)
+* [19b2dbc Revert "Quark: drop libshim thermal"](https://github.com/search?q=Revert%20"Quark%3A%20drop%20libshim%20thermal"&type=Commits)
+* [f039fe5 Quark: simpler liblight don't disable charging led if enable](https://github.com/search?q=Quark%3A%20simpler%20liblight%20don%27t%20disable%20charging%20led%20if%20enable&type=Commits)
+* [34b6f11 Revert "Quark: libligth don't disable charging led if enable"](https://github.com/search?q=Revert%20"Quark%3A%20libligth%20don%27t%20disable%20charging%20led%20if%20enable"&type=Commits)
+* [9752bdd Quark: libligth don't disable charging led if enable](https://github.com/search?q=Quark%3A%20libligth%20don%27t%20disable%20charging%20led%20if%20enable&type=Commits)
+
+#### Device specific Changes of 09-16-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 09-16-2017:
+
+#### android/
+* [2d90a8d Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android%20into%207.1&type=Commits)
+* [a5382ae Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android%20into%207.1&type=Commits)
+
+#### bionic/
+* [644ae51 Merge tag 'android-7.1.2_r33' of https://android.googlesource.com/platform/bionic into 7.1](https://github.com/search?q=Merge%20tag%20%27android-7.1.2_r33%27%20of%20https%3A//android.googlesource.com/platform/bionic%20into%207.1&type=Commits)
+
+#### build/
+* [b0b5f7e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_build%20into%207.1&type=Commits)
+
+#### external/skia/
+* [bb9746c Merge branch 'cm-14.1' of https://github.com/LineageOS/android_external_skia into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_external_skia%20into%207.1&type=Commits)
+
+#### external/sonivox/
+* [188ae17 Fix compiler warnings in sonivox and enable -Werror.](https://github.com/search?q=Fix%20compiler%20warnings%20in%20sonivox%20and%20enable%20-Werror.&type=Commits)
+
+#### frameworks/base/
+* [2d033ee Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### packages/apps/Contacts/
+* [1266a59 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%207.1&type=Commits)
+
+#### packages/apps/Messaging/
+* [d4eb71d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%207.1&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [b64f667 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%207.1&type=Commits)
+
+#### packages/apps/Settings/
+* [421328b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [61ebb16 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%207.1&type=Commits)
+
+#### prebuilts/gcc/linux-x86/arm/arm-eabi-7.1/
+* [c01f3b5 arm-linaro-linux-androideabi 7.2.1: 20170916](https://github.com/search?q=arm-linaro-linux-androideabi%207.2.1%3A%2020170916&type=Commits)
+
+#### vendor/cmsdk/
+* [cfd4c97 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/cm_platform_sdk%20into%207.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [89e643a crDroidOTA: Update](https://github.com/search?q=crDroidOTA%3A%20Update&type=Commits)
+* [26ed8ae updated herolte and hero2lte to crDroidAndroid-7.1.2-20170916](https://github.com/search?q=updated%20herolte%20and%20hero2lte%20to%20crDroidAndroid-7.1.2-20170916&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-16-2017 End.
+
+09-15-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-15-2017:
+
+#### android/
+* [b0a573c manifest: switch to our forks of several repos](https://github.com/search?q=manifest%3A%20switch%20to%20our%20forks%20of%20several%20repos&type=Commits)
+
+#### build/
+* [6421bdc Updating Security String to 2017-09-05 Bug:63846344](https://github.com/search?q=Updating%20Security%20String%20to%202017-09-05%20Bug%3A63846344&type=Commits)
+
+#### external/libavc/
+* [2170933 Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.](https://github.com/search?q=Decoder%3A%20Fixed%20allocation%20of%20pv_map_ref_idx_to_poc_buf.&type=Commits)
+* [871e2ff Decoder: Fixed overflow in refernce list creation.](https://github.com/search?q=Decoder%3A%20Fixed%20overflow%20in%20refernce%20list%20creation.&type=Commits)
+* [73ff61b Initialize DPB structures to valid values.](https://github.com/search?q=Initialize%20DPB%20structures%20to%20valid%20values.&type=Commits)
+* [1a4a25a Added error check for output buffer size.](https://github.com/search?q=Added%20error%20check%20for%20output%20buffer%20size.&type=Commits)
+
+#### external/libhevc/
+* [2f28765 Limit boundary PU sizes in case of errors](https://github.com/search?q=Limit%20boundary%20PU%20sizes%20in%20case%20of%20errors&type=Commits)
+* [3008a9a Fix array size for hrd parameters](https://github.com/search?q=Fix%20array%20size%20for%20hrd%20parameters&type=Commits)
+* [d2b7822 Check number of output buffers and sizes](https://github.com/search?q=Check%20number%20of%20output%20buffers%20and%20sizes&type=Commits)
+* [8e3fe3b Return error for invalid crop parameters](https://github.com/search?q=Return%20error%20for%20invalid%20crop%20parameters&type=Commits)
+
+#### external/libvpx/
+* [50bde27 DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream](https://github.com/search?q=DO%20NOT%20MERGE%20libvpx%3A%20Cherry-pick%208b4c315%20from%20upstream&type=Commits)
+
+#### external/skia/
+* [c6e270a Defend against ICOs with large BMPs embedded DO NOT MERGE](https://github.com/search?q=Defend%20against%20ICOs%20with%20large%20BMPs%20embedded%20DO%20NOT%20MERGE&type=Commits)
+
+#### external/sonivox/
+* [afc7e48 Fix interpolator](https://github.com/search?q=Fix%20interpolator&type=Commits)
+
+#### external/tremolo/
+* [0000b2b Use heap instead of alloca in res012.c](https://github.com/search?q=Use%20heap%20instead%20of%20alloca%20in%20res012.c&type=Commits)
+
+#### frameworks/av/
+* [be42248 MPEG4Source: fix fragmented read.](https://github.com/search?q=MPEG4Source%3A%20fix%20fragmented%20read.&type=Commits)
+* [ac561ef stagefright: fix crash due to bad timestamp index](https://github.com/search?q=stagefright%3A%20fix%20crash%20due%20to%20bad%20timestamp%20index&type=Commits)
+* [47f7228 stagefright: check aac_frame_length to prevent infinite loop](https://github.com/search?q=stagefright%3A%20check%20aac_frame_length%20to%20prevent%20infinite%20loop&type=Commits)
+* [708ca76 MediaPlayerService: fix access of mPlayer in client](https://github.com/search?q=MediaPlayerService%3A%20fix%20access%20of%20mPlayer%20in%20client&type=Commits)
+* [20a8bdc audio effects: filter reserved effect commands](https://github.com/search?q=audio%20effects%3A%20filter%20reserved%20effect%20commands&type=Commits)
+* [1f8cd83 MPEG4Extractor: ensure returned status is checked.](https://github.com/search?q=MPEG4Extractor%3A%20ensure%20returned%20status%20is%20checked.&type=Commits)
+* [09ebf66 DO NOT MERGE Check frame handle validity before freeing buffer.](https://github.com/search?q=DO%20NOT%20MERGE%20Check%20frame%20handle%20validity%20before%20freeing%20buffer.&type=Commits)
+* [ae74db2 Change MPEG2 reinit Error Handling](https://github.com/search?q=Change%20MPEG2%20reinit%20Error%20Handling&type=Commits)
+* [6e05adf Track: Check buffer size of static tracks](https://github.com/search?q=Track%3A%20Check%20buffer%20size%20of%20static%20tracks&type=Commits)
+* [e0b8295 MPEG4Extractor: check size for yrrc box](https://github.com/search?q=MPEG4Extractor%3A%20check%20size%20for%20yrrc%20box&type=Commits)
+* [7a84ae8 AudioFlinger: Fix memory allocation for client-less tracks](https://github.com/search?q=AudioFlinger%3A%20Fix%20memory%20allocation%20for%20client-less%20tracks&type=Commits)
+* [b1c91bc Notify Errors Appropriately from SoftMPEG2](https://github.com/search?q=Notify%20Errors%20Appropriately%20from%20SoftMPEG2&type=Commits)
+* [6dff427 EffectBundle: Check value size for get preset name](https://github.com/search?q=EffectBundle%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+* [3fcd8ac Fix TOCTOU problem in libstagefright_soft_aacenc](https://github.com/search?q=Fix%20TOCTOU%20problem%20in%20libstagefright_soft_aacenc&type=Commits)
+
+#### frameworks/base/
+* [5a7a7e9 Back-port fixes for b/62196835](https://github.com/search?q=Back-port%20fixes%20for%20b/62196835&type=Commits)
+
+#### frameworks/minikin/
+* [440e10a Reject unsorted cmap entries. DO NOT MERGE](https://github.com/search?q=Reject%20unsorted%20cmap%20entries.%20DO%20NOT%20MERGE&type=Commits)
+
+#### hardware/broadcom/wlan/
+* [71b070f net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8)](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20update%20bcm4354/4356%20FW%20%287.35.101.8%29&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8916/
+* [7a797d4 Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8952/
+* [0bf8b30 Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8960/
+* [01e8f3b Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8974/
+* [f5a8e83 Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [3f7e702 Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### packages/apps/Messaging/
+* [87f81d9 37742976 - Catch bad gifs](https://github.com/search?q=37742976%20-%20Catch%20bad%20gifs&type=Commits)
+
+#### packages/apps/Nfc/
+* [f20aedf Add READ_EXTERNAL_STORAGE for file based Uri while beaming.](https://github.com/search?q=Add%20READ_EXTERNAL_STORAGE%20for%20file%20based%20Uri%20while%20beaming.&type=Commits)
+
+#### packages/apps/Settings/
+* [6661727 Back-port ag/2491664](https://github.com/search?q=Back-port%20ag/2491664&type=Commits)
+
+#### vendor/cm/
+* [7aae3be crdroid: Fix clean up derp](https://github.com/search?q=crdroid%3A%20Fix%20clean%20up%20derp&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-15-2017 End.
+
+09-14-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-14-2017:
+
+#### packages/apps/AudioFX/
+* [9662067 AudioFX: Apply effects independently of the output flags](https://github.com/search?q=AudioFX%3A%20Apply%20effects%20independently%20of%20the%20output%20flags&type=Commits)
+
+#### system/bt/
+* [215d434 Add missing extension length check while parsing BNEP control packets](https://github.com/search?q=Add%20missing%20extension%20length%20check%20while%20parsing%20BNEP%20control%20packets&type=Commits)
+* [a61aaf1 Free p_pending_data from tBNEP_CONN to avoid potential memory leaks](https://github.com/search?q=Free%20p_pending_data%20from%20tBNEP_CONN%20to%20avoid%20potential%20memory%20leaks&type=Commits)
+* [922d50b Add a missing check for PAN buffer size before copying data](https://github.com/search?q=Add%20a%20missing%20check%20for%20PAN%20buffer%20size%20before%20copying%20data&type=Commits)
+* [c6f7f86 Add missing packet length checks while parsing BNEP control packets](https://github.com/search?q=Add%20missing%20packet%20length%20checks%20while%20parsing%20BNEP%20control%20packets&type=Commits)
+* [7e30b79 Add missing continuation offset check for SDP continuation requests](https://github.com/search?q=Add%20missing%20continuation%20offset%20check%20for%20SDP%20continuation%20requests&type=Commits)
+* [0700e5b Disable PAN Reverse Tethering when connection originated by the Remote](https://github.com/search?q=Disable%20PAN%20Reverse%20Tethering%20when%20connection%20originated%20by%20the%20Remote&type=Commits)
+* [8825957 Allocate buffers of the right size when BT_HDR is included](https://github.com/search?q=Allocate%20buffers%20of%20the%20right%20size%20when%20BT_HDR%20is%20included&type=Commits)
+
+#### vendor/cm/
+* [7718a25 crdroid: Update README to latest](https://github.com/search?q=crdroid%3A%20Update%20README%20to%20latest&type=Commits)
+* [47b9243 qcom_target: Commonize UM target HALs](https://github.com/search?q=qcom_target%3A%20Commonize%20UM%20target%20HALs&type=Commits)
+* [4239bb0 crdroid: Remove partner interface](https://github.com/search?q=crdroid%3A%20Remove%20partner%20interface&type=Commits)
+* [94e62b2 crdroid: Remove app suggest feature](https://github.com/search?q=crdroid%3A%20Remove%20app%20suggest%20feature&type=Commits)
+* [a9a3e22 crdroid: Remove LiveLockScreenService](https://github.com/search?q=crdroid%3A%20Remove%20LiveLockScreenService&type=Commits)
+* [55e688c crdroid: Remove CM themes leftover](https://github.com/search?q=crdroid%3A%20Remove%20CM%20themes%20leftover&type=Commits)
+* [c65c9c1 crdroid: Remove CM updater leftover](https://github.com/search?q=crdroid%3A%20Remove%20CM%20updater%20leftover&type=Commits)
+* [25d04e0 envsetup: Fix installboot on ZSH](https://github.com/search?q=envsetup%3A%20Fix%20installboot%20on%20ZSH&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-14-2017 End.
+
+09-13-2017
+====================
+
+#### Device specific Changes of 09-13-2017 Start:
+
+#### Device/Quark/
+* [6c8784e Quark: init.qcom.usb correct cdrom prop call](https://github.com/search?q=Quark%3A%20init.qcom.usb%20correct%20cdrom%20prop%20call&type=Commits)
+
+#### Device specific Changes of 09-13-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 09-13-2017:
+
+#### android/
+* [64e1481 cm: Use msm8996 HALs for 8953 & 8937](https://github.com/search?q=cm%3A%20Use%20msm8996%20HALs%20for%208953%20&%208937&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-13-2017 End.
+
 09-12-2017
 ====================
 
