@@ -3,6 +3,227 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+09-17-2017
+====================
+
+#### Device specific Changes of 09-17-2017 Start:
+
+#### Device/Quark/
+* [13d8303 Quark: init.power set bcl mitigation-freq 1267200 at bootcomplete](https://github.com/search?q=Quark%3A%20init.power%20set%20bcl%20mitigation-freq%201267200%20at%20bootcomplete&type=Commits)
+
+#### Kernel/Quark/
+* [576e53b defconfig disable not used SCSI configs](https://github.com/search?q=defconfig%20disable%20not%20used%20SCSI%20configs&type=Commits)
+* [c4c4d6f devfreq: Fix store_polling_interval](https://github.com/search?q=devfreq%3A%20Fix%20store_polling_interval&type=Commits)
+* [ffff8d1 apq8084: ipa: remove redundant NULL pointer check](https://github.com/search?q=apq8084%3A%20ipa%3A%20remove%20redundant%20NULL%20pointer%20check&type=Commits)
+* [29fe063 msm: camera: isp: fix for out of bound access array](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20fix%20for%20out%20of%20bound%20access%20array&type=Commits)
+* [fc1ed68 wcnss: fix the potential memory leak and heap overflow](https://github.com/search?q=wcnss%3A%20fix%20the%20potential%20memory%20leak%20and%20heap%20overflow&type=Commits)
+* [5793949 Add missing fix from caf commit 23c6ea43b](https://github.com/search?q=Add%20missing%20fix%20from%20caf%20commit%2023c6ea43b&type=Commits)
+* [476248d wcnss: add condition to check for pronto ver3 hardware](https://github.com/search?q=wcnss%3A%20add%20condition%20to%20check%20for%20pronto%20ver3%20hardware&type=Commits)
+* [c5d5532 bcl: allow even lower mit freq](https://github.com/search?q=bcl%3A%20allow%20even%20lower%20mit%20freq&type=Commits)
+* [b113919 Revert "Prevent potential double frees in sg driver"](https://github.com/search?q=Revert%20"Prevent%20potential%20double%20frees%20in%20sg%20driver"&type=Commits)
+* [18f3cf6 Revert "dm ioctl: prevent stack leak in dm ioctl call"](https://github.com/search?q=Revert%20"dm%20ioctl%3A%20prevent%20stack%20leak%20in%20dm%20ioctl%20call"&type=Commits)
+* [75da7e1 Revert "UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT"](https://github.com/search?q=Revert%20"UPSTREAM%3A%20ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT"&type=Commits)
+* [dc073ee Revert "BACKPORT: ALSA: timer: Fix race between read and ioctl"](https://github.com/search?q=Revert%20"BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl"&type=Commits)
+* [e5a6718 Revert "msm: sensor: Validationg function pointers before using them"](https://github.com/search?q=Revert%20"msm%3A%20sensor%3A%20Validationg%20function%20pointers%20before%20using%20them"&type=Commits)
+* [928b6ba Revert "BACKPORT: crypto: msm: Fix buffer overflow issue"](https://github.com/search?q=Revert%20"BACKPORT%3A%20crypto%3A%20msm%3A%20Fix%20buffer%20overflow%20issue"&type=Commits)
+* [a5eeefe Revert "msm: sps: Fix race condition in SPS debugfs APIs"](https://github.com/search?q=Revert%20"msm%3A%20sps%3A%20Fix%20race%20condition%20in%20SPS%20debugfs%20APIs"&type=Commits)
+* [bdcaac4 Revert "msm: camera: isp: Avoid information leak in ISPIF"](https://github.com/search?q=Revert%20"msm%3A%20camera%3A%20isp%3A%20Avoid%20information%20leak%20in%20ISPIF"&type=Commits)
+* [74fbde5 msm: camera: Allow driver file to be opend only once.](https://github.com/search?q=msm%3A%20camera%3A%20Allow%20driver%20file%20to%20be%20opend%20only%20once.&type=Commits)
+* [2af62a5 BACKPORT: ipv6/dccp: do not inherit ipv6_mc_list from parent](https://github.com/search?q=BACKPORT%3A%20ipv6/dccp%3A%20do%20not%20inherit%20ipv6_mc_list%20from%20parent&type=Commits)
+* [a62d3a0 UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT](https://github.com/search?q=UPSTREAM%3A%20ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT&type=Commits)
+* [aaedf8f BACKPORT: ALSA: timer: Fix race between read and ioctl](https://github.com/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl&type=Commits)
+* [0fee5c2 BACKPORT: dccp/tcp: do not inherit mc_list from parent](https://github.com/search?q=BACKPORT%3A%20dccp/tcp%3A%20do%20not%20inherit%20mc_list%20from%20parent&type=Commits)
+* [08066e3 BACKPORT: msm: camera: Avoid exposing kernel addresses](https://github.com/search?q=BACKPORT%3A%20msm%3A%20camera%3A%20Avoid%20exposing%20kernel%20addresses&type=Commits)
+* [a7235f0 msm: camera: sensor: remove unnecessary logs](https://github.com/search?q=msm%3A%20camera%3A%20sensor%3A%20remove%20unnecessary%20logs&type=Commits)
+* [4886381 msm: camera: Make wait functions in camera driver not interruptible](https://github.com/search?q=msm%3A%20camera%3A%20Make%20wait%20functions%20in%20camera%20driver%20not%20interruptible&type=Commits)
+* [0c50e94 ASoC: msm: qdsp6v2: extend validation of virtual address](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20extend%20validation%20of%20virtual%20address&type=Commits)
+* [78d64fd msm: sensor: Validationg function pointers before using them](https://github.com/search?q=msm%3A%20sensor%3A%20Validationg%20function%20pointers%20before%20using%20them&type=Commits)
+* [4af3c1b BACKPORT: crypto: msm: Fix buffer overflow issue](https://github.com/search?q=BACKPORT%3A%20crypto%3A%20msm%3A%20Fix%20buffer%20overflow%20issue&type=Commits)
+* [2fbaa61 msm: camera: isp: Avoid information leak in ISPIF](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20Avoid%20information%20leak%20in%20ISPIF&type=Commits)
+* [36eb53a msm: ipa: fix security issues in ipa wan driver](https://github.com/search?q=msm%3A%20ipa%3A%20fix%20security%20issues%20in%20ipa%20wan%20driver&type=Commits)
+* [559ed1c msm: ipa: fix the mux_channel buffer overflow](https://github.com/search?q=msm%3A%20ipa%3A%20fix%20the%20mux_channel%20buffer%20overflow&type=Commits)
+* [5186250 msm:camera: correct stats query out of boundary](https://github.com/search?q=msm%3Acamera%3A%20correct%20stats%20query%20out%20of%20boundary&type=Commits)
+* [c5c1276 msm: camera: fix off-by-one overflow in msm_isp_get_bufq](https://github.com/search?q=msm%3A%20camera%3A%20fix%20off-by-one%20overflow%20in%20msm_isp_get_bufq&type=Commits)
+* [aa6ec66 Prevent potential double frees in sg driver](https://github.com/search?q=Prevent%20potential%20double%20frees%20in%20sg%20driver&type=Commits)
+* [3a52cde dm ioctl: prevent stack leak in dm ioctl call](https://github.com/search?q=dm%20ioctl%3A%20prevent%20stack%20leak%20in%20dm%20ioctl%20call&type=Commits)
+* [641cfa2 msm: camera: Fix Use after free bug in msm_vb2.c.](https://github.com/search?q=msm%3A%20camera%3A%20Fix%20Use%20after%20free%20bug%20in%20msm_vb2.c.&type=Commits)
+* [04c29e2 msm: camera: Use mutex lock to avoid race condition](https://github.com/search?q=msm%3A%20camera%3A%20Use%20mutex%20lock%20to%20avoid%20race%20condition&type=Commits)
+* [15ab424 msm: sps: Fix race condition in SPS debugfs APIs](https://github.com/search?q=msm%3A%20sps%3A%20Fix%20race%20condition%20in%20SPS%20debugfs%20APIs&type=Commits)
+* [97a4478 apq8084: Silence log spam](https://github.com/search?q=apq8084%3A%20Silence%20log%20spam&type=Commits)
+* [2523d6c CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free](https://github.com/search?q=CHROMIUM%3A%20usb%3A%20gadget%3A%20configfs%3A%20Fix%20KASAN%20use-after-free&type=Commits)
+* [939c8d7 usb: gadget: dwc3: Improve interrupt handler performance](https://github.com/search?q=usb%3A%20gadget%3A%20dwc3%3A%20Improve%20interrupt%20handler%20performance&type=Commits)
+
+#### Vendor/Quark/
+* [8f00a8a Quark: up KA](https://github.com/search?q=Quark%3A%20up%20KA&type=Commits)
+
+#### Device specific Changes of 09-17-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-17-2017:
+
+#### packages/apps/Settings/
+* [efbb78f Add moderator tags to about settings](https://github.com/search?q=Add%20moderator%20tags%20to%20about%20settings&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-17-2017 End.
+
+09-16-2017
+====================
+
+#### Device specific Changes of 09-16-2017 Start:
+
+#### Device/Quark/
+* [31534c1 Quark: update clenup sh](https://github.com/search?q=Quark%3A%20update%20clenup%20sh&type=Commits)
+* [4e77cba Quark: liblight only disable led if brightness is 0](https://github.com/search?q=Quark%3A%20liblight%20only%20disable%20led%20if%20brightness%20is%200&type=Commits)
+* [067fe3b Quark: init.qcom drop not existent led paths](https://github.com/search?q=Quark%3A%20init.qcom%20drop%20not%20existent%20led%20paths&type=Commits)
+* [19b2dbc Revert "Quark: drop libshim thermal"](https://github.com/search?q=Revert%20"Quark%3A%20drop%20libshim%20thermal"&type=Commits)
+* [f039fe5 Quark: simpler liblight don't disable charging led if enable](https://github.com/search?q=Quark%3A%20simpler%20liblight%20don%27t%20disable%20charging%20led%20if%20enable&type=Commits)
+* [34b6f11 Revert "Quark: libligth don't disable charging led if enable"](https://github.com/search?q=Revert%20"Quark%3A%20libligth%20don%27t%20disable%20charging%20led%20if%20enable"&type=Commits)
+* [9752bdd Quark: libligth don't disable charging led if enable](https://github.com/search?q=Quark%3A%20libligth%20don%27t%20disable%20charging%20led%20if%20enable&type=Commits)
+
+#### Device specific Changes of 09-16-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-16-2017:
+
+#### android/
+* [f0c3b1f manifest: switch to our forks of several repos](https://github.com/search?q=manifest%3A%20switch%20to%20our%20forks%20of%20several%20repos&type=Commits)
+
+#### build/
+* [f6958ef Updating Security String to 2017-09-05 Bug:63846344](https://github.com/search?q=Updating%20Security%20String%20to%202017-09-05%20Bug%3A63846344&type=Commits)
+
+#### external/skia/
+* [878b9da Defend against ICOs with large BMPs embedded DO NOT MERGE](https://github.com/search?q=Defend%20against%20ICOs%20with%20large%20BMPs%20embedded%20DO%20NOT%20MERGE&type=Commits)
+
+#### external/sonivox/
+* [188ae17 Fix compiler warnings in sonivox and enable -Werror.](https://github.com/search?q=Fix%20compiler%20warnings%20in%20sonivox%20and%20enable%20-Werror.&type=Commits)
+
+#### frameworks/av/
+* [eeff3f6 Merge remote-tracking branch 'lineage/cm-14.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27lineage/cm-14.1%27%20into%20HEAD&type=Commits)
+
+#### frameworks/base/
+* [d83e745 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [bb68d19 Back-port fixes for b/62196835](https://github.com/search?q=Back-port%20fixes%20for%20b/62196835&type=Commits)
+* [cbce7ff Don't disable the GPS prematurely](https://github.com/search?q=Don%27t%20disable%20the%20GPS%20prematurely&type=Commits)
+* [8503dcf PrivateStorageInfo: Exclude primary physical volume total space](https://github.com/search?q=PrivateStorageInfo%3A%20Exclude%20primary%20physical%20volume%20total%20space&type=Commits)
+* [fe5307e Keyguard: Change fingerprint listening behavior](https://github.com/search?q=Keyguard%3A%20Change%20fingerprint%20listening%20behavior&type=Commits)
+
+#### packages/apps/DUI/
+* [a9a8ce2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [aceace2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [e0708ed Merge remote-tracking branch 'lineage/cm-14.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27lineage/cm-14.1%27%20into%20HEAD&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [c8e6c99 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [70e33d4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [6d05ff9 Back-port ag/2491664](https://github.com/search?q=Back-port%20ag/2491664&type=Commits)
+* [2214a57 AppOpsDetails: Generate correct summary when changing list prefs](https://github.com/search?q=AppOpsDetails%3A%20Generate%20correct%20summary%20when%20changing%20list%20prefs&type=Commits)
+* [ac086f6 Settings: Allow devices to provide remote gesture preferences](https://github.com/search?q=Settings%3A%20Allow%20devices%20to%20provide%20remote%20gesture%20preferences&type=Commits)
+* [1b1f6ea Settings: Fix internal storage summary for non-emulated storage devices](https://github.com/search?q=Settings%3A%20Fix%20internal%20storage%20summary%20for%20non-emulated%20storage%20devices&type=Commits)
+* [4776440 Settings: Always show Privacy Guard permissions](https://github.com/search?q=Settings%3A%20Always%20show%20Privacy%20Guard%20permissions&type=Commits)
+* [02a6349 AppOps: Switch to an HashMap](https://github.com/search?q=AppOps%3A%20Switch%20to%20an%20HashMap&type=Commits)
+* [a3bbfda Settings: Add a shortcut icon for carrier selection](https://github.com/search?q=Settings%3A%20Add%20a%20shortcut%20icon%20for%20carrier%20selection&type=Commits)
+* [cb1ab8b AppOps: Redesign](https://github.com/search?q=AppOps%3A%20Redesign&type=Commits)
+* [3a0e238 Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."](https://github.com/search?q=Revert%20"Settings[Wifi]%3A%20fix%20the%20input%20invalid%20length%20for%20WEP%20encryption."&type=Commits)
+
+#### prebuilts/gcc/linux-x86/arm/uber_arm-eabi-4.9/
+* [dbcff69 Initial commit](https://github.com/search?q=Initial%20commit&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-16-2017 End.
+
+09-15-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-15-2017:
+
+#### external/libavc/
+* [2170933 Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.](https://github.com/search?q=Decoder%3A%20Fixed%20allocation%20of%20pv_map_ref_idx_to_poc_buf.&type=Commits)
+* [871e2ff Decoder: Fixed overflow in refernce list creation.](https://github.com/search?q=Decoder%3A%20Fixed%20overflow%20in%20refernce%20list%20creation.&type=Commits)
+* [73ff61b Initialize DPB structures to valid values.](https://github.com/search?q=Initialize%20DPB%20structures%20to%20valid%20values.&type=Commits)
+* [1a4a25a Added error check for output buffer size.](https://github.com/search?q=Added%20error%20check%20for%20output%20buffer%20size.&type=Commits)
+
+#### external/libhevc/
+* [2f28765 Limit boundary PU sizes in case of errors](https://github.com/search?q=Limit%20boundary%20PU%20sizes%20in%20case%20of%20errors&type=Commits)
+* [3008a9a Fix array size for hrd parameters](https://github.com/search?q=Fix%20array%20size%20for%20hrd%20parameters&type=Commits)
+* [d2b7822 Check number of output buffers and sizes](https://github.com/search?q=Check%20number%20of%20output%20buffers%20and%20sizes&type=Commits)
+* [8e3fe3b Return error for invalid crop parameters](https://github.com/search?q=Return%20error%20for%20invalid%20crop%20parameters&type=Commits)
+
+#### external/libvpx/
+* [50bde27 DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream](https://github.com/search?q=DO%20NOT%20MERGE%20libvpx%3A%20Cherry-pick%208b4c315%20from%20upstream&type=Commits)
+
+#### external/sonivox/
+* [afc7e48 Fix interpolator](https://github.com/search?q=Fix%20interpolator&type=Commits)
+
+#### external/sqlite/
+* [f55bb7e DO NOT MERGE - fix FTS3 column pointer handling](https://github.com/search?q=DO%20NOT%20MERGE%20-%20fix%20FTS3%20column%20pointer%20handling&type=Commits)
+
+#### external/tremolo/
+* [0000b2b Use heap instead of alloca in res012.c](https://github.com/search?q=Use%20heap%20instead%20of%20alloca%20in%20res012.c&type=Commits)
+
+#### frameworks/av/
+* [be42248 MPEG4Source: fix fragmented read.](https://github.com/search?q=MPEG4Source%3A%20fix%20fragmented%20read.&type=Commits)
+* [ac561ef stagefright: fix crash due to bad timestamp index](https://github.com/search?q=stagefright%3A%20fix%20crash%20due%20to%20bad%20timestamp%20index&type=Commits)
+* [47f7228 stagefright: check aac_frame_length to prevent infinite loop](https://github.com/search?q=stagefright%3A%20check%20aac_frame_length%20to%20prevent%20infinite%20loop&type=Commits)
+* [708ca76 MediaPlayerService: fix access of mPlayer in client](https://github.com/search?q=MediaPlayerService%3A%20fix%20access%20of%20mPlayer%20in%20client&type=Commits)
+* [20a8bdc audio effects: filter reserved effect commands](https://github.com/search?q=audio%20effects%3A%20filter%20reserved%20effect%20commands&type=Commits)
+* [1f8cd83 MPEG4Extractor: ensure returned status is checked.](https://github.com/search?q=MPEG4Extractor%3A%20ensure%20returned%20status%20is%20checked.&type=Commits)
+* [09ebf66 DO NOT MERGE Check frame handle validity before freeing buffer.](https://github.com/search?q=DO%20NOT%20MERGE%20Check%20frame%20handle%20validity%20before%20freeing%20buffer.&type=Commits)
+* [ae74db2 Change MPEG2 reinit Error Handling](https://github.com/search?q=Change%20MPEG2%20reinit%20Error%20Handling&type=Commits)
+* [6e05adf Track: Check buffer size of static tracks](https://github.com/search?q=Track%3A%20Check%20buffer%20size%20of%20static%20tracks&type=Commits)
+* [e0b8295 MPEG4Extractor: check size for yrrc box](https://github.com/search?q=MPEG4Extractor%3A%20check%20size%20for%20yrrc%20box&type=Commits)
+* [7a84ae8 AudioFlinger: Fix memory allocation for client-less tracks](https://github.com/search?q=AudioFlinger%3A%20Fix%20memory%20allocation%20for%20client-less%20tracks&type=Commits)
+* [b1c91bc Notify Errors Appropriately from SoftMPEG2](https://github.com/search?q=Notify%20Errors%20Appropriately%20from%20SoftMPEG2&type=Commits)
+* [6dff427 EffectBundle: Check value size for get preset name](https://github.com/search?q=EffectBundle%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+* [3fcd8ac Fix TOCTOU problem in libstagefright_soft_aacenc](https://github.com/search?q=Fix%20TOCTOU%20problem%20in%20libstagefright_soft_aacenc&type=Commits)
+
+#### frameworks/minikin/
+* [440e10a Reject unsorted cmap entries. DO NOT MERGE](https://github.com/search?q=Reject%20unsorted%20cmap%20entries.%20DO%20NOT%20MERGE&type=Commits)
+
+#### hardware/broadcom/wlan/
+* [71b070f net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8)](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20update%20bcm4354/4356%20FW%20%287.35.101.8%29&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8974/
+* [f5a8e83 Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [3f7e702 Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+
+#### packages/apps/Messaging/
+* [87f81d9 37742976 - Catch bad gifs](https://github.com/search?q=37742976%20-%20Catch%20bad%20gifs&type=Commits)
+
+#### packages/apps/Nfc/
+* [f20aedf Add READ_EXTERNAL_STORAGE for file based Uri while beaming.](https://github.com/search?q=Add%20READ_EXTERNAL_STORAGE%20for%20file%20based%20Uri%20while%20beaming.&type=Commits)
+
+#### system/bt/
+* [215d434 Add missing extension length check while parsing BNEP control packets](https://github.com/search?q=Add%20missing%20extension%20length%20check%20while%20parsing%20BNEP%20control%20packets&type=Commits)
+* [a61aaf1 Free p_pending_data from tBNEP_CONN to avoid potential memory leaks](https://github.com/search?q=Free%20p_pending_data%20from%20tBNEP_CONN%20to%20avoid%20potential%20memory%20leaks&type=Commits)
+* [922d50b Add a missing check for PAN buffer size before copying data](https://github.com/search?q=Add%20a%20missing%20check%20for%20PAN%20buffer%20size%20before%20copying%20data&type=Commits)
+* [c6f7f86 Add missing packet length checks while parsing BNEP control packets](https://github.com/search?q=Add%20missing%20packet%20length%20checks%20while%20parsing%20BNEP%20control%20packets&type=Commits)
+* [7e30b79 Add missing continuation offset check for SDP continuation requests](https://github.com/search?q=Add%20missing%20continuation%20offset%20check%20for%20SDP%20continuation%20requests&type=Commits)
+* [0700e5b Disable PAN Reverse Tethering when connection originated by the Remote](https://github.com/search?q=Disable%20PAN%20Reverse%20Tethering%20when%20connection%20originated%20by%20the%20Remote&type=Commits)
+* [8825957 Allocate buffers of the right size when BT_HDR is included](https://github.com/search?q=Allocate%20buffers%20of%20the%20right%20size%20when%20BT_HDR%20is%20included&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-15-2017 End.
+
+09-13-2017
+====================
+
+#### Device specific Changes of 09-13-2017 Start:
+
+#### Device/Quark/
+* [6c8784e Quark: init.qcom.usb correct cdrom prop call](https://github.com/search?q=Quark%3A%20init.qcom.usb%20correct%20cdrom%20prop%20call&type=Commits)
+
+#### Device specific Changes of 09-13-2017 End.
+
+***
+
 09-12-2017
 ====================
 
@@ -89,6 +310,15 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [cdd0fde Revert "Quark: update Thermal-engine and thermal libs"](https://github.com/search?q=Revert%20"Quark%3A%20update%20Thermal-engine%20and%20thermal%20libs"&type=Commits)
 
 #### Device specific Changes of 09-11-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-11-2017:
+
+#### packages/apps/Snap/
+* [853e8ee WideAnglePanoramaUI: Show switcher on Stop Capture](https://github.com/search?q=WideAnglePanoramaUI%3A%20Show%20switcher%20on%20Stop%20Capture&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-11-2017 End.
 
 ***
 
