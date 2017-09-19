@@ -3,6 +3,146 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+09-19-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-19-2017:
+
+#### external/speex/
+* [0eee115 Remove arm64 NEON warning](https://github.com/search?q=Remove%20arm64%20NEON%20warning&type=Commits)
+
+#### frameworks/av/
+* [74ff75e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into HEAD](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20HEAD&type=Commits)
+
+#### frameworks/native/
+* [47d7223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into HEAD](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%20HEAD&type=Commits)
+
+#### packages/apps/Eleven/
+* [903eb50 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [247b234 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/extras/su/
+* [11730a5 correct delivering process return code to caller](https://github.com/search?q=correct%20delivering%20process%20return%20code%20to%20caller&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-19-2017 End.
+
+09-18-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-18-2017:
+
+#### external/deqp/
+* [8ed8f43 Remove unused source file "".](https://github.com/search?q=Remove%20unused%20source%20file%20"".&type=Commits)
+
+#### external/pdfium/
+* [f296a68 Set "LOCAL_CPP_EXTENSION := .cc"](https://github.com/search?q=Set%20"LOCAL_CPP_EXTENSION%20%3A=%20.cc"&type=Commits)
+
+#### hardware/qcom/fm/
+* [5b7319b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [92be39f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [a26369a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [00d240b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [01bb31f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [281c98e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [362b032 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [49b8b9c Eleven: Create one cursor per background task](https://github.com/search?q=Eleven%3A%20Create%20one%20cursor%20per%20background%20task&type=Commits)
+
+#### packages/apps/Email/
+* [1918cd1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [14aa0c5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [fc7dcd5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [e619f79 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [091a21f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [82b6dc4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [4710e8e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [0ca5949 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [cb3b617 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [2266ca7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [3303f45 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [5e539f5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [e037ef8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [5ed62db Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [d10c3fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [92b1ffa Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [1773515 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [9223bd6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [8e88ae7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [dce15b5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [22499c6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [f17bd9d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [d595350 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [af1d81d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* [ecb0ddd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* [a509003 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-18-2017 End.
+
 09-17-2017
 ====================
 
@@ -53,14 +193,14 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [2523d6c CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free](https://github.com/search?q=CHROMIUM%3A%20usb%3A%20gadget%3A%20configfs%3A%20Fix%20KASAN%20use-after-free&type=Commits)
 * [939c8d7 usb: gadget: dwc3: Improve interrupt handler performance](https://github.com/search?q=usb%3A%20gadget%3A%20dwc3%3A%20Improve%20interrupt%20handler%20performance&type=Commits)
 
-#### Vendor/Quark/
-* [8f00a8a Quark: up KA](https://github.com/search?q=Quark%3A%20up%20KA&type=Commits)
-
 #### Device specific Changes of 09-17-2017 End.
 
 ***
 
 #### Resurrection Remix OS - Nougat source changes of 09-17-2017:
+
+#### frameworks/av/
+* [f80e21a audioflinger: Use offloaded effects in case of PCM offload](https://github.com/search?q=audioflinger%3A%20Use%20offloaded%20effects%20in%20case%20of%20PCM%20offload&type=Commits)
 
 #### packages/apps/Settings/
 * [efbb78f Add moderator tags to about settings](https://github.com/search?q=Add%20moderator%20tags%20to%20about%20settings&type=Commits)
