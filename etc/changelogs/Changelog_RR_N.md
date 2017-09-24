@@ -3,10 +3,60 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+09-24-2017
+====================
+
+#### Device specific Changes of 09-24-2017 Start:
+
+#### Device/Quark/
+* [b4e1fff Quark: set fluencetype to none](https://github.com/search?q=Quark%3A%20set%20fluencetype%20to%20none&type=Commits)
+
+#### Kernel/Quark/
+* [a0dcac4 Bluetooth: Properly check L2CAP config option output buffer length](https://github.com/search?q=Bluetooth%3A%20Properly%20check%20L2CAP%20config%20option%20output%20buffer%20length&type=Commits)
+
+#### Device specific Changes of 09-24-2017 End.
+
+***
+
+09-21-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-21-2017:
+
+#### frameworks/base/
+* [86038f2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [484ba97 FlipFlap: Specify a qualified user for start/stop service](https://github.com/search?q=FlipFlap%3A%20Specify%20a%20qualified%20user%20for%20start/stop%20service&type=Commits)
+
+#### packages/apps/Settings/
+* [f7e250b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-21-2017 End.
+
+09-20-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-20-2017:
+
+#### hardware/cyanogen/
+* [da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets](https://github.com/search?q=livedisplay%3A%20Add%20msm8998%20and%20sdm660%20as%20SDM%20targets&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [d27b7eb FlipFlap: Allow to set dot ratio](https://github.com/search?q=FlipFlap%3A%20Allow%20to%20set%20dot%20ratio&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-20-2017 End.
+
 09-19-2017
 ====================
 
 #### Resurrection Remix OS - Nougat source changes of 09-19-2017:
+
+#### external/deqp/
+* [8ed8f43 Remove unused source file "".](https://github.com/search?q=Remove%20unused%20source%20file%20"".&type=Commits)
+
+#### external/pdfium/
+* [f296a68 Set "LOCAL_CPP_EXTENSION := .cc"](https://github.com/search?q=Set%20"LOCAL_CPP_EXTENSION%20%3A=%20.cc"&type=Commits)
 
 #### external/speex/
 * [0eee115 Remove arm64 NEON warning](https://github.com/search?q=Remove%20arm64%20NEON%20warning&type=Commits)
@@ -16,28 +66,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### frameworks/native/
 * [47d7223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into HEAD](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%20HEAD&type=Commits)
-
-#### packages/apps/Eleven/
-* [903eb50 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/UnifiedEmail/
-* [247b234 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### system/extras/su/
-* [11730a5 correct delivering process return code to caller](https://github.com/search?q=correct%20delivering%20process%20return%20code%20to%20caller&type=Commits)
-
-#### Resurrection Remix OS - Nougat source changes of 09-19-2017 End.
-
-09-18-2017
-====================
-
-#### Resurrection Remix OS - Nougat source changes of 09-18-2017:
-
-#### external/deqp/
-* [8ed8f43 Remove unused source file "".](https://github.com/search?q=Remove%20unused%20source%20file%20"".&type=Commits)
-
-#### external/pdfium/
-* [f296a68 Set "LOCAL_CPP_EXTENSION := .cc"](https://github.com/search?q=Set%20"LOCAL_CPP_EXTENSION%20%3A=%20.cc"&type=Commits)
 
 #### hardware/qcom/fm/
 * [5b7319b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -61,7 +89,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [362b032 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Eleven/
-* [49b8b9c Eleven: Create one cursor per background task](https://github.com/search?q=Eleven%3A%20Create%20one%20cursor%20per%20background%20task&type=Commits)
+* [903eb50 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Email/
 * [1918cd1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -108,6 +136,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/Trebuchet/
 * [d10c3fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### packages/apps/UnifiedEmail/
+* [247b234 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/providers/CalendarProvider/
 * [92b1ffa Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
@@ -135,11 +166,24 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/wallpapers/LivePicker/
 * [af1d81d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### system/extras/su/
+* [11730a5 correct delivering process return code to caller](https://github.com/search?q=correct%20delivering%20process%20return%20code%20to%20caller&type=Commits)
+
 #### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
 * [ecb0ddd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
 * [a509003 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-19-2017 End.
+
+09-18-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-18-2017:
+
+#### packages/apps/Eleven/
+* [49b8b9c Eleven: Create one cursor per background task](https://github.com/search?q=Eleven%3A%20Create%20one%20cursor%20per%20background%20task&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 09-18-2017 End.
 

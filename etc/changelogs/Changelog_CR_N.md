@@ -3,6 +3,144 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+09-24-2017
+====================
+
+#### Device specific Changes of 09-24-2017 Start:
+
+#### Device/Quark/
+* [b4e1fff Quark: set fluencetype to none](https://github.com/search?q=Quark%3A%20set%20fluencetype%20to%20none&type=Commits)
+
+#### Kernel/Quark/
+* [a0dcac4 Bluetooth: Properly check L2CAP config option output buffer length](https://github.com/search?q=Bluetooth%3A%20Properly%20check%20L2CAP%20config%20option%20output%20buffer%20length&type=Commits)
+
+#### Device specific Changes of 09-24-2017 End.
+
+***
+
+09-20-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-20-2017:
+
+#### hardware/cyanogen/
+* [da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets](https://github.com/search?q=livedisplay%3A%20Add%20msm8998%20and%20sdm660%20as%20SDM%20targets&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-20-2017 End.
+
+09-19-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-19-2017:
+
+#### external/deqp/
+* [8ed8f43 Remove unused source file "".](https://github.com/search?q=Remove%20unused%20source%20file%20"".&type=Commits)
+
+#### external/pdfium/
+* [f296a68 Set "LOCAL_CPP_EXTENSION := .cc"](https://github.com/search?q=Set%20"LOCAL_CPP_EXTENSION%20%3A=%20.cc"&type=Commits)
+
+#### external/speex/
+* [0eee115 Remove arm64 NEON warning](https://github.com/search?q=Remove%20arm64%20NEON%20warning&type=Commits)
+
+#### hardware/qcom/fm/
+* [5b7319b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [92be39f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [a26369a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [00d240b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [01bb31f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [281c98e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [362b032 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [c70b4d7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [1918cd1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [14aa0c5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [fc7dcd5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [091a21f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [82b6dc4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [a4ecd46 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [4710e8e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [0ca5949 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [cb3b617 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [5e539f5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [e037ef8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [5ed62db Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [247b234 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [5aef723 Merge pull request #97 from saikatrockz/7.1](https://github.com/search?q=Merge%20pull%20request%20%2397%20from%20saikatrockz/7.1&type=Commits)
+* [4ac6c72 Change Maintainer for Yu Yureka/+](https://github.com/search?q=Change%20Maintainer%20for%20Yu%20Yureka/+&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [92b1ffa Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [1773515 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [9223bd6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [8e88ae7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [dce15b5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [22499c6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [f17bd9d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [d595350 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [af1d81d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/extras/su/
+* [11730a5 correct delivering process return code to caller](https://github.com/search?q=correct%20delivering%20process%20return%20code%20to%20caller&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-19-2017 End.
+
 09-17-2017
 ====================
 
