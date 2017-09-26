@@ -3,6 +3,102 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+#### Device specific Changes of 09-26-2017 Start:
+
+#### Device/Quark/
+* [1a10e75 Quark: notification led using kernel timer trigger function](https://github.com/search?q=Quark%3A%20notification%20led%20using%20kernel%20timer%20trigger%20function&type=Commits)
+* [65ea60b Revert "Quark: liblight only disable led if brightness is 0"](https://github.com/search?q=Revert%20"Quark%3A%20liblight%20only%20disable%20led%20if%20brightness%20is%200"&type=Commits)
+
+#### Kernel/Quark/
+* [c95aca4 Revert "led-class: Add blink support"](https://github.com/search?q=Revert%20"led-class%3A%20Add%20blink%20support"&type=Commits)
+* [43a8079 Revert "led-class: blink support add show function"](https://github.com/search?q=Revert%20"led-class%3A%20blink%20support%20add%20show%20function"&type=Commits)
+* [a25d45d fs/sysfs/DIR.C remove logspam when using diferent cpu governor](https://github.com/search?q=fs/sysfs/DIR.C%20remove%20logspam%20when%20using%20diferent%20cpu%20governor&type=Commits)
+* [291847a Leds: ledtrig-timer change permission delay_on/off](https://github.com/search?q=Leds%3A%20ledtrig-timer%20change%20permission%20delay_on/off&type=Commits)
+* [24dd2d7 defconfig enable LEDS_TRIGGER](https://github.com/search?q=defconfig%20enable%20LEDS_TRIGGER&type=Commits)
+
+#### Device specific Changes of 09-26-2017 End.
+
+***
+
+09-25-2017
+====================
+
+#### Device specific Changes of 09-25-2017 Start:
+
+#### Kernel/Quark/
+* [a0dcac4 Bluetooth: Properly check L2CAP config option output buffer length](https://github.com/search?q=Bluetooth%3A%20Properly%20check%20L2CAP%20config%20option%20output%20buffer%20length&type=Commits)
+
+#### Device specific Changes of 09-25-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-25-2017:
+
+#### external/libnfc-nci/
+* [257864a pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set](https://github.com/search?q=pn54x%3A%20Don%27t%20default%20to%20pn551%20if%20BOARD_NFC_CHIPSET%20isn%27t%20set&type=Commits)
+
+#### frameworks/base/
+* [6a3735d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [95ba21f PhoneWindowManager: Block screenshots when pocket lock is showing](https://github.com/search?q=PhoneWindowManager%3A%20Block%20screenshots%20when%20pocket%20lock%20is%20showing&type=Commits)
+* [51c0f6f PocketService: Adjust light sensor rate to 400ms](https://github.com/search?q=PocketService%3A%20Adjust%20light%20sensor%20rate%20to%20400ms&type=Commits)
+* [47f4013 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [31e374f ActivityManager: Remove POWER_OFF_ALARM intent leftover](https://github.com/search?q=ActivityManager%3A%20Remove%20POWER_OFF_ALARM%20intent%20leftover&type=Commits)
+* [8cf55f1 SystemServer: Don't start widget service when it is alarm boot](https://github.com/search?q=SystemServer%3A%20Don%27t%20start%20widget%20service%20when%20it%20is%20alarm%20boot&type=Commits)
+* [8f62033 Recents: Add accessibility descriptions for lock ImageViews](https://github.com/search?q=Recents%3A%20Add%20accessibility%20descriptions%20for%20lock%20ImageViews&type=Commits)
+* [65748c4 SystemUI: Revert some Tuner changes](https://github.com/search?q=SystemUI%3A%20Revert%20some%20Tuner%20changes&type=Commits)
+* [71bfe49 DUtils: Migrate from broadcasts to API for some action handling [1/2]](https://github.com/search?q=DUtils%3A%20Migrate%20from%20broadcasts%20to%20API%20for%20some%20action%20handling%20[1/2]&type=Commits)
+* [f99120e ColorEngine: Fixup themes for our customizations[2/3] *Update Primary and secondary coolors *Update TM Fab bg *Update Stroke accent colors *Thanks to ALtan for control_checkable_material theme issue](https://github.com/search?q=ColorEngine%3A%20Fixup%20themes%20for%20our%20customizations[2/3]%20*Update%20Primary%20and%20secondary%20coolors%20*Update%20TM%20Fab%20bg%20*Update%20Stroke%20accent%20colors%20*Thanks%20to%20ALtan%20for%20control_checkable_material%20theme%20issue&type=Commits)
+* [e90fec8 Revert "FWB:Update default theme to Pixel Blue [1/2]"](https://github.com/search?q=Revert%20"FWB%3AUpdate%20default%20theme%20to%20Pixel%20Blue%20[1/2]"&type=Commits)
+* [a3d99a6 Themes: Expose manifest styles for themes](https://github.com/search?q=Themes%3A%20Expose%20manifest%20styles%20for%20themes&type=Commits)
+* [a3dab8d Bring back Pixel theme [1/2]](https://github.com/search?q=Bring%20back%20Pixel%20theme%20[1/2]&type=Commits)
+* [27dc140 BrightnessSlider: Fix Slider thumb not theming to accent color](https://github.com/search?q=BrightnessSlider%3A%20Fix%20Slider%20thumb%20not%20theming%20to%20accent%20color&type=Commits)
+* [90dfe02 Revert "sysui: New google pixel colors"](https://github.com/search?q=Revert%20"sysui%3A%20New%20google%20pixel%20colors"&type=Commits)
+* [ad41af3 Revert "Base : Finalize the pixel theme and prepare for theme engine"](https://github.com/search?q=Revert%20"Base%20%3A%20Finalize%20the%20pixel%20theme%20and%20prepare%20for%20theme%20engine"&type=Commits)
+* [5c1386f Revert "base: New google pixel colors"](https://github.com/search?q=Revert%20"base%3A%20New%20google%20pixel%20colors"&type=Commits)
+* [ec7bf0d FWB:Update default theme to Pixel Blue [1/2]](https://github.com/search?q=FWB%3AUpdate%20default%20theme%20to%20Pixel%20Blue%20[1/2]&type=Commits)
+* [32ba76a Partially revert "ColorEngine: theme improvements/completeness"](https://github.com/search?q=Partially%20revert%20"ColorEngine%3A%20theme%20improvements/completeness"&type=Commits)
+* [79a4136 ColorEngine: fix power menu instant theming](https://github.com/search?q=ColorEngine%3A%20fix%20power%20menu%20instant%20theming&type=Commits)
+* [69ca41e TileAdapter: allow styling tile item decoration background](https://github.com/search?q=TileAdapter%3A%20allow%20styling%20tile%20item%20decoration%20background&type=Commits)
+* [98726ae ColorEngine: theme improvements/completeness](https://github.com/search?q=ColorEngine%3A%20theme%20improvements/completeness&type=Commits)
+* [2bf21f4 ColorEngine: fwb: keep changed resources footprint low](https://github.com/search?q=ColorEngine%3A%20fwb%3A%20keep%20changed%20resources%20footprint%20low&type=Commits)
+* [17c72a1 ColorEngine: fwb: default to default primary/bg color](https://github.com/search?q=ColorEngine%3A%20fwb%3A%20default%20to%20default%20primary/bg%20color&type=Commits)
+* [3eca4dd ColorEngine: who wants orange if you can have amber [1/2]](https://github.com/search?q=ColorEngine%3A%20who%20wants%20orange%20if%20you%20can%20have%20amber%20[1/2]&type=Commits)
+* [5b5e499 ColorEngine: fwb: default to teal color accent everywhere](https://github.com/search?q=ColorEngine%3A%20fwb%3A%20default%20to%20teal%20color%20accent%20everywhere&type=Commits)
+* [453e33b ColorEngine: default to teal color accent](https://github.com/search?q=ColorEngine%3A%20default%20to%20teal%20color%20accent&type=Commits)
+* [ba42305 Introduce color engine.](https://github.com/search?q=Introduce%20color%20engine.&type=Commits)
+* [d796bc5 Revert "FW: Use stock pixel color scheme & improve upcoming CMTE compatibility"](https://github.com/search?q=Revert%20"FW%3A%20Use%20stock%20pixel%20color%20scheme%20&%20improve%20upcoming%20CMTE%20compatibility"&type=Commits)
+
+#### packages/apps/DUI/
+* [b79ce98 DUI:Fix up accent colors with color engine[3/3]](https://github.com/search?q=DUI%3AFix%20up%20accent%20colors%20with%20color%20engine[3/3]&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [92bdde3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [024b30f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [523231c Add Andres to About](https://github.com/search?q=Add%20Andres%20to%20About&type=Commits)
+* [3c520f0 Settings:Fix up RR configurations theme with color engine[1/3]](https://github.com/search?q=Settings%3AFix%20up%20RR%20configurations%20theme%20with%20color%20engine[1/3]&type=Commits)
+* [bb8b8d3 ColorEngine: Settings: keep changed resources footprint low](https://github.com/search?q=ColorEngine%3A%20Settings%3A%20keep%20changed%20resources%20footprint%20low&type=Commits)
+* [62b94cf ColorEngine: Settings: default to default primary/bg color](https://github.com/search?q=ColorEngine%3A%20Settings%3A%20default%20to%20default%20primary/bg%20color&type=Commits)
+* [2244d5d ColorEngine: Settings: default to pixel accent everywhere](https://github.com/search?q=ColorEngine%3A%20Settings%3A%20default%20to%20pixel%20accent%20everywhere&type=Commits)
+* [fe2ff9f Settings: Make shortcut icon colors match settings accent](https://github.com/search?q=Settings%3A%20Make%20shortcut%20icon%20colors%20match%20settings%20accent&type=Commits)
+* [ec49047 Settings: PreviewPagerAdapter: copy the full theme](https://github.com/search?q=Settings%3A%20PreviewPagerAdapter%3A%20copy%20the%20full%20theme&type=Commits)
+* [3bbba44 Improve color selection preview](https://github.com/search?q=Improve%20color%20selection%20preview&type=Commits)
+* [316b3bb ColorEngine settings: show accent color selection on first open](https://github.com/search?q=ColorEngine%20settings%3A%20show%20accent%20color%20selection%20on%20first%20open&type=Commits)
+* [7c5a01e Settings: Support color engine](https://github.com/search?q=Settings%3A%20Support%20color%20engine&type=Commits)
+
+#### system/vold/
+* [d8d5e6e Fix bug in cryptfs_verify_passwd with hardware disk encryption](https://github.com/search?q=Fix%20bug%20in%20cryptfs_verify_passwd%20with%20hardware%20disk%20encryption&type=Commits)
+
+#### vendor/cm/
+* [889b570 Merge remote-tracking branch 'rr/nougat' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27rr/nougat%27%20into%20HEAD&type=Commits)
+* [3b31d8f Final version for N -> 5.8.5 m/](https://github.com/search?q=Final%20version%20for%20N%20->%205.8.5%20m/&type=Commits)
+* [6d81c3d vendor: sepolicy: Add Color Engine policy](https://github.com/search?q=vendor%3A%20sepolicy%3A%20Add%20Color%20Engine%20policy&type=Commits)
+* [813d067 Revert "Revert "vendor: cm: sepolicy: Allow rw-access to system_app_data_file""](https://github.com/search?q=Revert%20"Revert%20"vendor%3A%20cm%3A%20sepolicy%3A%20Allow%20rw-access%20to%20system_app_data_file""&type=Commits)
+* [c0a7af1 Remove all traces of CMTE policy](https://github.com/search?q=Remove%20all%20traces%20of%20CMTE%20policy&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-25-2017 End.
+
 09-24-2017
 ====================
 
@@ -10,9 +106,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Device/Quark/
 * [b4e1fff Quark: set fluencetype to none](https://github.com/search?q=Quark%3A%20set%20fluencetype%20to%20none&type=Commits)
-
-#### Kernel/Quark/
-* [a0dcac4 Bluetooth: Properly check L2CAP config option output buffer length](https://github.com/search?q=Bluetooth%3A%20Properly%20check%20L2CAP%20config%20option%20output%20buffer%20length&type=Commits)
 
 #### Device specific Changes of 09-24-2017 End.
 
