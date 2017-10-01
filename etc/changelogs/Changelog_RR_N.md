@@ -3,11 +3,85 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
-#### Device specific Changes of 09-26-2017 Start:
+10-01-2017
+====================
+
+#### Device specific Changes of 10-01-2017 Start:
+
+#### Device/Quark/
+* [b6ca4cb quark: ena AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE](https://github.com/search?q=quark%3A%20ena%20AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE&type=Commits)
+* [80d1819 Quark: Load all adsp from firmware to etc/firmware](https://github.com/search?q=Quark%3A%20Load%20all%20adsp%20from%20firmware%20to%20etc/firmware&type=Commits)
+
+#### Kernel/Quark/
+* [b0f25cf3 Sound: soc/msm Stereo Call Recording Support](https://github.com/search?q=%20Sound%3A%20soc/msm%20Stereo%20Call%20Recording%20Support&type=Commits)
+
+#### Device specific Changes of 10-01-2017 End.
+
+***
+
+09-30-2017
+====================
+
+#### Device specific Changes of 09-30-2017 Start:
+
+#### Device/Quark/
+* [f469964 Quark: enable OLED BurnIn protection](https://github.com/search?q=Quark%3A%20enable%20OLED%20BurnIn%20protection&type=Commits)
+
+#### Device specific Changes of 09-30-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-30-2017:
+
+#### frameworks/base/
+* [3cc1a5a [1/4] SystemUI: add burnIn protection setting](https://github.com/search?q=[1/4]%20SystemUI%3A%20add%20burnIn%20protection%20setting&type=Commits)
+
+#### packages/apps/DUI/
+* [7180a95 DUI: add burnIn protection setting [4/4]](https://github.com/search?q=DUI%3A%20add%20burnIn%20protection%20setting%20[4/4]&type=Commits)
+
+#### packages/apps/Settings/
+* [47d0991 [2/4] Settings: add burnIn protection setting](https://github.com/search?q=[2/4]%20Settings%3A%20add%20burnIn%20protection%20setting&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-30-2017 End.
+
+09-29-2017
+====================
+
+#### Device specific Changes of 09-29-2017 Start:
+
+#### Device/Quark/
+* [cda468a Quark: cmactions support themes color engine](https://github.com/search?q=Quark%3A%20cmactions%20support%20themes%20color%20engine&type=Commits)
+
+#### Vendor/Quark/
+* [7c58aae Quark: up substratum](https://github.com/search?q=Quark%3A%20up%20substratum&type=Commits)
+
+#### Device specific Changes of 09-29-2017 End.
+
+***
+
+09-28-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 09-28-2017:
+
+#### vendor/cmsdk/
+* [8f4f039 [3/3] cmsdk: add burnIn protection setting](https://github.com/search?q=[3/3]%20cmsdk%3A%20add%20burnIn%20protection%20setting&type=Commits)
+* [10d64e7 Revert "cmsdk: Don't change ring volume or mode if DND is enabled"](https://github.com/search?q=Revert%20"cmsdk%3A%20Don%27t%20change%20ring%20volume%20or%20mode%20if%20DND%20is%20enabled"&type=Commits)
+* [253a12e cmsdk: Run in core apps only for poweroff alarm boot](https://github.com/search?q=cmsdk%3A%20Run%20in%20core%20apps%20only%20for%20poweroff%20alarm%20boot&type=Commits)
+* [f4da7ec Make CMParts a protected component manager](https://github.com/search?q=Make%20CMParts%20a%20protected%20component%20manager&type=Commits)
+* [a5a86a8 cmsdk: Don't change ring volume or mode if DND is enabled](https://github.com/search?q=cmsdk%3A%20Don%27t%20change%20ring%20volume%20or%20mode%20if%20DND%20is%20enabled&type=Commits)
+* [6f9c3e4 cmsdk: Use intent extradata for WiFi triggers](https://github.com/search?q=cmsdk%3A%20Use%20intent%20extradata%20for%20WiFi%20triggers&type=Commits)
+* [cf42384 cmsdk: Disable unused services](https://github.com/search?q=cmsdk%3A%20Disable%20unused%20services&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-28-2017 End.
+
+09-27-2017
+====================
+
+#### Device specific Changes of 09-27-2017 Start:
 
 #### Device/Quark/
 * [1a10e75 Quark: notification led using kernel timer trigger function](https://github.com/search?q=Quark%3A%20notification%20led%20using%20kernel%20timer%20trigger%20function&type=Commits)
-* [65ea60b Revert "Quark: liblight only disable led if brightness is 0"](https://github.com/search?q=Revert%20"Quark%3A%20liblight%20only%20disable%20led%20if%20brightness%20is%200"&type=Commits)
 
 #### Kernel/Quark/
 * [c95aca4 Revert "led-class: Add blink support"](https://github.com/search?q=Revert%20"led-class%3A%20Add%20blink%20support"&type=Commits)
@@ -16,7 +90,28 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [291847a Leds: ledtrig-timer change permission delay_on/off](https://github.com/search?q=Leds%3A%20ledtrig-timer%20change%20permission%20delay_on/off&type=Commits)
 * [24dd2d7 defconfig enable LEDS_TRIGGER](https://github.com/search?q=defconfig%20enable%20LEDS_TRIGGER&type=Commits)
 
+#### Device specific Changes of 09-27-2017 End.
+
+***
+
+09-26-2017
+====================
+
+#### Device specific Changes of 09-26-2017 Start:
+
+#### Device/Quark/
+* [65ea60b Revert "Quark: liblight only disable led if brightness is 0"](https://github.com/search?q=Revert%20"Quark%3A%20liblight%20only%20disable%20led%20if%20brightness%20is%200"&type=Commits)
+
 #### Device specific Changes of 09-26-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-26-2017:
+
+#### external/libnfc-nci/
+* [257864a pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set](https://github.com/search?q=pn54x%3A%20Don%27t%20default%20to%20pn551%20if%20BOARD_NFC_CHIPSET%20isn%27t%20set&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-26-2017 End.
 
 ***
 
