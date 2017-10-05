@@ -3,6 +3,136 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+10-05-2017
+====================
+
+#### Device specific Changes of 10-05-2017 Start:
+
+#### Vendor/Quark/
+* [4eb7210 Qurk: up KA and substratum](https://github.com/search?q=Qurk%3A%20up%20KA%20and%20substratum&type=Commits)
+
+#### Device specific Changes of 10-05-2017 End.
+
+***
+
+10-03-2017
+====================
+
+#### Device specific Changes of 10-03-2017 Start:
+
+#### Vendor/Quark/
+* [bb80f72 Quark: UP KA](https://github.com/search?q=Quark%3A%20UP%20KA&type=Commits)
+
+#### Device specific Changes of 10-03-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-03-2017:
+
+#### external/dnsmasq/
+* [41e4b42 Add extra (size_t) cast to avoid compiler warning.](https://github.com/search?q=Add%20extra%20%28size_t%29%20cast%20to%20avoid%20compiler%20warning.&type=Commits)
+* [0b7daf3 Make dnsmasq more stable.](https://github.com/search?q=Make%20dnsmasq%20more%20stable.&type=Commits)
+
+#### external/libhevc/
+* [42469df Fix slice decrement for skipped slices](https://github.com/search?q=Fix%20slice%20decrement%20for%20skipped%20slices&type=Commits)
+* [6f57834 Ensure CTB size > 16 for clips with tiles and width/height >= 4096](https://github.com/search?q=Ensure%20CTB%20size%20>%2016%20for%20clips%20with%20tiles%20and%20width/height%20>=%204096&type=Commits)
+
+#### external/libmpeg2/
+* [c1edfa4 Fixed Memory Overflow Errors](https://github.com/search?q=Fixed%20Memory%20Overflow%20Errors&type=Commits)
+
+#### external/tremolo/
+* [166d5a3 Fix out of bounds access in codebook processing](https://github.com/search?q=Fix%20out%20of%20bounds%20access%20in%20codebook%20processing&type=Commits)
+
+#### frameworks/av/
+* [019e77c Fix 'potential memory leak' compiler warning.](https://github.com/search?q=Fix%20%27potential%20memory%20leak%27%20compiler%20warning.&type=Commits)
+* [223131d Check buffer size in useBuffer in software components](https://github.com/search?q=Check%20buffer%20size%20in%20useBuffer%20in%20software%20components&type=Commits)
+* [2ca6228 stagefright: avoid buffer overflow in base64 decoder](https://github.com/search?q=stagefright%3A%20avoid%20buffer%20overflow%20in%20base64%20decoder&type=Commits)
+* [49e724e Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb](https://github.com/search?q=Add%20EFFECT_CMD_SET_PARAM%20parameter%20checking%20to%20Downmix%20and%20Reverb&type=Commits)
+* [8511171 Fix memory leak in OggExtractor](https://github.com/search?q=Fix%20memory%20leak%20in%20OggExtractor&type=Commits)
+* [f1e2df1 Skip track if verification fails](https://github.com/search?q=Skip%20track%20if%20verification%20fails&type=Commits)
+
+#### hardware/ril/
+* [4609708 DO NOT MERGE Fix security vulnerability in pre-O rild code.](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20security%20vulnerability%20in%20pre-O%20rild%20code.&type=Commits)
+
+#### hardware/ril-caf/
+* [cc408d7 DO NOT MERGE Fix security vulnerability in pre-O rild code.](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20security%20vulnerability%20in%20pre-O%20rild%20code.&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-03-2017 End.
+
+10-01-2017
+====================
+
+#### Device specific Changes of 10-01-2017 Start:
+
+#### Device/Quark/
+* [b6ca4cb quark: ena AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE](https://github.com/search?q=quark%3A%20ena%20AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE&type=Commits)
+* [80d1819 Quark: Load all adsp from firmware to etc/firmware](https://github.com/search?q=Quark%3A%20Load%20all%20adsp%20from%20firmware%20to%20etc/firmware&type=Commits)
+
+#### Kernel/Quark/
+* [b0f25cf3 Sound: soc/msm Stereo Call Recording Support](https://github.com/search?q=%20Sound%3A%20soc/msm%20Stereo%20Call%20Recording%20Support&type=Commits)
+
+#### Device specific Changes of 10-01-2017 End.
+
+***
+
+09-30-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-30-2017:
+
+#### hardware/qcom/audio-caf/msm8916/
+* [512197f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.26' into cm-14.1-caf-8916](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27caf/LA.BR.1.2.9_rb1.26%27%20into%20cm-14.1-caf-8916&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-30-2017 End.
+
+09-28-2017
+====================
+
+#### Device specific Changes of 09-28-2017 Start:
+
+#### Vendor/Quark/
+* [7c58aae Quark: up substratum](https://github.com/search?q=Quark%3A%20up%20substratum&type=Commits)
+
+#### Device specific Changes of 09-28-2017 End.
+
+***
+
+09-26-2017
+====================
+
+#### Device specific Changes of 09-26-2017 Start:
+
+#### Device/Quark/
+* [1a10e75 Quark: notification led using kernel timer trigger function](https://github.com/search?q=Quark%3A%20notification%20led%20using%20kernel%20timer%20trigger%20function&type=Commits)
+* [65ea60b Revert "Quark: liblight only disable led if brightness is 0"](https://github.com/search?q=Revert%20"Quark%3A%20liblight%20only%20disable%20led%20if%20brightness%20is%200"&type=Commits)
+
+#### Kernel/Quark/
+* [c95aca4 Revert "led-class: Add blink support"](https://github.com/search?q=Revert%20"led-class%3A%20Add%20blink%20support"&type=Commits)
+* [43a8079 Revert "led-class: blink support add show function"](https://github.com/search?q=Revert%20"led-class%3A%20blink%20support%20add%20show%20function"&type=Commits)
+* [a25d45d fs/sysfs/DIR.C remove logspam when using diferent cpu governor](https://github.com/search?q=fs/sysfs/DIR.C%20remove%20logspam%20when%20using%20diferent%20cpu%20governor&type=Commits)
+* [291847a Leds: ledtrig-timer change permission delay_on/off](https://github.com/search?q=Leds%3A%20ledtrig-timer%20change%20permission%20delay_on/off&type=Commits)
+* [24dd2d7 defconfig enable LEDS_TRIGGER](https://github.com/search?q=defconfig%20enable%20LEDS_TRIGGER&type=Commits)
+
+#### Device specific Changes of 09-26-2017 End.
+
+***
+
+09-25-2017
+====================
+
+#### CRDroid Android Nougat source changes of 09-25-2017:
+
+#### external/libnfc-nci/
+* [257864a pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set](https://github.com/search?q=pn54x%3A%20Don%27t%20default%20to%20pn551%20if%20BOARD_NFC_CHIPSET%20isn%27t%20set&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8916/
+* [89274d0 Merge AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.036 on remote branch](https://github.com/search?q=Merge%20AU_LINUX_ANDROID_LA.BR.1.2.9_RB1.07.01.02.254.036%20on%20remote%20branch&type=Commits)
+
+#### system/vold/
+* [d8d5e6e Fix bug in cryptfs_verify_passwd with hardware disk encryption](https://github.com/search?q=Fix%20bug%20in%20cryptfs_verify_passwd%20with%20hardware%20disk%20encryption&type=Commits)
+
+#### CRDroid Android Nougat source changes of 09-25-2017 End.
+
 09-24-2017
 ====================
 
