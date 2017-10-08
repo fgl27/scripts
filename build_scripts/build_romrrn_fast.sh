@@ -17,8 +17,8 @@ FOLDER2=/home/bhb27/android/n;
 #make clean
 
 cd $FOLDER2
-export RR_BUILDTYPE="official"
-export askvariant=1
+export RR_BUILDTYPE="Mod"
+export askvariant=2
 export days_to_log=0
 export rom=r
 export ROM_VVV=$(grep PRODUCT_VERSION vendor/cm/config/common.mk | head -1 | awk '{print $3}');

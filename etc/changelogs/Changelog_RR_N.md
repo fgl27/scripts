@@ -3,6 +3,362 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+10-08-2017
+====================
+
+#### Device specific Changes of 10-08-2017 Start:
+
+#### Device/Quark/
+* [61527dc Quark: overlay add screenBrightnessDark + update Brightness values](https://github.com/search?q=Quark%3A%20overlay%20add%20screenBrightnessDark%20+%20update%20Brightness%20values&type=Commits)
+* [2d5ba21 Quark: Notification Led enable brightness level support](https://github.com/search?q=Quark%3A%20Notification%20Led%20enable%20brightness%20level%20support&type=Commits)
+* [8ce855b Quark: build libqcomvoiceprocessingdescriptors](https://github.com/search?q=Quark%3A%20build%20libqcomvoiceprocessingdescriptors&type=Commits)
+
+#### Kernel/Quark/
+* [9ac7276 qcacld-2.0: Avoid extscan bucket spec overread](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20extscan%20bucket%20spec%20overread&type=Commits)
+* [b111895 msm: ADSPRPC: Buffer length truncated while validation](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Buffer%20length%20truncated%20while%20validation&type=Commits)
+* [617434e qcacld-2.0: Add an attribute to represent PNO/EPNO Request ID](https://github.com/search?q=qcacld-2.0%3A%20Add%20an%20attribute%20to%20represent%20PNO/EPNO%20Request%20ID&type=Commits)
+* [7167005 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
+* [115c6a1 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
+* [de43526 qcacld-2.0: Avoid overread when configuring MAC addresses](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20overread%20when%20configuring%20MAC%20addresses&type=Commits)
+* [cdcebef Prevent potential double frees in sg driver](https://github.com/search?q=Prevent%20potential%20double%20frees%20in%20sg%20driver&type=Commits)
+* [c26bc53 qcacld-2.0: Do not copy buffer to user-space if diag read fails](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20copy%20buffer%20to%20user-space%20if%20diag%20read%20fails&type=Commits)
+* [6b249c6 leds: led-core: Use last Retain brightness request for blink_brightness](https://github.com/search?q=leds%3A%20led-core%3A%20Use%20last%20Retain%20brightness%20request%20for%20blink_brightness&type=Commits)
+* [306303a leds: led-class: Retain the latest user brightness request](https://github.com/search?q=leds%3A%20led-class%3A%20Retain%20the%20latest%20user%20brightness%20request&type=Commits)
+* [1644991 leds: led-class: don't disable active triggers](https://github.com/search?q=leds%3A%20led-class%3A%20don%27t%20disable%20active%20triggers&type=Commits)
+* [2cd9fc9 leds: leds-qpnp: make blink functionality synchronous](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20make%20blink%20functionality%20synchronous&type=Commits)
+* [728e379 leds: leds-qpnp: use the proper pwm period in LPG mode](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20use%20the%20proper%20pwm%20period%20in%20LPG%20mode&type=Commits)
+* [12de577 leds: leds-qpnp: remove the usage of mutex_destroy for static mutex](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20remove%20the%20usage%20of%20mutex_destroy%20for%20static%20mutex&type=Commits)
+* [bc028ef leds: leds-qpnp: use a single global mutex for flash led](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20use%20a%20single%20global%20mutex%20for%20flash%20led&type=Commits)
+* [17dcdae leds: leds-qpnp: avoid calling pwm_disable when scaling leds' brightness](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20avoid%20calling%20pwm_disable%20when%20scaling%20leds%27%20brightness&type=Commits)
+* [09741d0 leds: leds-qpnp: bug fix for NULL pointer dereference in qpnp_xxx_set()](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20bug%20fix%20for%20NULL%20pointer%20dereference%20in%20qpnp_xxx_set%28%29&type=Commits)
+* [8a1e758 leds: leds-qpnp: PWM period granularity auto selection for leds](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20PWM%20period%20granularity%20auto%20selection%20for%20leds&type=Commits)
+* [c210db4 leds: leds-qpnp: correct brightness value for MPP based LEDs](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20correct%20brightness%20value%20for%20MPP%20based%20LEDs&type=Commits)
+* [c415fbe leds: leds-qpnp: avoid truncation in qpnp_led_masked_write function](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20avoid%20truncation%20in%20qpnp_led_masked_write%20function&type=Commits)
+* [f9b43fc qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
+* [92e154e qcacld-2.0: Validate vendor set roaming params command](https://github.com/search?q=qcacld-2.0%3A%20Validate%20vendor%20set%20roaming%20params%20command&type=Commits)
+* [ba03a0b qcacld-2.0: Add get valid channels entry to NLA policy](https://github.com/search?q=qcacld-2.0%3A%20Add%20get%20valid%20channels%20entry%20to%20NLA%20policy&type=Commits)
+* [1841b87 qcacld-2.0: Fix kernel memory corruption](https://github.com/search?q=qcacld-2.0%3A%20Fix%20kernel%20memory%20corruption&type=Commits)
+* [072113c qcacld-2.0: Check target address boundary before access](https://github.com/search?q=qcacld-2.0%3A%20Check%20target%20address%20boundary%20before%20access&type=Commits)
+* [8003321 qcacld-2.0: Restrict max/min pktlog buffer size using pktlogconf tool](https://github.com/search?q=qcacld-2.0%3A%20Restrict%20max/min%20pktlog%20buffer%20size%20using%20pktlogconf%20tool&type=Commits)
+* [772b098 qcacld-2.0: Fix Uninitialized memory issue](https://github.com/search?q=qcacld-2.0%3A%20Fix%20Uninitialized%20memory%20issue&type=Commits)
+* [804f637 qcacld-2.0: Drop assoc request if RSNIE/WPAIE parsing fail](https://github.com/search?q=qcacld-2.0%3A%20Drop%20assoc%20request%20if%20RSNIE/WPAIE%20parsing%20fail&type=Commits)
+* [c3d3e1c Enable Reading for debugfs file for non-root](https://github.com/search?q=Enable%20Reading%20for%20debugfs%20file%20for%20non-root&type=Commits)
+* [fe83cc4 Revert "Revert "msm: sps: Fix race condition in SPS debugfs APIs""](https://github.com/search?q=Revert%20"Revert%20"msm%3A%20sps%3A%20Fix%20race%20condition%20in%20SPS%20debugfs%20APIs""&type=Commits)
+* [7a1ed9d UPSTREAM: sctp: do not inherit ipv6_{mc|ac|fl}_list from parent](https://github.com/search?q=UPSTREAM%3A%20sctp%3A%20do%20not%20inherit%20ipv6_{mc|ac|fl}_list%20from%20parent&type=Commits)
+* [740c932 crypto: msm: Fix several race condition issues in crypto drivers](https://github.com/search?q=crypto%3A%20msm%3A%20Fix%20several%20race%20condition%20issues%20in%20crypto%20drivers&type=Commits)
+* [f3cb9cf msm: mdss: Buffer overflow while processing gamut table data](https://github.com/search?q=msm%3A%20mdss%3A%20Buffer%20overflow%20while%20processing%20gamut%20table%20data&type=Commits)
+* [9578cec msm: properly unlock mutexes](https://github.com/search?q=msm%3A%20properly%20unlock%20mutexes&type=Commits)
+
+#### Device specific Changes of 10-08-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-08-2017:
+
+#### frameworks/base/
+* [7bfe073 Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
+* [caac457 Base: correct BrightnessRangeMinimum in Status bar gestures brightness controler](https://github.com/search?q=Base%3A%20correct%20BrightnessRangeMinimum%20in%20Status%20bar%20gestures%20brightness%20controler&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [5f3d1f5 FlipFlap: Fix switchbar on/off text](https://github.com/search?q=FlipFlap%3A%20Fix%20switchbar%20on/off%20text&type=Commits)
+
+#### packages/apps/Gallery2/
+* [947a320 Gallery: Kill media effect dialog on movies](https://github.com/search?q=Gallery%3A%20Kill%20media%20effect%20dialog%20on%20movies&type=Commits)
+
+#### packages/apps/Nfc/
+* [8314ecd Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [9af7345 Revert "DO NOT MERGE Disable overlays while installer is resumed"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed"&type=Commits)
+
+#### packages/apps/Settings/
+* [6bcd94f Settings: Correct german translation for 1 registered fingerprint](https://github.com/search?q=Settings%3A%20Correct%20german%20translation%20for%201%20registered%20fingerprint&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [3a0d02b MediaProvider: support colorengine](https://github.com/search?q=MediaProvider%3A%20support%20colorengine&type=Commits)
+
+#### vendor/cm/
+* [a2aac01 vendor: We are now LineageOS](https://github.com/search?q=vendor%3A%20We%20are%20now%20LineageOS&type=Commits)
+* [0272592 extract_files: Adjust deodex path and tmpdir](https://github.com/search?q=extract_files%3A%20Adjust%20deodex%20path%20and%20tmpdir&type=Commits)
+* [e566699 Add mod variant](https://github.com/search?q=Add%20mod%20variant&type=Commits)
+
+#### vendor/cmsdk/
+* [20053f2 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-08-2017 End.
+
+10-07-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-07-2017:
+
+#### build/
+* [1f143d7 Merge branch 't' of https://github.com/bhb27/android_build into nougat](https://github.com/search?q=Merge%20branch%20%27t%27%20of%20https%3A//github.com/bhb27/android_build%20into%20nougat&type=Commits)
+
+#### frameworks/av/
+* [b065d01 Merge branch 'nougat' of https://github.com/ResurrectionRemix/frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/frameworks_av%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [9f4bb10 Base: systemui_burnin_protection enable by default 2/2](https://github.com/search?q=Base%3A%20systemui_burnin_protection%20enable%20by%20default%202/2&type=Commits)
+* [22435f7 Base: notification led reload pulse values before show](https://github.com/search?q=Base%3A%20notification%20led%20reload%20pulse%20values%20before%20show&type=Commits)
+* [c92e56c Base: color engine add orange color 2/2](https://github.com/search?q=Base%3A%20color%20engine%20add%20orange%20color%202/2&type=Commits)
+* [ee66acf Base: bt, data and wifi easy toggle enable by default 2/2](https://github.com/search?q=Base%3A%20bt,%20data%20and%20wifi%20easy%20toggle%20enable%20by%20default%202/2&type=Commits)
+* [51bab37 Base: enable easy tile add by default 2/2](https://github.com/search?q=Base%3A%20enable%20easy%20tile%20add%20by%20default%202/2&type=Commits)
+* [1a6fae6 base: CPUInfoService fix max display size](https://github.com/search?q=base%3A%20CPUInfoService%20fix%20max%20display%20size&type=Commits)
+* [a10635a base: CPUInfoService add cpu_utilization](https://github.com/search?q=base%3A%20CPUInfoService%20add%20cpu_utilization&type=Commits)
+* [104928b Base: add  permissin READ_PHONE_STATE so systemui](https://github.com/search?q=Base%3A%20add%20%20permissin%20READ_PHONE_STATE%20so%20systemui&type=Commits)
+* [2e5fbc4 base: CPUInfoService Improves add correct apq8084 info GPU/CPU/TEMP +](https://github.com/search?q=base%3A%20CPUInfoService%20Improves%20add%20correct%20apq8084%20info%20GPU/CPU/TEMP%20+&type=Commits)
+* [3a103f3 base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
+* [7fec6c3 Revert "base: SystemUI: CPU Info: show CPU temp if supported"](https://github.com/search?q=Revert%20"base%3A%20SystemUI%3A%20CPU%20Info%3A%20show%20CPU%20temp%20if%20supported"&type=Commits)
+* [978adf6 Revert "Fix new Processor regex in Nexus 4"](https://github.com/search?q=Revert%20"Fix%20new%20Processor%20regex%20in%20Nexus%204"&type=Commits)
+* [1a19cfb Revert "DeviceInfoUtils: Expand Processor string #3"](https://github.com/search?q=Revert%20"DeviceInfoUtils%3A%20Expand%20Processor%20string%20%233"&type=Commits)
+* [601bf51 Revert "DeviceInfoUtils: decentralize processor Regex"](https://github.com/search?q=Revert%20"DeviceInfoUtils%3A%20decentralize%20processor%20Regex"&type=Commits)
+* [513e118 Base: prevent batterystatus reset when battery is 90% or above](https://github.com/search?q=Base%3A%20prevent%20batterystatus%20reset%20when%20battery%20is%2090%%20or%20above&type=Commits)
+* [cfa92c6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+* [8205bfc SystemUI: Improve battery icons](https://github.com/search?q=SystemUI%3A%20Improve%20battery%20icons&type=Commits)
+
+#### hardware/ril/
+* [d8fb8ff Fix multi sim support and warnings](https://github.com/search?q=Fix%20multi%20sim%20support%20and%20warnings&type=Commits)
+
+#### hardware/ril-caf/
+* [ef31609 Fix multi sim support and warnings](https://github.com/search?q=Fix%20multi%20sim%20support%20and%20warnings&type=Commits)
+
+#### packages/apps/CMParts/
+* [1f34bd6 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [697ce22 ContactsCommon: Fix possible NPE](https://github.com/search?q=ContactsCommon%3A%20Fix%20possible%20NPE&type=Commits)
+* [1b771ce Allow to edit the SIP field of contacts stored locally](https://github.com/search?q=Allow%20to%20edit%20the%20SIP%20field%20of%20contacts%20stored%20locally&type=Commits)
+* [6847a90 Export only selected contact, not all contacts](https://github.com/search?q=Export%20only%20selected%20contact,%20not%20all%20contacts&type=Commits)
+* [a8040d1 Add support to export multi contacts to Vcard](https://github.com/search?q=Add%20support%20to%20export%20multi%20contacts%20to%20Vcard&type=Commits)
+
+#### packages/apps/Dialer/
+* [12d5c74 Dialer: Provide upgrade path for removed lookup providers](https://github.com/search?q=Dialer%3A%20Provide%20upgrade%20path%20for%20removed%20lookup%20providers&type=Commits)
+* [2969389 Dialer: Fix compilation warnings](https://github.com/search?q=Dialer%3A%20Fix%20compilation%20warnings&type=Commits)
+* [784d33b Dialer: Move padding from layout to spinner](https://github.com/search?q=Dialer%3A%20Move%20padding%20from%20layout%20to%20spinner&type=Commits)
+* [9e26719 BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups](https://github.com/search?q=BUGBASH-612%3A%20do%20not%20send%20phone%20numbers%20to%20non-ssl%20sites%20for%20reverse/forward/people%20lookups&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [43099b7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20nougat&type=Commits)
+
+#### packages/apps/Gallery2/
+* [121bd84 Gallery2: Fix crash when muting a video](https://github.com/search?q=Gallery2%3A%20Fix%20crash%20when%20muting%20a%20video&type=Commits)
+* [e171921 Fix gallery crash when trimming video](https://github.com/search?q=Fix%20gallery%20crash%20when%20trimming%20video&type=Commits)
+
+#### packages/apps/Messaging/
+* [1d4ed9a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [1c3205c packageinstaller: colorengine support](https://github.com/search?q=packageinstaller%3A%20colorengine%20support&type=Commits)
+
+#### packages/apps/Settings/
+* [9140d81 Settings: systemui_burnin_protection enable by default 1/2](https://github.com/search?q=Settings%3A%20systemui_burnin_protection%20enable%20by%20default%201/2&type=Commits)
+* [98c8078 Settings: color engine add orange color 1/2](https://github.com/search?q=Settings%3A%20color%20engine%20add%20orange%20color%201/2&type=Commits)
+* [964f371 Settings: fab button mini enable by default](https://github.com/search?q=Settings%3A%20fab%20button%20mini%20enable%20by%20default&type=Commits)
+* [4e4ba8f Settings: bt, data and wifi easy toggle enable by default 1/2](https://github.com/search?q=Settings%3A%20bt,%20data%20and%20wifi%20easy%20toggle%20enable%20by%20default%201/2&type=Commits)
+* [305c409 Enable easy tile add by default 2/2](https://github.com/search?q=Enable%20easy%20tile%20add%20by%20default%202/2&type=Commits)
+* [5458149 Setting: Correct kerneladiutor path, string and Add a vector icon](https://github.com/search?q=Setting%3A%20Correct%20kerneladiutor%20path,%20string%20and%20Add%20a%20vector%20icon&type=Commits)
+* [533d073 Settimgs: fix missmerge of my reverts](https://github.com/search?q=Settimgs%3A%20fix%20missmerge%20of%20my%20reverts&type=Commits)
+* [44742bf Setttings: CPUInfoService add GPU and CPU info](https://github.com/search?q=Setttings%3A%20CPUInfoService%20add%20GPU%20and%20CPU%20info&type=Commits)
+* [6355757 Revert "Add Cpu & Mem Info"](https://github.com/search?q=Revert%20"Add%20Cpu%20&%20Mem%20Info"&type=Commits)
+* [9c3cfd5 Revert "Add processor model in device info screen (2/2)"](https://github.com/search?q=Revert%20"Add%20processor%20model%20in%20device%20info%20screen%20%282/2%29"&type=Commits)
+* [12efb6a Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/Resurrection_packages_apps_Settings%20into%20nougat&type=Commits)
+
+#### packages/services/Telecomm/
+* [6002fa5 SensitivePhoneNumbers: Fix number comparison](https://github.com/search?q=SensitivePhoneNumbers%3A%20Fix%20number%20comparison&type=Commits)
+* [b35d907 SensitivePhoneNumbers: Handle lists of MCC codes](https://github.com/search?q=SensitivePhoneNumbers%3A%20Handle%20lists%20of%20MCC%20codes&type=Commits)
+
+#### system/bt/
+* [b882eee Fix allocating buffers of the right size when BT_HDR is included](https://github.com/search?q=Fix%20allocating%20buffers%20of%20the%20right%20size%20when%20BT_HDR%20is%20included&type=Commits)
+
+#### system/sepolicy/
+* [11116bd Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_sepolicy into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [110b1b4 cm: overlay: Settings: Disable gesture settings not need in RR](https://github.com/search?q=cm%3A%20overlay%3A%20Settings%3A%20Disable%20gesture%20settings%20not%20need%20in%20RR&type=Commits)
+* [eb4f61f vendor: don't build some app](https://github.com/search?q=vendor%3A%20don%27t%20build%20some%20app&type=Commits)
+* [a10f400 vendor: don't overlay config_globalActionsList this don't allow overlay from DT to work](https://github.com/search?q=vendor%3A%20don%27t%20overlay%20config_globalActionsList%20this%20don%27t%20allow%20overlay%20from%20DT%20to%20work&type=Commits)
+
+#### vendor/cmsdk/
+* [a17997a Merge branch 'nougat' of https://github.com/ResurrectionRemix/cm_platform_sdk into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/cm_platform_sdk%20into%20nougat&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-07-2017 End.
+
+10-06-2017
+====================
+
+#### Device specific Changes of 10-06-2017 Start:
+
+#### Device/Quark/
+* [4f7ed79 Quark: Drop cmdline workarounds](https://github.com/search?q=Quark%3A%20Drop%20cmdline%20workarounds&type=Commits)
+
+#### Kernel/Quark/
+* [0b39c1a proc: Remove additional SafetyNet flags from /proc/cmdline](https://github.com/search?q=proc%3A%20Remove%20additional%20SafetyNet%20flags%20from%20/proc/cmdline&type=Commits)
+
+#### Device specific Changes of 10-06-2017 End.
+
+***
+
+10-05-2017
+====================
+
+#### Device specific Changes of 10-05-2017 Start:
+
+#### Vendor/Quark/
+* [4eb7210 Qurk: up KA and substratum](https://github.com/search?q=Qurk%3A%20up%20KA%20and%20substratum&type=Commits)
+
+#### Device specific Changes of 10-05-2017 End.
+
+***
+
+10-04-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-04-2017:
+
+#### android/
+* [516714f manifest: track our own dnsmasq and libmpeg2](https://github.com/search?q=manifest%3A%20track%20our%20own%20dnsmasq%20and%20libmpeg2&type=Commits)
+* 6afec8e cm: Remove unused projects
+
+#### art/
+* [692abb3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_art into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_art%20into%20nougat&type=Commits)
+
+#### build/
+* [cb361ed [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-05%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%201517f3d2da27eae798a3ac765096251914f9b119%29&type=Commits)
+* [9727f4f [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-01%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%2073ab80dec9df8966bf660725dc1a942d9c1f324e%29&type=Commits)
+* [d6b4f42 core: config: Use host bison if requested](https://github.com/search?q=core%3A%20config%3A%20Use%20host%20bison%20if%20requested&type=Commits)
+* [68898f0 Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES](https://github.com/search?q=Fix%20warning%20with%20AAPT2%20and%20LOCAL_STATIC_ANDROID_LIBRARIES&type=Commits)
+* [98be556 [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-05%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%201517f3d2da27eae798a3ac765096251914f9b119%29&type=Commits)
+* [a1987d8 [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-01%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%2073ab80dec9df8966bf660725dc1a942d9c1f324e%29&type=Commits)
+* [55c8668 core: config: Use host bison if requested](https://github.com/search?q=core%3A%20config%3A%20Use%20host%20bison%20if%20requested&type=Commits)
+* [b2c296a Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES](https://github.com/search?q=Fix%20warning%20with%20AAPT2%20and%20LOCAL_STATIC_ANDROID_LIBRARIES&type=Commits)
+* [2496d51 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into t](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_build%20into%20t&type=Commits)
+
+#### frameworks/av/
+* [f9bce6f Merge remote-tracking branch 'lineage/cm-14.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27lineage/cm-14.1%27%20into%20HEAD&type=Commits)
+* [ff4c438 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [04405fc Fix security hole in GateKeeperResponse.](https://github.com/search?q=Fix%20security%20hole%20in%20GateKeeperResponse.&type=Commits)
+* [7fd68e0 Enforce policy for camera gesture in keyguard](https://github.com/search?q=Enforce%20policy%20for%20camera%20gesture%20in%20keyguard&type=Commits)
+* [ff5b93c Revert "Camera: ignore torch status update for aux or compsite camera"](https://github.com/search?q=Revert%20"Camera%3A%20ignore%20torch%20status%20update%20for%20aux%20or%20compsite%20camera"&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [7777a81 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [e990eb1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [69b3790 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [6ef29a4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [f914d19 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [7244386 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [9fb922e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [044037c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [13633ec Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [ca96e3b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [3b26528 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [50ef97c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [dfc0e8f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [1147a2b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [ec2a9ce Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [d41ea61 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [bf091e2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [2ca0f5d PackageInstaller: Show current & new version Forward ported to Marshmallow By: @dwitherell Forward ported to Nougat By: @BeansTown106](https://github.com/search?q=PackageInstaller%3A%20Show%20current%20&%20new%20version%20Forward%20ported%20to%20Marshmallow%20By%3A%20%40dwitherell%20Forward%20ported%20to%20Nougat%20By%3A%20%40BeansTown106&type=Commits)
+* [3912d1b Fix PackageInstaller FC when tapping on a downloaded apk notification 2](https://github.com/search?q=Fix%20PackageInstaller%20FC%20when%20tapping%20on%20a%20downloaded%20apk%20notification%202&type=Commits)
+* [42868f0 PackageInstaller: Add tint mode to icons](https://github.com/search?q=PackageInstaller%3A%20Add%20tint%20mode%20to%20icons&type=Commits)
+
+#### packages/apps/Settings/
+* [f62b049 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [25b490d Disabling the activate button when paused](https://github.com/search?q=Disabling%20the%20activate%20button%20when%20paused&type=Commits)
+* [a2ff665 AppOpsState: Hide undeclared Privacy Guard OPs](https://github.com/search?q=AppOpsState%3A%20Hide%20undeclared%20Privacy%20Guard%20OPs&type=Commits)
+* [7af2889 Disabling the activate button when paused](https://github.com/search?q=Disabling%20the%20activate%20button%20when%20paused&type=Commits)
+
+#### system/core/
+* [b2accb4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_system_core%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [0c0063d charger: Fix small battery capacity font](https://github.com/search?q=charger%3A%20Fix%20small%20battery%20capacity%20font&type=Commits)
+* [b290561 sensitive_pn: Include France DOM (Overseas regions) codes](https://github.com/search?q=sensitive_pn%3A%20Include%20France%20DOM%20%28Overseas%20regions%29%20codes&type=Commits)
+* [3086590 apns: correct the mvno_match_data for MasMovil Spain](https://github.com/search?q=apns%3A%20correct%20the%20mvno_match_data%20for%20MasMovil%20Spain&type=Commits)
+* [82d2799 overlay: Enable “Panic Detection” mode](https://github.com/search?q=overlay%3A%20Enable%20“Panic%20Detection”%20mode&type=Commits)
+* [3acc473 extract_utils: Fix cleanup variables assigment](https://github.com/search?q=extract_utils%3A%20Fix%20cleanup%20variables%20assigment&type=Commits)
+* [7129fde templates: Remove empty cat << EOF](https://github.com/search?q=templates%3A%20Remove%20empty%20cat%20<<%20EOF&type=Commits)
+* [b4a695d sensitive_pn: add EU 116 Numbers](https://github.com/search?q=sensitive_pn%3A%20add%20EU%20116%20Numbers&type=Commits)
+* [dd27f1c extract_utils: implement LOCAL_MODULE_RELATIVE_PATH](https://github.com/search?q=extract_utils%3A%20implement%20LOCAL_MODULE_RELATIVE_PATH&type=Commits)
+* [30d2302 cm/aosp/cafremote: Make variables local](https://github.com/search?q=cm/aosp/cafremote%3A%20Make%20variables%20local&type=Commits)
+* d0971c6 envsetup: Fix cmremote for AOSP projects
+* [3360722 cm: Add CMSettings package to power_off_alarm_apps](https://github.com/search?q=cm%3A%20Add%20CMSettings%20package%20to%20power_off_alarm_apps&type=Commits)
+* [7f60c87 qcom_target: Commonize UM target HALs](https://github.com/search?q=qcom_target%3A%20Commonize%20UM%20target%20HALs&type=Commits)
+* [fd285b3 cm: Remove partner interface](https://github.com/search?q=cm%3A%20Remove%20partner%20interface&type=Commits)
+* [b6de90b cm: Remove app suggest feature](https://github.com/search?q=cm%3A%20Remove%20app%20suggest%20feature&type=Commits)
+* [0f1a895 cm: Remove LiveLockScreenService](https://github.com/search?q=cm%3A%20Remove%20LiveLockScreenService&type=Commits)
+* [85daae5 cm: Remove theme engine leftovers](https://github.com/search?q=cm%3A%20Remove%20theme%20engine%20leftovers&type=Commits)
+* [e6bc401 envsetup: Fix installboot on ZSH](https://github.com/search?q=envsetup%3A%20Fix%20installboot%20on%20ZSH&type=Commits)
+* [7a03f17 charger: Remove battery_fail images](https://github.com/search?q=charger%3A%20Remove%20battery_fail%20images&type=Commits)
+* [80bcd7d Update initial attach for Tmo US](https://github.com/search?q=Update%20initial%20attach%20for%20Tmo%20US&type=Commits)
+* [91b9e6e tasks: kernel: Kill unexisting wiki reference](https://github.com/search?q=tasks%3A%20kernel%3A%20Kill%20unexisting%20wiki%20reference&type=Commits)
+* [2c2faf4 build: qcom_target: Add sdm660](https://github.com/search?q=build%3A%20qcom_target%3A%20Add%20sdm660&type=Commits)
+* [2e3a548 templates: Default to sanitize vendor folder during extraction](https://github.com/search?q=templates%3A%20Default%20to%20sanitize%20vendor%20folder%20during%20extraction&type=Commits)
+* [07d4e3b Add Correios Celular (BR) APN](https://github.com/search?q=Add%20Correios%20Celular%20%28BR%29%20APN&type=Commits)
+* [f14267f Fix extract_utils when not using blob sections](https://github.com/search?q=Fix%20extract_utils%20when%20not%20using%20blob%20sections&type=Commits)
+* [7e5a16e Add WOM Internet/MMS (CL) apn](https://github.com/search?q=Add%20WOM%20Internet/MMS%20%28CL%29%20apn&type=Commits)
+* [0a2a2e5 qcom: Allow setting custom audio, display, and media HALs](https://github.com/search?q=qcom%3A%20Allow%20setting%20custom%20audio,%20display,%20and%20media%20HALs&type=Commits)
+* [3618ff9 templates: Update to show usage for new extract_files features](https://github.com/search?q=templates%3A%20Update%20to%20show%20usage%20for%20new%20extract_files%20features&type=Commits)
+* [884cb9f extract_files: Add support for paths without system/](https://github.com/search?q=extract_files%3A%20Add%20support%20for%20paths%20without%20system/&type=Commits)
+* [03fb30d extract_files: Add support for specifying blob sections](https://github.com/search?q=extract_files%3A%20Add%20support%20for%20specifying%20blob%20sections&type=Commits)
+* [93c9bf7 build: Update smali and baksmali to 2.2.1](https://github.com/search?q=build%3A%20Update%20smali%20and%20baksmali%20to%202.2.1&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-04-2017 End.
+
+10-03-2017
+====================
+
+#### Device specific Changes of 10-03-2017 Start:
+
+#### Vendor/Quark/
+* [bb80f72 Quark: UP KA](https://github.com/search?q=Quark%3A%20UP%20KA&type=Commits)
+
+#### Device specific Changes of 10-03-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-03-2017:
+
+#### external/dnsmasq/
+* [41e4b42 Add extra (size_t) cast to avoid compiler warning.](https://github.com/search?q=Add%20extra%20%28size_t%29%20cast%20to%20avoid%20compiler%20warning.&type=Commits)
+* [0b7daf3 Make dnsmasq more stable.](https://github.com/search?q=Make%20dnsmasq%20more%20stable.&type=Commits)
+
+#### external/libhevc/
+* [42469df Fix slice decrement for skipped slices](https://github.com/search?q=Fix%20slice%20decrement%20for%20skipped%20slices&type=Commits)
+* [6f57834 Ensure CTB size > 16 for clips with tiles and width/height >= 4096](https://github.com/search?q=Ensure%20CTB%20size%20>%2016%20for%20clips%20with%20tiles%20and%20width/height%20>=%204096&type=Commits)
+
+#### external/libmpeg2/
+* [c1edfa4 Fixed Memory Overflow Errors](https://github.com/search?q=Fixed%20Memory%20Overflow%20Errors&type=Commits)
+
+#### external/tremolo/
+* [166d5a3 Fix out of bounds access in codebook processing](https://github.com/search?q=Fix%20out%20of%20bounds%20access%20in%20codebook%20processing&type=Commits)
+
+#### frameworks/av/
+* [019e77c Fix 'potential memory leak' compiler warning.](https://github.com/search?q=Fix%20%27potential%20memory%20leak%27%20compiler%20warning.&type=Commits)
+* [223131d Check buffer size in useBuffer in software components](https://github.com/search?q=Check%20buffer%20size%20in%20useBuffer%20in%20software%20components&type=Commits)
+* [2ca6228 stagefright: avoid buffer overflow in base64 decoder](https://github.com/search?q=stagefright%3A%20avoid%20buffer%20overflow%20in%20base64%20decoder&type=Commits)
+* [49e724e Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb](https://github.com/search?q=Add%20EFFECT_CMD_SET_PARAM%20parameter%20checking%20to%20Downmix%20and%20Reverb&type=Commits)
+* [8511171 Fix memory leak in OggExtractor](https://github.com/search?q=Fix%20memory%20leak%20in%20OggExtractor&type=Commits)
+* [f1e2df1 Skip track if verification fails](https://github.com/search?q=Skip%20track%20if%20verification%20fails&type=Commits)
+
+#### hardware/ril/
+* [4609708 DO NOT MERGE Fix security vulnerability in pre-O rild code.](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20security%20vulnerability%20in%20pre-O%20rild%20code.&type=Commits)
+
+#### hardware/ril-caf/
+* [cc408d7 DO NOT MERGE Fix security vulnerability in pre-O rild code.](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20security%20vulnerability%20in%20pre-O%20rild%20code.&type=Commits)
+
+#### libcore/
+* [aa4fd2e Fix failing FileTest#test_canonicalCachesAreOff()](https://github.com/search?q=Fix%20failing%20FileTest%23test_canonicalCachesAreOff%28%29&type=Commits)
+* [c1a58e9 Disable File.getCanonicalPath caches.](https://github.com/search?q=Disable%20File.getCanonicalPath%20caches.&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [cec631f DO NOT MERGE Disable overlays while installer is resumed](https://github.com/search?q=DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-03-2017 End.
+
 10-01-2017
 ====================
 
@@ -19,19 +375,109 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 ***
 
+#### Resurrection Remix OS - Nougat source changes of 10-01-2017:
+
+#### android/
+* [46fafaf manifest: use updated svox tag to fix picotts](https://github.com/search?q=manifest%3A%20use%20updated%20svox%20tag%20to%20fix%20picotts&type=Commits)
+* [3aef973 Switch deqp, pdfium and speex to our forks](https://github.com/search?q=Switch%20deqp,%20pdfium%20and%20speex%20to%20our%20forks&type=Commits)
+* [208f9df cm: Remove libphonenumbergoogle](https://github.com/search?q=cm%3A%20Remove%20libphonenumbergoogle&type=Commits)
+
+#### frameworks/base/
+* [e812d26 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [665999e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [c9ff458 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [2dcb8e4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [b1c5e04 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionStats/
+* [a871abb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [4f80840 About: fix Andres email](https://github.com/search?q=About%3A%20fix%20Andres%20email&type=Commits)
+* [1ab3169 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [6d4e962 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-01-2017 End.
+
 09-30-2017
 ====================
 
-#### Device specific Changes of 09-30-2017 Start:
+#### Resurrection Remix OS - Nougat source changes of 09-30-2017:
+
+#### hardware/qcom/fm/
+* [2d2b4b0 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/AudioFX/
+* [1cc2af6 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Eleven/
+* [d9cbd6b Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Email/
+* [e9bc151 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Exchange/
+* [771eb3a Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Profiles/
+* [b41416f Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Settings/
+* [7db10c8 [1/2]Settings: Configurations add a option to change fab button size](https://github.com/search?q=[1/2]Settings%3A%20Configurations%20add%20a%20option%20to%20change%20fab%20button%20size&type=Commits)
+* [e9caf86 Settings: correct fab button RTL position](https://github.com/search?q=Settings%3A%20correct%20fab%20button%20RTL%20position&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [712fb3a Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Snap/
+* [50d00c0 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Terminal/
+* [736edf7 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [b49b2b1 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [b1e649d Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [6e3ea47 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [cc51ba5 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/resources/devicesettings/
+* [6c579a5 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### vendor/qcom/opensource/bluetooth/
+* [cd69373 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 09-30-2017 End.
+
+09-29-2017
+====================
+
+#### Device specific Changes of 09-29-2017 Start:
 
 #### Device/Quark/
 * [f469964 Quark: enable OLED BurnIn protection](https://github.com/search?q=Quark%3A%20enable%20OLED%20BurnIn%20protection&type=Commits)
 
-#### Device specific Changes of 09-30-2017 End.
+#### Device specific Changes of 09-29-2017 End.
 
 ***
 
-#### Resurrection Remix OS - Nougat source changes of 09-30-2017:
+#### Resurrection Remix OS - Nougat source changes of 09-29-2017:
 
 #### frameworks/base/
 * [3cc1a5a [1/4] SystemUI: add burnIn protection setting](https://github.com/search?q=[1/4]%20SystemUI%3A%20add%20burnIn%20protection%20setting&type=Commits)
@@ -42,20 +488,18 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/Settings/
 * [47d0991 [2/4] Settings: add burnIn protection setting](https://github.com/search?q=[2/4]%20Settings%3A%20add%20burnIn%20protection%20setting&type=Commits)
 
-#### Resurrection Remix OS - Nougat source changes of 09-30-2017 End.
+#### packages/services/Telephony/
+* [1bd60a5 Phone: make icons match settings accent](https://github.com/search?q=Phone%3A%20make%20icons%20match%20settings%20accent&type=Commits)
+* [789c970 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+* [e03973b Phone: Support color engine](https://github.com/search?q=Phone%3A%20Support%20color%20engine&type=Commits)
 
-09-29-2017
-====================
+#### prebuilts/gcc/linux-x86/arm/uber_arm-eabi-4.9/
+* [21e876d Initial commit](https://github.com/search?q=Initial%20commit&type=Commits)
 
-#### Device specific Changes of 09-29-2017 Start:
+#### vendor/cmsdk/
+* [9cb1e5d color engine: correct icon color](https://github.com/search?q=color%20engine%3A%20correct%20icon%20color&type=Commits)
 
-#### Device/Quark/
-* [cda468a Quark: cmactions support themes color engine](https://github.com/search?q=Quark%3A%20cmactions%20support%20themes%20color%20engine&type=Commits)
-
-#### Vendor/Quark/
-* [7c58aae Quark: up substratum](https://github.com/search?q=Quark%3A%20up%20substratum&type=Commits)
-
-#### Device specific Changes of 09-29-2017 End.
+#### Resurrection Remix OS - Nougat source changes of 09-29-2017 End.
 
 ***
 

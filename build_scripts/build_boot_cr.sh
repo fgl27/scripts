@@ -13,8 +13,8 @@ echo -e "\n build start $(date)\n";
 #. build/envsetup.sh
 #make clean
 
-export RR_BUILDTYPE="official"
-export askvariant=1
+export RR_BUILDTYPE="Mod"
+export askvariant=2
 export days_to_log=0
 . build/envsetup.sh 
 lunch cm_quark-userdebug
