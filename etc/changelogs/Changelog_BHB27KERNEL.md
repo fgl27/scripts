@@ -1,14 +1,11 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/BHB27Kernel/tree/N_c/build/changelog.sh)
 
- source and  Changelog:
+BHB27KERNEL source Changelog:
 ============================================================
 
 10-08-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 10-08-2017 Start:
-
-#### Kernel//
 * [b647e9c V 7.0](https://github.com/search?q=V%207.0&type=Commits)
 * [7100ac6 qcacld-2.0: Avoid extscan bucket spec overread](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20extscan%20bucket%20spec%20overread&type=Commits)
 * [2748a1e msm: ADSPRPC: Buffer length truncated while validation](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Buffer%20length%20truncated%20while%20validation&type=Commits)
@@ -33,40 +30,25 @@
 * [e21a55b leds: leds-qpnp: correct brightness value for MPP based LEDs](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20correct%20brightness%20value%20for%20MPP%20based%20LEDs&type=Commits)
 * [6e684d2 leds: leds-qpnp: avoid truncation in qpnp_led_masked_write function](https://github.com/search?q=leds%3A%20leds-qpnp%3A%20avoid%20truncation%20in%20qpnp_led_masked_write%20function&type=Commits)
 
-#### BHB27KERNEL specific Changes of 10-08-2017 End.
-
 ***
 
 10-06-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 10-06-2017 Start:
-
-#### Kernel//
 * [7c0c542 proc: Remove additional SafetyNet flags from /proc/cmdline](https://github.com/search?q=proc%3A%20Remove%20additional%20SafetyNet%20flags%20from%20/proc/cmdline&type=Commits)
-
-#### BHB27KERNEL specific Changes of 10-06-2017 End.
 
 ***
 
 10-05-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 10-05-2017 Start:
-
-#### Kernel//
 * [2e8aa70 v6.9](https://github.com/search?q=v6.9&type=Commits)
-
-#### BHB27KERNEL specific Changes of 10-05-2017 End.
 
 ***
 
 10-04-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 10-04-2017 Start:
-
-#### Kernel//
 * [461f117 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
 * [593edc1 qcacld-2.0: Validate vendor set roaming params command](https://github.com/search?q=qcacld-2.0%3A%20Validate%20vendor%20set%20roaming%20params%20command&type=Commits)
 * [8ab7e7a qcacld-2.0: Add get valid channels entry to NLA policy](https://github.com/search?q=qcacld-2.0%3A%20Add%20get%20valid%20channels%20entry%20to%20NLA%20policy&type=Commits)
@@ -76,16 +58,11 @@
 * [b1ef66a qcacld-2.0: Fix Uninitialized memory issue](https://github.com/search?q=qcacld-2.0%3A%20Fix%20Uninitialized%20memory%20issue&type=Commits)
 * [7e2004a qcacld-2.0: Drop assoc request if RSNIE/WPAIE parsing fail](https://github.com/search?q=qcacld-2.0%3A%20Drop%20assoc%20request%20if%20RSNIE/WPAIE%20parsing%20fail&type=Commits)
 
-#### BHB27KERNEL specific Changes of 10-04-2017 End.
-
 ***
 
 10-03-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 10-03-2017 Start:
-
-#### Kernel//
 * [bc1eb9e Enable Reading for debugfs file for non-root](https://github.com/search?q=Enable%20Reading%20for%20debugfs%20file%20for%20non-root&type=Commits)
 * [7445d56 Revert "Revert "msm: sps: Fix race condition in SPS debugfs APIs""](https://github.com/search?q=Revert%20"Revert%20"msm%3A%20sps%3A%20Fix%20race%20condition%20in%20SPS%20debugfs%20APIs""&type=Commits)
 * [7bd88ee UPSTREAM: sctp: do not inherit ipv6_{mc|ac|fl}_list from parent](https://github.com/search?q=UPSTREAM%3A%20sctp%3A%20do%20not%20inherit%20ipv6_{mc|ac|fl}_list%20from%20parent&type=Commits)
@@ -93,92 +70,57 @@
 * [7b708f9 msm: mdss: Buffer overflow while processing gamut table data](https://github.com/search?q=msm%3A%20mdss%3A%20Buffer%20overflow%20while%20processing%20gamut%20table%20data&type=Commits)
 * [aa5862e msm: properly unlock mutexes](https://github.com/search?q=msm%3A%20properly%20unlock%20mutexes&type=Commits)
 
-#### BHB27KERNEL specific Changes of 10-03-2017 End.
-
 ***
 
 10-01-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 10-01-2017 Start:
-
-#### Kernel//
 * [4bca507 v 6.8](https://github.com/search?q=v%206.8&type=Commits)
 * [9684b34 Sound: soc/msm Stereo Call Recording Support](https://github.com/search?q=Sound%3A%20soc/msm%20Stereo%20Call%20Recording%20Support&type=Commits)
-
-#### BHB27KERNEL specific Changes of 10-01-2017 End.
 
 ***
 
 09-26-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-26-2017 Start:
-
-#### Kernel//
 * [8874108 fs/sysfs/DIR.C remove logspam when using diferent cpu governor](https://github.com/search?q=fs/sysfs/DIR.C%20remove%20logspam%20when%20using%20diferent%20cpu%20governor&type=Commits)
 * [a9491ff Leds: ledtrig-timer change permission delay_on/off](https://github.com/search?q=Leds%3A%20ledtrig-timer%20change%20permission%20delay_on/off&type=Commits)
 * [d9e9ca6 defconfig enable LEDS_TRIGGER](https://github.com/search?q=defconfig%20enable%20LEDS_TRIGGER&type=Commits)
-
-#### BHB27KERNEL specific Changes of 09-26-2017 End.
 
 ***
 
 09-25-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-25-2017 Start:
-
-#### Kernel//
 * [db454b9 v 6.7](https://github.com/search?q=v%206.7&type=Commits)
-
-#### BHB27KERNEL specific Changes of 09-25-2017 End.
 
 ***
 
 09-23-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-23-2017 Start:
-
-#### Kernel//
 * [d54a8bf Bluetooth: Properly check L2CAP config option output buffer length](https://github.com/search?q=Bluetooth%3A%20Properly%20check%20L2CAP%20config%20option%20output%20buffer%20length&type=Commits)
-
-#### BHB27KERNEL specific Changes of 09-23-2017 End.
 
 ***
 
 09-17-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-17-2017 Start:
-
-#### Kernel//
 * [ad9427b v6.6 final](https://github.com/search?q=v6.6%20final&type=Commits)
-
-#### BHB27KERNEL specific Changes of 09-17-2017 End.
 
 ***
 
 09-16-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-16-2017 Start:
-
-#### Kernel//
 * [aabe380 Build: update init files](https://github.com/search?q=Build%3A%20update%20init%20files&type=Commits)
 * [b44c23c devfreq: Fix store_polling_interval](https://github.com/search?q=devfreq%3A%20Fix%20store_polling_interval&type=Commits)
-
-#### BHB27KERNEL specific Changes of 09-16-2017 End.
 
 ***
 
 09-15-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-15-2017 Start:
-
-#### Kernel//
 * [fe75308 apq8084.dtsi: cpu use RAM 50MHz with 268MHz cpu freq](https://github.com/search?q=apq8084.dtsi%3A%20cpu%20use%20RAM%2050MHz%20with%20268MHz%20cpu%20freq&type=Commits)
 * [4933aec apq8084: ipa: remove redundant NULL pointer check](https://github.com/search?q=apq8084%3A%20ipa%3A%20remove%20redundant%20NULL%20pointer%20check&type=Commits)
 * [81d18e1 msm: camera: isp: fix for out of bound access array](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20fix%20for%20out%20of%20bound%20access%20array&type=Commits)
@@ -188,16 +130,11 @@
 * [a5ceb0b defconfig disable not used SCSI configs](https://github.com/search?q=defconfig%20disable%20not%20used%20SCSI%20configs&type=Commits)
 * [ef5fd01 cpufreq: cpu-boost: fix queue_work related missmerges](https://github.com/search?q=cpufreq%3A%20cpu-boost%3A%20fix%20queue_work%20related%20missmerges&type=Commits)
 
-#### BHB27KERNEL specific Changes of 09-15-2017 End.
-
 ***
 
 09-14-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-14-2017 Start:
-
-#### Kernel//
 * [236cba8 BACKPORT: FROMLIST: pids: make task_tgid_nr_ns() safe](https://github.com/search?q=BACKPORT%3A%20FROMLIST%3A%20pids%3A%20make%20task_tgid_nr_ns%28%29%20safe&type=Commits)
 * [c3b0390 kthread: Backport queuing_blocked()](https://github.com/search?q=kthread%3A%20Backport%20queuing_blocked%28%29&type=Commits)
 * [4737eb3 cpufreq: cpu-boost: add sched.h include](https://github.com/search?q=cpufreq%3A%20cpu-boost%3A%20add%20sched.h%20include&type=Commits)
@@ -276,29 +213,19 @@
 * [2533061 mmc: queue: Configure the I/O sched switcher for mmc block devices](https://github.com/search?q=mmc%3A%20queue%3A%20Configure%20the%20I/O%20sched%20switcher%20for%20mmc%20block%20devices&type=Commits)
 * [5f52285 block: Add driver to change the I/O scheduler when the screen turns off](https://github.com/search?q=block%3A%20Add%20driver%20to%20change%20the%20I/O%20scheduler%20when%20the%20screen%20turns%20off&type=Commits)
 
-#### BHB27KERNEL specific Changes of 09-14-2017 End.
-
 ***
 
 09-13-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-13-2017 Start:
-
-#### Kernel//
 * [95b151e qcom-cpufreq: Use CLKFLAG_NO_RATE_CACHE](https://github.com/search?q=qcom-cpufreq%3A%20Use%20CLKFLAG_NO_RATE_CACHE&type=Commits)
 * [69c75c2 UPSTREAM: procfs: fixes pthread cross-thread naming if !PR_DUMPABLE](https://github.com/search?q=UPSTREAM%3A%20procfs%3A%20fixes%20pthread%20cross-thread%20naming%20if%20!PR_DUMPABLE&type=Commits)
-
-#### BHB27KERNEL specific Changes of 09-13-2017 End.
 
 ***
 
 09-12-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-12-2017 Start:
-
-#### Kernel//
 * [ac2b9c5 v6.5](https://github.com/search?q=v6.5&type=Commits)
 * [880f378 netfilter: x_tables: check for size overflow](https://github.com/search?q=netfilter%3A%20x_tables%3A%20check%20for%20size%20overflow&type=Commits)
 * [4fd79a7 netfilter: Change %p to %pK in debug messages](https://github.com/search?q=netfilter%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
@@ -308,16 +235,11 @@
 * [77f1100 nf: IDLETIMER: time-stamp and suspend/resume handling.](https://github.com/search?q=nf%3A%20IDLETIMER%3A%20time-stamp%20and%20suspend/resume%20handling.&type=Commits)
 * [b3d8606 build update anykernel related](https://github.com/search?q=build%20update%20anykernel%20related&type=Commits)
 
-#### BHB27KERNEL specific Changes of 09-12-2017 End.
-
 ***
 
 09-11-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-11-2017 Start:
-
-#### Kernel//
 * [0a471cd Build up how to](https://github.com/search?q=Build%20up%20how%20to&type=Commits)
 * [fbbe2f3 defconfig ena CONFIG_INET_DIAG_DESTROY](https://github.com/search?q=defconfig%20ena%20CONFIG_INET_DIAG_DESTROY&type=Commits)
 * [e447371 net: inet: diag: expose the socket mark to privileged processes.](https://github.com/search?q=net%3A%20inet%3A%20diag%3A%20expose%20the%20socket%20mark%20to%20privileged%20processes.&type=Commits)
@@ -388,16 +310,11 @@
 * [c924e4f lib: qmi_encdec: Add support for string data type](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Add%20support%20for%20string%20data%20type&type=Commits)
 * [ec7a5cd lib: qmi_encdec: Fix encoding a variable length element](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Fix%20encoding%20a%20variable%20length%20element&type=Commits)
 
-#### BHB27KERNEL specific Changes of 09-11-2017 End.
-
 ***
 
 09-10-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 09-10-2017 Start:
-
-#### Kernel//
 * [f43973e Build: update flasher script](https://github.com/search?q=Build%3A%20update%20flasher%20script&type=Commits)
 * [b6fb219 Revert "msm: vidc: add ion_handle checking before mapping buffers"](https://github.com/search?q=Revert%20"msm%3A%20vidc%3A%20add%20ion_handle%20checking%20before%20mapping%20buffers"&type=Commits)
 * [6db5159 lib: introduce upper case hex ascii helpers](https://github.com/search?q=lib%3A%20introduce%20upper%20case%20hex%20ascii%20helpers&type=Commits)
@@ -595,16 +512,11 @@
 * [e15c083 defconfig dis not needed drivers](https://github.com/search?q=defconfig%20dis%20not%20needed%20drivers&type=Commits)
 * [1d8997c defconfig disable not used fs](https://github.com/search?q=defconfig%20disable%20not%20used%20fs&type=Commits)
 
-#### BHB27KERNEL specific Changes of 09-10-2017 End.
-
 ***
 
 08-02-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 08-02-2017 Start:
-
-#### Kernel//
 * [c3573c7 fs/exec: fix use after free in execve](https://github.com/search?q=fs/exec%3A%20fix%20use%20after%20free%20in%20execve&type=Commits)
 * [02fa91d qdsp6v2: blacklist %p kptr_restrict](https://github.com/search?q=qdsp6v2%3A%20blacklist%20%p%20kptr_restrict&type=Commits)
 * [c9568af msm: kgsl: Fix kgsl memory allocation and free race condition](https://github.com/search?q=msm%3A%20kgsl%3A%20Fix%20kgsl%20memory%20allocation%20and%20free%20race%20condition&type=Commits)
@@ -1612,16 +1524,11 @@
 * [736abb1 KEYS: Fix short sprintf buffer in /proc/keys show function](https://github.com/search?q=KEYS%3A%20Fix%20short%20sprintf%20buffer%20in%20/proc/keys%20show%20function&type=Commits)
 * [72e17a2 net: ipc_router: Bind only a client port as control port IPC Router binds any port as a control port and moves it from the client port list to control port list. Misbehaving clients can exploit this incorrect behavior.](https://github.com/search?q=net%3A%20ipc_router%3A%20Bind%20only%20a%20client%20port%20as%20control%20port%20IPC%20Router%20binds%20any%20port%20as%20a%20control%20port%20and%20moves%20it%20from%20the%20client%20port%20list%20to%20control%20port%20list.%20Misbehaving%20clients%20can%20exploit%20this%20incorrect%20behavior.&type=Commits)
 
-#### BHB27KERNEL specific Changes of 08-02-2017 End.
-
 ***
 
 07-26-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 07-26-2017 Start:
-
-#### Kernel//
 * [8539e9b defconfig ena MMC_FFU](https://github.com/search?q=defconfig%20ena%20MMC_FFU&type=Commits)
 * [855a10d defconfig enaCONFIG_SUSPEND_TIME_TIMEKEEPING](https://github.com/search?q=defconfig%20enaCONFIG_SUSPEND_TIME_TIMEKEEPING&type=Commits)
 * [76e7060 defconfig ena CONFIG_PM_SYNC_BEFORE_SUSPEND](https://github.com/search?q=defconfig%20ena%20CONFIG_PM_SYNC_BEFORE_SUSPEND&type=Commits)
@@ -1638,16 +1545,11 @@
 * [968161b power: wakeup: Add wakealocks control](https://github.com/search?q=power%3A%20wakeup%3A%20Add%20wakealocks%20control&type=Commits)
 * [85f3643 PM / sleep: unregister wakeup source when disabling device wakeup](https://github.com/search?q=PM%20/%20sleep%3A%20unregister%20wakeup%20source%20when%20disabling%20device%20wakeup&type=Commits)
 
-#### BHB27KERNEL specific Changes of 07-26-2017 End.
-
 ***
 
 07-25-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 07-25-2017 Start:
-
-#### Kernel//
 * [b38317e defconfig ena all iosched](https://github.com/search?q=defconfig%20ena%20all%20iosched&type=Commits)
 * [b232ab5 Block add some custom I/O](https://github.com/search?q=Block%20add%20some%20custom%20I/O&type=Commits)
 * [3ee439b defconfig ena IOSCHED_MAPLE](https://github.com/search?q=defconfig%20ena%20IOSCHED_MAPLE&type=Commits)
@@ -1689,16 +1591,11 @@
 * [a56a134 power: battery_current_limit: Remove hotplug control completely](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely&type=Commits)
 * [b65ab8a Wifi Update wifi driver](https://github.com/search?q=Wifi%20Update%20wifi%20driver&type=Commits)
 
-#### BHB27KERNEL specific Changes of 07-25-2017 End.
-
 ***
 
 06-27-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 06-27-2017 Start:
-
-#### Kernel//
 * [39dde94 Build: update init](https://github.com/search?q=Build%3A%20update%20init&type=Commits)
 * [e4fab97 media: vpu fix use of uninitialized variables](https://github.com/search?q=media%3A%20vpu%20fix%20use%20of%20uninitialized%20variables&type=Commits)
 * [d0e5ae9 fs: fix uninitialized variables kernel_dev](https://github.com/search?q=fs%3A%20fix%20uninitialized%20variables%20kernel_dev&type=Commits)
@@ -1811,16 +1708,11 @@
 * [3e09656 Update wifi driver](https://github.com/search?q=Update%20wifi%20driver&type=Commits)
 * [b9509db Add a build folder](https://github.com/search?q=Add%20a%20build%20folder&type=Commits)
 
-#### BHB27KERNEL specific Changes of 06-27-2017 End.
-
 ***
 
 06-26-2017
 ====================
 
-#### BHB27KERNEL specific Changes of 06-26-2017 Start:
-
-#### Kernel//
 * [fe3074d defconfig set WESTWOOD as default tcp cong](https://github.com/search?q=defconfig%20set%20WESTWOOD%20as%20default%20tcp%20cong&type=Commits)
 * [fdb567d defconfig: enable NF_MATCH_RPFILTER](https://github.com/search?q=defconfig%3A%20enable%20NF_MATCH_RPFILTER&type=Commits)
 * [a7bbbaf defconfig ena CONFIG_NETFILTER_XT_TARGET_TEE](https://github.com/search?q=defconfig%20ena%20CONFIG_NETFILTER_XT_TARGET_TEE&type=Commits)
@@ -1841,8 +1733,6 @@
 * [0cdf3fa Revert "SELinux: ss: Fix policy write for ioctl operations"](https://github.com/search?q=Revert%20"SELinux%3A%20ss%3A%20Fix%20policy%20write%20for%20ioctl%20operations"&type=Commits)
 * [4db640f defconfig: disable NF_TARGET_REJECT_SKERR](https://github.com/search?q=defconfig%3A%20disable%20NF_TARGET_REJECT_SKERR&type=Commits)
 * [c6bfb9d ashmem: Validate ashmem memory with fops pointer](https://github.com/search?q=ashmem%3A%20Validate%20ashmem%20memory%20with%20fops%20pointer&type=Commits)
-
-#### BHB27KERNEL specific Changes of 06-26-2017 End.
 
 ***
 
