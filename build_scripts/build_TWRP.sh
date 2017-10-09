@@ -40,4 +40,4 @@ fi
 make clean
 time make recoveryimage -j8 2>&1 | tee twrp.txt
 cp -rf out/target/product/quark/recovery.img $HOME/android/twrp-$TWRP_V-$TW_DEVICE_VERSION-quark.img
-
+rm -rf device/motorola/quark/multirom/MR_REC_BUILD_NUMBER-quark.TXT
