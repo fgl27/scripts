@@ -2,7 +2,7 @@
 # simple build sh ... alias bt='/home/user/source_folder/device/motorola/quark/rootdir/etc/sbin/build_TWRP.sh'
 #make -j4 multirom_zip
 #make -j4 multirom_uninstaller
-export TW_DEVICE_VERSION=mod_2;
+export TW_DEVICE_VERSION=mod_3;
 
 echo -e "\nOmni?\n 1 = Yes\n"
 read -r input1
@@ -30,7 +30,7 @@ echo -e "\nYou choose: $input2"
 . build/envsetup.sh 
 lunch omni_quark-eng
 else
-	export RR_BUILDTYPE="official"
+	export RR_BUILDTYPE="Mod"
 	export days_to_log=0
 	export WITH_ROOT_METHOD="rootless"
 	export WITH_SU=true
