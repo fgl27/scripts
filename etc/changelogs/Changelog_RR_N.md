@@ -3,6 +3,426 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+10-17-2017
+====================
+
+#### Device specific Changes of 10-17-2017 Start:
+
+#### Device/Quark/
+* [23ba691 Quark: init update lmk and zram related](https://github.com/search?q=Quark%3A%20init%20update%20lmk%20and%20zram%20related&type=Commits)
+
+#### Kernel/Quark/
+* [b657a40 nl80211: check for the required netlink attributes presence](https://github.com/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
+* [073fb29c defconfig enable zram related](https://github.com/search?q=%20defconfig%20enable%20zram%20related&type=Commits)
+* [8d54c96 defconfig ena CONFIG_KSM_CHECK_PAGE](https://github.com/search?q=defconfig%20ena%20CONFIG_KSM_CHECK_PAGE&type=Commits)
+* [bd162ba defconfig ena ksm](https://github.com/search?q=defconfig%20ena%20ksm&type=Commits)
+* [567581c defconfig enable ARCH_MMAP_RND_BITS related](https://github.com/search?q=defconfig%20enable%20ARCH_MMAP_RND_BITS%20related&type=Commits)
+* [d47de8f FROMLIST: arm: mm: support ARCH_MMAP_RND_BITS.](https://github.com/search?q=FROMLIST%3A%20arm%3A%20mm%3A%20support%20ARCH_MMAP_RND_BITS.&type=Commits)
+* [1441b27 FROMLIST: mm: mmap: Add new /proc tunable for mmap_base ASLR.](https://github.com/search?q=FROMLIST%3A%20mm%3A%20mmap%3A%20Add%20new%20/proc%20tunable%20for%20mmap_base%20ASLR.&type=Commits)
+* [8e17b2c lmk: properly consider cached memory usable](https://github.com/search?q=lmk%3A%20properly%20consider%20cached%20memory%20usable&type=Commits)
+* [2f442c3 Revert "trace: memkill: trace LMK and OOM kills"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20trace%20LMK%20and%20OOM%20kills"&type=Commits)
+* [8762918 lowmemorykiller: initialize variables](https://github.com/search?q=lowmemorykiller%3A%20initialize%20variables&type=Commits)
+* [22bce7f mm: vmstat: make vmstat_work cpu bound during requeue](https://github.com/search?q=mm%3A%20vmstat%3A%20make%20vmstat_work%20cpu%20bound%20during%20requeue&type=Commits)
+* [d775d78 lowmemorykiller: Don't count swap cache pages twice](https://github.com/search?q=lowmemorykiller%3A%20Don%27t%20count%20swap%20cache%20pages%20twice&type=Commits)
+* [394dfbc mm/vmpressure.c: fix race in vmpressure_work_fn()](https://github.com/search?q=mm/vmpressure.c%3A%20fix%20race%20in%20vmpressure_work_fn%28%29&type=Commits)
+* [a3b9872 vmpressure: make sure there are no events queued after memcg is offlined](https://github.com/search?q=vmpressure%3A%20make%20sure%20there%20are%20no%20events%20queued%20after%20memcg%20is%20offlined&type=Commits)
+* [b9ec495 vmpressure: do not check for pending work to prevent from new work](https://github.com/search?q=vmpressure%3A%20do%20not%20check%20for%20pending%20work%20to%20prevent%20from%20new%20work&type=Commits)
+* [5beade2 vmpressure: change vmpressure::sr_lock to spinlock](https://github.com/search?q=vmpressure%3A%20change%20vmpressure%3A%3Asr_lock%20to%20spinlock&type=Commits)
+* [2bbf377 lowmemorykiller: Account for unevictable pages in vmpressure notifier](https://github.com/search?q=lowmemorykiller%3A%20Account%20for%20unevictable%20pages%20in%20vmpressure%20notifier&type=Commits)
+* [1b49f69 lowmemorykiller: avoid false adaptive LMK triggers](https://github.com/search?q=lowmemorykiller%3A%20avoid%20false%20adaptive%20LMK%20triggers&type=Commits)
+* [5f94a86 lowmemorykiller: adapt to vmpressure](https://github.com/search?q=lowmemorykiller%3A%20adapt%20to%20vmpressure&type=Commits)
+* [b6b34bc mm: vmpressure: account allocstalls only on higher pressures](https://github.com/search?q=mm%3A%20vmpressure%3A%20account%20allocstalls%20only%20on%20higher%20pressures&type=Commits)
+* [91030d4 mm: vmpressure: scale pressure based on reclaim context](https://github.com/search?q=mm%3A%20vmpressure%3A%20scale%20pressure%20based%20on%20reclaim%20context&type=Commits)
+* [3ade9b2 mm: vmpressure: allow in-kernel clients to subscribe for events](https://github.com/search?q=mm%3A%20vmpressure%3A%20allow%20in-kernel%20clients%20to%20subscribe%20for%20events&type=Commits)
+* [f8b7b97 usb: dwc3 gadget stop warn_on when disabling adb](https://github.com/search?q=usb%3A%20dwc3%20gadget%20stop%20warn_on%20when%20disabling%20adb&type=Commits)
+* [515eaf4 USB: f_mtp: Perform vfs_write under mutex protection](https://github.com/search?q=USB%3A%20f_mtp%3A%20Perform%20vfs_write%20under%20mutex%20protection&type=Commits)
+* [591b3c3 usb: gadget: f_mtp: Fix mtp enumeration failure issue](https://github.com/search?q=usb%3A%20gadget%3A%20f_mtp%3A%20Fix%20mtp%20enumeration%20failure%20issue&type=Commits)
+* [5ac26c3 ASoC: msm: Fix the noise in HDMI on HDMI connect disconnect](https://github.com/search?q=ASoC%3A%20msm%3A%20Fix%20the%20noise%20in%20HDMI%20on%20HDMI%20connect%20disconnect&type=Commits)
+* [b88c5fa ASoC: msm: qdsp6v2: Change client names for ion alloc](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20client%20names%20for%20ion%20alloc&type=Commits)
+* [a6136ae ASoC: msm: qdsp6v2: Change pr_debug to pr_info](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20pr_debug%20to%20pr_info&type=Commits)
+* [6230041 ASoC: msm: qdsp6v2: check proxy port is open when closing](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20check%20proxy%20port%20is%20open%20when%20closing&type=Commits)
+* [01a07a4 ASoC: msm: qdsp6v2: Fix an incorrect string comparison logic](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20an%20incorrect%20string%20comparison%20logic&type=Commits)
+* [97f2082 mfd: wcd9xxx-slimslave: Change slim driver to use %pK](https://github.com/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Change%20slim%20driver%20to%20use%20%pK&type=Commits)
+* [538ef9a ASoC: wcd9xxx: Add check for pointer before dereferencing](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20pointer%20before%20dereferencing&type=Commits)
+* [3248576 mfd: wcd9xxx-irq: add pm awake and relax to hold wake lock](https://github.com/search?q=mfd%3A%20wcd9xxx-irq%3A%20add%20pm%20awake%20and%20relax%20to%20hold%20wake%20lock&type=Commits)
+* [13d936b ASoC: wcd9xxx: Add wcd codec interrupt ack](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20wcd%20codec%20interrupt%20ack&type=Commits)
+* [8dd679f ASoC: wcd9xxx: Add check for array boundary](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20array%20boundary&type=Commits)
+* [91b13d8 mfd: wcd9xxx: Prevent null pointer dereference](https://github.com/search?q=mfd%3A%20wcd9xxx%3A%20Prevent%20null%20pointer%20dereference&type=Commits)
+* [6eabdd3 wcd9xxx: core: Fix crash while headset insert and remove](https://github.com/search?q=wcd9xxx%3A%20core%3A%20Fix%20crash%20while%20headset%20insert%20and%20remove&type=Commits)
+* [525ac21 ASoC: wcd9xxx: fix the NULL pointer dereference causing the crash](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20fix%20the%20NULL%20pointer%20dereference%20causing%20the%20crash&type=Commits)
+* [294e866 mfd: wcd9xxx: Add range checking in function wcd9xxx_init_slimslave](https://github.com/search?q=mfd%3A%20wcd9xxx%3A%20Add%20range%20checking%20in%20function%20wcd9xxx_init_slimslave&type=Commits)
+* [3275982 mfd: wcd9xxx-slimslave: Return error to caller if buffer timeout happens](https://github.com/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Return%20error%20to%20caller%20if%20buffer%20timeout%20happens&type=Commits)
+* [fe81c4a ASoC: wcdxxxx: Add check for buffer overflow](https://github.com/search?q=ASoC%3A%20wcdxxxx%3A%20Add%20check%20for%20buffer%20overflow&type=Commits)
+* [62ec9df drivers: mfd: Cleanup of wcd drivers](https://github.com/search?q=drivers%3A%20mfd%3A%20Cleanup%20of%20wcd%20drivers&type=Commits)
+* [7649de5 mfd: wcd9xxx-slimslave: Remove unnecessary logging](https://github.com/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Remove%20unnecessary%20logging&type=Commits)
+* [5d41e29 ASoC: wcd9xxx: Add check for array boundary](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20array%20boundary&type=Commits)
+* [324f79c msm: camera: isp: Ratelimit hw errors](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20Ratelimit%20hw%20errors&type=Commits)
+* [a470575 msm: camera: isp: Add missing mutex unlock](https://github.com/search?q=msm%3A%20camera%3A%20isp%3A%20Add%20missing%20mutex%20unlock&type=Commits)
+* [0578f0f ASoC: tfa9890: Improve logging](https://github.com/search?q=ASoC%3A%20tfa9890%3A%20Improve%20logging&type=Commits)
+* [49c177b ASoC: tfa9890: Fix typo and improve formatting](https://github.com/search?q=ASoC%3A%20tfa9890%3A%20Fix%20typo%20and%20improve%20formatting&type=Commits)
+* [c2f1648 sound: msm: Clean up code base](https://github.com/search?q=sound%3A%20msm%3A%20Clean%20up%20code%20base&type=Commits)
+* [5f08f9c1 ext4: stop spamming system/ warning: maximal mount count reached](https://github.com/search?q=%20ext4%3A%20stop%20spamming%20system/%20warning%3A%20maximal%20mount%20count%20reached&type=Commits)
+* [d101732 qcacld-2.0: stop spamming host/target HTT versions are different](https://github.com/search?q=qcacld-2.0%3A%20stop%20spamming%20host/target%20HTT%20versions%20are%20different&type=Commits)
+* [428bc63 capability: stop spamming `qseecomd' uses 32-bit capabilities](https://github.com/search?q=capability%3A%20stop%20spamming%20%60qseecomd%27%20uses%2032-bit%20capabilities&type=Commits)
+* [932e513 msm: IPA: add the check on intf query](https://github.com/search?q=msm%3A%20IPA%3A%20add%20the%20check%20on%20intf%20query&type=Commits)
+* [ef6d5af keys: Guard against null match function in keyring_search_aux()](https://github.com/search?q=keys%3A%20Guard%20against%20null%20match%20function%20in%20keyring_search_aux%28%29&type=Commits)
+* [95fdd6b arm/configs: apq8084: remove SysV IPC from kernel [Original patch changed shamu_defconfig]](https://github.com/search?q=arm/configs%3A%20apq8084%3A%20remove%20SysV%20IPC%20from%20kernel%20[Original%20patch%20changed%20shamu_defconfig]&type=Commits)
+* [888f247 binder: blacklist %p kptr_restrict](https://github.com/search?q=binder%3A%20blacklist%20%p%20kptr_restrict&type=Commits)
+* [10231cd ANDROID: binder: Add strong ref checks](https://github.com/search?q=ANDROID%3A%20binder%3A%20Add%20strong%20ref%20checks&type=Commits)
+* [0376ab7 binder: prevent kptr leak by using %pK format specifier](https://github.com/search?q=binder%3A%20prevent%20kptr%20leak%20by%20using%20%pK%20format%20specifier&type=Commits)
+* [8fcac56 android: binder: use GPF_HIGHUSER flag since binder is designed for userspace](https://github.com/search?q=android%3A%20binder%3A%20use%20GPF_HIGHUSER%20flag%20since%20binder%20is%20designed%20for%20userspace&type=Commits)
+* [c95bde4 ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct](https://github.com/search?q=ANDROID%3A%20binder%3A%20Clear%20binder%20and%20cookie%20when%20setting%20handle%20in%20flat%20binder%20struct&type=Commits)
+* [57c4917 msm: camera Remove secure and unsecure buffer reference](https://github.com/search?q=msm%3A%20camera%20Remove%20secure%20and%20unsecure%20buffer%20reference&type=Commits)
+* [e2cf300 binder: use group leader instead of open thread](https://github.com/search?q=binder%3A%20use%20group%20leader%20instead%20of%20open%20thread&type=Commits)
+* [91b57b5 android: binder: Use wake up hint for synchronous transactions.](https://github.com/search?q=android%3A%20binder%3A%20Use%20wake%20up%20hint%20for%20synchronous%20transactions.&type=Commits)
+* [dfe4e1e ion: adjust system heap pool orders](https://github.com/search?q=ion%3A%20adjust%20system%20heap%20pool%20orders&type=Commits)
+* [947fa67 ion: Support an option to allocate buffers in 4KB chunks](https://github.com/search?q=ion%3A%20Support%20an%20option%20to%20allocate%20buffers%20in%204KB%20chunks&type=Commits)
+* [bf43eafb staging: ion: fix corruption of ion_import_dma_buf](https://github.com/search?q=%20staging%3A%20ion%3A%20fix%20corruption%20of%20ion_import_dma_buf&type=Commits)
+* [7b145b3 ion: validate ion client in ion_debug_client_show() and extract data](https://github.com/search?q=ion%3A%20validate%20ion%20client%20in%20ion_debug_client_show%28%29%20and%20extract%20data&type=Commits)
+* [9d7ba60 ion: Use up_read where appropriate](https://github.com/search?q=ion%3A%20Use%20up_read%20where%20appropriate&type=Commits)
+* [027d220 ion: msm: fix cache maintenance on unmapped buffers](https://github.com/search?q=ion%3A%20msm%3A%20fix%20cache%20maintenance%20on%20unmapped%20buffers&type=Commits)
+* [0b9b56f ion: always initialize the free list parameters](https://github.com/search?q=ion%3A%20always%20initialize%20the%20free%20list%20parameters&type=Commits)
+* [a9aa7cf ion: Set the private page flag on secure chunks](https://github.com/search?q=ion%3A%20Set%20the%20private%20page%20flag%20on%20secure%20chunks&type=Commits)
+* [215de63 msm: ion: Allow non contiguous allocations in secure heap.](https://github.com/search?q=msm%3A%20ion%3A%20Allow%20non%20contiguous%20allocations%20in%20secure%20heap.&type=Commits)
+* [e2ad45a msm: ion: Do not check for overlapping ion heaps](https://github.com/search?q=msm%3A%20ion%3A%20Do%20not%20check%20for%20overlapping%20ion%20heaps&type=Commits)
+* [bf24bef8 ion: Register with show_mem notification framework](https://github.com/search?q=%20ion%3A%20Register%20with%20show_mem%20notification%20framework&type=Commits)
+* [e356a38 ion: Error out on memory secure failure](https://github.com/search?q=ion%3A%20Error%20out%20on%20memory%20secure%20failure&type=Commits)
+* [0c53b21 ion: Don't free memory if unsecure fails](https://github.com/search?q=ion%3A%20Don%27t%20free%20memory%20if%20unsecure%20fails&type=Commits)
+* [998aa52 ion: Remove reference counting from secure APIs](https://github.com/search?q=ion%3A%20Remove%20reference%20counting%20from%20secure%20APIs&type=Commits)
+* [235c769 ion: Remove usage hint from secure APIs](https://github.com/search?q=ion%3A%20Remove%20usage%20hint%20from%20secure%20APIs&type=Commits)
+* [1eac556 apq8084: remove unused ION_HEAP_TYPE_IOMMUCA](https://github.com/search?q=apq8084%3A%20remove%20unused%20ION_HEAP_TYPE_IOMMUCA&type=Commits)
+* [961c35b ion: Remove secure and unsecure buffer APIs](https://github.com/search?q=ion%3A%20Remove%20secure%20and%20unsecure%20buffer%20APIs&type=Commits)
+* [2851e54 msm: mdss: hide kernel addresses from unprevileged users](https://github.com/search?q=msm%3A%20mdss%3A%20hide%20kernel%20addresses%20from%20unprevileged%20users&type=Commits)
+* [3a50894 Revert "msm: mdss: blacklist %p kptr_restrict"](https://github.com/search?q=Revert%20"msm%3A%20mdss%3A%20blacklist%20%p%20kptr_restrict"&type=Commits)
+* [483d674 arm64: use ioremap_cache() instead of ioremap_cached()](https://github.com/search?q=arm64%3A%20use%20ioremap_cache%28%29%20instead%20of%20ioremap_cached%28%29&type=Commits)
+* [ea0bffb ARM: 7933/1: rename ioremap_cached to ioremap_cache](https://github.com/search?q=ARM%3A%207933/1%3A%20rename%20ioremap_cached%20to%20ioremap_cache&type=Commits)
+* [adb92a5 ion: Cleanup stubs for secure buffers](https://github.com/search?q=ion%3A%20Cleanup%20stubs%20for%20secure%20buffers&type=Commits)
+* [c79aa7d gpu: ion: add ftrace events for secure calls](https://github.com/search?q=gpu%3A%20ion%3A%20add%20ftrace%20events%20for%20secure%20calls&type=Commits)
+* [7f4e951 ion: msm: plumb ION_HEAP_TYPE_DMA to core Ion](https://github.com/search?q=ion%3A%20msm%3A%20plumb%20ION_HEAP_TYPE_DMA%20to%20core%20Ion&type=Commits)
+* [b5d8a69 ion: cma_secure_heap: validate buffer length](https://github.com/search?q=ion%3A%20cma_secure_heap%3A%20validate%20buffer%20length&type=Commits)
+* [7799e6f ion: fix overflow and list bugs in system heap](https://github.com/search?q=ion%3A%20fix%20overflow%20and%20list%20bugs%20in%20system%20heap&type=Commits)
+* [ee381a2 ion: move "freed from shrinker" flag to buffer private_flags](https://github.com/search?q=ion%3A%20move%20"freed%20from%20shrinker"%20flag%20to%20buffer%20private_flags&type=Commits)
+* [727eec7 ion: move shrinker out of heaps](https://github.com/search?q=ion%3A%20move%20shrinker%20out%20of%20heaps&type=Commits)
+* [84097a1 ion_test: Add compat_ioctl support (v2)](https://github.com/search?q=ion_test%3A%20Add%20compat_ioctl%20support%20%28v2%29&type=Commits)
+* [df985d5 staging: ion: Avoid using rt_mutexes directly](https://github.com/search?q=staging%3A%20ion%3A%20Avoid%20using%20rt_mutexes%20directly&type=Commits)
+* [4f8b597 staging: ion: Fix possible null pointer dereference](https://github.com/search?q=staging%3A%20ion%3A%20Fix%20possible%20null%20pointer%20dereference&type=Commits)
+* [5828bbd staging: ion: Add HAVE_MEMBLOCK config dependency](https://github.com/search?q=staging%3A%20ion%3A%20Add%20HAVE_MEMBLOCK%20config%20dependency&type=Commits)
+* [8bc73e2 gpu: ion: fix sparse non static symbol warnings](https://github.com/search?q=gpu%3A%20ion%3A%20fix%20sparse%20non%20static%20symbol%20warnings&type=Commits)
+* [041867f gpu: ion: use module_platform_driver to simplify the code](https://github.com/search?q=gpu%3A%20ion%3A%20use%20module_platform_driver%20to%20simplify%20the%20code&type=Commits)
+* [fabff2d ion: optimize ion_heap_buffer_zero](https://github.com/search?q=ion%3A%20optimize%20ion_heap_buffer_zero&type=Commits)
+* [9ed0e38 ion: add `0x' prefix to hex numbers in debugfs output](https://github.com/search?q=ion%3A%20add%20%600x%27%20prefix%20to%20hex%20numbers%20in%20debugfs%20output&type=Commits)
+* [9485adc ion: msm: move custom zero'ing functions out of core Ion](https://github.com/search?q=ion%3A%20msm%3A%20move%20custom%20zero%27ing%20functions%20out%20of%20core%20Ion&type=Commits)
+* [87ef6ee ion: Make secure table APIs public](https://github.com/search?q=ion%3A%20Make%20secure%20table%20APIs%20public&type=Commits)
+* [5307752 iommu: Move IOMMU mapping out of Ion directory](https://github.com/search?q=iommu%3A%20Move%20IOMMU%20mapping%20out%20of%20Ion%20directory&type=Commits)
+* [d84d25c ion: Use dma_free_attrs for freeing secure memory](https://github.com/search?q=ion%3A%20Use%20dma_free_attrs%20for%20freeing%20secure%20memory&type=Commits)
+* [48b5abb input: synaptics: put offset checks under mutex.](https://github.com/search?q=input%3A%20synaptics%3A%20put%20offset%20checks%20under%20mutex.&type=Commits)
+* [6f61257 input: synaptics: prevent sysfs races](https://github.com/search?q=input%3A%20synaptics%3A%20prevent%20sysfs%20races&type=Commits)
+* [85c0dc5 input: synaptics: defer sysfs creation during init](https://github.com/search?q=input%3A%20synaptics%3A%20defer%20sysfs%20creation%20during%20init&type=Commits)
+* [663cbee input: synaptics: Add checks of user input data](https://github.com/search?q=input%3A%20synaptics%3A%20Add%20checks%20of%20user%20input%20data&type=Commits)
+* [e3c95d8 input: synaptics: Do not allow sysfs to run in suspend](https://github.com/search?q=input%3A%20synaptics%3A%20Do%20not%20allow%20sysfs%20to%20run%20in%20suspend&type=Commits)
+* [8f49055 input: synaptics: allocate heap memory for buffer](https://github.com/search?q=input%3A%20synaptics%3A%20allocate%20heap%20memory%20for%20buffer&type=Commits)
+* [9c265fb input: synaptics_dsx: allocate heap memory for temp buf](https://github.com/search?q=input%3A%20synaptics_dsx%3A%20allocate%20heap%20memory%20for%20temp%20buf&type=Commits)
+* [35e8615 input: synaptics: allocate heap memory for temp buf](https://github.com/search?q=input%3A%20synaptics%3A%20allocate%20heap%20memory%20for%20temp%20buf&type=Commits)
+* [52c179b ARM: wire up getrandom syscall](https://github.com/search?q=ARM%3A%20wire%20up%20getrandom%20syscall&type=Commits)
+* [58da9e7 BACKPORT: random: Wake up all getrandom(2) callers when pool is ready](https://github.com/search?q=BACKPORT%3A%20random%3A%20Wake%20up%20all%20getrandom%282%29%20callers%20when%20pool%20is%20ready&type=Commits)
+* [b4a9813 BACKPORT: random: introduce getrandom(2) system call](https://github.com/search?q=BACKPORT%3A%20random%3A%20introduce%20getrandom%282%29%20system%20call&type=Commits)
+* [93e8a6b random32: include missing header file](https://github.com/search?q=random32%3A%20include%20missing%20header%20file&type=Commits)
+* [77d0653 BACKPORT: random32: add prandom_reseed_late() and call when nonblocking pool becomes initialized](https://github.com/search?q=BACKPORT%3A%20random32%3A%20add%20prandom_reseed_late%28%29%20and%20call%20when%20nonblocking%20pool%20becomes%20initialized&type=Commits)
+* [830ce80 BACKPORT: random32: add periodic reseeding](https://github.com/search?q=BACKPORT%3A%20random32%3A%20add%20periodic%20reseeding&type=Commits)
+* [a481c89 random: add_hwgenerator_randomness() for feeding entropy from devices](https://github.com/search?q=random%3A%20add_hwgenerator_randomness%28%29%20for%20feeding%20entropy%20from%20devices&type=Commits)
+* [e7a0748 sched: turn off the TTWU_QUEUE feature](https://github.com/search?q=sched%3A%20turn%20off%20the%20TTWU_QUEUE%20feature&type=Commits)
+* [bb442cf drivers: net: Disable watchdog](https://github.com/search?q=drivers%3A%20net%3A%20Disable%20watchdog&type=Commits)
+* [164a41c net: rmnet_data: Disable watchdog for rmnet](https://github.com/search?q=net%3A%20rmnet_data%3A%20Disable%20watchdog%20for%20rmnet&type=Commits)
+* [db40c0e net: sch_generic: Allow devices to opt-out net watchdog](https://github.com/search?q=net%3A%20sch_generic%3A%20Allow%20devices%20to%20opt-out%20net%20watchdog&type=Commits)
+* [62c81d0 ARM: 8692/1: mm: abort uaccess retries upon fatal signal](https://github.com/search?q=ARM%3A%208692/1%3A%20mm%3A%20abort%20uaccess%20retries%20upon%20fatal%20signal&type=Commits)
+* [6c92cda mm: vmscan: lock page on swap error in pageout](https://github.com/search?q=mm%3A%20vmscan%3A%20lock%20page%20on%20swap%20error%20in%20pageout&type=Commits)
+* [1131fee mm: page_alloc: Add trace flag PG_ksm_scan0](https://github.com/search?q=mm%3A%20page_alloc%3A%20Add%20trace%20flag%20PG_ksm_scan0&type=Commits)
+* [3036d4e mm: ksm use pr_err instead of printk](https://github.com/search?q=mm%3A%20ksm%20use%20pr_err%20instead%20of%20printk&type=Commits)
+* [c5abf8a ksm: check and skip page, if it is already scanned](https://github.com/search?q=ksm%3A%20check%20and%20skip%20page,%20if%20it%20is%20already%20scanned&type=Commits)
+* [50f024f mm: ksm: Optimize defaults](https://github.com/search?q=mm%3A%20ksm%3A%20Optimize%20defaults&type=Commits)
+* [1a58410 ksm: Provide support to use deferred timers for scanner thread](https://github.com/search?q=ksm%3A%20Provide%20support%20to%20use%20deferred%20timers%20for%20scanner%20thread&type=Commits)
+* [99f43f4 KSM: Start KSM by default](https://github.com/search?q=KSM%3A%20Start%20KSM%20by%20default&type=Commits)
+* [091ce37 mm, oom: make dump_tasks public](https://github.com/search?q=mm,%20oom%3A%20make%20dump_tasks%20public&type=Commits)
+* [428ea08 defconfig ena ANDROID_LMK_ADJ_RBTREE](https://github.com/search?q=defconfig%20ena%20ANDROID_LMK_ADJ_RBTREE&type=Commits)
+* [c7c20f2 lowmemorykiller: Run the lowmemory notifier when killing](https://github.com/search?q=lowmemorykiller%3A%20Run%20the%20lowmemory%20notifier%20when%20killing&type=Commits)
+* [1631038 lowmemorykiller: Dump out slab state information](https://github.com/search?q=lowmemorykiller%3A%20Dump%20out%20slab%20state%20information&type=Commits)
+* [8605f2d lowmemorykiller: enhance debug information](https://github.com/search?q=lowmemorykiller%3A%20enhance%20debug%20information&type=Commits)
+* [9818800 mm: Add notifier framework for showing memory](https://github.com/search?q=mm%3A%20Add%20notifier%20framework%20for%20showing%20memory&type=Commits)
+* [cccb889 lowmemorykiller: account for unevictable pages](https://github.com/search?q=lowmemorykiller%3A%20account%20for%20unevictable%20pages&type=Commits)
+* [4aa7e77 lowmemorykiller: Do proper NULL checks](https://github.com/search?q=lowmemorykiller%3A%20Do%20proper%20NULL%20checks&type=Commits)
+* [b58f3ca lowmemorykiller: use for_each_thread instead of buggy while_each_thread](https://github.com/search?q=lowmemorykiller%3A%20use%20for_each_thread%20instead%20of%20buggy%20while_each_thread&type=Commits)
+* [7e18c8d fs: avoid adding non-thread-group task to LMK rbtree](https://github.com/search?q=fs%3A%20avoid%20adding%20non-thread-group%20task%20to%20LMK%20rbtree&type=Commits)
+* [bec142e fs: support task's adj rbtree](https://github.com/search?q=fs%3A%20support%20task%27s%20adj%20rbtree&type=Commits)
+* [94c76bc kernel: avoid adding non-thread-group task to LMK rbtree](https://github.com/search?q=kernel%3A%20avoid%20adding%20non-thread-group%20task%20to%20LMK%20rbtree&type=Commits)
+* [e117e76 kernel: support task's adj rbtree](https://github.com/search?q=kernel%3A%20support%20task%27s%20adj%20rbtree&type=Commits)
+* [1d8e420 lowmemorykiller: maintain LMK rbtree with signal->adj_node](https://github.com/search?q=lowmemorykiller%3A%20maintain%20LMK%20rbtree%20with%20signal->adj_node&type=Commits)
+* [f7ea32b staging:android:lmk: read rb tree root with spinlock](https://github.com/search?q=staging%3Aandroid%3Almk%3A%20read%20rb%20tree%20root%20with%20spinlock&type=Commits)
+* [600412e lowmemorykiller: Check tgid with rcu lock held](https://github.com/search?q=lowmemorykiller%3A%20Check%20tgid%20with%20rcu%20lock%20held&type=Commits)
+* [750e74f drivers:lmk: Fix null pointer issue](https://github.com/search?q=drivers%3Almk%3A%20Fix%20null%20pointer%20issue&type=Commits)
+* [c1ede0b staging: android: lowmemorykiller: skip dying or exiting task](https://github.com/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20skip%20dying%20or%20exiting%20task&type=Commits)
+* [508543e drivers:lmk: Fix double delete issue](https://github.com/search?q=drivers%3Almk%3A%20Fix%20double%20delete%20issue&type=Commits)
+* [d077ead drivers:lmk: implement task's adj rbtree](https://github.com/search?q=drivers%3Almk%3A%20implement%20task%27s%20adj%20rbtree&type=Commits)
+* [ead1d2d Revert "trace: memkill: per-zone page state for LMK"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20per-zone%20page%20state%20for%20LMK"&type=Commits)
+* [8251438 Revert "trace: memkill: provide fixed zone info columns"](https://github.com/search?q=Revert%20"trace%3A%20memkill%3A%20provide%20fixed%20zone%20info%20columns"&type=Commits)
+* [e1e5fd1 Revert "lowmemorykiller: Check tgid with rcu lock held"](https://github.com/search?q=Revert%20"lowmemorykiller%3A%20Check%20tgid%20with%20rcu%20lock%20held"&type=Commits)
+* [8f1b3aa lowmemorykiller: Don't count reserve page twice](https://github.com/search?q=lowmemorykiller%3A%20Don%27t%20count%20reserve%20page%20twice&type=Commits)
+* [ea909bb ksm: Add showmem notifier](https://github.com/search?q=ksm%3A%20Add%20showmem%20notifier&type=Commits)
+* [5a8108a compiler.h: avoid sparse errors in __compiletime_error_fallback()](https://github.com/search?q=compiler.h%3A%20avoid%20sparse%20errors%20in%20__compiletime_error_fallback%28%29&type=Commits)
+* [7a68f19 compiler: Allow 1- and 2-byte smp_load_acquire() and smp_store_release()](https://github.com/search?q=compiler%3A%20Allow%201-%20and%202-byte%20smp_load_acquire%28%29%20and%20smp_store_release%28%29&type=Commits)
+* [49c603c locking: Remove atomicy checks from {READ,WRITE}_ONCE](https://github.com/search?q=locking%3A%20Remove%20atomicy%20checks%20from%20{READ,WRITE}_ONCE&type=Commits)
+* [77eab82 kernel: make READ_ONCE() valid on const arguments](https://github.com/search?q=kernel%3A%20make%20READ_ONCE%28%29%20valid%20on%20const%20arguments&type=Commits)
+* [fd7c041 kernel: Change ASSIGN_ONCE(val, x) to WRITE_ONCE(x, val)](https://github.com/search?q=kernel%3A%20Change%20ASSIGN_ONCE%28val,%20x%29%20to%20WRITE_ONCE%28x,%20val%29&type=Commits)
+* [fbe2425 kernel: Provide READ_ONCE and ASSIGN_ONCE](https://github.com/search?q=kernel%3A%20Provide%20READ_ONCE%20and%20ASSIGN_ONCE&type=Commits)
+* [b9d3664 compiler.h: add support for malloc attribute](https://github.com/search?q=compiler.h%3A%20add%20support%20for%20malloc%20attribute&type=Commits)
+* [86e9fa5 include/linux/compiler-gcc.h: improve __visible documentation](https://github.com/search?q=include/linux/compiler-gcc.h%3A%20improve%20__visible%20documentation&type=Commits)
+* [76f1018 include/linux/compiler-gcc.h: hide assume_aligned attribute from sparse](https://github.com/search?q=include/linux/compiler-gcc.h%3A%20hide%20assume_aligned%20attribute%20from%20sparse&type=Commits)
+* [fc67a29 compiler.h: add support for function attribute assume_aligned](https://github.com/search?q=compiler.h%3A%20add%20support%20for%20function%20attribute%20assume_aligned&type=Commits)
+* [d98f1b1 zsmalloc: fix zs_can_compact() integer overflow](https://github.com/search?q=zsmalloc%3A%20fix%20zs_can_compact%28%29%20integer%20overflow&type=Commits)
+* [1c0e32c mm/zsmalloc: add `freeable' column to pool stat](https://github.com/search?q=mm/zsmalloc%3A%20add%20%60freeable%27%20column%20to%20pool%20stat&type=Commits)
+* [405441d zsmalloc: drop unused member 'mapping_area->huge'](https://github.com/search?q=zsmalloc%3A%20drop%20unused%20member%20%27mapping_area->huge%27&type=Commits)
+* [20d1bb5 zsmalloc: fix migrate_zspage-zs_free race condition](https://github.com/search?q=zsmalloc%3A%20fix%20migrate_zspage-zs_free%20race%20condition&type=Commits)
+* [736641c zsmalloc: reorganize struct size_class to pack 4 bytes hole](https://github.com/search?q=zsmalloc%3A%20reorganize%20struct%20size_class%20to%20pack%204%20bytes%20hole&type=Commits)
+* [29d53ce zsmalloc: use page->private instead of page->first_page](https://github.com/search?q=zsmalloc%3A%20use%20page->private%20instead%20of%20page->first_page&type=Commits)
+* [983d761 zsmalloc: reduce size_class memory usage](https://github.com/search?q=zsmalloc%3A%20reduce%20size_class%20memory%20usage&type=Commits)
+* [a79d34c mm/zsmalloc.c: remove useless line in obj_free()](https://github.com/search?q=mm/zsmalloc.c%3A%20remove%20useless%20line%20in%20obj_free%28%29&type=Commits)
+* [0fa5baf zsmalloc: use preempt.h for in_interrupt()](https://github.com/search?q=zsmalloc%3A%20use%20preempt.h%20for%20in_interrupt%28%29&type=Commits)
+* [cfd8dd7 zsmalloc: fix obj_to_head use page_private(page) as value but not pointer](https://github.com/search?q=zsmalloc%3A%20fix%20obj_to_head%20use%20page_private%28page%29%20as%20value%20but%20not%20pointer&type=Commits)
+* [814c77e zsmalloc: add comments for ->inuse to zspage](https://github.com/search?q=zsmalloc%3A%20add%20comments%20for%20->inuse%20to%20zspage&type=Commits)
+* [4e9a7fb zsmalloc: remove null check from destroy_handle_cache()](https://github.com/search?q=zsmalloc%3A%20remove%20null%20check%20from%20destroy_handle_cache%28%29&type=Commits)
+* [785ac18 zsmalloc: use class->pages_per_zspage](https://github.com/search?q=zsmalloc%3A%20use%20class->pages_per_zspage&type=Commits)
+* [f846041 zsmalloc: consider ZS_ALMOST_FULL as migrate source](https://github.com/search?q=zsmalloc%3A%20consider%20ZS_ALMOST_FULL%20as%20migrate%20source&type=Commits)
+* [28f4807 zram: update documentation](https://github.com/search?q=zram%3A%20update%20documentation&type=Commits)
+* [e7bf6bf zsmalloc: account the number of compacted pages](https://github.com/search?q=zsmalloc%3A%20account%20the%20number%20of%20compacted%20pages&type=Commits)
+* [0881455 zram: add `compact` sysfs entry to documentation](https://github.com/search?q=zram%3A%20add%20%60compact%60%20sysfs%20entry%20to%20documentation&type=Commits)
+* [1a13652 zsmalloc/zram: introduce zs_pool_stats api](https://github.com/search?q=zsmalloc/zram%3A%20introduce%20zs_pool_stats%20api&type=Commits)
+* [d9a6530 zsmalloc: cosmetic compaction code adjustments](https://github.com/search?q=zsmalloc%3A%20cosmetic%20compaction%20code%20adjustments&type=Commits)
+* [87cfacd zsmalloc: introduce zs_can_compact() function](https://github.com/search?q=zsmalloc%3A%20introduce%20zs_can_compact%28%29%20function&type=Commits)
+* [03cfb42c zsmalloc: always keep per-class stats](https://github.com/search?q=%20zsmalloc%3A%20always%20keep%20per-class%20stats&type=Commits)
+* [b10d404 zsmalloc: drop unused variable `nr_to_migrate'](https://github.com/search?q=zsmalloc%3A%20drop%20unused%20variable%20%60nr_to_migrate%27&type=Commits)
+* [91ba31a zsmalloc: remove obsolete ZSMALLOC_DEBUG](https://github.com/search?q=zsmalloc%3A%20remove%20obsolete%20ZSMALLOC_DEBUG&type=Commits)
+* [cf76076 zsmalloc: partial page ordering within a fullness_list](https://github.com/search?q=zsmalloc%3A%20partial%20page%20ordering%20within%20a%20fullness_list&type=Commits)
+* [c6f7e46 zram: Register with show_mem notification framework](https://github.com/search?q=zram%3A%20Register%20with%20show_mem%20notification%20framework&type=Commits)
+* [0e1af98 zram: compact zram when suspended](https://github.com/search?q=zram%3A%20compact%20zram%20when%20suspended&type=Commits)
+* [ecf0abb zram: restrict add/remove attributes to root only](https://github.com/search?q=zram%3A%20restrict%20add/remove%20attributes%20to%20root%20only&type=Commits)
+* [edd622a zram: fix unbalanced idr management at hot removal](https://github.com/search?q=zram%3A%20fix%20unbalanced%20idr%20management%20at%20hot%20removal&type=Commits)
+* [326c0da zram: don't call idr_remove() from zram_remove()](https://github.com/search?q=zram%3A%20don%27t%20call%20idr_remove%28%29%20from%20zram_remove%28%29&type=Commits)
+* [1af67a8 zram/zcomp: do not zero out zcomp private pages](https://github.com/search?q=zram/zcomp%3A%20do%20not%20zero%20out%20zcomp%20private%20pages&type=Commits)
+* [3d4857f zram: pass gfp from zcomp frontend to backend](https://github.com/search?q=zram%3A%20pass%20gfp%20from%20zcomp%20frontend%20to%20backend&type=Commits)
+* [5d514d6 zram: try vmalloc() after kmalloc()](https://github.com/search?q=zram%3A%20try%20vmalloc%28%29%20after%20kmalloc%28%29&type=Commits)
+* [2a262fd zram/zcomp: use GFP_NOIO to allocate streams](https://github.com/search?q=zram/zcomp%3A%20use%20GFP_NOIO%20to%20allocate%20streams&type=Commits)
+* [8940f55 zram: make is_partial_io/valid_io_request/page_zero_filled return boolean](https://github.com/search?q=zram%3A%20make%20is_partial_io/valid_io_request/page_zero_filled%20return%20boolean&type=Commits)
+* [bda4bc2 zram: keep the exact overcommited value in mem_used_max](https://github.com/search?q=zram%3A%20keep%20the%20exact%20overcommited%20value%20in%20mem_used_max&type=Commits)
+* [caf6eb2 zram: introduce comp algorithm fallback functionality](https://github.com/search?q=zram%3A%20introduce%20comp%20algorithm%20fallback%20functionality&type=Commits)
+* [9e95c5c zram: unify error reporting](https://github.com/search?q=zram%3A%20unify%20error%20reporting&type=Commits)
+* [13f0533 zram: fix pool name truncation](https://github.com/search?q=zram%3A%20fix%20pool%20name%20truncation&type=Commits)
+* [adcfdda zram: check comp algorithm availability earlier](https://github.com/search?q=zram%3A%20check%20comp%20algorithm%20availability%20earlier&type=Commits)
+* [b1b0181 zram: cut trailing newline in algorithm name](https://github.com/search?q=zram%3A%20cut%20trailing%20newline%20in%20algorithm%20name&type=Commits)
+* [b545410 zram: cosmetic zram_bvec_write() cleanup](https://github.com/search?q=zram%3A%20cosmetic%20zram_bvec_write%28%29%20cleanup&type=Commits)
+* [ec25185 zram: add dynamic device add/remove functionality](https://github.com/search?q=zram%3A%20add%20dynamic%20device%20add/remove%20functionality&type=Commits)
+* [be2d6e2 zram: close race by open overriding](https://github.com/search?q=zram%3A%20close%20race%20by%20open%20overriding&type=Commits)
+* [dbfa992 zram: return zram device_id from zram_add()](https://github.com/search?q=zram%3A%20return%20zram%20device_id%20from%20zram_add%28%29&type=Commits)
+* [8b7deda zram: trivial: correct flag operations comment](https://github.com/search?q=zram%3A%20trivial%3A%20correct%20flag%20operations%20comment&type=Commits)
+* [c325f6e zram: report every added and removed device](https://github.com/search?q=zram%3A%20report%20every%20added%20and%20removed%20device&type=Commits)
+* [fd546ed zram: remove max_num_devices limitation](https://github.com/search?q=zram%3A%20remove%20max_num_devices%20limitation&type=Commits)
+* [abe691b zram: reorganize code layout](https://github.com/search?q=zram%3A%20reorganize%20code%20layout&type=Commits)
+* [fce3668 zram: use idr instead of `zram_devices' array](https://github.com/search?q=zram%3A%20use%20idr%20instead%20of%20%60zram_devices%27%20array&type=Commits)
+* [e4bd030 zram: cosmetic ZRAM_ATTR_RO code formatting tweak](https://github.com/search?q=zram%3A%20cosmetic%20ZRAM_ATTR_RO%20code%20formatting%20tweak&type=Commits)
+* [237598c zram: Add back QUEUE_FAST_FLAG](https://github.com/search?q=zram%3A%20Add%20back%20QUEUE_FAST_FLAG&type=Commits)
+* [cba10dc zram: Disable allocation failure logging](https://github.com/search?q=zram%3A%20Disable%20allocation%20failure%20logging&type=Commits)
+* [441a0af zram: remove obsolete ZRAM_DEBUG option](https://github.com/search?q=zram%3A%20remove%20obsolete%20ZRAM_DEBUG%20option&type=Commits)
+* [ae95b53 staging: zram: Rate limit memory allocation errors](https://github.com/search?q=staging%3A%20zram%3A%20Rate%20limit%20memory%20allocation%20errors&type=Commits)
+* [ed0f1a5 zram: Default lz4 if available](https://github.com/search?q=zram%3A%20Default%20lz4%20if%20available&type=Commits)
+* [c3ea7fa zram: do not use copy_page with non-page aligned address](https://github.com/search?q=zram%3A%20do%20not%20use%20copy_page%20with%20non-page%20aligned%20address&type=Commits)
+* [23c5087 zram: fix possible use after free in zcomp_create()](https://github.com/search?q=zram%3A%20fix%20possible%20use%20after%20free%20in%20zcomp_create%28%29&type=Commits)
+* [6be3d75 block: zram: Backport from Linux 4.1](https://github.com/search?q=block%3A%20zram%3A%20Backport%20from%20Linux%204.1&type=Commits)
+* [6caa4ff mm: zsmalloc: backport from Linux 4.1](https://github.com/search?q=mm%3A%20zsmalloc%3A%20backport%20from%20Linux%204.1&type=Commits)
+* [e4c0c8b mm/zpool: add name argument to create zpool](https://github.com/search?q=mm/zpool%3A%20add%20name%20argument%20to%20create%20zpool&type=Commits)
+* [c48c377 mm/zpool: use prefixed module loading](https://github.com/search?q=mm/zpool%3A%20use%20prefixed%20module%20loading&type=Commits)
+* [b05b531 mm/zpool: implement common zpool api to zbud/zsmalloc](https://github.com/search?q=mm/zpool%3A%20implement%20common%20zpool%20api%20to%20zbud/zsmalloc&type=Commits)
+* [07689d6 mm: swap: don't delay swap free for fast swap devices](https://github.com/search?q=mm%3A%20swap%3A%20don%27t%20delay%20swap%20free%20for%20fast%20swap%20devices&type=Commits)
+* [28a1d16 swap: fix set_blocksize race during swapon/swapoff](https://github.com/search?q=swap%3A%20fix%20set_blocksize%20race%20during%20swapon/swapoff&type=Commits)
+* [5332f83 mm/swapfile.c: do not skip lowest_bit in scan_swap_map() scan loop](https://github.com/search?q=mm/swapfile.c%3A%20do%20not%20skip%20lowest_bit%20in%20scan_swap_map%28%29%20scan%20loop&type=Commits)
+* [8730837 initramfs: avoid "label at end of compound statement" error](https://github.com/search?q=initramfs%3A%20avoid%20"label%20at%20end%20of%20compound%20statement"%20error&type=Commits)
+* [91fe9ee initramfs: Always do fput() and load modules after rootfs populate](https://github.com/search?q=initramfs%3A%20Always%20do%20fput%28%29%20and%20load%20modules%20after%20rootfs%20populate&type=Commits)
+* [d9eb5f7 initramfs: finish fput() before accessing any binary from initramfs](https://github.com/search?q=initramfs%3A%20finish%20fput%28%29%20before%20accessing%20any%20binary%20from%20initramfs&type=Commits)
+* [065d349 init/initramfs.c: resolve shadow warnings](https://github.com/search?q=init/initramfs.c%3A%20resolve%20shadow%20warnings&type=Commits)
+* [aa32f6b initramfs: add write error checks](https://github.com/search?q=initramfs%3A%20add%20write%20error%20checks&type=Commits)
+* [b90d560 initramfs: support initramfs that is bigger than 2GiB](https://github.com/search?q=initramfs%3A%20support%20initramfs%20that%20is%20bigger%20than%202GiB&type=Commits)
+* [e9eea8f initramfs: support initrd that is bigger than 2GiB](https://github.com/search?q=initramfs%3A%20support%20initrd%20that%20is%20bigger%20than%202GiB&type=Commits)
+* [4f56034 init: fix possible format string bug](https://github.com/search?q=init%3A%20fix%20possible%20format%20string%20bug&type=Commits)
+* [a20d639 lib/decompress_inflate.c: include appropriate header file](https://github.com/search?q=lib/decompress_inflate.c%3A%20include%20appropriate%20header%20file&type=Commits)
+* [99c6e61 initrd: fix lz4 decompress with initrd](https://github.com/search?q=initrd%3A%20fix%20lz4%20decompress%20with%20initrd&type=Commits)
+* [8e225ea lib/decompress_unlz4.c: always set an error return code on failures](https://github.com/search?q=lib/decompress_unlz4.c%3A%20always%20set%20an%20error%20return%20code%20on%20failures&type=Commits)
+* [773aaf0 arm: add support for LZ4-compressed kernel](https://github.com/search?q=arm%3A%20add%20support%20for%20LZ4-compressed%20kernel&type=Commits)
+* [73f730c lz4: fix wrong compress buffer size for 64-bits](https://github.com/search?q=lz4%3A%20fix%20wrong%20compress%20buffer%20size%20for%2064-bits&type=Commits)
+* [6221e69 lib: lz4: cleanup unaligned access efficiency detection](https://github.com/search?q=lib%3A%20lz4%3A%20cleanup%20unaligned%20access%20efficiency%20detection&type=Commits)
+* [f1500fa lib: lz4: fixed zram with lz4 on big endian machines](https://github.com/search?q=lib%3A%20lz4%3A%20fixed%20zram%20with%20lz4%20on%20big%20endian%20machines&type=Commits)
+* [cda70a9 lz4: fix system halt at boot kernel on x86_64](https://github.com/search?q=lz4%3A%20fix%20system%20halt%20at%20boot%20kernel%20on%20x86_64&type=Commits)
+* [f201356 lib/lz4: Pull out constant tables](https://github.com/search?q=lib/lz4%3A%20Pull%20out%20constant%20tables&type=Commits)
+* [187fde6 LZ4 : fix the data abort issue](https://github.com/search?q=LZ4%20%3A%20fix%20the%20data%20abort%20issue&type=Commits)
+
+#### Device specific Changes of 10-17-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-17-2017:
+
+#### frameworks/base/
+* [18c18a3 Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
+* [71cba7f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+* [6644c3e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [66c50a2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+* [f82367b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [6b20ab2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+* [23c095c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [16e42ff Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionStats/
+* [1155638 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [b47a444 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/Resurrection_packages_apps_Settings%20into%20nougat&type=Commits)
+* [8bd4040 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-17-2017 End.
+
+10-16-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-16-2017:
+
+#### external/wpa_supplicant_8/
+* [ac78917 Clear PMK length and check for this when deriving PTK](https://github.com/search?q=Clear%20PMK%20length%20and%20check%20for%20this%20when%20deriving%20PTK&type=Commits)
+* [a630551 Add debug prints on PMK configuration in WPA supplicant](https://github.com/search?q=Add%20debug%20prints%20on%20PMK%20configuration%20in%20WPA%20supplicant&type=Commits)
+* [fbf7ecc WPA: Extra defense against PTK reinstalls in 4-way handshake](https://github.com/search?q=WPA%3A%20Extra%20defense%20against%20PTK%20reinstalls%20in%204-way%20handshake&type=Commits)
+* [5c64f90 Remove all PeerKey functionality](https://github.com/search?q=Remove%20all%20PeerKey%20functionality&type=Commits)
+* [726e02c Add MGMT_TX_STATUS_PROCESS command for testing purposes](https://github.com/search?q=Add%20MGMT_TX_STATUS_PROCESS%20command%20for%20testing%20purposes&type=Commits)
+* [cda7ff1 FT: Do not allow multiple Reassociation Response frames](https://github.com/search?q=FT%3A%20Do%20not%20allow%20multiple%20Reassociation%20Response%20frames&type=Commits)
+* [8fb5fe9 WNM: Ignore WNM-Sleep Mode Response without pending request](https://github.com/search?q=WNM%3A%20Ignore%20WNM-Sleep%20Mode%20Response%20without%20pending%20request&type=Commits)
+* [b6fccd0 TDLS: Reject TPK-TK reconfiguration](https://github.com/search?q=TDLS%3A%20Reject%20TPK-TK%20reconfiguration&type=Commits)
+* [04d9c3d Fix PTK rekeying to generate a new ANonce](https://github.com/search?q=Fix%20PTK%20rekeying%20to%20generate%20a%20new%20ANonce&type=Commits)
+* [bab71fa Prevent installation of an all-zero TK](https://github.com/search?q=Prevent%20installation%20of%20an%20all-zero%20TK&type=Commits)
+* [812c80a Extend protection of GTK/IGTK reinstallation of WNM-Sleep Mode cases](https://github.com/search?q=Extend%20protection%20of%20GTK/IGTK%20reinstallation%20of%20WNM-Sleep%20Mode%20cases&type=Commits)
+* [4326a42 Prevent reinstallation of an already in-use group key](https://github.com/search?q=Prevent%20reinstallation%20of%20an%20already%20in-use%20group%20key&type=Commits)
+* [3edbf11 hostapd: Avoid key reinstallation in FT handshake](https://github.com/search?q=hostapd%3A%20Avoid%20key%20reinstallation%20in%20FT%20handshake&type=Commits)
+* [b075172 Set EAPOL-Key Key Length field to 0 for group message 1/2 in RSN](https://github.com/search?q=Set%20EAPOL-Key%20Key%20Length%20field%20to%200%20for%20group%20message%201/2%20in%20RSN&type=Commits)
+
+#### packages/apps/Calendar/
+* [56dc4a8 Calendar: Show week start and end in title for Week view](https://github.com/search?q=Calendar%3A%20Show%20week%20start%20and%20end%20in%20title%20for%20Week%20view&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-16-2017 End.
+
+10-15-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-15-2017:
+
+#### packages/apps/Eleven/
+* [91a8a10 Eleven: Fix potential NPE when media server crashes](https://github.com/search?q=Eleven%3A%20Fix%20potential%20NPE%20when%20media%20server%20crashes&type=Commits)
+* [119d774 Eleven: Don't use a sticky service](https://github.com/search?q=Eleven%3A%20Don%27t%20use%20a%20sticky%20service&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-15-2017 End.
+
+10-14-2017
+====================
+
+#### Device specific Changes of 10-14-2017 Start:
+
+#### Device/Quark/
+* [bdd0913 Quark: disable offload props](https://github.com/search?q=Quark%3A%20disable%20offload%20props&type=Commits)
+
+#### Vendor/Quark/
+* [de4e592 Quark: Up KernelAdiutor](https://github.com/search?q=Quark%3A%20Up%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 10-14-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-14-2017:
+
+#### frameworks/base/
+* [1e787c9 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [13c276d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%20nougat&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [5c0c67f Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### packages/services/Telephony/
+* [ff77866 Telephony: Workaround for MWI on Sprint](https://github.com/search?q=Telephony%3A%20Workaround%20for%20MWI%20on%20Sprint&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-14-2017 End.
+
+10-13-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-13-2017:
+
+#### frameworks/base/
+* [8fbd105 Core: Battery warning levels are inclusive, not exclusive](https://github.com/search?q=Core%3A%20Battery%20warning%20levels%20are%20inclusive,%20not%20exclusive&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [a10f27b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+* [72823bb Revert "Revert "DO NOT MERGE Disable overlays while installer is resumed""](https://github.com/search?q=Revert%20"Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed""&type=Commits)
+
+#### packages/apps/Settings/
+* [a7daa34 development: show state change of select_usb_configuration](https://github.com/search?q=development%3A%20show%20state%20change%20of%20select_usb_configuration&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-13-2017 End.
+
+10-12-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-12-2017:
+
+#### packages/apps/PackageInstaller/
+* [1593371 PackageInstaller: fix install button after merge of October ASB](https://github.com/search?q=PackageInstaller%3A%20fix%20install%20button%20after%20merge%20of%20October%20ASB&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [c3b2008 SetupWizard: Set min date to build date](https://github.com/search?q=SetupWizard%3A%20Set%20min%20date%20to%20build%20date&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-12-2017 End.
+
+10-11-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-11-2017:
+
+#### packages/apps/PackageInstaller/
+* [c107e0d packageinstaller: colorengine support improves](https://github.com/search?q=packageinstaller%3A%20colorengine%20support%20improves&type=Commits)
+* [c034561 Revert "packageinstaller: colorengine support"](https://github.com/search?q=Revert%20"packageinstaller%3A%20colorengine%20support"&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-11-2017 End.
+
+10-10-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-10-2017:
+
+#### packages/apps/Recorder/
+* [084c5a0 Recorder: Advertise that we can record voice](https://github.com/search?q=Recorder%3A%20Advertise%20that%20we%20can%20record%20voice&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-10-2017 End.
+
+10-09-2017
+====================
+
+#### Device specific Changes of 10-09-2017 Start:
+
+#### Device/Quark/
+* [2cb3971 Quark: sepolicy add dropbox_process for isolated_app](https://github.com/search?q=Quark%3A%20sepolicy%20add%20dropbox_process%20for%20isolated_app&type=Commits)
+
+#### Device specific Changes of 10-09-2017 End.
+
+***
+
 10-08-2017
 ====================
 
@@ -68,11 +488,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/Nfc/
 * [8314ecd Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
 
-#### packages/apps/PackageInstaller/
-* [9af7345 Revert "DO NOT MERGE Disable overlays while installer is resumed"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed"&type=Commits)
-
 #### packages/apps/Settings/
 * [6bcd94f Settings: Correct german translation for 1 registered fingerprint](https://github.com/search?q=Settings%3A%20Correct%20german%20translation%20for%201%20registered%20fingerprint&type=Commits)
+* [d2dd896 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/providers/MediaProvider/
 * [3a0d02b MediaProvider: support colorengine](https://github.com/search?q=MediaProvider%3A%20support%20colorengine&type=Commits)
@@ -149,6 +567,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [1d4ed9a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
 
 #### packages/apps/PackageInstaller/
+* [9af7345 Revert "DO NOT MERGE Disable overlays while installer is resumed"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed"&type=Commits)
 * [1c3205c packageinstaller: colorengine support](https://github.com/search?q=packageinstaller%3A%20colorengine%20support&type=Commits)
 
 #### packages/apps/Settings/
