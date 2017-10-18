@@ -3,6 +3,15 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+10-18-2017
+====================
+
+* [d3dff9f bhb27 kernel v7.3](https://github.com/search?q=bhb27%20kernel%20v7.3&type=Commits)
+* [db233fa mac80211: accept key reinstall without changing anything](https://github.com/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
+* [4f55f6d nl80211: check for the required netlink attributes presence](https://github.com/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
+
+***
+
 10-14-2017
 ====================
 
