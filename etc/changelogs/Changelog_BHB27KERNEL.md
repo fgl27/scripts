@@ -3,12 +3,38 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+10-21-2017
+====================
+
+* [80576fdd ASoC: wcd9xxx: use hwdep node for codec calibration](https://github.com/bhb27/BHB27Kernel/search?q=%20ASoC%3A%20wcd9xxx%3A%20use%20hwdep%20node%20for%20codec%20calibration&type=Commits)
+* [963e57b Build: update update-binary](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20update-binary&type=Commits)
+* [9a613d9 build zram set max_comp_streams the correct way + set swapprio](https://github.com/bhb27/BHB27Kernel/search?q=build%20zram%20set%20max_comp_streams%20the%20correct%20way%20+%20set%20swapprio&type=Commits)
+* [a5b2d845 defconfig centralized zram config and enable FRONTSWAP](https://github.com/bhb27/BHB27Kernel/search?q=%20defconfig%20centralized%20zram%20config%20and%20enable%20FRONTSWAP&type=Commits)
+* [74aff86 bhb27kernel v 7.4](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20v%207.4&type=Commits)
+* [1108fa0 wcd9xxx: Fix NCP fclk level enable/disable sequence](https://github.com/bhb27/BHB27Kernel/search?q=wcd9xxx%3A%20Fix%20NCP%20fclk%20level%20enable/disable%20sequence&type=Commits)
+* [42d758c asoc: wcd9xxx: Improve headset detection](https://github.com/bhb27/BHB27Kernel/search?q=asoc%3A%20wcd9xxx%3A%20Improve%20headset%20detection&type=Commits)
+* [382727c ASoC: wcd9xxx: Avoid micbias glitches during audio playback](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20wcd9xxx%3A%20Avoid%20micbias%20glitches%20during%20audio%20playback&type=Commits)
+* [25a2a8c ASoC: wcd9xxx: Changes for High performance mode](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20wcd9xxx%3A%20Changes%20for%20High%20performance%20mode&type=Commits)
+* [2edb640 ASoC: msm: qdsp6v2: Add FLAC in compress offload path](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Add%20FLAC%20in%20compress%20offload%20path&type=Commits)
+* [edba197 defconfig update f2fs config and cleanup](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20update%20f2fs%20config%20and%20cleanup&type=Commits)
+* [906e479 fs update f2fs from jaegeuk](https://github.com/bhb27/BHB27Kernel/search?q=fs%20update%20f2fs%20from%20jaegeuk&type=Commits)
+* [8734970 build update set ro.sys.sdcardfs=true](https://github.com/bhb27/BHB27Kernel/search?q=build%20update%20set%20ro.sys.sdcardfs=true&type=Commits)
+* [f5c4e7e Quark: def config disable CONFIG_OVERLAYFS_FS](https://github.com/bhb27/BHB27Kernel/search?q=Quark%3A%20def%20config%20disable%20CONFIG_OVERLAYFS_FS&type=Commits)
+* [22ffcbc fs/sdcard update for 3.10 on one squash](https://github.com/bhb27/BHB27Kernel/search?q=fs/sdcard%20update%20for%203.10%20on%20one%20squash&type=Commits)
+* [e57b10f fs: Revert all sdcardsfs changes](https://github.com/bhb27/BHB27Kernel/search?q=fs%3A%20Revert%20all%20sdcardsfs%20changes&type=Commits)
+* [38a5239 build: update chagelog generator](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20update%20chagelog%20generator&type=Commits)
+* [dbfd4d6 bhb27 kernel v7.3](https://github.com/bhb27/BHB27Kernel/search?q=bhb27%20kernel%20v7.3&type=Commits)
+* [08eea0c mac80211: use constant time comparison with keys](https://github.com/bhb27/BHB27Kernel/search?q=mac80211%3A%20use%20constant%20time%20comparison%20with%20keys&type=Commits)
+
+***
+
 10-18-2017
 ====================
 
-* [d3dff9f bhb27 kernel v7.3](https://github.com/bhb27/BHB27Kernel/search?q=bhb27%20kernel%20v7.3&type=Commits)
-* [db233fa mac80211: accept key reinstall without changing anything](https://github.com/bhb27/BHB27Kernel/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
-* [4f55f6d nl80211: check for the required netlink attributes presence](https://github.com/bhb27/BHB27Kernel/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
+* [fd78f9a mac80211: accept key reinstall without changing anything](https://github.com/bhb27/BHB27Kernel/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
+* [f1f667e nl80211: check for the required netlink attributes presence](https://github.com/bhb27/BHB27Kernel/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
+* [d327a66 Build: AK2: improve cpio ramdisk unpacking](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20AK2%3A%20improve%20cpio%20ramdisk%20unpacking&type=Commits)
+* [0470986 lmk: properly consider cached memory usable](https://github.com/bhb27/BHB27Kernel/search?q=lmk%3A%20properly%20consider%20cached%20memory%20usable&type=Commits)
 
 ***
 
