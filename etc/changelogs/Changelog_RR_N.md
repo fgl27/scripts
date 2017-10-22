@@ -11,6 +11,13 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Device/Quark/
 * [d7ce372 Quark: re-enable Snapdragon LLVM Compiler](https://github.com/search?q=Quark%3A%20re-enable%20Snapdragon%20LLVM%20Compiler&type=Commits)
 
+#### Kernel/Quark/
+* [ab33bc8 defconfig update f2fs config and cleanup](https://github.com/search?q=defconfig%20update%20f2fs%20config%20and%20cleanup&type=Commits)
+* [b0ee801 fs update f2fs from jaegeuk](https://github.com/search?q=fs%20update%20f2fs%20from%20jaegeuk&type=Commits)
+* [8810a16 Quark: def config disable CONFIG_OVERLAYFS_FS](https://github.com/search?q=Quark%3A%20def%20config%20disable%20CONFIG_OVERLAYFS_FS&type=Commits)
+* [e9dac70 fs/sdcard update for 3.10 on one squash](https://github.com/search?q=fs/sdcard%20update%20for%203.10%20on%20one%20squash&type=Commits)
+* [2ce124a fs: Revert all sdcardsfs changes](https://github.com/search?q=fs%3A%20Revert%20all%20sdcardsfs%20changes&type=Commits)
+
 #### Device specific Changes of 10-22-2017 End.
 
 ***
@@ -62,7 +69,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [590252b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Settings/
-* [d61ce5d [1/2] Settings: Double tap to wake on doze](https://github.com/search?q=[1/2]%20Settings%3A%20Double%20tap%20to%20wake%20on%20doze&type=Commits)
+* [d61ce5d [2/2] Settings: Double tap to wake on doze](https://github.com/search?q=[1/2]%20Settings%3A%20Double%20tap%20to%20wake%20on%20doze&type=Commits)
 
 #### packages/apps/SetupWizard/
 * [74191b0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
