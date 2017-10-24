@@ -3,6 +3,204 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+10-24-2017
+====================
+
+#### Device specific Changes of 10-24-2017 Start:
+
+#### Device/Quark/
+* [264db69 Quark: update bdroid_buildcf](https://github.com/search?q=Quark%3A%20update%20bdroid_buildcf&type=Commits)
+
+#### Kernel/Quark/
+* [9976df9 ALSA: seq: Fix use-after-free at creating a port](https://github.com/search?q=ALSA%3A%20seq%3A%20Fix%20use-after-free%20at%20creating%20a%20port&type=Commits)
+* [4df78cc defconfig disable CONFIG_MSM_ULTRASOUND_B](https://github.com/search?q=defconfig%20disable%20CONFIG_MSM_ULTRASOUND_B&type=Commits)
+* [9317195 USB: phy: Disable IRQs before resetting clocks](https://github.com/search?q=USB%3A%20phy%3A%20Disable%20IRQs%20before%20resetting%20clocks&type=Commits)
+
+#### Vendor/Quark/
+* [6e19916 Quark: update KA](https://github.com/search?q=Quark%3A%20update%20KA&type=Commits)
+
+#### Device specific Changes of 10-24-2017 End.
+
+***
+
+10-23-2017
+====================
+
+#### Device specific Changes of 10-23-2017 Start:
+
+#### Kernel/Quark/
+* [ab33bc8 defconfig update f2fs config and cleanup](https://github.com/search?q=defconfig%20update%20f2fs%20config%20and%20cleanup&type=Commits)
+* [b0ee801 fs update f2fs from jaegeuk](https://github.com/search?q=fs%20update%20f2fs%20from%20jaegeuk&type=Commits)
+* [8810a16 Quark: def config disable CONFIG_OVERLAYFS_FS](https://github.com/search?q=Quark%3A%20def%20config%20disable%20CONFIG_OVERLAYFS_FS&type=Commits)
+* [e9dac70 fs/sdcard update for 3.10 on one squash](https://github.com/search?q=fs/sdcard%20update%20for%203.10%20on%20one%20squash&type=Commits)
+* [2ce124a fs: Revert all sdcardsfs changes](https://github.com/search?q=fs%3A%20Revert%20all%20sdcardsfs%20changes&type=Commits)
+
+#### Device specific Changes of 10-23-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-23-2017:
+
+#### frameworks/base/
+* [324a86d fix build](https://github.com/search?q=fix%20build&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [4f04ccb fix build](https://github.com/search?q=fix%20build&type=Commits)
+* [7f6efe3 Merge pull request #94 from zhongab1708/patch-1](https://github.com/search?q=Merge%20pull%20request%20%2394%20from%20zhongab1708/patch-1&type=Commits)
+* [2b5c889 Merge pull request #92 from Henry2o1o/patch-2](https://github.com/search?q=Merge%20pull%20request%20%2392%20from%20Henry2o1o/patch-2&type=Commits)
+* [73f9ffa Merge pull request #102 from VenkatVishalV/7.1](https://github.com/search?q=Merge%20pull%20request%20%23102%20from%20VenkatVishalV/7.1&type=Commits)
+* [88dc8ab Merge pull request #101 from EthanSiva/7.1](https://github.com/search?q=Merge%20pull%20request%20%23101%20from%20EthanSiva/7.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [4ed64c1 crackling: Update](https://github.com/search?q=crackling%3A%20Update&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-23-2017 End.
+
+10-22-2017
+====================
+
+#### Device specific Changes of 10-22-2017 Start:
+
+#### Device/Quark/
+* [6ad107a Revert "Quark: disable ro.sys.sdcardfs"](https://github.com/search?q=Revert%20"Quark%3A%20disable%20ro.sys.sdcardfs"&type=Commits)
+* [d7ce372 Quark: re-enable Snapdragon LLVM Compiler](https://github.com/search?q=Quark%3A%20re-enable%20Snapdragon%20LLVM%20Compiler&type=Commits)
+* [4207be4 Quark: set props for audio buffer](https://github.com/search?q=Quark%3A%20set%20props%20for%20audio%20buffer&type=Commits)
+* [b200f98 Quark: Update boardconfig](https://github.com/search?q=Quark%3A%20Update%20boardconfig&type=Commits)
+
+#### Kernel/Quark/
+* [91af621 ASoC: wcd9xxx: use hwdep node for codec calibration](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20use%20hwdep%20node%20for%20codec%20calibration&type=Commits)
+
+#### Device specific Changes of 10-22-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-22-2017:
+
+#### hardware/qcom/fm/
+* [71e5a12 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [0f2d3fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [28296a0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [ff9a223 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [3c45694 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [c53593a added leeco_x3 maintainer](https://github.com/search?q=added%20leeco_x3%20maintainer&type=Commits)
+* [1fc507a added leeco_x3 maintainer](https://github.com/search?q=added%20leeco_x3%20maintainer&type=Commits)
+* [add4090 Add lenovo k6 power and lenovi k6 note](https://github.com/search?q=Add%20lenovo%20k6%20power%20and%20lenovi%20k6%20note&type=Commits)
+* [5f439df Add lenovo k6 note](https://github.com/search?q=Add%20lenovo%20k6%20note&type=Commits)
+
+#### packages/resources/devicesettings/
+* [82fcd4d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [8369573 v500: update](https://github.com/search?q=v500%3A%20update&type=Commits)
+* [46f6a52 v500: Update to 3.8.1](https://github.com/search?q=v500%3A%20Update%20to%203.8.1&type=Commits)
+* [5db7f9e Update klte devices to 3.8.1](https://github.com/search?q=Update%20klte%20devices%20to%203.8.1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-22-2017 End.
+
+10-21-2017
+====================
+
+#### Device specific Changes of 10-21-2017 Start:
+
+#### Device/Quark/
+* [decfe45 Quark: fstab zram set max_comp_streams the correct way + set swapprio](https://github.com/search?q=Quark%3A%20fstab%20zram%20set%20max_comp_streams%20the%20correct%20way%20+%20set%20swapprio&type=Commits)
+
+#### Kernel/Quark/
+* [dab01c4 defconfig centralized zram config and enable FRONTSWAP](https://github.com/search?q=defconfig%20centralized%20zram%20config%20and%20enable%20FRONTSWAP&type=Commits)
+* [f5956b2 mac80211: use constant time comparison with keys](https://github.com/search?q=mac80211%3A%20use%20constant%20time%20comparison%20with%20keys&type=Commits)
+
+#### Device specific Changes of 10-21-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-21-2017:
+
+#### frameworks/base/
+* [9a6a4bb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### hardware/qcom/bootctrl/
+* [462212d Add msm8953 to the filter](https://github.com/search?q=Add%20msm8953%20to%20the%20filter&type=Commits)
+
+#### packages/apps/Dialer/
+* [3a176f5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%207.1&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [c92fd39 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%207.1&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [0bbce89 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [a97b8aa crdroid: Remove support for falcon, shamu, lettuce](https://github.com/search?q=crdroid%3A%20Remove%20support%20for%20falcon,%20shamu,%20lettuce&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [004d2e8 Update m8/m8d to 3.8.1](https://github.com/search?q=Update%20m8/m8d%20to%203.8.1&type=Commits)
+* [6273795 Update deb/flo/h811/h815 to 3.8.1](https://github.com/search?q=Update%20deb/flo/h811/h815%20to%203.8.1&type=Commits)
+* [ca5e0fd Update marlin/sailfish/angler/bullhead to 3.8.1.](https://github.com/search?q=Update%20marlin/sailfish/angler/bullhead%20to%203.8.1.&type=Commits)
+* [c0604d1 Update to 10/20/17](https://github.com/search?q=Update%20to%2010/20/17&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-21-2017 End.
+
+10-20-2017
+====================
+
+#### CRDroid Android Nougat source changes of 10-20-2017:
+
+#### frameworks/base/
+* [cf39045 SystemUI: Profiles tile should require authentication](https://github.com/search?q=SystemUI%3A%20Profiles%20tile%20should%20require%20authentication&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [de4653c update herolte & hero2lte to build crDroidAndroid-7.1.2-20171020](https://github.com/search?q=update%20herolte%20&%20hero2lte%20to%20build%20crDroidAndroid-7.1.2-20171020&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-20-2017 End.
+
+10-19-2017
+====================
+
+#### Device specific Changes of 10-19-2017 Start:
+
+#### Kernel/Quark/
+* [6ccf0af mac80211: accept key reinstall without changing anything](https://github.com/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
+
+#### Device specific Changes of 10-19-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-19-2017:
+
+#### packages/apps/Calendar/
+* [de97bce Calendar: Show year info for week view](https://github.com/search?q=Calendar%3A%20Show%20year%20info%20for%20week%20view&type=Commits)
+
+#### packages/apps/Dialer/
+* [04d9b43 Squashed support for multilanguage T9 dialer (1/2)](https://github.com/search?q=Squashed%20support%20for%20multilanguage%20T9%20dialer%20%281/2%29&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [c6019b5 Squashed support for multilanguage T9 dialer (2/2)](https://github.com/search?q=Squashed%20support%20for%20multilanguage%20T9%20dialer%20%282/2%29&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-19-2017 End.
+
+10-18-2017
+====================
+
+#### Device specific Changes of 10-18-2017 Start:
+
+#### Kernel/Quark/
+* [b657a40 nl80211: check for the required netlink attributes presence](https://github.com/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
+
+#### Device specific Changes of 10-18-2017 End.
+
+***
+
 10-17-2017
 ====================
 
@@ -12,7 +210,6 @@ CRDroid Android Nougat source and Quark Changelog:
 * [23ba691 Quark: init update lmk and zram related](https://github.com/search?q=Quark%3A%20init%20update%20lmk%20and%20zram%20related&type=Commits)
 
 #### Kernel/Quark/
-* [b657a40 nl80211: check for the required netlink attributes presence](https://github.com/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
 * [073fb29c defconfig enable zram related](https://github.com/search?q=%20defconfig%20enable%20zram%20related&type=Commits)
 * [8d54c96 defconfig ena CONFIG_KSM_CHECK_PAGE](https://github.com/search?q=defconfig%20ena%20CONFIG_KSM_CHECK_PAGE&type=Commits)
 * [bd162ba defconfig ena ksm](https://github.com/search?q=defconfig%20ena%20ksm&type=Commits)
@@ -267,9 +464,30 @@ CRDroid Android Nougat source and Quark Changelog:
 
 #### CRDroid Android Nougat source changes of 10-17-2017:
 
+#### external/wpa_supplicant_8/
+* [ac78917 Clear PMK length and check for this when deriving PTK](https://github.com/search?q=Clear%20PMK%20length%20and%20check%20for%20this%20when%20deriving%20PTK&type=Commits)
+* [a630551 Add debug prints on PMK configuration in WPA supplicant](https://github.com/search?q=Add%20debug%20prints%20on%20PMK%20configuration%20in%20WPA%20supplicant&type=Commits)
+* [fbf7ecc WPA: Extra defense against PTK reinstalls in 4-way handshake](https://github.com/search?q=WPA%3A%20Extra%20defense%20against%20PTK%20reinstalls%20in%204-way%20handshake&type=Commits)
+* [5c64f90 Remove all PeerKey functionality](https://github.com/search?q=Remove%20all%20PeerKey%20functionality&type=Commits)
+* [726e02c Add MGMT_TX_STATUS_PROCESS command for testing purposes](https://github.com/search?q=Add%20MGMT_TX_STATUS_PROCESS%20command%20for%20testing%20purposes&type=Commits)
+* [cda7ff1 FT: Do not allow multiple Reassociation Response frames](https://github.com/search?q=FT%3A%20Do%20not%20allow%20multiple%20Reassociation%20Response%20frames&type=Commits)
+* [8fb5fe9 WNM: Ignore WNM-Sleep Mode Response without pending request](https://github.com/search?q=WNM%3A%20Ignore%20WNM-Sleep%20Mode%20Response%20without%20pending%20request&type=Commits)
+* [b6fccd0 TDLS: Reject TPK-TK reconfiguration](https://github.com/search?q=TDLS%3A%20Reject%20TPK-TK%20reconfiguration&type=Commits)
+* [04d9c3d Fix PTK rekeying to generate a new ANonce](https://github.com/search?q=Fix%20PTK%20rekeying%20to%20generate%20a%20new%20ANonce&type=Commits)
+* [bab71fa Prevent installation of an all-zero TK](https://github.com/search?q=Prevent%20installation%20of%20an%20all-zero%20TK&type=Commits)
+* [812c80a Extend protection of GTK/IGTK reinstallation of WNM-Sleep Mode cases](https://github.com/search?q=Extend%20protection%20of%20GTK/IGTK%20reinstallation%20of%20WNM-Sleep%20Mode%20cases&type=Commits)
+* [4326a42 Prevent reinstallation of an already in-use group key](https://github.com/search?q=Prevent%20reinstallation%20of%20an%20already%20in-use%20group%20key&type=Commits)
+* [3edbf11 hostapd: Avoid key reinstallation in FT handshake](https://github.com/search?q=hostapd%3A%20Avoid%20key%20reinstallation%20in%20FT%20handshake&type=Commits)
+* [b075172 Set EAPOL-Key Key Length field to 0 for group message 1/2 in RSN](https://github.com/search?q=Set%20EAPOL-Key%20Key%20Length%20field%20to%200%20for%20group%20message%201/2%20in%20RSN&type=Commits)
+
+#### packages/apps/Calendar/
+* [56dc4a8 Calendar: Show week start and end in title for Week view](https://github.com/search?q=Calendar%3A%20Show%20week%20start%20and%20end%20in%20title%20for%20Week%20view&type=Commits)
+
 #### vendor/crDroidOTA-devices/
 * [5f57e01 Update h811/h815](https://github.com/search?q=Update%20h811/h815&type=Commits)
 * [75dbeab Update m8/m8d](https://github.com/search?q=Update%20m8/m8d&type=Commits)
+* [924538b Update 10/15/17](https://github.com/search?q=Update%2010/15/17&type=Commits)
+* [92b55d4 Update marlin, sailfish, angler & bullhead.](https://github.com/search?q=Update%20marlin,%20sailfish,%20angler%20&%20bullhead.&type=Commits)
 
 #### CRDroid Android Nougat source changes of 10-17-2017 End.
 
