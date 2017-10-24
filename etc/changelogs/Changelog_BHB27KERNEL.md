@@ -3,11 +3,63 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
-10-21-2017
+10-24-2017
+====================
+
+* [52571f6 ALSA: seq: Fix use-after-free at creating a port](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20seq%3A%20Fix%20use-after-free%20at%20creating%20a%20port&type=Commits)
+* [0cc60a3 defconfig disable CONFIG_MSM_ULTRASOUND_B](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20CONFIG_MSM_ULTRASOUND_B&type=Commits)
+* [7203123 qcom: hotplug autosmp & blu_plug update resume process and up/douwn(cpu)](https://github.com/bhb27/BHB27Kernel/search?q=qcom%3A%20hotplug%20autosmp%20&%20blu_plug%20update%20resume%20process%20and%20up/douwn%28cpu%29&type=Commits)
+* [db6e995 USB: phy: Disable IRQs before resetting clocks](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20phy%3A%20Disable%20IRQs%20before%20resetting%20clocks&type=Commits)
+
+***
+
+10-23-2017
+====================
+
+* [eb9990d bhb27kernel V7.5](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20V7.5&type=Commits)
+* [0965fb1 signal: protect SIGNAL_UNKILLABLE from unintentional clearing.](https://github.com/bhb27/BHB27Kernel/search?q=signal%3A%20protect%20SIGNAL_UNKILLABLE%20from%20unintentional%20clearing.&type=Commits)
+* [9c5f569 workqueue: implicit ordered attribute should be overridable](https://github.com/bhb27/BHB27Kernel/search?q=workqueue%3A%20implicit%20ordered%20attribute%20should%20be%20overridable&type=Commits)
+* [53777b8 workqueue: restore WQ_UNBOUND/max_active==1 to be ordered](https://github.com/bhb27/BHB27Kernel/search?q=workqueue%3A%20restore%20WQ_UNBOUND/max_active==1%20to%20be%20ordered&type=Commits)
+* [2c2c25d defconfig ena GOV_INTELLIMM](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20ena%20GOV_INTELLIMM&type=Commits)
+* [fc49396 defconfg update Swap related](https://github.com/bhb27/BHB27Kernel/search?q=defconfg%20update%20Swap%20related&type=Commits)
+* [0848377 intellimm: add ARCH_APQ8084 (shamu) default settings](https://github.com/bhb27/BHB27Kernel/search?q=intellimm%3A%20add%20ARCH_APQ8084%20%28shamu%29%20default%20settings&type=Commits)
+* [5dcc56a intellimm: Fix settings default optimal frequency](https://github.com/bhb27/BHB27Kernel/search?q=intellimm%3A%20Fix%20settings%20default%20optimal%20frequency&type=Commits)
+* [a85d13c intellimm : port to 3.10.y](https://github.com/bhb27/BHB27Kernel/search?q=intellimm%20%3A%20port%20to%203.10.y&type=Commits)
+* [106a1dc cpufreq_intellimm: intelliminmax cpu governor initial baseline commit (faux123)](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq_intellimm%3A%20intelliminmax%20cpu%20governor%20initial%20baseline%20commit%20%28faux123%29&type=Commits)
+* [b954f56 lmk: port lmkcount from Samsung source](https://github.com/bhb27/BHB27Kernel/search?q=lmk%3A%20port%20lmkcount%20from%20Samsung%20source&type=Commits)
+* [6714217 mm/zswap: NUMA aware allocation for zswap_dstmem](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap%3A%20NUMA%20aware%20allocation%20for%20zswap_dstmem&type=Commits)
+* [f87d5d0 mm/zswap.c: remove unnecessary parentheses](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap.c%3A%20remove%20unnecessary%20parentheses&type=Commits)
+* [8940968 mm/zswap: support multiple swap devices](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap%3A%20support%20multiple%20swap%20devices&type=Commits)
+* [e76b132 mm/zswap.c: update zsmalloc in comment to zbud](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap.c%3A%20update%20zsmalloc%20in%20comment%20to%20zbud&type=Commits)
+* [5557d08 mm/zswap.c: fix trivial typo and arrange indentation](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap.c%3A%20fix%20trivial%20typo%20and%20arrange%20indentation&type=Commits)
+* [809df07 lowmemorykiller: optimize for use with zswap](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20optimize%20for%20use%20with%20zswap&type=Commits)
+* [3bb611e mm: page_io.c: remove write error messages for swap devices](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20page_io.c%3A%20remove%20write%20error%20messages%20for%20swap%20devices&type=Commits)
+* [ff9b1d1 mm/zswap: refactor the get/put routines](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap%3A%20refactor%20the%20get/put%20routines&type=Commits)
+* [692f1cd rbtree: fix rbtree_postorder_for_each_entry_safe() iterator](https://github.com/bhb27/BHB27Kernel/search?q=rbtree%3A%20fix%20rbtree_postorder_for_each_entry_safe%28%29%20iterator&type=Commits)
+* [22470d6 rbtree: add rbtree_postorder_for_each_entry_safe() helper](https://github.com/bhb27/BHB27Kernel/search?q=rbtree%3A%20add%20rbtree_postorder_for_each_entry_safe%28%29%20helper&type=Commits)
+* [5b6b7e5 lib/rbtree.c: fix typo in comment of __rb_insert()](https://github.com/bhb27/BHB27Kernel/search?q=lib/rbtree.c%3A%20fix%20typo%20in%20comment%20of%20__rb_insert%28%29&type=Commits)
+* [8f72d56 rbtree: add postorder iteration functions](https://github.com/bhb27/BHB27Kernel/search?q=rbtree%3A%20add%20postorder%20iteration%20functions&type=Commits)
+* [913709a vnswap: integrate vnswap from Samsung](https://github.com/bhb27/BHB27Kernel/search?q=vnswap%3A%20integrate%20vnswap%20from%20Samsung&type=Commits)
+* [5ebc1ce mm/zswap: bugfix: memory leak when invalidate and reclaim occur concurrently](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap%3A%20bugfix%3A%20memory%20leak%20when%20invalidate%20and%20reclaim%20occur%20concurrently&type=Commits)
+* [e94c074 mm/zswap: avoid unnecessary page scanning](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap%3A%20avoid%20unnecessary%20page%20scanning&type=Commits)
+* [f6bffdf mm/zswap: bugfix: memory leak when re-swapon](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap%3A%20bugfix%3A%20memory%20leak%20when%20re-swapon&type=Commits)
+* [6edf2b36 mm/zswap: use postorder iteration when destroying rbtree](https://github.com/bhb27/BHB27Kernel/search?q=%20mm/zswap%3A%20use%20postorder%20iteration%20when%20destroying%20rbtree&type=Commits)
+* [c36d382 mm/zswap.c: get swapper address_space by using macro](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap.c%3A%20get%20swapper%20address_space%20by%20using%20macro&type=Commits)
+* [ed8d5c2 mm/zswap.c: change params from hidden to ro](https://github.com/bhb27/BHB27Kernel/search?q=mm/zswap.c%3A%20change%20params%20from%20hidden%20to%20ro&type=Commits)
+
+***
+
+10-22-2017
 ====================
 
 * [80576fdd ASoC: wcd9xxx: use hwdep node for codec calibration](https://github.com/bhb27/BHB27Kernel/search?q=%20ASoC%3A%20wcd9xxx%3A%20use%20hwdep%20node%20for%20codec%20calibration&type=Commits)
 * [963e57b Build: update update-binary](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20update-binary&type=Commits)
+
+***
+
+10-21-2017
+====================
+
 * [9a613d9 build zram set max_comp_streams the correct way + set swapprio](https://github.com/bhb27/BHB27Kernel/search?q=build%20zram%20set%20max_comp_streams%20the%20correct%20way%20+%20set%20swapprio&type=Commits)
 * [a5b2d845 defconfig centralized zram config and enable FRONTSWAP](https://github.com/bhb27/BHB27Kernel/search?q=%20defconfig%20centralized%20zram%20config%20and%20enable%20FRONTSWAP&type=Commits)
 * [74aff86 bhb27kernel v 7.4](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20v%207.4&type=Commits)
@@ -28,7 +80,7 @@ BHB27KERNEL source Changelog:
 
 ***
 
-10-18-2017
+10-19-2017
 ====================
 
 * [fd78f9a mac80211: accept key reinstall without changing anything](https://github.com/bhb27/BHB27Kernel/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
@@ -38,11 +90,9 @@ BHB27KERNEL source Changelog:
 
 ***
 
-10-14-2017
+10-15-2017
 ====================
 
-* [a1d1044 Build: AK2: improve cpio ramdisk unpacking](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20AK2%3A%20improve%20cpio%20ramdisk%20unpacking&type=Commits)
-* [0470986 lmk: properly consider cached memory usable](https://github.com/bhb27/BHB27Kernel/search?q=lmk%3A%20properly%20consider%20cached%20memory%20usable&type=Commits)
 * [da36b84 build: init tune adaptive_lmk](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20init%20tune%20adaptive_lmk&type=Commits)
 * [660cb34 Revert "trace: memkill: trace LMK and OOM kills"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"trace%3A%20memkill%3A%20trace%20LMK%20and%20OOM%20kills"&type=Commits)
 * [47fc256 lowmemorykiller: initialize variables](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20initialize%20variables&type=Commits)
@@ -58,15 +108,15 @@ BHB27KERNEL source Changelog:
 * [54b1cbe mm: vmpressure: account allocstalls only on higher pressures](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20vmpressure%3A%20account%20allocstalls%20only%20on%20higher%20pressures&type=Commits)
 * [13e3755 mm: vmpressure: scale pressure based on reclaim context](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20vmpressure%3A%20scale%20pressure%20based%20on%20reclaim%20context&type=Commits)
 * [414f978 mm: vmpressure: allow in-kernel clients to subscribe for events](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20vmpressure%3A%20allow%20in-kernel%20clients%20to%20subscribe%20for%20events&type=Commits)
-* [5f121ea usb: dwc3 gadget stop warn_on when disabling adb](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20dwc3%20gadget%20stop%20warn_on%20when%20disabling%20adb&type=Commits)
-* [3892027 USB: f_mtp: Perform vfs_write under mutex protection](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20f_mtp%3A%20Perform%20vfs_write%20under%20mutex%20protection&type=Commits)
-* [9c4825d usb: gadget: f_mtp: Fix mtp enumeration failure issue](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20gadget%3A%20f_mtp%3A%20Fix%20mtp%20enumeration%20failure%20issue&type=Commits)
 
 ***
 
-10-13-2017
+10-14-2017
 ====================
 
+* [5f121ea usb: dwc3 gadget stop warn_on when disabling adb](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20dwc3%20gadget%20stop%20warn_on%20when%20disabling%20adb&type=Commits)
+* [3892027 USB: f_mtp: Perform vfs_write under mutex protection](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20f_mtp%3A%20Perform%20vfs_write%20under%20mutex%20protection&type=Commits)
+* [9c4825d usb: gadget: f_mtp: Fix mtp enumeration failure issue](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20gadget%3A%20f_mtp%3A%20Fix%20mtp%20enumeration%20failure%20issue&type=Commits)
 * [c55929a ASoC: msm: Fix the noise in HDMI on HDMI connect disconnect](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Fix%20the%20noise%20in%20HDMI%20on%20HDMI%20connect%20disconnect&type=Commits)
 * [bb587e7 ASoC: msm: qdsp6v2: Change client names for ion alloc](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20client%20names%20for%20ion%20alloc&type=Commits)
 * [383644b ASoC: msm: qdsp6v2: Change pr_debug to pr_info](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20pr_debug%20to%20pr_info&type=Commits)
@@ -86,6 +136,12 @@ BHB27KERNEL source Changelog:
 * [59306ab drivers: mfd: Cleanup of wcd drivers](https://github.com/bhb27/BHB27Kernel/search?q=drivers%3A%20mfd%3A%20Cleanup%20of%20wcd%20drivers&type=Commits)
 * [945930f mfd: wcd9xxx-slimslave: Remove unnecessary logging](https://github.com/bhb27/BHB27Kernel/search?q=mfd%3A%20wcd9xxx-slimslave%3A%20Remove%20unnecessary%20logging&type=Commits)
 * [664106b ASoC: wcd9xxx: Add check for array boundary](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20wcd9xxx%3A%20Add%20check%20for%20array%20boundary&type=Commits)
+
+***
+
+10-13-2017
+====================
+
 * [7d5211b msm: camera: isp: Ratelimit hw errors](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20isp%3A%20Ratelimit%20hw%20errors&type=Commits)
 * [285b072 msm: camera: isp: Add missing mutex unlock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20isp%3A%20Add%20missing%20mutex%20unlock&type=Commits)
 * [3679ac5 ASoC: tfa9890: Improve logging](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20tfa9890%3A%20Improve%20logging&type=Commits)
@@ -94,12 +150,6 @@ BHB27KERNEL source Changelog:
 * [92fb371 ext4: stop spamming system/ warning: maximal mount count reached](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20stop%20spamming%20system/%20warning%3A%20maximal%20mount%20count%20reached&type=Commits)
 * [a624ed8 qcacld-2.0: stop spamming host/target HTT versions are different](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20stop%20spamming%20host/target%20HTT%20versions%20are%20different&type=Commits)
 * [66a80d0 capability: stop spamming `qseecomd' uses 32-bit capabilities](https://github.com/bhb27/BHB27Kernel/search?q=capability%3A%20stop%20spamming%20%60qseecomd%27%20uses%2032-bit%20capabilities&type=Commits)
-
-***
-
-10-12-2017
-====================
-
 * [66bc594 msm: IPA: add the check on intf query](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20IPA%3A%20add%20the%20check%20on%20intf%20query&type=Commits)
 * [3b6dcbd keys: Guard against null match function in keyring_search_aux()](https://github.com/bhb27/BHB27Kernel/search?q=keys%3A%20Guard%20against%20null%20match%20function%20in%20keyring_search_aux%28%29&type=Commits)
 * [6904b4c arm/configs: apq8084: remove SysV IPC from kernel [Original patch changed shamu_defconfig]](https://github.com/bhb27/BHB27Kernel/search?q=arm/configs%3A%20apq8084%3A%20remove%20SysV%20IPC%20from%20kernel%20[Original%20patch%20changed%20shamu_defconfig]&type=Commits)
@@ -166,21 +216,27 @@ BHB27KERNEL source Changelog:
 
 ***
 
-10-11-2017
+10-12-2017
 ====================
 
 * [d8539a1 Build: update init and allow zram mod of the zip](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20init%20and%20allow%20zram%20mod%20of%20the%20zip&type=Commits)
+
+***
+
+10-11-2017
+====================
+
 * [4c012c2 build init tune lmk](https://github.com/bhb27/BHB27Kernel/search?q=build%20init%20tune%20lmk&type=Commits)
 * [e80f3d0 Build: update init](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20init&type=Commits)
 * [f8c8eb7 Revert "defconfig disable swap"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"defconfig%20disable%20swap"&type=Commits)
+* [b3895a7 Build: init update zram related](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20init%20update%20zram%20related&type=Commits)
+* [a478b34 defconfig disable swap](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20swap&type=Commits)
 
 ***
 
 10-10-2017
 ====================
 
-* [b3895a7 Build: init update zram related](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20init%20update%20zram%20related&type=Commits)
-* [a478b34 defconfig disable swap](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20swap&type=Commits)
 * [1289515 Build: update zram start process](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20zram%20start%20process&type=Commits)
 * [d8ab381 ARM: wire up getrandom syscall](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20wire%20up%20getrandom%20syscall&type=Commits)
 * [f8fe2c7 BACKPORT: random: Wake up all getrandom(2) callers when pool is ready](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20random%3A%20Wake%20up%20all%20getrandom%282%29%20callers%20when%20pool%20is%20ready&type=Commits)
