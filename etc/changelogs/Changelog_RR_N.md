@@ -3,13 +3,127 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
-10-22-2017
+10-28-2017
 ====================
 
-#### Device specific Changes of 10-22-2017 Start:
+#### Device specific Changes of 10-28-2017 Start:
+
+#### Kernel/Quark/
+* [60696d0 bcl: don't mitigate freq when disable](https://github.com/search?q=bcl%3A%20don%27t%20mitigate%20freq%20when%20disable&type=Commits)
+* [27f5a83 power: bcl: Support selective core frequency mitigation](https://github.com/search?q=power%3A%20bcl%3A%20Support%20selective%20core%20frequency%20mitigation&type=Commits)
+* [453b7a5 power: battery_current_limit: Ensure 1 sec delay before queuing work](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Ensure%201%20sec%20delay%20before%20queuing%20work&type=Commits)
+* [291528c power: battery_current_limit: Remove hotplug control completely](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely&type=Commits)
+
+#### Device specific Changes of 10-28-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-28-2017:
+
+#### frameworks/base/
+* [ae8d8a6 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+
+#### vendor/cmsdk/
+* [7e07472 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-28-2017 End.
+
+10-27-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-27-2017:
+
+#### frameworks/base/
+* [1b55f84 Toast: Fix toast layout for RTL (#210)](https://github.com/search?q=Toast%3A%20Fix%20toast%20layout%20for%20RTL%20%28%23210%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-27-2017 End.
+
+10-26-2017
+====================
+
+#### Device specific Changes of 10-26-2017 Start:
 
 #### Device/Quark/
-* [d7ce372 Quark: re-enable Snapdragon LLVM Compiler](https://github.com/search?q=Quark%3A%20re-enable%20Snapdragon%20LLVM%20Compiler&type=Commits)
+* [9dccb00 Quark:  Replace BTM_WBS_INCLUDED with BLUETOOTH_QTI_SW](https://github.com/search?q=Quark%3A%20%20Replace%20BTM_WBS_INCLUDED%20with%20BLUETOOTH_QTI_SW&type=Commits)
+
+#### Device specific Changes of 10-26-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-26-2017:
+
+#### frameworks/base/
+* [c42f0d5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [0d396f9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [4506774 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-26-2017 End.
+
+10-25-2017
+====================
+
+#### Device specific Changes of 10-25-2017 Start:
+
+#### Device/Quark/
+* [3110049 Quark: update isolated_app](https://github.com/search?q=Quark%3A%20update%20isolated_app&type=Commits)
+* [bcb814e Quark: liblight add a separeted brightness path for blink 1/2](https://github.com/search?q=Quark%3A%20liblight%20add%20a%20separeted%20brightness%20path%20for%20blink%201/2&type=Commits)
+* [462ecad Quark: update bdroid_buildcf](https://github.com/search?q=Quark%3A%20update%20bdroid_buildcf&type=Commits)
+
+#### Kernel/Quark/
+* [bf0b0ff binder: revert 10/12 changes](https://github.com/search?q=binder%3A%20revert%2010/12%20changes&type=Commits)
+* [5c3aeb9 seccomp: always propagate NO_NEW_PRIVS on tsync](https://github.com/search?q=seccomp%3A%20always%20propagate%20NO_NEW_PRIVS%20on%20tsync&type=Commits)
+* [854e2e6 seccomp,x86,arm,mips,s390: Remove nr parameter from secure_computing](https://github.com/search?q=seccomp,x86,arm,mips,s390%3A%20Remove%20nr%20parameter%20from%20secure_computing&type=Commits)
+* [c6c81f6 ARM: dts: msm: disable support of 50MHz for i2c for apq8084](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20disable%20support%20of%2050MHz%20for%20i2c%20for%20apq8084&type=Commits)
+* [b15cb57 Led-class: add a separeted brightness path for blink 2/2](https://github.com/search?q=Led-class%3A%20add%20a%20separeted%20brightness%20path%20for%20blink%202/2&type=Commits)
+* [15b88a9 Revert "leds: led-core: Use last Retain brightness request for blink_brightness"](https://github.com/search?q=Revert%20"leds%3A%20led-core%3A%20Use%20last%20Retain%20brightness%20request%20for%20blink_brightness"&type=Commits)
+
+#### Vendor/Quark/
+* [430026c Quark: sed patch camera.apq8084](https://github.com/search?q=Quark%3A%20sed%20patch%20camera.apq8084&type=Commits)
+
+#### Device specific Changes of 10-25-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-25-2017:
+
+#### packages/apps/SetupWizard/
+* [aba4f6f WifiSetup: If an ethernet connection is active, skip wifi setup](https://github.com/search?q=WifiSetup%3A%20If%20an%20ethernet%20connection%20is%20active,%20skip%20wifi%20setup&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-25-2017 End.
+
+10-24-2017
+====================
+
+#### Device specific Changes of 10-24-2017 Start:
+
+#### Kernel/Quark/
+* [9976df9 ALSA: seq: Fix use-after-free at creating a port](https://github.com/search?q=ALSA%3A%20seq%3A%20Fix%20use-after-free%20at%20creating%20a%20port&type=Commits)
+* [4df78cc defconfig disable CONFIG_MSM_ULTRASOUND_B](https://github.com/search?q=defconfig%20disable%20CONFIG_MSM_ULTRASOUND_B&type=Commits)
+* [9317195 USB: phy: Disable IRQs before resetting clocks](https://github.com/search?q=USB%3A%20phy%3A%20Disable%20IRQs%20before%20resetting%20clocks&type=Commits)
+
+#### Vendor/Quark/
+* [6e19916 Quark: update KA](https://github.com/search?q=Quark%3A%20update%20KA&type=Commits)
+
+#### Device specific Changes of 10-24-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-24-2017:
+
+#### packages/apps/SetupWizard/
+* [356dcde [Fugu] Fix bluetooth setup loop](https://github.com/search?q=[Fugu]%20Fix%20bluetooth%20setup%20loop&type=Commits)
+* [e7dce25 Revert "The bluetooth pairing page cannot be exited, disable it for now."](https://github.com/search?q=Revert%20"The%20bluetooth%20pairing%20page%20cannot%20be%20exited,%20disable%20it%20for%20now."&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-24-2017 End.
+
+10-23-2017
+====================
+
+#### Device specific Changes of 10-23-2017 Start:
 
 #### Kernel/Quark/
 * [ab33bc8 defconfig update f2fs config and cleanup](https://github.com/search?q=defconfig%20update%20f2fs%20config%20and%20cleanup&type=Commits)
@@ -18,11 +132,11 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [e9dac70 fs/sdcard update for 3.10 on one squash](https://github.com/search?q=fs/sdcard%20update%20for%203.10%20on%20one%20squash&type=Commits)
 * [2ce124a fs: Revert all sdcardsfs changes](https://github.com/search?q=fs%3A%20Revert%20all%20sdcardsfs%20changes&type=Commits)
 
-#### Device specific Changes of 10-22-2017 End.
+#### Device specific Changes of 10-23-2017 End.
 
 ***
 
-#### Resurrection Remix OS - Nougat source changes of 10-22-2017:
+#### Resurrection Remix OS - Nougat source changes of 10-23-2017:
 
 #### build/
 * [e1f5d42 Squashed revert of TARGET_UNIFIED_DEVICE](https://github.com/search?q=Squashed%20revert%20of%20TARGET_UNIFIED_DEVICE&type=Commits)
@@ -33,20 +147,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [2cbae5c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [5a720b2 SystemUI: Profiles tile should require authentication](https://github.com/search?q=SystemUI%3A%20Profiles%20tile%20should%20require%20authentication&type=Commits)
 * [cbb4259 System Profiles in QS Tiles](https://github.com/search?q=System%20Profiles%20in%20QS%20Tiles&type=Commits)
-* [a01ba17 Base: use UserHandle.USER_ALL were it fits](https://github.com/search?q=Base%3A%20use%20UserHandle.USER_ALL%20were%20it%20fits&type=Commits)
-* [2f81cad [1/2] Frameworks_base: Double tap to wake on doze](https://github.com/search?q=[1/2]%20Frameworks_base%3A%20Double%20tap%20to%20wake%20on%20doze&type=Commits)
-
-#### hardware/qcom/fm/
-* [71e5a12 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/AudioFX/
-* [0f2d3fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/CMParts/
 * [4219fd3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Calendar/
-* [28296a0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Contacts/
 * [b9157a2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%20nougat&type=Commits)
@@ -56,6 +159,55 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### packages/apps/Dialer/
 * [36ae54a Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [646f64a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [9969c05 [2/2] Settings: Double tap to wake on doze](https://github.com/search?q=[2/2]%20Settings%3A%20Double%20tap%20to%20wake%20on%20doze&type=Commits)
+
+#### packages/services/Telecomm/
+* [6c81cdc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20nougat&type=Commits)
+
+#### packages/services/Telephony/
+* [9ef136b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-23-2017 End.
+
+10-22-2017
+====================
+
+#### Device specific Changes of 10-22-2017 Start:
+
+#### Device/Quark/
+* [6ad107a Revert "Quark: disable ro.sys.sdcardfs"](https://github.com/search?q=Revert%20"Quark%3A%20disable%20ro.sys.sdcardfs"&type=Commits)
+* [d7ce372 Quark: re-enable Snapdragon LLVM Compiler](https://github.com/search?q=Quark%3A%20re-enable%20Snapdragon%20LLVM%20Compiler&type=Commits)
+* [4207be4 Quark: set props for audio buffer](https://github.com/search?q=Quark%3A%20set%20props%20for%20audio%20buffer&type=Commits)
+* [b200f98 Quark: Update boardconfig](https://github.com/search?q=Quark%3A%20Update%20boardconfig&type=Commits)
+
+#### Kernel/Quark/
+* [91af621 ASoC: wcd9xxx: use hwdep node for codec calibration](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20use%20hwdep%20node%20for%20codec%20calibration&type=Commits)
+
+#### Device specific Changes of 10-22-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 10-22-2017:
+
+#### frameworks/base/
+* [a01ba17 Base: use UserHandle.USER_ALL were it fits](https://github.com/search?q=Base%3A%20use%20UserHandle.USER_ALL%20were%20it%20fits&type=Commits)
+* [2f81cad [1/2] Frameworks_base: Double tap to wake on doze](https://github.com/search?q=[1/2]%20Frameworks_base%3A%20Double%20tap%20to%20wake%20on%20doze&type=Commits)
+
+#### hardware/qcom/fm/
+* [71e5a12 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [0f2d3fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [28296a0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
 * [692c0ef Merge pull request #3 from CyberWalkMaN/nougat](https://github.com/search?q=Merge%20pull%20request%20%233%20from%20CyberWalkMaN/nougat&type=Commits)
 
 #### packages/apps/Gallery2/
@@ -65,11 +217,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [3c45694 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/PhoneCommon/
-* [646f64a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%20nougat&type=Commits)
 * [590252b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Settings/
-* [d61ce5d [2/2] Settings: Double tap to wake on doze](https://github.com/search?q=[1/2]%20Settings%3A%20Double%20tap%20to%20wake%20on%20doze&type=Commits)
 
 #### packages/apps/SetupWizard/
 * [74191b0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -80,11 +228,7 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/resources/devicesettings/
 * [82fcd4d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### packages/services/Telecomm/
-* [6c81cdc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20nougat&type=Commits)
-
 #### packages/services/Telephony/
-* [9ef136b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
 * [32d566a Telephony: Fix wrong en-translations](https://github.com/search?q=Telephony%3A%20Fix%20wrong%20en-translations&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 10-22-2017 End.
@@ -95,12 +239,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Device specific Changes of 10-21-2017 Start:
 
 #### Device/Quark/
-* [4207be4 Quark: set props for audio buffer](https://github.com/search?q=Quark%3A%20set%20props%20for%20audio%20buffer&type=Commits)
-* [b200f98 Quark: Update boardconfig](https://github.com/search?q=Quark%3A%20Update%20boardconfig&type=Commits)
 * [decfe45 Quark: fstab zram set max_comp_streams the correct way + set swapprio](https://github.com/search?q=Quark%3A%20fstab%20zram%20set%20max_comp_streams%20the%20correct%20way%20+%20set%20swapprio&type=Commits)
 
 #### Kernel/Quark/
-* [91af621 ASoC: wcd9xxx: use hwdep node for codec calibration](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20use%20hwdep%20node%20for%20codec%20calibration&type=Commits)
 * [dab01c4 defconfig centralized zram config and enable FRONTSWAP](https://github.com/search?q=defconfig%20centralized%20zram%20config%20and%20enable%20FRONTSWAP&type=Commits)
 * [f5956b2 mac80211: use constant time comparison with keys](https://github.com/search?q=mac80211%3A%20use%20constant%20time%20comparison%20with%20keys&type=Commits)
 
@@ -125,10 +266,22 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 10-19-2017
 ====================
 
+#### Device specific Changes of 10-19-2017 Start:
+
+#### Kernel/Quark/
+* [6ccf0af mac80211: accept key reinstall without changing anything](https://github.com/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
+
+#### Device specific Changes of 10-19-2017 End.
+
+***
+
 #### Resurrection Remix OS - Nougat source changes of 10-19-2017:
 
 #### packages/apps/Calendar/
 * [de97bce Calendar: Show year info for week view](https://github.com/search?q=Calendar%3A%20Show%20year%20info%20for%20week%20view&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [c6019b5 Squashed support for multilanguage T9 dialer (2/2)](https://github.com/search?q=Squashed%20support%20for%20multilanguage%20T9%20dialer%20%282/2%29&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 10-19-2017 End.
 
@@ -138,7 +291,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Device specific Changes of 10-18-2017 Start:
 
 #### Kernel/Quark/
-* [6ccf0af mac80211: accept key reinstall without changing anything](https://github.com/search?q=mac80211%3A%20accept%20key%20reinstall%20without%20changing%20anything&type=Commits)
 * [b657a40 nl80211: check for the required netlink attributes presence](https://github.com/search?q=nl80211%3A%20check%20for%20the%20required%20netlink%20attributes%20presence&type=Commits)
 
 #### Device specific Changes of 10-18-2017 End.
@@ -151,11 +303,14 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [3abbc03 Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
 * [71cba7f Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
 
+#### packages/apps/Dialer/
+* [66c50a2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
 #### packages/apps/PackageInstaller/
 * [6b20ab2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
 
-#### packages/apps/PhoneCommon/
-* [c6019b5 Squashed support for multilanguage T9 dialer (2/2)](https://github.com/search?q=Squashed%20support%20for%20multilanguage%20T9%20dialer%20%282/2%29&type=Commits)
+#### packages/apps/Settings/
+* [b47a444 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/Resurrection_packages_apps_Settings%20into%20nougat&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 10-18-2017 End.
 
@@ -422,36 +577,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### Resurrection Remix OS - Nougat source changes of 10-17-2017:
 
-#### frameworks/base/
-* [6644c3e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Calendar/
-* [56dc4a8 Calendar: Show week start and end in title for Week view](https://github.com/search?q=Calendar%3A%20Show%20week%20start%20and%20end%20in%20title%20for%20Week%20view&type=Commits)
-
-#### packages/apps/Dialer/
-* [66c50a2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_Dialer%20into%20nougat&type=Commits)
-* [f82367b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/PackageInstaller/
-* [23c095c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionOTA/
-* [16e42ff Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionStats/
-* [1155638 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Settings/
-* [b47a444 Merge branch 'nougat' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/Resurrection_packages_apps_Settings%20into%20nougat&type=Commits)
-* [8bd4040 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### Resurrection Remix OS - Nougat source changes of 10-17-2017 End.
-
-10-16-2017
-====================
-
-#### Resurrection Remix OS - Nougat source changes of 10-16-2017:
-
 #### external/wpa_supplicant_8/
 * [ac78917 Clear PMK length and check for this when deriving PTK](https://github.com/search?q=Clear%20PMK%20length%20and%20check%20for%20this%20when%20deriving%20PTK&type=Commits)
 * [a630551 Add debug prints on PMK configuration in WPA supplicant](https://github.com/search?q=Add%20debug%20prints%20on%20PMK%20configuration%20in%20WPA%20supplicant&type=Commits)
@@ -468,7 +593,28 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [3edbf11 hostapd: Avoid key reinstallation in FT handshake](https://github.com/search?q=hostapd%3A%20Avoid%20key%20reinstallation%20in%20FT%20handshake&type=Commits)
 * [b075172 Set EAPOL-Key Key Length field to 0 for group message 1/2 in RSN](https://github.com/search?q=Set%20EAPOL-Key%20Key%20Length%20field%20to%200%20for%20group%20message%201/2%20in%20RSN&type=Commits)
 
-#### Resurrection Remix OS - Nougat source changes of 10-16-2017 End.
+#### frameworks/base/
+* [6644c3e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [56dc4a8 Calendar: Show week start and end in title for Week view](https://github.com/search?q=Calendar%3A%20Show%20week%20start%20and%20end%20in%20title%20for%20Week%20view&type=Commits)
+
+#### packages/apps/Dialer/
+* [f82367b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [23c095c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [16e42ff Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionStats/
+* [1155638 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [8bd4040 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-17-2017 End.
 
 10-15-2017
 ====================
@@ -542,23 +688,16 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Resurrection Remix OS - Nougat source changes of 10-12-2017:
 
 #### packages/apps/PackageInstaller/
-* [1593371 PackageInstaller: fix install button after merge of October ASB](https://github.com/search?q=PackageInstaller%3A%20fix%20install%20button%20after%20merge%20of%20October%20ASB&type=Commits)
+* [c107e0d packageinstaller: colorengine support improves](https://github.com/search?q=packageinstaller%3A%20colorengine%20support%20improves&type=Commits)
+* [c034561 Revert "packageinstaller: colorengine support"](https://github.com/search?q=Revert%20"packageinstaller%3A%20colorengine%20support"&type=Commits)
 
 #### packages/apps/SetupWizard/
 * [c3b2008 SetupWizard: Set min date to build date](https://github.com/search?q=SetupWizard%3A%20Set%20min%20date%20to%20build%20date&type=Commits)
 
+#### packages/services/Telephony/
+* [744a00e Telephony: Workaround for MWI on Sprint](https://github.com/search?q=Telephony%3A%20Workaround%20for%20MWI%20on%20Sprint&type=Commits)
+
 #### Resurrection Remix OS - Nougat source changes of 10-12-2017 End.
-
-10-11-2017
-====================
-
-#### Resurrection Remix OS - Nougat source changes of 10-11-2017:
-
-#### packages/apps/PackageInstaller/
-* [c107e0d packageinstaller: colorengine support improves](https://github.com/search?q=packageinstaller%3A%20colorengine%20support%20improves&type=Commits)
-* [c034561 Revert "packageinstaller: colorengine support"](https://github.com/search?q=Revert%20"packageinstaller%3A%20colorengine%20support"&type=Commits)
-
-#### Resurrection Remix OS - Nougat source changes of 10-11-2017 End.
 
 10-10-2017
 ====================
@@ -578,6 +717,16 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### Device/Quark/
 * [2cb3971 Quark: sepolicy add dropbox_process for isolated_app](https://github.com/search?q=Quark%3A%20sepolicy%20add%20dropbox_process%20for%20isolated_app&type=Commits)
 
+#### Kernel/Quark/
+* [9ac7276 qcacld-2.0: Avoid extscan bucket spec overread](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20extscan%20bucket%20spec%20overread&type=Commits)
+* [b111895 msm: ADSPRPC: Buffer length truncated while validation](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Buffer%20length%20truncated%20while%20validation&type=Commits)
+* [617434e qcacld-2.0: Add an attribute to represent PNO/EPNO Request ID](https://github.com/search?q=qcacld-2.0%3A%20Add%20an%20attribute%20to%20represent%20PNO/EPNO%20Request%20ID&type=Commits)
+* [7167005 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
+* [115c6a1 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
+* [de43526 qcacld-2.0: Avoid overread when configuring MAC addresses](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20overread%20when%20configuring%20MAC%20addresses&type=Commits)
+* [cdcebef Prevent potential double frees in sg driver](https://github.com/search?q=Prevent%20potential%20double%20frees%20in%20sg%20driver&type=Commits)
+* [c26bc53 qcacld-2.0: Do not copy buffer to user-space if diag read fails](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20copy%20buffer%20to%20user-space%20if%20diag%20read%20fails&type=Commits)
+
 #### Device specific Changes of 10-09-2017 End.
 
 ***
@@ -593,14 +742,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [8ce855b Quark: build libqcomvoiceprocessingdescriptors](https://github.com/search?q=Quark%3A%20build%20libqcomvoiceprocessingdescriptors&type=Commits)
 
 #### Kernel/Quark/
-* [9ac7276 qcacld-2.0: Avoid extscan bucket spec overread](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20extscan%20bucket%20spec%20overread&type=Commits)
-* [b111895 msm: ADSPRPC: Buffer length truncated while validation](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Buffer%20length%20truncated%20while%20validation&type=Commits)
-* [617434e qcacld-2.0: Add an attribute to represent PNO/EPNO Request ID](https://github.com/search?q=qcacld-2.0%3A%20Add%20an%20attribute%20to%20represent%20PNO/EPNO%20Request%20ID&type=Commits)
-* [7167005 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
-* [115c6a1 qcacld-2.0: Avoid buffer overread when parsing PNO commands](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overread%20when%20parsing%20PNO%20commands&type=Commits)
-* [de43526 qcacld-2.0: Avoid overread when configuring MAC addresses](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20overread%20when%20configuring%20MAC%20addresses&type=Commits)
-* [cdcebef Prevent potential double frees in sg driver](https://github.com/search?q=Prevent%20potential%20double%20frees%20in%20sg%20driver&type=Commits)
-* [c26bc53 qcacld-2.0: Do not copy buffer to user-space if diag read fails](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20copy%20buffer%20to%20user-space%20if%20diag%20read%20fails&type=Commits)
 * [6b249c6 leds: led-core: Use last Retain brightness request for blink_brightness](https://github.com/search?q=leds%3A%20led-core%3A%20Use%20last%20Retain%20brightness%20request%20for%20blink_brightness&type=Commits)
 * [306303a leds: led-class: Retain the latest user brightness request](https://github.com/search?q=leds%3A%20led-class%3A%20Retain%20the%20latest%20user%20brightness%20request&type=Commits)
 * [1644991 leds: led-class: don't disable active triggers](https://github.com/search?q=leds%3A%20led-class%3A%20don%27t%20disable%20active%20triggers&type=Commits)
@@ -646,6 +787,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 #### packages/apps/Nfc/
 * [8314ecd Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [9af7345 Revert "DO NOT MERGE Disable overlays while installer is resumed"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed"&type=Commits)
 
 #### packages/apps/Settings/
 * [6bcd94f Settings: Correct german translation for 1 registered fingerprint](https://github.com/search?q=Settings%3A%20Correct%20german%20translation%20for%201%20registered%20fingerprint&type=Commits)
@@ -726,7 +870,6 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [1d4ed9a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
 
 #### packages/apps/PackageInstaller/
-* [9af7345 Revert "DO NOT MERGE Disable overlays while installer is resumed"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed"&type=Commits)
 * [1c3205c packageinstaller: colorengine support](https://github.com/search?q=packageinstaller%3A%20colorengine%20support&type=Commits)
 
 #### packages/apps/Settings/
@@ -789,32 +932,20 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 
 ***
 
-10-04-2017
-====================
-
-#### Resurrection Remix OS - Nougat source changes of 10-04-2017:
+#### Resurrection Remix OS - Nougat source changes of 10-05-2017:
 
 #### android/
 * [516714f manifest: track our own dnsmasq and libmpeg2](https://github.com/search?q=manifest%3A%20track%20our%20own%20dnsmasq%20and%20libmpeg2&type=Commits)
 * 6afec8e cm: Remove unused projects
-
-#### art/
-* [692abb3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_art into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_art%20into%20nougat&type=Commits)
 
 #### build/
 * [cb361ed [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-05%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%201517f3d2da27eae798a3ac765096251914f9b119%29&type=Commits)
 * [9727f4f [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-01%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%2073ab80dec9df8966bf660725dc1a942d9c1f324e%29&type=Commits)
 * [d6b4f42 core: config: Use host bison if requested](https://github.com/search?q=core%3A%20config%3A%20Use%20host%20bison%20if%20requested&type=Commits)
 * [68898f0 Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES](https://github.com/search?q=Fix%20warning%20with%20AAPT2%20and%20LOCAL_STATIC_ANDROID_LIBRARIES&type=Commits)
-* [98be556 [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-05%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%201517f3d2da27eae798a3ac765096251914f9b119%29&type=Commits)
-* [a1987d8 [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-01%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%2073ab80dec9df8966bf660725dc1a942d9c1f324e%29&type=Commits)
-* [55c8668 core: config: Use host bison if requested](https://github.com/search?q=core%3A%20config%3A%20Use%20host%20bison%20if%20requested&type=Commits)
-* [b2c296a Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES](https://github.com/search?q=Fix%20warning%20with%20AAPT2%20and%20LOCAL_STATIC_ANDROID_LIBRARIES&type=Commits)
-* [2496d51 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into t](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_build%20into%20t&type=Commits)
 
 #### frameworks/av/
 * [f9bce6f Merge remote-tracking branch 'lineage/cm-14.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27lineage/cm-14.1%27%20into%20HEAD&type=Commits)
-* [ff4c438 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
 
 #### frameworks/base/
 * [04405fc Fix security hole in GateKeeperResponse.](https://github.com/search?q=Fix%20security%20hole%20in%20GateKeeperResponse.&type=Commits)
@@ -847,6 +978,28 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 * [f62b049 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [25b490d Disabling the activate button when paused](https://github.com/search?q=Disabling%20the%20activate%20button%20when%20paused&type=Commits)
 * [a2ff665 AppOpsState: Hide undeclared Privacy Guard OPs](https://github.com/search?q=AppOpsState%3A%20Hide%20undeclared%20Privacy%20Guard%20OPs&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-05-2017 End.
+
+10-04-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 10-04-2017:
+
+#### art/
+* [692abb3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_art into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_art%20into%20nougat&type=Commits)
+
+#### build/
+* [98be556 [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-05%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%201517f3d2da27eae798a3ac765096251914f9b119%29&type=Commits)
+* [a1987d8 [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202017-10-01%20in%20nyc-dev%20Bug%3A64896113%20%28cherry%20picked%20from%20commit%2073ab80dec9df8966bf660725dc1a942d9c1f324e%29&type=Commits)
+* [55c8668 core: config: Use host bison if requested](https://github.com/search?q=core%3A%20config%3A%20Use%20host%20bison%20if%20requested&type=Commits)
+* [b2c296a Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES](https://github.com/search?q=Fix%20warning%20with%20AAPT2%20and%20LOCAL_STATIC_ANDROID_LIBRARIES&type=Commits)
+* [2496d51 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_build into t](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_build%20into%20t&type=Commits)
+
+#### frameworks/av/
+* [ff4c438 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
 * [7af2889 Disabling the activate button when paused](https://github.com/search?q=Disabling%20the%20activate%20button%20when%20paused&type=Commits)
 
 #### system/core/
@@ -963,40 +1116,17 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### frameworks/base/
 * [e812d26 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### packages/apps/DUI/
-* [665999e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Dialer/
-* [c9ff458 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/OmniSwitch/
-* [2dcb8e4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionOTA/
-* [b1c5e04 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionStats/
-* [a871abb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Settings/
-* [4f80840 About: fix Andres email](https://github.com/search?q=About%3A%20fix%20Andres%20email&type=Commits)
-* [1ab3169 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/services/OmniJaws/
-* [6d4e962 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### Resurrection Remix OS - Nougat source changes of 10-01-2017 End.
-
-09-30-2017
-====================
-
-#### Resurrection Remix OS - Nougat source changes of 09-30-2017:
-
 #### hardware/qcom/fm/
 * [2d2b4b0 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
 
 #### packages/apps/AudioFX/
 * [1cc2af6 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### packages/apps/DUI/
+* [665999e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [c9ff458 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Eleven/
 * [d9cbd6b Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
@@ -1007,12 +1137,21 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/Exchange/
 * [771eb3a Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
 
+#### packages/apps/OmniSwitch/
+* [2dcb8e4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/apps/Profiles/
 * [b41416f Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
 
+#### packages/apps/ResurrectionOTA/
+* [b1c5e04 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionStats/
+* [a871abb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/apps/Settings/
-* [7db10c8 [1/2]Settings: Configurations add a option to change fab button size](https://github.com/search?q=[1/2]Settings%3A%20Configurations%20add%20a%20option%20to%20change%20fab%20button%20size&type=Commits)
-* [e9caf86 Settings: correct fab button RTL position](https://github.com/search?q=Settings%3A%20correct%20fab%20button%20RTL%20position&type=Commits)
+* [4f80840 About: fix Andres email](https://github.com/search?q=About%3A%20fix%20Andres%20email&type=Commits)
+* [1ab3169 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/SetupWizard/
 * [712fb3a Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
@@ -1029,6 +1168,9 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/apps/UnifiedEmail/
 * [b1e649d Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
 
+#### packages/inputmethods/LatinIME/
+* [04b2b3e Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
 #### packages/providers/DataUsageProvider/
 * [6e3ea47 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
 
@@ -1038,8 +1180,37 @@ Resurrection Remix OS - Nougat source and Quark Changelog:
 #### packages/resources/devicesettings/
 * [6c579a5 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
 
+#### packages/services/OmniJaws/
+* [6d4e962 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### vendor/qcom/opensource/bluetooth/
 * [cd69373 Remove obsolete values-be translations](https://github.com/search?q=Remove%20obsolete%20values-be%20translations&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 10-01-2017 End.
+
+09-30-2017
+====================
+
+#### Device specific Changes of 09-30-2017 Start:
+
+#### Device/Quark/
+* [f469964 Quark: enable OLED BurnIn protection](https://github.com/search?q=Quark%3A%20enable%20OLED%20BurnIn%20protection&type=Commits)
+
+#### Device specific Changes of 09-30-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 09-30-2017:
+
+#### external/bison/
+* [3661b8c lib: vasnprintf: Fix illegal instruction](https://github.com/search?q=lib%3A%20vasnprintf%3A%20Fix%20illegal%20instruction&type=Commits)
+
+#### packages/apps/Settings/
+* [7db10c8 [1/2]Settings: Configurations add a option to change fab button size](https://github.com/search?q=[1/2]Settings%3A%20Configurations%20add%20a%20option%20to%20change%20fab%20button%20size&type=Commits)
+* [e9caf86 Settings: correct fab button RTL position](https://github.com/search?q=Settings%3A%20correct%20fab%20button%20RTL%20position&type=Commits)
+
+#### vendor/cmsdk/
+* [9cb1e5d color engine: correct icon color](https://github.com/search?q=color%20engine%3A%20correct%20icon%20color&type=Commits)
 
 #### Resurrection Remix OS - Nougat source changes of 09-30-2017 End.
 
