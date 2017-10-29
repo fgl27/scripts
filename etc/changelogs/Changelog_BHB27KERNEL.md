@@ -3,6 +3,41 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+10-29-2017
+====================
+
+* [aa34b48 BHB27-Kernel-V76 final](https://github.com/bhb27/BHB27Kernel/search?q=BHB27-Kernel-V76%20final&type=Commits)
+
+***
+
+10-28-2017
+====================
+
+* [cc42f89 bcl: don't mitigate freq when disable](https://github.com/bhb27/BHB27Kernel/search?q=bcl%3A%20don%27t%20mitigate%20freq%20when%20disable&type=Commits)
+
+***
+
+10-26-2017
+====================
+
+* [bf0c9d7 kernel v 7.6_beta](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20v%207.6_beta&type=Commits)
+* [f7b8300 build: pack lights.apq8084](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20pack%20lights.apq8084&type=Commits)
+
+***
+
+10-25-2017
+====================
+
+* [e823eb9 binder: revert 10/12 changes](https://github.com/bhb27/BHB27Kernel/search?q=binder%3A%20revert%2010/12%20changes&type=Commits)
+* [55ec753 Led-class: add a separeted brightness path for blink 2/2](https://github.com/bhb27/BHB27Kernel/search?q=Led-class%3A%20add%20a%20separeted%20brightness%20path%20for%20blink%202/2&type=Commits)
+* [046fd1a Revert "leds: led-core: Use last Retain brightness request for blink_brightness"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"leds%3A%20led-core%3A%20Use%20last%20Retain%20brightness%20request%20for%20blink_brightness"&type=Commits)
+* [9087821 bhb27kernel v7.6](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20v7.6&type=Commits)
+* [d22c68d seccomp: always propagate NO_NEW_PRIVS on tsync](https://github.com/bhb27/BHB27Kernel/search?q=seccomp%3A%20always%20propagate%20NO_NEW_PRIVS%20on%20tsync&type=Commits)
+* [c2417d3 seccomp,x86,arm,mips,s390: Remove nr parameter from secure_computing](https://github.com/bhb27/BHB27Kernel/search?q=seccomp,x86,arm,mips,s390%3A%20Remove%20nr%20parameter%20from%20secure_computing&type=Commits)
+* [e2ff211 ARM: dts: msm: disable support of 50MHz for i2c for apq8084](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%20msm%3A%20disable%20support%20of%2050MHz%20for%20i2c%20for%20apq8084&type=Commits)
+
+***
+
 10-24-2017
 ====================
 
