@@ -3,13 +3,160 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+10-29-2017
+====================
+
+#### CRDroid Android Nougat source changes of 10-29-2017:
+
+#### frameworks/base/
+* [31e0275 TileAdapter: Fix colordrawable in TileItemDecoration](https://github.com/search?q=TileAdapter%3A%20Fix%20colordrawable%20in%20TileItemDecoration&type=Commits)
+* [8151689 FWB:Single tap tile add switch [1/2]](https://github.com/search?q=FWB%3ASingle%20tap%20tile%20add%20switch%20[1/2]&type=Commits)
+* [5358f0d Allow user to add/remove QS with one click](https://github.com/search?q=Allow%20user%20to%20add/remove%20QS%20with%20one%20click&type=Commits)
+* [482748c base: SystemUI add landscape qs columns config](https://github.com/search?q=base%3A%20SystemUI%20add%20landscape%20qs%20columns%20config&type=Commits)
+
+#### packages/apps/Settings/
+* [7200003 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [da90cb9 Merge pull request #108 from Junpeng17/patch-2](https://github.com/search?q=Merge%20pull%20request%20%23108%20from%20Junpeng17/patch-2&type=Commits)
+* [4cb0ea5 Update more Chinese translate](https://github.com/search?q=Update%20more%20Chinese%20translate&type=Commits)
+* [5426e0e crdroid: Single tap tile add switch [2/2]](https://github.com/search?q=crdroid%3A%20Single%20tap%20tile%20add%20switch%20[2/2]&type=Commits)
+* [2b90dee crdroid: add landscape qs columns config](https://github.com/search?q=crdroid%3A%20add%20landscape%20qs%20columns%20config&type=Commits)
+* [591a590 Merge pull request #107 from charansai612/7.1](https://github.com/search?q=Merge%20pull%20request%20%23107%20from%20charansai612/7.1&type=Commits)
+* [8c22ac5 Update crdroid_strings.xml](https://github.com/search?q=Update%20crdroid_strings.xml&type=Commits)
+* [36dc847 corrected <string> tag](https://github.com/search?q=corrected%20<string>%20tag&type=Commits)
+* [8976eb8 Merge pull request #106 from Junpeng17/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23106%20from%20Junpeng17/patch-1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-29-2017 End.
+
+10-28-2017
+====================
+
+#### CRDroid Android Nougat source changes of 10-28-2017:
+
+#### packages/apps/crDroidSettings/
+* [7940225 Update crdroid_strings.xml](https://github.com/search?q=Update%20crdroid_strings.xml&type=Commits)
+* [37ec61e Add more Chinese translate](https://github.com/search?q=Add%20more%20Chinese%20translate&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [3d1c62a Update devices.xml](https://github.com/search?q=Update%20devices.xml&type=Commits)
+* [c56ef9f update herolte & hero2lte to build crDroidAndroid-7.1.2-20171027 also bump to crDroid 3.8.2](https://github.com/search?q=update%20herolte%20&%20hero2lte%20to%20build%20crDroidAndroid-7.1.2-20171027%20also%20bump%20to%20crDroid%203.8.2&type=Commits)
+* [24995ee Update changelog_kuntao.txt](https://github.com/search?q=Update%20changelog_kuntao.txt&type=Commits)
+* [e66a51c Update devices.xml](https://github.com/search?q=Update%20devices.xml&type=Commits)
+* [901ffb6 Update kuntao changelog.txt](https://github.com/search?q=Update%20kuntao%20changelog.txt&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-28-2017 End.
+
+10-27-2017
+====================
+
+#### Device specific Changes of 10-27-2017 Start:
+
+#### Kernel/Quark/
+* [60696d0 bcl: don't mitigate freq when disable](https://github.com/search?q=bcl%3A%20don%27t%20mitigate%20freq%20when%20disable&type=Commits)
+* [27f5a83 power: bcl: Support selective core frequency mitigation](https://github.com/search?q=power%3A%20bcl%3A%20Support%20selective%20core%20frequency%20mitigation&type=Commits)
+* [453b7a5 power: battery_current_limit: Ensure 1 sec delay before queuing work](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Ensure%201%20sec%20delay%20before%20queuing%20work&type=Commits)
+* [291528c power: battery_current_limit: Remove hotplug control completely](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely&type=Commits)
+
+#### Device specific Changes of 10-27-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-27-2017:
+
+#### vendor/crDroidOTA-devices/
+* [e50c8e2 Update all hokie devices](https://github.com/search?q=Update%20all%20hokie%20devices&type=Commits)
+* [e236265 kipper v3.8.2](https://github.com/search?q=kipper%20v3.8.2&type=Commits)
+* [235d784 3.8.2](https://github.com/search?q=3.8.2&type=Commits)
+* [50fcf93 Update to 3.8.2](https://github.com/search?q=Update%20to%203.8.2&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-27-2017 End.
+
+10-26-2017
+====================
+
+#### Device specific Changes of 10-26-2017 Start:
+
+#### Device/Quark/
+* [9dccb00 Quark:  Replace BTM_WBS_INCLUDED with BLUETOOTH_QTI_SW](https://github.com/search?q=Quark%3A%20%20Replace%20BTM_WBS_INCLUDED%20with%20BLUETOOTH_QTI_SW&type=Commits)
+
+#### Device specific Changes of 10-26-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-26-2017:
+
+#### android/
+* [c6da61a manifest: Dont track libphonenumber](https://github.com/search?q=manifest%3A%20Dont%20track%20libphonenumber&type=Commits)
+* [3293fb0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android%20into%207.1&type=Commits)
+
+#### vendor/cm/
+* [821e139 crDroid v3.8.2](https://github.com/search?q=crDroid%20v3.8.2&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [6029047 Update changelog_kuntao.txt](https://github.com/search?q=Update%20changelog_kuntao.txt&type=Commits)
+* [2890153 update kuntao to v3.8.2](https://github.com/search?q=update%20kuntao%20to%20v3.8.2&type=Commits)
+* [816eea5 Update kuntao v3.8.2 changelog](https://github.com/search?q=Update%20kuntao%20v3.8.2%20changelog&type=Commits)
+* [466de29 mido update to 3.8.2](https://github.com/search?q=mido%20update%20to%203.8.2&type=Commits)
+* [5e27ec2 Fix ChangeLog for Le1s](https://github.com/search?q=Fix%20ChangeLog%20for%20Le1s&type=Commits)
+* [3ad7ff2 Fix Changelog not working for le1s](https://github.com/search?q=Fix%20Changelog%20not%20working%20for%20le1s&type=Commits)
+* [099758e added Le1s!](https://github.com/search?q=added%20Le1s!&type=Commits)
+* [72a5d86 Rename Changelog_x3.txt to changelog_x3.txt](https://github.com/search?q=Rename%20Changelog_x3.txt%20to%20changelog_x3.txt&type=Commits)
+* [1efc9e7 Add Le1s changelog](https://github.com/search?q=Add%20Le1s%20changelog&type=Commits)
+* [69404e5 update mido to 3.8](https://github.com/search?q=update%20mido%20to%203.8&type=Commits)
+* [7856e8a Added Android One 2nd Gen. (seed)](https://github.com/search?q=Added%20Android%20One%202nd%20Gen.%20%28seed%29&type=Commits)
+* [63a818a Add changelog of Android One 2nd Gen. (seed)](https://github.com/search?q=Add%20changelog%20of%20Android%20One%202nd%20Gen.%20%28seed%29&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-26-2017 End.
+
+10-25-2017
+====================
+
+#### Device specific Changes of 10-25-2017 Start:
+
+#### Device/Quark/
+* [3110049 Quark: update isolated_app](https://github.com/search?q=Quark%3A%20update%20isolated_app&type=Commits)
+* [bcb814e Quark: liblight add a separeted brightness path for blink 1/2](https://github.com/search?q=Quark%3A%20liblight%20add%20a%20separeted%20brightness%20path%20for%20blink%201/2&type=Commits)
+* [462ecad Quark: update bdroid_buildcf](https://github.com/search?q=Quark%3A%20update%20bdroid_buildcf&type=Commits)
+
+#### Kernel/Quark/
+* [bf0b0ff binder: revert 10/12 changes](https://github.com/search?q=binder%3A%20revert%2010/12%20changes&type=Commits)
+* [5c3aeb9 seccomp: always propagate NO_NEW_PRIVS on tsync](https://github.com/search?q=seccomp%3A%20always%20propagate%20NO_NEW_PRIVS%20on%20tsync&type=Commits)
+* [854e2e6 seccomp,x86,arm,mips,s390: Remove nr parameter from secure_computing](https://github.com/search?q=seccomp,x86,arm,mips,s390%3A%20Remove%20nr%20parameter%20from%20secure_computing&type=Commits)
+* [c6c81f6 ARM: dts: msm: disable support of 50MHz for i2c for apq8084](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20disable%20support%20of%2050MHz%20for%20i2c%20for%20apq8084&type=Commits)
+* [b15cb57 Led-class: add a separeted brightness path for blink 2/2](https://github.com/search?q=Led-class%3A%20add%20a%20separeted%20brightness%20path%20for%20blink%202/2&type=Commits)
+* [15b88a9 Revert "leds: led-core: Use last Retain brightness request for blink_brightness"](https://github.com/search?q=Revert%20"leds%3A%20led-core%3A%20Use%20last%20Retain%20brightness%20request%20for%20blink_brightness"&type=Commits)
+
+#### Vendor/Quark/
+* [430026c Quark: sed patch camera.apq8084](https://github.com/search?q=Quark%3A%20sed%20patch%20camera.apq8084&type=Commits)
+
+#### Device specific Changes of 10-25-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-25-2017:
+
+#### frameworks/base/
+* [5918f65 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [9425bbf fixed Preference tag](https://github.com/search?q=fixed%20Preference%20tag&type=Commits)
+* [92234fd Merge pull request #104 from arghyac35/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23104%20from%20arghyac35/patch-1&type=Commits)
+* [4e67517 Merge pull request #105 from arghyac35/patch-2](https://github.com/search?q=Merge%20pull%20request%20%23105%20from%20arghyac35/patch-2&type=Commits)
+* [4e33d51 Add Maintainer for Lenovo P2](https://github.com/search?q=Add%20Maintainer%20for%20Lenovo%20P2&type=Commits)
+* [cc19a3d Add device for  Lenovo P2](https://github.com/search?q=Add%20device%20for%20%20Lenovo%20P2&type=Commits)
+* [00acc5f Merge pull request #103 from FuryLions/7.1](https://github.com/search?q=Merge%20pull%20request%20%23103%20from%20FuryLions/7.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [f0939c7 Added device Lenovo P2(kuntao)](https://github.com/search?q=Added%20device%20Lenovo%20P2%28kuntao%29&type=Commits)
+* [d101c09 Add changelog of Lenovo P2(kuntao) 20171025 build.](https://github.com/search?q=Add%20changelog%20of%20Lenovo%20P2%28kuntao%29%2020171025%20build.&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-25-2017 End.
+
 10-24-2017
 ====================
 
 #### Device specific Changes of 10-24-2017 Start:
-
-#### Device/Quark/
-* [264db69 Quark: update bdroid_buildcf](https://github.com/search?q=Quark%3A%20update%20bdroid_buildcf&type=Commits)
 
 #### Kernel/Quark/
 * [9976df9 ALSA: seq: Fix use-after-free at creating a port](https://github.com/search?q=ALSA%3A%20seq%3A%20Fix%20use-after-free%20at%20creating%20a%20port&type=Commits)
@@ -20,6 +167,16 @@ CRDroid Android Nougat source and Quark Changelog:
 * [6e19916 Quark: update KA](https://github.com/search?q=Quark%3A%20update%20KA&type=Commits)
 
 #### Device specific Changes of 10-24-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-24-2017:
+
+#### packages/apps/crDroidSettings/
+* [c862413 Add Android One 2nd Gen (seed)](https://github.com/search?q=Add%20Android%20One%202nd%20Gen%20%28seed%29&type=Commits)
+* [654b59c Add Android One 2. Gen (seed)](https://github.com/search?q=Add%20Android%20One%202.%20Gen%20%28seed%29&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-24-2017 End.
 
 ***
 
