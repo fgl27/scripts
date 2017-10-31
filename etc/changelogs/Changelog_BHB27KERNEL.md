@@ -6,6 +6,8 @@ BHB27KERNEL source Changelog:
 10-31-2017
 ====================
 
+* [b42360d bhb27kernel Version - V7.7.1](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20Version%20-%20V7.7.1&type=Commits)
+* [9b33251 drivers/power/wakeup wakealock print active deactive sources](https://github.com/bhb27/BHB27Kernel/search?q=drivers/power/wakeup%20wakealock%20print%20active%20deactive%20sources&type=Commits)
 * [7645552 drivers/power/wakeup add missing wakeup source to wakeup check](https://github.com/bhb27/BHB27Kernel/search?q=drivers/power/wakeup%20add%20missing%20wakeup%20source%20to%20wakeup%20check&type=Commits)
 * [dd877b1 bhb27kernel Version - V7.7 final](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20Version%20-%20V7.7%20final&type=Commits)
 * [8515f6c fs/esdfs: upate vfs_readdir to iterate_dir](https://github.com/bhb27/BHB27Kernel/search?q=fs/esdfs%3A%20upate%20vfs_readdir%20to%20iterate_dir&type=Commits)
