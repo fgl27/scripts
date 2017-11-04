@@ -3,6 +3,40 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+11-04-2017
+====================
+
+* [d152365 Leds-class: set_brightness queue work on HIGHPRI UNBOUND MEM_RECLAIM](https://github.com/bhb27/BHB27Kernel/search?q=Leds-class%3A%20set_brightness%20queue%20work%20on%20HIGHPRI%20UNBOUND%20MEM_RECLAIM&type=Commits)
+
+***
+
+11-03-2017
+====================
+
+* [bce646d build: update zram and lmk values](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20update%20zram%20and%20lmk%20values&type=Commits)
+* [f677fd5 Revert "lmk: port lmkcount from Samsung source"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"lmk%3A%20port%20lmkcount%20from%20Samsung%20source"&type=Commits)
+
+***
+
+11-02-2017
+====================
+
+* [122e7fa BHB27-Kernel-V7.8](https://github.com/bhb27/BHB27Kernel/search?q=BHB27-Kernel-V7.8&type=Commits)
+* [0f997af build: tune lmk](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20tune%20lmk&type=Commits)
+
+***
+
+11-01-2017
+====================
+
+* [a230c45 drivers/power/wakeup: add custom wakelock path](https://github.com/bhb27/BHB27Kernel/search?q=drivers/power/wakeup%3A%20add%20custom%20wakelock%20path&type=Commits)
+* [7e03adf drivers/power/wakeup: add a bool to enable print of wakelock](https://github.com/bhb27/BHB27Kernel/search?q=drivers/power/wakeup%3A%20add%20a%20bool%20to%20enable%20print%20of%20wakelock&type=Commits)
+* [2187a4a bhb27kernel Version - V7.7.1](https://github.com/bhb27/BHB27Kernel/search?q=bhb27kernel%20Version%20-%20V7.7.1&type=Commits)
+* [1b3df77 drivers/power/wakeup wakelock print active/deactive sources](https://github.com/bhb27/BHB27Kernel/search?q=drivers/power/wakeup%20wakelock%20print%20active/deactive%20sources&type=Commits)
+* [24c65c9 drivers/power/wakeup add missing wakeup source to wakeup check](https://github.com/bhb27/BHB27Kernel/search?q=drivers/power/wakeup%20add%20missing%20wakeup%20source%20to%20wakeup%20check&type=Commits)
+
+***
+
 10-31-2017
 ====================
 
