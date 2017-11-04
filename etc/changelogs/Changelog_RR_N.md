@@ -3,6 +3,102 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+11-04-2017
+====================
+
+#### Device specific Changes of 11-04-2017 Start:
+
+#### Kernel/Quark/
+* [e9af06b Leds-class: set_brightness queue work on HIGHPRI UNBOUND MEM_RECLAIM](https://github.com/search?q=Leds-class%3A%20set_brightness%20queue%20work%20on%20HIGHPRI%20UNBOUND%20MEM_RECLAIM&type=Commits)
+
+#### Vendor/Quark/
+* [801caf2 Quark: up KA Quark.54](https://github.com/search?q=Quark%3A%20up%20KA%20Quark.54&type=Commits)
+
+#### Device specific Changes of 11-04-2017 End.
+
+***
+
+11-03-2017
+====================
+
+#### Device specific Changes of 11-03-2017 Start:
+
+#### Device/Quark/
+* [38f1b95 Quark: Update proprietary-files.txt](https://github.com/search?q=Quark%3A%20Update%20proprietary-files.txt&type=Commits)
+* [01c9e9d Quark: tune lmk](https://github.com/search?q=Quark%3A%20tune%20lmk&type=Commits)
+
+#### Device specific Changes of 11-03-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 11-03-2017:
+
+#### packages/apps/Recorder/
+* [47453e0 Recorder: update UI](https://github.com/search?q=Recorder%3A%20update%20UI&type=Commits)
+* [ddb729b Recorder: start overlay service as not sticky](https://github.com/search?q=Recorder%3A%20start%20overlay%20service%20as%20not%20sticky&type=Commits)
+* [f097848 Recorder: add constraint-layout aar lib for aosp build env](https://github.com/search?q=Recorder%3A%20add%20constraint-layout%20aar%20lib%20for%20aosp%20build%20env&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 11-03-2017 End.
+
+11-02-2017
+====================
+
+#### Device specific Changes of 11-02-2017 Start:
+
+#### Vendor/Quark/
+* [ba0a91a Quark: up TurboToast 1.1.5](https://github.com/search?q=Quark%3A%20up%20TurboToast%201.1.5&type=Commits)
+
+#### Device specific Changes of 11-02-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 11-02-2017:
+
+#### frameworks/base/
+* [d18b81a base: systemui fix FATAL EXCEPTION of QSTileHost/LocaleTile](https://github.com/search?q=base%3A%20systemui%20fix%20FATAL%20EXCEPTION%20of%20QSTileHost/LocaleTile&type=Commits)
+* [5d9e1af base: Show turbo charging on lockscreen](https://github.com/search?q=base%3A%20Show%20turbo%20charging%20on%20lockscreen&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 11-02-2017 End.
+
+11-01-2017
+====================
+
+#### Device specific Changes of 11-01-2017 Start:
+
+#### Kernel/Quark/
+* [214ec53 drivers/power/wakeup: add custom wakelock path](https://github.com/search?q=drivers/power/wakeup%3A%20add%20custom%20wakelock%20path&type=Commits)
+* [fa64ee6 drivers/power/wakeup: add a bool to enable print of wakelock](https://github.com/search?q=drivers/power/wakeup%3A%20add%20a%20bool%20to%20enable%20print%20of%20wakelock&type=Commits)
+* [095e5f0 drivers/power/wakeup wakelock print active/deactive sources](https://github.com/search?q=drivers/power/wakeup%20wakelock%20print%20active/deactive%20sources&type=Commits)
+
+#### Device specific Changes of 11-01-2017 End.
+
+***
+
+10-31-2017
+====================
+
+#### Device specific Changes of 10-31-2017 Start:
+
+#### Kernel/Quark/
+* [77151c8 drivers/power/wakeup add missing wakeup source to wakeup check](https://github.com/search?q=drivers/power/wakeup%20add%20missing%20wakeup%20source%20to%20wakeup%20check&type=Commits)
+* [b706aeb fs/esdfs: upate vfs_readdir to iterate_dir](https://github.com/search?q=fs/esdfs%3A%20upate%20vfs_readdir%20to%20iterate_dir&type=Commits)
+
+#### Device specific Changes of 10-31-2017 End.
+
+***
+
+10-30-2017
+====================
+
+#### Device specific Changes of 10-30-2017 Start:
+
+#### Kernel/Quark/
+* [802b13e tags: Fix DEFINE_PER_CPU expansions](https://github.com/search?q=tags%3A%20Fix%20DEFINE_PER_CPU%20expansions&type=Commits)
+
+#### Device specific Changes of 10-30-2017 End.
+
+***
+
 10-28-2017
 ====================
 
