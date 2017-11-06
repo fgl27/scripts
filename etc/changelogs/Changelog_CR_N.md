@@ -3,21 +3,213 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+11-06-2017
+====================
+
+#### Device specific Changes of 11-06-2017 Start:
+
+#### Device/Quark/
+* [42affed Quark: cmaction theme crdroid](https://github.com/search?q=Quark%3A%20cmaction%20theme%20crdroid&type=Commits)
+
+#### Device specific Changes of 11-06-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 11-06-2017:
+
+#### packages/apps/crDroidSettings/
+* [94f804c Merge pull request #117 from Junpeng17/patch-6](https://github.com/search?q=Merge%20pull%20request%20%23117%20from%20Junpeng17/patch-6&type=Commits)
+* [3704077 Update Chinese translate](https://github.com/search?q=Update%20Chinese%20translate&type=Commits)
+
+#### CRDroid Android Nougat source changes of 11-06-2017 End.
+
+11-05-2017
+====================
+
+#### CRDroid Android Nougat source changes of 11-05-2017:
+
+#### vendor/crDroidOTA-devices/
+* [5fa9abe land: Update For New Build](https://github.com/search?q=land%3A%20Update%20For%20New%20Build&type=Commits)
+* [faa843e OTA kuntao update](https://github.com/search?q=OTA%20kuntao%20update&type=Commits)
+* [885d12d Update kuntao changelog.txt](https://github.com/search?q=Update%20kuntao%20changelog.txt&type=Commits)
+
+#### CRDroid Android Nougat source changes of 11-05-2017 End.
+
+11-04-2017
+====================
+
+#### Device specific Changes of 11-04-2017 Start:
+
+#### Kernel/Quark/
+* [e9af06b Leds-class: set_brightness queue work on HIGHPRI UNBOUND MEM_RECLAIM](https://github.com/search?q=Leds-class%3A%20set_brightness%20queue%20work%20on%20HIGHPRI%20UNBOUND%20MEM_RECLAIM&type=Commits)
+
+#### Vendor/Quark/
+* [801caf2 Quark: up KA Quark.54](https://github.com/search?q=Quark%3A%20up%20KA%20Quark.54&type=Commits)
+
+#### Device specific Changes of 11-04-2017 End.
+
+***
+
+11-03-2017
+====================
+
+#### Device specific Changes of 11-03-2017 Start:
+
+#### Device/Quark/
+* [38f1b95 Quark: Update proprietary-files.txt](https://github.com/search?q=Quark%3A%20Update%20proprietary-files.txt&type=Commits)
+* [01c9e9d Quark: tune lmk](https://github.com/search?q=Quark%3A%20tune%20lmk&type=Commits)
+
+#### Device specific Changes of 11-03-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 11-03-2017:
+
+#### frameworks/base/
+* [206291e Fix for wakelock being held during bootup and idle scenario.](https://github.com/search?q=Fix%20for%20wakelock%20being%20held%20during%20bootup%20and%20idle%20scenario.&type=Commits)
+
+#### packages/apps/Recorder/
+* [47453e0 Recorder: update UI](https://github.com/search?q=Recorder%3A%20update%20UI&type=Commits)
+* [ddb729b Recorder: start overlay service as not sticky](https://github.com/search?q=Recorder%3A%20start%20overlay%20service%20as%20not%20sticky&type=Commits)
+* [f097848 Recorder: add constraint-layout aar lib for aosp build env](https://github.com/search?q=Recorder%3A%20add%20constraint-layout%20aar%20lib%20for%20aosp%20build%20env&type=Commits)
+
+#### CRDroid Android Nougat source changes of 11-03-2017 End.
+
+11-02-2017
+====================
+
+#### Device specific Changes of 11-02-2017 Start:
+
+#### Vendor/Quark/
+* [ba0a91a Quark: up TurboToast 1.1.5](https://github.com/search?q=Quark%3A%20up%20TurboToast%201.1.5&type=Commits)
+
+#### Device specific Changes of 11-02-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 11-02-2017:
+
+#### packages/apps/Settings/
+* [0f4e897 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+* [3737c8c Fix wrong format in AndroidManifest.xml](https://github.com/search?q=Fix%20wrong%20format%20in%20AndroidManifest.xml&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [c0cf213 Merge pull request #116 from Junpeng17/patch-5](https://github.com/search?q=Merge%20pull%20request%20%23116%20from%20Junpeng17/patch-5&type=Commits)
+* [2bfeb81 Update Chinese translate](https://github.com/search?q=Update%20Chinese%20translate&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [7563fa2 OTA Support for Redmi 3S](https://github.com/search?q=OTA%20Support%20for%20Redmi%203S&type=Commits)
+* [584a2d0 Add changelog for land](https://github.com/search?q=Add%20changelog%20for%20land&type=Commits)
+
+#### CRDroid Android Nougat source changes of 11-02-2017 End.
+
+11-01-2017
+====================
+
+#### Device specific Changes of 11-01-2017 Start:
+
+#### Kernel/Quark/
+* [214ec53 drivers/power/wakeup: add custom wakelock path](https://github.com/search?q=drivers/power/wakeup%3A%20add%20custom%20wakelock%20path&type=Commits)
+* [fa64ee6 drivers/power/wakeup: add a bool to enable print of wakelock](https://github.com/search?q=drivers/power/wakeup%3A%20add%20a%20bool%20to%20enable%20print%20of%20wakelock&type=Commits)
+* [095e5f0 drivers/power/wakeup wakelock print active/deactive sources](https://github.com/search?q=drivers/power/wakeup%20wakelock%20print%20active/deactive%20sources&type=Commits)
+* [77151c8 drivers/power/wakeup add missing wakeup source to wakeup check](https://github.com/search?q=drivers/power/wakeup%20add%20missing%20wakeup%20source%20to%20wakeup%20check&type=Commits)
+
+#### Device specific Changes of 11-01-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 11-01-2017:
+
+#### frameworks/base/
+* [dde1710 Add toggle to disable HW keys [1/2]](https://github.com/search?q=Add%20toggle%20to%20disable%20HW%20keys%20[1/2]&type=Commits)
+* [7c6dfbb Remove HW dependency on Navbar visibility [2]](https://github.com/search?q=Remove%20HW%20dependency%20on%20Navbar%20visibility%20[2]&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [5e6745f Merge pull request #115 from dasshubham762/master](https://github.com/search?q=Merge%20pull%20request%20%23115%20from%20dasshubham762/master&type=Commits)
+* [df40364 Add Device Redmi 3S](https://github.com/search?q=Add%20Device%20Redmi%203S&type=Commits)
+* [3f76b8d Add toggle to disable HW keys [2/2]](https://github.com/search?q=Add%20toggle%20to%20disable%20HW%20keys%20[2/2]&type=Commits)
+* [7ec33b1 crdroid: Fix chinese translations](https://github.com/search?q=crdroid%3A%20Fix%20chinese%20translations&type=Commits)
+
+#### CRDroid Android Nougat source changes of 11-01-2017 End.
+
+10-31-2017
+====================
+
+#### Device specific Changes of 10-31-2017 Start:
+
+#### Kernel/Quark/
+* [b706aeb fs/esdfs: upate vfs_readdir to iterate_dir](https://github.com/search?q=fs/esdfs%3A%20upate%20vfs_readdir%20to%20iterate_dir&type=Commits)
+
+#### Device specific Changes of 10-31-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-31-2017:
+
+#### frameworks/base/
+* [5191661 Revert "sqlite query perf: better window selection in common case"](https://github.com/search?q=Revert%20"sqlite%20query%20perf%3A%20better%20window%20selection%20in%20common%20case"&type=Commits)
+* [cb452c1 Revert "sqlite query perf: try to reuse in-flight statements"](https://github.com/search?q=Revert%20"sqlite%20query%20perf%3A%20try%20to%20reuse%20in-flight%20statements"&type=Commits)
+* [7cd0546 Revert "sqlite query perf: clean up in-flight statements on cursor close"](https://github.com/search?q=Revert%20"sqlite%20query%20perf%3A%20clean%20up%20in-flight%20statements%20on%20cursor%20close"&type=Commits)
+* [bcc9be9 Revert "sqlite query perf: try to avoid getCount()"](https://github.com/search?q=Revert%20"sqlite%20query%20perf%3A%20try%20to%20avoid%20getCount%28%29"&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [d87f9aa crdroid: Remove inactive navbar feature properly](https://github.com/search?q=crdroid%3A%20Remove%20inactive%20navbar%20feature%20properly&type=Commits)
+* [d59b17f PagerSlidingTab: Clean up color](https://github.com/search?q=PagerSlidingTab%3A%20Clean%20up%20color&type=Commits)
+* [6115559 Merge pull request #112 from Junpeng17/patch-3](https://github.com/search?q=Merge%20pull%20request%20%23112%20from%20Junpeng17/patch-3&type=Commits)
+* [9c12406 Update Chinese translate](https://github.com/search?q=Update%20Chinese%20translate&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-31-2017 End.
+
+10-30-2017
+====================
+
+#### Device specific Changes of 10-30-2017 Start:
+
+#### Kernel/Quark/
+* [802b13e tags: Fix DEFINE_PER_CPU expansions](https://github.com/search?q=tags%3A%20Fix%20DEFINE_PER_CPU%20expansions&type=Commits)
+
+#### Device specific Changes of 10-30-2017 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 10-30-2017:
+
+#### packages/apps/crDroidSettings/
+* [a0bcf2b Merge pull request #109 from beroid/7.1](https://github.com/search?q=Merge%20pull%20request%20%23109%20from%20beroid/7.1&type=Commits)
+* [0b4b5ea crdroid: Update RU translations](https://github.com/search?q=crdroid%3A%20Update%20RU%20translations&type=Commits)
+* [526dba0 PagerSlidingTab: Every accent is beautiful](https://github.com/search?q=PagerSlidingTab%3A%20Every%20accent%20is%20beautiful&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [c0207d0 Update devices.xml](https://github.com/search?q=Update%20devices.xml&type=Commits)
+* [3b04d64 Update Changelog v3.8.2 for Yureka](https://github.com/search?q=Update%20Changelog%20v3.8.2%20for%20Yureka&type=Commits)
+
+#### CRDroid Android Nougat source changes of 10-30-2017 End.
+
 10-29-2017
 ====================
 
 #### CRDroid Android Nougat source changes of 10-29-2017:
 
 #### frameworks/base/
+* [462d634 ColorEngine: fix power menu instant theming](https://github.com/search?q=ColorEngine%3A%20fix%20power%20menu%20instant%20theming&type=Commits)
+* [719d542 TileAdapter: allow styling tile item decoration background](https://github.com/search?q=TileAdapter%3A%20allow%20styling%20tile%20item%20decoration%20background&type=Commits)
+* [ec1d590 ColorEngine: theme improvements/completeness](https://github.com/search?q=ColorEngine%3A%20theme%20improvements/completeness&type=Commits)
+* [bcf534c ColorEngine: fwb: keep changed resources footprint low](https://github.com/search?q=ColorEngine%3A%20fwb%3A%20keep%20changed%20resources%20footprint%20low&type=Commits)
+* [d82400c Introduce color engine.](https://github.com/search?q=Introduce%20color%20engine.&type=Commits)
+* [1b96766 BrightnessMirrorController: Fix usage of outdated references](https://github.com/search?q=BrightnessMirrorController%3A%20Fix%20usage%20of%20outdated%20references&type=Commits)
 * [31e0275 TileAdapter: Fix colordrawable in TileItemDecoration](https://github.com/search?q=TileAdapter%3A%20Fix%20colordrawable%20in%20TileItemDecoration&type=Commits)
 * [8151689 FWB:Single tap tile add switch [1/2]](https://github.com/search?q=FWB%3ASingle%20tap%20tile%20add%20switch%20[1/2]&type=Commits)
 * [5358f0d Allow user to add/remove QS with one click](https://github.com/search?q=Allow%20user%20to%20add/remove%20QS%20with%20one%20click&type=Commits)
 * [482748c base: SystemUI add landscape qs columns config](https://github.com/search?q=base%3A%20SystemUI%20add%20landscape%20qs%20columns%20config&type=Commits)
 
 #### packages/apps/Settings/
-* [7200003 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+* [1170fb5 ColorEngine: Settings: keep changed resources footprint low](https://github.com/search?q=ColorEngine%3A%20Settings%3A%20keep%20changed%20resources%20footprint%20low&type=Commits)
+* [f5a86d4 Improve color selection preview](https://github.com/search?q=Improve%20color%20selection%20preview&type=Commits)
+* [1aad3db Settings: Support color engine](https://github.com/search?q=Settings%3A%20Support%20color%20engine&type=Commits)
 
 #### packages/apps/crDroidSettings/
+* [4290a25 chinese translations: Remove absent strings](https://github.com/search?q=chinese%20translations%3A%20Remove%20absent%20strings&type=Commits)
+* [5e167e1 chinese translations: remove non-translatable values](https://github.com/search?q=chinese%20translations%3A%20remove%20non-translatable%20values&type=Commits)
 * [da90cb9 Merge pull request #108 from Junpeng17/patch-2](https://github.com/search?q=Merge%20pull%20request%20%23108%20from%20Junpeng17/patch-2&type=Commits)
 * [4cb0ea5 Update more Chinese translate](https://github.com/search?q=Update%20more%20Chinese%20translate&type=Commits)
 * [5426e0e crdroid: Single tap tile add switch [2/2]](https://github.com/search?q=crdroid%3A%20Single%20tap%20tile%20add%20switch%20[2/2]&type=Commits)
@@ -25,7 +217,9 @@ CRDroid Android Nougat source and Quark Changelog:
 * [591a590 Merge pull request #107 from charansai612/7.1](https://github.com/search?q=Merge%20pull%20request%20%23107%20from%20charansai612/7.1&type=Commits)
 * [8c22ac5 Update crdroid_strings.xml](https://github.com/search?q=Update%20crdroid_strings.xml&type=Commits)
 * [36dc847 corrected <string> tag](https://github.com/search?q=corrected%20<string>%20tag&type=Commits)
-* [8976eb8 Merge pull request #106 from Junpeng17/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23106%20from%20Junpeng17/patch-1&type=Commits)
+
+#### vendor/cm/
+* [ea0f1f2 sepolicy: Add Color Engine policy](https://github.com/search?q=sepolicy%3A%20Add%20Color%20Engine%20policy&type=Commits)
 
 #### CRDroid Android Nougat source changes of 10-29-2017 End.
 
