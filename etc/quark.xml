@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <quark>
-            <Filename>RR-N-v5.8.5-20171104-quark-Mod.zip</Filename>
+            <Filename>RR-N-v5.8.5-20171111-quark-Mod</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download Latest ResurrectionRemix for Quark (20171104)">https://androidfilehost.com/?fid=962021903579490125</RomUrl>
+                description="Download Latest ResurrectionRemix for Quark (20171111)">https://androidfilehost.com/?fid=817906626617945773</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -14,7 +14,7 @@
             <SlimGappsUrl
             	id="gapps"
             	title="Open Gapps"
-            	description="Download latest Open GApps (Choose Arm, 7.1 and a Variant)">http://opengapps.org/</SlimGappsUrl>
+            	description="Download latest Open GApps (Choose Arm, 7.1 and a Variant recomended nano)">http://opengapps.org/</SlimGappsUrl>
             <XDAUrl
                 id="xda"
                 title="XDA"
