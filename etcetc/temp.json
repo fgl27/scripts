@@ -14,7 +14,7 @@
     "tiles" : [{
       "title" : "'s Living",
       "image_ratio" : "1by1",
-      "image_url" : "https://developer.samsung.com/onlinedocs/tv/Preview/2.jpg",
+      "image_url" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-640x360.jpg",
       "action_data" : "{\"videoIdx\": 2}",
       "is_playable" : true
     }, {
