@@ -2,6 +2,7 @@
 #include <htc.h>
 #define _XTAL_FREQ 800
 
+//interruption by RB0
 #ifndef __EXTERNAL_INT_H
 #define __EXTERNAL_INT_H
 
@@ -14,8 +15,8 @@ void InitExternal_INT(void);
 
 void interrupt ISR(void);
 
-
 #endif
+//interruption by RB0 end
 
 int more_green = 0;
 int more_red = 0;
@@ -28,42 +29,35 @@ void main () {
     TRISC = 0;
     OPTION_REG = 0b01111111;//RBPU = 0; ENABLE pull-up PORT B
 
-    InitExternal_INT();
+    InitExternal_INT();// start interruption by RB0
 
-    int do_more_green = 0;
-    int do_more_red = 0;
+    int red_time = 321, yellow_time = 53, green_time = 485, i = 0, red_final = 0, yellow_final = 0, green_final = 0;
+DENOVO:
+    RC0 = 1;//RED LED on
+    i = 0;
+    if (more_red) red_final = red_time + red_time;
+    else red_final = red_time;
+    more_red = 0;
+
+    yellow_final = yellow_time + red_final;
+
+    if (more_green) green_final = yellow_final + green_time + 161;// 161 = green_time / 3
+    else green_final = yellow_final +green_time;
+    more_green = 0;
+
     while(1) {
-        if (more_green) do_more_green = 1;
-        if (more_red) do_more_red = 1;
-
-        RC0 = 1;//RED LED on
-        if (do_more_red) {
-            do_more_red = 0;
-            __delay_ms(9996 * 3);
-            __delay_ms(10000 * 3);
+        if (!RB2 && !more_red) more_red = 1;//interruption by RB2, takes  199us to get to here, and around 359us to get to here again if i > green_final
+        else if (RC0 && i > red_final) RC0 = 0, RC3 = 1;
+        else if (RC3 && i > yellow_final) RC3 = 0, RC6 = 1;
+        else if (RC6 && i > green_final) {
+            RC6 = 0;
+            goto DENOVO;
         }
-	    for (int i = 0; i < 542; i++) {//check RB2 takes 110 us 0 to 10 = 1259ms clock 800hz
-            if (!RB2) more_red = 1;
-        }
-        __delay_ms(60);//round up
-        RC0 = 0;//RED LED off
-
-        RC3 = 1;//Yellow LED on 10sec
-        __delay_ms(9994);
-        RC3 = 0;//Now LED
-
-        RC6 = 1;//Green LED on
-        __delay_ms(9998 * 3);
-        __delay_ms(10000 * 3);
-        __delay_ms(9998 * 3);
-        if (do_more_green) {
-            do_more_green = 0;
-            __delay_ms(9996 * 3);
-        }
-        RC6 = 0;//Green LED off
+        i++;//takes 359us to get to here, button read time 1ms
     }
 }
 
+//interruption by RB0
 void InitExternal_INT(void) {
     TRISB = 0b00000101;                 // Make RB0 e 2 pin as input
 
@@ -81,3 +75,4 @@ void interrupt ISR(void) {
         INTF = 0;   // clear the interrupt
     }
 }
+//interruption by RB0 end
