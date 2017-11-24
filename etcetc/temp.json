@@ -5,7 +5,7 @@
       "title" : "Funny",
       "subtitle" : "th Birthday Party",
       "image_ratio" : "16by9",
-      "image_url" : "https://developer.samsung.com/onlinedocs/tv/Preview/1.jpg",
+      "image_url" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-640x360.jpg",
       "action_data" : "{\"videoIdx\": 1}",
       "is_playable" : true
     }]
@@ -27,7 +27,7 @@
     }, {
       "title" : "'s th Party",
       "image_ratio" : "16by9",
-      "image_url" : "https://developer.samsung.com/onlinedocs/tv/Preview/4.jpg",
+      "image_url" : "https://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-640x360.jpg",
       "action_data" : "{\"pictureIdx\": 4}",
       "is_playable" : false
     }, {
