@@ -1,0 +1,41 @@
+    #INCLUDE <P16F877A.INC>
+    __CONFIG B'11110100011000'
+    ORG 0X0000
+    
+    CLRF STATUS
+
+    CLRF PORTC
+
+    BANKSEL TRISC
+    MOVLW 0X00
+    MOVWF TRISC
+
+    BANKSEL PORTC
+
+    BSF PORTC,RC0
+
+    CBLOCK
+    D0
+    D1
+    ENDC
+
+    ;10 SECONDS DELAY
+    ;1998 CYCLES
+    MOVLW    0X8F
+    MOVWF    D0
+    MOVLW    0X02
+    MOVWF    D1
+DELAY_0
+    DECFSZ   D0, F
+    GOTO     $+2
+    DECFSZ   D1, F
+    GOTO     DELAY_0
+
+    ;2 CYCLES
+    GOTO     $+1
+
+START
+    BCF PORTC,RC0
+    GOTO START
+
+    END
