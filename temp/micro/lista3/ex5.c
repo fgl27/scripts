@@ -46,14 +46,14 @@ DENOVO:
     more_green = 0;
 
     while(1) {
-        if (!RB2 && !more_red) more_red = 1;//interruption by RB2, takes  199us to get to here, and around 359us to get to here again if i > green_final
+        if (!RB2 && !more_red) more_red = 1;
         else if (RC0 && i > red_final) RC0 = 0, RC3 = 1;
         else if (RC3 && i > yellow_final) RC3 = 0, RC6 = 1;
         else if (RC6 && i > green_final) {
             RC6 = 0;
             goto DENOVO;
         }
-        i++;//takes 359us to get to here, button read time 1ms
+        i++;
     }
 }
 
