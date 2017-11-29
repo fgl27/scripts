@@ -3,6 +3,136 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+11-28-2017
+====================
+
+#### Device specific Changes of 11-28-2017 Start:
+
+#### Device/Quark/
+* [a08a38b Quark: update wlan.ko synlink](https://github.com/search?q=Quark%3A%20update%20wlan.ko%20synlink&type=Commits)
+* [aa14d85 Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+
+#### Kernel/Quark/
+* [9dc1f61 Update zram config](https://github.com/search?q=Update%20zram%20config&type=Commits)
+* [9136868 mm: add control over swapin_readahead](https://github.com/search?q=mm%3A%20add%20control%20over%20swapin_readahead&type=Commits)
+* [a41a552 zram: Default lz4 if available](https://github.com/search?q=zram%3A%20Default%20lz4%20if%20available&type=Commits)
+* [ad85dae zram: rest config](https://github.com/search?q=zram%3A%20rest%20config&type=Commits)
+* [678a771 Revert "binder: revert 10/12 changes"](https://github.com/search?q=Revert%20"binder%3A%20revert%2010/12%20changes"&type=Commits)
+* [563a30c4 timerfd: support CLOCK_BOOTTIME clock](https://github.com/search?q=%20timerfd%3A%20support%20CLOCK_BOOTTIME%20clock&type=Commits)
+
+#### Device specific Changes of 11-28-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 11-28-2017:
+
+#### frameworks/av/
+* [6490667 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [61eb963 fw/b: Return a KeyEvent instead of a boolean in KeyHandler](https://github.com/search?q=fw/b%3A%20Return%20a%20KeyEvent%20instead%20of%20a%20boolean%20in%20KeyHandler&type=Commits)
+
+#### packages/apps/CMParts/
+* [c8db95a CMParts: gestures: Update KeyHandler for API change](https://github.com/search?q=CMParts%3A%20gestures%3A%20Update%20KeyHandler%20for%20API%20change&type=Commits)
+* [73c2be7 CMParts: gestures: Add volume down/up actions](https://github.com/search?q=CMParts%3A%20gestures%3A%20Add%20volume%20down/up%20actions&type=Commits)
+* [269e678 CMParts: Add strings for stylus gestures](https://github.com/search?q=CMParts%3A%20Add%20strings%20for%20stylus%20gestures&type=Commits)
+* [867e49a Remove annoying empty view in privacy guard](https://github.com/search?q=Remove%20annoying%20empty%20view%20in%20privacy%20guard&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [c78ef14 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [2319d59 Settings: Strings: Modify a few german summaries](https://github.com/search?q=Settings%3A%20Strings%3A%20Modify%20a%20few%20german%20summaries&type=Commits)
+
+#### packages/services/Telecomm/
+* [cb47077 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20nougat&type=Commits)
+
+#### packages/services/Telephony/
+* [bfa6e7d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [3cc0f2f repopick: Support overriding the default commits count to check](https://github.com/search?q=repopick%3A%20Support%20overriding%20the%20default%20commits%20count%20to%20check&type=Commits)
+* [fbab34c vendor: enable multi-user across all devices](https://github.com/search?q=vendor%3A%20enable%20multi-user%20across%20all%20devices&type=Commits)
+* [6e5a4f4 extract-files: Bring back old behavior for SRC](https://github.com/search?q=extract-files%3A%20Bring%20back%20old%20behavior%20for%20SRC&type=Commits)
+* [ad2e6a7 sensitive_pn: Add BG human trafficking and domestic abuse hotlines](https://github.com/search?q=sensitive_pn%3A%20Add%20BG%20human%20trafficking%20and%20domestic%20abuse%20hotlines&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 11-28-2017 End.
+
+11-25-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 11-25-2017:
+
+#### frameworks/av/
+* [ebe9edd Revert "libstagefright: Use proper ctts offset"](https://github.com/search?q=Revert%20"libstagefright%3A%20Use%20proper%20ctts%20offset"&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [3d80690 Trebuchet: Use ICU4J public APIs](https://github.com/search?q=Trebuchet%3A%20Use%20ICU4J%20public%20APIs&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 11-25-2017 End.
+
+11-24-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 11-24-2017:
+
+#### frameworks/base/
+* [bffe87b Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+* [c4526f1 SystemUI: LiveDisplay tile](https://github.com/search?q=SystemUI%3A%20LiveDisplay%20tile&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 11-24-2017 End.
+
+11-19-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 11-19-2017:
+
+#### android/
+* [3449c1d manifest: Track our bison fork](https://github.com/search?q=manifest%3A%20Track%20our%20bison%20fork&type=Commits)
+
+#### frameworks/base/
+* [b30235f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [dc83c73 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+* [82846aa DPC should not be allowed to grant development permission](https://github.com/search?q=DPC%20should%20not%20be%20allowed%20to%20grant%20development%20permission&type=Commits)
+* [1a6bf45 Add stub for setCursorVisibility](https://github.com/search?q=Add%20stub%20for%20setCursorVisibility&type=Commits)
+* [0d6573e Prevent deadlock when using always-on legacy VPNs](https://github.com/search?q=Prevent%20deadlock%20when%20using%20always-on%20legacy%20VPNs&type=Commits)
+* [78cb021 Add powerhint function that accepts an array of data](https://github.com/search?q=Add%20powerhint%20function%20that%20accepts%20an%20array%20of%20data&type=Commits)
+* [df4c73b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [6733d56 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [1c3ef61 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [675258a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [cb4c853 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into HEAD](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%20HEAD&type=Commits)
+
+#### packages/services/OmniJaws/
+* [220b6a8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cm/
+* [ef9ccbe extract_utils: Allow to interrupt the extraction](https://github.com/search?q=extract_utils%3A%20Allow%20to%20interrupt%20the%20extraction&type=Commits)
+* [021c2b2 Disable LiveDisplay by default for ATV](https://github.com/search?q=Disable%20LiveDisplay%20by%20default%20for%20ATV&type=Commits)
+* [72ad805 extract_utils: Fix pinning when not cleaning vendor dir](https://github.com/search?q=extract_utils%3A%20Fix%20pinning%20when%20not%20cleaning%20vendor%20dir&type=Commits)
+* [54e0244 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_vendor_resurrection%20into%20nougat&type=Commits)
+* [70c3e66 cm: build: kernel: Rework kernel module logic](https://github.com/search?q=cm%3A%20build%3A%20kernel%3A%20Rework%20kernel%20module%20logic&type=Commits)
+* [72ba3c5 Updated apns for device bringup for S4 Mini - serranolteusc](https://github.com/search?q=Updated%20apns%20for%20device%20bringup%20for%20S4%20Mini%20-%20serranolteusc&type=Commits)
+* [fb7503b Added more USA sensitive phone numbers](https://github.com/search?q=Added%20more%20USA%20sensitive%20phone%20numbers&type=Commits)
+* [5c45440 cm/aosp/cafremote: Make variables local](https://github.com/search?q=cm/aosp/cafremote%3A%20Make%20variables%20local&type=Commits)
+* 473be65 envsetup: Fix cmremote for AOSP projects
+* [0653d1d qcom_target: Commonize UM target HALs](https://github.com/search?q=qcom_target%3A%20Commonize%20UM%20target%20HALs&type=Commits)
+* [a193c32 charger: Remove battery_fail images](https://github.com/search?q=charger%3A%20Remove%20battery_fail%20images&type=Commits)
+* [a94bda1 Update initial attach for Tmo US](https://github.com/search?q=Update%20initial%20attach%20for%20Tmo%20US&type=Commits)
+* [aee9791 tasks: kernel: Kill unexisting wiki reference](https://github.com/search?q=tasks%3A%20kernel%3A%20Kill%20unexisting%20wiki%20reference&type=Commits)
+* [409fbfa build: qcom_target: Add sdm660](https://github.com/search?q=build%3A%20qcom_target%3A%20Add%20sdm660&type=Commits)
+* [692c081 Add Correios Celular (BR) APN](https://github.com/search?q=Add%20Correios%20Celular%20%28BR%29%20APN&type=Commits)
+* [ad2b018 Add WOM Internet/MMS (CL) apn](https://github.com/search?q=Add%20WOM%20Internet/MMS%20%28CL%29%20apn&type=Commits)
+* [01d65f5 qcom: Allow setting custom audio, display, and media HALs](https://github.com/search?q=qcom%3A%20Allow%20setting%20custom%20audio,%20display,%20and%20media%20HALs&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 11-19-2017 End.
+
 11-18-2017
 ====================
 
