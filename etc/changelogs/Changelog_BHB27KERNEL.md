@@ -3,6 +3,19 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+11-28-2017
+====================
+
+* [d4acd09 Update zram config](https://github.com/bhb27/BHB27Kernel/search?q=Update%20zram%20config&type=Commits)
+* [bac9b2d mm: add control over swapin_readahead](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20add%20control%20over%20swapin_readahead&type=Commits)
+* [fa4706c zram: Default lz4 if available](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20Default%20lz4%20if%20available&type=Commits)
+* [2cbf33f zram: rest config](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20rest%20config&type=Commits)
+* [86f5cc4 v 8.0](https://github.com/bhb27/BHB27Kernel/search?q=v%208.0&type=Commits)
+* [70f261d Revert "binder: revert 10/12 changes"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"binder%3A%20revert%2010/12%20changes"&type=Commits)
+* [923c610 timerfd: support CLOCK_BOOTTIME clock](https://github.com/bhb27/BHB27Kernel/search?q=timerfd%3A%20support%20CLOCK_BOOTTIME%20clock&type=Commits)
+
+***
+
 11-09-2017
 ====================
 
