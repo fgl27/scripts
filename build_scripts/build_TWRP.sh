@@ -27,8 +27,8 @@ echo -e "\nYou choose: $input2"
 		git fetch https://review.lineageos.org/LineageOS/android_build refs/changes/89/2689/1 && git cherry-pick FETCH_HEAD
 		cd -
 	fi
-. build/envsetup.sh 
-lunch omni_quark-eng
+	. build/envsetup.sh 
+	lunch omni_quark-eng
 else
 	export RR_BUILDTYPE="Mod"
 	export days_to_log=0
