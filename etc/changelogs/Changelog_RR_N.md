@@ -3,6 +3,279 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+12-12-2017
+====================
+
+#### Device specific Changes of 12-12-2017 Start:
+
+#### Kernel/Quark/
+* [1fc155f coresight: tmc: Fix the unbalanced lock in tmc_read()](https://github.com/search?q=coresight%3A%20tmc%3A%20Fix%20the%20unbalanced%20lock%20in%20tmc_read%28%29&type=Commits)
+* [0ddb36e coresight: tmc: Fix use after free issue with tmc read](https://github.com/search?q=coresight%3A%20tmc%3A%20Fix%20use%20after%20free%20issue%20with%20tmc%20read&type=Commits)
+* [725b7fb qcacld-2.0: Check on IE length to avoid buffer over-read](https://github.com/search?q=qcacld-2.0%3A%20Check%20on%20IE%20length%20to%20avoid%20buffer%20over-read&type=Commits)
+* [e24cfcc qcacld-2.0: Fix invalid buffer access in send mgmt tx](https://github.com/search?q=qcacld-2.0%3A%20Fix%20invalid%20buffer%20access%20in%20send%20mgmt%20tx&type=Commits)
+* [ccd11e4 diag: Fix for possible dci stale entries](https://github.com/search?q=diag%3A%20Fix%20for%20possible%20dci%20stale%20entries&type=Commits)
+* [09b38fe diag: dci: Add mutex protection while accessing client details](https://github.com/search?q=diag%3A%20dci%3A%20Add%20mutex%20protection%20while%20accessing%20client%20details&type=Commits)
+* [adab031 diag: dci: Add protection while de-initializing clients](https://github.com/search?q=diag%3A%20dci%3A%20Add%20protection%20while%20de-initializing%20clients&type=Commits)
+* [2ffded0 v4l2: Refactor, fix security bug in compat ioctl32](https://github.com/search?q=v4l2%3A%20Refactor,%20fix%20security%20bug%20in%20compat%20ioctl32&type=Commits)
+* [486b8ef qcacld-2.0: Add bound check for numap to avoid integer overflow](https://github.com/search?q=qcacld-2.0%3A%20Add%20bound%20check%20for%20numap%20to%20avoid%20integer%20overflow&type=Commits)
+* [ba18d63 UPSTREAM: ALSA: timer: Call notifier in the same spinlock](https://github.com/search?q=UPSTREAM%3A%20ALSA%3A%20timer%3A%20Call%20notifier%20in%20the%20same%20spinlock&type=Commits)
+* [2b539ad BACKPORT: ALSA: timer: Fix race at concurrent reads](https://github.com/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20at%20concurrent%20reads&type=Commits)
+* [990a963 BACKPORT: ALSA: timer: Handle disconnection more safely](https://github.com/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Handle%20disconnection%20more%20safely&type=Commits)
+* [64de3f5 UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT](https://github.com/search?q=UPSTREAM%3A%20ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT&type=Commits)
+* [91da67d BACKPORT: ALSA: timer: Fix race between read and ioctl](https://github.com/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl&type=Commits)
+* [f2cced7 include: asm-generic: do not hard code HZ to 100](https://github.com/search?q=include%3A%20asm-generic%3A%20do%20not%20hard%20code%20HZ%20to%20100&type=Commits)
+* [9ae539f ANDROID: ion: Fix uninitialized variable](https://github.com/search?q=ANDROID%3A%20ion%3A%20Fix%20uninitialized%20variable&type=Commits)
+* [b0ca701 ANDROID: scsi: Add segment checking in sg_read](https://github.com/search?q=ANDROID%3A%20scsi%3A%20Add%20segment%20checking%20in%20sg_read&type=Commits)
+* [eec2114 msm: camera: Make use of mutex lock to avoid race condition](https://github.com/search?q=msm%3A%20camera%3A%20Make%20use%20of%20mutex%20lock%20to%20avoid%20race%20condition&type=Commits)
+* [9d6403f BACKPORT: dentry name snapshots](https://github.com/search?q=BACKPORT%3A%20dentry%20name%20snapshots&type=Commits)
+* [7b46f4a ANDROID: usb: gadget: f_mtp: Return error if count is negative](https://github.com/search?q=ANDROID%3A%20usb%3A%20gadget%3A%20f_mtp%3A%20Return%20error%20if%20count%20is%20negative&type=Commits)
+* [5740c2c apq8084: remove 'reboot edl' interface for security.](https://github.com/search?q=apq8084%3A%20remove%20%27reboot%20edl%27%20interface%20for%20security.&type=Commits)
+* [d45f890 msm8x84: update kernel header for msm video](https://github.com/search?q=msm8x84%3A%20update%20kernel%20header%20for%20msm%20video&type=Commits)
+* [e4a8f05 radix-tree: add radix_tree_gang_lookup_index](https://github.com/search?q=radix-tree%3A%20add%20radix_tree_gang_lookup_index&type=Commits)
+* [bedac2c lib/decompress: set the compressor name to NULL on error](https://github.com/search?q=lib/decompress%3A%20set%20the%20compressor%20name%20to%20NULL%20on%20error&type=Commits)
+* [d11397f lib/decompress.c: consistency of compress formats for kernel image](https://github.com/search?q=lib/decompress.c%3A%20consistency%20of%20compress%20formats%20for%20kernel%20image&type=Commits)
+* [b4aa582 crypto: add lz4 Cryptographic API](https://github.com/search?q=crypto%3A%20add%20lz4%20Cryptographic%20API&type=Commits)
+
+#### Device specific Changes of 12-12-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 12-12-2017:
+
+#### external/skia/
+* [435fa22 Merge branch 'nougat' of https://github.com/ResurrectionRemix/external_skia into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/external_skia%20into%20nougat&type=Commits)
+* [507af82 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_external_skia into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_external_skia%20into%20nougat&type=Commits)
+
+#### hardware/ti/omap4/
+* [f5a98d3 Revert "omap4: add local libjhead"](https://github.com/search?q=Revert%20"omap4%3A%20add%20local%20libjhead"&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-12-2017 End.
+
+12-11-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-11-2017:
+
+#### android/
+* [2c020ba android-7.1.2_r29 -> android-7.1.2_r36](https://github.com/search?q=android-7.1.2_r29%20->%20android-7.1.2_r36&type=Commits)
+
+#### build/
+* [693a99a Bump security string to 2017-12-05](https://github.com/search?q=Bump%20security%20string%20to%202017-12-05&type=Commits)
+
+#### external/skia/
+* [cc36cbe Merge branch 'cm-14.1' of git://github.com/LineageOS/android_external_skia into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20git%3A//github.com/LineageOS/android_external_skia%20into%20nougat&type=Commits)
+* [bf8a04d Merge tag 'android-7.1.2_r36' into nougat](https://github.com/search?q=Merge%20tag%20%27android-7.1.2_r36%27%20into%20nougat&type=Commits)
+* [e6d4f57 Fix SkFILEStream.](https://github.com/search?q=Fix%20SkFILEStream.&type=Commits)
+* [f510f11 Fix truncated webp images DO NOT MERGE](https://github.com/search?q=Fix%20truncated%20webp%20images%20DO%20NOT%20MERGE&type=Commits)
+
+#### frameworks/av/
+* [eb7a0eb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [69ddc3a DO NOT MERGE. KEY_INTENT shouldn't grant permissions.](https://github.com/search?q=DO%20NOT%20MERGE.%20KEY_INTENT%20shouldn%27t%20grant%20permissions.&type=Commits)
+* [ac85fe2 Stop explicitly using kCallerPasses_Ownership](https://github.com/search?q=Stop%20explicitly%20using%20kCallerPasses_Ownership&type=Commits)
+* [05d36d7 Fix ClipboardService device lock check for cross profile](https://github.com/search?q=Fix%20ClipboardService%20device%20lock%20check%20for%20cross%20profile&type=Commits)
+* [a23b1b0 Prevent getting data from Clipboard if device is locked](https://github.com/search?q=Prevent%20getting%20data%20from%20Clipboard%20if%20device%20is%20locked&type=Commits)
+* [d6f9e08 Clearing up invalid entries when SyncStorageEngine starts](https://github.com/search?q=Clearing%20up%20invalid%20entries%20when%20SyncStorageEngine%20starts&type=Commits)
+
+#### hardware/ti/omap4/
+* [0f456ee omap4: add local libjhead](https://github.com/search?q=omap4%3A%20add%20local%20libjhead&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [278c3f2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+* [81ba415 DO NOT MERGE Fixing Install button not enabled on resume](https://github.com/search?q=DO%20NOT%20MERGE%20Fixing%20Install%20button%20not%20enabled%20on%20resume&type=Commits)
+* [d65c53a Revert "Revert "DO NOT MERGE Disable overlays while installer is resumed""](https://github.com/search?q=Revert%20"Revert%20"DO%20NOT%20MERGE%20Disable%20overlays%20while%20installer%20is%20resumed""&type=Commits)
+
+#### packages/apps/Settings/
+* [80e5287 DO NOT MERGE. ActivityPicker shouldn't grant permissions.](https://github.com/search?q=DO%20NOT%20MERGE.%20ActivityPicker%20shouldn%27t%20grant%20permissions.&type=Commits)
+
+#### system/core/
+* [2cc5a9f zip_archive: reject files that don't start with an LFH signature.](https://github.com/search?q=zip_archive%3A%20reject%20files%20that%20don%27t%20start%20with%20an%20LFH%20signature.&type=Commits)
+
+#### vendor/cm/
+* [550e771 ATV: Ship AppDrawer](https://github.com/search?q=ATV%3A%20Ship%20AppDrawer&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-11-2017 End.
+
+12-10-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-10-2017:
+
+#### packages/apps/Jelly/
+* [c4a6bf8 Jelly: Use try-with-resources in downloadSuggestionsForQuery](https://github.com/search?q=Jelly%3A%20Use%20try-with-resources%20in%20downloadSuggestionsForQuery&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-10-2017 End.
+
+12-09-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-09-2017:
+
+#### external/chromium-webview/
+* [4aff972 Update webviews to Chromium 63.0.3239.83](https://github.com/search?q=Update%20webviews%20to%20Chromium%2063.0.3239.83&type=Commits)
+
+#### external/skia/
+* [e0a4c47 Fix SkFILEStream.](https://github.com/search?q=Fix%20SkFILEStream.&type=Commits)
+* [680eaf0 Fix truncated webp images DO NOT MERGE](https://github.com/search?q=Fix%20truncated%20webp%20images%20DO%20NOT%20MERGE&type=Commits)
+
+#### frameworks/av/
+* [3e16c55 Block allocateBufferWithBackup in secure native handle mode](https://github.com/search?q=Block%20allocateBufferWithBackup%20in%20secure%20native%20handle%20mode&type=Commits)
+* [66c9362 Fix memory leaks](https://github.com/search?q=Fix%20memory%20leaks&type=Commits)
+* [2102b4d media: Fix a typo in parsing nclc atom.](https://github.com/search?q=media%3A%20Fix%20a%20typo%20in%20parsing%20nclc%20atom.&type=Commits)
+* [acbbfff Soundtrigger service: fix cross deadlock with audio policy service](https://github.com/search?q=Soundtrigger%20service%3A%20fix%20cross%20deadlock%20with%20audio%20policy%20service&type=Commits)
+* [7870017 IMediaExtractor: ensure users to check returned value by getTrack.](https://github.com/search?q=IMediaExtractor%3A%20ensure%20users%20to%20check%20returned%20value%20by%20getTrack.&type=Commits)
+* [cb0c138 Fix issues with extractor dumpsys](https://github.com/search?q=Fix%20issues%20with%20extractor%20dumpsys&type=Commits)
+
+#### frameworks/minikin/
+* [369826a Drop codepoints that are outside the Unicode range - DO NOT MERGE](https://github.com/search?q=Drop%20codepoints%20that%20are%20outside%20the%20Unicode%20range%20-%20DO%20NOT%20MERGE&type=Commits)
+
+#### hardware/broadcom/wlan/
+* [7d31a89 net: wireless: bcmdhd: update bcm4358 FW (7.112.201.6) [DO NOT MERGE]](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20update%20bcm4358%20FW%20%287.112.201.6%29%20[DO%20NOT%20MERGE]&type=Commits)
+
+#### hardware/qcom/media/
+* [92e736a mm-video-v4l2: venc: Protect buffer from being freed while accessing](https://github.com/search?q=mm-video-v4l2%3A%20venc%3A%20Protect%20buffer%20from%20being%20freed%20while%20accessing&type=Commits)
+
+#### packages/apps/Jelly/
+* [6904728 Jelly: Allow to dismiss HTTP auth dialog](https://github.com/search?q=Jelly%3A%20Allow%20to%20dismiss%20HTTP%20auth%20dialog&type=Commits)
+* [c42034e Jelly: Implementing favorite management through a ContentProvider.](https://github.com/search?q=Jelly%3A%20Implementing%20favorite%20management%20through%20a%20ContentProvider.&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-09-2017 End.
+
+12-08-2017
+====================
+
+#### Device specific Changes of 12-08-2017 Start:
+
+#### Device/Quark/
+* [4e2e57d Quark: enable base config_enableBurnInProtection](https://github.com/search?q=Quark%3A%20enable%20base%20config_enableBurnInProtection&type=Commits)
+* [107748a Revert "Quark: correct burn in protection overlay path"](https://github.com/search?q=Revert%20"Quark%3A%20correct%20burn%20in%20protection%20overlay%20path"&type=Commits)
+
+#### Device specific Changes of 12-08-2017 End.
+
+***
+
+12-07-2017
+====================
+
+#### Device specific Changes of 12-07-2017 Start:
+
+#### Device/Quark/
+* [719010c Quark: update zram size](https://github.com/search?q=Quark%3A%20update%20zram%20size&type=Commits)
+
+#### Vendor/Quark/
+* [9b23587 Quark: update ka v Quark.58](https://github.com/search?q=Quark%3A%20update%20ka%20v%20Quark.58&type=Commits)
+
+#### Device specific Changes of 12-07-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 12-07-2017:
+
+#### frameworks/base/
+* [5738c10 SystemUI: Fix title text clipping when task lock button is visible](https://github.com/search?q=SystemUI%3A%20Fix%20title%20text%20clipping%20when%20task%20lock%20button%20is%20visible&type=Commits)
+* [b9d1725 ZenModeHelper: Allow lights by default](https://github.com/search?q=ZenModeHelper%3A%20Allow%20lights%20by%20default&type=Commits)
+* [75f6a18 remove duplicated permission](https://github.com/search?q=remove%20duplicated%20permission&type=Commits)
+* [b103820 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [94a325f BugFix:Correct fullBearer in APNSettings](https://github.com/search?q=BugFix%3ACorrect%20fullBearer%20in%20APNSettings&type=Commits)
+* [fbad027 Telephony: Fix Crash in SimStatus Fragment](https://github.com/search?q=Telephony%3A%20Fix%20Crash%20in%20SimStatus%20Fragment&type=Commits)
+* [2ed4a14 Settings: fix vibrate for calls in Setting app displayed incorrect issue](https://github.com/search?q=Settings%3A%20fix%20vibrate%20for%20calls%20in%20Setting%20app%20displayed%20incorrect%20issue&type=Commits)
+* [c1ca678 Settings: back icon doesn't work in format SD as portable page.](https://github.com/search?q=Settings%3A%20back%20icon%20doesn%27t%20work%20in%20format%20SD%20as%20portable%20page.&type=Commits)
+* [60d7c3a Settings: Fix settings force close](https://github.com/search?q=Settings%3A%20Fix%20settings%20force%20close&type=Commits)
+* [4e6d569 Settings: Fix crash when disconnect wifi](https://github.com/search?q=Settings%3A%20Fix%20crash%20when%20disconnect%20wifi&type=Commits)
+
+#### vendor/cm/
+* [7fb915a extract_utils: Use temporary folder for system dump](https://github.com/search?q=extract_utils%3A%20Use%20temporary%20folder%20for%20system%20dump&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-07-2017 End.
+
+12-06-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-06-2017:
+
+#### external/libavc/
+* [8f141f1 Decoder: Fixed hang in the case of dangling field](https://github.com/search?q=Decoder%3A%20Fixed%20hang%20in%20the%20case%20of%20dangling%20field&type=Commits)
+
+#### external/libhevc/
+* [3254798 Alloc extra bytes for bits buf for parse optimzation](https://github.com/search?q=Alloc%20extra%20bytes%20for%20bits%20buf%20for%20parse%20optimzation&type=Commits)
+
+#### external/libmpeg2/
+* [382741b Update num_mbs_left When mb_x is Reset.](https://github.com/search?q=Update%20num_mbs_left%20When%20mb_x%20is%20Reset.&type=Commits)
+* [70d2de5 Fix Error When Input Buffer is Full](https://github.com/search?q=Fix%20Error%20When%20Input%20Buffer%20is%20Full&type=Commits)
+* [813a0af Reject Multiple seq_hdr With Different Dimensions](https://github.com/search?q=Reject%20Multiple%20seq_hdr%20With%20Different%20Dimensions&type=Commits)
+* [0e297f2 DoS error - Bitstream Overflow](https://github.com/search?q=DoS%20error%20-%20Bitstream%20Overflow&type=Commits)
+
+#### frameworks/av/
+* [bc1e369 OMXNodeInstance: use a lock around OMX::freeNode](https://github.com/search?q=OMXNodeInstance%3A%20use%20a%20lock%20around%20OMX%3A%3AfreeNode&type=Commits)
+* [d61d33f Fix information disclosure in mediadrmserver](https://github.com/search?q=Fix%20information%20disclosure%20in%20mediadrmserver&type=Commits)
+* [bd3bfec m4v_h263: fix global buffer overflow](https://github.com/search?q=m4v_h263%3A%20fix%20global%20buffer%20overflow&type=Commits)
+* [7bf6a42 AudioPolicyService: Acquire mutex for SoundTriggerSession](https://github.com/search?q=AudioPolicyService%3A%20Acquire%20mutex%20for%20SoundTriggerSession&type=Commits)
+
+#### frameworks/base/
+* [ae1ad8c Fix systemUI FC when using the Language QS tile (#212)](https://github.com/search?q=Fix%20systemUI%20FC%20when%20using%20the%20Language%20QS%20tile%20%28%23212%29&type=Commits)
+
+#### system/bt/
+* [9844cd6 Read the correct amount of attributes](https://github.com/search?q=Read%20the%20correct%20amount%20of%20attributes&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-06-2017 End.
+
+12-05-2017
+====================
+
+#### Device specific Changes of 12-05-2017 Start:
+
+#### Device/Quark/
+* [2008154 Quark: correct burn in protection overlay path](https://github.com/search?q=Quark%3A%20correct%20burn%20in%20protection%20overlay%20path&type=Commits)
+
+#### Vendor/Quark/
+* [dc88a47 Quark: pack all prebuild app](https://github.com/search?q=Quark%3A%20pack%20all%20prebuild%20app&type=Commits)
+
+#### Device specific Changes of 12-05-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 12-05-2017:
+
+#### packages/apps/AppDrawer/
+* [b3a48c7 Initial commit](https://github.com/search?q=Initial%20commit&type=Commits)
+
+#### packages/apps/LineageCustomizer/
+* [bd7bd04 Initial commit](https://github.com/search?q=Initial%20commit&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-05-2017 End.
+
+12-04-2017
+====================
+
+#### Device specific Changes of 12-04-2017 Start:
+
+#### Device/Quark/
+* [674b769 Quark: update fstab](https://github.com/search?q=Quark%3A%20update%20fstab&type=Commits)
+* [ea7c973 Quark: disable Snapdragon LLVM Compiler](https://github.com/search?q=Quark%3A%20disable%20Snapdragon%20LLVM%20Compiler&type=Commits)
+* [8846236 Quark: updat init rc](https://github.com/search?q=Quark%3A%20updat%20init%20rc&type=Commits)
+
+#### Vendor/Quark/
+* [9af4fb4 Quark: remove duplicated LOCAL_CERTIFICATE on some apps](https://github.com/search?q=Quark%3A%20remove%20duplicated%20LOCAL_CERTIFICATE%20on%20some%20apps&type=Commits)
+* [fd1a260 Revert "Quark: don't use all app prebuild as it will breack updates"](https://github.com/search?q=Revert%20"Quark%3A%20don%27t%20use%20all%20app%20prebuild%20as%20it%20will%20breack%20updates"&type=Commits)
+
+#### Device specific Changes of 12-04-2017 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 12-04-2017:
+
+#### vendor/cm/
+* [7fa3655 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_vendor_resurrection%20into%20nougat&type=Commits)
+* [ac4262b prebuilt: Update included apk's to latest versions](https://github.com/search?q=prebuilt%3A%20Update%20included%20apk%27s%20to%20latest%20versions&type=Commits)
+* [46aadf2 Update include method for prebuilt apks](https://github.com/search?q=Update%20include%20method%20for%20prebuilt%20apks&type=Commits)
+* [bb1146a Update Magisk to v14.5](https://github.com/search?q=Update%20Magisk%20to%20v14.5&type=Commits)
+* [8640fc1 Update Changelog to v5.8.5](https://github.com/search?q=Update%20Changelog%20to%20v5.8.5&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-04-2017 End.
+
 11-28-2017
 ====================
 
