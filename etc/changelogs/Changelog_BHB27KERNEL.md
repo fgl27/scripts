@@ -3,6 +3,110 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+12-12-2017
+====================
+
+* [d7f2117 coresight: tmc: Fix the unbalanced lock in tmc_read()](https://github.com/bhb27/BHB27Kernel/search?q=coresight%3A%20tmc%3A%20Fix%20the%20unbalanced%20lock%20in%20tmc_read%28%29&type=Commits)
+* [fcc0e22 coresight: tmc: Fix use after free issue with tmc read](https://github.com/bhb27/BHB27Kernel/search?q=coresight%3A%20tmc%3A%20Fix%20use%20after%20free%20issue%20with%20tmc%20read&type=Commits)
+* [01a44c8 qcacld-2.0: Check on IE length to avoid buffer over-read](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20on%20IE%20length%20to%20avoid%20buffer%20over-read&type=Commits)
+* [1240979 qcacld-2.0: Fix invalid buffer access in send mgmt tx](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20invalid%20buffer%20access%20in%20send%20mgmt%20tx&type=Commits)
+* [04bdb5a diag: Fix for possible dci stale entries](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Fix%20for%20possible%20dci%20stale%20entries&type=Commits)
+* [825af27 diag: dci: Add mutex protection while accessing client details](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Add%20mutex%20protection%20while%20accessing%20client%20details&type=Commits)
+* [cafc58a diag: dci: Add protection while de-initializing clients](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Add%20protection%20while%20de-initializing%20clients&type=Commits)
+* [1ccca91 v4l2: Refactor, fix security bug in compat ioctl32](https://github.com/bhb27/BHB27Kernel/search?q=v4l2%3A%20Refactor,%20fix%20security%20bug%20in%20compat%20ioctl32&type=Commits)
+* [0d4d534 qcacld-2.0: Add bound check for numap to avoid integer overflow](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20bound%20check%20for%20numap%20to%20avoid%20integer%20overflow&type=Commits)
+
+***
+
+12-11-2017
+====================
+
+* [96b311d Defconfig ena BALANCE_ANON_FILE_RECLAIM](https://github.com/bhb27/BHB27Kernel/search?q=Defconfig%20ena%20BALANCE_ANON_FILE_RECLAIM&type=Commits)
+* [a6e840b Revert "mm: Backport ZCache from QC kernel 3.18"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"mm%3A%20Backport%20ZCache%20from%20QC%20kernel%203.18"&type=Commits)
+* [0a889b7 Revert "defconfig update zcache config"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"defconfig%20update%20zcache%20config"&type=Commits)
+
+***
+
+12-10-2017
+====================
+
+* [942cb91 UPSTREAM: ALSA: timer: Call notifier in the same spinlock](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20ALSA%3A%20timer%3A%20Call%20notifier%20in%20the%20same%20spinlock&type=Commits)
+* [46c7d3f BACKPORT: ALSA: timer: Fix race at concurrent reads](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20at%20concurrent%20reads&type=Commits)
+* [5a0b009 BACKPORT: ALSA: timer: Handle disconnection more safely](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Handle%20disconnection%20more%20safely&type=Commits)
+* [0d0b849 UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20ALSA%3A%20timer%3A%20Fix%20missing%20queue%20indices%20reset%20at%20SNDRV_TIMER_IOCTL_SELECT&type=Commits)
+* [8e9f3f9 BACKPORT: ALSA: timer: Fix race between read and ioctl](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ALSA%3A%20timer%3A%20Fix%20race%20between%20read%20and%20ioctl&type=Commits)
+* [0131f62 include: asm-generic: do not hard code HZ to 100](https://github.com/bhb27/BHB27Kernel/search?q=include%3A%20asm-generic%3A%20do%20not%20hard%20code%20HZ%20to%20100&type=Commits)
+
+***
+
+12-08-2017
+====================
+
+* [d767eed ANDROID: ion: Fix uninitialized variable](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20ion%3A%20Fix%20uninitialized%20variable&type=Commits)
+* [840eea9 ANDROID: scsi: Add segment checking in sg_read](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20scsi%3A%20Add%20segment%20checking%20in%20sg_read&type=Commits)
+* [d478b65 msm: camera: Make use of mutex lock to avoid race condition](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Make%20use%20of%20mutex%20lock%20to%20avoid%20race%20condition&type=Commits)
+* [9ffc064 BACKPORT: dentry name snapshots](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20dentry%20name%20snapshots&type=Commits)
+* [75c296d ANDROID: usb: gadget: f_mtp: Return error if count is negative](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20usb%3A%20gadget%3A%20f_mtp%3A%20Return%20error%20if%20count%20is%20negative&type=Commits)
+* [b37c182 apq8084: remove 'reboot edl' interface for security.](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20remove%20%27reboot%20edl%27%20interface%20for%20security.&type=Commits)
+* [79a2638 defconfig update zcache config](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20update%20zcache%20config&type=Commits)
+* [aafe1b1 mm: vmscan: support equal reclaim for anon and file pages](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20vmscan%3A%20support%20equal%20reclaim%20for%20anon%20and%20file%20pages&type=Commits)
+* [f7e32b1 mm: Backport ZCache from QC kernel 3.18](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20Backport%20ZCache%20from%20QC%20kernel%203.18&type=Commits)
+* [2833d66 msm8x84: update kernel header for msm video](https://github.com/bhb27/BHB27Kernel/search?q=msm8x84%3A%20update%20kernel%20header%20for%20msm%20video&type=Commits)
+* [69cf49c radix-tree: add radix_tree_gang_lookup_index](https://github.com/bhb27/BHB27Kernel/search?q=radix-tree%3A%20add%20radix_tree_gang_lookup_index&type=Commits)
+* [277ea76 lib/decompress: set the compressor name to NULL on error](https://github.com/bhb27/BHB27Kernel/search?q=lib/decompress%3A%20set%20the%20compressor%20name%20to%20NULL%20on%20error&type=Commits)
+* [7fd506c lib/decompress.c: consistency of compress formats for kernel image](https://github.com/bhb27/BHB27Kernel/search?q=lib/decompress.c%3A%20consistency%20of%20compress%20formats%20for%20kernel%20image&type=Commits)
+* [2dbb248 crypto: add lz4 Cryptographic API](https://github.com/bhb27/BHB27Kernel/search?q=crypto%3A%20add%20lz4%20Cryptographic%20API&type=Commits)
+
+***
+
+12-07-2017
+====================
+
+* [fad2966 net: update wireguard](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20update%20wireguard&type=Commits)
+* [6e887c6 build: update wg bin](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20update%20wg%20bin&type=Commits)
+* [7c06213 lowmemorykiller: Run the lowmemory notifier when killing](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20Run%20the%20lowmemory%20notifier%20when%20killing&type=Commits)
+
+***
+
+12-04-2017
+====================
+
+* [581c73d lowmemorykiller: Don't count reserve page twice](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20Don%27t%20count%20reserve%20page%20twice&type=Commits)
+
+***
+
+12-03-2017
+====================
+
+* [78fb95c build: update-binary update permissions related](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20update-binary%20update%20permissions%20related&type=Commits)
+* [5d3ba45 net: Update wireguard support](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20Update%20wireguard%20support&type=Commits)
+* [b6a7adc Build: Update wireguard bin](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20Update%20wireguard%20bin&type=Commits)
+
+***
+
+12-01-2017
+====================
+
+* [b3fecd0 qcacld-2.0: Change local variables to dynamic in limProcessAuthFrame](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Change%20local%20variables%20to%20dynamic%20in%20limProcessAuthFrame&type=Commits)
+* [365bede qcacld-2.0: Fix incorrect processing of encrypted auth frame](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20incorrect%20processing%20of%20encrypted%20auth%20frame&type=Commits)
+* [7ebcb55 qcacld-2.0: Fix out of bound memory access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20out%20of%20bound%20memory%20access&type=Commits)
+* [c141938 Revert "apq8084: qcacld-2.0: limProcessAuthFrame: Alloc challengeTextArray dynamically"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"apq8084%3A%20qcacld-2.0%3A%20limProcessAuthFrame%3A%20Alloc%20challengeTextArray%20dynamically"&type=Commits)
+* [b475ff1 xhci: Remove BUG_ON in xhci_get_input_control_ctx.](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx.&type=Commits)
+* [aa0b0c1 usb: host: replace %p with %pK](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20host%3A%20replace%20%p%20with%20%pK&type=Commits)
+* [9101fbd build update wg file](https://github.com/bhb27/BHB27Kernel/search?q=build%20update%20wg%20file&type=Commits)
+
+***
+
+11-30-2017
+====================
+
+* [c1efdc7 v 8.2](https://github.com/bhb27/BHB27Kernel/search?q=v%208.2&type=Commits)
+* [fb8817e build add wireguard binary and start scripts](https://github.com/bhb27/BHB27Kernel/search?q=build%20add%20wireguard%20binary%20and%20start%20scripts&type=Commits)
+* [c9758f1 defconfig ena CONFIG_WIREGUARD](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20ena%20CONFIG_WIREGUARD&type=Commits)
+* [ac38b4c net: wireguard support](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireguard%20support&type=Commits)
+
+***
+
 11-28-2017
 ====================
 
