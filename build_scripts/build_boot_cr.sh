@@ -17,7 +17,7 @@ export RR_BUILDTYPE="Mod"
 export askvariant=2
 export days_to_log=0
 . build/envsetup.sh 
-lunch cm_quark-userdebug
+lunch lineage_quark-userdebug
 make clean
 time mka bootimage -j8 2>&1 | tee quark.txt
 

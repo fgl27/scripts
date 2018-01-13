@@ -3,6 +3,626 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+01-13-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-13-2018:
+
+#### hardware/qcom/fm/
+* [11c0881 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [9031ecb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [7b0e72c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [510f8d5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [67d1f54 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%20nougat&type=Commits)
+* [c2df103 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [3f7529d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%20nougat&type=Commits)
+* [c3a6754 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [120942a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+* [96f9c9c Don't crash if Blocked Number Storage is disabled](https://github.com/search?q=Don%27t%20crash%20if%20Blocked%20Number%20Storage%20is%20disabled&type=Commits)
+
+#### packages/apps/Eleven/
+* [f02a09b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [ad797a0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [6315e2a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [04a4e71 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20nougat&type=Commits)
+* [bbeaca6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [8a328d6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [fa60f2f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [5fa849f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [1bca7e8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [6eb827d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [856860f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [1c5c25a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
+* [98cbe8e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [509d524 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Nfc into cm-14.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Nfc%20into%20cm-14.1&type=Commits)
+* [c21160c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [320738d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+* [4056242 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [aa095fb Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%20nougat&type=Commits)
+* [94858ea Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [00854bf Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [137ed3d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [b9f3a75 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [53b1bdb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [48b95b4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [d958d07 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [56c9b19 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [82b1346 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [27283e1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [42a013a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20nougat&type=Commits)
+* [215150b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [c705d95 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cm/
+* [cad9a91 Updated Syma APN](https://github.com/search?q=Updated%20Syma%20APN&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-13-2018 End.
+
+01-12-2018
+====================
+
+#### Device specific Changes of 01-12-2018 Start:
+
+#### Kernel/Quark/
+* [ffb6e68 qcacld-2.0: Set length of challenge text sent by SAP to 128](https://github.com/search?q=qcacld-2.0%3A%20Set%20length%20of%20challenge%20text%20sent%20by%20SAP%20to%20128&type=Commits)
+* [b607e41 qcacld-2.0: Fix double memory allocation of encrAuthFrame](https://github.com/search?q=qcacld-2.0%3A%20Fix%20double%20memory%20allocation%20of%20encrAuthFrame&type=Commits)
+
+#### Device specific Changes of 01-12-2018 End.
+
+***
+
+01-11-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-11-2018:
+
+#### packages/apps/Calendar/
+* [bf88827 calendar: fix first notification after boot](https://github.com/search?q=calendar%3A%20fix%20first%20notification%20after%20boot&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-11-2018 End.
+
+01-09-2018
+====================
+
+#### Device specific Changes of 01-09-2018 Start:
+
+#### Kernel/Quark/
+* [b6531f6 msm: mdss: fix wb memory registration optimization](https://github.com/search?q=msm%3A%20mdss%3A%20fix%20wb%20memory%20registration%20optimization&type=Commits)
+* [66653fc clocksource: arch_timer: make virtual counter access configurable](https://github.com/search?q=clocksource%3A%20arch_timer%3A%20make%20virtual%20counter%20access%20configurable&type=Commits)
+* [44ff563 msm: mdss: call wait4comp before wb kickoff](https://github.com/search?q=msm%3A%20mdss%3A%20call%20wait4comp%20before%20wb%20kickoff&type=Commits)
+* [2d3c896 clocksource: arm_arch_timer: Enable counter access for 32-bit ARM](https://github.com/search?q=clocksource%3A%20arm_arch_timer%3A%20Enable%20counter%20access%20for%2032-bit%20ARM&type=Commits)
+* [7a70377 drivers: clocksource: add CPU PM notifier for ARM architected timer](https://github.com/search?q=drivers%3A%20clocksource%3A%20add%20CPU%20PM%20notifier%20for%20ARM%20architected%20timer&type=Commits)
+* [330da24 ARM: arch_timer: add support to configure and enable event stream](https://github.com/search?q=ARM%3A%20arch_timer%3A%20add%20support%20to%20configure%20and%20enable%20event%20stream&type=Commits)
+* [e13e6df ARM64: arch_timer: add support to configure and enable event stream](https://github.com/search?q=ARM64%3A%20arch_timer%3A%20add%20support%20to%20configure%20and%20enable%20event%20stream&type=Commits)
+* [5f2b717 ARM/ARM64: arch_timer: add macros for bits in control register](https://github.com/search?q=ARM/ARM64%3A%20arch_timer%3A%20add%20macros%20for%20bits%20in%20control%20register&type=Commits)
+* [02b7a6e ASoC: msm8x16-wcd: update the gain on EAR sound device](https://github.com/search?q=ASoC%3A%20msm8x16-wcd%3A%20update%20the%20gain%20on%20EAR%20sound%20device&type=Commits)
+* [d089250 ASoC: wcd9xxx: restrict debugfs permission](https://github.com/search?q=ASoC%3A%20wcd9xxx%3A%20restrict%20debugfs%20permission&type=Commits)
+* [6a87cc8 qcacld-2.0: Buffer overflow while parsing setrmcrate command](https://github.com/search?q=qcacld-2.0%3A%20Buffer%20overflow%20while%20parsing%20setrmcrate%20command&type=Commits)
+* [49a4e5f input: synaptics: restrict sysfs node write permissions](https://github.com/search?q=input%3A%20synaptics%3A%20restrict%20sysfs%20node%20write%20permissions&type=Commits)
+* [312787a staging: android: ashmem: fix a race condition in ASHMEM_SET_SIZE ioctl](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20fix%20a%20race%20condition%20in%20ASHMEM_SET_SIZE%20ioctl&type=Commits)
+* [9da1ca6 ipsec: Fix aborted xfrm policy dump crash](https://github.com/search?q=ipsec%3A%20Fix%20aborted%20xfrm%20policy%20dump%20crash&type=Commits)
+
+#### Device specific Changes of 01-09-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 01-09-2018:
+
+#### frameworks/base/
+* [9276ac0 SystemUI: KeyGuardMonitor: Prevent ConcurrentModificationException](https://github.com/search?q=SystemUI%3A%20KeyGuardMonitor%3A%20Prevent%20ConcurrentModificationException&type=Commits)
+* [bc168a8 SystemUI: Recents: Improve code for long app titles being overlapped](https://github.com/search?q=SystemUI%3A%20Recents%3A%20Improve%20code%20for%20long%20app%20titles%20being%20overlapped&type=Commits)
+* [e2b5241 We don't want to feel deprecated...](https://github.com/search?q=We%20don%27t%20want%20to%20feel%20deprecated...&type=Commits)
+* [55dc071 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [0f08c8f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [f1d3d39 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CMParts/
+* [3bc635c Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+* [e4951b7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [8eb3488 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [bef1e51 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%20nougat&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [2020cf5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%20nougat&type=Commits)
+
+#### packages/apps/Dialer/
+* [5643719 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [97d2c1b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20nougat&type=Commits)
+
+#### packages/apps/Messaging/
+* [594fa8a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
+
+#### packages/apps/Nfc/
+* [7a97690 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Nfc into cm-14.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Nfc%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [7b88de5 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [57d3182 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [eff7970 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [df87bdc Settings: Hide physical keyboard settings when no phys. keyboard exists](https://github.com/search?q=Settings%3A%20Hide%20physical%20keyboard%20settings%20when%20no%20phys.%20keyboard%20exists&type=Commits)
+* [f8fa884 Settings: Remove dead code](https://github.com/search?q=Settings%3A%20Remove%20dead%20code&type=Commits)
+* [3da37a6 AppOps: Refactor code](https://github.com/search?q=AppOps%3A%20Refactor%20code&type=Commits)
+
+#### packages/apps/Snap/
+* [383470a Snap: Rip out hdr-need-1x option](https://github.com/search?q=Snap%3A%20Rip%20out%20hdr-need-1x%20option&type=Commits)
+
+#### packages/services/Telecomm/
+* [cccba4b Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20nougat&type=Commits)
+
+#### packages/services/Telephony/
+* [7d91565 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [39dc18f cm: Do not build CMFileManager](https://github.com/search?q=cm%3A%20Do%20not%20build%20CMFileManager&type=Commits)
+* [1591049 sensitive_pn: Add more br number](https://github.com/search?q=sensitive_pn%3A%20Add%20more%20br%20number&type=Commits)
+* [c53b87b overlay: frameworks: allow gms to access persistent data partition](https://github.com/search?q=overlay%3A%20frameworks%3A%20allow%20gms%20to%20access%20persistent%20data%20partition&type=Commits)
+* [1e93fe7 Fix cmsdk overlay path for atv](https://github.com/search?q=Fix%20cmsdk%20overlay%20path%20for%20atv&type=Commits)
+* [9c2c745 apns-conf: Update Ukrainian APNs](https://github.com/search?q=apns-conf%3A%20Update%20Ukrainian%20APNs&type=Commits)
+* [0387e23 apn: Remove "hipri,dun" from Bouygues Telecom](https://github.com/search?q=apn%3A%20Remove%20"hipri,dun"%20from%20Bouygues%20Telecom&type=Commits)
+* [c0a4bdd Add M-tel (BIH) APN for M-tel Frend data plan](https://github.com/search?q=Add%20M-tel%20%28BIH%29%20APN%20for%20M-tel%20Frend%20data%20plan&type=Commits)
+* [2567794 repopick: use https by default for repopicking](https://github.com/search?q=repopick%3A%20use%20https%20by%20default%20for%20repopicking&type=Commits)
+* [e11140f repopick: support auth'ing to gerrit and picking drafts](https://github.com/search?q=repopick%3A%20support%20auth%27ing%20to%20gerrit%20and%20picking%20drafts&type=Commits)
+* [318d9ff sensitive_pn: Fix typo in sensitive phone number](https://github.com/search?q=sensitive_pn%3A%20Fix%20typo%20in%20sensitive%20phone%20number&type=Commits)
+* [2166028 sensitive_pn: Add some more numbers for Canada](https://github.com/search?q=sensitive_pn%3A%20Add%20some%20more%20numbers%20for%20Canada&type=Commits)
+* [86f5a31 sensitive_pn: Sort file](https://github.com/search?q=sensitive_pn%3A%20Sort%20file&type=Commits)
+* [25b30a4 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_vendor_resurrection%20into%20nougat&type=Commits)
+
+#### vendor/cmsdk/
+* [cc3bb15 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-09-2018 End.
+
+01-07-2018
+====================
+
+#### Device specific Changes of 01-07-2018 Start:
+
+#### Kernel/Quark/
+* [5dc8593 defconfig ena WIREGUARD](https://github.com/search?q=defconfig%20ena%20WIREGUARD&type=Commits)
+* [afd1b1b Add wireguad driver](https://github.com/search?q=Add%20wireguad%20driver&type=Commits)
+* [d2477cb Update defconfig net related](https://github.com/search?q=Update%20defconfig%20net%20related&type=Commits)
+* [3ea7668 qcacld-2.0: Add maximum bound check on WPA RSN IE length](https://github.com/search?q=qcacld-2.0%3A%20Add%20maximum%20bound%20check%20on%20WPA%20RSN%20IE%20length&type=Commits)
+* [cf045f1 qcacld-2.0: Race condition while using pkt log buffer](https://github.com/search?q=qcacld-2.0%3A%20Race%20condition%20while%20using%20pkt%20log%20buffer&type=Commits)
+* [cc4de6f apq8084: take_dentry_name_snapshot: avoid kfree under spinlock](https://github.com/search?q=apq8084%3A%20take_dentry_name_snapshot%3A%20avoid%20kfree%20under%20spinlock&type=Commits)
+* [c028cfc UPSTREAM: net: xfrm: allow clearing socket xfrm policies.](https://github.com/search?q=UPSTREAM%3A%20net%3A%20xfrm%3A%20allow%20clearing%20socket%20xfrm%20policies.&type=Commits)
+* [8c85a82 BACKPORT: xfrm: Don't use sk_family for socket policy lookups](https://github.com/search?q=BACKPORT%3A%20xfrm%3A%20Don%27t%20use%20sk_family%20for%20socket%20policy%20lookups&type=Commits)
+* [0335c33 UPSTREAM: ALSA: usb-audio: Kill stray URB at exiting](https://github.com/search?q=UPSTREAM%3A%20ALSA%3A%20usb-audio%3A%20Kill%20stray%20URB%20at%20exiting&type=Commits)
+* [37825b5 BACKPORT: packet: in packet_do_bind, test fanout with bind_lock held](https://github.com/search?q=BACKPORT%3A%20packet%3A%20in%20packet_do_bind,%20test%20fanout%20with%20bind_lock%20held&type=Commits)
+* [585a77b UPSTREAM: packet: hold bind lock when rebinding to fanout hook](https://github.com/search?q=UPSTREAM%3A%20packet%3A%20hold%20bind%20lock%20when%20rebinding%20to%20fanout%20hook&type=Commits)
+* [fc045e5 UPSTREAM: ALSA: usb-audio: Check out-of-bounds access by corrupted buffer descriptor](https://github.com/search?q=UPSTREAM%3A%20ALSA%3A%20usb-audio%3A%20Check%20out-of-bounds%20access%20by%20corrupted%20buffer%20descriptor&type=Commits)
+* [38559e9 UPSTREAM: USB: core: fix out-of-bounds access bug in usb_get_bos_descriptor()](https://github.com/search?q=UPSTREAM%3A%20USB%3A%20core%3A%20fix%20out-of-bounds%20access%20bug%20in%20usb_get_bos_descriptor%28%29&type=Commits)
+* [5c37a17 UPSTREAM: HID: usbhid: fix out-of-bounds bug](https://github.com/search?q=UPSTREAM%3A%20HID%3A%20usbhid%3A%20fix%20out-of-bounds%20bug&type=Commits)
+* [ab0f85e UPSTREAM: USB: fix out-of-bounds in usb_set_configuration](https://github.com/search?q=UPSTREAM%3A%20USB%3A%20fix%20out-of-bounds%20in%20usb_set_configuration&type=Commits)
+* [716d712 BACKPORT: xfrm: Clear sk_dst_cache when applying per-socket policy.](https://github.com/search?q=BACKPORT%3A%20xfrm%3A%20Clear%20sk_dst_cache%20when%20applying%20per-socket%20policy.&type=Commits)
+* [00dc75c BACKPORT: net: xfrm: support setting an output mark.](https://github.com/search?q=BACKPORT%3A%20net%3A%20xfrm%3A%20support%20setting%20an%20output%20mark.&type=Commits)
+* [bdc00a7 BACKPORT: Sanitize 'move_pages()' permission checks](https://github.com/search?q=BACKPORT%3A%20Sanitize%20%27move_pages%28%29%27%20permission%20checks&type=Commits)
+* [8566918 ANDROID: mnt: Fix freeing of mount data](https://github.com/search?q=ANDROID%3A%20mnt%3A%20Fix%20freeing%20of%20mount%20data&type=Commits)
+* [e4cadbe ANDROID: keychord: Fix races in keychord_write.](https://github.com/search?q=ANDROID%3A%20keychord%3A%20Fix%20races%20in%20keychord_write.&type=Commits)
+* [abb2702 Revert "ANDROID: input: keychord: fix race condition bug"](https://github.com/search?q=Revert%20"ANDROID%3A%20input%3A%20keychord%3A%20fix%20race%20condition%20bug"&type=Commits)
+* [8685101 ANDROID: keychord: Fix for a memory leak in keychord.](https://github.com/search?q=ANDROID%3A%20keychord%3A%20Fix%20for%20a%20memory%20leak%20in%20keychord.&type=Commits)
+* [9ee5a43 ANDROID: keychord: Fix a slab out-of-bounds read.](https://github.com/search?q=ANDROID%3A%20keychord%3A%20Fix%20a%20slab%20out-of-bounds%20read.&type=Commits)
+* [6a4244b crypto: ablk_helper - Fix cryptd reordering](https://github.com/search?q=crypto%3A%20ablk_helper%20-%20Fix%20cryptd%20reordering&type=Commits)
+* [34b5e5d crypto: cryptd - Add helpers to check whether a tfm is queued](https://github.com/search?q=crypto%3A%20cryptd%20-%20Add%20helpers%20to%20check%20whether%20a%20tfm%20is%20queued&type=Commits)
+* [86f9a29 crypto: af_alg - Forbid the use internal algorithms](https://github.com/search?q=crypto%3A%20af_alg%20-%20Forbid%20the%20use%20internal%20algorithms&type=Commits)
+* [5a84163 crypto: testmgr - use CRYPTO_ALG_INTERNAL](https://github.com/search?q=crypto%3A%20testmgr%20-%20use%20CRYPTO_ALG_INTERNAL&type=Commits)
+* [fa94fff crypto: api - prevent helper ciphers from being used](https://github.com/search?q=crypto%3A%20api%20-%20prevent%20helper%20ciphers%20from%20being%20used&type=Commits)
+* [8be8471 crypto: ablk_helper - Replace memcpy with struct assignment](https://github.com/search?q=crypto%3A%20ablk_helper%20-%20Replace%20memcpy%20with%20struct%20assignment&type=Commits)
+* [306a5d8 Fix arch/arm/crypto/sha256_glue.c](https://github.com/search?q=Fix%20arch/arm/crypto/sha256_glue.c&type=Commits)
+* [ba94d2d arm: crypto: Add optimized SHA-256/224](https://github.com/search?q=arm%3A%20crypto%3A%20Add%20optimized%20SHA-256/224&type=Commits)
+* [7b63e2c qcacld-2.0: Fix incorrect frame length of encrypted auth frame](https://github.com/search?q=qcacld-2.0%3A%20Fix%20incorrect%20frame%20length%20of%20encrypted%20auth%20frame&type=Commits)
+* [cb1bb3f qcacld-2.0: Fix incorrect length of encrypted auth frame](https://github.com/search?q=qcacld-2.0%3A%20Fix%20incorrect%20length%20of%20encrypted%20auth%20frame&type=Commits)
+* [18ae6a2 ANDROID: binder: fix OOB write in __binder_update_page_range](https://github.com/search?q=ANDROID%3A%20binder%3A%20fix%20OOB%20write%20in%20__binder_update_page_range&type=Commits)
+* [5526030 android: binder: Move buffer out of area shared with user space](https://github.com/search?q=android%3A%20binder%3A%20Move%20buffer%20out%20of%20area%20shared%20with%20user%20space&type=Commits)
+* [a32e08c android: binder: Refactor prev and next buffer into a helper function](https://github.com/search?q=android%3A%20binder%3A%20Refactor%20prev%20and%20next%20buffer%20into%20a%20helper%20function&type=Commits)
+* [e7c8ded BACKPORT: staging: android: fix missing a blank line after declarations](https://github.com/search?q=BACKPORT%3A%20staging%3A%20android%3A%20fix%20missing%20a%20blank%20line%20after%20declarations&type=Commits)
+* [c5d46f4 UPSTREAM: Staging: Android: removed an unnecessary else statement](https://github.com/search?q=UPSTREAM%3A%20Staging%3A%20Android%3A%20removed%20an%20unnecessary%20else%20statement&type=Commits)
+* [47aad24 UPSTREAM: include/linux/mm.h: add PAGE_ALIGNED() helper](https://github.com/search?q=UPSTREAM%3A%20include/linux/mm.h%3A%20add%20PAGE_ALIGNED%28%29%20helper&type=Commits)
+* [fc844b1 binder: always allocate/map first BINDER_MIN_ALLOC pages](https://github.com/search?q=binder%3A%20always%20allocate/map%20first%20BINDER_MIN_ALLOC%20pages&type=Commits)
+* [68666a9 Revert "binder: revert 10/12 changes"](https://github.com/search?q=Revert%20"binder%3A%20revert%2010/12%20changes"&type=Commits)
+
+#### Device specific Changes of 01-07-2018 End.
+
+***
+
+01-06-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-06-2018:
+
+#### hardware/ti/omap4/
+* [c04881d omap4: Fix kernel module build](https://github.com/search?q=omap4%3A%20Fix%20kernel%20module%20build&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-06-2018 End.
+
+01-05-2018
+====================
+
+#### Device specific Changes of 01-05-2018 Start:
+
+#### Device/Quark/
+* [1ab0263 Quark: liblight add Always led blink on option](https://github.com/search?q=Quark%3A%20liblight%20add%20Always%20led%20blink%20on%20option&type=Commits)
+
+#### Device specific Changes of 01-05-2018 End.
+
+***
+
+01-02-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-02-2018:
+
+#### frameworks/opt/telephony/
+* [cc70a31 ImsPhoneCallTrackerTest: add missing imports](https://github.com/search?q=ImsPhoneCallTrackerTest%3A%20add%20missing%20imports&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-02-2018 End.
+
+12-31-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-31-2017:
+
+#### android/
+* [bf7d741 Merge pull request #108 from christopherkardas/nougat](https://github.com/search?q=Merge%20pull%20request%20%23108%20from%20christopherkardas/nougat&type=Commits)
+* [2ef0a78 The future is now](https://github.com/search?q=The%20future%20is%20now&type=Commits)
+
+#### vendor/cm/
+* [6a135a9 The future is now](https://github.com/search?q=The%20future%20is%20now&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-31-2017 End.
+
+12-30-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-30-2017:
+
+#### packages/apps/Dialer/
+* [72dee29 Dialer: Fix string issues](https://github.com/search?q=Dialer%3A%20Fix%20string%20issues&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-30-2017 End.
+
+12-29-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-29-2017:
+
+#### bootable/recovery/
+* [3062c1a BACKPORT: Fix a rare failure for imgdiff when random data equals gzip header](https://github.com/search?q=BACKPORT%3A%20Fix%20a%20rare%20failure%20for%20imgdiff%20when%20random%20data%20equals%20gzip%20header&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-29-2017 End.
+
+12-28-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-28-2017:
+
+#### vendor/cm/
+* [b87ef4c Update Magisk to v15.0 and Magisk Manager to v5.5.1 (#102)](https://github.com/search?q=Update%20Magisk%20to%20v15.0%20and%20Magisk%20Manager%20to%20v5.5.1%20%28%23102%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-28-2017 End.
+
+12-24-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-24-2017:
+
+#### external/chromium-webview/
+* [ea18916 Update webviews to Chromium 63.0.3239.111](https://github.com/search?q=Update%20webviews%20to%20Chromium%2063.0.3239.111&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-24-2017 End.
+
+12-23-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-23-2017:
+
+#### packages/apps/Snap/
+* [c89f3ae Snap: add QReader to module switch](https://github.com/search?q=Snap%3A%20add%20QReader%20to%20module%20switch&type=Commits)
+* [f0e61e5 QuickReader: initial commit](https://github.com/search?q=QuickReader%3A%20initial%20commit&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-23-2017 End.
+
+12-22-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-22-2017:
+
+#### system/vold/
+* [f902c08 vold: Fix cryptfs changepw parsing](https://github.com/search?q=vold%3A%20Fix%20cryptfs%20changepw%20parsing&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-22-2017 End.
+
+12-21-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-21-2017:
+
+#### hardware/cyanogen/
+* [f66b300 cmhw: Remove duplicate class](https://github.com/search?q=cmhw%3A%20Remove%20duplicate%20class&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-21-2017 End.
+
+12-19-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-19-2017:
+
+#### hardware/cyanogen/
+* [f05c023 cmhw: Update picture adjustment class with proper comments](https://github.com/search?q=cmhw%3A%20Update%20picture%20adjustment%20class%20with%20proper%20comments&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-19-2017 End.
+
+12-18-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-18-2017:
+
+#### packages/apps/AudioFX/
+* [8a61c77 AudioFX: fix NPE at onPrepareOptionsMenu](https://github.com/search?q=AudioFX%3A%20fix%20NPE%20at%20onPrepareOptionsMenu&type=Commits)
+
+#### packages/apps/Dialer/
+* [f76d042 Dialer: Fix translation issues](https://github.com/search?q=Dialer%3A%20Fix%20translation%20issues&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [e0605c0 Disable SetupWraith, if GMS not present](https://github.com/search?q=Disable%20SetupWraith,%20if%20GMS%20not%20present&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-18-2017 End.
+
+12-17-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-17-2017:
+
+#### hardware/qcom/fm/
+* [d2076f6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [75416c7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [1e3e898 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [dbe58e9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [cadd428 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [9eef2ce Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [d78955d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [85624a1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [aa20c3d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [65baa92 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [725ec84 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [23b5e4c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [0b6c801 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [bcf2739 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [58289b0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [23b3a67 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [8eb3492 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [6020499 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [96f863c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [0702920 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [4ec1d12 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [0f17ea0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [863796f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [69db90b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [2faacd2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [2daea4c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [375c57a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [1d44b4b Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [5e6b2a5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [6651fb0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [10e4796 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [0cd80ff Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [313ca94 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [0dc77fe Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [981b6b3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [3f0a942 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BookmarkProvider/
+* [dc340ad Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [47ac2eb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [4c5005c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [c6d0a39 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [2b23134 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [26d84a3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [6b8d93a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [ed2c2b6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [e176b4f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [1f490df Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [a1ab1af Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/CMAudioService/
+* [4f17600 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [fc0f2bb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [6762bf7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/WeatherService/
+* [a0c8c93 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [9313bd7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+* [91c51e6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+* [5a1dea1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-17-2017 End.
+
+12-15-2017
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 12-15-2017:
+
+#### packages/apps/DUI/
+* [18ad534 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/OmniSwitch/
+* [d8ed940 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [06581e9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionStats/
+* [396c1b6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 12-15-2017 End.
+
 12-12-2017
 ====================
 
