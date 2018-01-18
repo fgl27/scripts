@@ -7,21 +7,9 @@ START2="$(date)";
 echo -e "\n build start $(date)\n";
 
 #source tree folder yours machine source folder
-#main source foludes
-FOLDER=/home/bhb27/android/om;
-#other source folder on the same machine, because of cacche gcc tool is connected
-FOLDER2=/home/bhb27/android/o;
+FOLDER=/home/bhb27/android/o;
 
-#cd $FOLDER
-#. build/envsetup.sh
-#make clean
-
-cd $FOLDER2
-
-cd hardware/qcom/media-caf/apq8084/
-git fetch https://github.com/LineageOS/android_hardware_qcom_media refs/changes/52/202052/1 && git cherry-pick FETCH_HEAD
-cd -
-
+cd $FOLDER
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
