@@ -3,6 +3,42 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+01-22-2018
+====================
+
+* [de052a3 qcacld-2.0: Add break at the end of switch case](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20break%20at%20the%20end%20of%20switch%20case&type=Commits)
+* [9f2e54e qcacld-2.0: Fix NOL update incorrectly](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20NOL%20update%20incorrectly&type=Commits)
+* [8b624bc qcacld-2.0: Fix frame lenth information to cfg80211](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20frame%20lenth%20information%20to%20cfg80211&type=Commits)
+* [acfd362 qcacld-2.0: Resolve out of bound memory access while processing VSIEs](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Resolve%20out%20of%20bound%20memory%20access%20while%20processing%20VSIEs&type=Commits)
+* [b8ffb10 qcacld-2.0: Stale scan entries updated to NL](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Stale%20scan%20entries%20updated%20to%20NL&type=Commits)
+* [830a89c qcacld-2.0: TDLS power save check should be done after removing command](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20TDLS%20power%20save%20check%20should%20be%20done%20after%20removing%20command&type=Commits)
+* [040ff83 qcacld-2.0: Implicit TDLS Discovery Request event through supplicant](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Implicit%20TDLS%20Discovery%20Request%20event%20through%20supplicant&type=Commits)
+* [f301bad cld-2.0: Fix memory leak in TDLS when interface is changed to ADHOC](https://github.com/bhb27/BHB27Kernel/search?q=cld-2.0%3A%20Fix%20memory%20leak%20in%20TDLS%20when%20interface%20is%20changed%20to%20ADHOC&type=Commits)
+* [e759790 qcacld-2.0: Fix NULL tx_desc pool dereference](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20NULL%20tx_desc%20pool%20dereference&type=Commits)
+* [8bd660d qcacld-2.0: Fix incorrect return value in hdd_driver_command](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20incorrect%20return%20value%20in%20hdd_driver_command&type=Commits)
+* [dbd8baa qcacld-2.0: Fix incorrect argument in hdd_driver_command](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20incorrect%20argument%20in%20hdd_driver_command&type=Commits)
+
+***
+
+01-20-2018
+====================
+
+* [e9f218b qcacld-2.0: Handling Disassoc frame in P2P client mode](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Handling%20Disassoc%20frame%20in%20P2P%20client%20mode&type=Commits)
+* [643d8a7 qcacld-2.0: Change the reassoc timer value to 500ms](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Change%20the%20reassoc%20timer%20value%20to%20500ms&type=Commits)
+* [b371769 qcacld-2.0: Fix status code during disassociation](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20status%20code%20during%20disassociation&type=Commits)
+* [4d23f41 qcacld-2.0: Optimize WoW Wakelock usage in Runtime PM](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Optimize%20WoW%20Wakelock%20usage%20in%20Runtime%20PM&type=Commits)
+* [c12625c V 8.4](https://github.com/bhb27/BHB27Kernel/search?q=V%208.4&type=Commits)
+* [9a9350f qcacld-2.0: Add proper check to avoid invoking tear down link multiple time](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20proper%20check%20to%20avoid%20invoking%20tear%20down%20link%20multiple%20time&type=Commits)
+* [4510ab8 qcacld-2.0: Ensure the fw parameters are restored](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Ensure%20the%20fw%20parameters%20are%20restored&type=Commits)
+* [70d44c0 qcacld-2.0: Handle Reassociation request failure](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Handle%20Reassociation%20request%20failure&type=Commits)
+* [e6d7bc1 qcacld-2.0: Remove hardcoded value and set qpower appropriately](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20hardcoded%20value%20and%20set%20qpower%20appropriately&type=Commits)
+* [c70697d qcacld-2.0: Add support for duty cycling qpower feature](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20support%20for%20duty%20cycling%20qpower%20feature&type=Commits)
+* [10b00e0 qcacld: UMAC: Use the defined macros consistently across](https://github.com/bhb27/BHB27Kernel/search?q=qcacld%3A%20UMAC%3A%20Use%20the%20defined%20macros%20consistently%20across&type=Commits)
+* [d45c1f6 qcacld-2.0: Drop disconnection indication from firmware in transit state](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Drop%20disconnection%20indication%20from%20firmware%20in%20transit%20state&type=Commits)
+* [cd71e46 qcacld: Unrecoverable Scan failure when on/off stress is running](https://github.com/bhb27/BHB27Kernel/search?q=qcacld%3A%20Unrecoverable%20Scan%20failure%20when%20on/off%20stress%20is%20running&type=Commits)
+
+***
+
 01-12-2018
 ====================
 
