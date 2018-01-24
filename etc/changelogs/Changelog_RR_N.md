@@ -3,10 +3,314 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+01-24-2018
+====================
+
+#### Device specific Changes of 01-24-2018 Start:
+
+#### Device/Quark/
+* [2a2c4bf Quark: overlay remove setting from power menu as it no longer matches](https://github.com/search?q=Quark%3A%20overlay%20remove%20setting%20from%20power%20menu%20as%20it%20no%20longer%20matches&type=Commits)
+
+#### Kernel/Quark/
+* [7e982d3 qcacld-2.0: Add break at the end of switch case](https://github.com/search?q=qcacld-2.0%3A%20Add%20break%20at%20the%20end%20of%20switch%20case&type=Commits)
+* [7b7beec qcacld-2.0: Fix NOL update incorrectly](https://github.com/search?q=qcacld-2.0%3A%20Fix%20NOL%20update%20incorrectly&type=Commits)
+* [ce4da10 qcacld-2.0: Fix frame lenth information to cfg80211](https://github.com/search?q=qcacld-2.0%3A%20Fix%20frame%20lenth%20information%20to%20cfg80211&type=Commits)
+* [5ec6dd4 qcacld-2.0: Resolve out of bound memory access while processing VSIEs](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20out%20of%20bound%20memory%20access%20while%20processing%20VSIEs&type=Commits)
+* [7168ef0 qcacld-2.0: Stale scan entries updated to NL](https://github.com/search?q=qcacld-2.0%3A%20Stale%20scan%20entries%20updated%20to%20NL&type=Commits)
+* [3821529 qcacld-2.0: TDLS power save check should be done after removing command](https://github.com/search?q=qcacld-2.0%3A%20TDLS%20power%20save%20check%20should%20be%20done%20after%20removing%20command&type=Commits)
+* [9ea7a84 qcacld-2.0: Implicit TDLS Discovery Request event through supplicant](https://github.com/search?q=qcacld-2.0%3A%20Implicit%20TDLS%20Discovery%20Request%20event%20through%20supplicant&type=Commits)
+* [dec8334 cld-2.0: Fix memory leak in TDLS when interface is changed to ADHOC](https://github.com/search?q=cld-2.0%3A%20Fix%20memory%20leak%20in%20TDLS%20when%20interface%20is%20changed%20to%20ADHOC&type=Commits)
+* [3e86b3f qcacld-2.0: Fix NULL tx_desc pool dereference](https://github.com/search?q=qcacld-2.0%3A%20Fix%20NULL%20tx_desc%20pool%20dereference&type=Commits)
+* [430c902 qcacld-2.0: Fix incorrect return value in hdd_driver_command](https://github.com/search?q=qcacld-2.0%3A%20Fix%20incorrect%20return%20value%20in%20hdd_driver_command&type=Commits)
+* [a32ffb9 qcacld-2.0: Fix incorrect argument in hdd_driver_command](https://github.com/search?q=qcacld-2.0%3A%20Fix%20incorrect%20argument%20in%20hdd_driver_command&type=Commits)
+
+#### Device specific Changes of 01-24-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 01-24-2018:
+
+#### build/
+* [e719a96 Bump security patch level to 2018-01-05](https://github.com/search?q=Bump%20security%20patch%20level%20to%202018-01-05&type=Commits)
+
+#### frameworks/av/
+* [711a05e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [78d8fa5 Fix miss merge](https://github.com/search?q=Fix%20miss%20merge&type=Commits)
+* [cc6356f livedisplay: Allow tile creation before boot completed phase [2/2]](https://github.com/search?q=livedisplay%3A%20Allow%20tile%20creation%20before%20boot%20completed%20phase%20[2/2]&type=Commits)
+* [c3d2c9f SystemUI: Fix crash when taking screenshot in partial screenshot view](https://github.com/search?q=SystemUI%3A%20Fix%20crash%20when%20taking%20screenshot%20in%20partial%20screenshot%20view&type=Commits)
+* [b8f814e GlobalActions: Misc power menu cleanup](https://github.com/search?q=GlobalActions%3A%20Misc%20power%20menu%20cleanup&type=Commits)
+* [e0e6e6f GlobalActions: Fix setting ringer mode in global actions](https://github.com/search?q=GlobalActions%3A%20Fix%20setting%20ringer%20mode%20in%20global%20actions&type=Commits)
+* [50c253d fw: GlobalActions: Always dismiss any existing dialog](https://github.com/search?q=fw%3A%20GlobalActions%3A%20Always%20dismiss%20any%20existing%20dialog&type=Commits)
+* [4b05c1b Keyguard: Don't apply input restriction if disabled by profile](https://github.com/search?q=Keyguard%3A%20Don%27t%20apply%20input%20restriction%20if%20disabled%20by%20profile&type=Commits)
+* [3dcb203 DO NOT MERGE Backporting potential usb tapjacking precaution.](https://github.com/search?q=DO%20NOT%20MERGE%20Backporting%20potential%20usb%20tapjacking%20precaution.&type=Commits)
+* [1df2453 mtp: fix double free of thumbnail data](https://github.com/search?q=mtp%3A%20fix%20double%20free%20of%20thumbnail%20data&type=Commits)
+* [0bf795d Throw OOME if Bitmap.nativeCreate fails](https://github.com/search?q=Throw%20OOME%20if%20Bitmap.nativeCreate%20fails&type=Commits)
+* [b3628da Adjust Uri host parsing to use last instead of first @.](https://github.com/search?q=Adjust%20Uri%20host%20parsing%20to%20use%20last%20instead%20of%20first%20%40.&type=Commits)
+* [a19b0a4 SysUI: Add Russian translation for accessibility_battery_level_charging](https://github.com/search?q=SysUI%3A%20Add%20Russian%20translation%20for%20accessibility_battery_level_charging&type=Commits)
+* [269d741 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CMParts/
+* [85887dc CMParts: Remove unused power menu actions and cleanup](https://github.com/search?q=CMParts%3A%20Remove%20unused%20power%20menu%20actions%20and%20cleanup&type=Commits)
+* [ee13a48 CMParts: Don't disable whole home button category](https://github.com/search?q=CMParts%3A%20Don%27t%20disable%20whole%20home%20button%20category&type=Commits)
+* [28a9bdb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [7a69813 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
+#### packages/apps/Jelly/
+* [f280cab Jelly: Set correct webview visibility on Show/Hide CustomView](https://github.com/search?q=Jelly%3A%20Set%20correct%20webview%20visibility%20on%20Show/Hide%20CustomView&type=Commits)
+
+#### packages/apps/Settings/
+* [d5ffaa6 CMParts: Remove unused power menu actions and cleanup](https://github.com/search?q=CMParts%3A%20Remove%20unused%20power%20menu%20actions%20and%20cleanup&type=Commits)
+* [cd4256d DevelopmentSettings: Fix possible NPE](https://github.com/search?q=DevelopmentSettings%3A%20Fix%20possible%20NPE&type=Commits)
+* [a9d86b9 DevelopmentSettings: Hide OEM unlock by default](https://github.com/search?q=DevelopmentSettings%3A%20Hide%20OEM%20unlock%20by%20default&type=Commits)
+
+#### packages/services/Telephony/
+* [55e3136 Fix miss merge](https://github.com/search?q=Fix%20miss%20merge&type=Commits)
+* [2227534 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### system/core/
+* [03a7788 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_system_core%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [755e242 Added Cape Verde carrier CVMóvel default APN as configured by sales agents](https://github.com/search?q=Added%20Cape%20Verde%20carrier%20CVMóvel%20default%20APN%20as%20configured%20by%20sales%20agents&type=Commits)
+* [c236687 Add APN for iD Mobile UK MVNO](https://github.com/search?q=Add%20APN%20for%20iD%20Mobile%20UK%20MVNO&type=Commits)
+* [dd0b87a envsetup: Clean up for install[boot|recovery]](https://github.com/search?q=envsetup%3A%20Clean%20up%20for%20install[boot|recovery]&type=Commits)
+* [e630fc8 ATV: Default double tap on home to the recents menu](https://github.com/search?q=ATV%3A%20Default%20double%20tap%20on%20home%20to%20the%20recents%20menu&type=Commits)
+* [0a605ed sensitive_pn: added Belgium & Switzerland](https://github.com/search?q=sensitive_pn%3A%20added%20Belgium%20&%20Switzerland&type=Commits)
+
+#### vendor/cmsdk/
+* [c6a280d livedisplay: Allow tile creation before boot completed phase [1/2]](https://github.com/search?q=livedisplay%3A%20Allow%20tile%20creation%20before%20boot%20completed%20phase%20[1/2]&type=Commits)
+* [1be6b64 cmsdk: fix picture adjustment from depending on color balance](https://github.com/search?q=cmsdk%3A%20fix%20picture%20adjustment%20from%20depending%20on%20color%20balance&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-24-2018 End.
+
+01-23-2018
+====================
+
+#### Device specific Changes of 01-23-2018 Start:
+
+#### Device/Quark/
+* [1e255b2 Quark: update liblight](https://github.com/search?q=Quark%3A%20update%20liblight&type=Commits)
+
+#### Device specific Changes of 01-23-2018 End.
+
+***
+
+01-22-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-22-2018:
+
+#### packages/apps/Jelly/
+* [77b808b Jelly: add dialog to show SSL certificate info](https://github.com/search?q=Jelly%3A%20add%20dialog%20to%20show%20SSL%20certificate%20info&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-22-2018 End.
+
+01-20-2018
+====================
+
+#### Device specific Changes of 01-20-2018 Start:
+
+#### Kernel/Quark/
+* [9aa3acd qcacld-2.0: Handling Disassoc frame in P2P client mode](https://github.com/search?q=qcacld-2.0%3A%20Handling%20Disassoc%20frame%20in%20P2P%20client%20mode&type=Commits)
+* [cfa56f9 qcacld-2.0: Change the reassoc timer value to 500ms](https://github.com/search?q=qcacld-2.0%3A%20Change%20the%20reassoc%20timer%20value%20to%20500ms&type=Commits)
+* [a4bf7cc qcacld-2.0: Fix status code during disassociation](https://github.com/search?q=qcacld-2.0%3A%20Fix%20status%20code%20during%20disassociation&type=Commits)
+* [0a25e51 qcacld-2.0: Optimize WoW Wakelock usage in Runtime PM](https://github.com/search?q=qcacld-2.0%3A%20Optimize%20WoW%20Wakelock%20usage%20in%20Runtime%20PM&type=Commits)
+* [7ea2f86 qcacld-2.0: Add proper check to avoid invoking tear down link multiple time](https://github.com/search?q=qcacld-2.0%3A%20Add%20proper%20check%20to%20avoid%20invoking%20tear%20down%20link%20multiple%20time&type=Commits)
+* [df829c7 qcacld-2.0: Ensure the fw parameters are restored](https://github.com/search?q=qcacld-2.0%3A%20Ensure%20the%20fw%20parameters%20are%20restored&type=Commits)
+* [6a805e2 qcacld-2.0: Handle Reassociation request failure](https://github.com/search?q=qcacld-2.0%3A%20Handle%20Reassociation%20request%20failure&type=Commits)
+* [8eb764e qcacld-2.0: Remove hardcoded value and set qpower appropriately](https://github.com/search?q=qcacld-2.0%3A%20Remove%20hardcoded%20value%20and%20set%20qpower%20appropriately&type=Commits)
+* [9d2a798 qcacld-2.0: Add support for duty cycling qpower feature](https://github.com/search?q=qcacld-2.0%3A%20Add%20support%20for%20duty%20cycling%20qpower%20feature&type=Commits)
+* [2281dca qcacld: UMAC: Use the defined macros consistently across](https://github.com/search?q=qcacld%3A%20UMAC%3A%20Use%20the%20defined%20macros%20consistently%20across&type=Commits)
+* [1fe088c qcacld-2.0: Drop disconnection indication from firmware in transit state](https://github.com/search?q=qcacld-2.0%3A%20Drop%20disconnection%20indication%20from%20firmware%20in%20transit%20state&type=Commits)
+* [10418ae qcacld: Unrecoverable Scan failure when on/off stress is running](https://github.com/search?q=qcacld%3A%20Unrecoverable%20Scan%20failure%20when%20on/off%20stress%20is%20running&type=Commits)
+* [39d16d1 qcacld-2.0: fix build with debug disable](https://github.com/search?q=qcacld-2.0%3A%20fix%20build%20with%20debug%20disable&type=Commits)
+* [1ec8ef7 qcacld-2.0: Change to drop received beacon in deferred state](https://github.com/search?q=qcacld-2.0%3A%20Change%20to%20drop%20received%20beacon%20in%20deferred%20state&type=Commits)
+* [b34f0c2 qcacld-2.0: Fix to limit the number of disassocs.](https://github.com/search?q=qcacld-2.0%3A%20Fix%20to%20limit%20the%20number%20of%20disassocs.&type=Commits)
+* [5292d3d qcacld-2.0: Fix roam start not being sent to firmware](https://github.com/search?q=qcacld-2.0%3A%20Fix%20roam%20start%20not%20being%20sent%20to%20firmware&type=Commits)
+* [03c7c1b qcacld-2.0: Reset roaming in progress flag once roaming fails](https://github.com/search?q=qcacld-2.0%3A%20Reset%20roaming%20in%20progress%20flag%20once%20roaming%20fails&type=Commits)
+* [3a57587 qcacld-2.0: Allow Roaming Abort command to firmware](https://github.com/search?q=qcacld-2.0%3A%20Allow%20Roaming%20Abort%20command%20to%20firmware&type=Commits)
+* [ee808c5 Revert "qcacld-2.0: Allow power save to be controlled by iw command"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Allow%20power%20save%20to%20be%20controlled%20by%20iw%20command"&type=Commits)
+* [33db6f7 qcacld-2.0: Allow power save to be controlled by iw command](https://github.com/search?q=qcacld-2.0%3A%20Allow%20power%20save%20to%20be%20controlled%20by%20iw%20command&type=Commits)
+* [9dfd136 qcacld-2.0: Purge scan results only when scan is complete](https://github.com/search?q=qcacld-2.0%3A%20Purge%20scan%20results%20only%20when%20scan%20is%20complete&type=Commits)
+* [3d43fdf qcacld-2.0: Purge the scan results by age before posting to upper layer](https://github.com/search?q=qcacld-2.0%3A%20Purge%20the%20scan%20results%20by%20age%20before%20posting%20to%20upper%20layer&type=Commits)
+* [4fc7dea qcacld-2.0: Remove hTimerResultAging.](https://github.com/search?q=qcacld-2.0%3A%20Remove%20hTimerResultAging.&type=Commits)
+* [ee6e91c qcacld-2.0: Fix out of bound access in csrScanSmeScanResponse](https://github.com/search?q=qcacld-2.0%3A%20Fix%20out%20of%20bound%20access%20in%20csrScanSmeScanResponse&type=Commits)
+* [aa624b2 qcacld-2.0: Fix out of bound access in ptt_sock_send_msg_to_app](https://github.com/search?q=qcacld-2.0%3A%20Fix%20out%20of%20bound%20access%20in%20ptt_sock_send_msg_to_app&type=Commits)
+* [c3b4bf0 qcacld-2.0: Fix memory leak during SAP restart](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20during%20SAP%20restart&type=Commits)
+* [cbe5449 qcacld-2.0: Fix memory leak during IPA response message handling](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20during%20IPA%20response%20message%20handling&type=Commits)
+* [72a9263 qcacld-2.0: fix wlan suspend fail after switch to non-dfs channel](https://github.com/search?q=qcacld-2.0%3A%20fix%20wlan%20suspend%20fail%20after%20switch%20to%20non-dfs%20channel&type=Commits)
+* [0cb7847 qcacld-2.0: Fix the memory leak caused by pmfSaQueryTimer](https://github.com/search?q=qcacld-2.0%3A%20Fix%20the%20memory%20leak%20caused%20by%20pmfSaQueryTimer&type=Commits)
+* [21c7d381 qcacld-2.0: Fix memory leak in del bss response.](https://github.com/search?q=%20qcacld-2.0%3A%20Fix%20memory%20leak%20in%20del%20bss%20response.&type=Commits)
+* [286873f qcacld-2.0: Avoid race between user triggered disconnect and OTA disconnect](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20race%20between%20user%20triggered%20disconnect%20and%20OTA%20disconnect&type=Commits)
+* [13c3c04 qcacld-2.0: Discard TDLS mgmt frames if violates ACM rules](https://github.com/search?q=qcacld-2.0%3A%20Discard%20TDLS%20mgmt%20frames%20if%20violates%20ACM%20rules&type=Commits)
+* [8049016 qcacld-2.0: Add adapter null pointer check when restart tdls timer](https://github.com/search?q=qcacld-2.0%3A%20Add%20adapter%20null%20pointer%20check%20when%20restart%20tdls%20timer&type=Commits)
+* [d927cdd qcacld-2.0: Delete TDLS peers upon receiving disassoc from AP](https://github.com/search?q=qcacld-2.0%3A%20Delete%20TDLS%20peers%20upon%20receiving%20disassoc%20from%20AP&type=Commits)
+* [14bb9d3 qcacld-2.0: Fix consecutive TDLS connection failure after TDLS add sta failure](https://github.com/search?q=qcacld-2.0%3A%20Fix%20consecutive%20TDLS%20connection%20failure%20after%20TDLS%20add%20sta%20failure&type=Commits)
+* [c924f44 TDLS: Fix for getTdlspeers in case of explicit trigger.](https://github.com/search?q=TDLS%3A%20Fix%20for%20getTdlspeers%20in%20case%20of%20explicit%20trigger.&type=Commits)
+* [2a69f58 qcacld-2.0: Enable WMM-QoS for HT capable TDLS peers](https://github.com/search?q=qcacld-2.0%3A%20Enable%20WMM-QoS%20for%20HT%20capable%20TDLS%20peers&type=Commits)
+* [2be418f qcacld-2.0: Fix TDLS peer QoS capability in transport layer](https://github.com/search?q=qcacld-2.0%3A%20Fix%20TDLS%20peer%20QoS%20capability%20in%20transport%20layer&type=Commits)
+* [b69b519 qcacld-2.0: Enable QOS if TDLS peers are QOS capable](https://github.com/search?q=qcacld-2.0%3A%20Enable%20QOS%20if%20TDLS%20peers%20are%20QOS%20capable&type=Commits)
+* [e401aba qcacld-2.0: Protect cfg80211 netdev ops and wext ioctls from SSR](https://github.com/search?q=qcacld-2.0%3A%20Protect%20cfg80211%20netdev%20ops%20and%20wext%20ioctls%20from%20SSR&type=Commits)
+* [0adb8f1 apq8084: qcacld-2.0: remove obsolete hdd_hostapd_hard_start_xmit function](https://github.com/search?q=apq8084%3A%20qcacld-2.0%3A%20remove%20obsolete%20hdd_hostapd_hard_start_xmit%20function&type=Commits)
+* [a0d9e1f qcacld-2.0: Update QOS capability of TDLS station/link with TL](https://github.com/search?q=qcacld-2.0%3A%20Update%20QOS%20capability%20of%20TDLS%20station/link%20with%20TL&type=Commits)
+* [9d75f70 qcacld-2.0: Fix to send TDLS frames on peer sta index](https://github.com/search?q=qcacld-2.0%3A%20Fix%20to%20send%20TDLS%20frames%20on%20peer%20sta%20index&type=Commits)
+* [8017dfd qcacld: Send TDLS setup request and response with VI tid](https://github.com/search?q=qcacld%3A%20Send%20TDLS%20setup%20request%20and%20response%20with%20VI%20tid&type=Commits)
+* [3f531e9 qcacld-2.0: Indicate teardown to all TDLS peers when disconnect from BSS](https://github.com/search?q=qcacld-2.0%3A%20Indicate%20teardown%20to%20all%20TDLS%20peers%20when%20disconnect%20from%20BSS&type=Commits)
+* [01c4b9a qcacld-2.0: Send Deauth to tdls peers in case of concurrent connection.](https://github.com/search?q=qcacld-2.0%3A%20Send%20Deauth%20to%20tdls%20peers%20in%20case%20of%20concurrent%20connection.&type=Commits)
+* [118459c qcacld-2.0: Teardown TDLS link on TDLS link establish request failure](https://github.com/search?q=qcacld-2.0%3A%20Teardown%20TDLS%20link%20on%20TDLS%20link%20establish%20request%20failure&type=Commits)
+* [1e6434a qcacld-2.0: Reduce roaming delay by moving tdls cb after enabling queues](https://github.com/search?q=qcacld-2.0%3A%20Reduce%20roaming%20delay%20by%20moving%20tdls%20cb%20after%20enabling%20queues&type=Commits)
+* [dc17bee qcacld-2.0: Initialize TDLS context in HDD when a peer is added](https://github.com/search?q=qcacld-2.0%3A%20Initialize%20TDLS%20context%20in%20HDD%20when%20a%20peer%20is%20added&type=Commits)
+* [2baa9b0 qcacld-2.0: Don't populate TDLS IE's in extended capabilities](https://github.com/search?q=qcacld-2.0%3A%20Don%27t%20populate%20TDLS%20IE%27s%20in%20extended%20capabilities&type=Commits)
+* [a7d80cd qcacld-2.0: Set valid min value for gTDLSPrefOffChanBandwidth](https://github.com/search?q=qcacld-2.0%3A%20Set%20valid%20min%20value%20for%20gTDLSPrefOffChanBandwidth&type=Commits)
+* [cc4c85f qcacld-2.0: Do not include 11b rates in TDLS setup request](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20include%2011b%20rates%20in%20TDLS%20setup%20request&type=Commits)
+* [5b823e5 qcacld-2.0: Fix memory leak for 3 port concurrency feature.](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20for%203%20port%20concurrency%20feature.&type=Commits)
+* [cfb6674 qcacld-2.0: Fix memory leak when SSR is triggered](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20when%20SSR%20is%20triggered&type=Commits)
+* [30a46ca qcacld-2.0: Resolve memory leakage in limAssocUtils.c](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20memory%20leakage%20in%20limAssocUtils.c&type=Commits)
+* [027c347 qcacld-2.0: Resolve memory leak issues](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20memory%20leak%20issues&type=Commits)
+* [c173474 qcacld-2.0: Fix parsing of iwpriv settdlsconfig command arguments](https://github.com/search?q=qcacld-2.0%3A%20Fix%20parsing%20of%20iwpriv%20settdlsconfig%20command%20arguments&type=Commits)
+* [8aaef57 qcacld-2.0: Do runtime resume when a packet comes to fw paused tx queues](https://github.com/search?q=qcacld-2.0%3A%20Do%20runtime%20resume%20when%20a%20packet%20comes%20to%20fw%20paused%20tx%20queues&type=Commits)
+* [dbb20a7 qcacld-2.0: API to do runtime pm active](https://github.com/search?q=qcacld-2.0%3A%20API%20to%20do%20runtime%20pm%20active&type=Commits)
+* [bd0d356 qcacld-2.0: sustain wlan in low PS mode](https://github.com/search?q=qcacld-2.0%3A%20sustain%20wlan%20in%20low%20PS%20mode&type=Commits)
+* [5076bcf qcacld-2.0: Unpause all vdevs when host resumes](https://github.com/search?q=qcacld-2.0%3A%20Unpause%20all%20vdevs%20when%20host%20resumes&type=Commits)
+* [16f4986 qcacld-2.0: Fix compilation error in TXTX](https://github.com/search?q=qcacld-2.0%3A%20Fix%20compilation%20error%20in%20TXTX&type=Commits)
+* [7a438be qcacld-2.0: Avoid dereferencing of NULL pointer](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20dereferencing%20of%20NULL%20pointer&type=Commits)
+* [ccbdc00 qcacld-2.0: Fix buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow&type=Commits)
+* [7488c63 qcacld-2.0: Print qpower enable/disable depending on the config value](https://github.com/search?q=qcacld-2.0%3A%20Print%20qpower%20enable/disable%20depending%20on%20the%20config%20value&type=Commits)
+* [9166cf6 qcacld-2.0: Avoid buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overflow&type=Commits)
+* [c195093 qcacld-2.0: Fix memory leak issue](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20issue&type=Commits)
+* [d44ac99 qcacld-2.0: Do not handle regdomain notifier after cfg80211 suspend](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20handle%20regdomain%20notifier%20after%20cfg80211%20suspend&type=Commits)
+* [108f088 qcacld-2.0: Validate NLA attr in hdd_extscan_passpoint_fill_network_list](https://github.com/search?q=qcacld-2.0%3A%20Validate%20NLA%20attr%20in%20hdd_extscan_passpoint_fill_network_list&type=Commits)
+* [49fb973 qcacld-2.0: Fix suspicious dereference of pointer](https://github.com/search?q=qcacld-2.0%3A%20Fix%20suspicious%20dereference%20of%20pointer&type=Commits)
+* [638e38c qcacld-2.0: Update public action frames to supplicant](https://github.com/search?q=qcacld-2.0%3A%20Update%20public%20action%20frames%20to%20supplicant&type=Commits)
+* [d6948e1 qcacld-2.0: Update dot11mode properly for roamable AP](https://github.com/search?q=qcacld-2.0%3A%20Update%20dot11mode%20properly%20for%20roamable%20AP&type=Commits)
+* [fff5aaf2 qcacld-2.0: Validate BA tid before accessing](https://github.com/search?q=%20qcacld-2.0%3A%20Validate%20BA%20tid%20before%20accessing&type=Commits)
+* [22fd491 qcacld-2.0: Process roam disable after roam completion](https://github.com/search?q=qcacld-2.0%3A%20Process%20roam%20disable%20after%20roam%20completion&type=Commits)
+* [eba3298 qcacld-2.0: Block scan while roaming in progress.](https://github.com/search?q=qcacld-2.0%3A%20Block%20scan%20while%20roaming%20in%20progress.&type=Commits)
+* [ab3b9f9 qcacld-2.0: Remove unwanted logs from STA connect/disconnect path](https://github.com/search?q=qcacld-2.0%3A%20Remove%20unwanted%20logs%20from%20STA%20connect/disconnect%20path&type=Commits)
+* [c981baa qcacld-2.0: when resume from suspend first ping failed between clients](https://github.com/search?q=qcacld-2.0%3A%20when%20resume%20from%20suspend%20first%20ping%20failed%20between%20clients&type=Commits)
+* [20e0243 qcacld-2.0:IBSS: Wlan: In case ADD STA fails, clear sta entry properly.](https://github.com/search?q=qcacld-2.0%3AIBSS%3A%20Wlan%3A%20In%20case%20ADD%20STA%20fails,%20clear%20sta%20entry%20properly.&type=Commits)
+* [d6fb953 qcacld-2.0: Change to properly update the phymode](https://github.com/search?q=qcacld-2.0%3A%20Change%20to%20properly%20update%20the%20phymode&type=Commits)
+* [65a37d1 qcacld-2.0: Map non-FCC Countries to proper reg id](https://github.com/search?q=qcacld-2.0%3A%20Map%20non-FCC%20Countries%20to%20proper%20reg%20id&type=Commits)
+* [c82860d qcacld-2.0: Allow power save to be controlled by iw command](https://github.com/search?q=qcacld-2.0%3A%20Allow%20power%20save%20to%20be%20controlled%20by%20iw%20command&type=Commits)
+* [5376f5f qcacld-2.0: Fix tpDeleteBssParams memory leak](https://github.com/search?q=qcacld-2.0%3A%20Fix%20tpDeleteBssParams%20memory%20leak&type=Commits)
+* [b3811f9 qcacld-2.0: Fix data path cache_buf memory leak](https://github.com/search?q=qcacld-2.0%3A%20Fix%20data%20path%20cache_buf%20memory%20leak&type=Commits)
+* [4e3f5c5 qcacld-2.0: Fix SapAllChnlList memory leak](https://github.com/search?q=qcacld-2.0%3A%20Fix%20SapAllChnlList%20memory%20leak&type=Commits)
+* [7e6ee62 qcacld-2.0: Avoid memory leak in htt_h2t_dbg_stats_get()](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20memory%20leak%20in%20htt_h2t_dbg_stats_get%28%29&type=Commits)
+* [1356a0d qcacld-2.0: Avoid memory leak in wma_tdls_event_handler()](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20memory%20leak%20in%20wma_tdls_event_handler%28%29&type=Commits)
+* [5ed63cd qcacld-2.0: Don't limit channel list to max 32 channels](https://github.com/search?q=qcacld-2.0%3A%20Don%27t%20limit%20channel%20list%20to%20max%2032%20channels&type=Commits)
+* [509b744 qcacld-2.0: Protect standard hostapd ioctls from SSR](https://github.com/search?q=qcacld-2.0%3A%20Protect%20standard%20hostapd%20ioctls%20from%20SSR&type=Commits)
+* [d7633ca qcacld-2.0: Protect private hostapd ioctls from SSR](https://github.com/search?q=qcacld-2.0%3A%20Protect%20private%20hostapd%20ioctls%20from%20SSR&type=Commits)
+* [a211f62 qcacld-2.0: Avoid race condition when vdev is deleted](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20race%20condition%20when%20vdev%20is%20deleted&type=Commits)
+* [40ca23c qcacld-2.0: Fix crash in wlan_hdd_tdls_check_power_save_prohibited](https://github.com/search?q=qcacld-2.0%3A%20Fix%20crash%20in%20wlan_hdd_tdls_check_power_save_prohibited&type=Commits)
+* [e101d78 qcacld-2.0: Fix stack corruption issue in sme_RrmProcessNeighborReport](https://github.com/search?q=qcacld-2.0%3A%20Fix%20stack%20corruption%20issue%20in%20sme_RrmProcessNeighborReport&type=Commits)
+* [e91060d qcacld-2.0: Fix for potential buffer overflow and null pointer references](https://github.com/search?q=qcacld-2.0%3A%20Fix%20for%20potential%20buffer%20overflow%20and%20null%20pointer%20references&type=Commits)
+* [9ef03c6 qcacld-2.0: Fix for crash caused by buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Fix%20for%20crash%20caused%20by%20buffer%20overflow&type=Commits)
+* [d6c1624 qcacld-2.0: Avoid immediate power collapse on receiving PNO indication](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20immediate%20power%20collapse%20on%20receiving%20PNO%20indication&type=Commits)
+* [d3d8600 qcacld-2.0: Race condition while memdump read](https://github.com/search?q=qcacld-2.0%3A%20Race%20condition%20while%20memdump%20read&type=Commits)
+* [149ce38 qcacld-2.0: Fix buffer overread in get oui vendor command](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overread%20in%20get%20oui%20vendor%20command&type=Commits)
+
+#### Device specific Changes of 01-20-2018 End.
+
+***
+
+01-19-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-19-2018:
+
+#### external/toybox/
+* [3db42e9 toybox: Don't generate symlinks for a few tools](https://github.com/search?q=toybox%3A%20Don%27t%20generate%20symlinks%20for%20a%20few%20tools&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-19-2018 End.
+
+01-16-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-16-2018:
+
+#### packages/inputmethods/LatinIME/
+* [cc2344d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-16-2018 End.
+
+01-15-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-15-2018:
+
+#### packages/apps/OmniSwitch/
+* [17bc74a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [23b8146 Recorder: Avoid NPE when screen recording is about to finish](https://github.com/search?q=Recorder%3A%20Avoid%20NPE%20when%20screen%20recording%20is%20about%20to%20finish&type=Commits)
+
+#### vendor/codeaurora/telephony/
+* [f1dc793 Merge tag 'LA.UM.5.6.r1-06400-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.5.6.r1-06400-89xx.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony%20into%20HEAD&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-15-2018 End.
+
+01-14-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-14-2018:
+
+#### frameworks/ex/
+* [61e42c3 Skip composition of frames lacking a color map](https://github.com/search?q=Skip%20composition%20of%20frames%20lacking%20a%20color%20map&type=Commits)
+
+#### system/core/
+* [50ec193 libnetutil: Check dhcp respose packet length](https://github.com/search?q=libnetutil%3A%20Check%20dhcp%20respose%20packet%20length&type=Commits)
+
+#### system/media/
+* [5269953 Camera metadata: Check source metadata size](https://github.com/search?q=Camera%20metadata%3A%20Check%20source%20metadata%20size&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-14-2018 End.
+
 01-13-2018
 ====================
 
 #### Resurrection Remix OS - Nougat source changes of 01-13-2018:
+
+#### external/aac/
+* [d807ebc Fix out of bound memory access in lppTransposer](https://github.com/search?q=Fix%20out%20of%20bound%20memory%20access%20in%20lppTransposer&type=Commits)
+* [c02dd94 DO NOT MERGE Prevent out of bound memory access in GetInvInt](https://github.com/search?q=DO%20NOT%20MERGE%20Prevent%20out%20of%20bound%20memory%20access%20in%20GetInvInt&type=Commits)
+
+#### external/libavc/
+* [09900a4 Decoder: Handle dec_hdl memory allocation failure gracefully](https://github.com/search?q=Decoder%3A%20Handle%20dec_hdl%20memory%20allocation%20failure%20gracefully&type=Commits)
+* [25ccb87 Decoder: Fixed incorrect use of mmco parameters.](https://github.com/search?q=Decoder%3A%20Fixed%20incorrect%20use%20of%20mmco%20parameters.&type=Commits)
+* [ab3fc20 Decoder: Detect change of mbaff flag in SPS](https://github.com/search?q=Decoder%3A%20Detect%20change%20of%20mbaff%20flag%20in%20SPS&type=Commits)
+* [2c9d1d0 Decoder: Increased allocation and added checks in sei parsing.](https://github.com/search?q=Decoder%3A%20Increased%20allocation%20and%20added%20checks%20in%20sei%20parsing.&type=Commits)
+
+#### external/libhevc/
+* [2a44132 Add PUSH-POP of D registers in Arm Neon 32 bit functions](https://github.com/search?q=Add%20PUSH-POP%20of%20D%20registers%20in%20Arm%20Neon%2032%20bit%20functions&type=Commits)
+* [03d6532 Fixed few issues in SAO arm assemblies](https://github.com/search?q=Fixed%20few%20issues%20in%20SAO%20arm%20assemblies&type=Commits)
+* [bdbe0fb Decoder: Handle ps_codec_obj memory allocation failure gracefully](https://github.com/search?q=Decoder%3A%20Handle%20ps_codec_obj%20memory%20allocation%20failure%20gracefully&type=Commits)
+* [abcae74 Fix prev slice incomplete check](https://github.com/search?q=Fix%20prev%20slice%20incomplete%20check&type=Commits)
+* [ba420eb Set error skip ctbs as multiple 8x8 pus](https://github.com/search?q=Set%20error%20skip%20ctbs%20as%20multiple%208x8%20pus&type=Commits)
+* [ea291b4 Fix first frame error return](https://github.com/search?q=Fix%20first%20frame%20error%20return&type=Commits)
+* [5defac3 Return error for negative crop parameters](https://github.com/search?q=Return%20error%20for%20negative%20crop%20parameters&type=Commits)
+* [14744f4 Consume bytes for sps with unsupported resolution](https://github.com/search?q=Consume%20bytes%20for%20sps%20with%20unsupported%20resolution&type=Commits)
+* [d88a2f7 Fix slice address zero for not first slice in pic](https://github.com/search?q=Fix%20slice%20address%20zero%20for%20not%20first%20slice%20in%20pic&type=Commits)
+* [fa44d35 Fix incomplete frame error](https://github.com/search?q=Fix%20incomplete%20frame%20error&type=Commits)
+
+#### external/libmpeg2/
+* [d00e1f4 Adding Error Check for f_code Parameters](https://github.com/search?q=Adding%20Error%20Check%20for%20f_code%20Parameters&type=Commits)
+
+#### external/libvpx/
+* [7aacdba DO NOT MERGE | libvpx: Fix OOB caused by odd frame width.](https://github.com/search?q=DO%20NOT%20MERGE%20|%20libvpx%3A%20Fix%20OOB%20caused%20by%20odd%20frame%20width.&type=Commits)
+
+#### frameworks/av/
+* [cb33b28 Fix the UAF bug caused by a dead stack variable](https://github.com/search?q=Fix%20the%20UAF%20bug%20caused%20by%20a%20dead%20stack%20variable&type=Commits)
+* [10aadb1 Fix edge case when applying id3 unsynchronization](https://github.com/search?q=Fix%20edge%20case%20when%20applying%20id3%20unsynchronization&type=Commits)
+* [19bcd55 Add EFFECT_CMD_SET_PARAM parameter checking to Preset Reverb](https://github.com/search?q=Add%20EFFECT_CMD_SET_PARAM%20parameter%20checking%20to%20Preset%20Reverb&type=Commits)
+* [ba91a99 Validate decryption key length to decrypt function.](https://github.com/search?q=Validate%20decryption%20key%20length%20to%20decrypt%20function.&type=Commits)
+* [0102c3f stagefright: MP4Extractor: allow 10% overhead on default sample size](https://github.com/search?q=stagefright%3A%20MP4Extractor%3A%20allow%2010%%20overhead%20on%20default%20sample%20size&type=Commits)
+* [c0710cf Access AVCDEC context after create fail check](https://github.com/search?q=Access%20AVCDEC%20context%20after%20create%20fail%20check&type=Commits)
+* [8cb6cdd SoftAVCDec: Handle zero length input without EOS](https://github.com/search?q=SoftAVCDec%3A%20Handle%20zero%20length%20input%20without%20EOS&type=Commits)
+* [674398a Access HEVC context after create fail check](https://github.com/search?q=Access%20HEVC%20context%20after%20create%20fail%20check&type=Commits)
 
 #### hardware/qcom/fm/
 * [11c0881 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
