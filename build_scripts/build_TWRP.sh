@@ -10,6 +10,9 @@ TWRP_V=$(grep '#define TW_MAIN_VERSION_STR       "' bootable/recovery/variables.
 echo $TWRP_V;
 
 . build/envsetup.sh
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
+./prebuilts/sdk/tools/jack-admin kill-server
+./prebuilts/sdk/tools/jack-admin start-server
 lunch lineage_quark-eng
 
 make clean
