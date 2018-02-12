@@ -17,7 +17,7 @@ echo -e "\nYou choose: $input1"
 
 if [ "$input1" == "1" ]; then
 	cd frameworks/native/
-	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 50200f1fc9d3b5524b6c47405530dfe4b7d663fa
+	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 01df205b39e2465a36deaf11f76f8a63da414c3d
 	cd -
 fi
 
