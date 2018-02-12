@@ -7,15 +7,30 @@ START2="$(date)";
 echo -e "\n build start $(date)\n";
 
 #source tree folder yours machine source folder
-FOLDER=/home/bhb27/android/o;
+FOLDER=/home/bhb27/android/or;
 
 cd $FOLDER
+
+echo -e "\nCommit?\n 1 = Yes\n"
+read -r input1
+echo -e "\nYou choose: $input1"
+
+if [ "$input1" == "1" ]; then
+	cd frameworks/native/
+	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 50200f1fc9d3b5524b6c47405530dfe4b7d663fa
+	cd -
+fi
+
+export days_to_log=0
+export RR_BUILDTYPE="Experimental"
+export WITH_ROOT_METHOD="rootless"
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
 ./prebuilts/sdk/tools/jack-admin start-server
 make clean
 lunch lineage_quark-userdebug
+lunch rr_quark-userdebug
 time mka bacon -j8 2>&1 | tee quark.txt
 
 # final time display *cosmetic...
