@@ -24,6 +24,7 @@ fi
 export days_to_log=0
 export RR_BUILDTYPE="Experimental"
 export WITH_ROOT_METHOD="rootless"
+export ROM_VVV=$(grep PRODUCT_VERSION vendor/rr/config/common.mk | head -1 | awk '{print $3}');
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
