@@ -19,11 +19,24 @@ if [ "$input1" == "1" ]; then
 	cd frameworks/native/
 	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 01df205b39e2465a36deaf11f76f8a63da414c3d
 	cd -
+
+	cd packages/apps/Nfc/
+	git fetch https://github.com/LineageOS/android_packages_apps_Nfc refs/changes/81/206081/1 && git cherry-pick FETCH_HEAD
+	cd -
+
+	cd system/sepolicy/
+	git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/28/206428/1 && git cherry-pick FETCH_HEAD
+	cd -
+
+	cd frameworks/av/
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/27/206427/1 && git cherry-pick FETCH_HEAD
+	cd -
 fi
 
 export days_to_log=0
 export RR_BUILDTYPE="Experimental"
 export WITH_ROOT_METHOD="rootless"
+export WITH_SU=true
 export ROM_VVV=$(grep PRODUCT_VERSION vendor/rr/config/common.mk | head -1 | awk '{print $3}');
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
