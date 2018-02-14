@@ -16,21 +16,40 @@ read -r input1
 echo -e "\nYou choose: $input1"
 
 if [ "$input1" == "1" ]; then
-	cd frameworks/native/
+
+	folder="frameworks/native/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
 	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 01df205b39e2465a36deaf11f76f8a63da414c3d
-	cd -
+	cd - &> /dev/null || exit;
 
-	cd packages/apps/Nfc/
+	echo -e "\\n	out Folder $folder"
+	folder="packages/apps/Nfc/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
 	git fetch https://github.com/LineageOS/android_packages_apps_Nfc refs/changes/81/206081/1 && git cherry-pick FETCH_HEAD
-	cd -
+	cd - &> /dev/null || exit;
 
-	cd system/sepolicy/
+	echo -e "\\n	out Folder $folder"
+	folder="system/sepolicy/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/29/206429/1 && git cherry-pick FETCH_HEAD
 	git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/28/206428/1 && git cherry-pick FETCH_HEAD
-	cd -
+	git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/47/205947/1 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
 
-	cd frameworks/av/
+	echo -e "\\n	out Folder $folder"
+	folder="frameworks/av/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
 	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/27/206427/1 && git cherry-pick FETCH_HEAD
-	cd -
+	cd - &> /dev/null || exit;
+	echo -e "\\n	out Folder $folder"
 fi
 
 export days_to_log=0
