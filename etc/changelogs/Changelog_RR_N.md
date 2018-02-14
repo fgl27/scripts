@@ -3,6 +3,534 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+02-14-2018
+====================
+
+#### Device specific Changes of 02-14-2018 Start:
+
+#### Vendor/Quark/
+* [68d1146 Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 02-14-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 02-14-2018:
+
+#### build/
+* [180d66d Bump security patch level to 2018-02-05](https://github.com/search?q=Bump%20security%20patch%20level%20to%202018-02-05&type=Commits)
+
+#### frameworks/av/
+* [4560544 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [f92c262 Reword bluetooth confirmation dialog](https://github.com/search?q=Reword%20bluetooth%20confirmation%20dialog&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-14-2018 End.
+
+02-12-2018
+====================
+
+#### Device specific Changes of 02-12-2018 Start:
+
+#### Device/Quark/
+* [30b72fc Quark: enable dt2w and s2w on charge only mode](https://github.com/search?q=Quark%3A%20enable%20dt2w%20and%20s2w%20on%20charge%20only%20mode&type=Commits)
+* [b03b776 Quark: init start wireguard.ko](https://github.com/search?q=Quark%3A%20init%20start%20wireguard.ko&type=Commits)
+
+#### Kernel/Quark/
+* [1a1b988 net: Correct wireguad build](https://github.com/search?q=net%3A%20Correct%20wireguad%20build&type=Commits)
+* [6656eb6 msm:ipa: Fix to kasan use-after-free issue](https://github.com/search?q=msm%3Aipa%3A%20Fix%20to%20kasan%20use-after-free%20issue&type=Commits)
+* [57fe27b qcacld-2.0: Fix potential buffer overwrite in wma_roam_synch_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20wma_roam_synch_event_handler&type=Commits)
+* [815ecf9 qcacld-2.0: Add sanity check to avoid len overflow issue in WMI event data](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20to%20avoid%20len%20overflow%20issue%20in%20WMI%20event%20data&type=Commits)
+* [0532b73 rtac: add size check when reading cal data kvaddr buffer](https://github.com/search?q=rtac%3A%20add%20size%20check%20when%20reading%20cal%20data%20kvaddr%20buffer&type=Commits)
+* [238696a msm: camera: Return -NOTTY on invalid ioctl command.](https://github.com/search?q=msm%3A%20camera%3A%20Return%20-NOTTY%20on%20invalid%20ioctl%20command.&type=Commits)
+* [799341f qcacld-2.0: Fix to propagate key-receiver-sequence-counter to WMA](https://github.com/search?q=qcacld-2.0%3A%20Fix%20to%20propagate%20key-receiver-sequence-counter%20to%20WMA&type=Commits)
+* [3eb4f3a qcacld-2.0: Propagate key sequence counter to SME](https://github.com/search?q=qcacld-2.0%3A%20Propagate%20key%20sequence%20counter%20to%20SME&type=Commits)
+* [48f3d56 qcacld-2.0: Fix int overflow in wma_unified_link_radio_stats_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20int%20overflow%20in%20wma_unified_link_radio_stats_event_handler&type=Commits)
+* [d00afb1 ANDROID: qtaguid: Fix the UAF probelm with tag_ref_tree](https://github.com/search?q=ANDROID%3A%20qtaguid%3A%20Fix%20the%20UAF%20probelm%20with%20tag_ref_tree&type=Commits)
+* [8323c96 iovec: make sure the caller actually wants anything in memcpy_fromiovecend](https://github.com/search?q=iovec%3A%20make%20sure%20the%20caller%20actually%20wants%20anything%20in%20memcpy_fromiovecend&type=Commits)
+* [9dec8cd ANDROID: sound: rawmidi: Hold lock around realloc](https://github.com/search?q=ANDROID%3A%20sound%3A%20rawmidi%3A%20Hold%20lock%20around%20realloc&type=Commits)
+* [96e3c7c qcacld-2.0: Add checks for security vulnerability](https://github.com/search?q=qcacld-2.0%3A%20Add%20checks%20for%20security%20vulnerability&type=Commits)
+* [78de258 qcacld-2.0: Prevent buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Prevent%20buffer%20overflow&type=Commits)
+* [0c2fc9b UPSTREAM: ipv4, ipv6: ensure raw socket message is big enough to hold an IP header](https://github.com/search?q=UPSTREAM%3A%20ipv4,%20ipv6%3A%20ensure%20raw%20socket%20message%20is%20big%20enough%20to%20hold%20an%20IP%20header&type=Commits)
+
+#### Device specific Changes of 02-12-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 02-12-2018:
+
+#### hardware/ti/omap4/
+* [d31d876 pvr-km: pass BOARD_USE_TI_LIBION to make](https://github.com/search?q=pvr-km%3A%20pass%20BOARD_USE_TI_LIBION%20to%20make&type=Commits)
+
+#### vendor/cm/
+* [ba37559 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_vendor_resurrection into nougat](https://github.com/search?q=Merge%20branch%20%27nougat%27%20of%20https%3A//github.com/ResurrectionRemix/android_vendor_resurrection%20into%20nougat&type=Commits)
+* [4556b6c Update Magisk to 15.3 and MagiskManager to 5.5.5 (#105)](https://github.com/search?q=Update%20Magisk%20to%2015.3%20and%20MagiskManager%20to%205.5.5%20%28%23105%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-12-2018 End.
+
+02-11-2018
+====================
+
+#### Device specific Changes of 02-11-2018 Start:
+
+#### Device/Quark/
+* [995bbbe Quark: init zram at boot_completed](https://github.com/search?q=Quark%3A%20init%20zram%20at%20boot_completed&type=Commits)
+
+#### Device specific Changes of 02-11-2018 End.
+
+***
+
+02-10-2018
+====================
+
+#### Device specific Changes of 02-10-2018 Start:
+
+#### Device/Quark/
+* [f719890 Quark: correct libshims_thermal call on init file](https://github.com/search?q=Quark%3A%20correct%20libshims_thermal%20call%20on%20init%20file&type=Commits)
+
+#### Device specific Changes of 02-10-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 02-10-2018:
+
+#### android/
+* [557c7b1 Update README.mkdn](https://github.com/search?q=Update%20README.mkdn&type=Commits)
+
+#### frameworks/base/
+* [8ddb17d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [02da47e SystemUI: Fix LiveDisplay tile off color](https://github.com/search?q=SystemUI%3A%20Fix%20LiveDisplay%20tile%20off%20color&type=Commits)
+
+#### packages/apps/CMParts/
+* [242f8e9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [5e4e23a Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+
+#### packages/apps/Contacts/
+* [95ba671 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%20nougat&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [d5f7383 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%20nougat&type=Commits)
+
+#### packages/apps/Dialer/
+* [f2c5d6e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [667aab4 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20nougat&type=Commits)
+
+#### packages/apps/Messaging/
+* [0d74956 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
+
+#### packages/apps/Nfc/
+* [f8bb816 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Nfc into cm-14.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Nfc%20into%20cm-14.1&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [470e22e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PackageInstaller into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%20nougat&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [3c065c6 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [0bc0281 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [351995f FingerprintEnrollFindSensor: Don't overlay front for side sensors](https://github.com/search?q=FingerprintEnrollFindSensor%3A%20Don%27t%20overlay%20front%20for%20side%20sensors&type=Commits)
+
+#### packages/services/Telecomm/
+* [07b69a8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telecomm into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20nougat&type=Commits)
+
+#### packages/services/Telephony/
+* [0082e47 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [f3e1483 cm: Allow IPv6 on roaming for T-Mobile US APNs](https://github.com/search?q=cm%3A%20Allow%20IPv6%20on%20roaming%20for%20T-Mobile%20US%20APNs&type=Commits)
+* [1f08b09 cm: Consolidate T-Mobile US APNs](https://github.com/search?q=cm%3A%20Consolidate%20T-Mobile%20US%20APNs&type=Commits)
+
+#### vendor/cmsdk/
+* [a758455 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-10-2018 End.
+
+02-09-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 02-09-2018:
+
+#### android/
+* [1e5494f Update README.mkdn](https://github.com/search?q=Update%20README.mkdn&type=Commits)
+* [7f5d30e Update README.mkdn](https://github.com/search?q=Update%20README.mkdn&type=Commits)
+
+#### external/sonivox/
+* [28f3d88 Add recursion limit to XMF_ReadNode](https://github.com/search?q=Add%20recursion%20limit%20to%20XMF_ReadNode&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-09-2018 End.
+
+02-08-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 02-08-2018:
+
+#### external/libavc/
+* [ffff285 Decoder: Modified loop condition while parsing ref_list_reordering.](https://github.com/search?q=Decoder%3A%20Modified%20loop%20condition%20while%20parsing%20ref_list_reordering.&type=Commits)
+
+#### external/libhevc/
+* [1e65da9 Update ctb pu map for I slice](https://github.com/search?q=Update%20ctb%20pu%20map%20for%20I%20slice&type=Commits)
+* [c60037b Check if luma wd and ht are multiple of min cb size](https://github.com/search?q=Check%20if%20luma%20wd%20and%20ht%20are%20multiple%20of%20min%20cb%20size&type=Commits)
+
+#### external/sonivox/
+* [9174dd4 Fix memory leak](https://github.com/search?q=Fix%20memory%20leak&type=Commits)
+
+#### frameworks/av/
+* [3ad2690 httplive: check for malformed EXT-X-STREAM-INF](https://github.com/search?q=httplive%3A%20check%20for%20malformed%20EXT-X-STREAM-INF&type=Commits)
+* [3959f30 Apply input buffer validation also to AVC and MPEG4 encoders](https://github.com/search?q=Apply%20input%20buffer%20validation%20also%20to%20AVC%20and%20MPEG4%20encoders&type=Commits)
+* [792afe1 IAudioPolicyService: Add attribute tags sanitization](https://github.com/search?q=IAudioPolicyService%3A%20Add%20attribute%20tags%20sanitization&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-08-2018 End.
+
+02-07-2018
+====================
+
+#### Device specific Changes of 02-07-2018 Start:
+
+#### Kernel/Quark/
+* [0a1b827 qcacld-2.0: Fix regression issue of eCSR_ROAM_LOSTLINK_DETECTED](https://github.com/search?q=qcacld-2.0%3A%20Fix%20regression%20issue%20of%20eCSR_ROAM_LOSTLINK_DETECTED&type=Commits)
+* [4f012a0 Revert "qcacld-2.0: Allow Roaming Abort command to firmware"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Allow%20Roaming%20Abort%20command%20to%20firmware"&type=Commits)
+* [20c9c5d Revert "qcacld-2.0: Reset roaming in progress flag once roaming fails"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Reset%20roaming%20in%20progress%20flag%20once%20roaming%20fails"&type=Commits)
+* [3ac265c Revert "qcacld-2.0: Fix roam start not being sent to firmware"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Fix%20roam%20start%20not%20being%20sent%20to%20firmware"&type=Commits)
+* [971c0ee qcacld-2.0: Reduce gscan priority](https://github.com/search?q=qcacld-2.0%3A%20Reduce%20gscan%20priority&type=Commits)
+* [5d9c74e qcacld-2.0: Protect the TxQueue in failure](https://github.com/search?q=qcacld-2.0%3A%20Protect%20the%20TxQueue%20in%20failure&type=Commits)
+* [f1420b8 qcacld-2.0: Remove needless NULL check for pktNode](https://github.com/search?q=qcacld-2.0%3A%20Remove%20needless%20NULL%20check%20for%20pktNode&type=Commits)
+* [ce715ef qcacld-2.0: Fix to update proper psessionEntry in limProcessMessages()](https://github.com/search?q=qcacld-2.0%3A%20Fix%20to%20update%20proper%20psessionEntry%20in%20limProcessMessages%28%29&type=Commits)
+* [b94994b qcacld-2.0: Fix for PNO scan for 802.11A configured AP](https://github.com/search?q=qcacld-2.0%3A%20Fix%20for%20PNO%20scan%20for%20802.11A%20configured%20AP&type=Commits)
+* [2a9ad8a qcacld-2.0: unmap buffer for CE dst ring en-queue error](https://github.com/search?q=qcacld-2.0%3A%20unmap%20buffer%20for%20CE%20dst%20ring%20en-queue%20error&type=Commits)
+* [09aa66e qcacld-2.0: Delete PMF Sta from previous vdev](https://github.com/search?q=qcacld-2.0%3A%20Delete%20PMF%20Sta%20from%20previous%20vdev&type=Commits)
+* [e55e1d1 qcacld-2.0: Do not reset short preamble support and beacon interval](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20reset%20short%20preamble%20support%20and%20beacon%20interval&type=Commits)
+* [3ac7ae6 qcacld-2.0: Fix sme active list timeout casued by delete sta request](https://github.com/search?q=qcacld-2.0%3A%20Fix%20sme%20active%20list%20timeout%20casued%20by%20delete%20sta%20request&type=Commits)
+* [43a2bc7 qcacld-2.0: Stop send deauthentication frame when STA is connected](https://github.com/search?q=qcacld-2.0%3A%20Stop%20send%20deauthentication%20frame%20when%20STA%20is%20connected&type=Commits)
+* [7a09672 workqueue: Fix flag collision](https://github.com/search?q=workqueue%3A%20Fix%20flag%20collision&type=Commits)
+* [05d02e7 kthread: Backport queuing_blocked()](https://github.com/search?q=kthread%3A%20Backport%20queuing_blocked%28%29&type=Commits)
+* [1cbc0a8 Reduced CPU Load-Average](https://github.com/search?q=Reduced%20CPU%20Load-Average&type=Commits)
+* [ea87983 lowmemorykiller: account for unevictable pages](https://github.com/search?q=lowmemorykiller%3A%20account%20for%20unevictable%20pages&type=Commits)
+* [44a6e6e staging: android: lowmemorykiller: set TIF_MEMDIE before send kill sig](https://github.com/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20set%20TIF_MEMDIE%20before%20send%20kill%20sig&type=Commits)
+* [bbc8bbd lowmemorykiller: trace kill events.](https://github.com/search?q=lowmemorykiller%3A%20trace%20kill%20events.&type=Commits)
+
+#### Device specific Changes of 02-07-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 02-07-2018:
+
+#### external/wpa_supplicant_8/
+* [55f469a PMKSA: Fix use-after-free in pmksa_cache_clone_entry()](https://github.com/search?q=PMKSA%3A%20Fix%20use-after-free%20in%20pmksa_cache_clone_entry%28%29&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-07-2018 End.
+
+02-05-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 02-05-2018:
+
+#### packages/apps/Gallery2/
+* [e9e94ed Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [529fbc2 Gallery: Fix translatability of CAF additions to filtershow](https://github.com/search?q=Gallery%3A%20Fix%20translatability%20of%20CAF%20additions%20to%20filtershow&type=Commits)
+* [2a93162 Gallery2: Remove more CAF Chinese translation modifications](https://github.com/search?q=Gallery2%3A%20Remove%20more%20CAF%20Chinese%20translation%20modifications&type=Commits)
+
+#### vendor/codeaurora/telephony/
+* [2344388 Merge tag 'LA.UM.5.7.r1-11600-8x98.0' of https://source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony into cm-14.1](https://github.com/search?q=Merge%20tag%20%27LA.UM.5.7.r1-11600-8x98.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/codeaurora/telephony%20into%20cm-14.1&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-05-2018 End.
+
+02-04-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 02-04-2018:
+
+#### hardware/qcom/fm/
+* [0fcc8eb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [1f4510d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [34fef3e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [0b6ac7e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [810e586 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [525d4ed Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [b0c3e18 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [3aa2153 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [c6bc353 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [c6496b7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [204c383 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [ccf9dc4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [1d1411f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [cc07119 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [d5dff14 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [e25cb4f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [fa0d1bc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [fd29417 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [4037c1e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [77155eb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [b40b85f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [ed31802 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [960768e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [dd8e53f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [d125961 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [742136c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [2d07714 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [6400c2d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [6758b58 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [9d16962 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [dccd6a0 Snap: Fix translatability issues](https://github.com/search?q=Snap%3A%20Fix%20translatability%20issues&type=Commits)
+
+#### packages/apps/Stk/
+* [803ab29 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [f82d1ee Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [ed2bf95 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [c730a62 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [3671ee4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [397a4e2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BookmarkProvider/
+* [c0d7861 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [914eefd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [c726ace Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [cdf3bba Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [c69dfc3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [873757c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [ae757cc Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [ddfa881 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [3dbf41c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [81389e9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/CMAudioService/
+* [5c80b8c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [91d6464 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [cb3e079 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/WeatherService/
+* [6bf74c4 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [914224a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 02-04-2018 End.
+
+02-02-2018
+====================
+
+#### Device specific Changes of 02-02-2018 Start:
+
+#### Device/Quark/
+* [7c076bb Quark: override dalvik.vm dalvik.vm from DT for better preformance](https://github.com/search?q=Quark%3A%20override%20dalvik.vm%20dalvik.vm%20from%20DT%20for%20better%20preformance&type=Commits)
+
+#### Device specific Changes of 02-02-2018 End.
+
+***
+
+01-31-2018
+====================
+
+#### Device specific Changes of 01-31-2018 Start:
+
+#### Kernel/Quark/
+* [3e15b38 msm: vidc: Handle max clients error properly](https://github.com/search?q=msm%3A%20vidc%3A%20Handle%20max%20clients%20error%20properly&type=Commits)
+* [7b606f3 msm: vidc: Fix SYS_ERROR handling](https://github.com/search?q=msm%3A%20vidc%3A%20Fix%20SYS_ERROR%20handling&type=Commits)
+* [70011b9 qcacld-2.0: Process disassociate with invalid reason code](https://github.com/search?q=qcacld-2.0%3A%20Process%20disassociate%20with%20invalid%20reason%20code&type=Commits)
+* [965de23 qcacld-2.0: Fix reset variable abortScan](https://github.com/search?q=qcacld-2.0%3A%20Fix%20reset%20variable%20abortScan&type=Commits)
+* [4f9b6bc qcacld-2.0: Add argument to ol_tx_queue_free for vdev or peer queues](https://github.com/search?q=qcacld-2.0%3A%20Add%20argument%20to%20ol_tx_queue_free%20for%20vdev%20or%20peer%20queues&type=Commits)
+* [7a9eafb qcacld-2.0: Flush vdev's TXQ with the same TID as inserted one](https://github.com/search?q=qcacld-2.0%3A%20Flush%20vdev%27s%20TXQ%20with%20the%20same%20TID%20as%20inserted%20one&type=Commits)
+* [1dda081 qcacld-2.0: when flush txq in sheduler use same tid to ref the txq](https://github.com/search?q=qcacld-2.0%3A%20when%20flush%20txq%20in%20sheduler%20use%20same%20tid%20to%20ref%20the%20txq&type=Commits)
+* [eb507cd qcacld-2.0: Fix scan failure issue due to stale PE session](https://github.com/search?q=qcacld-2.0%3A%20Fix%20scan%20failure%20issue%20due%20to%20stale%20PE%20session&type=Commits)
+* [265c0f8 qcacld-2.0: Cancel scan request before issuing connect request](https://github.com/search?q=qcacld-2.0%3A%20Cancel%20scan%20request%20before%20issuing%20connect%20request&type=Commits)
+* [8fd3ed1 qcacld-2.0: Remove redundant code in __wlan_hdd_cfg80211_connect()](https://github.com/search?q=qcacld-2.0%3A%20Remove%20redundant%20code%20in%20__wlan_hdd_cfg80211_connect%28%29&type=Commits)
+* [58cab12 tcp: fastopen: fix on syn-data transmit failure](https://github.com/search?q=tcp%3A%20fastopen%3A%20fix%20on%20syn-data%20transmit%20failure&type=Commits)
+* [4e370a5 net: ipv4: Don't crash if passing a null sk to ip_rt_update_pmtu.](https://github.com/search?q=net%3A%20ipv4%3A%20Don%27t%20crash%20if%20passing%20a%20null%20sk%20to%20ip_rt_update_pmtu.&type=Commits)
+* [f94d57a net: inet: Support UID-based routing in IP protocols.](https://github.com/search?q=net%3A%20inet%3A%20Support%20UID-based%20routing%20in%20IP%20protocols.&type=Commits)
+* [9a57bee net: ipv6: make "ip -6 route get mark xyz" work.](https://github.com/search?q=net%3A%20ipv6%3A%20make%20"ip%20-6%20route%20get%20mark%20xyz"%20work.&type=Commits)
+* [91fdc29 net: core: add UID to flows, rules, and routes](https://github.com/search?q=net%3A%20core%3A%20add%20UID%20to%20flows,%20rules,%20and%20routes&type=Commits)
+* [796a3d5 net: core: Add a UID field to struct sock.](https://github.com/search?q=net%3A%20core%3A%20Add%20a%20UID%20field%20to%20struct%20sock.&type=Commits)
+* [b9dab2b Revert "net: core: Support UID-based routing."](https://github.com/search?q=Revert%20"net%3A%20core%3A%20Support%20UID-based%20routing."&type=Commits)
+* [024e718 Revert "Handle 'sk' being NULL in UID-based routing."](https://github.com/search?q=Revert%20"Handle%20%27sk%27%20being%20NULL%20in%20UID-based%20routing."&type=Commits)
+* [c029879 qcacld-2.0: Fix memory leak issue](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20issue&type=Commits)
+* [e71e1cf qcacld-2.0: Initialize session id for auth retry timer](https://github.com/search?q=qcacld-2.0%3A%20Initialize%20session%20id%20for%20auth%20retry%20timer&type=Commits)
+* [621eaf1 qcacld-2.0: Optimize the spinlock usage in suspend callback](https://github.com/search?q=qcacld-2.0%3A%20Optimize%20the%20spinlock%20usage%20in%20suspend%20callback&type=Commits)
+* [fc93563 qcacld-2.0: Add NULL check for HIF device before dereferencing](https://github.com/search?q=qcacld-2.0%3A%20Add%20NULL%20check%20for%20HIF%20device%20before%20dereferencing&type=Commits)
+* [910a45c qcacld-2.0: Add sanity check to avoid NULL pointer dereference](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20to%20avoid%20NULL%20pointer%20dereference&type=Commits)
+* [ccf8a6d qcacld-2.0: Add NULL Check in iwpriv ioctl iw_setint_getnone](https://github.com/search?q=qcacld-2.0%3A%20Add%20NULL%20Check%20in%20iwpriv%20ioctl%20iw_setint_getnone&type=Commits)
+* [80fe710 qcacld-2.0: Fix invalid peer create after vdev down](https://github.com/search?q=qcacld-2.0%3A%20Fix%20invalid%20peer%20create%20after%20vdev%20down&type=Commits)
+* [10f0227 qcacld-2.0: Clear WMI cmd buffer after TX completion](https://github.com/search?q=qcacld-2.0%3A%20Clear%20WMI%20cmd%20buffer%20after%20TX%20completion&type=Commits)
+* [c137ef9 qcacld-2.0: Add timer related messages at the top of PE queue](https://github.com/search?q=qcacld-2.0%3A%20Add%20timer%20related%20messages%20at%20the%20top%20of%20PE%20queue&type=Commits)
+* [142e8da qcacld-2.0: Add retry logic if HTCIssuePackets fails](https://github.com/search?q=qcacld-2.0%3A%20Add%20retry%20logic%20if%20HTCIssuePackets%20fails&type=Commits)
+* [bf35b6b8 qcacld-2.0: Fix a deadlock in proto trace](https://github.com/search?q=%20qcacld-2.0%3A%20Fix%20a%20deadlock%20in%20proto%20trace&type=Commits)
+* [ae87eb5 qcacld-2.0: Correct return value of wlan_hdd_cfg80211_update_bss](https://github.com/search?q=qcacld-2.0%3A%20Correct%20return%20value%20of%20wlan_hdd_cfg80211_update_bss&type=Commits)
+* [2477a9d qcacld-2.0: Fix type mismatch in bitwise operator](https://github.com/search?q=qcacld-2.0%3A%20Fix%20type%20mismatch%20in%20bitwise%20operator&type=Commits)
+* [425db8a qcacld-2.0 : Avoid calling PE delete session for non valid session](https://github.com/search?q=qcacld-2.0%20%3A%20Avoid%20calling%20PE%20delete%20session%20for%20non%20valid%20session&type=Commits)
+
+#### Device specific Changes of 01-31-2018 End.
+
+***
+
+01-29-2018
+====================
+
+#### Device specific Changes of 01-29-2018 Start:
+
+#### Device/Quark/
+* [9528bf4 Quark: BoardConfig LOCAL_PATH->QUARK_PATH](https://github.com/search?q=Quark%3A%20BoardConfig%20LOCAL_PATH->QUARK_PATH&type=Commits)
+
+#### Device specific Changes of 01-29-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 01-29-2018:
+
+#### packages/apps/Snap/
+* [6d78d4a Snap: Update pano and video icons to be more like photo icons](https://github.com/search?q=Snap%3A%20Update%20pano%20and%20video%20icons%20to%20be%20more%20like%20photo%20icons&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-29-2018 End.
+
+01-28-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-28-2018:
+
+#### external/toybox/
+* [3125af0 strings tests and bugfixes](https://github.com/search?q=strings%20tests%20and%20bugfixes&type=Commits)
+* [c766ad3 "printf %x 64" wasn't working right on 32 bit because a variable type was wrong.](https://github.com/search?q="printf%20%x%2064"%20wasn%27t%20working%20right%20on%2032%20bit%20because%20a%20variable%20type%20was%20wrong.&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-28-2018 End.
+
+01-27-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 01-27-2018:
+
+#### hardware/ti/omap4/
+* [2c0550b init: Also try to load OMAPLFB as module](https://github.com/search?q=init%3A%20Also%20try%20to%20load%20OMAPLFB%20as%20module&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-27-2018 End.
+
+01-26-2018
+====================
+
+#### Device specific Changes of 01-26-2018 Start:
+
+#### Kernel/Quark/
+* [18512f1 USB: core: prevent malicious bNumInterfaces overflow](https://github.com/search?q=USB%3A%20core%3A%20prevent%20malicious%20bNumInterfaces%20overflow&type=Commits)
+* [5d73271 Bluetooth: Prevent stack info leak from the EFS element.](https://github.com/search?q=Bluetooth%3A%20Prevent%20stack%20info%20leak%20from%20the%20EFS%20element.&type=Commits)
+* [3b292f4 BACKPORT: commoncap: don't alloc the credential unless needed in cap_task_prctl](https://github.com/search?q=BACKPORT%3A%20commoncap%3A%20don%27t%20alloc%20the%20credential%20unless%20needed%20in%20cap_task_prctl&type=Commits)
+* [0685d01 ANDROID: sdcardfs: Move default_normal to superblock](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Move%20default_normal%20to%20superblock&type=Commits)
+* [356a959 ANDROID: sdcardfs: Fix missing break on default_normal](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Fix%20missing%20break%20on%20default_normal&type=Commits)
+* [584ca00 ANDROID: scsi: sg: Fix build breakage](https://github.com/search?q=ANDROID%3A%20scsi%3A%20sg%3A%20Fix%20build%20breakage&type=Commits)
+* [24bb5ae ANDROID: sdcardfs: Add default_normal option](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Add%20default_normal%20option&type=Commits)
+* [a959492 ANDROID: sdcardfs: notify lower file of opens](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20notify%20lower%20file%20of%20opens&type=Commits)
+* [e7abf4c UPSTREAM: net: remove open-coded skb_cow_head.](https://github.com/search?q=UPSTREAM%3A%20net%3A%20remove%20open-coded%20skb_cow_head.&type=Commits)
+* [6a78db7 UPSTREAM: sctp: do not peel off an assoc from one netns to another one](https://github.com/search?q=UPSTREAM%3A%20sctp%3A%20do%20not%20peel%20off%20an%20assoc%20from%20one%20netns%20to%20another%20one&type=Commits)
+* [637f30d cfg80211: Define macro to indicate support for random mac address for scan](https://github.com/search?q=cfg80211%3A%20Define%20macro%20to%20indicate%20support%20for%20random%20mac%20address%20for%20scan&type=Commits)
+* [fc4bdfe qcacld-2.0: Add support to include selective scan IEs only](https://github.com/search?q=qcacld-2.0%3A%20Add%20support%20to%20include%20selective%20scan%20IEs%20only&type=Commits)
+* [8370ea9 qcacld-2.0: Add support to randomize probe req SA and Seq number](https://github.com/search?q=qcacld-2.0%3A%20Add%20support%20to%20randomize%20probe%20req%20SA%20and%20Seq%20number&type=Commits)
+* [8081969 qcacld-2.0: Add DS param IE in probe req frame](https://github.com/search?q=qcacld-2.0%3A%20Add%20DS%20param%20IE%20in%20probe%20req%20frame&type=Commits)
+* [e777fe0 qcacld-2.0: Fix layering violation in sirApi.h](https://github.com/search?q=qcacld-2.0%3A%20Fix%20layering%20violation%20in%20sirApi.h&type=Commits)
+* [c0a0809 qcacld-2.0: Rename enumeration associated with scan types](https://github.com/search?q=qcacld-2.0%3A%20Rename%20enumeration%20associated%20with%20scan%20types&type=Commits)
+* [df2f710 qcacld-2.0: Update firmware interface files](https://github.com/search?q=qcacld-2.0%3A%20Update%20firmware%20interface%20files&type=Commits)
+* [26682c6 qcacld-2.0: Increase MAX_CFG_INI_ITEMS to 1024](https://github.com/search?q=qcacld-2.0%3A%20Increase%20MAX_CFG_INI_ITEMS%20to%201024&type=Commits)
+* [2db997e cfg80211: allow drivers to support random MAC addresses for scan](https://github.com/search?q=cfg80211%3A%20allow%20drivers%20to%20support%20random%20MAC%20addresses%20for%20scan&type=Commits)
+* [6ea6c35 cfg80211: refactor nl80211_start_sched_scan so it can be reused](https://github.com/search?q=cfg80211%3A%20refactor%20nl80211_start_sched_scan%20so%20it%20can%20be%20reused&type=Commits)
+* [b02acf7 Revert "cfg80211: Convert del_station() callback to use a param struct"](https://github.com/search?q=Revert%20"cfg80211%3A%20Convert%20del_station%28%29%20callback%20to%20use%20a%20param%20struct"&type=Commits)
+
+#### Device specific Changes of 01-26-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 01-26-2018:
+
+#### packages/apps/WallpaperPicker/
+* [0db30c2 WallpaperPicker: Move strings for translation](https://github.com/search?q=WallpaperPicker%3A%20Move%20strings%20for%20translation&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 01-26-2018 End.
+
 01-24-2018
 ====================
 

@@ -33,6 +33,19 @@ if [ "$input1" == "1" ]; then
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
+	folder="system/nfc";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/LineageOS/android_system_nfc refs/changes/69/206569/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_system_nfc refs/changes/85/206085/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_system_nfc refs/changes/86/206086/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_system_nfc refs/changes/87/206087/3 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_system_nfc refs/changes/88/206088/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_system_nfc refs/changes/89/206089/1 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
 	folder="system/sepolicy/";
 	echo -e "\\n	In Folder $folder \\n"
 
