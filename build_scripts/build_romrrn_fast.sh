@@ -48,6 +48,12 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/27/206427/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/30/206430/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/31/206431/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/32/206432/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/33/206433/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/34/206434/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/35/206435/1 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
 fi
