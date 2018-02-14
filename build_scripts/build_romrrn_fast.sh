@@ -15,6 +15,10 @@ echo -e "\nCommit?\n 1 = Yes\n"
 read -r input1
 echo -e "\nYou choose: $input1"
 
+echo -e "\nMake clean?\n 1 = Yes\n"
+read -r input2
+echo -e "\nYou choose: $input2"
+
 if [ "$input1" == "1" ]; then
 
 	folder="frameworks/native/";
@@ -71,6 +75,8 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	out Folder $folder"
 fi
 
+
+
 export days_to_log=0
 export RR_BUILDTYPE="Experimental"
 export WITH_ROOT_METHOD="rootless"
@@ -80,7 +86,11 @@ export ROM_VVV=$(grep PRODUCT_VERSION vendor/rr/config/common.mk | head -1 | awk
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
 ./prebuilts/sdk/tools/jack-admin start-server
-make clean
+
+if [ "$input2" == "1" ]; then
+	make clean
+fi
+
 lunch lineage_quark-userdebug
 lunch rr_quark-userdebug
 time mka bacon -j8 2>&1 | tee quark.txt
