@@ -3,6 +3,157 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+02-12-2018
+====================
+
+* [048365a build: start wireguard.ko in case is missing](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20start%20wireguard.ko%20in%20case%20is%20missing&type=Commits)
+* [9b5e715 Build update update-binary](https://github.com/bhb27/BHB27Kernel/search?q=Build%20update%20update-binary&type=Commits)
+* [b8c798b Build general clean up](https://github.com/bhb27/BHB27Kernel/search?q=Build%20general%20clean%20up&type=Commits)
+* [91db3ee msm:ipa: Fix to kasan use-after-free issue](https://github.com/bhb27/BHB27Kernel/search?q=msm%3Aipa%3A%20Fix%20to%20kasan%20use-after-free%20issue&type=Commits)
+* [bf945bc qcacld-2.0: Fix potential buffer overwrite in wma_roam_synch_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20wma_roam_synch_event_handler&type=Commits)
+* [8a01f48 qcacld-2.0: Add sanity check to avoid len overflow issue in WMI event data](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20to%20avoid%20len%20overflow%20issue%20in%20WMI%20event%20data&type=Commits)
+* [308327f rtac: add size check when reading cal data kvaddr buffer](https://github.com/bhb27/BHB27Kernel/search?q=rtac%3A%20add%20size%20check%20when%20reading%20cal%20data%20kvaddr%20buffer&type=Commits)
+* [a1e3f83 msm: camera: Return -NOTTY on invalid ioctl command.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Return%20-NOTTY%20on%20invalid%20ioctl%20command.&type=Commits)
+* [a462948 qcacld-2.0: Fix to propagate key-receiver-sequence-counter to WMA](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20to%20propagate%20key-receiver-sequence-counter%20to%20WMA&type=Commits)
+* [e69d410 qcacld-2.0: Propagate key sequence counter to SME](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Propagate%20key%20sequence%20counter%20to%20SME&type=Commits)
+* [d797a46 qcacld-2.0: Fix int overflow in wma_unified_link_radio_stats_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20int%20overflow%20in%20wma_unified_link_radio_stats_event_handler&type=Commits)
+
+***
+
+02-11-2018
+====================
+
+* [041925b build clean up update-binary](https://github.com/bhb27/BHB27Kernel/search?q=build%20clean%20up%20update-binary&type=Commits)
+* [10e8a84 build: init zram at boot_completed](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20init%20zram%20at%20boot_completed&type=Commits)
+* [3f64013 ANDROID: qtaguid: Fix the UAF probelm with tag_ref_tree](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20qtaguid%3A%20Fix%20the%20UAF%20probelm%20with%20tag_ref_tree&type=Commits)
+* [df7bcf5 iovec: make sure the caller actually wants anything in memcpy_fromiovecend](https://github.com/bhb27/BHB27Kernel/search?q=iovec%3A%20make%20sure%20the%20caller%20actually%20wants%20anything%20in%20memcpy_fromiovecend&type=Commits)
+* [66c2799 ANDROID: sound: rawmidi: Hold lock around realloc](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sound%3A%20rawmidi%3A%20Hold%20lock%20around%20realloc&type=Commits)
+* [449f33a qcacld-2.0: Add checks for security vulnerability](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20checks%20for%20security%20vulnerability&type=Commits)
+* [dbf1544 qcacld-2.0: Prevent buffer overflow](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Prevent%20buffer%20overflow&type=Commits)
+* [e8ecbec UPSTREAM: ipv4, ipv6: ensure raw socket message is big enough to hold an IP header](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20ipv4,%20ipv6%3A%20ensure%20raw%20socket%20message%20is%20big%20enough%20to%20hold%20an%20IP%20header&type=Commits)
+
+***
+
+02-10-2018
+====================
+
+* [27af8d8 build corrrect shim path](https://github.com/bhb27/BHB27Kernel/search?q=build%20corrrect%20shim%20path&type=Commits)
+
+***
+
+02-07-2018
+====================
+
+* [c393cc7 qcacld-2.0: Fix regression issue of eCSR_ROAM_LOSTLINK_DETECTED](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20regression%20issue%20of%20eCSR_ROAM_LOSTLINK_DETECTED&type=Commits)
+* [9b1ab0f Revert "qcacld-2.0: Allow Roaming Abort command to firmware"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Allow%20Roaming%20Abort%20command%20to%20firmware"&type=Commits)
+* [a7c1b52 Revert "qcacld-2.0: Reset roaming in progress flag once roaming fails"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Reset%20roaming%20in%20progress%20flag%20once%20roaming%20fails"&type=Commits)
+* [0132b9e Revert "qcacld-2.0: Fix roam start not being sent to firmware"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Fix%20roam%20start%20not%20being%20sent%20to%20firmware"&type=Commits)
+* [103f0e8 qcacld-2.0: Reduce gscan priority](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Reduce%20gscan%20priority&type=Commits)
+* [bf641b4 qcacld-2.0: Protect the TxQueue in failure](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Protect%20the%20TxQueue%20in%20failure&type=Commits)
+* [f3c45c8 qcacld-2.0: Remove needless NULL check for pktNode](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20needless%20NULL%20check%20for%20pktNode&type=Commits)
+* [b732565 qcacld-2.0: Fix to update proper psessionEntry in limProcessMessages()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20to%20update%20proper%20psessionEntry%20in%20limProcessMessages%28%29&type=Commits)
+* [7d78b5d qcacld-2.0: Fix for PNO scan for 802.11A configured AP](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20for%20PNO%20scan%20for%20802.11A%20configured%20AP&type=Commits)
+* [b82957c qcacld-2.0: unmap buffer for CE dst ring en-queue error](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20unmap%20buffer%20for%20CE%20dst%20ring%20en-queue%20error&type=Commits)
+* [8a04507 qcacld-2.0: Delete PMF Sta from previous vdev](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Delete%20PMF%20Sta%20from%20previous%20vdev&type=Commits)
+* [99be3a6 qcacld-2.0: Do not reset short preamble support and beacon interval](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Do%20not%20reset%20short%20preamble%20support%20and%20beacon%20interval&type=Commits)
+* [5041455 qcacld-2.0: Fix sme active list timeout casued by delete sta request](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20sme%20active%20list%20timeout%20casued%20by%20delete%20sta%20request&type=Commits)
+* [f65936b qcacld-2.0: Stop send deauthentication frame when STA is connected](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Stop%20send%20deauthentication%20frame%20when%20STA%20is%20connected&type=Commits)
+
+***
+
+02-02-2018
+====================
+
+* [9afcb51 workqueue: Fix flag collision](https://github.com/bhb27/BHB27Kernel/search?q=workqueue%3A%20Fix%20flag%20collision&type=Commits)
+* [0b841d6 kthread: Backport queuing_blocked()](https://github.com/bhb27/BHB27Kernel/search?q=kthread%3A%20Backport%20queuing_blocked%28%29&type=Commits)
+* [ca5fae5 Reduced CPU Load-Average](https://github.com/bhb27/BHB27Kernel/search?q=Reduced%20CPU%20Load-Average&type=Commits)
+* [e8678df lowmemorykiller: account for unevictable pages](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20account%20for%20unevictable%20pages&type=Commits)
+* [94a82a2 staging: android: lowmemorykiller: set TIF_MEMDIE before send kill sig](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20set%20TIF_MEMDIE%20before%20send%20kill%20sig&type=Commits)
+* [2ac6c1a lowmemorykiller: trace kill events.](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20trace%20kill%20events.&type=Commits)
+* [455ed14 cpufreq: interactive correct u64 hvt initialization](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20interactive%20correct%20u64%20hvt%20initialization&type=Commits)
+
+***
+
+01-29-2018
+====================
+
+* [b0643c2 msm: vidc: Handle max clients error properly](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Handle%20max%20clients%20error%20properly&type=Commits)
+* [d0bfebd msm: vidc: Fix SYS_ERROR handling](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Fix%20SYS_ERROR%20handling&type=Commits)
+* [6429076 qcacld-2.0: Process disassociate with invalid reason code](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Process%20disassociate%20with%20invalid%20reason%20code&type=Commits)
+* [fb5a5ea qcacld-2.0: Fix reset variable abortScan](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20reset%20variable%20abortScan&type=Commits)
+* [6169f9a qcacld-2.0: Add argument to ol_tx_queue_free for vdev or peer queues](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20argument%20to%20ol_tx_queue_free%20for%20vdev%20or%20peer%20queues&type=Commits)
+* [afac08f qcacld-2.0: Flush vdev's TXQ with the same TID as inserted one](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Flush%20vdev%27s%20TXQ%20with%20the%20same%20TID%20as%20inserted%20one&type=Commits)
+* [eb692c8 qcacld-2.0: when flush txq in sheduler use same tid to ref the txq](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20when%20flush%20txq%20in%20sheduler%20use%20same%20tid%20to%20ref%20the%20txq&type=Commits)
+* [bc27f8e qcacld-2.0: Fix scan failure issue due to stale PE session](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20scan%20failure%20issue%20due%20to%20stale%20PE%20session&type=Commits)
+* [62bfbe9 qcacld-2.0: Cancel scan request before issuing connect request](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Cancel%20scan%20request%20before%20issuing%20connect%20request&type=Commits)
+* [22c908c qcacld-2.0: Remove redundant code in __wlan_hdd_cfg80211_connect()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20redundant%20code%20in%20__wlan_hdd_cfg80211_connect%28%29&type=Commits)
+
+***
+
+01-27-2018
+====================
+
+* [2004f21 tcp: fastopen: fix on syn-data transmit failure](https://github.com/bhb27/BHB27Kernel/search?q=tcp%3A%20fastopen%3A%20fix%20on%20syn-data%20transmit%20failure&type=Commits)
+* [332475b net: ipv4: Don't crash if passing a null sk to ip_rt_update_pmtu.](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20ipv4%3A%20Don%27t%20crash%20if%20passing%20a%20null%20sk%20to%20ip_rt_update_pmtu.&type=Commits)
+* [5fd6b01 net: inet: Support UID-based routing in IP protocols.](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20inet%3A%20Support%20UID-based%20routing%20in%20IP%20protocols.&type=Commits)
+* [c473e6d net: ipv6: make "ip -6 route get mark xyz" work.](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20ipv6%3A%20make%20"ip%20-6%20route%20get%20mark%20xyz"%20work.&type=Commits)
+* [1c556b6 net: core: add UID to flows, rules, and routes](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20core%3A%20add%20UID%20to%20flows,%20rules,%20and%20routes&type=Commits)
+* [87fbd85 net: core: Add a UID field to struct sock.](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20core%3A%20Add%20a%20UID%20field%20to%20struct%20sock.&type=Commits)
+* [b48c360 Revert "net: core: Support UID-based routing."](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"net%3A%20core%3A%20Support%20UID-based%20routing."&type=Commits)
+* [9780c77 Revert "Handle 'sk' being NULL in UID-based routing."](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"Handle%20%27sk%27%20being%20NULL%20in%20UID-based%20routing."&type=Commits)
+* [9c003d6 qcacld-2.0: Fix memory leak issue](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20issue&type=Commits)
+* [148063c qcacld-2.0: Initialize session id for auth retry timer](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Initialize%20session%20id%20for%20auth%20retry%20timer&type=Commits)
+* [4fdf3df qcacld-2.0: Optimize the spinlock usage in suspend callback](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Optimize%20the%20spinlock%20usage%20in%20suspend%20callback&type=Commits)
+* [bdecda9 qcacld-2.0: Add NULL check for HIF device before dereferencing](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20NULL%20check%20for%20HIF%20device%20before%20dereferencing&type=Commits)
+* [8a30aff qcacld-2.0: Add sanity check to avoid NULL pointer dereference](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20to%20avoid%20NULL%20pointer%20dereference&type=Commits)
+* [3879e1a qcacld-2.0: Add NULL Check in iwpriv ioctl iw_setint_getnone](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20NULL%20Check%20in%20iwpriv%20ioctl%20iw_setint_getnone&type=Commits)
+* [f20e12d qcacld-2.0: Fix invalid peer create after vdev down](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20invalid%20peer%20create%20after%20vdev%20down&type=Commits)
+* [8fcb5e0 qcacld-2.0: Clear WMI cmd buffer after TX completion](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Clear%20WMI%20cmd%20buffer%20after%20TX%20completion&type=Commits)
+* [a29c873 qcacld-2.0: Add timer related messages at the top of PE queue](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20timer%20related%20messages%20at%20the%20top%20of%20PE%20queue&type=Commits)
+* [578de77 qcacld-2.0: Add retry logic if HTCIssuePackets fails](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20retry%20logic%20if%20HTCIssuePackets%20fails&type=Commits)
+* [78b167b qcacld-2.0: Fix a deadlock in proto trace](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20a%20deadlock%20in%20proto%20trace&type=Commits)
+* [e3b088a qcacld-2.0: Correct return value of wlan_hdd_cfg80211_update_bss](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Correct%20return%20value%20of%20wlan_hdd_cfg80211_update_bss&type=Commits)
+* [3944fef qcacld-2.0: Fix type mismatch in bitwise operator](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20type%20mismatch%20in%20bitwise%20operator&type=Commits)
+* [8293124 qcacld-2.0 : Avoid calling PE delete session for non valid session](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%20%3A%20Avoid%20calling%20PE%20delete%20session%20for%20non%20valid%20session&type=Commits)
+
+***
+
+01-26-2018
+====================
+
+* [f0c8af9 v 8.6](https://github.com/bhb27/BHB27Kernel/search?q=v%208.6&type=Commits)
+* [ace0434 USB: core: prevent malicious bNumInterfaces overflow](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20core%3A%20prevent%20malicious%20bNumInterfaces%20overflow&type=Commits)
+* [e14387a Bluetooth: Prevent stack info leak from the EFS element.](https://github.com/bhb27/BHB27Kernel/search?q=Bluetooth%3A%20Prevent%20stack%20info%20leak%20from%20the%20EFS%20element.&type=Commits)
+* [7cdea27 BACKPORT: commoncap: don't alloc the credential unless needed in cap_task_prctl](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20commoncap%3A%20don%27t%20alloc%20the%20credential%20unless%20needed%20in%20cap_task_prctl&type=Commits)
+* [2d0dd0d ANDROID: sdcardfs: Move default_normal to superblock](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sdcardfs%3A%20Move%20default_normal%20to%20superblock&type=Commits)
+* [317aa24a ANDROID: sdcardfs: Fix missing break on default_normal](https://github.com/bhb27/BHB27Kernel/search?q=%20ANDROID%3A%20sdcardfs%3A%20Fix%20missing%20break%20on%20default_normal&type=Commits)
+* [8a10407 ANDROID: scsi: sg: Fix build breakage](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20scsi%3A%20sg%3A%20Fix%20build%20breakage&type=Commits)
+* [16af72e ANDROID: sdcardfs: Add default_normal option](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sdcardfs%3A%20Add%20default_normal%20option&type=Commits)
+* [9cbf984 ANDROID: sdcardfs: notify lower file of opens](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sdcardfs%3A%20notify%20lower%20file%20of%20opens&type=Commits)
+* [e1e1001 UPSTREAM: net: remove open-coded skb_cow_head.](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20net%3A%20remove%20open-coded%20skb_cow_head.&type=Commits)
+* [502878c UPSTREAM: sctp: do not peel off an assoc from one netns to another one](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20sctp%3A%20do%20not%20peel%20off%20an%20assoc%20from%20one%20netns%20to%20another%20one&type=Commits)
+* [de5b46c cfg80211: Define macro to indicate support for random mac address for scan](https://github.com/bhb27/BHB27Kernel/search?q=cfg80211%3A%20Define%20macro%20to%20indicate%20support%20for%20random%20mac%20address%20for%20scan&type=Commits)
+* [1967618 qcacld-2.0: Add support to include selective scan IEs only](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20support%20to%20include%20selective%20scan%20IEs%20only&type=Commits)
+* [3db5df3 qcacld-2.0: Add support to randomize probe req SA and Seq number](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20support%20to%20randomize%20probe%20req%20SA%20and%20Seq%20number&type=Commits)
+* [ffbaee7 qcacld-2.0: Add DS param IE in probe req frame](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20DS%20param%20IE%20in%20probe%20req%20frame&type=Commits)
+* [1ae81194 qcacld-2.0: Fix layering violation in sirApi.h](https://github.com/bhb27/BHB27Kernel/search?q=%20qcacld-2.0%3A%20Fix%20layering%20violation%20in%20sirApi.h&type=Commits)
+* [3826039 qcacld-2.0: Rename enumeration associated with scan types](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Rename%20enumeration%20associated%20with%20scan%20types&type=Commits)
+* [1719401 qcacld-2.0: Update firmware interface files](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Update%20firmware%20interface%20files&type=Commits)
+* [899e9b3 qcacld-2.0: Increase MAX_CFG_INI_ITEMS to 1024](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Increase%20MAX_CFG_INI_ITEMS%20to%201024&type=Commits)
+* [8608dcd cfg80211: allow drivers to support random MAC addresses for scan](https://github.com/bhb27/BHB27Kernel/search?q=cfg80211%3A%20allow%20drivers%20to%20support%20random%20MAC%20addresses%20for%20scan&type=Commits)
+* [5969445 cfg80211: refactor nl80211_start_sched_scan so it can be reused](https://github.com/bhb27/BHB27Kernel/search?q=cfg80211%3A%20refactor%20nl80211_start_sched_scan%20so%20it%20can%20be%20reused&type=Commits)
+* [df25079 Revert "cfg80211: Convert del_station() callback to use a param struct"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"cfg80211%3A%20Convert%20del_station%28%29%20callback%20to%20use%20a%20param%20struct"&type=Commits)
+
+***
+
+01-25-2018
+====================
+
+* [cccdf87 V 8.5](https://github.com/bhb27/BHB27Kernel/search?q=V%208.5&type=Commits)
+* [914ac20 Build don't push lights.apq8084](https://github.com/bhb27/BHB27Kernel/search?q=Build%20don%27t%20push%20lights.apq8084&type=Commits)
+
+***
+
 01-22-2018
 ====================
 
