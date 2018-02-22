@@ -3,6 +3,203 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+02-22-2018
+====================
+
+#### Device specific Changes of 02-22-2018 Start:
+
+#### Kernel/Quark/
+* [d8e3c62 Revert "qcacld-2.0: Add support for duty cycling qpower feature"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Add%20support%20for%20duty%20cycling%20qpower%20feature"&type=Commits)
+* [e022449 Revert "qcacld-2.0: Remove hardcoded value and set qpower appropriately"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Remove%20hardcoded%20value%20and%20set%20qpower%20appropriately"&type=Commits)
+* [cefb063 Revert "qcacld-2.0: Add proper check to avoid invoking tear down link multiple time"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Add%20proper%20check%20to%20avoid%20invoking%20tear%20down%20link%20multiple%20time"&type=Commits)
+* [36e0cb1 Revert "qcacld-2.0: Fix NULL tx_desc pool dereference"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Fix%20NULL%20tx_desc%20pool%20dereference"&type=Commits)
+* [05e0bbe Revert "qcacld-2.0: Stale scan entries updated to NL"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Stale%20scan%20entries%20updated%20to%20NL"&type=Commits)
+* [2f164a6 Revert "qcacld-2.0: Fix NOL update incorrectly"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Fix%20NOL%20update%20incorrectly"&type=Commits)
+* [07386da Revert "qcacld-2.0: Increase MAX_CFG_INI_ITEMS to 1024"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Increase%20MAX_CFG_INI_ITEMS%20to%201024"&type=Commits)
+* [2b1f82c apq8084: qcacld-2.0: remove unsupported struct members due to revert](https://github.com/search?q=apq8084%3A%20qcacld-2.0%3A%20remove%20unsupported%20struct%20members%20due%20to%20revert&type=Commits)
+* [bdd433d Revert "qcacld-2.0: Update firmware interface files"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Update%20firmware%20interface%20files"&type=Commits)
+* [3346e43 Revert "qcacld-2.0: Add DS param IE in probe req frame"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Add%20DS%20param%20IE%20in%20probe%20req%20frame"&type=Commits)
+* [aec6428 Revert "qcacld-2.0: Add support to randomize probe req SA and Seq number"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Add%20support%20to%20randomize%20probe%20req%20SA%20and%20Seq%20number"&type=Commits)
+* [6d18d51 Revert "qcacld-2.0: Add support to include selective scan IEs only"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Add%20support%20to%20include%20selective%20scan%20IEs%20only"&type=Commits)
+* [7915dba Revert "qcacld-2.0: Reduce wakelock resume wlan timeout to 1 sec"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Reduce%20wakelock%20resume%20wlan%20timeout%20to%201%20sec"&type=Commits)
+* [e2c5ec1 Revert "qcacld-2.0: Add argument to ol_tx_queue_free for vdev or peer queues"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Add%20argument%20to%20ol_tx_queue_free%20for%20vdev%20or%20peer%20queues"&type=Commits)
+* [5c13d7b Revert "qcacld-2.0: unmap buffer for CE dst ring en-queue error"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20unmap%20buffer%20for%20CE%20dst%20ring%20en-queue%20error"&type=Commits)
+* [43a6ef4 Revert "qcacld-2.0: Fix for PNO scan for 802.11A configured AP"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Fix%20for%20PNO%20scan%20for%20802.11A%20configured%20AP"&type=Commits)
+* [8941fde qcacld-2.0: Change to drop spurious Assoc/Reassoc frames](https://github.com/search?q=qcacld-2.0%3A%20Change%20to%20drop%20spurious%20Assoc/Reassoc%20frames&type=Commits)
+* [39feb4a wlan: Limit the Deauth Frames sent by AP to STA](https://github.com/search?q=wlan%3A%20Limit%20the%20Deauth%20Frames%20sent%20by%20AP%20to%20STA&type=Commits)
+* [aa48658 qcacld-2.0: peak kpi tunning](https://github.com/search?q=qcacld-2.0%3A%20peak%20kpi%20tunning&type=Commits)
+* [af961af qcacld-2.0: allow rps cpu map to be read from ini](https://github.com/search?q=qcacld-2.0%3A%20allow%20rps%20cpu%20map%20to%20be%20read%20from%20ini&type=Commits)
+* [c958680 qcacld: Disable watchdog thread by default](https://github.com/search?q=qcacld%3A%20Disable%20watchdog%20thread%20by%20default&type=Commits)
+* [921f427 qcacld-2.0: Make MU-MIMO feature enabled by default](https://github.com/search?q=qcacld-2.0%3A%20Make%20MU-MIMO%20feature%20enabled%20by%20default&type=Commits)
+* [98098ce qcacld-2.0: By default set thermal power limit to 30dbm](https://github.com/search?q=qcacld-2.0%3A%20By%20default%20set%20thermal%20power%20limit%20to%2030dbm&type=Commits)
+* [d805173 qcacld-2.0: Update WCNSS_qcom_cfg](https://github.com/search?q=qcacld-2.0%3A%20Update%20WCNSS_qcom_cfg&type=Commits)
+* [96c627c wake_gestures: cleanup to improve](https://github.com/search?q=wake_gestures%3A%20cleanup%20to%20improve&type=Commits)
+* [418248c wake: remove camera gesture](https://github.com/search?q=wake%3A%20remove%20camera%20gesture&type=Commits)
+* [dfa01a5 lowmemorykiller: trace kill events.](https://github.com/search?q=lowmemorykiller%3A%20trace%20kill%20events.&type=Commits)
+* [b0a1673 lowmemorykiller: account for unevictable pages](https://github.com/search?q=lowmemorykiller%3A%20account%20for%20unevictable%20pages&type=Commits)
+* [fe26682 staging: android: lowmemorykiller: neglect swap cached pages in other_file](https://github.com/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20neglect%20swap%20cached%20pages%20in%20other_file&type=Commits)
+* [fabdb3c staging: android: lowmemorykiller: set TIF_MEMDIE before send kill sig](https://github.com/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20set%20TIF_MEMDIE%20before%20send%20kill%20sig&type=Commits)
+* [0fd45c0 Revert "android/lowmemorykiller: Check all tasks for death pending"](https://github.com/search?q=Revert%20"android/lowmemorykiller%3A%20Check%20all%20tasks%20for%20death%20pending"&type=Commits)
+* [30798f0 Revert "android/lowmemorykiller: Wait for memory to be freed"](https://github.com/search?q=Revert%20"android/lowmemorykiller%3A%20Wait%20for%20memory%20to%20be%20freed"&type=Commits)
+* [36a5fe5 Revert "android/lowmemorykiller: Ignore tasks with freed mm"](https://github.com/search?q=Revert%20"android/lowmemorykiller%3A%20Ignore%20tasks%20with%20freed%20mm"&type=Commits)
+* [8a589e1 Revert "android: lowmemorykiller: add lmk parameters tunning code."](https://github.com/search?q=Revert%20"android%3A%20lowmemorykiller%3A%20add%20lmk%20parameters%20tunning%20code."&type=Commits)
+* [340a04d Revert "android/lowmemorykiller: Selectively count free CMA pages"](https://github.com/search?q=Revert%20"android/lowmemorykiller%3A%20Selectively%20count%20free%20CMA%20pages"&type=Commits)
+* [70126d3 Revert "android/lowmemorykiller: Account for total_swapcache_pages"](https://github.com/search?q=Revert%20"android/lowmemorykiller%3A%20Account%20for%20total_swapcache_pages"&type=Commits)
+* [8ee3c69 Revert "lowmemorykiller: Account for highmem during kswapd reclaim"](https://github.com/search?q=Revert%20"lowmemorykiller%3A%20Account%20for%20highmem%20during%20kswapd%20reclaim"&type=Commits)
+* [3ed6fde Revert "lowmemorykiller: Don't count reserve page twice"](https://github.com/search?q=Revert%20"lowmemorykiller%3A%20Don%27t%20count%20reserve%20page%20twice"&type=Commits)
+* [4340198 lowmemorykiller: reset lmk config](https://github.com/search?q=lowmemorykiller%3A%20reset%20lmk%20config&type=Commits)
+* [670c4aa wake_gestures: bigger dt2w and s2w max allow timeouts](https://github.com/search?q=wake_gestures%3A%20bigger%20dt2w%20and%20s2w%20max%20allow%20timeouts&type=Commits)
+* [334b18a5 wake_gestures: remove bool WAKE_GESTURES_ENABLED](https://github.com/search?q=%20wake_gestures%3A%20remove%20bool%20WAKE_GESTURES_ENABLED&type=Commits)
+* [813222a wake_gestures: update timings](https://github.com/search?q=wake_gestures%3A%20update%20timings&type=Commits)
+* [a162370 UPSTREAM: loop: fix concurrent lo_open/lo_release](https://github.com/search?q=UPSTREAM%3A%20loop%3A%20fix%20concurrent%20lo_open/lo_release&type=Commits)
+* [7f132f4 BACKPORT: ipv6: fix udpv6 sendmsg crash caused by too small MTU](https://github.com/search?q=BACKPORT%3A%20ipv6%3A%20fix%20udpv6%20sendmsg%20crash%20caused%20by%20too%20small%20MTU&type=Commits)
+* [5262d7b defconfig ena INTELLI_THERMAL](https://github.com/search?q=defconfig%20ena%20INTELLI_THERMAL&type=Commits)
+* [3a3d3d1 intellithermal fix max freq value](https://github.com/search?q=intellithermal%20fix%20max%20freq%20value&type=Commits)
+* [58834c1 Thermal: Change Msm thermal use intellithermal Experimental will try run binary thermal drive with this givin the user the choiceof with will be on](https://github.com/search?q=Thermal%3A%20Change%20Msm%20thermal%20use%20intellithermal%20Experimental%20will%20try%20run%20binary%20thermal%20drive%20with%20this%20givin%20the%20user%20the%20choiceof%20with%20will%20be%20on&type=Commits)
+
+#### Vendor/Quark/
+* [88cf61b Update KernelAdiutor.apk](https://github.com/search?q=Update%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 02-22-2018 End.
+
+***
+
+02-20-2018
+====================
+
+#### CRDroid Android Nougat source changes of 02-20-2018:
+
+#### vendor/crDroidOTA-devices/
+* [2c92d82  Add Device Xiaomi Redmi 5A (riva) : initial changelog](https://github.com/search?q=%20Add%20Device%20Xiaomi%20Redmi%205A%20%28riva%29%20%3A%20initial%20changelog&type=Commits)
+* [412d9a0 Update Changelog 19/02/2018 For Xiaomi Redmi 4A (rolex)](https://github.com/search?q=Update%20Changelog%2019/02/2018%20For%20Xiaomi%20Redmi%204A%20%28rolex%29&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-20-2018 End.
+
+02-19-2018
+====================
+
+#### CRDroid Android Nougat source changes of 02-19-2018:
+
+#### hardware/libhardware_legacy/
+* [a79094a wifi: add flag to wait for kernel driver to get ready](https://github.com/search?q=wifi%3A%20add%20flag%20to%20wait%20for%20kernel%20driver%20to%20get%20ready&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-19-2018 End.
+
+02-18-2018
+====================
+
+#### CRDroid Android Nougat source changes of 02-18-2018:
+
+#### external/chromium-webview/
+* [110d08a Update webviews to Chromium 64.0.3282.137](https://github.com/search?q=Update%20webviews%20to%20Chromium%2064.0.3282.137&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [b67e5b0  Update OTA For Xiaomi Redmi 5A(riva)](https://github.com/search?q=%20Update%20OTA%20For%20Xiaomi%20Redmi%205A%28riva%29&type=Commits)
+* [b717186 Merge branch '7.1' of https://github.com/crdroid-devices/android_vendor_crDroidOTA into 7.1](https://github.com/search?q=Merge%20branch%20%277.1%27%20of%20https%3A//github.com/crdroid-devices/android_vendor_crDroidOTA%20into%207.1&type=Commits)
+* [83baf20  Add Device Xioami Redmi 4A(rolex)](https://github.com/search?q=%20Add%20Device%20Xioami%20Redmi%204A%28rolex%29&type=Commits)
+* [0ed57b1  Add Device Xioami Readmi 4A(rolex)](https://github.com/search?q=%20Add%20Device%20Xioami%20Readmi%204A%28rolex%29&type=Commits)
+* [82d66bf  Update OTA For Redmi 4A(rolex)](https://github.com/search?q=%20Update%20OTA%20For%20Redmi%204A%28rolex%29&type=Commits)
+* [d19af26 x3-Feb Update!](https://github.com/search?q=x3-Feb%20Update!&type=Commits)
+* [fdf97a0 x3-Feb Update!](https://github.com/search?q=x3-Feb%20Update!&type=Commits)
+* [f225cdf land: fix version](https://github.com/search?q=land%3A%20fix%20version&type=Commits)
+* [ab06b6d land: fix crDroid version](https://github.com/search?q=land%3A%20fix%20crDroid%20version&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-18-2018 End.
+
+02-17-2018
+====================
+
+#### Device specific Changes of 02-17-2018 Start:
+
+#### Device/Quark/
+* [583464d Quark: Allow to share wired ethernet connections](https://github.com/search?q=Quark%3A%20Allow%20to%20share%20wired%20ethernet%20connections&type=Commits)
+
+#### Device specific Changes of 02-17-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 02-17-2018:
+
+#### packages/apps/AudioFX/
+* [f8715c9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [85965e2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [199c7f7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [d9e5f34 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [65c32a3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [a44c43c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [9fff235 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [195a24c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [4deb958 land: New OTA](https://github.com/search?q=land%3A%20New%20OTA&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-17-2018 End.
+
+02-16-2018
+====================
+
+#### Device specific Changes of 02-16-2018 Start:
+
+#### Kernel/Quark/
+* [f56f54b ANDROID: sdcardfs: Protect set_top](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Protect%20set_top&type=Commits)
+* [9adcf5d ANDROID: fsnotify: Notify lower fs of open](https://github.com/search?q=ANDROID%3A%20fsnotify%3A%20Notify%20lower%20fs%20of%20open&type=Commits)
+* [49ff4fb ANDROID: sdcardfs: Use lower getattr times/size](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Use%20lower%20getattr%20times/size&type=Commits)
+* [acb19de ANDROID: xattr: Pass EOPNOTSUPP to permission2](https://github.com/search?q=ANDROID%3A%20xattr%3A%20Pass%20EOPNOTSUPP%20to%20permission2&type=Commits)
+* [f12297e firmware_class: make firmware caching configurable](https://github.com/search?q=firmware_class%3A%20make%20firmware%20caching%20configurable&type=Commits)
+* [5b92a36 alarm : Fix the race conditions in alarm-dev.c](https://github.com/search?q=alarm%20%3A%20Fix%20the%20race%20conditions%20in%20alarm-dev.c&type=Commits)
+* [4e45363 rtc: alarm: set power_on_alarm again when calling alarmtimer_resume](https://github.com/search?q=rtc%3A%20alarm%3A%20set%20power_on_alarm%20again%20when%20calling%20alarmtimer_resume&type=Commits)
+
+#### Device specific Changes of 02-16-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 02-16-2018:
+
+#### packages/apps/crDroidSettings/
+* [a3044c9 Merge pull request #161 from teja98/7.1](https://github.com/search?q=Merge%20pull%20request%20%23161%20from%20teja98/7.1&type=Commits)
+
+#### vendor/crDroidOTA-devices/
+* [34ba2ee Merge pull request #21 from teja98/7.1](https://github.com/search?q=Merge%20pull%20request%20%2321%20from%20teja98/7.1&type=Commits)
+* [5038cef updated Lenovo K6 Power and Lenovo K6 Note Maintainer](https://github.com/search?q=updated%20Lenovo%20K6%20Power%20and%20Lenovo%20K6%20Note%20Maintainer&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-16-2018 End.
+
+02-15-2018
+====================
+
+#### Device specific Changes of 02-15-2018 Start:
+
+#### Vendor/Quark/
+* [50bd630 Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 02-15-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 02-15-2018:
+
+#### build/
+* [8dab892 Merge 'cm-14.1' into 7.1](https://github.com/search?q=Merge%20%27cm-14.1%27%20into%207.1&type=Commits)
+
+#### packages/apps/crDroidSettings/
+* [a650887 update Lenovo K6 Power and Lenovo K6 Note Maintainer](https://github.com/search?q=update%20Lenovo%20K6%20Power%20and%20Lenovo%20K6%20Note%20Maintainer&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-15-2018 End.
+
 02-14-2018
 ====================
 
