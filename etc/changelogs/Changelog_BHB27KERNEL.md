@@ -3,6 +3,98 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+02-22-2018
+====================
+
+* [8fe8b6f Revert "qcacld-2.0: Add support for duty cycling qpower feature"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Add%20support%20for%20duty%20cycling%20qpower%20feature"&type=Commits)
+* [911655b Revert "qcacld-2.0: Remove hardcoded value and set qpower appropriately"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Remove%20hardcoded%20value%20and%20set%20qpower%20appropriately"&type=Commits)
+* [44ad273 Revert "qcacld-2.0: Add proper check to avoid invoking tear down link multiple time"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Add%20proper%20check%20to%20avoid%20invoking%20tear%20down%20link%20multiple%20time"&type=Commits)
+* [09c93ae Revert "qcacld-2.0: Fix NULL tx_desc pool dereference"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Fix%20NULL%20tx_desc%20pool%20dereference"&type=Commits)
+* [01a5a3a Revert "qcacld-2.0: Stale scan entries updated to NL"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Stale%20scan%20entries%20updated%20to%20NL"&type=Commits)
+* [b1a31937 Revert "qcacld-2.0: Fix NOL update incorrectly"](https://github.com/bhb27/BHB27Kernel/search?q=%20Revert%20"qcacld-2.0%3A%20Fix%20NOL%20update%20incorrectly"&type=Commits)
+* [42773e7 Revert "qcacld-2.0: Increase MAX_CFG_INI_ITEMS to 1024"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Increase%20MAX_CFG_INI_ITEMS%20to%201024"&type=Commits)
+* [c809d16 apq8084: qcacld-2.0: remove unsupported struct members due to revert](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20qcacld-2.0%3A%20remove%20unsupported%20struct%20members%20due%20to%20revert&type=Commits)
+* [64bcf63 Revert "qcacld-2.0: Update firmware interface files"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Update%20firmware%20interface%20files"&type=Commits)
+* [94d748a Revert "qcacld-2.0: Add DS param IE in probe req frame"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Add%20DS%20param%20IE%20in%20probe%20req%20frame"&type=Commits)
+* [3e3539a Revert "qcacld-2.0: Add support to randomize probe req SA and Seq number"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Add%20support%20to%20randomize%20probe%20req%20SA%20and%20Seq%20number"&type=Commits)
+* [56e30b3 Revert "qcacld-2.0: Add support to include selective scan IEs only"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Add%20support%20to%20include%20selective%20scan%20IEs%20only"&type=Commits)
+* [e8a232a Revert "qcacld-2.0: Reduce wakelock resume wlan timeout to 1 sec"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Reduce%20wakelock%20resume%20wlan%20timeout%20to%201%20sec"&type=Commits)
+* [062c1a1 Revert "qcacld-2.0: Add argument to ol_tx_queue_free for vdev or peer queues"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Add%20argument%20to%20ol_tx_queue_free%20for%20vdev%20or%20peer%20queues"&type=Commits)
+* [133bd99 Revert "qcacld-2.0: unmap buffer for CE dst ring en-queue error"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20unmap%20buffer%20for%20CE%20dst%20ring%20en-queue%20error"&type=Commits)
+* [883999b Revert "qcacld-2.0: Fix for PNO scan for 802.11A configured AP"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Fix%20for%20PNO%20scan%20for%20802.11A%20configured%20AP"&type=Commits)
+* [1a78322 qcacld-2.0: Change to drop spurious Assoc/Reassoc frames](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Change%20to%20drop%20spurious%20Assoc/Reassoc%20frames&type=Commits)
+* [b771785 wlan: Limit the Deauth Frames sent by AP to STA](https://github.com/bhb27/BHB27Kernel/search?q=wlan%3A%20Limit%20the%20Deauth%20Frames%20sent%20by%20AP%20to%20STA&type=Commits)
+
+***
+
+02-21-2018
+====================
+
+* [ed9b5c2cb qcacld-2.0: peak kpi tunning](https://github.com/bhb27/BHB27Kernel/search?q=b%20qcacld-2.0%3A%20peak%20kpi%20tunning&type=Commits)
+* [65db75f qcacld-2.0: allow rps cpu map to be read from ini](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20allow%20rps%20cpu%20map%20to%20be%20read%20from%20ini&type=Commits)
+* [4bfbae7 qcacld: Disable watchdog thread by default](https://github.com/bhb27/BHB27Kernel/search?q=qcacld%3A%20Disable%20watchdog%20thread%20by%20default&type=Commits)
+* [45fdbfa qcacld-2.0: Make MU-MIMO feature enabled by default](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Make%20MU-MIMO%20feature%20enabled%20by%20default&type=Commits)
+* [d206025 qcacld-2.0: By default set thermal power limit to 30dbm](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20By%20default%20set%20thermal%20power%20limit%20to%2030dbm&type=Commits)
+* [f04e1fe qcacld-2.0: Update WCNSS_qcom_cfg](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Update%20WCNSS_qcom_cfg&type=Commits)
+
+***
+
+02-18-2018
+====================
+
+* [f6a022b wake_gestures: cleanup to improve](https://github.com/bhb27/BHB27Kernel/search?q=wake_gestures%3A%20cleanup%20to%20improve&type=Commits)
+* [477c498 wake: remove camera gesture](https://github.com/bhb27/BHB27Kernel/search?q=wake%3A%20remove%20camera%20gesture&type=Commits)
+
+***
+
+02-17-2018
+====================
+
+* [69d5598 build: set dt2w_time to 250 on boot](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20set%20dt2w_time%20to%20250%20on%20boot&type=Commits)
+* [e751137 lowmemorykiller: trace kill events.](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20trace%20kill%20events.&type=Commits)
+* [615f77a lowmemorykiller: account for unevictable pages](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20account%20for%20unevictable%20pages&type=Commits)
+* [eddccde staging: android: lowmemorykiller: neglect swap cached pages in other_file](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20neglect%20swap%20cached%20pages%20in%20other_file&type=Commits)
+* [94386c3 staging: android: lowmemorykiller: set TIF_MEMDIE before send kill sig](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20lowmemorykiller%3A%20set%20TIF_MEMDIE%20before%20send%20kill%20sig&type=Commits)
+* [20ec640 Revert "android/lowmemorykiller: Check all tasks for death pending"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"android/lowmemorykiller%3A%20Check%20all%20tasks%20for%20death%20pending"&type=Commits)
+* [61340c3 Revert "android/lowmemorykiller: Wait for memory to be freed"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"android/lowmemorykiller%3A%20Wait%20for%20memory%20to%20be%20freed"&type=Commits)
+* [01c4518 Revert "android/lowmemorykiller: Ignore tasks with freed mm"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"android/lowmemorykiller%3A%20Ignore%20tasks%20with%20freed%20mm"&type=Commits)
+* [6adbf28 Revert "android: lowmemorykiller: add lmk parameters tunning code."](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"android%3A%20lowmemorykiller%3A%20add%20lmk%20parameters%20tunning%20code."&type=Commits)
+* [90a54a6 Revert "android/lowmemorykiller: Selectively count free CMA pages"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"android/lowmemorykiller%3A%20Selectively%20count%20free%20CMA%20pages"&type=Commits)
+* [0b5424c Revert "android/lowmemorykiller: Account for total_swapcache_pages"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"android/lowmemorykiller%3A%20Account%20for%20total_swapcache_pages"&type=Commits)
+* [616788d Revert "lowmemorykiller: Account for highmem during kswapd reclaim"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"lowmemorykiller%3A%20Account%20for%20highmem%20during%20kswapd%20reclaim"&type=Commits)
+* [7d89c48 Revert "lowmemorykiller: Don't count reserve page twice"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"lowmemorykiller%3A%20Don%27t%20count%20reserve%20page%20twice"&type=Commits)
+* [2cf09b1 lowmemorykiller: reset lmk config](https://github.com/bhb27/BHB27Kernel/search?q=lowmemorykiller%3A%20reset%20lmk%20config&type=Commits)
+* [a1fb678 wake_gestures: bigger dt2w and s2w max allow timeouts](https://github.com/bhb27/BHB27Kernel/search?q=wake_gestures%3A%20bigger%20dt2w%20and%20s2w%20max%20allow%20timeouts&type=Commits)
+* [17453a7 wake_gestures: remove bool WAKE_GESTURES_ENABLED](https://github.com/bhb27/BHB27Kernel/search?q=wake_gestures%3A%20remove%20bool%20WAKE_GESTURES_ENABLED&type=Commits)
+
+***
+
+02-16-2018
+====================
+
+* [c226121 wake_gestures: update timings](https://github.com/bhb27/BHB27Kernel/search?q=wake_gestures%3A%20update%20timings&type=Commits)
+* [0d29841 UPSTREAM: loop: fix concurrent lo_open/lo_release](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20loop%3A%20fix%20concurrent%20lo_open/lo_release&type=Commits)
+* [694abbc BACKPORT: ipv6: fix udpv6 sendmsg crash caused by too small MTU](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ipv6%3A%20fix%20udpv6%20sendmsg%20crash%20caused%20by%20too%20small%20MTU&type=Commits)
+* [a2ab2db defconfig use HZ_1000](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20use%20HZ_1000&type=Commits)
+* [62701b3 Fix CONFIG_HZ dependency in wifi driver.](https://github.com/bhb27/BHB27Kernel/search?q=Fix%20CONFIG_HZ%20dependency%20in%20wifi%20driver.&type=Commits)
+* [7c6037a arm: configs: apq8084: set CONFIG_HZ to 300](https://github.com/bhb27/BHB27Kernel/search?q=arm%3A%20configs%3A%20apq8084%3A%20set%20CONFIG_HZ%20to%20300&type=Commits)
+* [320d997 V8.7](https://github.com/bhb27/BHB27Kernel/search?q=V8.7&type=Commits)
+
+***
+
+02-15-2018
+====================
+
+* [f0d9cefc6 ANDROID: sdcardfs: Protect set_top](https://github.com/bhb27/BHB27Kernel/search?q=6%20ANDROID%3A%20sdcardfs%3A%20Protect%20set_top&type=Commits)
+* [7fcbf74 ANDROID: fsnotify: Notify lower fs of open](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20fsnotify%3A%20Notify%20lower%20fs%20of%20open&type=Commits)
+* [7323274 ANDROID: sdcardfs: Use lower getattr times/size](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sdcardfs%3A%20Use%20lower%20getattr%20times/size&type=Commits)
+* [879cd78 ANDROID: xattr: Pass EOPNOTSUPP to permission2](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20xattr%3A%20Pass%20EOPNOTSUPP%20to%20permission2&type=Commits)
+* [6e24a33 firmware_class: make firmware caching configurable](https://github.com/bhb27/BHB27Kernel/search?q=firmware_class%3A%20make%20firmware%20caching%20configurable&type=Commits)
+* [43076ca alarm : Fix the race conditions in alarm-dev.c](https://github.com/bhb27/BHB27Kernel/search?q=alarm%20%3A%20Fix%20the%20race%20conditions%20in%20alarm-dev.c&type=Commits)
+* [bea4dc9 rtc: alarm: set power_on_alarm again when calling alarmtimer_resume](https://github.com/bhb27/BHB27Kernel/search?q=rtc%3A%20alarm%3A%20set%20power_on_alarm%20again%20when%20calling%20alarmtimer_resume&type=Commits)
+
+***
+
 02-12-2018
 ====================
 
