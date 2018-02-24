@@ -28,13 +28,13 @@ if [ "$input1" == "1" ]; then
 	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 01df205b39e2465a36deaf11f76f8a63da414c3d
 	cd - &> /dev/null || exit;
 
-	echo -e "\\n	out Folder $folder"
-	folder="packages/apps/Nfc/";
-	echo -e "\\n	In Folder $folder \\n"
+#	echo -e "\\n	out Folder $folder"
+#	folder="packages/apps/Nfc/";
+#	echo -e "\\n	In Folder $folder \\n"
 
-	cd $folder
-	git fetch https://github.com/LineageOS/android_packages_apps_Nfc refs/changes/81/206081/1 && git cherry-pick FETCH_HEAD
-	cd - &> /dev/null || exit;
+#	cd $folder
+#	git fetch https://github.com/LineageOS/android_packages_apps_Nfc refs/changes/81/206081/1 && git cherry-pick FETCH_HEAD
+#	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
 	folder="system/nfc";
