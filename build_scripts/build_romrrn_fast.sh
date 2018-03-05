@@ -39,6 +39,17 @@ if [ "$input1" == "1" ]; then
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
+
+
+	echo -e "\\n	out Folder $folder"
+	folder="system/nfc/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+        git fetch https://github.com/LineageOS/android_system_nfc refs/changes/85/206085/5 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
 	folder="frameworks/av/";
 	echo -e "\\n	In Folder $folder \\n"
 
