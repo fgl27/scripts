@@ -3,6 +3,44 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+03-07-2018
+====================
+
+* [3562870 apq8084: Replace ACCESS_ONCE w/ READ_ONCE in post-Import patches](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20Replace%20ACCESS_ONCE%20w/%20READ_ONCE%20in%20post-Import%20patches&type=Commits)
+
+***
+
+03-01-2018
+====================
+
+* [53c51e0 build update busybox](https://github.com/bhb27/BHB27Kernel/search?q=build%20update%20busybox&type=Commits)
+
+***
+
+02-28-2018
+====================
+
+* [95e7597 v 8.8](https://github.com/bhb27/BHB27Kernel/search?q=v%208.8&type=Commits)
+* [28e34e7 build clean up tweak.prop](https://github.com/bhb27/BHB27Kernel/search?q=build%20clean%20up%20tweak.prop&type=Commits)
+* [ae09cc8 build fix update-binary update-binary related](https://github.com/bhb27/BHB27Kernel/search?q=build%20fix%20update-binary%20update-binary%20related&type=Commits)
+* [cdb9694 build README -> README.md](https://github.com/bhb27/BHB27Kernel/search?q=build%20README%20->%20README.md&type=Commits)
+* [6b32eef build update update-binary](https://github.com/bhb27/BHB27Kernel/search?q=build%20update%20update-binary&type=Commits)
+* [c1aee9d Build: update readme](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20readme&type=Commits)
+* [79e5edc Build: tweak.prop Update adb prop](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20tweak.prop%20Update%20adb%20prop&type=Commits)
+* [72f1f34 qcacld-2.0: Fix regression in wlan_hdd_add_hostapd_conf_vsie api](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20regression%20in%20wlan_hdd_add_hostapd_conf_vsie%20api&type=Commits)
+* [90c9000 qcacld-2.0: Resolve out of bound memory access while processing VSIEs](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Resolve%20out%20of%20bound%20memory%20access%20while%20processing%20VSIEs&type=Commits)
+* [085eece Revert "qcacld-2.0: Resolve out of bound memory access while processing VSIEs"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"qcacld-2.0%3A%20Resolve%20out%20of%20bound%20memory%20access%20while%20processing%20VSIEs"&type=Commits)
+
+***
+
+02-25-2018
+====================
+
+* [b45fce7 Defconfig update TWRP one](https://github.com/bhb27/BHB27Kernel/search?q=Defconfig%20update%20TWRP%20one&type=Commits)
+* [8b5d512 defconfig disable AUTOSMP hotplug](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20AUTOSMP%20hotplug&type=Commits)
+
+***
+
 02-22-2018
 ====================
 

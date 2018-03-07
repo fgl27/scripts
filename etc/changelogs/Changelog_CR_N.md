@@ -3,6 +3,131 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+03-06-2018
+====================
+
+#### Device specific Changes of 03-06-2018 Start:
+
+#### Device/Quark/
+* [0bad9dc Quark: move flp.conf to vendor](https://github.com/search?q=Quark%3A%20move%20flp.conf%20to%20vendor&type=Commits)
+
+#### Vendor/Quark/
+* [1925cf6 Quark: Update gps.conf related files](https://github.com/search?q=Quark%3A%20Update%20gps.conf%20related%20files&type=Commits)
+
+#### Device specific Changes of 03-06-2018 End.
+
+***
+
+03-05-2018
+====================
+
+#### CRDroid Android Nougat source changes of 03-05-2018:
+
+#### android/
+* [e4a09de updated OTA repo](https://github.com/search?q=updated%20OTA%20repo&type=Commits)
+
+#### packages/apps/crDroidOTA/
+* [2a23779 updated OTA repo](https://github.com/search?q=updated%20OTA%20repo&type=Commits)
+
+#### CRDroid Android Nougat source changes of 03-05-2018 End.
+
+03-04-2018
+====================
+
+#### Device specific Changes of 03-04-2018 Start:
+
+#### Device/Quark/
+* [0274eed Quark: removed not used .sh files](https://github.com/search?q=Quark%3A%20removed%20not%20used%20.sh%20files&type=Commits)
+* [1d84c04 Quark: add vzw specifc overlays and init config](https://github.com/search?q=Quark%3A%20add%20vzw%20specifc%20overlays%20and%20init%20config&type=Commits)
+
+#### Kernel/Quark/
+* [6e8b617 qcacld-2.0: Fix regression in wlan_hdd_add_hostapd_conf_vsie api](https://github.com/search?q=qcacld-2.0%3A%20Fix%20regression%20in%20wlan_hdd_add_hostapd_conf_vsie%20api&type=Commits)
+* [7af1564 qcacld-2.0: Resolve out of bound memory access while processing VSIEs](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20out%20of%20bound%20memory%20access%20while%20processing%20VSIEs&type=Commits)
+* [60f45fb Revert "qcacld-2.0: Resolve out of bound memory access while processing VSIEs"](https://github.com/search?q=Revert%20"qcacld-2.0%3A%20Resolve%20out%20of%20bound%20memory%20access%20while%20processing%20VSIEs"&type=Commits)
+
+#### Device specific Changes of 03-04-2018 End.
+
+***
+
+02-28-2018
+====================
+
+#### Device specific Changes of 02-28-2018 Start:
+
+#### Device/Quark/
+* [ca49588 Quark: Update adb prop](https://github.com/search?q=Quark%3A%20Update%20adb%20prop&type=Commits)
+
+#### Device specific Changes of 02-28-2018 End.
+
+***
+
+02-27-2018
+====================
+
+#### Device specific Changes of 02-27-2018 Start:
+
+#### Device/Quark/
+* [f90f1c0 Quark: lower brightness at early-init](https://github.com/search?q=Quark%3A%20lower%20brightness%20at%20early-init&type=Commits)
+
+#### Device specific Changes of 02-27-2018 End.
+
+***
+
+02-26-2018
+====================
+
+#### Device specific Changes of 02-26-2018 Start:
+
+#### Device/Quark/
+* [1fd27f0 Quark: init: check if power off alarm is set and  boot reason prop when setting alarm_boot pro](https://github.com/search?q=Quark%3A%20init%3A%20check%20if%20power%20off%20alarm%20is%20set%20and%20%20boot%20reason%20prop%20when%20setting%20alarm_boot%20pro&type=Commits)
+* [fbb72cd Quark:  init.qcom.rc: create /persist/time needed by time_services](https://github.com/search?q=Quark%3A%20%20init.qcom.rc%3A%20create%20/persist/time%20needed%20by%20time_services&type=Commits)
+
+#### Device specific Changes of 02-26-2018 End.
+
+***
+
+02-25-2018
+====================
+
+#### CRDroid Android Nougat source changes of 02-25-2018:
+
+#### packages/apps/crDroidSettings/
+* [15fc80f Merge pull request #168 from arunassain/7.1](https://github.com/search?q=Merge%20pull%20request%20%23168%20from%20arunassain/7.1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-25-2018 End.
+
+02-24-2018
+====================
+
+#### Device specific Changes of 02-24-2018 Start:
+
+#### Vendor/Quark/
+* [757df4a Quark: update substratum](https://github.com/search?q=Quark%3A%20update%20substratum&type=Commits)
+
+#### Device specific Changes of 02-24-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 02-24-2018:
+
+#### packages/apps/crDroidSettings/
+* [6c8e6a0 Add device and maintainer for Xiaomi Mi A1](https://github.com/search?q=Add%20device%20and%20maintainer%20for%20Xiaomi%20Mi%20A1&type=Commits)
+* [db56b93 Add device and maintainer for Xiaomi Mi A1](https://github.com/search?q=Add%20device%20and%20maintainer%20for%20Xiaomi%20Mi%20A1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 02-24-2018 End.
+
+02-23-2018
+====================
+
+#### Device specific Changes of 02-23-2018 Start:
+
+#### Device/Quark/
+* [6283a6a Quark: build post_init_rr_bootc](https://github.com/search?q=Quark%3A%20build%20post_init_rr_bootc&type=Commits)
+
+#### Device specific Changes of 02-23-2018 End.
+
+***
+
 02-22-2018
 ====================
 

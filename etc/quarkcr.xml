@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <quark>
-            <Filename>crDroidAndroid-7.1.2-20180222-quark-v3.8.5.zip</Filename>
+            <Filename>crDroidAndroid-7.1.2-20180307-quark-v3.8.5.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
