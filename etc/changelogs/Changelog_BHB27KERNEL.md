@@ -3,6 +3,15 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+03-08-2018
+====================
+
+* [b88e303 v 8.9](https://github.com/bhb27/BHB27Kernel/search?q=v%208.9&type=Commits)
+* [5d6cd6a Revert "build update busybox"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"build%20update%20busybox"&type=Commits)
+* [405529d Revert "apq8084: Replace ACCESS_ONCE w/ READ_ONCE in post-Import patches"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"apq8084%3A%20Replace%20ACCESS_ONCE%20w/%20READ_ONCE%20in%20post-Import%20patches"&type=Commits)
+
+***
+
 03-07-2018
 ====================
 
