@@ -29,6 +29,7 @@ if [ "$input1" == "1" ]; then
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
+
 	folder="system/sepolicy/";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -66,9 +67,18 @@ if [ "$input1" == "1" ]; then
 	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/70/206970/2 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
+
+	echo -e "\\n	out Folder $folder"
+	folder="hardware/qcom/gps/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/80/209080/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/81/209081/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/82/209082/1 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+	echo -e "\\n	out Folder $folder"
 fi
-
-
 
 export days_to_log=0
 export RR_BUILDTYPE="Experimental"
