@@ -30,6 +30,24 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="packages/apps/Settings/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git revert 19a3aea6cbfef83d577071e42e70971496274568 --no-edit
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="frameworks/base/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git revert e01fddcc179ed02c57006f6ee35feabf628036dc --no-edit
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	folder="system/sepolicy/";
 	echo -e "\\n	In Folder $folder \\n"
 
