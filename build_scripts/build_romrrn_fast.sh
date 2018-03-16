@@ -96,6 +96,16 @@ if [ "$input1" == "1" ]; then
 	git fetch https://github.com/LineageOS/android_hardware_qcom_gps refs/changes/82/209082/1 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
+
+	folder="vendor/rr/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/26/206426/3 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+	echo -e "\\n	out Folder $folder"
+
+
 fi
 
 export days_to_log=0
