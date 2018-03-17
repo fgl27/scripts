@@ -3,6 +3,68 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+03-17-2018
+====================
+
+* [12f64d4 bcl: mode_store use strncmp for checks](https://github.com/bhb27/BHB27Kernel/search?q=bcl%3A%20mode_store%20use%20strncmp%20for%20checks&type=Commits)
+* [53ad016 bcl: replace convert_to_int call with sscanf](https://github.com/bhb27/BHB27Kernel/search?q=bcl%3A%20replace%20convert_to_int%20call%20with%20sscanf&type=Commits)
+* [eeb61ce power: bcl: Handle hotplug mask like thermal mask](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%3A%20Handle%20hotplug%20mask%20like%20thermal%20mask&type=Commits)
+* [9b719ee power: bcl: Handle hotplug sensibly](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%3A%20Handle%20hotplug%20sensibly&type=Commits)
+* [6e62839 power: bcl: Re-evaluate hotplug for unexpected cpu online](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%3A%20Re-evaluate%20hotplug%20for%20unexpected%20cpu%20online&type=Commits)
+* [1318fd1 power: bcl: Online a CPU only if it is offlined by BCL](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%3A%20Online%20a%20CPU%20only%20if%20it%20is%20offlined%20by%20BCL&type=Commits)
+* [479e196 power: Add charge_full_design property](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20Add%20charge_full_design%20property&type=Commits)
+* [4e6ef36 Power: Fan5404x: Update batt_health in driver probe.](https://github.com/bhb27/BHB27Kernel/search?q=Power%3A%20Fan5404x%3A%20Update%20batt_health%20in%20driver%20probe.&type=Commits)
+* [2a45565 factory: Fix warning due to incorrect OF API usage](https://github.com/bhb27/BHB27Kernel/search?q=factory%3A%20Fix%20warning%20due%20to%20incorrect%20OF%20API%20usage&type=Commits)
+* [c30af2d power: max17042: put max17042 read code from irq handler](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20max17042%3A%20put%20max17042%20read%20code%20from%20irq%20handler&type=Commits)
+* [4f73dba msm_thermal: Unbreak interrupt mode](https://github.com/bhb27/BHB27Kernel/search?q=msm_thermal%3A%20Unbreak%20interrupt%20mode&type=Commits)
+* [2b55172 msm: thermal: Fix corner cases in thermal driver](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Fix%20corner%20cases%20in%20thermal%20driver&type=Commits)
+* [4c67165 msm: thermal: Fix usage of core control toggle](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Fix%20usage%20of%20core%20control%20toggle&type=Commits)
+* [c005d99 msm_thermal: Make logs consistent with bcl](https://github.com/bhb27/BHB27Kernel/search?q=msm_thermal%3A%20Make%20logs%20consistent%20with%20bcl&type=Commits)
+* [a436d1cf9 msm_thermal: send OFF/ONLINE uevent in hotplug cases](https://github.com/bhb27/BHB27Kernel/search?q=9%20msm_thermal%3A%20send%20OFF/ONLINE%20uevent%20in%20hotplug%20cases&type=Commits)
+* [c49b869 msm: thermal: Check clients request just after frequency thread init](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Check%20clients%20request%20just%20after%20frequency%20thread%20init&type=Commits)
+* [30520b7 msm: thermal: Retry hotplug when exiting from suspend](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Retry%20hotplug%20when%20exiting%20from%20suspend&type=Commits)
+* [ddd2828 msm: thermal: Online only cores, which are hotplugged by KTM](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Online%20only%20cores,%20which%20are%20hotplugged%20by%20KTM&type=Commits)
+* [6a855da13 msm_thermal: Re-evaluate hotplug for unexpected cpu online](https://github.com/bhb27/BHB27Kernel/search?q=3%20msm_thermal%3A%20Re-evaluate%20hotplug%20for%20unexpected%20cpu%20online&type=Commits)
+* [b63d4b1 msm: thermal: Add support to online the hotplugged cores](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Add%20support%20to%20online%20the%20hotplugged%20cores&type=Commits)
+* [afda352 ARM: dts: msm: Remove Gfx warm to normal temperature monitor](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%20msm%3A%20Remove%20Gfx%20warm%20to%20normal%20temperature%20monitor&type=Commits)
+* [d839b3f ARM: dts: 8084: Online cores that thermal driver offlines](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%208084%3A%20Online%20cores%20that%20thermal%20driver%20offlines&type=Commits)
+* [5b723e0 apq8084: DTB add Hotplug-list back](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20DTB%20add%20Hotplug-list%20back&type=Commits)
+* [4fea1ec Revert "power: battery_current_limit: Remove hotplug control completely"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely"&type=Commits)
+
+***
+
+03-16-2018
+====================
+
+* [79768de v 9.0](https://github.com/bhb27/BHB27Kernel/search?q=v%209.0&type=Commits)
+* [6b6ce3e crypto: memneq - fix for archs without efficient unaligned access](https://github.com/bhb27/BHB27Kernel/search?q=crypto%3A%20memneq%20-%20fix%20for%20archs%20without%20efficient%20unaligned%20access&type=Commits)
+* [e4086b0 crypto: more robust crypto_memneq](https://github.com/bhb27/BHB27Kernel/search?q=crypto%3A%20more%20robust%20crypto_memneq&type=Commits)
+
+***
+
+03-09-2018
+====================
+
+* [e0bd87f qcacld-2.0: Add vdev_id in wma_unified_bcntx_status_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20vdev_id%20in%20wma_unified_bcntx_status_event_handler&type=Commits)
+* [5d9b1e7 qcacld-2.0: Add sanity check for vdev id to prevent OOB access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20vdev%20id%20to%20prevent%20OOB%20access&type=Commits)
+* [e25e422 qcacld-2.0: Check for valid vdev ID in wma_nlo_match_evt_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20for%20valid%20vdev%20ID%20in%20wma_nlo_match_evt_handler&type=Commits)
+* [19732a5 qcacld-2.0: Add sanity check to limit mgmt frames data len](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20to%20limit%20mgmt%20frames%20data%20len&type=Commits)
+* [e46ffb7 msm:ipa: Fix to incorrect structure access](https://github.com/bhb27/BHB27Kernel/search?q=msm%3Aipa%3A%20Fix%20to%20incorrect%20structure%20access&type=Commits)
+* [5a23bfe ASoC: msm: qdsp6v2: Set freed pointers to NULL](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Set%20freed%20pointers%20to%20NULL&type=Commits)
+* [8a35ae2 diag: Add protection while de-initializing clients](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Add%20protection%20while%20de-initializing%20clients&type=Commits)
+* [32eb7df qcacld-2.0: Fix out-of-bounds access in limProcessActionFrameNoSession](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20out-of-bounds%20access%20in%20limProcessActionFrameNoSession&type=Commits)
+* [27cab45 qcacld-2.0: Check for upper bound in P2P NOA event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20for%20upper%20bound%20in%20P2P%20NOA%20event&type=Commits)
+* [4a9c8c9 qcacld-2.0: Check for the max number of P2P NOA descriptors](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20for%20the%20max%20number%20of%20P2P%20NOA%20descriptors&type=Commits)
+* [036db8a qcacld-2.0: Check for valid vdev ID in wma_nlo_match_evt_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20for%20valid%20vdev%20ID%20in%20wma_nlo_match_evt_handler&type=Commits)
+* [4000e4a qcacld-2.0: Avoid possible buffer overwrite in wma_process_utf_event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20overwrite%20in%20wma_process_utf_event&type=Commits)
+* [3d71664 qcacld-2.0: Fix int overflow in wma_unified_link_peer_stats_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20int%20overflow%20in%20wma_unified_link_peer_stats_event_handler&type=Commits)
+* [38c2b21 qcacld-2.0: Check vdev_id against wma->max_bssid](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20vdev_id%20against%20wma->max_bssid&type=Commits)
+* [c2d63ec diag: Add mutex protection while reading dci debug statistics](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Add%20mutex%20protection%20while%20reading%20dci%20debug%20statistics&type=Commits)
+* [f7b42d6 qcacld-2.0: Fix Integer overflow with latest framesc_linux tool](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20Integer%20overflow%20with%20latest%20framesc_linux%20tool&type=Commits)
+* [7681edf qcacld-2.0: Fix the size of array ch_list in sme_set_plm_request](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20the%20size%20of%20array%20ch_list%20in%20sme_set_plm_request&type=Commits)
+
+***
+
 03-08-2018
 ====================
 
