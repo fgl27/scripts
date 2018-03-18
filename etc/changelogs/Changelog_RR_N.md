@@ -3,6 +3,121 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+03-18-2018
+====================
+
+#### Device specific Changes of 03-18-2018 Start:
+
+#### Device/Quark/
+* [cab7978 Quark: reenable TARGET_USE_SDCLANG](https://github.com/search?q=Quark%3A%20reenable%20TARGET_USE_SDCLANG&type=Commits)
+
+#### Kernel/Quark/
+* [c47a492 bcl: mode_store use strncmp for checks](https://github.com/search?q=bcl%3A%20mode_store%20use%20strncmp%20for%20checks&type=Commits)
+* [cc4a773 bcl: replace convert_to_int call with sscanf](https://github.com/search?q=bcl%3A%20replace%20convert_to_int%20call%20with%20sscanf&type=Commits)
+* [ef9ee7d power: bcl: Handle hotplug mask like thermal mask](https://github.com/search?q=power%3A%20bcl%3A%20Handle%20hotplug%20mask%20like%20thermal%20mask&type=Commits)
+* [215cd11 power: bcl: Handle hotplug sensibly](https://github.com/search?q=power%3A%20bcl%3A%20Handle%20hotplug%20sensibly&type=Commits)
+* [22f7714 power: bcl: Re-evaluate hotplug for unexpected cpu online](https://github.com/search?q=power%3A%20bcl%3A%20Re-evaluate%20hotplug%20for%20unexpected%20cpu%20online&type=Commits)
+* [8c50484 power: bcl: Online a CPU only if it is offlined by BCL](https://github.com/search?q=power%3A%20bcl%3A%20Online%20a%20CPU%20only%20if%20it%20is%20offlined%20by%20BCL&type=Commits)
+* [46bcfa2 power: Add charge_full_design property](https://github.com/search?q=power%3A%20Add%20charge_full_design%20property&type=Commits)
+* [4b2b55f Power: Fan5404x: Update batt_health in driver probe.](https://github.com/search?q=Power%3A%20Fan5404x%3A%20Update%20batt_health%20in%20driver%20probe.&type=Commits)
+* [c6ec2a0 factory: Fix warning due to incorrect OF API usage](https://github.com/search?q=factory%3A%20Fix%20warning%20due%20to%20incorrect%20OF%20API%20usage&type=Commits)
+* [dc7c459 power: max17042: put max17042 read code from irq handler](https://github.com/search?q=power%3A%20max17042%3A%20put%20max17042%20read%20code%20from%20irq%20handler&type=Commits)
+* [96343c8 msm_thermal: Unbreak interrupt mode](https://github.com/search?q=msm_thermal%3A%20Unbreak%20interrupt%20mode&type=Commits)
+* [49a49ea msm: thermal: Fix corner cases in thermal driver](https://github.com/search?q=msm%3A%20thermal%3A%20Fix%20corner%20cases%20in%20thermal%20driver&type=Commits)
+* [0b415e6 msm: thermal: Fix usage of core control toggle](https://github.com/search?q=msm%3A%20thermal%3A%20Fix%20usage%20of%20core%20control%20toggle&type=Commits)
+* [308940d msm_thermal: Make logs consistent with bcl](https://github.com/search?q=msm_thermal%3A%20Make%20logs%20consistent%20with%20bcl&type=Commits)
+* [c532a61 msm_thermal: send OFF/ONLINE uevent in hotplug cases](https://github.com/search?q=msm_thermal%3A%20send%20OFF/ONLINE%20uevent%20in%20hotplug%20cases&type=Commits)
+* [138462e msm: thermal: Check clients request just after frequency thread init](https://github.com/search?q=msm%3A%20thermal%3A%20Check%20clients%20request%20just%20after%20frequency%20thread%20init&type=Commits)
+* [fe014f3 msm: thermal: Retry hotplug when exiting from suspend](https://github.com/search?q=msm%3A%20thermal%3A%20Retry%20hotplug%20when%20exiting%20from%20suspend&type=Commits)
+* [7521584 msm: thermal: Online only cores, which are hotplugged by KTM](https://github.com/search?q=msm%3A%20thermal%3A%20Online%20only%20cores,%20which%20are%20hotplugged%20by%20KTM&type=Commits)
+* [462fef0 msm_thermal: Re-evaluate hotplug for unexpected cpu online](https://github.com/search?q=msm_thermal%3A%20Re-evaluate%20hotplug%20for%20unexpected%20cpu%20online&type=Commits)
+* [63fb320 msm: thermal: Add support to online the hotplugged cores](https://github.com/search?q=msm%3A%20thermal%3A%20Add%20support%20to%20online%20the%20hotplugged%20cores&type=Commits)
+* [932c195 ARM: dts: msm: Remove Gfx warm to normal temperature monitor](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Remove%20Gfx%20warm%20to%20normal%20temperature%20monitor&type=Commits)
+* [710a463 ARM: dts: 8084: Online cores that thermal driver offlines](https://github.com/search?q=ARM%3A%20dts%3A%208084%3A%20Online%20cores%20that%20thermal%20driver%20offlines&type=Commits)
+* [374b307 apq8084: DTB add Hotplug-list back](https://github.com/search?q=apq8084%3A%20DTB%20add%20Hotplug-list%20back&type=Commits)
+* [e562076 Revert "power: battery_current_limit: Remove hotplug control completely"](https://github.com/search?q=Revert%20"power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely"&type=Commits)
+
+#### Vendor/Quark/
+* [d9df807 Up KernelAdiutor.apk](https://github.com/search?q=Up%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 03-18-2018 End.
+
+***
+
+#### Resurrection Remix OS - Nougat source changes of 03-18-2018:
+
+#### build/
+* [432e50e Bump security patch level to 2018-03-05](https://github.com/search?q=Bump%20security%20patch%20level%20to%202018-03-05&type=Commits)
+
+#### frameworks/av/
+* [d43cc75 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [0b112b1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 03-18-2018 End.
+
+03-16-2018
+====================
+
+#### Device specific Changes of 03-16-2018 Start:
+
+#### Kernel/Quark/
+* [cd9bbf8 crypto: memneq - fix for archs without efficient unaligned access](https://github.com/search?q=crypto%3A%20memneq%20-%20fix%20for%20archs%20without%20efficient%20unaligned%20access&type=Commits)
+* [e186737 crypto: more robust crypto_memneq](https://github.com/search?q=crypto%3A%20more%20robust%20crypto_memneq&type=Commits)
+* [55483e9 qcacld-2.0: Add vdev_id in wma_unified_bcntx_status_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Add%20vdev_id%20in%20wma_unified_bcntx_status_event_handler&type=Commits)
+* [efa0b1b qcacld-2.0: Add sanity check for vdev id to prevent OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20vdev%20id%20to%20prevent%20OOB%20access&type=Commits)
+* [4612290 qcacld-2.0: Check for valid vdev ID in wma_nlo_match_evt_handler](https://github.com/search?q=qcacld-2.0%3A%20Check%20for%20valid%20vdev%20ID%20in%20wma_nlo_match_evt_handler&type=Commits)
+* [9b82878 qcacld-2.0: Add sanity check to limit mgmt frames data len](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20to%20limit%20mgmt%20frames%20data%20len&type=Commits)
+* [3af3f0c msm:ipa: Fix to incorrect structure access](https://github.com/search?q=msm%3Aipa%3A%20Fix%20to%20incorrect%20structure%20access&type=Commits)
+* [03ea73a ASoC: msm: qdsp6v2: Set freed pointers to NULL](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Set%20freed%20pointers%20to%20NULL&type=Commits)
+* [b0e6bf8 diag: Add protection while de-initializing clients](https://github.com/search?q=diag%3A%20Add%20protection%20while%20de-initializing%20clients&type=Commits)
+* [5184e30 qcacld-2.0: Fix out-of-bounds access in limProcessActionFrameNoSession](https://github.com/search?q=qcacld-2.0%3A%20Fix%20out-of-bounds%20access%20in%20limProcessActionFrameNoSession&type=Commits)
+* [caf05e2 qcacld-2.0: Check for upper bound in P2P NOA event](https://github.com/search?q=qcacld-2.0%3A%20Check%20for%20upper%20bound%20in%20P2P%20NOA%20event&type=Commits)
+* [cc0ef89 qcacld-2.0: Check for the max number of P2P NOA descriptors](https://github.com/search?q=qcacld-2.0%3A%20Check%20for%20the%20max%20number%20of%20P2P%20NOA%20descriptors&type=Commits)
+* [25f70b4 qcacld-2.0: Check for valid vdev ID in wma_nlo_match_evt_handler](https://github.com/search?q=qcacld-2.0%3A%20Check%20for%20valid%20vdev%20ID%20in%20wma_nlo_match_evt_handler&type=Commits)
+* [02e73f9 qcacld-2.0: Avoid possible buffer overwrite in wma_process_utf_event](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20overwrite%20in%20wma_process_utf_event&type=Commits)
+* [727ae02 qcacld-2.0: Fix int overflow in wma_unified_link_peer_stats_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20int%20overflow%20in%20wma_unified_link_peer_stats_event_handler&type=Commits)
+* [f039b4c qcacld-2.0: Check vdev_id against wma->max_bssid](https://github.com/search?q=qcacld-2.0%3A%20Check%20vdev_id%20against%20wma->max_bssid&type=Commits)
+* [2c3946e diag: Add mutex protection while reading dci debug statistics](https://github.com/search?q=diag%3A%20Add%20mutex%20protection%20while%20reading%20dci%20debug%20statistics&type=Commits)
+* [5f14c2e qcacld-2.0: Fix Integer overflow with latest framesc_linux tool](https://github.com/search?q=qcacld-2.0%3A%20Fix%20Integer%20overflow%20with%20latest%20framesc_linux%20tool&type=Commits)
+* [c50f9e9 qcacld-2.0: Fix the size of array ch_list in sme_set_plm_request](https://github.com/search?q=qcacld-2.0%3A%20Fix%20the%20size%20of%20array%20ch_list%20in%20sme_set_plm_request&type=Commits)
+
+#### Device specific Changes of 03-16-2018 End.
+
+***
+
+03-08-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-08-2018:
+
+#### external/libavc/
+* [04c9906 Decoder: Adding Error Check for Output Buffer Size in Shared Display Mode.](https://github.com/search?q=Decoder%3A%20Adding%20Error%20Check%20for%20Output%20Buffer%20Size%20in%20Shared%20Display%20Mode.&type=Commits)
+* [db6bf49 Decoder: Fixed memory overflow in shared display mode.](https://github.com/search?q=Decoder%3A%20Fixed%20memory%20overflow%20in%20shared%20display%20mode.&type=Commits)
+
+#### external/libmpeg2/
+* [98beb25 Fixing Underflow of ps_dec->u2_num_mbs_left](https://github.com/search?q=Fixing%20Underflow%20of%20ps_dec->u2_num_mbs_left&type=Commits)
+* [6337ea6 Adding Error Check for Output Buffer Size](https://github.com/search?q=Adding%20Error%20Check%20for%20Output%20Buffer%20Size&type=Commits)
+* [d63479b Correcting Buffer Allocation for Shared Display](https://github.com/search?q=Correcting%20Buffer%20Allocation%20for%20Shared%20Display&type=Commits)
+
+#### frameworks/av/
+* [f059aa7 AACExtractor: check bounds during seek](https://github.com/search?q=AACExtractor%3A%20check%20bounds%20during%20seek&type=Commits)
+
+#### system/bt/
+* [a9c3c6d BNEP: Check received frame type](https://github.com/search?q=BNEP%3A%20Check%20received%20frame%20type&type=Commits)
+* [9e46a39 Remove memory reference to invalid mem in error log](https://github.com/search?q=Remove%20memory%20reference%20to%20invalid%20mem%20in%20error%20log&type=Commits)
+* [3ee82f7 SDP: Include the offset in sdp_disc_server_rsp](https://github.com/search?q=SDP%3A%20Include%20the%20offset%20in%20sdp_disc_server_rsp&type=Commits)
+* [2f7820f SDP: Pass the bounds to process_service_*_rsp](https://github.com/search?q=SDP%3A%20Pass%20the%20bounds%20to%20process_service_*_rsp&type=Commits)
+* [c7c5824 Fix unexpected behavior in reading BNEP packets](https://github.com/search?q=Fix%20unexpected%20behavior%20in%20reading%20BNEP%20packets&type=Commits)
+* [7705a32 PAN: Fix Use-after-free in bta_pan_data_buf_ind_cback](https://github.com/search?q=PAN%3A%20Fix%20Use-after-free%20in%20bta_pan_data_buf_ind_cback&type=Commits)
+* [e0e8df0 AVRCP: Check the number of text attributes requested](https://github.com/search?q=AVRCP%3A%20Check%20the%20number%20of%20text%20attributes%20requested&type=Commits)
+* [abab132 Allocate/free the SDP connection timers only during stack startup/shutdown](https://github.com/search?q=Allocate/free%20the%20SDP%20connection%20timers%20only%20during%20stack%20startup/shutdown&type=Commits)
+* [a5ececa Removed alarm callback execution statistics](https://github.com/search?q=Removed%20alarm%20callback%20execution%20statistics&type=Commits)
+* [1b2d48c Fix unexpected behavior in SDP](https://github.com/search?q=Fix%20unexpected%20behavior%20in%20SDP&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 03-08-2018 End.
+
 03-07-2018
 ====================
 
