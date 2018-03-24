@@ -3,6 +3,55 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+03-24-2018
+====================
+
+#### Device specific Changes of 03-24-2018 Start:
+
+#### Device/Quark/
+* [ff9f4a6 Quark: enable/disable kernel thermal driver in reation to bin/thermal](https://github.com/search?q=Quark%3A%20enable/disable%20kernel%20thermal%20driver%20in%20reation%20to%20bin/thermal&type=Commits)
+
+#### Kernel/Quark/
+* [158edb1 msm: thermal: Check clients request just after frequency thread init](https://github.com/search?q=msm%3A%20thermal%3A%20Check%20clients%20request%20just%20after%20frequency%20thread%20init&type=Commits)
+* [155cf8c msm_thermal: creat all nodes in msm_thermal_late_init](https://github.com/search?q=msm_thermal%3A%20creat%20all%20nodes%20in%20msm_thermal_late_init&type=Commits)
+* [da578a4 msm_thermal: reset to https://github.com/bhb27/BHB27Kernel/commit/ed9129deec878cf74938b943e25436414edc73b6](https://github.com/search?q=msm_thermal%3A%20reset%20to%20https%3A//github.com/bhb27/BHB27Kernel/commit/ed9129deec878cf74938b943e25436414edc73b6&type=Commits)
+* [ff4203e BACKPORT: ASN.1: fix out-of-bounds read when parsing indefinite length item](https://github.com/search?q=BACKPORT%3A%20ASN.1%3A%20fix%20out-of-bounds%20read%20when%20parsing%20indefinite%20length%20item&type=Commits)
+* [ae9ce5c UPSTREAM: KEYS: fix out-of-bounds read during ASN.1 parsing](https://github.com/search?q=UPSTREAM%3A%20KEYS%3A%20fix%20out-of-bounds%20read%20during%20ASN.1%20parsing&type=Commits)
+* [ed6336a BACKPORT: xfrm: Fix return value check of copy_sec_ctx.](https://github.com/search?q=BACKPORT%3A%20xfrm%3A%20Fix%20return%20value%20check%20of%20copy_sec_ctx.&type=Commits)
+* [96341c9 ipsec: Fix aborted xfrm policy dump crash](https://github.com/search?q=ipsec%3A%20Fix%20aborted%20xfrm%20policy%20dump%20crash&type=Commits)
+* [f33175b BACKPORT: netlink: add a start callback for starting a netlink dump](https://github.com/search?q=BACKPORT%3A%20netlink%3A%20add%20a%20start%20callback%20for%20starting%20a%20netlink%20dump&type=Commits)
+* [078da81 defconfig ena CONFIG_DETECT_HUNG_TASK](https://github.com/search?q=defconfig%20ena%20CONFIG_DETECT_HUNG_TASK&type=Commits)
+
+#### Vendor/Quark/
+* [d252281 Quark: Up KernelAdiutor](https://github.com/search?q=Quark%3A%20Up%20KernelAdiutor&type=Commits)
+* [3f7e21a Quark: Up KernelAdiutor](https://github.com/search?q=Quark%3A%20Up%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 03-24-2018 End.
+
+***
+
+03-21-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 03-21-2018:
+
+#### external/chromium-webview/
+* [2405338 Update webviews to Chromium 65.0.3325.144](https://github.com/search?q=Update%20webviews%20to%20Chromium%2065.0.3325.144&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 03-21-2018 End.
+
+03-19-2018
+====================
+
+#### Device specific Changes of 03-19-2018 Start:
+
+#### Vendor/Quark/
+* [db83411 Quark: Up Adaway](https://github.com/search?q=Quark%3A%20Up%20Adaway&type=Commits)
+
+#### Device specific Changes of 03-19-2018 End.
+
+***
+
 03-18-2018
 ====================
 
