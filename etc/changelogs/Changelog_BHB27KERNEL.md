@@ -3,6 +3,25 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+03-24-2018
+====================
+
+* [bd2edcd msm: thermal: Check clients request just after frequency thread init](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20thermal%3A%20Check%20clients%20request%20just%20after%20frequency%20thread%20init&type=Commits)
+* [a15fa42 msm_thermal: creat all nodes in msm_thermal_late_init](https://github.com/bhb27/BHB27Kernel/search?q=msm_thermal%3A%20creat%20all%20nodes%20in%20msm_thermal_late_init&type=Commits)
+* [6cb5e27 Revert "msm_thermal: creat objects only once"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"msm_thermal%3A%20creat%20objects%20only%20once"&type=Commits)
+* [ed87e4d V 9.1](https://github.com/bhb27/BHB27Kernel/search?q=V%209.1&type=Commits)
+* [055b87e msm_thermal: creat objects only once](https://github.com/bhb27/BHB27Kernel/search?q=msm_thermal%3A%20creat%20objects%20only%20once&type=Commits)
+* [48ae98e msm_thermal: reset to https://github.com/bhb27/BHB27Kernel/commit/ed9129deec878cf74938b943e25436414edc73b6](https://github.com/bhb27/BHB27Kernel/search?q=msm_thermal%3A%20reset%20to%20https%3A//github.com/bhb27/BHB27Kernel/commit/ed9129deec878cf74938b943e25436414edc73b6&type=Commits)
+* [c74b0ef Build update enable/disable of kernel thermal driver](https://github.com/bhb27/BHB27Kernel/search?q=Build%20update%20enable/disable%20of%20kernel%20thermal%20driver&type=Commits)
+* [7dbb519 BACKPORT: ASN.1: fix out-of-bounds read when parsing indefinite length item](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ASN.1%3A%20fix%20out-of-bounds%20read%20when%20parsing%20indefinite%20length%20item&type=Commits)
+* [8d8e192 UPSTREAM: KEYS: fix out-of-bounds read during ASN.1 parsing](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20KEYS%3A%20fix%20out-of-bounds%20read%20during%20ASN.1%20parsing&type=Commits)
+* [0682d28 BACKPORT: xfrm: Fix return value check of copy_sec_ctx.](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20xfrm%3A%20Fix%20return%20value%20check%20of%20copy_sec_ctx.&type=Commits)
+* [af5df3d ipsec: Fix aborted xfrm policy dump crash](https://github.com/bhb27/BHB27Kernel/search?q=ipsec%3A%20Fix%20aborted%20xfrm%20policy%20dump%20crash&type=Commits)
+* [9462784 BACKPORT: netlink: add a start callback for starting a netlink dump](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20netlink%3A%20add%20a%20start%20callback%20for%20starting%20a%20netlink%20dump&type=Commits)
+* [d5ff1f4 defconfig ena CONFIG_DETECT_HUNG_TASK](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20ena%20CONFIG_DETECT_HUNG_TASK&type=Commits)
+
+***
+
 03-17-2018
 ====================
 
