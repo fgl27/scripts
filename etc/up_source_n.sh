@@ -71,7 +71,7 @@ up_s_checkout() {
 
 cd "$HOME"/android/rr || exit;
 
-sources_pull=("android_packages_services_Telephony" "android_packages_apps_Dialer" "android_packages_apps_Dialer" "frameworks_av" "android_packages_apps_Contacts" "android_packages_apps_ContactsCommon" "android_packages_apps_ExactCalculator" "android_packages_apps_PhoneCommon" "android_packages_apps_PackageInstaller" "art" "frameworks_native" "android_system_sepolicy" "android_packages_services_Telecomm" "android_packages_apps_Messaging" "system_core" "android_packages_apps_Nfc");
+sources_pull=("android_packages_services_Telephony" "android_packages_apps_Dialer" "android_packages_apps_Dialer" "frameworks_av" "android_packages_apps_Contacts" "android_packages_apps_ContactsCommon" "android_packages_apps_ExactCalculator" "android_packages_apps_PhoneCommon" "android_packages_apps_PackageInstaller" "art" "frameworks_native" "android_system_sepolicy" "android_packages_services_Telecomm" "android_packages_apps_Messaging" "system_core" "android_packages_apps_Nfc" "android_packages_apps_StorageManager");
 
 sources_checkout=("cm_platform_sdk" "platform_manifest" "android_packages_services_Telephony" "android_packages_apps_Dialer" "frameworks_av" "android_frameworks_base" "android_packages_apps_Contacts" "android_packages_apps_ContactsCommon" "android_packages_apps_ExactCalculator" "android_packages_apps_PhoneCommon" "android_vendor_resurrection" "android_packages_apps_PackageInstaller" "Resurrection_packages_apps_Settings" "external_skia" "art" "frameworks_native" "android_build" "android_packages_apps_StorageManager" "android_system_sepolicy" "android_packages_services_Telecomm" "android_packages_apps_Messaging" "system_core");
 

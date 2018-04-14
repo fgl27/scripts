@@ -3,6 +3,82 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+04-06-2018
+====================
+
+* [2d5c9ae Disable "maybe-uninitialized" warning globally](https://github.com/bhb27/BHB27Kernel/search?q=Disable%20"maybe-uninitialized"%20warning%20globally&type=Commits)
+* [271d5d2 msm: kgsl: Remove io_fraction as it is no longer used](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Remove%20io_fraction%20as%20it%20is%20no%20longer%20used&type=Commits)
+* [d2f237d ANDROID: ion: Fix comparison](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20ion%3A%20Fix%20comparison&type=Commits)
+* [5a4c070 msm: kgsl: Use temp unsigned long variable to prevent truncation](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Use%20temp%20unsigned%20long%20variable%20to%20prevent%20truncation&type=Commits)
+* [2330003 msm: kgsl: Change %p to %pK in debug messages](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
+* [70420b0 pinctrl: msm: prevent bogus wake up from suspend](https://github.com/bhb27/BHB27Kernel/search?q=pinctrl%3A%20msm%3A%20prevent%20bogus%20wake%20up%20from%20suspend&type=Commits)
+* [03c1e63 mdss: compat: suppress unnecessary prints](https://github.com/bhb27/BHB27Kernel/search?q=mdss%3A%20compat%3A%20suppress%20unnecessary%20prints&type=Commits)
+* [42c72bd Revert "Revert "suspend: Return error when pending wakeup source is found.""](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"Revert%20"suspend%3A%20Return%20error%20when%20pending%20wakeup%20source%20is%20found.""&type=Commits)
+* [5a1610f msm: mdss: increase mdp core clock to match panel pixel clock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20mdss%3A%20increase%20mdp%20core%20clock%20to%20match%20panel%20pixel%20clock&type=Commits)
+* [eee5dc8 msm: mdss: reduce log level when ping pong timeout happens](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20mdss%3A%20reduce%20log%20level%20when%20ping%20pong%20timeout%20happens&type=Commits)
+* [90c867c defconfig: Remove unused USB storage drivers](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%3A%20Remove%20unused%20USB%20storage%20drivers&type=Commits)
+
+***
+
+04-05-2018
+====================
+
+* [16283ac Build V 9.2](https://github.com/bhb27/BHB27Kernel/search?q=Build%20V%209.2&type=Commits)
+* [82ddf33 force update drivers/net/wireless/bcmdhd/wl_cfg80211](https://github.com/bhb27/BHB27Kernel/search?q=force%20update%20drivers/net/wireless/bcmdhd/wl_cfg80211&type=Commits)
+* [1652427 msm: ipa3: add lock for num_q6_rule](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ipa3%3A%20add%20lock%20for%20num_q6_rule&type=Commits)
+* [b38fee7 qcacld-2.0: Add sanity check for vdev id to prevent OOB access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20vdev%20id%20to%20prevent%20OOB%20access&type=Commits)
+* [ea370e6 qcacld-2.0: Check for valid vdev ID in SWBA event handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20for%20valid%20vdev%20ID%20in%20SWBA%20event%20handler&type=Commits)
+* [810bf61 qcacld-2.0: Fix buffer overwrite in wma_extscan_rsp_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20in%20wma_extscan_rsp_handler&type=Commits)
+* [41d6781 qcacld-2.0: Fix potential buffer overflow in htt_t2h_lp_msg_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20in%20htt_t2h_lp_msg_handler&type=Commits)
+* [4a7a16d2 qcacld-2.0: Fix potential buffer overflow in process_tx_info](https://github.com/bhb27/BHB27Kernel/search?q=%20qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20in%20process_tx_info&type=Commits)
+* [b3d6e7a qcacld-2.0: Fix Integer overflow in wma_tbttoffset_update_event_handler()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20Integer%20overflow%20in%20wma_tbttoffset_update_event_handler%28%29&type=Commits)
+* [5a7bb51 qcacld-2.0: Add sanity check for vdev_id in wma_wow_wakeup_host_event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20vdev_id%20in%20wma_wow_wakeup_host_event&type=Commits)
+* [e4e9b4a qcacld-2.0: Add proto tracing for ARP, NS and NA packets](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20proto%20tracing%20for%20ARP,%20NS%20and%20NA%20packets&type=Commits)
+* [c93fd79 qcacld-2.0: remove log spam](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20remove%20log%20spam&type=Commits)
+* [f79f333 qcacld-2.0: Fix potential buffer overflow in ol_rx_flush_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20in%20ol_rx_flush_handler&type=Commits)
+* [6c15c26 msm: ipa: Fix the handling of default IPA header](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ipa%3A%20Fix%20the%20handling%20of%20default%20IPA%20header&type=Commits)
+* [1afa6c3 msm: ipa: Prevent multiple header deletion from user space](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ipa%3A%20Prevent%20multiple%20header%20deletion%20from%20user%20space&type=Commits)
+* [db8a886 msm: ipa: fix header table reset bug](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ipa%3A%20fix%20header%20table%20reset%20bug&type=Commits)
+* [656be4c nl80211: Define policy for packet pattern attributes](https://github.com/bhb27/BHB27Kernel/search?q=nl80211%3A%20Define%20policy%20for%20packet%20pattern%20attributes&type=Commits)
+* [edaa702 BACKPORT: net: ipv4: fix for a race condition in raw_sendmsg](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20net%3A%20ipv4%3A%20fix%20for%20a%20race%20condition%20in%20raw_sendmsg&type=Commits)
+* [cb32b51 UPSTREAM: KEYS: encrypted: fix buffer overread in valid_master_desc()](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20KEYS%3A%20encrypted%3A%20fix%20buffer%20overread%20in%20valid_master_desc%28%29&type=Commits)
+* [2b41344 ASoC: apr: Add validity check to APR port](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20apr%3A%20Add%20validity%20check%20to%20APR%20port&type=Commits)
+* [7a129c7 qcacld-2.0: Fix buffer overrun in function ProcSetReqInternal](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overrun%20in%20function%20ProcSetReqInternal&type=Commits)
+* [9174690 BACKPORT: USB: core: harden cdc_parse_cdc_header](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20USB%3A%20core%3A%20harden%20cdc_parse_cdc_header&type=Commits)
+* [669ff20 qcacld-2.0: Track memory allocation requests in driver](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Track%20memory%20allocation%20requests%20in%20driver&type=Commits)
+* [9474c97 qcacld-2.0: svc: Replace instances of unadorned %p](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20svc%3A%20Replace%20instances%20of%20unadorned%20%p&type=Commits)
+* [eba7819 qcacld-2.0: Do not call pr_info while using spin_lock_irqsave](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Do%20not%20call%20pr_info%20while%20using%20spin_lock_irqsave&type=Commits)
+* [399adbc qcacld-2.0: Logging level changes on wlan HOST](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Logging%20level%20changes%20on%20wlan%20HOST&type=Commits)
+* [68463e6 qcacld-2.0: Fix out of bound issue in wlan_logging_proc_sock_rx_msg](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20out%20of%20bound%20issue%20in%20wlan_logging_proc_sock_rx_msg&type=Commits)
+* [de2573a qcacld-2.0: Add proper lengths to payload](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20proper%20lengths%20to%20payload&type=Commits)
+* [9355699 qcacld-2.0: Remove usage of f_dentry for Kernel upgrade](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20usage%20of%20f_dentry%20for%20Kernel%20upgrade&type=Commits)
+* [a697e69e uid_cputime: Check for the range while removing range of UIDs.](https://github.com/bhb27/BHB27Kernel/search?q=%20uid_cputime%3A%20Check%20for%20the%20range%20while%20removing%20range%20of%20UIDs.&type=Commits)
+
+***
+
+03-29-2018
+====================
+
+* [22f2bf7 msm: vidc: Supress silly error message](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Supress%20silly%20error%20message&type=Commits)
+* [a6cd92e clk: qcom: Use rt mutexes for the rpm and voter clock locks](https://github.com/bhb27/BHB27Kernel/search?q=clk%3A%20qcom%3A%20Use%20rt%20mutexes%20for%20the%20rpm%20and%20voter%20clock%20locks&type=Commits)
+
+***
+
+03-27-2018
+====================
+
+* [ea322c4 Build update zipsigner.jar](https://github.com/bhb27/BHB27Kernel/search?q=Build%20update%20zipsigner.jar&type=Commits)
+
+***
+
+03-26-2018
+====================
+
+* [e1d86cc build update build/how_to_build_this.sh](https://github.com/bhb27/BHB27Kernel/search?q=build%20update%20build/how_to_build_this.sh&type=Commits)
+* [a8e508b Build migrate to 7z compresss and magisk zipsigner](https://github.com/bhb27/BHB27Kernel/search?q=Build%20migrate%20to%207z%20compresss%20and%20magisk%20zipsigner&type=Commits)
+
+***
+
 03-24-2018
 ====================
 
