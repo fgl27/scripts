@@ -3,6 +3,400 @@
 CRDroid Android Nougat source and Quark Changelog:
 ============================================================
 
+04-17-2018
+====================
+
+#### CRDroid Android Nougat source changes of 04-17-2018:
+
+#### android/
+* [49f5ba1 Merge branch 'cm-14.1' of https://github.com/LineageOS/android into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android%20into%207.1&type=Commits)
+
+#### build/
+* [4cf9f6a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_build into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_build%20into%207.1&type=Commits)
+
+#### frameworks/base/
+* [b5e5d0a Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_base into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_base%20into%207.1&type=Commits)
+
+#### packages/apps/Contacts/
+* [f94b6c7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%207.1&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [4a881a0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%207.1&type=Commits)
+
+#### packages/apps/Dialer/
+* [f5d3f44 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%207.1&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [bd43a64 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%207.1&type=Commits)
+
+#### packages/apps/Messaging/
+* [28c0fac Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%207.1&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [14aa4d8 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_PhoneCommon into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_PhoneCommon%20into%207.1&type=Commits)
+
+#### packages/apps/Settings/
+* [c867b25 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Settings into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Settings%20into%207.1&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [68d3718 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Trebuchet into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%207.1&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [74cd8f0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### packages/services/Telephony/
+* [ce85a05 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%207.1&type=Commits)
+
+#### vendor/cm/
+* [c0b5908 crDroid 3.8.7](https://github.com/search?q=crDroid%203.8.7&type=Commits)
+* [ae90802 Fix Android "Work Profiles" also known as AfW 'Android for Work'](https://github.com/search?q=Fix%20Android%20"Work%20Profiles"%20also%20known%20as%20AfW%20%27Android%20for%20Work%27&type=Commits)
+* [f223fcb build: dt_image: support prebuilt DT images](https://github.com/search?q=build%3A%20dt_image%3A%20support%20prebuilt%20DT%20images&type=Commits)
+* [cff4836 write_makefiles: fix paths in BUILD_PREBUILT with destination](https://github.com/search?q=write_makefiles%3A%20fix%20paths%20in%20BUILD_PREBUILT%20with%20destination&type=Commits)
+* [cbc4872 repopick: Allow to pick changes by URL](https://github.com/search?q=repopick%3A%20Allow%20to%20pick%20changes%20by%20URL&type=Commits)
+* [2f8c9a1 repopick: Actually print the patchset number](https://github.com/search?q=repopick%3A%20Actually%20print%20the%20patchset%20number&type=Commits)
+* [2b1cbc2 repopick: Ignore the trailing slash in change numbers](https://github.com/search?q=repopick%3A%20Ignore%20the%20trailing%20slash%20in%20change%20numbers&type=Commits)
+* [737dc08 repopick: Try to keep the changes sorted](https://github.com/search?q=repopick%3A%20Try%20to%20keep%20the%20changes%20sorted&type=Commits)
+* [961c7c9 apn: Add APN for spusu MVNO](https://github.com/search?q=apn%3A%20Add%20APN%20for%20spusu%20MVNO&type=Commits)
+
+#### vendor/cmsdk/
+* [49c0099 Merge branch 'cm-14.1' of https://github.com/LineageOS/cm_platform_sdk into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/cm_platform_sdk%20into%207.1&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-17-2018 End.
+
+04-14-2018
+====================
+
+#### CRDroid Android Nougat source changes of 04-14-2018:
+
+#### hardware/qcom/media-caf/apq8084/
+* [566e8db mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports](https://github.com/search?q=mm-video-v4l2%3A%20vdec%3A%20Disallow%20changing%20buffer%20modes/counts%20on%20allocated%20ports&type=Commits)
+* [51ca80b mm-video-v4l2: venc: Disallow changing buffer count/size on allocated port](https://github.com/search?q=mm-video-v4l2%3A%20venc%3A%20Disallow%20changing%20buffer%20count/size%20on%20allocated%20port&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-14-2018 End.
+
+04-13-2018
+====================
+
+#### Device specific Changes of 04-13-2018 Start:
+
+#### Kernel/Quark/
+* [53e2789 Disable "maybe-uninitialized" warning globally](https://github.com/search?q=Disable%20"maybe-uninitialized"%20warning%20globally&type=Commits)
+* [8421a4c msm: kgsl: Remove io_fraction as it is no longer used](https://github.com/search?q=msm%3A%20kgsl%3A%20Remove%20io_fraction%20as%20it%20is%20no%20longer%20used&type=Commits)
+* [17b9024 ANDROID: ion: Fix comparison](https://github.com/search?q=ANDROID%3A%20ion%3A%20Fix%20comparison&type=Commits)
+* [2d78ee0 msm: kgsl: Use temp unsigned long variable to prevent truncation](https://github.com/search?q=msm%3A%20kgsl%3A%20Use%20temp%20unsigned%20long%20variable%20to%20prevent%20truncation&type=Commits)
+* [b9e10ad msm: kgsl: Change %p to %pK in debug messages](https://github.com/search?q=msm%3A%20kgsl%3A%20Change%20%p%20to%20%pK%20in%20debug%20messages&type=Commits)
+* [e76b43a pinctrl: msm: prevent bogus wake up from suspend](https://github.com/search?q=pinctrl%3A%20msm%3A%20prevent%20bogus%20wake%20up%20from%20suspend&type=Commits)
+* [71b309f mdss: compat: suppress unnecessary prints](https://github.com/search?q=mdss%3A%20compat%3A%20suppress%20unnecessary%20prints&type=Commits)
+* [0e9cd86 Revert "Revert "suspend: Return error when pending wakeup source is found.""](https://github.com/search?q=Revert%20"Revert%20"suspend%3A%20Return%20error%20when%20pending%20wakeup%20source%20is%20found.""&type=Commits)
+* [8319881 msm: mdss: increase mdp core clock to match panel pixel clock](https://github.com/search?q=msm%3A%20mdss%3A%20increase%20mdp%20core%20clock%20to%20match%20panel%20pixel%20clock&type=Commits)
+* [731aed2 msm: mdss: reduce log level when ping pong timeout happens](https://github.com/search?q=msm%3A%20mdss%3A%20reduce%20log%20level%20when%20ping%20pong%20timeout%20happens&type=Commits)
+* [ede94e5 defconfig: Remove unused USB storage drivers](https://github.com/search?q=defconfig%3A%20Remove%20unused%20USB%20storage%20drivers&type=Commits)
+* [d0c5d35 force update drivers/net/wireless/bcmdhd/wl_cfg80211](https://github.com/search?q=force%20update%20drivers/net/wireless/bcmdhd/wl_cfg80211&type=Commits)
+* [24d2296 msm: ipa3: add lock for num_q6_rule](https://github.com/search?q=msm%3A%20ipa3%3A%20add%20lock%20for%20num_q6_rule&type=Commits)
+* [faf1266 qcacld-2.0: Add sanity check for vdev id to prevent OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20vdev%20id%20to%20prevent%20OOB%20access&type=Commits)
+* [08a52c9 qcacld-2.0: Check for valid vdev ID in SWBA event handler](https://github.com/search?q=qcacld-2.0%3A%20Check%20for%20valid%20vdev%20ID%20in%20SWBA%20event%20handler&type=Commits)
+* [69419c4 qcacld-2.0: Fix buffer overwrite in wma_extscan_rsp_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20in%20wma_extscan_rsp_handler&type=Commits)
+* [79d16e8 qcacld-2.0: Fix potential buffer overflow in htt_t2h_lp_msg_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20in%20htt_t2h_lp_msg_handler&type=Commits)
+* [1d1acba qcacld-2.0: Fix potential buffer overflow in process_tx_info](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20in%20process_tx_info&type=Commits)
+* [6d4c634 qcacld-2.0: Fix Integer overflow in wma_tbttoffset_update_event_handler()](https://github.com/search?q=qcacld-2.0%3A%20Fix%20Integer%20overflow%20in%20wma_tbttoffset_update_event_handler%28%29&type=Commits)
+* [9d4f63c qcacld-2.0: Add sanity check for vdev_id in wma_wow_wakeup_host_event](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20vdev_id%20in%20wma_wow_wakeup_host_event&type=Commits)
+* [26b981e qcacld-2.0: Add proto tracing for ARP, NS and NA packets](https://github.com/search?q=qcacld-2.0%3A%20Add%20proto%20tracing%20for%20ARP,%20NS%20and%20NA%20packets&type=Commits)
+* [1d3408a qcacld-2.0: remove log spam](https://github.com/search?q=qcacld-2.0%3A%20remove%20log%20spam&type=Commits)
+* [fa235e1 qcacld-2.0: Fix potential buffer overflow in ol_rx_flush_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20in%20ol_rx_flush_handler&type=Commits)
+* [61ab51c msm: ipa: Fix the handling of default IPA header](https://github.com/search?q=msm%3A%20ipa%3A%20Fix%20the%20handling%20of%20default%20IPA%20header&type=Commits)
+* [379d9d8 msm: ipa: Prevent multiple header deletion from user space](https://github.com/search?q=msm%3A%20ipa%3A%20Prevent%20multiple%20header%20deletion%20from%20user%20space&type=Commits)
+* [522e208 msm: ipa: fix header table reset bug](https://github.com/search?q=msm%3A%20ipa%3A%20fix%20header%20table%20reset%20bug&type=Commits)
+* [5d7645d nl80211: Define policy for packet pattern attributes](https://github.com/search?q=nl80211%3A%20Define%20policy%20for%20packet%20pattern%20attributes&type=Commits)
+* [2798bec BACKPORT: net: ipv4: fix for a race condition in raw_sendmsg](https://github.com/search?q=BACKPORT%3A%20net%3A%20ipv4%3A%20fix%20for%20a%20race%20condition%20in%20raw_sendmsg&type=Commits)
+* [8709cc4 UPSTREAM: KEYS: encrypted: fix buffer overread in valid_master_desc()](https://github.com/search?q=UPSTREAM%3A%20KEYS%3A%20encrypted%3A%20fix%20buffer%20overread%20in%20valid_master_desc%28%29&type=Commits)
+* [3e22eab ASoC: apr: Add validity check to APR port](https://github.com/search?q=ASoC%3A%20apr%3A%20Add%20validity%20check%20to%20APR%20port&type=Commits)
+* [249765d qcacld-2.0: Fix buffer overrun in function ProcSetReqInternal](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overrun%20in%20function%20ProcSetReqInternal&type=Commits)
+* [5c8acf1 BACKPORT: USB: core: harden cdc_parse_cdc_header](https://github.com/search?q=BACKPORT%3A%20USB%3A%20core%3A%20harden%20cdc_parse_cdc_header&type=Commits)
+* [7383c20 qcacld-2.0: Track memory allocation requests in driver](https://github.com/search?q=qcacld-2.0%3A%20Track%20memory%20allocation%20requests%20in%20driver&type=Commits)
+* [05e4070 qcacld-2.0: svc: Replace instances of unadorned %p](https://github.com/search?q=qcacld-2.0%3A%20svc%3A%20Replace%20instances%20of%20unadorned%20%p&type=Commits)
+* [825d5e5 qcacld-2.0: Do not call pr_info while using spin_lock_irqsave](https://github.com/search?q=qcacld-2.0%3A%20Do%20not%20call%20pr_info%20while%20using%20spin_lock_irqsave&type=Commits)
+* [ebde330 qcacld-2.0: Logging level changes on wlan HOST](https://github.com/search?q=qcacld-2.0%3A%20Logging%20level%20changes%20on%20wlan%20HOST&type=Commits)
+* [507deba qcacld-2.0: Fix out of bound issue in wlan_logging_proc_sock_rx_msg](https://github.com/search?q=qcacld-2.0%3A%20Fix%20out%20of%20bound%20issue%20in%20wlan_logging_proc_sock_rx_msg&type=Commits)
+* [1196c2d qcacld-2.0: Add proper lengths to payload](https://github.com/search?q=qcacld-2.0%3A%20Add%20proper%20lengths%20to%20payload&type=Commits)
+* [0dfb8b5 qcacld-2.0: Remove usage of f_dentry for Kernel upgrade](https://github.com/search?q=qcacld-2.0%3A%20Remove%20usage%20of%20f_dentry%20for%20Kernel%20upgrade&type=Commits)
+* [ae673a8 uid_cputime: Check for the range while removing range of UIDs.](https://github.com/search?q=uid_cputime%3A%20Check%20for%20the%20range%20while%20removing%20range%20of%20UIDs.&type=Commits)
+* [8f9b3b6 msm: vidc: Supress silly error message](https://github.com/search?q=msm%3A%20vidc%3A%20Supress%20silly%20error%20message&type=Commits)
+* [dc75da5 clk: qcom: Use rt mutexes for the rpm and voter clock locks](https://github.com/search?q=clk%3A%20qcom%3A%20Use%20rt%20mutexes%20for%20the%20rpm%20and%20voter%20clock%20locks&type=Commits)
+
+#### Device specific Changes of 04-13-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-13-2018:
+
+#### vendor/crDroidOTA-devices/
+* [27ec901 land: Update for Redmi 3S](https://github.com/search?q=land%3A%20Update%20for%20Redmi%203S&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-13-2018 End.
+
+04-09-2018
+====================
+
+#### CRDroid Android Nougat source changes of 04-09-2018:
+
+#### system/bt/
+* [7f63160 AVRCP: Initialize buffer for attribute values to be written to](https://github.com/search?q=AVRCP%3A%20Initialize%20buffer%20for%20attribute%20values%20to%20be%20written%20to&type=Commits)
+* [57ca41c SDP: Check p_req_end before reading from p_req](https://github.com/search?q=SDP%3A%20Check%20p_req_end%20before%20reading%20from%20p_req&type=Commits)
+* [648fe19 DO NOT MERGE Truncate new line characters when adding string to config](https://github.com/search?q=DO%20NOT%20MERGE%20Truncate%20new%20line%20characters%20when%20adding%20string%20to%20config&type=Commits)
+
+#### system/security/
+* [6d708c7 key_store:Using euid instead of uid when upgrade wifi blobs](https://github.com/search?q=key_store%3AUsing%20euid%20instead%20of%20uid%20when%20upgrade%20wifi%20blobs&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-09-2018 End.
+
+04-08-2018
+====================
+
+#### Device specific Changes of 04-08-2018 Start:
+
+#### Vendor/Quark/
+* [fad34cc Quark: Update ims related](https://github.com/search?q=Quark%3A%20Update%20ims%20related&type=Commits)
+
+#### Device specific Changes of 04-08-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-08-2018:
+
+#### android/
+* [8af970f manifest: Track specific revision of svox to fix security vulnerability](https://github.com/search?q=manifest%3A%20Track%20specific%20revision%20of%20svox%20to%20fix%20security%20vulnerability&type=Commits)
+
+#### build/
+* [5d2a208 Bump security patch level to 2018-04-05](https://github.com/search?q=Bump%20security%20patch%20level%20to%202018-04-05&type=Commits)
+
+#### frameworks/av/
+* [9a4c0a2 Refactor MediaPlayerBase's notify](https://github.com/search?q=Refactor%20MediaPlayerBase%27s%20notify&type=Commits)
+* [5ae13b7 libmediaplayerservice:Fix deadlock on gapless start failure](https://github.com/search?q=libmediaplayerservice%3AFix%20deadlock%20on%20gapless%20start%20failure&type=Commits)
+* [4809194 Revert "libmediaplayerservice: fix deadlock on gapless start failure"](https://github.com/search?q=Revert%20"libmediaplayerservice%3A%20fix%20deadlock%20on%20gapless%20start%20failure"&type=Commits)
+* [20f0601 Prevent MediaPlayerService::Client's use-after-free](https://github.com/search?q=Prevent%20MediaPlayerService%3A%3AClient%27s%20use-after-free&type=Commits)
+
+#### system/bt/
+* [e50c514 AVRCP: Check the number of text value attributes requested](https://github.com/search?q=AVRCP%3A%20Check%20the%20number%20of%20text%20value%20attributes%20requested&type=Commits)
+* [dfba2a4 AVRCP: Check number of text attribute values in response](https://github.com/search?q=AVRCP%3A%20Check%20number%20of%20text%20attribute%20values%20in%20response&type=Commits)
+* [b4edda5 AVRCP: Check number of text attributes in response](https://github.com/search?q=AVRCP%3A%20Check%20number%20of%20text%20attributes%20in%20response&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-08-2018 End.
+
+04-06-2018
+====================
+
+#### Device specific Changes of 04-06-2018 Start:
+
+#### Device/Quark/
+* [36fc8c9 Quark: add fs_config support for custom binary and related](https://github.com/search?q=Quark%3A%20add%20fs_config%20support%20for%20custom%20binary%20and%20related&type=Commits)
+
+#### Device specific Changes of 04-06-2018 End.
+
+***
+
+#### CRDroid Android Nougat source changes of 04-06-2018:
+
+#### external/aac/
+* [3e74d9b MPEG-4 AAC Decoder: check against invalid height info](https://github.com/search?q=MPEG-4%20AAC%20Decoder%3A%20check%20against%20invalid%20height%20info&type=Commits)
+
+#### external/libavc/
+* [c75adf7 Decoder: Set prev slice type for I slice.](https://github.com/search?q=Decoder%3A%20Set%20prev%20slice%20type%20for%20I%20slice.&type=Commits)
+* [da8176d Decoder: Fixed reset values in parse sps.](https://github.com/search?q=Decoder%3A%20Fixed%20reset%20values%20in%20parse%20sps.&type=Commits)
+
+#### external/libhevc/
+* [fbf3c39 Fix output buffer size check](https://github.com/search?q=Fix%20output%20buffer%20size%20check&type=Commits)
+* [80d2511 Check limits for log2_max_pic_order_cnt_lsb_minus4 in sps](https://github.com/search?q=Check%20limits%20for%20log2_max_pic_order_cnt_lsb_minus4%20in%20sps&type=Commits)
+
+#### frameworks/av/
+* [ddefde0 Check NAL size before looking inside](https://github.com/search?q=Check%20NAL%20size%20before%20looking%20inside&type=Commits)
+* [56b25bf M3UParser: detect variant streams without EXT-X-STREAM-INF](https://github.com/search?q=M3UParser%3A%20detect%20variant%20streams%20without%20EXT-X-STREAM-INF&type=Commits)
+
+#### frameworks/base/
+* [090de27 Adjust URI host parsing to stop on  character.](https://github.com/search?q=Adjust%20URI%20host%20parsing%20to%20stop%20on%20%20character.&type=Commits)
+* [1ca819a Check for null-terminator in ResStringPool::string8At](https://github.com/search?q=Check%20for%20null-terminator%20in%20ResStringPool%3A%3Astring8At&type=Commits)
+* [fafc170 [RTT] ParcelableRttResults parcel code fix](https://github.com/search?q=[RTT]%20ParcelableRttResults%20parcel%20code%20fix&type=Commits)
+* [890d448 Fix VerifyCredentialResponse parcelling code](https://github.com/search?q=Fix%20VerifyCredentialResponse%20parcelling%20code&type=Commits)
+
+#### frameworks/ex/
+* [563f1c3 Add bounds checking for transparency lookup](https://github.com/search?q=Add%20bounds%20checking%20for%20transparency%20lookup&type=Commits)
+
+#### packages/apps/Email/
+* [b3978f1 Disallow attaching files from our own EmailAttachmentProvider.](https://github.com/search?q=Disallow%20attaching%20files%20from%20our%20own%20EmailAttachmentProvider.&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [ec01df7 Disallow attaching files from our own EmailAttachmentProvider.](https://github.com/search?q=Disallow%20attaching%20files%20from%20our%20own%20EmailAttachmentProvider.&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-06-2018 End.
+
+04-05-2018
+====================
+
+#### Device specific Changes of 04-05-2018 Start:
+
+#### Device/Quark/
+* [a5058fb Quark: Update sec_config](https://github.com/search?q=Quark%3A%20Update%20sec_config&type=Commits)
+
+#### Device specific Changes of 04-05-2018 End.
+
+***
+
+04-03-2018
+====================
+
+#### CRDroid Android Nougat source changes of 04-03-2018:
+
+#### system/bt/
+* [ad9879d bt: Fix 32k sbc_codec.sampling_rate](https://github.com/search?q=bt%3A%20Fix%2032k%20sbc_codec.sampling_rate&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-03-2018 End.
+
+04-01-2018
+====================
+
+#### CRDroid Android Nougat source changes of 04-01-2018:
+
+#### packages/apps/Settings/
+* [a8b3aa0 PrivacyGuard: skip icon lookup for OP_NONE](https://github.com/search?q=PrivacyGuard%3A%20skip%20icon%20lookup%20for%20OP_NONE&type=Commits)
+
+#### CRDroid Android Nougat source changes of 04-01-2018 End.
+
+03-31-2018
+====================
+
+#### CRDroid Android Nougat source changes of 03-31-2018:
+
+#### packages/apps/Settings/
+* [a7db93d PrivacyGuard: add a couple more missing icons](https://github.com/search?q=PrivacyGuard%3A%20add%20a%20couple%20more%20missing%20icons&type=Commits)
+* [116f09b Privacy Guard: Add icon for VPN permission](https://github.com/search?q=Privacy%20Guard%3A%20Add%20icon%20for%20VPN%20permission&type=Commits)
+* [6fa7a33 AppOps: Add missing copyrights to icons](https://github.com/search?q=AppOps%3A%20Add%20missing%20copyrights%20to%20icons&type=Commits)
+* [d9f9de8 AppOps: Add missing icons for alarm, bluetooth, stats, toast](https://github.com/search?q=AppOps%3A%20Add%20missing%20icons%20for%20alarm,%20bluetooth,%20stats,%20toast&type=Commits)
+* [55ca6d7 AppOpsDetails: Display all missing ops](https://github.com/search?q=AppOpsDetails%3A%20Display%20all%20missing%20ops&type=Commits)
+
+#### CRDroid Android Nougat source changes of 03-31-2018 End.
+
+03-28-2018
+====================
+
+#### CRDroid Android Nougat source changes of 03-28-2018:
+
+#### frameworks/base/
+* [1291f77 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/fm/
+* [de04f98 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [7159dc2 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [1ee4be5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [61ae982 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [af2f620 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [eeb708a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [9ef12ec Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [747294a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [1e82e10 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [6921811 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [d8eaf01 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [5033c8c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [2d995d5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [75944fd Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [3e16aac Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [2ae4d6c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [6f8b291 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [6bc664f Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [e41a19c Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [689e1d0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [00cdb2e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [d5a13a5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [d3295d6 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [8916378 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [a5efc41 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [00d1255 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [b61d625 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [b995b91 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [bea44a8 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [5c6a89e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [c002af1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [93358cf Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [ceff0fa Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/cmsdk/
+* [1891ea7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### CRDroid Android Nougat source changes of 03-28-2018 End.
+
+03-27-2018
+====================
+
+#### CRDroid Android Nougat source changes of 03-27-2018:
+
+#### system/security/
+* [162d94c keystore: add upgradeKeyBlob call into keystore exportKey.](https://github.com/search?q=keystore%3A%20add%20upgradeKeyBlob%20call%20into%20keystore%20exportKey.&type=Commits)
+* [1d02c81 Fix issue: upgradeKeyBlob call always return PERMISSION_DENIED.](https://github.com/search?q=Fix%20issue%3A%20upgradeKeyBlob%20call%20always%20return%20PERMISSION_DENIED.&type=Commits)
+
+#### CRDroid Android Nougat source changes of 03-27-2018 End.
+
 03-24-2018
 ====================
 
