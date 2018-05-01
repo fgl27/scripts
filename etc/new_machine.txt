@@ -77,7 +77,7 @@ sudo dpkj -i *
 ####apt-get install start
 sudo add-apt-repository ppa:openjdk-r/ppa
 
-sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full
+sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics
 
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo gdebi teamviewer_amd64.deb
