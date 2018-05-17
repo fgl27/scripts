@@ -81,7 +81,7 @@ https://www.libreoffice.org/download/download/
 
 	sudo add-apt-repository ppa:openjdk-r/ppa
 
-	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics
+	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba
 
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 	sudo gdebi teamviewer_amd64.deb
@@ -200,3 +200,24 @@ sync
 	sudo eject /dev/sdb
 
 #### iso boot end
+
+
+### Set a password for your user in Samba
+
+	sudo smbpasswd -a <user_name>
+
+### Set a password for your user in Samba end
+
+### Set NVIDIA
+
+	sudo su
+	cd Downloads/
+	sudo service lightdm stop
+	./NVIDIA-Linux-x86_64-XXX.XX.run 
+	exit
+	reboot
+
+as **sudo service lightdm stop** kill the graphical interface do it over ssh
+continue and yes when is asked
+
+### Set NVIDIA start
