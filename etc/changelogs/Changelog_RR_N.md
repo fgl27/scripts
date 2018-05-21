@@ -3,6 +3,299 @@
 Resurrection Remix OS - Nougat source and Quark Changelog:
 ============================================================
 
+05-21-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-21-2018:
+
+#### build/
+* [c1e4049 Bump security patch level to 2018-05-05](https://github.com/search?q=Bump%20security%20patch%20level%20to%202018-05-05&type=Commits)
+
+#### frameworks/av/
+* [4533589 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20nougat&type=Commits)
+
+#### frameworks/base/
+* [4b3a41c fix port of GlobalActions: Don't timeout a partial screenshot](https://github.com/search?q=fix%20port%20of%20GlobalActions%3A%20Don%27t%20timeout%20a%20partial%20screenshot&type=Commits)
+* [d149e51 Add NETWORK_STACK permission](https://github.com/search?q=Add%20NETWORK_STACK%20permission&type=Commits)
+* [4ca97cb Copy PermissionChecker from support lib and use in RcognitionService](https://github.com/search?q=Copy%20PermissionChecker%20from%20support%20lib%20and%20use%20in%20RcognitionService&type=Commits)
+* [149011b Fixed Security Vulnerability of DcParamObject](https://github.com/search?q=Fixed%20Security%20Vulnerability%20of%20DcParamObject&type=Commits)
+* [2efcf2a Add permission check to setAllowOnlyVpnForUids](https://github.com/search?q=Add%20permission%20check%20to%20setAllowOnlyVpnForUids&type=Commits)
+* [4690902 Verify last array's length in readFromParcel](https://github.com/search?q=Verify%20last%20array%27s%20length%20in%20readFromParcel&type=Commits)
+* [2a65b7d Update internal ViewPager's SavedState to match Support Library version](https://github.com/search?q=Update%20internal%20ViewPager%27s%20SavedState%20to%20match%20Support%20Library%20version&type=Commits)
+
+#### packages/apps/Settings/
+* [9ce9e02 Settings: disable Screenshot type](https://github.com/search?q=Settings%3A%20disable%20Screenshot%20type&type=Commits)
+* [b86e491 Add back missing backlight_timeout_time plural](https://github.com/search?q=Add%20back%20missing%20backlight_timeout_time%20plural&type=Commits)
+
+#### packages/services/Telephony/
+* [144286e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### system/core/
+* [34df108 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_system_core%20into%20nougat&type=Commits)
+
+#### vendor/cmsdk/
+* [38041b1 Correct manifest lable](https://github.com/search?q=Correct%20manifest%20lable&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-21-2018 End.
+
+05-19-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-19-2018:
+
+#### frameworks/base/
+* [26eb108 Use calling user ID when calling isDeviceLocked](https://github.com/search?q=Use%20calling%20user%20ID%20when%20calling%20isDeviceLocked&type=Commits)
+
+#### packages/apps/Dialer/
+* [59b7254 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
+#### packages/services/Telephony/
+* [ae5f5c3 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-19-2018 End.
+
+05-18-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-18-2018:
+
+#### external/libmpeg2/
+* [b9663e1 Adding Internal Input Buffer](https://github.com/search?q=Adding%20Internal%20Input%20Buffer&type=Commits)
+
+#### frameworks/av/
+* [5654469 Handle bad bitrate index in mp3dec.](https://github.com/search?q=Handle%20bad%20bitrate%20index%20in%20mp3dec.&type=Commits)
+* [f2c6166 better mpeg2 TS elementary stream Access Unit parsing](https://github.com/search?q=better%20mpeg2%20TS%20elementary%20stream%20Access%20Unit%20parsing&type=Commits)
+
+#### packages/services/Telephony/
+* [ff2d39e Enhanced permission checks for TelephonyManager#endCall() API.](https://github.com/search?q=Enhanced%20permission%20checks%20for%20TelephonyManager%23endCall%28%29%20API.&type=Commits)
+
+#### system/core/
+* [a2a0d6b String16: remove integer overflows](https://github.com/search?q=String16%3A%20remove%20integer%20overflows&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-18-2018 End.
+
+05-11-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-11-2018:
+
+#### bionic/
+* [ac69f77 zoneinfo: update timezone data to tzdata2018e](https://github.com/search?q=zoneinfo%3A%20update%20timezone%20data%20to%20tzdata2018e&type=Commits)
+
+#### external/icu/
+* [0104741 icu: update timezone data to tzdata2018e](https://github.com/search?q=icu%3A%20update%20timezone%20data%20to%20tzdata2018e&type=Commits)
+* [81f7585 icu: update ICU timzeone data to Android trunk](https://github.com/search?q=icu%3A%20update%20ICU%20timzeone%20data%20to%20Android%20trunk&type=Commits)
+* [f32a4ff icu: update timezone code for ICU to support tzdata >= 2017c](https://github.com/search?q=icu%3A%20update%20timezone%20code%20for%20ICU%20to%20support%20tzdata%20>=%202017c&type=Commits)
+
+#### packages/services/Telephony/
+* [7dbdc34 NetworkSelection: Improve home network display](https://github.com/search?q=NetworkSelection%3A%20Improve%20home%20network%20display&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-11-2018 End.
+
+05-08-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-08-2018:
+
+#### packages/apps/Dialer/
+* [d4a6cea Dialer: Fix possible NPE](https://github.com/search?q=Dialer%3A%20Fix%20possible%20NPE&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-08-2018 End.
+
+05-07-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-07-2018:
+
+#### packages/apps/FlipFlap/
+* [3bba121 FlipFlap: Improve dotcase app notifications support](https://github.com/search?q=FlipFlap%3A%20Improve%20dotcase%20app%20notifications%20support&type=Commits)
+* [08b9119 FlipFlap: Ignore low-priority notifications](https://github.com/search?q=FlipFlap%3A%20Ignore%20low-priority%20notifications&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-07-2018 End.
+
+05-06-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-06-2018:
+
+#### external/chromium-webview/
+* [b3b69b3 Update webviews to Chromium 66.0.3359.139](https://github.com/search?q=Update%20webviews%20to%20Chromium%2066.0.3359.139&type=Commits)
+
+#### frameworks/base/
+* [3146aa9 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [3bf5337 GlobalActions: Don't timeout a partial screenshot](https://github.com/search?q=GlobalActions%3A%20Don%27t%20timeout%20a%20partial%20screenshot&type=Commits)
+* [f2c281e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### frameworks/native/
+* [5181bbc Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%20nougat&type=Commits)
+
+#### packages/apps/Contacts/
+* [9d97748 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Contacts into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Contacts%20into%20nougat&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [77ce8c2 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_ContactsCommon into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ContactsCommon%20into%20nougat&type=Commits)
+
+#### packages/apps/Dialer/
+* [c177b20 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Dialer into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Dialer%20into%20nougat&type=Commits)
+
+#### packages/apps/Messaging/
+* [740f252 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_Messaging into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20nougat&type=Commits)
+
+#### packages/apps/Settings/
+* [81af0db Update strings from cm-14.1](https://github.com/search?q=Update%20strings%20from%20cm-14.1&type=Commits)
+* [3ab9b22 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [f4c99eb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [f09c2b7 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_services_Telephony into nougat](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20nougat&type=Commits)
+
+#### vendor/cm/
+* [70db29d cm: Set TARGET_CRYPTFS_HW_PATH if HW crypto is enabled](https://github.com/search?q=cm%3A%20Set%20TARGET_CRYPTFS_HW_PATH%20if%20HW%20crypto%20is%20enabled&type=Commits)
+* [c5f936e prebuilts: Fix Telfort apn](https://github.com/search?q=prebuilts%3A%20Fix%20Telfort%20apn&type=Commits)
+* [61fd157 cm: extract_utils: Fix rootfs targets after 72765e4cc950d90abb730bc62e3f5f9eeba5aa4e](https://github.com/search?q=cm%3A%20extract_utils%3A%20Fix%20rootfs%20targets%20after%2072765e4cc950d90abb730bc62e3f5f9eeba5aa4e&type=Commits)
+
+#### vendor/cmsdk/
+* [a89d14d Update strings from cm-14.1](https://github.com/search?q=Update%20strings%20from%20cm-14.1&type=Commits)
+* [1af428e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [d82156a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-06-2018 End.
+
+05-05-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 05-05-2018:
+
+#### hardware/qcom/fm/
+* [92eae95 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [9924b37 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [265750a Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [115c841 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [7b2b715 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [078c635 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ContactsCommon/
+* [cf631d3 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [8d2b1b0 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [ca99b3e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [de3f248 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [7a4b3f7 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [028ba0d Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [5045756 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [8a50804 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [e7c3a92 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [f85e7bb Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [3be3553 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [2735988 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [20621a5 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [32e6c96 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DataUsageProvider/
+* [463668e Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [47f9d67 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [6a15291 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 05-05-2018 End.
+
+04-30-2018
+====================
+
+#### Device specific Changes of 04-30-2018 Start:
+
+#### Device/Quark/
+* [c425472 Quark: audio camcorder-mic invert right/left to have real right/left](https://github.com/search?q=Quark%3A%20audio%20camcorder-mic%20invert%20right/left%20to%20have%20real%20right/left&type=Commits)
+* [701d02d Quark: Audio use dmic-endfire config for camcorder-mic](https://github.com/search?q=Quark%3A%20Audio%20use%20dmic-endfire%20config%20for%20camcorder-mic&type=Commits)
+
+#### Device specific Changes of 04-30-2018 End.
+
+***
+
+04-25-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-25-2018:
+
+#### frameworks/native/
+* [dfae0b2 Handle glGetString returning NULL](https://github.com/search?q=Handle%20glGetString%20returning%20NULL&type=Commits)
+
+#### vendor/qcom/opensource/cryptfs_hw/
+* [5e14a55 cryptfs_hw: add missing logging tag](https://github.com/search?q=cryptfs_hw%3A%20add%20missing%20logging%20tag&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 04-25-2018 End.
+
+04-21-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-21-2018:
+
+#### frameworks/native/
+* [6989fcf Triple the available egl function pointers available to a process for certain Nvidia devices.](https://github.com/search?q=Triple%20the%20available%20egl%20function%20pointers%20available%20to%20a%20process%20for%20certain%20Nvidia%20devices.&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 04-21-2018 End.
+
+04-19-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-19-2018:
+
+#### packages/apps/Dialer/
+* [1c93569 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [bd9e8a1 Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 04-19-2018 End.
+
+04-17-2018
+====================
+
+#### Resurrection Remix OS - Nougat source changes of 04-17-2018:
+
+#### packages/inputmethods/LatinIME/
+* [74cd8f0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_inputmethods_LatinIME into 7.1](https://github.com/search?q=Merge%20branch%20%27cm-14.1%27%20of%20https%3A//github.com/LineageOS/android_packages_inputmethods_LatinIME%20into%207.1&type=Commits)
+
+#### Resurrection Remix OS - Nougat source changes of 04-17-2018 End.
+
 04-14-2018
 ====================
 
