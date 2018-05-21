@@ -3,6 +3,85 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+05-10-2018
+====================
+
+* [f57430f3b835 apq8084: update kernel header](https://github.com/bhb27/BHB27Kernel/search?q=b835%20apq8084%3A%20update%20kernel%20header&type=Commits)
+* [fae094ece75a msm: vidc: Fix limit for LTR mode control](https://github.com/bhb27/BHB27Kernel/search?q=e75a%20msm%3A%20vidc%3A%20Fix%20limit%20for%20LTR%20mode%20control&type=Commits)
+* [e25d6a5de09c msm: vidc: disable CPU L2 cache PC during video sessions](https://github.com/bhb27/BHB27Kernel/search?q=e09c%20msm%3A%20vidc%3A%20disable%20CPU%20L2%20cache%20PC%20during%20video%20sessions&type=Commits)
+* [6aa601f71c22 ARM: dts: msm: Add RBCPR and RPM master stats for APQ8084](https://github.com/bhb27/BHB27Kernel/search?q=1c22%20ARM%3A%20dts%3A%20msm%3A%20Add%20RBCPR%20and%20RPM%20master%20stats%20for%20APQ8084&type=Commits)
+* [5b14c2eebbb3 qcom: mpm-of: fix bug in finding the pending interrupts](https://github.com/bhb27/BHB27Kernel/search?q=bbb3%20qcom%3A%20mpm-of%3A%20fix%20bug%20in%20finding%20the%20pending%20interrupts&type=Commits)
+* [e500826b3a4f msm: mpm-of: set wakeup interrupt as NO_SUSPEND](https://github.com/bhb27/BHB27Kernel/search?q=3a4f%20msm%3A%20mpm-of%3A%20set%20wakeup%20interrupt%20as%20NO_SUSPEND&type=Commits)
+* [0a19f1d5200d msm: mpm-of: fix for "cxo_lpm_clk is unbalanced" slowpath  warning.](https://github.com/bhb27/BHB27Kernel/search?q=200d%20msm%3A%20mpm-of%3A%20fix%20for%20"cxo_lpm_clk%20is%20unbalanced"%20slowpath%20%20warning.&type=Commits)
+* [6190da28f951 msm: mpm-of: move mpm-of driver to a new kernel location](https://github.com/bhb27/BHB27Kernel/search?q=f951%20msm%3A%20mpm-of%3A%20move%20mpm-of%20driver%20to%20a%20new%20kernel%20location&type=Commits)
+* [e93dcc6bd37c idle: exit the cpu_idle_poll loop if cpu_idle_force_poll is cleared](https://github.com/bhb27/BHB27Kernel/search?q=d37c%20idle%3A%20exit%20the%20cpu_idle_poll%20loop%20if%20cpu_idle_force_poll%20is%20cleared&type=Commits)
+* [6c68b7792b20 idle: Add a memory barrier after setting cpu_idle_force_poll](https://github.com/bhb27/BHB27Kernel/search?q=2b20%20idle%3A%20Add%20a%20memory%20barrier%20after%20setting%20cpu_idle_force_poll&type=Commits)
+* [7d5db56f9671 clockevents: Move the tick_notify() switch case to clockevents_notify()](https://github.com/bhb27/BHB27Kernel/search?q=9671%20clockevents%3A%20Move%20the%20tick_notify%28%29%20switch%20case%20to%20clockevents_notify%28%29&type=Commits)
+* [4d3d351d8c0e nohz: Convert a few places to use local per cpu accesses](https://github.com/bhb27/BHB27Kernel/search?q=8c0e%20nohz%3A%20Convert%20a%20few%20places%20to%20use%20local%20per%20cpu%20accesses&type=Commits)
+* [5eea91d89233 sched_clock: Add support for >32 bit sched_clock](https://github.com/bhb27/BHB27Kernel/search?q=9233%20sched_clock%3A%20Add%20support%20for%20>32%20bit%20sched_clock&type=Commits)
+* [7db09d7e356f sched_clock: Use an hrtimer instead of timer](https://github.com/bhb27/BHB27Kernel/search?q=356f%20sched_clock%3A%20Use%20an%20hrtimer%20instead%20of%20timer&type=Commits)
+* [df5694b05f65 sched_clock: Use seqcount instead of rolling our own](https://github.com/bhb27/BHB27Kernel/search?q=5f65%20sched_clock%3A%20Use%20seqcount%20instead%20of%20rolling%20our%20own&type=Commits)
+* [97471151fb72 clocksource: Extract max nsec calculation into separate function](https://github.com/bhb27/BHB27Kernel/search?q=fb72%20clocksource%3A%20Extract%20max%20nsec%20calculation%20into%20separate%20function&type=Commits)
+* [dc2ef87fbdf3 sched_clock: Make ARM's sched_clock generic for all architectures](https://github.com/bhb27/BHB27Kernel/search?q=bdf3%20sched_clock%3A%20Make%20ARM%27s%20sched_clock%20generic%20for%20all%20architectures&type=Commits)
+* [ed6877445ac2 mutex: Add a delay into the SPIN_ON_OWNER wait loop.](https://github.com/bhb27/BHB27Kernel/search?q=5ac2%20mutex%3A%20Add%20a%20delay%20into%20the%20SPIN_ON_OWNER%20wait%20loop.&type=Commits)
+* [f2b394c7babf ALSA: timer: Use setup_timer() and mod_timer()](https://github.com/bhb27/BHB27Kernel/search?q=babf%20ALSA%3A%20timer%3A%20Use%20setup_timer%28%29%20and%20mod_timer%28%29&type=Commits)
+* [cfea79e80310 ALSA: timer: Use standard printk helpers](https://github.com/bhb27/BHB27Kernel/search?q=0310%20ALSA%3A%20timer%3A%20Use%20standard%20printk%20helpers&type=Commits)
+* [7a0c9085028c ALSA: core: Use ktime_get_ts()](https://github.com/bhb27/BHB27Kernel/search?q=028c%20ALSA%3A%20core%3A%20Use%20ktime_get_ts%28%29&type=Commits)
+* [2a0a4dbb8f2b ALSA: timer: Fix negative queue usage by racy accesses](https://github.com/bhb27/BHB27Kernel/search?q=8f2b%20ALSA%3A%20timer%3A%20Fix%20negative%20queue%20usage%20by%20racy%20accesses&type=Commits)
+* [3ab7934195ca bluetooth: Reduce bluesleep wakelock timeout](https://github.com/bhb27/BHB27Kernel/search?q=95ca%20bluetooth%3A%20Reduce%20bluesleep%20wakelock%20timeout&type=Commits)
+* [96b93193ac7d shamu: bluesleep: Rip out transmission timer](https://github.com/bhb27/BHB27Kernel/search?q=ac7d%20shamu%3A%20bluesleep%3A%20Rip%20out%20transmission%20timer&type=Commits)
+* [ce663b4683a5 shamu: bluesleep: remove unused proc entries](https://github.com/bhb27/BHB27Kernel/search?q=83a5%20shamu%3A%20bluesleep%3A%20remove%20unused%20proc%20entries&type=Commits)
+* [4ebccd148fd5 angler: bluetooth: Fix kernel panic(PC is at msm_serial_hs_rx_work).](https://github.com/bhb27/BHB27Kernel/search?q=8fd5%20angler%3A%20bluetooth%3A%20Fix%20kernel%20panic%28PC%20is%20at%20msm_serial_hs_rx_work%29.&type=Commits)
+* [43f947bbe5eb angler: bluetooth: fix possible memory leak in kernel.](https://github.com/bhb27/BHB27Kernel/search?q=e5eb%20angler%3A%20bluetooth%3A%20fix%20possible%20memory%20leak%20in%20kernel.&type=Commits)
+* [75ee7cfaccae shamu: bluesleep replace BT_ERR and BT_INFO with pr_err](https://github.com/bhb27/BHB27Kernel/search?q=ccae%20shamu%3A%20bluesleep%20replace%20BT_ERR%20and%20BT_INFO%20with%20pr_err&type=Commits)
+* [d6b18c7abb71 shamu: bluesleep cleanup unneeded ifdefs](https://github.com/bhb27/BHB27Kernel/search?q=bb71%20shamu%3A%20bluesleep%20cleanup%20unneeded%20ifdefs&type=Commits)
+
+***
+
+04-30-2018
+====================
+
+* [59e6449a73a8 boot: apq8084.dtsi higher vph-low](https://github.com/bhb27/BHB27Kernel/search?q=73a8%20boot%3A%20apq8084.dtsi%20higher%20vph-low&type=Commits)
+* [31a084555873 Revert "boot: apq8084.dtsi set vph-low/high to a higher value"](https://github.com/bhb27/BHB27Kernel/search?q=5873%20Revert%20"boot%3A%20apq8084.dtsi%20set%20vph-low/high%20to%20a%20higher%20value"&type=Commits)
+
+***
+
+04-27-2018
+====================
+
+* [65b6538a635b serial: tty: msm_hs_uart: Fix the compat table](https://github.com/bhb27/BHB27Kernel/search?q=635b%20serial%3A%20tty%3A%20msm_hs_uart%3A%20Fix%20the%20compat%20table&type=Commits)
+* [ba416cc2a9ee Add wake_peer hook to MSM HS UART driver.](https://github.com/bhb27/BHB27Kernel/search?q=a9ee%20Add%20wake_peer%20hook%20to%20MSM%20HS%20UART%20driver.&type=Commits)
+* [a5ca9379c5da ANDROID: sdcardfs: Fix sdcardfs to stop creating cases-sensitive duplicate entries.](https://github.com/bhb27/BHB27Kernel/search?q=c5da%20ANDROID%3A%20sdcardfs%3A%20Fix%20sdcardfs%20to%20stop%20creating%20cases-sensitive%20duplicate%20entries.&type=Commits)
+* [2494ddac6e58 ANDROID: sdcardfs: Set num in extension_details during make_item](https://github.com/bhb27/BHB27Kernel/search?q=6e58%20ANDROID%3A%20sdcardfs%3A%20Set%20num%20in%20extension_details%20during%20make_item&type=Commits)
+* [e6125bea6083 ANDROID: sdcardfs: Hold i_mutex for i_size_write](https://github.com/bhb27/BHB27Kernel/search?q=6083%20ANDROID%3A%20sdcardfs%3A%20Hold%20i_mutex%20for%20i_size_write&type=Commits)
+* [f95ab67902e5 boot: apq8084.dtsi set vph-low/high to a higher value](https://github.com/bhb27/BHB27Kernel/search?q=02e5%20boot%3A%20apq8084.dtsi%20set%20vph-low/high%20to%20a%20higher%20value&type=Commits)
+
+***
+
+04-19-2018
+====================
+
+* [c847ddc1dab1 sync: don't block the flusher thread waiting on IO](https://github.com/bhb27/BHB27Kernel/search?q=dab1%20sync%3A%20don%27t%20block%20the%20flusher%20thread%20waiting%20on%20IO&type=Commits)
+* [02dd8ba22857 v 9.3](https://github.com/bhb27/BHB27Kernel/search?q=2857%20v%209.3&type=Commits)
+* [3b685fd6baf1 cfq-iosched: minor cleanups](https://github.com/bhb27/BHB27Kernel/search?q=baf1%20cfq-iosched%3A%20minor%20cleanups&type=Commits)
+* [c20b475ebc9c cfq-iosched: fix oom cfq_queue ref leak in cfq_set_request()](https://github.com/bhb27/BHB27Kernel/search?q=bc9c%20cfq-iosched%3A%20fix%20oom%20cfq_queue%20ref%20leak%20in%20cfq_set_request%28%29&type=Commits)
+* [58c215220d2e cfq-iosched: fix async oom queue handling](https://github.com/bhb27/BHB27Kernel/search?q=0d2e%20cfq-iosched%3A%20fix%20async%20oom%20queue%20handling&type=Commits)
+* [a71ac99eef90 cfq-iosched: simplify control flow in cfq_get_queue()](https://github.com/bhb27/BHB27Kernel/search?q=ef90%20cfq-iosched%3A%20simplify%20control%20flow%20in%20cfq_get_queue%28%29&type=Commits)
+* [da7ee06b592f cfq-iosched: fix the setting of IOPS mode on SSDs](https://github.com/bhb27/BHB27Kernel/search?q=592f%20cfq-iosched%3A%20fix%20the%20setting%20of%20IOPS%20mode%20on%20SSDs&type=Commits)
+* [cd19571b905b block: Make CFQ default to IOPS mode on SSDs](https://github.com/bhb27/BHB27Kernel/search?q=905b%20block%3A%20Make%20CFQ%20default%20to%20IOPS%20mode%20on%20SSDs&type=Commits)
+* [9c23d66ae12a Not cool to force that debugging.](https://github.com/bhb27/BHB27Kernel/search?q=e12a%20Not%20cool%20to%20force%20that%20debugging.&type=Commits)
+* [f6632e78df48 writeback: Fix occasional slow sync(1)](https://github.com/bhb27/BHB27Kernel/search?q=df48%20writeback%3A%20Fix%20occasional%20slow%20sync%281%29&type=Commits)
+* [7c104ff5e68d lib/memcopy: use glibc version](https://github.com/bhb27/BHB27Kernel/search?q=e68d%20lib/memcopy%3A%20use%20glibc%20version&type=Commits)
+* [0af46cacbdb9 lib/string: use glibc version](https://github.com/bhb27/BHB27Kernel/search?q=bdb9%20lib/string%3A%20use%20glibc%20version&type=Commits)
+* [260fab5c06ff ext4: Speedup WB_SYNC_ALL pass called from sync(2)](https://github.com/bhb27/BHB27Kernel/search?q=06ff%20ext4%3A%20Speedup%20WB_SYNC_ALL%20pass%20called%20from%20sync%282%29&type=Commits)
+* [ca983071b23b writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit.](https://github.com/bhb27/BHB27Kernel/search?q=b23b%20writeback%3A%20increase%20bdi_min_ratio%20to%205%20in%20light%20of%20the%20latest%20writeback%20commit.&type=Commits)
+* [55c62f443ae9 writeback: fix writeback cache thrashing](https://github.com/bhb27/BHB27Kernel/search?q=3ae9%20writeback%3A%20fix%20writeback%20cache%20thrashing&type=Commits)
+* [98a1dcd3922c readahead: Fix an error (thx ramgear)](https://github.com/bhb27/BHB27Kernel/search?q=922c%20readahead%3A%20Fix%20an%20error%20%28thx%20ramgear%29&type=Commits)
+* [cf42c8467f15 Readahead: Optimize divide/multiply by power of 2 using L/R shift (thx ramgear)](https://github.com/bhb27/BHB27Kernel/search?q=7f15%20Readahead%3A%20Optimize%20divide/multiply%20by%20power%20of%202%20using%20L/R%20shift%20%28thx%20ramgear%29&type=Commits)
+* [5b1741a1bff4 readahead: make context readahead more conservative](https://github.com/bhb27/BHB27Kernel/search?q=bff4%20readahead%3A%20make%20context%20readahead%20more%20conservative&type=Commits)
+
+***
+
 04-06-2018
 ====================
 
