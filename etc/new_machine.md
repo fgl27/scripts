@@ -81,7 +81,7 @@ https://www.libreoffice.org/download/download/
 
 	sudo add-apt-repository ppa:openjdk-r/ppa
 
-	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba
+	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba ccache alien lzop liblz4-* lzma* liblzma*
 
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 	sudo gdebi teamviewer_amd64.deb
@@ -210,6 +210,12 @@ sync
 
 ### Set NVIDIA
 
+	echo 'blacklist nouveau
+	blacklist lbm-nouveau
+	options nouveau modeset=0
+	alias nouveau off
+	alias lbm-nouveau off' >> /etc/modprobe.d/blacklist.conf
+
 	sudo su
 	cd Downloads/
 	sudo service lightdm stop
@@ -221,3 +227,21 @@ as **sudo service lightdm stop** kill the graphical interface do it over ssh
 continue and yes when is asked
 
 ### Set NVIDIA start
+
+### Missing gcc libs they must be on this file folder or bellow links
+https://archives.pclosusers.com/kde4/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/
+https://drive.google.com/file/d/0B0LnTbgUOuxYMHJCcl9RTEJXUjA/edit
+
+	cd folder libfl
+	cp libfl.so.2.0.0 /usr/lib/
+	sudo chmod 755 /usr/lib/libfl.so.2.0.0
+	sudo ln -s /usr/lib/libfl.so.2.0.0 /usr/lib/libfl.so
+	sudo ln -s /usr/lib/libfl.so.2.0.0 /usr/lib/libfl.so.2
+	sudo ln -s /usr/lib/libfl.so.2.0.0 /usr/lib/x86_64-linux-gnu/libfl.so.2
+
+	sudo alien -i  lib64mpfr4-3.1.2-4-omv2014.0.x86_64.rpm 
+	sudo ln -s /usr/lib64/libmpfr.so.4 /usr/lib/libmpfr.so.4
+	sudo ln -s /usr/lib64/libmpfr.so.4 /usr/lib/libmpfr.so
+	sudo ln -s /usr/lib64/libmpfr.so.4 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
+
+### Missing gcc libs
