@@ -81,10 +81,29 @@ https://www.libreoffice.org/download/download/
 
 	sudo add-apt-repository ppa:openjdk-r/ppa
 
-	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba ccache alien lzop liblz4-* lzma* liblzma*
+#### For normal android app build machine + adb shell and fastboot
 
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-	sudo gdebi teamviewer_amd64.deb
+	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba fastboot strings jpegoptim pngquant pngcrush
+
+#### For extra android ROM and Kernel build machine do the above and the bellow
+
+	sudo apt-get -y install bc git-core gnupg flex bison gperf libsdl1.2-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop liblz4-* lzma* liblzma* libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp lib32stdc++6 ccache alien
+
+	cd
+	mkdir -p ~/bin
+	PATH=~/bin:$PATH
+	curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+	chmod a+x ~/bin/repo
+
+#### For extra android ROM and Kernel etc... end
+
+#### For a Nougat build in Ubutu 18.04
+
+	echo "export LC_ALL=C" >> .bashrc
+
+#### For a Nougat build in Ubutu 18.04 end
+
+#### adb shell and teamviewer access
 
 	sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules
 	sudo chmod 644   /etc/udev/rules.d/51-android.rules
@@ -92,6 +111,11 @@ wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 	sudo service udev restart
 	adb kill-server
 	sudo killall adb
+
+	wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+	sudo gdebi teamviewer_amd64.deb
+
+#### adb shell and teamviewer access end
 
 #### apt-get install end
 
@@ -135,8 +159,8 @@ Donwload npm/node and https://nodejs.org/en/
 
 #### .bashrc file add lines
 
-	export NODEJS_HOME=/usr/lib/nodejs/node
-	export PATH=$NODEJS_HOME/bin:$PATH
+	echo "export NODEJS_HOME=/usr/lib/nodejs/node" >> .bashrc
+	echo "export PATH=$NODEJS_HOME/bin:$PATH" >> .bashrc
 
 ```bash
 npm install js-beautify jshint uglify-js -g
@@ -208,13 +232,17 @@ sync
 
 ### Set a password for your user in Samba end
 
-### Set NVIDIA
+### Set NVIDIA Start
+
+#### disable default Nvidia "nouveau" ubuntu driver in order to install the official Nvidia one
 
 	echo 'blacklist nouveau
 	blacklist lbm-nouveau
 	options nouveau modeset=0
 	alias nouveau off
 	alias lbm-nouveau off' >> /etc/modprobe.d/blacklist.conf
+
+#### install the driver, after setting the above and reboot
 
 	sudo su
 	cd Downloads/
@@ -223,12 +251,13 @@ sync
 	exit
 	reboot
 
-as **sudo service lightdm stop** kill the graphical interface do it over ssh
-continue and yes when is asked
+**sudo service lightdm stop** is to kill the graphical interface, if the installation request it, as it will kill the graphical interface do it over ssh
 
-### Set NVIDIA start
+**chose continue and yes when is asked**
 
-### Missing gcc libs they must be on this file folder or bellow links
+### Set NVIDIA end
+
+### Missing toolchains gcc libs they must be on this file folder or bellow links
 https://archives.pclosusers.com/kde4/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/
 https://drive.google.com/file/d/0B0LnTbgUOuxYMHJCcl9RTEJXUjA/edit
 
