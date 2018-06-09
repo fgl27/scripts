@@ -3,6 +3,51 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+06-09-2018
+====================
+
+* [c80e962a335c Up version 9.4](https://github.com/bhb27/BHB27Kernel/search?q=335c%20Up%20version%209.4&type=Commits)
+
+***
+
+06-08-2018
+====================
+
+* [bae59a7a3e23 Up build/how_to_build_this.sh](https://github.com/bhb27/BHB27Kernel/search?q=3e23%20Up%20build/how_to_build_this.sh&type=Commits)
+
+***
+
+06-07-2018
+====================
+
+* [00cced7beb24 power: add a switch to disable Battery healt Cold](https://github.com/bhb27/BHB27Kernel/search?q=eb24%20power%3A%20add%20a%20switch%20to%20disable%20Battery%20healt%20Cold&type=Commits)
+
+***
+
+06-02-2018
+====================
+
+* [83861f2469f2 qcacld-2.0: Fix potential buffer overwrite in wma_vdev_start_rsp_ind](https://github.com/bhb27/BHB27Kernel/search?q=69f2%20qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20wma_vdev_start_rsp_ind&type=Commits)
+* [302d7a8409e4 qcacld-2.0: Fix potential buffer overwrite](https://github.com/bhb27/BHB27Kernel/search?q=09e4%20qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite&type=Commits)
+* [156693001fb7 qcacld-2.0: Dump the txrx stat req if the queue is not empty](https://github.com/bhb27/BHB27Kernel/search?q=1fb7%20qcacld-2.0%3A%20Dump%20the%20txrx%20stat%20req%20if%20the%20queue%20is%20not%20empty&type=Commits)
+* [ff2502df80ef qcacld-2.0: Fix memory leak for txrx_fw_stats cmd](https://github.com/bhb27/BHB27Kernel/search?q=80ef%20qcacld-2.0%3A%20Fix%20memory%20leak%20for%20txrx_fw_stats%20cmd&type=Commits)
+* [1911c29b5650 qcacld-2.0: Avoid possible stack overflow in hdd_ProcessGENIE API](https://github.com/bhb27/BHB27Kernel/search?q=5650%20qcacld-2.0%3A%20Avoid%20possible%20stack%20overflow%20in%20hdd_ProcessGENIE%20API&type=Commits)
+* [5c29c2473478 qcacld-2.0: Fix potential buffer overflow for TX_COMPL_IND](https://github.com/bhb27/BHB27Kernel/search?q=3478%20qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20for%20TX_COMPL_IND&type=Commits)
+* [59985fb7935c qcacld-2.0: Fix Out-of-bound access in sapInterferenceRssiCount](https://github.com/bhb27/BHB27Kernel/search?q=935c%20qcacld-2.0%3A%20Fix%20Out-of-bound%20access%20in%20sapInterferenceRssiCount&type=Commits)
+* [ecddeb139dda qcacld-2.0: Resolve memory corruption issue while traversing ACS list](https://github.com/bhb27/BHB27Kernel/search?q=9dda%20qcacld-2.0%3A%20Resolve%20memory%20corruption%20issue%20while%20traversing%20ACS%20list&type=Commits)
+* [26860997c251 qcacld-2.0: Avoid buffer overflow](https://github.com/bhb27/BHB27Kernel/search?q=c251%20qcacld-2.0%3A%20Avoid%20buffer%20overflow&type=Commits)
+* [932de23e8187 qcacld-2.0: Fix buffer overwrite due to ssid_len in WMA handlers](https://github.com/bhb27/BHB27Kernel/search?q=8187%20qcacld-2.0%3A%20Fix%20buffer%20overwrite%20due%20to%20ssid_len%20in%20WMA%20handlers&type=Commits)
+* [0ab71ff94bd5 msm: mdss: adjust mdss_mdp_get_plane_sizes parameters init order](https://github.com/bhb27/BHB27Kernel/search?q=4bd5%20msm%3A%20mdss%3A%20adjust%20mdss_mdp_get_plane_sizes%20parameters%20init%20order&type=Commits)
+* [bfc02f81bb6f Input: gtco - fix potential out-of-bound access](https://github.com/bhb27/BHB27Kernel/search?q=bb6f%20Input%3A%20gtco%20-%20fix%20potential%20out-of-bound%20access&type=Commits)
+* [62d7ec839f6f msm: sensor: actuator: fix out of bound read for region params](https://github.com/bhb27/BHB27Kernel/search?q=9f6f%20msm%3A%20sensor%3A%20actuator%3A%20fix%20out%20of%20bound%20read%20for%20region%20params&type=Commits)
+* [e53bae320a57 msm: sensor: actuator: add null pointer check for i2c array](https://github.com/bhb27/BHB27Kernel/search?q=0a57%20msm%3A%20sensor%3A%20actuator%3A%20add%20null%20pointer%20check%20for%20i2c%20array&type=Commits)
+* [2ce265e6655c msm: camera: sensor: Validate destination step position](https://github.com/bhb27/BHB27Kernel/search?q=655c%20msm%3A%20camera%3A%20sensor%3A%20Validate%20destination%20step%20position&type=Commits)
+* [77700d7cf8dd msm: sensor: actuator: check NULL pointer for actuator ctrl](https://github.com/bhb27/BHB27Kernel/search?q=f8dd%20msm%3A%20sensor%3A%20actuator%3A%20check%20NULL%20pointer%20for%20actuator%20ctrl&type=Commits)
+* [6583f167e0bc msm: sensor: actuator: avoid accessing out of bound memory](https://github.com/bhb27/BHB27Kernel/search?q=e0bc%20msm%3A%20sensor%3A%20actuator%3A%20avoid%20accessing%20out%20of%20bound%20memory&type=Commits)
+* [644dea02b854 qcacld-2.0: Add mutex lock for proc handlers](https://github.com/bhb27/BHB27Kernel/search?q=b854%20qcacld-2.0%3A%20Add%20mutex%20lock%20for%20proc%20handlers&type=Commits)
+
+***
+
 05-10-2018
 ====================
 
