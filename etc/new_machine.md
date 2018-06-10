@@ -1,5 +1,20 @@
-#### Partitioning/Home/Moving start
-https://help.ubuntu.com/community/Partitioning/Home/Moving
+# HELP ME!!!
+
+## This file contains my personal help instructions on how to setup my personal machines
+
+## Set sudo su by default start
+
+	sudo gedit /etc/sudoers
+
+	username ALL=(ALL:ALL) NOPASSWD: ALL
+
+were **username** is your longing username
+
+#### Set sudo su by default end
+
+## Partitioning/Home/Moving start
+Original instructions on the link [Partitioning/Home/Moving}](https://help.ubuntu.com/community/Partitioning/Home/Moving)
+Bellow my copy in case I don't have access
 
 Find the uuid of the Partition
 
@@ -61,15 +76,7 @@ Deleting the old Home
 
 #### Partitioning/Home/Moving end
 
-#### Set sudo su by default start
-
-	sudo gedit /etc/	sudoers
-
-	fgl27 ALL=(ALL:ALL) NOPASSWD: ALL
-
-#### Set 	sudo su by default end
-
-#### libreoffice start
+## libreoffice start
 
 https://www.libreoffice.org/download/download/
 
@@ -77,7 +84,7 @@ https://www.libreoffice.org/download/download/
 
 #### libreoffice end
 
-#### apt-get install start
+## apt-get install and general installations and setups start
 
 	sudo add-apt-repository ppa:openjdk-r/ppa
 
@@ -87,13 +94,50 @@ https://www.libreoffice.org/download/download/
 
 #### For extra android ROM and Kernel build machine do the above and the bellow
 
-	sudo apt-get -y install bc git-core gnupg flex bison gperf libsdl1.2-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop liblz4-* lzma* liblzma* libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp lib32stdc++6 ccache alien
+	sudo apt-get -y install bc git-core gnupg flex bison gperf libsdl1.2-dev squashfs-tools zip libncurses5-dev zlib1g-dev schedtool libxml2 libxml2-utils xsltproc lzop liblz4-* lzma* liblzma* libc6-dev g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp lib32stdc++6 ccache alien
 
+#### Repo
 	cd
 	mkdir -p ~/bin
 	PATH=~/bin:$PATH
 	curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 	chmod a+x ~/bin/repo
+
+#### ccache, assuming ccache ins installed, were "30.0G" and "30G" is the size set yours according to yours system drivers available size
+
+	echo "max_size = 30.0G" > .ccache/ccache.conf
+	echo "USE_CCACHE=1" >> .bashrc
+	cd ROM_FOLDER
+	~/prebuilts/misc/linux-x86/ccache/ccache -M 30G
+
+If you chose to override the cache folder path add this to .bashrc
+
+	echo "export CCACHE_DIR=new_path" >> .bashrc
+	echo "max_size = 30.0G" > new_path
+
+If you chose to have separated cache folder for different uses don't do the above, just create it folder for it use of the cache and before start the job do
+
+	export CCACHE_DIR=path_of_this_job
+
+#### Check, clear and watch the ccache
+
+check status one time
+
+	ccache -s
+
+check status continuously "watch"
+
+	watch -n1 -d ccache -s
+
+clean cache statistics
+
+	ccache -z
+
+clean up all cached files
+
+	ccache -C
+
+#### ccache end
 
 #### For extra android ROM and Kernel etc... end
 
@@ -117,9 +161,9 @@ https://www.libreoffice.org/download/download/
 
 #### adb shell and teamviewer access end
 
-#### apt-get install end
+#### apt-get install and general installations and setups end
 
-#### setup github start
+## setup github start
 
 	git config --global user.email "fglfgl27@gmail.com"
 	git config --global user.name bhb27
@@ -149,7 +193,7 @@ https://www.libreoffice.org/download/download/
 #### setup github end
 
 
-####  nodejs start
+##  nodejs start
 Donwload npm/node and https://nodejs.org/en/
 
 #### extract the download file then do the bellow on the terminal
@@ -165,8 +209,9 @@ Donwload npm/node and https://nodejs.org/en/
 ```bash
 npm install js-beautify jshint uglify-js -g
 ```
+####  nodejs start end
 
-#### install geogebra start
+## install geogebra start
 
 add key to software & update autentication
 
@@ -196,8 +241,7 @@ sudo apt-get install geogebra
 
 #### install geogebra end
 
-
-#### install tizen start
+## install tizen start
 
 https://developer.tizen.org/development/tizen-studio/download
 Download Tizen Studio X.X with IDE installer with is a bin file so give
@@ -208,7 +252,7 @@ Extension SDK Install Samsung Certificate Extension, and under TV Extension Tool
 
 #### install tizen end
 
-#### iso boot start
+## iso to bootable USB start
 
 list
 
@@ -223,16 +267,15 @@ sync
 
 	sudo eject /dev/sdb
 
-#### iso boot end
+#### iso to bootable USB end
 
-
-### Set a password for your user in Samba
+## Set a password for your user in Samba
 
 	sudo smbpasswd -a <user_name>
 
 ### Set a password for your user in Samba end
 
-### Set NVIDIA Start
+## Set NVIDIA Start
 
 #### disable default Nvidia "nouveau" ubuntu driver in order to install the official Nvidia one
 
@@ -246,22 +289,26 @@ sync
 
 	sudo su
 	cd Downloads/
-	sudo service lightdm stop
-	./NVIDIA-Linux-x86_64-XXX.XX.run 
-	exit
+	./NVIDIA-Linux-x86_64-XXX.XX.run
+
+**chose continue and yes when is asked**, make shore "NVIDIA-Linux-x86_64-XXX.XX.run" has permission to execute
+
+**After if finishes installing**
+ 
 	reboot
 
-**sudo service lightdm stop** is to kill the graphical interface, if the installation request it, as it will kill the graphical interface do it over ssh
+**sudo service lightdm stop** is to kill the graphical interface, if the installation request it, as it will kill the graphical interface do it after a **ctrl+alt+f1** or over ssh connection to the machine
 
-**chose continue and yes when is asked**
+	sudo service lightdm stop
 
 ### Set NVIDIA end
 
-### Missing toolchains gcc libs they must be on this file folder or bellow links
+## Missing toolchains gcc libs start
+**the libs must be on this file folder or bellow links**
 https://archives.pclosusers.com/kde4/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/
 https://drive.google.com/file/d/0B0LnTbgUOuxYMHJCcl9RTEJXUjA/edit
 
-	cd folder libfl
+	cd folder_libfl_extracted
 	cp libfl.so.2.0.0 /usr/lib/
 	sudo chmod 755 /usr/lib/libfl.so.2.0.0
 	sudo ln -s /usr/lib/libfl.so.2.0.0 /usr/lib/libfl.so
@@ -273,4 +320,4 @@ https://drive.google.com/file/d/0B0LnTbgUOuxYMHJCcl9RTEJXUjA/edit
 	sudo ln -s /usr/lib64/libmpfr.so.4 /usr/lib/libmpfr.so
 	sudo ln -s /usr/lib64/libmpfr.so.4 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
 
-### Missing gcc libs
+#### Missing gcc libs end
