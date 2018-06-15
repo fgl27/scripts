@@ -3,6 +3,14 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+06-15-2018
+====================
+
+* [V 9.5](https://github.com/bhb27/BHB27Kernel/search?q=V%209.5&type=Commits)
+* [boot: apq8084.dtsi less agresive vph-*-threshold](https://github.com/bhb27/BHB27Kernel/search?q=boot%3A%20apq8084.dtsi%20less%20agresive%20vph-*-threshold&type=Commits)
+
+***
+
 06-09-2018
 ====================
 
