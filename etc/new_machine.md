@@ -311,6 +311,10 @@ Get driver name and version
 
 were **nvidia** is the name and XXX.XX the version
 
+Enable some extra control of the driver
+
+	sudo nvidia-xconfig -a --cool-bits=28
+
 ### Set NVIDIA end
 
 ## Missing toolchains gcc libs start
