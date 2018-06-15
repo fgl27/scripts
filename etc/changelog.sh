@@ -96,7 +96,7 @@ git_log_repo() {
 		contains "$temp_test" "project" && project=1;
 		if [ -n "${string##+([:space:])}" ]; then
 			if [ "$project" == 0 ]; then
-				temp_one=${string:8}
+				temp_one=$(echo "$string" | sed 's/^[^ ]* //g')
 				temp_two="${temp_one// /%20}"
 				temp_two="${temp_two//(/%28}"
 				temp_two="${temp_two//#/%23}"
@@ -105,7 +105,7 @@ git_log_repo() {
 				temp_two="${temp_two//:/%3A}"
 				temp_two="${temp_two//\'/%27}"
 				temp_two="${temp_two//\`/%60}"
-				echo "* [$string](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
+				echo "* [$temp_one](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
 			else
 				echo "* $string" >> $Changelog;
 			fi;
