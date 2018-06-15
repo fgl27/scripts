@@ -301,6 +301,16 @@ sync
 
 	sudo service lightdm stop
 
+**Uninstall the driver**
+
+	sudo dkms status
+
+Get driver name and version
+
+	sudo dkms remove -m nvidia -v XXX.XX --all
+
+were **nvidia** is the name and XXX.XX the version
+
 ### Set NVIDIA end
 
 ## Missing toolchains gcc libs start
