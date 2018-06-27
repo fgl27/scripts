@@ -43,7 +43,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git apply --check ../../../temp/patch/cutil.patch
+	git am --signoff < ../../../temp/patch/cutil.patch
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -67,7 +67,7 @@ END2="$(date)";
 END=$(date +%s.%N);
 echo -e "\nBuild start $START2";
 echo -e "Build end   $END2 \n";
-echo -e "\n${bldgrn}Total time elapsed: ${txtrst}${grn}$(echo "($END - $START) / 60"|bc ):$(echo "(($END - $START) - (($END - $START) / 60) * 60)"|bc ) (minutes:seconds). ${txtrst}\n";
+echo -e "\n${bldgrn}Total time elapsed: $(echo "($END - $START) / 60"|bc ):$(echo "(($END - $START) - (($END - $START) / 60) * 60)"|bc ) (minutes:seconds). \n";
 
 #sudo shutdown -h now;
 
