@@ -7,7 +7,7 @@ START2="$(date)";
 echo -e "\n build start $(date)\n";
 
 #source tree folder yours machine source folder
-FOLDER=/home/bhb27/android/or;
+FOLDER=~/android/o;
 
 cd $FOLDER
 
@@ -35,6 +35,15 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/47/205947/1 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="system/core/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git apply --check ../../../temp/patch/cutil.patch
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
