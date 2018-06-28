@@ -21,6 +21,15 @@ echo -e "\nYou choose: $input2"
 
 if [ "$input1" == "1" ]; then
 
+	folder="frameworks/base/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick e26bc1c06abe7a382375a3e9ed3311ec4927d306
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	folder="frameworks/native/";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -43,7 +52,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git am --signoff < ../../../temp/patch/cutil.patch
+	git fetch https://github.com/bhb27/system_core/ lineage-15.1 && git cherry-pick 2ae38319deb341f5a87c60f19ed7efca19e9c103
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -53,6 +62,16 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/android_packages_apps_Nfc/ cm-14.1 && git cherry-pick 8314ecd4ff33f8d51228314849b6b9f88fae34cd
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="hardware/qcom/bt-caf";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git revert ddaccd2176683b6de272e7d2718557dbe9b9fe1b --no-edit
+	git revert 90fd648335032144de1900fcda33c96458eb2606 --no-edit
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
