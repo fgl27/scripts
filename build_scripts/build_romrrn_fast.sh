@@ -19,6 +19,10 @@ echo -e "\nMake clean?\n 1 = Yes\n"
 read -r input2
 echo -e "\nYou choose: $input2"
 
+echo -e "\nr or o?\n"
+read -r input3
+echo -e "\nYou choose: $input3"
+
 if [ "$input1" == "1" ]; then
 
 	folder="frameworks/base/";
@@ -87,7 +91,12 @@ if [ "$input2" == "1" ]; then
 	make clean
 fi
 
-lunch lineage_quark-userdebug
+if [ "$input3" == "r" ]; then
+	lunch rr_quark-userdebug
+elif [ "$input3" == "o" ]; then
+	lunch lineage_quark-userdebug
+fi
+
 time mka bacon -j8 2>&1 | tee quark.txt
 
 # final time display *cosmetic...
