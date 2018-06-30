@@ -7,9 +7,8 @@ START2="$(date)";
 echo -e "\n build start $(date)\n";
 
 #source tree folder yours machine source folder
-FOLDER=~/android/o;
-
-cd $FOLDER
+FOLDERL=~/android/o;
+FOLDERR=~/android/or;
 
 echo -e "\nCommit?\n 1 = Yes\n"
 read -r input1
@@ -22,6 +21,12 @@ echo -e "\nYou choose: $input2"
 echo -e "\nr or o?\n"
 read -r input3
 echo -e "\nYou choose: $input3"
+
+if [ "$input3" == "r" ]; then
+	cd $FOLDERR
+elif [ "$input3" == "o" ]; then
+	cd $FOLDERL
+fi
 
 if [ "$input1" == "1" ]; then
 
