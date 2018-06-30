@@ -82,7 +82,11 @@ if [ "$input1" == "1" ]; then
 
 fi
 
+export days_to_log=0
+export RR_BUILDTYPE="Experimental"
+export WITH_ROOT_METHOD="rootless"
 export WITH_SU=true
+export ROM_VVV=$(grep PRODUCT_VERSION vendor/rr/config/common.mk | head -1 | awk '{print $3}');
 . build/envsetup.sh
 if [ "$input2" == "1" ]; then
 	export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx11g"
