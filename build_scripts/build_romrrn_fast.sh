@@ -35,6 +35,7 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick e26bc1c06abe7a382375a3e9ed3311ec4927d306
+	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick add501e5811333e41fbb4436387a46bcec8132fe
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -71,6 +72,15 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/android_packages_apps_Nfc/ cm-14.1 && git cherry-pick 8314ecd4ff33f8d51228314849b6b9f88fae34cd
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="packages/apps/Settings";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick fb694fb3e333d8c3ed366071635c6c93accd161c
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
