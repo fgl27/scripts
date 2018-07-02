@@ -95,7 +95,7 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="linker";
+	folder="bionic";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
