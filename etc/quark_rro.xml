@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <quark>
+            <Filename>RR-O-v6.1.0-20180701-quark-Experimental.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download Latest ResurrectionRemix for Quark (20180701)">https://drive.google.com/open?id=1BQbcrU3Ivcc5xJo8sSyCjMLiBEF9kLLo</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://github.com/bhb27/scripts/blob/master/etc/changelogs/Changelog_RR_O.md</ChangelogUrl>
+            <SlimGappsUrl
+            	id="gapps"
+            	title="MindTheGapps"
+            	description="Download latest MindTheGapps (Choose MindTheGapps-8.1.0-arm-date_version.zip)">http://downloads.codefi.re/jdcteam/javelinanddart/gapps</SlimGappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit the ResurrectionRemix XDA thread for Quark (Moto MAXX/Turbo and Droid Turbo - XT1225, XT1250 and XT1254)">https://forum.xda-developers.com/moto-maxx/development/rom-resurrection-remix-t3811195</XDAUrl>
+	</quark>
+    </Stable>
+</SlimOTA>

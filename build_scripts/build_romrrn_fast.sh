@@ -95,6 +95,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="linker";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/bhb27/android_bionic/ lineage-15.1 && git cherry-pick 279c7ed48cc03733553e7f4cef0735e4302a6b6e
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 fi
 
 export days_to_log=0
