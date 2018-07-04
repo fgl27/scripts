@@ -104,6 +104,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="system/qcom";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/bhb27/android_system_qcom/ lineage-15.1 && git cherry-pick 6b839a2decf5cce326d0933d0402ad5fb86e526f
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 fi
 
 export days_to_log=0
