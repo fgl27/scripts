@@ -57,4 +57,6 @@ BHB27KERNEL Oreo source Changelog:
 
 ***
 
+[All the previously changes from Nougat kernel included check they here](https://github.com/bhb27/scripts/blob/master/etc/changelogs/Changelog_BHB27KERNEL.md)
+
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/BHB27Kernel/tree/N_c/build/changelog.sh)
