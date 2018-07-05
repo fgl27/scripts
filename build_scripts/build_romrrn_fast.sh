@@ -28,6 +28,10 @@ elif [ "$input3" == "o" ]; then
 	cd $FOLDERL
 fi
 
+echo -e "\nMake boot or a ROM?\n 1 = Boot\n"
+read -r input4
+echo -e "\nYou choose: $input4"
+
 if [ "$input1" == "1" ]; then
 
 	folder="frameworks/base/";
@@ -134,8 +138,11 @@ elif [ "$input3" == "o" ]; then
 	lunch lineage_quark-userdebug
 fi
 
-time mka bacon -j8 2>&1 | tee quark.txt
-
+if [ "$input1" == "1" ]; then
+	time mka bootimage -j8 2>&1 | tee quark.txt
+else
+	time mka bacon -j8 2>&1 | tee quark.txt
+fi
 # final time display *cosmetic...
 END2="$(date)";
 END=$(date +%s.%N);
