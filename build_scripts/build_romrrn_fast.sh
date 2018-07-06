@@ -53,15 +53,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="system/sepolicy/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git fetch https://github.com/LineageOS/android_system_sepolicy refs/changes/47/205947/1 && git cherry-pick FETCH_HEAD
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 	folder="system/core/";
 	echo -e "\\n	In Folder $folder \\n"
 
