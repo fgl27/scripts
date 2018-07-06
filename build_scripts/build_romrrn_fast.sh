@@ -138,7 +138,7 @@ elif [ "$input3" == "o" ]; then
 	lunch lineage_quark-userdebug
 fi
 
-if [ "$input1" == "1" ]; then
+if [ "$input4" == "1" ]; then
 	time mka bootimage -j8 2>&1 | tee quark.txt
 else
 	time mka bacon -j8 2>&1 | tee quark.txt
