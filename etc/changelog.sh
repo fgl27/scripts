@@ -7,7 +7,7 @@
 # input variables set the below the rest must be automatic
 source_tree_c="$HOME/android/crn"; #path here must be inside your home directory
 source_tree_r="$HOME/android/n"; #path here must be inside your home directory
-source_tree_rro="$HOME/android/ro"; #path here must be inside your home directory
+source_tree_rro="$HOME/android/or"; #path here must be inside your home directory
 device_tree="device/motorola/quark/"; #path here must be inside of source tree
 kernel_tree="kernel/motorola/apq8084/"; #path here must be inside of source tree
 vendor_tree="vendor/motorola/"; #path here must be inside of source tree
@@ -17,7 +17,7 @@ source_name_r="Resurrection Remix OS - Nougat"
 source_name_rro="Resurrection Remix OS - Oreo"
 # input variables end
 
-echo -e "\nr, c or o?\n"
+echo -e "\nr, c or or?\n"
 read -r rom
 echo -e "\nYou choose: $rom"
 export rom
@@ -30,7 +30,7 @@ elif [ "$rom" == "r" ]; then
 elif [ "$rom" == "c" ]; then
         source_tree=$source_tree_c
 	source_name=$source_name_c
-elif [ "$rom" == "o" ]; then
+elif [ "$rom" == "or" ]; then
         source_tree=$source_tree_rro
 	source_name=$source_name_rro
 fi;
