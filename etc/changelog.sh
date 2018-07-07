@@ -21,7 +21,7 @@ echo -e "\nr, c or or?\n"
 read -r rom
 echo -e "\nYou choose: $rom"
 export rom
-if [ ! "$rom" == "r" ] && [ ! "$rom" == "c" ] && [ ! "$rom" == "o" ]; then
+if [ ! "$rom" == "r" ] && [ ! "$rom" == "c" ] && [ ! "$rom" == "or" ]; then
 	echo -e "\nNO CHANGE FOR YOU\n";
 	exit;
 elif [ "$rom" == "r" ]; then
