@@ -192,16 +192,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [art: extend the supported cpu_variant list for arm64](https://github.com/search?q=art%3A%20extend%20the%20supported%20cpu_variant%20list%20for%20arm64&type=Commits)
 
 #### hardware/qcom/audio-caf/sdm845/
-* 8c36c2ad2 audio: Use direct project pathmap
+* [audio: Use direct project pathmap](https://github.com/search?q=audio%3A+Use+direct+project+pathmap&type=Commits)
 
 #### hardware/qcom/display-caf/sdm845/
 * [libdisplayconfig: Remove android.hidl.base](https://github.com/search?q=libdisplayconfig%3A%20Remove%20android.hidl.base&type=Commits)
 * [Don't build lights module if vendor supplies it](https://github.com/search?q=Don%27t%20build%20lights%20module%20if%20vendor%20supplies%20it&type=Commits)
-* af5514f39 display: Use project pathmap
+* [Don't build lights module if vendor supplies it](https://github.com/search?q=display%3A%20Use%20project%20pathmap&type=Commits)
 
 #### hardware/qcom/media-caf/sdm845/
 * [media: libOmxSw encoders require prop headers :(](https://github.com/search?q=media%3A%20libOmxSw%20encoders%20require%20prop%20headers%20%3A%28&type=Commits)
-* bf3b85e33 media: Use project pathmap
+* [audio: Use direct project pathmap](https://github.com/search?q=media%3A+Use+project+pathmap&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 07-05-2018 End.
 
