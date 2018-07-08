@@ -77,7 +77,7 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick fb694fb3e333d8c3ed366071635c6c93accd161c
-	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..9a16f2e264ef0e1ec46280c84ddb8e144e439800
+	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..2db6ec698e1a831b904527277eb137633abc973b
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -88,15 +88,6 @@ if [ "$input1" == "1" ]; then
 	cd $folder
 	git revert ddaccd2176683b6de272e7d2718557dbe9b9fe1b --no-edit
 	git revert 90fd648335032144de1900fcda33c96458eb2606 --no-edit
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
-	folder="vendor/rr";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git revert 087b53c6546ae2f942b9690d082c0eb49f1673a3 --no-edit
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
