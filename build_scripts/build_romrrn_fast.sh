@@ -92,6 +92,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="vendor/rr";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git revert 087b53c6546ae2f942b9690d082c0eb49f1673a3 --no-edit
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	folder="bionic";
 	echo -e "\\n	In Folder $folder \\n"
 
