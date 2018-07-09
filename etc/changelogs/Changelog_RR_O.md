@@ -3,6 +3,42 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-09-2018
+====================
+
+#### Device specific Changes of 07-09-2018 Start:
+
+#### Device/Quark/
+* [Quark: clean up esdfs realted](https://github.com/search?q=Quark%3A%20clean%20up%20esdfs%20realted&type=Commits)
+* [lineageactions: change ListPreference style to oreo + cleanup](https://github.com/search?q=lineageactions%3A%20change%20ListPreference%20style%20to%20oreo%20+%20cleanup&type=Commits)
+
+#### Kernel/Quark/
+* [mmc: block: hardcoded disable secdiscard](https://github.com/search?q=mmc%3A%20block%3A%20hardcoded%20disable%20secdiscard&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: cleanup quark-vendor.mk](https://github.com/search?q=Quark%3A%20cleanup%20quark-vendor.mk&type=Commits)
+* [Quark: don't pack com.qualcomm.location.xml](https://github.com/search?q=Quark%3A%20don%27t%20pack%20com.qualcomm.location.xml&type=Commits)
+* [Revert "Quark: update and build com.qualcomm.location"](https://github.com/search?q=Revert%20"Quark%3A%20update%20and%20build%20com.qualcomm.location"&type=Commits)
+* [Quark: add aptx_encoder needed for oreo](https://github.com/search?q=Quark%3A%20add%20aptx_encoder%20needed%20for%20oreo&type=Commits)
+* [Quark: update and build com.qualcomm.location](https://github.com/search?q=Quark%3A%20update%20and%20build%20com.qualcomm.location&type=Commits)
+* [Quark: permission update uid qcom_diag -> oem_2950](https://github.com/search?q=Quark%3A%20permission%20update%20uid%20qcom_diag%20->%20oem_2950&type=Commits)
+* [Revert "Quark: don't build GPS NLP for now"](https://github.com/search?q=Revert%20"Quark%3A%20don%27t%20build%20GPS%20NLP%20for%20now"&type=Commits)
+* [Up KernelAdiutor](https://github.com/search?q=Up%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 07-09-2018 End.
+
+***
+
+07-08-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 07-08-2018:
+
+#### system/security/
+* [key_store:Using euid instead of uid when upgrade wifi blobs](https://github.com/search?q=key_store%3AUsing%20euid%20instead%20of%20uid%20when%20upgrade%20wifi%20blobs&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-08-2018 End.
+
 07-07-2018
 ====================
 
@@ -15,12 +51,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Kernel/Quark/
 * [arch: arm: mpm-of: force mpm_of_map into .init.data section](https://github.com/search?q=arch%3A%20arm%3A%20mpm-of%3A%20force%20mpm_of_map%20into%20.init.data%20section&type=Commits)
-* [build update update-binary](https://github.com/search?q=build%20update%20update-binary&type=Commits)
 * [defconfig enable clock and hung related](https://github.com/search?q=defconfig%20enable%20clock%20and%20hung%20related&type=Commits)
 * [defconfig enable TASKSTATS related](https://github.com/search?q=defconfig%20enable%20TASKSTATS%20related&type=Commits)
 * [ANDROID: Kconfig: add depends for UID_SYS_STATS](https://github.com/search?q=ANDROID%3A%20Kconfig%3A%20add%20depends%20for%20UID_SYS_STATS&type=Commits)
 * [ANDROID: Skip building uid_sys_stats and keyreset drivers as modules](https://github.com/search?q=ANDROID%3A%20Skip%20building%20uid_sys_stats%20and%20keyreset%20drivers%20as%20modules&type=Commits)
-* [v 9.6](https://github.com/search?q=v%209.6&type=Commits)
 * [defconfig CONFIG_UID_CPUTIME -> CONFIG_UID_SYS_STATS](https://github.com/search?q=defconfig%20CONFIG_UID_CPUTIME%20->%20CONFIG_UID_SYS_STATS&type=Commits)
 * [ANDROID: cpufreq: stats: add uid removal for uid_time_in_state](https://github.com/search?q=ANDROID%3A%20cpufreq%3A%20stats%3A%20add%20uid%20removal%20for%20uid_time_in_state&type=Commits)
 * [ANDROID: uid_sys_stats: fix the comment](https://github.com/search?q=ANDROID%3A%20uid_sys_stats%3A%20fix%20the%20comment&type=Commits)
@@ -39,63 +73,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [ANDROID: uid_sys_stats: rename uid_cputime.c to uid_sys_stats.c](https://github.com/search?q=ANDROID%3A%20uid_sys_stats%3A%20rename%20uid_cputime.c%20to%20uid_sys_stats.c&type=Commits)
 * [ANDROID: uid_cputime: add per-uid IO usage accounting](https://github.com/search?q=ANDROID%3A%20uid_cputime%3A%20add%20per-uid%20IO%20usage%20accounting&type=Commits)
 * [ANDROID: Fix cpufreq stats table creation](https://github.com/search?q=ANDROID%3A%20Fix%20cpufreq%20stats%20table%20creation&type=Commits)
-
-#### Device specific Changes of 07-07-2018 End.
-
-***
-
-#### Resurrection Remix OS - Oreo source changes of 07-07-2018:
-#### android/
-* [manifest: android-8.1.0_r30 -> android-8.1.0_r36](https://github.com/search?q=manifest%3A%20android-8.1.0_r30%20->%20android-8.1.0_r36&type=Commits)
-* [manifest: Switch to our fork of art](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20fork%20of%20art&type=Commits)
-* c1ccb7f lineage: Add sdm845 platform projects
-
-#### build/make/
-* [Add support for ZSH arrays](https://github.com/search?q=Add%20support%20for%20ZSH%20arrays&type=Commits)
-* [build: Allow building disabled vbmeta images in signing process](https://github.com/search?q=build%3A%20Allow%20building%20disabled%20vbmeta%20images%20in%20signing%20process&type=Commits)
-* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
-
-#### frameworks/base/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
-
-#### packages/apps/DUI/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/LineageParts/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionOTA/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Settings/
-* [Now we have Official Kirin GSI's](https://github.com/search?q=Now%20we%20have%20Official%20Kirin%20GSI%27s&type=Commits)
-
-#### packages/services/Telephony/
-* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
-
-#### vendor/rr/
-* [Add Iliad APN](https://github.com/search?q=Add%20Iliad%20APN&type=Commits)
-* [apns: Add missing sprint roaming APN and set bearer_bitmasks](https://github.com/search?q=apns%3A%20Add%20missing%20sprint%20roaming%20APN%20and%20set%20bearer_bitmasks&type=Commits)
-* [bfqio: Fix warning when building with BOARD_VNDK_VERSION := current](https://github.com/search?q=bfqio%3A%20Fix%20warning%20when%20building%20with%20BOARD_VNDK_VERSION%20%3A=%20current&type=Commits)
-* [vendor: fix ro.adb.secure for vendor-building devices](https://github.com/search?q=vendor%3A%20fix%20ro.adb.secure%20for%20vendor-building%20devices&type=Commits)
-* [apns: Adjust Sprint LTE internet to allow tether](https://github.com/search?q=apns%3A%20Adjust%20Sprint%20LTE%20internet%20to%20allow%20tether&type=Commits)
-
-#### Resurrection Remix OS - Oreo source changes of 07-07-2018 End.
-
-07-06-2018
-====================
-
-#### Device specific Changes of 07-06-2018 Start:
-
-#### Device/Quark/
-* [Quark: sepolicy remove neverallows](https://github.com/search?q=Quark%3A%20sepolicy%20remove%20neverallows&type=Commits)
-* [Quark: Use camera impl-legacy and reset CameraWrapper changes](https://github.com/search?q=Quark%3A%20Use%20camera%20impl-legacy%20and%20reset%20CameraWrapper%20changes&type=Commits)
-* [Quark: adress some denials](https://github.com/search?q=Quark%3A%20adress%20some%20denials&type=Commits)
-* [Quark: init restart qcamerasvr in realtion to media and servicemanager](https://github.com/search?q=Quark%3A%20init%20restart%20qcamerasvr%20in%20realtion%20to%20media%20and%20servicemanager&type=Commits)
-* [Quark: overlay bluetooth disable a2dp_sink](https://github.com/search?q=Quark%3A%20overlay%20bluetooth%20disable%20a2dp_sink&type=Commits)
-
-#### Kernel/Quark/
 * [ANDROID: cpufreq_stat: add per task/uid/freq stats](https://github.com/search?q=ANDROID%3A%20cpufreq_stat%3A%20add%20per%20task/uid/freq%20stats&type=Commits)
 * [ANDROID: sdcardfs: fix potential crash when reserved_mb is not zero](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20fix%20potential%20crash%20when%20reserved_mb%20is%20not%20zero&type=Commits)
 * [futex: Calculate the futex key based on a tail page for file-based futexes](https://github.com/search?q=futex%3A%20Calculate%20the%20futex%20key%20based%20on%20a%20tail%20page%20for%20file-based%20futexes&type=Commits)
@@ -130,12 +107,65 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [msm: ADSPRPC: Free interrupted contexts on device close](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Free%20interrupted%20contexts%20on%20device%20close&type=Commits)
 * [Revert "msm: ADSPRPC: Buffer length truncated while validation"](https://github.com/search?q=Revert%20"msm%3A%20ADSPRPC%3A%20Buffer%20length%20truncated%20while%20validation"&type=Commits)
 * [Revert "msm: ADSPRPC: Use ID in response to get context pointer"](https://github.com/search?q=Revert%20"msm%3A%20ADSPRPC%3A%20Use%20ID%20in%20response%20to%20get%20context%20pointer"&type=Commits)
+* [arch: arm: msm-pm: fix pc_debug_counter debugfs entry](https://github.com/search?q=arch%3A%20arm%3A%20msm-pm%3A%20fix%20pc_debug_counter%20debugfs%20entry&type=Commits)
+
+#### Device specific Changes of 07-07-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-07-2018:
+#### android/
+* [manifest: android-8.1.0_r30 -> android-8.1.0_r36](https://github.com/search?q=manifest%3A%20android-8.1.0_r30%20->%20android-8.1.0_r36&type=Commits)
+
+#### build/make/
+* [Add support for ZSH arrays](https://github.com/search?q=Add%20support%20for%20ZSH%20arrays&type=Commits)
+* [build: Allow building disabled vbmeta images in signing process](https://github.com/search?q=build%3A%20Allow%20building%20disabled%20vbmeta%20images%20in%20signing%20process&type=Commits)
+* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
+
+#### hardware/qcom/power/
+* [power-845: Fix compilation errors](https://github.com/search?q=power-845%3A%20Fix%20compilation%20errors&type=Commits)
+* [Fix interaction boost higher cpu freq perflock](https://github.com/search?q=Fix%20interaction%20boost%20higher%20cpu%20freq%20perflock&type=Commits)
+* [power: Adding hints for SDM845](https://github.com/search?q=power%3A%20Adding%20hints%20for%20SDM845&type=Commits)
+
+#### packages/apps/Settings/
+* [Now we have Official Kirin GSI's](https://github.com/search?q=Now%20we%20have%20Official%20Kirin%20GSI%27s&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
+
+#### vendor/rr/
+* [Add Iliad APN](https://github.com/search?q=Add%20Iliad%20APN&type=Commits)
+* [apns: Add missing sprint roaming APN and set bearer_bitmasks](https://github.com/search?q=apns%3A%20Add%20missing%20sprint%20roaming%20APN%20and%20set%20bearer_bitmasks&type=Commits)
+* [bfqio: Fix warning when building with BOARD_VNDK_VERSION := current](https://github.com/search?q=bfqio%3A%20Fix%20warning%20when%20building%20with%20BOARD_VNDK_VERSION%20%3A=%20current&type=Commits)
+* [vendor: fix ro.adb.secure for vendor-building devices](https://github.com/search?q=vendor%3A%20fix%20ro.adb.secure%20for%20vendor-building%20devices&type=Commits)
+* [apns: Adjust Sprint LTE internet to allow tether](https://github.com/search?q=apns%3A%20Adjust%20Sprint%20LTE%20internet%20to%20allow%20tether&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-07-2018 End.
+
+07-06-2018
+====================
+
+#### Device specific Changes of 07-06-2018 Start:
+
+#### Device/Quark/
+* [Quark: sepolicy remove neverallows](https://github.com/search?q=Quark%3A%20sepolicy%20remove%20neverallows&type=Commits)
+* [Quark: Use camera impl-legacy and reset CameraWrapper changes](https://github.com/search?q=Quark%3A%20Use%20camera%20impl-legacy%20and%20reset%20CameraWrapper%20changes&type=Commits)
+* [Quark: adress some denials](https://github.com/search?q=Quark%3A%20adress%20some%20denials&type=Commits)
+* [Quark: init restart qcamerasvr in realtion to media and servicemanager](https://github.com/search?q=Quark%3A%20init%20restart%20qcamerasvr%20in%20realtion%20to%20media%20and%20servicemanager&type=Commits)
+* [Quark: overlay bluetooth disable a2dp_sink](https://github.com/search?q=Quark%3A%20overlay%20bluetooth%20disable%20a2dp_sink&type=Commits)
 
 #### Device specific Changes of 07-06-2018 End.
 
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-06-2018:
+#### android/
+* [manifest: Switch to our fork of art](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20fork%20of%20art&type=Commits)
+* c1ccb7f lineage: Add sdm845 platform projects
 
 #### build/soong/
 * [soong: Add kryo300 cpu variant to build/song](https://github.com/search?q=soong%3A%20Add%20kryo300%20cpu%20variant%20to%20build/song&type=Commits)
@@ -153,6 +183,15 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### packages/apps/Bluetooth/
 * [Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20staging/lineage-15.1-android-8.1.0_r36&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### system/bt/
 * [Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20staging/lineage-15.1-android-8.1.0_r36&type=Commits)
@@ -172,15 +211,36 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Revert "Quark: move init.qcom init.qcom.power and fstab to vendor/etc"](https://github.com/search?q=Revert%20"Quark%3A%20move%20init.qcom%20init.qcom.power%20and%20fstab%20to%20vendor/etc"&type=Commits)
 * [Revert "Revert "Quark: enable audit""](https://github.com/search?q=Revert%20"Revert%20"Quark%3A%20enable%20audit""&type=Commits)
 * [Quark: update audio police conf](https://github.com/search?q=Quark%3A%20update%20audio%20police%20conf&type=Commits)
-* [Quark: load a2dp_audio_policy_configuration from dt](https://github.com/search?q=Quark%3A%20load%20a2dp_audio_policy_configuration%20from%20dt&type=Commits)
 
 #### Kernel/Quark/
-* [build version 9.5](https://github.com/search?q=build%20version%209.5&type=Commits)
-* [msm: vidc: add ion_handle checking before mapping buffers](https://github.com/search?q=msm%3A%20vidc%3A%20add%20ion_handle%20checking%20before%20mapping%20buffers&type=Commits)
-* [Build: add a oreo flag to name](https://github.com/search?q=Build%3A%20add%20a%20oreo%20flag%20to%20name&type=Commits)
 * [defconfig reenable WIREGUARD](https://github.com/search?q=defconfig%20reenable%20WIREGUARD&type=Commits)
-* [defconfig use KERNEL_XZ hacks](https://github.com/search?q=defconfig%20use%20KERNEL_XZ%20hacks&type=Commits)
-* [build update anykernel.sh](https://github.com/search?q=build%20update%20anykernel.sh&type=Commits)
+* [Revert "defconfig set hz to 1000"](https://github.com/search?q=Revert%20"defconfig%20set%20hz%20to%201000"&type=Commits)
+* [defconfig disable CONFIG_WLAN_FEATURE_MEMDUMP](https://github.com/search?q=defconfig%20disable%20CONFIG_WLAN_FEATURE_MEMDUMP&type=Commits)
+* [esoc: mdm: do a emergency restart when booting fails](https://github.com/search?q=esoc%3A%20mdm%3A%20do%20a%20emergency%20restart%20when%20booting%20fails&type=Commits)
+* [msm: vidc: add ion_handle checking before mapping buffers](https://github.com/search?q=msm%3A%20vidc%3A%20add%20ion_handle%20checking%20before%20mapping%20buffers&type=Commits)
+* [msm: tspp: Fix build when not a module](https://github.com/search?q=msm%3A%20tspp%3A%20Fix%20build%20when%20not%20a%20module&type=Commits)
+* [defconfig disable modules](https://github.com/search?q=defconfig%20disable%20modules&type=Commits)
+* [Quark: defconfig disable wireguard](https://github.com/search?q=Quark%3A%20defconfig%20disable%20wireguard&type=Commits)
+* [defconfig set hz to 1000](https://github.com/search?q=defconfig%20set%20hz%20to%201000&type=Commits)
+* [Fix CONFIG_HZ dependency in wifi driver.](https://github.com/search?q=Fix%20CONFIG_HZ%20dependency%20in%20wifi%20driver.&type=Commits)
+* [defconfig rename the kernel](https://github.com/search?q=defconfig%20rename%20the%20kernel&type=Commits)
+* [esoc: mdm: If modem doesn't boot, set INVALID_STATE](https://github.com/search?q=esoc%3A%20mdm%3A%20If%20modem%20doesn%27t%20boot,%20set%20INVALID_STATE&type=Commits)
+* [Defconfig build qcacld driver as builtin](https://github.com/search?q=Defconfig%20build%20qcacld%20driver%20as%20builtin&type=Commits)
+* [BACKPORT: ARM: 8091/2: add get_user() support for 8 byte types](https://github.com/search?q=BACKPORT%3A%20ARM%3A%208091/2%3A%20add%20get_user%28%29%20support%20for%208%20byte%20types&type=Commits)
+* [defconfig: use 64-bit binder API](https://github.com/search?q=defconfig%3A%20use%2064-bit%20binder%20API&type=Commits)
+* [staging: binder: Improve Kconfig entry for ANDROID_BINDER_IPC_32BIT](https://github.com/search?q=staging%3A%20binder%3A%20Improve%20Kconfig%20entry%20for%20ANDROID_BINDER_IPC_32BIT&type=Commits)
+* [android: binder: add padding to binder_fd_array_object.](https://github.com/search?q=android%3A%20binder%3A%20add%20padding%20to%20binder_fd_array_object.&type=Commits)
+* [UPSTREAM: drivers: android: correct the size of struct binder_uintptr_t for BC_DEAD_BINDER_DONE](https://github.com/search?q=UPSTREAM%3A%20drivers%3A%20android%3A%20correct%20the%20size%20of%20struct%20binder_uintptr_t%20for%20BC_DEAD_BINDER_DONE&type=Commits)
+* [ANDROID: binder: fix compilation warnings.](https://github.com/search?q=ANDROID%3A%20binder%3A%20fix%20compilation%20warnings.&type=Commits)
+* [arm: dts apq8084 update system partition mnt_flags](https://github.com/search?q=arm%3A%20dts%20apq8084%20update%20system%20partition%20mnt_flags&type=Commits)
+* [Update defconfig](https://github.com/search?q=Update%20defconfig&type=Commits)
+* [defconfig update binder related](https://github.com/search?q=defconfig%20update%20binder%20related&type=Commits)
+* [BACKPORT: ARM: dts: msm: Mount the system partition during early init](https://github.com/search?q=BACKPORT%3A%20ARM%3A%20dts%3A%20msm%3A%20Mount%20the%20system%20partition%20during%20early%20init&type=Commits)
+* [ASoC: msm: Export new audio calibration driver](https://github.com/search?q=ASoC%3A%20msm%3A%20Export%20new%20audio%20calibration%20driver&type=Commits)
+* [include: Include dummy MSM Audio Calibration header](https://github.com/search?q=include%3A%20Include%20dummy%20MSM%20Audio%20Calibration%20header&type=Commits)
+* [UPSTREAM: capabilities: ambient capabilities](https://github.com/search?q=UPSTREAM%3A%20capabilities%3A%20ambient%20capabilities&type=Commits)
+* [ANDROID: binder: add hwbinder,vndbinder to BINDER_DEVICES.](https://github.com/search?q=ANDROID%3A%20binder%3A%20add%20hwbinder,vndbinder%20to%20BINDER_DEVICES.&type=Commits)
+* [android: binder: support for file-descriptor arrays.](https://github.com/search?q=android%3A%20binder%3A%20support%20for%20file-descriptor%20arrays.&type=Commits)
 
 #### Device specific Changes of 07-05-2018 End.
 
@@ -192,16 +252,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [art: extend the supported cpu_variant list for arm64](https://github.com/search?q=art%3A%20extend%20the%20supported%20cpu_variant%20list%20for%20arm64&type=Commits)
 
 #### hardware/qcom/audio-caf/sdm845/
-* [audio: Use direct project pathmap](https://github.com/search?q=audio%3A+Use+direct+project+pathmap&type=Commits)
+* 8c36c2ad2 audio: Use direct project pathmap
 
 #### hardware/qcom/display-caf/sdm845/
 * [libdisplayconfig: Remove android.hidl.base](https://github.com/search?q=libdisplayconfig%3A%20Remove%20android.hidl.base&type=Commits)
 * [Don't build lights module if vendor supplies it](https://github.com/search?q=Don%27t%20build%20lights%20module%20if%20vendor%20supplies%20it&type=Commits)
-* [Don't build lights module if vendor supplies it](https://github.com/search?q=display%3A%20Use%20project%20pathmap&type=Commits)
+* af5514f39 display: Use project pathmap
 
 #### hardware/qcom/media-caf/sdm845/
 * [media: libOmxSw encoders require prop headers :(](https://github.com/search?q=media%3A%20libOmxSw%20encoders%20require%20prop%20headers%20%3A%28&type=Commits)
-* [audio: Use direct project pathmap](https://github.com/search?q=media%3A+Use+project+pathmap&type=Commits)
+* bf3b85e33 media: Use project pathmap
 
 #### Resurrection Remix OS - Oreo source changes of 07-05-2018 End.
 
@@ -211,6 +271,7 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-04-2018 Start:
 
 #### Device/Quark/
+* [Quark: load a2dp_audio_policy_configuration from dt](https://github.com/search?q=Quark%3A%20load%20a2dp_audio_policy_configuration%20from%20dt&type=Commits)
 * [Quark: init remove atfw service](https://github.com/search?q=Quark%3A%20init%20remove%20atfw%20service&type=Commits)
 * [Quark: reove all the shims](https://github.com/search?q=Quark%3A%20reove%20all%20the%20shims&type=Commits)
 
@@ -229,26 +290,15 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-04-2018 End.
 
-07-03-2018
-====================
-
-#### Device specific Changes of 07-03-2018 Start:
-
-#### Device/Quark/
-* [Quark: remove ril restart workaround](https://github.com/search?q=Quark%3A%20remove%20ril%20restart%20workaround&type=Commits)
-* [Quark: remove batt_health from init files](https://github.com/search?q=Quark%3A%20remove%20batt_health%20from%20init%20files&type=Commits)
-* [Quark: move init.qcom init.qcom.power and fstab to vendor/etc](https://github.com/search?q=Quark%3A%20move%20init.qcom%20init.qcom.power%20and%20fstab%20to%20vendor/etc&type=Commits)
-
-#### Device specific Changes of 07-03-2018 End.
-
-***
-
 07-02-2018
 ====================
 
 #### Device specific Changes of 07-02-2018 Start:
 
 #### Device/Quark/
+* [Quark: remove ril restart workaround](https://github.com/search?q=Quark%3A%20remove%20ril%20restart%20workaround&type=Commits)
+* [Quark: remove batt_health from init files](https://github.com/search?q=Quark%3A%20remove%20batt_health%20from%20init%20files&type=Commits)
+* [Quark: move init.qcom init.qcom.power and fstab to vendor/etc](https://github.com/search?q=Quark%3A%20move%20init.qcom%20init.qcom.power%20and%20fstab%20to%20vendor/etc&type=Commits)
 * [Quark: restart ril on boot complete](https://github.com/search?q=Quark%3A%20restart%20ril%20on%20boot%20complete&type=Commits)
 * [Quark: update WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY flag](https://github.com/search?q=Quark%3A%20update%20WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY%20flag&type=Commits)
 * [Quark: don't pin services](https://github.com/search?q=Quark%3A%20don%27t%20pin%20services&type=Commits)
@@ -269,7 +319,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: Accelerate boot by paralleling device enable](https://github.com/search?q=Quark%3A%20Accelerate%20boot%20by%20paralleling%20device%20enable&type=Commits)
 * [Quark: Enable early boot animation start](https://github.com/search?q=Quark%3A%20Enable%20early%20boot%20animation%20start&type=Commits)
 * [Quark: Up README.md](https://github.com/search?q=Quark%3A%20Up%20README.md&type=Commits)
-* [Quark: lower the slow charging threshold](https://github.com/search?q=Quark%3A%20lower%20the%20slow%20charging%20threshold&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: cleanup mk and remove substratum](https://github.com/search?q=Quark%3A%20cleanup%20mk%20and%20remove%20substratum&type=Commits)
@@ -283,9 +332,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### bionic/
 * [linker: Don't involve shim in for_each_dt_needed](https://github.com/search?q=linker%3A%20Don%27t%20involve%20shim%20in%20for_each_dt_needed&type=Commits)
 * [linker: Ensure active matching pairs](https://github.com/search?q=linker%3A%20Ensure%20active%20matching%20pairs&type=Commits)
-
-#### external/selinux/
-* [libsepol/cil: Improve processing of context rules](https://github.com/search?q=libsepol/cil%3A%20Improve%20processing%20of%20context%20rules&type=Commits)
 
 #### frameworks/av/
 * [audiopolicy: update APM to use custom audio policy configuration](https://github.com/search?q=audiopolicy%3A%20update%20APM%20to%20use%20custom%20audio%20policy%20configuration&type=Commits)
@@ -301,19 +347,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-01-2018 Start:
 
 #### Device/Quark/
+* [Quark: lower the slow charging threshold](https://github.com/search?q=Quark%3A%20lower%20the%20slow%20charging%20threshold&type=Commits)
 * [Revert "Quark: disable all core durring ril start"](https://github.com/search?q=Revert%20"Quark%3A%20disable%20all%20core%20durring%20ril%20start"&type=Commits)
 * [Quark: Reorder tetherable connection types](https://github.com/search?q=Quark%3A%20Reorder%20tetherable%20connection%20types&type=Commits)
 * [Quark: pack Jelly](https://github.com/search?q=Quark%3A%20pack%20Jelly&type=Commits)
 * [Quark: update proprietary-files.txt](https://github.com/search?q=Quark%3A%20update%20proprietary-files.txt&type=Commits)
 * [Quark: cleanup not used props](https://github.com/search?q=Quark%3A%20cleanup%20not%20used%20props&type=Commits)
-
-#### Kernel/Quark/
-* [v 10.0](https://github.com/search?q=v%2010.0&type=Commits)
-* [Build cleanup and prepare for oreo](https://github.com/search?q=Build%20cleanup%20and%20prepare%20for%20oreo&type=Commits)
-* [msm: tspp: Fix build when not a module](https://github.com/search?q=msm%3A%20tspp%3A%20Fix%20build%20when%20not%20a%20module&type=Commits)
-* [defconfig disable modules](https://github.com/search?q=defconfig%20disable%20modules&type=Commits)
-* [Build: drop moduloes checks](https://github.com/search?q=Build%3A%20drop%20moduloes%20checks&type=Commits)
-* [esoc: mdm: do a emergency restart when booting fails](https://github.com/search?q=esoc%3A%20mdm%3A%20do%20a%20emergency%20restart%20when%20booting%20fails&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: Up substratum](https://github.com/search?q=Quark%3A%20Up%20substratum&type=Commits)
@@ -324,6 +363,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-01-2018:
+
+#### external/selinux/
+* [libsepol/cil: Improve processing of context rules](https://github.com/search?q=libsepol/cil%3A%20Improve%20processing%20of%20context%20rules&type=Commits)
 
 #### external/vim/
 * [Remove xxd Android.mk](https://github.com/search?q=Remove%20xxd%20Android.mk&type=Commits)
@@ -353,8 +395,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device/Quark/
 * [Revert "Quark: enable audit"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20audit"&type=Commits)
 * [Quark: add rr.mk and proper adptations for it](https://github.com/search?q=Quark%3A%20add%20rr.mk%20and%20proper%20adptations%20for%20it&type=Commits)
-* [Quark: manifest read media.omx](https://github.com/search?q=Quark%3A%20manifest%20read%20media.omx&type=Commits)
-* [Quark: reset recovery size](https://github.com/search?q=Quark%3A%20reset%20recovery%20size&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: update libmot_sensorlistener from athene](https://github.com/search?q=Quark%3A%20update%20libmot_sensorlistener%20from%20athene&type=Commits)
@@ -379,6 +419,8 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 06-29-2018 Start:
 
 #### Device/Quark/
+* [Quark: manifest read media.omx](https://github.com/search?q=Quark%3A%20manifest%20read%20media.omx&type=Commits)
+* [Quark: reset recovery size](https://github.com/search?q=Quark%3A%20reset%20recovery%20size&type=Commits)
 * [Quark: cleanup duplicade fs in android_filesystem_config](https://github.com/search?q=Quark%3A%20cleanup%20duplicade%20fs%20in%20android_filesystem_config&type=Commits)
 * [Quark: update config.fs](https://github.com/search?q=Quark%3A%20update%20config.fs&type=Commits)
 * [Quark: update init qcom_diag to oem_2950](https://github.com/search?q=Quark%3A%20update%20init%20qcom_diag%20to%20oem_2950&type=Commits)
@@ -388,10 +430,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: use lzma ramdisk for recovery](https://github.com/search?q=Quark%3A%20use%20lzma%20ramdisk%20for%20recovery&type=Commits)
 * [Quark: media update and move to vendor](https://github.com/search?q=Quark%3A%20media%20update%20and%20move%20to%20vendor&type=Commits)
 * [Quark: use legacy sepolicy](https://github.com/search?q=Quark%3A%20use%20legacy%20sepolicy&type=Commits)
-* [Revert "QUark: treble update camera config"](https://github.com/search?q=Revert%20"QUark%3A%20treble%20update%20camera%20config"&type=Commits)
-* [Quark: re add USE_CUSTOM_AUDIO_POLICY](https://github.com/search?q=Quark%3A%20re%20add%20USE_CUSTOM_AUDIO_POLICY&type=Commits)
-* [Quark: re enable gps](https://github.com/search?q=Quark%3A%20re%20enable%20gps&type=Commits)
-* [Quark: use xml audio](https://github.com/search?q=Quark%3A%20use%20xml%20audio&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: update drm lib](https://github.com/search?q=Quark%3A%20update%20drm%20lib&type=Commits)
@@ -434,6 +472,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 06-28-2018 Start:
 
 #### Device/Quark/
+* [Revert "QUark: treble update camera config"](https://github.com/search?q=Revert%20"QUark%3A%20treble%20update%20camera%20config"&type=Commits)
+* [Quark: re add USE_CUSTOM_AUDIO_POLICY](https://github.com/search?q=Quark%3A%20re%20add%20USE_CUSTOM_AUDIO_POLICY&type=Commits)
+* [Quark: re enable gps](https://github.com/search?q=Quark%3A%20re%20enable%20gps&type=Commits)
+* [Quark: use xml audio](https://github.com/search?q=Quark%3A%20use%20xml%20audio&type=Commits)
 * [Quark: remove rild from init](https://github.com/search?q=Quark%3A%20remove%20rild%20from%20init&type=Commits)
 * [Quark: add warning about recovery size](https://github.com/search?q=Quark%3A%20add%20warning%20about%20recovery%20size&type=Commits)
 * [Quark: boardconfig removed not used ril flags](https://github.com/search?q=Quark%3A%20boardconfig%20removed%20not%20used%20ril%20flags&type=Commits)
@@ -471,39 +513,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: update media profiles files](https://github.com/search?q=Quark%3A%20update%20media%20profiles%20files&type=Commits)
 * [Quark: Convert audio_effects.conf to XML](https://github.com/search?q=Quark%3A%20Convert%20audio_effects.conf%20to%20XML&type=Commits)
 
-#### Kernel/Quark/
-* [defconfig rename move and disable wireguard](https://github.com/search?q=defconfig%20rename%20move%20and%20disable%20wireguard&type=Commits)
-* [esoc: mdm: If modem doesn't boot, set INVALID_STATE](https://github.com/search?q=esoc%3A%20mdm%3A%20If%20modem%20doesn%27t%20boot,%20set%20INVALID_STATE&type=Commits)
-* [Defconfig build qcacld driver as builtin](https://github.com/search?q=Defconfig%20build%20qcacld%20driver%20as%20builtin&type=Commits)
-* [BACKPORT: ARM: 8091/2: add get_user() support for 8 byte types](https://github.com/search?q=BACKPORT%3A%20ARM%3A%208091/2%3A%20add%20get_user%28%29%20support%20for%208%20byte%20types&type=Commits)
-* [defconfig: use 64-bit binder API](https://github.com/search?q=defconfig%3A%20use%2064-bit%20binder%20API&type=Commits)
-* [staging: binder: Improve Kconfig entry for ANDROID_BINDER_IPC_32BIT](https://github.com/search?q=staging%3A%20binder%3A%20Improve%20Kconfig%20entry%20for%20ANDROID_BINDER_IPC_32BIT&type=Commits)
-* [android: binder: add padding to binder_fd_array_object.](https://github.com/search?q=android%3A%20binder%3A%20add%20padding%20to%20binder_fd_array_object.&type=Commits)
-* [UPSTREAM: drivers: android: correct the size of struct binder_uintptr_t for BC_DEAD_BINDER_DONE](https://github.com/search?q=UPSTREAM%3A%20drivers%3A%20android%3A%20correct%20the%20size%20of%20struct%20binder_uintptr_t%20for%20BC_DEAD_BINDER_DONE&type=Commits)
-* [ANDROID: binder: fix compilation warnings.](https://github.com/search?q=ANDROID%3A%20binder%3A%20fix%20compilation%20warnings.&type=Commits)
-* [arm: dts apq8084 update system partition mnt_flags](https://github.com/search?q=arm%3A%20dts%20apq8084%20update%20system%20partition%20mnt_flags&type=Commits)
-* [Update defconfig](https://github.com/search?q=Update%20defconfig&type=Commits)
-* [defconfig update binder related](https://github.com/search?q=defconfig%20update%20binder%20related&type=Commits)
-* [BACKPORT: ARM: dts: msm: Mount the system partition during early init](https://github.com/search?q=BACKPORT%3A%20ARM%3A%20dts%3A%20msm%3A%20Mount%20the%20system%20partition%20during%20early%20init&type=Commits)
-* [ASoC: msm: Export new audio calibration driver](https://github.com/search?q=ASoC%3A%20msm%3A%20Export%20new%20audio%20calibration%20driver&type=Commits)
-* [include: Include dummy MSM Audio Calibration header](https://github.com/search?q=include%3A%20Include%20dummy%20MSM%20Audio%20Calibration%20header&type=Commits)
-* [UPSTREAM: capabilities: ambient capabilities](https://github.com/search?q=UPSTREAM%3A%20capabilities%3A%20ambient%20capabilities&type=Commits)
-* [ANDROID: binder: add hwbinder,vndbinder to BINDER_DEVICES.](https://github.com/search?q=ANDROID%3A%20binder%3A%20add%20hwbinder,vndbinder%20to%20BINDER_DEVICES.&type=Commits)
-* [android: binder: support for file-descriptor arrays.](https://github.com/search?q=android%3A%20binder%3A%20support%20for%20file-descriptor%20arrays.&type=Commits)
-* [android: binder: support for scatter-gather.](https://github.com/search?q=android%3A%20binder%3A%20support%20for%20scatter-gather.&type=Commits)
-* [android: binder: add extra size to allocator.](https://github.com/search?q=android%3A%20binder%3A%20add%20extra%20size%20to%20allocator.&type=Commits)
-* [android: binder: refactor binder_transact()](https://github.com/search?q=android%3A%20binder%3A%20refactor%20binder_transact%28%29&type=Commits)
-* [android: binder: support multiple /dev instances.](https://github.com/search?q=android%3A%20binder%3A%20support%20multiple%20/dev%20instances.&type=Commits)
-* [android: binder: deal with contexts in debugfs.](https://github.com/search?q=android%3A%20binder%3A%20deal%20with%20contexts%20in%20debugfs.&type=Commits)
-* [android: binder: support multiple context managers.](https://github.com/search?q=android%3A%20binder%3A%20support%20multiple%20context%20managers.&type=Commits)
-* [android: binder: split flat_binder_object.](https://github.com/search?q=android%3A%20binder%3A%20split%20flat_binder_object.&type=Commits)
-
 #### Vendor/Quark/
 * [Quark: use bacon libqc-opt](https://github.com/search?q=Quark%3A%20use%20bacon%20libqc-opt&type=Commits)
 * [Quark: disaable batt_health](https://github.com/search?q=Quark%3A%20disaable%20batt_health&type=Commits)
 * [Quark: remove not used libuiblur](https://github.com/search?q=Quark%3A%20remove%20not%20used%20libuiblur&type=Commits)
 * [Quark: move libspeakerbundle to vendor](https://github.com/search?q=Quark%3A%20move%20libspeakerbundle%20to%20vendor&type=Commits)
-* [Quark: don't build GPS NLP for now](https://github.com/search?q=Quark%3A%20don%27t%20build%20GPS%20NLP%20for%20now&type=Commits)
 
 #### Device specific Changes of 06-28-2018 End.
 
@@ -539,6 +553,30 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: fix treble.mk call](https://github.com/search?q=Quark%3A%20fix%20treble.mk%20call&type=Commits)
 * [Quark: temp change max BOARD_RECOVERYIMAGE_PARTITION_SIZE](https://github.com/search?q=Quark%3A%20temp%20change%20max%20BOARD_RECOVERYIMAGE_PARTITION_SIZE&type=Commits)
 * [Quark: move bin to vendor](https://github.com/search?q=Quark%3A%20move%20bin%20to%20vendor&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: don't build GPS NLP for now](https://github.com/search?q=Quark%3A%20don%27t%20build%20GPS%20NLP%20for%20now&type=Commits)
+* [Revert "Quark: move all bin to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20bin%20to%20vendor"&type=Commits)
+* [Revert "Quark: use bacon libqc-opt"](https://github.com/search?q=Revert%20"Quark%3A%20use%20bacon%20libqc-opt"&type=Commits)
+* [Quark: move all bin to vendor](https://github.com/search?q=Quark%3A%20move%20all%20bin%20to%20vendor&type=Commits)
+
+#### Device specific Changes of 06-27-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 06-27-2018:
+
+#### vendor/nxp/opensource/external/libnfc-nci/
+* [Build nfc_nci.nqx.default with BOARD_VNDK_VERSION](https://github.com/search?q=Build%20nfc_nci.nqx.default%20with%20BOARD_VNDK_VERSION&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 06-27-2018 End.
+
+06-26-2018
+====================
+
+#### Device specific Changes of 06-26-2018 Start:
+
+#### Device/Quark/
 * [Quark: use 64-bit binder API](https://github.com/search?q=Quark%3A%20use%2064-bit%20binder%20API&type=Commits)
 * [Quark: dop qti power for now](https://github.com/search?q=Quark%3A%20dop%20qti%20power%20for%20now&type=Commits)
 * [Revert "Quark: drop TARGET_POWERHAL_VARIANT, useless with QTI HIDL PowerHAL"](https://github.com/search?q=Revert%20"Quark%3A%20drop%20TARGET_POWERHAL_VARIANT,%20useless%20with%20QTI%20HIDL%20PowerHAL"&type=Commits)
@@ -582,57 +620,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: Remove all traces of HWC2.1](https://github.com/search?q=Quark%3A%20Remove%20all%20traces%20of%20HWC2.1&type=Commits)
 * [Quark: add missing IR to manifests](https://github.com/search?q=Quark%3A%20add%20missing%20IR%20to%20manifests&type=Commits)
 * [Quark: add missing audio_effects.xml](https://github.com/search?q=Quark%3A%20add%20missing%20audio_effects.xml&type=Commits)
-
-#### Kernel/Quark/
-* [wcnss: Avoid user buffer overloading for write cal data](https://github.com/search?q=wcnss%3A%20Avoid%20user%20buffer%20overloading%20for%20write%20cal%20data&type=Commits)
-* [qcacld-2.0: Fix buffer overflow in ol_rx_in_order_indication_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20ol_rx_in_order_indication_handler&type=Commits)
-* [qcacld-2.0: Validate wpa ie length before extracting ie](https://github.com/search?q=qcacld-2.0%3A%20Validate%20wpa%20ie%20length%20before%20extracting%20ie&type=Commits)
-* [KEYS: add missing permission check for request_key() destination](https://github.com/search?q=KEYS%3A%20add%20missing%20permission%20check%20for%20request_key%28%29%20destination&type=Commits)
-* [qcacld-2.0: Fix potential buffer overwrite in the htt_t2h_lp_msg_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20the%20htt_t2h_lp_msg_handler&type=Commits)
-* [qcacld-2.0: Add data_len check to avoid OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20data_len%20check%20to%20avoid%20OOB%20access&type=Commits)
-* [qcacld-2.0: Fix potential buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow&type=Commits)
-* [crypto: hmac - require that the underlying hash algorithm is unkeyed](https://github.com/search?q=crypto%3A%20hmac%20-%20require%20that%20the%20underlying%20hash%20algorithm%20is%20unkeyed&type=Commits)
-* [diag: dci: check signed values for negativity](https://github.com/search?q=diag%3A%20dci%3A%20check%20signed%20values%20for%20negativity&type=Commits)
-* [diag: Add conditional check for len in dci_process_ctrl_status()](https://github.com/search?q=diag%3A%20Add%20conditional%20check%20for%20len%20in%20dci_process_ctrl_status%28%29&type=Commits)
-* [diag: Validate copying length against source buffer length](https://github.com/search?q=diag%3A%20Validate%20copying%20length%20against%20source%20buffer%20length&type=Commits)
-* [ANDROID: Bluetooth: hidp: buffer overflow in hidp_process_report](https://github.com/search?q=ANDROID%3A%20Bluetooth%3A%20hidp%3A%20buffer%20overflow%20in%20hidp_process_report&type=Commits)
-* [UPSTREAM: HID: Bluetooth: hidp: make sure input buffers are big enough](https://github.com/search?q=UPSTREAM%3A%20HID%3A%20Bluetooth%3A%20hidp%3A%20make%20sure%20input%20buffers%20are%20big%20enough&type=Commits)
-* [qcacld-2.0: Remove FW memory dump feature](https://github.com/search?q=qcacld-2.0%3A%20Remove%20FW%20memory%20dump%20feature&type=Commits)
-* [ASoC: wcd_cpe_core: Add mutex lock for CPE session](https://github.com/search?q=ASoC%3A%20wcd_cpe_core%3A%20Add%20mutex%20lock%20for%20CPE%20session&type=Commits)
-* [msm: ADSPRPC: Use ID in response to get context pointer](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Use%20ID%20in%20response%20to%20get%20context%20pointer&type=Commits)
-* [nl80211: Sanitize array index in parse_txq_params](https://github.com/search?q=nl80211%3A%20Sanitize%20array%20index%20in%20parse_txq_params&type=Commits)
-* [vfs, fdtable: Prevent bounds-check bypass via speculative execution](https://github.com/search?q=vfs,%20fdtable%3A%20Prevent%20bounds-check%20bypass%20via%20speculative%20execution&type=Commits)
-* [posix-timers: Protect posix clock array access against speculation](https://github.com/search?q=posix-timers%3A%20Protect%20posix%20clock%20array%20access%20against%20speculation&type=Commits)
-* [nospec: Include <asm/barrier.h> dependency](https://github.com/search?q=nospec%3A%20Include%20<asm/barrier.h>%20dependency&type=Commits)
-* [nospec: Allow index argument to have const-qualified type](https://github.com/search?q=nospec%3A%20Allow%20index%20argument%20to%20have%20const-qualified%20type&type=Commits)
-* [nospec: Kill array_index_nospec_mask_check()](https://github.com/search?q=nospec%3A%20Kill%20array_index_nospec_mask_check%28%29&type=Commits)
-* [nospec: Move array_index_nospec() parameter checking into separate macro](https://github.com/search?q=nospec%3A%20Move%20array_index_nospec%28%29%20parameter%20checking%20into%20separate%20macro&type=Commits)
-* [array_index_nospec: Sanitize speculative array de-references](https://github.com/search?q=array_index_nospec%3A%20Sanitize%20speculative%20array%20de-references&type=Commits)
-
-#### Vendor/Quark/
-* [Revert "Quark: move all bin to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20bin%20to%20vendor"&type=Commits)
-* [Revert "Quark: use bacon libqc-opt"](https://github.com/search?q=Revert%20"Quark%3A%20use%20bacon%20libqc-opt"&type=Commits)
-* [Quark: move all bin to vendor](https://github.com/search?q=Quark%3A%20move%20all%20bin%20to%20vendor&type=Commits)
-* [Quark: use bacon libqc-opt](https://github.com/search?q=Quark%3A%20use%20bacon%20libqc-opt&type=Commits)
-* [Quark: sed thermal engine system/etc -> vendor/etc](https://github.com/search?q=Quark%3A%20sed%20thermal%20engine%20system/etc%20->%20vendor/etc&type=Commits)
-
-#### Device specific Changes of 06-27-2018 End.
-
-***
-
-#### Resurrection Remix OS - Oreo source changes of 06-27-2018:
-
-#### vendor/nxp/opensource/external/libnfc-nci/
-* [Build nfc_nci.nqx.default with BOARD_VNDK_VERSION](https://github.com/search?q=Build%20nfc_nci.nqx.default%20with%20BOARD_VNDK_VERSION&type=Commits)
-
-#### Resurrection Remix OS - Oreo source changes of 06-27-2018 End.
-
-06-26-2018
-====================
-
-#### Device specific Changes of 06-26-2018 Start:
-
-#### Device/Quark/
 * [Quark: switch to xml audio policy configuration](https://github.com/search?q=Quark%3A%20switch%20to%20xml%20audio%20policy%20configuration&type=Commits)
 * [Quark: add sysfs_spmi_dev perms to thermal-engine](https://github.com/search?q=Quark%3A%20add%20sysfs_spmi_dev%20perms%20to%20thermal-engine&type=Commits)
 * [Quark: init: Handle overriding system and vendor props](https://github.com/search?q=Quark%3A%20init%3A%20Handle%20overriding%20system%20and%20vendor%20props&type=Commits)
@@ -714,6 +701,44 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: Allow vendor init to override props](https://github.com/search?q=Quark%3A%20Allow%20vendor%20init%20to%20override%20props&type=Commits)
 * [Quark: libinit_quark to libinit_apq8084](https://github.com/search?q=Quark%3A%20libinit_quark%20to%20libinit_apq8084&type=Commits)
 
+#### Kernel/Quark/
+* [android: binder: support for scatter-gather.](https://github.com/search?q=android%3A%20binder%3A%20support%20for%20scatter-gather.&type=Commits)
+* [android: binder: add extra size to allocator.](https://github.com/search?q=android%3A%20binder%3A%20add%20extra%20size%20to%20allocator.&type=Commits)
+* [android: binder: refactor binder_transact()](https://github.com/search?q=android%3A%20binder%3A%20refactor%20binder_transact%28%29&type=Commits)
+* [android: binder: support multiple /dev instances.](https://github.com/search?q=android%3A%20binder%3A%20support%20multiple%20/dev%20instances.&type=Commits)
+* [android: binder: deal with contexts in debugfs.](https://github.com/search?q=android%3A%20binder%3A%20deal%20with%20contexts%20in%20debugfs.&type=Commits)
+* [android: binder: support multiple context managers.](https://github.com/search?q=android%3A%20binder%3A%20support%20multiple%20context%20managers.&type=Commits)
+* [android: binder: split flat_binder_object.](https://github.com/search?q=android%3A%20binder%3A%20split%20flat_binder_object.&type=Commits)
+* [wcnss: Avoid user buffer overloading for write cal data](https://github.com/search?q=wcnss%3A%20Avoid%20user%20buffer%20overloading%20for%20write%20cal%20data&type=Commits)
+* [Revert "wcnss: Avoid user buffer overloading for write cal data"](https://github.com/search?q=Revert%20"wcnss%3A%20Avoid%20user%20buffer%20overloading%20for%20write%20cal%20data"&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in ol_rx_in_order_indication_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20ol_rx_in_order_indication_handler&type=Commits)
+* [qcacld-2.0: Validate wpa ie length before extracting ie](https://github.com/search?q=qcacld-2.0%3A%20Validate%20wpa%20ie%20length%20before%20extracting%20ie&type=Commits)
+* [KEYS: add missing permission check for request_key() destination](https://github.com/search?q=KEYS%3A%20add%20missing%20permission%20check%20for%20request_key%28%29%20destination&type=Commits)
+* [qcacld-2.0: Fix potential buffer overwrite in the htt_t2h_lp_msg_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20the%20htt_t2h_lp_msg_handler&type=Commits)
+* [qcacld-2.0: Add data_len check to avoid OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20data_len%20check%20to%20avoid%20OOB%20access&type=Commits)
+* [qcacld-2.0: Fix potential buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow&type=Commits)
+* [crypto: hmac - require that the underlying hash algorithm is unkeyed](https://github.com/search?q=crypto%3A%20hmac%20-%20require%20that%20the%20underlying%20hash%20algorithm%20is%20unkeyed&type=Commits)
+* [diag: dci: check signed values for negativity](https://github.com/search?q=diag%3A%20dci%3A%20check%20signed%20values%20for%20negativity&type=Commits)
+* [diag: Add conditional check for len in dci_process_ctrl_status()](https://github.com/search?q=diag%3A%20Add%20conditional%20check%20for%20len%20in%20dci_process_ctrl_status%28%29&type=Commits)
+* [diag: Validate copying length against source buffer length](https://github.com/search?q=diag%3A%20Validate%20copying%20length%20against%20source%20buffer%20length&type=Commits)
+* [ANDROID: Bluetooth: hidp: buffer overflow in hidp_process_report](https://github.com/search?q=ANDROID%3A%20Bluetooth%3A%20hidp%3A%20buffer%20overflow%20in%20hidp_process_report&type=Commits)
+* [UPSTREAM: HID: Bluetooth: hidp: make sure input buffers are big enough](https://github.com/search?q=UPSTREAM%3A%20HID%3A%20Bluetooth%3A%20hidp%3A%20make%20sure%20input%20buffers%20are%20big%20enough&type=Commits)
+* [qcacld-2.0: Remove FW memory dump feature](https://github.com/search?q=qcacld-2.0%3A%20Remove%20FW%20memory%20dump%20feature&type=Commits)
+* [ASoC: wcd_cpe_core: Add mutex lock for CPE session](https://github.com/search?q=ASoC%3A%20wcd_cpe_core%3A%20Add%20mutex%20lock%20for%20CPE%20session&type=Commits)
+* [msm: ADSPRPC: Use ID in response to get context pointer](https://github.com/search?q=msm%3A%20ADSPRPC%3A%20Use%20ID%20in%20response%20to%20get%20context%20pointer&type=Commits)
+* [nl80211: Sanitize array index in parse_txq_params](https://github.com/search?q=nl80211%3A%20Sanitize%20array%20index%20in%20parse_txq_params&type=Commits)
+* [vfs, fdtable: Prevent bounds-check bypass via speculative execution](https://github.com/search?q=vfs,%20fdtable%3A%20Prevent%20bounds-check%20bypass%20via%20speculative%20execution&type=Commits)
+* [posix-timers: Protect posix clock array access against speculation](https://github.com/search?q=posix-timers%3A%20Protect%20posix%20clock%20array%20access%20against%20speculation&type=Commits)
+* [nospec: Include <asm/barrier.h> dependency](https://github.com/search?q=nospec%3A%20Include%20<asm/barrier.h>%20dependency&type=Commits)
+* [nospec: Allow index argument to have const-qualified type](https://github.com/search?q=nospec%3A%20Allow%20index%20argument%20to%20have%20const-qualified%20type&type=Commits)
+* [nospec: Kill array_index_nospec_mask_check()](https://github.com/search?q=nospec%3A%20Kill%20array_index_nospec_mask_check%28%29&type=Commits)
+* [nospec: Move array_index_nospec() parameter checking into separate macro](https://github.com/search?q=nospec%3A%20Move%20array_index_nospec%28%29%20parameter%20checking%20into%20separate%20macro&type=Commits)
+* [array_index_nospec: Sanitize speculative array de-references](https://github.com/search?q=array_index_nospec%3A%20Sanitize%20speculative%20array%20de-references&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: use bacon libqc-opt](https://github.com/search?q=Quark%3A%20use%20bacon%20libqc-opt&type=Commits)
+* [Quark: sed thermal engine system/etc -> vendor/etc](https://github.com/search?q=Quark%3A%20sed%20thermal%20engine%20system/etc%20->%20vendor/etc&type=Commits)
+
 #### Device specific Changes of 06-26-2018 End.
 
 ***
@@ -755,7 +780,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Resurrection Remix OS - Oreo source changes of 06-24-2018:
 #### android/
 * [manifest: update rr remote](https://github.com/search?q=manifest%3A%20update%20rr%20remote&type=Commits)
-* [manifest: set review URL](https://github.com/search?q=manifest%3A%20set%20review%20URL&type=Commits)
 
 #### device/qcom/sepolicy/
 * [sepolicy: Allow perf HAL to set freq props](https://github.com/search?q=sepolicy%3A%20Allow%20perf%20HAL%20to%20set%20freq%20props&type=Commits)
@@ -798,6 +822,7 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-23-2018:
 #### android/
+* [manifest: set review URL](https://github.com/search?q=manifest%3A%20set%20review%20URL&type=Commits)
 * [snippets: rr.xml: cleanup](https://github.com/search?q=snippets%3A%20rr.xml%3A%20cleanup&type=Commits)
 
 #### lineage-sdk/
@@ -887,7 +912,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### frameworks/base/
 * [Merge pull request #236 from alex9yust/oreo](https://github.com/search?q=Merge%20pull%20request%20%23236%20from%20alex9yust/oreo&type=Commits)
-* [SyetmUI: fix the behavior of QS with isDualTarget=true](https://github.com/search?q=SyetmUI%3A%20fix%20the%20behavior%20of%20QS%20with%20isDualTarget=true&type=Commits)
 
 #### hardware/qcom/fm/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -924,7 +948,7 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [recovery: Do not show emulated when data is encrypted](https://github.com/search?q=recovery%3A%20Do%20not%20show%20emulated%20when%20data%20is%20encrypted&type=Commits)
 
 #### frameworks/base/
-* [Merge pull request #235 from alex9yust/oreo](https://github.com/search?q=Merge%20pull%20request%20%23235%20from%20alex9yust/oreo&type=Commits)
+* [SyetmUI: fix the behavior of QS with isDualTarget=true](https://github.com/search?q=SyetmUI%3A%20fix%20the%20behavior%20of%20QS%20with%20isDualTarget=true&type=Commits)
 
 #### hardware/lineage/interfaces/
 * [livedisplay: Fix uninitialized default PA](https://github.com/search?q=livedisplay%3A%20Fix%20uninitialized%20default%20PA&type=Commits)
@@ -944,11 +968,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Switch to our system/security fork](https://github.com/search?q=Switch%20to%20our%20system/security%20fork&type=Commits)
 
 #### frameworks/base/
+* [Merge pull request #235 from alex9yust/oreo](https://github.com/search?q=Merge%20pull%20request%20%23235%20from%20alex9yust/oreo&type=Commits)
 * [start ScreenStateService after reboot It is necessary for the Suspend Actions from Miscellaneous settings.](https://github.com/search?q=start%20ScreenStateService%20after%20reboot%20It%20is%20necessary%20for%20the%20Suspend%20Actions%20from%20Miscellaneous%20settings.&type=Commits)
 * [SystemUI: Fix status bar bluetooth <50% drawable](https://github.com/search?q=SystemUI%3A%20Fix%20status%20bar%20bluetooth%20<50%%20drawable&type=Commits)
-
-#### lineage-sdk/
-* [lineage-sdk: Add LineageStatusBarItem interfaces](https://github.com/search?q=lineage-sdk%3A%20Add%20LineageStatusBarItem%20interfaces&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 06-17-2018 End.
 
@@ -981,6 +1003,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [SystemUI: Add Lineage statusbar item holder](https://github.com/search?q=SystemUI%3A%20Add%20Lineage%20statusbar%20item%20holder&type=Commits)
 * [Sometimes this happens when changing the theme (#234)](https://github.com/search?q=Sometimes%20this%20happens%20when%20changing%20the%20theme%20%28%23234%29&type=Commits)
 
+#### lineage-sdk/
+* [lineage-sdk: Add LineageStatusBarItem interfaces](https://github.com/search?q=lineage-sdk%3A%20Add%20LineageStatusBarItem%20interfaces&type=Commits)
+
 #### packages/apps/LineageParts/
 * [Exclude trust onboarding from recents](https://github.com/search?q=Exclude%20trust%20onboarding%20from%20recents&type=Commits)
 
@@ -1010,7 +1035,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: update ims service and sepolicy](https://github.com/search?q=Quark%3A%20update%20ims%20service%20and%20sepolicy&type=Commits)
 
 #### Kernel/Quark/
-* [V 9.5](https://github.com/search?q=V%209.5&type=Commits)
 * [boot: apq8084.dtsi less agresive vph-*-threshold](https://github.com/search?q=boot%3A%20apq8084.dtsi%20less%20agresive%20vph-*-threshold&type=Commits)
 
 #### Vendor/Quark/
@@ -1059,9 +1083,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-13-2018:
 
-#### device/qcom/sepolicy/
-* [common: Fix labelling of lcd-backlight](https://github.com/search?q=common%3A%20Fix%20labelling%20of%20lcd-backlight&type=Commits)
-
 #### hardware/qcom/audio-caf/sdm845/
 * [hal: route to speaker, when USB HS is unplugged](https://github.com/search?q=hal%3A%20route%20to%20speaker,%20when%20USB%20HS%20is%20unplugged&type=Commits)
 
@@ -1083,6 +1104,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Make change and version bump to OPM2.171026.006.H1](https://github.com/search?q=Make%20change%20and%20version%20bump%20to%20OPM2.171026.006.H1&type=Commits)
 * [DO NOT MERGE: Update Platform Security String to 2018-07-05 for oc-mr1-dev Bug:79883349 (cherry picked from commit cfbe84b8a0ac6ad680edad1c21b08672ed96127d)](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Update%20Platform%20Security%20String%20to%202018-07-05%20for%20oc-mr1-dev%20Bug%3A79883349%20%28cherry%20picked%20from%20commit%20cfbe84b8a0ac6ad680edad1c21b08672ed96127d%29&type=Commits)
 * [DO NOT MERGE: Updating security string for oc-mr1-dev to 2018-06-05](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Updating%20security%20string%20for%20oc-mr1-dev%20to%202018-06-05&type=Commits)
+
+#### device/qcom/sepolicy/
+* [common: Fix labelling of lcd-backlight](https://github.com/search?q=common%3A%20Fix%20labelling%20of%20lcd-backlight&type=Commits)
 
 #### external/bouncycastle/
 * [Merge cherrypicks of [4314166, 4314167, 4314168, 4314169, 4314462, 4314463, 4314464, 4314465, 4314466, 4314643, 4314644, 4314185, 4314467, 4314468, 4315341, 4315342, 4315343, 4315344, 4315345, 4314469, 4314283, 4314186, 4314187, 4314188, 4314189, 4314190, 4314191, 4314192, 4315082, 4315083, 4315084, 4315085, 4315086, 4315087, 4315088, 4315089, 4315090, 4315091, 4315092, 4314170, 4314284, 4314285, 4314286, 4314287, 4314171, 4314172, 4315346, 4314288, 4315381, 4315401, 4315402, 4314289, 4314290, 4314291, 4314292, 4314293, 4314294, 4314295, 4314296, 4314297, 4314298, 4314299, 4314300, 4315421, 4315422, 4314034, 4314229, 4315347, 4315423, 4315424, 4315314, 4315348, 4315349, 4314470, 4315425, 4315426, 4315427, 4315428, 4315429] into sparse-4732990-L02900000181396755](https://github.com/search?q=Merge%20cherrypicks%20of%20[4314166,%204314167,%204314168,%204314169,%204314462,%204314463,%204314464,%204314465,%204314466,%204314643,%204314644,%204314185,%204314467,%204314468,%204315341,%204315342,%204315343,%204315344,%204315345,%204314469,%204314283,%204314186,%204314187,%204314188,%204314189,%204314190,%204314191,%204314192,%204315082,%204315083,%204315084,%204315085,%204315086,%204315087,%204315088,%204315089,%204315090,%204315091,%204315092,%204314170,%204314284,%204314285,%204314286,%204314287,%204314171,%204314172,%204315346,%204314288,%204315381,%204315401,%204315402,%204314289,%204314290,%204314291,%204314292,%204314293,%204314294,%204314295,%204314296,%204314297,%204314298,%204314299,%204314300,%204315421,%204315422,%204314034,%204314229,%204315347,%204315423,%204315424,%204315314,%204315348,%204315349,%204314470,%204315425,%204315426,%204315427,%204315428,%204315429]%20into%20sparse-4732990-L02900000181396755&type=Commits)
@@ -1207,7 +1231,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### bionic/
 * [linker: Make shim reference path absolute](https://github.com/search?q=linker%3A%20Make%20shim%20reference%20path%20absolute&type=Commits)
-* [linker: Remove unused find_libraries declaration](https://github.com/search?q=linker%3A%20Remove%20unused%20find_libraries%20declaration&type=Commits)
 
 #### build/make/
 * [build: Add new variable to hold generic build properties](https://github.com/search?q=build%3A%20Add%20new%20variable%20to%20hold%20generic%20build%20properties&type=Commits)
@@ -1283,9 +1306,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: enable ims related](https://github.com/search?q=Quark%3A%20enable%20ims%20related&type=Commits)
 * [Up README.md](https://github.com/search?q=Up%20README.md&type=Commits)
 
-#### Kernel/Quark/
-* [Up build/changelog.sh](https://github.com/search?q=Up%20build/changelog.sh&type=Commits)
-
 #### Vendor/Quark/
 * [Quark: up Adaway](https://github.com/search?q=Quark%3A%20up%20Adaway&type=Commits)
 
@@ -1294,6 +1314,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 06-10-2018:
+
+#### bionic/
+* [linker: Remove unused find_libraries declaration](https://github.com/search?q=linker%3A%20Remove%20unused%20find_libraries%20declaration&type=Commits)
 
 #### frameworks/native/
 * [Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/frameworks/native into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r30%27%20of%20https%3A//android.googlesource.com/platform/frameworks/native%20into%20oreo&type=Commits)
@@ -1320,7 +1343,63 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 06-09-2018 Start:
 
 #### Kernel/Quark/
-* [Up version 9.4](https://github.com/search?q=Up%20version%209.4&type=Commits)
+* [power: add a switch to disable Battery healt Cold](https://github.com/search?q=power%3A%20add%20a%20switch%20to%20disable%20Battery%20healt%20Cold&type=Commits)
+* [qcacld-2.0: Fix potential buffer overwrite in wma_vdev_start_rsp_ind](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20wma_vdev_start_rsp_ind&type=Commits)
+* [qcacld-2.0: Fix potential buffer overwrite](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite&type=Commits)
+* [qcacld-2.0: Dump the txrx stat req if the queue is not empty](https://github.com/search?q=qcacld-2.0%3A%20Dump%20the%20txrx%20stat%20req%20if%20the%20queue%20is%20not%20empty&type=Commits)
+* [qcacld-2.0: Fix memory leak for txrx_fw_stats cmd](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20for%20txrx_fw_stats%20cmd&type=Commits)
+* [qcacld-2.0: Avoid possible stack overflow in hdd_ProcessGENIE API](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20possible%20stack%20overflow%20in%20hdd_ProcessGENIE%20API&type=Commits)
+* [qcacld-2.0: Fix potential buffer overflow for TX_COMPL_IND](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20for%20TX_COMPL_IND&type=Commits)
+* [qcacld-2.0: Fix Out-of-bound access in sapInterferenceRssiCount](https://github.com/search?q=qcacld-2.0%3A%20Fix%20Out-of-bound%20access%20in%20sapInterferenceRssiCount&type=Commits)
+* [qcacld-2.0: Resolve memory corruption issue while traversing ACS list](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20memory%20corruption%20issue%20while%20traversing%20ACS%20list&type=Commits)
+* [qcacld-2.0: Avoid buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overflow&type=Commits)
+* [qcacld-2.0: Fix buffer overwrite due to ssid_len in WMA handlers](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20due%20to%20ssid_len%20in%20WMA%20handlers&type=Commits)
+* [msm: mdss: adjust mdss_mdp_get_plane_sizes parameters init order](https://github.com/search?q=msm%3A%20mdss%3A%20adjust%20mdss_mdp_get_plane_sizes%20parameters%20init%20order&type=Commits)
+* [Input: gtco - fix potential out-of-bound access](https://github.com/search?q=Input%3A%20gtco%20-%20fix%20potential%20out-of-bound%20access&type=Commits)
+* [msm: sensor: actuator: fix out of bound read for region params](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20fix%20out%20of%20bound%20read%20for%20region%20params&type=Commits)
+* [msm: sensor: actuator: add null pointer check for i2c array](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20add%20null%20pointer%20check%20for%20i2c%20array&type=Commits)
+* [msm: camera: sensor: Validate destination step position](https://github.com/search?q=msm%3A%20camera%3A%20sensor%3A%20Validate%20destination%20step%20position&type=Commits)
+* [msm: sensor: actuator: check NULL pointer for actuator ctrl](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20check%20NULL%20pointer%20for%20actuator%20ctrl&type=Commits)
+* [msm: sensor: actuator: avoid accessing out of bound memory](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20avoid%20accessing%20out%20of%20bound%20memory&type=Commits)
+* [qcacld-2.0: Add mutex lock for proc handlers](https://github.com/search?q=qcacld-2.0%3A%20Add%20mutex%20lock%20for%20proc%20handlers&type=Commits)
+* [apq8084: update kernel header](https://github.com/search?q=apq8084%3A%20update%20kernel%20header&type=Commits)
+* [msm: vidc: Fix limit for LTR mode control](https://github.com/search?q=msm%3A%20vidc%3A%20Fix%20limit%20for%20LTR%20mode%20control&type=Commits)
+* [msm: vidc: disable CPU L2 cache PC during video sessions](https://github.com/search?q=msm%3A%20vidc%3A%20disable%20CPU%20L2%20cache%20PC%20during%20video%20sessions&type=Commits)
+* [ARM: dts: msm: Add RBCPR and RPM master stats for APQ8084](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Add%20RBCPR%20and%20RPM%20master%20stats%20for%20APQ8084&type=Commits)
+* [qcom: mpm-of: fix bug in finding the pending interrupts](https://github.com/search?q=qcom%3A%20mpm-of%3A%20fix%20bug%20in%20finding%20the%20pending%20interrupts&type=Commits)
+* [msm: mpm-of: set wakeup interrupt as NO_SUSPEND](https://github.com/search?q=msm%3A%20mpm-of%3A%20set%20wakeup%20interrupt%20as%20NO_SUSPEND&type=Commits)
+* [msm: mpm-of: fix for "cxo_lpm_clk is unbalanced" slowpath  warning.](https://github.com/search?q=msm%3A%20mpm-of%3A%20fix%20for%20"cxo_lpm_clk%20is%20unbalanced"%20slowpath%20%20warning.&type=Commits)
+* [msm: mpm-of: move mpm-of driver to a new kernel location](https://github.com/search?q=msm%3A%20mpm-of%3A%20move%20mpm-of%20driver%20to%20a%20new%20kernel%20location&type=Commits)
+* [idle: exit the cpu_idle_poll loop if cpu_idle_force_poll is cleared](https://github.com/search?q=idle%3A%20exit%20the%20cpu_idle_poll%20loop%20if%20cpu_idle_force_poll%20is%20cleared&type=Commits)
+* [idle: Add a memory barrier after setting cpu_idle_force_poll](https://github.com/search?q=idle%3A%20Add%20a%20memory%20barrier%20after%20setting%20cpu_idle_force_poll&type=Commits)
+* [clockevents: Move the tick_notify() switch case to clockevents_notify()](https://github.com/search?q=clockevents%3A%20Move%20the%20tick_notify%28%29%20switch%20case%20to%20clockevents_notify%28%29&type=Commits)
+* [nohz: Convert a few places to use local per cpu accesses](https://github.com/search?q=nohz%3A%20Convert%20a%20few%20places%20to%20use%20local%20per%20cpu%20accesses&type=Commits)
+* [sched_clock: Add support for >32 bit sched_clock](https://github.com/search?q=sched_clock%3A%20Add%20support%20for%20>32%20bit%20sched_clock&type=Commits)
+* [sched_clock: Use an hrtimer instead of timer](https://github.com/search?q=sched_clock%3A%20Use%20an%20hrtimer%20instead%20of%20timer&type=Commits)
+* [sched_clock: Use seqcount instead of rolling our own](https://github.com/search?q=sched_clock%3A%20Use%20seqcount%20instead%20of%20rolling%20our%20own&type=Commits)
+* [clocksource: Extract max nsec calculation into separate function](https://github.com/search?q=clocksource%3A%20Extract%20max%20nsec%20calculation%20into%20separate%20function&type=Commits)
+* [sched_clock: Make ARM's sched_clock generic for all architectures](https://github.com/search?q=sched_clock%3A%20Make%20ARM%27s%20sched_clock%20generic%20for%20all%20architectures&type=Commits)
+* [mutex: Add a delay into the SPIN_ON_OWNER wait loop.](https://github.com/search?q=mutex%3A%20Add%20a%20delay%20into%20the%20SPIN_ON_OWNER%20wait%20loop.&type=Commits)
+* [ALSA: timer: Use setup_timer() and mod_timer()](https://github.com/search?q=ALSA%3A%20timer%3A%20Use%20setup_timer%28%29%20and%20mod_timer%28%29&type=Commits)
+* [ALSA: timer: Use standard printk helpers](https://github.com/search?q=ALSA%3A%20timer%3A%20Use%20standard%20printk%20helpers&type=Commits)
+* [ALSA: core: Use ktime_get_ts()](https://github.com/search?q=ALSA%3A%20core%3A%20Use%20ktime_get_ts%28%29&type=Commits)
+* [ALSA: timer: Fix negative queue usage by racy accesses](https://github.com/search?q=ALSA%3A%20timer%3A%20Fix%20negative%20queue%20usage%20by%20racy%20accesses&type=Commits)
+* [bluetooth: Reduce bluesleep wakelock timeout](https://github.com/search?q=bluetooth%3A%20Reduce%20bluesleep%20wakelock%20timeout&type=Commits)
+* [shamu: bluesleep: Rip out transmission timer](https://github.com/search?q=shamu%3A%20bluesleep%3A%20Rip%20out%20transmission%20timer&type=Commits)
+* [shamu: bluesleep: remove unused proc entries](https://github.com/search?q=shamu%3A%20bluesleep%3A%20remove%20unused%20proc%20entries&type=Commits)
+* [angler: bluetooth: Fix kernel panic(PC is at msm_serial_hs_rx_work).](https://github.com/search?q=angler%3A%20bluetooth%3A%20Fix%20kernel%20panic%28PC%20is%20at%20msm_serial_hs_rx_work%29.&type=Commits)
+* [angler: bluetooth: fix possible memory leak in kernel.](https://github.com/search?q=angler%3A%20bluetooth%3A%20fix%20possible%20memory%20leak%20in%20kernel.&type=Commits)
+* [shamu: bluesleep replace BT_ERR and BT_INFO with pr_err](https://github.com/search?q=shamu%3A%20bluesleep%20replace%20BT_ERR%20and%20BT_INFO%20with%20pr_err&type=Commits)
+* [shamu: bluesleep cleanup unneeded ifdefs](https://github.com/search?q=shamu%3A%20bluesleep%20cleanup%20unneeded%20ifdefs&type=Commits)
+* [boot: apq8084.dtsi higher vph-low](https://github.com/search?q=boot%3A%20apq8084.dtsi%20higher%20vph-low&type=Commits)
+* [Revert "boot: apq8084.dtsi set vph-low/high to a higher value"](https://github.com/search?q=Revert%20"boot%3A%20apq8084.dtsi%20set%20vph-low/high%20to%20a%20higher%20value"&type=Commits)
+* [serial: tty: msm_hs_uart: Fix the compat table](https://github.com/search?q=serial%3A%20tty%3A%20msm_hs_uart%3A%20Fix%20the%20compat%20table&type=Commits)
+* [Add wake_peer hook to MSM HS UART driver.](https://github.com/search?q=Add%20wake_peer%20hook%20to%20MSM%20HS%20UART%20driver.&type=Commits)
+* [ANDROID: sdcardfs: Fix sdcardfs to stop creating cases-sensitive duplicate entries.](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Fix%20sdcardfs%20to%20stop%20creating%20cases-sensitive%20duplicate%20entries.&type=Commits)
+* [ANDROID: sdcardfs: Set num in extension_details during make_item](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Set%20num%20in%20extension_details%20during%20make_item&type=Commits)
+* [ANDROID: sdcardfs: Hold i_mutex for i_size_write](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Hold%20i_mutex%20for%20i_size_write&type=Commits)
+* [boot: apq8084.dtsi set vph-low/high to a higher value](https://github.com/search?q=boot%3A%20apq8084.dtsi%20set%20vph-low/high%20to%20a%20higher%20value&type=Commits)
+* [sync: don't block the flusher thread waiting on IO](https://github.com/search?q=sync%3A%20don%27t%20block%20the%20flusher%20thread%20waiting%20on%20IO&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: Up KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20Up%20KernelAdiutor.apk&type=Commits)
@@ -1378,16 +1457,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 06-07-2018
 ====================
-
-#### Device specific Changes of 06-07-2018 Start:
-
-#### Kernel/Quark/
-* [Up build/how_to_build_this.sh](https://github.com/search?q=Up%20build/how_to_build_this.sh&type=Commits)
-* [power: add a switch to disable Battery healt Cold](https://github.com/search?q=power%3A%20add%20a%20switch%20to%20disable%20Battery%20healt%20Cold&type=Commits)
-
-#### Device specific Changes of 06-07-2018 End.
-
-***
 
 #### Resurrection Remix OS - Oreo source changes of 06-07-2018:
 
@@ -1483,10 +1552,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-03-2018:
 
-#### frameworks/base/
-* [Keyguard: Fix Turkish translation](https://github.com/search?q=Keyguard%3A%20Fix%20Turkish%20translation&type=Commits)
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
 #### hardware/qcom/audio-caf/msm8996/
 * [Merge "configs: Fixed BTSCO samplerate mixer control" into audio-userspace.lnx.3.0.1](https://github.com/search?q=Merge%20"configs%3A%20Fixed%20BTSCO%20samplerate%20mixer%20control"%20into%20audio-userspace.lnx.3.0.1&type=Commits)
 
@@ -1498,38 +1563,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Merge "configs: change wsatz name for sdm710 skuw" into audio-hal.lnx.4.0.c2](https://github.com/search?q=Merge%20"configs%3A%20change%20wsatz%20name%20for%20sdm710%20skuw"%20into%20audio-hal.lnx.4.0.c2&type=Commits)
 * [Merge "audio: hal: set speaker boost and limtier value" into audio-hal.lnx.4.0.c2](https://github.com/search?q=Merge%20"audio%3A%20hal%3A%20set%20speaker%20boost%20and%20limtier%20value"%20into%20audio-hal.lnx.4.0.c2&type=Commits)
 
-#### lineage-sdk/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/DUI/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
 #### packages/apps/Dialer/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Jelly/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### packages/apps/LineageParts/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
 #### packages/apps/Recorder/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionOTA/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Settings/
 * [Merge pull request #971 from thedeadfish59/patch-2](https://github.com/search?q=Merge%20pull%20request%20%23971%20from%20thedeadfish59/patch-2&type=Commits)
 * [Update resurrection_device_maintainers_strings.xml](https://github.com/search?q=Update%20resurrection_device_maintainers_strings.xml&type=Commits)
 * [Merge pull request #969 from fosseperme/oreo](https://github.com/search?q=Merge%20pull%20request%20%23969%20from%20fosseperme/oreo&type=Commits)
-* [Merge pull request #968 from TTTT555/oreo](https://github.com/search?q=Merge%20pull%20request%20%23968%20from%20TTTT555/oreo&type=Commits)
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Snap/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/services/OmniJaws/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 06-03-2018 End.
@@ -1537,36 +1585,31 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 06-02-2018
 ====================
 
-#### Device specific Changes of 06-02-2018 Start:
-
-#### Kernel/Quark/
-* [qcacld-2.0: Fix potential buffer overwrite in wma_vdev_start_rsp_ind](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite%20in%20wma_vdev_start_rsp_ind&type=Commits)
-* [qcacld-2.0: Fix potential buffer overwrite](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overwrite&type=Commits)
-* [qcacld-2.0: Dump the txrx stat req if the queue is not empty](https://github.com/search?q=qcacld-2.0%3A%20Dump%20the%20txrx%20stat%20req%20if%20the%20queue%20is%20not%20empty&type=Commits)
-* [qcacld-2.0: Fix memory leak for txrx_fw_stats cmd](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20for%20txrx_fw_stats%20cmd&type=Commits)
-* [qcacld-2.0: Avoid possible stack overflow in hdd_ProcessGENIE API](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20possible%20stack%20overflow%20in%20hdd_ProcessGENIE%20API&type=Commits)
-* [qcacld-2.0: Fix potential buffer overflow for TX_COMPL_IND](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20for%20TX_COMPL_IND&type=Commits)
-* [qcacld-2.0: Fix Out-of-bound access in sapInterferenceRssiCount](https://github.com/search?q=qcacld-2.0%3A%20Fix%20Out-of-bound%20access%20in%20sapInterferenceRssiCount&type=Commits)
-* [qcacld-2.0: Resolve memory corruption issue while traversing ACS list](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20memory%20corruption%20issue%20while%20traversing%20ACS%20list&type=Commits)
-* [qcacld-2.0: Avoid buffer overflow](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overflow&type=Commits)
-* [qcacld-2.0: Fix buffer overwrite due to ssid_len in WMA handlers](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20due%20to%20ssid_len%20in%20WMA%20handlers&type=Commits)
-* [msm: mdss: adjust mdss_mdp_get_plane_sizes parameters init order](https://github.com/search?q=msm%3A%20mdss%3A%20adjust%20mdss_mdp_get_plane_sizes%20parameters%20init%20order&type=Commits)
-* [Input: gtco - fix potential out-of-bound access](https://github.com/search?q=Input%3A%20gtco%20-%20fix%20potential%20out-of-bound%20access&type=Commits)
-* [msm: sensor: actuator: fix out of bound read for region params](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20fix%20out%20of%20bound%20read%20for%20region%20params&type=Commits)
-* [msm: sensor: actuator: add null pointer check for i2c array](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20add%20null%20pointer%20check%20for%20i2c%20array&type=Commits)
-* [msm: camera: sensor: Validate destination step position](https://github.com/search?q=msm%3A%20camera%3A%20sensor%3A%20Validate%20destination%20step%20position&type=Commits)
-* [msm: sensor: actuator: check NULL pointer for actuator ctrl](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20check%20NULL%20pointer%20for%20actuator%20ctrl&type=Commits)
-* [msm: sensor: actuator: avoid accessing out of bound memory](https://github.com/search?q=msm%3A%20sensor%3A%20actuator%3A%20avoid%20accessing%20out%20of%20bound%20memory&type=Commits)
-* [qcacld-2.0: Add mutex lock for proc handlers](https://github.com/search?q=qcacld-2.0%3A%20Add%20mutex%20lock%20for%20proc%20handlers&type=Commits)
-
-#### Device specific Changes of 06-02-2018 End.
-
-***
-
 #### Resurrection Remix OS - Oreo source changes of 06-02-2018:
 
+#### frameworks/base/
+* [Keyguard: Fix Turkish translation](https://github.com/search?q=Keyguard%3A%20Fix%20Turkish%20translation&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/apps/Settings/
+* [Merge pull request #968 from TTTT555/oreo](https://github.com/search?q=Merge%20pull%20request%20%23968%20from%20TTTT555/oreo&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [Added Nubia Z9 mini  Maintainer https://github.com/TTTT555/android_device_nubia_nx511j/tree/rr-o https://github.com/TTTT555/android_kernel_nubia_nx511j https://github.com/TTTT555/android_vendor_nubia_nx511j ROM: https://drive.google.com/file/d/1DxzKFvqCPN63L2jtXL4TgU9xHdj2zIYb https://user-images.githubusercontent.com/34489574/40805819-d4f50a58-651f-11e8-83d5-b52381610da3.png @mracar](https://github.com/search?q=Added%20Nubia%20Z9%20mini%20%20Maintainer%20https%3A//github.com/TTTT555/android_device_nubia_nx511j/tree/rr-o%20https%3A//github.com/TTTT555/android_kernel_nubia_nx511j%20https%3A//github.com/TTTT555/android_vendor_nubia_nx511j%20ROM%3A%20https%3A//drive.google.com/file/d/1DxzKFvqCPN63L2jtXL4TgU9xHdj2zIYb%20https%3A//user-images.githubusercontent.com/34489574/40805819-d4f50a58-651f-11e8-83d5-b52381610da3.png%20%40mracar&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 06-02-2018 End.
 
