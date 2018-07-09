@@ -3,6 +3,15 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
+07-09-2018
+====================
+
+* [defconfig disable esdfs](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20esdfs&type=Commits)
+* [V 9.7](https://github.com/bhb27/BHB27Kernel/search?q=V%209.7&type=Commits)
+* [mmc: block: hardcoded disable secdiscard](https://github.com/bhb27/BHB27Kernel/search?q=mmc%3A%20block%3A%20hardcoded%20disable%20secdiscard&type=Commits)
+
+***
+
 07-07-2018
 ====================
 
