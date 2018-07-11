@@ -3,6 +3,74 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-11-2018
+====================
+
+#### Device specific Changes of 07-11-2018 Start:
+
+#### Kernel/Quark/
+* [net: wireless: drop all country regulatory domain](https://github.com/search?q=net%3A%20wireless%3A%20drop%20all%20country%20regulatory%20domain&type=Commits)
+
+#### Device specific Changes of 07-11-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-11-2018:
+
+#### packages/apps/Settings/
+* [Update device maintainer for YU Yureka Black(garlic)](https://github.com/search?q=Update%20device%20maintainer%20for%20YU%20Yureka%20Black%28garlic%29&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-11-2018 End.
+
+07-10-2018
+====================
+
+#### Device specific Changes of 07-10-2018 Start:
+
+#### Device/Quark/
+* [Quark: reset media_profiles to quark default](https://github.com/search?q=Quark%3A%20reset%20media_profiles%20to%20quark%20default&type=Commits)
+* [QUark: overlay remove reference to com.qualcomm.location](https://github.com/search?q=QUark%3A%20overlay%20remove%20reference%20to%20com.qualcomm.location&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: cleanup quark-vendor.mk](https://github.com/search?q=Quark%3A%20cleanup%20quark-vendor.mk&type=Commits)
+* [Quark: don't pack com.qualcomm.location.xml](https://github.com/search?q=Quark%3A%20don%27t%20pack%20com.qualcomm.location.xml&type=Commits)
+* [Revert "Quark: update and build com.qualcomm.location"](https://github.com/search?q=Revert%20"Quark%3A%20update%20and%20build%20com.qualcomm.location"&type=Commits)
+
+#### Device specific Changes of 07-10-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-10-2018:
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-10-2018 End.
+
 07-09-2018
 ====================
 
@@ -16,9 +84,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [mmc: block: hardcoded disable secdiscard](https://github.com/search?q=mmc%3A%20block%3A%20hardcoded%20disable%20secdiscard&type=Commits)
 
 #### Vendor/Quark/
-* [Quark: cleanup quark-vendor.mk](https://github.com/search?q=Quark%3A%20cleanup%20quark-vendor.mk&type=Commits)
-* [Quark: don't pack com.qualcomm.location.xml](https://github.com/search?q=Quark%3A%20don%27t%20pack%20com.qualcomm.location.xml&type=Commits)
-* [Revert "Quark: update and build com.qualcomm.location"](https://github.com/search?q=Revert%20"Quark%3A%20update%20and%20build%20com.qualcomm.location"&type=Commits)
 * [Quark: add aptx_encoder needed for oreo](https://github.com/search?q=Quark%3A%20add%20aptx_encoder%20needed%20for%20oreo&type=Commits)
 * [Quark: update and build com.qualcomm.location](https://github.com/search?q=Quark%3A%20update%20and%20build%20com.qualcomm.location&type=Commits)
 * [Quark: permission update uid qcom_diag -> oem_2950](https://github.com/search?q=Quark%3A%20permission%20update%20uid%20qcom_diag%20->%20oem_2950&type=Commits)
@@ -130,6 +195,15 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [power-845: Fix compilation errors](https://github.com/search?q=power-845%3A%20Fix%20compilation%20errors&type=Commits)
 * [Fix interaction boost higher cpu freq perflock](https://github.com/search?q=Fix%20interaction%20boost%20higher%20cpu%20freq%20perflock&type=Commits)
 * [power: Adding hints for SDM845](https://github.com/search?q=power%3A%20Adding%20hints%20for%20SDM845&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Settings/
 * [Now we have Official Kirin GSI's](https://github.com/search?q=Now%20we%20have%20Official%20Kirin%20GSI%27s&type=Commits)
