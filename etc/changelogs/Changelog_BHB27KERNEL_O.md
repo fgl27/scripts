@@ -3,6 +3,17 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
+07-11-2018
+====================
+
+* [net: wireless: drop all country regulatory domain](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20drop%20all%20country%20regulatory%20domain&type=Commits)
+* [defconfig fix missing comented out flag and reenable KERNEL_LZ4](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20fix%20missing%20comented%20out%20flag%20and%20reenable%20KERNEL_LZ4&type=Commits)
+* [V 9.8](https://github.com/bhb27/BHB27Kernel/search?q=V%209.8&type=Commits)
+* [defconfig regenerate](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20regenerate&type=Commits)
+* [cpufreq: Save state for entire cluster when the last CPU goes offline](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Save%20state%20for%20entire%20cluster%20when%20the%20last%20CPU%20goes%20offline&type=Commits)
+
+***
+
 07-09-2018
 ====================
 
