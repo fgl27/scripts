@@ -3,6 +3,48 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-13-2018
+====================
+
+#### Device specific Changes of 07-13-2018 Start:
+
+#### Device/Quark/
+* [Quark: mdm_helper: do it like they do on the discovery channel](https://github.com/search?q=Quark%3A%20mdm_helper%3A%20do%20it%20like%20they%20do%20on%20the%20discovery%20channel&type=Commits)
+* [Quark: init remove changes to mdm_helper](https://github.com/search?q=Quark%3A%20init%20remove%20changes%20to%20mdm_helper&type=Commits)
+* [Quark: init.qcom.rc: Set subsystem restart policy as on shamu](https://github.com/search?q=Quark%3A%20init.qcom.rc%3A%20Set%20subsystem%20restart%20policy%20as%20on%20shamu&type=Commits)
+* [Quark: init creat data/misc/perfd frolder](https://github.com/search?q=Quark%3A%20init%20creat%20data/misc/perfd%20frolder&type=Commits)
+* [Quark: init move boot_adsp/boot to fs](https://github.com/search?q=Quark%3A%20init%20move%20boot_adsp/boot%20to%20fs&type=Commits)
+* [Quark: Add dummy build.prop file for HDR init](https://github.com/search?q=Quark%3A%20Add%20dummy%20build.prop%20file%20for%20HDR%20init&type=Commits)
+* [Revert "Quark: Use camera impl-legacy and reset CameraWrapper changes"](https://github.com/search?q=Revert%20"Quark%3A%20Use%20camera%20impl-legacy%20and%20reset%20CameraWrapper%20changes"&type=Commits)
+* [Quark: kernel use default toolchain](https://github.com/search?q=Quark%3A%20kernel%20use%20default%20toolchain&type=Commits)
+* [Quark: overlay remove camera pinne](https://github.com/search?q=Quark%3A%20overlay%20remove%20camera%20pinne&type=Commits)
+* [Quark: lineageactions add a gestures tile](https://github.com/search?q=Quark%3A%20lineageactions%20add%20a%20gestures%20tile&type=Commits)
+* [Quark: lineageactions move to vendor](https://github.com/search?q=Quark%3A%20lineageactions%20move%20to%20vendor&type=Commits)
+
+#### Kernel/Quark/
+* [Revert "esoc: mdm: do a emergency restart when booting fails"](https://github.com/search?q=Revert%20"esoc%3A%20mdm%3A%20do%20a%20emergency%20restart%20when%20booting%20fails"&type=Commits)
+* [subsystem restart: Support recovery policy](https://github.com/search?q=subsystem%20restart%3A%20Support%20recovery%20policy&type=Commits)
+* [qcacld-2.0/Kbuild Disable "maybe-uninitialized"](https://github.com/search?q=qcacld-2.0/Kbuild%20Disable%20"maybe-uninitialized"&type=Commits)
+* [ARM: msm: GCC Version change.](https://github.com/search?q=ARM%3A%20msm%3A%20GCC%20Version%20change.&type=Commits)
+* [ARM: 8692/1: mm: abort uaccess retries upon fatal signal](https://github.com/search?q=ARM%3A%208692/1%3A%20mm%3A%20abort%20uaccess%20retries%20upon%20fatal%20signal&type=Commits)
+* [Build remove wake time overwrite](https://github.com/search?q=Build%20remove%20wake%20time%20overwrite&type=Commits)
+* [wake_gesture: set all time to 250ms](https://github.com/search?q=wake_gesture%3A%20set%20all%20time%20to%20250ms&type=Commits)
+* [soc: qcom: rq_stats: Replace sscanf() with kstrtouint()](https://github.com/search?q=soc%3A%20qcom%3A%20rq_stats%3A%20Replace%20sscanf%28%29%20with%20kstrtouint%28%29&type=Commits)
+* [soc: qcom: rq_stats: Always show idle time left](https://github.com/search?q=soc%3A%20qcom%3A%20rq_stats%3A%20Always%20show%20idle%20time%20left&type=Commits)
+* [soc: qcom: rq_stats: Pass correct cpu id to update_average_load function](https://github.com/search?q=soc%3A%20qcom%3A%20rq_stats%3A%20Pass%20correct%20cpu%20id%20to%20update_average_load%20function&type=Commits)
+* [soc: qcom: rq_stats: remove the redundant iowait check](https://github.com/search?q=soc%3A%20qcom%3A%20rq_stats%3A%20remove%20the%20redundant%20iowait%20check&type=Commits)
+* [msm: rq_stats: move run queue stat driver to new location](https://github.com/search?q=msm%3A%20rq_stats%3A%20move%20run%20queue%20stat%20driver%20to%20new%20location&type=Commits)
+* [apq8084: msm: ADSPRPC: Perform process initialization in fastrpc_device_open](https://github.com/search?q=apq8084%3A%20msm%3A%20ADSPRPC%3A%20Perform%20process%20initialization%20in%20fastrpc_device_open&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: remove DEX_PREOPT = false](https://github.com/search?q=Quark%3A%20remove%20DEX_PREOPT%20=%20false&type=Commits)
+* [Quark: Hack Morph HDR initialization](https://github.com/search?q=Quark%3A%20Hack%20Morph%20HDR%20initialization&type=Commits)
+* [Quark: update adreno reader libs](https://github.com/search?q=Quark%3A%20update%20adreno%20reader%20libs&type=Commits)
+
+#### Device specific Changes of 07-13-2018 End.
+
+***
+
 07-11-2018
 ====================
 
