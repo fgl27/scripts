@@ -76,8 +76,18 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick fb694fb3e333d8c3ed366071635c6c93accd161c
-	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..2db6ec698e1a831b904527277eb137633abc973b
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 393ed84896908e5fba88247308e39185af937061
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 34f73f7a6a7b03467c2ee673dd96f6ba592961d0
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 771abdd472adee0f5674c861e2af6deda1bc1208
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 0e5960c2648b2b437129dcf0177ff373f24cd0a7
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 1490424574d446bb30ec09d7f2eac0b76201248e
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 79769c339ff96f248370aa9c926c6dacf31967c6
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick a4d8e26e6067459ad0fb045f76ff3f348fd80f0c
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 3e9ff27109fa6aa9b217f8195c3ea12a6a29f77d
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick e6db77bc83df7a0b2b584d4cba2434d917825c69
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 1f2653a7dc4deb972a394358b3ea8033c0de4cf2
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick e978701a6c69f408bd9267ed079b12e40dc9fda2
+	git fetch https://github.com/crdroidandroid/android_build/ 8.1 && git cherry-pick 9274f571a4f319daf9ab628d59f7ddfbcd77b732
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
