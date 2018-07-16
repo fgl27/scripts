@@ -107,7 +107,6 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git revert ddaccd2176683b6de272e7d2718557dbe9b9fe1b --no-edit
-	git revert 90fd648335032144de1900fcda33c96458eb2606 --no-edit
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
