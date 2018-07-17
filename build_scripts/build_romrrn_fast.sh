@@ -111,6 +111,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="device/qcom/sepolicy";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/bhb27/android_device_qcom_sepolicy/ lineage-15.1 && git cherry-pick 2eb6add4a54b5592aad6b90645995e81b40d1d48
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	folder="bionic";
 	echo -e "\\n	In Folder $folder \\n"
 
