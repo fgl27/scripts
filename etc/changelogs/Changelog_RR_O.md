@@ -3,6 +3,236 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-18-2018
+====================
+
+#### Device specific Changes of 07-18-2018 Start:
+
+#### Device/Quark/
+* [QUark: usb serial prop move to init.qcom.usb](https://github.com/search?q=QUark%3A%20usb%20serial%20prop%20move%20to%20init.qcom.usb&type=Commits)
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: update readme](https://github.com/search?q=Quark%3A%20update%20readme&type=Commits)
+* [Quark: remove permissive selinux](https://github.com/search?q=Quark%3A%20remove%20permissive%20selinux&type=Commits)
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: init set persist.usb.serialno for mmi.usb](https://github.com/search?q=Quark%3A%20init%20set%20persist.usb.serialno%20for%20mmi.usb&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: move all apps from priv to normal app folder](https://github.com/search?q=Quark%3A%20move%20all%20apps%20from%20priv%20to%20normal%20app%20folder&type=Commits)
+
+#### Device specific Changes of 07-18-2018 End.
+
+***
+
+07-17-2018
+====================
+
+#### Device specific Changes of 07-17-2018 Start:
+
+#### Device/Quark/
+* [Quark: update post.init.rr.sh](https://github.com/search?q=Quark%3A%20update%20post.init.rr.sh&type=Commits)
+* [Revert "Quark: lineageactions re add LOCAL_PRIVILEGED_MODULE"](https://github.com/search?q=Revert%20"Quark%3A%20lineageactions%20re%20add%20LOCAL_PRIVILEGED_MODULE"&type=Commits)
+* [Quark: fix file_contexts format](https://github.com/search?q=Quark%3A%20fix%20file_contexts%20format&type=Commits)
+* [Quark: update some init services and they sepolicy](https://github.com/search?q=Quark%3A%20update%20some%20init%20services%20and%20they%20sepolicy&type=Commits)
+* [Quark: install /firmware symlinks to /vendor](https://github.com/search?q=Quark%3A%20install%20/firmware%20symlinks%20to%20/vendor&type=Commits)
+* [Quark: change sbin file name to the standard](https://github.com/search?q=Quark%3A%20change%20sbin%20file%20name%20to%20the%20standard&type=Commits)
+* [Quark: add sepolicy for mmi*.sh files](https://github.com/search?q=Quark%3A%20add%20sepolicy%20for%20mmi*.sh%20files&type=Commits)
+
+#### Device specific Changes of 07-17-2018 End.
+
+***
+
+07-16-2018
+====================
+
+#### Device specific Changes of 07-16-2018 Start:
+
+#### Device/Quark/
+* [Quark: remove / from begining of declaration in configs/config.fs](https://github.com/search?q=Quark%3A%20remove%20/%20from%20begining%20of%20declaration%20in%20configs/config.fs&type=Commits)
+* [Quark: update fstab.qcom](https://github.com/search?q=Quark%3A%20update%20fstab.qcom&type=Commits)
+* [Quark: init system/vendor to just /vendor](https://github.com/search?q=Quark%3A%20init%20system/vendor%20to%20just%20/vendor&type=Commits)
+* [Quark: init remove reference to modules and init.qcom.wifi](https://github.com/search?q=Quark%3A%20init%20remove%20reference%20to%20modules%20and%20init.qcom.wifi&type=Commits)
+* [Quark: init.qcom.rc persist.audio.calfile path to vendor](https://github.com/search?q=Quark%3A%20init.qcom.rc%20persist.audio.calfile%20path%20to%20vendor&type=Commits)
+* [Quark: lineageactions re add LOCAL_PRIVILEGED_MODULE](https://github.com/search?q=Quark%3A%20lineageactions%20re%20add%20LOCAL_PRIVILEGED_MODULE&type=Commits)
+* [Quark: update configs/config.fs](https://github.com/search?q=Quark%3A%20update%20configs/config.fs&type=Commits)
+* [Quark: drop ril caf](https://github.com/search?q=Quark%3A%20drop%20ril%20caf&type=Commits)
+* [Quark: update configs/config.fs](https://github.com/search?q=Quark%3A%20update%20configs/config.fs&type=Commits)
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: update readme](https://github.com/search?q=Quark%3A%20update%20readme&type=Commits)
+* [Quark: move bin to vendor](https://github.com/search?q=Quark%3A%20move%20bin%20to%20vendor&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: move etc/diag_mdlog to vendor](https://github.com/search?q=Quark%3A%20move%20etc/diag_mdlog%20to%20vendor&type=Commits)
+* [Quark: move video and media firmware to vendor](https://github.com/search?q=Quark%3A%20move%20video%20and%20media%20firmware%20to%20vendor&type=Commits)
+* [Quark: move screen and bluetooth firmware to vendor](https://github.com/search?q=Quark%3A%20move%20screen%20and%20bluetooth%20firmware%20to%20vendor&type=Commits)
+* [Quark: move camera firmware to vendor](https://github.com/search?q=Quark%3A%20move%20camera%20firmware%20to%20vendor&type=Commits)
+* [Quark: move stm401 firmware to vendor and sed stm401](https://github.com/search?q=Quark%3A%20move%20stm401%20firmware%20to%20vendor%20and%20sed%20stm401&type=Commits)
+* [Quark: move audio and adreno firmware to vendor + sed adspd](https://github.com/search?q=Quark%3A%20move%20audio%20and%20adreno%20firmware%20to%20vendor%20+%20sed%20adspd&type=Commits)
+* [Quark: update qcrilmsgtunnel](https://github.com/search?q=Quark%3A%20update%20qcrilmsgtunnel&type=Commits)
+* [Quark: add bcm20795_firmware.ncd](https://github.com/search?q=Quark%3A%20add%20bcm20795_firmware.ncd&type=Commits)
+* [Quark: move acdbdata to vendor](https://github.com/search?q=Quark%3A%20move%20acdbdata%20to%20vendor&type=Commits)
+* [Quark: move apps to vendor](https://github.com/search?q=Quark%3A%20move%20apps%20to%20vendor&type=Commits)
+* [Quark: remove vendor/lib/libbt-vendor.so](https://github.com/search?q=Quark%3A%20remove%20vendor/lib/libbt-vendor.so&type=Commits)
+* [Quark: move permission to vendor](https://github.com/search?q=Quark%3A%20move%20permission%20to%20vendor&type=Commits)
+* [Quark: move all bin to vendor](https://github.com/search?q=Quark%3A%20move%20all%20bin%20to%20vendor&type=Commits)
+* [Quark: sed references to system/bin to vendor/bin](https://github.com/search?q=Quark%3A%20sed%20references%20to%20system/bin%20to%20vendor/bin&type=Commits)
+* [Quark: Load bluetooth firmwares from /vendor](https://github.com/search?q=Quark%3A%20Load%20bluetooth%20firmwares%20from%20/vendor&type=Commits)
+
+#### Device specific Changes of 07-16-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-16-2018:
+
+#### build/make/
+* [build: Allow devices to provide prebuilt vbmeta image](https://github.com/search?q=build%3A%20Allow%20devices%20to%20provide%20prebuilt%20vbmeta%20image&type=Commits)
+* [build: recovery: add vendor to exclusion list](https://github.com/search?q=build%3A%20recovery%3A%20add%20vendor%20to%20exclusion%20list&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Allow binderized keymaster HAL access to firmware files.](https://github.com/search?q=Allow%20binderized%20keymaster%20HAL%20access%20to%20firmware%20files.&type=Commits)
+
+#### device/rr/sepolicy/
+* [Make fuseblk use vfat context](https://github.com/search?q=Make%20fuseblk%20use%20vfat%20context&type=Commits)
+
+#### frameworks/base/
+* [Disable warning in StaticLayout](https://github.com/search?q=Disable%20warning%20in%20StaticLayout&type=Commits)
+* [Don't spoil printservice log if not needed](https://github.com/search?q=Don%27t%20spoil%20printservice%20log%20if%20not%20needed&type=Commits)
+* [Don't crash if there is IR HAL is not declared](https://github.com/search?q=Don%27t%20crash%20if%20there%20is%20IR%20HAL%20is%20not%20declared&type=Commits)
+* [Fix janky traffic indicator tint](https://github.com/search?q=Fix%20janky%20traffic%20indicator%20tint&type=Commits)
+* [Fix broadcast receiver leak issue](https://github.com/search?q=Fix%20broadcast%20receiver%20leak%20issue&type=Commits)
+* [base: recents: properly size task lock icon in stock recents](https://github.com/search?q=base%3A%20recents%3A%20properly%20size%20task%20lock%20icon%20in%20stock%20recents&type=Commits)
+* [Check for null path in getInternalPathForUser](https://github.com/search?q=Check%20for%20null%20path%20in%20getInternalPathForUser&type=Commits)
+* [ScanRecord.getServiceData NPE fix](https://github.com/search?q=ScanRecord.getServiceData%20NPE%20fix&type=Commits)
+* [Return null if a provider died before acquisition](https://github.com/search?q=Return%20null%20if%20a%20provider%20died%20before%20acquisition&type=Commits)
+* [MtpDatabase: Fix potential NULL dereference errors](https://github.com/search?q=MtpDatabase%3A%20Fix%20potential%20NULL%20dereference%20errors&type=Commits)
+* [core: ChooserActivity: fix android crash from null object](https://github.com/search?q=core%3A%20ChooserActivity%3A%20fix%20android%20crash%20from%20null%20object&type=Commits)
+* [fix synchronization bug when notification enqueue/cancel](https://github.com/search?q=fix%20synchronization%20bug%20when%20notification%20enqueue/cancel&type=Commits)
+* [Themes: fix vpn status dialog](https://github.com/search?q=Themes%3A%20fix%20vpn%20status%20dialog&type=Commits)
+* [Move BT state to OFF when BLE app count is zero](https://github.com/search?q=Move%20BT%20state%20to%20OFF%20when%20BLE%20app%20count%20is%20zero&type=Commits)
+* [Account: Fix the risk of sqliteconnection leak](https://github.com/search?q=Account%3A%20Fix%20the%20risk%20of%20sqliteconnection%20leak&type=Commits)
+* [base: SystemUI: center roaming indicator correctly](https://github.com/search?q=base%3A%20SystemUI%3A%20center%20roaming%20indicator%20correctly&type=Commits)
+* [SystemUI: stop filling logcat with useless stacktrace](https://github.com/search?q=SystemUI%3A%20stop%20filling%20logcat%20with%20useless%20stacktrace&type=Commits)
+* [Release SQLite page cache as much as it can](https://github.com/search?q=Release%20SQLite%20page%20cache%20as%20much%20as%20it%20can&type=Commits)
+* [Remove unused calling for better performance](https://github.com/search?q=Remove%20unused%20calling%20for%20better%20performance&type=Commits)
+* [core: Fix long overflow issue in NetworkStats](https://github.com/search?q=core%3A%20Fix%20long%20overflow%20issue%20in%20NetworkStats&type=Commits)
+* [Fix problems caused by multithreading in VibratorService](https://github.com/search?q=Fix%20problems%20caused%20by%20multithreading%20in%20VibratorService&type=Commits)
+* [SystemUI: Wallpaper is black or cut in half vertically](https://github.com/search?q=SystemUI%3A%20Wallpaper%20is%20black%20or%20cut%20in%20half%20vertically&type=Commits)
+* [SystemUI: Keyguard: fix sim pin](https://github.com/search?q=SystemUI%3A%20Keyguard%3A%20fix%20sim%20pin&type=Commits)
+* [SystemUI: Fix Data Usage tile to match Settings](https://github.com/search?q=SystemUI%3A%20Fix%20Data%20Usage%20tile%20to%20match%20Settings&type=Commits)
+* [Speed up the speed of computer MTP query](https://github.com/search?q=Speed%20up%20the%20speed%20of%20computer%20MTP%20query&type=Commits)
+* [Fix a 'memory leak'](https://github.com/search?q=Fix%20a%20%27memory%20leak%27&type=Commits)
+* [Location: Skip processing when reciever pointer is null](https://github.com/search?q=Location%3A%20Skip%20processing%20when%20reciever%20pointer%20is%20null&type=Commits)
+* [SystemUI: require auth for adb wireless](https://github.com/search?q=SystemUI%3A%20require%20auth%20for%20adb%20wireless&type=Commits)
+* [base: limit direct share targets to reduce lag](https://github.com/search?q=base%3A%20limit%20direct%20share%20targets%20to%20reduce%20lag&type=Commits)
+
+#### frameworks/native/
+* [Revert "InputDispatcher: On keypress, deliver keycode to pokeUserActivity"](https://github.com/search?q=Revert%20"InputDispatcher%3A%20On%20keypress,%20deliver%20keycode%20to%20pokeUserActivity"&type=Commits)
+* [Revert "PowerManager.h: Define USER_ACTIVITY_FLAG values"](https://github.com/search?q=Revert%20"PowerManager.h%3A%20Define%20USER_ACTIVITY_FLAG%20values"&type=Commits)
+
+#### lineage-sdk/
+* [styles: do not enforce permission when it's not needed](https://github.com/search?q=styles%3A%20do%20not%20enforce%20permission%20when%20it%27s%20not%20needed&type=Commits)
+* [sdk: Trust: better warnings management](https://github.com/search?q=sdk%3A%20Trust%3A%20better%20warnings%20management&type=Commits)
+* [Regen lineage_current](https://github.com/search?q=Regen%20lineage_current&type=Commits)
+* [lineage-sdk: Introduce TelephonyExtUtils](https://github.com/search?q=lineage-sdk%3A%20Introduce%20TelephonyExtUtils&type=Commits)
+* [Trust: warn if build is signed with insecure keys](https://github.com/search?q=Trust%3A%20warn%20if%20build%20is%20signed%20with%20insecure%20keys&type=Commits)
+* [TrustInterface: Handle unsupported encryption state](https://github.com/search?q=TrustInterface%3A%20Handle%20unsupported%20encryption%20state&type=Commits)
+* [Trust: add action to disable alerts to notifications](https://github.com/search?q=Trust%3A%20add%20action%20to%20disable%20alerts%20to%20notifications&type=Commits)
+
+#### packages/apps/LineageParts/
+* [parts: Trust: better warnings management](https://github.com/search?q=parts%3A%20Trust%3A%20better%20warnings%20management&type=Commits)
+* [LineageParts: Complete and correct SMS limits port](https://github.com/search?q=LineageParts%3A%20Complete%20and%20correct%20SMS%20limits%20port&type=Commits)
+* [parts: add SMS rate limit setting](https://github.com/search?q=parts%3A%20add%20SMS%20rate%20limit%20setting&type=Commits)
+* [Align trust onboarding welcome change](https://github.com/search?q=Align%20trust%20onboarding%20welcome%20change&type=Commits)
+* [Parts: expose toggle for disabling trust alerts](https://github.com/search?q=Parts%3A%20expose%20toggle%20for%20disabling%20trust%20alerts&type=Commits)
+
+#### packages/apps/Settings/
+* [settings: Add platform and RAM to "Model & Hardware" dialogue](https://github.com/search?q=settings%3A%20Add%20platform%20and%20RAM%20to%20"Model%20&%20Hardware"%20dialogue&type=Commits)
+* [DisplaySettings: Allow devices to opt out from lift to wake detection](https://github.com/search?q=DisplaySettings%3A%20Allow%20devices%20to%20opt%20out%20from%20lift%20to%20wake%20detection&type=Commits)
+* [Settings: handle decrypting larger pattern sizes for sw600dp](https://github.com/search?q=Settings%3A%20handle%20decrypting%20larger%20pattern%20sizes%20for%20sw600dp&type=Commits)
+
+#### system/core/
+* [adb: Add wait-for-online command](https://github.com/search?q=adb%3A%20Add%20wait-for-online%20command&type=Commits)
+* [camera: Add L-compatible camera feature enums](https://github.com/search?q=camera%3A%20Add%20L-compatible%20camera%20feature%20enums&type=Commits)
+
+#### vendor/rr/
+* [extract_utils: Newline love for adb extraction](https://github.com/search?q=extract_utils%3A%20Newline%20love%20for%20adb%20extraction&type=Commits)
+* [apns: sprint mms: mms.sprintpcs.com > oap7.sprintpcs.com](https://github.com/search?q=apns%3A%20sprint%20mms%3A%20mms.sprintpcs.com%20>%20oap7.sprintpcs.com&type=Commits)
+* [apns: sprint: n.ispsn -> x.ispsn](https://github.com/search?q=apns%3A%20sprint%3A%20n.ispsn%20->%20x.ispsn&type=Commits)
+* [build: Add support for sdm845 platform](https://github.com/search?q=build%3A%20Add%20support%20for%20sdm845%20platform&type=Commits)
+* [envsetup: Filter unique push paths in dopush](https://github.com/search?q=envsetup%3A%20Filter%20unique%20push%20paths%20in%20dopush&type=Commits)
+* [envsetup: Fix adb recovery state detections](https://github.com/search?q=envsetup%3A%20Fix%20adb%20recovery%20state%20detections&type=Commits)
+* [extract_utils: make get_file() able to search paths with and w/o /system prefix](https://github.com/search?q=extract_utils%3A%20make%20get_file%28%29%20able%20to%20search%20paths%20with%20and%20w/o%20/system%20prefix&type=Commits)
+* [extract_utils: extract(): fix src not being searched in "src:dst;args" spec](https://github.com/search?q=extract_utils%3A%20extract%28%29%3A%20fix%20src%20not%20being%20searched%20in%20"src%3Adst;args"%20spec&type=Commits)
+* [extract_utils: extract(): rename DEST variable to VENDOR_REPO_FILE](https://github.com/search?q=extract_utils%3A%20extract%28%29%3A%20rename%20DEST%20variable%20to%20VENDOR_REPO_FILE&type=Commits)
+* [extract_utils: extract(): rename ARGS variable to SPEC_ARGS](https://github.com/search?q=extract_utils%3A%20extract%28%29%3A%20rename%20ARGS%20variable%20to%20SPEC_ARGS&type=Commits)
+* [extract_utils: extract(): rename FILE variable to SPEC_SRC_FILE](https://github.com/search?q=extract_utils%3A%20extract%28%29%3A%20rename%20FILE%20variable%20to%20SPEC_SRC_FILE&type=Commits)
+* [extract_utils: extract(): rename FROM variable to SPEC_DST_FILE](https://github.com/search?q=extract_utils%3A%20extract%28%29%3A%20rename%20FROM%20variable%20to%20SPEC_DST_FILE&type=Commits)
+* [extract_utils: create src_file() function to mirror behavior of target_file()](https://github.com/search?q=extract_utils%3A%20create%20src_file%28%29%20function%20to%20mirror%20behavior%20of%20target_file%28%29&type=Commits)
+* [extract_utils: prefix_match(): do not strip target_args from its output](https://github.com/search?q=extract_utils%3A%20prefix_match%28%29%3A%20do%20not%20strip%20target_args%20from%20its%20output&type=Commits)
+* [extract_utils: target_file() and target_args() cleanup](https://github.com/search?q=extract_utils%3A%20target_file%28%29%20and%20target_args%28%29%20cleanup&type=Commits)
+* [Revert "extract_files: Add support for paths without system/"](https://github.com/search?q=Revert%20"extract_files%3A%20Add%20support%20for%20paths%20without%20system/"&type=Commits)
+* [Revert "extract_utils: Fix makefile generation issues"](https://github.com/search?q=Revert%20"extract_utils%3A%20Fix%20makefile%20generation%20issues"&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-16-2018 End.
+
+07-15-2018
+====================
+
+#### Device specific Changes of 07-15-2018 Start:
+
+#### Device/Quark/
+* [Revert "Quark: squash improve boot time"](https://github.com/search?q=Revert%20"Quark%3A%20squash%20improve%20boot%20time"&type=Commits)
+* [Revert "Quark: fix missing / in device.mk"](https://github.com/search?q=Revert%20"Quark%3A%20fix%20missing%20/%20in%20device.mk"&type=Commits)
+* [Revert "Quark: update fstab.qcom"](https://github.com/search?q=Revert%20"Quark%3A%20update%20fstab.qcom"&type=Commits)
+* [Quark: re-enable sdlang](https://github.com/search?q=Quark%3A%20re-enable%20sdlang&type=Commits)
+* [Quark: update fstab.qcom](https://github.com/search?q=Quark%3A%20update%20fstab.qcom&type=Commits)
+* [Quark: fix missing / in device.mk](https://github.com/search?q=Quark%3A%20fix%20missing%20/%20in%20device.mk&type=Commits)
+* [Quark: init.power disable bcl hotunplug and set a higher freq at boot complete](https://github.com/search?q=Quark%3A%20init.power%20disable%20bcl%20hotunplug%20and%20set%20a%20higher%20freq%20at%20boot%20complete&type=Commits)
+* [Quark: delete dalvik framework@boot-telephony-common* files](https://github.com/search?q=Quark%3A%20delete%20dalvik%20framework%40boot-telephony-common*%20files&type=Commits)
+* [Quark: squash improve boot time](https://github.com/search?q=Quark%3A%20squash%20improve%20boot%20time&type=Commits)
+* [Quark: Update sepolicy](https://github.com/search?q=Quark%3A%20Update%20sepolicy&type=Commits)
+
+#### Device specific Changes of 07-15-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-15-2018:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Update maintainers for Z00L & Z00T](https://github.com/search?q=Settings%3A%20Update%20maintainers%20for%20Z00L%20&%20Z00T&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-15-2018 End.
+
+07-14-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 07-14-2018:
+
+#### frameworks/native/
+* [sensorservice: customize sensor fusion mag filter via prop](https://github.com/search?q=sensorservice%3A%20customize%20sensor%20fusion%20mag%20filter%20via%20prop&type=Commits)
+
+#### hardware/qcom/power/
+* [power: Allow devices disabling power stats completely](https://github.com/search?q=power%3A%20Allow%20devices%20disabling%20power%20stats%20completely&type=Commits)
+
+#### packages/apps/Settings/
+* [Update maintainer for merlin](https://github.com/search?q=Update%20maintainer%20for%20merlin&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-14-2018 End.
+
 07-13-2018
 ====================
 
