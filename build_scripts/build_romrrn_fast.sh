@@ -147,10 +147,19 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="vendor/rr";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/bhb27/android_vendor_resurrection/ oreo && git cherry-pick 98e4dfcddab09148bc22062613e882f7157844c9
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 fi
 
 export days_to_log=0
-export RR_BUILDTYPE="Experimental"
+export RR_BUILDTYPE="Mod"
 export WITH_ROOT_METHOD="rootless"
 export WITH_SU=true
 export ROM_VVV=$(grep PRODUCT_VERSION vendor/rr/config/common.mk | head -1 | awk '{print $3}');
