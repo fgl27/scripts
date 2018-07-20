@@ -102,15 +102,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="hardware/qcom/bt-caf";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git revert ddaccd2176683b6de272e7d2718557dbe9b9fe1b --no-edit
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 	folder="device/qcom/sepolicy";
 	echo -e "\\n	In Folder $folder \\n"
 
