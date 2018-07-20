@@ -3,6 +3,20 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
+07-20-2018
+====================
+
+* [defconfig disable mmc test](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20mmc%20test&type=Commits)
+* [defconfig update](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20update&type=Commits)
+* [ANDROID: cpufreq_stats: Fix task time in state locking](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20cpufreq_stats%3A%20Fix%20task%20time%20in%20state%20locking&type=Commits)
+* [sched: Fix bug in average nr_running and nr_iowait calculation](https://github.com/bhb27/BHB27Kernel/search?q=sched%3A%20Fix%20bug%20in%20average%20nr_running%20and%20nr_iowait%20calculation&type=Commits)
+* [v 9.10](https://github.com/bhb27/BHB27Kernel/search?q=v%209.10&type=Commits)
+* [build remove ro.panel.mountflip](https://github.com/bhb27/BHB27Kernel/search?q=build%20remove%20ro.panel.mountflip&type=Commits)
+* [arm: dts: enable 180 panel-orientation](https://github.com/bhb27/BHB27Kernel/search?q=arm%3A%20dts%3A%20enable%20180%20panel-orientation&type=Commits)
+* [msm: mdss: enable support for flipped panels](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20mdss%3A%20enable%20support%20for%20flipped%20panels&type=Commits)
+
+***
+
 07-13-2018
 ====================
 
