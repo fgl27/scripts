@@ -3,6 +3,37 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-20-2018
+====================
+
+#### Device specific Changes of 07-20-2018 Start:
+
+#### Device/Quark/
+* [Quark: switch to lineage vibrator service](https://github.com/search?q=Quark%3A%20switch%20to%20lineage%20vibrator%20service&type=Commits)
+* [Quark: remove ro.panel.mountflip](https://github.com/search?q=Quark%3A%20remove%20ro.panel.mountflip&type=Commits)
+* [Quark: upadte README.md](https://github.com/search?q=Quark%3A%20upadte%20README.md&type=Commits)
+* [Quark: add shim for wifi_qsap_set_tx_power](https://github.com/search?q=Quark%3A%20add%20shim%20for%20wifi_qsap_set_tx_power&type=Commits)
+* [Quark: updata proprietary-files.txt](https://github.com/search?q=Quark%3A%20updata%20proprietary-files.txt&type=Commits)
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: Fix BT config](https://github.com/search?q=Quark%3A%20Fix%20BT%20config&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig disable mmc test](https://github.com/search?q=defconfig%20disable%20mmc%20test&type=Commits)
+* [defconfig update](https://github.com/search?q=defconfig%20update&type=Commits)
+* [ANDROID: cpufreq_stats: Fix task time in state locking](https://github.com/search?q=ANDROID%3A%20cpufreq_stats%3A%20Fix%20task%20time%20in%20state%20locking&type=Commits)
+* [sched: Fix bug in average nr_running and nr_iowait calculation](https://github.com/search?q=sched%3A%20Fix%20bug%20in%20average%20nr_running%20and%20nr_iowait%20calculation&type=Commits)
+* [arm: dts: enable 180 panel-orientation](https://github.com/search?q=arm%3A%20dts%3A%20enable%20180%20panel-orientation&type=Commits)
+* [msm: mdss: enable support for flipped panels](https://github.com/search?q=msm%3A%20mdss%3A%20enable%20support%20for%20flipped%20panels&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+* [Quark: update mdm bin/libs](https://github.com/search?q=Quark%3A%20update%20mdm%20bin/libs&type=Commits)
+* [Quark: use samsung apq8084-common wcnss_filter](https://github.com/search?q=Quark%3A%20use%20samsung%20apq8084-common%20wcnss_filter&type=Commits)
+
+#### Device specific Changes of 07-20-2018 End.
+
+***
+
 07-18-2018
 ====================
 
