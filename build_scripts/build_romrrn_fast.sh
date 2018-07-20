@@ -45,24 +45,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="frameworks/native/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git fetch https://github.com/bhb27/frameworks_native/ oreo && git cherry-pick 01df205b39e2465a36deaf11f76f8a63da414c3d
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
-	folder="system/core/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git fetch https://github.com/bhb27/system_core/ lineage-15.1 && git cherry-pick 2ae38319deb341f5a87c60f19ed7efca19e9c103
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 	folder="packages/apps/Nfc";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -116,15 +98,6 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/android_bionic/ lineage-15.1 && git cherry-pick 279c7ed48cc03733553e7f4cef0735e4302a6b6e
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
-	folder="system/qcom";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git fetch https://github.com/bhb27/android_system_qcom/ lineage-15.1 && git cherry-pick 6b839a2decf5cce326d0933d0402ad5fb86e526f
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
