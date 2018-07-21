@@ -40,7 +40,7 @@ if [ "$input1" == "1" ]; then
 	cd $folder
 	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick e26bc1c06abe7a382375a3e9ed3311ec4927d306
 	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick add501e5811333e41fbb4436387a46bcec8132fe
-	git fetch https://github.com/bhb27/android_frameworks_base/ oreo && git cherry-pick 80f4c1e698989d29af045209444eb948f8ed1719^..67052a616b9265216f5e41f4ba8d12e9a8586706
+	git fetch https://github.com/bhb27/android_frameworks_base/ oreo && git cherry-pick 80f4c1e698989d29af045209444eb948f8ed1719^..793443f92441170ed057508c7b8b42615cea41a8
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
