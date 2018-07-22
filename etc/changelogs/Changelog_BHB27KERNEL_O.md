@@ -3,6 +3,17 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
+07-22-2018
+====================
+
+* [Revert "arm: dts: enable 180 panel-orientation"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"arm%3A%20dts%3A%20enable%20180%20panel-orientation"&type=Commits)
+* [Revert "build remove ro.panel.mountflip"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"build%20remove%20ro.panel.mountflip"&type=Commits)
+* [arch/dts apq8084 ram overclock](https://github.com/bhb27/BHB27Kernel/search?q=arch/dts%20apq8084%20ram%20overclock&type=Commits)
+* [apq8084-quark 9.11](https://github.com/bhb27/BHB27Kernel/search?q=apq8084-quark%209.11&type=Commits)
+* [arm/dtd: cleanup Quark dtb](https://github.com/bhb27/BHB27Kernel/search?q=arm/dtd%3A%20cleanup%20Quark%20dtb&type=Commits)
+
+***
+
 07-20-2018
 ====================
 

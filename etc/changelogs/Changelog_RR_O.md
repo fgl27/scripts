@@ -3,6 +3,74 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-22-2018
+====================
+
+#### Device specific Changes of 07-22-2018 Start:
+
+#### Device/Quark/
+* [Up README.md](https://github.com/search?q=Up%20README.md&type=Commits)
+* [Revert "Quark: remove ro.panel.mountflip"](https://github.com/search?q=Revert%20"Quark%3A%20remove%20ro.panel.mountflip"&type=Commits)
+
+#### Kernel/Quark/
+* [arm/dtd: cleanup Quark dtb](https://github.com/search?q=arm/dtd%3A%20cleanup%20Quark%20dtb&type=Commits)
+* [Revert "arm: dts: enable 180 panel-orientation"](https://github.com/search?q=Revert%20"arm%3A%20dts%3A%20enable%20180%20panel-orientation"&type=Commits)
+
+#### Vendor/Quark/
+* [Quark up KernelAdiutor.apk](https://github.com/search?q=Quark%20up%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 07-22-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-22-2018:
+#### android/
+* [manifest: Switch to forked external/libdrm](https://github.com/search?q=manifest%3A%20Switch%20to%20forked%20external/libdrm&type=Commits)
+* [Add hardware/lineage/telephony to the manifest](https://github.com/search?q=Add%20hardware/lineage/telephony%20to%20the%20manifest&type=Commits)
+
+#### build/make/
+* [build: Never set persist.sys.usb.config=none in recovery](https://github.com/search?q=build%3A%20Never%20set%20persist.sys.usb.config=none%20in%20recovery&type=Commits)
+
+#### device/rr/sepolicy/
+* [sepolicy: recovery: Allow (re)mounting system](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Allow%20%28re%29mounting%20system&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [frameworks/base: squash import translations from LineageOS](https://github.com/search?q=frameworks/base%3A%20squash%20import%20translations%20from%20LineageOS&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Add vendor security patch level to device info](https://github.com/search?q=Add%20vendor%20security%20patch%20level%20to%20device%20info&type=Commits)
+* [ProfileManager: Make PROFILE_SELECTED broadcast explicit](https://github.com/search?q=ProfileManager%3A%20Make%20PROFILE_SELECTED%20broadcast%20explicit&type=Commits)
+
+#### packages/apps/Contacts/
+* [Revert "Automatically set SIM number to my profile"](https://github.com/search?q=Revert%20"Automatically%20set%20SIM%20number%20to%20my%20profile"&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [[1/2] Add vendor security patch level to device info](https://github.com/search?q=[1/2]%20Add%20vendor%20security%20patch%20level%20to%20device%20info&type=Commits)
+* [Settings: squash update translations from LineageOS](https://github.com/search?q=Settings%3A%20squash%20update%20translations%20from%20LineageOS&type=Commits)
+
+#### system/core/
+* [core: Lockscreen Charging info (1/3)](https://github.com/search?q=core%3A%20Lockscreen%20Charging%20info%20%281/3%29&type=Commits)
+
+#### system/sepolicy/
+* [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
+
+#### vendor/rr/
+* [kernel: Allow installing modules on system](https://github.com/search?q=kernel%3A%20Allow%20installing%20modules%20on%20system&type=Commits)
+* [privapp-permissions: Add new Dialer permissions](https://github.com/search?q=privapp-permissions%3A%20Add%20new%20Dialer%20permissions&type=Commits)
+* [addonsu: Fix installation on TWRP A/B](https://github.com/search?q=addonsu%3A%20Fix%20installation%20on%20TWRP%20A/B&type=Commits)
+* [apns: sprint: Default to legacy n.*, allow x.* as an alternative](https://github.com/search?q=apns%3A%20sprint%3A%20Default%20to%20legacy%20n.*,%20allow%20x.*%20as%20an%20alternative&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-22-2018 End.
+
 07-20-2018
 ====================
 
