@@ -102,15 +102,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="system/extras/su";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder
-	git revert ae77c1a8aa19484d8d8196e55254f2c6f01d1aad --no-edit
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 	folder="vendor/rr";
 	echo -e "\\n	In Folder $folder \\n"
 
