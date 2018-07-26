@@ -3,6 +3,75 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-26-2018
+====================
+
+#### Device specific Changes of 07-26-2018 Start:
+
+#### Device/Quark/
+* [Quark: set gpu max power level](https://github.com/search?q=Quark%3A%20set%20gpu%20max%20power%20level&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: up KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 07-26-2018 End.
+
+***
+
+07-24-2018
+====================
+
+#### Device specific Changes of 07-24-2018 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: add fake lineage.version to system.prop cleanup README.md](https://github.com/search?q=Quark%3A%20add%20fake%20lineage.version%20to%20system.prop%20cleanup%20README.md&type=Commits)
+
+#### Device specific Changes of 07-24-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-24-2018:
+
+#### art/
+* [build: disable ART debugging](https://github.com/search?q=build%3A%20disable%20ART%20debugging&type=Commits)
+
+#### bionic/
+* [Merge 'lineage-15.1' into 8.1](https://github.com/search?q=Merge%20%27lineage-15.1%27%20into%208.1&type=Commits)
+
+#### hardware/ril-caf/
+* [libril: Protect against NULL unsolicited response function](https://github.com/search?q=libril%3A%20Protect%20against%20NULL%20unsolicited%20response%20function&type=Commits)
+
+#### packages/apps/Email/
+* [Remove max aspect ratio.](https://github.com/search?q=Remove%20max%20aspect%20ratio.&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-24-2018 End.
+
+07-23-2018
+====================
+
+#### Device specific Changes of 07-23-2018 Start:
+
+#### Device/Quark/
+* [Quark: update file_contexts](https://github.com/search?q=Quark%3A%20update%20file_contexts&type=Commits)
+* [Up readme](https://github.com/search?q=Up%20readme&type=Commits)
+* [Quark: replace panel.mountflip sf.hwrotation](https://github.com/search?q=Quark%3A%20replace%20panel.mountflip%20sf.hwrotation&type=Commits)
+
+#### Device specific Changes of 07-23-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-23-2018:
+
+#### bionic/
+* [libc: Mark libstdc++ as vendor available](https://github.com/search?q=libc%3A%20Mark%20libstdc++%20as%20vendor%20available&type=Commits)
+* [libm: Update to FreeBSD r336523](https://github.com/search?q=libm%3A%20Update%20to%20FreeBSD%20r336523&type=Commits)
+
+#### packages/apps/Settings/
+* [Fix Kirin GSI strings](https://github.com/search?q=Fix%20Kirin%20GSI%20strings&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-23-2018 End.
+
 07-22-2018
 ====================
 
