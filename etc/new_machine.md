@@ -80,7 +80,7 @@ Deleting the old Home
 
 https://www.libreoffice.org/download/download/
 
-	sudo dpkj -i *
+	sudo dpkg -i *
 
 #### libreoffice end
 
@@ -90,7 +90,7 @@ https://www.libreoffice.org/download/download/
 
 #### For normal android app build machine + adb shell and fastboot
 
-	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins gdebi-core shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba fastboot strings jpegoptim pngquant pngcrush
+	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba fastboot jpegoptim pngquant pngcrush
 
 #### For extra android ROM and Kernel build machine do the above and the bellow
 
@@ -157,7 +157,7 @@ clean up all cached files
 	sudo killall adb
 
 	wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-	sudo gdebi teamviewer_amd64.deb
+	sudo dpkg -i teamviewer_amd64.deb
 
 #### adb shell and teamviewer access end
 
@@ -194,52 +194,15 @@ clean up all cached files
 
 
 ##  nodejs start
-Donwload npm/node and https://nodejs.org/en/
-
-#### extract the download file then do the bellow on the terminal
-
-	sudo mkdir /usr/lib/nodejs
-	sudo mv /path_of_extracted_node_version /usr/lib/nodejs/node
-
-#### .bashrc file add lines
-
-	echo "export NODEJS_HOME=/usr/lib/nodejs/node" >> .bashrc
-	echo "export PATH=$NODEJS_HOME/bin:$PATH" >> .bashrc
 
 ```bash
+sudo apt-get -y install cleancss npm
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo "export PATH=~/.npm-global/bin:$PATH" > ~/.profile
 npm install js-beautify jshint uglify-js -g
 ```
 ####  nodejs start end
-
-## install geogebra start
-
-add key to software & update autentication
-
-	-----BEGIN PGP PUBLIC KEY BLOCK-----
-	Version: GnuPG v1.4.11 (GNU/Linux)
-
-	mQENBFFMIIkBCAC4YLnoBGrp8bIrebBp6dpRCyet7V8DxNurJynQA4R9MyXWTND0
-	Wi7UeJFJQTFFBdlNgCfTts4fAU9s3iA7m9WCUIsVtx288+QC6oLwb4/p7ZX53Tl1
-	0HhRBSsOC5OmU7/Ds5YNyvOV29ScjrxDwSHyvIjGpnL/2mc6JZNUSRGxDPbikhPt
-	CU5QnrlC1+NnJbH2bQz93jXb3E3hZvXreeJwG/UXO6pcGayUfqwzOcOZWikcTi1g
-	/uUurlABHyS6SwLnSE8mhs8nGB8fCTmRkjNP59aQdSwOo2ppBSRjVS/RiIJCI2B/
-	avuolIfqq46IgcvKAuBAcex/icBCNgTEz61JABEBAAG0NkludGVybmF0aW9uYWwg
-	R2VvR2VicmEgSW5zdGl0dXRlIDxvZmZpY2VAZ2VvZ2VicmEub3JnPokBOAQTAQIA
-	IgUCUUwgiQIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQwHKjKYOnNs93
-	vggAkOsNAqGsKtVgAgmhocK7ealctiwFQUIFVGRl8enKU64Qijh9aPX32EJKhOXO
-	6WMNmFPeqRdp7ApBAt+/hiftZDm2kkhobM178gN0iZD5CN/sgX5fnLG7Afb9TS/+
-	USV+7vxt2eBNU/q+Fr4+uAkL5999KaNArYrXI2YlBWlUnQt7gVedRRM/2PPwJEqu
-	UpXr7TJODK7xUgSgUHb0QYxcm9lVTHr3kTBukzqx7NxPzJtYULJOpIxPh6+g7dUK
-	CR1mfFdILvG3KnPHVE2bAznxhYLHtK0W0x/TjtsMz2+lySFSn+zDV612t5lhcgLm
-	H5mYhQP1C4V9xFrJVK8JroVwJA==
-	=v29t
-	-----END PGP PUBLIC KEY BLOCK-----
-
-```bash
-sudo apt-get install geogebra
-```
-
-#### install geogebra end
 
 ## install tizen start
 
@@ -265,7 +228,7 @@ copy
 
 sync
 
-	sudo eject /dev/sdb
+	sudo eject /dev/sdb1
 
 #### iso to bootable USB end
 
