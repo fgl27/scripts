@@ -3,7 +3,7 @@
 
 export TW_DEVICE_VERSION=mod_1;
 
-folder="$HOME/android/o/";
+folder="$HOME/android/or/";
 
 cd $folder
 TWRP_V=$(grep '#define TW_MAIN_VERSION_STR       "' bootable/recovery/variables.h | head -1 | awk '{print $3}' | sed 's/\"//g');
@@ -13,7 +13,7 @@ echo $TWRP_V;
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
 ./prebuilts/sdk/tools/jack-admin start-server
-lunch lineage_quark-eng
+lunch rr_quark-userdebug
 
 make clean
 time make recoveryimage -j8 2>&1 | tee twrp.txt
