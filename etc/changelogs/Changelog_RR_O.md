@@ -3,6 +3,47 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+07-28-2018
+====================
+
+#### Device specific Changes of 07-28-2018 Start:
+
+#### Device/Quark/
+* [Quark: update proprietary-files.txt](https://github.com/search?q=Quark%3A%20update%20proprietary-files.txt&type=Commits)
+* [Quark: Only use AUDIO_FORMAT_PCM_16_BIT in policy configuration](https://github.com/search?q=Quark%3A%20Only%20use%20AUDIO_FORMAT_PCM_16_BIT%20in%20policy%20configuration&type=Commits)
+* [Quark: revert back to audio_policy.conf](https://github.com/search?q=Quark%3A%20revert%20back%20to%20audio_policy.conf&type=Commits)
+
+#### Device specific Changes of 07-28-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-28-2018:
+
+#### system/tools/hidl/
+* [Add DT_UNKNOWN handling](https://github.com/search?q=Add%20DT_UNKNOWN%20handling&type=Commits)
+* [Revert "Use stat() to determine file type from readdir()"](https://github.com/search?q=Revert%20"Use%20stat%28%29%20to%20determine%20file%20type%20from%20readdir%28%29"&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-28-2018 End.
+
+07-27-2018
+====================
+
+#### Device specific Changes of 07-27-2018 Start:
+
+#### Device/Quark/
+* [Quark: update call recording overlay](https://github.com/search?q=Quark%3A%20update%20call%20recording%20overlay&type=Commits)
+
+#### Device specific Changes of 07-27-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-27-2018:
+
+#### frameworks/av/
+* [NdkMediaCodec: add AMediaCodec_getBufferFormat](https://github.com/search?q=NdkMediaCodec%3A%20add%20AMediaCodec_getBufferFormat&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-27-2018 End.
+
 07-26-2018
 ====================
 
