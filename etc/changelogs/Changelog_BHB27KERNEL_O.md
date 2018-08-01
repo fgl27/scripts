@@ -3,6 +3,35 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
+07-30-2018
+====================
+
+* [build switch cpu gov to impulse](https://github.com/bhb27/BHB27Kernel/search?q=build%20switch%20cpu%20gov%20to%20impulse&type=Commits)
+* [dt reset vph-high/low values](https://github.com/bhb27/BHB27Kernel/search?q=dt%20reset%20vph-high/low%20values&type=Commits)
+
+***
+
+07-28-2018
+====================
+
+* [Update twrp_defconfig](https://github.com/bhb27/BHB27Kernel/search?q=Update%20twrp_defconfig&type=Commits)
+
+***
+
+07-26-2018
+====================
+
+* [build set gpu max power level at boot](https://github.com/bhb27/BHB27Kernel/search?q=build%20set%20gpu%20max%20power%20level%20at%20boot&type=Commits)
+
+***
+
+07-23-2018
+====================
+
+* [Start v 9.12](https://github.com/bhb27/BHB27Kernel/search?q=Start%20v%209.12&type=Commits)
+
+***
+
 07-22-2018
 ====================
 

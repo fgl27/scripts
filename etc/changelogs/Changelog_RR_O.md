@@ -3,6 +3,130 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+08-01-2018
+====================
+
+#### Device specific Changes of 08-01-2018 Start:
+
+#### Device/Quark/
+* [Quark: revert back to audio_effects.conf](https://github.com/search?q=Quark%3A%20revert%20back%20to%20audio_effects.conf&type=Commits)
+* [Revert "Quark: switch to lineage vibrator service"](https://github.com/search?q=Revert%20"Quark%3A%20switch%20to%20lineage%20vibrator%20service"&type=Commits)
+* [Quark: update audio digital gains](https://github.com/search?q=Quark%3A%20update%20audio%20digital%20gains&type=Commits)
+
+#### Device specific Changes of 08-01-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 08-01-2018:
+
+#### frameworks/opt/telephony/
+* [IMS: Sudden deregisteration takes place soon after registeration.](https://github.com/search?q=IMS%3A%20Sudden%20deregisteration%20takes%20place%20soon%20after%20registeration.&type=Commits)
+
+#### packages/apps/Settings/
+* [Update potter maintainer](https://github.com/search?q=Update%20potter%20maintainer&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-01-2018 End.
+
+07-31-2018
+====================
+
+#### Device specific Changes of 07-31-2018 Start:
+
+#### Device/Quark/
+* [Quark: lineageaction indent java code](https://github.com/search?q=Quark%3A%20lineageaction%20indent%20java%20code&type=Commits)
+
+#### Device specific Changes of 07-31-2018 End.
+
+***
+
+07-30-2018
+====================
+
+#### Device specific Changes of 07-30-2018 Start:
+
+#### Device/Quark/
+* [Quark: re enable su by default](https://github.com/search?q=Quark%3A%20re%20enable%20su%20by%20default&type=Commits)
+
+#### Kernel/Quark/
+* [dt reset vph-high/low values](https://github.com/search?q=dt%20reset%20vph-high/low%20values&type=Commits)
+
+#### Device specific Changes of 07-30-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 07-30-2018:
+#### android/
+* [Enable LineageCustomizer](https://github.com/search?q=Enable%20LineageCustomizer&type=Commits)
+
+#### build/make/
+* [core: config: Use host ijar if requested](https://github.com/search?q=core%3A%20config%3A%20Use%20host%20ijar%20if%20requested&type=Commits)
+* [dex2oat: disable multithreading for WSL](https://github.com/search?q=dex2oat%3A%20disable%20multithreading%20for%20WSL&type=Commits)
+* [Add detection for WSL](https://github.com/search?q=Add%20detection%20for%20WSL&type=Commits)
+* [Adapt ijar for WSL](https://github.com/search?q=Adapt%20ijar%20for%20WSL&type=Commits)
+
+#### frameworks/base/
+* [Proper supplementary service notification handling (1/5).](https://github.com/search?q=Proper%20supplementary%20service%20notification%20handling%20%281/5%29.&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8998/
+* [hal: Add missing compress voip PCM device ID](https://github.com/search?q=hal%3A%20Add%20missing%20compress%20voip%20PCM%20device%20ID&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Proper supplementary service notification handling (5/5).](https://github.com/search?q=Proper%20supplementary%20service%20notification%20handling%20%285/5%29.&type=Commits)
+* [Re-add call statistics.](https://github.com/search?q=Re-add%20call%20statistics.&type=Commits)
+* [Allow per-call account selection.](https://github.com/search?q=Allow%20per-call%20account%20selection.&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [LineageParts: res: Delete duplicated and unused strings](https://github.com/search?q=LineageParts%3A%20res%3A%20Delete%20duplicated%20and%20unused%20strings&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [Proper supplementary service notification handling (3/5)](https://github.com/search?q=Proper%20supplementary%20service%20notification%20handling%20%283/5%29&type=Commits)
+
+#### packages/services/Telephony/
+* [Proper supplementary service notification handling (4/5).](https://github.com/search?q=Proper%20supplementary%20service%20notification%20handling%20%284/5%29.&type=Commits)
+
+#### system/core/
+* [bsdgrep: for -r, use the working directory if none specified](https://github.com/search?q=bsdgrep%3A%20for%20-r,%20use%20the%20working%20directory%20if%20none%20specified&type=Commits)
+
+#### vendor/rr/
+* [ATV: Build LineageCustomizer](https://github.com/search?q=ATV%3A%20Build%20LineageCustomizer&type=Commits)
+* [prebuilt: apn: Sprint 2: Drop http definition from MMSC proxy](https://github.com/search?q=prebuilt%3A%20apn%3A%20Sprint%202%3A%20Drop%20http%20definition%20from%20MMSC%20proxy&type=Commits)
+* [tools: Bump baksmali/smali to v2.2.4](https://github.com/search?q=tools%3A%20Bump%20baksmali/smali%20to%20v2.2.4&type=Commits)
+* [config/common: Organize filesystems tools](https://github.com/search?q=config/common%3A%20Organize%20filesystems%20tools&type=Commits)
+* [prebuilt: apn: Sprint 2: Make IPv6 MMS Proxy default for the apn](https://github.com/search?q=prebuilt%3A%20apn%3A%20Sprint%202%3A%20Make%20IPv6%20MMS%20Proxy%20default%20for%20the%20apn&type=Commits)
+* [config/common: Remove BluetoothExt from PRODUCT_PACKAGES](https://github.com/search?q=config/common%3A%20Remove%20BluetoothExt%20from%20PRODUCT_PACKAGES&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-30-2018 End.
+
+07-29-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 07-29-2018:
+
+#### packages/apps/SnapdragonCamera2/
+* [add notch_size config](https://github.com/search?q=add%20notch_size%20config&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-29-2018 End.
+
 07-28-2018
 ====================
 
