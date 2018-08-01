@@ -79,7 +79,7 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick fb694fb3e333d8c3ed366071635c6c93accd161c
-	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..7c909f25c3e0a70874c50ae7ded5832d18121b71
+	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..b3c91edb134d4c78f19fb7fc53c0f74fc7b12f29
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
