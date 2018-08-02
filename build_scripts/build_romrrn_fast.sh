@@ -84,15 +84,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-#	folder="device/qcom/sepolicy";
-#	echo -e "\\n	In Folder $folder \\n"
-
-#	cd $folder
-#	git fetch https://github.com/bhb27/android_device_qcom_sepolicy/ lineage-15.1 && git cherry-pick c548bf97b5fbe58ea8389ce82e97d9d9f20c48c3
-#	cd - &> /dev/null || exit;
-
-#	echo -e "\\n	out Folder $folder"
-
 	folder="bionic";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -101,6 +92,13 @@ if [ "$input1" == "1" ]; then
 	git revert f7bbe604ac6c38ecc53a7a02e6413afe3413eacb --no-edit
 	cd - &> /dev/null || exit;
 
+	echo -e "\\n	out Folder $folder"
+
+	folder="system/extras/su";
+	echo -e "\\n	In Folder $folder \\n"
+	cd $folder
+	git revert ae77c1a8aa19484d8d8196e55254f2c6f01d1aad --no-edit
+	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
 
 	folder="vendor/rr";
