@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <quark>
-            <Filename>RR-O-v6.1.0-20180801-quark-Mof.zip</Filename>
+            <Filename>RR-O-v6.1.0-20180802-quark-Mof.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download Latest ResurrectionRemix for Quark (20180801)">https://drive.google.com/open?id=1BQbcrU3Ivcc5xJo8sSyCjMLiBEF9kLLo</RomUrl>
+                description="Download Latest ResurrectionRemix for Quark (20180802)">https://drive.google.com/open?id=1BQbcrU3Ivcc5xJo8sSyCjMLiBEF9kLLo</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"

@@ -3,6 +3,30 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+08-02-2018
+====================
+
+#### Device specific Changes of 08-02-2018 Start:
+
+#### Device/Quark/
+* [Quark: workaround to prevent settings crash](https://github.com/search?q=Quark%3A%20orkaround%20to%20prevent%20settings%20crash&type=Commits)
+* [Quark: revert change to set root by default via persist changes](https://github.com/search?q=Quark%3A%20revert%20change%20to%20set%20root%20by%20default%20via%20persist%20changes&type=Commits)
+* [Quark: lineageactions update IrGestureSensor enable checks](https://github.com/search?q=Quark%3A%20lineageactions%20update%20IrGestureSensor%20enable%20checks&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: up KernelAdiutor](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 08-02-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 08-02-2018:
+
+* project packages/apps/Settings/
+* [Add Maintainer for Taco: Yu Yureka 2](https://github.com/search?q=Add%20Maintainer%20for%20Taco%3A%20Yu%20Yureka%202&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-02-2018 End.
+
 08-01-2018
 ====================
 
