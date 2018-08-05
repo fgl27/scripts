@@ -34,7 +34,7 @@ check() {
 }
 
 reset() {
-	git reset --soft HEAD~$input_variable && git commit -S -s
+	git reset --soft HEAD~$input_variable && git commit -s
 }
 
 check offset;

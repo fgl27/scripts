@@ -89,7 +89,7 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder
 	git fetch https://github.com/bhb27/android_bionic/ lineage-15.1 && git cherry-pick 279c7ed48cc03733553e7f4cef0735e4302a6b6e
-	git revert f7bbe604ac6c38ecc53a7a02e6413afe3413eacb --no-edit
+	git revert b0938317329c63e69352d96b8046f30f205b055b --no-edit
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
