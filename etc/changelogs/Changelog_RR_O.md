@@ -3,6 +3,137 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+08-05-2018
+====================
+
+#### Device specific Changes of 08-05-2018 Start:
+
+#### Device/Quark/
+* [Quark: lineageaction drop the enable time for useraware to 5s](https://github.com/search?q=Quark%3A%20lineageaction%20drop%20the%20enable%20time%20for%20useraware%20to%205s&type=Commits)
+* [Quark: Make wrapper for shim](https://github.com/search?q=Quark%3A%20Make%20wrapper%20for%20shim&type=Commits)
+* [Quark: fix enabling sensors in UserAwareDisplay](https://github.com/search?q=Quark%3A%20fix%20enabling%20sensors%20in%20UserAwareDisplay&type=Commits)
+* [Quark: add audio_ext_spkr.conf](https://github.com/search?q=Quark%3A%20add%20audio_ext_spkr.conf&type=Commits)
+* [Revert "Quark: add audio_ext_spkr qcril_mot_ecc_common move etc to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20add%20audio_ext_spkr%20qcril_mot_ecc_common%20move%20etc%20to%20vendor"&type=Commits)
+* [Revert "Quark: load etc/*.conf from dt"](https://github.com/search?q=Revert%20"Quark%3A%20load%20etc/*.conf%20from%20dt"&type=Commits)
+* [Quark: load etc/*.conf from dt](https://github.com/search?q=Quark%3A%20load%20etc/*.conf%20from%20dt&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+* [Quark: sed libmdmcutback.so](https://github.com/search?q=Quark%3A%20sed%20libmdmcutback.so&type=Commits)
+* [Quark: sed libspeakerbundle.so](https://github.com/search?q=Quark%3A%20sed%20libspeakerbundle.so&type=Commits)
+* [Revert "Quark: move all libs to vendor + add minssing lib/rfsa"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20libs%20to%20vendor%20+%20add%20minssing%20lib/rfsa"&type=Commits)
+* [Revert "Quark: move etc/*.conf to dt"](https://github.com/search?q=Revert%20"Quark%3A%20move%20etc/*.conf%20to%20dt"&type=Commits)
+* [Revert "Quakr: move framework to vendor"](https://github.com/search?q=Revert%20"Quakr%3A%20move%20framework%20to%20vendor"&type=Commits)
+* [Quakr: move framework to vendor](https://github.com/search?q=Quakr%3A%20move%20framework%20to%20vendor&type=Commits)
+* [Quark: move etc/*.conf to dt](https://github.com/search?q=Quark%3A%20move%20etc/*.conf%20to%20dt&type=Commits)
+* [Quark: move all libs to vendor + add minssing lib/rfsa](https://github.com/search?q=Quark%3A%20move%20all%20libs%20to%20vendor%20+%20add%20minssing%20lib/rfsa&type=Commits)
+
+#### Device specific Changes of 08-05-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 08-05-2018:
+
+#### bionic/
+* [libm: Update to FreeBSD libm r336523](https://github.com/search?q=libm%3A%20Update%20to%20FreeBSD%20libm%20r336523&type=Commits)
+* [Set __bionic_asm_align to 16 for arm64](https://github.com/search?q=Set%20__bionic_asm_align%20to%2016%20for%20arm64&type=Commits)
+* [sysroot: kill arch-specific include dirs](https://github.com/search?q=sysroot%3A%20kill%20arch-specific%20include%20dirs&type=Commits)
+* [bionic: Remove relocation_packer](https://github.com/search?q=bionic%3A%20Remove%20relocation_packer&type=Commits)
+* [Add -ffp-contract=fast for libm](https://github.com/search?q=Add%20-ffp-contract=fast%20for%20libm&type=Commits)
+* [Add Optimized sinf/cosf/sincosf](https://github.com/search?q=Add%20Optimized%20sinf/cosf/sincosf&type=Commits)
+* [libm: Add optimized powf](https://github.com/search?q=libm%3A%20Add%20optimized%20powf&type=Commits)
+* [libm: Add optimized log2f](https://github.com/search?q=libm%3A%20Add%20optimized%20log2f&type=Commits)
+* [libm: Add optimized logf](https://github.com/search?q=libm%3A%20Add%20optimized%20logf&type=Commits)
+* [libm: Add optimized expf2](https://github.com/search?q=libm%3A%20Add%20optimized%20expf2&type=Commits)
+* [libm: Add optimized expf](https://github.com/search?q=libm%3A%20Add%20optimized%20expf&type=Commits)
+* [vdso should be available in all namespaces](https://github.com/search?q=vdso%20should%20be%20available%20in%20all%20namespaces&type=Commits)
+* [Fix bug with double unload on unsuccessful dlopen](https://github.com/search?q=Fix%20bug%20with%20double%20unload%20on%20unsuccessful%20dlopen&type=Commits)
+* [linker: Remove obsolete workaround](https://github.com/search?q=linker%3A%20Remove%20obsolete%20workaround&type=Commits)
+* [Switch to FreeBSD's actual sincos](https://github.com/search?q=Switch%20to%20FreeBSD%27s%20actual%20sincos&type=Commits)
+* [Switch to FreeBSD catrigl.c for complex arc trig functions](https://github.com/search?q=Switch%20to%20FreeBSD%20catrigl.c%20for%20complex%20arc%20trig%20functions&type=Commits)
+* [bionic: Update libm from upstream](https://github.com/search?q=bionic%3A%20Update%20libm%20from%20upstream&type=Commits)
+* [Fix various ftw/nftw "shall fail"s from POSIX](https://github.com/search?q=Fix%20various%20ftw/nftw%20"shall%20fail"s%20from%20POSIX&type=Commits)
+* [libc: kryo: import ARM strlen from Apple C library](https://github.com/search?q=libc%3A%20kryo%3A%20import%20ARM%20strlen%20from%20Apple%20C%20library&type=Commits)
+* [aarch64/strncmp: Use lsr instead of mov+lsr](https://github.com/search?q=aarch64/strncmp%3A%20Use%20lsr%20instead%20of%20mov+lsr&type=Commits)
+* [aarch64: Improve strncmp for mutually misaligned inputs](https://github.com/search?q=aarch64%3A%20Improve%20strncmp%20for%20mutually%20misaligned%20inputs&type=Commits)
+* [strcmp.S: Improve performance for misaligned strings](https://github.com/search?q=strcmp.S%3A%20Improve%20performance%20for%20misaligned%20strings&type=Commits)
+* [memcmp.S: optimize for medium to large sizes](https://github.com/search?q=memcmp.S%3A%20optimize%20for%20medium%20to%20large%20sizes&type=Commits)
+* [Remove no_default_compiler_flags from crt*](https://github.com/search?q=Remove%20no_default_compiler_flags%20from%20crt*&type=Commits)
+* [bionic: strip libc and linker](https://github.com/search?q=bionic%3A%20strip%20libc%20and%20linker&type=Commits)
+* [libc: Suppress clang 7.0 warnings](https://github.com/search?q=libc%3A%20Suppress%20clang%207.0%20warnings&type=Commits)
+* [libc: Build crtbegin with clang too](https://github.com/search?q=libc%3A%20Build%20crtbegin%20with%20clang%20too&type=Commits)
+* [bionic: do not pack relocation table](https://github.com/search?q=bionic%3A%20do%20not%20pack%20relocation%20table&type=Commits)
+* [Enable 32-bit armv8 NEON for libm](https://github.com/search?q=Enable%2032-bit%20armv8%20NEON%20for%20libm&type=Commits)
+* [kryo: Update routine from moto](https://github.com/search?q=kryo%3A%20Update%20routine%20from%20moto&type=Commits)
+* [Use builtins for ceil/floor/rint/trunc on arm64](https://github.com/search?q=Use%20builtins%20for%20ceil/floor/rint/trunc%20on%20arm64&type=Commits)
+* [libc: add optimized ARM64 strrchr from newlib](https://github.com/search?q=libc%3A%20add%20optimized%20ARM64%20strrchr%20from%20newlib&type=Commits)
+* [Use builtins for fma/fmax/fmin/round on arm64.](https://github.com/search?q=Use%20builtins%20for%20fma/fmax/fmin/round%20on%20arm64.&type=Commits)
+* [Find clang correctly](https://github.com/search?q=Find%20clang%20correctly&type=Commits)
+* [libc: Optimize ARM memcmp by using NEON.](https://github.com/search?q=libc%3A%20Optimize%20ARM%20memcmp%20by%20using%20NEON.&type=Commits)
+* [Remove an obsolete aarch64 hack.](https://github.com/search?q=Remove%20an%20obsolete%20aarch64%20hack.&type=Commits)
+* [Optimized memcmp](https://github.com/search?q=Optimized%20memcmp&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-05-2018 End.
+
+08-04-2018
+====================
+
+#### Device specific Changes of 08-04-2018 Start:
+
+#### Device/Quark/
+* [Quark: add audio_ext_spkr qcril_mot_ecc_common move etc to vendor](https://github.com/search?q=Quark%3A%20add%20audio_ext_spkr%20qcril_mot_ecc_common%20move%20etc%20to%20vendor&type=Commits)
+* [Quark: lineageactions improves](https://github.com/search?q=Quark%3A%20lineageactions%20improves&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig disable MSM_RDBG](https://github.com/search?q=defconfig%20disable%20MSM_RDBG&type=Commits)
+* [qcacld-2.0: mark hdd_ieee80211_reason_code_to_str as __maybe_unused](https://github.com/search?q=qcacld-2.0%3A%20mark%20hdd_ieee80211_reason_code_to_str%20as%20__maybe_unused&type=Commits)
+* [sortextable remove unused succeed_file](https://github.com/search?q=sortextable%20remove%20unused%20succeed_file&type=Commits)
+* [qcacld-2.0: Remove unwanted error messages](https://github.com/search?q=qcacld-2.0%3A%20Remove%20unwanted%20error%20messages&type=Commits)
+* [qcacld-2.0: WLAN logs cleanup](https://github.com/search?q=qcacld-2.0%3A%20WLAN%20logs%20cleanup&type=Commits)
+* [ARM: spectre-v1: fix syscall entry](https://github.com/search?q=ARM%3A%20spectre-v1%3A%20fix%20syscall%20entry&type=Commits)
+* [ARM: spectre-v1: add array_index_mask_nospec() implementation](https://github.com/search?q=ARM%3A%20spectre-v1%3A%20add%20array_index_mask_nospec%28%29%20implementation&type=Commits)
+* [ARM: spectre-v1: add speculation barrier (csdb) macros](https://github.com/search?q=ARM%3A%20spectre-v1%3A%20add%20speculation%20barrier%20%28csdb%29%20macros&type=Commits)
+* [ARM: spectre-v2: harden branch predictor on context switches](https://github.com/search?q=ARM%3A%20spectre-v2%3A%20harden%20branch%20predictor%20on%20context%20switches&type=Commits)
+* [ARM: spectre: add Kconfig symbol for CPUs vulnerable to Spectre](https://github.com/search?q=ARM%3A%20spectre%3A%20add%20Kconfig%20symbol%20for%20CPUs%20vulnerable%20to%20Spectre&type=Commits)
+
+#### Device specific Changes of 08-04-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 08-04-2018:
+
+#### build/make/
+* [Create 0 compression ratio jar files](https://github.com/search?q=Create%200%20compression%20ratio%20jar%20files&type=Commits)
+* [core: use 0 compression when creating the target_files package](https://github.com/search?q=core%3A%20use%200%20compression%20when%20creating%20the%20target_files%20package&type=Commits)
+
+#### external/f2fs-tools/
+* [fsck: Fix conflicts with libext2_quota](https://github.com/search?q=fsck%3A%20Fix%20conflicts%20with%20libext2_quota&type=Commits)
+* [fsck: Update libf2fs_fsck source file list](https://github.com/search?q=fsck%3A%20Update%20libf2fs_fsck%20source%20file%20list&type=Commits)
+* [Android.bp/mk: update strings to reflect v1.11.0 release](https://github.com/search?q=Android.bp/mk%3A%20update%20strings%20to%20reflect%20v1.11.0%20release&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Add DNS_TETHER to the list of UIDs in the framework.](https://github.com/search?q=Add%20DNS_TETHER%20to%20the%20list%20of%20UIDs%20in%20the%20framework.&type=Commits)
+* [aapt: enforce 0 compression](https://github.com/search?q=aapt%3A%20enforce%200%20compression&type=Commits)
+* [aapt: allow opting out of uncompressed aapt](https://github.com/search?q=aapt%3A%20allow%20opting%20out%20of%20uncompressed%20aapt&type=Commits)
+* [aapt: Default to 0 compression ratio](https://github.com/search?q=aapt%3A%20Default%20to%200%20compression%20ratio&type=Commits)
+* [Scroll: modified velocitytracker](https://github.com/search?q=Scroll%3A%20modified%20velocitytracker&type=Commits)
+* [Frequently used OpenGL ES methods whitelisted for fast JNI path](https://github.com/search?q=Frequently%20used%20OpenGL%20ES%20methods%20whitelisted%20for%20fast%20JNI%20path&type=Commits)
+
+#### packages/apps/Email/
+* [Update strings for crowdin](https://github.com/search?q=Update%20strings%20for%20crowdin&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SnapdragonCamera2/
+* [SnapdragonCamera2: fix some ui disturbances](https://github.com/search?q=SnapdragonCamera2%3A%20fix%20some%20ui%20disturbances&type=Commits)
+
+#### system/vold/
+* [secdiscard: should pin_file to avoid moving blocks in F2FS](https://github.com/search?q=secdiscard%3A%20should%20pin_file%20to%20avoid%20moving%20blocks%20in%20F2FS&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-04-2018 End.
+
 08-02-2018
 ====================
 
