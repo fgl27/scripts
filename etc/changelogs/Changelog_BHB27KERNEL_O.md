@@ -3,6 +3,31 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
+08-04-2018
+====================
+
+* [ARM: topology: Add efficiency coefficient for Krait](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20topology%3A%20Add%20efficiency%20coefficient%20for%20Krait&type=Commits)
+* [Optimise apply_slack() for size and speed.](https://github.com/bhb27/BHB27Kernel/search?q=Optimise%20apply_slack%28%29%20for%20size%20and%20speed.&type=Commits)
+* [defconfig disable MSM_RDBG](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20MSM_RDBG&type=Commits)
+* [qcacld-2.0: mark hdd_ieee80211_reason_code_to_str as __maybe_unused](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20mark%20hdd_ieee80211_reason_code_to_str%20as%20__maybe_unused&type=Commits)
+* [sortextable remove unused succeed_file](https://github.com/bhb27/BHB27Kernel/search?q=sortextable%20remove%20unused%20succeed_file&type=Commits)
+
+***
+
+08-03-2018
+====================
+
+* [qcacld-2.0: Remove unwanted error messages](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20unwanted%20error%20messages&type=Commits)
+* [qcacld-2.0: WLAN logs cleanup](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20WLAN%20logs%20cleanup&type=Commits)
+* [ARM: spectre-v1: fix syscall entry](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20spectre-v1%3A%20fix%20syscall%20entry&type=Commits)
+* [ARM: spectre-v1: add array_index_mask_nospec() implementation](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20spectre-v1%3A%20add%20array_index_mask_nospec%28%29%20implementation&type=Commits)
+* [ARM: spectre-v1: add speculation barrier (csdb) macros](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20spectre-v1%3A%20add%20speculation%20barrier%20%28csdb%29%20macros&type=Commits)
+* [ARM: spectre-v2: harden branch predictor on context switches](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20spectre-v2%3A%20harden%20branch%20predictor%20on%20context%20switches&type=Commits)
+* [ARM: spectre: add Kconfig symbol for CPUs vulnerable to Spectre](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20spectre%3A%20add%20Kconfig%20symbol%20for%20CPUs%20vulnerable%20to%20Spectre&type=Commits)
+* [Start v 9.13](https://github.com/bhb27/BHB27Kernel/search?q=Start%20v%209.13&type=Commits)
+
+***
+
 07-30-2018
 ====================
 
