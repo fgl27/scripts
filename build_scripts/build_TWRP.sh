@@ -9,6 +9,11 @@ cd $folder
 TWRP_V=$(grep '#define TW_MAIN_VERSION_STR       "' bootable/recovery/variables.h | head -1 | awk '{print $3}' | sed 's/\"//g');
 echo $TWRP_V;
 
+export days_to_log=0
+export RR_BUILDTYPE="Mod"
+export WITH_ROOT_METHOD="rootless"
+export WITH_SU=true
+
 . build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
 ./prebuilts/sdk/tools/jack-admin kill-server
