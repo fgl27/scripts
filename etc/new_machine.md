@@ -161,6 +161,13 @@ clean up all cached files
 
 #### adb shell and teamviewer access end
 
+
+#### Purge part, some drivers are not supported
+
+	sudo apt-get purge iio-sensor-proxy
+
+#### Purge part end
+
 #### apt-get install and general installations and setups end
 
 ## setup github start
@@ -220,7 +227,7 @@ Extension SDK Install Samsung Certificate Extension, and under TV Extension Tool
 list
 
 	sudo fdisk -l 
-	umount /dev/sdb1 
+	umount /dev/sdb
 
 copy
 
@@ -228,7 +235,7 @@ copy
 
 sync
 
-	sudo eject /dev/sdb1
+	sudo eject /dev/sdb
 
 #### iso to bootable USB end
 
