@@ -3,6 +3,55 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+08-14-2018
+====================
+
+#### Device specific Changes of 08-14-2018 Start:
+
+#### Kernel/Quark/
+* [defconfig re-enable net realted](https://github.com/search?q=defconfig%20re-enable%20net%20realted&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: up KernelAdiutor](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor&type=Commits)
+* [Quark: revert adaway for the version that survives kernel/rom flashes](https://github.com/search?q=Quark%3A%20revert%20adaway%20for%20the%20version%20that%20survives%20kernel/rom%20flashes&type=Commits)
+
+#### Device specific Changes of 08-14-2018 End.
+
+***
+
+08-13-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-13-2018:
+
+#### packages/apps/Snap/
+* [Snap: Allow quickreader to work with secure device](https://github.com/search?q=Snap%3A%20Allow%20quickreader%20to%20work%20with%20secure%20device&type=Commits)
+
+#### vendor/rr/
+* [backuptool: fix restoring after commit 87bdbc138b6d27b4bd67b964eda24df4d8dbe2c8](https://github.com/search?q=backuptool%3A%20fix%20restoring%20after%20commit%2087bdbc138b6d27b4bd67b964eda24df4d8dbe2c8&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-13-2018 End.
+
+08-12-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-12-2018:
+
+#### lineage-sdk/
+* [sdk: Add minimal LineageSettingsService](https://github.com/search?q=sdk%3A%20Add%20minimal%20LineageSettingsService&type=Commits)
+* [Import preference class for custom hostname feature](https://github.com/search?q=Import%20preference%20class%20for%20custom%20hostname%20feature&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [sdk: Allow controllable brightness for non-RGB segmented battery LEDs](https://github.com/search?q=sdk%3A%20Allow%20controllable%20brightness%20for%20non-RGB%20segmented%20battery%20LEDs&type=Commits)
+* [sdk: Rework reading mode API](https://github.com/search?q=sdk%3A%20Rework%20reading%20mode%20API&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [LineageParts: Remove PrivacySettings](https://github.com/search?q=LineageParts%3A%20Remove%20PrivacySettings&type=Commits)
+* [LineageParts: Allow brightness control for segmented LEDs](https://github.com/search?q=LineageParts%3A%20Allow%20brightness%20control%20for%20segmented%20LEDs&type=Commits)
+* [LineageParts: Update reading mode toggle for new API](https://github.com/search?q=LineageParts%3A%20Update%20reading%20mode%20toggle%20for%20new%20API&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-12-2018 End.
+
 08-11-2018
 ====================
 
