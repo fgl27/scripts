@@ -101,6 +101,15 @@ if [ "$input1" == "1" ]; then
 	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
 
+	echo -e "\\n	out Folder $folder"
+
+	folder="system/core/";
+	echo -e "\\n	In Folder $folder \\n"
+	cd $folder
+	git fetch https://github.com/LineageOS/android_system_core refs/changes/85/209385/3 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+	echo -e "\\n	out Folder $folder"
+
 	folder="vendor/rr";
 	echo -e "\\n	In Folder $folder \\n"
 
