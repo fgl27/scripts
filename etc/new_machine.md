@@ -305,3 +305,15 @@ https://drive.google.com/file/d/0B0LnTbgUOuxYMHJCcl9RTEJXUjA/edit
 	sudo ln -s /usr/lib64/libmpfr.so.4 /usr/lib/x86_64-linux-gnu/libmpfr.so.4
 
 #### Missing gcc libs end
+
+## Amd boost state
+
+/etc/default/grub change line
+
+	GRUB_CMDLINE_LINUX_DEFAULT="quiet splash radeon.bapm=1"
+
+check:
+
+	cpupower frequency-info
+
+#### Missing gcc libs end
