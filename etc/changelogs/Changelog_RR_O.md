@@ -3,6 +3,31 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+08-17-2018
+====================
+
+#### Device specific Changes of 08-17-2018 Start:
+
+#### Device/Quark/
+* [Quark: more vendor services to shutdown critical](https://github.com/search?q=Quark%3A%20more%20vendor%20services%20to%20shutdown%20critical&type=Commits)
+* [Quark: update thermal-engine-quark](https://github.com/search?q=Quark%3A%20update%20thermal-engine-quark&type=Commits)
+* [Quark: use low level shutdown trigger to stop services](https://github.com/search?q=Quark%3A%20use%20low%20level%20shutdown%20trigger%20to%20stop%20services&type=Commits)
+* [Quark: Mark rmt_storage as shutdown critical](https://github.com/search?q=Quark%3A%20Mark%20rmt_storage%20as%20shutdown%20critical&type=Commits)
+
+#### Device specific Changes of 08-17-2018 End.
+
+***
+
+08-15-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-15-2018:
+
+#### vendor/rr/
+* [soong_config: Add TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE](https://github.com/search?q=soong_config%3A%20Add%20TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-15-2018 End.
+
 08-14-2018
 ====================
 
