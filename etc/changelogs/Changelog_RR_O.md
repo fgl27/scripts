@@ -3,6 +3,154 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+08-27-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-27-2018:
+
+#### packages/apps/Profiles/
+* [Profiles: Properly depend on Lineage SDK](https://github.com/search?q=Profiles%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-27-2018 End.
+
+08-26-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-26-2018:
+
+#### packages/apps/AudioFX/
+* [AudioFX: Properly depend on Lineage SDK](https://github.com/search?q=AudioFX%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-26-2018 End.
+
+08-25-2018
+====================
+
+#### Device specific Changes of 08-25-2018 Start:
+
+#### Device/Quark/
+* [Quark: update config_gpsParameters](https://github.com/search?q=Quark%3A%20update%20config_gpsParameters&type=Commits)
+
+#### Device specific Changes of 08-25-2018 End.
+
+***
+
+08-24-2018
+====================
+
+#### Device specific Changes of 08-24-2018 Start:
+
+#### Device/Quark/
+* [Quark: remove full_quark.mk and updates related .mk files](https://github.com/search?q=Quark%3A%20remove%20full_quark.mk%20and%20updates%20related%20.mk%20files&type=Commits)
+
+#### Kernel/Quark/
+* [ANDROID: Revert "net: increase fragment memory usage limits"](https://github.com/search?q=ANDROID%3A%20Revert%20"net%3A%20increase%20fragment%20memory%20usage%20limits"&type=Commits)
+* [UPSTREAM: perf/hwbp: Simplify the perf-hwbp code, fix documentation](https://github.com/search?q=UPSTREAM%3A%20perf/hwbp%3A%20Simplify%20the%20perf-hwbp%20code,%20fix%20documentation&type=Commits)
+* [NFC: llcp: Limit size of SDP URI](https://github.com/search?q=NFC%3A%20llcp%3A%20Limit%20size%20of%20SDP%20URI&type=Commits)
+
+#### Device specific Changes of 08-24-2018 End.
+
+***
+
+08-23-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-23-2018:
+
+#### frameworks/av/
+* [mediascanner: Accept .opus file extension.](https://github.com/search?q=mediascanner%3A%20Accept%20.opus%20file%20extension.&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Gallery: use platform cert](https://github.com/search?q=Gallery%3A%20use%20platform%20cert&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: use platform cert](https://github.com/search?q=Snap%3A%20use%20platform%20cert&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-23-2018 End.
+
+08-22-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-22-2018:
+
+#### device/qcom/sepolicy/
+* [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
+
+#### frameworks/native/
+* [Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_frameworks_native into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-15.1%27%20of%20git%3A//github.com/LineageOS/android_frameworks_native%20into%20HEAD&type=Commits)
+
+#### lineage-sdk/
+* [sdk: Add migration for /missing/ custom button actions](https://github.com/search?q=sdk%3A%20Add%20migration%20for%20/missing/%20custom%20button%20actions&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Regen lineage_current](https://github.com/search?q=Regen%20lineage_current&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Fix Trust strings again](https://github.com/search?q=Fix%20Trust%20strings%20again&type=Commits)
+* [LineageParts: Fix unescaped quote in trust_feature_security_patches_explain](https://github.com/search?q=LineageParts%3A%20Fix%20unescaped%20quote%20in%20trust_feature_security_patches_explain&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Trust: String changes for accuracy of language](https://github.com/search?q=Trust%3A%20String%20changes%20for%20accuracy%20of%20language&type=Commits)
+* [LineageParts: Add missing recycle() calls](https://github.com/search?q=LineageParts%3A%20Add%20missing%20recycle%28%29%20calls&type=Commits)
+* [LineageParts: Add missing cursor close](https://github.com/search?q=LineageParts%3A%20Add%20missing%20cursor%20close&type=Commits)
+* [LineageParts: add one finger swipe up from home gesture string](https://github.com/search?q=LineageParts%3A%20add%20one%20finger%20swipe%20up%20from%20home%20gesture%20string&type=Commits)
+
+#### vendor/rr/
+* [build: Add dtbo task](https://github.com/search?q=build%3A%20Add%20dtbo%20task&type=Commits)
+* [config/common: Clean up debug packages](https://github.com/search?q=config/common%3A%20Clean%20up%20debug%20packages&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-22-2018 End.
+
+08-20-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-20-2018:
+
+#### packages/apps/Settings/
+* [Update herolte maintainer](https://github.com/search?q=Update%20herolte%20maintainer&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-20-2018 End.
+
+08-19-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-19-2018:
+
+#### packages/apps/Snap/
+* [CameraSettings: Do not crash if zoom ratios are not exposed](https://github.com/search?q=CameraSettings%3A%20Do%20not%20crash%20if%20zoom%20ratios%20are%20not%20exposed&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-19-2018 End.
+
+08-18-2018
+====================
+
+#### Device specific Changes of 08-18-2018 Start:
+
+#### Device/Quark/
+* [Quark: disable button-backlight on shutdown](https://github.com/search?q=Quark%3A%20disable%20button-backlight%20on%20shutdown&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update quark/proprietary/etc/gps.conf](https://github.com/search?q=Quark%3A%20update%20quark/proprietary/etc/gps.conf&type=Commits)
+
+#### Device specific Changes of 08-18-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 08-18-2018:
+
+#### packages/apps/Eleven/
+* [Eleven: bump to api26](https://github.com/search?q=Eleven%3A%20bump%20to%20api26&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-18-2018 End.
+
 08-17-2018
 ====================
 

@@ -24,8 +24,8 @@ fi;
 
 echo -e "You choose: $tree and $action \n"
 
-ssh="git remote set-url origin git+ssh://git@github.com/bhb27"
-http="git remote set-url origin https://github.com/bhb27"
+ssh="git remote set-url origin git+ssh://git@github.com/fgl27"
+http="git remote set-url origin https://github.com/fgl27"
 
 if [ "$action" == 1 ]; then
    url="$ssh"
