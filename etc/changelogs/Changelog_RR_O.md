@@ -3,10 +3,134 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+09-02-2018
+====================
+
+#### Device specific Changes of 09-02-2018 Start:
+
+#### Device/Quark/
+* [Quark: clean up not used sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20not%20used%20sepolicy&type=Commits)
+* [Quark: squash change to speedup boot process](https://github.com/search?q=Quark%3A%20squash%20change%20to%20speedup%20boot%20process&type=Commits)
+
+#### Device specific Changes of 09-02-2018 End.
+
+***
+
+09-01-2018
+====================
+
+#### Device specific Changes of 09-01-2018 Start:
+
+#### Vendor/Quark/
+* [Quark: update quark/proprietary/etc/gps.conf](https://github.com/search?q=Quark%3A%20update%20quark/proprietary/etc/gps.conf&type=Commits)
+* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 09-01-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 09-01-2018:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-01-2018 End.
+
+08-31-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-31-2018:
+
+#### build/make/
+* [Also check if BOARD_KERNEL_SEPARATED_DTBO is set](https://github.com/search?q=Also%20check%20if%20BOARD_KERNEL_SEPARATED_DTBO%20is%20set&type=Commits)
+
+#### device/rr/sepolicy/
+* [selinux: add domain for Gallery](https://github.com/search?q=selinux%3A%20add%20domain%20for%20Gallery&type=Commits)
+* [selinux: add domain for snap](https://github.com/search?q=selinux%3A%20add%20domain%20for%20snap&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [Telecom: Properly depend on Lineage SDK](https://github.com/search?q=Telecom%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/rr/
+* [lineage: enable roundIcons by default](https://github.com/search?q=lineage%3A%20enable%20roundIcons%20by%20default&type=Commits)
+* [lineage: Disable IPv4 for T-Mobile (and MetroPCS) domestically](https://github.com/search?q=lineage%3A%20Disable%20IPv4%20for%20T-Mobile%20%28and%20MetroPCS%29%20domestically&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-31-2018 End.
+
+08-30-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-30-2018:
+
+#### packages/providers/DownloadProvider/
+* [Fix plural translatability for download speed](https://github.com/search?q=Fix%20plural%20translatability%20for%20download%20speed&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-30-2018 End.
+
+08-29-2018
+====================
+
+#### Device specific Changes of 08-29-2018 Start:
+
+#### Device/Quark/
+* [Quark: cleanup lineage/rr.mk](https://github.com/search?q=Quark%3A%20cleanup%20lineage/rr.mk&type=Commits)
+
+#### Kernel/Quark/
+* [qcacld-2.0:WCNSS_qcom_cfg.ini Set link activity timeouts to driver defaults](https://github.com/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Set%20link%20activity%20timeouts%20to%20driver%20defaults&type=Commits)
+* [qcacld-2.0:WCNSS_qcom_cfg.ini Modify DTIM config ini values](https://github.com/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Modify%20DTIM%20config%20ini%20values&type=Commits)
+* [qcacld-2.0: Calculate LI per AP's BI and DTIM](https://github.com/search?q=qcacld-2.0%3A%20Calculate%20LI%20per%20AP%27s%20BI%20and%20DTIM&type=Commits)
+
+#### Device specific Changes of 08-29-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 08-29-2018:
+
+#### hardware/qcom/power/
+* [power-8916: fix using wrong array size in perform_hint_action](https://github.com/search?q=power-8916%3A%20fix%20using%20wrong%20array%20size%20in%20perform_hint_action&type=Commits)
+
+#### packages/apps/Email/
+* [Don't request battery optimization exemption if not needed.](https://github.com/search?q=Don%27t%20request%20battery%20optimization%20exemption%20if%20not%20needed.&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-29-2018 End.
+
 08-27-2018
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-27-2018:
+#### android/
+* [rr: manifest: track updated clang repository from AOSiP GitHub](https://github.com/search?q=rr%3A%20manifest%3A%20track%20updated%20clang%20repository%20from%20AOSiP%20GitHub&type=Commits)
+
+#### external/openssh/
+* [Disable StrictModes](https://github.com/search?q=Disable%20StrictModes&type=Commits)
+* [Add Android support](https://github.com/search?q=Add%20Android%20support&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-27-2018 End.
+
+08-26-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 08-26-2018:
+
+#### external/openssh/
+* [Revert "upstream: Ensure that D mod (P-1) and D mod (Q-1) are calculated in"](https://github.com/search?q=Revert%20"upstream%3A%20Ensure%20that%20D%20mod%20%28P-1%29%20and%20D%20mod%20%28Q-1%29%20are%20calculated%20in"&type=Commits)
+
 
 #### packages/apps/Profiles/
 * [Profiles: Properly depend on Lineage SDK](https://github.com/search?q=Profiles%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)

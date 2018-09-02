@@ -3,6 +3,26 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+08-29-2018
+====================
+
+* [qcacld-2.0:WCNSS_qcom_cfg.ini Set link activity timeouts to driver defaults](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Set%20link%20activity%20timeouts%20to%20driver%20defaults&type=Commits)
+* [kernel V9.16](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.16&type=Commits)
+* [qcacld-2.0:WCNSS_qcom_cfg.ini Modify DTIM config ini values](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Modify%20DTIM%20config%20ini%20values&type=Commits)
+* [qcacld-2.0: Calculate LI per AP's BI and DTIM](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Calculate%20LI%20per%20AP%27s%20BI%20and%20DTIM&type=Commits)
+
+***
+
+08-24-2018
+====================
+
+* [build: cleanup modules](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20cleanup%20modules&type=Commits)
+* [ANDROID: Revert "net: increase fragment memory usage limits"](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20Revert%20"net%3A%20increase%20fragment%20memory%20usage%20limits"&type=Commits)
+* [UPSTREAM: perf/hwbp: Simplify the perf-hwbp code, fix documentation](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20perf/hwbp%3A%20Simplify%20the%20perf-hwbp%20code,%20fix%20documentation&type=Commits)
+* [NFC: llcp: Limit size of SDP URI](https://github.com/bhb27/BHB27Kernel/search?q=NFC%3A%20llcp%3A%20Limit%20size%20of%20SDP%20URI&type=Commits)
+
+***
+
 08-18-2018
 ====================
 
