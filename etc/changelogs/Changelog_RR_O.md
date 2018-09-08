@@ -1,16 +1,160 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
-Resurrection Remix OS - Oreo source and Quark Changelog:
-============================================================
+09-08-2018
+====================
+
+#### Device specific Changes of 09-08-2018 Start:
+
+#### Device/Quark/
+* [Quark: updare README.md](https://github.com/search?q=Quark%3A%20updare%20README.md&type=Commits)
+* [Quark: update thermal-engine-quark](https://github.com/search?q=Quark%3A%20update%20thermal-engine-quark&type=Commits)
+* [Quark: init enable mpdecision hotpluging and start at main](https://github.com/search?q=Quark%3A%20init%20enable%20mpdecision%20hotpluging%20and%20start%20at%20main&type=Commits)
+* [Quark: update bdroid_buildcfg](https://github.com/search?q=Quark%3A%20update%20bdroid_buildcfg&type=Commits)
+
+#### Kernel/Quark/
+* [l2tp: initialise session's refcount before making it reachable](https://github.com/search?q=l2tp%3A%20initialise%20session%27s%20refcount%20before%20making%20it%20reachable&type=Commits)
+* [ASoC: msm: qdspv2: initialize variables before use](https://github.com/search?q=ASoC%3A%20msm%3A%20qdspv2%3A%20initialize%20variables%20before%20use&type=Commits)
+* [ASoC: msm: qdspv2: add spin lock to protect ac](https://github.com/search?q=ASoC%3A%20msm%3A%20qdspv2%3A%20add%20spin%20lock%20to%20protect%20ac&type=Commits)
+* [qcacld-2.0: Fix UAF in WLAN HDD](https://github.com/search?q=qcacld-2.0%3A%20Fix%20UAF%20in%20WLAN%20HDD&type=Commits)
+* [qcacld-2.0: Fix information leak issue during memcpy](https://github.com/search?q=qcacld-2.0%3A%20Fix%20information%20leak%20issue%20during%20memcpy&type=Commits)
+* [BACKPORT: l2tp: fix duplicate session creation](https://github.com/search?q=BACKPORT%3A%20l2tp%3A%20fix%20duplicate%20session%20creation&type=Commits)
+* [BACKPORT: l2tp: fix race in l2tp_recv_common()](https://github.com/search?q=BACKPORT%3A%20l2tp%3A%20fix%20race%20in%20l2tp_recv_common%28%29&type=Commits)
+* [qcacld-2.0: Fix UAF in the function wlan_hdd_execute_remain_on_channel](https://github.com/search?q=qcacld-2.0%3A%20Fix%20UAF%20in%20the%20function%20wlan_hdd_execute_remain_on_channel&type=Commits)
+* [qcacld-2.0: Resolve possible OOB while posting SET PASSPOINT WMA event](https://github.com/search?q=qcacld-2.0%3A%20Resolve%20possible%20OOB%20while%20posting%20SET%20PASSPOINT%20WMA%20event&type=Commits)
+* [qcacld-2.0: Fix OOB write in wma_passpoint_match_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_passpoint_match_event_handler&type=Commits)
+* [msm: ipa: fix bug in routing table deletion](https://github.com/search?q=msm%3A%20ipa%3A%20fix%20bug%20in%20routing%20table%20deletion&type=Commits)
+* [netfilter: ebtables: fix erroneous reject of last rule](https://github.com/search?q=netfilter%3A%20ebtables%3A%20fix%20erroneous%20reject%20of%20last%20rule&type=Commits)
+* [ANDROID: HID: debug: check length in hid_debug_events_read() before copy_to_user()](https://github.com/search?q=ANDROID%3A%20HID%3A%20debug%3A%20check%20length%20in%20hid_debug_events_read%28%29%20before%20copy_to_user%28%29&type=Commits)
+* [usb: dwc3: dbm: Fix double free in msm_dbm_probe](https://github.com/search?q=usb%3A%20dwc3%3A%20dbm%3A%20Fix%20double%20free%20in%20msm_dbm_probe&type=Commits)
+* [qcacld-2.0: Possible buffer overflow in wma_stats_ext_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Possible%20buffer%20overflow%20in%20wma_stats_ext_event_handler&type=Commits)
+* [qcacld-2.0: Add data_len check to avoid OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20data_len%20check%20to%20avoid%20OOB%20access&type=Commits)
+* [qcacld-2.0: Fix OOB access in htt_rx_ring_fill_n](https://github.com/search?q=qcacld-2.0%3A%20Fix%20OOB%20access%20in%20htt_rx_ring_fill_n&type=Commits)
+* [qcacld-2.0: Fix OOB write in wma_extscan_change_results_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_extscan_change_results_event_handler&type=Commits)
+* [qcacld-2.0: Possible buffer overflow in wma_nan_rsp_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Possible%20buffer%20overflow%20in%20wma_nan_rsp_event_handler&type=Commits)
+* [qcacld-2.0: Integer overflow in wma_unified_link_peer_stats_event_handler](https://github.com/search?q=qcacld-2.0%3A%20Integer%20overflow%20in%20wma_unified_link_peer_stats_event_handler&type=Commits)
+* [qcacld-2.0: Fix in wma_vdev_start_rsp_ind](https://github.com/search?q=qcacld-2.0%3A%20Fix%20in%20wma_vdev_start_rsp_ind&type=Commits)
+* [qcacld-2.0: Remove palPktFree in assoc request api](https://github.com/search?q=qcacld-2.0%3A%20Remove%20palPktFree%20in%20assoc%20request%20api&type=Commits)
+* [qcacld-2.0: Allocate extra 100 bytes to add missing IE info](https://github.com/search?q=qcacld-2.0%3A%20Allocate%20extra%20100%20bytes%20to%20add%20missing%20IE%20info&type=Commits)
+* [qcacld-2.0: Avoid int overflow in csrScanSavePreferredNetworkFound](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20int%20overflow%20in%20csrScanSavePreferredNetworkFound&type=Commits)
+* [qcacld-2.0: fix possible OOB read in SIOCSIWRATE WEXT ioctl handler](https://github.com/search?q=qcacld-2.0%3A%20fix%20possible%20OOB%20read%20in%20SIOCSIWRATE%20WEXT%20ioctl%20handler&type=Commits)
+* [qcacld-2.0: Check ac in limSetEdcaBcastACMFlag](https://github.com/search?q=qcacld-2.0%3A%20Check%20ac%20in%20limSetEdcaBcastACMFlag&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in ol_tx_inspect_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20ol_tx_inspect_handler&type=Commits)
+* [qcacld-2.0: Possible kernel info leak in sme_updateP2pIe()](https://github.com/search?q=qcacld-2.0%3A%20Possible%20kernel%20info%20leak%20in%20sme_updateP2pIe%28%29&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update time props from shamu libqc-opt from samsunng 8084](https://github.com/search?q=Quark%3A%20update%20time%20props%20from%20shamu%20libqc-opt%20from%20samsunng%208084&type=Commits)
+
+#### Device specific Changes of 09-08-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 09-08-2018:
+#### android/
+* [manifest: android-8.1.0_r43 -> android-8.1.0_r46](https://github.com/search?q=manifest%3A%20android-8.1.0_r43%20->%20android-8.1.0_r46&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-8.1.0_r46' into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r46%27%20into%20oreo&type=Commits)
+
+#### device/rr/sepolicy/
+* [Add pocket judge selinux policy](https://github.com/search?q=Add%20pocket%20judge%20selinux%20policy&type=Commits)
+* [sepolicy: Add policy for edgegestureservice](https://github.com/search?q=sepolicy%3A%20Add%20policy%20for%20edgegestureservice&type=Commits)
+* [sepolicy: update for rr](https://github.com/search?q=sepolicy%3A%20update%20for%20rr&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-8.1.0_r46' into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r46%27%20into%20oreo&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-8.1.0_r46' into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r46%27%20into%20oreo&type=Commits)
+
+#### system/sepolicy/
+* [Merge tag 'android-8.1.0_r46' into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r46%27%20into%20oreo&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-08-2018 End.
+
+09-07-2018
+====================
+
+#### Device specific Changes of 09-07-2018 Start:
+
+#### Kernel/Quark/
+* [qcacld-2.0: update WCNSS_qcom_cfg](https://github.com/search?q=qcacld-2.0%3A%20update%20WCNSS_qcom_cfg&type=Commits)
+
+#### Vendor/Quark/
+* [Revert "Quark: use samsung apq8084-common wcnss_filter"](https://github.com/search?q=Revert%20"Quark%3A%20use%20samsung%20apq8084-common%20wcnss_filter"&type=Commits)
+
+#### Device specific Changes of 09-07-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 09-07-2018:
+
+#### frameworks/base/
+* [[1/3] base: make outline the default weather icon pack](https://github.com/search?q=[1/3]%20base%3A%20make%20outline%20the%20default%20weather%20icon%20pack&type=Commits)
+
+#### packages/apps/OmniStyle/
+* [[2/3] OmniStyle: make outline the default icon package](https://github.com/search?q=[2/3]%20OmniStyle%3A%20make%20outline%20the%20default%20icon%20package&type=Commits)
+
+#### packages/apps/Settings/
+* [Add enchilada maintainer](https://github.com/search?q=Add%20enchilada%20maintainer&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-07-2018 End.
+
+09-06-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-06-2018:
+
+#### frameworks/base/
+* [fix color in the volume dialog for the inactive element](https://github.com/search?q=fix%20color%20in%20the%20volume%20dialog%20for%20the%20inactive%20element&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-06-2018 End.
+
+09-05-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-05-2018:
+
+#### frameworks/opt/telephony/
+* [TelephonyComponentFactory: Fix SubscriptionInfoUpdater overloading](https://github.com/search?q=TelephonyComponentFactory%3A%20Fix%20SubscriptionInfoUpdater%20overloading&type=Commits)
+
+#### prebuilts/clang/host/linux-x86/
+* [Merge tag 'android-8.1.0_r46' into oreo-mr1](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r46%27%20into%20oreo-mr1&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-05-2018 End.
+
+09-04-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-04-2018:
+
+#### packages/services/OmniJaws/
+* [OmniJaws: fix theme for widget configure acitvity](https://github.com/search?q=OmniJaws%3A%20fix%20theme%20for%20widget%20configure%20acitvity&type=Commits)
+* [OmniJaws: reduce minimal size of widget](https://github.com/search?q=OmniJaws%3A%20reduce%20minimal%20size%20of%20widget&type=Commits)
+* [OmniJawas: add current weather condition widget](https://github.com/search?q=OmniJawas%3A%20add%20current%20weather%20condition%20widget&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-04-2018 End.
+
+09-03-2018
+====================
+
+#### Device specific Changes of 09-03-2018 Start:
+
+#### Device/Quark/
+* [Quark: clean up not used sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20not%20used%20sepolicy&type=Commits)
+* [Quark: squash change to speedup boot process](https://github.com/search?q=Quark%3A%20squash%20change%20to%20speedup%20boot%20process&type=Commits)
+
+#### Device specific Changes of 09-03-2018 End.
+
+***
 
 09-02-2018
 ====================
 
 #### Device specific Changes of 09-02-2018 Start:
 
-#### Device/Quark/
-* [Quark: clean up not used sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20not%20used%20sepolicy&type=Commits)
-* [Quark: squash change to speedup boot process](https://github.com/search?q=Quark%3A%20squash%20change%20to%20speedup%20boot%20process&type=Commits)
+#### Vendor/Quark/
+* [Quark: update quark/proprietary/etc/gps.conf](https://github.com/search?q=Quark%3A%20update%20quark/proprietary/etc/gps.conf&type=Commits)
+* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
 
 #### Device specific Changes of 09-02-2018 End.
 
@@ -18,16 +162,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 09-01-2018
 ====================
-
-#### Device specific Changes of 09-01-2018 Start:
-
-#### Vendor/Quark/
-* [Quark: update quark/proprietary/etc/gps.conf](https://github.com/search?q=Quark%3A%20update%20quark/proprietary/etc/gps.conf&type=Commits)
-* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
-
-#### Device specific Changes of 09-01-2018 End.
-
-***
 
 #### Resurrection Remix OS - Oreo source changes of 09-01-2018:
 
@@ -47,12 +181,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### build/make/
 * [Also check if BOARD_KERNEL_SEPARATED_DTBO is set](https://github.com/search?q=Also%20check%20if%20BOARD_KERNEL_SEPARATED_DTBO%20is%20set&type=Commits)
 
-#### device/rr/sepolicy/
-* [selinux: add domain for Gallery](https://github.com/search?q=selinux%3A%20add%20domain%20for%20Gallery&type=Commits)
-* [selinux: add domain for snap](https://github.com/search?q=selinux%3A%20add%20domain%20for%20snap&type=Commits)
-
 #### packages/apps/Messaging/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Fix plural translatability for download speed](https://github.com/search?q=Fix%20plural%20translatability%20for%20download%20speed&type=Commits)
 
 #### packages/services/Telecomm/
 * [Telecom: Properly depend on Lineage SDK](https://github.com/search?q=Telecom%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)
@@ -70,17 +203,7 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 08-30-2018
 ====================
 
-#### Resurrection Remix OS - Oreo source changes of 08-30-2018:
-
-#### packages/providers/DownloadProvider/
-* [Fix plural translatability for download speed](https://github.com/search?q=Fix%20plural%20translatability%20for%20download%20speed&type=Commits)
-
-#### Resurrection Remix OS - Oreo source changes of 08-30-2018 End.
-
-08-29-2018
-====================
-
-#### Device specific Changes of 08-29-2018 Start:
+#### Device specific Changes of 08-30-2018 Start:
 
 #### Device/Quark/
 * [Quark: cleanup lineage/rr.mk](https://github.com/search?q=Quark%3A%20cleanup%20lineage/rr.mk&type=Commits)
@@ -90,9 +213,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [qcacld-2.0:WCNSS_qcom_cfg.ini Modify DTIM config ini values](https://github.com/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Modify%20DTIM%20config%20ini%20values&type=Commits)
 * [qcacld-2.0: Calculate LI per AP's BI and DTIM](https://github.com/search?q=qcacld-2.0%3A%20Calculate%20LI%20per%20AP%27s%20BI%20and%20DTIM&type=Commits)
 
-#### Device specific Changes of 08-29-2018 End.
+#### Device specific Changes of 08-30-2018 End.
 
 ***
+
+08-29-2018
+====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-29-2018:
 
@@ -104,16 +230,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 08-29-2018 End.
 
-08-27-2018
+08-28-2018
 ====================
 
-#### Resurrection Remix OS - Oreo source changes of 08-27-2018:
+#### Resurrection Remix OS - Oreo source changes of 08-28-2018:
 #### android/
 * [rr: manifest: track updated clang repository from AOSiP GitHub](https://github.com/search?q=rr%3A%20manifest%3A%20track%20updated%20clang%20repository%20from%20AOSiP%20GitHub&type=Commits)
-
-#### external/openssh/
-* [Disable StrictModes](https://github.com/search?q=Disable%20StrictModes&type=Commits)
-* [Add Android support](https://github.com/search?q=Add%20Android%20support&type=Commits)
 
 #### frameworks/base/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -121,16 +243,17 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### packages/apps/Settings/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### Resurrection Remix OS - Oreo source changes of 08-27-2018 End.
+#### Resurrection Remix OS - Oreo source changes of 08-28-2018 End.
 
-08-26-2018
+08-27-2018
 ====================
 
-#### Resurrection Remix OS - Oreo source changes of 08-26-2018:
+#### Resurrection Remix OS - Oreo source changes of 08-27-2018:
 
 #### external/openssh/
+* [Disable StrictModes](https://github.com/search?q=Disable%20StrictModes&type=Commits)
+* [Add Android support](https://github.com/search?q=Add%20Android%20support&type=Commits)
 * [Revert "upstream: Ensure that D mod (P-1) and D mod (Q-1) are calculated in"](https://github.com/search?q=Revert%20"upstream%3A%20Ensure%20that%20D%20mod%20%28P-1%29%20and%20D%20mod%20%28Q-1%29%20are%20calculated%20in"&type=Commits)
-
 
 #### packages/apps/Profiles/
 * [Profiles: Properly depend on Lineage SDK](https://github.com/search?q=Profiles%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)
@@ -140,24 +263,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 08-26-2018
 ====================
 
+#### Device specific Changes of 08-26-2018 Start:
+
+#### Device/Quark/
+* [Quark: update config_gpsParameters](https://github.com/search?q=Quark%3A%20update%20config_gpsParameters&type=Commits)
+
+#### Device specific Changes of 08-26-2018 End.
+
+***
+
 #### Resurrection Remix OS - Oreo source changes of 08-26-2018:
 
 #### packages/apps/AudioFX/
 * [AudioFX: Properly depend on Lineage SDK](https://github.com/search?q=AudioFX%3A%20Properly%20depend%20on%20Lineage%20SDK&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 08-26-2018 End.
-
-08-25-2018
-====================
-
-#### Device specific Changes of 08-25-2018 Start:
-
-#### Device/Quark/
-* [Quark: update config_gpsParameters](https://github.com/search?q=Quark%3A%20update%20config_gpsParameters&type=Commits)
-
-#### Device specific Changes of 08-25-2018 End.
-
-***
 
 08-24-2018
 ====================
@@ -176,10 +296,36 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
+#### Resurrection Remix OS - Oreo source changes of 08-24-2018:
+
+#### device/rr/sepolicy/
+* [selinux: add domain for Gallery](https://github.com/search?q=selinux%3A%20add%20domain%20for%20Gallery&type=Commits)
+* [selinux: add domain for snap](https://github.com/search?q=selinux%3A%20add%20domain%20for%20snap&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-24-2018 End.
+
 08-23-2018
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-23-2018:
+
+#### device/qcom/sepolicy/
+* [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
+
+#### external/openssh/
+* [shorten temporary SSH_REGRESS_TMP path](https://github.com/search?q=shorten%20temporary%20SSH_REGRESS_TMP%20path&type=Commits)
+* [rebuild dependencies](https://github.com/search?q=rebuild%20dependencies&type=Commits)
+* [fix path in distclean target](https://github.com/search?q=fix%20path%20in%20distclean%20target&type=Commits)
+* [upstream: memleak introduced in r1.83; from Colin Watson](https://github.com/search?q=upstream%3A%20memleak%20introduced%20in%20r1.83;%20from%20Colin%20Watson&type=Commits)
+
+#### external/p7zip/
+* [Actual working support for building on Android](https://github.com/search?q=Actual%20working%20support%20for%20building%20on%20Android&type=Commits)
+* [Use a sane naming convention for the shared library](https://github.com/search?q=Use%20a%20sane%20naming%20convention%20for%20the%20shared%20library&type=Commits)
+* [Fix CVE-2018-10115](https://github.com/search?q=Fix%20CVE-2018-10115&type=Commits)
+* [Fix CVE-2018-5996](https://github.com/search?q=Fix%20CVE-2018-5996&type=Commits)
+* [Fix CVE-2017-17969](https://github.com/search?q=Fix%20CVE-2017-17969&type=Commits)
+* [Fix CVE-2016-9296](https://github.com/search?q=Fix%20CVE-2016-9296&type=Commits)
+* [Import p7zip 16.02](https://github.com/search?q=Import%20p7zip%2016.02&type=Commits)
 
 #### frameworks/av/
 * [mediascanner: Accept .opus file extension.](https://github.com/search?q=mediascanner%3A%20Accept%20.opus%20file%20extension.&type=Commits)
@@ -188,8 +334,25 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### frameworks/native/
+* [Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_frameworks_native into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-15.1%27%20of%20git%3A//github.com/LineageOS/android_frameworks_native%20into%20HEAD&type=Commits)
+
+#### lineage-sdk/
+* [sdk: Add migration for /missing/ custom button actions](https://github.com/search?q=sdk%3A%20Add%20migration%20for%20/missing/%20custom%20button%20actions&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Regen lineage_current](https://github.com/search?q=Regen%20lineage_current&type=Commits)
+
 #### packages/apps/Gallery2/
 * [Gallery: use platform cert](https://github.com/search?q=Gallery%3A%20use%20platform%20cert&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Fix Trust strings again](https://github.com/search?q=Fix%20Trust%20strings%20again&type=Commits)
+* [LineageParts: Fix unescaped quote in trust_feature_security_patches_explain](https://github.com/search?q=LineageParts%3A%20Fix%20unescaped%20quote%20in%20trust_feature_security_patches_explain&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Trust: String changes for accuracy of language](https://github.com/search?q=Trust%3A%20String%20changes%20for%20accuracy%20of%20language&type=Commits)
+* [LineageParts: Add missing recycle() calls](https://github.com/search?q=LineageParts%3A%20Add%20missing%20recycle%28%29%20calls&type=Commits)
+* [LineageParts: Add missing cursor close](https://github.com/search?q=LineageParts%3A%20Add%20missing%20cursor%20close&type=Commits)
+* [LineageParts: add one finger swipe up from home gesture string](https://github.com/search?q=LineageParts%3A%20add%20one%20finger%20swipe%20up%20from%20home%20gesture%20string&type=Commits)
 
 #### packages/apps/Settings/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -204,25 +367,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 08-22-2018:
 
-#### device/qcom/sepolicy/
-* [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
-
-#### frameworks/native/
-* [Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_frameworks_native into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-15.1%27%20of%20git%3A//github.com/LineageOS/android_frameworks_native%20into%20HEAD&type=Commits)
-
-#### lineage-sdk/
-* [sdk: Add migration for /missing/ custom button actions](https://github.com/search?q=sdk%3A%20Add%20migration%20for%20/missing/%20custom%20button%20actions&type=Commits)
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-* [Regen lineage_current](https://github.com/search?q=Regen%20lineage_current&type=Commits)
-
-#### packages/apps/LineageParts/
-* [Fix Trust strings again](https://github.com/search?q=Fix%20Trust%20strings%20again&type=Commits)
-* [LineageParts: Fix unescaped quote in trust_feature_security_patches_explain](https://github.com/search?q=LineageParts%3A%20Fix%20unescaped%20quote%20in%20trust_feature_security_patches_explain&type=Commits)
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-* [Trust: String changes for accuracy of language](https://github.com/search?q=Trust%3A%20String%20changes%20for%20accuracy%20of%20language&type=Commits)
-* [LineageParts: Add missing recycle() calls](https://github.com/search?q=LineageParts%3A%20Add%20missing%20recycle%28%29%20calls&type=Commits)
-* [LineageParts: Add missing cursor close](https://github.com/search?q=LineageParts%3A%20Add%20missing%20cursor%20close&type=Commits)
-* [LineageParts: add one finger swipe up from home gesture string](https://github.com/search?q=LineageParts%3A%20add%20one%20finger%20swipe%20up%20from%20home%20gesture%20string&type=Commits)
+#### external/openssh/
+* [upstream: AIX reports the CODESET as "ISO8859-1" in the POSIX locale.](https://github.com/search?q=upstream%3A%20AIX%20reports%20the%20CODESET%20as%20"ISO8859-1"%20in%20the%20POSIX%20locale.&type=Commits)
+* [	modified:   openbsd-compat/port-uw.c 	remove obsolete and un-needed include](https://github.com/search?q=	modified%3A%20%20%20openbsd-compat/port-uw.c%20	remove%20obsolete%20and%20un-needed%20include&type=Commits)
 
 #### vendor/rr/
 * [build: Add dtbo task](https://github.com/search?q=build%3A%20Add%20dtbo%20task&type=Commits)
@@ -234,6 +381,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-20-2018:
+
+#### external/openssh/
+* [Missing unistd.h for regress/mkdtemp.c](https://github.com/search?q=Missing%20unistd.h%20for%20regress/mkdtemp.c&type=Commits)
 
 #### packages/apps/Settings/
 * [Update herolte maintainer](https://github.com/search?q=Update%20herolte%20maintainer&type=Commits)
@@ -261,9 +411,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device/Quark/
 * [Quark: disable button-backlight on shutdown](https://github.com/search?q=Quark%3A%20disable%20button-backlight%20on%20shutdown&type=Commits)
 
-#### Vendor/Quark/
-* [Quark: update quark/proprietary/etc/gps.conf](https://github.com/search?q=Quark%3A%20update%20quark/proprietary/etc/gps.conf&type=Commits)
-
 #### Device specific Changes of 08-18-2018 End.
 
 ***
@@ -290,8 +437,66 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
+#### Resurrection Remix OS - Oreo source changes of 08-17-2018:
+
+#### external/openssh/
+* [update version numbers in anticipation of release](https://github.com/search?q=update%20version%20numbers%20in%20anticipation%20of%20release&type=Commits)
+
+#### packages/apps/Calendar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-17-2018 End.
+
 08-15-2018
 ====================
+
+#### Device specific Changes of 08-15-2018 Start:
+
+#### Vendor/Quark/
+* [Quark: up KernelAdiutor](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 08-15-2018 End.
+
+***
 
 #### Resurrection Remix OS - Oreo source changes of 08-15-2018:
 
@@ -309,17 +514,34 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [defconfig re-enable net realted](https://github.com/search?q=defconfig%20re-enable%20net%20realted&type=Commits)
 
 #### Vendor/Quark/
-* [Quark: up KernelAdiutor](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor&type=Commits)
 * [Quark: revert adaway for the version that survives kernel/rom flashes](https://github.com/search?q=Quark%3A%20revert%20adaway%20for%20the%20version%20that%20survives%20kernel/rom%20flashes&type=Commits)
 
 #### Device specific Changes of 08-14-2018 End.
 
 ***
 
+#### Resurrection Remix OS - Oreo source changes of 08-14-2018:
+
+#### external/openssh/
+* [configure: work around GCC shortcoming on Cygwin](https://github.com/search?q=configure%3A%20work%20around%20GCC%20shortcoming%20on%20Cygwin&type=Commits)
+* [cygwin: add missing stdarg.h include](https://github.com/search?q=cygwin%3A%20add%20missing%20stdarg.h%20include&type=Commits)
+
+#### frameworks/av/
+* [OMXNodeInstance: Allow dynamic native handle for shared mem buffer](https://github.com/search?q=OMXNodeInstance%3A%20Allow%20dynamic%20native%20handle%20for%20shared%20mem%20buffer&type=Commits)
+
+#### packages/apps/Settings/
+* [Update ZenFone 3 maintainer](https://github.com/search?q=Update%20ZenFone%203%20maintainer&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-14-2018 End.
+
 08-13-2018
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-13-2018:
+
+#### external/openssh/
+* [upstream: revert compat.[ch] section of the following change. It](https://github.com/search?q=upstream%3A%20revert%20compat.[ch]%20section%20of%20the%20following%20change.%20It&type=Commits)
+* [upstream: better diagnosics on alg list assembly errors; ok](https://github.com/search?q=upstream%3A%20better%20diagnosics%20on%20alg%20list%20assembly%20errors;%20ok&type=Commits)
 
 #### packages/apps/Snap/
 * [Snap: Allow quickreader to work with secure device](https://github.com/search?q=Snap%3A%20Allow%20quickreader%20to%20work%20with%20secure%20device&type=Commits)
@@ -333,6 +555,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-12-2018:
+
+#### external/openssh/
+* [Some AIX fixes; report from Michael Felt](https://github.com/search?q=Some%20AIX%20fixes;%20report%20from%20Michael%20Felt&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [biometrics: fingerprint: add locking to default impl](https://github.com/search?q=biometrics%3A%20fingerprint%3A%20add%20locking%20to%20default%20impl&type=Commits)
 
 #### lineage-sdk/
 * [sdk: Add minimal LineageSettingsService](https://github.com/search?q=sdk%3A%20Add%20minimal%20LineageSettingsService&type=Commits)
@@ -381,14 +609,92 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### build/make/
 * [Merge tag 'android-8.1.0_r43' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20into%20HEAD&type=Commits)
+* [Make change and version bump to OPM6.171019.030.K1](https://github.com/search?q=Make%20change%20and%20version%20bump%20to%20OPM6.171019.030.K1&type=Commits)
+* [Updating Platform Security String to 2018-09-05 Bug: 111501777 (cherry picked from commit 6bc223c9af044ad06e2f1abc0c4570a7371f9a3a)](https://github.com/search?q=Updating%20Platform%20Security%20String%20to%202018-09-05%20Bug%3A%20111501777%20%28cherry%20picked%20from%20commit%206bc223c9af044ad06e2f1abc0c4570a7371f9a3a%29&type=Commits)
+* [[DO NOT MERGE] Update Platform Security String to 2018-08-05 for August Bug:109889880 (cherry picked from commit f6bee62b8eb5819f23e31d1dfb1622d48f5ab554)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20Platform%20Security%20String%20to%202018-08-05%20for%20August%20Bug%3A109889880%20%28cherry%20picked%20from%20commit%20f6bee62b8eb5819f23e31d1dfb1622d48f5ab554%29&type=Commits)
+* [DO NOT MERGE: Update Platform Security String to 2018-07-05 for oc-mr1-dev Bug:79883349 (cherry picked from commit cfbe84b8a0ac6ad680edad1c21b08672ed96127d)](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Update%20Platform%20Security%20String%20to%202018-07-05%20for%20oc-mr1-dev%20Bug%3A79883349%20%28cherry%20picked%20from%20commit%20cfbe84b8a0ac6ad680edad1c21b08672ed96127d%29&type=Commits)
+* [DO NOT MERGE: Updating security string for oc-mr1-dev to 2018-06-05](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Updating%20security%20string%20for%20oc-mr1-dev%20to%202018-06-05&type=Commits)
+
+#### external/bouncycastle/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Fix probable prime confidence calculations.](https://github.com/search?q=Fix%20probable%20prime%20confidence%20calculations.&type=Commits)
+
+#### external/curl/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Disable unused protocols.](https://github.com/search?q=Disable%20unused%20protocols.&type=Commits)
+
+#### external/libavc/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Encoder: Return error for odd resolution](https://github.com/search?q=Encoder%3A%20Return%20error%20for%20odd%20resolution&type=Commits)
+* [Decoder: Modify setting short term reference field flag](https://github.com/search?q=Decoder%3A%20Modify%20setting%20short%20term%20reference%20field%20flag&type=Commits)
+
+#### external/libhevc/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Return error for invalid st/lt sps parameters](https://github.com/search?q=Return%20error%20for%20invalid%20st/lt%20sps%20parameters&type=Commits)
+* [Return error for invalid sps sub layers parameters](https://github.com/search?q=Return%20error%20for%20invalid%20sps%20sub%20layers%20parameters&type=Commits)
+* [Add limits check for depth hierarchy sps parameters](https://github.com/search?q=Add%20limits%20check%20for%20depth%20hierarchy%20sps%20parameters&type=Commits)
+* [Return error for invalid reorder parameter](https://github.com/search?q=Return%20error%20for%20invalid%20reorder%20parameter&type=Commits)
+
+#### external/libmpeg2/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Adding Check For Number of Skip MBs](https://github.com/search?q=Adding%20Check%20For%20Number%20of%20Skip%20MBs&type=Commits)
+
+#### external/libvpx/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [DO NOT MERGE | libvpx: cherry pick fix to OOB of mv_cost index.](https://github.com/search?q=DO%20NOT%20MERGE%20|%20libvpx%3A%20cherry%20pick%20fix%20to%20OOB%20of%20mv_cost%20index.&type=Commits)
+
+#### external/libxml2/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [RESTRICT AUTOMERGE: Update libxml2 to 2.9.8](https://github.com/search?q=RESTRICT%20AUTOMERGE%3A%20Update%20libxml2%20to%202.9.8&type=Commits)
+
+#### external/neven/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Make bound check proper in bbf_Scanner_addOutPos](https://github.com/search?q=Make%20bound%20check%20proper%20in%20bbf_Scanner_addOutPos&type=Commits)
+
+#### external/sonivox/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [sonivox: prevent infinite loop in OTA ringtones](https://github.com/search?q=sonivox%3A%20prevent%20infinite%20loop%20in%20OTA%20ringtones&type=Commits)
+* [sonivox: fix hang caused by bad meta-event](https://github.com/search?q=sonivox%3A%20fix%20hang%20caused%20by%20bad%20meta-event&type=Commits)
 
 #### frameworks/base/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [fw/b lights: Allow black notification color](https://github.com/search?q=fw/b%20lights%3A%20Allow%20black%20notification%20color&type=Commits)
 * [Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/base into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20HEAD&type=Commits)
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Fix TrackInfo parcel write](https://github.com/search?q=Fix%20TrackInfo%20parcel%20write&type=Commits)
+* [vpn: allow IPSec traffic through Always-on VPN](https://github.com/search?q=vpn%3A%20allow%20IPSec%20traffic%20through%20Always-on%20VPN&type=Commits)
+* [Resolve inconsistent parcel read in NanoAppFilter](https://github.com/search?q=Resolve%20inconsistent%20parcel%20read%20in%20NanoAppFilter&type=Commits)
+* [Backport Prevent shortcut info package name spoofing](https://github.com/search?q=Backport%20Prevent%20shortcut%20info%20package%20name%20spoofing&type=Commits)
+* [Fix DynamicRefTable::load security bug](https://github.com/search?q=Fix%20DynamicRefTable%3A%3Aload%20security%20bug&type=Commits)
+* [ResStringPool: Prevenet boot loop from se fix](https://github.com/search?q=ResStringPool%3A%20Prevenet%20boot%20loop%20from%20se%20fix&type=Commits)
+* [Make safe label more safe](https://github.com/search?q=Make%20safe%20label%20more%20safe&type=Commits)
+* [WM: Prevent secondary display focus while keyguard is up](https://github.com/search?q=WM%3A%20Prevent%20secondary%20display%20focus%20while%20keyguard%20is%20up&type=Commits)
+* [DO NOT MERGE: Add unit tests to ensure VPN meteredness](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Add%20unit%20tests%20to%20ensure%20VPN%20meteredness&type=Commits)
+* [DO NOT MERGE: Fix ConnectivityController meteredness checks](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Fix%20ConnectivityController%20meteredness%20checks&type=Commits)
+* [clearCallingIdentity before calling into getPackageUidAsUser](https://github.com/search?q=clearCallingIdentity%20before%20calling%20into%20getPackageUidAsUser&type=Commits)
+* [Nullcheck to fix Autofill CTS](https://github.com/search?q=Nullcheck%20to%20fix%20Autofill%20CTS&type=Commits)
+* [Osu: fixed Mismatch between createFromParcel and writeToParcel](https://github.com/search?q=Osu%3A%20fixed%20Mismatch%20between%20createFromParcel%20and%20writeToParcel&type=Commits)
+* [DO NOT MERGE Truncate newline and tab characters in BluetoothDevice name](https://github.com/search?q=DO%20NOT%20MERGE%20Truncate%20newline%20and%20tab%20characters%20in%20BluetoothDevice%20name&type=Commits)
+* [Fix broken check for TelephonyManager#getForbiddenPlmns](https://github.com/search?q=Fix%20broken%20check%20for%20TelephonyManager%23getForbiddenPlmns&type=Commits)
+* [DO NOT MERGE (O) Revoke permision when group changed](https://github.com/search?q=DO%20NOT%20MERGE%20%28O%29%20Revoke%20permision%20when%20group%20changed&type=Commits)
+* [ResStringPool: Fix security vulnerability](https://github.com/search?q=ResStringPool%3A%20Fix%20security%20vulnerability&type=Commits)
+* [RESTRICT AUTOMERGE: Prevent reporting fake package name - framework (backport to oc-mr1-dev)](https://github.com/search?q=RESTRICT%20AUTOMERGE%3A%20Prevent%20reporting%20fake%20package%20name%20-%20framework%20%28backport%20to%20oc-mr1-dev%29&type=Commits)
+* [Use concrete CREATOR instance for parceling lists](https://github.com/search?q=Use%20concrete%20CREATOR%20instance%20for%20parceling%20lists&type=Commits)
+* [Rework thumbnail cleanup](https://github.com/search?q=Rework%20thumbnail%20cleanup&type=Commits)
+* [DO NOT MERGE - fix AFM.getComponentNameFromContext()](https://github.com/search?q=DO%20NOT%20MERGE%20-%20fix%20AFM.getComponentNameFromContext%28%29&type=Commits)
+* [Proper autofill fix to let phone process autofill Settings activity.](https://github.com/search?q=Proper%20autofill%20fix%20to%20let%20phone%20process%20autofill%20Settings%20activity.&type=Commits)
+* [Make sure apps cannot forge package name on AssistStructure used for Autofill.](https://github.com/search?q=Make%20sure%20apps%20cannot%20forge%20package%20name%20on%20AssistStructure%20used%20for%20Autofill.&type=Commits)
+
+#### frameworks/minikin/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Fix fvar table size validation logic - DO NOT MERGE](https://github.com/search?q=Fix%20fvar%20table%20size%20validation%20logic%20-%20DO%20NOT%20MERGE&type=Commits)
 
 #### hardware/lineage/interfaces/
 * [Update makefiles from anywhere.](https://github.com/search?q=Update%20makefiles%20from%20anywhere.&type=Commits)
+
+#### libcore/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Fix hostname parsing in java.net.URLStreamHandler.](https://github.com/search?q=Fix%20hostname%20parsing%20in%20java.net.URLStreamHandler.&type=Commits)
 
 #### packages/apps/Messaging/
 * [Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_packages_apps_Messaging into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-15.1%27%20of%20git%3A//github.com/LineageOS/android_packages_apps_Messaging%20into%20HEAD&type=Commits)
@@ -397,6 +703,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Merge tag 'android-8.1.0_r43' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20into%20HEAD&type=Commits)
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [Expose option to change the device hostname.](https://github.com/search?q=Expose%20option%20to%20change%20the%20device%20hostname.&type=Commits)
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Import translations. DO NOT MERGE](https://github.com/search?q=Import%20translations.%20DO%20NOT%20MERGE&type=Commits)
+* [Delete obsolete activity alias for dev settings](https://github.com/search?q=Delete%20obsolete%20activity%20alias%20for%20dev%20settings&type=Commits)
+* [DO NOT MERGE Give PBAP permission only after user confirms](https://github.com/search?q=DO%20NOT%20MERGE%20Give%20PBAP%20permission%20only%20after%20user%20confirms&type=Commits)
 
 #### packages/inputmethods/LatinIME/
 * [Merge 'lineage-15.1' into 8.1](https://github.com/search?q=Merge%20%27lineage-15.1%27%20into%208.1&type=Commits)
@@ -404,6 +714,14 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### packages/services/Telephony/
 * [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/media/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [Merge commit 'f9e3022c474619c69a46ae7dbe11b5b531dbad57' into am-0d58d39a-0539-474e-b9c8-36cc976d15e8](https://github.com/search?q=Merge%20commit%20%27f9e3022c474619c69a46ae7dbe11b5b531dbad57%27%20into%20am-0d58d39a-0539-474e-b9c8-36cc976d15e8&type=Commits)
+
+#### system/sepolicy/
+* [Merge cherrypicks of [4741663, 4741664, 4741665, 4741666, 4743080, 4743081, 4743082, 4743083, 4741262, 4741263, 4741264, 4741265, 4741266, 4741667, 4743084, 4741242, 4741243, 4741741, 4741742, 4741743, 4741744, 4741822, 4743085, 4741668, 4741338, 4743055, 4743056, 4743070, 4743073, 4743075, 4743076, 4743078, 4743079, 4743161, 4743162, 4743164, 4743165, 4743167, 4743168, 4743169, 4743170, 4741681, 4741682, 4741683, 4741684, 4741685, 4741686, 4741687, 4741688, 4741689, 4741690, 4741691, 4741692, 4741693, 4741694, 4741695, 4741696, 4741697, 4741698, 4741699, 4743240, 4743241, 4743242, 4743243, 4741745, 4741823, 4741824, 4741825, 4741267, 4741268, 4743244, 4743280, 4743281, 4743224, 4743203, 4743204, 4743205, 4741746, 4741747, 4743245, 4741826, 4741827, 4741828, 4741829, 4741748, 4741749, 4741750, 4743233, 4743282, 4741244, 4741245, 4741246, 4741247, 4743206, 4743207, 4743208, 4743209, 4743210, 4743211, 4743212, 4743213, 4743214, 4743215, 4743216, 4743217, 4743218, 4743219, 4743360, 4743361, 4743362, 4743363, 4743364, 4743365, 4743366, 4743367, 4743368, 4743369, 4743370, 4743371, 4743372, 4743373, 4743374, 4743375, 4743376, 4743377, 4743283, 4743284, 4741830, 4742501, 4743246, 4743086, 4743087, 4743378, 4743379, 4741751] into sparse-4749909-L04200000199131547](https://github.com/search?q=Merge%20cherrypicks%20of%20[4741663,%204741664,%204741665,%204741666,%204743080,%204743081,%204743082,%204743083,%204741262,%204741263,%204741264,%204741265,%204741266,%204741667,%204743084,%204741242,%204741243,%204741741,%204741742,%204741743,%204741744,%204741822,%204743085,%204741668,%204741338,%204743055,%204743056,%204743070,%204743073,%204743075,%204743076,%204743078,%204743079,%204743161,%204743162,%204743164,%204743165,%204743167,%204743168,%204743169,%204743170,%204741681,%204741682,%204741683,%204741684,%204741685,%204741686,%204741687,%204741688,%204741689,%204741690,%204741691,%204741692,%204741693,%204741694,%204741695,%204741696,%204741697,%204741698,%204741699,%204743240,%204743241,%204743242,%204743243,%204741745,%204741823,%204741824,%204741825,%204741267,%204741268,%204743244,%204743280,%204743281,%204743224,%204743203,%204743204,%204743205,%204741746,%204741747,%204743245,%204741826,%204741827,%204741828,%204741829,%204741748,%204741749,%204741750,%204743233,%204743282,%204741244,%204741245,%204741246,%204741247,%204743206,%204743207,%204743208,%204743209,%204743210,%204743211,%204743212,%204743213,%204743214,%204743215,%204743216,%204743217,%204743218,%204743219,%204743360,%204743361,%204743362,%204743363,%204743364,%204743365,%204743366,%204743367,%204743368,%204743369,%204743370,%204743371,%204743372,%204743373,%204743374,%204743375,%204743376,%204743377,%204743283,%204743284,%204741830,%204742501,%204743246,%204743086,%204743087,%204743378,%204743379,%204741751]%20into%20sparse-4749909-L04200000199131547&type=Commits)
+* [crash_dump: disallow ptrace of TCB components](https://github.com/search?q=crash_dump%3A%20disallow%20ptrace%20of%20TCB%20components&type=Commits)
 
 #### vendor/rr/
 * [backuptool: Resolve incompatible version grep syntax](https://github.com/search?q=backuptool%3A%20Resolve%20incompatible%20version%20grep%20syntax&type=Commits)
@@ -418,6 +736,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-10-2018:
+
+#### external/openssh/
+* [upstream: The script that cooks up PuTTY format host keys does not](https://github.com/search?q=upstream%3A%20The%20script%20that%20cooks%20up%20PuTTY%20format%20host%20keys%20does%20not&type=Commits)
+* [upstream: improve](https://github.com/search?q=upstream%3A%20improve&type=Commits)
+* [upstream: Describe pubkey format, prompted by bz#2853](https://github.com/search?q=upstream%3A%20Describe%20pubkey%20format,%20prompted%20by%20bz%232853&type=Commits)
+* [upstream: fix numbering](https://github.com/search?q=upstream%3A%20fix%20numbering&type=Commits)
 
 #### hardware/lineage/lineagehw/
 * [lineagehw: Check if files are readable when we read them](https://github.com/search?q=lineagehw%3A%20Check%20if%20files%20are%20readable%20when%20we%20read%20them&type=Commits)
@@ -446,12 +770,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### frameworks/av/
 * [Merge tag 'android-8.1.0_r43' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20into%20HEAD&type=Commits)
 
+#### frameworks/native/
+* [Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r43&type=Commits)
+
 #### frameworks/opt/telephony/
 * [Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r43&type=Commits)
 
 #### hardware/lineage/lineagehw/
 * [lineagehw: Add support for sysfs ReadingEnhancement](https://github.com/search?q=lineagehw%3A%20Add%20support%20for%20sysfs%20ReadingEnhancement&type=Commits)
 * [lineagehw: Update ReadingEnhancement for new API](https://github.com/search?q=lineagehw%3A%20Update%20ReadingEnhancement%20for%20new%20API&type=Commits)
+
+#### hardware/qcom/power/
+* [power-8084: document performance settings](https://github.com/search?q=power-8084%3A%20document%20performance%20settings&type=Commits)
+* [power-8084: drop POWER_HINT_LAUNCH handling](https://github.com/search?q=power-8084%3A%20drop%20POWER_HINT_LAUNCH%20handling&type=Commits)
+* [power-8084: reduce interactive boost](https://github.com/search?q=power-8084%3A%20reduce%20interactive%20boost&type=Commits)
+* [power-8084: clean up code](https://github.com/search?q=power-8084%3A%20clean%20up%20code&type=Commits)
 
 #### packages/apps/Messaging/
 * [Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r43%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r43&type=Commits)
@@ -492,20 +825,50 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
+#### Resurrection Remix OS - Oreo source changes of 08-08-2018:
+
+#### external/openssh/
+* [upstream: Use new private key format by default. This format is](https://github.com/search?q=upstream%3A%20Use%20new%20private%20key%20format%20by%20default.%20This%20format%20is&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-08-2018 End.
+
 08-07-2018
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-07-2018:
 
+#### frameworks/native/
+* [SF: Backport "Fix landscape LCM issue" for legacy hwc](https://github.com/search?q=SF%3A%20Backport%20"Fix%20landscape%20LCM%20issue"%20for%20legacy%20hwc&type=Commits)
+* [SF: Backport "Need GSI to support landscape LCM" for legacy hwc](https://github.com/search?q=SF%3A%20Backport%20"Need%20GSI%20to%20support%20landscape%20LCM"%20for%20legacy%20hwc&type=Commits)
+* [DO NOT MERGE: Fix landscape LCM issue](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Fix%20landscape%20LCM%20issue&type=Commits)
+* [DO NOT MERGE: Need GSI to support landscape LCM](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Need%20GSI%20to%20support%20landscape%20LCM&type=Commits)
+* [Revert "SF: Squashed hwrotation support"](https://github.com/search?q=Revert%20"SF%3A%20Squashed%20hwrotation%20support"&type=Commits)
+* [Revert "SF: Fix hwrotation screenshots at surfaceflinger layer"](https://github.com/search?q=Revert%20"SF%3A%20Fix%20hwrotation%20screenshots%20at%20surfaceflinger%20layer"&type=Commits)
+
 #### hardware/qcom/power/
 * [power: Fix several typos in power profiles](https://github.com/search?q=power%3A%20Fix%20several%20typos%20in%20power%20profiles&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 08-07-2018 End.
 
 08-06-2018
 ====================
 
+#### Device specific Changes of 08-06-2018 Start:
+
+#### Device/Quark/
+* [Quark: update proprietary-files.txt](https://github.com/search?q=Quark%3A%20update%20proprietary-files.txt&type=Commits)
+
+#### Device specific Changes of 08-06-2018 End.
+
+***
+
 #### Resurrection Remix OS - Oreo source changes of 08-06-2018:
+
+#### external/openssh/
+* [upstream: invalidate dh->priv_key after freeing it in error path;](https://github.com/search?q=upstream%3A%20invalidate%20dh->priv_key%20after%20freeing%20it%20in%20error%20path;&type=Commits)
 
 #### frameworks/base/
 * [Add a ripple effect to the power menu items](https://github.com/search?q=Add%20a%20ripple%20effect%20to%20the%20power%20menu%20items&type=Commits)
@@ -517,85 +880,13 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [base: ROM size calculation error on 4GB ROM device](https://github.com/search?q=base%3A%20ROM%20size%20calculation%20error%20on%204GB%20ROM%20device&type=Commits)
 * [Fix possible NPE](https://github.com/search?q=Fix%20possible%20NPE&type=Commits)
 
-#### packages/apps/AudioFX/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Calendar/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### Resurrection Remix OS - Oreo source changes of 08-06-2018 End.
-
-08-05-2018
-====================
-
-#### Device specific Changes of 08-05-2018 Start:
-
-#### Device/Quark/
-* [Quark: update proprietary-files.txt](https://github.com/search?q=Quark%3A%20update%20proprietary-files.txt&type=Commits)
-* [Quark: lineageaction drop the enable time for useraware to 5s](https://github.com/search?q=Quark%3A%20lineageaction%20drop%20the%20enable%20time%20for%20useraware%20to%205s&type=Commits)
-* [Quark: Make wrapper for shim](https://github.com/search?q=Quark%3A%20Make%20wrapper%20for%20shim&type=Commits)
-* [Quark: fix enabling sensors in UserAwareDisplay](https://github.com/search?q=Quark%3A%20fix%20enabling%20sensors%20in%20UserAwareDisplay&type=Commits)
-* [Quark: add audio_ext_spkr.conf](https://github.com/search?q=Quark%3A%20add%20audio_ext_spkr.conf&type=Commits)
-* [Revert "Quark: add audio_ext_spkr qcril_mot_ecc_common move etc to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20add%20audio_ext_spkr%20qcril_mot_ecc_common%20move%20etc%20to%20vendor"&type=Commits)
-* [Revert "Quark: load etc/*.conf from dt"](https://github.com/search?q=Revert%20"Quark%3A%20load%20etc/*.conf%20from%20dt"&type=Commits)
-
-#### Vendor/Quark/
-* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
-* [Quark: sed libmdmcutback.so](https://github.com/search?q=Quark%3A%20sed%20libmdmcutback.so&type=Commits)
-* [Quark: sed libspeakerbundle.so](https://github.com/search?q=Quark%3A%20sed%20libspeakerbundle.so&type=Commits)
-* [Revert "Quark: move all libs to vendor + add minssing lib/rfsa"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20libs%20to%20vendor%20+%20add%20minssing%20lib/rfsa"&type=Commits)
-* [Revert "Quark: move etc/*.conf to dt"](https://github.com/search?q=Revert%20"Quark%3A%20move%20etc/*.conf%20to%20dt"&type=Commits)
-* [Revert "Quakr: move framework to vendor"](https://github.com/search?q=Revert%20"Quakr%3A%20move%20framework%20to%20vendor"&type=Commits)
-
-#### Device specific Changes of 08-05-2018 End.
-
-***
-
-#### Resurrection Remix OS - Oreo source changes of 08-05-2018:
-
-#### bionic/
-* [libm: Update to FreeBSD libm r336523](https://github.com/search?q=libm%3A%20Update%20to%20FreeBSD%20libm%20r336523&type=Commits)
-* [Set __bionic_asm_align to 16 for arm64](https://github.com/search?q=Set%20__bionic_asm_align%20to%2016%20for%20arm64&type=Commits)
-* [sysroot: kill arch-specific include dirs](https://github.com/search?q=sysroot%3A%20kill%20arch-specific%20include%20dirs&type=Commits)
-* [bionic: Remove relocation_packer](https://github.com/search?q=bionic%3A%20Remove%20relocation_packer&type=Commits)
-* [Add -ffp-contract=fast for libm](https://github.com/search?q=Add%20-ffp-contract=fast%20for%20libm&type=Commits)
-* [Add Optimized sinf/cosf/sincosf](https://github.com/search?q=Add%20Optimized%20sinf/cosf/sincosf&type=Commits)
-* [libm: Add optimized powf](https://github.com/search?q=libm%3A%20Add%20optimized%20powf&type=Commits)
-* [libm: Add optimized log2f](https://github.com/search?q=libm%3A%20Add%20optimized%20log2f&type=Commits)
-* [libm: Add optimized logf](https://github.com/search?q=libm%3A%20Add%20optimized%20logf&type=Commits)
-* [libm: Add optimized expf2](https://github.com/search?q=libm%3A%20Add%20optimized%20expf2&type=Commits)
-* [libm: Add optimized expf](https://github.com/search?q=libm%3A%20Add%20optimized%20expf&type=Commits)
-* [vdso should be available in all namespaces](https://github.com/search?q=vdso%20should%20be%20available%20in%20all%20namespaces&type=Commits)
-* [Fix bug with double unload on unsuccessful dlopen](https://github.com/search?q=Fix%20bug%20with%20double%20unload%20on%20unsuccessful%20dlopen&type=Commits)
-* [linker: Remove obsolete workaround](https://github.com/search?q=linker%3A%20Remove%20obsolete%20workaround&type=Commits)
-* [Switch to FreeBSD's actual sincos](https://github.com/search?q=Switch%20to%20FreeBSD%27s%20actual%20sincos&type=Commits)
-* [Switch to FreeBSD catrigl.c for complex arc trig functions](https://github.com/search?q=Switch%20to%20FreeBSD%20catrigl.c%20for%20complex%20arc%20trig%20functions&type=Commits)
-* [bionic: Update libm from upstream](https://github.com/search?q=bionic%3A%20Update%20libm%20from%20upstream&type=Commits)
-* [Fix various ftw/nftw "shall fail"s from POSIX](https://github.com/search?q=Fix%20various%20ftw/nftw%20"shall%20fail"s%20from%20POSIX&type=Commits)
-* [libc: kryo: import ARM strlen from Apple C library](https://github.com/search?q=libc%3A%20kryo%3A%20import%20ARM%20strlen%20from%20Apple%20C%20library&type=Commits)
-* [aarch64/strncmp: Use lsr instead of mov+lsr](https://github.com/search?q=aarch64/strncmp%3A%20Use%20lsr%20instead%20of%20mov+lsr&type=Commits)
-* [aarch64: Improve strncmp for mutually misaligned inputs](https://github.com/search?q=aarch64%3A%20Improve%20strncmp%20for%20mutually%20misaligned%20inputs&type=Commits)
-* [strcmp.S: Improve performance for misaligned strings](https://github.com/search?q=strcmp.S%3A%20Improve%20performance%20for%20misaligned%20strings&type=Commits)
-* [memcmp.S: optimize for medium to large sizes](https://github.com/search?q=memcmp.S%3A%20optimize%20for%20medium%20to%20large%20sizes&type=Commits)
-* [Remove no_default_compiler_flags from crt*](https://github.com/search?q=Remove%20no_default_compiler_flags%20from%20crt*&type=Commits)
-* [bionic: strip libc and linker](https://github.com/search?q=bionic%3A%20strip%20libc%20and%20linker&type=Commits)
-* [libc: Suppress clang 7.0 warnings](https://github.com/search?q=libc%3A%20Suppress%20clang%207.0%20warnings&type=Commits)
-* [libc: Build crtbegin with clang too](https://github.com/search?q=libc%3A%20Build%20crtbegin%20with%20clang%20too&type=Commits)
-* [bionic: do not pack relocation table](https://github.com/search?q=bionic%3A%20do%20not%20pack%20relocation%20table&type=Commits)
-* [Enable 32-bit armv8 NEON for libm](https://github.com/search?q=Enable%2032-bit%20armv8%20NEON%20for%20libm&type=Commits)
-* [kryo: Update routine from moto](https://github.com/search?q=kryo%3A%20Update%20routine%20from%20moto&type=Commits)
-* [Use builtins for ceil/floor/rint/trunc on arm64](https://github.com/search?q=Use%20builtins%20for%20ceil/floor/rint/trunc%20on%20arm64&type=Commits)
-* [libc: add optimized ARM64 strrchr from newlib](https://github.com/search?q=libc%3A%20add%20optimized%20ARM64%20strrchr%20from%20newlib&type=Commits)
-* [Use builtins for fma/fmax/fmin/round on arm64.](https://github.com/search?q=Use%20builtins%20for%20fma/fmax/fmin/round%20on%20arm64.&type=Commits)
-* [Find clang correctly](https://github.com/search?q=Find%20clang%20correctly&type=Commits)
-* [libc: Optimize ARM memcmp by using NEON.](https://github.com/search?q=libc%3A%20Optimize%20ARM%20memcmp%20by%20using%20NEON.&type=Commits)
-* [Remove an obsolete aarch64 hack.](https://github.com/search?q=Remove%20an%20obsolete%20aarch64%20hack.&type=Commits)
-* [Optimized memcmp](https://github.com/search?q=Optimized%20memcmp&type=Commits)
-
 #### hardware/qcom/fm/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Camera2/
@@ -603,9 +894,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### packages/apps/CellBroadcastReceiver/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Contacts/
-* [Allow calling contacts via specific phone accounts.](https://github.com/search?q=Allow%20calling%20contacts%20via%20specific%20phone%20accounts.&type=Commits)
 
 #### packages/apps/DocumentsUI/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -666,16 +954,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### packages/services/Telephony/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-* [Use proper summary for network select list preference on dsds/dsda/tsts](https://github.com/search?q=Use%20proper%20summary%20for%20network%20select%20list%20preference%20on%20dsds/dsda/tsts&type=Commits)
 
-#### Resurrection Remix OS - Oreo source changes of 08-05-2018 End.
+#### Resurrection Remix OS - Oreo source changes of 08-06-2018 End.
 
-08-04-2018
+08-05-2018
 ====================
 
-#### Device specific Changes of 08-04-2018 Start:
+#### Device specific Changes of 08-05-2018 Start:
 
 #### Device/Quark/
+* [Quark: lineageaction drop the enable time for useraware to 5s](https://github.com/search?q=Quark%3A%20lineageaction%20drop%20the%20enable%20time%20for%20useraware%20to%205s&type=Commits)
+* [Quark: Make wrapper for shim](https://github.com/search?q=Quark%3A%20Make%20wrapper%20for%20shim&type=Commits)
+* [Quark: fix enabling sensors in UserAwareDisplay](https://github.com/search?q=Quark%3A%20fix%20enabling%20sensors%20in%20UserAwareDisplay&type=Commits)
+* [Quark: add audio_ext_spkr.conf](https://github.com/search?q=Quark%3A%20add%20audio_ext_spkr.conf&type=Commits)
+* [Revert "Quark: add audio_ext_spkr qcril_mot_ecc_common move etc to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20add%20audio_ext_spkr%20qcril_mot_ecc_common%20move%20etc%20to%20vendor"&type=Commits)
+* [Revert "Quark: load etc/*.conf from dt"](https://github.com/search?q=Revert%20"Quark%3A%20load%20etc/*.conf%20from%20dt"&type=Commits)
 * [Quark: load etc/*.conf from dt](https://github.com/search?q=Quark%3A%20load%20etc/*.conf%20from%20dt&type=Commits)
 * [Quark: add audio_ext_spkr qcril_mot_ecc_common move etc to vendor](https://github.com/search?q=Quark%3A%20add%20audio_ext_spkr%20qcril_mot_ecc_common%20move%20etc%20to%20vendor&type=Commits)
 * [Quark: lineageactions improves](https://github.com/search?q=Quark%3A%20lineageactions%20improves&type=Commits)
@@ -693,13 +986,74 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [ARM: spectre: add Kconfig symbol for CPUs vulnerable to Spectre](https://github.com/search?q=ARM%3A%20spectre%3A%20add%20Kconfig%20symbol%20for%20CPUs%20vulnerable%20to%20Spectre&type=Commits)
 
 #### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+* [Quark: sed libmdmcutback.so](https://github.com/search?q=Quark%3A%20sed%20libmdmcutback.so&type=Commits)
+* [Quark: sed libspeakerbundle.so](https://github.com/search?q=Quark%3A%20sed%20libspeakerbundle.so&type=Commits)
+* [Revert "Quark: move all libs to vendor + add minssing lib/rfsa"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20libs%20to%20vendor%20+%20add%20minssing%20lib/rfsa"&type=Commits)
+* [Revert "Quark: move etc/*.conf to dt"](https://github.com/search?q=Revert%20"Quark%3A%20move%20etc/*.conf%20to%20dt"&type=Commits)
+* [Revert "Quakr: move framework to vendor"](https://github.com/search?q=Revert%20"Quakr%3A%20move%20framework%20to%20vendor"&type=Commits)
 * [Quakr: move framework to vendor](https://github.com/search?q=Quakr%3A%20move%20framework%20to%20vendor&type=Commits)
 * [Quark: move etc/*.conf to dt](https://github.com/search?q=Quark%3A%20move%20etc/*.conf%20to%20dt&type=Commits)
 * [Quark: move all libs to vendor + add minssing lib/rfsa](https://github.com/search?q=Quark%3A%20move%20all%20libs%20to%20vendor%20+%20add%20minssing%20lib/rfsa&type=Commits)
 
-#### Device specific Changes of 08-04-2018 End.
+#### Device specific Changes of 08-05-2018 End.
 
 ***
+
+#### Resurrection Remix OS - Oreo source changes of 08-05-2018:
+
+#### bionic/
+* [libm: Update to FreeBSD libm r336523](https://github.com/search?q=libm%3A%20Update%20to%20FreeBSD%20libm%20r336523&type=Commits)
+* [Set __bionic_asm_align to 16 for arm64](https://github.com/search?q=Set%20__bionic_asm_align%20to%2016%20for%20arm64&type=Commits)
+* [sysroot: kill arch-specific include dirs](https://github.com/search?q=sysroot%3A%20kill%20arch-specific%20include%20dirs&type=Commits)
+* [bionic: Remove relocation_packer](https://github.com/search?q=bionic%3A%20Remove%20relocation_packer&type=Commits)
+* [Add -ffp-contract=fast for libm](https://github.com/search?q=Add%20-ffp-contract=fast%20for%20libm&type=Commits)
+* [Add Optimized sinf/cosf/sincosf](https://github.com/search?q=Add%20Optimized%20sinf/cosf/sincosf&type=Commits)
+* [libm: Add optimized powf](https://github.com/search?q=libm%3A%20Add%20optimized%20powf&type=Commits)
+* [libm: Add optimized log2f](https://github.com/search?q=libm%3A%20Add%20optimized%20log2f&type=Commits)
+* [libm: Add optimized logf](https://github.com/search?q=libm%3A%20Add%20optimized%20logf&type=Commits)
+* [libm: Add optimized expf2](https://github.com/search?q=libm%3A%20Add%20optimized%20expf2&type=Commits)
+* [libm: Add optimized expf](https://github.com/search?q=libm%3A%20Add%20optimized%20expf&type=Commits)
+* [vdso should be available in all namespaces](https://github.com/search?q=vdso%20should%20be%20available%20in%20all%20namespaces&type=Commits)
+* [Fix bug with double unload on unsuccessful dlopen](https://github.com/search?q=Fix%20bug%20with%20double%20unload%20on%20unsuccessful%20dlopen&type=Commits)
+* [linker: Remove obsolete workaround](https://github.com/search?q=linker%3A%20Remove%20obsolete%20workaround&type=Commits)
+* [Switch to FreeBSD's actual sincos](https://github.com/search?q=Switch%20to%20FreeBSD%27s%20actual%20sincos&type=Commits)
+* [Switch to FreeBSD catrigl.c for complex arc trig functions](https://github.com/search?q=Switch%20to%20FreeBSD%20catrigl.c%20for%20complex%20arc%20trig%20functions&type=Commits)
+* [bionic: Update libm from upstream](https://github.com/search?q=bionic%3A%20Update%20libm%20from%20upstream&type=Commits)
+* [Fix various ftw/nftw "shall fail"s from POSIX](https://github.com/search?q=Fix%20various%20ftw/nftw%20"shall%20fail"s%20from%20POSIX&type=Commits)
+* [libc: kryo: import ARM strlen from Apple C library](https://github.com/search?q=libc%3A%20kryo%3A%20import%20ARM%20strlen%20from%20Apple%20C%20library&type=Commits)
+* [aarch64/strncmp: Use lsr instead of mov+lsr](https://github.com/search?q=aarch64/strncmp%3A%20Use%20lsr%20instead%20of%20mov+lsr&type=Commits)
+* [aarch64: Improve strncmp for mutually misaligned inputs](https://github.com/search?q=aarch64%3A%20Improve%20strncmp%20for%20mutually%20misaligned%20inputs&type=Commits)
+* [strcmp.S: Improve performance for misaligned strings](https://github.com/search?q=strcmp.S%3A%20Improve%20performance%20for%20misaligned%20strings&type=Commits)
+* [memcmp.S: optimize for medium to large sizes](https://github.com/search?q=memcmp.S%3A%20optimize%20for%20medium%20to%20large%20sizes&type=Commits)
+* [Remove no_default_compiler_flags from crt*](https://github.com/search?q=Remove%20no_default_compiler_flags%20from%20crt*&type=Commits)
+* [bionic: strip libc and linker](https://github.com/search?q=bionic%3A%20strip%20libc%20and%20linker&type=Commits)
+* [libc: Suppress clang 7.0 warnings](https://github.com/search?q=libc%3A%20Suppress%20clang%207.0%20warnings&type=Commits)
+* [libc: Build crtbegin with clang too](https://github.com/search?q=libc%3A%20Build%20crtbegin%20with%20clang%20too&type=Commits)
+* [bionic: do not pack relocation table](https://github.com/search?q=bionic%3A%20do%20not%20pack%20relocation%20table&type=Commits)
+* [Enable 32-bit armv8 NEON for libm](https://github.com/search?q=Enable%2032-bit%20armv8%20NEON%20for%20libm&type=Commits)
+* [kryo: Update routine from moto](https://github.com/search?q=kryo%3A%20Update%20routine%20from%20moto&type=Commits)
+* [Use builtins for ceil/floor/rint/trunc on arm64](https://github.com/search?q=Use%20builtins%20for%20ceil/floor/rint/trunc%20on%20arm64&type=Commits)
+* [libc: add optimized ARM64 strrchr from newlib](https://github.com/search?q=libc%3A%20add%20optimized%20ARM64%20strrchr%20from%20newlib&type=Commits)
+* [Use builtins for fma/fmax/fmin/round on arm64.](https://github.com/search?q=Use%20builtins%20for%20fma/fmax/fmin/round%20on%20arm64.&type=Commits)
+* [Find clang correctly](https://github.com/search?q=Find%20clang%20correctly&type=Commits)
+* [libc: Optimize ARM memcmp by using NEON.](https://github.com/search?q=libc%3A%20Optimize%20ARM%20memcmp%20by%20using%20NEON.&type=Commits)
+* [Remove an obsolete aarch64 hack.](https://github.com/search?q=Remove%20an%20obsolete%20aarch64%20hack.&type=Commits)
+* [Optimized memcmp](https://github.com/search?q=Optimized%20memcmp&type=Commits)
+
+#### packages/apps/Contacts/
+* [Allow calling contacts via specific phone accounts.](https://github.com/search?q=Allow%20calling%20contacts%20via%20specific%20phone%20accounts.&type=Commits)
+
+#### packages/apps/Email/
+* [Update strings for crowdin](https://github.com/search?q=Update%20strings%20for%20crowdin&type=Commits)
+
+#### packages/services/Telephony/
+* [Use proper summary for network select list preference on dsds/dsda/tsts](https://github.com/search?q=Use%20proper%20summary%20for%20network%20select%20list%20preference%20on%20dsds/dsda/tsts&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 08-05-2018 End.
+
+08-04-2018
+====================
 
 #### Resurrection Remix OS - Oreo source changes of 08-04-2018:
 
@@ -720,9 +1074,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [aapt: Default to 0 compression ratio](https://github.com/search?q=aapt%3A%20Default%20to%200%20compression%20ratio&type=Commits)
 * [Scroll: modified velocitytracker](https://github.com/search?q=Scroll%3A%20modified%20velocitytracker&type=Commits)
 * [Frequently used OpenGL ES methods whitelisted for fast JNI path](https://github.com/search?q=Frequently%20used%20OpenGL%20ES%20methods%20whitelisted%20for%20fast%20JNI%20path&type=Commits)
-
-#### packages/apps/Email/
-* [Update strings for crowdin](https://github.com/search?q=Update%20strings%20for%20crowdin&type=Commits)
 
 #### packages/apps/Settings/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -768,6 +1119,15 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 08-02-2018
 ====================
 
+#### Device specific Changes of 08-02-2018 Start:
+
+#### Device/Quark/
+* [Quark: revert back to audio_effects.conf](https://github.com/search?q=Quark%3A%20revert%20back%20to%20audio_effects.conf&type=Commits)
+
+#### Device specific Changes of 08-02-2018 End.
+
+***
+
 #### Resurrection Remix OS - Oreo source changes of 08-02-2018:
 
 #### packages/apps/Settings/
@@ -787,7 +1147,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 08-01-2018 Start:
 
 #### Device/Quark/
-* [Quark: revert back to audio_effects.conf](https://github.com/search?q=Quark%3A%20revert%20back%20to%20audio_effects.conf&type=Commits)
 * [Revert "Quark: switch to lineage vibrator service"](https://github.com/search?q=Revert%20"Quark%3A%20switch%20to%20lineage%20vibrator%20service"&type=Commits)
 * [Quark: update audio digital gains](https://github.com/search?q=Quark%3A%20update%20audio%20digital%20gains&type=Commits)
 
@@ -816,6 +1175,18 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-31-2018 End.
 
 ***
+
+#### Resurrection Remix OS - Oreo source changes of 07-31-2018:
+
+#### external/openssh/
+* [upstream: delay bailout for invalid authentic](https://github.com/search?q=upstream%3A%20delay%20bailout%20for%20invalid%20authentic&type=Commits)
+* [upstream: fix some memory leaks spotted by Coverity via Jakub Jelen](https://github.com/search?q=upstream%3A%20fix%20some%20memory%20leaks%20spotted%20by%20Coverity%20via%20Jakub%20Jelen&type=Commits)
+* [Remove support for S/Key](https://github.com/search?q=Remove%20support%20for%20S/Key&type=Commits)
+* [upstream: avoid expensive channel_open_message() calls; ok djm@](https://github.com/search?q=upstream%3A%20avoid%20expensive%20channel_open_message%28%29%20calls;%20ok%20djm%40&type=Commits)
+* [upstream: Now that ssh can't be setuid, remove the](https://github.com/search?q=upstream%3A%20Now%20that%20ssh%20can%27t%20be%20setuid,%20remove%20the&type=Commits)
+* [upstream: Remove uid checks from low port binds. Now that ssh](https://github.com/search?q=upstream%3A%20Remove%20uid%20checks%20from%20low%20port%20binds.%20Now%20that%20ssh&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-31-2018 End.
 
 07-30-2018
 ====================
@@ -903,8 +1274,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-29-2018:
 
+#### external/f2fs-tools/
+* [fsck: Fix 1.11.0 compilation](https://github.com/search?q=fsck%3A%20Fix%201.11.0%20compilation&type=Commits)
+* [f2fs-tools: release 1.11.0](https://github.com/search?q=f2fs-tools%3A%20release%201.11.0&type=Commits)
+* [check_f2fs: return 0 all the time](https://github.com/search?q=check_f2fs%3A%20return%200%20all%20the%20time&type=Commits)
+* [sload.f2fs: fix the missing of bit mask for file type](https://github.com/search?q=sload.f2fs%3A%20fix%20the%20missing%20of%20bit%20mask%20for%20file%20type&type=Commits)
+* [sload.f2fs: give correct file type](https://github.com/search?q=sload.f2fs%3A%20give%20correct%20file%20type&type=Commits)
+* [fsck.f2fs: fix check order in -p1](https://github.com/search?q=fsck.f2fs%3A%20fix%20check%20order%20in%20-p1&type=Commits)
+* [mkfs.f2fs: avoid selinux denial for unnecessary sysfs node](https://github.com/search?q=mkfs.f2fs%3A%20avoid%20selinux%20denial%20for%20unnecessary%20sysfs%20node&type=Commits)
+* [fsck.f2fs: fix stack overflow when reading out nat block](https://github.com/search?q=fsck.f2fs%3A%20fix%20stack%20overflow%20when%20reading%20out%20nat%20block&type=Commits)
+
 #### packages/apps/AudioFX/
 * [AudioFX: bump to api27](https://github.com/search?q=AudioFX%3A%20bump%20to%20api27&type=Commits)
+
+#### packages/apps/Jelly/
+* [Jelly: Show a Snackbar when removing an HistoryItem](https://github.com/search?q=Jelly%3A%20Show%20a%20Snackbar%20when%20removing%20an%20HistoryItem&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
 * [add notch_size config](https://github.com/search?q=add%20notch_size%20config&type=Commits)
@@ -926,19 +1310,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-28-2018:
-
-#### external/f2fs-tools/
-* [fsck: Fix 1.11.0 compilation](https://github.com/search?q=fsck%3A%20Fix%201.11.0%20compilation&type=Commits)
-* [f2fs-tools: release 1.11.0](https://github.com/search?q=f2fs-tools%3A%20release%201.11.0&type=Commits)
-* [check_f2fs: return 0 all the time](https://github.com/search?q=check_f2fs%3A%20return%200%20all%20the%20time&type=Commits)
-* [sload.f2fs: fix the missing of bit mask for file type](https://github.com/search?q=sload.f2fs%3A%20fix%20the%20missing%20of%20bit%20mask%20for%20file%20type&type=Commits)
-* [sload.f2fs: give correct file type](https://github.com/search?q=sload.f2fs%3A%20give%20correct%20file%20type&type=Commits)
-* [fsck.f2fs: fix check order in -p1](https://github.com/search?q=fsck.f2fs%3A%20fix%20check%20order%20in%20-p1&type=Commits)
-* [mkfs.f2fs: avoid selinux denial for unnecessary sysfs node](https://github.com/search?q=mkfs.f2fs%3A%20avoid%20selinux%20denial%20for%20unnecessary%20sysfs%20node&type=Commits)
-* [fsck.f2fs: fix stack overflow when reading out nat block](https://github.com/search?q=fsck.f2fs%3A%20fix%20stack%20overflow%20when%20reading%20out%20nat%20block&type=Commits)
-
-#### packages/apps/Jelly/
-* [Jelly: Show a Snackbar when removing an HistoryItem](https://github.com/search?q=Jelly%3A%20Show%20a%20Snackbar%20when%20removing%20an%20HistoryItem&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
 * [Merge "Merge 01e6b9d992ea181780268c5ee4b50052234e858f on remote branch"](https://github.com/search?q=Merge%20"Merge%2001e6b9d992ea181780268c5ee4b50052234e858f%20on%20remote%20branch"&type=Commits)
@@ -964,6 +1335,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-27-2018:
+
+#### external/openssh/
+* [upstream: ssh(1) no longer supports being setuid root. Remove reference](https://github.com/search?q=upstream%3A%20ssh%281%29%20no%20longer%20supports%20being%20setuid%20root.%20Remove%20reference&type=Commits)
+* [correct snprintf truncation check in closefrom()](https://github.com/search?q=correct%20snprintf%20truncation%20check%20in%20closefrom%28%29&type=Commits)
+* [Include stdarg.h in mkdtemp for va_list.](https://github.com/search?q=Include%20stdarg.h%20in%20mkdtemp%20for%20va_list.&type=Commits)
 
 #### frameworks/av/
 * [NdkMediaCodec: add AMediaCodec_getBufferFormat](https://github.com/search?q=NdkMediaCodec%3A%20add%20AMediaCodec_getBufferFormat&type=Commits)
@@ -991,6 +1367,28 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
+#### Resurrection Remix OS - Oreo source changes of 07-26-2018:
+
+#### external/openssh/
+* [upstream: Don't redefine Makefile choices which come correct from](https://github.com/search?q=upstream%3A%20Don%27t%20redefine%20Makefile%20choices%20which%20come%20correct%20from&type=Commits)
+* [upstream: fix indent; Clemens Goessnitzer](https://github.com/search?q=upstream%3A%20fix%20indent;%20Clemens%20Goessnitzer&type=Commits)
+* [upstream: Use the caller provided (copied) pwent struct in](https://github.com/search?q=upstream%3A%20Use%20the%20caller%20provided%20%28copied%29%20pwent%20struct%20in&type=Commits)
+* [upstream: oops, failed to notice that SEE ALSO got messed up;](https://github.com/search?q=upstream%3A%20oops,%20failed%20to%20notice%20that%20SEE%20ALSO%20got%20messed%20up;&type=Commits)
+* [upstream: Point to glob in section 7 for the actual list of special](https://github.com/search?q=upstream%3A%20Point%20to%20glob%20in%20section%207%20for%20the%20actual%20list%20of%20special&type=Commits)
+* [upstream: Switch authorized_keys example from ssh-dss to ssh-rsa](https://github.com/search?q=upstream%3A%20Switch%20authorized_keys%20example%20from%20ssh-dss%20to%20ssh-rsa&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-26-2018 End.
+
+07-25-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 07-25-2018:
+
+#### hardware/qcom/power/
+* [power-8084: rework power profiles](https://github.com/search?q=power-8084%3A%20rework%20power%20profiles&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-25-2018 End.
+
 07-24-2018
 ====================
 
@@ -1004,9 +1402,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-24-2018:
-
-#### hardware/qcom/power/
-* [power-8084: rework power profiles](https://github.com/search?q=power-8084%3A%20rework%20power%20profiles&type=Commits)
 
 #### hardware/ril-caf/
 * [libril: Protect against NULL unsolicited response function](https://github.com/search?q=libril%3A%20Protect%20against%20NULL%20unsolicited%20response%20function&type=Commits)
@@ -1035,6 +1430,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### bionic/
 * [libc: Mark libstdc++ as vendor available](https://github.com/search?q=libc%3A%20Mark%20libstdc++%20as%20vendor%20available&type=Commits)
+
+#### packages/apps/Settings/
+* [Fix Kirin GSI strings](https://github.com/search?q=Fix%20Kirin%20GSI%20strings&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 07-23-2018 End.
 
@@ -1066,9 +1464,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### build/make/
 * [build: Never set persist.sys.usb.config=none in recovery](https://github.com/search?q=build%3A%20Never%20set%20persist.sys.usb.config=none%20in%20recovery&type=Commits)
 
-#### device/rr/sepolicy/
-* [sepolicy: recovery: Allow (re)mounting system](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Allow%20%28re%29mounting%20system&type=Commits)
-
 #### frameworks/base/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [frameworks/base: squash import translations from LineageOS](https://github.com/search?q=frameworks/base%3A%20squash%20import%20translations%20from%20LineageOS&type=Commits)
@@ -1088,7 +1483,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-15.1%27%20into%20HEAD&type=Commits)
 
 #### packages/apps/Settings/
-* [Fix Kirin GSI strings](https://github.com/search?q=Fix%20Kirin%20GSI%20strings&type=Commits)
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [[1/2] Add vendor security patch level to device info](https://github.com/search?q=[1/2]%20Add%20vendor%20security%20patch%20level%20to%20device%20info&type=Commits)
 * [Settings: squash update translations from LineageOS](https://github.com/search?q=Settings%3A%20squash%20update%20translations%20from%20LineageOS&type=Commits)
@@ -1110,6 +1504,18 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 07-21-2018
 ====================
 
+#### Device specific Changes of 07-21-2018 Start:
+
+#### Device/Quark/
+* [Quark: Update README.md](https://github.com/search?q=Quark%3A%20Update%20README.md&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 07-21-2018 End.
+
+***
+
 #### Resurrection Remix OS - Oreo source changes of 07-21-2018:
 
 #### packages/apps/LineageCustomizer/
@@ -1126,7 +1532,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-20-2018 Start:
 
 #### Device/Quark/
-* [Quark: Update README.md](https://github.com/search?q=Quark%3A%20Update%20README.md&type=Commits)
 * [Quark: switch to lineage vibrator service](https://github.com/search?q=Quark%3A%20switch%20to%20lineage%20vibrator%20service&type=Commits)
 * [Quark: remove ro.panel.mountflip](https://github.com/search?q=Quark%3A%20remove%20ro.panel.mountflip&type=Commits)
 * [Quark: upadte README.md](https://github.com/search?q=Quark%3A%20upadte%20README.md&type=Commits)
@@ -1144,7 +1549,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [msm: mdss: enable support for flipped panels](https://github.com/search?q=msm%3A%20mdss%3A%20enable%20support%20for%20flipped%20panels&type=Commits)
 
 #### Vendor/Quark/
-* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
 * [Quark: update mdm bin/libs](https://github.com/search?q=Quark%3A%20update%20mdm%20bin/libs&type=Commits)
 * [Quark: use samsung apq8084-common wcnss_filter](https://github.com/search?q=Quark%3A%20use%20samsung%20apq8084-common%20wcnss_filter&type=Commits)
 
@@ -1160,41 +1564,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [DO NOT MERGE: Update Platform Security String to 2018-07-05 for oc-mr1-dev Bug:79883349 (cherry picked from commit cfbe84b8a0ac6ad680edad1c21b08672ed96127d)](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Update%20Platform%20Security%20String%20to%202018-07-05%20for%20oc-mr1-dev%20Bug%3A79883349%20%28cherry%20picked%20from%20commit%20cfbe84b8a0ac6ad680edad1c21b08672ed96127d%29&type=Commits)
 * [DO NOT MERGE: Updating security string for oc-mr1-dev to 2018-06-05](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Updating%20security%20string%20for%20oc-mr1-dev%20to%202018-06-05&type=Commits)
 
-#### external/bouncycastle/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Fix probable prime confidence calculations.](https://github.com/search?q=Fix%20probable%20prime%20confidence%20calculations.&type=Commits)
-
-#### external/curl/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Disable unused protocols.](https://github.com/search?q=Disable%20unused%20protocols.&type=Commits)
-
 #### external/e2fsprogs/
 * [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
 * [Ignore quotes in safe_print().](https://github.com/search?q=Ignore%20quotes%20in%20safe_print%28%29.&type=Commits)
 
-#### external/libavc/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Encoder: Return error for odd resolution](https://github.com/search?q=Encoder%3A%20Return%20error%20for%20odd%20resolution&type=Commits)
-* [Decoder: Modify setting short term reference field flag](https://github.com/search?q=Decoder%3A%20Modify%20setting%20short%20term%20reference%20field%20flag&type=Commits)
-
-#### external/libhevc/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Return error for invalid st/lt sps parameters](https://github.com/search?q=Return%20error%20for%20invalid%20st/lt%20sps%20parameters&type=Commits)
-* [Return error for invalid sps sub layers parameters](https://github.com/search?q=Return%20error%20for%20invalid%20sps%20sub%20layers%20parameters&type=Commits)
-* [Add limits check for depth hierarchy sps parameters](https://github.com/search?q=Add%20limits%20check%20for%20depth%20hierarchy%20sps%20parameters&type=Commits)
-* [Return error for invalid reorder parameter](https://github.com/search?q=Return%20error%20for%20invalid%20reorder%20parameter&type=Commits)
-
-#### external/libmpeg2/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Adding Check For Number of Skip MBs](https://github.com/search?q=Adding%20Check%20For%20Number%20of%20Skip%20MBs&type=Commits)
-
-#### external/libvpx/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [DO NOT MERGE | libvpx: cherry pick fix to OOB of mv_cost index.](https://github.com/search?q=DO%20NOT%20MERGE%20|%20libvpx%3A%20cherry%20pick%20fix%20to%20OOB%20of%20mv_cost%20index.&type=Commits)
-
-#### external/sonivox/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [sonivox: fix hang caused by bad meta-event](https://github.com/search?q=sonivox%3A%20fix%20hang%20caused%20by%20bad%20meta-event&type=Commits)
+#### external/openssh/
+* [upstream: slightly-clearer description for AuthenticationMethods - the](https://github.com/search?q=upstream%3A%20slightly-clearer%20description%20for%20AuthenticationMethods%20-%20the&type=Commits)
+* [Create control sockets in clean temp directories](https://github.com/search?q=Create%20control%20sockets%20in%20clean%20temp%20directories&type=Commits)
+* [upstream: remove unused zlib.h](https://github.com/search?q=upstream%3A%20remove%20unused%20zlib.h&type=Commits)
+* [upstream: Fix typo in comment. From Alexandru Iacob via github.](https://github.com/search?q=upstream%3A%20Fix%20typo%20in%20comment.%20From%20Alexandru%20Iacob%20via%20github.&type=Commits)
+* [Explicitly include openssl before zlib.](https://github.com/search?q=Explicitly%20include%20openssl%20before%20zlib.&type=Commits)
 
 #### frameworks/av/
 * [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
@@ -1231,9 +1610,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Proper autofill fix to let phone process autofill Settings activity.](https://github.com/search?q=Proper%20autofill%20fix%20to%20let%20phone%20process%20autofill%20Settings%20activity.&type=Commits)
 * [Make sure apps cannot forge package name on AssistStructure used for Autofill.](https://github.com/search?q=Make%20sure%20apps%20cannot%20forge%20package%20name%20on%20AssistStructure%20used%20for%20Autofill.&type=Commits)
 
-#### frameworks/minikin/
+#### frameworks/native/
 * [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Fix fvar table size validation logic - DO NOT MERGE](https://github.com/search?q=Fix%20fvar%20table%20size%20validation%20logic%20-%20DO%20NOT%20MERGE&type=Commits)
+* [Don't pad before calling writeInPlace().](https://github.com/search?q=Don%27t%20pad%20before%20calling%20writeInPlace%28%29.&type=Commits)
+* [Increment when attempting to read protected Parcel Data](https://github.com/search?q=Increment%20when%20attempting%20to%20read%20protected%20Parcel%20Data&type=Commits)
+* [Disallow reading object data from Parcels with non-object reads](https://github.com/search?q=Disallow%20reading%20object%20data%20from%20Parcels%20with%20non-object%20reads&type=Commits)
 
 #### frameworks/opt/telephony/
 * [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
@@ -1304,10 +1685,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [DO NOT MERGE Fix unexpected behavior in bta_dm_sdp_result](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20unexpected%20behavior%20in%20bta_dm_sdp_result&type=Commits)
 * [DO NOT MERGE Fix unexpected behavior in smp_sm_event](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20unexpected%20behavior%20in%20smp_sm_event&type=Commits)
 
-#### system/media/
-* [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
-* [Merge commit 'f9e3022c474619c69a46ae7dbe11b5b531dbad57' into am-0d58d39a-0539-474e-b9c8-36cc976d15e8](https://github.com/search?q=Merge%20commit%20%27f9e3022c474619c69a46ae7dbe11b5b531dbad57%27%20into%20am-0d58d39a-0539-474e-b9c8-36cc976d15e8&type=Commits)
-
 #### system/vold/
 * [Merge cherrypicks of [4586293, 4586294, 4586295, 4584365, 4584366, 4584367, 4584368, 4584369, 4584370, 4587544, 4584705, 4586296, 4587545, 4587546, 4586297, 4586298, 4586299, 4586300, 4584371, 4586301, 4584706, 4586302, 4586303, 4587584, 4587585, 4587586, 4587587, 4587588, 4587589, 4587590, 4587591, 4587644, 4587645, 4587646, 4587647, 4587648, 4587649, 4587650, 4587651, 4587652, 4587653, 4587654, 4587655, 4587656, 4587657, 4587658, 4587659, 4587660, 4587661, 4587662, 4584536, 4587547, 4587548, 4587549, 4584707, 4584708, 4587550, 4587551, 4587593, 4586516, 4584372, 4584373, 4584374, 4587595, 4584375, 4584376, 4587552, 4587596, 4587597, 4587598, 4587599, 4584414, 4584415, 4584416, 4584417, 4584418, 4584419, 4584420, 4584421, 4584422, 4584423, 4587804, 4587805, 4587806, 4587807, 4587808, 4587809, 4587810, 4587811, 4587812, 4587813, 4587814, 4587815, 4587816, 4587817, 4587818, 4587884, 4587885, 4587600, 4587601, 4587819, 4584709] into sparse-4749909-L91900000192339903](https://github.com/search?q=Merge%20cherrypicks%20of%20[4586293,%204586294,%204586295,%204584365,%204584366,%204584367,%204584368,%204584369,%204584370,%204587544,%204584705,%204586296,%204587545,%204587546,%204586297,%204586298,%204586299,%204586300,%204584371,%204586301,%204584706,%204586302,%204586303,%204587584,%204587585,%204587586,%204587587,%204587588,%204587589,%204587590,%204587591,%204587644,%204587645,%204587646,%204587647,%204587648,%204587649,%204587650,%204587651,%204587652,%204587653,%204587654,%204587655,%204587656,%204587657,%204587658,%204587659,%204587660,%204587661,%204587662,%204584536,%204587547,%204587548,%204587549,%204584707,%204584708,%204587550,%204587551,%204587593,%204586516,%204584372,%204584373,%204584374,%204587595,%204584375,%204584376,%204587552,%204587596,%204587597,%204587598,%204587599,%204584414,%204584415,%204584416,%204584417,%204584418,%204584419,%204584420,%204584421,%204584422,%204584423,%204587804,%204587805,%204587806,%204587807,%204587808,%204587809,%204587810,%204587811,%204587812,%204587813,%204587814,%204587815,%204587816,%204587817,%204587818,%204587884,%204587885,%204587600,%204587601,%204587819,%204584709]%20into%20sparse-4749909-L91900000192339903&type=Commits)
 * [Merge commit '635193ab36302e5f65e99c7df2f256cfd37068c7' into am-b7f1a67b-2024-4274-aa7d-e88e8cceb407](https://github.com/search?q=Merge%20commit%20%27635193ab36302e5f65e99c7df2f256cfd37068c7%27%20into%20am-b7f1a67b-2024-4274-aa7d-e88e8cceb407&type=Commits)
@@ -1317,10 +1694,32 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 07-19-2018
 ====================
 
+#### Device specific Changes of 07-19-2018 Start:
+
+#### Device/Quark/
+* [QUark: usb serial prop move to init.qcom.usb](https://github.com/search?q=QUark%3A%20usb%20serial%20prop%20move%20to%20init.qcom.usb&type=Commits)
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+
+#### Device specific Changes of 07-19-2018 End.
+
+***
+
 #### Resurrection Remix OS - Oreo source changes of 07-19-2018:
+
+#### external/openssh/
+* [upstream: Deprecate UsePrivilegedPort now that support for running](https://github.com/search?q=upstream%3A%20Deprecate%20UsePrivilegedPort%20now%20that%20support%20for%20running&type=Commits)
+* [upstream: Remove support for running ssh(1) setuid and fatal if](https://github.com/search?q=upstream%3A%20Remove%20support%20for%20running%20ssh%281%29%20setuid%20and%20fatal%20if&type=Commits)
+* [upstream: Slot 0 in the hostbased key array was previously RSA1,](https://github.com/search?q=upstream%3A%20Slot%200%20in%20the%20hostbased%20key%20array%20was%20previously%20RSA1,&type=Commits)
+* [upstream: Remove support for loading HostBasedAuthentication keys](https://github.com/search?q=upstream%3A%20Remove%20support%20for%20loading%20HostBasedAuthentication%20keys&type=Commits)
+
+#### packages/apps/Dialer/
+* [Re-add call recording.](https://github.com/search?q=Re-add%20call%20recording.&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
 * [Merge "SnapdragonCamera:Fix recording state"](https://github.com/search?q=Merge%20"SnapdragonCamera%3AFix%20recording%20state"&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Don't re-show search bar on query click.](https://github.com/search?q=Don%27t%20re-show%20search%20bar%20on%20query%20click.&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 07-19-2018 End.
 
@@ -1330,8 +1729,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-18-2018 Start:
 
 #### Device/Quark/
-* [QUark: usb serial prop move to init.qcom.usb](https://github.com/search?q=QUark%3A%20usb%20serial%20prop%20move%20to%20init.qcom.usb&type=Commits)
-* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
 * [Quark: update readme](https://github.com/search?q=Quark%3A%20update%20readme&type=Commits)
 * [Quark: remove permissive selinux](https://github.com/search?q=Quark%3A%20remove%20permissive%20selinux&type=Commits)
 * [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
@@ -1348,15 +1745,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-18-2018:
 
-#### packages/apps/Dialer/
-* [Re-add call recording.](https://github.com/search?q=Re-add%20call%20recording.&type=Commits)
-
 #### packages/apps/SnapdragonCamera2/
 * [SnapdragonCamera:Fix recording state](https://github.com/search?q=SnapdragonCamera%3AFix%20recording%20state&type=Commits)
 * [Add a property to set video snapshot size](https://github.com/search?q=Add%20a%20property%20to%20set%20video%20snapshot%20size&type=Commits)
-
-#### packages/apps/UnifiedEmail/
-* [Don't re-show search bar on query click.](https://github.com/search?q=Don%27t%20re-show%20search%20bar%20on%20query%20click.&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 07-18-2018 End.
 
@@ -1371,6 +1762,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: install /firmware symlinks to /vendor](https://github.com/search?q=Quark%3A%20install%20/firmware%20symlinks%20to%20/vendor&type=Commits)
 * [Quark: change sbin file name to the standard](https://github.com/search?q=Quark%3A%20change%20sbin%20file%20name%20to%20the%20standard&type=Commits)
 * [Quark: add sepolicy for mmi*.sh files](https://github.com/search?q=Quark%3A%20add%20sepolicy%20for%20mmi*.sh%20files&type=Commits)
+* [Quark: remove / from begining of declaration in configs/config.fs](https://github.com/search?q=Quark%3A%20remove%20/%20from%20begining%20of%20declaration%20in%20configs/config.fs&type=Commits)
+* [Quark: update fstab.qcom](https://github.com/search?q=Quark%3A%20update%20fstab.qcom&type=Commits)
+* [Quark: init system/vendor to just /vendor](https://github.com/search?q=Quark%3A%20init%20system/vendor%20to%20just%20/vendor&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: move etc/diag_mdlog to vendor](https://github.com/search?q=Quark%3A%20move%20etc/diag_mdlog%20to%20vendor&type=Commits)
@@ -1379,12 +1773,17 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: move camera firmware to vendor](https://github.com/search?q=Quark%3A%20move%20camera%20firmware%20to%20vendor&type=Commits)
 * [Quark: move stm401 firmware to vendor and sed stm401](https://github.com/search?q=Quark%3A%20move%20stm401%20firmware%20to%20vendor%20and%20sed%20stm401&type=Commits)
 * [Quark: move audio and adreno firmware to vendor + sed adspd](https://github.com/search?q=Quark%3A%20move%20audio%20and%20adreno%20firmware%20to%20vendor%20+%20sed%20adspd&type=Commits)
+* [Quark: update qcrilmsgtunnel](https://github.com/search?q=Quark%3A%20update%20qcrilmsgtunnel&type=Commits)
+* [Quark: add bcm20795_firmware.ncd](https://github.com/search?q=Quark%3A%20add%20bcm20795_firmware.ncd&type=Commits)
 
 #### Device specific Changes of 07-17-2018 End.
 
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-17-2018:
+
+#### hardware/lineage/telephony/
+* [telephony: Actually pull in telephony-ext into final build](https://github.com/search?q=telephony%3A%20Actually%20pull%20in%20telephony-ext%20into%20final%20build&type=Commits)
 
 #### packages/apps/Recorder/
 * [Recorder: Use native functions to get H264 info](https://github.com/search?q=Recorder%3A%20Use%20native%20functions%20to%20get%20H264%20info&type=Commits)
@@ -1397,9 +1796,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-16-2018 Start:
 
 #### Device/Quark/
-* [Quark: remove / from begining of declaration in configs/config.fs](https://github.com/search?q=Quark%3A%20remove%20/%20from%20begining%20of%20declaration%20in%20configs/config.fs&type=Commits)
-* [Quark: update fstab.qcom](https://github.com/search?q=Quark%3A%20update%20fstab.qcom&type=Commits)
-* [Quark: init system/vendor to just /vendor](https://github.com/search?q=Quark%3A%20init%20system/vendor%20to%20just%20/vendor&type=Commits)
 * [Quark: init remove reference to modules and init.qcom.wifi](https://github.com/search?q=Quark%3A%20init%20remove%20reference%20to%20modules%20and%20init.qcom.wifi&type=Commits)
 * [Quark: init.qcom.rc persist.audio.calfile path to vendor](https://github.com/search?q=Quark%3A%20init.qcom.rc%20persist.audio.calfile%20path%20to%20vendor&type=Commits)
 * [Quark: lineageactions re add LOCAL_PRIVILEGED_MODULE](https://github.com/search?q=Quark%3A%20lineageactions%20re%20add%20LOCAL_PRIVILEGED_MODULE&type=Commits)
@@ -1414,8 +1810,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Revert "Quark: update fstab.qcom"](https://github.com/search?q=Revert%20"Quark%3A%20update%20fstab.qcom"&type=Commits)
 
 #### Vendor/Quark/
-* [Quark: update qcrilmsgtunnel](https://github.com/search?q=Quark%3A%20update%20qcrilmsgtunnel&type=Commits)
-* [Quark: add bcm20795_firmware.ncd](https://github.com/search?q=Quark%3A%20add%20bcm20795_firmware.ncd&type=Commits)
 * [Quark: move acdbdata to vendor](https://github.com/search?q=Quark%3A%20move%20acdbdata%20to%20vendor&type=Commits)
 * [Quark: move apps to vendor](https://github.com/search?q=Quark%3A%20move%20apps%20to%20vendor&type=Commits)
 * [Quark: remove vendor/lib/libbt-vendor.so](https://github.com/search?q=Quark%3A%20remove%20vendor/lib/libbt-vendor.so&type=Commits)
@@ -1437,8 +1831,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### device/qcom/sepolicy/
 * [Allow binderized keymaster HAL access to firmware files.](https://github.com/search?q=Allow%20binderized%20keymaster%20HAL%20access%20to%20firmware%20files.&type=Commits)
 
-#### device/rr/sepolicy/
-* [Make fuseblk use vfat context](https://github.com/search?q=Make%20fuseblk%20use%20vfat%20context&type=Commits)
+#### external/openssh/
+* [upstream: keep options.identity_file_userprovided array in sync when we](https://github.com/search?q=upstream%3A%20keep%20options.identity_file_userprovided%20array%20in%20sync%20when%20we&type=Commits)
+* [upstream: memleak in unittest; found by valgrind](https://github.com/search?q=upstream%3A%20memleak%20in%20unittest;%20found%20by%20valgrind&type=Commits)
+* [upstream: memleaks; found by valgrind](https://github.com/search?q=upstream%3A%20memleaks;%20found%20by%20valgrind&type=Commits)
 
 #### frameworks/base/
 * [Disable warning in StaticLayout](https://github.com/search?q=Disable%20warning%20in%20StaticLayout&type=Commits)
@@ -1470,13 +1866,13 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Location: Skip processing when reciever pointer is null](https://github.com/search?q=Location%3A%20Skip%20processing%20when%20reciever%20pointer%20is%20null&type=Commits)
 * [SystemUI: require auth for adb wireless](https://github.com/search?q=SystemUI%3A%20require%20auth%20for%20adb%20wireless&type=Commits)
 * [base: limit direct share targets to reduce lag](https://github.com/search?q=base%3A%20limit%20direct%20share%20targets%20to%20reduce%20lag&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### frameworks/native/
 * [Revert "InputDispatcher: On keypress, deliver keycode to pokeUserActivity"](https://github.com/search?q=Revert%20"InputDispatcher%3A%20On%20keypress,%20deliver%20keycode%20to%20pokeUserActivity"&type=Commits)
 * [Revert "PowerManager.h: Define USER_ACTIVITY_FLAG values"](https://github.com/search?q=Revert%20"PowerManager.h%3A%20Define%20USER_ACTIVITY_FLAG%20values"&type=Commits)
 
 #### hardware/lineage/telephony/
-* [telephony: Actually pull in telephony-ext into final build](https://github.com/search?q=telephony%3A%20Actually%20pull%20in%20telephony-ext%20into%20final%20build&type=Commits)
 * [Cleanup usage of static](https://github.com/search?q=Cleanup%20usage%20of%20static&type=Commits)
 * [Return proper value for isDsdaEnabled](https://github.com/search?q=Return%20proper%20value%20for%20isDsdaEnabled&type=Commits)
 
@@ -1488,6 +1884,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Trust: warn if build is signed with insecure keys](https://github.com/search?q=Trust%3A%20warn%20if%20build%20is%20signed%20with%20insecure%20keys&type=Commits)
 * [TrustInterface: Handle unsupported encryption state](https://github.com/search?q=TrustInterface%3A%20Handle%20unsupported%20encryption%20state&type=Commits)
 * [Trust: add action to disable alerts to notifications](https://github.com/search?q=Trust%3A%20add%20action%20to%20disable%20alerts%20to%20notifications&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/LineageParts/
 * [parts: Trust: better warnings management](https://github.com/search?q=parts%3A%20Trust%3A%20better%20warnings%20management&type=Commits)
@@ -1495,6 +1895,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [parts: add SMS rate limit setting](https://github.com/search?q=parts%3A%20add%20SMS%20rate%20limit%20setting&type=Commits)
 * [Align trust onboarding welcome change](https://github.com/search?q=Align%20trust%20onboarding%20welcome%20change&type=Commits)
 * [Parts: expose toggle for disabling trust alerts](https://github.com/search?q=Parts%3A%20expose%20toggle%20for%20disabling%20trust%20alerts&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Settings/
 * [settings: Add platform and RAM to "Model & Hardware" dialogue](https://github.com/search?q=settings%3A%20Add%20platform%20and%20RAM%20to%20"Model%20&%20Hardware"%20dialogue&type=Commits)
@@ -1506,6 +1909,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### packages/apps/SnapdragonCamera2/
 * [Merge "SnapdragonCamera: Added stats visualizer"](https://github.com/search?q=Merge%20"SnapdragonCamera%3A%20Added%20stats%20visualizer"&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### vendor/rr/
 * [extract_utils: Newline love for adb extraction](https://github.com/search?q=extract_utils%3A%20Newline%20love%20for%20adb%20extraction&type=Commits)
@@ -1548,23 +1954,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-15-2018:
 
-#### frameworks/base/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### lineage-sdk/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/DUI/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionOTA/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+#### device/rr/sepolicy/
+* [sepolicy: recovery: Allow (re)mounting system](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Allow%20%28re%29mounting%20system&type=Commits)
 
 #### packages/apps/Settings/
 * [Settings: Update maintainers for Z00L & Z00T](https://github.com/search?q=Settings%3A%20Update%20maintainers%20for%20Z00L%20&%20Z00T&type=Commits)
-
-#### packages/services/OmniJaws/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### system/sepolicy/
 * [sepolicy: public: Exclude Recovery from system mount neverallow](https://github.com/search?q=sepolicy%3A%20public%3A%20Exclude%20Recovery%20from%20system%20mount%20neverallow&type=Commits)
@@ -1576,6 +1970,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 07-14-2018:
+
+#### device/qcom/sepolicy/
+* [msm8960: Fix compilation](https://github.com/search?q=msm8960%3A%20Fix%20compilation&type=Commits)
+
+#### external/openssh/
+* [Undef a few new macros in sys-queue.h.](https://github.com/search?q=Undef%20a%20few%20new%20macros%20in%20sys-queue.h.&type=Commits)
 
 #### frameworks/native/
 * [sensorservice: customize sensor fusion mag filter via prop](https://github.com/search?q=sensorservice%3A%20customize%20sensor%20fusion%20mag%20filter%20via%20prop&type=Commits)
@@ -2826,6 +3226,7 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Vendor/Quark/
 * [Quark: remove DEX_PREOPT = false](https://github.com/search?q=Quark%3A%20remove%20DEX_PREOPT%20=%20false&type=Commits)
 * [Quark: Hack Morph HDR initialization](https://github.com/search?q=Quark%3A%20Hack%20Morph%20HDR%20initialization&type=Commits)
+* [Quark: update adreno reader libs](https://github.com/search?q=Quark%3A%20update%20adreno%20reader%20libs&type=Commits)
 
 #### Device specific Changes of 07-13-2018 End.
 
@@ -2835,6 +3236,17 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### external/libdrm/
 * [libdrm: Avoid additional drm open close](https://github.com/search?q=libdrm%3A%20Avoid%20additional%20drm%20open%20close&type=Commits)
+
+#### external/openssh/
+* [Include unistd.h for geteuid declaration.](https://github.com/search?q=Include%20unistd.h%20for%20geteuid%20declaration.&type=Commits)
+* [Fallout from buffer conversion in AUDIT_EVENTS.](https://github.com/search?q=Fallout%20from%20buffer%20conversion%20in%20AUDIT_EVENTS.&type=Commits)
+* [upstream: make this use ssh_proxy rather than starting/stopping a](https://github.com/search?q=upstream%3A%20make%20this%20use%20ssh_proxy%20rather%20than%20starting/stopping%20a&type=Commits)
+* [upstream: fix leaks in unit test; with this, all unit tests are](https://github.com/search?q=upstream%3A%20fix%20leaks%20in%20unit%20test;%20with%20this,%20all%20unit%20tests%20are&type=Commits)
+* [Enable leak checks for unit tests with valgrind](https://github.com/search?q=Enable%20leak%20checks%20for%20unit%20tests%20with%20valgrind&type=Commits)
+* [increase timeout to match cfgmatch.sh](https://github.com/search?q=increase%20timeout%20to%20match%20cfgmatch.sh&type=Commits)
+* [rm regress/misc/kexfuzz/*.o in distclean target](https://github.com/search?q=rm%20regress/misc/kexfuzz/*.o%20in%20distclean%20target&type=Commits)
+* [repair !WITH_OPENSSL build](https://github.com/search?q=repair%20!WITH_OPENSSL%20build&type=Commits)
+* [missing headers](https://github.com/search?q=missing%20headers&type=Commits)
 
 #### hardware/qcom/display-caf/sdm845/
 * [Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT](https://github.com/search?q=Add%20C2D_COLOR_FORMAT_420_TP10%20to%20C2D_YUV_FORMAT&type=Commits)
@@ -2847,16 +3259,14 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 07-12-2018
 ====================
 
-#### Device specific Changes of 07-12-2018 Start:
-
-#### Vendor/Quark/
-* [Quark: update adreno reader libs](https://github.com/search?q=Quark%3A%20update%20adreno%20reader%20libs&type=Commits)
-
-#### Device specific Changes of 07-12-2018 End.
-
-***
-
 #### Resurrection Remix OS - Oreo source changes of 07-12-2018:
+
+#### external/openssh/
+* [Remove key.h from portable files too.](https://github.com/search?q=Remove%20key.h%20from%20portable%20files%20too.&type=Commits)
+* [upstream: remove prototype to long-gone function](https://github.com/search?q=upstream%3A%20remove%20prototype%20to%20long-gone%20function&type=Commits)
+* [upstream: treat ssh_packet_write_wait() errors as fatal; ok djm@](https://github.com/search?q=upstream%3A%20treat%20ssh_packet_write_wait%28%29%20errors%20as%20fatal;%20ok%20djm%40&type=Commits)
+* [upstream: remove legacy key emulation layer; ok djm@](https://github.com/search?q=upstream%3A%20remove%20legacy%20key%20emulation%20layer;%20ok%20djm%40&type=Commits)
+* [upstream: s/wuth/with/ in comment](https://github.com/search?q=upstream%3A%20s/wuth/with/%20in%20comment&type=Commits)
 
 #### frameworks/av/
 * [Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback](https://github.com/search?q=Camera%3A%20CameraHardwareInterface%3A%20Releasing%20mHIDLMemoryMapLock%20in%20QdataCallback&type=Commits)
@@ -2878,6 +3288,25 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-11-2018:
 
+#### external/openssh/
+* [Include stdlib.h for declaration of free.](https://github.com/search?q=Include%20stdlib.h%20for%20declaration%20of%20free.&type=Commits)
+* [VALGRIND_CHECK_LEAKS logic was backwards :(](https://github.com/search?q=VALGRIND_CHECK_LEAKS%20logic%20was%20backwards%20%3A%28&type=Commits)
+* [Fix sshbuf_new error path in skey.](https://github.com/search?q=Fix%20sshbuf_new%20error%20path%20in%20skey.&type=Commits)
+* [Supply missing third arg in skey.](https://github.com/search?q=Supply%20missing%20third%20arg%20in%20skey.&type=Commits)
+* [Supply some more missing "int r" in skey](https://github.com/search?q=Supply%20some%20more%20missing%20"int%20r"%20in%20skey&type=Commits)
+* [disable valgrind memleak checking by default](https://github.com/search?q=disable%20valgrind%20memleak%20checking%20by%20default&type=Commits)
+* [Supply missing "int r" in skey code.](https://github.com/search?q=Supply%20missing%20"int%20r"%20in%20skey%20code.&type=Commits)
+* [upstream: re-remove some pre-auth compression bits](https://github.com/search?q=upstream%3A%20re-remove%20some%20pre-auth%20compression%20bits&type=Commits)
+
+#### hardware/lineage/telephony/
+* [Add README for how to use this repo](https://github.com/search?q=Add%20README%20for%20how%20to%20use%20this%20repo&type=Commits)
+* [Allow opting out of building this jar](https://github.com/search?q=Allow%20opting%20out%20of%20building%20this%20jar&type=Commits)
+* [Minor thread safety fixes](https://github.com/search?q=Minor%20thread%20safety%20fixes&type=Commits)
+* [Store provisioning pref separately from SIM status](https://github.com/search?q=Store%20provisioning%20pref%20separately%20from%20SIM%20status&type=Commits)
+* [Reenable both SIM cards on hotswap](https://github.com/search?q=Reenable%20both%20SIM%20cards%20on%20hotswap&type=Commits)
+* [Reset default sims on deactivation](https://github.com/search?q=Reset%20default%20sims%20on%20deactivation&type=Commits)
+* [Implement crude manual SIM provisioning](https://github.com/search?q=Implement%20crude%20manual%20SIM%20provisioning&type=Commits)
+
 #### packages/apps/SnapdragonCamera2/
 * [Move close camera to sub-thread for avoiding ANR.](https://github.com/search?q=Move%20close%20camera%20to%20sub-thread%20for%20avoiding%20ANR.&type=Commits)
 
@@ -2892,11 +3321,17 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: reset media_profiles to quark default](https://github.com/search?q=Quark%3A%20reset%20media_profiles%20to%20quark%20default&type=Commits)
 * [QUark: overlay remove reference to com.qualcomm.location](https://github.com/search?q=QUark%3A%20overlay%20remove%20reference%20to%20com.qualcomm.location&type=Commits)
 * [Quark: clean up esdfs realted](https://github.com/search?q=Quark%3A%20clean%20up%20esdfs%20realted&type=Commits)
+* [lineageactions: change ListPreference style to oreo + cleanup](https://github.com/search?q=lineageactions%3A%20change%20ListPreference%20style%20to%20oreo%20+%20cleanup&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: cleanup quark-vendor.mk](https://github.com/search?q=Quark%3A%20cleanup%20quark-vendor.mk&type=Commits)
 * [Quark: don't pack com.qualcomm.location.xml](https://github.com/search?q=Quark%3A%20don%27t%20pack%20com.qualcomm.location.xml&type=Commits)
 * [Revert "Quark: update and build com.qualcomm.location"](https://github.com/search?q=Revert%20"Quark%3A%20update%20and%20build%20com.qualcomm.location"&type=Commits)
+* [Quark: add aptx_encoder needed for oreo](https://github.com/search?q=Quark%3A%20add%20aptx_encoder%20needed%20for%20oreo&type=Commits)
+* [Quark: update and build com.qualcomm.location](https://github.com/search?q=Quark%3A%20update%20and%20build%20com.qualcomm.location&type=Commits)
+* [Quark: permission update uid qcom_diag -> oem_2950](https://github.com/search?q=Quark%3A%20permission%20update%20uid%20qcom_diag%20->%20oem_2950&type=Commits)
+* [Revert "Quark: don't build GPS NLP for now"](https://github.com/search?q=Revert%20"Quark%3A%20don%27t%20build%20GPS%20NLP%20for%20now"&type=Commits)
+* [Up KernelAdiutor](https://github.com/search?q=Up%20KernelAdiutor&type=Commits)
 
 #### Device specific Changes of 07-10-2018 End.
 
@@ -2904,14 +3339,28 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-10-2018:
 
+#### external/openssh/
+* [Adapt portable to legacy buffer API removal](https://github.com/search?q=Adapt%20portable%20to%20legacy%20buffer%20API%20removal&type=Commits)
+* [upstream: kerberos/gssapi fixes for buffer removal](https://github.com/search?q=upstream%3A%20kerberos/gssapi%20fixes%20for%20buffer%20removal&type=Commits)
+* [upstream: buffer.[ch] and bufaux.c are no more](https://github.com/search?q=upstream%3A%20buffer.[ch]%20and%20bufaux.c%20are%20no%20more&type=Commits)
+* [upstream: one mention of Buffer that almost got away :)](https://github.com/search?q=upstream%3A%20one%20mention%20of%20Buffer%20that%20almost%20got%20away%20%3A%29&type=Commits)
+* [upstream: replace cast with call to sshbuf_mutable_ptr(); ok djm@](https://github.com/search?q=upstream%3A%20replace%20cast%20with%20call%20to%20sshbuf_mutable_ptr%28%29;%20ok%20djm%40&type=Commits)
+* [upstream: remove legacy buffer API emulation layer; ok djm@](https://github.com/search?q=upstream%3A%20remove%20legacy%20buffer%20API%20emulation%20layer;%20ok%20djm%40&type=Commits)
+* [upstream: sshd: switch monitor to sshbuf API; lots of help & ok](https://github.com/search?q=upstream%3A%20sshd%3A%20switch%20monitor%20to%20sshbuf%20API;%20lots%20of%20help%20&%20ok&type=Commits)
+* [upstream: sshd: switch GSSAPI to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20sshd%3A%20switch%20GSSAPI%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: sshd: switch authentication to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20sshd%3A%20switch%20authentication%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: sshd: switch config to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20sshd%3A%20switch%20config%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: sshd: switch loginmsg to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20sshd%3A%20switch%20loginmsg%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: ttymodes: switch to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20ttymodes%3A%20switch%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: client: switch mux to sshbuf API; with & ok djm@](https://github.com/search?q=upstream%3A%20client%3A%20switch%20mux%20to%20sshbuf%20API;%20with%20&%20ok%20djm%40&type=Commits)
+* [upstream: client: switch to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20client%3A%20switch%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: pkcs11: switch to sshbuf API; ok djm@](https://github.com/search?q=upstream%3A%20pkcs11%3A%20switch%20to%20sshbuf%20API;%20ok%20djm%40&type=Commits)
+* [upstream: Revert previous two commits](https://github.com/search?q=upstream%3A%20Revert%20previous%20two%20commits&type=Commits)
+* [upstream: Rename COMP_DELAYED to COMP_ZLIB](https://github.com/search?q=upstream%3A%20Rename%20COMP_DELAYED%20to%20COMP_ZLIB&type=Commits)
+* [upstream: Remove leftovers from pre-authentication compression](https://github.com/search?q=upstream%3A%20Remove%20leftovers%20from%20pre-authentication%20compression&type=Commits)
+* [upstream: Remove unused ssh_packet_start_compression()](https://github.com/search?q=upstream%3A%20Remove%20unused%20ssh_packet_start_compression%28%29&type=Commits)
+
 #### hardware/lineage/telephony/
-* [Add README for how to use this repo](https://github.com/search?q=Add%20README%20for%20how%20to%20use%20this%20repo&type=Commits)
-* [Allow opting out of building this jar](https://github.com/search?q=Allow%20opting%20out%20of%20building%20this%20jar&type=Commits)
-* [Minor thread safety fixes](https://github.com/search?q=Minor%20thread%20safety%20fixes&type=Commits)
-* [Store provisioning pref separately from SIM status](https://github.com/search?q=Store%20provisioning%20pref%20separately%20from%20SIM%20status&type=Commits)
-* [Reenable both SIM cards on hotswap](https://github.com/search?q=Reenable%20both%20SIM%20cards%20on%20hotswap&type=Commits)
-* [Reset default sims on deactivation](https://github.com/search?q=Reset%20default%20sims%20on%20deactivation&type=Commits)
-* [Implement crude manual SIM provisioning](https://github.com/search?q=Implement%20crude%20manual%20SIM%20provisioning&type=Commits)
 * [Implement a dummy IExtTelephony service](https://github.com/search?q=Implement%20a%20dummy%20IExtTelephony%20service&type=Commits)
 * [Implement a fake qti-telephony-common.jar](https://github.com/search?q=Implement%20a%20fake%20qti-telephony-common.jar&type=Commits)
 
@@ -2959,22 +3408,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 07-09-2018
 ====================
 
-#### Device specific Changes of 07-09-2018 Start:
-
-#### Device/Quark/
-* [lineageactions: change ListPreference style to oreo + cleanup](https://github.com/search?q=lineageactions%3A%20change%20ListPreference%20style%20to%20oreo%20+%20cleanup&type=Commits)
-
-#### Vendor/Quark/
-* [Quark: add aptx_encoder needed for oreo](https://github.com/search?q=Quark%3A%20add%20aptx_encoder%20needed%20for%20oreo&type=Commits)
-* [Quark: update and build com.qualcomm.location](https://github.com/search?q=Quark%3A%20update%20and%20build%20com.qualcomm.location&type=Commits)
-* [Quark: permission update uid qcom_diag -> oem_2950](https://github.com/search?q=Quark%3A%20permission%20update%20uid%20qcom_diag%20->%20oem_2950&type=Commits)
-* [Revert "Quark: don't build GPS NLP for now"](https://github.com/search?q=Revert%20"Quark%3A%20don%27t%20build%20GPS%20NLP%20for%20now"&type=Commits)
-* [Up KernelAdiutor](https://github.com/search?q=Up%20KernelAdiutor&type=Commits)
-
-#### Device specific Changes of 07-09-2018 End.
-
-***
-
 #### Resurrection Remix OS - Oreo source changes of 07-09-2018:
 
 #### frameworks/native/
@@ -2998,36 +3431,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Device/Quark/
 * [Quark: start mdm_help in early-boot](https://github.com/search?q=Quark%3A%20start%20mdm_help%20in%20early-boot&type=Commits)
+* [Quark: remove not needed permission and update device.mk path](https://github.com/search?q=Quark%3A%20remove%20not%20needed%20permission%20and%20update%20device.mk%20path&type=Commits)
+* [Quark: reset audio/audio_effects.xml](https://github.com/search?q=Quark%3A%20reset%20audio/audio_effects.xml&type=Commits)
 
 #### Device specific Changes of 07-08-2018 End.
 
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-08-2018:
-
-#### packages/apps/Settings/
-* [Now we have Official Kirin GSI's](https://github.com/search?q=Now%20we%20have%20Official%20Kirin%20GSI%27s&type=Commits)
-
-#### Resurrection Remix OS - Oreo source changes of 07-08-2018 End.
-
-07-07-2018
-====================
-
-#### Device specific Changes of 07-07-2018 Start:
-
-#### Device/Quark/
-* [Quark: remove not needed permission and update device.mk path](https://github.com/search?q=Quark%3A%20remove%20not%20needed%20permission%20and%20update%20device.mk%20path&type=Commits)
-* [Quark: reset audio/audio_effects.xml](https://github.com/search?q=Quark%3A%20reset%20audio/audio_effects.xml&type=Commits)
-
-#### Device specific Changes of 07-07-2018 End.
-
-***
-
-#### Resurrection Remix OS - Oreo source changes of 07-07-2018:
 #### android/
 * [manifest: android-8.1.0_r30 -> android-8.1.0_r36](https://github.com/search?q=manifest%3A%20android-8.1.0_r30%20->%20android-8.1.0_r36&type=Commits)
-* [manifest: Switch to our fork of art](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20fork%20of%20art&type=Commits)
-* c1ccb7f lineage: Add sdm845 platform projects
 
 #### build/make/
 * [Add support for ZSH arrays](https://github.com/search?q=Add%20support%20for%20ZSH%20arrays&type=Commits)
@@ -3038,22 +3451,13 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
 
-#### frameworks/native/
-* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
-
 #### hardware/qcom/power/
 * [power-845: Fix compilation errors](https://github.com/search?q=power-845%3A%20Fix%20compilation%20errors&type=Commits)
 * [Fix interaction boost higher cpu freq perflock](https://github.com/search?q=Fix%20interaction%20boost%20higher%20cpu%20freq%20perflock&type=Commits)
 * [power: Adding hints for SDM845](https://github.com/search?q=power%3A%20Adding%20hints%20for%20SDM845&type=Commits)
 
-#### packages/apps/DUI/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/LineageParts/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/ResurrectionOTA/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+#### packages/apps/Settings/
+* [Now we have Official Kirin GSI's](https://github.com/search?q=Now%20we%20have%20Official%20Kirin%20GSI%27s&type=Commits)
 
 #### packages/services/Telephony/
 * [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
@@ -3065,12 +3469,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [vendor: fix ro.adb.secure for vendor-building devices](https://github.com/search?q=vendor%3A%20fix%20ro.adb.secure%20for%20vendor-building%20devices&type=Commits)
 * [apns: Adjust Sprint LTE internet to allow tether](https://github.com/search?q=apns%3A%20Adjust%20Sprint%20LTE%20internet%20to%20allow%20tether&type=Commits)
 
-#### Resurrection Remix OS - Oreo source changes of 07-07-2018 End.
+#### Resurrection Remix OS - Oreo source changes of 07-08-2018 End.
 
-07-06-2018
+07-07-2018
 ====================
 
-#### Device specific Changes of 07-06-2018 Start:
+#### Device specific Changes of 07-07-2018 Start:
 
 #### Device/Quark/
 * [Quark: sepolicy remove neverallows](https://github.com/search?q=Quark%3A%20sepolicy%20remove%20neverallows&type=Commits)
@@ -3079,14 +3483,39 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: init restart qcamerasvr in realtion to media and servicemanager](https://github.com/search?q=Quark%3A%20init%20restart%20qcamerasvr%20in%20realtion%20to%20media%20and%20servicemanager&type=Commits)
 * [Quark: overlay bluetooth disable a2dp_sink](https://github.com/search?q=Quark%3A%20overlay%20bluetooth%20disable%20a2dp_sink&type=Commits)
 
-#### Device specific Changes of 07-06-2018 End.
+#### Device specific Changes of 07-07-2018 End.
 
 ***
+
+#### Resurrection Remix OS - Oreo source changes of 07-07-2018:
+#### android/
+* [manifest: Switch to our fork of art](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20fork%20of%20art&type=Commits)
+* c1ccb7f lineage: Add sdm845 platform projects
+
+#### frameworks/native/
+* [Merge tag 'android-8.1.0_r36' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20HEAD&type=Commits)
+
+#### packages/apps/DUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 07-07-2018 End.
+
+07-06-2018
+====================
 
 #### Resurrection Remix OS - Oreo source changes of 07-06-2018:
 
 #### build/soong/
 * [soong: Add kryo300 cpu variant to build/song](https://github.com/search?q=soong%3A%20Add%20kryo300%20cpu%20variant%20to%20build/song&type=Commits)
+
+#### external/openssh/
+* [Defer setting bufsiz in getdelim.](https://github.com/search?q=Defer%20setting%20bufsiz%20in%20getdelim.&type=Commits)
 
 #### frameworks/av/
 * [Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r36%27%20into%20staging/lineage-15.1-android-8.1.0_r36&type=Commits)
@@ -3133,6 +3562,15 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### art/
 * [art: extend the supported cpu_variant list for arm64](https://github.com/search?q=art%3A%20extend%20the%20supported%20cpu_variant%20list%20for%20arm64&type=Commits)
+
+#### bionic/
+* [libc: kryo300 specific memory routine](https://github.com/search?q=libc%3A%20kryo300%20specific%20memory%20routine&type=Commits)
+
+#### device/rr/sepolicy/
+* [Make fuseblk use vfat context](https://github.com/search?q=Make%20fuseblk%20use%20vfat%20context&type=Commits)
+
+#### external/openssh/
+* [Fix other callers of read_environment_file.](https://github.com/search?q=Fix%20other%20callers%20of%20read_environment_file.&type=Commits)
 
 #### hardware/qcom/audio-caf/sdm845/
 * 8c36c2ad2 audio: Use direct project pathmap
@@ -3185,8 +3623,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 07-04-2018:
 
-#### bionic/
-* [libc: kryo300 specific memory routine](https://github.com/search?q=libc%3A%20kryo300%20specific%20memory%20routine&type=Commits)
+#### external/openssh/
+* [upstream: deal with API rename: match_filter_list() =>](https://github.com/search?q=upstream%3A%20deal%20with%20API%20rename%3A%20match_filter_list%28%29%20=>&type=Commits)
+* [upstream: exercise new expansion behaviour of](https://github.com/search?q=upstream%3A%20exercise%20new%20expansion%20behaviour%20of&type=Commits)
+* [upstream: add a comment that could have saved me 45 minutes of wild](https://github.com/search?q=upstream%3A%20add%20a%20comment%20that%20could%20have%20saved%20me%2045%20minutes%20of%20wild&type=Commits)
+* [upstream: repair PubkeyAcceptedKeyTypes (and friends) after RSA](https://github.com/search?q=upstream%3A%20repair%20PubkeyAcceptedKeyTypes%20%28and%20friends%29%20after%20RSA&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
 * [Change property from vendor to sys.](https://github.com/search?q=Change%20property%20from%20vendor%20to%20sys.&type=Commits)
@@ -3202,12 +3643,32 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: remove ril restart workaround](https://github.com/search?q=Quark%3A%20remove%20ril%20restart%20workaround&type=Commits)
 * [Quark: remove batt_health from init files](https://github.com/search?q=Quark%3A%20remove%20batt_health%20from%20init%20files&type=Commits)
 * [Quark: move init.qcom init.qcom.power and fstab to vendor/etc](https://github.com/search?q=Quark%3A%20move%20init.qcom%20init.qcom.power%20and%20fstab%20to%20vendor/etc&type=Commits)
+* [Quark: restart ril on boot complete](https://github.com/search?q=Quark%3A%20restart%20ril%20on%20boot%20complete&type=Commits)
+* [Quark: update WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY flag](https://github.com/search?q=Quark%3A%20update%20WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY%20flag&type=Commits)
+* [Quark: don't pin services](https://github.com/search?q=Quark%3A%20don%27t%20pin%20services&type=Commits)
+* [Revert "Quark: Enable early boot animation start"](https://github.com/search?q=Revert%20"Quark%3A%20Enable%20early%20boot%20animation%20start"&type=Commits)
+* [Revert "Quark: Accelerate boot by paralleling device enable"](https://github.com/search?q=Revert%20"Quark%3A%20Accelerate%20boot%20by%20paralleling%20device%20enable"&type=Commits)
+* [Revert "Quark: Wait for sf to init fully before starting hwcomposer"](https://github.com/search?q=Revert%20"Quark%3A%20Wait%20for%20sf%20to%20init%20fully%20before%20starting%20hwcomposer"&type=Commits)
+* [Revert "Quark: init.qcom add boot improves from shamu"](https://github.com/search?q=Revert%20"Quark%3A%20init.qcom%20add%20boot%20improves%20from%20shamu"&type=Commits)
+* [Revert "Quark: mount firmware in init.qcom and fix system recoveryonly"](https://github.com/search?q=Revert%20"Quark%3A%20mount%20firmware%20in%20init.qcom%20and%20fix%20system%20recoveryonly"&type=Commits)
+* [Revert "Quark: cleanup duplicated sepolicy"](https://github.com/search?q=Revert%20"Quark%3A%20cleanup%20duplicated%20sepolicy"&type=Commits)
 
 #### Device specific Changes of 07-03-2018 End.
 
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 07-03-2018:
+
+#### external/openssh/
+* [upstream: some magic for RSA-SHA2 checks](https://github.com/search?q=upstream%3A%20some%20magic%20for%20RSA-SHA2%20checks&type=Commits)
+* [depend](https://github.com/search?q=depend&type=Commits)
+* [upstream: some finesse to fix RSA-SHA2 certificate authentication](https://github.com/search?q=upstream%3A%20some%20finesse%20to%20fix%20RSA-SHA2%20certificate%20authentication&type=Commits)
+* [upstream: check correct variable; unbreak agent keys](https://github.com/search?q=upstream%3A%20check%20correct%20variable;%20unbreak%20agent%20keys&type=Commits)
+* [upstream: crank version number to 7.8; needed for new compat flag](https://github.com/search?q=upstream%3A%20crank%20version%20number%20to%207.8;%20needed%20for%20new%20compat%20flag&type=Commits)
+* [upstream: Improve strictness and control over RSA-SHA2 signature](https://github.com/search?q=upstream%3A%20Improve%20strictness%20and%20control%20over%20RSA-SHA2%20signature&type=Commits)
+* [upstream: allow sshd_config PermitUserEnvironment to accept a](https://github.com/search?q=upstream%3A%20allow%20sshd_config%20PermitUserEnvironment%20to%20accept%20a&type=Commits)
+* [upstream: Fix "WARNING: line 6 disappeared in /etc/moduli, giving up"](https://github.com/search?q=upstream%3A%20Fix%20"WARNING%3A%20line%206%20disappeared%20in%20/etc/moduli,%20giving%20up"&type=Commits)
+* [upstream: One ampersand is enough to backgroud an process. OpenBSD](https://github.com/search?q=upstream%3A%20One%20ampersand%20is%20enough%20to%20backgroud%20an%20process.%20OpenBSD&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
 * [SnapdragonCamera: Update the method for save warmstart AWB](https://github.com/search?q=SnapdragonCamera%3A%20Update%20the%20method%20for%20save%20warmstart%20AWB&type=Commits)
@@ -3223,15 +3684,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 07-02-2018 Start:
 
 #### Device/Quark/
-* [Quark: restart ril on boot complete](https://github.com/search?q=Quark%3A%20restart%20ril%20on%20boot%20complete&type=Commits)
-* [Quark: update WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY flag](https://github.com/search?q=Quark%3A%20update%20WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY%20flag&type=Commits)
-* [Quark: don't pin services](https://github.com/search?q=Quark%3A%20don%27t%20pin%20services&type=Commits)
-* [Revert "Quark: Enable early boot animation start"](https://github.com/search?q=Revert%20"Quark%3A%20Enable%20early%20boot%20animation%20start"&type=Commits)
-* [Revert "Quark: Accelerate boot by paralleling device enable"](https://github.com/search?q=Revert%20"Quark%3A%20Accelerate%20boot%20by%20paralleling%20device%20enable"&type=Commits)
-* [Revert "Quark: Wait for sf to init fully before starting hwcomposer"](https://github.com/search?q=Revert%20"Quark%3A%20Wait%20for%20sf%20to%20init%20fully%20before%20starting%20hwcomposer"&type=Commits)
-* [Revert "Quark: init.qcom add boot improves from shamu"](https://github.com/search?q=Revert%20"Quark%3A%20init.qcom%20add%20boot%20improves%20from%20shamu"&type=Commits)
-* [Revert "Quark: mount firmware in init.qcom and fix system recoveryonly"](https://github.com/search?q=Revert%20"Quark%3A%20mount%20firmware%20in%20init.qcom%20and%20fix%20system%20recoveryonly"&type=Commits)
-* [Revert "Quark: cleanup duplicated sepolicy"](https://github.com/search?q=Revert%20"Quark%3A%20cleanup%20duplicated%20sepolicy"&type=Commits)
 * [Revert " Quark: restart rild at boot complete"](https://github.com/search?q=Revert%20"%20Quark%3A%20restart%20rild%20at%20boot%20complete"&type=Commits)
 * [ Quark: restart rild at boot complete](https://github.com/search?q=%20Quark%3A%20restart%20rild%20at%20boot%20complete&type=Commits)
 * [Quark: cleanup duplicated sepolicy](https://github.com/search?q=Quark%3A%20cleanup%20duplicated%20sepolicy&type=Commits)
@@ -3265,6 +3717,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [linker: Don't involve shim in for_each_dt_needed](https://github.com/search?q=linker%3A%20Don%27t%20involve%20shim%20in%20for_each_dt_needed&type=Commits)
 * [linker: Ensure active matching pairs](https://github.com/search?q=linker%3A%20Ensure%20active%20matching%20pairs&type=Commits)
 
+#### device/qcom/sepolicy/
+* [Allow binderized keymaster HAL access to firmware files.](https://github.com/search?q=Allow%20binderized%20keymaster%20HAL%20access%20to%20firmware%20files.&type=Commits)
+
+#### external/openssh/
+* [Add implementation of getline.](https://github.com/search?q=Add%20implementation%20of%20getline.&type=Commits)
+
 #### external/selinux/
 * [libsepol/cil: Improve processing of context rules](https://github.com/search?q=libsepol/cil%3A%20Improve%20processing%20of%20context%20rules&type=Commits)
 
@@ -3275,6 +3733,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 07-01-2018
 ====================
+
+#### Device specific Changes of 07-01-2018 Start:
+
+#### Device/Quark/
+* [Revert "Quark: enable audit"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20audit"&type=Commits)
+* [Quark: add rr.mk and proper adptations for it](https://github.com/search?q=Quark%3A%20add%20rr.mk%20and%20proper%20adptations%20for%20it&type=Commits)
+
+#### Device specific Changes of 07-01-2018 End.
+
+***
 
 #### Resurrection Remix OS - Oreo source changes of 07-01-2018:
 
@@ -3310,10 +3778,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 06-30-2018 Start:
 
 #### Device/Quark/
-* [Revert "Quark: enable audit"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20audit"&type=Commits)
-* [Quark: add rr.mk and proper adptations for it](https://github.com/search?q=Quark%3A%20add%20rr.mk%20and%20proper%20adptations%20for%20it&type=Commits)
 * [Quark: manifest read media.omx](https://github.com/search?q=Quark%3A%20manifest%20read%20media.omx&type=Commits)
 * [Quark: reset recovery size](https://github.com/search?q=Quark%3A%20reset%20recovery%20size&type=Commits)
+* [Quark: cleanup duplicade fs in android_filesystem_config](https://github.com/search?q=Quark%3A%20cleanup%20duplicade%20fs%20in%20android_filesystem_config&type=Commits)
+* [Quark: update config.fs](https://github.com/search?q=Quark%3A%20update%20config.fs&type=Commits)
+* [Quark: update init qcom_diag to oem_2950](https://github.com/search?q=Quark%3A%20update%20init%20qcom_diag%20to%20oem_2950&type=Commits)
+* [Quark: move to config.fs fs generator](https://github.com/search?q=Quark%3A%20move%20to%20config.fs%20fs%20generator&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: update libmot_sensorlistener from athene](https://github.com/search?q=Quark%3A%20update%20libmot_sensorlistener%20from%20athene&type=Commits)
@@ -3323,9 +3793,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ***
 
 #### Resurrection Remix OS - Oreo source changes of 06-30-2018:
-
-#### device/rr/sepolicy/
-* [Revert "sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble"](https://github.com/search?q=Revert%20"sepolicy%3A%20qcom%3A%20Allow%20nfc%20to%20read%20and%20execute%20files%20in%20/vendor%20on%20full%20treble"&type=Commits)
 
 #### frameworks/base/
 * [NetworkManagement : Add ability to restrict app data/wifi usage](https://github.com/search?q=NetworkManagement%20%3A%20Add%20ability%20to%20restrict%20app%20data/wifi%20usage&type=Commits)
@@ -3342,10 +3809,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 06-29-2018 Start:
 
 #### Device/Quark/
-* [Quark: cleanup duplicade fs in android_filesystem_config](https://github.com/search?q=Quark%3A%20cleanup%20duplicade%20fs%20in%20android_filesystem_config&type=Commits)
-* [Quark: update config.fs](https://github.com/search?q=Quark%3A%20update%20config.fs&type=Commits)
-* [Quark: update init qcom_diag to oem_2950](https://github.com/search?q=Quark%3A%20update%20init%20qcom_diag%20to%20oem_2950&type=Commits)
-* [Quark: move to config.fs fs generator](https://github.com/search?q=Quark%3A%20move%20to%20config.fs%20fs%20generator&type=Commits)
 * [Quark: Update audio/audio_effects.xml using aeffects-conf2xml](https://github.com/search?q=Quark%3A%20Update%20audio/audio_effects.xml%20using%20aeffects-conf2xml&type=Commits)
 * [Quark: disable davik performance props](https://github.com/search?q=Quark%3A%20disable%20davik%20performance%20props&type=Commits)
 * [Quark: use lzma ramdisk for recovery](https://github.com/search?q=Quark%3A%20use%20lzma%20ramdisk%20for%20recovery&type=Commits)
@@ -3356,6 +3819,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: re enable gps](https://github.com/search?q=Quark%3A%20re%20enable%20gps&type=Commits)
 * [Quark: use xml audio](https://github.com/search?q=Quark%3A%20use%20xml%20audio&type=Commits)
 * [Quark: remove rild from init](https://github.com/search?q=Quark%3A%20remove%20rild%20from%20init&type=Commits)
+* [Quark: add warning about recovery size](https://github.com/search?q=Quark%3A%20add%20warning%20about%20recovery%20size&type=Commits)
+* [Quark: boardconfig removed not used ril flags](https://github.com/search?q=Quark%3A%20boardconfig%20removed%20not%20used%20ril%20flags&type=Commits)
+* [Quark: enable audit](https://github.com/search?q=Quark%3A%20enable%20audit&type=Commits)
+* [Quark: add shim for wifi_qsap_set_tx_power](https://github.com/search?q=Quark%3A%20add%20shim%20for%20wifi_qsap_set_tx_power&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: update drm lib](https://github.com/search?q=Quark%3A%20update%20drm%20lib&type=Commits)
@@ -3394,10 +3861,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 06-28-2018 Start:
 
 #### Device/Quark/
-* [Quark: add warning about recovery size](https://github.com/search?q=Quark%3A%20add%20warning%20about%20recovery%20size&type=Commits)
-* [Quark: boardconfig removed not used ril flags](https://github.com/search?q=Quark%3A%20boardconfig%20removed%20not%20used%20ril%20flags&type=Commits)
-* [Quark: enable audit](https://github.com/search?q=Quark%3A%20enable%20audit&type=Commits)
-* [Quark: add shim for wifi_qsap_set_tx_power](https://github.com/search?q=Quark%3A%20add%20shim%20for%20wifi_qsap_set_tx_power&type=Commits)
 * [Quark: disabel all the shims](https://github.com/search?q=Quark%3A%20disabel%20all%20the%20shims&type=Commits)
 * [Revert "apq8084-common: Import sensors MultiHAL"](https://github.com/search?q=Revert%20"apq8084-common%3A%20Import%20sensors%20MultiHAL"&type=Commits)
 * [Revert "apq8084-common: sensors: Adjust for our usecase"](https://github.com/search?q=Revert%20"apq8084-common%3A%20sensors%3A%20Adjust%20for%20our%20usecase"&type=Commits)
@@ -3566,49 +4029,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: Make sure not to override earlier files added to DEVICE_MANIFEST_FILE](https://github.com/search?q=Quark%3A%20Make%20sure%20not%20to%20override%20earlier%20files%20added%20to%20DEVICE_MANIFEST_FILE&type=Commits)
 * [Quark: Use lineage vibrator HAL](https://github.com/search?q=Quark%3A%20Use%20lineage%20vibrator%20HAL&type=Commits)
 * [Quark: Enable boot and system server dex-preopt](https://github.com/search?q=Quark%3A%20Enable%20boot%20and%20system%20server%20dex-preopt&type=Commits)
-
-#### Vendor/Quark/
-* [Revert "Quark: move all bin to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20bin%20to%20vendor"&type=Commits)
-* [Revert "Quark: use bacon libqc-opt"](https://github.com/search?q=Revert%20"Quark%3A%20use%20bacon%20libqc-opt"&type=Commits)
-* [Quark: move all bin to vendor](https://github.com/search?q=Quark%3A%20move%20all%20bin%20to%20vendor&type=Commits)
-* [Quark: use bacon libqc-opt](https://github.com/search?q=Quark%3A%20use%20bacon%20libqc-opt&type=Commits)
-* [Quark: sed thermal engine system/etc -> vendor/etc](https://github.com/search?q=Quark%3A%20sed%20thermal%20engine%20system/etc%20->%20vendor/etc&type=Commits)
-
-#### Device specific Changes of 06-27-2018 End.
-
-***
-
-#### Resurrection Remix OS - Oreo source changes of 06-27-2018:
-
-#### external/toybox/
-* [toybox: Add install to symlinks](https://github.com/search?q=toybox%3A%20Add%20install%20to%20symlinks&type=Commits)
-
-#### frameworks/opt/telephony/
-* [Proper supplementary service notification handling (2/5).](https://github.com/search?q=Proper%20supplementary%20service%20notification%20handling%20%282/5%29.&type=Commits)
-
-#### packages/apps/SnapdragonCamera2/
-* [SnapdragonCamera: Add 480fps in app menu for video](https://github.com/search?q=SnapdragonCamera%3A%20Add%20480fps%20in%20app%20menu%20for%20video&type=Commits)
-* [SnapdragonCamera: Modify the previewSize](https://github.com/search?q=SnapdragonCamera%3A%20Modify%20the%20previewSize&type=Commits)
-* [SnapdragonCamera: Complete the function of AWB Gains and CCT](https://github.com/search?q=SnapdragonCamera%3A%20Complete%20the%20function%20of%20AWB%20Gains%20and%20CCT&type=Commits)
-* [SnapdragonCamera:Fix unbind error](https://github.com/search?q=SnapdragonCamera%3AFix%20unbind%20error&type=Commits)
-
-#### packages/apps/UnifiedEmail/
-* [Make navigation drawer extend over status bar.](https://github.com/search?q=Make%20navigation%20drawer%20extend%20over%20status%20bar.&type=Commits)
-
-#### system/core/
-* [camera: Add L-compatible camera feature enums](https://github.com/search?q=camera%3A%20Add%20L-compatible%20camera%20feature%20enums&type=Commits)
-
-#### vendor/nxp/opensource/external/libnfc-nci/
-* [Build nfc_nci.nqx.default with BOARD_VNDK_VERSION](https://github.com/search?q=Build%20nfc_nci.nqx.default%20with%20BOARD_VNDK_VERSION&type=Commits)
-
-#### Resurrection Remix OS - Oreo source changes of 06-27-2018 End.
-
-06-26-2018
-====================
-
-#### Device specific Changes of 06-26-2018 Start:
-
-#### Device/Quark/
 * [Quark: add symlinks to ACBD vendor files](https://github.com/search?q=Quark%3A%20add%20symlinks%20to%20ACBD%20vendor%20files&type=Commits)
 * [Quark: create symlinks for libs and binaries, fix symlink creation](https://github.com/search?q=Quark%3A%20create%20symlinks%20for%20libs%20and%20binaries,%20fix%20symlink%20creation&type=Commits)
 * [Quark: Add OMX HAL to the manifest](https://github.com/search?q=Quark%3A%20Add%20OMX%20HAL%20to%20the%20manifest&type=Commits)
@@ -3654,11 +4074,24 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Quark: Allow vendor init to override props](https://github.com/search?q=Quark%3A%20Allow%20vendor%20init%20to%20override%20props&type=Commits)
 * [Quark: libinit_quark to libinit_apq8084](https://github.com/search?q=Quark%3A%20libinit_quark%20to%20libinit_apq8084&type=Commits)
 
-#### Device specific Changes of 06-26-2018 End.
+#### Vendor/Quark/
+* [Revert "Quark: move all bin to vendor"](https://github.com/search?q=Revert%20"Quark%3A%20move%20all%20bin%20to%20vendor"&type=Commits)
+* [Revert "Quark: use bacon libqc-opt"](https://github.com/search?q=Revert%20"Quark%3A%20use%20bacon%20libqc-opt"&type=Commits)
+* [Quark: move all bin to vendor](https://github.com/search?q=Quark%3A%20move%20all%20bin%20to%20vendor&type=Commits)
+* [Quark: use bacon libqc-opt](https://github.com/search?q=Quark%3A%20use%20bacon%20libqc-opt&type=Commits)
+* [Quark: sed thermal engine system/etc -> vendor/etc](https://github.com/search?q=Quark%3A%20sed%20thermal%20engine%20system/etc%20->%20vendor/etc&type=Commits)
+
+#### Device specific Changes of 06-27-2018 End.
 
 ***
 
-#### Resurrection Remix OS - Oreo source changes of 06-26-2018:
+#### Resurrection Remix OS - Oreo source changes of 06-27-2018:
+
+#### external/toybox/
+* [toybox: Add install to symlinks](https://github.com/search?q=toybox%3A%20Add%20install%20to%20symlinks&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Proper supplementary service notification handling (2/5).](https://github.com/search?q=Proper%20supplementary%20service%20notification%20handling%20%282/5%29.&type=Commits)
 
 #### hardware/qcom/audio-caf/msm8998/
 * [hal: Fix VNDK_VERSION=current build for a2dp extension](https://github.com/search?q=hal%3A%20Fix%20VNDK_VERSION=current%20build%20for%20a2dp%20extension&type=Commits)
@@ -3667,6 +4100,36 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### hardware/ril-caf/
 * [Make RIL command headers overlayable by devices.](https://github.com/search?q=Make%20RIL%20command%20headers%20overlayable%20by%20devices.&type=Commits)
 * [libril: Bounds check s_commands](https://github.com/search?q=libril%3A%20Bounds%20check%20s_commands&type=Commits)
+
+#### packages/apps/SnapdragonCamera2/
+* [SnapdragonCamera: Add 480fps in app menu for video](https://github.com/search?q=SnapdragonCamera%3A%20Add%20480fps%20in%20app%20menu%20for%20video&type=Commits)
+* [SnapdragonCamera: Modify the previewSize](https://github.com/search?q=SnapdragonCamera%3A%20Modify%20the%20previewSize&type=Commits)
+* [SnapdragonCamera: Complete the function of AWB Gains and CCT](https://github.com/search?q=SnapdragonCamera%3A%20Complete%20the%20function%20of%20AWB%20Gains%20and%20CCT&type=Commits)
+* [SnapdragonCamera:Fix unbind error](https://github.com/search?q=SnapdragonCamera%3AFix%20unbind%20error&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Make navigation drawer extend over status bar.](https://github.com/search?q=Make%20navigation%20drawer%20extend%20over%20status%20bar.&type=Commits)
+
+#### system/core/
+* [camera: Add L-compatible camera feature enums](https://github.com/search?q=camera%3A%20Add%20L-compatible%20camera%20feature%20enums&type=Commits)
+
+#### vendor/nxp/opensource/external/libnfc-nci/
+* [Build nfc_nci.nqx.default with BOARD_VNDK_VERSION](https://github.com/search?q=Build%20nfc_nci.nqx.default%20with%20BOARD_VNDK_VERSION&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 06-27-2018 End.
+
+06-26-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 06-26-2018:
+
+#### device/rr/sepolicy/
+* [Revert "sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble"](https://github.com/search?q=Revert%20"sepolicy%3A%20qcom%3A%20Allow%20nfc%20to%20read%20and%20execute%20files%20in%20/vendor%20on%20full%20treble"&type=Commits)
+
+#### external/openssh/
+* [upstream: whitespace](https://github.com/search?q=upstream%3A%20whitespace&type=Commits)
+* [upstream: fix NULL dereference in open_listen_match_tcpip()](https://github.com/search?q=upstream%3A%20fix%20NULL%20dereference%20in%20open_listen_match_tcpip%28%29&type=Commits)
+* [upstream: spelling;](https://github.com/search?q=upstream%3A%20spelling;&type=Commits)
 
 #### packages/apps/Email/
 * [email: support for auto-sync multiple IMAP folders](https://github.com/search?q=email%3A%20support%20for%20auto-sync%20multiple%20IMAP%20folders&type=Commits)
@@ -3691,6 +4154,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### frameworks/opt/telephony/
 * [Revert "Don't assume 3GPP as active app on CDMA with LTE device"](https://github.com/search?q=Revert%20"Don%27t%20assume%203GPP%20as%20active%20app%20on%20CDMA%20with%20LTE%20device"&type=Commits)
 
+#### packages/apps/Snap/
+* [Snap: turn developer category title into a translatable string](https://github.com/search?q=Snap%3A%20turn%20developer%20category%20title%20into%20a%20translatable%20string&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: allow update_engine to bypass neverallows for backuptool](https://github.com/search?q=sepolicy%3A%20allow%20update_engine%20to%20bypass%20neverallows%20for%20backuptool&type=Commits)
+
 #### Resurrection Remix OS - Oreo source changes of 06-25-2018 End.
 
 06-24-2018
@@ -3700,16 +4169,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### android/
 * [manifest: update rr remote](https://github.com/search?q=manifest%3A%20update%20rr%20remote&type=Commits)
 * [manifest: set review URL](https://github.com/search?q=manifest%3A%20set%20review%20URL&type=Commits)
+* [snippets: rr.xml: cleanup](https://github.com/search?q=snippets%3A%20rr.xml%3A%20cleanup&type=Commits)
 
 #### device/qcom/sepolicy/
 * [sepolicy: Allow perf HAL to set freq props](https://github.com/search?q=sepolicy%3A%20Allow%20perf%20HAL%20to%20set%20freq%20props&type=Commits)
 * [legacy: allow gnss to create dir for xtra data](https://github.com/search?q=legacy%3A%20allow%20gnss%20to%20create%20dir%20for%20xtra%20data&type=Commits)
 * [legacy: Add rules for init.qcom.bt.sh](https://github.com/search?q=legacy%3A%20Add%20rules%20for%20init.qcom.bt.sh&type=Commits)
-
-#### device/rr/sepolicy/
-* [Add pocket judge selinux policy](https://github.com/search?q=Add%20pocket%20judge%20selinux%20policy&type=Commits)
-* [sepolicy: Add policy for edgegestureservice](https://github.com/search?q=sepolicy%3A%20Add%20policy%20for%20edgegestureservice&type=Commits)
-* [sepolicy: update for rr](https://github.com/search?q=sepolicy%3A%20update%20for%20rr&type=Commits)
 
 #### frameworks/base/
 * [frameworks: base: Port password retention feature](https://github.com/search?q=frameworks%3A%20base%3A%20Port%20password%20retention%20feature&type=Commits)
@@ -3720,12 +4185,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### packages/apps/Settings/
 * [[1/3] Settings: per-app cellular data and wifi restrictions](https://github.com/search?q=[1/3]%20Settings%3A%20per-app%20cellular%20data%20and%20wifi%20restrictions&type=Commits)
-
-#### packages/apps/Snap/
-* [Snap: turn developer category title into a translatable string](https://github.com/search?q=Snap%3A%20turn%20developer%20category%20title%20into%20a%20translatable%20string&type=Commits)
-
-#### system/sepolicy/
-* [sepolicy: allow update_engine to bypass neverallows for backuptool](https://github.com/search?q=sepolicy%3A%20allow%20update_engine%20to%20bypass%20neverallows%20for%20backuptool&type=Commits)
 
 #### vendor/rr/
 * [rr: update backuptool checks](https://github.com/search?q=rr%3A%20update%20backuptool%20checks&type=Commits)
@@ -3741,16 +4200,37 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 06-23-2018:
-#### android/
-* [snippets: rr.xml: cleanup](https://github.com/search?q=snippets%3A%20rr.xml%3A%20cleanup&type=Commits)
+
+#### bootable/recovery/
+* [update_verifier: skip verity to determine successful on lineage builds](https://github.com/search?q=update_verifier%3A%20skip%20verity%20to%20determine%20successful%20on%20lineage%20builds&type=Commits)
+
+#### device/qcom/sepolicy/
+* [sepolicy: Allow perf HAL to set freq props](https://github.com/search?q=sepolicy%3A%20Allow%20perf%20HAL%20to%20set%20freq%20props&type=Commits)
+
+#### device/rr/sepolicy/
+* [sepolicy: add rules for updater and update_engine](https://github.com/search?q=sepolicy%3A%20add%20rules%20for%20updater%20and%20update_engine&type=Commits)
+* [common: add update_engine policies](https://github.com/search?q=common%3A%20add%20update_engine%20policies&type=Commits)
 
 #### lineage-sdk/
 * [lineage-sdk: Add vendor platform signature overlay](https://github.com/search?q=lineage-sdk%3A%20Add%20vendor%20platform%20signature%20overlay&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: allow update_engine to bypass neverallows for backuptool](https://github.com/search?q=sepolicy%3A%20allow%20update_engine%20to%20bypass%20neverallows%20for%20backuptool&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 06-23-2018 End.
 
 06-22-2018
 ====================
+
+#### Device specific Changes of 06-22-2018 Start:
+
+#### Vendor/Quark/
+* [Quark: update ims frameworks and app](https://github.com/search?q=Quark%3A%20update%20ims%20frameworks%20and%20app&type=Commits)
+* [Revert "Quark: update ims libs"](https://github.com/search?q=Revert%20"Quark%3A%20update%20ims%20libs"&type=Commits)
+
+#### Device specific Changes of 06-22-2018 End.
+
+***
 
 #### Resurrection Remix OS - Oreo source changes of 06-22-2018:
 
@@ -3758,7 +4238,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [bionic: Sort and cache hosts file data for fast lookup](https://github.com/search?q=bionic%3A%20Sort%20and%20cache%20hosts%20file%20data%20for%20fast%20lookup&type=Commits)
 
 #### bootable/recovery/
-* [update_verifier: skip verity to determine successful on lineage builds](https://github.com/search?q=update_verifier%3A%20skip%20verity%20to%20determine%20successful%20on%20lineage%20builds&type=Commits)
 * [Add runtime checks for A/B vs traditional updates](https://github.com/search?q=Add%20runtime%20checks%20for%20A/B%20vs%20traditional%20updates&type=Commits)
 * [recovery: Scale logo image if necessary](https://github.com/search?q=recovery%3A%20Scale%20logo%20image%20if%20necessary&type=Commits)
 * [recovery: minui: Implement image scaling](https://github.com/search?q=recovery%3A%20minui%3A%20Implement%20image%20scaling&type=Commits)
@@ -3767,8 +4246,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [recovery: Rework sideload threading code for flexibility](https://github.com/search?q=recovery%3A%20Rework%20sideload%20threading%20code%20for%20flexibility&type=Commits)
 
 #### device/rr/sepolicy/
-* [sepolicy: add rules for updater and update_engine](https://github.com/search?q=sepolicy%3A%20add%20rules%20for%20updater%20and%20update_engine&type=Commits)
-* [common: add update_engine policies](https://github.com/search?q=common%3A%20add%20update_engine%20policies&type=Commits)
 * [sepolicy: Label aw2013 HIDL light HAL](https://github.com/search?q=sepolicy%3A%20Label%20aw2013%20HIDL%20light%20HAL&type=Commits)
 
 #### hardware/lineage/interfaces/
@@ -3810,23 +4287,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [email: fix back button](https://github.com/search?q=email%3A%20fix%20back%20button&type=Commits)
 * [unified email: prefer account display name to sender name](https://github.com/search?q=unified%20email%3A%20prefer%20account%20display%20name%20to%20sender%20name&type=Commits)
 
-#### system/sepolicy/
-* [sepolicy: allow update_engine to bypass neverallows for backuptool](https://github.com/search?q=sepolicy%3A%20allow%20update_engine%20to%20bypass%20neverallows%20for%20backuptool&type=Commits)
-
 #### Resurrection Remix OS - Oreo source changes of 06-22-2018 End.
 
 06-21-2018
 ====================
-
-#### Device specific Changes of 06-21-2018 Start:
-
-#### Vendor/Quark/
-* [Quark: update ims frameworks and app](https://github.com/search?q=Quark%3A%20update%20ims%20frameworks%20and%20app&type=Commits)
-* [Revert "Quark: update ims libs"](https://github.com/search?q=Revert%20"Quark%3A%20update%20ims%20libs"&type=Commits)
-
-#### Device specific Changes of 06-21-2018 End.
-
-***
 
 #### Resurrection Remix OS - Oreo source changes of 06-21-2018:
 
@@ -3853,9 +4317,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### bootable/recovery/
 * [recovery: Do not show emulated when data is encrypted](https://github.com/search?q=recovery%3A%20Do%20not%20show%20emulated%20when%20data%20is%20encrypted&type=Commits)
 
+#### external/openssh/
+* [upstream: test PermitListen with bare port numbers](https://github.com/search?q=upstream%3A%20test%20PermitListen%20with%20bare%20port%20numbers&type=Commits)
+* [upstream: allow bare port numbers to appear in PermitListen directives,](https://github.com/search?q=upstream%3A%20allow%20bare%20port%20numbers%20to%20appear%20in%20PermitListen%20directives,&type=Commits)
+
 #### frameworks/base/
 * [Merge pull request #236 from alex9yust/oreo](https://github.com/search?q=Merge%20pull%20request%20%23236%20from%20alex9yust/oreo&type=Commits)
 * [SyetmUI: fix the behavior of QS with isDualTarget=true](https://github.com/search?q=SyetmUI%3A%20fix%20the%20behavior%20of%20QS%20with%20isDualTarget=true&type=Commits)
+
+#### hardware/qcom/display-caf/sdm845/
+* [SDM: Change log category to avoid excessive logging](https://github.com/search?q=SDM%3A%20Change%20log%20category%20to%20avoid%20excessive%20logging&type=Commits)
 
 #### hardware/qcom/fm/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -3891,15 +4362,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-18-2018:
 
+#### device/qcom/sepolicy/
+* [legacy: allow gnss to create dir for xtra data](https://github.com/search?q=legacy%3A%20allow%20gnss%20to%20create%20dir%20for%20xtra%20data&type=Commits)
+* [legacy: Add rules for init.qcom.bt.sh](https://github.com/search?q=legacy%3A%20Add%20rules%20for%20init.qcom.bt.sh&type=Commits)
+
 #### frameworks/base/
 * [Merge pull request #235 from alex9yust/oreo](https://github.com/search?q=Merge%20pull%20request%20%23235%20from%20alex9yust/oreo&type=Commits)
 * [start ScreenStateService after reboot It is necessary for the Suspend Actions from Miscellaneous settings.](https://github.com/search?q=start%20ScreenStateService%20after%20reboot%20It%20is%20necessary%20for%20the%20Suspend%20Actions%20from%20Miscellaneous%20settings.&type=Commits)
 
 #### hardware/lineage/interfaces/
 * [livedisplay: Fix uninitialized default PA](https://github.com/search?q=livedisplay%3A%20Fix%20uninitialized%20default%20PA&type=Commits)
-
-#### hardware/qcom/display-caf/sdm845/
-* [SDM: Change log category to avoid excessive logging](https://github.com/search?q=SDM%3A%20Change%20log%20category%20to%20avoid%20excessive%20logging&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 06-18-2018 End.
 
@@ -3986,6 +4458,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-15-2018:
 
+#### external/openssh/
+* [upstream: invalidate supplemental group cache used by](https://github.com/search?q=upstream%3A%20invalidate%20supplemental%20group%20cache%20used%20by&type=Commits)
+
 #### hardware/lineage/interfaces/
 * [livedisplay: Use RAII semantics for ColorBackend initialization](https://github.com/search?q=livedisplay%3A%20Use%20RAII%20semantics%20for%20ColorBackend%20initialization&type=Commits)
 * [livedisplay: Move initialization of mActiveModeId to constructor](https://github.com/search?q=livedisplay%3A%20Move%20initialization%20of%20mActiveModeId%20to%20constructor&type=Commits)
@@ -4047,6 +4522,16 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 06-12-2018
 ====================
+
+#### Device specific Changes of 06-12-2018 Start:
+
+#### Device/Quark/
+* [Quark: add is services to sepolicy/file_contexts](https://github.com/search?q=Quark%3A%20add%20is%20services%20to%20sepolicy/file_contexts&type=Commits)
+* [Quark: init add net_raw net_admin for ims services](https://github.com/search?q=Quark%3A%20init%20add%20net_raw%20net_admin%20for%20ims%20services&type=Commits)
+
+#### Device specific Changes of 06-12-2018 End.
+
+***
 
 #### Resurrection Remix OS - Oreo source changes of 06-12-2018:
 
@@ -4139,16 +4624,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 06-11-2018
 ====================
 
-#### Device specific Changes of 06-11-2018 Start:
-
-#### Device/Quark/
-* [Quark: add is services to sepolicy/file_contexts](https://github.com/search?q=Quark%3A%20add%20is%20services%20to%20sepolicy/file_contexts&type=Commits)
-* [Quark: init add net_raw net_admin for ims services](https://github.com/search?q=Quark%3A%20init%20add%20net_raw%20net_admin%20for%20ims%20services&type=Commits)
-
-#### Device specific Changes of 06-11-2018 End.
-
-***
-
 #### Resurrection Remix OS - Oreo source changes of 06-11-2018:
 #### android/
 * [manifest: android-8.1.0_r26 -> android-8.1.0_r30](https://github.com/search?q=manifest%3A%20android-8.1.0_r26%20->%20android-8.1.0_r30&type=Commits)
@@ -4164,6 +4639,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [build: Clean up makefile hook inclusions](https://github.com/search?q=build%3A%20Clean%20up%20makefile%20hook%20inclusions&type=Commits)
 * [build: Include LineageOS specific properties in build.prop](https://github.com/search?q=build%3A%20Include%20LineageOS%20specific%20properties%20in%20build.prop&type=Commits)
 * [Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/build into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r30%27%20of%20https%3A//android.googlesource.com/platform/build%20into%20HEAD&type=Commits)
+
+#### external/openssh/
+* [upstream: unbreak SendEnv; patch from tb@](https://github.com/search?q=upstream%3A%20unbreak%20SendEnv;%20patch%20from%20tb%40&type=Commits)
+* [upstream: sort previous;](https://github.com/search?q=upstream%3A%20sort%20previous;&type=Commits)
+* [upstream: slightly better wording re handing of $TERM, from Jakub](https://github.com/search?q=upstream%3A%20slightly%20better%20wording%20re%20handing%20of%20$TERM,%20from%20Jakub&type=Commits)
 
 #### frameworks/av/
 * [Merge tag 'android-8.1.0_r30' into lineage-15.1](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r30%27%20into%20lineage-15.1&type=Commits)
@@ -4284,6 +4764,14 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [linker: Provide soinfo path of the shimmed binary](https://github.com/search?q=linker%3A%20Provide%20soinfo%20path%20of%20the%20shimmed%20binary&type=Commits)
 * [Revert "linker: allow the linker to shim executables"](https://github.com/search?q=Revert%20"linker%3A%20allow%20the%20linker%20to%20shim%20executables"&type=Commits)
 
+#### external/openssh/
+* [upstream: add a SetEnv directive for sshd_config to allow an](https://github.com/search?q=upstream%3A%20add%20a%20SetEnv%20directive%20for%20sshd_config%20to%20allow%20an&type=Commits)
+* [upstream: add a SetEnv directive to ssh_config that allows setting](https://github.com/search?q=upstream%3A%20add%20a%20SetEnv%20directive%20to%20ssh_config%20that%20allows%20setting&type=Commits)
+* [upstream: reorder child environment preparation so that variables](https://github.com/search?q=upstream%3A%20reorder%20child%20environment%20preparation%20so%20that%20variables&type=Commits)
+* [upstream: fix incorrect expansion of %i in](https://github.com/search?q=upstream%3A%20fix%20incorrect%20expansion%20of%20%i%20in&type=Commits)
+* [upstream: fix some over-long lines and __func__ up some debug](https://github.com/search?q=upstream%3A%20fix%20some%20over-long%20lines%20and%20__func__%20up%20some%20debug&type=Commits)
+* [upstream: tweak previous;](https://github.com/search?q=upstream%3A%20tweak%20previous;&type=Commits)
+
 #### hardware/qcom/power/
 * [power: Remove powerhintparser](https://github.com/search?q=power%3A%20Remove%20powerhintparser&type=Commits)
 * [power: msm8974: Build with with BOARD_VNDK_VERSION](https://github.com/search?q=power%3A%20msm8974%3A%20Build%20with%20with%20BOARD_VNDK_VERSION&type=Commits)
@@ -4305,6 +4793,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-08-2018:
 
+#### external/openssh/
+* [Remove ability to override $LD.](https://github.com/search?q=Remove%20ability%20to%20override%20$LD.&type=Commits)
+* [Better detection of unsupported compiler options.](https://github.com/search?q=Better%20detection%20of%20unsupported%20compiler%20options.&type=Commits)
+* [upstream: test the correct configuration option name](https://github.com/search?q=upstream%3A%20test%20the%20correct%20configuration%20option%20name&type=Commits)
+
 #### hardware/lineage/interfaces/
 * [livedisplay: Remove unused using statements](https://github.com/search?q=livedisplay%3A%20Remove%20unused%20using%20statements&type=Commits)
 * [livedisplay: Move LegacyMMController inclusion to impl](https://github.com/search?q=livedisplay%3A%20Move%20LegacyMMController%20inclusion%20to%20impl&type=Commits)
@@ -4318,6 +4811,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### lineage-sdk/
 * [Revert "lineage-sdk: Switch back to AOSP TwilightService"](https://github.com/search?q=Revert%20"lineage-sdk%3A%20Switch%20back%20to%20AOSP%20TwilightService"&type=Commits)
 * [Add led capability LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS](https://github.com/search?q=Add%20led%20capability%20LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS&type=Commits)
+
+#### packages/apps/Settings/
+* [Add on7xelte to oficial (#975)](https://github.com/search?q=Add%20on7xelte%20to%20oficial%20%28%23975%29&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
 * [Fix FC of external SD Card path null](https://github.com/search?q=Fix%20FC%20of%20external%20SD%20Card%20path%20null&type=Commits)
@@ -4333,11 +4829,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 06-07-2018:
 
+#### external/openssh/
+* [upstream: some permitlisten fixes from markus@ that I missed in my](https://github.com/search?q=upstream%3A%20some%20permitlisten%20fixes%20from%20markus%40%20that%20I%20missed%20in%20my&type=Commits)
+* [upstream: permitlisten/PermitListen unit test from Markus](https://github.com/search?q=upstream%3A%20permitlisten/PermitListen%20unit%20test%20from%20Markus&type=Commits)
+* [upstream: fix regression caused by recent permitlisten option commit:](https://github.com/search?q=upstream%3A%20fix%20regression%20caused%20by%20recent%20permitlisten%20option%20commit%3A&type=Commits)
+* [upstream: switch config file parsing to getline(3) as this avoids](https://github.com/search?q=upstream%3A%20switch%20config%20file%20parsing%20to%20getline%283%29%20as%20this%20avoids&type=Commits)
+* [upstream: regress test for PermitOpen](https://github.com/search?q=upstream%3A%20regress%20test%20for%20PermitOpen&type=Commits)
+* [upstream: man bits for permitlisten authorized_keys option](https://github.com/search?q=upstream%3A%20man%20bits%20for%20permitlisten%20authorized_keys%20option&type=Commits)
+* [upstream: man bits for PermitListen](https://github.com/search?q=upstream%3A%20man%20bits%20for%20PermitListen&type=Commits)
+* [upstream: permitlisten option for authorized_keys; ok markus@](https://github.com/search?q=upstream%3A%20permitlisten%20option%20for%20authorized_keys;%20ok%20markus%40&type=Commits)
+* [upstream: Add a PermitListen directive to control which server-side](https://github.com/search?q=upstream%3A%20Add%20a%20PermitListen%20directive%20to%20control%20which%20server-side&type=Commits)
+
 #### hardware/qcom/audio-caf/msm8916/
 * [8916_64 : Disabled sound trigger](https://github.com/search?q=8916_64%20%3A%20Disabled%20sound%20trigger&type=Commits)
 
 #### packages/apps/Settings/
-* [Add on7xelte to oficial (#975)](https://github.com/search?q=Add%20on7xelte%20to%20oficial%20%28%23975%29&type=Commits)
 * [Add Asus Zenfone Max Pro M1 (X00TD) (#974)](https://github.com/search?q=Add%20Asus%20Zenfone%20Max%20Pro%20M1%20%28X00TD%29%20%28%23974%29&type=Commits)
 
 #### packages/apps/SnapdragonCamera2/
@@ -4350,6 +4856,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 06-06-2018:
+
+#### external/openssh/
+* [Use ssh-keygen -A to generate missing host keys.](https://github.com/search?q=Use%20ssh-keygen%20-A%20to%20generate%20missing%20host%20keys.&type=Commits)
 
 #### frameworks/base/
 * [Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/frameworks/base into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r30%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20oreo&type=Commits)
@@ -4408,6 +4917,12 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 06-04-2018:
+
+#### external/openssh/
+* [upstream: add missing punctuation after %i in ssh_config.5, and](https://github.com/search?q=upstream%3A%20add%20missing%20punctuation%20after%20%i%20in%20ssh_config.5,%20and&type=Commits)
+* [upstream: oops - further adjustment to text neccessary;](https://github.com/search?q=upstream%3A%20oops%20-%20further%20adjustment%20to%20text%20neccessary;&type=Commits)
+* [upstream: %U needs to be escaped; tweak text;](https://github.com/search?q=upstream%3A%20%U%20needs%20to%20be%20escaped;%20tweak%20text;&type=Commits)
+* [upstream: Apply umask to all incoming files and directories not](https://github.com/search?q=upstream%3A%20Apply%20umask%20to%20all%20incoming%20files%20and%20directories%20not&type=Commits)
 
 #### hardware/qcom/audio-caf/sdm845/
 * [audio: hal: Update platform file](https://github.com/search?q=audio%3A%20hal%3A%20Update%20platform%20file&type=Commits)

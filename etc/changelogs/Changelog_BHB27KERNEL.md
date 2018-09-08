@@ -3,6 +3,54 @@
 BHB27KERNEL source Changelog:
 ============================================================
 
+09-08-2018
+====================
+
+* [l2tp: initialise session's refcount before making it reachable](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20initialise%20session%27s%20refcount%20before%20making%20it%20reachable&type=Commits)
+* [ASoC: msm: qdspv2: initialize variables before use](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdspv2%3A%20initialize%20variables%20before%20use&type=Commits)
+* [ASoC: msm: qdspv2: add spin lock to protect ac](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdspv2%3A%20add%20spin%20lock%20to%20protect%20ac&type=Commits)
+* [qcacld-2.0: Fix UAF in WLAN HDD](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20UAF%20in%20WLAN%20HDD&type=Commits)
+* [qcacld-2.0: Fix information leak issue during memcpy](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20information%20leak%20issue%20during%20memcpy&type=Commits)
+* [BACKPORT: l2tp: fix duplicate session creation](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20l2tp%3A%20fix%20duplicate%20session%20creation&type=Commits)
+* [BACKPORT: l2tp: fix race in l2tp_recv_common()](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20l2tp%3A%20fix%20race%20in%20l2tp_recv_common%28%29&type=Commits)
+* [qcacld-2.0: Fix UAF in the function wlan_hdd_execute_remain_on_channel](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20UAF%20in%20the%20function%20wlan_hdd_execute_remain_on_channel&type=Commits)
+* [qcacld-2.0: Resolve possible OOB while posting SET PASSPOINT WMA event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Resolve%20possible%20OOB%20while%20posting%20SET%20PASSPOINT%20WMA%20event&type=Commits)
+* [qcacld-2.0: Fix OOB write in wma_passpoint_match_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_passpoint_match_event_handler&type=Commits)
+* [msm: ipa: fix bug in routing table deletion](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ipa%3A%20fix%20bug%20in%20routing%20table%20deletion&type=Commits)
+* [netfilter: ebtables: fix erroneous reject of last rule](https://github.com/bhb27/BHB27Kernel/search?q=netfilter%3A%20ebtables%3A%20fix%20erroneous%20reject%20of%20last%20rule&type=Commits)
+* [ANDROID: HID: debug: check length in hid_debug_events_read() before copy_to_user()](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20HID%3A%20debug%3A%20check%20length%20in%20hid_debug_events_read%28%29%20before%20copy_to_user%28%29&type=Commits)
+* [usb: dwc3: dbm: Fix double free in msm_dbm_probe](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20dwc3%3A%20dbm%3A%20Fix%20double%20free%20in%20msm_dbm_probe&type=Commits)
+
+***
+
+09-07-2018
+====================
+
+* [qcacld-2.0: update WCNSS_qcom_cfg](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20update%20WCNSS_qcom_cfg&type=Commits)
+
+***
+
+09-04-2018
+====================
+
+* [qcacld-2.0: Possible buffer overflow in wma_stats_ext_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20buffer%20overflow%20in%20wma_stats_ext_event_handler&type=Commits)
+* [qcacld-2.0: Add data_len check to avoid OOB access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20data_len%20check%20to%20avoid%20OOB%20access&type=Commits)
+* [qcacld-2.0: Fix OOB access in htt_rx_ring_fill_n](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20access%20in%20htt_rx_ring_fill_n&type=Commits)
+* [qcacld-2.0: Fix OOB write in wma_extscan_change_results_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_extscan_change_results_event_handler&type=Commits)
+* [qcacld-2.0: Possible buffer overflow in wma_nan_rsp_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20buffer%20overflow%20in%20wma_nan_rsp_event_handler&type=Commits)
+* [qcacld-2.0: Integer overflow in wma_unified_link_peer_stats_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Integer%20overflow%20in%20wma_unified_link_peer_stats_event_handler&type=Commits)
+* [qcacld-2.0: Fix in wma_vdev_start_rsp_ind](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20in%20wma_vdev_start_rsp_ind&type=Commits)
+* [qcacld-2.0: Remove palPktFree in assoc request api](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20palPktFree%20in%20assoc%20request%20api&type=Commits)
+* [qcacld-2.0: Allocate extra 100 bytes to add missing IE info](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Allocate%20extra%20100%20bytes%20to%20add%20missing%20IE%20info&type=Commits)
+* [qcacld-2.0: Avoid int overflow in csrScanSavePreferredNetworkFound](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20int%20overflow%20in%20csrScanSavePreferredNetworkFound&type=Commits)
+* [qcacld-2.0: fix possible OOB read in SIOCSIWRATE WEXT ioctl handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20fix%20possible%20OOB%20read%20in%20SIOCSIWRATE%20WEXT%20ioctl%20handler&type=Commits)
+* [qcacld-2.0: Check ac in limSetEdcaBcastACMFlag](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20ac%20in%20limSetEdcaBcastACMFlag&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in ol_tx_inspect_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20ol_tx_inspect_handler&type=Commits)
+* [qcacld-2.0: Possible kernel info leak in sme_updateP2pIe()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20kernel%20info%20leak%20in%20sme_updateP2pIe%28%29&type=Commits)
+* [Start version 9.17](https://github.com/bhb27/BHB27Kernel/search?q=Start%20version%209.17&type=Commits)
+
+***
+
 08-29-2018
 ====================
 
