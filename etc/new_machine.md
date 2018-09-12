@@ -308,9 +308,15 @@ https://drive.google.com/file/d/0B0LnTbgUOuxYMHJCcl9RTEJXUjA/edit
 
 ## Amd boost state
 
+in 
 /etc/default/grub change line
+change 
 
 	GRUB_CMDLINE_LINUX_DEFAULT="quiet splash radeon.bapm=1"
+
+after do
+
+	sudo update-grub
 
 check:
 
