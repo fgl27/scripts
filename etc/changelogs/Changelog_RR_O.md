@@ -1,5 +1,61 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
+09-13-2018
+====================
+
+#### Device specific Changes of 09-13-2018 Start:
+
+#### Device/Quark/
+* [Quark: update ro.lineage.version prop](https://github.com/search?q=Quark%3A%20update%20ro.lineage.version%20prop&type=Commits)
+* [Update .github/auto-comment.yml](https://github.com/search?q=Update%20.github/auto-comment.yml&type=Commits)
+* [Quark: Update mpdecision service start](https://github.com/search?q=Quark%3A%20Update%20mpdecision%20service%20start&type=Commits)
+* [Add a .github/auto-comment.yml](https://github.com/search?q=Add%20a%20.github/auto-comment.yml&type=Commits)
+
+#### Vendor/Quark/
+* [Add a .github/auto-comment.yml](https://github.com/search?q=Add%20a%20.github/auto-comment.yml&type=Commits)
+
+#### Device specific Changes of 09-13-2018 End.
+
+***
+
+09-10-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-10-2018:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Jelly: allow disabling clear text traffic at runtime](https://github.com/search?q=Jelly%3A%20allow%20disabling%20clear%20text%20traffic%20at%20runtime&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ResurrectionOTA/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/rr/
+* [kernel: Set CROSS_COMPILE_ARM32 if using aarch64](https://github.com/search?q=kernel%3A%20Set%20CROSS_COMPILE_ARM32%20if%20using%20aarch64&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-10-2018 End.
+
+09-09-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-09-2018:
+
+#### vendor/rr/
+* [RR: bump version to 6.2.0](https://github.com/search?q=RR%3A%20bump%20version%20to%206.2.0&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-09-2018 End.
+
 09-08-2018
 ====================
 
