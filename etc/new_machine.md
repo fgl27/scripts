@@ -90,7 +90,7 @@ https://www.libreoffice.org/download/download/
 
 #### For normal android app build machine + adb shell and fastboot
 
-	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba fastboot jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch
+	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba fastboot jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch apktool
 
 #### For extra android ROM and Kernel build machine do the above and the bellow
 
