@@ -1,5 +1,51 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
+09-17-2018
+====================
+
+#### Device specific Changes of 09-17-2018 Start:
+
+#### Device/Quark/
+* [Quark: init.qcom.rc: Make clients communicate with netmgrd using UNIX sockets](https://github.com/search?q=Quark%3A%20init.qcom.rc%3A%20Make%20clients%20communicate%20with%20netmgrd%20using%20UNIX%20sockets&type=Commits)
+* [Quark: Add netmgrd to oem_2950 and system group](https://github.com/search?q=Quark%3A%20Add%20netmgrd%20to%20oem_2950%20and%20system%20group&type=Commits)
+
+#### Kernel/Quark/
+* [Add a .github/auto-comment.yml](https://github.com/search?q=Add%20a%20.github/auto-comment.yml&type=Commits)
+* [msm: Fix compile errors when CONFIG_MSM_SMP2P_TEST is disabled](https://github.com/search?q=msm%3A%20Fix%20compile%20errors%20when%20CONFIG_MSM_SMP2P_TEST%20is%20disabled&type=Commits)
+* [defconfig: Disable MSM_SMP2P_TEST](https://github.com/search?q=defconfig%3A%20Disable%20MSM_SMP2P_TEST&type=Commits)
+
+#### Device specific Changes of 09-17-2018 End.
+
+***
+
+09-16-2018
+====================
+
+#### Device specific Changes of 09-16-2018 Start:
+
+#### Device/Quark/
+* [Quark: overlays allow do disable apns](https://github.com/search?q=Quark%3A%20overlays%20allow%20do%20disable%20apns&type=Commits)
+* [Quark: Update README.md](https://github.com/search?q=Quark%3A%20Update%20README.md&type=Commits)
+* [Quark: CarrierConfig overlay read_only_apn = 0](https://github.com/search?q=Quark%3A%20CarrierConfig%20overlay%20read_only_apn%20=%200&type=Commits)
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: update README.md remove android_device_qcom_common](https://github.com/search?q=Quark%3A%20update%20README.md%20remove%20android_device_qcom_common&type=Commits)
+
+#### Device specific Changes of 09-16-2018 End.
+
+***
+
+09-15-2018
+====================
+
+#### Device specific Changes of 09-15-2018 Start:
+
+#### Device/Quark/
+* [Quark: update CarrierConfig overlay](https://github.com/search?q=Quark%3A%20update%20CarrierConfig%20overlay&type=Commits)
+
+#### Device specific Changes of 09-15-2018 End.
+
+***
+
 09-13-2018
 ====================
 
