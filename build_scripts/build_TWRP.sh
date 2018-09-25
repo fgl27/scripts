@@ -1,7 +1,7 @@
 #!/bin/bash
 # simple build sh ... alias bt='$HOME/user/source_folder/build_TWRP.sh'
 
-export TW_DEVICE_VERSION=mod_2;
+export TW_DEVICE_VERSION=mod_3_P;
 
 folder="$HOME/android/or/";
 
