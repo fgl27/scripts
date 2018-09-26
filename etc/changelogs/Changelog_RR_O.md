@@ -1,5 +1,55 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
+09-26-2018
+====================
+
+#### Device specific Changes of 09-26-2018 Start:
+
+#### Kernel/Quark/
+* [wireguard: manually reset to a working version](https://github.com/search?q=wireguard%3A%20manually%20reset%20to%20a%20working%20version&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: up KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20up%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 09-26-2018 End.
+
+***
+
+09-23-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-23-2018:
+
+#### packages/apps/CellBroadcastReceiver/
+* [Handle database version update form 12 to 11](https://github.com/search?q=Handle%20database%20version%20update%20form%2012%20to%2011&type=Commits)
+* [Add area update info support for mcc405](https://github.com/search?q=Add%20area%20update%20info%20support%20for%20mcc405&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-23-2018 End.
+
+09-20-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 09-20-2018:
+
+#### frameworks/base/
+* [PackageManager: Avoid another NPE when dereferencing mPlatfromPackage](https://github.com/search?q=PackageManager%3A%20Avoid%20another%20NPE%20when%20dereferencing%20mPlatfromPackage&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 09-20-2018 End.
+
+09-18-2018
+====================
+
+#### Device specific Changes of 09-18-2018 Start:
+
+#### Kernel/Quark/
+* [Add a .github/auto-comment.yml](https://github.com/search?q=Add%20a%20.github/auto-comment.yml&type=Commits)
+* [msm: Fix compile errors when CONFIG_MSM_SMP2P_TEST is disabled](https://github.com/search?q=msm%3A%20Fix%20compile%20errors%20when%20CONFIG_MSM_SMP2P_TEST%20is%20disabled&type=Commits)
+* [defconfig: Disable MSM_SMP2P_TEST](https://github.com/search?q=defconfig%3A%20Disable%20MSM_SMP2P_TEST&type=Commits)
+
+#### Device specific Changes of 09-18-2018 End.
+
+***
+
 09-17-2018
 ====================
 
