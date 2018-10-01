@@ -38,9 +38,9 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick e26bc1c06abe7a382375a3e9ed3311ec4927d306
-	git fetch https://github.com/bhb27/android_frameworks_base/ lineage-15.1 && git cherry-pick add501e5811333e41fbb4436387a46bcec8132fe
-	git fetch https://github.com/bhb27/android_frameworks_base/ oreo && git cherry-pick 80f4c1e698989d29af045209444eb948f8ed1719^..6929c4135f19d475a670201da58061a85b6f789d
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-15.1 && git cherry-pick e26bc1c06abe7a382375a3e9ed3311ec4927d306
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-15.1 && git cherry-pick add501e5811333e41fbb4436387a46bcec8132fe
+	git fetch https://github.com/fgl27/android_frameworks_base/ oreo && git cherry-pick 80f4c1e698989d29af045209444eb948f8ed1719^..6929c4135f19d475a670201da58061a85b6f789d
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -49,7 +49,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git fetch https://github.com/bhb27/android_packages_apps_Nfc/ cm-14.1 && git cherry-pick 8314ecd4ff33f8d51228314849b6b9f88fae34cd
+	git fetch https://github.com/fgl27/android_packages_apps_Nfc/ cm-14.1 && git cherry-pick 8314ecd4ff33f8d51228314849b6b9f88fae34cd
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -78,8 +78,8 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick fb694fb3e333d8c3ed366071635c6c93accd161c
-	git fetch https://github.com/bhb27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..b3c91edb134d4c78f19fb7fc53c0f74fc7b12f29
+	git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick fb694fb3e333d8c3ed366071635c6c93accd161c
+	git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ oreo && git cherry-pick c4782c842bb30eca97af9372ee8957b892a4f51e^..b3c91edb134d4c78f19fb7fc53c0f74fc7b12f29
 	git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/26/229226/1 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
@@ -89,7 +89,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder
-	git fetch https://github.com/bhb27/android_bionic/ lineage-15.1 && git cherry-pick 279c7ed48cc03733553e7f4cef0735e4302a6b6e
+	git fetch https://github.com/fgl27/android_bionic/ lineage-15.1 && git cherry-pick 279c7ed48cc03733553e7f4cef0735e4302a6b6e
 	git revert b0938317329c63e69352d96b8046f30f205b055b --no-edit
 	cd - &> /dev/null || exit;
 
@@ -112,8 +112,18 @@ if [ "$input1" == "1" ]; then
 	folder="vendor/rr";
 	echo -e "\\n	In Folder $folder \\n"
 
+	folder="packages/apps/PackageInstaller";
+	echo -e "\\n	In Folder $folder \\n"
 	cd $folder
-	git fetch https://github.com/bhb27/android_vendor_resurrection/ oreo && git cherry-pick 98e4dfcddab09148bc22062613e882f7157844c9
+	git fetch https://github.com/fgl27/android_packages_apps_PackageInstaller/ lineage-15.1 && git cherry-pick ff97dfb9005cf43a7f99d7e5697848849665f5a2^..1cfc30259de983c4af022d952734fc4987e1040f
+	cd - &> /dev/null || exit;
+	echo -e "\\n	out Folder $folder"
+
+	folder="vendor/rr";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder
+	git fetch https://github.com/fgl27/android_vendor_resurrection/ oreo && git cherry-pick 98e4dfcddab09148bc22062613e882f7157844c9
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
