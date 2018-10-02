@@ -1,5 +1,56 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
+10-02-2018
+====================
+
+#### Device specific Changes of 10-02-2018 Start:
+
+#### Kernel/Quark/
+* [ARM: dts: msm: Fix boolean property misuse](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Fix%20boolean%20property%20misuse&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update TurboToast.apk](https://github.com/search?q=Quark%3A%20update%20TurboToast.apk&type=Commits)
+
+#### Device specific Changes of 10-02-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 10-02-2018:
+#### android/
+* [manifest: android-8.1.0_r46 -> android-8.1.0_r47](https://github.com/search?q=manifest%3A%20android-8.1.0_r46%20->%20android-8.1.0_r47&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-8.1.0_r47' of https://android.googlesource.com/platform/build into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r47%27%20of%20https%3A//android.googlesource.com/platform/build%20into%20oreo&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge branch 'lineage-15.1' of https://github.com/LineageOS/android_device_qcom_sepolicy into oreo](https://github.com/search?q=Merge%20branch%20%27lineage-15.1%27%20of%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy%20into%20oreo&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-8.1.0_r47' of https://android.googlesource.com/platform/frameworks/base into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r47%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20oreo&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-8.1.0_r47' of https://android.googlesource.com/platform/packages/apps/Settings into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r47%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20oreo&type=Commits)
+
+#### vendor/rr/
+* [apns: NOS: fix tethering and mms.](https://github.com/search?q=apns%3A%20NOS%3A%20fix%20tethering%20and%20mms.&type=Commits)
+* [addonsu: Fix installation on Lineage recovery](https://github.com/search?q=addonsu%3A%20Fix%20installation%20on%20Lineage%20recovery&type=Commits)
+* [repopick: Warn about empty commits instead of failing](https://github.com/search?q=repopick%3A%20Warn%20about%20empty%20commits%20instead%20of%20failing&type=Commits)
+* [RR: bump version to 6.2.1](https://github.com/search?q=RR%3A%20bump%20version%20to%206.2.1&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-02-2018 End.
+
+09-27-2018
+====================
+
+#### Device specific Changes of 09-27-2018 Start:
+
+#### Device/Quark/
+* [Quark: update power_profiles](https://github.com/search?q=Quark%3A%20update%20power_profiles&type=Commits)
+
+#### Device specific Changes of 09-27-2018 End.
+
+***
+
 09-26-2018
 ====================
 
