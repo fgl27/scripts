@@ -98,6 +98,7 @@ if [ "$input1" == "1" ]; then
 	folder="system/extras/su";
 	echo -e "\\n	In Folder $folder \\n"
 	cd $folder
+	git revert bffcdefa59834186b75987541930dbfa92d15a21 --no-edit
 	git revert ae77c1a8aa19484d8d8196e55254f2c6f01d1aad --no-edit
 	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
