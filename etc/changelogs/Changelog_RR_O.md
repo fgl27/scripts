@@ -1,5 +1,381 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
+10-20-2018
+====================
+
+#### Device specific Changes of 10-20-2018 Start:
+
+#### Kernel/Quark/
+* [Revert "wireguard: manually reset to a working version"](https://github.com/search?q=Revert%20"wireguard%3A%20manually%20reset%20to%20a%20working%20version"&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 10-20-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 10-20-2018:
+
+#### bootable/recovery/
+* [recovery: Move bldrmsg offset symbols to bootloader_message.cpp](https://github.com/search?q=recovery%3A%20Move%20bldrmsg%20offset%20symbols%20to%20bootloader_message.cpp&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-20-2018 End.
+
+10-19-2018
+====================
+
+#### Device specific Changes of 10-19-2018 Start:
+
+#### Kernel/Quark/
+* [ext4: fix bitmap position validation](https://github.com/search?q=ext4%3A%20fix%20bitmap%20position%20validation&type=Commits)
+* [ext4: add validity checks for bitmap block numbers](https://github.com/search?q=ext4%3A%20add%20validity%20checks%20for%20bitmap%20block%20numbers&type=Commits)
+* [ext4: fix block bitmap validation when bigalloc, ^flex_bg](https://github.com/search?q=ext4%3A%20fix%20block%20bitmap%20validation%20when%20bigalloc,%20^flex_bg&type=Commits)
+* [ext4: fail ext4_iget for root directory if unallocated](https://github.com/search?q=ext4%3A%20fail%20ext4_iget%20for%20root%20directory%20if%20unallocated&type=Commits)
+* [ext4: fix check to prevent initializing reserved inodes](https://github.com/search?q=ext4%3A%20fix%20check%20to%20prevent%20initializing%20reserved%20inodes&type=Commits)
+* [ext4: only look at the bg_flags field if it is valid](https://github.com/search?q=ext4%3A%20only%20look%20at%20the%20bg_flags%20field%20if%20it%20is%20valid&type=Commits)
+* [defconfig enable CONFIG_LZ4HC_COMPRESS](https://github.com/search?q=defconfig%20enable%20CONFIG_LZ4HC_COMPRESS&type=Commits)
+* [lib: qmi_encdec: Add support for string data type](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Add%20support%20for%20string%20data%20type&type=Commits)
+* [lib: qmi_encdec: Fix encoding a variable length element](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Fix%20encoding%20a%20variable%20length%20element&type=Commits)
+
+#### Device specific Changes of 10-19-2018 End.
+
+***
+
+10-18-2018
+====================
+
+#### Device specific Changes of 10-18-2018 Start:
+
+#### Device/Quark/
+* [Quark: update zram init config](https://github.com/search?q=Quark%3A%20update%20zram%20init%20config&type=Commits)
+
+#### Kernel/Quark/
+* [remove task and stack pointer printout from oops dump](https://github.com/search?q=remove%20task%20and%20stack%20pointer%20printout%20from%20oops%20dump&type=Commits)
+* [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
+* [ASoC: msm: qdsp6v2: make audio debugfs read and release exclusive](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20make%20audio%20debugfs%20read%20and%20release%20exclusive&type=Commits)
+* [regulator: core: Fix buffer overflow issue](https://github.com/search?q=regulator%3A%20core%3A%20Fix%20buffer%20overflow%20issue&type=Commits)
+* [usb: replace %p with %pK](https://github.com/search?q=usb%3A%20replace%20%p%20with%20%pK&type=Commits)
+* [net: rmnet_data: validate csum in SW](https://github.com/search?q=net%3A%20rmnet_data%3A%20validate%20csum%20in%20SW&type=Commits)
+* [KEYS: prevent KEYCTL_READ on negative key](https://github.com/search?q=KEYS%3A%20prevent%20KEYCTL_READ%20on%20negative%20key&type=Commits)
+* [ext4: fix check to prevent initializing reserved inodes](https://github.com/search?q=ext4%3A%20fix%20check%20to%20prevent%20initializing%20reserved%20inodes&type=Commits)
+* [ext4: move error report out of atomic context in ext4_init_block_bitmap()](https://github.com/search?q=ext4%3A%20move%20error%20report%20out%20of%20atomic%20context%20in%20ext4_init_block_bitmap%28%29&type=Commits)
+* [ext4: add sanity check to ext4_get_group_info()](https://github.com/search?q=ext4%3A%20add%20sanity%20check%20to%20ext4_get_group_info%28%29&type=Commits)
+* [msm: camera: validate num_streams in stream_cfg_cmd before using it](https://github.com/search?q=msm%3A%20camera%3A%20validate%20num_streams%20in%20stream_cfg_cmd%20before%20using%20it&type=Commits)
+* [net: usb: rmnet_usb_ctrl: Fix use after free issue](https://github.com/search?q=net%3A%20usb%3A%20rmnet_usb_ctrl%3A%20Fix%20use%20after%20free%20issue&type=Commits)
+* [BACKPORT: ANDROID: Use sk_uid to replace uid get from socket file](https://github.com/search?q=BACKPORT%3A%20ANDROID%3A%20Use%20sk_uid%20to%20replace%20uid%20get%20from%20socket%20file&type=Commits)
+* [ANDROID: Add untag hacks to inet_release function](https://github.com/search?q=ANDROID%3A%20Add%20untag%20hacks%20to%20inet_release%20function&type=Commits)
+* [fix the deadlock in xt_qtaguid when enable DDEBUG](https://github.com/search?q=fix%20the%20deadlock%20in%20xt_qtaguid%20when%20enable%20DDEBUG&type=Commits)
+* [ANDROID: xt_qtaguid: Use sk_callback_lock read locks before reading sk->sk_socket](https://github.com/search?q=ANDROID%3A%20xt_qtaguid%3A%20Use%20sk_callback_lock%20read%20locks%20before%20reading%20sk->sk_socket&type=Commits)
+* [nf: xt_qtaguid: fix handling for cases where tunnels are used.](https://github.com/search?q=nf%3A%20xt_qtaguid%3A%20fix%20handling%20for%20cases%20where%20tunnels%20are%20used.&type=Commits)
+* [netfilter: fix seq_printf type mismatch warning](https://github.com/search?q=netfilter%3A%20fix%20seq_printf%20type%20mismatch%20warning&type=Commits)
+* [jbd2: don't mark block as modified if the handle is out of credits](https://github.com/search?q=jbd2%3A%20don%27t%20mark%20block%20as%20modified%20if%20the%20handle%20is%20out%20of%20credits&type=Commits)
+* [ext4: always check block group bounds in ext4_init_block_bitmap()](https://github.com/search?q=ext4%3A%20always%20check%20block%20group%20bounds%20in%20ext4_init_block_bitmap%28%29&type=Commits)
+* [ext4: add more inode number paranoia checks](https://github.com/search?q=ext4%3A%20add%20more%20inode%20number%20paranoia%20checks&type=Commits)
+* [ext4: avoid running out of journal credits when appending to an inline file](https://github.com/search?q=ext4%3A%20avoid%20running%20out%20of%20journal%20credits%20when%20appending%20to%20an%20inline%20file&type=Commits)
+* [ext4: add corruption check in ext4_xattr_set_entry()](https://github.com/search?q=ext4%3A%20add%20corruption%20check%20in%20ext4_xattr_set_entry%28%29&type=Commits)
+* [ext4: standardize error handling in ext4_da_write_inline_data_begin()](https://github.com/search?q=ext4%3A%20standardize%20error%20handling%20in%20ext4_da_write_inline_data_begin%28%29&type=Commits)
+* [ext4: delete "set but not used" variables](https://github.com/search?q=ext4%3A%20delete%20"set%20but%20not%20used"%20variables&type=Commits)
+* [ext4: retry allocation when inline->extent conversion failed](https://github.com/search?q=ext4%3A%20retry%20allocation%20when%20inline->extent%20conversion%20failed&type=Commits)
+* [ext4: clear i_data in ext4_inode_info when removing inline data](https://github.com/search?q=ext4%3A%20clear%20i_data%20in%20ext4_inode_info%20when%20removing%20inline%20data&type=Commits)
+* [ext4: never move the system.data xattr out of the inode body](https://github.com/search?q=ext4%3A%20never%20move%20the%20system.data%20xattr%20out%20of%20the%20inode%20body&type=Commits)
+* [ext4: always verify the magic number in xattr blocks](https://github.com/search?q=ext4%3A%20always%20verify%20the%20magic%20number%20in%20xattr%20blocks&type=Commits)
+* [ext4: verify the depth of extent tree in ext4_find_extent()](https://github.com/search?q=ext4%3A%20verify%20the%20depth%20of%20extent%20tree%20in%20ext4_find_extent%28%29&type=Commits)
+* [ANDROID: sdcardfs: Change current->fs under lock](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Change%20current->fs%20under%20lock&type=Commits)
+* [ANDROID: sdcardfs: Don't use OVERRIDE_CRED macro](https://github.com/search?q=ANDROID%3A%20sdcardfs%3A%20Don%27t%20use%20OVERRIDE_CRED%20macro&type=Commits)
+* [msm: vidc: limit only OCMEM vote to lowest vector](https://github.com/search?q=msm%3A%20vidc%3A%20limit%20only%20OCMEM%20vote%20to%20lowest%20vector&type=Commits)
+* [USB: gadget: android: Fix checkpatch related errors](https://github.com/search?q=USB%3A%20gadget%3A%20android%3A%20Fix%20checkpatch%20related%20errors&type=Commits)
+* [USB: gadget: android: Integrate f_midi USB MIDI gadget driver](https://github.com/search?q=USB%3A%20gadget%3A%20android%3A%20Integrate%20f_midi%20USB%20MIDI%20gadget%20driver&type=Commits)
+* [USB: gadget: midi: Fix deadlock unbinding driver while it is in use](https://github.com/search?q=USB%3A%20gadget%3A%20midi%3A%20Fix%20deadlock%20unbinding%20driver%20while%20it%20is%20in%20use&type=Commits)
+* [udp: avoid ufo handling on IP payload compression packets](https://github.com/search?q=udp%3A%20avoid%20ufo%20handling%20on%20IP%20payload%20compression%20packets&type=Commits)
+* [ipv6: Don't use ufo handling on later transformed packets](https://github.com/search?q=ipv6%3A%20Don%27t%20use%20ufo%20handling%20on%20later%20transformed%20packets&type=Commits)
+* [Revert "ipsec: Fix aborted xfrm policy dump crash"](https://github.com/search?q=Revert%20"ipsec%3A%20Fix%20aborted%20xfrm%20policy%20dump%20crash"&type=Commits)
+* [Revert "sdcardfs: Flag files as non-mappable"](https://github.com/search?q=Revert%20"sdcardfs%3A%20Flag%20files%20as%20non-mappable"&type=Commits)
+* [Revert "ANDROID: sdcardfs: notify lower file of opens"](https://github.com/search?q=Revert%20"ANDROID%3A%20sdcardfs%3A%20notify%20lower%20file%20of%20opens"&type=Commits)
+* [lib/lz4: make arrays static const, reduces object code size](https://github.com/search?q=lib/lz4%3A%20make%20arrays%20static%20const,%20reduces%20object%20code%20size&type=Commits)
+* [lz4: fix compress max output bound](https://github.com/search?q=lz4%3A%20fix%20compress%20max%20output%20bound&type=Commits)
+* [UPSTREAM: lib: update LZ4 compressor module](https://github.com/search?q=UPSTREAM%3A%20lib%3A%20update%20LZ4%20compressor%20module&type=Commits)
+* [blocks: zram enable lz4 by defautl](https://github.com/search?q=blocks%3A%20zram%20enable%20lz4%20by%20defautl&type=Commits)
+* [lib: lz4: cleanup unaligned access efficiency detection](https://github.com/search?q=lib%3A%20lz4%3A%20cleanup%20unaligned%20access%20efficiency%20detection&type=Commits)
+* [lib: lz4: fixed zram with lz4 on big endian machines](https://github.com/search?q=lib%3A%20lz4%3A%20fixed%20zram%20with%20lz4%20on%20big%20endian%20machines&type=Commits)
+* [lz4: fix system halt at boot kernel on x86_64](https://github.com/search?q=lz4%3A%20fix%20system%20halt%20at%20boot%20kernel%20on%20x86_64&type=Commits)
+* [lib/lz4: Pull out constant tables](https://github.com/search?q=lib/lz4%3A%20Pull%20out%20constant%20tables&type=Commits)
+* [LZ4 : fix the data abort issue](https://github.com/search?q=LZ4%20%3A%20fix%20the%20data%20abort%20issue&type=Commits)
+* [UPSTREAM: block: disable entropy contributions for nonrot devices](https://github.com/search?q=UPSTREAM%3A%20block%3A%20disable%20entropy%20contributions%20for%20nonrot%20devices&type=Commits)
+* [UPSTREAM: lz4: fix wrong compress buffer size for 64-bits](https://github.com/search?q=UPSTREAM%3A%20lz4%3A%20fix%20wrong%20compress%20buffer%20size%20for%2064-bits&type=Commits)
+* [UPSTREAM: zram/zcomp: do not zero out zcomp private pages](https://github.com/search?q=UPSTREAM%3A%20zram/zcomp%3A%20do%20not%20zero%20out%20zcomp%20private%20pages&type=Commits)
+* [UPSTREAM: zram: pass gfp from zcomp frontend to backend](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20pass%20gfp%20from%20zcomp%20frontend%20to%20backend&type=Commits)
+* [UPSTREAM: zram: try vmalloc() after kmalloc()](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20try%20vmalloc%28%29%20after%20kmalloc%28%29&type=Commits)
+* [UPSTREAM: zram/zcomp: use GFP_NOIO to allocate streams](https://github.com/search?q=UPSTREAM%3A%20zram/zcomp%3A%20use%20GFP_NOIO%20to%20allocate%20streams&type=Commits)
+* [mm/Kconfig update config ZSWAP dependecie](https://github.com/search?q=mm/Kconfig%20update%20config%20ZSWAP%20dependecie&type=Commits)
+* [UPSTREAM: zram: fix possible use after free in zcomp_create()](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20fix%20possible%20use%20after%20free%20in%20zcomp_create%28%29&type=Commits)
+* [UPSTREAM: zsmalloc: fix a null pointer dereference in destroy_handle_cache()](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20fix%20a%20null%20pointer%20dereference%20in%20destroy_handle_cache%28%29&type=Commits)
+* [UPSTREAM: zram: clear disk io accounting when reset zram device](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20clear%20disk%20io%20accounting%20when%20reset%20zram%20device&type=Commits)
+* [UPSTREAM: zram: fix error return code](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20fix%20error%20return%20code&type=Commits)
+* [UPSTREAM: zsmalloc: remove extra cond_resched() in __zs_compact](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20remove%20extra%20cond_resched%28%29%20in%20__zs_compact&type=Commits)
+* [UPSTREAM: zsmalloc: fix fatal corruption due to wrong size class selection](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20fix%20fatal%20corruption%20due%20to%20wrong%20size%20class%20selection&type=Commits)
+* [UPSTREAM: zsmalloc: remove unnecessary insertion/removal of zspage in compaction](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20remove%20unnecessary%20insertion/removal%20of%20zspage%20in%20compaction&type=Commits)
+* [UPSTREAM: zsmalloc: micro-optimize zs_object_copy()](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20micro-optimize%20zs_object_copy%28%29&type=Commits)
+* [UPSTREAM: zsmalloc: remove synchronize_rcu from zs_compact()](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20remove%20synchronize_rcu%20from%20zs_compact%28%29&type=Commits)
+* [UPSTREAM: zram: deprecate zram attrs sysfs nodes](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20deprecate%20zram%20attrs%20sysfs%20nodes&type=Commits)
+* [BACKPORT: zram: export new 'mm_stat' sysfs attrs](https://github.com/search?q=BACKPORT%3A%20zram%3A%20export%20new%20%27mm_stat%27%20sysfs%20attrs&type=Commits)
+* [BACKPORT: zram: export new 'io_stat' sysfs attrs](https://github.com/search?q=BACKPORT%3A%20zram%3A%20export%20new%20%27io_stat%27%20sysfs%20attrs&type=Commits)
+* [UPSTREAM: zram: describe device attrs in documentation](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20describe%20device%20attrs%20in%20documentation&type=Commits)
+* [UPSTREAM: zram: remove `num_migrated' device attr](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20remove%20%60num_migrated%27%20device%20attr&type=Commits)
+* [UPSTREAM: mm/zsmalloc.c: fix comment for get_pages_per_zspage](https://github.com/search?q=UPSTREAM%3A%20mm/zsmalloc.c%3A%20fix%20comment%20for%20get_pages_per_zspage&type=Commits)
+* [UPSTREAM: zsmalloc: zsmalloc documentation](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20zsmalloc%20documentation&type=Commits)
+* [UPSTREAM: zsmalloc: add fullness into stat](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20add%20fullness%20into%20stat&type=Commits)
+* [UPSTREAM: zsmalloc: record handle in page->private for huge object](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20record%20handle%20in%20page->private%20for%20huge%20object&type=Commits)
+* [BACKPORT: zram: support compaction](https://github.com/search?q=BACKPORT%3A%20zram%3A%20support%20compaction&type=Commits)
+* [UPSTREAM: zsmalloc: adjust ZS_ALMOST_FULL](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20adjust%20ZS_ALMOST_FULL&type=Commits)
+* [UPSTREAM: zsmalloc: support compaction](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20support%20compaction&type=Commits)
+* [UPSTREAM: zsmalloc: factor out obj_[malloc|free]](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20factor%20out%20obj_[malloc|free]&type=Commits)
+* [UPSTREAM: zsmalloc: decouple handle and object](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20decouple%20handle%20and%20object&type=Commits)
+* [UPSTREAM: zram: use proper type to update max_used_pages](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20use%20proper%20type%20to%20update%20max_used_pages&type=Commits)
+* [BACKPORT: mm/zsmalloc: add statistics support](https://github.com/search?q=BACKPORT%3A%20mm/zsmalloc%3A%20add%20statistics%20support&type=Commits)
+* [BACKPORT: mm/zpool: add name argument to create zpool](https://github.com/search?q=BACKPORT%3A%20mm/zpool%3A%20add%20name%20argument%20to%20create%20zpool&type=Commits)
+* [UPSTREAM: zram: remove request_queue from struct zram](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20remove%20request_queue%20from%20struct%20zram&type=Commits)
+* [BACKPORT: zram: remove init_lock in zram_make_request](https://github.com/search?q=BACKPORT%3A%20zram%3A%20remove%20init_lock%20in%20zram_make_request&type=Commits)
+* [UPSTREAM: zram: check bd_openers instead of bd_holders](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20check%20bd_openers%20instead%20of%20bd_holders&type=Commits)
+* [UPSTREAM: zram: rework reset and destroy path](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20rework%20reset%20and%20destroy%20path&type=Commits)
+* [UPSTREAM: zram: fix umount-reset_store-mount race condition](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20fix%20umount-reset_store-mount%20race%20condition&type=Commits)
+* [UPSTREAM: zram: free meta table in zram_meta_free](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20free%20meta%20table%20in%20zram_meta_free&type=Commits)
+* [UPSTREAM: zram: clean up zram_meta_alloc()](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20clean%20up%20zram_meta_alloc%28%29&type=Commits)
+* [BACKPORT: mm/zsmalloc: adjust order of functions](https://github.com/search?q=BACKPORT%3A%20mm/zsmalloc%3A%20adjust%20order%20of%20functions&type=Commits)
+* [UPSTREAM: mm/zsmalloc: allocate exactly size of struct zs_pool](https://github.com/search?q=UPSTREAM%3A%20mm/zsmalloc%3A%20allocate%20exactly%20size%20of%20struct%20zs_pool&type=Commits)
+* [UPSTREAM: mm/zsmalloc: avoid duplicate assignment of prev_class](https://github.com/search?q=UPSTREAM%3A%20mm/zsmalloc%3A%20avoid%20duplicate%20assignment%20of%20prev_class&type=Commits)
+* [UPSTREAM: mm/zram: correct ZRAM_ZERO flag bit position](https://github.com/search?q=UPSTREAM%3A%20mm/zram%3A%20correct%20ZRAM_ZERO%20flag%20bit%20position&type=Commits)
+* [UPSTREAM: mm/zsmalloc: support allocating obj with size of ZS_MAX_ALLOC_SIZE](https://github.com/search?q=UPSTREAM%3A%20mm/zsmalloc%3A%20support%20allocating%20obj%20with%20size%20of%20ZS_MAX_ALLOC_SIZE&type=Commits)
+* [UPSTREAM: zsmalloc: correct fragile [kmap|kunmap]_atomic use](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20correct%20fragile%20[kmap|kunmap]_atomic%20use&type=Commits)
+* [UPSTREAM: zsmalloc: fix zs_init cpu notifier error handling](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20fix%20zs_init%20cpu%20notifier%20error%20handling&type=Commits)
+* [BACKPORT: zram: change parameter from vaild_io_request()](https://github.com/search?q=BACKPORT%3A%20zram%3A%20change%20parameter%20from%20vaild_io_request%28%29&type=Commits)
+* [BACKPORT: zram: remove bio parameter from zram_bvec_rw()](https://github.com/search?q=BACKPORT%3A%20zram%3A%20remove%20bio%20parameter%20from%20zram_bvec_rw%28%29&type=Commits)
+* [UPSTREAM: zsmalloc: merge size_class to reduce fragmentation](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20merge%20size_class%20to%20reduce%20fragmentation&type=Commits)
+* [BACKPORT: zram: avoid kunmap_atomic() of a NULL pointer](https://github.com/search?q=BACKPORT%3A%20zram%3A%20avoid%20kunmap_atomic%28%29%20of%20a%20NULL%20pointer&type=Commits)
+* [UPSTREAM: zram: avoid NULL pointer access in concurrent situation](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20avoid%20NULL%20pointer%20access%20in%20concurrent%20situation&type=Commits)
+* [UPSTREAM: zsmalloc: simplify init_zspage free obj linking](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20simplify%20init_zspage%20free%20obj%20linking&type=Commits)
+* [UPSTREAM: mm/zsmalloc.c: correct comment for fullness group computation](https://github.com/search?q=UPSTREAM%3A%20mm/zsmalloc.c%3A%20correct%20comment%20for%20fullness%20group%20computation&type=Commits)
+* [UPSTREAM: zram: use notify_free to account all free notifications](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20use%20notify_free%20to%20account%20all%20free%20notifications&type=Commits)
+* [UPSTREAM: zram: report maximum used memory](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20report%20maximum%20used%20memory&type=Commits)
+* [UPSTREAM: zram: zram memory size limitation](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20zram%20memory%20size%20limitation&type=Commits)
+* [UPSTREAM: zsmalloc: change return value unit of zs_get_total_size_bytes](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20change%20return%20value%20unit%20of%20zs_get_total_size_bytes&type=Commits)
+* [UPSTREAM: zsmalloc: move pages_allocated to zs_pool](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20move%20pages_allocated%20to%20zs_pool&type=Commits)
+* [BACKPORT: mm/zpool: use prefixed module loading](https://github.com/search?q=BACKPORT%3A%20mm/zpool%3A%20use%20prefixed%20module%20loading&type=Commits)
+* [UPSTREAM: zram: fix incorrect stat with failed_reads](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20fix%20incorrect%20stat%20with%20failed_reads&type=Commits)
+* [BACKPORT: mm/zpool: zbud/zsmalloc implement zpool](https://github.com/search?q=BACKPORT%3A%20mm/zpool%3A%20zbud/zsmalloc%20implement%20zpool&type=Commits)
+* [BACKPORT: mm/zpool: implement common zpool api to zbud/zsmalloc](https://github.com/search?q=BACKPORT%3A%20mm/zpool%3A%20implement%20common%20zpool%20api%20to%20zbud/zsmalloc&type=Commits)
+* [BACKPORT: zram: replace global tb_lock with fine grain lock](https://github.com/search?q=BACKPORT%3A%20zram%3A%20replace%20global%20tb_lock%20with%20fine%20grain%20lock&type=Commits)
+* [UPSTREAM: zram: use size_t instead of u16](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20use%20size_t%20instead%20of%20u16&type=Commits)
+* [UPSTREAM: zram: remove unused SECTOR_SIZE define](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20remove%20unused%20SECTOR_SIZE%20define&type=Commits)
+* [UPSTREAM: zram: rename struct `table' to `zram_table_entry'](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20rename%20struct%20%60table%27%20to%20%60zram_table_entry%27&type=Commits)
+* [UPSTREAM: zram: avoid lockdep splat by revalidate_disk](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20avoid%20lockdep%20splat%20by%20revalidate_disk&type=Commits)
+* [UPSTREAM: zram: revalidate disk after capacity change](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20revalidate%20disk%20after%20capacity%20change&type=Commits)
+* [UPSTREAM: zsmalloc: fixup trivial zs size classes value in comments](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20fixup%20trivial%20zs%20size%20classes%20value%20in%20comments&type=Commits)
+* [UPSTREAM: zram: correct offset usage in zram_bio_discard](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20correct%20offset%20usage%20in%20zram_bio_discard&type=Commits)
+* [UPSTREAM: zram: doc fixes](https://github.com/search?q=UPSTREAM%3A%20zram%3A%20doc%20fixes&type=Commits)
+* [Revert "zram: fix error return code"](https://github.com/search?q=Revert%20"zram%3A%20fix%20error%20return%20code"&type=Commits)
+* [UPSTREAM: mm/Kconfig: fix URL for zsmalloc benchmark](https://github.com/search?q=UPSTREAM%3A%20mm/Kconfig%3A%20fix%20URL%20for%20zsmalloc%20benchmark&type=Commits)
+* [BACKPORT: Staging: zram: Fix variable dereferenced before check](https://github.com/search?q=BACKPORT%3A%20Staging%3A%20zram%3A%20Fix%20variable%20dereferenced%20before%20check&type=Commits)
+* [BACKPORT: zsmalloc: add more comment](https://github.com/search?q=BACKPORT%3A%20zsmalloc%3A%20add%20more%20comment&type=Commits)
+* [UPSTREAM: zsmalloc: add Kconfig for enabling page table method](https://github.com/search?q=UPSTREAM%3A%20zsmalloc%3A%20add%20Kconfig%20for%20enabling%20page%20table%20method&type=Commits)
+* [UPSTREAM: staging: zsmalloc: Ensure handle is never 0 on success](https://github.com/search?q=UPSTREAM%3A%20staging%3A%20zsmalloc%3A%20Ensure%20handle%20is%20never%200%20on%20success&type=Commits)
+* [UPSTREAM: staging: zsmalloc: access page->private by using page_private macro](https://github.com/search?q=UPSTREAM%3A%20staging%3A%20zsmalloc%3A%20access%20page->private%20by%20using%20page_private%20macro&type=Commits)
+* [UPSTREAM: staging/zsmalloc: Fixed up incorrect formatted comments](https://github.com/search?q=UPSTREAM%3A%20staging/zsmalloc%3A%20Fixed%20up%20incorrect%20formatted%20comments&type=Commits)
+* [UPSTREAM: Staging: Fixes string split across lines in zsmalloc zsmalloc-main](https://github.com/search?q=UPSTREAM%3A%20Staging%3A%20Fixes%20string%20split%20across%20lines%20in%20zsmalloc%20zsmalloc-main&type=Commits)
+* [BACKPORT: Staging: Fixes string split across lines in zram](https://github.com/search?q=BACKPORT%3A%20Staging%3A%20Fixes%20string%20split%20across%20lines%20in%20zram&type=Commits)
+* [disable ZSWAP](https://github.com/search?q=disable%20ZSWAP&type=Commits)
+* [zsmalloc: add maintainers](https://github.com/search?q=zsmalloc%3A%20add%20maintainers&type=Commits)
+* [zram: fix error return code](https://github.com/search?q=zram%3A%20fix%20error%20return%20code&type=Commits)
+* [zram: optimize memory operations with clear_page()/copy_page()](https://github.com/search?q=zram%3A%20optimize%20memory%20operations%20with%20clear_page%28%29/copy_page%28%29&type=Commits)
+* [zram: allow request end to coincide with disksize](https://github.com/search?q=zram%3A%20allow%20request%20end%20to%20coincide%20with%20disksize&type=Commits)
+* [zram: support REQ_DISCARD](https://github.com/search?q=zram%3A%20support%20REQ_DISCARD&type=Commits)
+* [zram: use scnprintf() in attrs show() methods](https://github.com/search?q=zram%3A%20use%20scnprintf%28%29%20in%20attrs%20show%28%29%20methods&type=Commits)
+* [zram: propagate error to user](https://github.com/search?q=zram%3A%20propagate%20error%20to%20user&type=Commits)
+* [zram: return error-valued pointer from zcomp_create()](https://github.com/search?q=zram%3A%20return%20error-valued%20pointer%20from%20zcomp_create%28%29&type=Commits)
+* [zram: move comp allocation out of init_lock](https://github.com/search?q=zram%3A%20move%20comp%20allocation%20out%20of%20init_lock&type=Commits)
+* [zram: add lz4 algorithm backend](https://github.com/search?q=zram%3A%20add%20lz4%20algorithm%20backend&type=Commits)
+* [zram: make compression algorithm selection possible](https://github.com/search?q=zram%3A%20make%20compression%20algorithm%20selection%20possible&type=Commits)
+* [zram: add set_max_streams knob](https://github.com/search?q=zram%3A%20add%20set_max_streams%20knob&type=Commits)
+* [zram: add multi stream functionality](https://github.com/search?q=zram%3A%20add%20multi%20stream%20functionality&type=Commits)
+* [zram: document failed_reads, failed_writes stats](https://github.com/search?q=zram%3A%20document%20failed_reads,%20failed_writes%20stats&type=Commits)
+* [zram: factor out single stream compression](https://github.com/search?q=zram%3A%20factor%20out%20single%20stream%20compression&type=Commits)
+* [zram: use zcomp compressing backends](https://github.com/search?q=zram%3A%20use%20zcomp%20compressing%20backends&type=Commits)
+* [zram: introduce compressing backend abstraction](https://github.com/search?q=zram%3A%20introduce%20compressing%20backend%20abstraction&type=Commits)
+* [zram: delete zram_init_device()](https://github.com/search?q=zram%3A%20delete%20zram_init_device%28%29&type=Commits)
+* [zram: move zram size warning to documentation](https://github.com/search?q=zram%3A%20move%20zram%20size%20warning%20to%20documentation&type=Commits)
+* [zram: drop not used table `count' member](https://github.com/search?q=zram%3A%20drop%20not%20used%20table%20%60count%27%20member&type=Commits)
+* [zram: report failed read and write stats](https://github.com/search?q=zram%3A%20report%20failed%20read%20and%20write%20stats&type=Commits)
+* [zram: remove zram stats code duplication](https://github.com/search?q=zram%3A%20remove%20zram%20stats%20code%20duplication&type=Commits)
+* [zram: use atomic64_t for all zram stats](https://github.com/search?q=zram%3A%20use%20atomic64_t%20for%20all%20zram%20stats&type=Commits)
+* [zram: remove good and bad compress stats](https://github.com/search?q=zram%3A%20remove%20good%20and%20bad%20compress%20stats&type=Commits)
+* [zram: do not pass rw argument to __zram_make_request()](https://github.com/search?q=zram%3A%20do%20not%20pass%20rw%20argument%20to%20__zram_make_request%28%29&type=Commits)
+* [zram: drop `init_done' struct zram member](https://github.com/search?q=zram%3A%20drop%20%60init_done%27%20struct%20zram%20member&type=Commits)
+* [zram: avoid null access when fail to alloc meta](https://github.com/search?q=zram%3A%20avoid%20null%20access%20when%20fail%20to%20alloc%20meta&type=Commits)
+* [zram: remove zram->lock in read path and change it with mutex](https://github.com/search?q=zram%3A%20remove%20zram->lock%20in%20read%20path%20and%20change%20it%20with%20mutex&type=Commits)
+* [zram: remove workqueue for freeing removed pending slot](https://github.com/search?q=zram%3A%20remove%20workqueue%20for%20freeing%20removed%20pending%20slot&type=Commits)
+* [zram: introduce zram->tb_lock](https://github.com/search?q=zram%3A%20introduce%20zram->tb_lock&type=Commits)
+* [zram: prevent data loss in error cases of function zram_bvec_write()](https://github.com/search?q=zram%3A%20prevent%20data%20loss%20in%20error%20cases%20of%20function%20zram_bvec_write%28%29&type=Commits)
+* [zram: use atomic operation for stat](https://github.com/search?q=zram%3A%20use%20atomic%20operation%20for%20stat&type=Commits)
+* [zram: fix race between reset and flushing pending work](https://github.com/search?q=zram%3A%20fix%20race%20between%20reset%20and%20flushing%20pending%20work&type=Commits)
+* [zram: add copyright](https://github.com/search?q=zram%3A%20add%20copyright&type=Commits)
+* [zram: remove old private project comment](https://github.com/search?q=zram%3A%20remove%20old%20private%20project%20comment&type=Commits)
+* [zram: promote zram from staging](https://github.com/search?q=zram%3A%20promote%20zram%20from%20staging&type=Commits)
+* [zram: kill unused zram_get_num_devices()](https://github.com/search?q=zram%3A%20kill%20unused%20zram_get_num_devices%28%29&type=Commits)
+* [zram: destroy all devices on error recovery path in zram_init()](https://github.com/search?q=zram%3A%20destroy%20all%20devices%20on%20error%20recovery%20path%20in%20zram_init%28%29&type=Commits)
+* [Staging: zram: Fix memory leak by refcount mismatch](https://github.com/search?q=Staging%3A%20zram%3A%20Fix%20memory%20leak%20by%20refcount%20mismatch&type=Commits)
+* [zram: fix invalid memory access](https://github.com/search?q=zram%3A%20fix%20invalid%20memory%20access&type=Commits)
+* [zsmalloc: Fix CPU hotplug callback registration](https://github.com/search?q=zsmalloc%3A%20Fix%20CPU%20hotplug%20callback%20registration&type=Commits)
+* [zsmalloc: move it under mm](https://github.com/search?q=zsmalloc%3A%20move%20it%20under%20mm&type=Commits)
+* [staging: zram: protect zram_reset_device() call](https://github.com/search?q=staging%3A%20zram%3A%20protect%20zram_reset_device%28%29%20call&type=Commits)
+* [zram: remove zram_sysfs file (v2)](https://github.com/search?q=zram%3A%20remove%20zram_sysfs%20file%20%28v2%29&type=Commits)
+* [zram: avoid access beyond the zram device](https://github.com/search?q=zram%3A%20avoid%20access%20beyond%20the%20zram%20device&type=Commits)
+* [zram: use atomic64_xxx() to replace zram_stat64_xxx()](https://github.com/search?q=zram%3A%20use%20atomic64_xxx%28%29%20to%20replace%20zram_stat64_xxx%28%29&type=Commits)
+* [staging: zram: fix invalid memory references during disk write](https://github.com/search?q=staging%3A%20zram%3A%20fix%20invalid%20memory%20references%20during%20disk%20write&type=Commits)
+* [zram: convert to upstream source at 3.10.90 state](https://github.com/search?q=zram%3A%20convert%20to%20upstream%20source%20at%203.10.90%20state&type=Commits)
+* [lib/string: use glibc version](https://github.com/search?q=lib/string%3A%20use%20glibc%20version&type=Commits)
+
+#### Device specific Changes of 10-18-2018 End.
+
+***
+
+10-17-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-17-2018:
+
+#### packages/apps/Eleven/
+* [Eleven: Fix crash after receiving media button intent](https://github.com/search?q=Eleven%3A%20Fix%20crash%20after%20receiving%20media%20button%20intent&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-17-2018 End.
+
+10-15-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-15-2018:
+#### android/
+* [Merge pull request #122 from bidaian/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23122%20from%20bidaian/patch-1&type=Commits)
+* [Fixed link to documentation about porting aosp from source](https://github.com/search?q=Fixed%20link%20to%20documentation%20about%20porting%20aosp%20from%20source&type=Commits)
+
+#### hardware/qcom/display-caf/msm8960/
+* [display: Fix binder parcel position](https://github.com/search?q=display%3A%20Fix%20binder%20parcel%20position&type=Commits)
+* [memtrack: Make memtrack HAL compatible for HIDL passthrough mode.](https://github.com/search?q=memtrack%3A%20Make%20memtrack%20HAL%20compatible%20for%20HIDL%20passthrough%20mode.&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-15-2018 End.
+
+10-13-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-13-2018:
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-13-2018 End.
+
+10-11-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-11-2018:
+
+#### packages/apps/Dialer/
+* [Add autorecord feature](https://github.com/search?q=Add%20autorecord%20feature&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-11-2018 End.
+
+10-07-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-07-2018:
+
+#### external/toybox/
+* [Android has its loop devices under "block" as Elliott says "by reason of historical accident", so fall back to check there.](https://github.com/search?q=Android%20has%20its%20loop%20devices%20under%20"block"%20as%20Elliott%20says%20"by%20reason%20of%20historical%20accident",%20so%20fall%20back%20to%20check%20there.&type=Commits)
+
+#### frameworks/av/
+* [stagefright: add changes related to high-framerates in CameraSource](https://github.com/search?q=stagefright%3A%20add%20changes%20related%20to%20high-framerates%20in%20CameraSource&type=Commits)
+
+#### system/extras/su/
+* [su: Fully rebrand](https://github.com/search?q=su%3A%20Fully%20rebrand&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-07-2018 End.
+
 10-02-2018
 ====================
 
