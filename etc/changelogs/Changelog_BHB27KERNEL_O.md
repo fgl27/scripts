@@ -3,7 +3,238 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
-08-10-2018
+10-20-2018
+====================
+
+* [Revert "wireguard: manually reset to a working version"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"wireguard%3A%20manually%20reset%20to%20a%20working%20version"&type=Commits)
+
+***
+
+10-19-2018
+====================
+
+* [ext4: fix bitmap position validation](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20fix%20bitmap%20position%20validation&type=Commits)
+* [ext4: add validity checks for bitmap block numbers](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20validity%20checks%20for%20bitmap%20block%20numbers&type=Commits)
+* [ext4: fix block bitmap validation when bigalloc, ^flex_bg](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20fix%20block%20bitmap%20validation%20when%20bigalloc,%20^flex_bg&type=Commits)
+* [ext4: fail ext4_iget for root directory if unallocated](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20fail%20ext4_iget%20for%20root%20directory%20if%20unallocated&type=Commits)
+* [ext4: fix check to prevent initializing reserved inodes](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20fix%20check%20to%20prevent%20initializing%20reserved%20inodes&type=Commits)
+* [ext4: only look at the bg_flags field if it is valid](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20only%20look%20at%20the%20bg_flags%20field%20if%20it%20is%20valid&type=Commits)
+* [vsprintf: Fix a dangling documentation reference](https://github.com/bhb27/BHB27Kernel/search?q=vsprintf%3A%20Fix%20a%20dangling%20documentation%20reference&type=Commits)
+* [doc: convert printk-formats.txt to rst](https://github.com/bhb27/BHB27Kernel/search?q=doc%3A%20convert%20printk-formats.txt%20to%20rst&type=Commits)
+* [vsprintf: don't use 'restricted_pointer()' when not restricting](https://github.com/bhb27/BHB27Kernel/search?q=vsprintf%3A%20don%27t%20use%20%27restricted_pointer%28%29%27%20when%20not%20restricting&type=Commits)
+* [vsprintf: refactor %pK code out of pointer()](https://github.com/bhb27/BHB27Kernel/search?q=vsprintf%3A%20refactor%20%pK%20code%20out%20of%20pointer%28%29&type=Commits)
+* [uuid: rename uuid types](https://github.com/bhb27/BHB27Kernel/search?q=uuid%3A%20rename%20uuid%20types&type=Commits)
+* [uuid: remove uuid_be defintions from the uapi header](https://github.com/bhb27/BHB27Kernel/search?q=uuid%3A%20remove%20uuid_be%20defintions%20from%20the%20uapi%20header&type=Commits)
+* [lib/uuid.c: remove FSF address](https://github.com/bhb27/BHB27Kernel/search?q=lib/uuid.c%3A%20remove%20FSF%20address&type=Commits)
+* [checkpatch: add ability to find bad uses of vsprintf %p<foo> extensions](https://github.com/bhb27/BHB27Kernel/search?q=checkpatch%3A%20add%20ability%20to%20find%20bad%20uses%20of%20vsprintf%20%p<foo>%20extensions&type=Commits)
+* [kernel-api.rst: fix output of the vsnprintf() documentation](https://github.com/bhb27/BHB27Kernel/search?q=kernel-api.rst%3A%20fix%20output%20of%20the%20vsnprintf%28%29%20documentation&type=Commits)
+* [lib/vsprintf.c: remove %Z support](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20remove%20%Z%20support&type=Commits)
+* [lib/uuid.c: introduce a few more generic helpers](https://github.com/bhb27/BHB27Kernel/search?q=lib/uuid.c%3A%20introduce%20a%20few%20more%20generic%20helpers&type=Commits)
+* [lib/uuid.c: move generate_random_uuid() to uuid.c](https://github.com/bhb27/BHB27Kernel/search?q=lib/uuid.c%3A%20move%20generate_random_uuid%28%29%20to%20uuid.c&type=Commits)
+* [lib/vsprintf: simplify UUID printing](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf%3A%20simplify%20UUID%20printing&type=Commits)
+* [sscanf: implement basic character sets](https://github.com/bhb27/BHB27Kernel/search?q=sscanf%3A%20implement%20basic%20character%20sets&type=Commits)
+* [vsprintf: kptr_restrict is okay in IRQ when 2](https://github.com/bhb27/BHB27Kernel/search?q=vsprintf%3A%20kptr_restrict%20is%20okay%20in%20IRQ%20when%202&type=Commits)
+* [lib/vsprintf: factor out %pN[F] handler as netdev_bits()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf%3A%20factor%20out%20%pN[F]%20handler%20as%20netdev_bits%28%29&type=Commits)
+* [lib/vsprintf: refactor duplicate code to special_hex_number()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf%3A%20refactor%20duplicate%20code%20to%20special_hex_number%28%29&type=Commits)
+* [lib/vsprintf.c: warn about too large precisions and field widths](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20warn%20about%20too%20large%20precisions%20and%20field%20widths&type=Commits)
+* [lib/vsprintf.c: help gcc make number() smaller](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20help%20gcc%20make%20number%28%29%20smaller&type=Commits)
+* [lib/vsprintf.c: another small hack](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20another%20small%20hack&type=Commits)
+* [lib/vsprintf.c: expand field_width to 24 bits](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20expand%20field_width%20to%2024%20bits&type=Commits)
+* [lib/vsprintf.c: eliminate potential race in string()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20eliminate%20potential%20race%20in%20string%28%29&type=Commits)
+* [lib/vsprintf.c: move string() below widen_string()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20move%20string%28%29%20below%20widen_string%28%29&type=Commits)
+* [lib/vsprintf.c: pull out padding code from dentry_name()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20pull%20out%20padding%20code%20from%20dentry_name%28%29&type=Commits)
+* [lib/vsprintf: add %*pg format specifier](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf%3A%20add%20%*pg%20format%20specifier&type=Commits)
+* [lib/vsprintf.c: update documentation](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20update%20documentation&type=Commits)
+* [lib/vsprintf.c: remove SPECIAL handling in pointer()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20remove%20SPECIAL%20handling%20in%20pointer%28%29&type=Commits)
+* [lib/vsprintf.c: also improve sanity check in bstr_printf()](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20also%20improve%20sanity%20check%20in%20bstr_printf%28%29&type=Commits)
+* [lib/vsprintf.c: handle invalid format specifiers more robustly](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20handle%20invalid%20format%20specifiers%20more%20robustly&type=Commits)
+* [printk: synchronize %p formatting documentation](https://github.com/bhb27/BHB27Kernel/search?q=printk%3A%20synchronize%20%p%20formatting%20documentation&type=Commits)
+* [lib/vsprintf.c: Include clk.h](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf.c%3A%20Include%20clk.h&type=Commits)
+* [lib/vsprintf: add %pC{,n,r} format specifiers for clocks](https://github.com/bhb27/BHB27Kernel/search?q=lib/vsprintf%3A%20add%20%pC{,n,r}%20format%20specifiers%20for%20clocks&type=Commits)
+* [sprintf: hex_string(): fix comment](https://github.com/bhb27/BHB27Kernel/search?q=sprintf%3A%20hex_string%28%29%3A%20fix%20comment&type=Commits)
+* [remove task and stack pointer printout from oops dump](https://github.com/bhb27/BHB27Kernel/search?q=remove%20task%20and%20stack%20pointer%20printout%20from%20oops%20dump&type=Commits)
+
+***
+
+10-18-2018
+====================
+
+* [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
+* [ASoC: msm: qdsp6v2: make audio debugfs read and release exclusive](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20make%20audio%20debugfs%20read%20and%20release%20exclusive&type=Commits)
+* [regulator: core: Fix buffer overflow issue](https://github.com/bhb27/BHB27Kernel/search?q=regulator%3A%20core%3A%20Fix%20buffer%20overflow%20issue&type=Commits)
+* [usb: replace %p with %pK](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20replace%20%p%20with%20%pK&type=Commits)
+* [net: rmnet_data: validate csum in SW](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20rmnet_data%3A%20validate%20csum%20in%20SW&type=Commits)
+* [KEYS: prevent KEYCTL_READ on negative key](https://github.com/bhb27/BHB27Kernel/search?q=KEYS%3A%20prevent%20KEYCTL_READ%20on%20negative%20key&type=Commits)
+
+***
+
+10-17-2018
+====================
+
+* [ext4: fix check to prevent initializing reserved inodes](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20fix%20check%20to%20prevent%20initializing%20reserved%20inodes&type=Commits)
+* [ext4: move error report out of atomic context in ext4_init_block_bitmap()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20move%20error%20report%20out%20of%20atomic%20context%20in%20ext4_init_block_bitmap%28%29&type=Commits)
+* [ext4: add sanity check to ext4_get_group_info()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20sanity%20check%20to%20ext4_get_group_info%28%29&type=Commits)
+* [msm: camera: validate num_streams in stream_cfg_cmd before using it](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20validate%20num_streams%20in%20stream_cfg_cmd%20before%20using%20it&type=Commits)
+* [net: usb: rmnet_usb_ctrl: Fix use after free issue](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20usb%3A%20rmnet_usb_ctrl%3A%20Fix%20use%20after%20free%20issue&type=Commits)
+* [BACKPORT: ANDROID: Use sk_uid to replace uid get from socket file](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ANDROID%3A%20Use%20sk_uid%20to%20replace%20uid%20get%20from%20socket%20file&type=Commits)
+* [ANDROID: Add untag hacks to inet_release function](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20Add%20untag%20hacks%20to%20inet_release%20function&type=Commits)
+* [fix the deadlock in xt_qtaguid when enable DDEBUG](https://github.com/bhb27/BHB27Kernel/search?q=fix%20the%20deadlock%20in%20xt_qtaguid%20when%20enable%20DDEBUG&type=Commits)
+* [ANDROID: xt_qtaguid: Use sk_callback_lock read locks before reading sk->sk_socket](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20xt_qtaguid%3A%20Use%20sk_callback_lock%20read%20locks%20before%20reading%20sk->sk_socket&type=Commits)
+* [nf: xt_qtaguid: fix handling for cases where tunnels are used.](https://github.com/bhb27/BHB27Kernel/search?q=nf%3A%20xt_qtaguid%3A%20fix%20handling%20for%20cases%20where%20tunnels%20are%20used.&type=Commits)
+* [netfilter: fix seq_printf type mismatch warning](https://github.com/bhb27/BHB27Kernel/search?q=netfilter%3A%20fix%20seq_printf%20type%20mismatch%20warning&type=Commits)
+
+***
+
+10-13-2018
+====================
+
+* [jbd2: don't mark block as modified if the handle is out of credits](https://github.com/bhb27/BHB27Kernel/search?q=jbd2%3A%20don%27t%20mark%20block%20as%20modified%20if%20the%20handle%20is%20out%20of%20credits&type=Commits)
+* [ext4: always check block group bounds in ext4_init_block_bitmap()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20always%20check%20block%20group%20bounds%20in%20ext4_init_block_bitmap%28%29&type=Commits)
+* [ext4: add more inode number paranoia checks](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20more%20inode%20number%20paranoia%20checks&type=Commits)
+* [ext4: avoid running out of journal credits when appending to an inline file](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20avoid%20running%20out%20of%20journal%20credits%20when%20appending%20to%20an%20inline%20file&type=Commits)
+* [ext4: add corruption check in ext4_xattr_set_entry()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20corruption%20check%20in%20ext4_xattr_set_entry%28%29&type=Commits)
+* [ext4: standardize error handling in ext4_da_write_inline_data_begin()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20standardize%20error%20handling%20in%20ext4_da_write_inline_data_begin%28%29&type=Commits)
+* [ext4: delete "set but not used" variables](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20delete%20"set%20but%20not%20used"%20variables&type=Commits)
+* [ext4: retry allocation when inline->extent conversion failed](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20retry%20allocation%20when%20inline->extent%20conversion%20failed&type=Commits)
+* [ext4: clear i_data in ext4_inode_info when removing inline data](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20clear%20i_data%20in%20ext4_inode_info%20when%20removing%20inline%20data&type=Commits)
+* [ext4: never move the system.data xattr out of the inode body](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20never%20move%20the%20system.data%20xattr%20out%20of%20the%20inode%20body&type=Commits)
+* [ext4: always verify the magic number in xattr blocks](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20always%20verify%20the%20magic%20number%20in%20xattr%20blocks&type=Commits)
+* [ext4: verify the depth of extent tree in ext4_find_extent()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20verify%20the%20depth%20of%20extent%20tree%20in%20ext4_find_extent%28%29&type=Commits)
+
+***
+
+10-10-2018
+====================
+
+* [ANDROID: sdcardfs: Change current->fs under lock](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sdcardfs%3A%20Change%20current->fs%20under%20lock&type=Commits)
+* [ANDROID: sdcardfs: Don't use OVERRIDE_CRED macro](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20sdcardfs%3A%20Don%27t%20use%20OVERRIDE_CRED%20macro&type=Commits)
+* [msm: vidc: limit only OCMEM vote to lowest vector](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20limit%20only%20OCMEM%20vote%20to%20lowest%20vector&type=Commits)
+* [USB: gadget: android: Fix checkpatch related errors](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20gadget%3A%20android%3A%20Fix%20checkpatch%20related%20errors&type=Commits)
+* [USB: gadget: android: Integrate f_midi USB MIDI gadget driver](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20gadget%3A%20android%3A%20Integrate%20f_midi%20USB%20MIDI%20gadget%20driver&type=Commits)
+* [USB: gadget: midi: Fix deadlock unbinding driver while it is in use](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20gadget%3A%20midi%3A%20Fix%20deadlock%20unbinding%20driver%20while%20it%20is%20in%20use&type=Commits)
+* [udp: avoid ufo handling on IP payload compression packets](https://github.com/bhb27/BHB27Kernel/search?q=udp%3A%20avoid%20ufo%20handling%20on%20IP%20payload%20compression%20packets&type=Commits)
+* [ipv6: Don't use ufo handling on later transformed packets](https://github.com/bhb27/BHB27Kernel/search?q=ipv6%3A%20Don%27t%20use%20ufo%20handling%20on%20later%20transformed%20packets&type=Commits)
+* [Revert "ipsec: Fix aborted xfrm policy dump crash"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"ipsec%3A%20Fix%20aborted%20xfrm%20policy%20dump%20crash"&type=Commits)
+* [Revert "sdcardfs: Flag files as non-mappable"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"sdcardfs%3A%20Flag%20files%20as%20non-mappable"&type=Commits)
+* [Revert "ANDROID: sdcardfs: notify lower file of opens"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"ANDROID%3A%20sdcardfs%3A%20notify%20lower%20file%20of%20opens"&type=Commits)
+
+***
+
+10-02-2018
+====================
+
+* [ARM: dts: msm: Fix boolean property misuse](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%20msm%3A%20Fix%20boolean%20property%20misuse&type=Commits)
+
+***
+
+09-27-2018
+====================
+
+* [wireguard: manually reset to a working version](https://github.com/bhb27/BHB27Kernel/search?q=wireguard%3A%20manually%20reset%20to%20a%20working%20version&type=Commits)
+
+***
+
+09-26-2018
+====================
+
+* [Defconfig update twrp_defconfig](https://github.com/bhb27/BHB27Kernel/search?q=Defconfig%20update%20twrp_defconfig&type=Commits)
+
+***
+
+09-13-2018
+====================
+
+* [Add a .github/auto-comment.yml](https://github.com/bhb27/BHB27Kernel/search?q=Add%20a%20.github/auto-comment.yml&type=Commits)
+* [Build cleanup build.zip](https://github.com/bhb27/BHB27Kernel/search?q=Build%20cleanup%20build.zip&type=Commits)
+* [Start v 9.18](https://github.com/bhb27/BHB27Kernel/search?q=Start%20v%209.18&type=Commits)
+* [msm: Fix compile errors when CONFIG_MSM_SMP2P_TEST is disabled](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20Fix%20compile%20errors%20when%20CONFIG_MSM_SMP2P_TEST%20is%20disabled&type=Commits)
+* [defconfig: Disable MSM_SMP2P_TEST](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%3A%20Disable%20MSM_SMP2P_TEST&type=Commits)
+
+***
+
+09-08-2018
+====================
+
+* [l2tp: initialise session's refcount before making it reachable](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20initialise%20session%27s%20refcount%20before%20making%20it%20reachable&type=Commits)
+* [ASoC: msm: qdspv2: initialize variables before use](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdspv2%3A%20initialize%20variables%20before%20use&type=Commits)
+* [ASoC: msm: qdspv2: add spin lock to protect ac](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdspv2%3A%20add%20spin%20lock%20to%20protect%20ac&type=Commits)
+* [qcacld-2.0: Fix UAF in WLAN HDD](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20UAF%20in%20WLAN%20HDD&type=Commits)
+* [qcacld-2.0: Fix information leak issue during memcpy](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20information%20leak%20issue%20during%20memcpy&type=Commits)
+* [BACKPORT: l2tp: fix duplicate session creation](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20l2tp%3A%20fix%20duplicate%20session%20creation&type=Commits)
+* [BACKPORT: l2tp: fix race in l2tp_recv_common()](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20l2tp%3A%20fix%20race%20in%20l2tp_recv_common%28%29&type=Commits)
+* [qcacld-2.0: Fix UAF in the function wlan_hdd_execute_remain_on_channel](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20UAF%20in%20the%20function%20wlan_hdd_execute_remain_on_channel&type=Commits)
+* [qcacld-2.0: Resolve possible OOB while posting SET PASSPOINT WMA event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Resolve%20possible%20OOB%20while%20posting%20SET%20PASSPOINT%20WMA%20event&type=Commits)
+* [qcacld-2.0: Fix OOB write in wma_passpoint_match_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_passpoint_match_event_handler&type=Commits)
+* [msm: ipa: fix bug in routing table deletion](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ipa%3A%20fix%20bug%20in%20routing%20table%20deletion&type=Commits)
+* [netfilter: ebtables: fix erroneous reject of last rule](https://github.com/bhb27/BHB27Kernel/search?q=netfilter%3A%20ebtables%3A%20fix%20erroneous%20reject%20of%20last%20rule&type=Commits)
+* [ANDROID: HID: debug: check length in hid_debug_events_read() before copy_to_user()](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20HID%3A%20debug%3A%20check%20length%20in%20hid_debug_events_read%28%29%20before%20copy_to_user%28%29&type=Commits)
+* [usb: dwc3: dbm: Fix double free in msm_dbm_probe](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20dwc3%3A%20dbm%3A%20Fix%20double%20free%20in%20msm_dbm_probe&type=Commits)
+
+***
+
+09-07-2018
+====================
+
+* [qcacld-2.0: update WCNSS_qcom_cfg](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20update%20WCNSS_qcom_cfg&type=Commits)
+
+***
+
+09-04-2018
+====================
+
+* [qcacld-2.0: Possible buffer overflow in wma_stats_ext_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20buffer%20overflow%20in%20wma_stats_ext_event_handler&type=Commits)
+* [qcacld-2.0: Add data_len check to avoid OOB access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20data_len%20check%20to%20avoid%20OOB%20access&type=Commits)
+* [qcacld-2.0: Fix OOB access in htt_rx_ring_fill_n](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20access%20in%20htt_rx_ring_fill_n&type=Commits)
+* [qcacld-2.0: Fix OOB write in wma_extscan_change_results_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_extscan_change_results_event_handler&type=Commits)
+* [qcacld-2.0: Possible buffer overflow in wma_nan_rsp_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20buffer%20overflow%20in%20wma_nan_rsp_event_handler&type=Commits)
+* [qcacld-2.0: Integer overflow in wma_unified_link_peer_stats_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Integer%20overflow%20in%20wma_unified_link_peer_stats_event_handler&type=Commits)
+* [qcacld-2.0: Fix in wma_vdev_start_rsp_ind](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20in%20wma_vdev_start_rsp_ind&type=Commits)
+* [qcacld-2.0: Remove palPktFree in assoc request api](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20palPktFree%20in%20assoc%20request%20api&type=Commits)
+* [qcacld-2.0: Allocate extra 100 bytes to add missing IE info](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Allocate%20extra%20100%20bytes%20to%20add%20missing%20IE%20info&type=Commits)
+* [qcacld-2.0: Avoid int overflow in csrScanSavePreferredNetworkFound](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20int%20overflow%20in%20csrScanSavePreferredNetworkFound&type=Commits)
+* [qcacld-2.0: fix possible OOB read in SIOCSIWRATE WEXT ioctl handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20fix%20possible%20OOB%20read%20in%20SIOCSIWRATE%20WEXT%20ioctl%20handler&type=Commits)
+* [qcacld-2.0: Check ac in limSetEdcaBcastACMFlag](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20ac%20in%20limSetEdcaBcastACMFlag&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in ol_tx_inspect_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20ol_tx_inspect_handler&type=Commits)
+* [qcacld-2.0: Possible kernel info leak in sme_updateP2pIe()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20kernel%20info%20leak%20in%20sme_updateP2pIe%28%29&type=Commits)
+* [Start version 9.17](https://github.com/bhb27/BHB27Kernel/search?q=Start%20version%209.17&type=Commits)
+
+***
+
+08-30-2018
+====================
+
+* [qcacld-2.0:WCNSS_qcom_cfg.ini Set link activity timeouts to driver defaults](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Set%20link%20activity%20timeouts%20to%20driver%20defaults&type=Commits)
+* [kernel V9.16](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.16&type=Commits)
+* [qcacld-2.0:WCNSS_qcom_cfg.ini Modify DTIM config ini values](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3AWCNSS_qcom_cfg.ini%20Modify%20DTIM%20config%20ini%20values&type=Commits)
+* [qcacld-2.0: Calculate LI per AP's BI and DTIM](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Calculate%20LI%20per%20AP%27s%20BI%20and%20DTIM&type=Commits)
+
+***
+
+08-24-2018
+====================
+
+* [build: cleanup modules](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20cleanup%20modules&type=Commits)
+* [ANDROID: Revert "net: increase fragment memory usage limits"](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20Revert%20"net%3A%20increase%20fragment%20memory%20usage%20limits"&type=Commits)
+* [UPSTREAM: perf/hwbp: Simplify the perf-hwbp code, fix documentation](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20perf/hwbp%3A%20Simplify%20the%20perf-hwbp%20code,%20fix%20documentation&type=Commits)
+* [NFC: llcp: Limit size of SDP URI](https://github.com/bhb27/BHB27Kernel/search?q=NFC%3A%20llcp%3A%20Limit%20size%20of%20SDP%20URI&type=Commits)
+
+***
+
+08-15-2018
+====================
+
+* [V9.15](https://github.com/bhb27/BHB27Kernel/search?q=V9.15&type=Commits)
+
+***
+
+08-14-2018
+====================
+
+* [defconfig re-enable net realted](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20re-enable%20net%20realted&type=Commits)
+
+***
+
+08-11-2018
 ====================
 
 * [defconfig enable CONFIG_LZ4HC_COMPRESS](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20enable%20CONFIG_LZ4HC_COMPRESS&type=Commits)
@@ -16,6 +247,12 @@ BHB27KERNEL Oreo source Changelog:
 * [lz4: fix system halt at boot kernel on x86_64](https://github.com/bhb27/BHB27Kernel/search?q=lz4%3A%20fix%20system%20halt%20at%20boot%20kernel%20on%20x86_64&type=Commits)
 * [lib/lz4: Pull out constant tables](https://github.com/bhb27/BHB27Kernel/search?q=lib/lz4%3A%20Pull%20out%20constant%20tables&type=Commits)
 * [LZ4 : fix the data abort issue](https://github.com/bhb27/BHB27Kernel/search?q=LZ4%20%3A%20fix%20the%20data%20abort%20issue&type=Commits)
+
+***
+
+08-10-2018
+====================
+
 * [Update build/bhbkernel/anykernel.sh zram init config](https://github.com/bhb27/BHB27Kernel/search?q=Update%20build/bhbkernel/anykernel.sh%20zram%20init%20config&type=Commits)
 * [UPSTREAM: block: disable entropy contributions for nonrot devices](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20block%3A%20disable%20entropy%20contributions%20for%20nonrot%20devices&type=Commits)
 * [UPSTREAM: lz4: fix wrong compress buffer size for 64-bits](https://github.com/bhb27/BHB27Kernel/search?q=UPSTREAM%3A%20lz4%3A%20fix%20wrong%20compress%20buffer%20size%20for%2064-bits&type=Commits)
