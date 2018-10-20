@@ -199,6 +199,42 @@ clean up all cached files
 
 #### setup github end
 
+## ETC not related to android
+
+## Install lightdm
+
+	sudo apt-get -y install slick-greeter 
+
+Select lightdm when asked
+
+## Auto loging in lightdm add the bellow to /etc/lightdm/lightdm.conf
+
+	[SeatDefaults]
+	autologin-user=<YOUR USER>
+	autologin-user-timeout=0
+	user-session=ubuntu
+	#Uncomment the following, if running Unity Ubuntu 18+**
+	#greeter-session=unity-greeter
+
+## Slow boot because  of swap
+
+as sudo do
+
+	echo "RESUME=none" > /etc/initramfs-tools/conf.d/resume
+	update-initramfs -u
+
+
+## Cleanup old sys log
+
+	sudo journalctl --vacuum-time=2d
+
+Set SystemMaxUse in **/etc/systemd/journald.conf** to:
+
+SystemMaxUse=100M
+
+## disable the ureadahead service:
+
+	sudo systemctl disable ureadahead.service 
 
 ##  nodejs start
 
@@ -247,7 +283,11 @@ sync
 
 ## Set NVIDIA Start
 
-#### disable default Nvidia "nouveau" ubuntu driver in order to install the official Nvidia one
+#### Automatic installation
+
+	sudo ubuntu-drivers autoinstall 
+
+#### If the above doesn't work try, disable default Nvidia "nouveau" ubuntu driver in order to install the official Nvidia one
 
 	echo 'blacklist nouveau
 	blacklist lbm-nouveau
