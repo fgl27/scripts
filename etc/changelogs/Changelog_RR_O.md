@@ -1,5 +1,294 @@
 ### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)
 
+Resurrection Remix OS - Oreo source and Quark Changelog:
+============================================================
+
+11-10-2018
+====================
+
+#### Device specific Changes of 11-10-2018 Start:
+
+#### Device/Quark/
+* [Quark: add power hal sepolicy](https://github.com/search?q=Quark%3A%20add%20power%20hal%20sepolicy&type=Commits)
+* [Quark: improve README.md](https://github.com/search?q=Quark%3A%20improve%20README.md&type=Commits)
+* [Quark: add DoubleTapWake path and overlay bool](https://github.com/search?q=Quark%3A%20add%20DoubleTapWake%20path%20and%20overlay%20bool&type=Commits)
+* [Quark: update init.qcom.power.rc](https://github.com/search?q=Quark%3A%20update%20init.qcom.power.rc&type=Commits)
+* [Quark: init update mpdecision service](https://github.com/search?q=Quark%3A%20init%20update%20mpdecision%20service&type=Commits)
+
+#### Kernel/Quark/
+* [qcacld-2.0: Remove CSR dot11f IE RSN max len](https://github.com/search?q=qcacld-2.0%3A%20Remove%20CSR%20dot11f%20IE%20RSN%20max%20len&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: use mcamera](https://github.com/search?q=Quark%3A%20use%20mcamera&type=Commits)
+
+#### Device specific Changes of 11-10-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 11-10-2018:
+
+#### frameworks/av/
+* [Merge tag 'android-8.1.0_r50' into staging/lineage-15.1_merge-android-8.1.0_r50](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r50%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r50&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-10-2018 End.
+
+11-09-2018
+====================
+
+#### Device specific Changes of 11-09-2018 Start:
+
+#### Kernel/Quark/
+* [cpufreq: update cpufreq_interactive to latest version](https://github.com/search?q=cpufreq%3A%20update%20cpufreq_interactive%20to%20latest%20version&type=Commits)
+* [qcacld-2.0: Pass valid data to kernel upon processing GET_STAWPAIE IOCTL](https://github.com/search?q=qcacld-2.0%3A%20Pass%20valid%20data%20to%20kernel%20upon%20processing%20GET_STAWPAIE%20IOCTL&type=Commits)
+* [qcacld-2.0: Use request manager for linkspeed](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20linkspeed&type=Commits)
+* [qcacld-2.0: Use request manager for enter bmps](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20enter%20bmps&type=Commits)
+* [qcacld-2.0: Use request manager to handle WE_SET_POWER requests.](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20to%20handle%20WE_SET_POWER%20requests.&type=Commits)
+* [qcacld-2.0: Use request manager for RSSI](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20RSSI&type=Commits)
+* [qcacld-2.0: Use request manager for Class A stats](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20Class%20A%20stats&type=Commits)
+* [qcacld-2.0: Use request manager for get link status.](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20get%20link%20status.&type=Commits)
+* [qcacld-2.0: Use request manager for station stats](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20station%20stats&type=Commits)
+* [qcacld-2.0: Use request manager for SNR](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20SNR&type=Commits)
+* [qcacld-2.0: Use request manager for tsm metrics](https://github.com/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20tsm%20metrics&type=Commits)
+* [qcacld-2.0: Introduce and enable HDD Request Manager infrastructure](https://github.com/search?q=qcacld-2.0%3A%20Introduce%20and%20enable%20HDD%20Request%20Manager%20infrastructure&type=Commits)
+* [qcacld-2.0: Fix wrong return value of wlan_hdd_cfg80211_change_iface](https://github.com/search?q=qcacld-2.0%3A%20Fix%20wrong%20return%20value%20of%20wlan_hdd_cfg80211_change_iface&type=Commits)
+* [qcacld-2.0: Introduce vos_status_to_os_return](https://github.com/search?q=qcacld-2.0%3A%20Introduce%20vos_status_to_os_return&type=Commits)
+* [msm: vidc: update the check to ignore extradata plane in dqbuf](https://github.com/search?q=msm%3A%20vidc%3A%20update%20the%20check%20to%20ignore%20extradata%20plane%20in%20dqbuf&type=Commits)
+* [qcacld-2.0: Sanity check for ssid length in limLookupNaddHashEntry](https://github.com/search?q=qcacld-2.0%3A%20Sanity%20check%20for%20ssid%20length%20in%20limLookupNaddHashEntry&type=Commits)
+* [qcacld-2.0: Fix potential OOB read in dot11f.c](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20OOB%20read%20in%20dot11f.c&type=Commits)
+* [qcacld-2.0: Add check for vdev_id](https://github.com/search?q=qcacld-2.0%3A%20Add%20check%20for%20vdev_id&type=Commits)
+* [qcacld-2.0: Check ie_len against 255 in function get_container_ies_len](https://github.com/search?q=qcacld-2.0%3A%20Check%20ie_len%20against%20255%20in%20function%20get_container_ies_len&type=Commits)
+* [qcacld-2.0: Check the length of IE's before appending](https://github.com/search?q=qcacld-2.0%3A%20Check%20the%20length%20of%20IE%27s%20before%20appending&type=Commits)
+* [defconfig enable MEMCG_SWAP](https://github.com/search?q=defconfig%20enable%20MEMCG_SWAP&type=Commits)
+* [qcacld-2.0: Reset wifi flag when wifi is turned off with static driver](https://github.com/search?q=qcacld-2.0%3A%20Reset%20wifi%20flag%20when%20wifi%20is%20turned%20off%20with%20static%20driver&type=Commits)
+* [qcacld: Enable FTM support over cfg80211 interface](https://github.com/search?q=qcacld%3A%20Enable%20FTM%20support%20over%20cfg80211%20interface&type=Commits)
+* [qcacld-2.0: Prevent wlan exit in wrong state](https://github.com/search?q=qcacld-2.0%3A%20Prevent%20wlan%20exit%20in%20wrong%20state&type=Commits)
+* [wlan: Fix handling of DRIVER STOP command](https://github.com/search?q=wlan%3A%20Fix%20handling%20of%20DRIVER%20STOP%20command&type=Commits)
+* [qcacld: Do not validate for SSR and load/unload during interface up](https://github.com/search?q=qcacld%3A%20Do%20not%20validate%20for%20SSR%20and%20load/unload%20during%20interface%20up&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update mpdecision from samsung apq8084 common](https://github.com/search?q=Quark%3A%20update%20mpdecision%20from%20samsung%20apq8084%20common&type=Commits)
+
+#### Device specific Changes of 11-09-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 11-09-2018:
+
+#### packages/apps/Jelly/
+* [Jelly: Grant REQUEST_INSTALL_PACKAGES permission](https://github.com/search?q=Jelly%3A%20Grant%20REQUEST_INSTALL_PACKAGES%20permission&type=Commits)
+* [Jelly: Set proper mime type when downloading files](https://github.com/search?q=Jelly%3A%20Set%20proper%20mime%20type%20when%20downloading%20files&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-09-2018 End.
+
+11-08-2018
+====================
+
+#### Device specific Changes of 11-08-2018 Start:
+
+#### Device/Quark/
+* [lineageactions: CameraActivationSensor add delay between actions](https://github.com/search?q=lineageactions%3A%20CameraActivationSensor%20add%20delay%20between%20actions&type=Commits)
+* [Quark: Add Lineage power hal to manifest](https://github.com/search?q=Quark%3A%20Add%20Lineage%20power%20hal%20to%20manifest&type=Commits)
+* [Quark: Use QTI HIDL power HAL](https://github.com/search?q=Quark%3A%20Use%20QTI%20HIDL%20power%20HAL&type=Commits)
+* [quark: Set permissions so radio can read /proc/cmdline](https://github.com/search?q=quark%3A%20Set%20permissions%20so%20radio%20can%20read%20/proc/cmdline&type=Commits)
+* [Quark: Clean up OMX codecs packages](https://github.com/search?q=Quark%3A%20Clean%20up%20OMX%20codecs%20packages&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: Move more libs to vendor](https://github.com/search?q=Quark%3A%20Move%20more%20libs%20to%20vendor&type=Commits)
+* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 11-08-2018 End.
+
+***
+
+11-07-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 11-07-2018:
+
+#### frameworks/av/
+* [Add missing extensions, fix scan of bad media files.](https://github.com/search?q=Add%20missing%20extensions,%20fix%20scan%20of%20bad%20media%20files.&type=Commits)
+* [MatroskaExtractor: handle parse error.](https://github.com/search?q=MatroskaExtractor%3A%20handle%20parse%20error.&type=Commits)
+* [Don't CHECK for unknown fourcc](https://github.com/search?q=Don%27t%20CHECK%20for%20unknown%20fourcc&type=Commits)
+* [Matroska: HEVC support](https://github.com/search?q=Matroska%3A%20HEVC%20support&type=Commits)
+
+#### packages/apps/Nfc/
+* [NFCService: Add sysprop to prevent FW download during boot with NFC off.](https://github.com/search?q=NFCService%3A%20Add%20sysprop%20to%20prevent%20FW%20download%20during%20boot%20with%20NFC%20off.&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-07-2018 End.
+
+11-06-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 11-06-2018:
+#### android/
+* [manifest: android-8.1.0_r47 -> android-8.1.0_r50](https://github.com/search?q=manifest%3A%20android-8.1.0_r47%20->%20android-8.1.0_r50&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-8.1.0_r50' of https://android.googlesource.com/platform/build into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r50%27%20of%20https%3A//android.googlesource.com/platform/build%20into%20HEAD&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-8.1.0_r50' of https://android.googlesource.com/platform/frameworks/base into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r50%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20HEAD&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-8.1.0_r50' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r50%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20HEAD&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-06-2018 End.
+
+11-05-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 11-05-2018:
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BookmarkProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/WeatherProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Mms/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-05-2018 End.
+
+10-21-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-21-2018:
+
+#### hardware/qcom/display-caf/msm8996/
+* [libdisplayconfig: Depend on vendor.display.config@1.0_vendor](https://github.com/search?q=libdisplayconfig%3A%20Depend%20on%20vendor.display.config%401.0_vendor&type=Commits)
+
+#### hardware/qcom/display-caf/msm8998/
+* [libdisplayconfig: Depend on vendor.display.config@1.0_vendor](https://github.com/search?q=libdisplayconfig%3A%20Depend%20on%20vendor.display.config%401.0_vendor&type=Commits)
+
+#### hardware/qcom/display-caf/sdm845/
+* [libdisplayconfig: Depend on vendor.display.config@1.0_vendor](https://github.com/search?q=libdisplayconfig%3A%20Depend%20on%20vendor.display.config%401.0_vendor&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-15.1' into 8.1](https://github.com/search?q=Merge%20%27lineage-15.1%27%20into%208.1&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-21-2018 End.
+
 10-20-2018
 ====================
 
