@@ -3,83 +3,35 @@
 BHB27KERNEL Oreo source Changelog:
 ============================================================
 
-11-10-2018
+11-18-2018
 ====================
 
-* [qcacld-2.0: Remove CSR dot11f IE RSN max len](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20CSR%20dot11f%20IE%20RSN%20max%20len&type=Commits)
+* [kernel V9.21](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.21&type=Commits)
 
 ***
 
-11-09-2018
+11-17-2018
 ====================
 
+* [ARM: dts: msm: Disable U1U2 low power mode on 8084](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%20msm%3A%20Disable%20U1U2%20low%20power%20mode%20on%208084&type=Commits)
+* [msm: vidc: Fast forward power collapse features](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Fast%20forward%20power%20collapse%20features&type=Commits)
+* [ARM: dts: msm: Remove support for qcrypto1 device for 8084](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%20msm%3A%20Remove%20support%20for%20qcrypto1%20device%20for%208084&type=Commits)
+
+***
+
+11-11-2018
+====================
+
+* [v 9.20](https://github.com/bhb27/BHB27Kernel/search?q=v%209.20&type=Commits)
 * [build: update default gov](https://github.com/bhb27/BHB27Kernel/search?q=build%3A%20update%20default%20gov&type=Commits)
 * [Revert "defconfig disable CONFIG_CPU_BOOST"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"defconfig%20disable%20CONFIG_CPU_BOOST"&type=Commits)
 * [soc/qcom: fix hotplug compilation without cpuboost](https://github.com/bhb27/BHB27Kernel/search?q=soc/qcom%3A%20fix%20hotplug%20compilation%20without%20cpuboost&type=Commits)
 * [cpufreq: update cpufreq_interactive to latest version](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20update%20cpufreq_interactive%20to%20latest%20version&type=Commits)
 * [defconfig disable CONFIG_CPU_BOOST](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20CONFIG_CPU_BOOST&type=Commits)
-* [qcacld-2.0: Pass valid data to kernel upon processing GET_STAWPAIE IOCTL](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Pass%20valid%20data%20to%20kernel%20upon%20processing%20GET_STAWPAIE%20IOCTL&type=Commits)
-* [qcacld-2.0: Use request manager for linkspeed](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20linkspeed&type=Commits)
-* [qcacld-2.0: Use request manager for enter bmps](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20enter%20bmps&type=Commits)
-* [qcacld-2.0: Use request manager to handle WE_SET_POWER requests.](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20to%20handle%20WE_SET_POWER%20requests.&type=Commits)
-* [qcacld-2.0: Use request manager for RSSI](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20RSSI&type=Commits)
-* [qcacld-2.0: Use request manager for Class A stats](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20Class%20A%20stats&type=Commits)
-* [qcacld-2.0: Use request manager for get link status.](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20get%20link%20status.&type=Commits)
-* [qcacld-2.0: Use request manager for station stats](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20station%20stats&type=Commits)
-* [qcacld-2.0: Use request manager for SNR](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20SNR&type=Commits)
-* [qcacld-2.0: Use request manager for tsm metrics](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Use%20request%20manager%20for%20tsm%20metrics&type=Commits)
-* [qcacld-2.0: Introduce and enable HDD Request Manager infrastructure](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Introduce%20and%20enable%20HDD%20Request%20Manager%20infrastructure&type=Commits)
-* [qcacld-2.0: Fix wrong return value of wlan_hdd_cfg80211_change_iface](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20wrong%20return%20value%20of%20wlan_hdd_cfg80211_change_iface&type=Commits)
-* [qcacld-2.0: Introduce vos_status_to_os_return](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Introduce%20vos_status_to_os_return&type=Commits)
-
-***
-
-11-08-2018
-====================
-
-* [msm: vidc: update the check to ignore extradata plane in dqbuf](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20update%20the%20check%20to%20ignore%20extradata%20plane%20in%20dqbuf&type=Commits)
-
-***
-
-11-07-2018
-====================
-
-* [qcacld-2.0: Sanity check for ssid length in limLookupNaddHashEntry](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Sanity%20check%20for%20ssid%20length%20in%20limLookupNaddHashEntry&type=Commits)
-* [qcacld-2.0: Fix potential OOB read in dot11f.c](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20OOB%20read%20in%20dot11f.c&type=Commits)
-* [qcacld-2.0: Add check for vdev_id](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20check%20for%20vdev_id&type=Commits)
-* [qcacld-2.0: Check ie_len against 255 in function get_container_ies_len](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20ie_len%20against%20255%20in%20function%20get_container_ies_len&type=Commits)
-* [qcacld-2.0: Check the length of IE's before appending](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Check%20the%20length%20of%20IE%27s%20before%20appending&type=Commits)
-
-***
-
-11-06-2018
-====================
-
 * [defconfig enable MEMCG_SWAP](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20enable%20MEMCG_SWAP&type=Commits)
-* [qcacld-2.0: Reset wifi flag when wifi is turned off with static driver](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Reset%20wifi%20flag%20when%20wifi%20is%20turned%20off%20with%20static%20driver&type=Commits)
-* [qcacld: Enable FTM support over cfg80211 interface](https://github.com/bhb27/BHB27Kernel/search?q=qcacld%3A%20Enable%20FTM%20support%20over%20cfg80211%20interface&type=Commits)
-* [qcacld-2.0: Prevent wlan exit in wrong state](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Prevent%20wlan%20exit%20in%20wrong%20state&type=Commits)
-* [wlan: Fix handling of DRIVER STOP command](https://github.com/bhb27/BHB27Kernel/search?q=wlan%3A%20Fix%20handling%20of%20DRIVER%20STOP%20command&type=Commits)
-* [qcacld: Do not validate for SSR and load/unload during interface up](https://github.com/bhb27/BHB27Kernel/search?q=qcacld%3A%20Do%20not%20validate%20for%20SSR%20and%20load/unload%20during%20interface%20up&type=Commits)
-* [qcacld-2.0: Fix hdd_ctx validation in __hdd_stop](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20hdd_ctx%20validation%20in%20__hdd_stop&type=Commits)
-* [qcacld-2.0: Add unload in progress to vos context](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20unload%20in%20progress%20to%20vos%20context&type=Commits)
-* [qcacld-2.0: Making sure there is no active entry during unload](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Making%20sure%20there%20is%20no%20active%20entry%20during%20unload&type=Commits)
-* [qcacld-2.0: Fix buffer overwrite in limMlmAddBss()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20in%20limMlmAddBss%28%29&type=Commits)
-* [qcacld-2.0: Fix buffer overwrite in limMlmAddBss()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20in%20limMlmAddBss%28%29&type=Commits)
-
-***
-
-11-02-2018
-====================
-
 * [V 9.19](https://github.com/bhb27/BHB27Kernel/search?q=V%209.19&type=Commits)
 * [fs: Improve eventpoll logging to stop indicting timerfd](https://github.com/bhb27/BHB27Kernel/search?q=fs%3A%20Improve%20eventpoll%20logging%20to%20stop%20indicting%20timerfd&type=Commits)
 * [msm: kgsl: Increase worker thread priority](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Increase%20worker%20thread%20priority&type=Commits)
-* [qcacld-2.0: OOB access may occur due to total numChannels exceeds max value](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20OOB%20access%20may%20occur%20due%20to%20total%20numChannels%20exceeds%20max%20value&type=Commits)
-* [qcacld-2.0: Fix OOB write in wma_unified_debug_print_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20OOB%20write%20in%20wma_unified_debug_print_event_handler&type=Commits)
-* [qcacld-2.0: Fix buffer overwrite in wma_unified_debug_print_event_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20in%20wma_unified_debug_print_event_handler&type=Commits)
-* [qcacld-2.0: Fix buffer overwrite in csrRoamCheckForLinkStatusChange](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overwrite%20in%20csrRoamCheckForLinkStatusChange&type=Commits)
-* [qcacld-2.0: Increase size of MAX_WPA_RSN_IE_LEN in wlan_hdd_cfg80211_set_ie](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Increase%20size%20of%20MAX_WPA_RSN_IE_LEN%20in%20wlan_hdd_cfg80211_set_ie&type=Commits)
 * [ALSA: control: Hardening for potential Spectre v1](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20control%3A%20Hardening%20for%20potential%20Spectre%20v1&type=Commits)
 * [sched/core: Fix possible Spectre-v1 indexing for sched_prio_to_weight[]](https://github.com/bhb27/BHB27Kernel/search?q=sched/core%3A%20Fix%20possible%20Spectre-v1%20indexing%20for%20sched_prio_to_weight[]&type=Commits)
 * [kernel/sys.c: fix potential Spectre v1 issue](https://github.com/bhb27/BHB27Kernel/search?q=kernel/sys.c%3A%20fix%20potential%20Spectre%20v1%20issue&type=Commits)
