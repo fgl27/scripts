@@ -3,6 +3,46 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+11-27-2018
+====================
+
+#### Device specific Changes of 11-27-2018 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy/cnd.te](https://github.com/search?q=Quark%3A%20update%20sepolicy/cnd.te&type=Commits)
+* [Quark: sepolicy update audioserver.te](https://github.com/search?q=Quark%3A%20sepolicy%20update%20audioserver.te&type=Commits)
+* [Quark: add sepolicy for rfkill_device](https://github.com/search?q=Quark%3A%20add%20sepolicy%20for%20rfkill_device&type=Commits)
+* [Quark: start adspd with main class](https://github.com/search?q=Quark%3A%20start%20adspd%20with%20main%20class&type=Commits)
+
+#### Kernel/Quark/
+* [misc: stm401: switch to NORMALMODE on probe](https://github.com/search?q=misc%3A%20stm401%3A%20switch%20to%20NORMALMODE%20on%20probe&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: extrack mcamera libs](https://github.com/search?q=Quark%3A%20extrack%20mcamera%20libs&type=Commits)
+
+#### Device specific Changes of 11-27-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 11-27-2018:
+
+#### bootable/recovery/
+* [Make adb use a custom prop for adb root](https://github.com/search?q=Make%20adb%20use%20a%20custom%20prop%20for%20adb%20root&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-27-2018 End.
+
+11-26-2018
+====================
+
+#### Device specific Changes of 11-26-2018 Start:
+
+#### Vendor/Quark/
+* [Quark: update mcamera](https://github.com/search?q=Quark%3A%20update%20mcamera&type=Commits)
+
+#### Device specific Changes of 11-26-2018 End.
+
+***
+
 11-24-2018
 ====================
 
