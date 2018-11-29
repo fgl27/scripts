@@ -3,6 +3,24 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+
+11-29-2018
+====================
+
+#### Device specific Changes of 11-29-2018 Start:
+
+#### Device/Quark/
+* [Quark: overlay Allowing mcamera register DnD rules](https://github.com/search?q=Quark%3A%20overlay%20Allowing%20mcamera%20register%20DnD%20rules&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: mcamera add permission ACCESS_NOTIFICATION_POLICY to manifest](https://github.com/search?q=Quark%3A%20mcamera%20add%20permission%20ACCESS_NOTIFICATION_POLICY%20to%20manifest&type=Commits)
+* [Quark: move mcamera to system](https://github.com/search?q=Quark%3A%20move%20mcamera%20to%20system&type=Commits)
+* [Quark: update mcamera extra settings options](https://github.com/search?q=Quark%3A%20update%20mcamera%20extra%20settings%20options&type=Commits)
+
+#### Device specific Changes of 11-29-2018 End.
+
+***
+
 11-27-2018
 ====================
 
