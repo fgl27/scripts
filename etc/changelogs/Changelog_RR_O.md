@@ -3,6 +3,92 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+12-09-2018
+====================
+
+#### Device specific Changes of 12-09-2018 Start:
+
+#### Kernel/Quark/
+* [Merge branch 'O' of https://github.com/bhb27/BHB27Kernel into O](https://github.com/search?q=Merge%20branch%20%27O%27%20of%20https%3A//github.com/bhb27/BHB27Kernel%20into%20O&type=Commits)
+* [ion: invalidate the pool pointers after free](https://github.com/search?q=ion%3A%20invalidate%20the%20pool%20pointers%20after%20free&type=Commits)
+* [msm: camera: Fix out-of-bounds read in string class name.](https://github.com/search?q=msm%3A%20camera%3A%20Fix%20out-of-bounds%20read%20in%20string%20class%20name.&type=Commits)
+* [msm: sps: Suppress bind/unbind attributes](https://github.com/search?q=msm%3A%20sps%3A%20Suppress%20bind/unbind%20attributes&type=Commits)
+
+#### Device specific Changes of 12-09-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 12-09-2018:
+#### android/
+* [manifest: android-8.1.0_r50 to android-8.1.0_r52](https://github.com/search?q=manifest%3A%20android-8.1.0_r50%20to%20android-8.1.0_r52&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-8.1.0_r52' of https://android.googlesource.com/platform/build into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20of%20https%3A//android.googlesource.com/platform/build%20into%20oreo&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-8.1.0_r52' of https://android.googlesource.com/platform/frameworks/base into oreo](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20oreo&type=Commits)
+* [ClipboardService: Restore different method calls to AppOps to fix PG](https://github.com/search?q=ClipboardService%3A%20Restore%20different%20method%20calls%20to%20AppOps%20to%20fix%20PG&type=Commits)
+* [SystemUI: Clean duplicated CONFIGURE_WIFI_DISPLAY permission](https://github.com/search?q=SystemUI%3A%20Clean%20duplicated%20CONFIGURE_WIFI_DISPLAY%20permission&type=Commits)
+* [Make adb use a custom prop for adb root](https://github.com/search?q=Make%20adb%20use%20a%20custom%20prop%20for%20adb%20root&type=Commits)
+* [Screenshot: Append app name after screenshot date.](https://github.com/search?q=Screenshot%3A%20Append%20app%20name%20after%20screenshot%20date.&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-8.1.0_r52' of https://android.googlesource.com/platform/frameworks/native into pie](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20of%20https%3A//android.googlesource.com/platform/frameworks/native%20into%20pie&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 12-09-2018 End.
+
+12-05-2018
+====================
+
+#### Device specific Changes of 12-05-2018 Start:
+
+#### Device/Quark/
+* [Quark: Allow targets to override OEM AID restriction](https://github.com/search?q=Quark%3A%20Allow%20targets%20to%20override%20OEM%20AID%20restriction&type=Commits)
+
+#### Device specific Changes of 12-05-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 12-05-2018:
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 12-05-2018 End.
+
+12-04-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 12-04-2018:
+
+#### external/f2fs-tools/
+* [Merge tag 'android-8.1.0_r52' into staging/lineage-15.1_merge-android-8.1.0_r52](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r52&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-8.1.0_r52' into staging/lineage-15.1_merge-android-8.1.0_r52](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r52&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-8.1.0_r52' into staging/lineage-15.1_merge-android-8.1.0_r52](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r52&type=Commits)
+
+#### system/nfc/
+* [Merge tag 'android-8.1.0_r52' into staging/lineage-15.1_merge-android-8.1.0_r52](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r52&type=Commits)
+
+#### system/vold/
+* [Merge tag 'android-8.1.0_r52' into staging/lineage-15.1_merge-android-8.1.0_r52](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r52%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r52&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 12-04-2018 End.
+
+12-01-2018
+====================
+
+#### Device specific Changes of 12-01-2018 Start:
+
+#### Kernel/Quark/
+* [Revert "wireguard: manually reset to a working version"](https://github.com/search?q=Revert%20"wireguard%3A%20manually%20reset%20to%20a%20working%20version"&type=Commits)
+
+#### Device specific Changes of 12-01-2018 End.
+
+***
 
 11-29-2018
 ====================
