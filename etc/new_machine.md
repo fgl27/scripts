@@ -76,23 +76,42 @@ Deleting the old Home
 
 #### Partitioning/Home/Moving end
 
-## libreoffice start
+## apt-get install and general installations and setups start
+
+#### Personal installation list (things only really related to my personal use of a computer)
+
+	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted dconf-tools xserver-xorg-input-synaptics samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch
+
+
+#### libreoffice start
 
 https://www.libreoffice.org/download/download/
 
 	sudo dpkg -i *
 
-#### libreoffice end
+#### teamviewer access
 
-## apt-get install and general installations and setups start
+	wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+	sudo dpkg -i teamviewer_amd64.deb
+
+#### Purge part, some default Ubuntu drivers are not supported on my computer
+
+	sudo apt-get purge iio-sensor-proxy
+
+#### For general android app build machine + adb shell and fastboot for debugging
 
 	sudo add-apt-repository ppa:openjdk-r/ppa
 
-#### For normal android app build machine + adb shell and fastboot
+	sudo apt-get -y install openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby curl android-tools-adb p7zip-full fastboot apktool
 
-	sudo apt-get -y install gnome-tweak-tool vlc thunderbird dkms build-essential aspell-pt-br openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby deluge gedit-plugins shotwell dconf-tools pinta gparted curl android-tools-adb p7zip-full xserver-xorg-input-synaptics samba fastboot jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch apktool
+	sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules
+	sudo chmod 644   /etc/udev/rules.d/51-android.rules
+	sudo chown root /etc/udev/rules.d/51-android.rules
+	sudo service udev restart
+	adb kill-server
+	sudo killall adb
 
-#### For extra android ROM and Kernel build machine do the above and the bellow
+#### For extra android ROM and Kernel builds do the above and the bellow
 
 	sudo apt-get -y install bc git-core gnupg flex bison gperf libsdl1.2-dev squashfs-tools zip libncurses5-dev zlib1g-dev schedtool libxml2 libxml2-utils xsltproc lzop liblz4-* lzma* liblzma* libc6-dev g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp lib32stdc++6 ccache alien
 
@@ -107,7 +126,7 @@ https://www.libreoffice.org/download/download/
 
 	echo "max_size = 30.0G" > .ccache/ccache.conf
 	echo "USE_CCACHE=1" >> .bashrc
-	cd ROM_FOLDER
+	cd ROM_SOURCE_FOLDER
 	~/prebuilts/misc/linux-x86/ccache/ccache -M 30G
 
 If you chose to override the cache folder path add this to .bashrc
@@ -147,28 +166,7 @@ clean up all cached files
 
 #### For a Nougat build in Ubutu 18.04 end
 
-#### adb shell and teamviewer access
-
-	sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules
-	sudo chmod 644   /etc/udev/rules.d/51-android.rules
-	sudo chown root /etc/udev/rules.d/51-android.rules
-	sudo service udev restart
-	adb kill-server
-	sudo killall adb
-
-	wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-	sudo dpkg -i teamviewer_amd64.deb
-
-#### adb shell and teamviewer access end
-
-
-#### Purge part, some drivers are not supported
-
-	sudo apt-get purge iio-sensor-proxy
-
-#### Purge part end
-
-#### apt-get install and general installations and setups end
+## apt-get install and general installations and setups end
 
 ## setup github start
 
@@ -199,7 +197,7 @@ clean up all cached files
 
 #### setup github end
 
-## ETC not related to android
+## ETC not related to android just to my personal machine
 
 ## Install lightdm
 
