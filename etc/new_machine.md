@@ -243,7 +243,7 @@ npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" > ~/.profile
 npm install js-beautify jshint uglify-js -g
 ```
-####  nodejs start end
+##  nodejs end
 
 ## install tizen start
 
@@ -254,7 +254,7 @@ properties >  permission > Execute... mark
 Main SDK Install Tizen SDK tools
 Extension SDK Install Samsung Certificate Extension, and under TV Extension Tools install Web app. Tools
 
-#### install tizen end
+## install tizen end
 
 ## iso to bootable USB start
 
@@ -271,13 +271,11 @@ sync
 
 	sudo eject /dev/sdb
 
-#### iso to bootable USB end
+## iso to bootable USB end
 
 ## Set a password for your user in Samba
 
 	sudo smbpasswd -a <user_name>
-
-### Set a password for your user in Samba end
 
 ## Set NVIDIA Start
 
