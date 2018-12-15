@@ -3,13 +3,50 @@
 Resurrection Remix OS - Oreo source and Quark Changelog:
 ============================================================
 
+12-15-2018
+====================
+
+#### Device specific Changes of 12-15-2018 Start:
+
+#### Kernel/Quark/
+* [Revert "wireguard: manually reset to a working version"](https://github.com/search?q=Revert%20"wireguard%3A%20manually%20reset%20to%20a%20working%20version"&type=Commits)
+
+#### Device specific Changes of 12-15-2018 End.
+
+***
+
+12-11-2018
+====================
+
+#### Device specific Changes of 12-11-2018 Start:
+
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: dontaudit.te clean up not existem type](https://github.com/search?q=Quark%3A%20dontaudit.te%20clean%20up%20not%20existem%20type&type=Commits)
+
+#### Device specific Changes of 12-11-2018 End.
+
+***
+
+12-10-2018
+====================
+
+#### Device specific Changes of 12-10-2018 Start:
+
+#### Device/Quark/
+* [Quark: fix loading fs_config/config_extra.fs](https://github.com/search?q=Quark%3A%20fix%20loading%20fs_config/config_extra.fs&type=Commits)
+* [Quark: fix lineage lunch](https://github.com/search?q=Quark%3A%20fix%20lineage%20lunch&type=Commits)
+
+#### Device specific Changes of 12-10-2018 End.
+
+***
+
 12-09-2018
 ====================
 
 #### Device specific Changes of 12-09-2018 Start:
 
 #### Kernel/Quark/
-* [Merge branch 'O' of https://github.com/bhb27/BHB27Kernel into O](https://github.com/search?q=Merge%20branch%20%27O%27%20of%20https%3A//github.com/bhb27/BHB27Kernel%20into%20O&type=Commits)
 * [ion: invalidate the pool pointers after free](https://github.com/search?q=ion%3A%20invalidate%20the%20pool%20pointers%20after%20free&type=Commits)
 * [msm: camera: Fix out-of-bounds read in string class name.](https://github.com/search?q=msm%3A%20camera%3A%20Fix%20out-of-bounds%20read%20in%20string%20class%20name.&type=Commits)
 * [msm: sps: Suppress bind/unbind attributes](https://github.com/search?q=msm%3A%20sps%3A%20Suppress%20bind/unbind%20attributes&type=Commits)
@@ -78,22 +115,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 12-04-2018 End.
 
-12-01-2018
+11-30-2018
 ====================
 
-#### Device specific Changes of 12-01-2018 Start:
-
-#### Kernel/Quark/
-* [Revert "wireguard: manually reset to a working version"](https://github.com/search?q=Revert%20"wireguard%3A%20manually%20reset%20to%20a%20working%20version"&type=Commits)
-
-#### Device specific Changes of 12-01-2018 End.
-
-***
-
-11-29-2018
-====================
-
-#### Device specific Changes of 11-29-2018 Start:
+#### Device specific Changes of 11-30-2018 Start:
 
 #### Device/Quark/
 * [Quark: overlay Allowing mcamera register DnD rules](https://github.com/search?q=Quark%3A%20overlay%20Allowing%20mcamera%20register%20DnD%20rules&type=Commits)
@@ -101,11 +126,39 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Vendor/Quark/
 * [Quark: mcamera add permission ACCESS_NOTIFICATION_POLICY to manifest](https://github.com/search?q=Quark%3A%20mcamera%20add%20permission%20ACCESS_NOTIFICATION_POLICY%20to%20manifest&type=Commits)
 * [Quark: move mcamera to system](https://github.com/search?q=Quark%3A%20move%20mcamera%20to%20system&type=Commits)
+
+#### Device specific Changes of 11-30-2018 End.
+
+***
+
+#### Resurrection Remix OS - Oreo source changes of 11-30-2018:
+
+#### hardware/qcom/power/
+* [power: Drop default POWER_HINT_INTERACTION routine](https://github.com/search?q=power%3A%20Drop%20default%20POWER_HINT_INTERACTION%20routine&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-30-2018 End.
+
+11-29-2018
+====================
+
+#### Device specific Changes of 11-29-2018 Start:
+
+#### Vendor/Quark/
 * [Quark: update mcamera extra settings options](https://github.com/search?q=Quark%3A%20update%20mcamera%20extra%20settings%20options&type=Commits)
 
 #### Device specific Changes of 11-29-2018 End.
 
 ***
+
+11-28-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 11-28-2018:
+
+#### bootable/recovery/
+* [Fix making adb use a custom prop for adb root](https://github.com/search?q=Fix%20making%20adb%20use%20a%20custom%20prop%20for%20adb%20root&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-28-2018 End.
 
 11-27-2018
 ====================
@@ -146,6 +199,61 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 11-26-2018 End.
 
 ***
+
+#### Resurrection Remix OS - Oreo source changes of 11-26-2018:
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 11-26-2018 End.
 
 11-24-2018
 ====================
@@ -210,17 +318,17 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
-11-18-2018
+11-19-2018
 ====================
 
-#### Device specific Changes of 11-18-2018 Start:
+#### Device specific Changes of 11-19-2018 Start:
 
 #### Kernel/Quark/
 * [ARM: dts: msm: Disable U1U2 low power mode on 8084](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Disable%20U1U2%20low%20power%20mode%20on%208084&type=Commits)
 * [msm: vidc: Fast forward power collapse features](https://github.com/search?q=msm%3A%20vidc%3A%20Fast%20forward%20power%20collapse%20features&type=Commits)
 * [ARM: dts: msm: Remove support for qcrypto1 device for 8084](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Remove%20support%20for%20qcrypto1%20device%20for%208084&type=Commits)
 
-#### Device specific Changes of 11-18-2018 End.
+#### Device specific Changes of 11-19-2018 End.
 
 ***
 
@@ -244,10 +352,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
-11-15-2018
+11-16-2018
 ====================
 
-#### Resurrection Remix OS - Oreo source changes of 11-15-2018:
+#### Resurrection Remix OS - Oreo source changes of 11-16-2018:
 
 #### hardware/qcom/fm/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -266,6 +374,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### packages/apps/EmergencyInfo/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Rename translations for new language code mapping](https://github.com/search?q=Rename%20translations%20for%20new%20language%20code%20mapping&type=Commits)
 
 #### packages/apps/Gallery2/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -300,12 +411,26 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### packages/providers/DownloadProvider/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
-#### Resurrection Remix OS - Oreo source changes of 11-15-2018 End.
+#### Resurrection Remix OS - Oreo source changes of 11-16-2018 End.
 
 11-14-2018
 ====================
 
+#### Device specific Changes of 11-14-2018 Start:
+
+#### Device/Quark/
+* [Quark: media: Give /dev/msm_vidc_* camera group and video_device label](https://github.com/search?q=Quark%3A%20media%3A%20Give%20/dev/msm_vidc_*%20camera%20group%20and%20video_device%20label&type=Commits)
+* [Quark: Remove obsolete legacy HAL1 props](https://github.com/search?q=Quark%3A%20Remove%20obsolete%20legacy%20HAL1%20props&type=Commits)
+* [Quark: change cmdline permissions earlier](https://github.com/search?q=Quark%3A%20change%20cmdline%20permissions%20earlier&type=Commits)
+
+#### Device specific Changes of 11-14-2018 End.
+
+***
+
 #### Resurrection Remix OS - Oreo source changes of 11-14-2018:
+
+#### packages/apps/Bluetooth/
+* [Bluetooth: Clean duplicated READ_CONTACTS permission](https://github.com/search?q=Bluetooth%3A%20Clean%20duplicated%20READ_CONTACTS%20permission&type=Commits)
 
 #### packages/apps/LockClock/
 * [Release the wakelock before worker thread termination](https://github.com/search?q=Release%20the%20wakelock%20before%20worker%20thread%20termination&type=Commits)
@@ -318,23 +443,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 11-13-2018 Start:
 
 #### Device/Quark/
-* [Quark: media: Give /dev/msm_vidc_* camera group and video_device label](https://github.com/search?q=Quark%3A%20media%3A%20Give%20/dev/msm_vidc_*%20camera%20group%20and%20video_device%20label&type=Commits)
-* [Quark: Remove obsolete legacy HAL1 props](https://github.com/search?q=Quark%3A%20Remove%20obsolete%20legacy%20HAL1%20props&type=Commits)
-* [Quark: change cmdline permissions earlier](https://github.com/search?q=Quark%3A%20change%20cmdline%20permissions%20earlier&type=Commits)
-
-#### Device specific Changes of 11-13-2018 End.
-
-***
-
-11-12-2018
-====================
-
-#### Device specific Changes of 11-12-2018 Start:
-
-#### Device/Quark/
 * [Quark: update sepolicy/hal_power](https://github.com/search?q=Quark%3A%20update%20sepolicy/hal_power&type=Commits)
 
-#### Device specific Changes of 11-12-2018 End.
+#### Device specific Changes of 11-13-2018 End.
 
 ***
 
@@ -363,6 +474,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Device specific Changes of 11-10-2018 Start:
 
+#### Device/Quark/
+* [Quark: add power hal sepolicy](https://github.com/search?q=Quark%3A%20add%20power%20hal%20sepolicy&type=Commits)
+* [Quark: improve README.md](https://github.com/search?q=Quark%3A%20improve%20README.md&type=Commits)
+
 #### Vendor/Quark/
 * [Quark: use mcamera](https://github.com/search?q=Quark%3A%20use%20mcamera&type=Commits)
 
@@ -387,8 +502,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Device specific Changes of 11-09-2018 Start:
 
 #### Device/Quark/
-* [Quark: add power hal sepolicy](https://github.com/search?q=Quark%3A%20add%20power%20hal%20sepolicy&type=Commits)
-* [Quark: improve README.md](https://github.com/search?q=Quark%3A%20improve%20README.md&type=Commits)
 * [Quark: add DoubleTapWake path and overlay bool](https://github.com/search?q=Quark%3A%20add%20DoubleTapWake%20path%20and%20overlay%20bool&type=Commits)
 * [Quark: update init.qcom.power.rc](https://github.com/search?q=Quark%3A%20update%20init.qcom.power.rc&type=Commits)
 * [Quark: init update mpdecision service](https://github.com/search?q=Quark%3A%20init%20update%20mpdecision%20service&type=Commits)
@@ -638,17 +751,75 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
-#### Resurrection Remix OS - Oreo source changes of 10-20-2018:
+10-19-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-19-2018:
 
 #### bootable/recovery/
 * [recovery: Move bldrmsg offset symbols to bootloader_message.cpp](https://github.com/search?q=recovery%3A%20Move%20bldrmsg%20offset%20symbols%20to%20bootloader_message.cpp&type=Commits)
 
-#### Resurrection Remix OS - Oreo source changes of 10-20-2018 End.
+#### build/make/
+* [Make change and version bump to OPM7.181205.001](https://github.com/search?q=Make%20change%20and%20version%20bump%20to%20OPM7.181205.001&type=Commits)
+* [[DO NOT MERGE] Update platform security string to 2018-12-05 bug: 117667960 (cherry picked from commit 7af38a13f3d62517894bce9be025c14c79fcc49e)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20string%20to%202018-12-05%20bug%3A%20117667960%20%28cherry%20picked%20from%20commit%207af38a13f3d62517894bce9be025c14c79fcc49e%29&type=Commits)
 
-10-19-2018
+#### external/aac/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [Prevent out of bounds accesses in lppTransposer()](https://github.com/search?q=Prevent%20out%20of%20bounds%20accesses%20in%20lppTransposer%28%29&type=Commits)
+
+#### external/f2fs-tools/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [[DO NOT MERGE] make_f2fs: issue discard commands on mkfs](https://github.com/search?q=[DO%20NOT%20MERGE]%20make_f2fs%3A%20issue%20discard%20commands%20on%20mkfs&type=Commits)
+
+#### external/libhevc/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [Add limits check for the CTB position in a frame](https://github.com/search?q=Add%20limits%20check%20for%20the%20CTB%20position%20in%20a%20frame&type=Commits)
+
+#### external/libvpx/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [libwebm: Cherrypick 5a41830 from upstream](https://github.com/search?q=libwebm%3A%20Cherrypick%205a41830%20from%20upstream&type=Commits)
+
+#### external/v4l2_codec2/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [Don't continue with an invalid iterator](https://github.com/search?q=Don%27t%20continue%20with%20an%20invalid%20iterator&type=Commits)
+
+#### frameworks/av/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [CTS error while media dump()](https://github.com/search?q=CTS%20error%20while%20media%20dump%28%29&type=Commits)
+
+#### frameworks/base/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [RESTRICT AUTOMERGE: Recover shady content:// paths.](https://github.com/search?q=RESTRICT%20AUTOMERGE%3A%20Recover%20shady%20content%3A//%20paths.&type=Commits)
+* [[DO NOT MERGE] Changing SUPL_ES=1 for SUPL end point control](https://github.com/search?q=[DO%20NOT%20MERGE]%20Changing%20SUPL_ES=1%20for%20SUPL%20end%20point%20control&type=Commits)
+
+#### frameworks/native/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [libui: add boundary check to GraphicBuffer::unflatten](https://github.com/search?q=libui%3A%20add%20boundary%20check%20to%20GraphicBuffer%3A%3Aunflatten&type=Commits)
+
+#### system/bt/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [Fix possible OOB read](https://github.com/search?q=Fix%20possible%20OOB%20read&type=Commits)
+* [DO NOT MERGE - Check SDU lower bound before allocate p_data](https://github.com/search?q=DO%20NOT%20MERGE%20-%20Check%20SDU%20lower%20bound%20before%20allocate%20p_data&type=Commits)
+
+#### system/nfc/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [Prevent Out of bounds read in llcp code part 2](https://github.com/search?q=Prevent%20Out%20of%20bounds%20read%20in%20llcp%20code%20part%202&type=Commits)
+* [Prevent OOB error for T2T read/writes](https://github.com/search?q=Prevent%20OOB%20error%20for%20T2T%20read/writes&type=Commits)
+* [Prevent Out of bounds read in llcp code](https://github.com/search?q=Prevent%20Out%20of%20bounds%20read%20in%20llcp%20code&type=Commits)
+
+#### system/vold/
+* [Merge cherrypicks of [5313339, 5313437, 5313318, 5313340, 5313282, 5313283, 5313438, 5313284, 5313341, 5313379, 5313380, 5313319, 5313320, 5313321, 5313285, 5313286, 5313287, 5313497, 5313439] into oc-m7-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[5313339,%205313437,%205313318,%205313340,%205313282,%205313283,%205313438,%205313284,%205313341,%205313379,%205313380,%205313319,%205313320,%205313321,%205313285,%205313286,%205313287,%205313497,%205313439]%20into%20oc-m7-release&type=Commits)
+* [[DO NOT MERGE] Fix signedness mismatch and integer underflow](https://github.com/search?q=[DO%20NOT%20MERGE]%20Fix%20signedness%20mismatch%20and%20integer%20underflow&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-19-2018 End.
+
+10-18-2018
 ====================
 
-#### Device specific Changes of 10-19-2018 Start:
+#### Device specific Changes of 10-18-2018 Start:
+
+#### Device/Quark/
+* [Quark: update zram init config](https://github.com/search?q=Quark%3A%20update%20zram%20init%20config&type=Commits)
 
 #### Kernel/Quark/
 * [ext4: fix bitmap position validation](https://github.com/search?q=ext4%3A%20fix%20bitmap%20position%20validation&type=Commits)
@@ -660,20 +831,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [defconfig enable CONFIG_LZ4HC_COMPRESS](https://github.com/search?q=defconfig%20enable%20CONFIG_LZ4HC_COMPRESS&type=Commits)
 * [lib: qmi_encdec: Add support for string data type](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Add%20support%20for%20string%20data%20type&type=Commits)
 * [lib: qmi_encdec: Fix encoding a variable length element](https://github.com/search?q=lib%3A%20qmi_encdec%3A%20Fix%20encoding%20a%20variable%20length%20element&type=Commits)
-
-#### Device specific Changes of 10-19-2018 End.
-
-***
-
-10-18-2018
-====================
-
-#### Device specific Changes of 10-18-2018 Start:
-
-#### Device/Quark/
-* [Quark: update zram init config](https://github.com/search?q=Quark%3A%20update%20zram%20init%20config&type=Commits)
-
-#### Kernel/Quark/
 * [remove task and stack pointer printout from oops dump](https://github.com/search?q=remove%20task%20and%20stack%20pointer%20printout%20from%20oops%20dump&type=Commits)
 * [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
 * [ASoC: msm: qdsp6v2: make audio debugfs read and release exclusive](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20make%20audio%20debugfs%20read%20and%20release%20exclusive&type=Commits)
@@ -861,10 +1018,21 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 ***
 
+#### Resurrection Remix OS - Oreo source changes of 10-18-2018:
+
+#### hardware/qcom/power/
+* [power-8084: Revert POWER_HINT_LAUNCH handling](https://github.com/search?q=power-8084%3A%20Revert%20POWER_HINT_LAUNCH%20handling&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-18-2018 End.
+
 10-17-2018
 ====================
 
 #### Resurrection Remix OS - Oreo source changes of 10-17-2018:
+
+#### build/make/
+* [Make change and version bump to OPM7.181201.001](https://github.com/search?q=Make%20change%20and%20version%20bump%20to%20OPM7.181201.001&type=Commits)
+* [[DO NOT MERGE] Update platform security String to 2018-12-01 bug:117667960 (cherry picked from commit b43ff9d8f57c3e1b51325c4343fc22571670f94b)](https://github.com/search?q=[DO%20NOT%20MERGE]%20Update%20platform%20security%20String%20to%202018-12-01%20bug%3A117667960%20%28cherry%20picked%20from%20commit%20b43ff9d8f57c3e1b51325c4343fc22571670f94b%29&type=Commits)
 
 #### packages/apps/Eleven/
 * [Eleven: Fix crash after receiving media button intent](https://github.com/search?q=Eleven%3A%20Fix%20crash%20after%20receiving%20media%20button%20intent&type=Commits)
@@ -894,9 +1062,6 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Calendar/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Camera2/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/CellBroadcastReceiver/
@@ -956,6 +1121,9 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### packages/apps/UnifiedEmail/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/providers/BlockedNumberProvider/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
@@ -999,10 +1167,10 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 
 #### Resurrection Remix OS - Oreo source changes of 10-07-2018 End.
 
-10-02-2018
+10-03-2018
 ====================
 
-#### Device specific Changes of 10-02-2018 Start:
+#### Device specific Changes of 10-03-2018 Start:
 
 #### Kernel/Quark/
 * [ARM: dts: msm: Fix boolean property misuse](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Fix%20boolean%20property%20misuse&type=Commits)
@@ -1010,11 +1178,11 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 #### Vendor/Quark/
 * [Quark: update TurboToast.apk](https://github.com/search?q=Quark%3A%20update%20TurboToast.apk&type=Commits)
 
-#### Device specific Changes of 10-02-2018 End.
+#### Device specific Changes of 10-03-2018 End.
 
 ***
 
-#### Resurrection Remix OS - Oreo source changes of 10-02-2018:
+#### Resurrection Remix OS - Oreo source changes of 10-03-2018:
 #### android/
 * [manifest: android-8.1.0_r46 -> android-8.1.0_r47](https://github.com/search?q=manifest%3A%20android-8.1.0_r46%20->%20android-8.1.0_r47&type=Commits)
 
@@ -1035,6 +1203,22 @@ Resurrection Remix OS - Oreo source and Quark Changelog:
 * [addonsu: Fix installation on Lineage recovery](https://github.com/search?q=addonsu%3A%20Fix%20installation%20on%20Lineage%20recovery&type=Commits)
 * [repopick: Warn about empty commits instead of failing](https://github.com/search?q=repopick%3A%20Warn%20about%20empty%20commits%20instead%20of%20failing&type=Commits)
 * [RR: bump version to 6.2.1](https://github.com/search?q=RR%3A%20bump%20version%20to%206.2.1&type=Commits)
+
+#### Resurrection Remix OS - Oreo source changes of 10-03-2018 End.
+
+10-02-2018
+====================
+
+#### Resurrection Remix OS - Oreo source changes of 10-02-2018:
+
+#### frameworks/av/
+* [Merge tag 'android-8.1.0_r47' into staging/lineage-15.1_merge-android-8.1.0_r47](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r47%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r47&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Merge tag 'android-8.1.0_r47' into staging/lineage-15.1_merge-android-8.1.0_r47](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r47%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r47&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-8.1.0_r47' into staging/lineage-15.1_merge-android-8.1.0_r47](https://github.com/search?q=Merge%20tag%20%27android-8.1.0_r47%27%20into%20staging/lineage-15.1_merge-android-8.1.0_r47&type=Commits)
 
 #### Resurrection Remix OS - Oreo source changes of 10-02-2018 End.
 
