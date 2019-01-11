@@ -25,15 +25,6 @@ echo -e "\nYou choose: $input3"
 
 if [ "$input1" == "1" ]; then
 
-	folder="hardware/qcom/bt-caf/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git revert fa98f0564a17ba5a8e1defa17a2fc73bcfd8f3de --no-edit
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 	folder="hardware/qcom/display-caf/apq8084/";
 	echo -e "\\n	In Folder $folder \\n"
 
