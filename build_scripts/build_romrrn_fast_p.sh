@@ -54,11 +54,27 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="device/qcom/sepolicy-legacy/";
+	folder="bionic";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_device_qcom_sepolicy-legacy refs/changes/36/238636/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/fgl27/android_bionic/ lineage-15.1 && git cherry-pick dbe29ed3c38d6da3100f27ffd0fa1a0f08ed040a^..d7be66be5847f90147afcb465a231f1775f9d9f5
+	cd - &> /dev/null || exit;
+
+	folder="build/make/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_build/ lineage-16.0 && git cherry-pick 5e2e3ed1fe9e8bad5a5fd59453b897dd14c999fa
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="vendor/lineage/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_vendor_resurrection/ lineage-16.0 && git cherry-pick 06e904f90c2ec6159d94aa08ae06a3522a36e2b9
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
