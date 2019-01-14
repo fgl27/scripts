@@ -58,7 +58,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_bionic/ lineage-15.1 && git cherry-pick dbe29ed3c38d6da3100f27ffd0fa1a0f08ed040a^..d7be66be5847f90147afcb465a231f1775f9d9f5
+	git fetch https://github.com/fgl27/android_bionic/ lineage-16.0 && git cherry-pick dbe29ed3c38d6da3100f27ffd0fa1a0f08ed040a^..d7be66be5847f90147afcb465a231f1775f9d9f5
 	cd - &> /dev/null || exit;
 
 	folder="build/make/";
