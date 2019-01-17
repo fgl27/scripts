@@ -43,11 +43,11 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="hardware/interfaces/";
+	folder="frameworks/native/";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_hardware_interfaces refs/changes/94/238694/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_native refs/changes/10/230610/1 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
