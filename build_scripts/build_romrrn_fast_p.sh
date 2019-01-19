@@ -43,24 +43,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="frameworks/native/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_frameworks_native refs/changes/10/230610/1 && git cherry-pick FETCH_HEAD
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
-	folder="system/connectivity/wificond/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git pull https://github.com/fgl27/system_connectivity_wificond/ Pie --no-edit
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 fi
 
 export WITH_SU=true
