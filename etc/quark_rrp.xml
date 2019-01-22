@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <quark>
-            <Filename>RR-O-v6.2.1-20181215-quark-Mod.zip</Filename>
+            <Filename>RR-O-v7.0.0-20190122-quark-Release.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"

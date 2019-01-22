@@ -110,9 +110,6 @@ if [ "$input1" == "1" ]; then
 	cd - &> /dev/null || exit;
 	echo -e "\\n	out Folder $folder"
 
-	folder="vendor/rr";
-	echo -e "\\n	In Folder $folder \\n"
-
 	folder="packages/apps/PackageInstaller";
 	echo -e "\\n	In Folder $folder \\n"
 	cd $folder || exit;

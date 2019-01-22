@@ -37,6 +37,46 @@ cd $FOLDER_SOURCE || exit;
 
 if [ "$input1" == "1" ]; then
 
+	if [ "$input3" == "r" ]; then
+		folder="frameworks/base/";
+		echo -e "\\n	In Folder $folder \\n"
+
+		cd $folder || exit;
+		git fetch https://github.com/fgl27/android_frameworks_base/ pie && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..f888ffbc26e044edade15dd4e406cac0901315eb
+		cd - &> /dev/null || exit;
+
+		echo -e "\\n	out Folder $folder"
+
+
+		folder="packages/apps/Settings";
+		echo -e "\\n	In Folder $folder \\n"
+
+		cd $folder || exit;
+		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb^..42a73307851d45e773f640f56695815e6120eeb7
+		cd - &> /dev/null || exit;
+
+		echo -e "\\n	out Folder $folder"
+
+		folder="vendor/rr";
+		echo -e "\\n	In Folder $folder \\n"
+
+		cd $folder || exit;
+		git fetch https://github.com/fgl27/android_vendor_resurrection/ pie && git cherry-pick 8bccbc56d0c05eb1b233db20f4a40a09747349f5
+		cd - &> /dev/null || exit;
+
+		echo -e "\\n	out Folder $folder"
+
+	fi
+
+	folder="packages/apps/Nfc";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_packages_apps_Nfc/ cm-14.1 && git cherry-pick 8314ecd4ff33f8d51228314849b6b9f88fae34cd
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	folder="hardware/qcom/display-caf/apq8084/";
 	echo -e "\\n	In Folder $folder \\n"
 
