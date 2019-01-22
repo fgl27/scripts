@@ -130,7 +130,7 @@ export WITH_SU=true
 
 if [ "$input3" == "r" ]; then
 	export days_to_log=0
-	export RR_BUILDTYPE="Release"
+	export RR_BUILDTYPE="Mod"
 	export WITH_ROOT_METHOD="rootless"
 	export WITH_SU=true
 	ROM_VVV=$(grep PRODUCT_VERSION vendor/rr/build/core/main_version.mk | head -1 | awk '{print $3}');
