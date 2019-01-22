@@ -19,7 +19,7 @@ echo -e "\nMake clean?\n 1 = Yes\n"
 read -r input2
 echo -e "\nYou choose: $input2"
 
-echo -e "\nr or o?\n"
+echo -e "\nr or l?\n"
 read -r input3
 echo -e "\nYou choose: $input3"
 
@@ -29,7 +29,7 @@ echo -e "\nYou choose: $input4"
 
 if [ "$input3" == "r" ]; then
 	FOLDER_SOURCE=$FOLDER_RR;
-elif [ "$input3" == "o" ]; then
+elif [ "$input3" == "l" ]; then
 	FOLDER_SOURCE=$FOLDER_L;
 fi
 
@@ -147,7 +147,7 @@ fi
 
 if [ "$input3" == "r" ]; then
 	lunch rr_quark-userdebug
-elif [ "$input3" == "o" ]; then
+elif [ "$input3" == "l" ]; then
 	lunch lineage_quark-userdebug
 fi
 
