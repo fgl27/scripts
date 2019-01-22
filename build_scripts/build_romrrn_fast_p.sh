@@ -42,7 +42,7 @@ if [ "$input1" == "1" ]; then
 		echo -e "\\n	In Folder $folder \\n"
 
 		cd $folder || exit;
-		git fetch https://github.com/fgl27/android_frameworks_base/ pie && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..ef9c8da73556f9dd7505ed26a00e47a8b3d51e93
+		git fetch https://github.com/fgl27/android_frameworks_base/ pie && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..a8ee31a0ed0d1f8cd111dc4a4d62977ab43286d6
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
@@ -52,7 +52,7 @@ if [ "$input1" == "1" ]; then
 		echo -e "\\n	In Folder $folder \\n"
 
 		cd $folder || exit;
-		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb^..42a73307851d45e773f640f56695815e6120eeb7
+		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb^..b3b7f578846aaed2c1bbf4d6d58284b8147ac73b
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
