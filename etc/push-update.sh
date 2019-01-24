@@ -9,8 +9,7 @@ filename=`basename "$zip_path"`
 id=`echo $(sha256sum $zip_path | cut -d ' ' -f1)`
 version=`echo "$filename" | cut -d'-' -f3 | cut -d'v' -f2`
 romtype=`echo "$filename" | cut -d'-' -f6 | cut -d'.'  -f1`
-build_date=`echo "$filename" | cut -d'-' -f4`
-datetime=`date -r $zip_path +%s`
+datetime=`echo $(zipgrep 'ro.build.date.utc' $zip_path system/build.prop | cut -d'=' -f2)`
 size=`stat -c "%s" "$zip_path"`
 
 url="https:\\/\\/downloads.sourceforge.net\\/project\\/fgl27\\/Android\\/ResurrectionRemix\\/Pie\\/""$filename"
