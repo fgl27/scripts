@@ -24,3 +24,8 @@ sed -i -e "s/.*version.*/		\"version\": \"$version\"/" "$jsonfie"
 
 # To send the file
 scp $zip_path fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/ResurrectionRemix/Pie/
+
+#mv old file
+#ssh -t fgl27@shell.sourceforge.net create
+#cd /home/frs/project/fgl27/Android/ResurrectionRemix/Pie/
+#mv RR-P-v7.0.0-20190123-quark-Mod.zip Old_version/
