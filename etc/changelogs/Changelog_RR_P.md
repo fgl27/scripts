@@ -3,6 +3,48 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+01-25-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 01-25-2019:
+#### android/
+* [Track sepolicy-legacy from our repos](https://github.com/search?q=Track%20sepolicy-legacy%20from%20our%20repos&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [RR-ify](https://github.com/search?q=RR-ify&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Update launcher icon](https://github.com/search?q=Update%20launcher%20icon&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Update galley icon](https://github.com/search?q=Update%20galley%20icon&type=Commits)
+
+#### packages/apps/Settings/
+* [HWKeys: Fix disable switchpref](https://github.com/search?q=HWKeys%3A%20Fix%20disable%20switchpref&type=Commits)
+* [Merge branch 'pie' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into pie](https://github.com/search?q=Merge%20branch%20%27pie%27%20of%20https%3A//github.com/ResurrectionRemix/Resurrection_packages_apps_Settings%20into%20pie&type=Commits)
+* [Title and icon edit](https://github.com/search?q=Title%20and%20icon%20edit&type=Commits)
+* [Merge pull request #1007 from nysadev/pie](https://github.com/search?q=Merge%20pull%20request%20%231007%20from%20nysadev/pie&type=Commits)
+
+#### vendor/rr/
+* [Update features list format](https://github.com/search?q=Update%20features%20list%20format&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-25-2019 End.
+
+01-24-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 01-24-2019:
+#### android/
+* [Merge pull request #126 from kshatriya-abhay/patch-2](https://github.com/search?q=Merge%20pull%20request%20%23126%20from%20kshatriya-abhay/patch-2&type=Commits)
+
+#### frameworks/base/
+* [Fix airplane power dialog icon](https://github.com/search?q=Fix%20airplane%20power%20dialog%20icon&type=Commits)
+
+#### packages/apps/Settings/
+* [Add Xiaomi Mi 8 Lite (platina)](https://github.com/search?q=Add%20Xiaomi%20Mi%208%20Lite%20%28platina%29&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-24-2019 End.
+
 01-23-2019
 ====================
 

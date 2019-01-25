@@ -23,4 +23,4 @@ sed -i -e "s/.*url.*/		\"url\": \"$url\",/" "$jsonfie"
 sed -i -e "s/.*version.*/		\"version\": \"$version\"/" "$jsonfie"
 
 # To send the file
-#scp /home/fgl27/android/RR-P-v7.0.0-20190123-quark-Mod.zip fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/ResurrectionRemix/Pie/
+scp $zip_path fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/ResurrectionRemix/Pie/
