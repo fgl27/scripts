@@ -3,6 +3,47 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+01-27-2019
+====================
+
+#### Device specific Changes of 01-27-2019 Start:
+
+#### Device/Quark/
+* [Quark: init don't build volte.rc](https://github.com/search?q=Quark%3A%20init%20don%27t%20build%20volte.rc&type=Commits)
+
+#### Device specific Changes of 01-27-2019 End.
+
+***
+
+01-26-2019
+====================
+
+#### Device specific Changes of 01-26-2019 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+
+#### Device specific Changes of 01-26-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 01-26-2019:
+
+#### frameworks/base/
+* [Merge pull request #239 from Akianonymus/pie](https://github.com/search?q=Merge%20pull%20request%20%23239%20from%20Akianonymus/pie&type=Commits)
+* [Fix copying of fonts.xml conditionally](https://github.com/search?q=Fix%20copying%20of%20fonts.xml%20conditionally&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1011 from Hasaber8/patch-2](https://github.com/search?q=Merge%20pull%20request%20%231011%20from%20Hasaber8/patch-2&type=Commits)
+* [Update Falcon Maintainer](https://github.com/search?q=Update%20Falcon%20Maintainer&type=Commits)
+* [Merge pull request #1010 from aswin7469/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231010%20from%20aswin7469/patch-1&type=Commits)
+* [Santoni : update maintainer](https://github.com/search?q=Santoni%20%3A%20update%20maintainer&type=Commits)
+* [Merge pull request #1009 from Akianonymus/pie](https://github.com/search?q=Merge%20pull%20request%20%231009%20from%20Akianonymus/pie&type=Commits)
+* [harpia: Update Maintainer](https://github.com/search?q=harpia%3A%20Update%20Maintainer&type=Commits)
+* [Merge pull request #1008 from AliHasan7671/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231008%20from%20AliHasan7671/patch-1&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-26-2019 End.
+
 01-25-2019
 ====================
 
