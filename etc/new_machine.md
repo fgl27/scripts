@@ -277,6 +277,13 @@ sync
 
 	sudo smbpasswd -a <user_name>
 
+## Install KiCad
+
+	sudo apt-get install kicad kicad-footprints kicad-libraries kicad-symbols kicad-templates kicad-packages3d kicad-doc-en kicad-locale-pt
+
+## Set KiCad end
+
+
 ## Set NVIDIA Start
 
 #### Automatic installation

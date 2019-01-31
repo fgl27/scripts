@@ -1,11 +1,11 @@
 {
 	"response": [{
-		"datetime": 1548622587,
-		"filename": "RR-P-v7.0.0-20190127-quark-Mod.zip",
-		"id": "d515323698f0398469ee0b9c997712f8320f948d7b943ebada6ae9aeafefd7a8",
+		"datetime": 1548942917,
+		"filename": "RR-P-v7.0.0-20190131-quark-Mod.zip",
+		"id": "255d35dc67563a33e9c16812049382b84571972da4083b7f927564c5387667d5",
 		"romtype": "Mod",
-		"size": 447819515,
-		"url": "https://downloads.sourceforge.net/project/fgl27/Android/ResurrectionRemix/Pie/RR-P-v7.0.0-20190127-quark-Mod.zip",
+		"size": 469184493,
+		"url": "https://downloads.sourceforge.net/project/fgl27/Android/ResurrectionRemix/Pie/RR-P-v7.0.0-20190131-quark-Mod.zip",
 		"version": "7.0.0"
 	}]
 }

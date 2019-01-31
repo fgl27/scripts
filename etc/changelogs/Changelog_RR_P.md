@@ -3,6 +3,97 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+01-31-2019
+====================
+
+#### Device specific Changes of 01-31-2019 Start:
+
+#### Device/Quark/
+* [Quark: NUM_FRAMEBUFFER_SURFACE_BUFFERS match kernel buffer](https://github.com/search?q=Quark%3A%20NUM_FRAMEBUFFER_SURFACE_BUFFERS%20match%20kernel%20buffer&type=Commits)
+* [Quark: Drop custom display flags](https://github.com/search?q=Quark%3A%20Drop%20custom%20display%20flags&type=Commits)
+* [Quark: Build netd 1.0 HAL and netutils-wrapper 1.0](https://github.com/search?q=Quark%3A%20Build%20netd%201.0%20HAL%20and%20netutils-wrapper%201.0&type=Commits)
+* [Quark: Enable Smooth Streaming for secure video playback](https://github.com/search?q=Quark%3A%20Enable%20Smooth%20Streaming%20for%20secure%20video%20playback&type=Commits)
+* [Quark: remove OMX.qcom.video.decoder.avc.secure codec](https://github.com/search?q=Quark%3A%20remove%20OMX.qcom.video.decoder.avc.secure%20codec&type=Commits)
+* [quark: add SysUI to PRODUCT_DEXPREOPT_SPEED_APPS](https://github.com/search?q=quark%3A%20add%20SysUI%20to%20PRODUCT_DEXPREOPT_SPEED_APPS&type=Commits)
+* [Quark: overlay: Enable the Pinner Service for pinning files into memory](https://github.com/search?q=Quark%3A%20overlay%3A%20Enable%20the%20Pinner%20Service%20for%20pinning%20files%20into%20memory&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig disable FB_MSM_TRIPLE_BUFFER](https://github.com/search?q=defconfig%20disable%20FB_MSM_TRIPLE_BUFFER&type=Commits)
+* [PM / wakeup: Adjust messaging for wake events during suspend](https://github.com/search?q=PM%20/%20wakeup%3A%20Adjust%20messaging%20for%20wake%20events%20during%20suspend&type=Commits)
+* [wakeup: Add the guard condition for len in pm_get_active_wakeup_sources](https://github.com/search?q=wakeup%3A%20Add%20the%20guard%20condition%20for%20len%20in%20pm_get_active_wakeup_sources&type=Commits)
+* [PM / QoS: simplify pm_qos_power_write()](https://github.com/search?q=PM%20/%20QoS%3A%20simplify%20pm_qos_power_write%28%29&type=Commits)
+* [PM: wakeup_reasons: Fix formatting for printk](https://github.com/search?q=PM%3A%20wakeup_reasons%3A%20Fix%20formatting%20for%20printk&type=Commits)
+
+#### Device specific Changes of 01-31-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 01-31-2019:
+#### android/
+* [Enable some packages](https://github.com/search?q=Enable%20some%20packages&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1026 from fgl27/pie_fix](https://github.com/search?q=Merge%20pull%20request%20%231026%20from%20fgl27/pie_fix&type=Commits)
+* [Settings: re-add device Osprey](https://github.com/search?q=Settings%3A%20re-add%20device%20Osprey&type=Commits)
+* [Add Xiaomi Redmi 6 Pro (Sakura)](https://github.com/search?q=Add%20Xiaomi%20Redmi%206%20Pro%20%28Sakura%29&type=Commits)
+* [Merge pull request #1021 from fgl27/pie_battery_info](https://github.com/search?q=Merge%20pull%20request%20%231021%20from%20fgl27/pie_battery_info&type=Commits)
+* [Merge pull request #1020 from fgl27/pie_maintainer](https://github.com/search?q=Merge%20pull%20request%20%231020%20from%20fgl27/pie_maintainer&type=Commits)
+* [Merge pull request #1017 from Subinsmani/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231017%20from%20Subinsmani/patch-1&type=Commits)
+* [Merge pull request #1018 from AgustinLorenzo/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231018%20from%20AgustinLorenzo/patch-1&type=Commits)
+* [Merge pull request #1019 from AgustinLorenzo/patch-2](https://github.com/search?q=Merge%20pull%20request%20%231019%20from%20AgustinLorenzo/patch-2&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-31-2019 End.
+
+01-30-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 01-30-2019:
+
+#### external/icu/
+* [DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Fix%20Morocco%20to%20use%20rearguard%20format%20correctly%20in%20ICU.&type=Commits)
+* [DO NOT MERGE: Update Android ICU tzdata from 2018g to 2018i.](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Update%20Android%20ICU%20tzdata%20from%202018g%20to%202018i.&type=Commits)
+* [Revert "Update Android ICU tzdata from 2018g to 2018i"](https://github.com/search?q=Revert%20"Update%20Android%20ICU%20tzdata%20from%202018g%20to%202018i"&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: update LockscreenCharging preference key](https://github.com/search?q=Settings%3A%20update%20LockscreenCharging%20preference%20key&type=Commits)
+* [Settings: update quark maintainer nick](https://github.com/search?q=Settings%3A%20update%20quark%20maintainer%20nick&type=Commits)
+* [Kick out cube animation for tabs](https://github.com/search?q=Kick%20out%20cube%20animation%20for%20tabs&type=Commits)
+
+#### system/timezone/
+* [DO NOT MERGE: Fix Morocco to use rearguard format correctly in ICU.](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Fix%20Morocco%20to%20use%20rearguard%20format%20correctly%20in%20ICU.&type=Commits)
+* [DO NOT MERGE: Update Android tzdata from 2018g to 2018i.](https://github.com/search?q=DO%20NOT%20MERGE%3A%20Update%20Android%20tzdata%20from%202018g%20to%202018i.&type=Commits)
+* [Revert "Update Android tzdata from 2018g to 2018i"](https://github.com/search?q=Revert%20"Update%20Android%20tzdata%20from%202018g%20to%202018i"&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-30-2019 End.
+
+01-29-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 01-29-2019:
+
+#### hardware/qcom/audio-caf/msm8996/
+* [Build audio.primary.* with BOARD_VNDK_VERSION](https://github.com/search?q=Build%20audio.primary.*%20with%20BOARD_VNDK_VERSION&type=Commits)
+
+#### packages/apps/Settings/
+* [zl1: update maintainer](https://github.com/search?q=zl1%3A%20update%20maintainer&type=Commits)
+* [x2: update maintainer](https://github.com/search?q=x2%3A%20update%20maintainer&type=Commits)
+* [Remove Osprey and Change Maintainr for X00TD](https://github.com/search?q=Remove%20Osprey%20and%20Change%20Maintainr%20for%20X00TD&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-29-2019 End.
+
+01-28-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 01-28-2019:
+
+#### packages/apps/Settings/
+* [Update ether maintainer (#1015)](https://github.com/search?q=Update%20ether%20maintainer%20%28%231015%29&type=Commits)
+* [hero: update maintainer (#1014)](https://github.com/search?q=hero%3A%20update%20maintainer%20%28%231014%29&type=Commits)
+* [New Maintainer for galaxy note 3 LTE (#1013)](https://github.com/search?q=New%20Maintainer%20for%20galaxy%20note%203%20LTE%20%28%231013%29&type=Commits)
+* [Moto: Add beckham & evert (#1012)](https://github.com/search?q=Moto%3A%20Add%20beckham%20&%20evert%20%28%231012%29&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 01-28-2019 End.
+
 01-27-2019
 ====================
 
