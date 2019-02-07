@@ -146,9 +146,6 @@ fi
 
 . build/envsetup.sh
 if [ "$input2" == "1" ]; then
-	export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx11g"
-	./prebuilts/sdk/tools/jack-admin kill-server
-	./prebuilts/sdk/tools/jack-admin start-server
 	make clean
 fi
 
