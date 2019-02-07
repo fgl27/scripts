@@ -3,6 +3,444 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-07-2019
+====================
+
+#### Device specific Changes of 02-07-2019 Start:
+
+#### Device/Quark/
+* [Quark: rr_quark.mk fix QUARK_RR_ROM_VERSION](https://github.com/search?q=Quark%3A%20rr_quark.mk%20fix%20QUARK_RR_ROM_VERSION&type=Commits)
+* [Quark: remove private/charge_only_mode.te](https://github.com/search?q=Quark%3A%20remove%20private/charge_only_mode.te&type=Commits)
+* [Quark: Localise NTP to improve GPS TTFF](https://github.com/search?q=Quark%3A%20Localise%20NTP%20to%20improve%20GPS%20TTFF&type=Commits)
+* [Quark: init remove vendor. tag from service names](https://github.com/search?q=Quark%3A%20init%20remove%20vendor.%20tag%20from%20service%20names&type=Commits)
+* [Quark: update netmgrd and qmuxd sepolicy](https://github.com/search?q=Quark%3A%20update%20netmgrd%20and%20qmuxd%20sepolicy&type=Commits)
+* [Quark: update sepolicy add sysfs_netmgrd](https://github.com/search?q=Quark%3A%20update%20sepolicy%20add%20sysfs_netmgrd&type=Commits)
+* [Quark: sepolicy allow init to set sysfs_android_touch](https://github.com/search?q=Quark%3A%20sepolicy%20allow%20init%20to%20set%20sysfs_android_touch&type=Commits)
+* [Quark: remove sepolicy/rr/genfs_contexts](https://github.com/search?q=Quark%3A%20remove%20sepolicy/rr/genfs_contexts&type=Commits)
+* [Quark: update charge_only_mode.te](https://github.com/search?q=Quark%3A%20update%20charge_only_mode.te&type=Commits)
+
+#### Kernel/Quark/
+* [/proc/iomem: only expose physical resource addresses to privileged users](https://github.com/search?q=/proc/iomem%3A%20only%20expose%20physical%20resource%20addresses%20to%20privileged%20users&type=Commits)
+* [Make file credentials available to the seqfile interfaces](https://github.com/search?q=Make%20file%20credentials%20available%20to%20the%20seqfile%20interfaces&type=Commits)
+* [UPSTREAM: binder: fix proc->files use-after-free](https://github.com/search?q=UPSTREAM%3A%20binder%3A%20fix%20proc->files%20use-after-free&type=Commits)
+* [Revert "FROMLIST: binder: fix proc->files use-after-free"](https://github.com/search?q=Revert%20"FROMLIST%3A%20binder%3A%20fix%20proc->files%20use-after-free"&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: Localise NTP to improve GPS TTFF](https://github.com/search?q=Quark%3A%20Localise%20NTP%20to%20improve%20GPS%20TTFF&type=Commits)
+
+#### Device specific Changes of 02-07-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-07-2019:
+
+#### device/qcom/sepolicy-legacy/
+* [Merge remote-tracking branch 'LineageOS/lineage-16.0' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-16.0%27%20into%20HEAD&type=Commits)
+
+#### device/rr/sepolicy/
+* [sepolicy: Add policy for edgegestureservice](https://github.com/search?q=sepolicy%3A%20Add%20policy%20for%20edgegestureservice&type=Commits)
+* [Merge remote-tracking branch 'LineageOS/lineage-16.0' into HEAD](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-16.0%27%20into%20HEAD&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: layout: global_actions_wrapped: add missing FrameLayout](https://github.com/search?q=SystemUI%3A%20layout%3A%20global_actions_wrapped%3A%20add%20missing%20FrameLayout&type=Commits)
+* [Merge pull request #242 from aragon12/pie](https://github.com/search?q=Merge%20pull%20request%20%23242%20from%20aragon12/pie&type=Commits)
+* [systemUI: HotspotcontrolImpl: remove mWifiStateReciever](https://github.com/search?q=systemUI%3A%20HotspotcontrolImpl%3A%20remove%20mWifiStateReciever&type=Commits)
+* [Merge pull request #241 from aragon12/pie](https://github.com/search?q=Merge%20pull%20request%20%23241%20from%20aragon12/pie&type=Commits)
+* [systemUI: GlobalActions: import Ibinder class](https://github.com/search?q=systemUI%3A%20GlobalActions%3A%20import%20Ibinder%20class&type=Commits)
+* [systemUI: GlobalActions: import android ComponentName class](https://github.com/search?q=systemUI%3A%20GlobalActions%3A%20import%20android%20ComponentName%20class&type=Commits)
+* [systemUI: remove duplicate CLOCK_SECONDS declaration](https://github.com/search?q=systemUI%3A%20remove%20duplicate%20CLOCK_SECONDS%20declaration&type=Commits)
+* [Merge pull request #237 from hunfatal/rr-pie-qs-location-cycle](https://github.com/search?q=Merge%20pull%20request%20%23237%20from%20hunfatal/rr-pie-qs-location-cycle&type=Commits)
+* [Merge pull request #240 from fgl27/pie_fix](https://github.com/search?q=Merge%20pull%20request%20%23240%20from%20fgl27/pie_fix&type=Commits)
+* [Base: fix miss merge](https://github.com/search?q=Base%3A%20fix%20miss%20merge&type=Commits)
+
+#### hardware/lineage/livedisplay/
+* [livedisplay: sdm: Fix restoring default mode](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Fix%20restoring%20default%20mode&type=Commits)
+* [livedisplay: sdm: Fix isSupported() checks](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Fix%20isSupported%28%29%20checks&type=Commits)
+* [livedisplay: The module isn't proprietary](https://github.com/search?q=livedisplay%3A%20The%20module%20isn%27t%20proprietary&type=Commits)
+* [livedisplay: Nuke color balance](https://github.com/search?q=livedisplay%3A%20Nuke%20color%20balance&type=Commits)
+* [livedisplay: Minor code cleanup](https://github.com/search?q=livedisplay%3A%20Minor%20code%20cleanup&type=Commits)
+* [livedisplay: Fix racy init](https://github.com/search?q=livedisplay%3A%20Fix%20racy%20init&type=Commits)
+
+#### lineage-sdk/
+* [Merge pull request #2 from fgl27/pie](https://github.com/search?q=Merge%20pull%20request%20%232%20from%20fgl27/pie&type=Commits)
+* [Add emergency power menu constant](https://github.com/search?q=Add%20emergency%20power%20menu%20constant&type=Commits)
+* [LineageSettingsProvider: Fix migration of FORCE_SHOW_NAVBAR](https://github.com/search?q=LineageSettingsProvider%3A%20Fix%20migration%20of%20FORCE_SHOW_NAVBAR&type=Commits)
+* [sdk: add Trust usb restrictor](https://github.com/search?q=sdk%3A%20add%20Trust%20usb%20restrictor&type=Commits)
+* [PerformanceManager: Allow wait for MPCTL to start on boot](https://github.com/search?q=PerformanceManager%3A%20Allow%20wait%20for%20MPCTL%20to%20start%20on%20boot&type=Commits)
+* [LiveDisplayService: Catch NPE before LiveDisplayConfig is initialized](https://github.com/search?q=LiveDisplayService%3A%20Catch%20NPE%20before%20LiveDisplayConfig%20is%20initialized&type=Commits)
+* [LineageAudioService: Make audio session broadcast explicit](https://github.com/search?q=LineageAudioService%3A%20Make%20audio%20session%20broadcast%20explicit&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-9.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20HEAD&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-07-2019 End.
+
+02-06-2019
+====================
+
+#### Device specific Changes of 02-06-2019 Start:
+
+#### Device/Quark/
+* [Quark: update generation of QUARK_RR_ROM_VERSION flag](https://github.com/search?q=Quark%3A%20update%20generation%20of%20QUARK_RR_ROM_VERSION%20flag&type=Commits)
+* [Quark: fix build on lineage](https://github.com/search?q=Quark%3A%20fix%20build%20on%20lineage&type=Commits)
+* [Quark: use LOCAL_PATH and QUARK_PATH in device mk call](https://github.com/search?q=Quark%3A%20use%20LOCAL_PATH%20and%20QUARK_PATH%20in%20device%20mk%20call&type=Commits)
+* [Quark: overlay: Wait for MPCTL to start on boot](https://github.com/search?q=Quark%3A%20overlay%3A%20Wait%20for%20MPCTL%20to%20start%20on%20boot&type=Commits)
+* [Quark: Fix manifest entry for thermal hal](https://github.com/search?q=Quark%3A%20Fix%20manifest%20entry%20for%20thermal%20hal&type=Commits)
+
+#### Device specific Changes of 02-06-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-06-2019:
+#### android/
+* [manifest: android-9.0.0_r30 -> android-9.0.0_r31](https://github.com/search?q=manifest%3A%20android-9.0.0_r30%20->%20android-9.0.0_r31&type=Commits)
+* [manifest: Sync hardware/lineage/livedisplay](https://github.com/search?q=manifest%3A%20Sync%20hardware/lineage/livedisplay&type=Commits)
+* [Track recovery dependencies](https://github.com/search?q=Track%20recovery%20dependencies&type=Commits)
+* [Switch to our chromium-webview fork](https://github.com/search?q=Switch%20to%20our%20chromium-webview%20fork&type=Commits)
+
+#### art/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### bionic/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### bootable/recovery/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### build/kati/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### build/make/
+* [Merge branch 'lineage-16.0' of git://github.com/LineageOS/android_build into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20git%3A//github.com/LineageOS/android_build%20into%20HEAD&type=Commits)
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### build/soong/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build_soong into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_build_soong%20into%20HEAD&type=Commits)
+
+#### dalvik/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### development/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### external/f2fs-tools/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### external/skia/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### frameworks/av/
+* [Merge branch 'pie' of https://github.com/ResurrectionRemix/frameworks_av into pie](https://github.com/search?q=Merge%20branch%20%27pie%27%20of%20https%3A//github.com/ResurrectionRemix/frameworks_av%20into%20pie&type=Commits)
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_av into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20pie&type=Commits)
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-9.0.0_r31' into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20HEAD&type=Commits)
+* [base: add Trust usb restrictor](https://github.com/search?q=base%3A%20add%20Trust%20usb%20restrictor&type=Commits)
+* [SystemUI: Add onStatusBarMotionEvent hook](https://github.com/search?q=SystemUI%3A%20Add%20onStatusBarMotionEvent%20hook&type=Commits)
+* [Visualizer: fix native crash when visualizer release](https://github.com/search?q=Visualizer%3A%20fix%20native%20crash%20when%20visualizer%20release&type=Commits)
+* [FWB: Power/reboot menu transparency (1/2)](https://github.com/search?q=FWB%3A%20Power/reboot%20menu%20transparency%20%281/2%29&type=Commits)
+* [base: qs: Set panel transparency [1/2]](https://github.com/search?q=base%3A%20qs%3A%20Set%20panel%20transparency%20[1/2]&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/interfaces/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/nxp/nfc/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/qcom/bootctrl/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/qcom/gps/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/qcom/media/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/qcom/sdm845/gps/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### hardware/ril/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/CarrierConfig/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/Email/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Power/reboot menu transparency (2/2)](https://github.com/search?q=Settings%3A%20Power/reboot%20menu%20transparency%20%282/2%29&type=Commits)
+* [Settings: Set panel transparency [2/2]](https://github.com/search?q=Settings%3A%20Set%20panel%20transparency%20[2/2]&type=Commits)
+
+#### packages/apps/SmartNav/
+* [Fix menu buttons](https://github.com/search?q=Fix%20menu%20buttons&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: make support for bokeh mode configurable per device](https://github.com/search?q=Snap%3A%20make%20support%20for%20bokeh%20mode%20configurable%20per%20device&type=Commits)
+
+#### packages/apps/Stk/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/core/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_core into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_system_core%20into%20HEAD&type=Commits)
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/extras/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/netd/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/security/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_sepolicy into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20HEAD&type=Commits)
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/update_engine/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### system/vold/
+* [Merge tag 'android-9.0.0_r31' into lineage-16.0-android-9.0.0_r31](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r31%27%20into%20lineage-16.0-android-9.0.0_r31&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-06-2019 End.
+
+02-05-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-05-2019:
+
+#### frameworks/base/
+* [Update statusbar logo](https://github.com/search?q=Update%20statusbar%20logo&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [trust: create service](https://github.com/search?q=trust%3A%20create%20service&type=Commits)
+* [interfaces: Add trust 1.0 HAL](https://github.com/search?q=interfaces%3A%20Add%20trust%201.0%20HAL&type=Commits)
+
+#### packages/apps/Messaging/
+* [Switch to JobIntentService](https://github.com/search?q=Switch%20to%20JobIntentService&type=Commits)
+* [Messaging: improve notification channels](https://github.com/search?q=Messaging%3A%20improve%20notification%20channels&type=Commits)
+
+#### packages/apps/SmartNav/
+* [Update fling drawables](https://github.com/search?q=Update%20fling%20drawables&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-05-2019 End.
+
+02-04-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-04-2019:
+
+#### build/soong/
+* [Always link org.lineageos.platform-res for org.lineageos.platform.sdk](https://github.com/search?q=Always%20link%20org.lineageos.platform-res%20for%20org.lineageos.platform.sdk&type=Commits)
+
+#### device/rr/sepolicy/
+* [sepolicies: add Trust hal](https://github.com/search?q=sepolicies%3A%20add%20Trust%20hal&type=Commits)
+* [common: Migrate to livedisplay 2.0](https://github.com/search?q=common%3A%20Migrate%20to%20livedisplay%202.0&type=Commits)
+* [common: Add vendor.lineage.touch rules](https://github.com/search?q=common%3A%20Add%20vendor.lineage.touch%20rules&type=Commits)
+* [lineage: Rewrite Lineage Power HAL rules](https://github.com/search?q=lineage%3A%20Rewrite%20Lineage%20Power%20HAL%20rules&type=Commits)
+* [lineage: Properly write rules for Lineage LiveDisplay as a HAL](https://github.com/search?q=lineage%3A%20Properly%20write%20rules%20for%20Lineage%20LiveDisplay%20as%20a%20HAL&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [interfaces: Add touch HIDL interface definitions](https://github.com/search?q=interfaces%3A%20Add%20touch%20HIDL%20interface%20definitions&type=Commits)
+* [interfaces: Add 2.0 livedisplay interfaces](https://github.com/search?q=interfaces%3A%20Add%202.0%20livedisplay%20interfaces&type=Commits)
+
+#### hardware/lineage/livedisplay/
+* [livedisplay: Use 1 thread](https://github.com/search?q=livedisplay%3A%20Use%201%20thread&type=Commits)
+* [livedisplay: sdm: Wire it up](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Wire%20it%20up&type=Commits)
+* [livedisplay: sdm: Remove unused HALs](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Remove%20unused%20HALs&type=Commits)
+* [livedisplay: legacymm: Wire it up](https://github.com/search?q=livedisplay%3A%20legacymm%3A%20Wire%20it%20up&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8996/
+* [hal: spkr_protection: compilation error fixes with the vndk](https://github.com/search?q=hal%3A%20spkr_protection%3A%20compilation%20error%20fixes%20with%20the%20vndk&type=Commits)
+
+#### hardware/qcom/media-caf/msm8952/
+* [mm-video-v4l2: C++11 requires a space between literal and string macro](https://github.com/search?q=mm-video-v4l2%3A%20C++11%20requires%20a%20space%20between%20literal%20and%20string%20macro&type=Commits)
+* [mm-video-v4l2: Compilation warning fixes](https://github.com/search?q=mm-video-v4l2%3A%20Compilation%20warning%20fixes&type=Commits)
+* [libstagefrighthw: Compilation warning fixes](https://github.com/search?q=libstagefrighthw%3A%20Compilation%20warning%20fixes&type=Commits)
+* [libc2dcolorconvert: Compilation warning fixes](https://github.com/search?q=libc2dcolorconvert%3A%20Compilation%20warning%20fixes&type=Commits)
+
+#### lineage-sdk/
+* [sdk: Add HIDL compat in LineageHardwareManager](https://github.com/search?q=sdk%3A%20Add%20HIDL%20compat%20in%20LineageHardwareManager&type=Commits)
+* [sdk: Deprecate some unused lineagehw features](https://github.com/search?q=sdk%3A%20Deprecate%20some%20unused%20lineagehw%20features&type=Commits)
+* [TelephonyExtUtils: Handle extphone binder death](https://github.com/search?q=TelephonyExtUtils%3A%20Handle%20extphone%20binder%20death&type=Commits)
+
+#### prebuilts/clang/host/linux-x86/
+* [Update prebuilt Clang to r349610.](https://github.com/search?q=Update%20prebuilt%20Clang%20to%20r349610.&type=Commits)
+
+#### system/core/
+* [reboot: only run fsck when detecting filesystem inconsistency](https://github.com/search?q=reboot%3A%20only%20run%20fsck%20when%20detecting%20filesystem%20inconsistency&type=Commits)
+
+#### vendor/rr/
+* [privapp-permissions: Remove org.lineageos.trebuchet permissions](https://github.com/search?q=privapp-permissions%3A%20Remove%20org.lineageos.trebuchet%20permissions&type=Commits)
+* [privapp-permissions: Add new launcher3 permissions](https://github.com/search?q=privapp-permissions%3A%20Add%20new%20launcher3%20permissions&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-04-2019 End.
+
+02-03-2019
+====================
+
+#### Device specific Changes of 02-03-2019 Start:
+
+#### Device/Quark/
+* [Quark: update lineage overlay](https://github.com/search?q=Quark%3A%20update%20lineage%20overlay&type=Commits)
+
+#### Device specific Changes of 02-03-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-03-2019:
+
+#### device/rr/sepolicy/
+* [sepolicy: Allow recovery update_engine to setexec backuptool](https://github.com/search?q=sepolicy%3A%20Allow%20recovery%20update_engine%20to%20setexec%20backuptool&type=Commits)
+* [sepolicy: Allow Settings to read ro.vendor.build.security_patch](https://github.com/search?q=sepolicy%3A%20Allow%20Settings%20to%20read%20ro.vendor.build.security_patch&type=Commits)
+
+#### frameworks/av/
+* [Merge pull request #8 from jhenrique09/pie](https://github.com/search?q=Merge%20pull%20request%20%238%20from%20jhenrique09/pie&type=Commits)
+* [av: camera: Allow disabling shutter sound for specific packages](https://github.com/search?q=av%3A%20camera%3A%20Allow%20disabling%20shutter%20sound%20for%20specific%20packages&type=Commits)
+* [Visualizer: fix native crash when visualizer release](https://github.com/search?q=Visualizer%3A%20fix%20native%20crash%20when%20visualizer%20release&type=Commits)
+
+#### hardware/lineage/livedisplay/
+* [livedisplay: legacymm: Remove unused HALs](https://github.com/search?q=livedisplay%3A%20legacymm%3A%20Remove%20unused%20HALs&type=Commits)
+* [livedisplay: Add clang-format from hardware/interfaces](https://github.com/search?q=livedisplay%3A%20Add%20clang-format%20from%20hardware/interfaces&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1031 from Sekharbobby/pie](https://github.com/search?q=Merge%20pull%20request%20%231031%20from%20Sekharbobby/pie&type=Commits)
+
+#### system/core/
+* [Merge pull request #1 from Jprimero15/pie](https://github.com/search?q=Merge%20pull%20request%20%231%20from%20Jprimero15/pie&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-03-2019 End.
+
+02-02-2019
+====================
+
+#### Device specific Changes of 02-02-2019 Start:
+
+#### Device/Quark/
+* [Quark: use NUM_FRAMEBUFFER_SURFACE_BUFFERS = 5](https://github.com/search?q=Quark%3A%20use%20NUM_FRAMEBUFFER_SURFACE_BUFFERS%20=%205&type=Commits)
+
+#### Device specific Changes of 02-02-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-02-2019:
+
+#### device/qcom/sepolicy-legacy/
+* [common: Allow webview_zygote to read /dev/ion](https://github.com/search?q=common%3A%20Allow%20webview_zygote%20to%20read%20/dev/ion&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [update Maintainer name](https://github.com/search?q=update%20Maintainer%20name&type=Commits)
+* [Merge pull request #1025 from Jprimero15/patch-2](https://github.com/search?q=Merge%20pull%20request%20%231025%20from%20Jprimero15/patch-2&type=Commits)
+* [Merge pull request #1029 from Sekharbobby/pie](https://github.com/search?q=Merge%20pull%20request%20%231029%20from%20Sekharbobby/pie&type=Commits)
+* [Merge pull request #1027 from najahiiii/pie](https://github.com/search?q=Merge%20pull%20request%20%231027%20from%20najahiiii/pie&type=Commits)
+* [Merge pull request #1030 from jhenrique09/pie](https://github.com/search?q=Merge%20pull%20request%20%231030%20from%20jhenrique09/pie&type=Commits)
+* [whyred: bc gm](https://github.com/search?q=whyred%3A%20bc%20gm&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-02-2019 End.
+
+02-01-2019
+====================
+
+#### Device specific Changes of 02-01-2019 Start:
+
+#### Device/Quark/
+* [Quark: init symlink /data/time /data/vendor/time](https://github.com/search?q=Quark%3A%20init%20symlink%20/data/time%20/data/vendor/time&type=Commits)
+* [Revert "Quark: Drop custom display flags"](https://github.com/search?q=Revert%20"Quark%3A%20Drop%20custom%20display%20flags"&type=Commits)
+* [Revert "Quark: NUM_FRAMEBUFFER_SURFACE_BUFFERS match kernel buffer"](https://github.com/search?q=Revert%20"Quark%3A%20NUM_FRAMEBUFFER_SURFACE_BUFFERS%20match%20kernel%20buffer"&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig ena CONFIG_FB_MSM_QUINTUPLE_BUFFER](https://github.com/search?q=defconfig%20ena%20CONFIG_FB_MSM_QUINTUPLE_BUFFER&type=Commits)
+* [video:msm experimental quintuple frame buffer](https://github.com/search?q=video%3Amsm%20experimental%20quintuple%20frame%20buffer&type=Commits)
+* [Revert "defconfig disable FB_MSM_TRIPLE_BUFFER"](https://github.com/search?q=Revert%20"defconfig%20disable%20FB_MSM_TRIPLE_BUFFER"&type=Commits)
+
+#### Device specific Changes of 02-01-2019 End.
+
+***
+
 01-31-2019
 ====================
 
