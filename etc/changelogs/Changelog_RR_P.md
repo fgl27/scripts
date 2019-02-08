@@ -3,13 +3,39 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-08-2019
+====================
+
+#### Device specific Changes of 02-08-2019 Start:
+
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: rr_quark.mk fix QUARK_RR_ROM_VERSION](https://github.com/search?q=Quark%3A%20rr_quark.mk%20fix%20QUARK_RR_ROM_VERSION&type=Commits)
+
+#### Device specific Changes of 02-08-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-08-2019:
+
+#### frameworks/base/
+* [Merge pull request #244 from fgl27/pie_fix](https://github.com/search?q=Merge%20pull%20request%20%23244%20from%20fgl27/pie_fix&type=Commits)
+* [Base: fix power menu position in landscape](https://github.com/search?q=Base%3A%20fix%20power%20menu%20position%20in%20landscape&type=Commits)
+* [Merge pull request #243 from fgl27/pie_fix](https://github.com/search?q=Merge%20pull%20request%20%23243%20from%20fgl27/pie_fix&type=Commits)
+* [Base: align global_actions_wrapped layouts](https://github.com/search?q=Base%3A%20align%20global_actions_wrapped%20layouts&type=Commits)
+* [SystemUI: allow the power menu to be relocated](https://github.com/search?q=SystemUI%3A%20allow%20the%20power%20menu%20to%20be%20relocated&type=Commits)
+* [Merge branch 'pie' of https://github.com/ResurrectionRemix/android_frameworks_base into pie](https://github.com/search?q=Merge%20branch%20%27pie%27%20of%20https%3A//github.com/ResurrectionRemix/android_frameworks_base%20into%20pie&type=Commits)
+* [Expose QS statusbar background color](https://github.com/search?q=Expose%20QS%20statusbar%20background%20color&type=Commits)
+* [SystemUI: layout: global_actions_wrapped: add missing FrameLayout](https://github.com/search?q=SystemUI%3A%20layout%3A%20global_actions_wrapped%3A%20add%20missing%20FrameLayout&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-08-2019 End.
+
 02-07-2019
 ====================
 
 #### Device specific Changes of 02-07-2019 Start:
 
 #### Device/Quark/
-* [Quark: rr_quark.mk fix QUARK_RR_ROM_VERSION](https://github.com/search?q=Quark%3A%20rr_quark.mk%20fix%20QUARK_RR_ROM_VERSION&type=Commits)
 * [Quark: remove private/charge_only_mode.te](https://github.com/search?q=Quark%3A%20remove%20private/charge_only_mode.te&type=Commits)
 * [Quark: Localise NTP to improve GPS TTFF](https://github.com/search?q=Quark%3A%20Localise%20NTP%20to%20improve%20GPS%20TTFF&type=Commits)
 * [Quark: init remove vendor. tag from service names](https://github.com/search?q=Quark%3A%20init%20remove%20vendor.%20tag%20from%20service%20names&type=Commits)
