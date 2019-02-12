@@ -3,6 +3,80 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-12-2019
+====================
+
+#### Device specific Changes of 02-12-2019 Start:
+
+#### Kernel/Quark/
+* [Staging: android: sw_sync.c: Fixed coding style issue.](https://github.com/search?q=Staging%3A%20android%3A%20sw_sync.c%3A%20Fixed%20coding%20style%20issue.&type=Commits)
+* [android/sw_sync: use get_unused_fd_flags(O_CLOEXEC) instead of get_unused_fd()](https://github.com/search?q=android/sw_sync%3A%20use%20get_unused_fd_flags%28O_CLOEXEC%29%20instead%20of%20get_unused_fd%28%29&type=Commits)
+* [staging: Fix lines over 80 chars in android sw_sync](https://github.com/search?q=staging%3A%20Fix%20lines%20over%2080%20chars%20in%20android%20sw_sync&type=Commits)
+* [mm: only force scan in reclaim when none of the LRUs are big enough.](https://github.com/search?q=mm%3A%20only%20force%20scan%20in%20reclaim%20when%20none%20of%20the%20LRUs%20are%20big%20enough.&type=Commits)
+* [staging/android: Add some more kerneldoc to ashmem.c](https://github.com/search?q=staging/android%3A%20Add%20some%20more%20kerneldoc%20to%20ashmem.c&type=Commits)
+* [staging/android: Initial partial kernel-doc for ashmem.c](https://github.com/search?q=staging/android%3A%20Initial%20partial%20kernel-doc%20for%20ashmem.c&type=Commits)
+* [staging: android: ashmem: Fix mmap size validation](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20Fix%20mmap%20size%20validation&type=Commits)
+* [staging: android: ashmem: Fix lockdep issue during llseek](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20Fix%20lockdep%20issue%20during%20llseek&type=Commits)
+* [staging: android: ashmem: lseek failed due to no FMODE_LSEEK.](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20lseek%20failed%20due%20to%20no%20FMODE_LSEEK.&type=Commits)
+* [ashmem: use vfs_llseek()](https://github.com/search?q=ashmem%3A%20use%20vfs_llseek%28%29&type=Commits)
+* [staging: android: Clean up else statement from sync_fence_poll()](https://github.com/search?q=staging%3A%20android%3A%20Clean%20up%20else%20statement%20from%20sync_fence_poll%28%29&type=Commits)
+* [staging: android: describe use of memory barrier on sync.c](https://github.com/search?q=staging%3A%20android%3A%20describe%20use%20of%20memory%20barrier%20on%20sync.c&type=Commits)
+* [android/sync: use get_unused_fd_flags(O_CLOEXEC) instead of get_unused_fd()](https://github.com/search?q=android/sync%3A%20use%20get_unused_fd_flags%28O_CLOEXEC%29%20instead%20of%20get_unused_fd%28%29&type=Commits)
+* [staging: android: Replace seq_printf with seq_puts](https://github.com/search?q=staging%3A%20android%3A%20Replace%20seq_printf%20with%20seq_puts&type=Commits)
+* [staging: android: Remove unnecessary braces](https://github.com/search?q=staging%3A%20android%3A%20Remove%20unnecessary%20braces&type=Commits)
+
+#### Device specific Changes of 02-12-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-12-2019:
+
+#### hardware/qcom/display-caf/apq8084/
+* [Make memtrack build with the VNDK.](https://github.com/search?q=Make%20memtrack%20build%20with%20the%20VNDK.&type=Commits)
+* [Add missing includes.](https://github.com/search?q=Add%20missing%20includes.&type=Commits)
+* [libmemtrack: Add open method for apq8084.memtrack](https://github.com/search?q=libmemtrack%3A%20Add%20open%20method%20for%20apq8084.memtrack&type=Commits)
+* [display: Use generated kernel headers](https://github.com/search?q=display%3A%20Use%20generated%20kernel%20headers&type=Commits)
+* [hal: Added LOCAL_VENDOR_MODULE to set output path of the binaries](https://github.com/search?q=hal%3A%20Added%20LOCAL_VENDOR_MODULE%20to%20set%20output%20path%20of%20the%20binaries&type=Commits)
+* [Use header lib instead of using global include path](https://github.com/search?q=Use%20header%20lib%20instead%20of%20using%20global%20include%20path&type=Commits)
+
+#### hardware/qcom/media-caf/apq8084/
+* [Revert "media: Avoid collision with FFMPEG plugin"](https://github.com/search?q=Revert%20"media%3A%20Avoid%20collision%20with%20FFMPEG%20plugin"&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1038 from MOVZX/pie](https://github.com/search?q=Merge%20pull%20request%20%231038%20from%20MOVZX/pie&type=Commits)
+* [gemini: Update Maintainer](https://github.com/search?q=gemini%3A%20Update%20Maintainer&type=Commits)
+* [Settings: ButtonBacklightBrightness add missing dialog buttons (#1036)](https://github.com/search?q=Settings%3A%20ButtonBacklightBrightness%20add%20missing%20dialog%20buttons%20%28%231036%29&type=Commits)
+* [Settings: Fix SystemSettingSeekBarPreference default value (#1035)](https://github.com/search?q=Settings%3A%20Fix%20SystemSettingSeekBarPreference%20default%20value%20%28%231035%29&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-12-2019 End.
+
+02-11-2019
+====================
+
+#### Device specific Changes of 02-11-2019 Start:
+
+#### Device/Quark/
+* [Quark: wifi: Update wpa overlay config](https://github.com/search?q=Quark%3A%20wifi%3A%20Update%20wpa%20overlay%20config&type=Commits)
+* [Quark: Increase heap start size to 16m to minimize GC with larger bitmaps](https://github.com/search?q=Quark%3A%20Increase%20heap%20start%20size%20to%2016m%20to%20minimize%20GC%20with%20larger%20bitmaps&type=Commits)
+
+#### Device specific Changes of 02-11-2019 End.
+
+***
+
+02-09-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-09-2019:
+
+#### frameworks/base/
+* [Merge pull request #244 from fgl27/pie_fix](https://github.com/search?q=Merge%20pull%20request%20%23244%20from%20fgl27/pie_fix&type=Commits)
+* [Base: fix power menu position in landscape](https://github.com/search?q=Base%3A%20fix%20power%20menu%20position%20in%20landscape&type=Commits)
+
+#### hardware/broadcom/libbt/
+* [libbt: Align Samsung CID strings to those created by macloader](https://github.com/search?q=libbt%3A%20Align%20Samsung%20CID%20strings%20to%20those%20created%20by%20macloader&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-09-2019 End.
+
 02-08-2019
 ====================
 
