@@ -43,6 +43,9 @@ if [ "$input1" == "1" ]; then
 
 		cd $folder || exit;
 		git fetch https://github.com/fgl27/android_frameworks_base/ pie && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..a8ee31a0ed0d1f8cd111dc4a4d62977ab43286d6
+
+		git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/29/237129/7 && git cherry-pick FETCH_HEAD
+		git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/72/237172/5 && git cherry-pick FETCH_HEAD
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
@@ -88,14 +91,17 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="hardware/qcom/display-caf/apq8084/";
+	echo -e "\\n	out Folder $folder"
+
+	folder="frameworks/opt/net/wifi/";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git pull https://github.com/fgl27/android_hardware_qcom_display/ lineage-16.0-caf-8084 --no-edit
+	git pull https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 --no-edit
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
+
 
 	folder="system/connectivity/wificond/";
 	echo -e "\\n	In Folder $folder \\n"
@@ -106,11 +112,45 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#unmerged from gerrit
+
 	folder="frameworks/opt/net/wifi/";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git pull https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 --no-edit
+	git fetch https://github.com/LineageOS/android_frameworks_opt_net_wifi refs/changes/73/237173/3 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	folder="device/qcom/sepolicy-legacy";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_device_qcom_sepolicy-legacy refs/changes/41/239741/3 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="frameworks/av";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/06/237206/1 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/27/238927/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/28/238928/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/29/238929/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/31/238931/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/32/238932/2 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/42/239642/1 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="frameworks/base/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/29/237129/7 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/72/237172/5 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
