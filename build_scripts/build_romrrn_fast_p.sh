@@ -111,7 +111,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick 9f1981f3f58a0e00981174475bcc2ad96b67abfb
+	git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick d9810f5343c626cfd4223c71aa37980a23a34256
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
