@@ -3,6 +3,56 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-15-2019
+====================
+
+#### Device specific Changes of 02-15-2019 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: reset bluetooth/bdroid_buildcfg.h](https://github.com/search?q=Quark%3A%20reset%20bluetooth/bdroid_buildcfg.h&type=Commits)
+* [Quark: update start_hci_filter init service](https://github.com/search?q=Quark%3A%20update%20start_hci_filter%20init%20service&type=Commits)
+* [Revert "Quark: import open source BT driver and reconfig bt"](https://github.com/search?q=Revert%20"Quark%3A%20import%20open%20source%20BT%20driver%20and%20reconfig%20bt"&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: use vendor prefix enabled wcnss_filter](https://github.com/search?q=Quark%3A%20use%20vendor%20prefix%20enabled%20wcnss_filter&type=Commits)
+
+#### Device specific Changes of 02-15-2019 End.
+
+***
+
+02-14-2019
+====================
+
+#### Device specific Changes of 02-14-2019 Start:
+
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Revert "Quark: remove wifi display overlay"](https://github.com/search?q=Revert%20"Quark%3A%20remove%20wifi%20display%20overlay"&type=Commits)
+
+#### Device specific Changes of 02-14-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-14-2019:
+#### android/
+* [manifest: crowdin: fix repo names](https://github.com/search?q=manifest%3A%20crowdin%3A%20fix%20repo%20names&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-14-2019 End.
+
 02-12-2019
 ====================
 
