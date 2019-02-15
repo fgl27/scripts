@@ -3,6 +3,28 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+02-12-2019
+====================
+
+* [BHB27-Kernel-Pie-V9.27](https://github.com/bhb27/BHB27Kernel/search?q=BHB27-Kernel-Pie-V9.27&type=Commits)
+* [Staging: android: sw_sync.c: Fixed coding style issue.](https://github.com/bhb27/BHB27Kernel/search?q=Staging%3A%20android%3A%20sw_sync.c%3A%20Fixed%20coding%20style%20issue.&type=Commits)
+* [android/sw_sync: use get_unused_fd_flags(O_CLOEXEC) instead of get_unused_fd()](https://github.com/bhb27/BHB27Kernel/search?q=android/sw_sync%3A%20use%20get_unused_fd_flags%28O_CLOEXEC%29%20instead%20of%20get_unused_fd%28%29&type=Commits)
+* [staging: Fix lines over 80 chars in android sw_sync](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20Fix%20lines%20over%2080%20chars%20in%20android%20sw_sync&type=Commits)
+* [mm: only force scan in reclaim when none of the LRUs are big enough.](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20only%20force%20scan%20in%20reclaim%20when%20none%20of%20the%20LRUs%20are%20big%20enough.&type=Commits)
+* [staging/android: Add some more kerneldoc to ashmem.c](https://github.com/bhb27/BHB27Kernel/search?q=staging/android%3A%20Add%20some%20more%20kerneldoc%20to%20ashmem.c&type=Commits)
+* [staging/android: Initial partial kernel-doc for ashmem.c](https://github.com/bhb27/BHB27Kernel/search?q=staging/android%3A%20Initial%20partial%20kernel-doc%20for%20ashmem.c&type=Commits)
+* [staging: android: ashmem: Fix mmap size validation](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20ashmem%3A%20Fix%20mmap%20size%20validation&type=Commits)
+* [staging: android: ashmem: Fix lockdep issue during llseek](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20ashmem%3A%20Fix%20lockdep%20issue%20during%20llseek&type=Commits)
+* [staging: android: ashmem: lseek failed due to no FMODE_LSEEK.](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20ashmem%3A%20lseek%20failed%20due%20to%20no%20FMODE_LSEEK.&type=Commits)
+* [ashmem: use vfs_llseek()](https://github.com/bhb27/BHB27Kernel/search?q=ashmem%3A%20use%20vfs_llseek%28%29&type=Commits)
+* [staging: android: Clean up else statement from sync_fence_poll()](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20Clean%20up%20else%20statement%20from%20sync_fence_poll%28%29&type=Commits)
+* [staging: android: describe use of memory barrier on sync.c](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20describe%20use%20of%20memory%20barrier%20on%20sync.c&type=Commits)
+* [android/sync: use get_unused_fd_flags(O_CLOEXEC) instead of get_unused_fd()](https://github.com/bhb27/BHB27Kernel/search?q=android/sync%3A%20use%20get_unused_fd_flags%28O_CLOEXEC%29%20instead%20of%20get_unused_fd%28%29&type=Commits)
+* [staging: android: Replace seq_printf with seq_puts](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20Replace%20seq_printf%20with%20seq_puts&type=Commits)
+* [staging: android: Remove unnecessary braces](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20Remove%20unnecessary%20braces&type=Commits)
+
+***
+
 02-07-2019
 ====================
 
