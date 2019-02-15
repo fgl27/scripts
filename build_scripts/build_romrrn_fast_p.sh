@@ -38,6 +38,9 @@ cd $FOLDER_SOURCE || exit;
 if [ "$input1" == "1" ]; then
 
 	if [ "$input3" == "r" ]; then
+
+		#RR changes to make the ROM the way I prefer
+
 		folder="frameworks/base/";
 		echo -e "\\n	In Folder $folder \\n"
 
@@ -79,6 +82,8 @@ if [ "$input1" == "1" ]; then
 
 	fi
 
+	#Disable nfc by default
+	
 	folder="packages/apps/Nfc";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -90,21 +95,32 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	folder="frameworks/opt/net/wifi/";
+	#unmerged from gerrit for display
+
+	folder="hardware/qcom/display-caf/apq8084/";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git pull https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 --no-edit
+	git fetch https://github.com/fgl27/android_hardware_qcom_display lineage-16.0-caf-8084 && git cherry-pick 6718ff4b192c0f21dc64ce7c3a3dca187736f605^..868d3001a9e60ba45c5413eba9ea1494f522425a
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
 
+	#Fix slow to connect wifi and races
+	folder="frameworks/opt/net/wifi/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick 9f1981f3f58a0e00981174475bcc2ad96b67abfb
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
 
 	folder="system/connectivity/wificond/";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git pull https://github.com/fgl27/system_connectivity_wificond/ Pie --no-edit
+	git fetch https://github.com/fgl27/system_connectivity_wificond/ Pie && git cherry-pick f695a663f751814ab35e30791693d784649fad4e^..31b7bd81e031bbe9505c82bc15670e4281b00d34
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -165,8 +181,10 @@ git checkout P
 git pull origin P
 cd - &> /dev/null || exit;
 
+# build SU
 export WITH_SU=true
 
+# Basic shell variables initialization for RR
 if [ "$input3" == "r" ]; then
 	export days_to_log=0
 	export RR_BUILDTYPE="Mod"
@@ -174,6 +192,7 @@ if [ "$input3" == "r" ]; then
 	export WITH_SU=true
 fi
 
+# Start the build
 . build/envsetup.sh
 if [ "$input2" == "1" ]; then
 	make clean
@@ -191,12 +210,9 @@ else
 	time mka bacon -j8 2>&1 | tee quark.txt
 fi
 
-# final time display *cosmetic...
+# final time display
 END2="$(date)";
 END=$(date +%s.%N);
 echo -e "\nBuild start $START2";
 echo -e "Build end   $END2 \n";
 echo -e "\nTotal time elapsed: $(echo "($END - $START) / 60"|bc ):$(echo "(($END - $START) - (($END - $START) / 60) * 60)"|bc ) (minutes:seconds). \n";
-
-#sudo shutdown -h now;
-
