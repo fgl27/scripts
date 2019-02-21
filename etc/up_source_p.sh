@@ -27,15 +27,45 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/Gallery2"
 		"packages/apps/Trebuchet"
 		"packages/overlays/Lineage"
-		"packages/apps/LineageParts");
+		"packages/apps/LineageParts"
+		"lineage-sdk"
+		"device/qcom/sepolicy"
+		"device/rr/sepolicy"
+		"frameworks/av"
+		"packages/services/Telephony"
+		"system/core"
+		"frameworks/support"
+		"system/sepolicy"
+		"packages/services/Telecomm"
+		"packages/apps/Updater"
+		"device/qcom/sepolicy-legacy");
 
 sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_DocumentsUI"
 		"android_packages_apps_Gallery2"
 		"android_packages_apps_Trebuchet"
 		"android_packages_overlays_Lineage"
-		"android_packages_apps_LineageParts");
+		"android_packages_apps_LineageParts"
+		"android_lineage-sdk"
+		"android_device_qcom_sepolicy"
+		"device_rr_sepolicy"
+		"android_frameworks_av"
+		"android_packages_services_Telephony"
+		"android_system_core"
+		"android_frameworks_support"
+		"android_system_sepolicy"
+		"android_packages_services_Telecomm"
+		"android_packages_apps_Updater"
+		"android_device_qcom_sepolicy-legacy");
 
 checkout_pull
 
 exit;
+
+#Manual
+# cd "frameworks/opt/slimrecent"
+# git pull https://github.com/AICP/frameworks_opt_slimrecent
+
+# cd "packages/apps/SmartNav"
+
+# cd packages/services/OmniJaws
