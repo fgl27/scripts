@@ -95,16 +95,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	#unmerged from gerrit for display
-
-	folder="hardware/qcom/display-caf/apq8084/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_hardware_qcom_display lineage-16.0-caf-8084 && git cherry-pick 6718ff4b192c0f21dc64ce7c3a3dca187736f605^..868d3001a9e60ba45c5413eba9ea1494f522425a
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
 
 	#Fix slow to connect wifi and races
 	folder="frameworks/opt/net/wifi/";
