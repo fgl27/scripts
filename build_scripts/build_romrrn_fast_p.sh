@@ -111,7 +111,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick d9810f5343c626cfd4223c71aa37980a23a34256
+	git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick d9810f5343c626cfd4223c71aa37980a23a34256^..9a61195fd803c43ad1924ee513d73873f57c1918
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -189,7 +189,6 @@ if [ "$input3" == "r" ]; then
 	export days_to_log=0
 	export RR_BUILDTYPE="Mod"
 	export WITH_ROOT_METHOD="rootless"
-	export WITH_SU=true
 fi
 
 # Start the build
@@ -199,7 +198,7 @@ if [ "$input2" == "1" ]; then
 fi
 
 if [ "$input3" == "r" ]; then
-	lunch rr_quark-userdebug
+		lunch rr_quark-userdebug
 elif [ "$input3" == "l" ]; then
 	lunch lineage_quark-userdebug
 fi

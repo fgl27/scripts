@@ -85,9 +85,8 @@ Deleting the old Home
 
 #### libreoffice start
 
-https://www.libreoffice.org/download/download/
-
-	sudo dpkg -i *
+	sudo add-apt-repository ppa:libreoffice/ppa
+	libreoffice libreoffice-lightproof-pt-br libreoffice-help-pt-br  libreoffice-l10n-pt-br hunspell-pt-br
 
 #### teamviewer access
 
