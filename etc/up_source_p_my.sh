@@ -13,16 +13,14 @@ checkout_pull() {
 		echo -e "\\n${bldred}	In Folder ${sources_path[i]} ${txtrst}\\n"
 
 		git pull https://github.com/fgl27/"${sources_links[i]}"/ pie --no-edit
-		if [ "$do_push" == "1" ]; then
+		#if [ "$do_push" == "1" ]; then
 			#git push origin
-		fi;
+		#fi;
 
 		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[i]} ${txtrst}"
 		cd - &> /dev/null || exit;
 	done
 }
-
-cd "$HOME"/android/sources || exit;
 
 sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/DocumentsUI"
@@ -67,6 +65,7 @@ exit;
 #Manual
 # cd "frameworks/opt/slimrecent"
 # git pull https://github.com/AICP/frameworks_opt_slimrecent
+# git pull https://github.com/fgl27/frameworks_opt_slimrecent
 
 # cd "packages/apps/SmartNav"
 # cd packages/services/OmniJaws
