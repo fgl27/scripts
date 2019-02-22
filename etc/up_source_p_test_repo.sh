@@ -1,5 +1,5 @@
 #!/bin/bash
-#simple .sh to update local repos
+#simple .sh to update local source file (updat the folder where you the source aka where you do repo sync)
 
 txtbld=$(tput bold) # Bold
 bldred=${txtbld}$(tput setaf 1) # red
@@ -7,15 +7,15 @@ bldgrn=${txtbld}$(tput setaf 2) # green
 txtrst=$(tput sgr0) # Reset
 do_push=0;
 
+user="fgl27";
+branch="pie";
+
 checkout_pull() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
 		cd "${sources_path[i]}" || exit;
 		echo -e "\\n${bldred}	In Folder ${sources_path[i]} ${txtrst}\\n"
 
-		git pull https://github.com/fgl27/"${sources_links[i]}"/ pie --no-edit
-		#if [ "$do_push" == "1" ]; then
-			#git push origin
-		#fi;
+		git pull https://github.com/"$user"/"${sources_links[i]}"/ "$branch" --no-edit
 
 		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[i]} ${txtrst}"
 		cd - &> /dev/null || exit;
@@ -58,7 +58,7 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_Updater"
 		"android_device_qcom_sepolicy-legacy");
 
-checkout_pull
+checkout_pull;
 
 exit;
 
@@ -67,8 +67,8 @@ exit;
 # git pull https://github.com/AICP/frameworks_opt_slimrecent
 # git pull https://github.com/fgl27/frameworks_opt_slimrecent
 
-# cd "packages/apps/SmartNav"
-# cd packages/services/OmniJaws
+# packages/apps/SmartNav
+# packages/services/OmniJaws
 # platform_manifest
 # build/make
 # build/soong

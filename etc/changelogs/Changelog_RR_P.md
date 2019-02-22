@@ -3,6 +3,182 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-21-2019
+====================
+
+#### Device specific Changes of 02-21-2019 Start:
+
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+
+#### Device specific Changes of 02-21-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-21-2019:
+
+#### device/qcom/sepolicy/
+* [Merge https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy%20into%20pie&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [Merge https://github.com/LineageOS/android_device_qcom_sepolicy-legacy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy-legacy%20into%20pie&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/opt/slimrecent/
+* [Merge https://github.com/AICP/frameworks_opt_slimrecent into pie](https://github.com/search?q=Merge%20https%3A//github.com/AICP/frameworks_opt_slimrecent%20into%20pie&type=Commits)
+
+#### frameworks/support/
+* [Merge https://github.com/LineageOS/android_frameworks_support into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_frameworks_support%20into%20pie&type=Commits)
+
+#### lineage-sdk/
+* [Merge https://github.com/LineageOS/android_lineage-sdk into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_lineage-sdk%20into%20pie&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_DocumentsUI%20into%20pie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20pie&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Merge branch 'lineage-16.0' into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20into%20HEAD&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Merge https://github.com/LineageOS/android_packages_apps_LineageParts into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_LineageParts%20into%20pie&type=Commits)
+
+#### packages/apps/Settings/
+* [Slim recents: re-enable expanded mode always [2/2]](https://github.com/search?q=Slim%20recents%3A%20re-enable%20expanded%20mode%20always%20[2/2]&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge https://github.com/LineageOS/android_packages_apps_Trebuchet into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%20pie&type=Commits)
+
+#### packages/apps/Updater/
+* [Merge https://github.com/LineageOS/android_packages_apps_Updater into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_Updater%20into%20pie&type=Commits)
+
+#### packages/overlays/Lineage/
+* [Merge https://github.com/LineageOS/android_packages_overlays_Lineage into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_overlays_Lineage%20into%20pie&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge https://github.com/LineageOS/android_packages_services_Telecomm into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20pie&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20pie&type=Commits)
+
+#### system/sepolicy/
+* [Merge https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20pie&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-21-2019 End.
+
+02-20-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-20-2019:
+
+#### device/rr/sepolicy/
+* [common: Restrict HAL permissions to server side](https://github.com/search?q=common%3A%20Restrict%20HAL%20permissions%20to%20server%20side&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1040 from kshatriya-abhay/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231040%20from%20kshatriya-abhay/patch-1&type=Commits)
+* [zenfone3: remove obsolete device](https://github.com/search?q=zenfone3%3A%20remove%20obsolete%20device&type=Commits)
+* [zenfone3: update maintainer](https://github.com/search?q=zenfone3%3A%20update%20maintainer&type=Commits)
+* [Merge pull request #1039 from sagarrokade006/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231039%20from%20sagarrokade006/patch-1&type=Commits)
+* [Kenzo:  update maintainer](https://github.com/search?q=Kenzo%3A%20%20update%20maintainer&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-20-2019 End.
+
+02-19-2019
+====================
+
+#### Device specific Changes of 02-19-2019 Start:
+
+#### Kernel/Quark/
+* [qcacld-2.0: disable link layer stats](https://github.com/search?q=qcacld-2.0%3A%20disable%20link%20layer%20stats&type=Commits)
+
+#### Device specific Changes of 02-19-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-19-2019:
+
+#### device/qcom/sepolicy/
+* [sdm660: Label persist partition for fsck](https://github.com/search?q=sdm660%3A%20Label%20persist%20partition%20for%20fsck&type=Commits)
+
+#### system/sepolicy/
+* [Allow stats_companion to register thermal throttling event listener.](https://github.com/search?q=Allow%20stats_companion%20to%20register%20thermal%20throttling%20event%20listener.&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-19-2019 End.
+
+02-18-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-18-2019:
+
+#### device/qcom/sepolicy-legacy/
+* [Merge remote-tracking branch 'LineageOS/lineage-16.0' into pie](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-16.0%27%20into%20pie&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge remote-tracking branch 'LineageOS/lineage-16.0' into pie](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27LineageOS/lineage-16.0%27%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [SettingsProvider: Allow accessing LineageSettings via settings command](https://github.com/search?q=SettingsProvider%3A%20Allow%20accessing%20LineageSettings%20via%20settings%20command&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [sdk: LineageHardwareService: Add fallback to HWC2](https://github.com/search?q=sdk%3A%20LineageHardwareService%3A%20Add%20fallback%20to%20HWC2&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: Implement rules for font service in p-mr0](https://github.com/search?q=sepolicy%3A%20Implement%20rules%20for%20font%20service%20in%20p-mr0&type=Commits)
+* [sepolicy: rules for FontService](https://github.com/search?q=sepolicy%3A%20rules%20for%20FontService&type=Commits)
+* [sepolicy: exceptions for font engine assets](https://github.com/search?q=sepolicy%3A%20exceptions%20for%20font%20engine%20assets&type=Commits)
+
+#### vendor/rr/
+* [Never allow neverallows](https://github.com/search?q=Never%20allow%20neverallows&type=Commits)
+* [addonsu: Don't mount SAR system to /system](https://github.com/search?q=addonsu%3A%20Don%27t%20mount%20SAR%20system%20to%20/system&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-18-2019 End.
+
+02-17-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-17-2019:
+
+#### hardware/qcom/sdm845/data/ipacfg-mgr/
+* [os_pickup: Guard to avoid conflicts with CAF repos](https://github.com/search?q=os_pickup%3A%20Guard%20to%20avoid%20conflicts%20with%20CAF%20repos&type=Commits)
+
+#### lineage-sdk/
+* [sdk: Cleanup usage of List.toArray(T[] a)](https://github.com/search?q=sdk%3A%20Cleanup%20usage%20of%20List.toArray%28T[]%20a%29&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-17-2019 End.
+
+02-16-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-16-2019:
+
+#### device/rr/sepolicy/
+* [common: Mark platform_app as hal_lineage_livedisplay client](https://github.com/search?q=common%3A%20Mark%20platform_app%20as%20hal_lineage_livedisplay%20client&type=Commits)
+* [common: Label livedisplay 2.0 sysfs service](https://github.com/search?q=common%3A%20Label%20livedisplay%202.0%20sysfs%20service&type=Commits)
+* [Remove minivold rules](https://github.com/search?q=Remove%20minivold%20rules&type=Commits)
+* [Move snap/gallery definitions back to private](https://github.com/search?q=Move%20snap/gallery%20definitions%20back%20to%20private&type=Commits)
+* [Clean-up recovery rules a bit](https://github.com/search?q=Clean-up%20recovery%20rules%20a%20bit&type=Commits)
+* [Label adb.network.port as system_prop](https://github.com/search?q=Label%20adb.network.port%20as%20system_prop&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: Fix shutter button size](https://github.com/search?q=Snap%3A%20Fix%20shutter%20button%20size&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: public: Exclude Recovery from system mount neverallow](https://github.com/search?q=sepolicy%3A%20public%3A%20Exclude%20Recovery%20from%20system%20mount%20neverallow&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-16-2019 End.
+
 02-15-2019
 ====================
 

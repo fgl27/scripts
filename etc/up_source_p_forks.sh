@@ -1,18 +1,22 @@
 #!/bin/bash
-#simple .sh to update local repos
+#simple .sh to update local forked repos
 
 txtbld=$(tput bold) # Bold
 bldred=${txtbld}$(tput setaf 1) # red
 bldgrn=${txtbld}$(tput setaf 2) # green
 txtrst=$(tput sgr0) # Reset
 
+org="LineageOS";
+branch="lineage-16.0";
+checkout_branch="pie";
+
 checkout_pull() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
 		cd "${sources_path[i]}" || exit;
 		echo -e "\\n${bldred}	In Folder ${sources_path[i]} ${txtrst}\\n"
 
-		git checkout pie
-		git pull https://github.com/LineageOS/"${sources_links[i]}"/ lineage-16.0 --no-edit
+		git checkout "$checkout_branch"
+		git pull https://github.com/"$org"/"${sources_links[i]}"/ "$branch" --no-edit
 		git push origin
 
 		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[i]} ${txtrst}"
@@ -65,7 +69,13 @@ exit;
 #Manual
 # cd "frameworks/opt/slimrecent"
 # git pull https://github.com/AICP/frameworks_opt_slimrecent
+# git pull https://github.com/fgl27/frameworks_opt_slimrecent
 
-# cd "packages/apps/SmartNav"
-
-# cd packages/services/OmniJaws
+# packages/apps/SmartNav
+# packages/services/OmniJaws
+# platform_manifest
+# build/make
+# build/soong
+# frameworks/base
+# packages/apps/Settings
+# vendor/rr
