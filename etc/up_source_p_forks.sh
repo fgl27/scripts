@@ -10,17 +10,23 @@ org="LineageOS";
 branch="lineage-16.0";
 checkout_branch="pie";
 
+#$1 = local folder path
+#$2 = branch
+#$3 = org to pull from
+#$4 = repo
+#$5 = repo branch to pull from
 checkout_pull() {
+	cd "$1" || exit;
+	echo -e "\\n${bldred}	In Folder $1 ${txtrst}\\n"
+	git checkout "$2"
+	git pull https://github.com/"$3"/"$4"/ "$branch" --no-edit
+	git push origin "$2"
+	cd - &> /dev/null || exit;
+}
+
+checkout_pull_array() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
-		cd "${sources_path[i]}" || exit;
-		echo -e "\\n${bldred}	In Folder ${sources_path[i]} ${txtrst}\\n"
-
-		git checkout "$checkout_branch"
-		git pull https://github.com/"$org"/"${sources_links[i]}"/ "$branch" --no-edit
-		git push origin
-
-		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[i]} ${txtrst}"
-		cd - &> /dev/null || exit;
+		checkout_pull "${sources_path[i]}" "$checkout_branch" "$org" "${sources_links[i]}" "$branch"
 	done
 }
 
@@ -52,7 +58,7 @@ sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_LineageParts"
 		"android_lineage-sdk"
 		"android_device_qcom_sepolicy"
-		"device_rr_sepolicy"
+		"android_device_lineage_sepolicy"
 		"android_frameworks_av"
 		"android_packages_services_Telephony"
 		"android_system_core"
@@ -62,17 +68,28 @@ sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_Updater"
 		"android_device_qcom_sepolicy-legacy");
 
-checkout_pull
+checkout_pull_array
+
+#None LOS repos
+
+	path="frameworks/opt/slimrecent";
+	org="AICP";
+	branch="p9.0";
+	sources_links="frameworks_opt_slimrecent"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_links" "$branch"
+
+	path="packages/services/OmniJaws";
+	org="omnirom";
+	branch="android-9.0";
+	sources_links="android_packages_services_OmniJaws"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_links" "$branch"
 
 exit;
 
-#Manual
-# cd "frameworks/opt/slimrecent"
-# git pull https://github.com/AICP/frameworks_opt_slimrecent
-# git pull https://github.com/fgl27/frameworks_opt_slimrecent
+#without org
 
 # packages/apps/SmartNav
-# packages/services/OmniJaws
+# 
 # platform_manifest
 # build/make
 # build/soong
