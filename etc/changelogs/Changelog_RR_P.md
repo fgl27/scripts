@@ -3,19 +3,40 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
-02-21-2019
+02-23-2019
 ====================
 
-#### Device specific Changes of 02-21-2019 Start:
+#### Resurrection Remix OS - Pie source changes of 02-23-2019:
+
+#### hardware/lineage/livedisplay/
+* [Revert "livedisplay: sdm: Fix restoring default mode"](https://github.com/search?q=Revert%20"livedisplay%3A%20sdm%3A%20Fix%20restoring%20default%20mode"&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [ExactCalculator: fix text contrast in dark mode](https://github.com/search?q=ExactCalculator%3A%20fix%20text%20contrast%20in%20dark%20mode&type=Commits)
+
+#### packages/apps/Messaging/
+* [Implement per conversation channels](https://github.com/search?q=Implement%20per%20conversation%20channels&type=Commits)
+* [Don't build with platform certificate](https://github.com/search?q=Don%27t%20build%20with%20platform%20certificate&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-23-2019 End.
+
+02-22-2019
+====================
+
+#### Device specific Changes of 02-22-2019 Start:
 
 #### Device/Quark/
+* [Quark: don't overlay config_globalActionsList](https://github.com/search?q=Quark%3A%20don%27t%20overlay%20config_globalActionsList&type=Commits)
 * [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
 
-#### Device specific Changes of 02-21-2019 End.
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 02-22-2019 End.
 
 ***
 
-#### Resurrection Remix OS - Pie source changes of 02-21-2019:
+#### Resurrection Remix OS - Pie source changes of 02-22-2019:
 
 #### device/qcom/sepolicy/
 * [Merge https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy%20into%20pie&type=Commits)
@@ -25,6 +46,12 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 
 #### device/rr/sepolicy/
 * [Merge https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [HWKeys: Disable haptic on keyguard](https://github.com/search?q=HWKeys%3A%20Disable%20haptic%20on%20keyguard&type=Commits)
+* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
+* [Base: GlobalActionsDialog align with aosp](https://github.com/search?q=Base%3A%20GlobalActionsDialog%20align%20with%20aosp&type=Commits)
+* [Base: update GlobalActionsDialog to fix power menu list](https://github.com/search?q=Base%3A%20update%20GlobalActionsDialog%20to%20fix%20power%20menu%20list&type=Commits)
 
 #### frameworks/opt/slimrecent/
 * [Merge https://github.com/AICP/frameworks_opt_slimrecent into pie](https://github.com/search?q=Merge%20https%3A//github.com/AICP/frameworks_opt_slimrecent%20into%20pie&type=Commits)
@@ -40,9 +67,6 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 
 #### packages/apps/ExactCalculator/
 * [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20pie&type=Commits)
-
-#### packages/apps/Gallery2/
-* [Merge branch 'lineage-16.0' into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20into%20HEAD&type=Commits)
 
 #### packages/apps/LineageParts/
 * [Merge https://github.com/LineageOS/android_packages_apps_LineageParts into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_LineageParts%20into%20pie&type=Commits)
@@ -68,7 +92,7 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 #### system/sepolicy/
 * [Merge https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20pie&type=Commits)
 
-#### Resurrection Remix OS - Pie source changes of 02-21-2019 End.
+#### Resurrection Remix OS - Pie source changes of 02-22-2019 End.
 
 02-20-2019
 ====================
