@@ -6,6 +6,7 @@ bldred=${txtbld}$(tput setaf 1) # red
 bldgrn=${txtbld}$(tput setaf 2) # green
 txtrst=$(tput sgr0) # Reset
 
+#Los related
 org="LineageOS";
 branch="lineage-16.0";
 checkout_branch="pie";
@@ -48,7 +49,9 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"system/sepolicy"
 		"packages/services/Telecomm"
 		"packages/apps/Updater"
-		"device/qcom/sepolicy-legacy");
+		"device/qcom/sepolicy-legacy"
+		"build/soong"
+		"build/make");
 
 sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_DocumentsUI"
@@ -66,7 +69,9 @@ sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_system_sepolicy"
 		"android_packages_services_Telecomm"
 		"android_packages_apps_Updater"
-		"android_device_qcom_sepolicy-legacy");
+		"android_device_qcom_sepolicy-legacy"
+		"android_build_soong"
+		"android_build");
 
 checkout_pull_array
 
@@ -75,24 +80,22 @@ checkout_pull_array
 	path="frameworks/opt/slimrecent";
 	org="AICP";
 	branch="p9.0";
-	sources_links="frameworks_opt_slimrecent"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_links" "$branch"
+	sources_link="frameworks_opt_slimrecent"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
 
 	path="packages/services/OmniJaws";
 	org="omnirom";
 	branch="android-9.0";
-	sources_links="android_packages_services_OmniJaws"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_links" "$branch"
+	sources_link="android_packages_services_OmniJaws"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
 
 exit;
 
-#without org
+#Manually updated:
 
 # packages/apps/SmartNav
 # 
 # platform_manifest
-# build/make
-# build/soong
 # frameworks/base
 # packages/apps/Settings
 # vendor/rr

@@ -1,13 +1,13 @@
 #!/bin/bash
-#simple .sh to update the org
+#simple .sh to update local source file (updat the folder where you the source aka where you do repo sync)
 
 txtbld=$(tput bold) # Bold
 bldred=${txtbld}$(tput setaf 1) # red
 bldgrn=${txtbld}$(tput setaf 2) # green
 txtrst=$(tput sgr0) # Reset
+do_push=0;
 
-user="fgl27"
-org="ResurrectionRemix"
+git_user="fgl27";
 branch="pie";
 
 checkout_pull() {
@@ -15,12 +15,7 @@ checkout_pull() {
 		cd "${sources_path[i]}" || exit;
 		echo -e "\\n${bldred}	In Folder ${sources_path[i]} ${txtrst}\\n"
 
-		git checkout "$branch"
-		git remote remove origin
-		git remote add origin https://github.com/"$org"/"${sources_links[i]}"/
-		git push origin "$branch"
-		git remote remove origin
-		git remote add origin https://github.com/"$user"/"${sources_links[i]}"/
+		git pull https://github.com/"$git_user"/"${sources_links[i]}"/ "$branch" --no-edit
 
 		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[i]} ${txtrst}"
 		cd - &> /dev/null || exit;
@@ -43,7 +38,14 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"system/sepolicy"
 		"packages/services/Telecomm"
 		"packages/apps/Updater"
-		"device/qcom/sepolicy-legacy");
+		"device/qcom/sepolicy-legacy"
+		"build/soong"
+		"build/make"
+		"frameworks/opt/slimrecent"
+		"packages/services/OmniJaws"
+		"frameworks/base"
+		"packages/apps/Settings"
+		"vendor/rr");
 
 sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_DocumentsUI"
@@ -61,22 +63,15 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_system_sepolicy"
 		"android_packages_services_Telecomm"
 		"android_packages_apps_Updater"
-		"android_device_qcom_sepolicy-legacy");
+		"android_device_qcom_sepolicy-legacy"
+		"android_build_soong"
+		"android_build"
+		"frameworks_opt_slimrecent"
+		"android_packages_services_OmniJaws"
+		"android_frameworks_base"
+		"Resurrection_packages_apps_Settings"
+		"android_vendor_resurrection");
 
 checkout_pull;
 
 exit;
-
-#Manual
-# cd "frameworks/opt/slimrecent"
-# git pull https://github.com/AICP/frameworks_opt_slimrecent
-# git pull https://github.com/fgl27/frameworks_opt_slimrecent
-
-# packages/apps/SmartNav
-# packages/services/OmniJaws
-# platform_manifest
-# build/make
-# build/soong
-# frameworks/base
-# packages/apps/Settings
-# vendor/rr
