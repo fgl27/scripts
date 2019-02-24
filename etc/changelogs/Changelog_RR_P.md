@@ -3,6 +3,35 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-24-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-24-2019:
+
+#### frameworks/base/
+* [SystemUI: Make recents grid view accept more than 8 tasks](https://github.com/search?q=SystemUI%3A%20Make%20recents%20grid%20view%20accept%20more%20than%208%20tasks&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [ExactCalculator: now fix display contrast in dark mode](https://github.com/search?q=ExactCalculator%3A%20now%20fix%20display%20contrast%20in%20dark%20mode&type=Commits)
+* [Revert "ExactCalculator: fix text contrast in dark mode"](https://github.com/search?q=Revert%20"ExactCalculator%3A%20fix%20text%20contrast%20in%20dark%20mode"&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1044 from AkshayKakatkar/patch-3](https://github.com/search?q=Merge%20pull%20request%20%231044%20from%20AkshayKakatkar/patch-3&type=Commits)
+* [Settings: fix duplicated string in zh-rCN](https://github.com/search?q=Settings%3A%20fix%20duplicated%20string%20in%20zh-rCN&type=Commits)
+* [Add Mi A2](https://github.com/search?q=Add%20Mi%20A2&type=Commits)
+* [Merge pull request #1042 from jhenrique09/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231042%20from%20jhenrique09/patch-1&type=Commits)
+* [whyded meme](https://github.com/search?q=whyded%20meme&type=Commits)
+* [Settings: refresh search index check on build change](https://github.com/search?q=Settings%3A%20refresh%20search%20index%20check%20on%20build%20change&type=Commits)
+* [Settings: Add back summary_collapsed_preference_list for zh-rCN](https://github.com/search?q=Settings%3A%20Add%20back%20summary_collapsed_preference_list%20for%20zh-rCN&type=Commits)
+* [Merge pull request #1041 from GtrCraft/patch-2](https://github.com/search?q=Merge%20pull%20request%20%231041%20from%20GtrCraft/patch-2&type=Commits)
+
+#### vendor/rr/
+* [Add APN for XFINITY Mobile](https://github.com/search?q=Add%20APN%20for%20XFINITY%20Mobile&type=Commits)
+* [apns: Add new Virgin Mobile apn](https://github.com/search?q=apns%3A%20Add%20new%20Virgin%20Mobile%20apn&type=Commits)
+* [apn: Update the Ultra Mobile apn](https://github.com/search?q=apn%3A%20Update%20the%20Ultra%20Mobile%20apn&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-24-2019 End.
+
 02-23-2019
 ====================
 
