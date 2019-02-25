@@ -58,7 +58,16 @@ if [ "$input1" == "1" ]; then
 		cd $folder || exit;
 		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb^..fca5654427efa9826284bc13a99d1e20cf9d0264
 		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick b3b7f578846aaed2c1bbf4d6d58284b8147ac73b
-		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_index && git cherry-pick c92659e23c161110f652f0354ec5b2fd8959fa53
+		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_index2 && git cherry-pick f863139957736ae3da1aaa7ae72e184648661e8b
+		cd - &> /dev/null || exit;
+
+		echo -e "\\n	out Folder $folder"
+
+		folder="packages/apps/LineageParts";
+		echo -e "\\n	In Folder $folder \\n"
+
+		cd $folder || exit;
+		git fetch https://github.com/fgl27/android_packages_apps_LineageParts/ pie_index && git cherry-pick 4e9b2bac372c4e66f0b1ea276bfef838456f35ca
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
@@ -189,7 +198,7 @@ if [ "$input2" == "1" ]; then
 fi
 
 if [ "$input3" == "r" ]; then
-		lunch rr_quark-userdebug
+	lunch rr_quark-userdebug
 elif [ "$input3" == "l" ]; then
 	lunch lineage_quark-userdebug
 fi
