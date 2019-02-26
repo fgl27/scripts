@@ -13,16 +13,12 @@ branch="pie";
 checkout_pull() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
 		cd "${sources_path[i]}" || exit;
-		echo -e "\\n${bldred}	In Folder ${sources_path[i]} ${txtrst}\\n"
+		echo -e "\\n${bldred}	Fix origin for folder ${sources_path[i]} ${txtrst}\\n"
 
 		git checkout "$branch"
 		git remote remove origin
-		git remote add origin https://github.com/"$org"/"${sources_links[i]}"/
-		git push origin "$branch"
-		git remote remove origin
 		git remote add origin https://github.com/"$git_user"/"${sources_links[i]}"/
 
-		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[i]} ${txtrst}"
 		cd - &> /dev/null || exit;
 	done
 }

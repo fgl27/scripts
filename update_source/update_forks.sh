@@ -6,21 +6,22 @@ bldred=${txtbld}$(tput setaf 1) # red
 bldgrn=${txtbld}$(tput setaf 2) # green
 txtrst=$(tput sgr0) # Reset
 
+git_user="fgl27"
 #Los related
 org="LineageOS";
 branch="lineage-16.0";
 checkout_branch="pie";
 
 #$1 = local folder path
-#$2 = branch
+#$2 = checkout_branch
 #$3 = org to pull from
 #$4 = repo
-#$5 = repo branch to pull from
+#$5 = org branch to pull from
 checkout_pull() {
 	cd "$1" || exit;
 	echo -e "\\n${bldred}	In Folder $1 ${txtrst}\\n"
 	git checkout "$2"
-	git pull https://github.com/"$3"/"$4"/ "$branch" --no-edit
+	git pull https://github.com/"$3"/"$4"/ "$5" --no-edit
 	git push origin "$2"
 	cd - &> /dev/null || exit;
 }

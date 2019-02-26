@@ -67,7 +67,7 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_build_soong"
 		"android_build"
 		"frameworks_opt_slimrecent"
-		"android_packages_services_OmniJaws"
+		"packages_services_OmniJaws"
 		"android_frameworks_base"
 		"Resurrection_packages_apps_Settings"
 		"android_vendor_resurrection");

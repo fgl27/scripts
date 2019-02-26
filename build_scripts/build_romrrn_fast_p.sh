@@ -58,7 +58,7 @@ if [ "$input1" == "1" ]; then
 		cd $folder || exit;
 		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb^..fca5654427efa9826284bc13a99d1e20cf9d0264
 		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick b3b7f578846aaed2c1bbf4d6d58284b8147ac73b
-		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_index2 && git cherry-pick 99f6e036f7e74bf90aa2a851aa2c0fa67d1ae266
+		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_index2 && git cherry-pick d7bca6a0415e6de2b84cc2fb7bd59f61d5de815e
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
