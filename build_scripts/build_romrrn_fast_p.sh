@@ -45,8 +45,7 @@ if [ "$input1" == "1" ]; then
 		echo -e "\\n	In Folder $folder \\n"
 
 		cd $folder || exit;
-		git fetch https://github.com/fgl27/android_frameworks_base/ pie_test && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..a3ced00948e524c6c542857b55c8629ffd046b6c
-		git fetch https://github.com/fgl27/android_frameworks_base/ pie_test && git cherry-pick a8ee31a0ed0d1f8cd111dc4a4d62977ab43286d6
+		git fetch https://github.com/fgl27/android_frameworks_base/ pie_test && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..a8ee31a0ed0d1f8cd111dc4a4d62977ab43286d6
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
@@ -56,26 +55,8 @@ if [ "$input1" == "1" ]; then
 		echo -e "\\n	In Folder $folder \\n"
 
 		cd $folder || exit;
-		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb^..fca5654427efa9826284bc13a99d1e20cf9d0264
+		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick bf08f7f70f6f26c2ef5ba7c6d41f87d046a2d0cb
 		git fetch https://github.com/fgl27/Resurrection_packages_apps_Settings/ pie_test && git cherry-pick b3b7f578846aaed2c1bbf4d6d58284b8147ac73b
-		cd - &> /dev/null || exit;
-
-		echo -e "\\n	out Folder $folder"
-
-		folder="vendor/rr";
-		echo -e "\\n	In Folder $folder \\n"
-
-		cd $folder || exit;
-		git fetch https://github.com/fgl27/android_vendor_resurrection/ pie && git cherry-pick 8bccbc56d0c05eb1b233db20f4a40a09747349f5
-		cd - &> /dev/null || exit;
-
-		echo -e "\\n	out Folder $folder"
-
-		folder="packages/apps/Updater";
-		echo -e "\\n	In Folder $folder \\n"
-
-		cd $folder || exit;
-		git fetch https://github.com/fgl27/android_packages_apps_Updater/ pie_test && git cherry-pick c0cb8d0457437b6a3ad7d7ae7b538c1efcd566fc^..5f8950101f896ab4e64cf7b935befe43b0920d50
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
@@ -131,7 +112,7 @@ export WITH_SU=true
 # Basic shell variables initialization for RR
 if [ "$input3" == "r" ]; then
 	export days_to_log=0
-	export RR_BUILDTYPE="Mod"
+	export RR_BUILDTYPE="Official"
 	export WITH_ROOT_METHOD="rootless"
 fi
 
