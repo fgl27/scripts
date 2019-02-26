@@ -28,3 +28,7 @@
 - Update [push_to_org](https://github.com/fgl27/scripts/tree/master/update_source/push_to_org.sh) in relation to platform_manifest
 - update vars ($git_user $org $branch) the arrays ($sources_path and $sources_links)
 - Execute the push_to_org.sh in the same folder you clone everything
+
+# [force_fix_origin](https://github.com/fgl27/scripts/tree/master/update_source/force_fix_origin.sh.sh)
+
+- Force reset the source to default $branch and $git_user, to make sure all is in the correct position when making specific individual folder changes

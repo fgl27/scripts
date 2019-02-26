@@ -90,13 +90,31 @@ checkout_pull_array
 	sources_link="android_packages_services_OmniJaws"
 	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
 
+	path="packages/apps/SmartNav";
+	org="InvictrixRom";
+	branch="inv-9.0";
+	sources_link="packages_apps_SmartNav"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
+
+
+#This are updated Manually for now, pull lineage-16.0 to lineage-16.0 so I can see if there was any change easily, and update manually after
+
+	path="vendor/rr";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_vendor_lineage"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch"
+
+	path="packages/apps/Settings";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_packages_apps_Settings"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch"
+
+	path="frameworks/base";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_frameworks_base"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch"
+
 exit;
-
-#Manually updated:
-
-# packages/apps/SmartNav
-# 
-# platform_manifest
-# frameworks/base
-# packages/apps/Settings
-# vendor/rr

@@ -77,6 +77,35 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"Resurrection_packages_apps_Settings"
 		"android_vendor_resurrection");
 
-checkout_pull;
+echo -e "\nPush all?\n"
+echo -e "1 - Yes, empty - No (to choose from list)?\n"
+read -r up_type
+echo -e "\nYou choose: "$up_type"\n\n"
+
+if [ "$up_type" == "1" ]; then
+	checkout_pull;
+else
+	for ((i=0; i<${#sources_path[@]}; ++i)); do
+		echo -e "${bldred}$i - ${sources_path[i]} ${txtrst}"
+	done
+	echo -e "\nChoose one (type the number)?\n"
+	read -r up_folder
+
+	if [ $up_folder -lt ${#sources_path[@]} ]; then
+		echo -e "\nYou choose: "$up_folder" - "${sources_path[up_folder]}"\n\n"
+		cd "${sources_path[up_folder]}" || exit;
+		echo -e "\\n${bldred}	In Folder ${sources_path[up_folder]} ${txtrst}\\n"
+		git checkout "$branch"
+		git remote remove origin
+		git remote add origin https://github.com/"$org"/"${sources_links[up_folder]}"/
+		git push origin "$branch"
+		git remote remove origin
+		git remote add origin https://github.com/"$git_user"/"${sources_links[up_folder]}"/
+		echo -e "\\n${bldgrn}	Exiting Folder ${sources_path[up_folder]} ${txtrst}"
+		cd - &> /dev/null || exit;
+	else
+		echo -e "\nInvalid number, max is "$(( ${#sources_path[@]} - 1 ))" you choose "$up_folder" by...\n"
+	fi;
+fi;
 
 exit;
