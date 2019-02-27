@@ -3,10 +3,336 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+02-27-2019
+====================
+
+#### Device specific Changes of 02-27-2019 Start:
+
+#### Device/Quark/
+* [Quark: change lineage action name to actions](https://github.com/search?q=Quark%3A%20change%20lineage%20action%20name%20to%20actions&type=Commits)
+
+#### Device specific Changes of 02-27-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-27-2019:
+#### android/
+* [Track fw/native from our repos](https://github.com/search?q=Track%20fw/native%20from%20our%20repos&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [common: permit libqdutils operation (linked by mediaserver) during WFD](https://github.com/search?q=common%3A%20permit%20libqdutils%20operation%20%28linked%20by%20mediaserver%29%20during%20WFD&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/av/
+* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
+* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
+* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
+* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
+* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
+* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
+* [audiopolicy: support extended feature in audiopolicymanager](https://github.com/search?q=audiopolicy%3A%20support%20extended%20feature%20in%20audiopolicymanager&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [ActionHandler: Bring back one-hand mode action](https://github.com/search?q=ActionHandler%3A%20Bring%20back%20one-hand%20mode%20action&type=Commits)
+* [SystemUI: add toggle for the onehand ui mode [1/2]](https://github.com/search?q=SystemUI%3A%20add%20toggle%20for%20the%20onehand%20ui%20mode%20[1/2]&type=Commits)
+* [SystemUI: Add one hand mode triggers](https://github.com/search?q=SystemUI%3A%20Add%20one%20hand%20mode%20triggers&type=Commits)
+* [Add new feature of One-hand UI Mode](https://github.com/search?q=Add%20new%20feature%20of%20One-hand%20UI%20Mode&type=Commits)
+* [StatusBar: Silence logspam](https://github.com/search?q=StatusBar%3A%20Silence%20logspam&type=Commits)
+* [Add kill button to notification guts [1/2]](https://github.com/search?q=Add%20kill%20button%20to%20notification%20guts%20[1/2]&type=Commits)
+* [Live Volume Steps [1/2]](https://github.com/search?q=Live%20Volume%20Steps%20[1/2]&type=Commits)
+* [WifiDisplayController: handle preexisting p2p connection status](https://github.com/search?q=WifiDisplayController%3A%20handle%20preexisting%20p2p%20connection%20status&type=Commits)
+* [WiFiDisplayController: Defer the P2P Initialization from its constructor.](https://github.com/search?q=WiFiDisplayController%3A%20Defer%20the%20P2P%20Initialization%20from%20its%20constructor.&type=Commits)
+* [Merge changes for launching wifidisplay from system settings](https://github.com/search?q=Merge%20changes%20for%20launching%20wifidisplay%20from%20system%20settings&type=Commits)
+* [keylayout: add missing buttons to Razer Serval](https://github.com/search?q=keylayout%3A%20add%20missing%20buttons%20to%20Razer%20Serval&type=Commits)
+* [Revert "WiFiDisplayController: Defer the P2P Initialization from its constructor."](https://github.com/search?q=Revert%20"WiFiDisplayController%3A%20Defer%20the%20P2P%20Initialization%20from%20its%20constructor."&type=Commits)
+
+#### frameworks/native/
+* [Translate pointer motion events for One-hand UI Mode](https://github.com/search?q=Translate%20pointer%20motion%20events%20for%20One-hand%20UI%20Mode&type=Commits)
+
+#### lineage-sdk/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_lineage-sdk into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_lineage-sdk%20into%20pie&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_DocumentsUI%20into%20pie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20pie&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Gallery2 into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Gallery2%20into%20pie&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_LineageParts into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_LineageParts%20into%20pie&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Fix build error](https://github.com/search?q=Fix%20build%20error&type=Commits)
+* [add toggle for the onehand ui mode [2/2]](https://github.com/search?q=add%20toggle%20for%20the%20onehand%20ui%20mode%20[2/2]&type=Commits)
+* [Add kill button to notification guts [2/2]](https://github.com/search?q=Add%20kill%20button%20to%20notification%20guts%20[2/2]&type=Commits)
+* [Fix PowerMenuActions class name](https://github.com/search?q=Fix%20PowerMenuActions%20class%20name&type=Commits)
+* [Live Volume Steps [2/2]](https://github.com/search?q=Live%20Volume%20Steps%20[2/2]&type=Commits)
+* [Merge pull request #1046 from davidviba/pie](https://github.com/search?q=Merge%20pull%20request%20%231046%20from%20davidviba/pie&type=Commits)
+* [Add Lenovo P2 Kuntao](https://github.com/search?q=Add%20Lenovo%20P2%20Kuntao&type=Commits)
+* [Settings: fix eject sdcard icon color](https://github.com/search?q=Settings%3A%20fix%20eject%20sdcard%20icon%20color&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Trebuchet into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%20pie&type=Commits)
+
+#### packages/apps/Updater/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Updater into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Updater%20into%20pie&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telecomm into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20pie&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20pie&type=Commits)
+
+#### vendor/rr/
+* [vendor/lineage: Drop obsolete TW_EXCLUDE_SUPERSU flag](https://github.com/search?q=vendor/lineage%3A%20Drop%20obsolete%20TW_EXCLUDE_SUPERSU%20flag&type=Commits)
+* [soong_config: Add BOOTLOADER_MESSAGE_OFFSET](https://github.com/search?q=soong_config%3A%20Add%20BOOTLOADER_MESSAGE_OFFSET&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-27-2019 End.
+
+02-26-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-26-2019:
+
+#### bootable/recovery/
+* [recovery: Allow custom bootloader msg offset in block misc](https://github.com/search?q=recovery%3A%20Allow%20custom%20bootloader%20msg%20offset%20in%20block%20misc&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy-legacy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy-legacy%20into%20pie&type=Commits)
+* [sepolicy: Resolve cameraserver denials](https://github.com/search?q=sepolicy%3A%20Resolve%20cameraserver%20denials&type=Commits)
+* [legacy: Resolve hal_camera_default denials](https://github.com/search?q=legacy%3A%20Resolve%20hal_camera_default%20denials&type=Commits)
+* [sepolicy: Label vendor.post_boot.parsed](https://github.com/search?q=sepolicy%3A%20Label%20vendor.post_boot.parsed&type=Commits)
+* [sepolicy: Resolve hal_nfc denials](https://github.com/search?q=sepolicy%3A%20Resolve%20hal_nfc%20denials&type=Commits)
+* [legacy: Resolve rome BT denials](https://github.com/search?q=legacy%3A%20Resolve%20rome%20BT%20denials&type=Commits)
+* [sepolicy: Correctly label display.qservice per SoC](https://github.com/search?q=sepolicy%3A%20Correctly%20label%20display.qservice%20per%20SoC&type=Commits)
+
+#### frameworks/av/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_av into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_frameworks_av%20into%20pie&type=Commits)
+* [stagefright: add changes related to high-framerates in CameraSource](https://github.com/search?q=stagefright%3A%20add%20changes%20related%20to%20high-framerates%20in%20CameraSource&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [WiFi: Ignore connectivity scans during WFD session](https://github.com/search?q=WiFi%3A%20Ignore%20connectivity%20scans%20during%20WFD%20session&type=Commits)
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/media-caf/msm8998/
+* [Fix invalid logical constant creation.](https://github.com/search?q=Fix%20invalid%20logical%20constant%20creation.&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Parts: Index rr tools 2/2](https://github.com/search?q=Parts%3A%20Index%20rr%20tools%202/2&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Index rr tools 1/2](https://github.com/search?q=Settings%3A%20Index%20rr%20tools%201/2&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BookmarkProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Mms/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20pie&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-26-2019 End.
+
+02-25-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 02-25-2019:
+
+#### bionic/
+* [libc: Optimize ARM memcmp by using NEON.](https://github.com/search?q=libc%3A%20Optimize%20ARM%20memcmp%20by%20using%20NEON.&type=Commits)
+
+#### hardware/qcom/media-caf/msm8996/
+* [Fix invalid logical constant creation.](https://github.com/search?q=Fix%20invalid%20logical%20constant%20creation.&type=Commits)
+
+#### packages/apps/Contacts/
+* [Fix casting warnings in ContactSaveService](https://github.com/search?q=Fix%20casting%20warnings%20in%20ContactSaveService&type=Commits)
+
+#### packages/apps/Messaging/
+* [When removing a conversation, also remove its notification channel](https://github.com/search?q=When%20removing%20a%20conversation,%20also%20remove%20its%20notification%20channel&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1045 from baalajimaestro/pie](https://github.com/search?q=Merge%20pull%20request%20%231045%20from%20baalajimaestro/pie&type=Commits)
+* [whyred: Add maintainer for this kensar community](https://github.com/search?q=whyred%3A%20Add%20maintainer%20for%20this%20kensar%20community&type=Commits)
+* [Merge pull request #1044 from AkshayKakatkar/patch-3](https://github.com/search?q=Merge%20pull%20request%20%231044%20from%20AkshayKakatkar/patch-3&type=Commits)
+* [Settings: fix duplicated string in zh-rCN](https://github.com/search?q=Settings%3A%20fix%20duplicated%20string%20in%20zh-rCN&type=Commits)
+* [Add Mi A2](https://github.com/search?q=Add%20Mi%20A2&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-25-2019 End.
+
 02-24-2019
 ====================
 
+#### Device specific Changes of 02-24-2019 Start:
+
+#### Device/Quark/
+* [Quark: don't symlink the files we don't have](https://github.com/search?q=Quark%3A%20don%27t%20symlink%20the%20files%20we%20don%27t%20have&type=Commits)
+
+#### Device specific Changes of 02-24-2019 End.
+
+***
+
 #### Resurrection Remix OS - Pie source changes of 02-24-2019:
+
+#### device/qcom/sepolicy-legacy/
+* [Revert "legacy: allow init to read /proc/device-tree"](https://github.com/search?q=Revert%20"legacy%3A%20allow%20init%20to%20read%20/proc/device-tree"&type=Commits)
+
+#### external/exfat/
+* [Android: remove "tags" from Android.bp.](https://github.com/search?q=Android%3A%20remove%20"tags"%20from%20Android.bp.&type=Commits)
 
 #### frameworks/base/
 * [SystemUI: Make recents grid view accept more than 8 tasks](https://github.com/search?q=SystemUI%3A%20Make%20recents%20grid%20view%20accept%20more%20than%208%20tasks&type=Commits)
@@ -15,15 +341,18 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 * [ExactCalculator: now fix display contrast in dark mode](https://github.com/search?q=ExactCalculator%3A%20now%20fix%20display%20contrast%20in%20dark%20mode&type=Commits)
 * [Revert "ExactCalculator: fix text contrast in dark mode"](https://github.com/search?q=Revert%20"ExactCalculator%3A%20fix%20text%20contrast%20in%20dark%20mode"&type=Commits)
 
+#### packages/apps/Messaging/
+* [Remove notification settings from database](https://github.com/search?q=Remove%20notification%20settings%20from%20database&type=Commits)
+
 #### packages/apps/Settings/
-* [Merge pull request #1044 from AkshayKakatkar/patch-3](https://github.com/search?q=Merge%20pull%20request%20%231044%20from%20AkshayKakatkar/patch-3&type=Commits)
-* [Settings: fix duplicated string in zh-rCN](https://github.com/search?q=Settings%3A%20fix%20duplicated%20string%20in%20zh-rCN&type=Commits)
-* [Add Mi A2](https://github.com/search?q=Add%20Mi%20A2&type=Commits)
 * [Merge pull request #1042 from jhenrique09/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231042%20from%20jhenrique09/patch-1&type=Commits)
 * [whyded meme](https://github.com/search?q=whyded%20meme&type=Commits)
 * [Settings: refresh search index check on build change](https://github.com/search?q=Settings%3A%20refresh%20search%20index%20check%20on%20build%20change&type=Commits)
 * [Settings: Add back summary_collapsed_preference_list for zh-rCN](https://github.com/search?q=Settings%3A%20Add%20back%20summary_collapsed_preference_list%20for%20zh-rCN&type=Commits)
 * [Merge pull request #1041 from GtrCraft/patch-2](https://github.com/search?q=Merge%20pull%20request%20%231041%20from%20GtrCraft/patch-2&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: Treat proc-based DT fstab the same and sys-based](https://github.com/search?q=sepolicy%3A%20Treat%20proc-based%20DT%20fstab%20the%20same%20and%20sys-based&type=Commits)
 
 #### vendor/rr/
 * [Add APN for XFINITY Mobile](https://github.com/search?q=Add%20APN%20for%20XFINITY%20Mobile&type=Commits)
@@ -56,7 +385,6 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 
 #### Device/Quark/
 * [Quark: don't overlay config_globalActionsList](https://github.com/search?q=Quark%3A%20don%27t%20overlay%20config_globalActionsList&type=Commits)
-* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
 
 #### Vendor/Quark/
 * [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
@@ -123,39 +451,72 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 
 #### Resurrection Remix OS - Pie source changes of 02-22-2019 End.
 
-02-20-2019
+02-21-2019
 ====================
 
-#### Resurrection Remix OS - Pie source changes of 02-20-2019:
+#### Device specific Changes of 02-21-2019 Start:
 
-#### device/rr/sepolicy/
-* [common: Restrict HAL permissions to server side](https://github.com/search?q=common%3A%20Restrict%20HAL%20permissions%20to%20server%20side&type=Commits)
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+
+#### Device specific Changes of 02-21-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-21-2019:
+
+#### hardware/qcom/bt-caf/
+* [Add compat for old wcnss_filter](https://github.com/search?q=Add%20compat%20for%20old%20wcnss_filter&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Merge branch 'lineage-16.0' into HEAD](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20into%20HEAD&type=Commits)
 
 #### packages/apps/Settings/
+* [potter: Update maintainer](https://github.com/search?q=potter%3A%20Update%20maintainer&type=Commits)
 * [Merge pull request #1040 from kshatriya-abhay/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231040%20from%20kshatriya-abhay/patch-1&type=Commits)
 * [zenfone3: remove obsolete device](https://github.com/search?q=zenfone3%3A%20remove%20obsolete%20device&type=Commits)
 * [zenfone3: update maintainer](https://github.com/search?q=zenfone3%3A%20update%20maintainer&type=Commits)
 * [Merge pull request #1039 from sagarrokade006/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231039%20from%20sagarrokade006/patch-1&type=Commits)
 * [Kenzo:  update maintainer](https://github.com/search?q=Kenzo%3A%20%20update%20maintainer&type=Commits)
 
+#### Resurrection Remix OS - Pie source changes of 02-21-2019 End.
+
+02-20-2019
+====================
+
+#### Device specific Changes of 02-20-2019 Start:
+
+#### Kernel/Quark/
+* [qcacld-2.0: disable link layer stats](https://github.com/search?q=qcacld-2.0%3A%20disable%20link%20layer%20stats&type=Commits)
+
+#### Device specific Changes of 02-20-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-20-2019:
+
+#### device/rr/sepolicy/
+* [sepolicy: Move superuser policy to private](https://github.com/search?q=sepolicy%3A%20Move%20superuser%20policy%20to%20private&type=Commits)
+* [common: Restrict HAL permissions to server side](https://github.com/search?q=common%3A%20Restrict%20HAL%20permissions%20to%20server%20side&type=Commits)
+
+#### hardware/qcom/media-caf/msm8996/
+* [media: Don't link libgpustats](https://github.com/search?q=media%3A%20Don%27t%20link%20libgpustats&type=Commits)
+
 #### Resurrection Remix OS - Pie source changes of 02-20-2019 End.
 
 02-19-2019
 ====================
 
-#### Device specific Changes of 02-19-2019 Start:
-
-#### Kernel/Quark/
-* [qcacld-2.0: disable link layer stats](https://github.com/search?q=qcacld-2.0%3A%20disable%20link%20layer%20stats&type=Commits)
-
-#### Device specific Changes of 02-19-2019 End.
-
-***
-
 #### Resurrection Remix OS - Pie source changes of 02-19-2019:
 
 #### device/qcom/sepolicy/
 * [sdm660: Label persist partition for fsck](https://github.com/search?q=sdm660%3A%20Label%20persist%20partition%20for%20fsck&type=Commits)
+
+#### frameworks/av/
+* [audiopolicy: support extended feature in audiopolicymanager](https://github.com/search?q=audiopolicy%3A%20support%20extended%20feature%20in%20audiopolicymanager&type=Commits)
+
+#### hardware/qcom/media-caf/msm8998/
+* [media: Don't link libgpustats](https://github.com/search?q=media%3A%20Don%27t%20link%20libgpustats&type=Commits)
 
 #### system/sepolicy/
 * [Allow stats_companion to register thermal throttling event listener.](https://github.com/search?q=Allow%20stats_companion%20to%20register%20thermal%20throttling%20event%20listener.&type=Commits)
@@ -177,9 +538,13 @@ Resurrection Remix OS - Pie source and Quark Changelog:
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [SettingsProvider: Allow accessing LineageSettings via settings command](https://github.com/search?q=SettingsProvider%3A%20Allow%20accessing%20LineageSettings%20via%20settings%20command&type=Commits)
 
+#### hardware/qcom/media-caf/apq8084/
+* [libmm-omxcore: add -Wno-error to another line to compile with global -Werror](https://github.com/search?q=libmm-omxcore%3A%20add%20-Wno-error%20to%20another%20line%20to%20compile%20with%20global%20-Werror&type=Commits)
+
 #### lineage-sdk/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 * [sdk: LineageHardwareService: Add fallback to HWC2](https://github.com/search?q=sdk%3A%20LineageHardwareService%3A%20Add%20fallback%20to%20HWC2&type=Commits)
+* [sdk: Cleanup usage of List.toArray(T[] a)](https://github.com/search?q=sdk%3A%20Cleanup%20usage%20of%20List.toArray%28T[]%20a%29&type=Commits)
 
 #### packages/apps/Settings/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
