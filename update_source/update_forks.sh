@@ -9,6 +9,7 @@ txtrst=$(tput sgr0) # Reset
 git_user="fgl27"
 #Los related
 org="LineageOS";
+og_org="ResurrectionRemix";
 branch="lineage-16.0";
 checkout_branch="pie";
 
@@ -17,18 +18,20 @@ checkout_branch="pie";
 #$3 = org to pull from
 #$4 = repo
 #$5 = org branch to pull from
+#$6 = original branch
 checkout_pull() {
 	cd "$1" || exit;
 	echo -e "\\n${bldred}	In Folder $1 ${txtrst}\\n"
 	git checkout "$2"
 	git pull https://github.com/"$3"/"$4"/ "$5" --no-edit
 	git push origin "$2"
+	git checkout "$6"
 	cd - &> /dev/null || exit;
 }
 
 checkout_pull_array() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
-		checkout_pull "${sources_path[i]}" "$checkout_branch" "$org" "${sources_links[i]}" "$branch"
+		checkout_pull "${sources_path[i]}" "$checkout_branch" "$org" "${sources_links[i]}" "$branch" "$og_org" "$checkout_branch"
 	done
 }
 
@@ -82,19 +85,19 @@ checkout_pull_array
 	org="AICP";
 	branch="p9.0";
 	sources_link="frameworks_opt_slimrecent"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$og_org" "$checkout_branch"
 
 	path="packages/services/OmniJaws";
 	org="omnirom";
 	branch="android-9.0";
 	sources_link="android_packages_services_OmniJaws"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$og_org" "$checkout_branch"
 
 	path="packages/apps/SmartNav";
 	org="InvictrixRom";
 	branch="inv-9.0";
 	sources_link="packages_apps_SmartNav"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$og_org" "$checkout_branch"
 
 
 #This are updated Manually for now, pull lineage-16.0 to lineage-16.0 so I can see if there was any change easily, and update manually after
@@ -103,18 +106,18 @@ checkout_pull_array
 	org="LineageOS";
 	branch="lineage-16.0";
 	sources_link="android_vendor_lineage"
-	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 	path="packages/apps/Settings";
 	org="LineageOS";
 	branch="lineage-16.0";
 	sources_link="android_packages_apps_Settings"
-	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 	path="frameworks/base";
 	org="LineageOS";
 	branch="lineage-16.0";
 	sources_link="android_frameworks_base"
-	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 exit;
