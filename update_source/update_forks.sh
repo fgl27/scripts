@@ -31,7 +31,7 @@ checkout_pull() {
 
 checkout_pull_array() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
-		checkout_pull "${sources_path[i]}" "$checkout_branch" "$org" "${sources_links[i]}" "$branch" "$og_org" "$checkout_branch"
+		checkout_pull "${sources_path[i]}" "$checkout_branch" "$org" "${sources_links[i]}" "$branch" "$checkout_branch"
 	done
 }
 
@@ -55,7 +55,8 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/Updater"
 		"device/qcom/sepolicy-legacy"
 		"build/soong"
-		"build/make");
+		"build/make"
+		"frameworks/native");
 
 sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_DocumentsUI"
@@ -75,7 +76,8 @@ sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_Updater"
 		"android_device_qcom_sepolicy-legacy"
 		"android_build_soong"
-		"android_build");
+		"android_build"
+		"android_frameworks_native");
 
 checkout_pull_array
 
@@ -85,19 +87,19 @@ checkout_pull_array
 	org="AICP";
 	branch="p9.0";
 	sources_link="frameworks_opt_slimrecent"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$og_org" "$checkout_branch"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 	path="packages/services/OmniJaws";
 	org="omnirom";
 	branch="android-9.0";
 	sources_link="android_packages_services_OmniJaws"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$og_org" "$checkout_branch"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 	path="packages/apps/SmartNav";
 	org="InvictrixRom";
 	branch="inv-9.0";
 	sources_link="packages_apps_SmartNav"
-	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$og_org" "$checkout_branch"
+	checkout_pull "$path" "$checkout_branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 
 #This are updated Manually for now, pull lineage-16.0 to lineage-16.0 so I can see if there was any change easily, and update manually after

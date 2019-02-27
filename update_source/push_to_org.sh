@@ -50,7 +50,9 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/services/OmniJaws"
 		"frameworks/base"
 		"packages/apps/Settings"
-		"vendor/rr");
+		"vendor/rr"
+		"packages/apps/SmartNav"
+		"frameworks/native");
 
 sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_DocumentsUI"
@@ -75,7 +77,9 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"packages_services_OmniJaws"
 		"android_frameworks_base"
 		"Resurrection_packages_apps_Settings"
-		"android_vendor_resurrection");
+		"android_vendor_resurrection"
+		"packages_apps_SmartNav"
+		"frameworks_native");
 
 echo -e "\nPush all?\n"
 echo -e "1 - Yes, empty - No (to choose from list)?\n"

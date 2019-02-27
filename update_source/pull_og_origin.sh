@@ -49,7 +49,9 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"frameworks/base"
 		"packages/apps/Settings"
 		"vendor/rr"
-		"packages/apps/SmartNav");
+		"platform_manifest"
+		"packages/apps/SmartNav"
+		"frameworks/native");
 
 sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_DocumentsUI"
@@ -75,7 +77,9 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_frameworks_base"
 		"Resurrection_packages_apps_Settings"
 		"android_vendor_resurrection"
-		"packages_apps_SmartNav");
+		"platform_manifest"
+		"packages_apps_SmartNav"
+		"frameworks_native");
 
 checkout_pull;
 
