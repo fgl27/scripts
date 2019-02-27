@@ -7,7 +7,7 @@
 - change the user and branch in [git_clone](https://github.com/bhb27/scripts/tree/master/build_scripts) then run
 - Execute the git_clone.sh in the folder where you wanna to keep the source
 
-# [pull_og_origin](https://github.com/fgl27/scripts/tree/master/update_source/pull_og_origin.sh.sh)
+# [pull_og_org](https://github.com/fgl27/scripts/tree/master/update_source/pull_og_org.sh.sh)
 
 - Pull changes on the original org, use this before updating the fork to make sure all is on a correct order
 - Change vars ($og_org $branch $git_user)
