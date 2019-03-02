@@ -3,6 +3,98 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+03-02-2019
+====================
+
+#### Device specific Changes of 03-02-2019 Start:
+
+#### Device/Quark/
+* [Quark: add rr.dependencies](https://github.com/search?q=Quark%3A%20add%20rr.dependencies&type=Commits)
+* [quark: Don't build tinymix](https://github.com/search?q=quark%3A%20Don%27t%20build%20tinymix&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 03-02-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-02-2019:
+
+#### device/qcom/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [Base: Lock screen bottom shortcuts change none to default](https://github.com/search?q=Base%3A%20Lock%20screen%20bottom%20shortcuts%20change%20none%20to%20default&type=Commits)
+
+#### frameworks/native/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_native into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%20pie&type=Commits)
+* [input: Adjust priority](https://github.com/search?q=input%3A%20Adjust%20priority&type=Commits)
+
+#### hardware/qcom/fm/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1048 from turboexperience/pie](https://github.com/search?q=Merge%20pull%20request%20%231048%20from%20turboexperience/pie&type=Commits)
+* [Update flo/deb maintainer](https://github.com/search?q=Update%20flo/deb%20maintainer&type=Commits)
+
+#### packages/apps/Snap/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-02-2019 End.
+
+03-01-2019
+====================
+
+#### Device specific Changes of 03-01-2019 Start:
+
+#### Device/Quark/
+* [Quark: lineageactions fix and improve the tile](https://github.com/search?q=Quark%3A%20lineageactions%20fix%20and%20improve%20the%20tile&type=Commits)
+* [Quark: Remove TARGET_USES_MKE2FS](https://github.com/search?q=Quark%3A%20Remove%20TARGET_USES_MKE2FS&type=Commits)
+
+#### Device specific Changes of 03-01-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-01-2019:
+
+#### art/
+* [Add an option to disable sse4.2 features](https://github.com/search?q=Add%20an%20option%20to%20disable%20sse4.2%20features&type=Commits)
+
+#### frameworks/base/
+* [Base: KeyguardStatusView don't reset clock font on updates](https://github.com/search?q=Base%3A%20KeyguardStatusView%20don%27t%20reset%20clock%20font%20on%20updates&type=Commits)
+* [base: KeyguardStatusView: improve customizations](https://github.com/search?q=base%3A%20KeyguardStatusView%3A%20improve%20customizations&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-01-2019 End.
+
+02-28-2019
+====================
+
+#### Device specific Changes of 02-28-2019 Start:
+
+#### Device/Quark/
+* [Quark: Update README.md](https://github.com/search?q=Quark%3A%20Update%20README.md&type=Commits)
+
+#### Device specific Changes of 02-28-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 02-28-2019:
+
+#### build/make/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_build%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [Merge pull request #246 from dpatrongomez/pie](https://github.com/search?q=Merge%20pull%20request%20%23246%20from%20dpatrongomez/pie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Update launcher icon](https://github.com/search?q=Update%20launcher%20icon&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Update launcher icon](https://github.com/search?q=Update%20launcher%20icon&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 02-28-2019 End.
+
 02-27-2019
 ====================
 
