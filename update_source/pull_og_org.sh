@@ -13,7 +13,7 @@ og_org="ResurrectionRemix";
 checkout_pull() {
 	for ((i=0; i<${#sources_path[@]}; ++i)); do
 		cd "${sources_path[i]}" || exit;
-		echo -e "\\n${bldred}	Fix origin for folder ${sources_path[i]} ${txtrst}\\n"
+		echo -e "\\n${bldred}	Pull origin folder ${sources_path[i]} ${txtrst}\\n"
 
 		git checkout "$branch"
 		git remote remove origin

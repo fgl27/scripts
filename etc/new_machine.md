@@ -170,7 +170,7 @@ clean up all cached files
 ## setup github start
 
 	git config --global user.email "fglfgl27@gmail.com"
-	git config --global user.name bhb27
+	git config --global user.name fgl27
 
 	ssh-keygen -t rsa -b 4096 -C "fglfgl27@gmail.com"
 	cat  /home/fgl27/.ssh/id_rsa.pub
@@ -365,3 +365,8 @@ check:
 	cpupower frequency-info
 
 #### Missing gcc libs end
+#### Zram
+
+	sudo apt-get install zram-config
+
+#Zram end
