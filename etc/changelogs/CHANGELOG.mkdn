@@ -1,0 +1,563 @@
+
+Resurrection Remix Pie Ver 7.0.0 Changelog
+===============
+
+03-03-2019
+===============
+
+#### android/
+* [Fork external/proguard](https://github.com/search?q=Fork%20external%2fproguard&type=Commits)
+* [lineage: Re-enable SDM845 CAF HALs](https://github.com/search?q=lineage%3a%20Re-enable%20SDM845%20CAF%20HALs&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_qcom_sepolicy%20into%20pie&type=Commits)
+
+#### external/bash/
+* [bash: Silence all build warnings](https://github.com/search?q=bash%3a%20Silence%20all%20build%20warnings&type=Commits)
+
+#### external/openssh/
+* [openssh: Silence build warnings](https://github.com/search?q=openssh%3a%20Silence%20build%20warnings&type=Commits)
+
+#### external/rsync/
+* [rsync: Silence build warnings](https://github.com/search?q=rsync%3a%20Silence%20build%20warnings&type=Commits)
+
+#### frameworks/base/
+* [Include InCallNotification.ogg in AllAudio.mk file](https://github.com/search?q=Include%20InCallNotification.ogg%20in%20AllAudio.mk%20file&type=Commits)
+* [Add ChargingStarted + InCallNotif to AudioPackage](https://github.com/search?q=Add%20ChargingStarted%20%2b%20InCallNotif%20to%20AudioPackage&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Bluetooth: Remove unused string resources](https://github.com/search?q=Bluetooth%3a%20Remove%20unused%20string%20resources&type=Commits)
+* [Fix generating id in android namespace](https://github.com/search?q=Fix%20generating%20id%20in%20android%20namespace&type=Commits)
+
+#### packages/apps/Contacts/
+* [Contacts: Remove unused boolean resource](https://github.com/search?q=Contacts%3a%20Remove%20unused%20boolean%20resource&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1050 from AnierinBliss/pie](https://github.com/search?q=Merge%20pull%20request%20%231050%20from%20AnierinBliss%2fpie&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_services_Telephony%20into%20pie&type=Commits)
+
+#### prebuilts/clang/host/linux-x86/
+* [Update prebuilt Clang to r349610b.](https://github.com/search?q=Update%20prebuilt%20Clang%20to%20r349610b.&type=Commits)
+
+#### vendor/rr/
+* [extract_utils: template: introduce kang mode](https://github.com/search?q=extract_utils%3a%20template%3a%20introduce%20kang%20mode&type=Commits)
+* [extract_utils: template: make --section argument non-positional](https://github.com/search?q=extract_utils%3a%20template%3a%20make%20--section%20argument%20non-positional&type=Commits)
+* [extract_utils: template: use quotation marks and variable curly braces consistently](https://github.com/search?q=extract_utils%3a%20template%3a%20use%20quotation%20marks%20and%20variable%20curly%20braces%20consistently&type=Commits)
+* [extract_utils: make --section match words anywhere in the line](https://github.com/search?q=extract_utils%3a%20make%20--section%20match%20words%20anywhere%20in%20the%20line&type=Commits)
+* [extract_utils: introduce -k (kang mode) option](https://github.com/search?q=extract_utils%3a%20introduce%20-k%20%28kang%20mode%29%20option&type=Commits)
+* [extract_utils: cleanup variable names and arguments passed to extract() function](https://github.com/search?q=extract_utils%3a%20cleanup%20variable%20names%20and%20arguments%20passed%20to%20extract%28%29%20function&type=Commits)
+* [extract_utils: be compatible with system-as-root layouts](https://github.com/search?q=extract_utils%3a%20be%20compatible%20with%20system-as-root%20layouts&type=Commits)
+* [extract_utils: drop the "/system/" prefix from prints of blob names](https://github.com/search?q=extract_utils%3a%20drop%20the%20%22%2fsystem%2f%22%20prefix%20from%20prints%20of%20blob%20names&type=Commits)
+* [libbfqio: Remove vendor variant](https://github.com/search?q=libbfqio%3a%20Remove%20vendor%20variant&type=Commits)
+
+#### Resurrection Remix Pie source changes of 03-03-2019 End.
+
+03-02-2019
+===============
+
+
+#### device/qcom/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_qcom_sepolicy%20into%20pie&type=Commits)
+* [sepolicy: Replace unrecognized character](https://github.com/search?q=sepolicy%3a%20Replace%20unrecognized%20character&type=Commits)
+
+#### frameworks/base/
+* [Base: Lock screen bottom shortcuts change none to default](https://github.com/search?q=Base%3a%20Lock%20screen%20bottom%20shortcuts%20change%20none%20to%20default&type=Commits)
+
+#### frameworks/native/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_native into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_frameworks_native%20into%20pie&type=Commits)
+* [input: Adjust priority](https://github.com/search?q=input%3a%20Adjust%20priority&type=Commits)
+
+#### hardware/qcom/fm/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### packages/apps/Settings/
+* [Update pme maintainer](https://github.com/search?q=Update%20pme%20maintainer&type=Commits)
+* [Merge pull request #1048 from turboexperience/pie](https://github.com/search?q=Merge%20pull%20request%20%231048%20from%20turboexperience%2fpie&type=Commits)
+* [Update flo/deb maintainer](https://github.com/search?q=Update%20flo%2fdeb%20maintainer&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: Remove unused resources](https://github.com/search?q=Snap%3a%20Remove%20unused%20resources&type=Commits)
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### Resurrection Remix Pie source changes of 03-02-2019 End.
+
+03-01-2019
+===============
+
+
+#### art/
+* [Add an option to disable sse4.2 features](https://github.com/search?q=Add%20an%20option%20to%20disable%20sse4.2%20features&type=Commits)
+
+#### external/proguard/
+* [Allow passing extra java arguments to proguard](https://github.com/search?q=Allow%20passing%20extra%20java%20arguments%20to%20proguard&type=Commits)
+
+#### hardware/qcom/audio-caf/sdm845/
+* 6a6bc5400 audio: Use direct project pathmap
+
+#### hardware/qcom/display/
+* [hwc: msm8084: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20msm8084%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/apq8084/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/msm8916/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/msm8952/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/msm8974/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/msm8994/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/msm8996/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/msm8998/
+* [hwc: Remove _vendor from libbfqio](https://github.com/search?q=hwc%3a%20Remove%20_vendor%20from%20libbfqio&type=Commits)
+
+#### hardware/qcom/display-caf/sdm845/
+* [Add 'display-commonsys-intf/' from https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf/tag/?h=LA.UM.7.3.r1-06900-sdm845.0](https://github.com/search?q=Add%20%27display-commonsys-intf%2f%27%20from%20https%3a%2f%2fsource.codeaurora.org%2fquic%2fla%2fplatform%2fvendor%2fqcom-opensource%2fdisplay-commonsys-intf%2ftag%2f%3fh%3dLA.UM.7.3.r1-06900-sdm845.0&type=Commits)
+* [Add C2D_FORMAT_BT601_FULLRANGE to C2D_FORMAT_MODE](https://github.com/search?q=Add%20C2D_FORMAT_BT601_FULLRANGE%20to%20C2D_FORMAT_MODE&type=Commits)
+* [Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT](https://github.com/search?q=Add%20C2D_COLOR_FORMAT_420_TP10%20to%20C2D_YUV_FORMAT&type=Commits)
+* [display: Define soong namespace](https://github.com/search?q=display%3a%20Define%20soong%20namespace&type=Commits)
+* [Don't build lights module if vendor supplies it](https://github.com/search?q=Don%27t%20build%20lights%20module%20if%20vendor%20supplies%20it&type=Commits)
+* 9b8698610 display: Use project pathmap
+
+#### hardware/qcom/media-caf/sdm845/
+* [mm-core: "srik" you!](https://github.com/search?q=mm-core%3a%20%22srik%22%20you%21&type=Commits)
+* [media: libOmxSw encoders require prop headers :(](https://github.com/search?q=media%3a%20libOmxSw%20encoders%20require%20prop%20headers%20%3a%28&type=Commits)
+* f92f76bc1 media: Use project pathmap
+
+#### Resurrection Remix Pie source changes of 03-01-2019 End.
+
+02-28-2019
+===============
+
+
+#### build/make/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_build%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [Base: KeyguardStatusView don't reset clock font on updates](https://github.com/search?q=Base%3a%20KeyguardStatusView%20don%27t%20reset%20clock%20font%20on%20updates&type=Commits)
+* [base: KeyguardStatusView: improve customizations](https://github.com/search?q=base%3a%20KeyguardStatusView%3a%20improve%20customizations&type=Commits)
+* [Merge pull request #246 from dpatrongomez/pie](https://github.com/search?q=Merge%20pull%20request%20%23246%20from%20dpatrongomez%2fpie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Update launcher icon](https://github.com/search?q=Update%20launcher%20icon&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Update launcher icon](https://github.com/search?q=Update%20launcher%20icon&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [CalendarProvider: Remove unused string resource](https://github.com/search?q=CalendarProvider%3a%20Remove%20unused%20string%20resource&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-28-2019 End.
+
+02-27-2019
+===============
+
+#### android/
+* [Track fw/native from our repos](https://github.com/search?q=Track%20fw%2fnative%20from%20our%20repos&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [common: permit libqdutils operation (linked by mediaserver) during WFD](https://github.com/search?q=common%3a%20permit%20libqdutils%20operation%20%28linked%20by%20mediaserver%29%20during%20WFD&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/av/
+* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3a%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
+* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3a%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
+* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3a%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
+* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3a%20libmediaplayer2%3a%20compilation%20fixes&type=Commits)
+* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20%22stagefright%3a%20remove%20Miracast%20sender%20code%22&type=Commits)
+* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20%22Removed%20unused%20class%20and%20its%20test%22&type=Commits)
+* [audiopolicy: support extended feature in audiopolicymanager](https://github.com/search?q=audiopolicy%3a%20support%20extended%20feature%20in%20audiopolicymanager&type=Commits)
+
+#### frameworks/base/
+* [ActionHandler: Bring back one-hand mode action](https://github.com/search?q=ActionHandler%3a%20Bring%20back%20one-hand%20mode%20action&type=Commits)
+* [SystemUI: add toggle for the onehand ui mode [1/2]](https://github.com/search?q=SystemUI%3a%20add%20toggle%20for%20the%20onehand%20ui%20mode%20%5b1%2f2%5d&type=Commits)
+* [SystemUI: Add one hand mode triggers](https://github.com/search?q=SystemUI%3a%20Add%20one%20hand%20mode%20triggers&type=Commits)
+* [Add new feature of One-hand UI Mode](https://github.com/search?q=Add%20new%20feature%20of%20One-hand%20UI%20Mode&type=Commits)
+* [StatusBar: Silence logspam](https://github.com/search?q=StatusBar%3a%20Silence%20logspam&type=Commits)
+* [Add kill button to notification guts [1/2]](https://github.com/search?q=Add%20kill%20button%20to%20notification%20guts%20%5b1%2f2%5d&type=Commits)
+* [Live Volume Steps [1/2]](https://github.com/search?q=Live%20Volume%20Steps%20%5b1%2f2%5d&type=Commits)
+* [WifiDisplayController: handle preexisting p2p connection status](https://github.com/search?q=WifiDisplayController%3a%20handle%20preexisting%20p2p%20connection%20status&type=Commits)
+* [WiFiDisplayController: Defer the P2P Initialization from its constructor.](https://github.com/search?q=WiFiDisplayController%3a%20Defer%20the%20P2P%20Initialization%20from%20its%20constructor.&type=Commits)
+* [Merge changes for launching wifidisplay from system settings](https://github.com/search?q=Merge%20changes%20for%20launching%20wifidisplay%20from%20system%20settings&type=Commits)
+* [keylayout: add missing buttons to Razer Serval](https://github.com/search?q=keylayout%3a%20add%20missing%20buttons%20to%20Razer%20Serval&type=Commits)
+* [Revert "WiFiDisplayController: Defer the P2P Initialization from its constructor."](https://github.com/search?q=Revert%20%22WiFiDisplayController%3a%20Defer%20the%20P2P%20Initialization%20from%20its%20constructor.%22&type=Commits)
+
+#### frameworks/native/
+* [Translate pointer motion events for One-hand UI Mode](https://github.com/search?q=Translate%20pointer%20motion%20events%20for%20One-hand%20UI%20Mode&type=Commits)
+
+#### hardware/qcom/bt-caf/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### hardware/qcom/wlan-caf/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### lineage-sdk/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_lineage-sdk into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_lineage-sdk%20into%20pie&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_DocumentsUI%20into%20pie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_ExactCalculator%20into%20pie&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Gallery2 into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_Gallery2%20into%20pie&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_LineageParts into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_LineageParts%20into%20pie&type=Commits)
+
+#### packages/apps/Settings/
+* [Fix build error](https://github.com/search?q=Fix%20build%20error&type=Commits)
+* [add toggle for the onehand ui mode [2/2]](https://github.com/search?q=add%20toggle%20for%20the%20onehand%20ui%20mode%20%5b2%2f2%5d&type=Commits)
+* [Add kill button to notification guts [2/2]](https://github.com/search?q=Add%20kill%20button%20to%20notification%20guts%20%5b2%2f2%5d&type=Commits)
+* [Fix PowerMenuActions class name](https://github.com/search?q=Fix%20PowerMenuActions%20class%20name&type=Commits)
+* [Live Volume Steps [2/2]](https://github.com/search?q=Live%20Volume%20Steps%20%5b2%2f2%5d&type=Commits)
+* [Merge pull request #1046 from davidviba/pie](https://github.com/search?q=Merge%20pull%20request%20%231046%20from%20davidviba%2fpie&type=Commits)
+* [Add Lenovo P2 Kuntao](https://github.com/search?q=Add%20Lenovo%20P2%20Kuntao&type=Commits)
+* [Settings: fix eject sdcard icon color](https://github.com/search?q=Settings%3a%20fix%20eject%20sdcard%20icon%20color&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Trebuchet into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_Trebuchet%20into%20pie&type=Commits)
+
+#### packages/apps/Updater/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Updater into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_Updater%20into%20pie&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telecomm into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_services_Telecomm%20into%20pie&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_services_Telephony%20into%20pie&type=Commits)
+* [Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable](https://github.com/search?q=Telephony%3a%20Mark%20enhanced_4g_lte_mode_title_variant%20as%20untranslatable&type=Commits)
+
+#### vendor/qcom/opensource/cryptfs_hw/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/data-ipa-cfg-mgr/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/dataservices/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/interfaces/
+* [interfaces: Regen blueprints](https://github.com/search?q=interfaces%3a%20Regen%20blueprints&type=Commits)
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/thermal-engine/
+* [Merge tag 'LA.UM.7.3.r1-06900-sdm845.0' into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.7.3.r1-06900-sdm845.0%27%20into%20HEAD&type=Commits)
+
+#### vendor/rr/
+* [vendor/lineage: Drop obsolete TW_EXCLUDE_SUPERSU flag](https://github.com/search?q=vendor%2flineage%3a%20Drop%20obsolete%20TW_EXCLUDE_SUPERSU%20flag&type=Commits)
+* [soong_config: Add BOOTLOADER_MESSAGE_OFFSET](https://github.com/search?q=soong_config%3a%20Add%20BOOTLOADER_MESSAGE_OFFSET&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-27-2019 End.
+
+02-26-2019
+===============
+
+
+#### bootable/recovery/
+* [recovery: Allow custom bootloader msg offset in block misc](https://github.com/search?q=recovery%3a%20Allow%20custom%20bootloader%20msg%20offset%20in%20block%20misc&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy-legacy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_qcom_sepolicy-legacy%20into%20pie&type=Commits)
+* [sepolicy: Resolve cameraserver denials](https://github.com/search?q=sepolicy%3a%20Resolve%20cameraserver%20denials&type=Commits)
+* [legacy: Resolve hal_camera_default denials](https://github.com/search?q=legacy%3a%20Resolve%20hal_camera_default%20denials&type=Commits)
+* [sepolicy: Label vendor.post_boot.parsed](https://github.com/search?q=sepolicy%3a%20Label%20vendor.post_boot.parsed&type=Commits)
+* [sepolicy: Resolve hal_nfc denials](https://github.com/search?q=sepolicy%3a%20Resolve%20hal_nfc%20denials&type=Commits)
+* [legacy: Resolve rome BT denials](https://github.com/search?q=legacy%3a%20Resolve%20rome%20BT%20denials&type=Commits)
+* [sepolicy: Correctly label display.qservice per SoC](https://github.com/search?q=sepolicy%3a%20Correctly%20label%20display.qservice%20per%20SoC&type=Commits)
+
+#### external/p7zip/
+* [p7zip: Silence all warnings](https://github.com/search?q=p7zip%3a%20Silence%20all%20warnings&type=Commits)
+
+#### external/unrar/
+* [unrar: Silence more build warnings](https://github.com/search?q=unrar%3a%20Silence%20more%20build%20warnings&type=Commits)
+
+#### external/zip/
+* [zip: Silence build warnings](https://github.com/search?q=zip%3a%20Silence%20build%20warnings&type=Commits)
+
+#### frameworks/av/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_av into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_frameworks_av%20into%20pie&type=Commits)
+* [stagefright: add changes related to high-framerates in CameraSource](https://github.com/search?q=stagefright%3a%20add%20changes%20related%20to%20high-framerates%20in%20CameraSource&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [WiFi: Ignore connectivity scans during WFD session](https://github.com/search?q=WiFi%3a%20Ignore%20connectivity%20scans%20during%20WFD%20session&type=Commits)
+
+#### hardware/qcom/fm/
+
+#### hardware/qcom/media-caf/msm8998/
+* [Fix invalid logical constant creation.](https://github.com/search?q=Fix%20invalid%20logical%20constant%20creation.&type=Commits)
+
+#### lineage-sdk/
+
+#### packages/apps/AudioFX/
+
+#### packages/apps/Bluetooth/
+
+#### packages/apps/CellBroadcastReceiver/
+
+#### packages/apps/CertInstaller/
+
+#### packages/apps/Contacts/
+
+#### packages/apps/Dialer/
+
+#### packages/apps/DocumentsUI/
+
+#### packages/apps/Eleven/
+
+#### packages/apps/Email/
+
+#### packages/apps/EmergencyInfo/
+
+#### packages/apps/ExactCalculator/
+
+#### packages/apps/Exchange/
+
+#### packages/apps/Gallery2/
+
+#### packages/apps/HTMLViewer/
+
+#### packages/apps/Jelly/
+
+#### packages/apps/KeyChain/
+
+#### packages/apps/LineageParts/
+* [Parts: Index rr tools 2/2](https://github.com/search?q=Parts%3a%20Index%20rr%20tools%202%2f2&type=Commits)
+
+#### packages/apps/LockClock/
+
+#### packages/apps/ManagedProvisioning/
+
+#### packages/apps/Messaging/
+
+#### packages/apps/Nfc/
+
+#### packages/apps/PackageInstaller/
+
+#### packages/apps/PhoneCommon/
+
+#### packages/apps/Profiles/
+
+#### packages/apps/Recorder/
+
+#### packages/apps/SafetyRegulatoryInfo/
+
+#### packages/apps/Settings/
+* [Settings: Index rr tools 1/2](https://github.com/search?q=Settings%3a%20Index%20rr%20tools%201%2f2&type=Commits)
+
+#### packages/apps/Snap/
+
+#### packages/apps/Stk/
+
+#### packages/apps/StorageManager/
+
+#### packages/apps/Tag/
+
+#### packages/apps/Terminal/
+
+#### packages/apps/Trebuchet/
+
+#### packages/apps/UnifiedEmail/
+
+#### packages/apps/Updater/
+
+#### packages/apps/WallpaperPicker/
+
+#### packages/providers/BlockedNumberProvider/
+
+#### packages/providers/BookmarkProvider/
+
+#### packages/providers/CalendarProvider/
+
+#### packages/providers/CallLogProvider/
+
+#### packages/providers/ContactsProvider/
+
+#### packages/providers/DownloadProvider/
+
+#### packages/providers/MediaProvider/
+
+#### packages/providers/TelephonyProvider/
+
+#### packages/providers/UserDictionaryProvider/
+
+#### packages/screensavers/PhotoTable/
+
+#### packages/services/BuiltInPrintService/
+
+#### packages/services/Mms/
+
+#### packages/services/Telecomm/
+
+#### packages/services/Telephony/
+
+#### packages/wallpapers/LivePicker/
+
+#### system/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_system_sepolicy%20into%20pie&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-26-2019 End.
+
+02-25-2019
+===============
+
+
+#### bionic/
+* [libc: Optimize ARM memcmp by using NEON.](https://github.com/search?q=libc%3a%20Optimize%20ARM%20memcmp%20by%20using%20NEON.&type=Commits)
+
+#### build/make/
+* [Remove TARGET_USES_MKE2FS](https://github.com/search?q=Remove%20TARGET_USES_MKE2FS&type=Commits)
+
+#### hardware/qcom/media-caf/msm8996/
+* [Fix invalid logical constant creation.](https://github.com/search?q=Fix%20invalid%20logical%20constant%20creation.&type=Commits)
+
+#### packages/apps/Contacts/
+* [Fix casting warnings in ContactSaveService](https://github.com/search?q=Fix%20casting%20warnings%20in%20ContactSaveService&type=Commits)
+
+#### packages/apps/Messaging/
+* [When removing a conversation, also remove its notification channel](https://github.com/search?q=When%20removing%20a%20conversation%2c%20also%20remove%20its%20notification%20channel&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1045 from baalajimaestro/pie](https://github.com/search?q=Merge%20pull%20request%20%231045%20from%20baalajimaestro%2fpie&type=Commits)
+* [whyred: Add maintainer for this kensar community](https://github.com/search?q=whyred%3a%20Add%20maintainer%20for%20this%20kensar%20community&type=Commits)
+* [Merge pull request #1044 from AkshayKakatkar/patch-3](https://github.com/search?q=Merge%20pull%20request%20%231044%20from%20AkshayKakatkar%2fpatch-3&type=Commits)
+* [Settings: fix duplicated string in zh-rCN](https://github.com/search?q=Settings%3a%20fix%20duplicated%20string%20in%20zh-rCN&type=Commits)
+* [Add Mi A2](https://github.com/search?q=Add%20Mi%20A2&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-25-2019 End.
+
+02-24-2019
+===============
+
+
+#### device/qcom/sepolicy-legacy/
+* [Revert "legacy: allow init to read /proc/device-tree"](https://github.com/search?q=Revert%20%22legacy%3a%20allow%20init%20to%20read%20%2fproc%2fdevice-tree%22&type=Commits)
+
+#### external/exfat/
+* [Android: remove "tags" from Android.bp.](https://github.com/search?q=Android%3a%20remove%20%22tags%22%20from%20Android.bp.&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: Make recents grid view accept more than 8 tasks](https://github.com/search?q=SystemUI%3a%20Make%20recents%20grid%20view%20accept%20more%20than%208%20tasks&type=Commits)
+* [SystemUI: Add statusbar NFC icon Change-Id: I4c42d01d620e7922fd85fbf10f12eff06e3532ac Signed-off-by: xyyx <xyyx@mail.ru>](https://github.com/search?q=SystemUI%3a%20Add%20statusbar%20NFC%20icon%20Change-Id%3a%20I4c42d01d620e7922fd85fbf10f12eff06e3532ac%20Signed-off-by%3a%20xyyx%20%3cxyyx%40mail.ru%3e&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [ExactCalculator: now fix display contrast in dark mode](https://github.com/search?q=ExactCalculator%3a%20now%20fix%20display%20contrast%20in%20dark%20mode&type=Commits)
+* [Revert "ExactCalculator: fix text contrast in dark mode"](https://github.com/search?q=Revert%20%22ExactCalculator%3a%20fix%20text%20contrast%20in%20dark%20mode%22&type=Commits)
+
+#### packages/apps/Messaging/
+* [Remove notification settings from database](https://github.com/search?q=Remove%20notification%20settings%20from%20database&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1042 from jhenrique09/patch-1](https://github.com/search?q=Merge%20pull%20request%20%231042%20from%20jhenrique09%2fpatch-1&type=Commits)
+* [whyded meme](https://github.com/search?q=whyded%20meme&type=Commits)
+* [Settings: refresh search index check on build change](https://github.com/search?q=Settings%3a%20refresh%20search%20index%20check%20on%20build%20change&type=Commits)
+* [Settings: Add back summary_collapsed_preference_list for zh-rCN](https://github.com/search?q=Settings%3a%20Add%20back%20summary_collapsed_preference_list%20for%20zh-rCN&type=Commits)
+* [Merge pull request #1041 from GtrCraft/patch-2](https://github.com/search?q=Merge%20pull%20request%20%231041%20from%20GtrCraft%2fpatch-2&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: Treat proc-based DT fstab the same and sys-based](https://github.com/search?q=sepolicy%3a%20Treat%20proc-based%20DT%20fstab%20the%20same%20and%20sys-based&type=Commits)
+
+#### vendor/rr/
+* [Add APN for XFINITY Mobile](https://github.com/search?q=Add%20APN%20for%20XFINITY%20Mobile&type=Commits)
+* [apns: Add new Virgin Mobile apn](https://github.com/search?q=apns%3a%20Add%20new%20Virgin%20Mobile%20apn&type=Commits)
+* [apn: Update the Ultra Mobile apn](https://github.com/search?q=apn%3a%20Update%20the%20Ultra%20Mobile%20apn&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-24-2019 End.
+
+02-23-2019
+===============
+
+
+#### hardware/lineage/livedisplay/
+* [Revert "livedisplay: sdm: Fix restoring default mode"](https://github.com/search?q=Revert%20%22livedisplay%3a%20sdm%3a%20Fix%20restoring%20default%20mode%22&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [ExactCalculator: fix text contrast in dark mode](https://github.com/search?q=ExactCalculator%3a%20fix%20text%20contrast%20in%20dark%20mode&type=Commits)
+
+#### packages/apps/Messaging/
+* [Implement per conversation channels](https://github.com/search?q=Implement%20per%20conversation%20channels&type=Commits)
+* [Don't build with platform certificate](https://github.com/search?q=Don%27t%20build%20with%20platform%20certificate&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-23-2019 End.
+
+02-22-2019
+===============
+
+
+#### device/qcom/sepolicy/
+* [Merge https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_qcom_sepolicy%20into%20pie&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [Merge https://github.com/LineageOS/android_device_qcom_sepolicy-legacy into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_qcom_sepolicy-legacy%20into%20pie&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [HWKeys: Disable haptic on keyguard](https://github.com/search?q=HWKeys%3a%20Disable%20haptic%20on%20keyguard&type=Commits)
+* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3a%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
+* [Base: GlobalActionsDialog align with aosp](https://github.com/search?q=Base%3a%20GlobalActionsDialog%20align%20with%20aosp&type=Commits)
+* [Base: update GlobalActionsDialog to fix power menu list](https://github.com/search?q=Base%3a%20update%20GlobalActionsDialog%20to%20fix%20power%20menu%20list&type=Commits)
+
+#### frameworks/opt/slimrecent/
+* [Merge https://github.com/AICP/frameworks_opt_slimrecent into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fAICP%2fframeworks_opt_slimrecent%20into%20pie&type=Commits)
+
+#### frameworks/support/
+* [Merge https://github.com/LineageOS/android_frameworks_support into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_frameworks_support%20into%20pie&type=Commits)
+
+#### hardware/interfaces/
+* [wifi: Increase kMaxStopCompleteWaitMs to 250 msec.](https://github.com/search?q=wifi%3a%20Increase%20kMaxStopCompleteWaitMs%20to%20250%20msec.&type=Commits)
+* [wifi: Use stub for add_or_remove_virtual_intf functionality](https://github.com/search?q=wifi%3a%20Use%20stub%20for%20add_or_remove_virtual_intf%20functionality&type=Commits)
+
+#### lineage-sdk/
+* [Merge https://github.com/LineageOS/android_lineage-sdk into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_lineage-sdk%20into%20pie&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_DocumentsUI into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_DocumentsUI%20into%20pie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_ExactCalculator into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_ExactCalculator%20into%20pie&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Merge https://github.com/LineageOS/android_packages_apps_LineageParts into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_LineageParts%20into%20pie&type=Commits)
+
+#### packages/apps/Settings/
+* [Slim recents: re-enable expanded mode always [2/2]](https://github.com/search?q=Slim%20recents%3a%20re-enable%20expanded%20mode%20always%20%5b2%2f2%5d&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge https://github.com/LineageOS/android_packages_apps_Trebuchet into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_Trebuchet%20into%20pie&type=Commits)
+
+#### packages/apps/Updater/
+* [Merge https://github.com/LineageOS/android_packages_apps_Updater into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_apps_Updater%20into%20pie&type=Commits)
+
+#### packages/overlays/Lineage/
+* [Merge https://github.com/LineageOS/android_packages_overlays_Lineage into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_overlays_Lineage%20into%20pie&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge https://github.com/LineageOS/android_packages_services_Telecomm into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_services_Telecomm%20into%20pie&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_packages_services_Telephony%20into%20pie&type=Commits)
+
+#### system/sepolicy/
+* [Merge https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20https%3a%2f%2fgithub.com%2fLineageOS%2fandroid_system_sepolicy%20into%20pie&type=Commits)
+
+#### Resurrection Remix Pie source changes of 02-22-2019 End.
+
+
+### [This Changelog was generated automatically Click here to see how](https://github.com/fgl27/scripts/blob/master/etc/changelog_generator.sh)

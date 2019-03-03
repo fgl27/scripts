@@ -52,7 +52,8 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/Settings"
 		"vendor/rr"
 		"packages/apps/SmartNav"
-		"frameworks/native");
+		"frameworks/native"
+		"platform_manifest");
 
 sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_DocumentsUI"
@@ -79,7 +80,8 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"Resurrection_packages_apps_Settings"
 		"android_vendor_resurrection"
 		"packages_apps_SmartNav"
-		"frameworks_native");
+		"frameworks_native"
+		"platform_manifest");
 
 echo -e "\nPush all?\n"
 echo -e "1 - Yes, empty - No (to choose from list)?\n"

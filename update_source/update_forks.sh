@@ -122,4 +122,10 @@ checkout_pull_array
 	sources_link="android_frameworks_base"
 	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
+	path="platform_manifest";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
+
 exit;

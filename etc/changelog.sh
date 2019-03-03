@@ -51,7 +51,6 @@ echo -e "How many days to log?"
 read -r -t 15 days_to_log
 echo -e "Amount of days to log: $days_to_log"
 
-echo "### [This Changelog was generated automatically Click here to see how](https://github.com/bhb27/scripts/blob/master/etc/changelog.sh)"    >> $Changelog;
 echo >> $Changelog;
 
 echo "$source_name source and $device_name Changelog:"    >> $Changelog;
