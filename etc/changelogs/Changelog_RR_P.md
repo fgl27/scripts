@@ -3,6 +3,136 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+03-05-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-05-2019:
+#### android/
+* [manifest: Track our device/google/atv](https://github.com/search?q=manifest%3A%20Track%20our%20device/google/atv&type=Commits)
+
+#### frameworks/base/
+* [Merge branch 'lineage-16.0' of https://github.com/fgl27/android_frameworks_base into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/fgl27/android_frameworks_base%20into%20pie&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge branch 'lineage-16.0' of https://github.com/fgl27/Resurrection_packages_apps_Settings into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/fgl27/Resurrection_packages_apps_Settings%20into%20pie&type=Commits)
+
+#### vendor/rr/
+* [Merge branch 'lineage-16.0' of https://github.com/fgl27/android_vendor_resurrection into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/fgl27/android_vendor_resurrection%20into%20pie&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-05-2019 End.
+
+03-04-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-04-2019:
+
+#### build/make/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_build%20into%20pie&type=Commits)
+
+#### build/soong/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_build_soong into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_build_soong%20into%20pie&type=Commits)
+* [Fix formatting](https://github.com/search?q=Fix%20formatting&type=Commits)
+
+#### frameworks/base/
+* [Fix build](https://github.com/search?q=Fix%20build&type=Commits)
+* [SystemUI: grant missing READ_PHONE_STATE permission](https://github.com/search?q=SystemUI%3A%20grant%20missing%20READ_PHONE_STATE%20permission&type=Commits)
+* [SystemUI: OneHandMode QS tile](https://github.com/search?q=SystemUI%3A%20OneHandMode%20QS%20tile&type=Commits)
+* [base: Add support for DiracSound FX](https://github.com/search?q=base%3A%20Add%20support%20for%20DiracSound%20FX&type=Commits)
+* [[1/2] base: add option to enable AOD on charging only](https://github.com/search?q=[1/2]%20base%3A%20add%20option%20to%20enable%20AOD%20on%20charging%20only&type=Commits)
+* [base: SystemUI: add config check for aod available in qs tile](https://github.com/search?q=base%3A%20SystemUI%3A%20add%20config%20check%20for%20aod%20available%20in%20qs%20tile&type=Commits)
+* [base: SystemUI: add qs AOD tile](https://github.com/search?q=base%3A%20SystemUI%3A%20add%20qs%20AOD%20tile&type=Commits)
+* [GlobalActions: avoid multiple power dialog animations](https://github.com/search?q=GlobalActions%3A%20avoid%20multiple%20power%20dialog%20animations&type=Commits)
+* [VolumeDialog: avoid multiple animations on touch spam](https://github.com/search?q=VolumeDialog%3A%20avoid%20multiple%20animations%20on%20touch%20spam&type=Commits)
+* [Telephony: Add DisconnectCause values for clear code](https://github.com/search?q=Telephony%3A%20Add%20DisconnectCause%20values%20for%20clear%20code&type=Commits)
+* [Return null on failed insert due to permissions](https://github.com/search?q=Return%20null%20on%20failed%20insert%20due%20to%20permissions&type=Commits)
+* [Fix RouterAdvertisementDaemon thread leakage problem](https://github.com/search?q=Fix%20RouterAdvertisementDaemon%20thread%20leakage%20problem&type=Commits)
+* [Fix potential crash when per-procstate cpu times tracking is turned on](https://github.com/search?q=Fix%20potential%20crash%20when%20per-procstate%20cpu%20times%20tracking%20is%20turned%20on&type=Commits)
+* [SystemUI: Change arrow keys to vector images](https://github.com/search?q=SystemUI%3A%20Change%20arrow%20keys%20to%20vector%20images&type=Commits)
+* [Crash app on foreground service notification error](https://github.com/search?q=Crash%20app%20on%20foreground%20service%20notification%20error&type=Commits)
+* [ServiceRegistry: Don't throw an exception if OEM_LOCK is missing](https://github.com/search?q=ServiceRegistry%3A%20Don%27t%20throw%20an%20exception%20if%20OEM_LOCK%20is%20missing&type=Commits)
+* [am: Avoid scheduling service restart twice](https://github.com/search?q=am%3A%20Avoid%20scheduling%20service%20restart%20twice&type=Commits)
+* [Unbreak ambient display while Heads up is disabled](https://github.com/search?q=Unbreak%20ambient%20display%20while%20Heads%20up%20is%20disabled&type=Commits)
+* [NetworkTraffic: fix indicator not hiding on lost connection](https://github.com/search?q=NetworkTraffic%3A%20fix%20indicator%20not%20hiding%20on%20lost%20connection&type=Commits)
+* [SystemUI: Fix an issue where unlocking the SIM PIN failed](https://github.com/search?q=SystemUI%3A%20Fix%20an%20issue%20where%20unlocking%20the%20SIM%20PIN%20failed&type=Commits)
+
+#### packages/apps/Settings/
+* [[2/2] Settings: show AOD on charge setting](https://github.com/search?q=[2/2]%20Settings%3A%20show%20AOD%20on%20charge%20setting&type=Commits)
+* [Merge pull request #1052 from gohilnikhil/pie](https://github.com/search?q=Merge%20pull%20request%20%231052%20from%20gohilnikhil/pie&type=Commits)
+* [Update resurrection_device_maintainers_strings.xml](https://github.com/search?q=Update%20resurrection_device_maintainers_strings.xml&type=Commits)
+
+#### vendor/rr/
+* [Vendor: update CHANGELOG.mkdn and changelog_github.sh for Pie](https://github.com/search?q=Vendor%3A%20update%20CHANGELOG.mkdn%20and%20changelog_github.sh%20for%20Pie&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-04-2019 End.
+
+03-03-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-03-2019:
+#### android/
+* [Fork external/proguard](https://github.com/search?q=Fork%20external/proguard&type=Commits)
+* [lineage: Re-enable SDM845 CAF HALs](https://github.com/search?q=lineage%3A%20Re-enable%20SDM845%20CAF%20HALs&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy%20into%20pie&type=Commits)
+
+#### external/bash/
+* [bash: Silence all build warnings](https://github.com/search?q=bash%3A%20Silence%20all%20build%20warnings&type=Commits)
+
+#### external/openssh/
+* [openssh: Silence build warnings](https://github.com/search?q=openssh%3A%20Silence%20build%20warnings&type=Commits)
+
+#### external/rsync/
+* [rsync: Silence build warnings](https://github.com/search?q=rsync%3A%20Silence%20build%20warnings&type=Commits)
+
+#### frameworks/base/
+* [Include InCallNotification.ogg in AllAudio.mk file](https://github.com/search?q=Include%20InCallNotification.ogg%20in%20AllAudio.mk%20file&type=Commits)
+* [Add ChargingStarted + InCallNotif to AudioPackage](https://github.com/search?q=Add%20ChargingStarted%20+%20InCallNotif%20to%20AudioPackage&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Bluetooth: Remove unused string resources](https://github.com/search?q=Bluetooth%3A%20Remove%20unused%20string%20resources&type=Commits)
+* [Fix generating id in android namespace](https://github.com/search?q=Fix%20generating%20id%20in%20android%20namespace&type=Commits)
+
+#### packages/apps/Contacts/
+* [Contacts: Remove unused boolean resource](https://github.com/search?q=Contacts%3A%20Remove%20unused%20boolean%20resource&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1050 from AnierinBliss/pie](https://github.com/search?q=Merge%20pull%20request%20%231050%20from%20AnierinBliss/pie&type=Commits)
+* [Update pme maintainer](https://github.com/search?q=Update%20pme%20maintainer&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: Add back original-package in manifest](https://github.com/search?q=Snap%3A%20Add%20back%20original-package%20in%20manifest&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20pie&type=Commits)
+
+#### prebuilts/clang/host/linux-x86/
+* [Update prebuilt Clang to r349610b.](https://github.com/search?q=Update%20prebuilt%20Clang%20to%20r349610b.&type=Commits)
+
+#### vendor/nxp/opensource/halimpl/
+* [halimpl: Remove useless makefile](https://github.com/search?q=halimpl%3A%20Remove%20useless%20makefile&type=Commits)
+
+#### vendor/rr/
+* [extract_utils: template: introduce kang mode](https://github.com/search?q=extract_utils%3A%20template%3A%20introduce%20kang%20mode&type=Commits)
+* [extract_utils: template: make --section argument non-positional](https://github.com/search?q=extract_utils%3A%20template%3A%20make%20--section%20argument%20non-positional&type=Commits)
+* [extract_utils: template: use quotation marks and variable curly braces consistently](https://github.com/search?q=extract_utils%3A%20template%3A%20use%20quotation%20marks%20and%20variable%20curly%20braces%20consistently&type=Commits)
+* [extract_utils: make --section match words anywhere in the line](https://github.com/search?q=extract_utils%3A%20make%20--section%20match%20words%20anywhere%20in%20the%20line&type=Commits)
+* [extract_utils: introduce -k (kang mode) option](https://github.com/search?q=extract_utils%3A%20introduce%20-k%20%28kang%20mode%29%20option&type=Commits)
+* [extract_utils: cleanup variable names and arguments passed to extract() function](https://github.com/search?q=extract_utils%3A%20cleanup%20variable%20names%20and%20arguments%20passed%20to%20extract%28%29%20function&type=Commits)
+* [extract_utils: be compatible with system-as-root layouts](https://github.com/search?q=extract_utils%3A%20be%20compatible%20with%20system-as-root%20layouts&type=Commits)
+* [extract_utils: drop the "/system/" prefix from prints of blob names](https://github.com/search?q=extract_utils%3A%20drop%20the%20"/system/"%20prefix%20from%20prints%20of%20blob%20names&type=Commits)
+* [libbfqio: Remove vendor variant](https://github.com/search?q=libbfqio%3A%20Remove%20vendor%20variant&type=Commits)
+* [extract_utils: template: introduce kang mode](https://github.com/search?q=extract_utils%3A%20template%3A%20introduce%20kang%20mode&type=Commits)
+* [extract_utils: template: make --section argument non-positional](https://github.com/search?q=extract_utils%3A%20template%3A%20make%20--section%20argument%20non-positional&type=Commits)
+* [extract_utils: template: use quotation marks and variable curly braces consistently](https://github.com/search?q=extract_utils%3A%20template%3A%20use%20quotation%20marks%20and%20variable%20curly%20braces%20consistently&type=Commits)
+* [extract_utils: make --section match words anywhere in the line](https://github.com/search?q=extract_utils%3A%20make%20--section%20match%20words%20anywhere%20in%20the%20line&type=Commits)
+* [extract_utils: introduce -k (kang mode) option](https://github.com/search?q=extract_utils%3A%20introduce%20-k%20%28kang%20mode%29%20option&type=Commits)
+* [extract_utils: cleanup variable names and arguments passed to extract() function](https://github.com/search?q=extract_utils%3A%20cleanup%20variable%20names%20and%20arguments%20passed%20to%20extract%28%29%20function&type=Commits)
+* [extract_utils: be compatible with system-as-root layouts](https://github.com/search?q=extract_utils%3A%20be%20compatible%20with%20system-as-root%20layouts&type=Commits)
+* [extract_utils: drop the "/system/" prefix from prints of blob names](https://github.com/search?q=extract_utils%3A%20drop%20the%20"/system/"%20prefix%20from%20prints%20of%20blob%20names&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-03-2019 End.
+
 03-02-2019
 ====================
 

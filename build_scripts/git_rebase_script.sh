@@ -7,6 +7,4 @@ read input_variable
 echo "You choose: $input_variable"
 
 git rebase -i HEAD~$input_variable
-
-
-
+#git rebase --preserve-merges -i HEAD~2
