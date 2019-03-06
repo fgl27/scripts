@@ -3,6 +3,22 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+03-06-2019
+====================
+
+* [Wake source remove bluesleep_ws](https://github.com/bhb27/BHB27Kernel/search?q=Wake%20source%20remove%20bluesleep_ws&type=Commits)
+* [Defconfig enable SERIAL_MSM_HSL and SERIAL_MSM_HSL_CONSOLE](https://github.com/bhb27/BHB27Kernel/search?q=Defconfig%20enable%20SERIAL_MSM_HSL%20and%20SERIAL_MSM_HSL_CONSOLE&type=Commits)
+* [kernel version 9.28](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20version%209.28&type=Commits)
+
+***
+
+02-20-2019
+====================
+
+* [qcacld-2.0: disable link layer stats](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20disable%20link%20layer%20stats&type=Commits)
+
+***
+
 02-12-2019
 ====================
 
