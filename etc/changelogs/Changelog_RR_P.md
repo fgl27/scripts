@@ -3,6 +3,52 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+03-06-2019
+====================
+
+#### Device specific Changes of 03-06-2019 Start:
+
+#### Device/Quark/
+* [Quark: import open source BT driver and reconfig bt](https://github.com/search?q=Quark%3A%20import%20open%20source%20BT%20driver%20and%20reconfig%20bt&type=Commits)
+* [Revert "Quark: reset bluetooth/bdroid_buildcfg.h"](https://github.com/search?q=Revert%20"Quark%3A%20reset%20bluetooth/bdroid_buildcfg.h"&type=Commits)
+
+#### Kernel/Quark/
+* [Wake source remove bluesleep_ws](https://github.com/search?q=Wake%20source%20remove%20bluesleep_ws&type=Commits)
+* [Defconfig enable SERIAL_MSM_HSL and SERIAL_MSM_HSL_CONSOLE](https://github.com/search?q=Defconfig%20enable%20SERIAL_MSM_HSL%20and%20SERIAL_MSM_HSL_CONSOLE&type=Commits)
+
+#### Vendor/Quark/
+* [Revert "Quark: use vendor prefix enabled wcnss_filter"](https://github.com/search?q=Revert%20"Quark%3A%20use%20vendor%20prefix%20enabled%20wcnss_filter"&type=Commits)
+
+#### Device specific Changes of 03-06-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-06-2019:
+
+#### frameworks/base/
+* [Fix current formating on lockscreen for devices, that report directly in Ampere. Shamelessly extracted from:   base: Lockscreen Charging info  (3/3)   by: xyyx <xyyx@mail.ru>](https://github.com/search?q=Fix%20current%20formating%20on%20lockscreen%20for%20devices,%20that%20report%20directly%20in%20Ampere.%20Shamelessly%20extracted%20from%3A%20%20%20base%3A%20Lockscreen%20Charging%20info%20%20%283/3%29%20%20%20by%3A%20xyyx%20<xyyx%40mail.ru>&type=Commits)
+* [Merge remote-tracking branch 'rr/pie' into pie](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27rr/pie%27%20into%20pie&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Custom Rounded Corner and Padding preferences [1/2]](https://github.com/search?q=Custom%20Rounded%20Corner%20and%20Padding%20preferences%20[1/2]&type=Commits)
+
+#### hardware/qcom/display-caf/sdm845/
+* [display-hals: Expose c2d2.h even if TARGET_DISABLE_DISPLAY is set](https://github.com/search?q=display-hals%3A%20Expose%20c2d2.h%20even%20if%20TARGET_DISABLE_DISPLAY%20is%20set&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1053 from tapanrgohil/pie](https://github.com/search?q=Merge%20pull%20request%20%231053%20from%20tapanrgohil/pie&type=Commits)
+* [Update Onyx Maintainer](https://github.com/search?q=Update%20Onyx%20Maintainer&type=Commits)
+* [Merge remote-tracking branch 'rr/pie' into pie](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27rr/pie%27%20into%20pie&type=Commits)
+* [Custom Rounded Corner and Padding preferences [2/2]](https://github.com/search?q=Custom%20Rounded%20Corner%20and%20Padding%20preferences%20[2/2]&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-06-2019 End.
+
 03-05-2019
 ====================
 
