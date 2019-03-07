@@ -97,8 +97,8 @@ fi
 
 #Set Branch and update kernel and vendor before build
 cd kernel/motorola/apq8084/
-git checkout P_c
-git pull origin P_c
+git checkout P
+git pull origin P
 cd - &> /dev/null || exit;
 
 cd vendor/motorola/
