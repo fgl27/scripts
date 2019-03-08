@@ -3,6 +3,130 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+03-08-2019
+====================
+
+#### Device specific Changes of 03-08-2019 Start:
+
+#### Kernel/Quark/
+* [scripts/fetch-latest-wireguard.sh alwyas update](https://github.com/search?q=scripts/fetch-latest-wireguard.sh%20alwyas%20update&type=Commits)
+* [Scripts update fetch-latest-wireguard.sh](https://github.com/search?q=Scripts%20update%20fetch-latest-wireguard.sh&type=Commits)
+* [Revert "wireguard: manually reset to a working version"](https://github.com/search?q=Revert%20"wireguard%3A%20manually%20reset%20to%20a%20working%20version"&type=Commits)
+* [af_key: Replace comma with semicolon](https://github.com/search?q=af_key%3A%20Replace%20comma%20with%20semicolon&type=Commits)
+* [af_key: remove unnecessary break after return](https://github.com/search?q=af_key%3A%20remove%20unnecessary%20break%20after%20return&type=Commits)
+* [af_key: Fix sadb_x_ipsecrequest parsing](https://github.com/search?q=af_key%3A%20Fix%20sadb_x_ipsecrequest%20parsing&type=Commits)
+* [net: af_key: fix sleeping under rcu](https://github.com/search?q=net%3A%20af_key%3A%20fix%20sleeping%20under%20rcu&type=Commits)
+* [af_key: unconditionally clone on broadcast](https://github.com/search?q=af_key%3A%20unconditionally%20clone%20on%20broadcast&type=Commits)
+* [net: PPPoPNS: use updated data_ready API definition](https://github.com/search?q=net%3A%20PPPoPNS%3A%20use%20updated%20data_ready%20API%20definition&type=Commits)
+* [BACKPORT net: Fix use after free by removing length arg from sk_data_ready callbacks.](https://github.com/search?q=BACKPORT%20net%3A%20Fix%20use%20after%20free%20by%20removing%20length%20arg%20from%20sk_data_ready%20callbacks.&type=Commits)
+* [ocfs2/o2net: o2net_listen_data_ready should do nothing if socket state is not TCP_LISTEN](https://github.com/search?q=ocfs2/o2net%3A%20o2net_listen_data_ready%20should%20do%20nothing%20if%20socket%20state%20is%20not%20TCP_LISTEN&type=Commits)
+
+#### Device specific Changes of 03-08-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-08-2019:
+#### android/
+* [android-9.0.0_r34](https://github.com/search?q=android-9.0.0_r34&type=Commits)
+
+#### bionic/
+* [Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20into%20lineage-16.0-android-9.0.0_r34&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-9.0.0_r34' of https://android.googlesource.com/platform/build into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20of%20https%3A//android.googlesource.com/platform/build%20into%20HEAD&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_qcom_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_device_qcom_sepolicy%20into%20pie&type=Commits)
+* [sepolicy: Fix video4linux "name" node labeling](https://github.com/search?q=sepolicy%3A%20Fix%20video4linux%20"name"%20node%20labeling&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-9.0.0_r34' of https://android.googlesource.com/platform/frameworks/av into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20of%20https%3A//android.googlesource.com/platform/frameworks/av%20into%20HEAD&type=Commits)
+
+#### frameworks/base/
+* [Base: StatusbarItems move nfc switch to the correct xml](https://github.com/search?q=Base%3A%20StatusbarItems%20move%20nfc%20switch%20to%20the%20correct%20xml&type=Commits)
+* [Revert "SystemUI: Sort subscriptions in reversed order"](https://github.com/search?q=Revert%20"SystemUI%3A%20Sort%20subscriptions%20in%20reversed%20order"&type=Commits)
+* [Show mobile icons with left-to-right in order of slot index](https://github.com/search?q=Show%20mobile%20icons%20with%20left-to-right%20in%20order%20of%20slot%20index&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [base: SystemUI: Mark PIE strings as non translatable (#214)](https://github.com/search?q=base%3A%20SystemUI%3A%20Mark%20PIE%20strings%20as%20non%20translatable%20%28%23214%29&type=Commits)
+* [Merge tag 'android-9.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20HEAD&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-9.0.0_r34' of https://android.googlesource.com/platform/frameworks/native into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20of%20https%3A//android.googlesource.com/platform/frameworks/native%20into%20HEAD&type=Commits)
+
+#### hardware/nxp/nfc/
+* [Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20into%20lineage-16.0-android-9.0.0_r34&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20into%20lineage-16.0-android-9.0.0_r34&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: improve order in misc tab](https://github.com/search?q=Settings%3A%20improve%20order%20in%20misc%20tab&type=Commits)
+* [Settings: remove duplicated cpu info from interface/misc](https://github.com/search?q=Settings%3A%20remove%20duplicated%20cpu%20info%20from%20interface/misc&type=Commits)
+* [Settings: set max rounded_content_padding to 20](https://github.com/search?q=Settings%3A%20set%20max%20rounded_content_padding%20to%2020&type=Commits)
+* [Settings: move Rounded Corner to misc](https://github.com/search?q=Settings%3A%20move%20Rounded%20Corner%20to%20misc&type=Commits)
+* [Update the timestamp used for time zone filtering](https://github.com/search?q=Update%20the%20timestamp%20used%20for%20time%20zone%20filtering&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Merge pull request #1054 from darkbeast69/pie](https://github.com/search?q=Merge%20pull%20request%20%231054%20from%20darkbeast69/pie&type=Commits)
+* [Add tulip to official](https://github.com/search?q=Add%20tulip%20to%20official&type=Commits)
+
+#### packages/apps/Updater/
+* [Updater: utils: don't check ROM version](https://github.com/search?q=Updater%3A%20utils%3A%20don%27t%20check%20ROM%20version&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_services_Telephony into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_services_Telephony%20into%20pie&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20into%20lineage-16.0-android-9.0.0_r34&type=Commits)
+
+#### system/core/
+* [Merge tag 'android-9.0.0_r34' of https://android.googlesource.com/platform/system/core into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20of%20https%3A//android.googlesource.com/platform/system/core%20into%20HEAD&type=Commits)
+
+#### system/sepolicy/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20pie&type=Commits)
+
+#### system/tools/hidl/
+* [Merge tag 'android-9.0.0_r34' into lineage-16.0-android-9.0.0_r34](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r34%27%20into%20lineage-16.0-android-9.0.0_r34&type=Commits)
+
+#### vendor/rr/
+* [extract_utils: introduce support for executing blob fixups](https://github.com/search?q=extract_utils%3A%20introduce%20support%20for%20executing%20blob%20fixups&type=Commits)
+* [sensitive_pn: New United Kingdom helplines](https://github.com/search?q=sensitive_pn%3A%20New%20United%20Kingdom%20helplines&type=Commits)
+* [rr: update stats](https://github.com/search?q=rr%3A%20update%20stats&type=Commits)
+* [RR: Bump version to 7.0.1](https://github.com/search?q=RR%3A%20Bump%20version%20to%207.0.1&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-08-2019 End.
+
+03-07-2019
+====================
+
+#### Device specific Changes of 03-07-2019 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+
+#### Kernel/Quark/
+* [quark_defconfig rename the kernel](https://github.com/search?q=quark_defconfig%20rename%20the%20kernel&type=Commits)
+* [Defconfig regenerate](https://github.com/search?q=Defconfig%20regenerate&type=Commits)
+
+#### Device specific Changes of 03-07-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-07-2019:
+
+#### packages/services/Telephony/
+* [Stop generating ids in android namespace.](https://github.com/search?q=Stop%20generating%20ids%20in%20android%20namespace.&type=Commits)
+* [Fix resource warnings.](https://github.com/search?q=Fix%20resource%20warnings.&type=Commits)
+
+#### prebuilts/clang/host/linux-x86/
+* [Update prebuilt Clang to r353983.](https://github.com/search?q=Update%20prebuilt%20Clang%20to%20r353983.&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-07-2019 End.
+
 03-06-2019
 ====================
 
