@@ -3,6 +3,277 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+03-15-2019
+====================
+
+#### Device specific Changes of 03-15-2019 Start:
+
+#### Device/Quark/
+* [Revert "Quark: getDiskStats is not supported, disable it"](https://github.com/search?q=Revert%20"Quark%3A%20getDiskStats%20is%20not%20supported,%20disable%20it"&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor&type=Commits)
+
+#### Device specific Changes of 03-15-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-15-2019:
+
+#### hardware/qcom/audio/default/
+* [msm8960: Add SND_DEVICE_OUT_VOICE_MUSIC_TX](https://github.com/search?q=msm8960%3A%20Add%20SND_DEVICE_OUT_VOICE_MUSIC_TX&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-15-2019 End.
+
+03-14-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-14-2019:
+
+#### packages/apps/Settings/
+* [Fix about preference](https://github.com/search?q=Fix%20about%20preference&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-14-2019 End.
+
+03-13-2019
+====================
+
+#### Device specific Changes of 03-13-2019 Start:
+
+#### Device/Quark/
+* [Quark: getDiskStats is not supported, disable it](https://github.com/search?q=Quark%3A%20getDiskStats%20is%20not%20supported,%20disable%20it&type=Commits)
+
+#### Device specific Changes of 03-13-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-13-2019:
+
+#### frameworks/base/
+* [Fix build](https://github.com/search?q=Fix%20build&type=Commits)
+* [base: featureize ro.recents.grid and Go Layout](https://github.com/search?q=base%3A%20featureize%20ro.recents.grid%20and%20Go%20Layout&type=Commits)
+* [Add membar to recents options [1/2]](https://github.com/search?q=Add%20membar%20to%20recents%20options%20[1/2]&type=Commits)
+* [Recents Clear All Button Tweaks and Add FAB to Recents Panel Thanks to RR and @varund7726](https://github.com/search?q=Recents%20Clear%20All%20Button%20Tweaks%20and%20Add%20FAB%20to%20Recents%20Panel%20Thanks%20to%20RR%20and%20%40varund7726&type=Commits)
+* [fwb: Allow users to switch between Pie/Oreo recents [1/3]](https://github.com/search?q=fwb%3A%20Allow%20users%20to%20switch%20between%20Pie/Oreo%20recents%20[1/3]&type=Commits)
+* [RRFWBUtils: Import AICP restart systemui api](https://github.com/search?q=RRFWBUtils%3A%20Import%20AICP%20restart%20systemui%20api&type=Commits)
+
+#### hardware/qcom/display-caf/apq8084/
+* [hwc: Handle validateAndSet failures in AD prepare call](https://github.com/search?q=hwc%3A%20Handle%20validateAndSet%20failures%20in%20AD%20prepare%20call&type=Commits)
+
+#### packages/apps/Nfc/
+* [NfcNci: make T3T/Nfc-F HCE optional](https://github.com/search?q=NfcNci%3A%20make%20T3T/Nfc-F%20HCE%20optional&type=Commits)
+
+#### packages/apps/Settings/
+* [KickOut Team](https://github.com/search?q=KickOut%20Team&type=Commits)
+* [Fix build](https://github.com/search?q=Fix%20build&type=Commits)
+* [RecentsUI: Disable oreo recents category if pie recents selected](https://github.com/search?q=RecentsUI%3A%20Disable%20oreo%20recents%20category%20if%20pie%20recents%20selected&type=Commits)
+* [[2/2] RR: featureize ro.recents.grid and Go Layout](https://github.com/search?q=[2/2]%20RR%3A%20featureize%20ro.recents.grid%20and%20Go%20Layout&type=Commits)
+* [Add membar to recents options [2/2]](https://github.com/search?q=Add%20membar%20to%20recents%20options%20[2/2]&type=Commits)
+* [RecentsUI: recents panel clear all button tweaks](https://github.com/search?q=RecentsUI%3A%20recents%20panel%20clear%20all%20button%20tweaks&type=Commits)
+* [RRSettings: Allow users to switch between Pie/Oreo recents [2/3]](https://github.com/search?q=RRSettings%3A%20Allow%20users%20to%20switch%20between%20Pie/Oreo%20recents%20[2/3]&type=Commits)
+* [Settings: Allow users to switch between Pie/Oreo recents [3/3]](https://github.com/search?q=Settings%3A%20Allow%20users%20to%20switch%20between%20Pie/Oreo%20recents%20[3/3]&type=Commits)
+* [Revert "Settings: Only show gesture navigation if device has a software nav bar"](https://github.com/search?q=Revert%20"Settings%3A%20Only%20show%20gesture%20navigation%20if%20device%20has%20a%20software%20nav%20bar"&type=Commits)
+* [Settings: rr tools fix crash when opening Misc plus improves](https://github.com/search?q=Settings%3A%20rr%20tools%20fix%20crash%20when%20opening%20Misc%20plus%20improves&type=Commits)
+* [Settins: rr tools fix misc tab PreferenceScreen title](https://github.com/search?q=Settins%3A%20rr%20tools%20fix%20misc%20tab%20PreferenceScreen%20title&type=Commits)
+* [Settings: rr tools interface migrate audio panel to valume panel](https://github.com/search?q=Settings%3A%20rr%20tools%20interface%20migrate%20audio%20panel%20to%20valume%20panel&type=Commits)
+* [Settings: rr tools interface improve order and looks](https://github.com/search?q=Settings%3A%20rr%20tools%20interface%20improve%20order%20and%20looks&type=Commits)
+* [Settings: remove duplicate volume panel](https://github.com/search?q=Settings%3A%20remove%20duplicate%20volume%20panel&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-13-2019 End.
+
+03-12-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-12-2019:
+
+#### frameworks/base/
+* [Merge pull request #245 from MOVZX/MicroG](https://github.com/search?q=Merge%20pull%20request%20%23245%20from%20MOVZX/MicroG&type=Commits)
+* [Seperate Utils for FWB and Settings](https://github.com/search?q=Seperate%20Utils%20for%20FWB%20and%20Settings&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Light & Dark theme improvements](https://github.com/search?q=Light%20&%20Dark%20theme%20improvements&type=Commits)
+
+#### packages/apps/Settings/
+* [Decrease about logo sıze](https://github.com/search?q=Decrease%20about%20logo%20sıze&type=Commits)
+
+#### packages/apps/Updater/
+* [Dark theme improvements](https://github.com/search?q=Dark%20theme%20improvements&type=Commits)
+
+#### vendor/rr/
+* [Merge pull request #115 from MOVZX/MicroG](https://github.com/search?q=Merge%20pull%20request%20%23115%20from%20MOVZX/MicroG&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-12-2019 End.
+
+03-11-2019
+====================
+
+#### Device specific Changes of 03-11-2019 Start:
+
+#### Device/Quark/
+* [Quark: Enable B-services aging propagation](https://github.com/search?q=Quark%3A%20Enable%20B-services%20aging%20propagation&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig enable quota](https://github.com/search?q=defconfig%20enable%20quota&type=Commits)
+* [sched/cpuset/pm: Fix cpuset vs. suspend-resume bugs](https://github.com/search?q=sched/cpuset/pm%3A%20Fix%20cpuset%20vs.%20suspend-resume%20bugs&type=Commits)
+
+#### Device specific Changes of 03-11-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-11-2019:
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Improve launcher icon](https://github.com/search?q=Improve%20launcher%20icon&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge branch 'pie' of https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings into pie](https://github.com/search?q=Merge%20branch%20%27pie%27%20of%20https%3A//github.com/ResurrectionRemix/Resurrection_packages_apps_Settings%20into%20pie&type=Commits)
+* [Merge pull request #1055 from AlexZorzi/pie](https://github.com/search?q=Merge%20pull%20request%20%231055%20from%20AlexZorzi/pie&type=Commits)
+* [Update maintainers for Z00L and Z00T](https://github.com/search?q=Update%20maintainers%20for%20Z00L%20and%20Z00T&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BookmarkProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Mms/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-11-2019 End.
+
+03-10-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-10-2019:
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+#### vendor/rr/
+* [Settings: Add overlay from Pixel](https://github.com/search?q=Settings%3A%20Add%20overlay%20from%20Pixel&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-10-2019 End.
+
 03-08-2019
 ====================
 
