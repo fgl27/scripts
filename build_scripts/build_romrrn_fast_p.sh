@@ -74,6 +74,17 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#Dialer: prevent touch events when the screen is off
+	
+	folder="packages/apps/Dialer";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_packages_apps_Dialer-1/ lineage-16.0 && git cherry-pick e04721c759828361ca243a021433146d51ed32bf
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Fix slow to connect wifi and races
 	folder="frameworks/opt/net/wifi/";
 	echo -e "\\n	In Folder $folder \\n"
