@@ -45,7 +45,8 @@ if [ "$input1" == "1" ]; then
 		echo -e "\\n	In Folder $folder \\n"
 
 		cd $folder || exit;
-		git fetch https://github.com/fgl27/android_frameworks_base/ pie_test && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..10c4e8f2b251fb4e6bb80785d365ece4c6aa8dcb
+		git fetch https://github.com/fgl27/android_frameworks_base/ pie_test && git cherry-pick 44005c6c6e40e86a27b882dd160d13b9356bd22d^..5dc57739b80e2ff4e453f3351de0a5a2814bdf6c
+		git fetch https://github.com/fgl27/android_frameworks_base/ pie_test && git cherry-pick 4601a56c82363949f84e3a4e74b8787747b703fc^..10c4e8f2b251fb4e6bb80785d365ece4c6aa8dcb
 		cd - &> /dev/null || exit;
 
 		echo -e "\\n	out Folder $folder"
@@ -90,19 +91,20 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick d9810f5343c626cfd4223c71aa37980a23a34256^..9a61195fd803c43ad1924ee513d73873f57c1918
+	git fetch https://github.com/LineageOS/android_frameworks_opt_net_wifi refs/changes/48/244148/1 && git cherry-pick FETCH_HEAD
+	#git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick d9810f5343c626cfd4223c71aa37980a23a34256^..9a61195fd803c43ad1924ee513d73873f57c1918
 	cd - &> /dev/null || exit;
 
-	echo -e "\\n	out Folder $folder"
+	#echo -e "\\n	out Folder $folder"
 
 	folder="system/connectivity/wificond/";
-	echo -e "\\n	In Folder $folder \\n"
+	#echo -e "\\n	In Folder $folder \\n"
 
-	cd $folder || exit;
-	git fetch https://github.com/fgl27/system_connectivity_wificond/ Pie && git cherry-pick f695a663f751814ab35e30791693d784649fad4e^..31b7bd81e031bbe9505c82bc15670e4281b00d34
-	cd - &> /dev/null || exit;
+	#cd $folder || exit;
+	#git fetch https://github.com/fgl27/system_connectivity_wificond/ Pie && git cherry-pick f695a663f751814ab35e30791693d784649fad4e^..31b7bd81e031bbe9505c82bc15670e4281b00d34
+	#cd - &> /dev/null || exit;
 
-	echo -e "\\n	out Folder $folder"
+	#echo -e "\\n	out Folder $folder"
 
 fi
 
