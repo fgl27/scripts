@@ -43,20 +43,16 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/Trebuchet"
 		"packages/overlays/Lineage"
 		"packages/apps/LineageParts"
-		"lineage-sdk"
 		"device/qcom/sepolicy"
 		"device/rr/sepolicy"
-		"frameworks/av"
 		"packages/services/Telephony"
-		"system/core"
 		"frameworks/support"
 		"system/sepolicy"
 		"packages/services/Telecomm"
 		"packages/apps/Updater"
 		"device/qcom/sepolicy-legacy"
 		"build/soong"
-		"build/make"
-		"frameworks/native");
+		"packages/apps/PackageInstaller");
 
 sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_DocumentsUI"
@@ -64,20 +60,16 @@ sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_Trebuchet"
 		"android_packages_overlays_Lineage"
 		"android_packages_apps_LineageParts"
-		"android_lineage-sdk"
 		"android_device_qcom_sepolicy"
 		"android_device_lineage_sepolicy"
-		"android_frameworks_av"
 		"android_packages_services_Telephony"
-		"android_system_core"
 		"android_frameworks_support"
 		"android_system_sepolicy"
 		"android_packages_services_Telecomm"
 		"android_packages_apps_Updater"
 		"android_device_qcom_sepolicy-legacy"
 		"android_build_soong"
-		"android_build"
-		"android_frameworks_native");
+		"android_packages_apps_PackageInstaller");
 
 checkout_pull_array
 
@@ -122,10 +114,40 @@ checkout_pull_array
 	sources_link="android_frameworks_base"
 	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
+	path="frameworks/av";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_frameworks_av"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
+
+	path="lineage-sdk";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_lineage-sdk"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
+
 	path="platform_manifest";
 	org="LineageOS";
 	branch="lineage-16.0";
 	sources_link="android"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
+
+	path="system/core";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_system_core"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
+
+	path="build/make";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_build"
+	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
+
+	path="frameworks/native";
+	org="LineageOS";
+	branch="lineage-16.0";
+	sources_link="android_frameworks_native"
 	checkout_pull "$path" "$branch" "$org" "$sources_link" "$branch" "$checkout_branch"
 
 exit;
