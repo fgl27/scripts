@@ -3,6 +3,148 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+03-21-2019
+====================
+
+#### Device specific Changes of 03-21-2019 Start:
+
+#### Kernel/Quark/
+* [kernel: Fix massive cpufreq stats memory leaks](https://github.com/search?q=kernel%3A%20Fix%20massive%20cpufreq%20stats%20memory%20leaks&type=Commits)
+* [zram: do not use copy_page with non-page aligned address](https://github.com/search?q=zram%3A%20do%20not%20use%20copy_page%20with%20non-page%20aligned%20address&type=Commits)
+* [zram: check comp algorithm availability earlier](https://github.com/search?q=zram%3A%20check%20comp%20algorithm%20availability%20earlier&type=Commits)
+* [zram: cut trailing newline in algorithm name](https://github.com/search?q=zram%3A%20cut%20trailing%20newline%20in%20algorithm%20name&type=Commits)
+* [apq8084: disable tagged commit version generation](https://github.com/search?q=apq8084%3A%20disable%20tagged%20commit%20version%20generation&type=Commits)
+* [ASN.1: Fix actions on CHOICE elements with IMPLICIT tags](https://github.com/search?q=ASN.1%3A%20Fix%20actions%20on%20CHOICE%20elements%20with%20IMPLICIT%20tags&type=Commits)
+
+#### Device specific Changes of 03-21-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-21-2019:
+
+#### packages/apps/Trebuchet/
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_packages_apps_Trebuchet into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%20pie&type=Commits)
+* [Lint fix: Invalid vector path in horizontal_ellipsis](https://github.com/search?q=Lint%20fix%3A%20Invalid%20vector%20path%20in%20horizontal_ellipsis&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-21-2019 End.
+
+03-20-2019
+====================
+
+#### Device specific Changes of 03-20-2019 Start:
+
+#### Device/Quark/
+* [Revert "Quark: overlay systemui/CPUInfoService.java"](https://github.com/search?q=Revert%20"Quark%3A%20overlay%20systemui/CPUInfoService.java"&type=Commits)
+* [Revert "Quark: CPUInfoService add quark improves"](https://github.com/search?q=Revert%20"Quark%3A%20CPUInfoService%20add%20quark%20improves"&type=Commits)
+* [Quark: CPUInfoService add quark improves](https://github.com/search?q=Quark%3A%20CPUInfoService%20add%20quark%20improves&type=Commits)
+* [Quark: overlay systemui/CPUInfoService.java](https://github.com/search?q=Quark%3A%20overlay%20systemui/CPUInfoService.java&type=Commits)
+
+#### Device specific Changes of 03-20-2019 End.
+
+***
+
+03-19-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-19-2019:
+
+#### frameworks/av/
+* [Request to reset effect buffer in clearInputBuffer](https://github.com/search?q=Request%20to%20reset%20effect%20buffer%20in%20clearInputBuffer&type=Commits)
+* [Revert "effects: fix volume burst on pause/resume with AudioFX"](https://github.com/search?q=Revert%20"effects%3A%20fix%20volume%20burst%20on%20pause/resume%20with%20AudioFX"&type=Commits)
+
+#### frameworks/base/
+* [Merge pull request #248 from AliHasan7671/pie](https://github.com/search?q=Merge%20pull%20request%20%23248%20from%20AliHasan7671/pie&type=Commits)
+* [Add Sound tile to Quick Settings](https://github.com/search?q=Add%20Sound%20tile%20to%20Quick%20Settings&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge pull request #1058 from DouglasGomes123/pie](https://github.com/search?q=Merge%20pull%20request%20%231058%20from%20DouglasGomes123/pie&type=Commits)
+* [Fix Name](https://github.com/search?q=Fix%20Name&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-19-2019 End.
+
+03-18-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 03-18-2019:
+#### android/
+* [Track PackageInstaller for crowdin too](https://github.com/search?q=Track%20PackageInstaller%20for%20crowdin%20too&type=Commits)
+* [Track Our PackageInstaller](https://github.com/search?q=Track%20Our%20PackageInstaller&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Fix miss cherry-pick 91e8fc04e716165e30cbc2ab878a78b08283083a](https://github.com/search?q=Fix%20miss%20cherry-pick%2091e8fc04e716165e30cbc2ab878a78b08283083a&type=Commits)
+* [SystemUI: Make Running Services icon smaller](https://github.com/search?q=SystemUI%3A%20Make%20Running%20Services%20icon%20smaller&type=Commits)
+* [Allow to quickly open Running Services from QS panel](https://github.com/search?q=Allow%20to%20quickly%20open%20Running%20Services%20from%20QS%20panel&type=Commits)
+* [frameworks: Add unlinked ringtone and notification volumes](https://github.com/search?q=frameworks%3A%20Add%20unlinked%20ringtone%20and%20notification%20volumes&type=Commits)
+* [base: Redo expanded volume panel for 9.x](https://github.com/search?q=base%3A%20Redo%20expanded%20volume%20panel%20for%209.x&type=Commits)
+* [Volume panel: Do the same with less](https://github.com/search?q=Volume%20panel%3A%20Do%20the%20same%20with%20less&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Show versions when installing or updating packages](https://github.com/search?q=Show%20versions%20when%20installing%20or%20updating%20packages&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Fix Build](https://github.com/search?q=Fix%20Build&type=Commits)
+* [Allow to quickly open Running Services from QS panel](https://github.com/search?q=Allow%20to%20quickly%20open%20Running%20Services%20from%20QS%20panel&type=Commits)
+* [Add back notification toggle](https://github.com/search?q=Add%20back%20notification%20toggle&type=Commits)
+
+#### system/vold/
+* [increase timeout for waiting on block device](https://github.com/search?q=increase%20timeout%20for%20waiting%20on%20block%20device&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-18-2019 End.
+
+03-17-2019
+====================
+
+#### Device specific Changes of 03-17-2019 Start:
+
+#### Device/Quark/
+* [Revert "Quark: enable proximity Check On Wake"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20proximity%20Check%20On%20Wake"&type=Commits)
+* [Quark: Pin HOME application](https://github.com/search?q=Quark%3A%20Pin%20HOME%20application&type=Commits)
+* [Quark: Pin surfaceflinger into RAM](https://github.com/search?q=Quark%3A%20Pin%20surfaceflinger%20into%20RAM&type=Commits)
+
+#### Device specific Changes of 03-17-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 03-17-2019:
+
+#### frameworks/base/
+* [Clean up screenshot if nothing selected](https://github.com/search?q=Clean%20up%20screenshot%20if%20nothing%20selected&type=Commits)
+* [IMMS should preserve selected IME upon boot](https://github.com/search?q=IMMS%20should%20preserve%20selected%20IME%20upon%20boot&type=Commits)
+* [Add bluetooth icon.](https://github.com/search?q=Add%20bluetooth%20icon.&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom/display-caf/sdm845/
+* [display-hals: Allow building libdisplayconfig](https://github.com/search?q=display-hals%3A%20Allow%20building%20libdisplayconfig&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Update Bluetooth to use adaptive icon.](https://github.com/search?q=Update%20Bluetooth%20to%20use%20adaptive%20icon.&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### system/core/
+* [Fix path for treble default prop](https://github.com/search?q=Fix%20path%20for%20treble%20default%20prop&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 03-17-2019 End.
+
+03-16-2019
+====================
+
+#### Device specific Changes of 03-16-2019 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy/system_app.te](https://github.com/search?q=Quark%3A%20update%20sepolicy/system_app.te&type=Commits)
+* [Quark: enable proximity Check On Wake](https://github.com/search?q=Quark%3A%20enable%20proximity%20Check%20On%20Wake&type=Commits)
+
+#### Device specific Changes of 03-16-2019 End.
+
+***
+
 03-15-2019
 ====================
 
