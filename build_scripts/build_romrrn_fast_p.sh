@@ -97,13 +97,13 @@ if [ "$input1" == "1" ]; then
 	#echo -e "\\n	out Folder $folder"
 
 	folder="system/connectivity/wificond/";
-	#echo -e "\\n	In Folder $folder \\n"
+	echo -e "\\n	In Folder $folder \\n"
 
-	#cd $folder || exit;
-	#git fetch https://github.com/fgl27/system_connectivity_wificond/ Pie && git cherry-pick f695a663f751814ab35e30791693d784649fad4e^..31b7bd81e031bbe9505c82bc15670e4281b00d34
-	#cd - &> /dev/null || exit;
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/system_connectivity_wificond/ Pie && git cherry-pick f695a663f751814ab35e30791693d784649fad4e^..31b7bd81e031bbe9505c82bc15670e4281b00d34
+	cd - &> /dev/null || exit;
 
-	#echo -e "\\n	out Folder $folder"
+	echo -e "\\n	out Folder $folder"
 
 fi
 
