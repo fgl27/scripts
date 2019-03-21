@@ -3,6 +3,63 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+03-21-2019
+====================
+
+* [kernel: Fix massive cpufreq stats memory leaks](https://github.com/bhb27/BHB27Kernel/search?q=kernel%3A%20Fix%20massive%20cpufreq%20stats%20memory%20leaks&type=Commits)
+
+***
+
+03-20-2019
+====================
+
+* [zram: do not use copy_page with non-page aligned address](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20do%20not%20use%20copy_page%20with%20non-page%20aligned%20address&type=Commits)
+* [zram: check comp algorithm availability earlier](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20check%20comp%20algorithm%20availability%20earlier&type=Commits)
+* [zram: cut trailing newline in algorithm name](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20cut%20trailing%20newline%20in%20algorithm%20name&type=Commits)
+
+***
+
+03-17-2019
+====================
+
+* [apq8084: disable tagged commit version generation](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20disable%20tagged%20commit%20version%20generation&type=Commits)
+* [ASN.1: Fix actions on CHOICE elements with IMPLICIT tags](https://github.com/bhb27/BHB27Kernel/search?q=ASN.1%3A%20Fix%20actions%20on%20CHOICE%20elements%20with%20IMPLICIT%20tags&type=Commits)
+
+***
+
+03-10-2019
+====================
+
+* [defconfig enable quota](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20enable%20quota&type=Commits)
+* [sched/cpuset/pm: Fix cpuset vs. suspend-resume bugs](https://github.com/bhb27/BHB27Kernel/search?q=sched/cpuset/pm%3A%20Fix%20cpuset%20vs.%20suspend-resume%20bugs&type=Commits)
+
+***
+
+03-09-2019
+====================
+
+* [qcacld-2.0: do not report prealloc fails](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20do%20not%20report%20prealloc%20fails&type=Commits)
+* [qcacld-2.0: Add vdev id sanity check in wma stats event handlers](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20vdev%20id%20sanity%20check%20in%20wma%20stats%20event%20handlers&type=Commits)
+
+***
+
+03-08-2019
+====================
+
+* [kernel v9.29](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20v9.29&type=Commits)
+* [scripts/fetch-latest-wireguard.sh alwyas update](https://github.com/bhb27/BHB27Kernel/search?q=scripts/fetch-latest-wireguard.sh%20alwyas%20update&type=Commits)
+* [Scripts update fetch-latest-wireguard.sh](https://github.com/bhb27/BHB27Kernel/search?q=Scripts%20update%20fetch-latest-wireguard.sh&type=Commits)
+* [af_key: Replace comma with semicolon](https://github.com/bhb27/BHB27Kernel/search?q=af_key%3A%20Replace%20comma%20with%20semicolon&type=Commits)
+* [af_key: remove unnecessary break after return](https://github.com/bhb27/BHB27Kernel/search?q=af_key%3A%20remove%20unnecessary%20break%20after%20return&type=Commits)
+* [af_key: Fix sadb_x_ipsecrequest parsing](https://github.com/bhb27/BHB27Kernel/search?q=af_key%3A%20Fix%20sadb_x_ipsecrequest%20parsing&type=Commits)
+* [net: af_key: fix sleeping under rcu](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20af_key%3A%20fix%20sleeping%20under%20rcu&type=Commits)
+* [af_key: unconditionally clone on broadcast](https://github.com/bhb27/BHB27Kernel/search?q=af_key%3A%20unconditionally%20clone%20on%20broadcast&type=Commits)
+* [net: PPPoPNS: use updated data_ready API definition](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20PPPoPNS%3A%20use%20updated%20data_ready%20API%20definition&type=Commits)
+* [BACKPORT net: Fix use after free by removing length arg from sk_data_ready callbacks.](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%20net%3A%20Fix%20use%20after%20free%20by%20removing%20length%20arg%20from%20sk_data_ready%20callbacks.&type=Commits)
+* [ocfs2/o2net: o2net_listen_data_ready should do nothing if socket state is not TCP_LISTEN](https://github.com/bhb27/BHB27Kernel/search?q=ocfs2/o2net%3A%20o2net_listen_data_ready%20should%20do%20nothing%20if%20socket%20state%20is%20not%20TCP_LISTEN&type=Commits)
+
+***
+
 03-06-2019
 ====================
 
