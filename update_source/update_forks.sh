@@ -52,7 +52,8 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/Updater"
 		"device/qcom/sepolicy-legacy"
 		"build/soong"
-		"packages/apps/PackageInstaller");
+		"packages/apps/PackageInstaller"
+		"frameworks/opt/net/wifi");
 
 sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_DocumentsUI"
@@ -69,7 +70,8 @@ sources_links=(	"android_packages_apps_ExactCalculator"
 		"android_packages_apps_Updater"
 		"android_device_qcom_sepolicy-legacy"
 		"android_build_soong"
-		"android_packages_apps_PackageInstaller");
+		"android_packages_apps_PackageInstaller"
+		"android_frameworks_opt_net_wifi");
 
 checkout_pull_array
 

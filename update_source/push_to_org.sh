@@ -54,7 +54,8 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"packages/apps/SmartNav"
 		"frameworks/native"
 		"platform_manifest"
-		"packages/apps/PackageInstaller");
+		"packages/apps/PackageInstaller"
+		"frameworks/opt/net/wifi");
 
 sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_DocumentsUI"
@@ -83,7 +84,8 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"packages_apps_SmartNav"
 		"frameworks_native"
 		"platform_manifest"
-		"android_packages_apps_PackageInstaller");
+		"android_packages_apps_PackageInstaller"
+		"android_frameworks_opt_net_wifi");
 
 echo -e "\nPush all?\n"
 echo -e "1 - Yes, empty - No (to choose from list)?\n"

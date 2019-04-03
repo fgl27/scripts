@@ -49,7 +49,8 @@ sources_path=(	"packages/apps/ExactCalculator"
 		"platform_manifest"
 		"packages/apps/SmartNav"
 		"frameworks/native"
-		"packages/apps/PackageInstaller");
+		"packages/apps/PackageInstaller"
+		"frameworks/opt/net/wifi");
 
 sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"android_packages_apps_DocumentsUI"
@@ -78,7 +79,8 @@ sources_links=(	"android_packages_apps_ExactCalculator_Pie"
 		"platform_manifest"
 		"packages_apps_SmartNav"
 		"frameworks_native"
-		"android_packages_apps_PackageInstaller");
+		"android_packages_apps_PackageInstaller"
+		"android_frameworks_opt_net_wifi");
 
 checkout_pull;
 
