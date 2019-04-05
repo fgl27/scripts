@@ -85,17 +85,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	#Fix slow to connect wifi and races
-	folder="frameworks/opt/net/wifi/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_frameworks_opt_net_wifi refs/changes/48/244148/1 && git cherry-pick FETCH_HEAD
-	#git fetch https://github.com/fgl27/android_frameworks_opt_net_wifi/ lineage-16.0 && git cherry-pick d9810f5343c626cfd4223c71aa37980a23a34256^..9a61195fd803c43ad1924ee513d73873f57c1918
-	cd - &> /dev/null || exit;
-
-	#echo -e "\\n	out Folder $folder"
-
 	folder="system/connectivity/wificond/";
 	echo -e "\\n	In Folder $folder \\n"
 
