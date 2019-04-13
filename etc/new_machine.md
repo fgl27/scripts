@@ -240,7 +240,7 @@ sudo apt-get -y install cleancss npm
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" > ~/.profile
-npm install js-beautify jshint uglify-js -g
+npm install js-beautify jshint uglify-js html-minifier -g
 ```
 ##  nodejs end
 
