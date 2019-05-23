@@ -48,6 +48,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="packages/apps/Updater";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_packages_apps_Updater/ lineage-16.0 && git cherry-pick d23436c442ad8f6034b8d420eb3c81eb9e8ff1ea
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Disable nfc by default
 	
 	folder="packages/apps/Nfc";
