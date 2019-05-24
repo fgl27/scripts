@@ -23,7 +23,7 @@ sed -i -e "s/.*url.*/		\"url\": \"$url\",/" "$jsonfie"
 sed -i -e "s/.*version.*/		\"version\": \"$version\"/" "$jsonfie"
 
 # To send the file
-#scp $zip_path fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/Los/Pie/
+scp $zip_path fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/Los/Pie/
 
 #mv old file
 #ssh -t fgl27@shell.sourceforge.net create
