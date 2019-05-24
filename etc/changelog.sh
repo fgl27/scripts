@@ -6,33 +6,28 @@
 
 # input variables set the below the rest must be automatic
 source_tree_rp="$HOME/android/rrp"; #path here must be inside your home directory
-source_tree_r="$HOME/android/n"; #path here must be inside your home directory
-source_tree_rro="$HOME/android/or"; #path here must be inside your home directory
+source_tree_lp="$HOME/android/P"; #path here must be inside your home directory
 device_tree="device/motorola/quark/"; #path here must be inside of source tree
 kernel_tree="kernel/motorola/apq8084/"; #path here must be inside of source tree
 vendor_tree="vendor/motorola/"; #path here must be inside of source tree
 device_name="Quark"
 source_name_rp="Resurrection Remix OS - Pie"
-source_name_r="Resurrection Remix OS - Nougat"
-source_name_rro="Resurrection Remix OS - Oreo"
+source_name_lp="LineageOS - Pie"
 # input variables end
 
-echo -e "\nr, rp or or?\n"
+echo -e "\nlp, rp?\n"
 read -r rom
 echo -e "\nYou choose: $rom"
 export rom
-if [ ! "$rom" == "r" ] && [ ! "$rom" == "rp" ] && [ ! "$rom" == "or" ]; then
+if [ ! "$rom" == "lp" ] && [ ! "$rom" == "rp" ]; then
 	echo -e "\nNO CHANGE FOR YOU\n";
 	exit;
-elif [ "$rom" == "r" ]; then
-        source_tree=$source_tree_r
-	source_name=$source_name_r
+elif [ "$rom" == "lp" ]; then
+        source_tree=$source_tree_lp
+	source_name=$source_name_lp
 elif [ "$rom" == "rp" ]; then
         source_tree=$source_tree_rp
 	source_name=$source_name_rp
-elif [ "$rom" == "or" ]; then
-        source_tree=$source_tree_rro
-	source_name=$source_name_rro
 fi;
 
 export Changelog=$source_tree/Changelog.md
