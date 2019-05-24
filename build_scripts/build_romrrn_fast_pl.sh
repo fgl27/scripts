@@ -33,7 +33,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-16.0_test && git cherry-pick 3a84966e0ed8cb89d6acd6dec68a891af1c80c8c^..8b93cfd5711553fff55724986d8f4cd8559292f6
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-16.0_test && git cherry-pick 3a84966e0ed8cb89d6acd6dec68a891af1c80c8c^..75b0287b554b4f2bfe3da2c002d2cf2a6365e9c4
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -108,11 +108,51 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#change rom type name
 	folder="vendor/lineage";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
 	git fetch https://github.com/fgl27/android_vendor_resurrection/ lineage-16.0_test  && git cherry-pick fc0d0a362c5b665896a75f539a66930cb276e885
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	# circle battery
+
+	folder="frameworks/base/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/16/221716/82 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="packages/apps/LineageParts/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/30/227930/8 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/56/221756/11 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="lineage-sdk/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_lineage-sdk refs/changes/31/227931/10 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="vendor/lineage";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/63/232663/1 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
