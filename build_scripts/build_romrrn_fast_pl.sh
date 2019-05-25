@@ -57,6 +57,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="build/make";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_build/ lineage-16.0_test && git cherry-pick 2dc00ac4cf33cbddf7d350cc21f5fb2a8fa2bfca^..fd3ed1155908eeb01dda6924ccf12308a89d3108
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Disable nfc by default
 	
 	folder="packages/apps/Nfc";
