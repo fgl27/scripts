@@ -2,14 +2,16 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
-05-24-2019
+05-25-2019
 ====================
 
-#### Device specific Changes of 05-24-2019 Start:
+#### Device specific Changes of 05-25-2019 Start:
+
+#### Device/Quark/
+* [Quark: make TWRP backups name same as ROM zip name](https://github.com/search?q=Quark%3A%20make%20TWRP%20backups%20name%20same%20as%20ROM%20zip%20name&type=Commits)
 
 #### Kernel/Quark/
 * [qcacld-2.0 don't spam warning at wma_process_mcbc_set_filter_req](https://github.com/search?q=qcacld-2.0%20don%27t%20spam%20warning%20at%20wma_process_mcbc_set_filter_req&type=Commits)
-* [kernel/printk: fix compilation](https://github.com/search?q=kernel/printk%3A%20fix%20compilation&type=Commits)
 * [regenerate defconfig](https://github.com/search?q=regenerate%20defconfig&type=Commits)
 * [msm: krait-regulator: fix unnecessary calls to switch to LDO](https://github.com/search?q=msm%3A%20krait-regulator%3A%20fix%20unnecessary%20calls%20to%20switch%20to%20LDO&type=Commits)
 * [ASoC: soc-pcm: fix the invalid access of the memory](https://github.com/search?q=ASoC%3A%20soc-pcm%3A%20fix%20the%20invalid%20access%20of%20the%20memory&type=Commits)
@@ -34,222 +36,79 @@ LineageOS - Pie source and Quark Changelog:
 * [ARM: dts: msm: Migrate 8084 carveout memory region to CMA](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Migrate%208084%20carveout%20memory%20region%20to%20CMA&type=Commits)
 * [ARM: dts: msm: Increase proxy timeout for venus](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Increase%20proxy%20timeout%20for%20venus&type=Commits)
 * [ARM: dts: msm: Added missing bus vectors to match bus load table](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Added%20missing%20bus%20vectors%20to%20match%20bus%20load%20table&type=Commits)
-* [printk: Fix panic caused by passing log_buf_len to command line](https://github.com/search?q=printk%3A%20Fix%20panic%20caused%20by%20passing%20log_buf_len%20to%20command%20line&type=Commits)
-* [braille-console: Fix value returned by _braille_console_setup](https://github.com/search?q=braille-console%3A%20Fix%20value%20returned%20by%20_braille_console_setup&type=Commits)
-* [kernel: printk: specify alignment for struct printk_log](https://github.com/search?q=kernel%3A%20printk%3A%20specify%20alignment%20for%20struct%20printk_log&type=Commits)
-* [printk: Don't take console semaphore in atomic context](https://github.com/search?q=printk%3A%20Don%27t%20take%20console%20semaphore%20in%20atomic%20context&type=Commits)
-* [printk: Make the console flush configurable in hotplug path](https://github.com/search?q=printk%3A%20Make%20the%20console%20flush%20configurable%20in%20hotplug%20path&type=Commits)
-* [Revert "printk: Don't take console semaphore in atomic context"](https://github.com/search?q=Revert%20"printk%3A%20Don%27t%20take%20console%20semaphore%20in%20atomic%20context"&type=Commits)
-* [Revert "printk: Defer CPU_ONLINE console flushing"](https://github.com/search?q=Revert%20"printk%3A%20Defer%20CPU_ONLINE%20console%20flushing"&type=Commits)
-* [security_syslog() should be called once only](https://github.com/search?q=security_syslog%28%29%20should%20be%20called%20once%20only&type=Commits)
-* [printk: Add LOG_BUF_MAGIC](https://github.com/search?q=printk%3A%20Add%20LOG_BUF_MAGIC&type=Commits)
-* [console: Fix console name size mismatch](https://github.com/search?q=console%3A%20Fix%20console%20name%20size%20mismatch&type=Commits)
-* [ARM: Fix "Make low-level printk work" to use a separate config option](https://github.com/search?q=ARM%3A%20Fix%20"Make%20low-level%20printk%20work"%20to%20use%20a%20separate%20config%20option&type=Commits)
-* [ARM: Make low-level printk work](https://github.com/search?q=ARM%3A%20Make%20low-level%20printk%20work&type=Commits)
-* [printk: git rid of [sched_delayed] message for printk_deferred](https://github.com/search?q=printk%3A%20git%20rid%20of%20[sched_delayed]%20message%20for%20printk_deferred&type=Commits)
-* [printk: don't bother using LOG_CPU_MAX_BUF_SHIFT on !SMP](https://github.com/search?q=printk%3A%20don%27t%20bother%20using%20LOG_CPU_MAX_BUF_SHIFT%20on%20!SMP&type=Commits)
-* [kernel/printk/printk.c: fix faulty logic in the case of recursive printk](https://github.com/search?q=kernel/printk/printk.c%3A%20fix%20faulty%20logic%20in%20the%20case%20of%20recursive%20printk&type=Commits)
-* [printk: Add function to return log buffer address and size](https://github.com/search?q=printk%3A%20Add%20function%20to%20return%20log%20buffer%20address%20and%20size&type=Commits)
-* [kernel/printk/printk.c: fix bool assignements](https://github.com/search?q=kernel/printk/printk.c%3A%20fix%20bool%20assignements&type=Commits)
-* [printk: enable interrupts before calling console_trylock_for_printk()](https://github.com/search?q=printk%3A%20enable%20interrupts%20before%20calling%20console_trylock_for_printk%28%29&type=Commits)
-* [printk: miscellaneous cleanups](https://github.com/search?q=printk%3A%20miscellaneous%20cleanups&type=Commits)
-* [printk: use a clever macro](https://github.com/search?q=printk%3A%20use%20a%20clever%20macro&type=Commits)
-* [printk: fix some comments](https://github.com/search?q=printk%3A%20fix%20some%20comments&type=Commits)
-* [printk: rename DEFAULT_MESSAGE_LOGLEVEL](https://github.com/search?q=printk%3A%20rename%20DEFAULT_MESSAGE_LOGLEVEL&type=Commits)
-* [printk: tweak do_syslog() to match comments](https://github.com/search?q=printk%3A%20tweak%20do_syslog%28%29%20to%20match%20comments&type=Commits)
-* [printk: allow increasing the ring buffer depending on the number of CPUs](https://github.com/search?q=printk%3A%20allow%20increasing%20the%20ring%20buffer%20depending%20on%20the%20number%20of%20CPUs&type=Commits)
-* [printk: make dynamic units clear for the kernel ring buffer](https://github.com/search?q=printk%3A%20make%20dynamic%20units%20clear%20for%20the%20kernel%20ring%20buffer&type=Commits)
-* [printk: move power of 2 practice of ring buffer size to a helper](https://github.com/search?q=printk%3A%20move%20power%20of%202%20practice%20of%20ring%20buffer%20size%20to%20a%20helper&type=Commits)
-* [kernel/printk/printk.c: revert "printk: enable interrupts before calling console_trylock_for_printk()"](https://github.com/search?q=kernel/printk/printk.c%3A%20revert%20"printk%3A%20enable%20interrupts%20before%20calling%20console_trylock_for_printk%28%29"&type=Commits)
-* [kernel/printk: use symbolic defines for console loglevels](https://github.com/search?q=kernel/printk%3A%20use%20symbolic%20defines%20for%20console%20loglevels&type=Commits)
-* [printk: report dropping of messages from logbuf](https://github.com/search?q=printk%3A%20report%20dropping%20of%20messages%20from%20logbuf&type=Commits)
-* [printk: disable preemption for printk_sched](https://github.com/search?q=printk%3A%20disable%20preemption%20for%20printk_sched&type=Commits)
-* [printk: remove separate printk_sched buffers and use printk buf instead](https://github.com/search?q=printk%3A%20remove%20separate%20printk_sched%20buffers%20and%20use%20printk%20buf%20instead&type=Commits)
-* [printk: enable interrupts before calling console_trylock_for_printk()](https://github.com/search?q=printk%3A%20enable%20interrupts%20before%20calling%20console_trylock_for_printk%28%29&type=Commits)
-* [printk: fix lockdep instrumentation of console_sem](https://github.com/search?q=printk%3A%20fix%20lockdep%20instrumentation%20of%20console_sem&type=Commits)
-* [printk: release lockbuf_lock before calling console_trylock_for_printk()](https://github.com/search?q=printk%3A%20release%20lockbuf_lock%20before%20calling%20console_trylock_for_printk%28%29&type=Commits)
-* [printk: remove outdated comment](https://github.com/search?q=printk%3A%20remove%20outdated%20comment&type=Commits)
-* [printk: return really stored message length](https://github.com/search?q=printk%3A%20return%20really%20stored%20message%20length&type=Commits)
-* [printk: shrink too long messages](https://github.com/search?q=printk%3A%20shrink%20too%20long%20messages&type=Commits)
-* [printk: split message size computation](https://github.com/search?q=printk%3A%20split%20message%20size%20computation&type=Commits)
-* [printk: ignore too long messages](https://github.com/search?q=printk%3A%20ignore%20too%20long%20messages&type=Commits)
-* [printk: split code for making free space in the log buffer](https://github.com/search?q=printk%3A%20split%20code%20for%20making%20free%20space%20in%20the%20log%20buffer&type=Commits)
-* [printk/of_serial: fix serial console cessation part way through boot.](https://github.com/search?q=printk/of_serial%3A%20fix%20serial%20console%20cessation%20part%20way%20through%20boot.&type=Commits)
-* [serial_core: Unregister console in uart_remove_one_port()](https://github.com/search?q=serial_core%3A%20Unregister%20console%20in%20uart_remove_one_port%28%29&type=Commits)
-* [printk: fix one circular lockdep warning about console_lock](https://github.com/search?q=printk%3A%20fix%20one%20circular%20lockdep%20warning%20about%20console_lock&type=Commits)
-* [printk: do not compute the size of the message twice](https://github.com/search?q=printk%3A%20do%20not%20compute%20the%20size%20of%20the%20message%20twice&type=Commits)
-* [printk: use also the last bytes in the ring buffer](https://github.com/search?q=printk%3A%20use%20also%20the%20last%20bytes%20in%20the%20ring%20buffer&type=Commits)
-* [printk: add comment about tricky check for text buffer size](https://github.com/search?q=printk%3A%20add%20comment%20about%20tricky%20check%20for%20text%20buffer%20size&type=Commits)
-* [printk: remove obsolete check for log level "c"](https://github.com/search?q=printk%3A%20remove%20obsolete%20check%20for%20log%20level%20"c"&type=Commits)
-* [printk: fix syslog() overflowing user buffer](https://github.com/search?q=printk%3A%20fix%20syslog%28%29%20overflowing%20user%20buffer&type=Commits)
-* [printk: flush conflicting continuation line](https://github.com/search?q=printk%3A%20flush%20conflicting%20continuation%20line&type=Commits)
-* [printk.c: comments should refer to /proc/vmcore instead of /proc/vmcoreinfo](https://github.com/search?q=printk.c%3A%20comments%20should%20refer%20to%20/proc/vmcore%20instead%20of%20/proc/vmcoreinfo&type=Commits)
-* [kernel/printk/printk.c: enable boot delay for earlyprintk](https://github.com/search?q=kernel/printk/printk.c%3A%20enable%20boot%20delay%20for%20earlyprintk&type=Commits)
-* [kernel/printk/printk.c: convert to pr_foo()](https://github.com/search?q=kernel/printk/printk.c%3A%20convert%20to%20pr_foo%28%29&type=Commits)
-* [printk: report console names during cut-over](https://github.com/search?q=printk%3A%20report%20console%20names%20during%20cut-over&type=Commits)
-* [printk: Fix return of braille_register_console()](https://github.com/search?q=printk%3A%20Fix%20return%20of%20braille_register_console%28%29&type=Commits)
-* [register_console: prevent adding the same console twice](https://github.com/search?q=register_console%3A%20prevent%20adding%20the%20same%20console%20twice&type=Commits)
-* [printk: rename struct log to struct printk_log](https://github.com/search?q=printk%3A%20rename%20struct%20log%20to%20struct%20printk_log&type=Commits)
-* [printk: use pointer for console_cmdline indexing](https://github.com/search?q=printk%3A%20use%20pointer%20for%20console_cmdline%20indexing&type=Commits)
-* [printk: move braille console support into separate braille.[ch] files](https://github.com/search?q=printk%3A%20move%20braille%20console%20support%20into%20separate%20braille.[ch]%20files&type=Commits)
-* [printk: add console_cmdline.h](https://github.com/search?q=printk%3A%20add%20console_cmdline.h&type=Commits)
-* [Revert "console: Fix console name size mismatch"](https://github.com/search?q=Revert%20"console%3A%20Fix%20console%20name%20size%20mismatch"&type=Commits)
-* [printk: move to separate directory for easier modification](https://github.com/search?q=printk%3A%20move%20to%20separate%20directory%20for%20easier%20modification&type=Commits)
-* [mm: introduce helper function mem_init_print_info() to simplify mem_init()](https://github.com/search?q=mm%3A%20introduce%20helper%20function%20mem_init_print_info%28%29%20to%20simplify%20mem_init%28%29&type=Commits)
-* [Don't trigger congestion wait on dirty-but-not-writeout pages](https://github.com/search?q=Don%27t%20trigger%20congestion%20wait%20on%20dirty-but-not-writeout%20pages&type=Commits)
-* [mm: vmscan: use proportional scanning during direct reclaim and full scan at DEF_PRIORITY](https://github.com/search?q=mm%3A%20vmscan%3A%20use%20proportional%20scanning%20during%20direct%20reclaim%20and%20full%20scan%20at%20DEF_PRIORITY&type=Commits)
-* [mm: vmscan: do not scale writeback pages when deciding whether to set ZONE_WRITEBACK](https://github.com/search?q=mm%3A%20vmscan%3A%20do%20not%20scale%20writeback%20pages%20when%20deciding%20whether%20to%20set%20ZONE_WRITEBACK&type=Commits)
-* [mm: vmscan: do not continue scanning if reclaim was aborted for compaction](https://github.com/search?q=mm%3A%20vmscan%3A%20do%20not%20continue%20scanning%20if%20reclaim%20was%20aborted%20for%20compaction&type=Commits)
-* [mm: vmscan: take page buffers dirty and locked state into account](https://github.com/search?q=mm%3A%20vmscan%3A%20take%20page%20buffers%20dirty%20and%20locked%20state%20into%20account&type=Commits)
-* [mm: vmscan: treat pages marked for immediate reclaim as zone congestion](https://github.com/search?q=mm%3A%20vmscan%3A%20treat%20pages%20marked%20for%20immediate%20reclaim%20as%20zone%20congestion&type=Commits)
-* [mm: vmscan: move direct reclaim wait_iff_congested into shrink_list](https://github.com/search?q=mm%3A%20vmscan%3A%20move%20direct%20reclaim%20wait_iff_congested%20into%20shrink_list&type=Commits)
-* [mm: vmscan: set zone flags before blocking](https://github.com/search?q=mm%3A%20vmscan%3A%20set%20zone%20flags%20before%20blocking&type=Commits)
-* [mm: vmscan: stall page reclaim after a list of pages have been processed](https://github.com/search?q=mm%3A%20vmscan%3A%20stall%20page%20reclaim%20after%20a%20list%20of%20pages%20have%20been%20processed&type=Commits)
-* [mm: vmscan: stall page reclaim and writeback pages based on dirty/writepage pages encountered](https://github.com/search?q=mm%3A%20vmscan%3A%20stall%20page%20reclaim%20and%20writeback%20pages%20based%20on%20dirty/writepage%20pages%20encountered&type=Commits)
-* [mm: vmscan: move logic from balance_pgdat() to kswapd_shrink_zone()](https://github.com/search?q=mm%3A%20vmscan%3A%20move%20logic%20from%20balance_pgdat%28%29%20to%20kswapd_shrink_zone%28%29&type=Commits)
-* [mm: vmscan: check if kswapd should writepage once per pgdat scan](https://github.com/search?q=mm%3A%20vmscan%3A%20check%20if%20kswapd%20should%20writepage%20once%20per%20pgdat%20scan&type=Commits)
-* [mm: vmscan: block kswapd if it is encountering pages under writeback](https://github.com/search?q=mm%3A%20vmscan%3A%20block%20kswapd%20if%20it%20is%20encountering%20pages%20under%20writeback&type=Commits)
-* [mm: vmscan: have kswapd writeback pages based on dirty pages encountered, not priority](https://github.com/search?q=mm%3A%20vmscan%3A%20have%20kswapd%20writeback%20pages%20based%20on%20dirty%20pages%20encountered,%20not%20priority&type=Commits)
-* [mm: vmscan: do not allow kswapd to scan at maximum priority](https://github.com/search?q=mm%3A%20vmscan%3A%20do%20not%20allow%20kswapd%20to%20scan%20at%20maximum%20priority&type=Commits)
-* [mm: vmscan: decide whether to compact the pgdat based on reclaim progress](https://github.com/search?q=mm%3A%20vmscan%3A%20decide%20whether%20to%20compact%20the%20pgdat%20based%20on%20reclaim%20progress&type=Commits)
-* [mm: vmscan: obey proportional scanning requirements for kswapd](https://github.com/search?q=mm%3A%20vmscan%3A%20obey%20proportional%20scanning%20requirements%20for%20kswapd&type=Commits)
-* [mm: vmscan: flatten kswapd priority loop](https://github.com/search?q=mm%3A%20vmscan%3A%20flatten%20kswapd%20priority%20loop&type=Commits)
-* [mm: vmscan: limit the number of pages kswapd reclaims at each priority](https://github.com/search?q=mm%3A%20vmscan%3A%20limit%20the%20number%20of%20pages%20kswapd%20reclaims%20at%20each%20priority&type=Commits)
-* [mm: vmscan: lock page on swap error in pageout](https://github.com/search?q=mm%3A%20vmscan%3A%20lock%20page%20on%20swap%20error%20in%20pageout&type=Commits)
-* [mm: vmscan: support complete shrinker reclaim](https://github.com/search?q=mm%3A%20vmscan%3A%20support%20complete%20shrinker%20reclaim&type=Commits)
-* [mm: vmalloc: avoid racy handling of debugobjects in vunmap](https://github.com/search?q=mm%3A%20vmalloc%3A%20avoid%20racy%20handling%20of%20debugobjects%20in%20vunmap&type=Commits)
-* [mm/vmalloc.c: use seq_open_private() instead of seq_open()](https://github.com/search?q=mm/vmalloc.c%3A%20use%20seq_open_private%28%29%20instead%20of%20seq_open%28%29&type=Commits)
-* [locking: Move the percpu-rwsem code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20percpu-rwsem%20code%20to%20kernel/locking/&type=Commits)
-* [locking: Move the lglocks code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20lglocks%20code%20to%20kernel/locking/&type=Commits)
-* [lglock: Update lockdep annotations to report recursive local locks](https://github.com/search?q=lglock%3A%20Update%20lockdep%20annotations%20to%20report%20recursive%20local%20locks&type=Commits)
-* [locking: Move the rwsem code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20rwsem%20code%20to%20kernel/locking/&type=Commits)
-* [locking: Move the rtmutex code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20rtmutex%20code%20to%20kernel/locking/&type=Commits)
-* [locking: Move the semaphore core to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20semaphore%20core%20to%20kernel/locking/&type=Commits)
-* [locking: Move the spinlock code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20spinlock%20code%20to%20kernel/locking/&type=Commits)
-* [kernel/spinlock.c: add default arch_*_relax definitions for GENERIC_LOCKBREAK](https://github.com/search?q=kernel/spinlock.c%3A%20add%20default%20arch_*_relax%20definitions%20for%20GENERIC_LOCKBREAK&type=Commits)
-* [locking: Move the mutex code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20mutex%20code%20to%20kernel/locking/&type=Commits)
-* [mutex: Avoid gcc version dependent __builtin_constant_p() usage](https://github.com/search?q=mutex%3A%20Avoid%20gcc%20version%20dependent%20__builtin_constant_p%28%29%20usage&type=Commits)
-* [mutex: Fix w/w mutex deadlock injection](https://github.com/search?q=mutex%3A%20Fix%20w/w%20mutex%20deadlock%20injection&type=Commits)
-* [mutex: Avoid label warning when !CONFIG_MUTEX_SPIN_ON_OWNER](https://github.com/search?q=mutex%3A%20Avoid%20label%20warning%20when%20!CONFIG_MUTEX_SPIN_ON_OWNER&type=Commits)
-* [mutex: Do not unnecessarily deal with waiters](https://github.com/search?q=mutex%3A%20Do%20not%20unnecessarily%20deal%20with%20waiters&type=Commits)
-* [mutex: Fix/document access-once assumption in mutex_can_spin_on_owner()](https://github.com/search?q=mutex%3A%20Fix/document%20access-once%20assumption%20in%20mutex_can_spin_on_owner%28%29&type=Commits)
-* [mutex: Move ww_mutex definitions to ww_mutex.h](https://github.com/search?q=mutex%3A%20Move%20ww_mutex%20definitions%20to%20ww_mutex.h&type=Commits)
-* [mutex: Add w/w mutex slowpath debugging](https://github.com/search?q=mutex%3A%20Add%20w/w%20mutex%20slowpath%20debugging&type=Commits)
-* [mutex: Add support for wound/wait style locks](https://github.com/search?q=mutex%3A%20Add%20support%20for%20wound/wait%20style%20locks&type=Commits)
-* [arch: Make __mutex_fastpath_lock_retval return whether fastpath succeeded or not](https://github.com/search?q=arch%3A%20Make%20__mutex_fastpath_lock_retval%20return%20whether%20fastpath%20succeeded%20or%20not&type=Commits)
-* [lockdep: Make held_lock->check and "int check" argument bool](https://github.com/search?q=lockdep%3A%20Make%20held_lock->check%20and%20"int%20check"%20argument%20bool&type=Commits)
-* [locking: Move the lockdep code to kernel/locking/](https://github.com/search?q=locking%3A%20Move%20the%20lockdep%20code%20to%20kernel/locking/&type=Commits)
-* [locking: Add an smp_mb__after_unlock_lock() for UNLOCK+BLOCK barrier](https://github.com/search?q=locking%3A%20Add%20an%20smp_mb__after_unlock_lock%28%29%20for%20UNLOCK+BLOCK%20barrier&type=Commits)
-* [lockdep: Introduce lock_acquire_exclusive()/shared() helper macros](https://github.com/search?q=lockdep%3A%20Introduce%20lock_acquire_exclusive%28%29/shared%28%29%20helper%20macros&type=Commits)
-* [introduce __fcheck_files() to fix rcu_dereference_check_fdtable(), kill rcu_my_thread_group_empty()](https://github.com/search?q=introduce%20__fcheck_files%28%29%20to%20fix%20rcu_dereference_check_fdtable%28%29,%20kill%20rcu_my_thread_group_empty%28%29&type=Commits)
-* [rcu: Apply smp_mb__after_unlock_lock() to preserve grace periods](https://github.com/search?q=rcu%3A%20Apply%20smp_mb__after_unlock_lock%28%29%20to%20preserve%20grace%20periods&type=Commits)
-* [rcu: Remove "extern" from function declarations in kernel/rcu/rcu.h](https://github.com/search?q=rcu%3A%20Remove%20"extern"%20from%20function%20declarations%20in%20kernel/rcu/rcu.h&type=Commits)
-* [rcu/torture: Dynamically allocate SRCU output buffer to avoid overflow](https://github.com/search?q=rcu/torture%3A%20Dynamically%20allocate%20SRCU%20output%20buffer%20to%20avoid%20overflow&type=Commits)
-* [rcu: Don't activate RCU core on NO_HZ_FULL CPUs](https://github.com/search?q=rcu%3A%20Don%27t%20activate%20RCU%20core%20on%20NO_HZ_FULL%20CPUs&type=Commits)
-* [rcu: Warn on allegedly impossible rcu_read_unlock_special() from irq](https://github.com/search?q=rcu%3A%20Warn%20on%20allegedly%20impossible%20rcu_read_unlock_special%28%29%20from%20irq&type=Commits)
-* [rcu: Provide better diagnostics for blocking in RCU callback functions](https://github.com/search?q=rcu%3A%20Provide%20better%20diagnostics%20for%20blocking%20in%20RCU%20callback%20functions&type=Commits)
-* [rcu: Improve SRCU's grace-period comments](https://github.com/search?q=rcu%3A%20Improve%20SRCU%27s%20grace-period%20comments&type=Commits)
-* [rcu: Fix CONFIG_RCU_FANOUT_EXACT for odd fanout/leaf values](https://github.com/search?q=rcu%3A%20Fix%20CONFIG_RCU_FANOUT_EXACT%20for%20odd%20fanout/leaf%20values&type=Commits)
-* [rcu: Fix coccinelle warnings](https://github.com/search?q=rcu%3A%20Fix%20coccinelle%20warnings&type=Commits)
-* [rcu: Let the world know when RCU adjusts its geometry](https://github.com/search?q=rcu%3A%20Let%20the%20world%20know%20when%20RCU%20adjusts%20its%20geometry&type=Commits)
-* [rcu: Fix srcu_barrier() docbook header](https://github.com/search?q=rcu%3A%20Fix%20srcu_barrier%28%29%20docbook%20header&type=Commits)
-* [rcu: Allow task-level idle entry/exit nesting](https://github.com/search?q=rcu%3A%20Allow%20task-level%20idle%20entry/exit%20nesting&type=Commits)
-* [rcu: Break call_rcu() deadlock involving scheduler and perf](https://github.com/search?q=rcu%3A%20Break%20call_rcu%28%29%20deadlock%20involving%20scheduler%20and%20perf&type=Commits)
-* [rcu: Fix and comment ordering around wait_event()](https://github.com/search?q=rcu%3A%20Fix%20and%20comment%20ordering%20around%20wait_event%28%29&type=Commits)
-* [rcu: Kick CPU halfway to RCU CPU stall warning](https://github.com/search?q=rcu%3A%20Kick%20CPU%20halfway%20to%20RCU%20CPU%20stall%20warning&type=Commits)
-* [rcu: Move RCU-related source code to kernel/rcu directory](https://github.com/search?q=rcu%3A%20Move%20RCU-related%20source%20code%20to%20kernel/rcu%20directory&type=Commits)
-* [rcu: Fix occurrence of "the the" in checklist.txt](https://github.com/search?q=rcu%3A%20Fix%20occurrence%20of%20"the%20the"%20in%20checklist.txt&type=Commits)
-* [kthread: Add pointer to vmstat-avoidance patch](https://github.com/search?q=kthread%3A%20Add%20pointer%20to%20vmstat-avoidance%20patch&type=Commits)
-* [sched, rcu: Make RCU use resched_cpu()](https://github.com/search?q=sched,%20rcu%3A%20Make%20RCU%20use%20resched_cpu%28%29&type=Commits)
-* [rcu: Update stall-warning documentation](https://github.com/search?q=rcu%3A%20Update%20stall-warning%20documentation&type=Commits)
-* [rcu: Consistent rcu_is_watching() naming](https://github.com/search?q=rcu%3A%20Consistent%20rcu_is_watching%28%29%20naming&type=Commits)
-* [rcu: Change EXPORT_SYMBOL() to EXPORT_SYMBOL_GPL()](https://github.com/search?q=rcu%3A%20Change%20EXPORT_SYMBOL%28%29%20to%20EXPORT_SYMBOL_GPL%28%29&type=Commits)
-* [rcu: Is it safe to enter an RCU read-side critical section?](https://github.com/search?q=rcu%3A%20Is%20it%20safe%20to%20enter%20an%20RCU%20read-side%20critical%20section?&type=Commits)
-* [rcu: Throttle invoke_rcu_core() invocations due to non-lazy callbacks](https://github.com/search?q=rcu%3A%20Throttle%20invoke_rcu_core%28%29%20invocations%20due%20to%20non-lazy%20callbacks&type=Commits)
-* [rcu: Throttle rcu_try_advance_all_cbs() execution](https://github.com/search?q=rcu%3A%20Throttle%20rcu_try_advance_all_cbs%28%29%20execution&type=Commits)
-* [rcu: Remove redundant code from rcu_cleanup_after_idle()](https://github.com/search?q=rcu%3A%20Remove%20redundant%20code%20from%20rcu_cleanup_after_idle%28%29&type=Commits)
-* [rcu: Fix CONFIG_RCU_NOCB_CPU_ALL panic on machines with sparse CPU mask](https://github.com/search?q=rcu%3A%20Fix%20CONFIG_RCU_NOCB_CPU_ALL%20panic%20on%20machines%20with%20sparse%20CPU%20mask&type=Commits)
-* [rcu: Avoid sparse warnings in rcu_nocb_wake trace event](https://github.com/search?q=rcu%3A%20Avoid%20sparse%20warnings%20in%20rcu_nocb_wake%20trace%20event&type=Commits)
-* [rcu: Track rcu_nocb_kthread()'s sleeping and awakening](https://github.com/search?q=rcu%3A%20Track%20rcu_nocb_kthread%28%29%27s%20sleeping%20and%20awakening&type=Commits)
-* [rcu: Distinguish between NOCB and non-NOCB rcu_callback trace events](https://github.com/search?q=rcu%3A%20Distinguish%20between%20NOCB%20and%20non-NOCB%20rcu_callback%20trace%20events&type=Commits)
-* [rcu: Add tracing for rcuo no-CBs CPU wakeup handshake](https://github.com/search?q=rcu%3A%20Add%20tracing%20for%20rcuo%20no-CBs%20CPU%20wakeup%20handshake&type=Commits)
-* [rcu: Add tracing of normal (non-NOCB) grace-period requests](https://github.com/search?q=rcu%3A%20Add%20tracing%20of%20normal%20%28non-NOCB%29%20grace-period%20requests&type=Commits)
-* [rcu: Add tracing to rcu_gp_kthread()](https://github.com/search?q=rcu%3A%20Add%20tracing%20to%20rcu_gp_kthread%28%29&type=Commits)
-* [rcu: Flag lockless access to ->gp_flags with ACCESS_ONCE()](https://github.com/search?q=rcu%3A%20Flag%20lockless%20access%20to%20->gp_flags%20with%20ACCESS_ONCE%28%29&type=Commits)
-* [rcu: Prevent spurious-wakeup DoS attack on rcu_gp_kthread()](https://github.com/search?q=rcu%3A%20Prevent%20spurious-wakeup%20DoS%20attack%20on%20rcu_gp_kthread%28%29&type=Commits)
-* [rcu: Improve grace-period start logic](https://github.com/search?q=rcu%3A%20Improve%20grace-period%20start%20logic&type=Commits)
-* [rcu: Have rcutiny tracepoints use tracepoint_string()](https://github.com/search?q=rcu%3A%20Have%20rcutiny%20tracepoints%20use%20tracepoint_string%28%29&type=Commits)
-* [rcu: Reject memory-order-induced stall-warning false positives](https://github.com/search?q=rcu%3A%20Reject%20memory-order-induced%20stall-warning%20false%20positives&type=Commits)
-* [rcu: Micro-optimize rcu_cpu_has_callbacks()](https://github.com/search?q=rcu%3A%20Micro-optimize%20rcu_cpu_has_callbacks%28%29&type=Commits)
-* [rcu: Silence unused-variable warnings](https://github.com/search?q=rcu%3A%20Silence%20unused-variable%20warnings&type=Commits)
-* [rcu: Replace __get_cpu_var() uses](https://github.com/search?q=rcu%3A%20Replace%20__get_cpu_var%28%29%20uses&type=Commits)
-* [rcu: Make list_splice_init_rcu() account for RCU readers](https://github.com/search?q=rcu%3A%20Make%20list_splice_init_rcu%28%29%20account%20for%20RCU%20readers&type=Commits)
-* [rcu: Fix dubious "if" condition in __call_rcu_nocb_enqueue()](https://github.com/search?q=rcu%3A%20Fix%20dubious%20"if"%20condition%20in%20__call_rcu_nocb_enqueue%28%29&type=Commits)
-* [rcu: Convert local functions to static](https://github.com/search?q=rcu%3A%20Convert%20local%20functions%20to%20static&type=Commits)
-* [rcu: Use proper cpp macro for ->gp_flags](https://github.com/search?q=rcu%3A%20Use%20proper%20cpp%20macro%20for%20->gp_flags&type=Commits)
-* [ftrace/rcu: Do not trace debug_lockdep_rcu_enabled()](https://github.com/search?q=ftrace/rcu%3A%20Do%20not%20trace%20debug_lockdep_rcu_enabled%28%29&type=Commits)
-* [nohz_full: Force RCU's grace-period kthreads onto timekeeping CPU](https://github.com/search?q=nohz_full%3A%20Force%20RCU%27s%20grace-period%20kthreads%20onto%20timekeeping%20CPU&type=Commits)
-* [nohz_full: Add full-system-idle state machine](https://github.com/search?q=nohz_full%3A%20Add%20full-system-idle%20state%20machine&type=Commits)
-* [rcu: Simplify _rcu_barrier() processing](https://github.com/search?q=rcu%3A%20Simplify%20_rcu_barrier%28%29%20processing&type=Commits)
-* [rcu: Make rcutorture emit online failures if verbose](https://github.com/search?q=rcu%3A%20Make%20rcutorture%20emit%20online%20failures%20if%20verbose&type=Commits)
-* [rcu: Remove unused variable from rcu_torture_writer()](https://github.com/search?q=rcu%3A%20Remove%20unused%20variable%20from%20rcu_torture_writer%28%29&type=Commits)
-* [rcu: Sort rcutorture module parameters](https://github.com/search?q=rcu%3A%20Sort%20rcutorture%20module%20parameters&type=Commits)
-* [rcu: Increase rcutorture test coverage](https://github.com/search?q=rcu%3A%20Increase%20rcutorture%20test%20coverage&type=Commits)
-* [rcu: Add duplicate-callback tests to rcutorture](https://github.com/search?q=rcu%3A%20Add%20duplicate-callback%20tests%20to%20rcutorture&type=Commits)
-* [rcu: Update RTFP documentation](https://github.com/search?q=rcu%3A%20Update%20RTFP%20documentation&type=Commits)
-* [nohz_full: Add full-system-idle arguments to API](https://github.com/search?q=nohz_full%3A%20Add%20full-system-idle%20arguments%20to%20API&type=Commits)
-* [nohz_full: Add full-system idle states and variables](https://github.com/search?q=nohz_full%3A%20Add%20full-system%20idle%20states%20and%20variables&type=Commits)
-* [nohz_full: Add per-CPU idle-state tracking](https://github.com/search?q=nohz_full%3A%20Add%20per-CPU%20idle-state%20tracking&type=Commits)
-* [nohz_full: Add rcu_dyntick data for scalable detection of all-idle state](https://github.com/search?q=nohz_full%3A%20Add%20rcu_dyntick%20data%20for%20scalable%20detection%20of%20all-idle%20state&type=Commits)
-* [nohz_full: Add Kconfig parameter for scalable detection of all-idle state](https://github.com/search?q=nohz_full%3A%20Add%20Kconfig%20parameter%20for%20scalable%20detection%20of%20all-idle%20state&type=Commits)
-* [nohz_full: Add testing information to documentation](https://github.com/search?q=nohz_full%3A%20Add%20testing%20information%20to%20documentation&type=Commits)
-* [rcu: Eliminate unused APIs intended for adaptive ticks](https://github.com/search?q=rcu%3A%20Eliminate%20unused%20APIs%20intended%20for%20adaptive%20ticks&type=Commits)
-* [rcu: Select IRQ_WORK from TREE_PREEMPT_RCU](https://github.com/search?q=rcu%3A%20Select%20IRQ_WORK%20from%20TREE_PREEMPT_RCU&type=Commits)
-* [rcu: Avoid redundant grace-period kthread wakeups](https://github.com/search?q=rcu%3A%20Avoid%20redundant%20grace-period%20kthread%20wakeups&type=Commits)
-* [rcu: Make call_rcu() leak callbacks for debug-object errors](https://github.com/search?q=rcu%3A%20Make%20call_rcu%28%29%20leak%20callbacks%20for%20debug-object%20errors&type=Commits)
-* [debugobjects: Make debug_object_activate() return status](https://github.com/search?q=debugobjects%3A%20Make%20debug_object_activate%28%29%20return%20status&type=Commits)
-* [rcu: Simplify debug-objects fixups](https://github.com/search?q=rcu%3A%20Simplify%20debug-objects%20fixups&type=Commits)
-* [rcu: Expedite grace periods during suspend/resume](https://github.com/search?q=rcu%3A%20Expedite%20grace%20periods%20during%20suspend/resume&type=Commits)
-* [rcu: Fix rcu_barrier() documentation](https://github.com/search?q=rcu%3A%20Fix%20rcu_barrier%28%29%20documentation&type=Commits)
-* [tracing: Add __tracepoint_string() to export string pointers](https://github.com/search?q=tracing%3A%20Add%20__tracepoint_string%28%29%20to%20export%20string%20pointers&type=Commits)
-* [rcu: Have the RCU tracepoints use the tracepoint_string infrastructure](https://github.com/search?q=rcu%3A%20Have%20the%20RCU%20tracepoints%20use%20the%20tracepoint_string%20infrastructure&type=Commits)
-* [rcu: Simplify RCU_STATE_INITIALIZER() macro](https://github.com/search?q=rcu%3A%20Simplify%20RCU_STATE_INITIALIZER%28%29%20macro&type=Commits)
-* [rcu: Add const annotation to char * for RCU tracepoints and functions](https://github.com/search?q=rcu%3A%20Add%20const%20annotation%20to%20char%20*%20for%20RCU%20tracepoints%20and%20functions&type=Commits)
-* [rcu: delete __cpuinit usage from all rcu files](https://github.com/search?q=rcu%3A%20delete%20__cpuinit%20usage%20from%20all%20rcu%20files&type=Commits)
-* [drivers: avoid parsing names as kthread_run() format strings](https://github.com/search?q=drivers%3A%20avoid%20parsing%20names%20as%20kthread_run%28%29%20format%20strings&type=Commits)
-* [rcu: Shrink TINY_RCU by reworking CPU-stall ifdefs](https://github.com/search?q=rcu%3A%20Shrink%20TINY_RCU%20by%20reworking%20CPU-stall%20ifdefs&type=Commits)
-* [rcu: Shrink TINY_RCU by moving exit_rcu()](https://github.com/search?q=rcu%3A%20Shrink%20TINY_RCU%20by%20moving%20exit_rcu%28%29&type=Commits)
-* [rcu: Remove TINY_PREEMPT_RCU tracing documentation](https://github.com/search?q=rcu%3A%20Remove%20TINY_PREEMPT_RCU%20tracing%20documentation&type=Commits)
-* [rcu: Consolidate rcutiny_plugin.h ifdefs](https://github.com/search?q=rcu%3A%20Consolidate%20rcutiny_plugin.h%20ifdefs&type=Commits)
-* [rcu: Remove rcu_preempt_note_context_switch()](https://github.com/search?q=rcu%3A%20Remove%20rcu_preempt_note_context_switch%28%29&type=Commits)
-* [rcu: Remove the CONFIG_TINY_RCU ifdefs in rcutiny.h](https://github.com/search?q=rcu%3A%20Remove%20the%20CONFIG_TINY_RCU%20ifdefs%20in%20rcutiny.h&type=Commits)
-* [rcu: Remove check_cpu_stall_preempt()](https://github.com/search?q=rcu%3A%20Remove%20check_cpu_stall_preempt%28%29&type=Commits)
-* [rcu: Simplify RCU_TINY RCU callback invocation](https://github.com/search?q=rcu%3A%20Simplify%20RCU_TINY%20RCU%20callback%20invocation&type=Commits)
-* [rcu: Remove rcu_preempt_process_callbacks()](https://github.com/search?q=rcu%3A%20Remove%20rcu_preempt_process_callbacks%28%29&type=Commits)
-* [rcu: Remove rcu_preempt_remove_callbacks()](https://github.com/search?q=rcu%3A%20Remove%20rcu_preempt_remove_callbacks%28%29&type=Commits)
-* [rcu: Remove rcu_preempt_check_callbacks()](https://github.com/search?q=rcu%3A%20Remove%20rcu_preempt_check_callbacks%28%29&type=Commits)
-* [rcu: Remove show_tiny_preempt_stats()](https://github.com/search?q=rcu%3A%20Remove%20show_tiny_preempt_stats%28%29&type=Commits)
-* [rcu: Remove TINY_PREEMPT_RCU](https://github.com/search?q=rcu%3A%20Remove%20TINY_PREEMPT_RCU&type=Commits)
-* [powerpc,kvm: fix imbalance srcu_read_[un]lock()](https://github.com/search?q=powerpc,kvm%3A%20fix%20imbalance%20srcu_read_[un]lock%28%29&type=Commits)
-* [rcu: Remove srcu_read_lock_raw() and srcu_read_unlock_raw().](https://github.com/search?q=rcu%3A%20Remove%20srcu_read_lock_raw%28%29%20and%20srcu_read_unlock_raw%28%29.&type=Commits)
-* [rcu: Apply Dave Jones's NOCB Kconfig help feedback](https://github.com/search?q=rcu%3A%20Apply%20Dave%20Jones%27s%20NOCB%20Kconfig%20help%20feedback&type=Commits)
-* [rcu: Merge adjacent identical ifdefs](https://github.com/search?q=rcu%3A%20Merge%20adjacent%20identical%20ifdefs&type=Commits)
-* [rcu: Drive quiescent-state-forcing delay from HZ](https://github.com/search?q=rcu%3A%20Drive%20quiescent-state-forcing%20delay%20from%20HZ&type=Commits)
-* [rcu: Remove "Experimental" flags](https://github.com/search?q=rcu%3A%20Remove%20"Experimental"%20flags&type=Commits)
-* [kthread: Add kworker kthreads to OS-jitter documentation](https://github.com/search?q=kthread%3A%20Add%20kworker%20kthreads%20to%20OS-jitter%20documentation&type=Commits)
-* [nohz_full: Document additional restrictions](https://github.com/search?q=nohz_full%3A%20Document%20additional%20restrictions&type=Commits)
-* [nohz_full: Update based on Sedat Dilek review](https://github.com/search?q=nohz_full%3A%20Update%20based%20on%20Sedat%20Dilek%20review&type=Commits)
-* [rcu: Move redundant call to note_gp_changes() into called function](https://github.com/search?q=rcu%3A%20Move%20redundant%20call%20to%20note_gp_changes%28%29%20into%20called%20function&type=Commits)
-* [rcu: Inline trivial wrapper function rcu_start_gp_per_cpu()](https://github.com/search?q=rcu%3A%20Inline%20trivial%20wrapper%20function%20rcu_start_gp_per_cpu%28%29&type=Commits)
-* [rcu: Eliminate check_for_new_grace_period() wrapper function](https://github.com/search?q=rcu%3A%20Eliminate%20check_for_new_grace_period%28%29%20wrapper%20function&type=Commits)
-* [rcu: Merge __rcu_process_gp_end() into __note_gp_changes()](https://github.com/search?q=rcu%3A%20Merge%20__rcu_process_gp_end%28%29%20into%20__note_gp_changes%28%29&type=Commits)
-* [rcu: Switch callers from rcu_process_gp_end() to note_gp_changes()](https://github.com/search?q=rcu%3A%20Switch%20callers%20from%20rcu_process_gp_end%28%29%20to%20note_gp_changes%28%29&type=Commits)
-* [rcu: Convert rcutree_plugin.h printk calls](https://github.com/search?q=rcu%3A%20Convert%20rcutree_plugin.h%20printk%20calls&type=Commits)
-* [rcu: Rename note_new_gpnum() to note_gp_changes()](https://github.com/search?q=rcu%3A%20Rename%20note_new_gpnum%28%29%20to%20note_gp_changes%28%29&type=Commits)
-* [rcu: Make __note_new_gpnum() check for ends of prior grace periods](https://github.com/search?q=rcu%3A%20Make%20__note_new_gpnum%28%29%20check%20for%20ends%20of%20prior%20grace%20periods&type=Commits)
-* [rcu: Move code to apply callback-numbering simplifications](https://github.com/search?q=rcu%3A%20Move%20code%20to%20apply%20callback-numbering%20simplifications&type=Commits)
-* [rcu: Convert rcutree.c printk calls](https://github.com/search?q=rcu%3A%20Convert%20rcutree.c%20printk%20calls&type=Commits)
-* [Revert "rcu: Squashed commit of the following:"](https://github.com/search?q=Revert%20"rcu%3A%20Squashed%20commit%20of%20the%20following%3A"&type=Commits)
+
+#### Device specific Changes of 05-25-2019 End.
+
+***
+
+#### LineageOS - Pie source changes of 05-25-2019:
+
+#### build/make/
+* [build add some info to show when flashing the zip](https://github.com/search?q=build%20add%20some%20info%20to%20show%20when%20flashing%20the%20zip&type=Commits)
+* [Enable GSS garbage collection](https://github.com/search?q=Enable%20GSS%20garbage%20collection&type=Commits)
+* [disable Dalvik lock contention logging as it isnt needed](https://github.com/search?q=disable%20Dalvik%20lock%20contention%20logging%20as%20it%20isnt%20needed&type=Commits)
+* [Remove Feedback Directed Optimization support](https://github.com/search?q=Remove%20Feedback%20Directed%20Optimization%20support&type=Commits)
+* [build: force rebuild build.prop](https://github.com/search?q=build%3A%20force%20rebuild%20build.prop&type=Commits)
+* [Use 'release-keys' for build tag](https://github.com/search?q=Use%20%27release-keys%27%20for%20build%20tag&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [common: permit libqdutils operation (linked by mediaserver) during WFD](https://github.com/search?q=common%3A%20permit%20libqdutils%20operation%20%28linked%20by%20mediaserver%29%20during%20WFD&type=Commits)
+
+#### frameworks/av/
+* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
+* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
+* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
+* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
+* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
+* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
+
+#### frameworks/base/
+* [Where's my circle battery, dude?](https://github.com/search?q=Where%27s%20my%20circle%20battery,%20dude?&type=Commits)
+* [Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
+* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
+* [base: Show fast charging on lockscreen witout checking amperage](https://github.com/search?q=base%3A%20Show%20fast%20charging%20on%20lockscreen%20witout%20checking%20amperage&type=Commits)
+* [Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
+* [CPUInfoService add quark improves](https://github.com/search?q=CPUInfoService%20add%20quark%20improves&type=Commits)
+* [Base: config_appTransitionAnimationDurationScaleDefault 0.5](https://github.com/search?q=Base%3A%20config_appTransitionAnimationDurationScaleDefault%200.5&type=Commits)
+* [base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
+* [base: add CPU info overlay](https://github.com/search?q=base%3A%20add%20CPU%20info%20overlay&type=Commits)
+
+#### lineage-sdk/
+* [lineagesdk: Refactor battery icon options](https://github.com/search?q=lineagesdk%3A%20Refactor%20battery%20icon%20options&type=Commits)
+
+#### packages/apps/Dialer/
+* [Dialer: prevent touch events when the screen is off](https://github.com/search?q=Dialer%3A%20prevent%20touch%20events%20when%20the%20screen%20is%20off&type=Commits)
+
+#### packages/apps/LineageParts/
+* [StatusBarSettings: Hide battery preference category based on icon visibility](https://github.com/search?q=StatusBarSettings%3A%20Hide%20battery%20preference%20category%20based%20on%20icon%20visibility&type=Commits)
+* [LineageParts: Bring back and refactor battery icon options](https://github.com/search?q=LineageParts%3A%20Bring%20back%20and%20refactor%20battery%20icon%20options&type=Commits)
+
+#### packages/apps/Nfc/
+* [Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: hardcoded TapToWakePreferece to read state from the path](https://github.com/search?q=Settings%3A%20hardcoded%20TapToWakePreferece%20to%20read%20state%20from%20the%20path&type=Commits)
+* [Developer: set default writeAnimationScaleOption to 0.5](https://github.com/search?q=Developer%3A%20set%20default%20writeAnimationScaleOption%20to%200.5&type=Commits)
+
+#### packages/apps/Updater/
+* [hardcodede update urls](https://github.com/search?q=hardcodede%20update%20urls&type=Commits)
+
+#### system/connectivity/wificond/
+* [Revert "wificond: Query if DBS scan features are supported"](https://github.com/search?q=Revert%20"wificond%3A%20Query%20if%20DBS%20scan%20features%20are%20supported"&type=Commits)
+* [Revert "wificond: Send DBS scan flags if supported"](https://github.com/search?q=Revert%20"wificond%3A%20Send%20DBS%20scan%20flags%20if%20supported"&type=Commits)
+
+#### vendor/lineage/
+* [overlay: Hide the option to show battery percentage](https://github.com/search?q=overlay%3A%20Hide%20the%20option%20to%20show%20battery%20percentage&type=Commits)
+* [Mod build](https://github.com/search?q=Mod%20build&type=Commits)
+
+#### LineageOS - Pie source changes of 05-25-2019 End.
+
+05-23-2019
+====================
+
+#### Device specific Changes of 05-23-2019 Start:
+
+#### Kernel/Quark/
 * [crypto: arm - replace memset by memzero_explicit](https://github.com/search?q=crypto%3A%20arm%20-%20replace%20memset%20by%20memzero_explicit&type=Commits)
 * [crypto: arm/sha256 - Use memzero_explicit to fill memory with 0](https://github.com/search?q=crypto%3A%20arm/sha256%20-%20Use%20memzero_explicit%20to%20fill%20memory%20with%200&type=Commits)
 * [crypto: arm/aes update NEON AES module to latest OpenSSL version](https://github.com/search?q=crypto%3A%20arm/aes%20update%20NEON%20AES%20module%20to%20latest%20OpenSSL%20version&type=Commits)
@@ -346,71 +205,6 @@ LineageOS - Pie source and Quark Changelog:
 * [oom: make sure that TIF_MEMDIE is set under task_lock](https://github.com/search?q=oom%3A%20make%20sure%20that%20TIF_MEMDIE%20is%20set%20under%20task_lock&type=Commits)
 * [oom: kill the insufficient and no longer needed PT_TRACE_EXIT check](https://github.com/search?q=oom%3A%20kill%20the%20insufficient%20and%20no%20longer%20needed%20PT_TRACE_EXIT%20check&type=Commits)
 * [oom: don't assume that a coredumping thread will exit soon](https://github.com/search?q=oom%3A%20don%27t%20assume%20that%20a%20coredumping%20thread%20will%20exit%20soon&type=Commits)
-
-#### Device specific Changes of 05-24-2019 End.
-
-***
-
-#### LineageOS - Pie source changes of 05-24-2019:
-
-#### device/qcom/sepolicy-legacy/
-* [common: permit libqdutils operation (linked by mediaserver) during WFD](https://github.com/search?q=common%3A%20permit%20libqdutils%20operation%20%28linked%20by%20mediaserver%29%20during%20WFD&type=Commits)
-
-#### frameworks/av/
-* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
-* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
-* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
-* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
-* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
-* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
-
-#### frameworks/base/
-* [Where's my circle battery, dude?](https://github.com/search?q=Where%27s%20my%20circle%20battery,%20dude?&type=Commits)
-* [Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
-* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
-* [base: Show fast charging on lockscreen witout checking amperage](https://github.com/search?q=base%3A%20Show%20fast%20charging%20on%20lockscreen%20witout%20checking%20amperage&type=Commits)
-* [Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
-* [CPUInfoService add quark improves](https://github.com/search?q=CPUInfoService%20add%20quark%20improves&type=Commits)
-* [Base: config_appTransitionAnimationDurationScaleDefault 0.5](https://github.com/search?q=Base%3A%20config_appTransitionAnimationDurationScaleDefault%200.5&type=Commits)
-* [base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
-* [base: add CPU info overlay](https://github.com/search?q=base%3A%20add%20CPU%20info%20overlay&type=Commits)
-
-#### lineage-sdk/
-* [lineagesdk: Refactor battery icon options](https://github.com/search?q=lineagesdk%3A%20Refactor%20battery%20icon%20options&type=Commits)
-
-#### packages/apps/Dialer/
-* [Dialer: prevent touch events when the screen is off](https://github.com/search?q=Dialer%3A%20prevent%20touch%20events%20when%20the%20screen%20is%20off&type=Commits)
-
-#### packages/apps/LineageParts/
-* [StatusBarSettings: Hide battery preference category based on icon visibility](https://github.com/search?q=StatusBarSettings%3A%20Hide%20battery%20preference%20category%20based%20on%20icon%20visibility&type=Commits)
-* [LineageParts: Bring back and refactor battery icon options](https://github.com/search?q=LineageParts%3A%20Bring%20back%20and%20refactor%20battery%20icon%20options&type=Commits)
-
-#### packages/apps/Nfc/
-* [Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
-
-#### packages/apps/Settings/
-* [Settings: hardcoded TapToWakePreferece to read state from the path](https://github.com/search?q=Settings%3A%20hardcoded%20TapToWakePreferece%20to%20read%20state%20from%20the%20path&type=Commits)
-* [Developer: set default writeAnimationScaleOption to 0.5](https://github.com/search?q=Developer%3A%20set%20default%20writeAnimationScaleOption%20to%200.5&type=Commits)
-
-#### packages/apps/Updater/
-* [hardcodede update urls](https://github.com/search?q=hardcodede%20update%20urls&type=Commits)
-
-#### system/connectivity/wificond/
-* [Revert "wificond: Query if DBS scan features are supported"](https://github.com/search?q=Revert%20"wificond%3A%20Query%20if%20DBS%20scan%20features%20are%20supported"&type=Commits)
-* [Revert "wificond: Send DBS scan flags if supported"](https://github.com/search?q=Revert%20"wificond%3A%20Send%20DBS%20scan%20flags%20if%20supported"&type=Commits)
-
-#### vendor/lineage/
-* [overlay: Hide the option to show battery percentage](https://github.com/search?q=overlay%3A%20Hide%20the%20option%20to%20show%20battery%20percentage&type=Commits)
-* [Mod build](https://github.com/search?q=Mod%20build&type=Commits)
-
-#### LineageOS - Pie source changes of 05-24-2019 End.
-
-05-23-2019
-====================
-
-#### Device specific Changes of 05-23-2019 Start:
-
-#### Kernel/Quark/
 * [mm, oom: rename zonelist locking functions](https://github.com/search?q=mm,%20oom%3A%20rename%20zonelist%20locking%20functions&type=Commits)
 * [mm, oom: ensure memoryless node zonelist always includes zones](https://github.com/search?q=mm,%20oom%3A%20ensure%20memoryless%20node%20zonelist%20always%20includes%20zones&type=Commits)
 * [mm, oom: prefer thread group leaders for display purposes](https://github.com/search?q=mm,%20oom%3A%20prefer%20thread%20group%20leaders%20for%20display%20purposes&type=Commits)
