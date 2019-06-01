@@ -27,5 +27,5 @@ scp $zip_path fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/Los/Pie/
 
 #mv old file
 #ssh -t fgl27@shell.sourceforge.net create
-#cd /home/frs/project/fgl27/Android/ResurrectionRemix/Pie/
-#mv RR-P-v7.0.0-20190123-quark-Mod.zip Old_version/
+#cd /home/frs/project/fgl27/Android/Los/Pie/
+#mv lineage-16.0-20190525-MOD-quark.zip Old_version/

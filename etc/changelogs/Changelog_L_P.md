@@ -2,6 +2,87 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+06-01-2019
+====================
+
+#### LineageOS - Pie source changes of 06-01-2019:
+
+#### frameworks/base/
+* [frameworks: Add unlinked ringtone and notification volumes](https://github.com/search?q=frameworks%3A%20Add%20unlinked%20ringtone%20and%20notification%20volumes&type=Commits)
+* [Revert "NightDisplayController: report unavailable if livedisplay feature is present"](https://github.com/search?q=Revert%20"NightDisplayController%3A%20report%20unavailable%20if%20livedisplay%20feature%20is%20present"&type=Commits)
+
+#### hardware/lineage/livedisplay/
+* [sdm: Fix restoring default mode when using prebuilt vendor](https://github.com/search?q=sdm%3A%20Fix%20restoring%20default%20mode%20when%20using%20prebuilt%20vendor&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Use correct icon for ring volume](https://github.com/search?q=Settings%3A%20Use%20correct%20icon%20for%20ring%20volume&type=Commits)
+* [Settings: Add switch for linked ring and media notification volumes](https://github.com/search?q=Settings%3A%20Add%20switch%20for%20linked%20ring%20and%20media%20notification%20volumes&type=Commits)
+* [Settings: Add battery saving mode for location](https://github.com/search?q=Settings%3A%20Add%20battery%20saving%20mode%20for%20location&type=Commits)
+
+#### vendor/lineage/
+* [apns: Update Singapore's APNs](https://github.com/search?q=apns%3A%20Update%20Singapore%27s%20APNs&type=Commits)
+
+#### LineageOS - Pie source changes of 06-01-2019 End.
+
+05-31-2019
+====================
+
+#### LineageOS - Pie source changes of 05-31-2019:
+#### android/
+* [Sync new Backgrounds app](https://github.com/search?q=Sync%20new%20Backgrounds%20app&type=Commits)
+
+#### device/lineage/sepolicy/
+* [sepol: Label vendor.qcom.bluetooth.soc](https://github.com/search?q=sepol%3A%20Label%20vendor.qcom.bluetooth.soc&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: Fix several layout bugs](https://github.com/search?q=SystemUI%3A%20Fix%20several%20layout%20bugs&type=Commits)
+* [SystemUI: Advanced location tile](https://github.com/search?q=SystemUI%3A%20Advanced%20location%20tile&type=Commits)
+* [SystemUI: Add Profiles tile](https://github.com/search?q=SystemUI%3A%20Add%20Profiles%20tile&type=Commits)
+* [SystemUI: Enable and fix QS detail view, adapt layout to Pie](https://github.com/search?q=SystemUI%3A%20Enable%20and%20fix%20QS%20detail%20view,%20adapt%20layout%20to%20Pie&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Trebuchet: use new wallpaper app](https://github.com/search?q=Trebuchet%3A%20use%20new%20wallpaper%20app&type=Commits)
+
+#### vendor/lineage/
+* [Build our wallpapers app](https://github.com/search?q=Build%20our%20wallpapers%20app&type=Commits)
+
+#### LineageOS - Pie source changes of 05-31-2019 End.
+
+05-30-2019
+====================
+
+#### LineageOS - Pie source changes of 05-30-2019:
+
+#### build/soong/
+* [Revert "dumpvar: Dump TARGET_USE_SDCLANG"](https://github.com/search?q=Revert%20"dumpvar%3A%20Dump%20TARGET_USE_SDCLANG"&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 30-May-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2030-May-2019%2000%3A00%20UTC&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Gallery: Sync translations with AOSP](https://github.com/search?q=Gallery%3A%20Sync%20translations%20with%20AOSP&type=Commits)
+
+#### LineageOS - Pie source changes of 05-30-2019 End.
+
+05-29-2019
+====================
+
+#### LineageOS - Pie source changes of 05-29-2019:
+
+#### frameworks/base/
+* [base: Redo expanded volume panel for 9.x](https://github.com/search?q=base%3A%20Redo%20expanded%20volume%20panel%20for%209.x&type=Commits)
+
+#### LineageOS - Pie source changes of 05-29-2019 End.
+
+05-28-2019
+====================
+
+#### LineageOS - Pie source changes of 05-28-2019:
+#### android/
+* [manifest: Add sm8150 HALs](https://github.com/search?q=manifest%3A%20Add%20sm8150%20HALs&type=Commits)
+
+#### LineageOS - Pie source changes of 05-28-2019 End.
+
 05-25-2019
 ====================
 
