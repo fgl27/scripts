@@ -133,7 +133,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/16/221716/82 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/16/221716/84 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -142,8 +142,8 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/30/227930/8 && git cherry-pick FETCH_HEAD
-	git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/56/221756/11 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/30/227930/9 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_packages_apps_LineageParts refs/changes/56/221756/12 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -152,7 +152,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_lineage-sdk refs/changes/31/227931/10 && git cherry-pick FETCH_HEAD
+	git fetch https://github.com/LineageOS/android_lineage-sdk refs/changes/31/227931/11 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
