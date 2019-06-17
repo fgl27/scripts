@@ -2,6 +2,57 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+06-16-2019
+====================
+
+#### LineageOS - Pie source changes of 06-16-2019:
+
+#### packages/apps/SetupWizard/
+* [suw: Disable ScreenLockActivity if a secure lockscreen is already set](https://github.com/search?q=suw%3A%20Disable%20ScreenLockActivity%20if%20a%20secure%20lockscreen%20is%20already%20set&type=Commits)
+
+#### vendor/lineage/
+* [soong_config: Add flag for devices use metadata as FDE key](https://github.com/search?q=soong_config%3A%20Add%20flag%20for%20devices%20use%20metadata%20as%20FDE%20key&type=Commits)
+* [kernel: Set correct kernel compiler prefixes for aarch64 clang](https://github.com/search?q=kernel%3A%20Set%20correct%20kernel%20compiler%20prefixes%20for%20aarch64%20clang&type=Commits)
+* [apn: Update German carriers](https://github.com/search?q=apn%3A%20Update%20German%20carriers&type=Commits)
+
+#### vendor/qcom/opensource/cryptfs_hw/
+* [cryptfs_hw: Support devices use metadata as key](https://github.com/search?q=cryptfs_hw%3A%20Support%20devices%20use%20metadata%20as%20key&type=Commits)
+
+#### LineageOS - Pie source changes of 06-16-2019 End.
+
+06-15-2019
+====================
+
+#### LineageOS - Pie source changes of 06-15-2019:
+
+#### device/lineage/sepolicy/
+* [sepolicy: Break livedisplay hal policy into impl independent ones](https://github.com/search?q=sepolicy%3A%20Break%20livedisplay%20hal%20policy%20into%20impl%20independent%20ones&type=Commits)
+* [sepolicy: qcom: Rename common to vendor to avoid confusion](https://github.com/search?q=sepolicy%3A%20qcom%3A%20Rename%20common%20to%20vendor%20to%20avoid%20confusion&type=Commits)
+* [sepolicy: Move power hal service label to dynamic](https://github.com/search?q=sepolicy%3A%20Move%20power%20hal%20service%20label%20to%20dynamic&type=Commits)
+* [sepolicy: Move touch hal policy to dynamic](https://github.com/search?q=sepolicy%3A%20Move%20touch%20hal%20policy%20to%20dynamic&type=Commits)
+* [sepolicy: Move livedisplay hal policy to dynamic](https://github.com/search?q=sepolicy%3A%20Move%20livedisplay%20hal%20policy%20to%20dynamic&type=Commits)
+* [sepolicy: Dynamically build trust policy into system/vendor](https://github.com/search?q=sepolicy%3A%20Dynamically%20build%20trust%20policy%20into%20system/vendor&type=Commits)
+
+#### frameworks/base/
+* [LockSettingsService: Support for separate clear key api](https://github.com/search?q=LockSettingsService%3A%20Support%20for%20separate%20clear%20key%20api&type=Commits)
+
+#### lineage/website/
+* [www: fix typos in changelog 21](https://github.com/search?q=www%3A%20fix%20typos%20in%20changelog%2021&type=Commits)
+
+#### lineage/wiki/
+* [devices: Update dipper maintainers list](https://github.com/search?q=devices%3A%20Update%20dipper%20maintainers%20list&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: allow to disable image stabilization per device](https://github.com/search?q=Snap%3A%20allow%20to%20disable%20image%20stabilization%20per%20device&type=Commits)
+
+#### system/vold/
+* [vold: change to upgrade key if export fails](https://github.com/search?q=vold%3A%20change%20to%20upgrade%20key%20if%20export%20fails&type=Commits)
+* [vold: add support for clear key](https://github.com/search?q=vold%3A%20add%20support%20for%20clear%20key&type=Commits)
+* [vold: Use separate flag for wrappedkey](https://github.com/search?q=vold%3A%20Use%20separate%20flag%20for%20wrappedkey&type=Commits)
+* [vold: Wrapped key support for FBE](https://github.com/search?q=vold%3A%20Wrapped%20key%20support%20for%20FBE&type=Commits)
+
+#### LineageOS - Pie source changes of 06-15-2019 End.
+
 06-14-2019
 ====================
 
