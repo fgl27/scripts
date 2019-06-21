@@ -103,7 +103,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/frameworks_av/ lineage-16.0_test && git cherry-pick f56a061f686fe4162462d230d05c3a9cfc39bafe^..2b5b8a5d930756c20ce4976323e4c3543707bdcf
+	git fetch https://github.com/fgl27/frameworks_av/ lineage-16.0_test && git cherry-pick cbc56d99f918ecca2ec8eda6fff300d9a5676281^..496b4dac75eb80df441bb4b736932c89d653d588
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -112,7 +112,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/LineageOS/android_device_qcom_sepolicy-legacy refs/changes/41/239741/3 && git cherry-pick FETCH_HEAD
+	git fetch "https://github.com/LineageOS/android_device_qcom_sepolicy-legacy" refs/changes/41/239741/3 && git cherry-pick FETCH_HEAD
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
