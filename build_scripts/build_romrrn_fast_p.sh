@@ -61,6 +61,15 @@ if [ "$input1" == "1" ]; then
 
 		echo -e "\\n	out Folder $folder"
 
+		folder="frameworks/av";
+		echo -e "\\n	In Folder $folder \\n"
+
+		cd $folder || exit;
+		git fetch https://github.com/fgl27/frameworks_av/ lineage-16.0_test && git cherry-pick 496b4dac75eb80df441bb4b736932c89d653d588
+		cd - &> /dev/null || exit;
+
+		echo -e "\\n	out Folder $folder"
+
 	fi
 
 	#Disable nfc by default
