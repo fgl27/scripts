@@ -2,6 +2,444 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+07-10-2019
+====================
+
+#### LineageOS - Pie source changes of 07-10-2019:
+
+#### lineage/wiki/
+* [wiki: Add 'you may need new recovery' tip to device upgrade page](https://github.com/search?q=wiki%3A%20Add%20%27you%20may%20need%20new%20recovery%27%20tip%20to%20device%20upgrade%20page&type=Commits)
+
+#### LineageOS - Pie source changes of 07-10-2019 End.
+
+07-09-2019
+====================
+
+#### LineageOS - Pie source changes of 07-09-2019:
+
+#### lineage/website/
+* [Engineering article: Bluetooth SBC Dual Channel (SBC XQ/SBC HD)](https://github.com/search?q=Engineering%20article%3A%20Bluetooth%20SBC%20Dual%20Channel%20%28SBC%20XQ/SBC%20HD%29&type=Commits)
+
+#### vendor/lineage/
+* [Fix bootanimation destpath if building off-tree](https://github.com/search?q=Fix%20bootanimation%20destpath%20if%20building%20off-tree&type=Commits)
+
+#### LineageOS - Pie source changes of 07-09-2019 End.
+
+07-08-2019
+====================
+
+#### LineageOS - Pie source changes of 07-08-2019:
+
+#### packages/apps/LineageParts/
+* [Settings: Don't index display mode and color temperature on HWC2](https://github.com/search?q=Settings%3A%20Don%27t%20index%20display%20mode%20and%20color%20temperature%20on%20HWC2&type=Commits)
+* [LiveDisplaySettings: Fix outdoor mode preference on hwc2](https://github.com/search?q=LiveDisplaySettings%3A%20Fix%20outdoor%20mode%20preference%20on%20hwc2&type=Commits)
+
+#### LineageOS - Pie source changes of 07-08-2019 End.
+
+07-07-2019
+====================
+
+#### LineageOS - Pie source changes of 07-07-2019:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### frameworks/native/
+* [Add vendor version for libgui](https://github.com/search?q=Add%20vendor%20version%20for%20libgui&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Change keyboard height](https://github.com/search?q=Change%20keyboard%20height&type=Commits)
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+#### LineageOS - Pie source changes of 07-07-2019 End.
+
+07-06-2019
+====================
+
+#### LineageOS - Pie source changes of 07-06-2019:
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/wiki/
+* [wiki: {Install|Upgrading}: Use sideload & General TLC](https://github.com/search?q=wiki%3A%20{Install|Upgrading}%3A%20Use%20sideload%20&%20General%20TLC&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Backgrounds/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - Pie source changes of 07-06-2019 End.
+
+07-05-2019
+====================
+
+#### LineageOS - Pie source changes of 07-05-2019:
+
+#### lineage/wiki/
+* [wiki: mata: Use correct bootloader unlock command](https://github.com/search?q=wiki%3A%20mata%3A%20Use%20correct%20bootloader%20unlock%20command&type=Commits)
+
+#### LineageOS - Pie source changes of 07-05-2019 End.
+
+07-03-2019
+====================
+
+#### LineageOS - Pie source changes of 07-03-2019:
+
+#### device/lineage/sepolicy/
+* [sepolicy: Dontaudit sysinit](https://github.com/search?q=sepolicy%3A%20Dontaudit%20sysinit&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 02-Jul-2019 16:46:38 UTC](https://github.com/search?q=Updated%20to%2002-Jul-2019%2016%3A46%3A38%20UTC&type=Commits)
+
+#### lineage/website/
+* [www: mata didn't ship on 15.1](https://github.com/search?q=www%3A%20mata%20didn%27t%20ship%20on%2015.1&type=Commits)
+
+#### LineageOS - Pie source changes of 07-03-2019 End.
+
+07-02-2019
+====================
+
+#### LineageOS - Pie source changes of 07-02-2019:
+#### android/
+* [manifest: android-9.0.0_r40 -> android-9.0.0_r44](https://github.com/search?q=manifest%3A%20android-9.0.0_r40%20->%20android-9.0.0_r44&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### build/soong/
+* [Give Blueprint modules access to all namespaces](https://github.com/search?q=Give%20Blueprint%20modules%20access%20to%20all%20namespaces&type=Commits)
+
+#### external/icu/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### hardware/qcom/sdm710/display/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### hardware/qcom/sdm845/display/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### lineage/hudson/
+* [Add github funding info](https://github.com/search?q=Add%20github%20funding%20info&type=Commits)
+
+#### lineage/website/
+* [Changelog 23](https://github.com/search?q=Changelog%2023&type=Commits)
+* [Add Patreon](https://github.com/search?q=Add%20Patreon&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### packages/apps/Traceur/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### system/core/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### system/netd/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### system/security/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### system/tools/hidl/
+* [Merge tag 'android-9.0.0_r44' into staging/lineage-16.0_merge-android-9.0.0_r44](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r44%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r44&type=Commits)
+
+#### LineageOS - Pie source changes of 07-02-2019 End.
+
+06-28-2019
+====================
+
+#### LineageOS - Pie source changes of 06-28-2019:
+
+#### packages/apps/Trebuchet/
+* [Trebuchet: update square icon path to match the one used in the Play Store](https://github.com/search?q=Trebuchet%3A%20update%20square%20icon%20path%20to%20match%20the%20one%20used%20in%20the%20Play%20Store&type=Commits)
+
+#### vendor/lineage/
+* [build: Support SDM710 platform](https://github.com/search?q=build%3A%20Support%20SDM710%20platform&type=Commits)
+
+#### LineageOS - Pie source changes of 06-28-2019 End.
+
+06-27-2019
+====================
+
+#### LineageOS - Pie source changes of 06-27-2019:
+
+#### lineage-sdk/
+* [Trust: Onboarding: Listen for locale changes](https://github.com/search?q=Trust%3A%20Onboarding%3A%20Listen%20for%20locale%20changes&type=Commits)
+
+#### lineage/hudson/
+* [Move kiwi to 16.0](https://github.com/search?q=Move%20kiwi%20to%2016.0&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Mark shieldtablet as discontinued](https://github.com/search?q=wiki%3A%20Mark%20shieldtablet%20as%20discontinued&type=Commits)
+* [kiwi: Add current_branch](https://github.com/search?q=kiwi%3A%20Add%20current_branch&type=Commits)
+* [Move kiwi to 16.0](https://github.com/search?q=Move%20kiwi%20to%2016.0&type=Commits)
+
+#### vendor/lineage/
+* [addonsu: Pass filesystem type for mounting /system_root when needed](https://github.com/search?q=addonsu%3A%20Pass%20filesystem%20type%20for%20mounting%20/system_root%20when%20needed&type=Commits)
+
+#### LineageOS - Pie source changes of 06-27-2019 End.
+
+06-26-2019
+====================
+
+#### LineageOS - Pie source changes of 06-26-2019:
+
+#### frameworks/base/
+* [Support enforcing a minimum delay between notification sounds of an app.](https://github.com/search?q=Support%20enforcing%20a%20minimum%20delay%20between%20notification%20sounds%20of%20an%20app.&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Discontinue Shield Tablet builds (for now)](https://github.com/search?q=hudson%3A%20Discontinue%20Shield%20Tablet%20builds%20%28for%20now%29&type=Commits)
+
+#### packages/apps/Settings/
+* [Add setup UI for minimum delay between an app's notification sounds](https://github.com/search?q=Add%20setup%20UI%20for%20minimum%20delay%20between%20an%20app%27s%20notification%20sounds&type=Commits)
+
+#### packages/overlays/Lineage/
+* [overlays: accents: Update preview colors](https://github.com/search?q=overlays%3A%20accents%3A%20Update%20preview%20colors&type=Commits)
+
+#### vendor/lineage/
+* [extract_utils: Add functions to extract vendor blobs from vendor.img](https://github.com/search?q=extract_utils%3A%20Add%20functions%20to%20extract%20vendor%20blobs%20from%20vendor.img&type=Commits)
+* [build: Separate platform macros from QCOM platform definition](https://github.com/search?q=build%3A%20Separate%20platform%20macros%20from%20QCOM%20platform%20definition&type=Commits)
+* [build: Reorganize inclusion of QCOM macros](https://github.com/search?q=build%3A%20Reorganize%20inclusion%20of%20QCOM%20macros&type=Commits)
+* [privapp-permissions: Regenerate permissions list](https://github.com/search?q=privapp-permissions%3A%20Regenerate%20permissions%20list&type=Commits)
+* [build: Remove unused script](https://github.com/search?q=build%3A%20Remove%20unused%20script&type=Commits)
+* [build: Use ifeq/else ifeq/else construction in board config](https://github.com/search?q=build%3A%20Use%20ifeq/else%20ifeq/else%20construction%20in%20board%20config&type=Commits)
+* [build: Set mode for makefiles](https://github.com/search?q=build%3A%20Set%20mode%20for%20makefiles&type=Commits)
+* [Whitelist permissions for AOSP FM radio app](https://github.com/search?q=Whitelist%20permissions%20for%20AOSP%20FM%20radio%20app&type=Commits)
+
+#### LineageOS - Pie source changes of 06-26-2019 End.
+
+06-25-2019
+====================
+
+#### LineageOS - Pie source changes of 06-25-2019:
+
+#### bootable/recovery/
+* [recovery: wipe bootloader message from index 0 when using custom offsets](https://github.com/search?q=recovery%3A%20wipe%20bootloader%20message%20from%20index%200%20when%20using%20custom%20offsets&type=Commits)
+
+#### LineageOS - Pie source changes of 06-25-2019 End.
+
+06-24-2019
+====================
+
+#### LineageOS - Pie source changes of 06-24-2019:
+
+#### packages/apps/Nfc/
+* [NFCService: Add sysprop to prevent FW download during boot  with NFC off.](https://github.com/search?q=NFCService%3A%20Add%20sysprop%20to%20prevent%20FW%20download%20during%20boot%20%20with%20NFC%20off.&type=Commits)
+
+#### LineageOS - Pie source changes of 06-24-2019 End.
+
+06-22-2019
+====================
+
+#### LineageOS - Pie source changes of 06-22-2019:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 75.0.3770.101](https://github.com/search?q=Update%20Chromium%20Webview%20to%2075.0.3770.101&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Improve Android Studio instructions](https://github.com/search?q=wiki%3A%20Improve%20Android%20Studio%20instructions&type=Commits)
+
+#### LineageOS - Pie source changes of 06-22-2019 End.
+
+06-21-2019
+====================
+
+#### LineageOS - Pie source changes of 06-21-2019:
+
+#### frameworks/base/
+* [SystemUI: Handle orientation and screenSize changes for TunerActivity](https://github.com/search?q=SystemUI%3A%20Handle%20orientation%20and%20screenSize%20changes%20for%20TunerActivity&type=Commits)
+* [SystemUI: Rework navigation bar layout inversion logic](https://github.com/search?q=SystemUI%3A%20Rework%20navigation%20bar%20layout%20inversion%20logic&type=Commits)
+* [SystemUI: Use proper lock icon scale on dismissing notification panel view](https://github.com/search?q=SystemUI%3A%20Use%20proper%20lock%20icon%20scale%20on%20dismissing%20notification%20panel%20view&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 75.0.3770.101](https://github.com/search?q=Update%20default%20webview%20to%2075.0.3770.101&type=Commits)
+
+#### LineageOS - Pie source changes of 06-21-2019 End.
+
+06-20-2019
+====================
+
+#### LineageOS - Pie source changes of 06-20-2019:
+
+#### frameworks/base/
+* [StatusBarMobileView: Properly init MobileGroup visibility](https://github.com/search?q=StatusBarMobileView%3A%20Properly%20init%20MobileGroup%20visibility&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/crowdin/
+* [crowdin: Improve empty resource file removal](https://github.com/search?q=crowdin%3A%20Improve%20empty%20resource%20file%20removal&type=Commits)
+* [crowdin: Remove invalid strings](https://github.com/search?q=crowdin%3A%20Remove%20invalid%20strings&type=Commits)
+
+#### lineage/wiki/
+* [wiki: add workaround for booting into TWRP recovery](https://github.com/search?q=wiki%3A%20add%20workaround%20for%20booting%20into%20TWRP%20recovery&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [AudioFX: Fix broken xliff tag in cm_strings.xml](https://github.com/search?q=AudioFX%3A%20Fix%20broken%20xliff%20tag%20in%20cm_strings.xml&type=Commits)
+
+#### packages/apps/Backgrounds/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - Pie source changes of 06-20-2019 End.
+
+06-19-2019
+====================
+
+#### LineageOS - Pie source changes of 06-19-2019:
+
+#### lineage/wiki/
+* [hint to brotli for decompressing system.new.dat.br](https://github.com/search?q=hint%20to%20brotli%20for%20decompressing%20system.new.dat.br&type=Commits)
+
+#### vendor/lineage/
+* [lineage: partner_gms: Add minimal configuration flag](https://github.com/search?q=lineage%3A%20partner_gms%3A%20Add%20minimal%20configuration%20flag&type=Commits)
+
+#### LineageOS - Pie source changes of 06-19-2019 End.
+
+06-18-2019
+====================
+
+#### LineageOS - Pie source changes of 06-18-2019:
+
+#### lineage/mirror/
+* [Updated to 13-May-2019 18:01:23 UTC](https://github.com/search?q=Updated%20to%2013-May-2019%2018%3A01%3A23%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 06-18-2019 End.
+
+06-17-2019
+====================
+
+#### LineageOS - Pie source changes of 06-17-2019:
+
+#### frameworks/base/
+* [fw/b: Allow adb over network when any default network is active](https://github.com/search?q=fw/b%3A%20Allow%20adb%20over%20network%20when%20any%20default%20network%20is%20active&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 17-Jun-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2017-Jun-2019%2000%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 06-17-2019 End.
+
 06-16-2019
 ====================
 
