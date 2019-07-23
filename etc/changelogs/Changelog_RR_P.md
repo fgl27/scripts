@@ -3,6 +3,542 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+07-23-2019
+====================
+
+#### Device specific Changes of 07-23-2019 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy/mediaprovider.te](https://github.com/search?q=Quark%3A%20update%20sepolicy/mediaprovider.te&type=Commits)
+* [Quark: update sepolicy allow multirom to boot](https://github.com/search?q=Quark%3A%20update%20sepolicy%20allow%20multirom%20to%20boot&type=Commits)
+
+#### Device specific Changes of 07-23-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 07-23-2019:
+
+#### frameworks/base/
+* [Merge pull request #264 from fessmm/pie](https://github.com/search?q=Merge%20pull%20request%20%23264%20from%20fessmm/pie&type=Commits)
+* [SystemUI: Protect against terrible music players](https://github.com/search?q=SystemUI%3A%20Protect%20against%20terrible%20music%20players&type=Commits)
+
+#### system/netd/
+* [NetD : Allow passing in interface names for vpn app restriction](https://github.com/search?q=NetD%20%3A%20Allow%20passing%20in%20interface%20names%20for%20vpn%20app%20restriction&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-23-2019 End.
+
+07-21-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-21-2019:
+
+#### packages/apps/Settings/
+* [Merge pull request #1107 from thephotogenicbug/pie](https://github.com/search?q=Merge%20pull%20request%20%231107%20from%20thephotogenicbug/pie&type=Commits)
+* [Add lavender to official](https://github.com/search?q=Add%20lavender%20to%20official&type=Commits)
+* [Merge pull request #1090 from thedeadfish59/patch-3](https://github.com/search?q=Merge%20pull%20request%20%231090%20from%20thedeadfish59/patch-3&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-21-2019 End.
+
+07-20-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-20-2019:
+
+#### packages/apps/Settings/
+* [Merge pull request #1105 from ResurrectionRemix/revert-1104-pie](https://github.com/search?q=Merge%20pull%20request%20%231105%20from%20ResurrectionRemix/revert-1104-pie&type=Commits)
+* [Revert "Add Xiaomi Redmi Note 7/7S"](https://github.com/search?q=Revert%20"Add%20Xiaomi%20Redmi%20Note%207/7S"&type=Commits)
+* [Merge pull request #1104 from thephotogenicbug/pie](https://github.com/search?q=Merge%20pull%20request%20%231104%20from%20thephotogenicbug/pie&type=Commits)
+* [Add Xiaomi Redmi Note 7/7S](https://github.com/search?q=Add%20Xiaomi%20Redmi%20Note%207/7S&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-20-2019 End.
+
+07-16-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-16-2019:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-16-2019 End.
+
+07-14-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-14-2019:
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-14-2019 End.
+
+07-13-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-13-2019:
+
+#### art/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### bionic/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### bootable/recovery/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [OMGRainbows](https://github.com/search?q=OMGRainbows&type=Commits)
+
+#### build/kati/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### dalvik/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### development/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/f2fs-tools/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/fsck_msdos/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/icu/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/libpng/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/proguard/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/skia/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/opt/datetimepicker/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/broadcom/wlan/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/bootstub/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/common/libmix/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/common/utils/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/img/hwcomposer/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/interfaces/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [Introduce camera motor hal](https://github.com/search?q=Introduce%20camera%20motor%20hal&type=Commits)
+
+#### hardware/nxp/nfc/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/bootctrl/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/data/ipacfg-mgr/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/display/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/gps/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/media/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/ril/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/BasicSmsReceiver/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/CarrierConfig/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Email/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/SecureElement/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Stk/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Tag/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Traceur/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/services/Mms/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/bt/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/extras/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/netd/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/security/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/timezone/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/tools/hidl/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/update_engine/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/vold/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-13-2019 End.
+
+07-12-2019
+====================
+
+#### Device specific Changes of 07-12-2019 Start:
+
+#### Vendor/Quark/
+* [Quark: Up TurboToast apk](https://github.com/search?q=Quark%3A%20Up%20TurboToast%20apk&type=Commits)
+
+#### Device specific Changes of 07-12-2019 End.
+
+***
+
+#### Resurrection Remix OS - Pie source changes of 07-12-2019:
+
+#### external/nano/
+* [nano: Zero entire struct sigaction struct](https://github.com/search?q=nano%3A%20Zero%20entire%20struct%20sigaction%20struct&type=Commits)
+* [nano: Bump PACKAGE_STRING to 4.3 too](https://github.com/search?q=nano%3A%20Bump%20PACKAGE_STRING%20to%204.3%20too&type=Commits)
+* [Properly 0 initialize sigaction](https://github.com/search?q=Properly%200%20initialize%20sigaction&type=Commits)
+* [Merge tag 'v4.3' into HEAD](https://github.com/search?q=Merge%20tag%20%27v4.3%27%20into%20HEAD&type=Commits)
+
+#### hardware/qcom/audio-caf/sm8150/
+* [audio_extn: Fix unused parameter warning in utils.c](https://github.com/search?q=audio_extn%3A%20Fix%20unused%20parameter%20warning%20in%20utils.c&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-12-2019 End.
+
+07-11-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-11-2019:
+
+#### hardware/qcom/display-caf/sdm845/
+* [display: Always build libcopybit headers](https://github.com/search?q=display%3A%20Always%20build%20libcopybit%20headers&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-11-2019 End.
+
+07-10-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-10-2019:
+
+#### external/icu/
+* [Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release am: 16b3c0277e](https://github.com/search?q=Snap%20for%205622519%20from%2081023f4194eeb6e8123445d2441869bf55bf2f87%20to%20pi-platform-release%20am%3A%2016b3c0277e&type=Commits)
+
+#### external/skia/
+* [Add private save-behind and draw-behind methods to canvas.](https://github.com/search?q=Add%20private%20save-behind%20and%20draw-behind%20methods%20to%20canvas.&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge "Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release am: 741849452e" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20fe4b8179b63eb376b3b189ef9b3463ad523b26f1%20to%20pi-platform-release%20am%3A%20741849452e"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release am: 741849452e](https://github.com/search?q=Snap%20for%205622519%20from%20fe4b8179b63eb376b3b189ef9b3463ad523b26f1%20to%20pi-platform-release%20am%3A%20741849452e&type=Commits)
+
+#### hardware/interfaces/
+* [Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release am: 0ef08c828d](https://github.com/search?q=Snap%20for%205622519%20from%20b095226d9286245c7d05088a441c2cff43d2ae65%20to%20pi-platform-release%20am%3A%200ef08c828d&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [Merge "Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%2014f1d88d0eeb04f65a54a0c835feb4d719892bb8%20to%20pi-platform-release%20am%3A%200c26ce89e0"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release am: 0c26ce89e0](https://github.com/search?q=Snap%20for%205622519%20from%2014f1d88d0eeb04f65a54a0c835feb4d719892bb8%20to%20pi-platform-release%20am%3A%200c26ce89e0&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Merge "Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%209f6cd249778d11d394692e9ef79840dfe28b9dc8%20to%20pi-platform-release%20am%3A%20cb84ec2751"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release am: cb84ec2751](https://github.com/search?q=Snap%20for%205622519%20from%209f6cd249778d11d394692e9ef79840dfe28b9dc8%20to%20pi-platform-release%20am%3A%20cb84ec2751&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Merge "Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release am: 1b44a3492f" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%2010c6d395963106857aa34efe4519c462d2c0e406%20to%20pi-platform-release%20am%3A%201b44a3492f"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release am: 1b44a3492f](https://github.com/search?q=Snap%20for%205622519%20from%2010c6d395963106857aa34efe4519c462d2c0e406%20to%20pi-platform-release%20am%3A%201b44a3492f&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge "Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%204f49c1c228daab1861c2e0d13dda03b2df2a9582%20to%20pi-platform-release%20am%3A%205889de7669"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release am: 5889de7669](https://github.com/search?q=Snap%20for%205622519%20from%204f49c1c228daab1861c2e0d13dda03b2df2a9582%20to%20pi-platform-release%20am%3A%205889de7669&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release am: 9a5e31527f](https://github.com/search?q=Snap%20for%205622519%20from%201f34f131bd37703b5162c65ee4d276eb05248595%20to%20pi-platform-release%20am%3A%209a5e31527f&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Merge "Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release am: 314f42f024" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20e4d853225029813a59742ffb42c542518e60e9ae%20to%20pi-platform-release%20am%3A%20314f42f024"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release am: 314f42f024](https://github.com/search?q=Snap%20for%205622519%20from%20e4d853225029813a59742ffb42c542518e60e9ae%20to%20pi-platform-release%20am%3A%20314f42f024&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release am: a5c080aadc](https://github.com/search?q=Snap%20for%205622519%20from%208f63ecce54a23e6612c68470392be6f027174354%20to%20pi-platform-release%20am%3A%20a5c080aadc&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release am: 7444ff41f0](https://github.com/search?q=Snap%20for%205622519%20from%205808cb0fa4c18ee52b5e69695045b3b766035788%20to%20pi-platform-release%20am%3A%207444ff41f0&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release am: 831ebdbde9](https://github.com/search?q=Snap%20for%205622519%20from%207ee02962075f652d966e25e8d5c862896412ce0b%20to%20pi-platform-release%20am%3A%20831ebdbde9&type=Commits)
+
+#### packages/apps/Traceur/
+* [Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release am: 70c6d8eb8d](https://github.com/search?q=Snap%20for%205622519%20from%202ad79563216ec72e1ca6a536f02be38f6f3a617c%20to%20pi-platform-release%20am%3A%2070c6d8eb8d&type=Commits)
+* [Snap for 5600800 from d94f15c9318a702fdd955a670e5ef81578f3972e to pi-platform-release am: a4d265b057](https://github.com/search?q=Snap%20for%205600800%20from%20d94f15c9318a702fdd955a670e5ef81578f3972e%20to%20pi-platform-release%20am%3A%20a4d265b057&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Merge "Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release am: 2ba10b3757" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20be4f7fab087f24a9ac2203279f8506ce6746be1e%20to%20pi-platform-release%20am%3A%202ba10b3757"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release am: 2ba10b3757](https://github.com/search?q=Snap%20for%205622519%20from%20be4f7fab087f24a9ac2203279f8506ce6746be1e%20to%20pi-platform-release%20am%3A%202ba10b3757&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge "Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release am: 7324b69df9" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20055bce8a2b7ca79bc82b922d5147b5bad5983866%20to%20pi-platform-release%20am%3A%207324b69df9"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release am: 7324b69df9](https://github.com/search?q=Snap%20for%205622519%20from%20055bce8a2b7ca79bc82b922d5147b5bad5983866%20to%20pi-platform-release%20am%3A%207324b69df9&type=Commits)
+* [Merge "Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release am: d6a067466c" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205600800%20from%208fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9%20to%20pi-platform-release%20am%3A%20d6a067466c"%20into%20pie-gsi&type=Commits)
+* [Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release am: d6a067466c](https://github.com/search?q=Snap%20for%205600800%20from%208fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9%20to%20pi-platform-release%20am%3A%20d6a067466c&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Merge "Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release am: 357ea98e57" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20206dc44bf5b4303b80dc8dd2060166bbfaa2acdf%20to%20pi-platform-release%20am%3A%20357ea98e57"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release am: 357ea98e57](https://github.com/search?q=Snap%20for%205622519%20from%20206dc44bf5b4303b80dc8dd2060166bbfaa2acdf%20to%20pi-platform-release%20am%3A%20357ea98e57&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Merge "Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release am: 7896f9d758" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20c69458ce0af130bc25fa3e8ff9099c04c0896834%20to%20pi-platform-release%20am%3A%207896f9d758"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release am: 7896f9d758](https://github.com/search?q=Snap%20for%205622519%20from%20c69458ce0af130bc25fa3e8ff9099c04c0896834%20to%20pi-platform-release%20am%3A%207896f9d758&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release am: 8d47970031](https://github.com/search?q=Snap%20for%205622519%20from%2078e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5%20to%20pi-platform-release%20am%3A%208d47970031&type=Commits)
+
+#### system/netd/
+* [Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release am: 02ebe2a46c](https://github.com/search?q=Snap%20for%205622519%20from%201ba507fb361520149b5683c363b85bf1d1e1fd00%20to%20pi-platform-release%20am%3A%2002ebe2a46c&type=Commits)
+* [Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release am: f138d4c17e](https://github.com/search?q=Snap%20for%205600800%20from%203c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e%20to%20pi-platform-release%20am%3A%20f138d4c17e&type=Commits)
+
+#### system/security/
+* [Merge "Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20c77e4768f57b6b71017399d995dab821405c92c4%20to%20pi-platform-release%20am%3A%20de927dd8d5"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release am: de927dd8d5](https://github.com/search?q=Snap%20for%205622519%20from%20c77e4768f57b6b71017399d995dab821405c92c4%20to%20pi-platform-release%20am%3A%20de927dd8d5&type=Commits)
+* [Merge "Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205600800%20from%203a827b0a882258d291b67edbc5480e0ba0aedb39%20to%20pi-platform-release%20am%3A%204a5cb0be76"%20into%20pie-gsi&type=Commits)
+* [Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release am: 4a5cb0be76](https://github.com/search?q=Snap%20for%205600800%20from%203a827b0a882258d291b67edbc5480e0ba0aedb39%20to%20pi-platform-release%20am%3A%204a5cb0be76&type=Commits)
+
+#### system/tools/hidl/
+* [Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release am: a5f1137806](https://github.com/search?q=Snap%20for%205622519%20from%2071f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf%20to%20pi-platform-release%20am%3A%20a5f1137806&type=Commits)
+* [Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release am: 1df6c91f83](https://github.com/search?q=Snap%20for%205600800%20from%208b20a45f29ebb35324b0fba2fc5e0b856047aebb%20to%20pi-platform-release%20am%3A%201df6c91f83&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-10-2019 End.
+
+07-09-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-09-2019:
+
+#### development/
+* [Merge "Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20239859423412edda2096927910dd8164e6475865%20to%20pi-platform-release%20am%3A%208ef31cb46b"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release am: 8ef31cb46b](https://github.com/search?q=Snap%20for%205622519%20from%20239859423412edda2096927910dd8164e6475865%20to%20pi-platform-release%20am%3A%208ef31cb46b&type=Commits)
+* [Snap for 5622519 from 239859423412edda2096927910dd8164e6475865 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20239859423412edda2096927910dd8164e6475865%20to%20pi-platform-release&type=Commits)
+
+#### external/icu/
+* [Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release am: a63df92ad9](https://github.com/search?q=Snap%20for%205600800%20from%20cf06cc7772c2bbad4d6ce91609dd17050a56cf59%20to%20pi-platform-release%20am%3A%20a63df92ad9&type=Commits)
+* [Snap for 5622519 from 81023f4194eeb6e8123445d2441869bf55bf2f87 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2081023f4194eeb6e8123445d2441869bf55bf2f87%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from cf06cc7772c2bbad4d6ce91609dd17050a56cf59 to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%20cf06cc7772c2bbad4d6ce91609dd17050a56cf59%20to%20pi-platform-release&type=Commits)
+
+#### external/skia/
+* [Merge "Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%207b904fb0143c85626198c8b65f9f9ea2de8cc271%20to%20pi-platform-release%20am%3A%209d46f09202"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release am: 9d46f09202](https://github.com/search?q=Snap%20for%205622519%20from%207b904fb0143c85626198c8b65f9f9ea2de8cc271%20to%20pi-platform-release%20am%3A%209d46f09202&type=Commits)
+* [Snap for 5622519 from 7b904fb0143c85626198c8b65f9f9ea2de8cc271 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%207b904fb0143c85626198c8b65f9f9ea2de8cc271%20to%20pi-platform-release&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Snap for 5622519 from fe4b8179b63eb376b3b189ef9b3463ad523b26f1 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20fe4b8179b63eb376b3b189ef9b3463ad523b26f1%20to%20pi-platform-release&type=Commits)
+
+#### hardware/interfaces/
+* [Snap for 5622519 from b095226d9286245c7d05088a441c2cff43d2ae65 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20b095226d9286245c7d05088a441c2cff43d2ae65%20to%20pi-platform-release&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [Snap for 5622519 from 14f1d88d0eeb04f65a54a0c835feb4d719892bb8 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2014f1d88d0eeb04f65a54a0c835feb4d719892bb8%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge "Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release am: f53bce45ef" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20b41383de4cf71e1d12e5a911e0d58d9ab7b0679e%20to%20pi-platform-release%20am%3A%20f53bce45ef"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release am: f53bce45ef](https://github.com/search?q=Snap%20for%205622519%20from%20b41383de4cf71e1d12e5a911e0d58d9ab7b0679e%20to%20pi-platform-release%20am%3A%20f53bce45ef&type=Commits)
+* [Snap for 5622519 from b41383de4cf71e1d12e5a911e0d58d9ab7b0679e to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20b41383de4cf71e1d12e5a911e0d58d9ab7b0679e%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Snap for 5622519 from 9f6cd249778d11d394692e9ef79840dfe28b9dc8 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%209f6cd249778d11d394692e9ef79840dfe28b9dc8%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Snap for 5622519 from 10c6d395963106857aa34efe4519c462d2c0e406 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2010c6d395963106857aa34efe4519c462d2c0e406%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/Contacts/
+* [Snap for 5622519 from 4f49c1c228daab1861c2e0d13dda03b2df2a9582 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%204f49c1c228daab1861c2e0d13dda03b2df2a9582%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Snap for 5622519 from 1f34f131bd37703b5162c65ee4d276eb05248595 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%201f34f131bd37703b5162c65ee4d276eb05248595%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Snap for 5622519 from e4d853225029813a59742ffb42c542518e60e9ae to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20e4d853225029813a59742ffb42c542518e60e9ae%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Snap for 5622519 from 8f63ecce54a23e6612c68470392be6f027174354 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%208f63ecce54a23e6612c68470392be6f027174354%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge "Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%2018ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914%20to%20pi-platform-release%20am%3A%20f6d7678d7e"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release am: f6d7678d7e](https://github.com/search?q=Snap%20for%205622519%20from%2018ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914%20to%20pi-platform-release%20am%3A%20f6d7678d7e&type=Commits)
+* [Snap for 5622519 from 18ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2018ad94ed67b2dfc3dfe59c7d6eb980e7ef1f9914%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Snap for 5622519 from 5808cb0fa4c18ee52b5e69695045b3b766035788 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%205808cb0fa4c18ee52b5e69695045b3b766035788%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Snap for 5622519 from 7ee02962075f652d966e25e8d5c862896412ce0b to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%207ee02962075f652d966e25e8d5c862896412ce0b%20to%20pi-platform-release&type=Commits)
+
+#### packages/apps/Traceur/
+* [Snap for 5622519 from 2ad79563216ec72e1ca6a536f02be38f6f3a617c to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%202ad79563216ec72e1ca6a536f02be38f6f3a617c%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from d94f15c9318a702fdd955a670e5ef81578f3972e to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%20d94f15c9318a702fdd955a670e5ef81578f3972e%20to%20pi-platform-release&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge "Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%20e035e3c31904c790e5c3d88a78b98d5566038af3%20to%20pi-platform-release%20am%3A%208c6c1e2be6"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release am: 8c6c1e2be6](https://github.com/search?q=Snap%20for%205622519%20from%20e035e3c31904c790e5c3d88a78b98d5566038af3%20to%20pi-platform-release%20am%3A%208c6c1e2be6&type=Commits)
+* [Snap for 5622519 from e035e3c31904c790e5c3d88a78b98d5566038af3 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20e035e3c31904c790e5c3d88a78b98d5566038af3%20to%20pi-platform-release&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Snap for 5622519 from be4f7fab087f24a9ac2203279f8506ce6746be1e to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20be4f7fab087f24a9ac2203279f8506ce6746be1e%20to%20pi-platform-release&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Merge "Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%203750847861dd817fe5a3ec3d5d7ac0bb6e3d5016%20to%20pi-platform-release%20am%3A%20f5e8f5b0d5"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release am: f5e8f5b0d5](https://github.com/search?q=Snap%20for%205622519%20from%203750847861dd817fe5a3ec3d5d7ac0bb6e3d5016%20to%20pi-platform-release%20am%3A%20f5e8f5b0d5&type=Commits)
+* [Snap for 5622519 from 3750847861dd817fe5a3ec3d5d7ac0bb6e3d5016 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%203750847861dd817fe5a3ec3d5d7ac0bb6e3d5016%20to%20pi-platform-release&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Snap for 5622519 from 055bce8a2b7ca79bc82b922d5147b5bad5983866 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20055bce8a2b7ca79bc82b922d5147b5bad5983866%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from 8fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9 to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%208fbd57f3208b224fb7bf6e5d0525907c6cb0a7b9%20to%20pi-platform-release&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Snap for 5622519 from 206dc44bf5b4303b80dc8dd2060166bbfaa2acdf to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20206dc44bf5b4303b80dc8dd2060166bbfaa2acdf%20to%20pi-platform-release&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Snap for 5622519 from c69458ce0af130bc25fa3e8ff9099c04c0896834 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20c69458ce0af130bc25fa3e8ff9099c04c0896834%20to%20pi-platform-release&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Snap for 5622519 from 78e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2078e4828a6d6a71872475b46bf4a0ebf5d5d2dbb5%20to%20pi-platform-release&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Merge "Snap for 5622519 from 4b8ef9ee3c9724ef75180825bb30ee48cd76402c to pi-platform-release am: 493727e021" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%204b8ef9ee3c9724ef75180825bb30ee48cd76402c%20to%20pi-platform-release%20am%3A%20493727e021"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 4b8ef9ee3c9724ef75180825bb30ee48cd76402c to pi-platform-release am: 493727e021](https://github.com/search?q=Snap%20for%205622519%20from%204b8ef9ee3c9724ef75180825bb30ee48cd76402c%20to%20pi-platform-release%20am%3A%20493727e021&type=Commits)
+* [Snap for 5622519 from 4b8ef9ee3c9724ef75180825bb30ee48cd76402c to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%204b8ef9ee3c9724ef75180825bb30ee48cd76402c%20to%20pi-platform-release&type=Commits)
+
+#### system/bt/
+* [Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release am: db4e774cab](https://github.com/search?q=Snap%20for%205622519%20from%20fef57bda2a3cf2dca83848db5b8e789cb32dac1d%20to%20pi-platform-release%20am%3A%20db4e774cab&type=Commits)
+* [Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release am: 1e2fde1e24](https://github.com/search?q=Snap%20for%205600800%20from%202d3cdf31bb8d8452380a3398e57e87f88318a274%20to%20pi-platform-release%20am%3A%201e2fde1e24&type=Commits)
+* [Snap for 5622519 from fef57bda2a3cf2dca83848db5b8e789cb32dac1d to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20fef57bda2a3cf2dca83848db5b8e789cb32dac1d%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from 2d3cdf31bb8d8452380a3398e57e87f88318a274 to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%202d3cdf31bb8d8452380a3398e57e87f88318a274%20to%20pi-platform-release&type=Commits)
+
+#### system/netd/
+* [Snap for 5622519 from 1ba507fb361520149b5683c363b85bf1d1e1fd00 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%201ba507fb361520149b5683c363b85bf1d1e1fd00%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from 3c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%203c3c62e4d9ef34dbb9460fa9cde7945cd6486f5e%20to%20pi-platform-release&type=Commits)
+
+#### system/security/
+* [Snap for 5622519 from c77e4768f57b6b71017399d995dab821405c92c4 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%20c77e4768f57b6b71017399d995dab821405c92c4%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from 3a827b0a882258d291b67edbc5480e0ba0aedb39 to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%203a827b0a882258d291b67edbc5480e0ba0aedb39%20to%20pi-platform-release&type=Commits)
+
+#### system/tools/hidl/
+* [Snap for 5622519 from 71f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2071f3191f2c88f9cb4ad9e232d2bdb7b8208c40bf%20to%20pi-platform-release&type=Commits)
+* [Snap for 5600800 from 8b20a45f29ebb35324b0fba2fc5e0b856047aebb to pi-platform-release](https://github.com/search?q=Snap%20for%205600800%20from%208b20a45f29ebb35324b0fba2fc5e0b856047aebb%20to%20pi-platform-release&type=Commits)
+
+#### system/vold/
+* [Merge "Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1" into pie-gsi](https://github.com/search?q=Merge%20"Snap%20for%205622519%20from%2059295fbb94e3a75c3341419aadbc66c560296179%20to%20pi-platform-release%20am%3A%20ec0cb71ca1"%20into%20pie-gsi&type=Commits)
+* [Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release am: ec0cb71ca1](https://github.com/search?q=Snap%20for%205622519%20from%2059295fbb94e3a75c3341419aadbc66c560296179%20to%20pi-platform-release%20am%3A%20ec0cb71ca1&type=Commits)
+* [Snap for 5622519 from 59295fbb94e3a75c3341419aadbc66c560296179 to pi-platform-release](https://github.com/search?q=Snap%20for%205622519%20from%2059295fbb94e3a75c3341419aadbc66c560296179%20to%20pi-platform-release&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-09-2019 End.
+
 07-08-2019
 ====================
 

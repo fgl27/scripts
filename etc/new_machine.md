@@ -236,11 +236,11 @@ SystemMaxUse=100M
 ##  nodejs start
 
 ```bash
-sudo apt-get -y install cleancss npm
+sudo apt-get -y install npm
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" > ~/.profile
-npm install js-beautify jshint uglify-js html-minifier -g
+npm install js-beautify jshint uglify-js html-minifier crass -g
 ```
 ##  nodejs end
 
