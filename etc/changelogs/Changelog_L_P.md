@@ -2,6 +2,432 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+07-23-2019
+====================
+
+#### Device specific Changes of 07-23-2019 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy/mediaprovider.te](https://github.com/search?q=Quark%3A%20update%20sepolicy/mediaprovider.te&type=Commits)
+* [Quark: update sepolicy allow multirom to boot](https://github.com/search?q=Quark%3A%20update%20sepolicy%20allow%20multirom%20to%20boot&type=Commits)
+
+#### Device specific Changes of 07-23-2019 End.
+
+***
+
+07-22-2019
+====================
+
+#### LineageOS - Pie source changes of 07-22-2019:
+
+#### frameworks/base/
+* [NetworkManagement : Add ability to restrict app vpn usage](https://github.com/search?q=NetworkManagement%20%3A%20Add%20ability%20to%20restrict%20app%20vpn%20usage&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 22-Jul-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2022-Jul-2019%2000%3A00%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [scripts: Change devices.py output to correct file name](https://github.com/search?q=scripts%3A%20Change%20devices.py%20output%20to%20correct%20file%20name&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: per-app VPN data restriction](https://github.com/search?q=Settings%3A%20per-app%20VPN%20data%20restriction&type=Commits)
+
+#### system/netd/
+* [NetD : Allow passing in interface names for vpn app restriction](https://github.com/search?q=NetD%20%3A%20Allow%20passing%20in%20interface%20names%20for%20vpn%20app%20restriction&type=Commits)
+
+#### LineageOS - Pie source changes of 07-22-2019 End.
+
+07-21-2019
+====================
+
+#### LineageOS - Pie source changes of 07-21-2019:
+
+#### frameworks/av/
+* [media: Add support for up to level 6.2 for AVC](https://github.com/search?q=media%3A%20Add%20support%20for%20up%20to%20level%206.2%20for%20AVC&type=Commits)
+
+#### frameworks/base/
+* [MediaCodecInfo: Add support for level 6.2](https://github.com/search?q=MediaCodecInfo%3A%20Add%20support%20for%20level%206.2&type=Commits)
+
+#### frameworks/native/
+* [media: Add support for level 6-6.2 for AVC](https://github.com/search?q=media%3A%20Add%20support%20for%20level%206-6.2%20for%20AVC&type=Commits)
+
+#### LineageOS - Pie source changes of 07-21-2019 End.
+
+07-20-2019
+====================
+
+#### LineageOS - Pie source changes of 07-20-2019:
+
+#### build/make/
+* [make: Use build prop overrides when generating vendor build.prop too](https://github.com/search?q=make%3A%20Use%20build%20prop%20overrides%20when%20generating%20vendor%20build.prop%20too&type=Commits)
+
+#### vendor/lineage/
+* [qcom: Add UM 4.14 platforms](https://github.com/search?q=qcom%3A%20Add%20UM%204.14%20platforms&type=Commits)
+* [kernel: Consider depmod version when handling kernel modules](https://github.com/search?q=kernel%3A%20Consider%20depmod%20version%20when%20handling%20kernel%20modules&type=Commits)
+
+#### LineageOS - Pie source changes of 07-20-2019 End.
+
+07-18-2019
+====================
+
+#### LineageOS - Pie source changes of 07-18-2019:
+
+#### lineage/hudson/
+* [hudson: add X00TD to build targets](https://github.com/search?q=hudson%3A%20add%20X00TD%20to%20build%20targets&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 18-Jul-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2018-Jul-2019%2000%3A00%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: promote X00TD to 16.0](https://github.com/search?q=wiki%3A%20promote%20X00TD%20to%2016.0&type=Commits)
+
+#### vendor/lineage/
+* [extract_utils: Support multidex](https://github.com/search?q=extract_utils%3A%20Support%20multidex&type=Commits)
+
+#### LineageOS - Pie source changes of 07-18-2019 End.
+
+07-17-2019
+====================
+
+#### LineageOS - Pie source changes of 07-17-2019:
+
+#### lineage/wiki/
+* [wiki: Add Kryo {460, 470, 485, 495} and Adreno {605, 610, 615, 618, 620, 630, 640, 680}](https://github.com/search?q=wiki%3A%20Add%20Kryo%20{460,%20470,%20485,%20495}%20and%20Adreno%20{605,%20610,%20615,%20618,%20620,%20630,%20640,%20680}&type=Commits)
+
+#### LineageOS - Pie source changes of 07-17-2019 End.
+
+07-15-2019
+====================
+
+#### LineageOS - Pie source changes of 07-15-2019:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### lineage/scripts/
+* [config-fs-gen: Initial commit](https://github.com/search?q=config-fs-gen%3A%20Initial%20commit&type=Commits)
+
+#### LineageOS - Pie source changes of 07-15-2019 End.
+
+07-14-2019
+====================
+
+#### LineageOS - Pie source changes of 07-14-2019:
+
+#### lineage/wiki/
+* [wiki: Drop reference to ccache on Google's site](https://github.com/search?q=wiki%3A%20Drop%20reference%20to%20ccache%20on%20Google%27s%20site&type=Commits)
+
+#### vendor/lineage/
+* [common: Add getcap/setcap to PRODUCT_PACKAGES](https://github.com/search?q=common%3A%20Add%20getcap/setcap%20to%20PRODUCT_PACKAGES&type=Commits)
+
+#### LineageOS - Pie source changes of 07-14-2019 End.
+
+07-13-2019
+====================
+
+#### LineageOS - Pie source changes of 07-13-2019:
+#### android/
+* [manifest: Track updated NDK ABI dumps](https://github.com/search?q=manifest%3A%20Track%20updated%20NDK%20ABI%20dumps&type=Commits)
+* [Remove empty AOSP repositories](https://github.com/search?q=Remove%20empty%20AOSP%20repositories&type=Commits)
+
+#### art/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### bionic/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### bootable/recovery/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [OMGRainbows](https://github.com/search?q=OMGRainbows&type=Commits)
+
+#### build/kati/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### build/make/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### dalvik/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### development/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### device/lineage/sepolicy/
+* [sepolicy: Add hal_lineage_camera_motor domain](https://github.com/search?q=sepolicy%3A%20Add%20hal_lineage_camera_motor%20domain&type=Commits)
+
+#### external/f2fs-tools/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/fsck_msdos/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/icu/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/libpng/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/proguard/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### external/skia/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/av/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/base/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [Improve performance of unclipped save layers.](https://github.com/search?q=Improve%20performance%20of%20unclipped%20save%20layers.&type=Commits)
+
+#### frameworks/native/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/opt/datetimepicker/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/broadcom/wlan/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/bootstub/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/common/libmix/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/common/utils/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/intel/img/hwcomposer/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/interfaces/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [Introduce camera motor hal](https://github.com/search?q=Introduce%20camera%20motor%20hal&type=Commits)
+
+#### hardware/nxp/nfc/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/audio/default/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/bootctrl/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/data/ipacfg-mgr/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/display/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/gps/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/qcom/media/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### hardware/ril/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/BasicSmsReceiver/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/CarrierConfig/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Email/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/SecureElement/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Stk/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Tag/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/Traceur/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/services/Mms/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/bt/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/core/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/extras/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/netd/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/security/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/sepolicy/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/timezone/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/tools/hidl/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/update_engine/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/vold/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### LineageOS - Pie source changes of 07-13-2019 End.
+
+07-12-2019
+====================
+
+#### Device specific Changes of 07-12-2019 Start:
+
+#### Vendor/Quark/
+* [Quark: Up TurboToast apk](https://github.com/search?q=Quark%3A%20Up%20TurboToast%20apk&type=Commits)
+
+#### Device specific Changes of 07-12-2019 End.
+
+***
+
+#### LineageOS - Pie source changes of 07-12-2019:
+
+#### device/lineage/sepolicy/
+* [sepolicy: qcom: Label /d/rpmh](https://github.com/search?q=sepolicy%3A%20qcom%3A%20Label%20/d/rpmh&type=Commits)
+
+#### external/nano/
+* [nano: Zero entire struct sigaction struct](https://github.com/search?q=nano%3A%20Zero%20entire%20struct%20sigaction%20struct&type=Commits)
+* [nano: Bump PACKAGE_STRING to 4.3 too](https://github.com/search?q=nano%3A%20Bump%20PACKAGE_STRING%20to%204.3%20too&type=Commits)
+* [Properly 0 initialize sigaction](https://github.com/search?q=Properly%200%20initialize%20sigaction&type=Commits)
+* [Merge tag 'v4.3' into HEAD](https://github.com/search?q=Merge%20tag%20%27v4.3%27%20into%20HEAD&type=Commits)
+
+#### frameworks/av/
+* [CameraService: Support hooks for motorized camera](https://github.com/search?q=CameraService%3A%20Support%20hooks%20for%20motorized%20camera&type=Commits)
+
+#### hardware/qcom/audio-caf/sm8150/
+* [audio_extn: Fix unused parameter warning in utils.c](https://github.com/search?q=audio_extn%3A%20Fix%20unused%20parameter%20warning%20in%20utils.c&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 12-Jul-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2012-Jul-2019%2000%3A00%20UTC&type=Commits)
+
+#### system/core/
+* [fastboot: Add --cmdline alias](https://github.com/search?q=fastboot%3A%20Add%20--cmdline%20alias&type=Commits)
+
+#### LineageOS - Pie source changes of 07-12-2019 End.
+
+07-11-2019
+====================
+
+#### LineageOS - Pie source changes of 07-11-2019:
+
+#### hardware/qcom/display-caf/sdm845/
+* [display: Always build libcopybit headers](https://github.com/search?q=display%3A%20Always%20build%20libcopybit%20headers&type=Commits)
+
+#### LineageOS - Pie source changes of 07-11-2019 End.
+
 07-10-2019
 ====================
 
