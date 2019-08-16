@@ -3,6 +3,504 @@
 Resurrection Remix OS - Pie source and Quark Changelog:
 ============================================================
 
+08-16-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-16-2019:
+
+#### build/make/
+* [fix "build: Only set the default verity key as a fallback"](https://github.com/search?q=fix%20"build%3A%20Only%20set%20the%20default%20verity%20key%20as%20a%20fallback"&type=Commits)
+* [build: Only set the default verity key as a fallback](https://github.com/search?q=build%3A%20Only%20set%20the%20default%20verity%20key%20as%20a%20fallback&type=Commits)
+
+#### frameworks/av/
+* [Merge pull request #10 from Jprimero15/pie](https://github.com/search?q=Merge%20pull%20request%20%2310%20from%20Jprimero15/pie&type=Commits)
+* [Camera: Lazy load sound files to speed up camera startup](https://github.com/search?q=Camera%3A%20Lazy%20load%20sound%20files%20to%20speed%20up%20camera%20startup&type=Commits)
+
+#### frameworks/base/
+* [Fix wrong locale causing reboot in recovery](https://github.com/search?q=Fix%20wrong%20locale%20causing%20reboot%20in%20recovery&type=Commits)
+* [Correction in logic of roundend size calculation of SD card](https://github.com/search?q=Correction%20in%20logic%20of%20roundend%20size%20calculation%20of%20SD%20card&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### frameworks/native/
+* [Merge Fix](https://github.com/search?q=Merge%20Fix&type=Commits)
+* [Revert "Revert "merged from LOS""](https://github.com/search?q=Revert%20"Revert%20"merged%20from%20LOS""&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [PrivacyGuard: Resolve error message hardcoded white color](https://github.com/search?q=PrivacyGuard%3A%20Resolve%20error%20message%20hardcoded%20white%20color&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [livedisplay: Don't show duplicate title in LiveDisplay options](https://github.com/search?q=livedisplay%3A%20Don%27t%20show%20duplicate%20title%20in%20LiveDisplay%20options&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/rr/
+* [vendor: Add qcom platform type to soongs vars](https://github.com/search?q=vendor%3A%20Add%20qcom%20platform%20type%20to%20soongs%20vars&type=Commits)
+* [config: Remove duplicate notification sounds](https://github.com/search?q=config%3A%20Remove%20duplicate%20notification%20sounds&type=Commits)
+* [config: Include charging sounds in notification sounds](https://github.com/search?q=config%3A%20Include%20charging%20sounds%20in%20notification%20sounds&type=Commits)
+* [overlay: Remove config_auto_perf_activities](https://github.com/search?q=overlay%3A%20Remove%20config_auto_perf_activities&type=Commits)
+* [LatinIME: Add Polish dictionary](https://github.com/search?q=LatinIME%3A%20Add%20Polish%20dictionary&type=Commits)
+* [privapp-permissions: Allow Trebuchet to use android.permission.STATUS_BAR](https://github.com/search?q=privapp-permissions%3A%20Allow%20Trebuchet%20to%20use%20android.permission.STATUS_BAR&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-16-2019 End.
+
+08-15-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-15-2019:
+
+#### frameworks/native/
+* [Merge pull request #7 from ResurrectionRemix/revert-6-pie](https://github.com/search?q=Merge%20pull%20request%20%237%20from%20ResurrectionRemix/revert-6-pie&type=Commits)
+* [Revert "merged from LOS"](https://github.com/search?q=Revert%20"merged%20from%20LOS"&type=Commits)
+* [Merge pull request #6 from rashedsahaji/pie](https://github.com/search?q=Merge%20pull%20request%20%236%20from%20rashedsahaji/pie&type=Commits)
+* [Merge branch 'lineage-16.0' of https://github.com/LineageOS/android_frameworks_native into pie](https://github.com/search?q=Merge%20branch%20%27lineage-16.0%27%20of%20https%3A//github.com/LineageOS/android_frameworks_native%20into%20pie&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-15-2019 End.
+
+08-12-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-12-2019:
+#### android/
+* [Switch prebuilts/abi-dumps/vndk to our fork](https://github.com/search?q=Switch%20prebuilts/abi-dumps/vndk%20to%20our%20fork&type=Commits)
+* [Revert "[REVERTME] AUG PATCH"](https://github.com/search?q=Revert%20"[REVERTME]%20AUG%20PATCH"&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-12-2019 End.
+
+08-11-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-11-2019:
+
+#### bootable/recovery/
+* [recovery: calibrate touchscreen](https://github.com/search?q=recovery%3A%20calibrate%20touchscreen&type=Commits)
+
+#### frameworks/native/
+* [Fix build error](https://github.com/search?q=Fix%20build%20error&type=Commits)
+* [SF : Map metadata before accessing value.](https://github.com/search?q=SF%20%3A%20Map%20metadata%20before%20accessing%20value.&type=Commits)
+* [SF: Add support for 64 bit consumer usage flag](https://github.com/search?q=SF%3A%20Add%20support%20for%2064%20bit%20consumer%20usage%20flag&type=Commits)
+* [sf: Do not black out HDR layer](https://github.com/search?q=sf%3A%20Do%20not%20black%20out%20HDR%20layer&type=Commits)
+* [Exsf: Add hardware hdr capability check](https://github.com/search?q=Exsf%3A%20Add%20hardware%20hdr%20capability%20check&type=Commits)
+* [SurfaceFlinger: Exclude CAF extensions from non-QC devices](https://github.com/search?q=SurfaceFlinger%3A%20Exclude%20CAF%20extensions%20from%20non-QC%20devices&type=Commits)
+* [SF : Include display Intf headers library](https://github.com/search?q=SF%20%3A%20Include%20display%20Intf%20headers%20library&type=Commits)
+* [SurfaceFlinger: Combine SF Refactor changes.](https://github.com/search?q=SurfaceFlinger%3A%20Combine%20SF%20Refactor%20changes.&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-11-2019 End.
+
+08-10-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-10-2019:
+
+#### frameworks/base/
+* [Merge pull request #266 from baalajimaestro/pie](https://github.com/search?q=Merge%20pull%20request%20%23266%20from%20baalajimaestro/pie&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/OmniJaws/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-10-2019 End.
+
+08-09-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-09-2019:
+#### android/
+* [[REVERTME] AUG PATCH](https://github.com/search?q=[REVERTME]%20AUG%20PATCH&type=Commits)
+* [android-9.0.0_r46](https://github.com/search?q=android-9.0.0_r46&type=Commits)
+* [Revert "Track our broadcom libbt"](https://github.com/search?q=Revert%20"Track%20our%20broadcom%20libbt"&type=Commits)
+* [Switch system/keymaster & test/vts-testcase/vndk to our forks](https://github.com/search?q=Switch%20system/keymaster%20&%20test/vts-testcase/vndk%20to%20our%20forks&type=Commits)
+* [manifest: Use master branch for chromium-webview](https://github.com/search?q=manifest%3A%20Use%20master%20branch%20for%20chromium-webview&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/build into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20of%20https%3A//android.googlesource.com/platform/build%20into%20HEAD&type=Commits)
+
+#### frameworks/av/
+* [Do not select direct output for same profile](https://github.com/search?q=Do%20not%20select%20direct%20output%20for%20same%20profile&type=Commits)
+* [Set default value to mAttributes in AudioTrack](https://github.com/search?q=Set%20default%20value%20to%20mAttributes%20in%20AudioTrack&type=Commits)
+* [audiopolicy: Fix potential memory leak.](https://github.com/search?q=audiopolicy%3A%20Fix%20potential%20memory%20leak.&type=Commits)
+* [audioflinger: Fix audio for WifiDisplay](https://github.com/search?q=audioflinger%3A%20Fix%20audio%20for%20WifiDisplay&type=Commits)
+* [Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/av into pie](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20of%20https%3A//android.googlesource.com/platform/frameworks/av%20into%20pie&type=Commits)
+
+#### frameworks/base/
+* [Q Style Clock: Align owner info as per the clock style](https://github.com/search?q=Q%20Style%20Clock%3A%20Align%20owner%20info%20as%20per%20the%20clock%20style&type=Commits)
+* [Q Style Clock: Reduce top margin, users want to see more notifications](https://github.com/search?q=Q%20Style%20Clock%3A%20Reduce%20top%20margin,%20users%20want%20to%20see%20more%20notifications&type=Commits)
+* [Q Style Clock: Set "It's" to accent color instead of gold / yellow color](https://github.com/search?q=Q%20Style%20Clock%3A%20Set%20"It%27s"%20to%20accent%20color%20instead%20of%20gold%20/%20yellow%20color&type=Commits)
+* [Initial support for in-display fingerprint sensors](https://github.com/search?q=Initial%20support%20for%20in-display%20fingerprint%20sensors&type=Commits)
+* [Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/base into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20HEAD&type=Commits)
+* [SystemUI: Use appropriate function when trying to retrieve colorError](https://github.com/search?q=SystemUI%3A%20Use%20appropriate%20function%20when%20trying%20to%20retrieve%20colorError&type=Commits)
+* [SystemUI: Fix multiple issues with hiding unprovisioned SIMs](https://github.com/search?q=SystemUI%3A%20Fix%20multiple%20issues%20with%20hiding%20unprovisioned%20SIMs&type=Commits)
+* [Fix sim pin on DSDS](https://github.com/search?q=Fix%20sim%20pin%20on%20DSDS&type=Commits)
+* [Dismiss SIM lock page after correct SIM](https://github.com/search?q=Dismiss%20SIM%20lock%20page%20after%20correct%20SIM&type=Commits)
+* [When data switches during voice call, make sure signal bar updates it.](https://github.com/search?q=When%20data%20switches%20during%20voice%20call,%20make%20sure%20signal%20bar%20updates%20it.&type=Commits)
+* [Stop USB Debugging authorization window dismissing on tap outside.](https://github.com/search?q=Stop%20USB%20Debugging%20authorization%20window%20dismissing%20on%20tap%20outside.&type=Commits)
+* [Update navigation bar upon change of display density](https://github.com/search?q=Update%20navigation%20bar%20upon%20change%20of%20display%20density&type=Commits)
+* [Unable to input PIN with hardware keyboard](https://github.com/search?q=Unable%20to%20input%20PIN%20with%20hardware%20keyboard&type=Commits)
+* [Fix the behavior of keyguard bouncer in a corner case](https://github.com/search?q=Fix%20the%20behavior%20of%20keyguard%20bouncer%20in%20a%20corner%20case&type=Commits)
+* [Fixes context for tiles without longClick](https://github.com/search?q=Fixes%20context%20for%20tiles%20without%20longClick&type=Commits)
+* [Fix to register the receiver for all users](https://github.com/search?q=Fix%20to%20register%20the%20receiver%20for%20all%20users&type=Commits)
+* [Remove unnecessary right padding from time picker](https://github.com/search?q=Remove%20unnecessary%20right%20padding%20from%20time%20picker&type=Commits)
+* [Default the network location provider to none](https://github.com/search?q=Default%20the%20network%20location%20provider%20to%20none&type=Commits)
+* [combo issue when location reported by providers do not come with extras](https://github.com/search?q=combo%20issue%20when%20location%20reported%20by%20providers%20do%20not%20come%20with%20extras&type=Commits)
+* [NLP Combo feature](https://github.com/search?q=NLP%20Combo%20feature&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/frameworks/native into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20of%20https%3A//android.googlesource.com/platform/frameworks/native%20into%20HEAD&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20HEAD&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge tag 'android-9.0.0_r46' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20of%20https%3A//android.googlesource.com/platform/packages/services/Telecomm%20into%20HEAD&type=Commits)
+
+#### prebuilts/abi-dumps/vndk/
+* [Update libsoftkeymasterdevice ABIs](https://github.com/search?q=Update%20libsoftkeymasterdevice%20ABIs&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-09-2019 End.
+
+08-08-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-08-2019:
+
+#### vendor/rr/
+* [Merge pull request #129 from baalajimaestro/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23129%20from%20baalajimaestro/patch-1&type=Commits)
+* [extract_utils: Change vendor/lineage to vendor/rr](https://github.com/search?q=extract_utils%3A%20Change%20vendor/lineage%20to%20vendor/rr&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-08-2019 End.
+
+08-07-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-07-2019:
+
+#### vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+* [Prevent OOB Read in Mfc_Transceive](https://github.com/search?q=Prevent%20OOB%20Read%20in%20Mfc_Transceive&type=Commits)
+* [Prevent OOB write in Mfc_Transceive](https://github.com/search?q=Prevent%20OOB%20write%20in%20Mfc_Transceive&type=Commits)
+* [Prevent OOB write in phFriNfc_ExtnsTransceive](https://github.com/search?q=Prevent%20OOB%20write%20in%20phFriNfc_ExtnsTransceive&type=Commits)
+* [Skip setEnableHostRouting when switching to screen off](https://github.com/search?q=Skip%20setEnableHostRouting%20when%20switching%20to%20screen%20off&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-07-2019 End.
+
+08-06-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-06-2019:
+
+#### art/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### bootable/recovery/
+* [recovery: fix unused parameter build error on user builds](https://github.com/search?q=recovery%3A%20fix%20unused%20parameter%20build%20error%20on%20user%20builds&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge pull request #6 from baalajimaestro/pie](https://github.com/search?q=Merge%20pull%20request%20%236%20from%20baalajimaestro/pie&type=Commits)
+* [Merge https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### packages/apps/Email/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [LatinIME: Add Hungarian QWERTY, enable predictive dictionary](https://github.com/search?q=LatinIME%3A%20Add%20Hungarian%20QWERTY,%20enable%20predictive%20dictionary&type=Commits)
+* [Add support for Georgian spell checking](https://github.com/search?q=Add%20support%20for%20Georgian%20spell%20checking&type=Commits)
+* [Set proper keyboard for Georgian script](https://github.com/search?q=Set%20proper%20keyboard%20for%20Georgian%20script&type=Commits)
+* [Add support for Bulgarian spell checking](https://github.com/search?q=Add%20support%20for%20Bulgarian%20spell%20checking&type=Commits)
+* [Add new type for Bulgarian script](https://github.com/search?q=Add%20new%20type%20for%20Bulgarian%20script&type=Commits)
+* [Add support for Portuguese spell checking](https://github.com/search?q=Add%20support%20for%20Portuguese%20spell%20checking&type=Commits)
+* [Add support for Hebrew spell checking](https://github.com/search?q=Add%20support%20for%20Hebrew%20spell%20checking&type=Commits)
+* [Add support for Croatian spell checking](https://github.com/search?q=Add%20support%20for%20Croatian%20spell%20checking&type=Commits)
+* [Add support for Czech spell checking](https://github.com/search?q=Add%20support%20for%20Czech%20spell%20checking&type=Commits)
+* [Add support for Polish spell checking](https://github.com/search?q=Add%20support%20for%20Polish%20spell%20checking&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+#### vendor/qcom/opensource/audio/
+* [policy_hal: Adapt to AudioMix API changes in f/av audiopolicy](https://github.com/search?q=policy_hal%3A%20Adapt%20to%20AudioMix%20API%20changes%20in%20f/av%20audiopolicy&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-06-2019 End.
+
+08-04-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-04-2019:
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Backgrounds/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-04-2019 End.
+
+08-03-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-03-2019:
+
+#### packages/inputmethods/LatinIME/
+* [Add support for Ukrainian spell checking](https://github.com/search?q=Add%20support%20for%20Ukrainian%20spell%20checking&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-03-2019 End.
+
+08-02-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 08-02-2019:
+#### android/
+* [Track Own lineage hardware](https://github.com/search?q=Track%20Own%20lineage%20hardware&type=Commits)
+
+#### device/rr/sepolicy/
+* [sepolicy: Add hal_lineage_fod domain](https://github.com/search?q=sepolicy%3A%20Add%20hal_lineage_fod%20domain&type=Commits)
+
+#### hardware/broadcom/libbt/
+* [libbt: configure audio codec right after firmware](https://github.com/search?q=libbt%3A%20configure%20audio%20codec%20right%20after%20firmware&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [IFingerprintInscreen: Allow HALs to control position and size](https://github.com/search?q=IFingerprintInscreen%3A%20Allow%20HALs%20to%20control%20position%20and%20size&type=Commits)
+* [IFingerprintInscreen: Allow HALs to provide finger up/down callback](https://github.com/search?q=IFingerprintInscreen%3A%20Allow%20HALs%20to%20provide%20finger%20up/down%20callback&type=Commits)
+* [IFingerprintInscreen: Allow HALs to control dimming](https://github.com/search?q=IFingerprintInscreen%3A%20Allow%20HALs%20to%20control%20dimming&type=Commits)
+* [Introduce in-screen fingerprint scanner HAL](https://github.com/search?q=Introduce%20in-screen%20fingerprint%20scanner%20HAL&type=Commits)
+
+#### lineage-sdk/
+* [sdk: Add LineageContextConstants.Features.FOD](https://github.com/search?q=sdk%3A%20Add%20LineageContextConstants.Features.FOD&type=Commits)
+
+#### vendor/rr/
+* [vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission](https://github.com/search?q=vendor%3A%20Add%20vendor.lineage.biometrics.fingerprint.inscreen%20permission&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 08-02-2019 End.
+
+07-31-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-31-2019:
+
+#### device/rr/sepolicy/
+* [lineage: Guard neverallowed policy for system_file with userdebug/eng](https://github.com/search?q=lineage%3A%20Guard%20neverallowed%20policy%20for%20system_file%20with%20userdebug/eng&type=Commits)
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 76.0.3809.89](https://github.com/search?q=Update%20Chromium%20Webview%20to%2076.0.3809.89&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8960/
+* [hal: Add support for voice calls on Fusion3 platforms](https://github.com/search?q=hal%3A%20Add%20support%20for%20voice%20calls%20on%20Fusion3%20platforms&type=Commits)
+* [audio-hw: Restrict voice_start_usecase only for 1 call at a time](https://github.com/search?q=audio-hw%3A%20Restrict%20voice_start_usecase%20only%20for%201%20call%20at%20a%20time&type=Commits)
+* [hal: Fix no audio during voice call with voip in background](https://github.com/search?q=hal%3A%20Fix%20no%20audio%20during%20voice%20call%20with%20voip%20in%20background&type=Commits)
+* [hal: fix no sound issue in voice call](https://github.com/search?q=hal%3A%20fix%20no%20sound%20issue%20in%20voice%20call&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-31-2019 End.
+
+07-28-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-28-2019:
+
+#### bootable/recovery/
+* [Make adb sideload work properly](https://github.com/search?q=Make%20adb%20sideload%20work%20properly&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-28-2019 End.
+
+07-27-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-27-2019:
+
+#### bootable/recovery/
+* [recovery: hide option to mount emulated storage after wiping data](https://github.com/search?q=recovery%3A%20hide%20option%20to%20mount%20emulated%20storage%20after%20wiping%20data&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-27-2019 End.
+
+07-26-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-26-2019:
+
+#### hardware/qcom/display-caf/sm8150/
+* [display-hals: Always expose gralloc headers](https://github.com/search?q=display-hals%3A%20Always%20expose%20gralloc%20headers&type=Commits)
+* [display-hals: Allow building libdisplayconfig](https://github.com/search?q=display-hals%3A%20Allow%20building%20libdisplayconfig&type=Commits)
+* [display-hals: Expose c2d2.h even if TARGET_DISABLE_DISPLAY is set](https://github.com/search?q=display-hals%3A%20Expose%20c2d2.h%20even%20if%20TARGET_DISABLE_DISPLAY%20is%20set&type=Commits)
+
+#### packages/apps/Messaging/
+* [Messaging: Avoid duplicating code](https://github.com/search?q=Messaging%3A%20Avoid%20duplicating%20code&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-26-2019 End.
+
+07-25-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-25-2019:
+#### android/
+* [manifest: Track updated NDK ABI dumps](https://github.com/search?q=manifest%3A%20Track%20updated%20NDK%20ABI%20dumps&type=Commits)
+* [Remove empty AOSP repositories](https://github.com/search?q=Remove%20empty%20AOSP%20repositories&type=Commits)
+
+#### bootable/recovery/
+* [recovery: Extend mountable check to all volumes and fix volume selection](https://github.com/search?q=recovery%3A%20Extend%20mountable%20check%20to%20all%20volumes%20and%20fix%20volume%20selection&type=Commits)
+
+#### build/make/
+* [make: Use build prop overrides when generating vendor build.prop too](https://github.com/search?q=make%3A%20Use%20build%20prop%20overrides%20when%20generating%20vendor%20build.prop%20too&type=Commits)
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### build/soong/
+* [Give Blueprint modules access to all namespaces](https://github.com/search?q=Give%20Blueprint%20modules%20access%20to%20all%20namespaces&type=Commits)
+
+#### device/rr/sepolicy/
+* [Merge https://github.com/LineageOS/android_device_lineage_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_device_lineage_sepolicy%20into%20pie&type=Commits)
+
+#### frameworks/av/
+* [media: Add support for up to level 6.2 for AVC](https://github.com/search?q=media%3A%20Add%20support%20for%20up%20to%20level%206.2%20for%20AVC&type=Commits)
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [CameraService: Support hooks for motorized camera](https://github.com/search?q=CameraService%3A%20Support%20hooks%20for%20motorized%20camera&type=Commits)
+
+#### frameworks/base/
+* [jni: Fix improper call to createFromExisting()](https://github.com/search?q=jni%3A%20Fix%20improper%20call%20to%20createFromExisting%28%29&type=Commits)
+* [NetworkManagement : Add ability to restrict app vpn usage](https://github.com/search?q=NetworkManagement%20%3A%20Add%20ability%20to%20restrict%20app%20vpn%20usage&type=Commits)
+* [MediaCodecInfo: Add support for level 6.2](https://github.com/search?q=MediaCodecInfo%3A%20Add%20support%20for%20level%206.2&type=Commits)
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [Improve performance of unclipped save layers.](https://github.com/search?q=Improve%20performance%20of%20unclipped%20save%20layers.&type=Commits)
+* [Switch widgets away from android.text.format.Time](https://github.com/search?q=Switch%20widgets%20away%20from%20android.text.format.Time&type=Commits)
+* [Migrate telephony code away from Time](https://github.com/search?q=Migrate%20telephony%20code%20away%20from%20Time&type=Commits)
+* [Remove unused class](https://github.com/search?q=Remove%20unused%20class&type=Commits)
+* [Remove unnecessary usage of deprecated Time class](https://github.com/search?q=Remove%20unnecessary%20usage%20of%20deprecated%20Time%20class&type=Commits)
+* [Add a basic benchmark for android.text.format.Time](https://github.com/search?q=Add%20a%20basic%20benchmark%20for%20android.text.format.Time&type=Commits)
+* [Avoid use of DateUtilsBridge.icuTimeZone()](https://github.com/search?q=Avoid%20use%20of%20DateUtilsBridge.icuTimeZone%28%29&type=Commits)
+* [frameworks/base: squash import translations from LineageOS Done using the following command:](https://github.com/search?q=frameworks/base%3A%20squash%20import%20translations%20from%20LineageOS%20Done%20using%20the%20following%20command%3A&type=Commits)
+
+#### frameworks/native/
+* [media: Add support for level 6-6.2 for AVC](https://github.com/search?q=media%3A%20Add%20support%20for%20level%206-6.2%20for%20AVC&type=Commits)
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [Add vendor version for libgui](https://github.com/search?q=Add%20vendor%20version%20for%20libgui&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge https://github.com/LineageOS/android_frameworks_opt_net_wifi into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_frameworks_opt_net_wifi%20into%20pie&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Fix null pointer exception on AvrcpTargetService](https://github.com/search?q=Fix%20null%20pointer%20exception%20on%20AvrcpTargetService&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge https://github.com/LineageOS/android_packages_apps_DocumentsUI into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_DocumentsUI%20into%20pie&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Merge https://github.com/LineageOS/android_packages_apps_ExactCalculator into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_ExactCalculator%20into%20pie&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Revert "LineageParts: Add volume panel left/right setting"](https://github.com/search?q=Revert%20"LineageParts%3A%20Add%20volume%20panel%20left/right%20setting"&type=Commits)
+* [Merge https://github.com/LineageOS/android_packages_apps_LineageParts into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_LineageParts%20into%20pie&type=Commits)
+
+#### packages/apps/PackageInstaller/
+* [Merge https://github.com/LineageOS/android_packages_apps_PackageInstaller into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_PackageInstaller%20into%20pie&type=Commits)
+
+#### packages/apps/Settings/
+* [Revert "Settings: Preserve sound timeout pref when showing legacy notification settings"](https://github.com/search?q=Revert%20"Settings%3A%20Preserve%20sound%20timeout%20pref%20when%20showing%20legacy%20notification%20settings"&type=Commits)
+* [Revert "Add setup UI for minimum delay between an app's notification sounds"](https://github.com/search?q=Revert%20"Add%20setup%20UI%20for%20minimum%20delay%20between%20an%20app%27s%20notification%20sounds"&type=Commits)
+* [Settings: Preserve sound timeout pref when showing legacy notification settings](https://github.com/search?q=Settings%3A%20Preserve%20sound%20timeout%20pref%20when%20showing%20legacy%20notification%20settings&type=Commits)
+* [Settings: per-app VPN data restriction](https://github.com/search?q=Settings%3A%20per-app%20VPN%20data%20restriction&type=Commits)
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [Add setup UI for minimum delay between an app's notification sounds](https://github.com/search?q=Add%20setup%20UI%20for%20minimum%20delay%20between%20an%20app%27s%20notification%20sounds&type=Commits)
+* [Settings: squash import translations from LineageOS Done using the following command:](https://github.com/search?q=Settings%3A%20squash%20import%20translations%20from%20LineageOS%20Done%20using%20the%20following%20command%3A&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge https://github.com/LineageOS/android_packages_apps_Trebuchet into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_apps_Trebuchet%20into%20pie&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge https://github.com/LineageOS/android_packages_services_Telecomm into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_packages_services_Telecomm%20into%20pie&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+
+#### system/core/
+* [Merge remote-tracking branch 'aosp/pie-gsi' into lineage-16.0-pie-gsi](https://github.com/search?q=Merge%20remote-tracking%20branch%20%27aosp/pie-gsi%27%20into%20lineage-16.0-pie-gsi&type=Commits)
+* [fastboot: Add --cmdline alias](https://github.com/search?q=fastboot%3A%20Add%20--cmdline%20alias&type=Commits)
+
+#### system/sepolicy/
+* [Merge https://github.com/LineageOS/android_system_sepolicy into pie](https://github.com/search?q=Merge%20https%3A//github.com/LineageOS/android_system_sepolicy%20into%20pie&type=Commits)
+
+#### vendor/rr/
+* [common: Add getcap/setcap to PRODUCT_PACKAGES](https://github.com/search?q=common%3A%20Add%20getcap/setcap%20to%20PRODUCT_PACKAGES&type=Commits)
+* [extract_utils: Support multidex](https://github.com/search?q=extract_utils%3A%20Support%20multidex&type=Commits)
+* [kernel: Consider depmod version when handling kernel modules](https://github.com/search?q=kernel%3A%20Consider%20depmod%20version%20when%20handling%20kernel%20modules&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-25-2019 End.
+
+07-24-2019
+====================
+
+#### Resurrection Remix OS - Pie source changes of 07-24-2019:
+
+#### external/gptfdisk/
+* [gptfdisk: include gptcl.h after sgdisk.h](https://github.com/search?q=gptfdisk%3A%20include%20gptcl.h%20after%20sgdisk.h&type=Commits)
+
+#### frameworks/base/
+* [Merge pull request #265 from rebenok90x/pie](https://github.com/search?q=Merge%20pull%20request%20%23265%20from%20rebenok90x/pie&type=Commits)
+
+#### packages/apps/Messaging/
+* [Messaging: And there shall be light (LED)](https://github.com/search?q=Messaging%3A%20And%20there%20shall%20be%20light%20%28LED%29&type=Commits)
+
+#### Resurrection Remix OS - Pie source changes of 07-24-2019 End.
+
 07-23-2019
 ====================
 
