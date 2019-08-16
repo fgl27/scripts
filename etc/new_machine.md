@@ -80,8 +80,7 @@ Deleting the old Home
 
 #### Personal installation list (things only really related to my personal use of a computer)
 
-	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted dconf-tools xserver-xorg-input-synaptics samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch
-
+	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted dconf-tools samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch xserver-xorg-input-synaptics-hwe-18.04
 
 #### libreoffice start
 
@@ -259,7 +258,7 @@ Extension SDK Install Samsung Certificate Extension, and under TV Extension Tool
 
 list
 
-	sudo fdisk -l 
+	sudo fdisk -l
 	umount /dev/sdb
 
 copy
@@ -277,11 +276,15 @@ sync
 	sudo smbpasswd -a <user_name>
 
 ## Install KiCad
+http://kicad-pcb.org/download/ubuntu/
+
+	sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
 
 	sudo apt-get install kicad kicad-footprints kicad-libraries kicad-symbols kicad-templates kicad-packages3d kicad-doc-en kicad-locale-pt
 
 ## Set KiCad end
 
+https://www.virtualbox.org/wiki/Downloads
 
 ## Set NVIDIA Start
 

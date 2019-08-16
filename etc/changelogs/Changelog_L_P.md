@@ -1,6 +1,485 @@
-
 LineageOS - Pie source and Quark Changelog:
 ============================================================
+
+08-16-2019
+====================
+
+#### LineageOS - Pie source changes of 08-16-2019:
+
+* project vendor/lineage/
+* [overlay: Remove config_wifi_wakeup_available](https://github.com/search?q=overlay%3A%20Remove%20config_wifi_wakeup_available&type=Commits)
+
+#### LineageOS - Pie source changes of 08-16-2019 End.
+
+08-15-2019
+====================
+
+#### LineageOS - Pie source changes of 08-15-2019:
+
+* project lineage/wiki/
+* [jf*: Remove unecessary before_installs](https://github.com/search?q=jf*%3A%20Remove%20unecessary%20before_installs&type=Commits)
+
+#### LineageOS - Pie source changes of 08-15-2019 End.
+
+08-13-2019
+====================
+
+#### LineageOS - Pie source changes of 08-13-2019:
+
+* project frameworks/base/
+* [Fix wrong locale causing reboot in recovery](https://github.com/search?q=Fix%20wrong%20locale%20causing%20reboot%20in%20recovery&type=Commits)
+
+* project lineage/cve/
+* [Regenerate kernel->device mappings](https://github.com/search?q=Regenerate%20kernel->device%20mappings&type=Commits)
+
+* project lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+* project lineage/scripts/
+* [Update Chromium Webview to 76.0.3809.89](https://github.com/search?q=Update%20Chromium%20Webview%20to%2076.0.3809.89&type=Commits)
+
+#### LineageOS - Pie source changes of 08-13-2019 End.
+
+08-12-2019
+====================
+
+#### LineageOS - Pie source changes of 08-12-2019:
+
+* project frameworks/av/
+* [Camera: Lazy load sound files to speed up camera startup](https://github.com/search?q=Camera%3A%20Lazy%20load%20sound%20files%20to%20speed%20up%20camera%20startup&type=Commits)
+
+* project frameworks/base/
+* [Correction in logic of roundend size calculation of SD card](https://github.com/search?q=Correction%20in%20logic%20of%20roundend%20size%20calculation%20of%20SD%20card&type=Commits)
+
+* project lineage/crowdin/
+* [config: Remove Yahoo und WUnderground providers](https://github.com/search?q=config%3A%20Remove%20Yahoo%20und%20WUnderground%20providers&type=Commits)
+
+* project lineage/wiki/
+* [wiki: Change <url>(mirror)</url> to (<url>mirror</url>) on gapps page](https://github.com/search?q=wiki%3A%20Change%20<url>%28mirror%29</url>%20to%20%28<url>mirror</url>%29%20on%20gapps%20page&type=Commits)
+* [mata: Fix broken TWRP download link](https://github.com/search?q=mata%3A%20Fix%20broken%20TWRP%20download%20link&type=Commits)
+
+#### LineageOS - Pie source changes of 08-12-2019 End.
+
+08-11-2019
+====================
+
+#### LineageOS - Pie source changes of 08-11-2019:
+* project android/
+* [manifest: android-9.0.0_r44 -> android-9.0.0_r46](https://github.com/search?q=manifest%3A%20android-9.0.0_r44%20->%20android-9.0.0_r46&type=Commits)
+
+* project bootable/recovery/
+* [recovery: calibrate touchscreen](https://github.com/search?q=recovery%3A%20calibrate%20touchscreen&type=Commits)
+
+* project frameworks/native/
+* [Fix build error](https://github.com/search?q=Fix%20build%20error&type=Commits)
+* [SF : Map metadata before accessing value.](https://github.com/search?q=SF%20%3A%20Map%20metadata%20before%20accessing%20value.&type=Commits)
+* [SF: Add support for 64 bit consumer usage flag](https://github.com/search?q=SF%3A%20Add%20support%20for%2064%20bit%20consumer%20usage%20flag&type=Commits)
+* [sf: Do not black out HDR layer](https://github.com/search?q=sf%3A%20Do%20not%20black%20out%20HDR%20layer&type=Commits)
+* [Exsf: Add hardware hdr capability check](https://github.com/search?q=Exsf%3A%20Add%20hardware%20hdr%20capability%20check&type=Commits)
+* [SurfaceFlinger: Exclude CAF extensions from non-QC devices](https://github.com/search?q=SurfaceFlinger%3A%20Exclude%20CAF%20extensions%20from%20non-QC%20devices&type=Commits)
+* [SF : Include display Intf headers library](https://github.com/search?q=SF%20%3A%20Include%20display%20Intf%20headers%20library&type=Commits)
+* [SurfaceFlinger: Combine SF Refactor changes.](https://github.com/search?q=SurfaceFlinger%3A%20Combine%20SF%20Refactor%20changes.&type=Commits)
+
+* project lineage/hudson/
+* [Hey m8, I'm back!](https://github.com/search?q=Hey%20m8,%20I%27m%20back!&type=Commits)
+* [hudson: hlte* has returned](https://github.com/search?q=hudson%3A%20hlte*%20has%20returned&type=Commits)
+
+* project lineage/wiki/
+* [wiki: devices: jf: Drop custom TWRP](https://github.com/search?q=wiki%3A%20devices%3A%20jf%3A%20Drop%20custom%20TWRP&type=Commits)
+* [wiki: devices: jf*/jactive* needs data formatted on upgrade](https://github.com/search?q=wiki%3A%20devices%3A%20jf*/jactive*%20needs%20data%20formatted%20on%20upgrade&type=Commits)
+* [wiki: Ressurect m8](https://github.com/search?q=wiki%3A%20Ressurect%20m8&type=Commits)
+* [wiki: Move hlte* to 16.0](https://github.com/search?q=wiki%3A%20Move%20hlte*%20to%2016.0&type=Commits)
+
+* project vendor/lineage/
+* [vendor: Add qcom platform type to soongs vars](https://github.com/search?q=vendor%3A%20Add%20qcom%20platform%20type%20to%20soongs%20vars&type=Commits)
+* [config: Remove duplicate notification sounds](https://github.com/search?q=config%3A%20Remove%20duplicate%20notification%20sounds&type=Commits)
+* [config: Include charging sounds in notification sounds](https://github.com/search?q=config%3A%20Include%20charging%20sounds%20in%20notification%20sounds&type=Commits)
+
+#### LineageOS - Pie source changes of 08-11-2019 End.
+
+08-10-2019
+====================
+
+#### LineageOS - Pie source changes of 08-10-2019:
+
+* project lineage/hudson/
+* [hudson: RIP Xiaomi for now](https://github.com/search?q=hudson%3A%20RIP%20Xiaomi%20for%20now&type=Commits)
+
+#### LineageOS - Pie source changes of 08-10-2019 End.
+
+08-09-2019
+====================
+
+#### LineageOS - Pie source changes of 08-09-2019:
+* project android/
+* [Switch prebuilts/abi-dumps/vndk to our fork](https://github.com/search?q=Switch%20prebuilts/abi-dumps/vndk%20to%20our%20fork&type=Commits)
+
+* project lineage/mirror/
+* [Updated to 09-Aug-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2009-Aug-2019%2000%3A00%20UTC&type=Commits)
+
+* project packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+* project prebuilts/abi-dumps/vndk/
+* [Update libsoftkeymasterdevice ABIs](https://github.com/search?q=Update%20libsoftkeymasterdevice%20ABIs&type=Commits)
+
+#### LineageOS - Pie source changes of 08-09-2019 End.
+
+08-08-2019
+====================
+
+#### LineageOS - Pie source changes of 08-08-2019:
+* project android/
+* [Switch system/keymaster & test/vts-testcase/vndk to our forks](https://github.com/search?q=Switch%20system/keymaster%20&%20test/vts-testcase/vndk%20to%20our%20forks&type=Commits)
+
+* project packages/apps/LineageParts/
+* [PrivacyGuard: Resolve error message hardcoded white color](https://github.com/search?q=PrivacyGuard%3A%20Resolve%20error%20message%20hardcoded%20white%20color&type=Commits)
+
+* project vendor/lineage/
+* [overlay: Remove config_auto_perf_activities](https://github.com/search?q=overlay%3A%20Remove%20config_auto_perf_activities&type=Commits)
+
+#### LineageOS - Pie source changes of 08-08-2019 End.
+
+08-07-2019
+====================
+
+#### LineageOS - Pie source changes of 08-07-2019:
+
+* project bootable/recovery/
+* [recovery: fix unused parameter build error on user builds](https://github.com/search?q=recovery%3A%20fix%20unused%20parameter%20build%20error%20on%20user%20builds&type=Commits)
+
+* project vendor/nxp/opensource/commonsys/packages/apps/Nfc/
+* [Prevent OOB Read in Mfc_Transceive](https://github.com/search?q=Prevent%20OOB%20Read%20in%20Mfc_Transceive&type=Commits)
+* [Prevent OOB write in Mfc_Transceive](https://github.com/search?q=Prevent%20OOB%20write%20in%20Mfc_Transceive&type=Commits)
+* [Prevent OOB write in phFriNfc_ExtnsTransceive](https://github.com/search?q=Prevent%20OOB%20write%20in%20phFriNfc_ExtnsTransceive&type=Commits)
+* [Skip setEnableHostRouting when switching to screen off](https://github.com/search?q=Skip%20setEnableHostRouting%20when%20switching%20to%20screen%20off&type=Commits)
+
+#### LineageOS - Pie source changes of 08-07-2019 End.
+
+08-06-2019
+====================
+
+#### LineageOS - Pie source changes of 08-06-2019:
+
+* project art/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project build/make/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project frameworks/av/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project frameworks/base/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project frameworks/native/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project lineage/hudson/
+* [hudson: Move j{activelte|flte*} to 16.0](https://github.com/search?q=hudson%3A%20Move%20j{activelte|flte*}%20to%2016.0&type=Commits)
+
+* project lineage/wiki/
+* [wiki: Promote j{activelte|f*} to 16.0](https://github.com/search?q=wiki%3A%20Promote%20j{activelte|f*}%20to%2016.0&type=Commits)
+
+* project packages/apps/Bluetooth/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project packages/apps/Email/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project packages/apps/Nfc/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project packages/apps/Settings/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project packages/apps/UnifiedEmail/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project packages/inputmethods/LatinIME/
+* [LatinIME: Add Hungarian QWERTY, enable predictive dictionary](https://github.com/search?q=LatinIME%3A%20Add%20Hungarian%20QWERTY,%20enable%20predictive%20dictionary&type=Commits)
+* [Add support for Georgian spell checking](https://github.com/search?q=Add%20support%20for%20Georgian%20spell%20checking&type=Commits)
+* [Set proper keyboard for Georgian script](https://github.com/search?q=Set%20proper%20keyboard%20for%20Georgian%20script&type=Commits)
+* [Add support for Bulgarian spell checking](https://github.com/search?q=Add%20support%20for%20Bulgarian%20spell%20checking&type=Commits)
+* [Add new type for Bulgarian script](https://github.com/search?q=Add%20new%20type%20for%20Bulgarian%20script&type=Commits)
+* [Add support for Portuguese spell checking](https://github.com/search?q=Add%20support%20for%20Portuguese%20spell%20checking&type=Commits)
+* [Add support for Hebrew spell checking](https://github.com/search?q=Add%20support%20for%20Hebrew%20spell%20checking&type=Commits)
+* [Add support for Croatian spell checking](https://github.com/search?q=Add%20support%20for%20Croatian%20spell%20checking&type=Commits)
+* [Add support for Czech spell checking](https://github.com/search?q=Add%20support%20for%20Czech%20spell%20checking&type=Commits)
+* [Add support for Polish spell checking](https://github.com/search?q=Add%20support%20for%20Polish%20spell%20checking&type=Commits)
+
+* project packages/services/Telecomm/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project system/bt/
+* [Merge tag 'android-9.0.0_r46' into staging/lineage-16.0_merge-android-9.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r46%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r46&type=Commits)
+
+* project vendor/lineage/
+* [LatinIME: Add Polish dictionary](https://github.com/search?q=LatinIME%3A%20Add%20Polish%20dictionary&type=Commits)
+
+* project vendor/qcom/opensource/audio/
+* [policy_hal: Adapt to AudioMix API changes in f/av audiopolicy](https://github.com/search?q=policy_hal%3A%20Adapt%20to%20AudioMix%20API%20changes%20in%20f/av%20audiopolicy&type=Commits)
+
+#### LineageOS - Pie source changes of 08-06-2019 End.
+
+08-04-2019
+====================
+
+#### LineageOS - Pie source changes of 08-04-2019:
+
+* project frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [SystemUI: Use appropriate function when trying to retrieve colorError](https://github.com/search?q=SystemUI%3A%20Use%20appropriate%20function%20when%20trying%20to%20retrieve%20colorError&type=Commits)
+
+* project hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Backgrounds/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/LockClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+* project packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - Pie source changes of 08-04-2019 End.
+
+08-03-2019
+====================
+
+#### LineageOS - Pie source changes of 08-03-2019:
+
+* project packages/inputmethods/LatinIME/
+* [Add support for Ukrainian spell checking](https://github.com/search?q=Add%20support%20for%20Ukrainian%20spell%20checking&type=Commits)
+
+#### LineageOS - Pie source changes of 08-03-2019 End.
+
+08-02-2019
+====================
+
+#### LineageOS - Pie source changes of 08-02-2019:
+
+* project build/make/
+* [fix "build: Only set the default verity key as a fallback"](https://github.com/search?q=fix%20"build%3A%20Only%20set%20the%20default%20verity%20key%20as%20a%20fallback"&type=Commits)
+
+* project hardware/broadcom/libbt/
+* [libbt: configure audio codec right after firmware](https://github.com/search?q=libbt%3A%20configure%20audio%20codec%20right%20after%20firmware&type=Commits)
+
+#### LineageOS - Pie source changes of 08-02-2019 End.
+
+08-01-2019
+====================
+
+#### LineageOS - Pie source changes of 08-01-2019:
+* project android/
+* [manifest: Use master branch for chromium-webview](https://github.com/search?q=manifest%3A%20Use%20master%20branch%20for%20chromium-webview&type=Commits)
+
+* project frameworks/base/
+* [SystemUI: Fix multiple issues with hiding unprovisioned SIMs](https://github.com/search?q=SystemUI%3A%20Fix%20multiple%20issues%20with%20hiding%20unprovisioned%20SIMs&type=Commits)
+
+* project lineage/contributors-cloud-generator/
+* [Fix another null pointer](https://github.com/search?q=Fix%20another%20null%20pointer&type=Commits)
+* [Bump DEFAULT_SIZE to 1928](https://github.com/search?q=Bump%20DEFAULT_SIZE%20to%201928&type=Commits)
+
+* project vendor/lineage/
+* [lineage: Make a lineage_x86_64 target](https://github.com/search?q=lineage%3A%20Make%20a%20lineage_x86_64%20target&type=Commits)
+
+#### LineageOS - Pie source changes of 08-01-2019 End.
+
+07-31-2019
+====================
+
+#### LineageOS - Pie source changes of 07-31-2019:
+
+* project build/make/
+* [build: Only set the default verity key as a fallback](https://github.com/search?q=build%3A%20Only%20set%20the%20default%20verity%20key%20as%20a%20fallback&type=Commits)
+
+* project device/lineage/sepolicy/
+* [lineage: Guard neverallowed policy for system_file with userdebug/eng](https://github.com/search?q=lineage%3A%20Guard%20neverallowed%20policy%20for%20system_file%20with%20userdebug/eng&type=Commits)
+
+* project external/chromium-webview/
+* [Update Chromium Webview to 76.0.3809.89](https://github.com/search?q=Update%20Chromium%20Webview%20to%2076.0.3809.89&type=Commits)
+
+* project hardware/qcom/audio-caf/msm8960/
+* [hal: Add support for voice calls on Fusion3 platforms](https://github.com/search?q=hal%3A%20Add%20support%20for%20voice%20calls%20on%20Fusion3%20platforms&type=Commits)
+* [audio-hw: Restrict voice_start_usecase only for 1 call at a time](https://github.com/search?q=audio-hw%3A%20Restrict%20voice_start_usecase%20only%20for%201%20call%20at%20a%20time&type=Commits)
+* [hal: Fix no audio during voice call with voip in background](https://github.com/search?q=hal%3A%20Fix%20no%20audio%20during%20voice%20call%20with%20voip%20in%20background&type=Commits)
+* [hal: fix no sound issue in voice call](https://github.com/search?q=hal%3A%20fix%20no%20sound%20issue%20in%20voice%20call&type=Commits)
+
+* project lineage/hudson/
+* [hudson: Promote a5y17lte and a7y17lte to 16.0](https://github.com/search?q=hudson%3A%20Promote%20a5y17lte%20and%20a7y17lte%20to%2016.0&type=Commits)
+
+* project lineage/wiki/
+* [wiki: Promote a5y17lte and a7y17lte to 16.0](https://github.com/search?q=wiki%3A%20Promote%20a5y17lte%20and%20a7y17lte%20to%2016.0&type=Commits)
+
+#### LineageOS - Pie source changes of 07-31-2019 End.
+
+07-30-2019
+====================
+
+#### LineageOS - Pie source changes of 07-30-2019:
+
+* project lineage/mirror/
+* [Updated to 30-Jul-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2030-Jul-2019%2000%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 07-30-2019 End.
+
+07-28-2019
+====================
+
+#### LineageOS - Pie source changes of 07-28-2019:
+
+* project bootable/recovery/
+* [Make adb sideload work properly](https://github.com/search?q=Make%20adb%20sideload%20work%20properly&type=Commits)
+
+* project frameworks/base/
+* [Fix sim pin on DSDS](https://github.com/search?q=Fix%20sim%20pin%20on%20DSDS&type=Commits)
+* [Dismiss SIM lock page after correct SIM](https://github.com/search?q=Dismiss%20SIM%20lock%20page%20after%20correct%20SIM&type=Commits)
+* [When data switches during voice call, make sure signal bar updates it.](https://github.com/search?q=When%20data%20switches%20during%20voice%20call,%20make%20sure%20signal%20bar%20updates%20it.&type=Commits)
+* [Stop USB Debugging authorization window dismissing on tap outside.](https://github.com/search?q=Stop%20USB%20Debugging%20authorization%20window%20dismissing%20on%20tap%20outside.&type=Commits)
+* [Update navigation bar upon change of display density](https://github.com/search?q=Update%20navigation%20bar%20upon%20change%20of%20display%20density&type=Commits)
+* [Unable to input PIN with hardware keyboard](https://github.com/search?q=Unable%20to%20input%20PIN%20with%20hardware%20keyboard&type=Commits)
+* [Fix the behavior of keyguard bouncer in a corner case](https://github.com/search?q=Fix%20the%20behavior%20of%20keyguard%20bouncer%20in%20a%20corner%20case&type=Commits)
+* [Fixes context for tiles without longClick](https://github.com/search?q=Fixes%20context%20for%20tiles%20without%20longClick&type=Commits)
+* [Fix to register the receiver for all users](https://github.com/search?q=Fix%20to%20register%20the%20receiver%20for%20all%20users&type=Commits)
+* [Remove unnecessary right padding from time picker](https://github.com/search?q=Remove%20unnecessary%20right%20padding%20from%20time%20picker&type=Commits)
+
+#### LineageOS - Pie source changes of 07-28-2019 End.
+
+07-27-2019
+====================
+
+#### LineageOS - Pie source changes of 07-27-2019:
+
+* project bootable/recovery/
+* [recovery: hide option to mount emulated storage after wiping data](https://github.com/search?q=recovery%3A%20hide%20option%20to%20mount%20emulated%20storage%20after%20wiping%20data&type=Commits)
+
+* project lineage/scripts/
+* [scripts: Add atv to devices.py blacklist](https://github.com/search?q=scripts%3A%20Add%20atv%20to%20devices.py%20blacklist&type=Commits)
+
+* project lineage/wiki/
+* [wiki: Allow zenfone to use ab template](https://github.com/search?q=wiki%3A%20Allow%20zenfone%20to%20use%20ab%20template&type=Commits)
+* [wiki: msm8976: Update maintainer list](https://github.com/search?q=wiki%3A%20msm8976%3A%20Update%20maintainer%20list&type=Commits)
+
+#### LineageOS - Pie source changes of 07-27-2019 End.
+
+07-26-2019
+====================
+
+#### LineageOS - Pie source changes of 07-26-2019:
+
+* project frameworks/base/
+* [Default the network location provider to none](https://github.com/search?q=Default%20the%20network%20location%20provider%20to%20none&type=Commits)
+* [combo issue when location reported by providers do not come with extras](https://github.com/search?q=combo%20issue%20when%20location%20reported%20by%20providers%20do%20not%20come%20with%20extras&type=Commits)
+* [NLP Combo feature](https://github.com/search?q=NLP%20Combo%20feature&type=Commits)
+
+* project hardware/qcom/display-caf/sm8150/
+* [display-hals: Always expose gralloc headers](https://github.com/search?q=display-hals%3A%20Always%20expose%20gralloc%20headers&type=Commits)
+* [display-hals: Allow building libdisplayconfig](https://github.com/search?q=display-hals%3A%20Allow%20building%20libdisplayconfig&type=Commits)
+* [display-hals: Expose c2d2.h even if TARGET_DISABLE_DISPLAY is set](https://github.com/search?q=display-hals%3A%20Expose%20c2d2.h%20even%20if%20TARGET_DISABLE_DISPLAY%20is%20set&type=Commits)
+
+* project lineage/charter/
+* [charter: Make changes for the jira to gitlab move](https://github.com/search?q=charter%3A%20Make%20changes%20for%20the%20jira%20to%20gitlab%20move&type=Commits)
+
+* project packages/apps/Messaging/
+* [Messaging: Avoid duplicating code](https://github.com/search?q=Messaging%3A%20Avoid%20duplicating%20code&type=Commits)
+
+#### LineageOS - Pie source changes of 07-26-2019 End.
+
+07-25-2019
+====================
+
+#### LineageOS - Pie source changes of 07-25-2019:
+
+* project bootable/recovery/
+* [recovery: Extend mountable check to all volumes and fix volume selection](https://github.com/search?q=recovery%3A%20Extend%20mountable%20check%20to%20all%20volumes%20and%20fix%20volume%20selection&type=Commits)
+
+* project packages/apps/Bluetooth/
+* [Fix null pointer exception on AvrcpTargetService](https://github.com/search?q=Fix%20null%20pointer%20exception%20on%20AvrcpTargetService&type=Commits)
+
+* project vendor/lineage/
+* [privapp-permissions: Allow Trebuchet to use android.permission.STATUS_BAR](https://github.com/search?q=privapp-permissions%3A%20Allow%20Trebuchet%20to%20use%20android.permission.STATUS_BAR&type=Commits)
+
+#### LineageOS - Pie source changes of 07-25-2019 End.
+
+07-24-2019
+====================
+
+#### LineageOS - Pie source changes of 07-24-2019:
+
+* project external/gptfdisk/
+* [gptfdisk: include gptcl.h after sgdisk.h](https://github.com/search?q=gptfdisk%3A%20include%20gptcl.h%20after%20sgdisk.h&type=Commits)
+
+* project frameworks/base/
+* [jni: Fix improper call to createFromExisting()](https://github.com/search?q=jni%3A%20Fix%20improper%20call%20to%20createFromExisting%28%29&type=Commits)
+* [ProfilesTile: Enable authentication for handleClick()](https://github.com/search?q=ProfilesTile%3A%20Enable%20authentication%20for%20handleClick%28%29&type=Commits)
+
+* project packages/apps/Messaging/
+* [Messaging: And there shall be light (LED)](https://github.com/search?q=Messaging%3A%20And%20there%20shall%20be%20light%20%28LED%29&type=Commits)
+
+* project packages/apps/Settings/
+* [Settings: Preserve sound timeout pref when showing legacy notification settings](https://github.com/search?q=Settings%3A%20Preserve%20sound%20timeout%20pref%20when%20showing%20legacy%20notification%20settings&type=Commits)
+
+#### LineageOS - Pie source changes of 07-24-2019 End.
 
 07-23-2019
 ====================
