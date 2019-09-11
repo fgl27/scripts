@@ -1,6 +1,462 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+09-11-2019
+====================
+
+#### Device specific Changes of 09-11-2019 Start:
+
+#### Device/Quark/
+* [Quark: reserve 128MB for critical system components.](https://github.com/search?q=Quark%3A%20reserve%20128MB%20for%20critical%20system%20components.&type=Commits)
+* [Quark: allow additional gralloc 1.0 buffer usage bits](https://github.com/search?q=Quark%3A%20allow%20additional%20gralloc%201.0%20buffer%20usage%20bits&type=Commits)
+
+#### Device specific Changes of 09-11-2019 End.
+
+***
+
+#### LineageOS - Pie source changes of 09-11-2019:
+
+#### build/make/
+* [check_boot_jars: Add CAF IMS to whitelist](https://github.com/search?q=check_boot_jars%3A%20Add%20CAF%20IMS%20to%20whitelist&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+
+#### LineageOS - Pie source changes of 09-11-2019 End.
+
+09-10-2019
+====================
+
+#### LineageOS - Pie source changes of 09-10-2019:
+
+#### frameworks/base/
+* [Fix Layout.primaryIsTrailingPreviousAllLineOffsets](https://github.com/search?q=Fix%20Layout.primaryIsTrailingPreviousAllLineOffsets&type=Commits)
+* [HidProfile: sync isPreferred() with HidHostService](https://github.com/search?q=HidProfile%3A%20sync%20isPreferred%28%29%20with%20HidHostService&type=Commits)
+* [Correct argument order in permission check](https://github.com/search?q=Correct%20argument%20order%20in%20permission%20check&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 10-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2010-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Fix opening PEM files in CertInstaller](https://github.com/search?q=Fix%20opening%20PEM%20files%20in%20CertInstaller&type=Commits)
+
+#### vendor/lineage/
+* [extract_utils: Support extracting from product partition](https://github.com/search?q=extract_utils%3A%20Support%20extracting%20from%20product%20partition&type=Commits)
+
+#### LineageOS - Pie source changes of 09-10-2019 End.
+
+09-09-2019
+====================
+
+#### LineageOS - Pie source changes of 09-09-2019:
+
+#### lineage/mirror/
+* [Updated to 09-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2009-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 09-09-2019 End.
+
+09-08-2019
+====================
+
+#### LineageOS - Pie source changes of 09-08-2019:
+
+#### lineage/hudson/
+* [Revert "Disable FP2"](https://github.com/search?q=Revert%20"Disable%20FP2"&type=Commits)
+
+#### lineage/wiki/
+* [Revert "wiki: Mark FP2 as unmaintained"](https://github.com/search?q=Revert%20"wiki%3A%20Mark%20FP2%20as%20unmaintained"&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-16.0' into 9.0](https://github.com/search?q=Merge%20%27lineage-16.0%27%20into%209.0&type=Commits)
+
+#### packages/services/Telecomm/
+* [CallLog: Get rid of warning](https://github.com/search?q=CallLog%3A%20Get%20rid%20of%20warning&type=Commits)
+* [CallLog: Fix improper call to SensitivePhoneNumbers](https://github.com/search?q=CallLog%3A%20Fix%20improper%20call%20to%20SensitivePhoneNumbers&type=Commits)
+
+#### vendor/lineage/
+* [lineage: Add goldfish privapp whitelist and move to common lineage makefile](https://github.com/search?q=lineage%3A%20Add%20goldfish%20privapp%20whitelist%20and%20move%20to%20common%20lineage%20makefile&type=Commits)
+* [overlay: Show DocumentsUI internal storage by default](https://github.com/search?q=overlay%3A%20Show%20DocumentsUI%20internal%20storage%20by%20default&type=Commits)
+
+#### LineageOS - Pie source changes of 09-08-2019 End.
+
+09-07-2019
+====================
+
+#### LineageOS - Pie source changes of 09-07-2019:
+
+#### lineage/mirror/
+* [Updated to 07-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2007-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Apply system tint to first private storage](https://github.com/search?q=Settings%3A%20Apply%20system%20tint%20to%20first%20private%20storage&type=Commits)
+
+#### LineageOS - Pie source changes of 09-07-2019 End.
+
+09-06-2019
+====================
+
+#### LineageOS - Pie source changes of 09-06-2019:
+
+#### lineage/mirror/
+* [Updated to 06-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2006-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### packages/apps/LineageParts/
+* [PartsActivity: Add a search button to our activities](https://github.com/search?q=PartsActivity%3A%20Add%20a%20search%20button%20to%20our%20activities&type=Commits)
+
+#### LineageOS - Pie source changes of 09-06-2019 End.
+
+09-05-2019
+====================
+
+#### LineageOS - Pie source changes of 09-05-2019:
+#### android/
+* [manifest: Updates for 2019-09 P ASB](https://github.com/search?q=manifest%3A%20Updates%20for%202019-09%20P%20ASB&type=Commits)
+
+#### build/make/
+* [Bump Security String to 2019-09-05](https://github.com/search?q=Bump%20Security%20String%20to%202019-09-05&type=Commits)
+
+#### external/libcups/
+* [Fix heap buffer overflow in ipp.c](https://github.com/search?q=Fix%20heap%20buffer%20overflow%20in%20ipp.c&type=Commits)
+
+#### external/libhevc/
+* [decoder: Fix valid SPS check in parsing SEI](https://github.com/search?q=decoder%3A%20Fix%20valid%20SPS%20check%20in%20parsing%20SEI&type=Commits)
+
+#### frameworks/base/
+* [Fix NPE in SyncRtSurfaceTransactionApplier#scheduleApply](https://github.com/search?q=Fix%20NPE%20in%20SyncRtSurfaceTransactionApplier%23scheduleApply&type=Commits)
+
+#### frameworks/native/
+* [Fix race between SensorManager ctor and callback](https://github.com/search?q=Fix%20race%20between%20SensorManager%20ctor%20and%20callback&type=Commits)
+* [Free mObjects if no objects left to realloc on resize](https://github.com/search?q=Free%20mObjects%20if%20no%20objects%20left%20to%20realloc%20on%20resize&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 05-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2005-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### packages/apps/Dialer/
+* [Enable Call Recording for Sri Lanka and Costa Rica.](https://github.com/search?q=Enable%20Call%20Recording%20for%20Sri%20Lanka%20and%20Costa%20Rica.&type=Commits)
+
+#### packages/apps/Email/
+* [AOSP/Email - Create an empty Bundle if originalExtras doesn't exit. Backporting the fix to fix NullPointerException.](https://github.com/search?q=AOSP/Email%20-%20Create%20an%20empty%20Bundle%20if%20originalExtras%20doesn%27t%20exit.%20Backporting%20the%20fix%20to%20fix%20NullPointerException.&type=Commits)
+
+#### system/core/
+* [Fix a memory leak in gatekeeper.](https://github.com/search?q=Fix%20a%20memory%20leak%20in%20gatekeeper.&type=Commits)
+
+#### system/nfc/
+* [Prevent OOB read in rw_t4t.cc](https://github.com/search?q=Prevent%20OOB%20read%20in%20rw_t4t.cc&type=Commits)
+* [Prevent integer overflow in NDEF_MsgValidate](https://github.com/search?q=Prevent%20integer%20overflow%20in%20NDEF_MsgValidate&type=Commits)
+
+#### LineageOS - Pie source changes of 09-05-2019 End.
+
+09-04-2019
+====================
+
+#### LineageOS - Pie source changes of 09-04-2019:
+
+#### packages/apps/AudioFX/
+* [Allow opt-out of AudioFX](https://github.com/search?q=Allow%20opt-out%20of%20AudioFX&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Prevent DataSaverBackend from overwriting uid policies](https://github.com/search?q=Settings%3A%20Prevent%20DataSaverBackend%20from%20overwriting%20uid%20policies&type=Commits)
+
+#### vendor/lineage/
+* [Disable AudioFX on atv](https://github.com/search?q=Disable%20AudioFX%20on%20atv&type=Commits)
+
+#### LineageOS - Pie source changes of 09-04-2019 End.
+
+09-03-2019
+====================
+
+#### LineageOS - Pie source changes of 09-03-2019:
+
+#### frameworks/base/
+* [SystemUI: disable wallpaper-based tint for scrim](https://github.com/search?q=SystemUI%3A%20disable%20wallpaper-based%20tint%20for%20scrim&type=Commits)
+* [MTP: Add support of ObjectInfoChanged Event](https://github.com/search?q=MTP%3A%20Add%20support%20of%20ObjectInfoChanged%20Event&type=Commits)
+* [LiveDisplayTile: Remove tile if unavailable](https://github.com/search?q=LiveDisplayTile%3A%20Remove%20tile%20if%20unavailable&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 03-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2003-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### vendor/codeaurora/telephony/
+* [Revert "IMS-VT: Low battery handling for Video calls"](https://github.com/search?q=Revert%20"IMS-VT%3A%20Low%20battery%20handling%20for%20Video%20calls"&type=Commits)
+
+#### vendor/lineage/
+* [prebuilts: Remove outdated TCP init script](https://github.com/search?q=prebuilts%3A%20Remove%20outdated%20TCP%20init%20script&type=Commits)
+* [LatinIME: Add en_GB, en_US, lt, lv, ro, sl, sr, tr dictionaries](https://github.com/search?q=LatinIME%3A%20Add%20en_GB,%20en_US,%20lt,%20lv,%20ro,%20sl,%20sr,%20tr%20dictionaries&type=Commits)
+
+#### LineageOS - Pie source changes of 09-03-2019 End.
+
+09-02-2019
+====================
+
+#### LineageOS - Pie source changes of 09-02-2019:
+
+#### frameworks/base/
+* [fw/b: Use common network restrict apps method](https://github.com/search?q=fw/b%3A%20Use%20common%20network%20restrict%20apps%20method&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Add TARGET_KERNEL_ADDITIONAL_FLAGS to allow setting extra cflags](https://github.com/search?q=kernel%3A%20Add%20TARGET_KERNEL_ADDITIONAL_FLAGS%20to%20allow%20setting%20extra%20cflags&type=Commits)
+
+#### LineageOS - Pie source changes of 09-02-2019 End.
+
+09-01-2019
+====================
+
+#### LineageOS - Pie source changes of 09-01-2019:
+
+#### frameworks/av/
+* [MTP: Add support of ObjectInfoChanged Event](https://github.com/search?q=MTP%3A%20Add%20support%20of%20ObjectInfoChanged%20Event&type=Commits)
+
+#### LineageOS - Pie source changes of 09-01-2019 End.
+
+08-31-2019
+====================
+
+#### LineageOS - Pie source changes of 08-31-2019:
+
+#### system/netd/
+* [netd: Consolidate restrict apps methods](https://github.com/search?q=netd%3A%20Consolidate%20restrict%20apps%20methods&type=Commits)
+
+#### LineageOS - Pie source changes of 08-31-2019 End.
+
+08-30-2019
+====================
+
+#### LineageOS - Pie source changes of 08-30-2019:
+
+#### frameworks/base/
+* [Allow override of DUN settings](https://github.com/search?q=Allow%20override%20of%20DUN%20settings&type=Commits)
+
+#### lineage-sdk/
+* [lineage-sdk: Refactor ActionUtils](https://github.com/search?q=lineage-sdk%3A%20Refactor%20ActionUtils&type=Commits)
+
+#### LineageOS - Pie source changes of 08-30-2019 End.
+
+08-29-2019
+====================
+
+#### LineageOS - Pie source changes of 08-29-2019:
+
+#### frameworks/opt/telephony/
+* [Sort activeSubscriptionInfoList according to API annotation](https://github.com/search?q=Sort%20activeSubscriptionInfoList%20according%20to%20API%20annotation&type=Commits)
+
+#### packages/apps/Jelly/
+* [Jelly: Rename contentDescription to contentDisposition in WebViewExt](https://github.com/search?q=Jelly%3A%20Rename%20contentDescription%20to%20contentDisposition%20in%20WebViewExt&type=Commits)
+
+#### system/sepolicy/
+* [adbd: do not audit vsock_socket create](https://github.com/search?q=adbd%3A%20do%20not%20audit%20vsock_socket%20create&type=Commits)
+
+#### LineageOS - Pie source changes of 08-29-2019 End.
+
+08-28-2019
+====================
+
+#### LineageOS - Pie source changes of 08-28-2019:
+
+#### lineage/hudson/
+* [Disable FP2](https://github.com/search?q=Disable%20FP2&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Fix typos in uses_lineage_recovery property](https://github.com/search?q=wiki%3A%20Fix%20typos%20in%20uses_lineage_recovery%20property&type=Commits)
+* [wiki: Mark FP2 as unmaintained](https://github.com/search?q=wiki%3A%20Mark%20FP2%20as%20unmaintained&type=Commits)
+* [wiki: Validate more properties](https://github.com/search?q=wiki%3A%20Validate%20more%20properties&type=Commits)
+* [wiki: Describe "channels" property](https://github.com/search?q=wiki%3A%20Describe%20"channels"%20property&type=Commits)
+
+#### system/core/
+* [ueventd: parallelize restorecon /sys](https://github.com/search?q=ueventd%3A%20parallelize%20restorecon%20/sys&type=Commits)
+
+#### LineageOS - Pie source changes of 08-28-2019 End.
+
+08-27-2019
+====================
+
+#### LineageOS - Pie source changes of 08-27-2019:
+
+#### build/make/
+* [More base_rules.mk optimizations](https://github.com/search?q=More%20base_rules.mk%20optimizations&type=Commits)
+* [Skip much of aux_config.mk](https://github.com/search?q=Skip%20much%20of%20aux_config.mk&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Revive victara](https://github.com/search?q=hudson%3A%20Revive%20victara&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: cheryl: Device is A/B](https://github.com/search?q=wiki%3A%20devices%3A%20cheryl%3A%20Device%20is%20A/B&type=Commits)
+* [wiki: Revive victara](https://github.com/search?q=wiki%3A%20Revive%20victara&type=Commits)
+* [wiki: Make "carrier" an optional field for devices](https://github.com/search?q=wiki%3A%20Make%20"carrier"%20an%20optional%20field%20for%20devices&type=Commits)
+* [wiki: Mark d852 as unmaintained](https://github.com/search?q=wiki%3A%20Mark%20d852%20as%20unmaintained&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Remove sound timeout preference from channel_settings PreferenceScreen](https://github.com/search?q=Settings%3A%20Remove%20sound%20timeout%20preference%20from%20channel_settings%20PreferenceScreen&type=Commits)
+
+#### LineageOS - Pie source changes of 08-27-2019 End.
+
+08-26-2019
+====================
+
+#### LineageOS - Pie source changes of 08-26-2019:
+
+#### hardware/interfaces/
+* [Wifi: Syncronization on reading and writing ringbuffer](https://github.com/search?q=Wifi%3A%20Syncronization%20on%20reading%20and%20writing%20ringbuffer&type=Commits)
+
+#### lineage-sdk/
+* [lineage-sdk: Fix traffic stats for tethering and vpn use cases](https://github.com/search?q=lineage-sdk%3A%20Fix%20traffic%20stats%20for%20tethering%20and%20vpn%20use%20cases&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/crowdin/
+* [Add device/oneplus/guacamole to lineage 16.0 extra packages](https://github.com/search?q=Add%20device/oneplus/guacamole%20to%20lineage%2016.0%20extra%20packages&type=Commits)
+* [crowdin: Don't clean non-xml and handle errors for xml-files](https://github.com/search?q=crowdin%3A%20Don%27t%20clean%20non-xml%20and%20handle%20errors%20for%20xml-files&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Unship d852](https://github.com/search?q=hudson%3A%20Unship%20d852&type=Commits)
+* [hudson: Move LG G3 family to 16.0](https://github.com/search?q=hudson%3A%20Move%20LG%20G3%20family%20to%2016.0&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Make device info pages a little less crowded](https://github.com/search?q=wiki%3A%20Make%20device%20info%20pages%20a%20little%20less%20crowded&type=Commits)
+* [wiki: Move LG G3 family to 16.0](https://github.com/search?q=wiki%3A%20Move%20LG%20G3%20family%20to%2016.0&type=Commits)
+* [wiki: Add warning for additional app installation](https://github.com/search?q=wiki%3A%20Add%20warning%20for%20additional%20app%20installation&type=Commits)
+
+#### vendor/lineage/
+* [overlay: Disable config_keyguardUserSwitcher on sw600dp](https://github.com/search?q=overlay%3A%20Disable%20config_keyguardUserSwitcher%20on%20sw600dp&type=Commits)
+
+#### LineageOS - Pie source changes of 08-26-2019 End.
+
+08-25-2019
+====================
+
+#### LineageOS - Pie source changes of 08-25-2019:
+#### android/
+* [manifest: Track device/lineage/atv](https://github.com/search?q=manifest%3A%20Track%20device/lineage/atv&type=Commits)
+
+#### device/lineage/atv/
+* [atv: Standardize folder naming conventions](https://github.com/search?q=atv%3A%20Standardize%20folder%20naming%20conventions&type=Commits)
+* [atv: Fixup copy-file variable](https://github.com/search?q=atv%3A%20Fixup%20copy-file%20variable&type=Commits)
+* [atv: Add TvSettings privapp-permissions](https://github.com/search?q=atv%3A%20Add%20TvSettings%20privapp-permissions&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [sdk: tests: fix LineageHardwareTest](https://github.com/search?q=sdk%3A%20tests%3A%20fix%20LineageHardwareTest&type=Commits)
+
+#### lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Fix "adding device"](https://github.com/search?q=wiki%3A%20Fix%20"adding%20device"&type=Commits)
+
+#### packages/apps/Backgrounds/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/lineage/
+* [lineage: atv: Inherit lineage atv device tree](https://github.com/search?q=lineage%3A%20atv%3A%20Inherit%20lineage%20atv%20device%20tree&type=Commits)
+
+#### LineageOS - Pie source changes of 08-25-2019 End.
+
+08-24-2019
+====================
+
+#### LineageOS - Pie source changes of 08-24-2019:
+
+#### device/lineage/sepolicy/
+* [sepolicy: Add hal_lineage_fod domain](https://github.com/search?q=sepolicy%3A%20Add%20hal_lineage_fod%20domain&type=Commits)
+
+#### frameworks/base/
+* [Initial support for in-display fingerprint sensors](https://github.com/search?q=Initial%20support%20for%20in-display%20fingerprint%20sensors&type=Commits)
+
+#### lineage-sdk/
+* [sdk: Add LineageContextConstants.Features.FOD](https://github.com/search?q=sdk%3A%20Add%20LineageContextConstants.Features.FOD&type=Commits)
+
+#### lineage/hudson/
+* [Ship guacamole](https://github.com/search?q=Ship%20guacamole&type=Commits)
+* [Ship fajita](https://github.com/search?q=Ship%20fajita&type=Commits)
+* [hudson: Add new lineage_recovery option to readme](https://github.com/search?q=hudson%3A%20Add%20new%20lineage_recovery%20option%20to%20readme&type=Commits)
+* [hudson: Opt first-flight of devices into Lineage Recovery](https://github.com/search?q=hudson%3A%20Opt%20first-flight%20of%20devices%20into%20Lineage%20Recovery&type=Commits)
+
+#### lineage/wiki/
+* [Link download.lineageos.org instead of raw ftp website](https://github.com/search?q=Link%20download.lineageos.org%20instead%20of%20raw%20ftp%20website&type=Commits)
+* [devices: Add OnePlus 7 Pro (guacamole)](https://github.com/search?q=devices%3A%20Add%20OnePlus%207%20Pro%20%28guacamole%29&type=Commits)
+* [devices: Add OnePlus 6T (fajita)](https://github.com/search?q=devices%3A%20Add%20OnePlus%206T%20%28fajita%29&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Import translations. DO NOT MERGE](https://github.com/search?q=Import%20translations.%20DO%20NOT%20MERGE&type=Commits)
+* [Partially revert "Move new strings to lineage_strings"](https://github.com/search?q=Partially%20revert%20"Move%20new%20strings%20to%20lineage_strings"&type=Commits)
+
+#### vendor/lineage/
+* [backuptool_ab: Make copy_file preserve file/directory attrs](https://github.com/search?q=backuptool_ab%3A%20Make%20copy_file%20preserve%20file/directory%20attrs&type=Commits)
+* [vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission](https://github.com/search?q=vendor%3A%20Add%20vendor.lineage.biometrics.fingerprint.inscreen%20permission&type=Commits)
+
+#### LineageOS - Pie source changes of 08-24-2019 End.
+
+08-23-2019
+====================
+
+#### LineageOS - Pie source changes of 08-23-2019:
+
+#### frameworks/base/
+* [SystemUI: Use matching data usage size formatting between QS and Settings](https://github.com/search?q=SystemUI%3A%20Use%20matching%20data%20usage%20size%20formatting%20between%20QS%20and%20Settings&type=Commits)
+* [Update Xbox BT controller mapping to support upcoming controller firmware update](https://github.com/search?q=Update%20Xbox%20BT%20controller%20mapping%20to%20support%20upcoming%20controller%20firmware%20update&type=Commits)
+
+#### LineageOS - Pie source changes of 08-23-2019 End.
+
+08-22-2019
+====================
+
+#### LineageOS - Pie source changes of 08-22-2019:
+
+#### lineage/wiki/
+* [I01WD: Fix recovery_boot](https://github.com/search?q=I01WD%3A%20Fix%20recovery_boot&type=Commits)
+
+#### LineageOS - Pie source changes of 08-22-2019 End.
+
 08-21-2019
 ====================
 
