@@ -1,6 +1,429 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+10-12-2019
+====================
+
+#### Device specific Changes of 10-12-2019 Start:
+
+#### Kernel/Quark/
+* [drivers/block/loop.c: ratelimit error messages](https://github.com/search?q=drivers/block/loop.c%3A%20ratelimit%20error%20messages&type=Commits)
+* [tcp: Clear sk_send_head after purging the write queue](https://github.com/search?q=tcp%3A%20Clear%20sk_send_head%20after%20purging%20the%20write%20queue&type=Commits)
+* [net/packet: fix 4gb buffer limit due to overflow check](https://github.com/search?q=net/packet%3A%20fix%204gb%20buffer%20limit%20due%20to%20overflow%20check&type=Commits)
+* [packet: Fix error path in packet_init](https://github.com/search?q=packet%3A%20Fix%20error%20path%20in%20packet_init&type=Commits)
+* [inet: prevent leakage of uninitialized memory to user in recv syscalls](https://github.com/search?q=inet%3A%20prevent%20leakage%20of%20uninitialized%20memory%20to%20user%20in%20recv%20syscalls&type=Commits)
+* [vxlan: Use RCU apis to access sk_user_data.](https://github.com/search?q=vxlan%3A%20Use%20RCU%20apis%20to%20access%20sk_user_data.&type=Commits)
+* [ipv4: Use return value of inet_iif() for __raw_v4_lookup in the while loop](https://github.com/search?q=ipv4%3A%20Use%20return%20value%20of%20inet_iif%28%29%20for%20__raw_v4_lookup%20in%20the%20while%20loop&type=Commits)
+* [ipv4: Fix raw socket lookup for local traffic](https://github.com/search?q=ipv4%3A%20Fix%20raw%20socket%20lookup%20for%20local%20traffic&type=Commits)
+* [mm/vmalloc: fix size check for remap_vmalloc_range_partial()](https://github.com/search?q=mm/vmalloc%3A%20fix%20size%20check%20for%20remap_vmalloc_range_partial%28%29&type=Commits)
+* [mm/vmalloc.c: fix kernel BUG at mm/vmalloc.c:512!](https://github.com/search?q=mm/vmalloc.c%3A%20fix%20kernel%20BUG%20at%20mm/vmalloc.c%3A512!&type=Commits)
+* [ext4: force revalidation of directory pointer after seekdir(2)](https://github.com/search?q=ext4%3A%20force%20revalidation%20of%20directory%20pointer%20after%20seekdir%282%29&type=Commits)
+* [ext4: provide ext4_issue_zeroout()](https://github.com/search?q=ext4%3A%20provide%20ext4_issue_zeroout%28%29&type=Commits)
+* [ext4: avoid divide by zero fault when deleting corrupted inline directories](https://github.com/search?q=ext4%3A%20avoid%20divide%20by%20zero%20fault%20when%20deleting%20corrupted%20inline%20directories&type=Commits)
+* [ext4: missing unlock/put_page() in ext4_try_to_write_inline_data()](https://github.com/search?q=ext4%3A%20missing%20unlock/put_page%28%29%20in%20ext4_try_to_write_inline_data%28%29&type=Commits)
+* [ext4: initialize retries variable in ext4_da_write_inline_data_begin()](https://github.com/search?q=ext4%3A%20initialize%20retries%20variable%20in%20ext4_da_write_inline_data_begin%28%29&type=Commits)
+* [ext4: don't mark mmp buffer head dirty](https://github.com/search?q=ext4%3A%20don%27t%20mark%20mmp%20buffer%20head%20dirty&type=Commits)
+* [ext4: fix type declaration of ext4_validate_block_bitmap](https://github.com/search?q=ext4%3A%20fix%20type%20declaration%20of%20ext4_validate_block_bitmap&type=Commits)
+* [ext4: Don't clear SGID when inheriting ACLs](https://github.com/search?q=ext4%3A%20Don%27t%20clear%20SGID%20when%20inheriting%20ACLs&type=Commits)
+* [ext4: preserve i_mode if __ext4_set_acl() fails](https://github.com/search?q=ext4%3A%20preserve%20i_mode%20if%20__ext4_set_acl%28%29%20fails&type=Commits)
+* [ext4: cleanup bh release code in ext4_ind_remove_space()](https://github.com/search?q=ext4%3A%20cleanup%20bh%20release%20code%20in%20ext4_ind_remove_space%28%29&type=Commits)
+* [ext4: brelse all indirect buffer in ext4_ind_remove_space()](https://github.com/search?q=ext4%3A%20brelse%20all%20indirect%20buffer%20in%20ext4_ind_remove_space%28%29&type=Commits)
+* [ext4: fix indirect punch hole corruption](https://github.com/search?q=ext4%3A%20fix%20indirect%20punch%20hole%20corruption&type=Commits)
+* [ext4: fix punch hole on files with indirect mapping](https://github.com/search?q=ext4%3A%20fix%20punch%20hole%20on%20files%20with%20indirect%20mapping&type=Commits)
+* [ext4: Fix block zeroing when punching holes in indirect block files](https://github.com/search?q=ext4%3A%20Fix%20block%20zeroing%20when%20punching%20holes%20in%20indirect%20block%20files&type=Commits)
+* [ext4: improve writepage credit estimate for files with indirect blocks](https://github.com/search?q=ext4%3A%20improve%20writepage%20credit%20estimate%20for%20files%20with%20indirect%20blocks&type=Commits)
+* [ext4: check superblock mapped prior to committing](https://github.com/search?q=ext4%3A%20check%20superblock%20mapped%20prior%20to%20committing&type=Commits)
+* [ext4: fix possible leak of sbi->s_group_desc_leak in error path](https://github.com/search?q=ext4%3A%20fix%20possible%20leak%20of%20sbi->s_group_desc_leak%20in%20error%20path&type=Commits)
+* [ext4: limit the number of error prints](https://github.com/search?q=ext4%3A%20limit%20the%20number%20of%20error%20prints&type=Commits)
+* [ext4: force inode writes when nfsd calls commit_metadata()](https://github.com/search?q=ext4%3A%20force%20inode%20writes%20when%20nfsd%20calls%20commit_metadata%28%29&type=Commits)
+* [ext4: use prandom_u32() instead of get_random_bytes()](https://github.com/search?q=ext4%3A%20use%20prandom_u32%28%29%20instead%20of%20get_random_bytes%28%29&type=Commits)
+* [ext4: make sure bitmaps and the inode table don't overlap with bg descriptors](https://github.com/search?q=ext4%3A%20make%20sure%20bitmaps%20and%20the%20inode%20table%20don%27t%20overlap%20with%20bg%20descriptors&type=Commits)
+* [ext4: add more mount time checks of the superblock](https://github.com/search?q=ext4%3A%20add%20more%20mount%20time%20checks%20of%20the%20superblock&type=Commits)
+* [ext4: fix possible use after free in ext4_quota_enable](https://github.com/search?q=ext4%3A%20fix%20possible%20use%20after%20free%20in%20ext4_quota_enable&type=Commits)
+* [ext4: add missing brelse() in add_new_gdb_meta_bg()](https://github.com/search?q=ext4%3A%20add%20missing%20brelse%28%29%20in%20add_new_gdb_meta_bg%28%29&type=Commits)
+* [ext4: add missing brelse() add_new_gdb_meta_bg()'s error path](https://github.com/search?q=ext4%3A%20add%20missing%20brelse%28%29%20add_new_gdb_meta_bg%28%29%27s%20error%20path&type=Commits)
+* [ext4: verify group number in verify_group_input() before using it](https://github.com/search?q=ext4%3A%20verify%20group%20number%20in%20verify_group_input%28%29%20before%20using%20it&type=Commits)
+* [ext4: fix online resizing for bigalloc file systems with a 1k block size](https://github.com/search?q=ext4%3A%20fix%20online%20resizing%20for%20bigalloc%20file%20systems%20with%20a%201k%20block%20size&type=Commits)
+* [ext4: prevent online resize with backup superblock](https://github.com/search?q=ext4%3A%20prevent%20online%20resize%20with%20backup%20superblock&type=Commits)
+* [ext4: avoid possible double brelse() in add_new_gdb() on error path](https://github.com/search?q=ext4%3A%20avoid%20possible%20double%20brelse%28%29%20in%20add_new_gdb%28%29%20on%20error%20path&type=Commits)
+* [ext4: avoid potential extra brelse in setup_new_flex_group_blocks()](https://github.com/search?q=ext4%3A%20avoid%20potential%20extra%20brelse%20in%20setup_new_flex_group_blocks%28%29&type=Commits)
+* [ext4: add missing brelse() update_backups()'s error path](https://github.com/search?q=ext4%3A%20add%20missing%20brelse%28%29%20update_backups%28%29%27s%20error%20path&type=Commits)
+* [ext4: fix fencepost error in check for inode count overflow during resize](https://github.com/search?q=ext4%3A%20fix%20fencepost%20error%20in%20check%20for%20inode%20count%20overflow%20during%20resize&type=Commits)
+* [ext4: fix crash during online resizing](https://github.com/search?q=ext4%3A%20fix%20crash%20during%20online%20resizing&type=Commits)
+* [ext4: add missing brelse() in set_flexbg_block_bitmap()'s error path](https://github.com/search?q=ext4%3A%20add%20missing%20brelse%28%29%20in%20set_flexbg_block_bitmap%28%29%27s%20error%20path&type=Commits)
+* [ext4: fix missing cleanup if ext4_alloc_flex_bg_array() fails while resizing](https://github.com/search?q=ext4%3A%20fix%20missing%20cleanup%20if%20ext4_alloc_flex_bg_array%28%29%20fails%20while%20resizing&type=Commits)
+* [ext4: fix possible inode leak in the retry loop of ext4_resize_fs()](https://github.com/search?q=ext4%3A%20fix%20possible%20inode%20leak%20in%20the%20retry%20loop%20of%20ext4_resize_fs%28%29&type=Commits)
+* [ext4: report real fs size after failed resize](https://github.com/search?q=ext4%3A%20report%20real%20fs%20size%20after%20failed%20resize&type=Commits)
+* [ext4: fix online resize's handling of a too-small final block group](https://github.com/search?q=ext4%3A%20fix%20online%20resize%27s%20handling%20of%20a%20too-small%20final%20block%20group&type=Commits)
+* [ext4: reset error code in ext4_find_entry in fallback](https://github.com/search?q=ext4%3A%20reset%20error%20code%20in%20ext4_find_entry%20in%20fallback&type=Commits)
+* [ext4: fix crash when a directory's i_size is too small](https://github.com/search?q=ext4%3A%20fix%20crash%20when%20a%20directory%27s%20i_size%20is%20too%20small&type=Commits)
+* [ext4: fix buffer leak in __ext4_read_dirblock() on error path](https://github.com/search?q=ext4%3A%20fix%20buffer%20leak%20in%20__ext4_read_dirblock%28%29%20on%20error%20path&type=Commits)
+* [ext4: add extra checks to ext4_xattr_block_get()](https://github.com/search?q=ext4%3A%20add%20extra%20checks%20to%20ext4_xattr_block_get%28%29&type=Commits)
+* [ext4: release bs.bh before re-using in ext4_xattr_block_find()](https://github.com/search?q=ext4%3A%20release%20bs.bh%20before%20re-using%20in%20ext4_xattr_block_find%28%29&type=Commits)
+* [ext4: fix buffer leak in ext4_xattr_move_to_block() on error path](https://github.com/search?q=ext4%3A%20fix%20buffer%20leak%20in%20ext4_xattr_move_to_block%28%29%20on%20error%20path&type=Commits)
+* [ext4: check for NUL characters in extended attribute's name](https://github.com/search?q=ext4%3A%20check%20for%20NUL%20characters%20in%20extended%20attribute%27s%20name&type=Commits)
+* [ext4: add bounds checking to ext4_xattr_find_entry()](https://github.com/search?q=ext4%3A%20add%20bounds%20checking%20to%20ext4_xattr_find_entry%28%29&type=Commits)
+* [ext4: correctly detect when an xattr value has an invalid size](https://github.com/search?q=ext4%3A%20correctly%20detect%20when%20an%20xattr%20value%20has%20an%20invalid%20size&type=Commits)
+* [ext4: Replace open coded mdata csum feature to helper function](https://github.com/search?q=ext4%3A%20Replace%20open%20coded%20mdata%20csum%20feature%20to%20helper%20function&type=Commits)
+* [ext4: fix deadlock between inline_data and ext4_expand_extra_isize_ea()](https://github.com/search?q=ext4%3A%20fix%20deadlock%20between%20inline_data%20and%20ext4_expand_extra_isize_ea%28%29&type=Commits)
+* [net: bridge: multicast: use rcu to access port list from br_multicast_start_querier](https://github.com/search?q=net%3A%20bridge%3A%20multicast%3A%20use%20rcu%20to%20access%20port%20list%20from%20br_multicast_start_querier&type=Commits)
+* [iio: Fix scan mask selection](https://github.com/search?q=iio%3A%20Fix%20scan%20mask%20selection&type=Commits)
+* [iio: Use kmalloc_array() in iio_scan_mask_set()](https://github.com/search?q=iio%3A%20Use%20kmalloc_array%28%29%20in%20iio_scan_mask_set%28%29&type=Commits)
+* [gpio: adnp: Fix testing wrong value in adnp_gpio_direction_input](https://github.com/search?q=gpio%3A%20adnp%3A%20Fix%20testing%20wrong%20value%20in%20adnp_gpio_direction_input&type=Commits)
+* [perf tests: Fix a memory leak in test__perf_evsel__tp_sched_test()](https://github.com/search?q=perf%20tests%3A%20Fix%20a%20memory%20leak%20in%20test__perf_evsel__tp_sched_test%28%29&type=Commits)
+* [xfrm6_tunnel: Fix potential panic when unloading xfrm6_tunnel module](https://github.com/search?q=xfrm6_tunnel%3A%20Fix%20potential%20panic%20when%20unloading%20xfrm6_tunnel%20module&type=Commits)
+* [dentry name snapshots](https://github.com/search?q=dentry%20name%20snapshots&type=Commits)
+* [fs: take_dentry_name_snapshot: avoid kfree under spinlock fixup](https://github.com/search?q=fs%3A%20take_dentry_name_snapshot%3A%20avoid%20kfree%20under%20spinlock%20fixup&type=Commits)
+* [fs/dcache.c: fix spin lockup issue on nlru->lock](https://github.com/search?q=fs/dcache.c%3A%20fix%20spin%20lockup%20issue%20on%20nlru->lock&type=Commits)
+* [Allow sharing external names after __d_move()](https://github.com/search?q=Allow%20sharing%20external%20names%20after%20__d_move%28%29&type=Commits)
+* [new helper: dentry_free()](https://github.com/search?q=new%20helper%3A%20dentry_free%28%29&type=Commits)
+
+#### Device specific Changes of 10-12-2019 End.
+
+***
+
+10-11-2019
+====================
+
+#### LineageOS - Pie source changes of 10-11-2019:
+
+#### device/lineage/atv/
+* [atv: Add additional privapp permissions](https://github.com/search?q=atv%3A%20Add%20additional%20privapp%20permissions&type=Commits)
+
+#### LineageOS - Pie source changes of 10-11-2019 End.
+
+10-10-2019
+====================
+
+#### LineageOS - Pie source changes of 10-10-2019:
+
+#### lineage/scripts/
+* [Update default webview to 77.0.3865.92](https://github.com/search?q=Update%20default%20webview%20to%2077.0.3865.92&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Mark discovery as discontinued](https://github.com/search?q=wiki%3A%20Mark%20discovery%20as%20discontinued&type=Commits)
+
+#### LineageOS - Pie source changes of 10-10-2019 End.
+
+10-09-2019
+====================
+
+#### LineageOS - Pie source changes of 10-09-2019:
+
+#### lineage/hudson/
+* [hudson: Disable discovery for now](https://github.com/search?q=hudson%3A%20Disable%20discovery%20for%20now&type=Commits)
+
+#### LineageOS - Pie source changes of 10-09-2019 End.
+
+10-08-2019
+====================
+
+#### LineageOS - Pie source changes of 10-08-2019:
+
+#### lineage/wiki/
+* [wiki: Add Windows OS note for fastboot recovery on A/B systems](https://github.com/search?q=wiki%3A%20Add%20Windows%20OS%20note%20for%20fastboot%20recovery%20on%20A/B%20systems&type=Commits)
+
+#### LineageOS - Pie source changes of 10-08-2019 End.
+
+10-07-2019
+====================
+
+#### LineageOS - Pie source changes of 10-07-2019:
+
+#### lineage/wiki/
+* [wiki: Add 16.0 version for land/santoni](https://github.com/search?q=wiki%3A%20Add%2016.0%20version%20for%20land/santoni&type=Commits)
+
+#### LineageOS - Pie source changes of 10-07-2019 End.
+
+10-06-2019
+====================
+
+#### LineageOS - Pie source changes of 10-06-2019:
+
+#### lineage/hudson/
+* [hudson: Ship land/santoni](https://github.com/search?q=hudson%3A%20Ship%20land/santoni&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Restore santoni/land](https://github.com/search?q=wiki%3A%20Restore%20santoni/land&type=Commits)
+
+#### LineageOS - Pie source changes of 10-06-2019 End.
+
+10-05-2019
+====================
+
+#### LineageOS - Pie source changes of 10-05-2019:
+
+#### hardware/qcom/display-caf/msm8998/
+* [gralloc: Add option for YCrCb venus camera preview](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20YCrCb%20venus%20camera%20preview&type=Commits)
+* [gralloc: Allow devices to opt-in for YCrCb camera preview](https://github.com/search?q=gralloc%3A%20Allow%20devices%20to%20opt-in%20for%20YCrCb%20camera%20preview&type=Commits)
+
+#### LineageOS - Pie source changes of 10-05-2019 End.
+
+10-02-2019
+====================
+
+#### LineageOS - Pie source changes of 10-02-2019:
+
+#### device/lineage/sepolicy/
+* [sepolicy: Allow map for untrusted_app -> su_exec.](https://github.com/search?q=sepolicy%3A%20Allow%20map%20for%20untrusted_app%20->%20su_exec.&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Mark devices discontinued that are not shipping](https://github.com/search?q=wiki%3A%20Mark%20devices%20discontinued%20that%20are%20not%20shipping&type=Commits)
+
+#### LineageOS - Pie source changes of 10-02-2019 End.
+
+10-01-2019
+====================
+
+#### LineageOS - Pie source changes of 10-01-2019:
+
+#### frameworks/base/
+* [SystemUI: Allow snoozing SD card notification unconditionally](https://github.com/search?q=SystemUI%3A%20Allow%20snoozing%20SD%20card%20notification%20unconditionally&type=Commits)
+
+#### LineageOS - Pie source changes of 10-01-2019 End.
+
+09-28-2019
+====================
+
+#### LineageOS - Pie source changes of 09-28-2019:
+
+#### hardware/qcom/audio-caf/msm8960/
+* [audio_hw: match destruction of mutexes](https://github.com/search?q=audio_hw%3A%20match%20destruction%20of%20mutexes&type=Commits)
+* [hal: close audio calibration fd](https://github.com/search?q=hal%3A%20close%20audio%20calibration%20fd&type=Commits)
+* [hal: Add support for voice calls on Fusion3 platforms](https://github.com/search?q=hal%3A%20Add%20support%20for%20voice%20calls%20on%20Fusion3%20platforms&type=Commits)
+* [audio-hw: Restrict voice_start_usecase only for 1 call at a time](https://github.com/search?q=audio-hw%3A%20Restrict%20voice_start_usecase%20only%20for%201%20call%20at%20a%20time&type=Commits)
+* [hal: Fix no audio during voice call with voip in background](https://github.com/search?q=hal%3A%20Fix%20no%20audio%20during%20voice%20call%20with%20voip%20in%20background&type=Commits)
+* [hal: fix no sound issue in voice call](https://github.com/search?q=hal%3A%20fix%20no%20sound%20issue%20in%20voice%20call&type=Commits)
+* [hal: Ensure mic mute state updated before starting voice call](https://github.com/search?q=hal%3A%20Ensure%20mic%20mute%20state%20updated%20before%20starting%20voice%20call&type=Commits)
+* [hal: fix Rx path mute issue during incall recording](https://github.com/search?q=hal%3A%20fix%20Rx%20path%20mute%20issue%20during%20incall%20recording&type=Commits)
+* [audio: Use generated kernel headers](https://github.com/search?q=audio%3A%20Use%20generated%20kernel%20headers&type=Commits)
+* [msm8960: fix unused-parameter errors when no extensions are defined](https://github.com/search?q=msm8960%3A%20fix%20unused-parameter%20errors%20when%20no%20extensions%20are%20defined&type=Commits)
+* [hal: Require feature flags to be explicitly enabled](https://github.com/search?q=hal%3A%20Require%20feature%20flags%20to%20be%20explicitly%20enabled&type=Commits)
+* [hal: Update prefixes for audio system properties](https://github.com/search?q=hal%3A%20Update%20prefixes%20for%20audio%20system%20properties&type=Commits)
+* [mm-audio: Add -Wno-error to compile with global -Werror.](https://github.com/search?q=mm-audio%3A%20Add%20-Wno-error%20to%20compile%20with%20global%20-Werror.&type=Commits)
+* [audio: Fix deprecated log warning](https://github.com/search?q=audio%3A%20Fix%20deprecated%20log%20warning&type=Commits)
+* [Use -Werror in hardware/qcom/audio](https://github.com/search?q=Use%20-Werror%20in%20hardware/qcom/audio&type=Commits)
+* [post_proc: do not use GNU old-style field designators](https://github.com/search?q=post_proc%3A%20do%20not%20use%20GNU%20old-style%20field%20designators&type=Commits)
+* [visualizer: do not use GNU old-style field designators](https://github.com/search?q=visualizer%3A%20do%20not%20use%20GNU%20old-style%20field%20designators&type=Commits)
+* [voice_processing: do not use GNU old-style field designators](https://github.com/search?q=voice_processing%3A%20do%20not%20use%20GNU%20old-style%20field%20designators&type=Commits)
+* [Enable strict error for warnings](https://github.com/search?q=Enable%20strict%20error%20for%20warnings&type=Commits)
+* [audio: Fix complilation warnings under Clang](https://github.com/search?q=audio%3A%20Fix%20complilation%20warnings%20under%20Clang&type=Commits)
+* [audio: Remove policy hal directory](https://github.com/search?q=audio%3A%20Remove%20policy%20hal%20directory&type=Commits)
+* [Use header lib instead of using global include path](https://github.com/search?q=Use%20header%20lib%20instead%20of%20using%20global%20include%20path&type=Commits)
+* [hal: Use LOCAL_VENDOR_MODULE](https://github.com/search?q=hal%3A%20Use%20LOCAL_VENDOR_MODULE&type=Commits)
+* [policy_hal: Partial revert "audio: remove 5.1 channel mask if SSR is not supported"](https://github.com/search?q=policy_hal%3A%20Partial%20revert%20"audio%3A%20remove%205.1%20channel%20mask%20if%20SSR%20is%20not%20supported"&type=Commits)
+* [msm8960: treblize configuration](https://github.com/search?q=msm8960%3A%20treblize%20configuration&type=Commits)
+* [hal: audio-test: Move omx tests mm-audio-internal](https://github.com/search?q=hal%3A%20audio-test%3A%20Move%20omx%20tests%20mm-audio-internal&type=Commits)
+* [mm-audio: Remove omx decoder components from mm-audio folder](https://github.com/search?q=mm-audio%3A%20Remove%20omx%20decoder%20components%20from%20mm-audio%20folder&type=Commits)
+* [policy_hal: fix for MR1 function prototype.](https://github.com/search?q=policy_hal%3A%20fix%20for%20MR1%20function%20prototype.&type=Commits)
+* [policy_hal: update custom audio policy against OPR1.170521.001_AOSP](https://github.com/search?q=policy_hal%3A%20update%20custom%20audio%20policy%20against%20OPR1.170521.001_AOSP&type=Commits)
+* [hal: return EINVAL by default for presentation_position](https://github.com/search?q=hal%3A%20return%20EINVAL%20by%20default%20for%20presentation_position&type=Commits)
+* [policy_hal: update custom audio policy APIs against AOSP](https://github.com/search?q=policy_hal%3A%20update%20custom%20audio%20policy%20APIs%20against%20AOSP&type=Commits)
+* [policy_hal: update custom audio policy implementation APIs against O-AOSP](https://github.com/search?q=policy_hal%3A%20update%20custom%20audio%20policy%20implementation%20APIs%20against%20O-AOSP&type=Commits)
+* [Equalizer: Check value size for get preset name](https://github.com/search?q=Equalizer%3A%20Check%20value%20size%20for%20get%20preset%20name&type=Commits)
+* [aenc-aac: bounds checking](https://github.com/search?q=aenc-aac%3A%20bounds%20checking&type=Commits)
+* [Fix parameters passed to pcm_open to include PCM_MONOTONIC](https://github.com/search?q=Fix%20parameters%20passed%20to%20pcm_open%20to%20include%20PCM_MONOTONIC&type=Commits)
+* [HAL: Align error code with HIDL wrapper](https://github.com/search?q=HAL%3A%20Align%20error%20code%20with%20HIDL%20wrapper&type=Commits)
+* [Move device dependent modules to /vendor](https://github.com/search?q=Move%20device%20dependent%20modules%20to%20/vendor&type=Commits)
+* [policy_hal: fix build with concurrent audio capture](https://github.com/search?q=policy_hal%3A%20fix%20build%20with%20concurrent%20audio%20capture&type=Commits)
+* [Add missing liblog dependency](https://github.com/search?q=Add%20missing%20liblog%20dependency&type=Commits)
+* [policy_hal: Add libbase static library dependency](https://github.com/search?q=policy_hal%3A%20Add%20libbase%20static%20library%20dependency&type=Commits)
+* [Fix security vulnerability: Equalizer setParameter memory overflow](https://github.com/search?q=Fix%20security%20vulnerability%3A%20Equalizer%20setParameter%20memory%20overflow&type=Commits)
+* [audiopolicy: do not set FM volume during device connection/disconnection](https://github.com/search?q=audiopolicy%3A%20do%20not%20set%20FM%20volume%20during%20device%20connection/disconnection&type=Commits)
+* [audiopolicy: update correct device for primary output when FM resumed](https://github.com/search?q=audiopolicy%3A%20update%20correct%20device%20for%20primary%20output%20when%20FM%20resumed&type=Commits)
+* [Fix security vulnerability: Equalizer command might allow negative indexes](https://github.com/search?q=Fix%20security%20vulnerability%3A%20Equalizer%20command%20might%20allow%20negative%20indexes&type=Commits)
+* [Fix security vulnerability: Effect command might allow negative indexes](https://github.com/search?q=Fix%20security%20vulnerability%3A%20Effect%20command%20might%20allow%20negative%20indexes&type=Commits)
+* [hal: Additional checks for dedicated VOIP input](https://github.com/search?q=hal%3A%20Additional%20checks%20for%20dedicated%20VOIP%20input&type=Commits)
+* [hal: Remove volume boost feature for msm8960](https://github.com/search?q=hal%3A%20Remove%20volume%20boost%20feature%20for%20msm8960&type=Commits)
+* [audio policy: fix media volume after ringtone](https://github.com/search?q=audio%20policy%3A%20fix%20media%20volume%20after%20ringtone&type=Commits)
+* [audio: set voice call volume step by property](https://github.com/search?q=audio%3A%20set%20voice%20call%20volume%20step%20by%20property&type=Commits)
+* [hal: Port the dock support to non-legacy 8960 hal](https://github.com/search?q=hal%3A%20Port%20the%20dock%20support%20to%20non-legacy%208960%20hal&type=Commits)
+* [audiopolicy: Avoid spurious routing in APM::stopSource](https://github.com/search?q=audiopolicy%3A%20Avoid%20spurious%20routing%20in%20APM%3A%3AstopSource&type=Commits)
+* [hal: Remove compress voip formats and voip_rx flag](https://github.com/search?q=hal%3A%20Remove%20compress%20voip%20formats%20and%20voip_rx%20flag&type=Commits)
+* [hal: Fix device selection at start of the voice call](https://github.com/search?q=hal%3A%20Fix%20device%20selection%20at%20start%20of%20the%20voice%20call&type=Commits)
+* [hal: Fix routing issue for voip use case](https://github.com/search?q=hal%3A%20Fix%20routing%20issue%20for%20voip%20use%20case&type=Commits)
+* [hal: Stop log spam when COMPRESS_VOIP_ENABLED is not defined](https://github.com/search?q=hal%3A%20Stop%20log%20spam%20when%20COMPRESS_VOIP_ENABLED%20is%20not%20defined&type=Commits)
+* [Add AudioRecord timestamps](https://github.com/search?q=Add%20AudioRecord%20timestamps&type=Commits)
+* [policy_hal: Update policy hal for N](https://github.com/search?q=policy_hal%3A%20Update%20policy%20hal%20for%20N&type=Commits)
+* [hal: Increase deep buffer buffering](https://github.com/search?q=hal%3A%20Increase%20deep%20buffer%20buffering&type=Commits)
+* [hal: Add legacy EDID channel retrieval](https://github.com/search?q=hal%3A%20Add%20legacy%20EDID%20channel%20retrieval&type=Commits)
+* [hal: Remove listen calibration from 8960 hal](https://github.com/search?q=hal%3A%20Remove%20listen%20calibration%20from%208960%20hal&type=Commits)
+* [hal: Don't make missing CSD init/deinit functions fatal](https://github.com/search?q=hal%3A%20Don%27t%20make%20missing%20CSD%20init/deinit%20functions%20fatal&type=Commits)
+* [hal: Detect additional baseband properties](https://github.com/search?q=hal%3A%20Detect%20additional%20baseband%20properties&type=Commits)
+* [hal: Add support for HTC CSD client](https://github.com/search?q=hal%3A%20Add%20support%20for%20HTC%20CSD%20client&type=Commits)
+* [hal: Support old CSD API and add support for Samsung CSD client](https://github.com/search?q=hal%3A%20Support%20old%20CSD%20API%20and%20add%20support%20for%20Samsung%20CSD%20client&type=Commits)
+* [hal: only open the amplifier once](https://github.com/search?q=hal%3A%20only%20open%20the%20amplifier%20once&type=Commits)
+* [hal: enable amplifier earlier](https://github.com/search?q=hal%3A%20enable%20amplifier%20earlier&type=Commits)
+* [hal: Notify amplifier of device enable/disable](https://github.com/search?q=hal%3A%20Notify%20amplifier%20of%20device%20enable/disable&type=Commits)
+* [hal: Convert libaudioamp to audio_amplifier HAL](https://github.com/search?q=hal%3A%20Convert%20libaudioamp%20to%20audio_amplifier%20HAL&type=Commits)
+* [hal: Support the audio amplifier hook](https://github.com/search?q=hal%3A%20Support%20the%20audio%20amplifier%20hook&type=Commits)
+* [hal: Clean up from merge](https://github.com/search?q=hal%3A%20Clean%20up%20from%20merge&type=Commits)
+* [hal: Remove obsolete FM_ENABLED flag](https://github.com/search?q=hal%3A%20Remove%20obsolete%20FM_ENABLED%20flag&type=Commits)
+* [voice_extn: remove redundant check of mode when stop voice use case](https://github.com/search?q=voice_extn%3A%20remove%20redundant%20check%20of%20mode%20when%20stop%20voice%20use%20case&type=Commits)
+* [audiopolicy: enable deep buffer output by default for music streams](https://github.com/search?q=audiopolicy%3A%20enable%20deep%20buffer%20output%20by%20default%20for%20music%20streams&type=Commits)
+* [audiopolicy: use deep buffer output by default for music streams](https://github.com/search?q=audiopolicy%3A%20use%20deep%20buffer%20output%20by%20default%20for%20music%20streams&type=Commits)
+* [mm-audio: omx: Fix OMX encoders timestamp](https://github.com/search?q=mm-audio%3A%20omx%3A%20Fix%20OMX%20encoders%20timestamp&type=Commits)
+* [hal: fix resource leak issues in platform.c](https://github.com/search?q=hal%3A%20fix%20resource%20leak%20issues%20in%20platform.c&type=Commits)
+* [audio HAL: do not stop capture on overrun](https://github.com/search?q=audio%20HAL%3A%20do%20not%20stop%20capture%20on%20overrun&type=Commits)
+* [audio HAL: fix thread starvation](https://github.com/search?q=audio%20HAL%3A%20fix%20thread%20starvation&type=Commits)
+* [hal: Validate active input before accessing source](https://github.com/search?q=hal%3A%20Validate%20active%20input%20before%20accessing%20source&type=Commits)
+* [hal: fm: add parameter to set mute options](https://github.com/search?q=hal%3A%20fm%3A%20add%20parameter%20to%20set%20mute%20options&type=Commits)
+* [policy_hal: fix for FM playback without active music stream](https://github.com/search?q=policy_hal%3A%20fix%20for%20FM%20playback%20without%20active%20music%20stream&type=Commits)
+* [policy_hal: fix for volume burst during FM device switch](https://github.com/search?q=policy_hal%3A%20fix%20for%20volume%20burst%20during%20FM%20device%20switch&type=Commits)
+* [policy: Delay FM volume update to start of FM playback](https://github.com/search?q=policy%3A%20Delay%20FM%20volume%20update%20to%20start%20of%20FM%20playback&type=Commits)
+* [policy: Avoid unnecessary set_parameter calls](https://github.com/search?q=policy%3A%20Avoid%20unnecessary%20set_parameter%20calls&type=Commits)
+* [hal: audio_extn: fix pop noise when FM is interrupted by voice call](https://github.com/search?q=hal%3A%20audio_extn%3A%20fix%20pop%20noise%20when%20FM%20is%20interrupted%20by%20voice%20call&type=Commits)
+* [audio: update flags for selection of VoIP direct output](https://github.com/search?q=audio%3A%20update%20flags%20for%20selection%20of%20VoIP%20direct%20output&type=Commits)
+* [hal: add support to use low latency as primary output](https://github.com/search?q=hal%3A%20add%20support%20to%20use%20low%20latency%20as%20primary%20output&type=Commits)
+* [hal: Sync name_to_index table with pcm_device_table](https://github.com/search?q=hal%3A%20Sync%20name_to_index%20table%20with%20pcm_device_table&type=Commits)
+* [hal: Fix voice call recording on msm8960](https://github.com/search?q=hal%3A%20Fix%20voice%20call%20recording%20on%20msm8960&type=Commits)
+* [hal: Adjust DEEP_BUFFER_OUTPUT_PERIOD_COUNT to match legacy kernel](https://github.com/search?q=hal%3A%20Adjust%20DEEP_BUFFER_OUTPUT_PERIOD_COUNT%20to%20match%20legacy%20kernel&type=Commits)
+* [hal: Reduce some logspam](https://github.com/search?q=hal%3A%20Reduce%20some%20logspam&type=Commits)
+* [hal: Update and cleanup makefiles](https://github.com/search?q=hal%3A%20Update%20and%20cleanup%20makefiles&type=Commits)
+* [hal: Use old mixer for setting voice volume](https://github.com/search?q=hal%3A%20Use%20old%20mixer%20for%20setting%20voice%20volume&type=Commits)
+* [hal: Rename from 8974/8084 to msm8960](https://github.com/search?q=hal%3A%20Rename%20from%208974/8084%20to%20msm8960&type=Commits)
+* [hal: Copy msm8974 platform to msm8960](https://github.com/search?q=hal%3A%20Copy%20msm8974%20platform%20to%20msm8960&type=Commits)
+* [hal: Squashed set of updates and fixes from 8974 branch](https://github.com/search?q=hal%3A%20Squashed%20set%20of%20updates%20and%20fixes%20from%208974%20branch&type=Commits)
+* [hal: header file fix for audio_hw](https://github.com/search?q=hal%3A%20header%20file%20fix%20for%20audio_hw&type=Commits)
+* [audio: Fix compilation errors](https://github.com/search?q=audio%3A%20Fix%20compilation%20errors&type=Commits)
+* [audio: fix member initialization](https://github.com/search?q=audio%3A%20fix%20member%20initialization&type=Commits)
+* [hal: fix the input device selection for headphones](https://github.com/search?q=hal%3A%20fix%20the%20input%20device%20selection%20for%20headphones&type=Commits)
+* [hal: fix miscellaneous errors](https://github.com/search?q=hal%3A%20fix%20miscellaneous%20errors&type=Commits)
+* [hal: fix unused param warnings](https://github.com/search?q=hal%3A%20fix%20unused%20param%20warnings&type=Commits)
+* [hal: fix incompatible APIs](https://github.com/search?q=hal%3A%20fix%20incompatible%20APIs&type=Commits)
+* [hal: avoid usage of extern functions and tables](https://github.com/search?q=hal%3A%20avoid%20usage%20of%20extern%20functions%20and%20tables&type=Commits)
+* [hal: miscellaneous fixes](https://github.com/search?q=hal%3A%20miscellaneous%20fixes&type=Commits)
+* [hal: Remove unnecessary check in make file](https://github.com/search?q=hal%3A%20Remove%20unnecessary%20check%20in%20make%20file&type=Commits)
+* [policy_hal: Always call local implementation of updateCallRouting](https://github.com/search?q=policy_hal%3A%20Always%20call%20local%20implementation%20of%20updateCallRouting&type=Commits)
+* [policy_hal: Add custom audio policy](https://github.com/search?q=policy_hal%3A%20Add%20custom%20audio%20policy&type=Commits)
+* [alsa_sound: Remove deprecated DEVICE_OUT_FM_TX](https://github.com/search?q=alsa_sound%3A%20Remove%20deprecated%20DEVICE_OUT_FM_TX&type=Commits)
+* [alsa_sound: Remove deprecated audio policy sources](https://github.com/search?q=alsa_sound%3A%20Remove%20deprecated%20audio%20policy%20sources&type=Commits)
+* [alsa_sound: Enable QCOM_PROXY_DEVICE_ENABLED by default](https://github.com/search?q=alsa_sound%3A%20Enable%20QCOM_PROXY_DEVICE_ENABLED%20by%20default&type=Commits)
+* [alsa_sound: Fix handling of zero size write request](https://github.com/search?q=alsa_sound%3A%20Fix%20handling%20of%20zero%20size%20write%20request&type=Commits)
+* [libalsa-intf: Fix clang compiler errors](https://github.com/search?q=libalsa-intf%3A%20Fix%20clang%20compiler%20errors&type=Commits)
+* [alsa_sound: Fix clang compiler errors](https://github.com/search?q=alsa_sound%3A%20Fix%20clang%20compiler%20errors&type=Commits)
+* [libalsa-intf: Don't log as error on successful EC change](https://github.com/search?q=libalsa-intf%3A%20Don%27t%20log%20as%20error%20on%20successful%20EC%20change&type=Commits)
+* [alsa_sound: Make changes for FM_TUNER support](https://github.com/search?q=alsa_sound%3A%20Make%20changes%20for%20FM_TUNER%20support&type=Commits)
+* [alsa_sound: Invert proxy/usbaudio check](https://github.com/search?q=alsa_sound%3A%20Invert%20proxy/usbaudio%20check&type=Commits)
+* [alsa_sound: Add MSM string parameters.](https://github.com/search?q=alsa_sound%3A%20Add%20MSM%20string%20parameters.&type=Commits)
+* [Use standard initializers](https://github.com/search?q=Use%20standard%20initializers&type=Commits)
+* [Remove checks for TARGET_SIMULATOR](https://github.com/search?q=Remove%20checks%20for%20TARGET_SIMULATOR&type=Commits)
+* [Remove obsolete LOCAL_PRELINK_MODULE](https://github.com/search?q=Remove%20obsolete%20LOCAL_PRELINK_MODULE&type=Commits)
+* [alsa_sound: Disable tunnel/LPA](https://github.com/search?q=alsa_sound%3A%20Disable%20tunnel/LPA&type=Commits)
+* [audio: Notify amplifier of device enable/disable](https://github.com/search?q=audio%3A%20Notify%20amplifier%20of%20device%20enable/disable&type=Commits)
+* [audio: Refactor amplifier_set_device logic](https://github.com/search?q=audio%3A%20Refactor%20amplifier_set_device%20logic&type=Commits)
+* [audio: Convert libaudioamp to audio_amplifier HAL](https://github.com/search?q=audio%3A%20Convert%20libaudioamp%20to%20audio_amplifier%20HAL&type=Commits)
+* [audio: Make audio device accessible to HAL functions](https://github.com/search?q=audio%3A%20Make%20audio%20device%20accessible%20to%20HAL%20functions&type=Commits)
+* [alsa_sound: Fix compilation for 5.1](https://github.com/search?q=alsa_sound%3A%20Fix%20compilation%20for%205.1&type=Commits)
+* [alsa_sound: Remove orphaned QCOM_COMPRESSED_AUDIO flag](https://github.com/search?q=alsa_sound%3A%20Remove%20orphaned%20QCOM_COMPRESSED_AUDIO%20flag&type=Commits)
+* [hal: Make use of hwdep calibration optional](https://github.com/search?q=hal%3A%20Make%20use%20of%20hwdep%20calibration%20optional&type=Commits)
+* [alsa_sound: Fix CSD client check](https://github.com/search?q=alsa_sound%3A%20Fix%20CSD%20client%20check&type=Commits)
+* [Invert ANC Headset.](https://github.com/search?q=Invert%20ANC%20Headset.&type=Commits)
+* [audio: Use Fluence constant internal to HAL](https://github.com/search?q=audio%3A%20Use%20Fluence%20constant%20internal%20to%20HAL&type=Commits)
+* [alsa_sound: Add support for "Voice Earpiece Extra Gain" mode](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20"Voice%20Earpiece%20Extra%20Gain"%20mode&type=Commits)
+* [alsa_sound: Add support for seperated FM devices](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20seperated%20FM%20devices&type=Commits)
+* [alsa_sound: Raise priority of separate VOIP input](https://github.com/search?q=alsa_sound%3A%20Raise%20priority%20of%20separate%20VOIP%20input&type=Commits)
+* [alsa_sound: fix doRouting parameters](https://github.com/search?q=alsa_sound%3A%20fix%20doRouting%20parameters&type=Commits)
+* [alsa_sound: fix build when QCOM_USBAUDIO_ENABLED = false](https://github.com/search?q=alsa_sound%3A%20fix%20build%20when%20QCOM_USBAUDIO_ENABLED%20=%20false&type=Commits)
+* [alsa_sound: prevent mSSRComplete from being uninitialized](https://github.com/search?q=alsa_sound%3A%20prevent%20mSSRComplete%20from%20being%20uninitialized&type=Commits)
+* [alsa_sound: Clean up makefiles](https://github.com/search?q=alsa_sound%3A%20Clean%20up%20makefiles&type=Commits)
+* [alsa_sound: Squash of commits dealing with CSD client](https://github.com/search?q=alsa_sound%3A%20Squash%20of%20commits%20dealing%20with%20CSD%20client&type=Commits)
+* [alsa_sound: Add support for Moto X sound card](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20Moto%20X%20sound%20card&type=Commits)
+* [alsa_sound: Fix camcorder input selection](https://github.com/search?q=alsa_sound%3A%20Fix%20camcorder%20input%20selection&type=Commits)
+* [alsa_sound: Add support for separated speaker mic devices](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20separated%20speaker%20mic%20devices&type=Commits)
+* [alsa_sound: Initialize variable](https://github.com/search?q=alsa_sound%3A%20Initialize%20variable&type=Commits)
+* [Add Motorola EMU audio dock support](https://github.com/search?q=Add%20Motorola%20EMU%20audio%20dock%20support&type=Commits)
+* [libalsa-intf: snd_use_case_apply_voice_acdb: initialise current_mod[]](https://github.com/search?q=libalsa-intf%3A%20snd_use_case_apply_voice_acdb%3A%20initialise%20current_mod[]&type=Commits)
+* [alsa_sound: ensure mInputSource is initialised](https://github.com/search?q=alsa_sound%3A%20ensure%20mInputSource%20is%20initialised&type=Commits)
+* [alsa_sound: Fix compiler warnings](https://github.com/search?q=alsa_sound%3A%20Fix%20compiler%20warnings&type=Commits)
+* [alsa_sound: Add support for sound card in Galaxy S4 Mini](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20sound%20card%20in%20Galaxy%20S4%20Mini&type=Commits)
+* [alsa_sound: Don't use USB devices for calls](https://github.com/search?q=alsa_sound%3A%20Don%27t%20use%20USB%20devices%20for%20calls&type=Commits)
+* [alsa_sound: Improve USB device detection](https://github.com/search?q=alsa_sound%3A%20Improve%20USB%20device%20detection&type=Commits)
+* [alsa_sound: Allow dual-mic device to be used for VOIP calls](https://github.com/search?q=alsa_sound%3A%20Allow%20dual-mic%20device%20to%20be%20used%20for%20VOIP%20calls&type=Commits)
+* [alsa_sound: Untangle VOIP/voice speaker handling](https://github.com/search?q=alsa_sound%3A%20Untangle%20VOIP/voice%20speaker%20handling&type=Commits)
+* [alsa_sound: Trigger immediate doRouting() on setMode() change to normal](https://github.com/search?q=alsa_sound%3A%20Trigger%20immediate%20doRouting%28%29%20on%20setMode%28%29%20change%20to%20normal&type=Commits)
+* [audio: provide a hook for audio amplifier implementations](https://github.com/search?q=audio%3A%20provide%20a%20hook%20for%20audio%20amplifier%20implementations&type=Commits)
+* [alsa_sound: Add support for VR-on-wired-headset device](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20VR-on-wired-headset%20device&type=Commits)
+* [alsa_sound: Add support for seperated headset mic devices](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20seperated%20headset%20mic%20devices&type=Commits)
+* [alsa_sound: Add support for seperated VOIP devices](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20seperated%20VOIP%20devices&type=Commits)
+* [alsa_sound: modify the SPEAKER_RX_ACDB to support both MONO and STEREO speaker](https://github.com/search?q=alsa_sound%3A%20modify%20the%20SPEAKER_RX_ACDB%20to%20support%20both%20MONO%20and%20STEREO%20speaker&type=Commits)
+* [alsa_sound: add HTC CSD CLIENT board flag for special cases (BT)](https://github.com/search?q=alsa_sound%3A%20add%20HTC%20CSD%20CLIENT%20board%20flag%20for%20special%20cases%20%28BT%29&type=Commits)
+* [alsa_sound: Support ES325 2Mic and Samsung CSD client](https://github.com/search?q=alsa_sound%3A%20Support%20ES325%202Mic%20and%20Samsung%20CSD%20client&type=Commits)
+* [alsa_sound: fix debug message derp](https://github.com/search?q=alsa_sound%3A%20fix%20debug%20message%20derp&type=Commits)
+* [alsa_sound: Disable verbose logging](https://github.com/search?q=alsa_sound%3A%20Disable%20verbose%20logging&type=Commits)
+* [alsa_sound: Add option to use seperated speakerphone device](https://github.com/search?q=alsa_sound%3A%20Add%20option%20to%20use%20seperated%20speakerphone%20device&type=Commits)
+* [alsa_sound: Allow SPEAKER_DUAL_MIC_* UCMs with USES_FLUENCE_INCALL](https://github.com/search?q=alsa_sound%3A%20Allow%20SPEAKER_DUAL_MIC_*%20UCMs%20with%20USES_FLUENCE_INCALL&type=Commits)
+* [alsa: fix platform detection for m7 devices](https://github.com/search?q=alsa%3A%20fix%20platform%20detection%20for%20m7%20devices&type=Commits)
+* [audio: Dynamic library loading, compilation fixes.](https://github.com/search?q=audio%3A%20Dynamic%20library%20loading,%20compilation%20fixes.&type=Commits)
+* [alsa_sound: Fix separated audio input support](https://github.com/search?q=alsa_sound%3A%20Fix%20separated%20audio%20input%20support&type=Commits)
+* [alsa_sound: Add support for Audience A2220](https://github.com/search?q=alsa_sound%3A%20Add%20support%20for%20Audience%20A2220&type=Commits)
+* [audio: Enhance ALSA for USB Dock Audio support](https://github.com/search?q=audio%3A%20Enhance%20ALSA%20for%20USB%20Dock%20Audio%20support&type=Commits)
+* 4f4607ace audio: Use project pathmap
+
+#### LineageOS - Pie source changes of 09-28-2019 End.
+
+09-27-2019
+====================
+
+#### LineageOS - Pie source changes of 09-27-2019:
+
+#### vendor/lineage/
+* [build: Remove TARGET_CRYPTFS_HW_PATH](https://github.com/search?q=build%3A%20Remove%20TARGET_CRYPTFS_HW_PATH&type=Commits)
+
+#### LineageOS - Pie source changes of 09-27-2019 End.
+
+09-26-2019
+====================
+
+#### LineageOS - Pie source changes of 09-26-2019:
+
+#### lineage/mirror/
+* [Updated to 26-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2026-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 09-26-2019 End.
+
+09-25-2019
+====================
+
+#### LineageOS - Pie source changes of 09-25-2019:
+
+#### lineage/mirror/
+* [Updated to 25-Sep-2019 00:00 UTC](https://github.com/search?q=Updated%20to%2025-Sep-2019%2000%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 09-25-2019 End.
+
+09-23-2019
+====================
+
+#### LineageOS - Pie source changes of 09-23-2019:
+
+#### device/qcom/sepolicy-legacy/
+* [common: permit libqdutils operation (linked by mediaserver) during WFD](https://github.com/search?q=common%3A%20permit%20libqdutils%20operation%20%28linked%20by%20mediaserver%29%20during%20WFD&type=Commits)
+
+#### frameworks/av/
+* [audioflinger: Fix audio for WifiDisplay](https://github.com/search?q=audioflinger%3A%20Fix%20audio%20for%20WifiDisplay&type=Commits)
+* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
+* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
+* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
+* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
+* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
+* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
+
+#### LineageOS - Pie source changes of 09-23-2019 End.
+
+09-21-2019
+====================
+
+#### LineageOS - Pie source changes of 09-21-2019:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 77.0.3865.92](https://github.com/search?q=Update%20Chromium%20Webview%20to%2077.0.3865.92&type=Commits)
+
+#### frameworks/base/
+* [FODCircleView: defer removal to next re-layout](https://github.com/search?q=FODCircleView%3A%20defer%20removal%20to%20next%20re-layout&type=Commits)
+
+#### LineageOS - Pie source changes of 09-21-2019 End.
+
 09-11-2019
 ====================
 
