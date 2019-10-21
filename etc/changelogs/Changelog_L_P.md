@@ -1,6 +1,69 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+10-21-2019
+====================
+
+#### Device specific Changes of 10-21-2019 Start:
+
+#### Device/Quark/
+* [Quark: Remove unused compatibility_matrix.xml](https://github.com/search?q=Quark%3A%20Remove%20unused%20compatibility_matrix.xml&type=Commits)
+* [Quark: Set the shipping API level the new way](https://github.com/search?q=Quark%3A%20Set%20the%20shipping%20API%20level%20the%20new%20way&type=Commits)
+* [Quark: Set partitions for loop device](https://github.com/search?q=Quark%3A%20Set%20partitions%20for%20loop%20device&type=Commits)
+* [Quark: Update power profile for Pie](https://github.com/search?q=Quark%3A%20Update%20power%20profile%20for%20Pie&type=Commits)
+
+#### Kernel/Quark/
+* [qcacld-2.0: Fix buffer overflow in process_rx_info etc](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20process_rx_info%20etc&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in process_tx_info and process_rx_info](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20process_tx_info%20and%20process_rx_info&type=Commits)
+* [apq8084: v4l2: fix bracketing in unused code](https://github.com/search?q=apq8084%3A%20v4l2%3A%20fix%20bracketing%20in%20unused%20code&type=Commits)
+
+#### Device specific Changes of 10-21-2019 End.
+
+***
+
+10-20-2019
+====================
+
+#### LineageOS - Pie source changes of 10-20-2019:
+
+#### packages/apps/AudioFX/
+* [AudioFX: Add support for usb headset devices](https://github.com/search?q=AudioFX%3A%20Add%20support%20for%20usb%20headset%20devices&type=Commits)
+
+#### LineageOS - Pie source changes of 10-20-2019 End.
+
+10-15-2019
+====================
+
+#### LineageOS - Pie source changes of 10-15-2019:
+
+#### frameworks/av/
+* [Merge tag 'android-9.0.0_r49' into staging/lineage-16.0_merge-android-9.0.0_r49](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r49%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r49&type=Commits)
+
+#### frameworks/base/
+* [[1/2] Add battery info to tvsettings device info](https://github.com/search?q=[1/2]%20Add%20battery%20info%20to%20tvsettings%20device%20info&type=Commits)
+* [Merge tag 'android-9.0.0_r49' into staging/lineage-16.0_merge-android-9.0.0_r49](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r49%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r49&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge tag 'android-9.0.0_r49' into staging/lineage-16.0_merge-android-9.0.0_r49](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r49%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r49&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-9.0.0_r49' into staging/lineage-16.0_merge-android-9.0.0_r49](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r49%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r49&type=Commits)
+
+#### vendor/lineage/
+* [Add Tello APN](https://github.com/search?q=Add%20Tello%20APN&type=Commits)
+
+#### LineageOS - Pie source changes of 10-15-2019 End.
+
+10-13-2019
+====================
+
+#### LineageOS - Pie source changes of 10-13-2019:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### LineageOS - Pie source changes of 10-13-2019 End.
+
 10-12-2019
 ====================
 

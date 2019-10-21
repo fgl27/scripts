@@ -3,6 +3,16 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+10-21-2019
+====================
+
+* [kernel v 9.34](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20v%209.34&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in process_rx_info etc](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20process_rx_info%20etc&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in process_tx_info and process_rx_info](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20process_tx_info%20and%20process_rx_info&type=Commits)
+* [apq8084: v4l2: fix bracketing in unused code](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20v4l2%3A%20fix%20bracketing%20in%20unused%20code&type=Commits)
+
+***
+
 10-12-2019
 ====================
 
