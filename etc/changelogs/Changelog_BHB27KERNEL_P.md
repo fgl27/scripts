@@ -3,6 +3,56 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+12-13-2019
+====================
+
+* [usb: gadget: f_midi: fix missing func](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20gadget%3A%20f_midi%3A%20fix%20missing%20func&type=Commits)
+* [kernel V9.35](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.35&type=Commits)
+* [qcacld-2.0: Fix potential buffer overflow htt_t2h_msg_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20htt_t2h_msg_handler&type=Commits)
+* [qcacld-2.0: Fix potential buffer overflow htt_t2h_msg_handler](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20htt_t2h_msg_handler&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in fill_ieee80211_hdr_data](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20fill_ieee80211_hdr_data&type=Commits)
+* [USB: gadget: f_midi: fixing a possible double-free in f_midi](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20gadget%3A%20f_midi%3A%20fixing%20a%20possible%20double-free%20in%20f_midi&type=Commits)
+* [usb: gadget: f_midi: fail if set_alt fails to allocate requests](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20gadget%3A%20f_midi%3A%20fail%20if%20set_alt%20fails%20to%20allocate%20requests&type=Commits)
+* [usb: gadget: f_midi: fix leak on failed to enqueue out requests](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20gadget%3A%20f_midi%3A%20fix%20leak%20on%20failed%20to%20enqueue%20out%20requests&type=Commits)
+* [tracing: Fix possible double free on failure of allocating trace buffer](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Fix%20possible%20double%20free%20on%20failure%20of%20allocating%20trace%20buffer&type=Commits)
+* [diag: Prevent out-of-bound access while processing dci transaction](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Prevent%20out-of-bound%20access%20while%20processing%20dci%20transaction&type=Commits)
+* [diag: dci: Validate dci response length before parsing](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Validate%20dci%20response%20length%20before%20parsing&type=Commits)
+* [diag: dci: Validate dci client entries prior read](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Validate%20dci%20client%20entries%20prior%20read&type=Commits)
+* [diag: dci: Add validity check for dci client's process descriptor](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Add%20validity%20check%20for%20dci%20client%27s%20process%20descriptor&type=Commits)
+* [diag: Fix for possible dci error notification](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Fix%20for%20possible%20dci%20error%20notification&type=Commits)
+* [diag: dci: Validate dci client entries prior to access](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Validate%20dci%20client%20entries%20prior%20to%20access&type=Commits)
+* [msm: kgsl: Fix race condition between cmdbatch and context destroy](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Fix%20race%20condition%20between%20cmdbatch%20and%20context%20destroy&type=Commits)
+* [net: neigh: fix multiple neigh timer scheduling](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20neigh%3A%20fix%20multiple%20neigh%20timer%20scheduling&type=Commits)
+* [USB: check usb_get_extra_descriptor for proper size](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20check%20usb_get_extra_descriptor%20for%20proper%20size&type=Commits)
+* [Revert "usb: otg: don't set a_alt_hnp_support feature for OTG 2.0 device"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"usb%3A%20otg%3A%20don%27t%20set%20a_alt_hnp_support%20feature%20for%20OTG%202.0%20device"&type=Commits)
+* [Revert "USB: check usb_get_extra_descriptor for proper size"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"USB%3A%20check%20usb_get_extra_descriptor%20for%20proper%20size"&type=Commits)
+* [qcacld-2.0: Fix potential OOB read when indicate mgmt frame](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20potential%20OOB%20read%20when%20indicate%20mgmt%20frame&type=Commits)
+* [ALSA: usb-audio: Fix UAF decrement if card has no live interfaces in card.c](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20Fix%20UAF%20decrement%20if%20card%20has%20no%20live%20interfaces%20in%20card.c&type=Commits)
+* [qcacld-2.0: Possible OOB access in wlan_hdd_cfg80211_start_bss()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Possible%20OOB%20access%20in%20wlan_hdd_cfg80211_start_bss%28%29&type=Commits)
+* [qcacld-2.0: check the data length when downloading firmware](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20check%20the%20data%20length%20when%20downloading%20firmware&type=Commits)
+* [qcacld-2.0: OOB read while processing extscan change results](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20OOB%20read%20while%20processing%20extscan%20change%20results&type=Commits)
+* [SSM: Remove support for SSM driver](https://github.com/bhb27/BHB27Kernel/search?q=SSM%3A%20Remove%20support%20for%20SSM%20driver&type=Commits)
+* [ARM: dts: msm: Untrusted pointer dereference](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20dts%3A%20msm%3A%20Untrusted%20pointer%20dereference&type=Commits)
+* [qcacld-2.0: Implement descriptor pool for fw stats](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Implement%20descriptor%20pool%20for%20fw%20stats&type=Commits)
+* [cfg80211: Fix use after free when process wdev events](https://github.com/bhb27/BHB27Kernel/search?q=cfg80211%3A%20Fix%20use%20after%20free%20when%20process%20wdev%20events&type=Commits)
+* [scsi: sg: allocate with __GFP_ZERO in sg_build_indirect()](https://github.com/bhb27/BHB27Kernel/search?q=scsi%3A%20sg%3A%20allocate%20with%20__GFP_ZERO%20in%20sg_build_indirect%28%29&type=Commits)
+* [f2fs: fix to avoid accessing xattr across the boundary](https://github.com/bhb27/BHB27Kernel/search?q=f2fs%3A%20fix%20to%20avoid%20accessing%20xattr%20across%20the%20boundary&type=Commits)
+* [f2fs: sanity check of xattr entry size](https://github.com/bhb27/BHB27Kernel/search?q=f2fs%3A%20sanity%20check%20of%20xattr%20entry%20size&type=Commits)
+* [USB: check usb_get_extra_descriptor for proper size](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20check%20usb_get_extra_descriptor%20for%20proper%20size&type=Commits)
+* [usb: otg: don't set a_alt_hnp_support feature for OTG 2.0 device](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20otg%3A%20don%27t%20set%20a_alt_hnp_support%20feature%20for%20OTG%202.0%20device&type=Commits)
+* [media: v4l: event: Add subscription to list before calling "add" operation](https://github.com/bhb27/BHB27Kernel/search?q=media%3A%20v4l%3A%20event%3A%20Add%20subscription%20to%20list%20before%20calling%20"add"%20operation&type=Commits)
+* [media: v4l: event: Prevent freeing event subscriptions while accessed](https://github.com/bhb27/BHB27Kernel/search?q=media%3A%20v4l%3A%20event%3A%20Prevent%20freeing%20event%20subscriptions%20while%20accessed&type=Commits)
+* [usb: usbmon: Read text within supplied buffer size](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20usbmon%3A%20Read%20text%20within%20supplied%20buffer%20size&type=Commits)
+* [i2c: core-smbus: prevent stack corruption on read I2C_BLOCK_DATA](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20core-smbus%3A%20prevent%20stack%20corruption%20on%20read%20I2C_BLOCK_DATA&type=Commits)
+* [msm: kgsl: Fix race condition while making page as dirty](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Fix%20race%20condition%20while%20making%20page%20as%20dirty&type=Commits)
+* [msm: camera_v2: handle the error value returned during get clock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera_v2%3A%20handle%20the%20error%20value%20returned%20during%20get%20clock&type=Commits)
+* [lsm: check payload size validity before using it as array index](https://github.com/bhb27/BHB27Kernel/search?q=lsm%3A%20check%20payload%20size%20validity%20before%20using%20it%20as%20array%20index&type=Commits)
+* [msm: asm: validate ADSP data before access](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20asm%3A%20validate%20ADSP%20data%20before%20access&type=Commits)
+* [qcacld-2.0: Avoid integer underflow in dot11f_unpack functions](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20integer%20underflow%20in%20dot11f_unpack%20functions&type=Commits)
+* [dsp: q6voice: Check size of shared memory buffer before access](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20q6voice%3A%20Check%20size%20of%20shared%20memory%20buffer%20before%20access&type=Commits)
+
+***
+
 10-21-2019
 ====================
 
