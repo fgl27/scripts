@@ -1,6 +1,603 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+12-13-2019
+====================
+
+#### Device specific Changes of 12-13-2019 Start:
+
+#### Kernel/Quark/
+* [usb: gadget: f_midi: fix missing func](https://github.com/search?q=usb%3A%20gadget%3A%20f_midi%3A%20fix%20missing%20func&type=Commits)
+* [qcacld-2.0: Fix potential buffer overflow htt_t2h_msg_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20htt_t2h_msg_handler&type=Commits)
+* [qcacld-2.0: Fix potential buffer overflow htt_t2h_msg_handler](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20buffer%20overflow%20htt_t2h_msg_handler&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in fill_ieee80211_hdr_data](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20fill_ieee80211_hdr_data&type=Commits)
+* [USB: gadget: f_midi: fixing a possible double-free in f_midi](https://github.com/search?q=USB%3A%20gadget%3A%20f_midi%3A%20fixing%20a%20possible%20double-free%20in%20f_midi&type=Commits)
+* [usb: gadget: f_midi: fail if set_alt fails to allocate requests](https://github.com/search?q=usb%3A%20gadget%3A%20f_midi%3A%20fail%20if%20set_alt%20fails%20to%20allocate%20requests&type=Commits)
+* [usb: gadget: f_midi: fix leak on failed to enqueue out requests](https://github.com/search?q=usb%3A%20gadget%3A%20f_midi%3A%20fix%20leak%20on%20failed%20to%20enqueue%20out%20requests&type=Commits)
+* [tracing: Fix possible double free on failure of allocating trace buffer](https://github.com/search?q=tracing%3A%20Fix%20possible%20double%20free%20on%20failure%20of%20allocating%20trace%20buffer&type=Commits)
+* [diag: Prevent out-of-bound access while processing dci transaction](https://github.com/search?q=diag%3A%20Prevent%20out-of-bound%20access%20while%20processing%20dci%20transaction&type=Commits)
+* [diag: dci: Validate dci response length before parsing](https://github.com/search?q=diag%3A%20dci%3A%20Validate%20dci%20response%20length%20before%20parsing&type=Commits)
+* [diag: dci: Validate dci client entries prior read](https://github.com/search?q=diag%3A%20dci%3A%20Validate%20dci%20client%20entries%20prior%20read&type=Commits)
+* [diag: dci: Add validity check for dci client's process descriptor](https://github.com/search?q=diag%3A%20dci%3A%20Add%20validity%20check%20for%20dci%20client%27s%20process%20descriptor&type=Commits)
+* [diag: Fix for possible dci error notification](https://github.com/search?q=diag%3A%20Fix%20for%20possible%20dci%20error%20notification&type=Commits)
+* [diag: dci: Validate dci client entries prior to access](https://github.com/search?q=diag%3A%20dci%3A%20Validate%20dci%20client%20entries%20prior%20to%20access&type=Commits)
+* [msm: kgsl: Fix race condition between cmdbatch and context destroy](https://github.com/search?q=msm%3A%20kgsl%3A%20Fix%20race%20condition%20between%20cmdbatch%20and%20context%20destroy&type=Commits)
+* [net: neigh: fix multiple neigh timer scheduling](https://github.com/search?q=net%3A%20neigh%3A%20fix%20multiple%20neigh%20timer%20scheduling&type=Commits)
+* [USB: check usb_get_extra_descriptor for proper size](https://github.com/search?q=USB%3A%20check%20usb_get_extra_descriptor%20for%20proper%20size&type=Commits)
+* [Revert "usb: otg: don't set a_alt_hnp_support feature for OTG 2.0 device"](https://github.com/search?q=Revert%20"usb%3A%20otg%3A%20don%27t%20set%20a_alt_hnp_support%20feature%20for%20OTG%202.0%20device"&type=Commits)
+* [Revert "USB: check usb_get_extra_descriptor for proper size"](https://github.com/search?q=Revert%20"USB%3A%20check%20usb_get_extra_descriptor%20for%20proper%20size"&type=Commits)
+* [qcacld-2.0: Fix potential OOB read when indicate mgmt frame](https://github.com/search?q=qcacld-2.0%3A%20Fix%20potential%20OOB%20read%20when%20indicate%20mgmt%20frame&type=Commits)
+* [ALSA: usb-audio: Fix UAF decrement if card has no live interfaces in card.c](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20Fix%20UAF%20decrement%20if%20card%20has%20no%20live%20interfaces%20in%20card.c&type=Commits)
+* [qcacld-2.0: Possible OOB access in wlan_hdd_cfg80211_start_bss()](https://github.com/search?q=qcacld-2.0%3A%20Possible%20OOB%20access%20in%20wlan_hdd_cfg80211_start_bss%28%29&type=Commits)
+* [qcacld-2.0: check the data length when downloading firmware](https://github.com/search?q=qcacld-2.0%3A%20check%20the%20data%20length%20when%20downloading%20firmware&type=Commits)
+* [qcacld-2.0: OOB read while processing extscan change results](https://github.com/search?q=qcacld-2.0%3A%20OOB%20read%20while%20processing%20extscan%20change%20results&type=Commits)
+* [SSM: Remove support for SSM driver](https://github.com/search?q=SSM%3A%20Remove%20support%20for%20SSM%20driver&type=Commits)
+* [ARM: dts: msm: Untrusted pointer dereference](https://github.com/search?q=ARM%3A%20dts%3A%20msm%3A%20Untrusted%20pointer%20dereference&type=Commits)
+* [qcacld-2.0: Implement descriptor pool for fw stats](https://github.com/search?q=qcacld-2.0%3A%20Implement%20descriptor%20pool%20for%20fw%20stats&type=Commits)
+* [cfg80211: Fix use after free when process wdev events](https://github.com/search?q=cfg80211%3A%20Fix%20use%20after%20free%20when%20process%20wdev%20events&type=Commits)
+* [scsi: sg: allocate with __GFP_ZERO in sg_build_indirect()](https://github.com/search?q=scsi%3A%20sg%3A%20allocate%20with%20__GFP_ZERO%20in%20sg_build_indirect%28%29&type=Commits)
+* [f2fs: fix to avoid accessing xattr across the boundary](https://github.com/search?q=f2fs%3A%20fix%20to%20avoid%20accessing%20xattr%20across%20the%20boundary&type=Commits)
+* [f2fs: sanity check of xattr entry size](https://github.com/search?q=f2fs%3A%20sanity%20check%20of%20xattr%20entry%20size&type=Commits)
+* [USB: check usb_get_extra_descriptor for proper size](https://github.com/search?q=USB%3A%20check%20usb_get_extra_descriptor%20for%20proper%20size&type=Commits)
+* [usb: otg: don't set a_alt_hnp_support feature for OTG 2.0 device](https://github.com/search?q=usb%3A%20otg%3A%20don%27t%20set%20a_alt_hnp_support%20feature%20for%20OTG%202.0%20device&type=Commits)
+* [media: v4l: event: Add subscription to list before calling "add" operation](https://github.com/search?q=media%3A%20v4l%3A%20event%3A%20Add%20subscription%20to%20list%20before%20calling%20"add"%20operation&type=Commits)
+* [media: v4l: event: Prevent freeing event subscriptions while accessed](https://github.com/search?q=media%3A%20v4l%3A%20event%3A%20Prevent%20freeing%20event%20subscriptions%20while%20accessed&type=Commits)
+* [usb: usbmon: Read text within supplied buffer size](https://github.com/search?q=usb%3A%20usbmon%3A%20Read%20text%20within%20supplied%20buffer%20size&type=Commits)
+* [i2c: core-smbus: prevent stack corruption on read I2C_BLOCK_DATA](https://github.com/search?q=i2c%3A%20core-smbus%3A%20prevent%20stack%20corruption%20on%20read%20I2C_BLOCK_DATA&type=Commits)
+* [msm: kgsl: Fix race condition while making page as dirty](https://github.com/search?q=msm%3A%20kgsl%3A%20Fix%20race%20condition%20while%20making%20page%20as%20dirty&type=Commits)
+* [msm: camera_v2: handle the error value returned during get clock](https://github.com/search?q=msm%3A%20camera_v2%3A%20handle%20the%20error%20value%20returned%20during%20get%20clock&type=Commits)
+* [lsm: check payload size validity before using it as array index](https://github.com/search?q=lsm%3A%20check%20payload%20size%20validity%20before%20using%20it%20as%20array%20index&type=Commits)
+* [msm: asm: validate ADSP data before access](https://github.com/search?q=msm%3A%20asm%3A%20validate%20ADSP%20data%20before%20access&type=Commits)
+* [qcacld-2.0: Avoid integer underflow in dot11f_unpack functions](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20integer%20underflow%20in%20dot11f_unpack%20functions&type=Commits)
+* [dsp: q6voice: Check size of shared memory buffer before access](https://github.com/search?q=dsp%3A%20q6voice%3A%20Check%20size%20of%20shared%20memory%20buffer%20before%20access&type=Commits)
+* [qcacld-2.0: Avoid buffer overflow when handle 11w rmf](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20buffer%20overflow%20when%20handle%2011w%20rmf&type=Commits)
+* [qcacld-2.0: Fix possible OOB access in limProcessDisassocFrame](https://github.com/search?q=qcacld-2.0%3A%20Fix%20possible%20OOB%20access%20in%20limProcessDisassocFrame&type=Commits)
+* [qcacld-2.0: Fix OOB read in limProcessDeauthFrame](https://github.com/search?q=qcacld-2.0%3A%20Fix%20OOB%20read%20in%20limProcessDeauthFrame&type=Commits)
+* [apq8084: qcacld-2.0: Fix "Fix potential OOB read in dot11f.c"](https://github.com/search?q=apq8084%3A%20qcacld-2.0%3A%20Fix%20"Fix%20potential%20OOB%20read%20in%20dot11f.c"&type=Commits)
+* [Revert "Revert "qcacld-2.0: Fix potential OOB read in dot11f.c""](https://github.com/search?q=Revert%20"Revert%20"qcacld-2.0%3A%20Fix%20potential%20OOB%20read%20in%20dot11f.c""&type=Commits)
+* [Revert "Revert "qcacld-2.0: Check ie_len against 255 in function get_container_ies_len""](https://github.com/search?q=Revert%20"Revert%20"qcacld-2.0%3A%20Check%20ie_len%20against%20255%20in%20function%20get_container_ies_len""&type=Commits)
+
+#### Device specific Changes of 12-13-2019 End.
+
+***
+
+#### LineageOS - Pie source changes of 12-13-2019:
+
+#### build/make/
+* [build add some info to show when flashing the zip](https://github.com/search?q=build%20add%20some%20info%20to%20show%20when%20flashing%20the%20zip&type=Commits)
+* [Enable GSS garbage collection](https://github.com/search?q=Enable%20GSS%20garbage%20collection&type=Commits)
+* [disable Dalvik lock contention logging as it isnt needed](https://github.com/search?q=disable%20Dalvik%20lock%20contention%20logging%20as%20it%20isnt%20needed&type=Commits)
+* [Remove Feedback Directed Optimization support](https://github.com/search?q=Remove%20Feedback%20Directed%20Optimization%20support&type=Commits)
+* [build: force rebuild build.prop](https://github.com/search?q=build%3A%20force%20rebuild%20build.prop&type=Commits)
+* [Use 'release-keys' for build tag](https://github.com/search?q=Use%20%27release-keys%27%20for%20build%20tag&type=Commits)
+
+#### frameworks/base/
+* [Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
+* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
+* [base: Show fast charging on lockscreen witout checking amperage](https://github.com/search?q=base%3A%20Show%20fast%20charging%20on%20lockscreen%20witout%20checking%20amperage&type=Commits)
+* [Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
+* [CPUInfoService add quark improves](https://github.com/search?q=CPUInfoService%20add%20quark%20improves&type=Commits)
+* [Base: config_appTransitionAnimationDurationScaleDefault 0.5](https://github.com/search?q=Base%3A%20config_appTransitionAnimationDurationScaleDefault%200.5&type=Commits)
+* [base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
+* [base: add CPU info overlay](https://github.com/search?q=base%3A%20add%20CPU%20info%20overlay&type=Commits)
+
+#### packages/apps/Dialer/
+* [Dialer: prevent touch events when the screen is off](https://github.com/search?q=Dialer%3A%20prevent%20touch%20events%20when%20the%20screen%20is%20off&type=Commits)
+
+#### packages/apps/Nfc/
+* [Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: hardcoded TapToWakePreferece to read state from the path](https://github.com/search?q=Settings%3A%20hardcoded%20TapToWakePreferece%20to%20read%20state%20from%20the%20path&type=Commits)
+* [Developer: set default writeAnimationScaleOption to 0.5](https://github.com/search?q=Developer%3A%20set%20default%20writeAnimationScaleOption%20to%200.5&type=Commits)
+
+#### packages/apps/Updater/
+* [hardcodede update urls](https://github.com/search?q=hardcodede%20update%20urls&type=Commits)
+
+#### system/connectivity/wificond/
+* [Revert "wificond: Query if DBS scan features are supported"](https://github.com/search?q=Revert%20"wificond%3A%20Query%20if%20DBS%20scan%20features%20are%20supported"&type=Commits)
+* [Revert "wificond: Send DBS scan flags if supported"](https://github.com/search?q=Revert%20"wificond%3A%20Send%20DBS%20scan%20flags%20if%20supported"&type=Commits)
+
+#### vendor/lineage/
+* [Mod build](https://github.com/search?q=Mod%20build&type=Commits)
+
+#### LineageOS - Pie source changes of 12-13-2019 End.
+
+12-09-2019
+====================
+
+#### LineageOS - Pie source changes of 12-09-2019:
+
+#### packages/apps/Dialer/
+* [Enable call recording for Iran](https://github.com/search?q=Enable%20call%20recording%20for%20Iran&type=Commits)
+
+#### LineageOS - Pie source changes of 12-09-2019 End.
+
+12-08-2019
+====================
+
+#### LineageOS - Pie source changes of 12-08-2019:
+
+#### frameworks/base/
+* [Do not compute outside given range in TextLine](https://github.com/search?q=Do%20not%20compute%20outside%20given%20range%20in%20TextLine&type=Commits)
+* [Revert "RESTRICT AUTOMERGE Do not compute outside given range in TextLine"](https://github.com/search?q=Revert%20"RESTRICT%20AUTOMERGE%20Do%20not%20compute%20outside%20given%20range%20in%20TextLine"&type=Commits)
+
+#### LineageOS - Pie source changes of 12-08-2019 End.
+
+12-06-2019
+====================
+
+#### LineageOS - Pie source changes of 12-06-2019:
+
+#### bootable/recovery/
+* [recovery: Show slot indicator for A/B devices](https://github.com/search?q=recovery%3A%20Show%20slot%20indicator%20for%20A/B%20devices&type=Commits)
+
+#### LineageOS - Pie source changes of 12-06-2019 End.
+
+12-05-2019
+====================
+
+#### LineageOS - Pie source changes of 12-05-2019:
+
+#### build/make/
+* [Bump Security String to 2019-12-05](https://github.com/search?q=Bump%20Security%20String%20to%202019-12-05&type=Commits)
+
+#### LineageOS - Pie source changes of 12-05-2019 End.
+
+12-03-2019
+====================
+
+#### LineageOS - Pie source changes of 12-03-2019:
+#### android/
+* [manifest: Updates for 2019-12 P ASB](https://github.com/search?q=manifest%3A%20Updates%20for%202019-12%20P%20ASB&type=Commits)
+
+#### external/libcups/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### external/libhevc/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 03-Dec-2019 13:07 UTC](https://github.com/search?q=Updated%20to%2003-Dec-2019%2013%3A07%20UTC&type=Commits)
+
+#### packages/apps/Email/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### system/security/
+* [Merge tag 'android-9.0.0_r51' into staging/lineage-16.0_merge-android-9.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r51%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r51&type=Commits)
+
+#### LineageOS - Pie source changes of 12-03-2019 End.
+
+12-02-2019
+====================
+
+#### LineageOS - Pie source changes of 12-02-2019:
+
+#### packages/apps/Trebuchet/
+* [Trebuchet: Avoid NPE in startAppShortcutOrInfoActivity()](https://github.com/search?q=Trebuchet%3A%20Avoid%20NPE%20in%20startAppShortcutOrInfoActivity%28%29&type=Commits)
+
+#### LineageOS - Pie source changes of 12-02-2019 End.
+
+11-29-2019
+====================
+
+#### LineageOS - Pie source changes of 11-29-2019:
+
+#### lineage/wiki/
+* [wiki: add Samsung Galaxy S III Neo Dual Sim](https://github.com/search?q=wiki%3A%20add%20Samsung%20Galaxy%20S%20III%20Neo%20Dual%20Sim&type=Commits)
+
+#### LineageOS - Pie source changes of 11-29-2019 End.
+
+11-28-2019
+====================
+
+#### LineageOS - Pie source changes of 11-28-2019:
+
+#### lineage/hudson/
+* [hudson: add Samsung Galaxy S III Neo Dual SIM variant](https://github.com/search?q=hudson%3A%20add%20Samsung%20Galaxy%20S%20III%20Neo%20Dual%20SIM%20variant&type=Commits)
+
+#### LineageOS - Pie source changes of 11-28-2019 End.
+
+11-27-2019
+====================
+
+#### LineageOS - Pie source changes of 11-27-2019:
+
+#### frameworks/base/
+* [Fix "show pattern error" feature](https://github.com/search?q=Fix%20"show%20pattern%20error"%20feature&type=Commits)
+* [SystemUI: Don't dismiss keyguard if user key isn't unlocked](https://github.com/search?q=SystemUI%3A%20Don%27t%20dismiss%20keyguard%20if%20user%20key%20isn%27t%20unlocked&type=Commits)
+
+#### LineageOS - Pie source changes of 11-27-2019 End.
+
+11-26-2019
+====================
+
+#### LineageOS - Pie source changes of 11-26-2019:
+
+#### lineage/hudson/
+* [hudson: Add Zenfone Max Pro M2 (X01BD)](https://github.com/search?q=hudson%3A%20Add%20Zenfone%20Max%20Pro%20M2%20%28X01BD%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Zenfone Max Pro M2 (X01BD)](https://github.com/search?q=wiki%3A%20Add%20Zenfone%20Max%20Pro%20M2%20%28X01BD%29&type=Commits)
+
+#### vendor/lineage/
+* [overlay: Use ntp.ntsc.ac.cn NTP server for Chinese users](https://github.com/search?q=overlay%3A%20Use%20ntp.ntsc.ac.cn%20NTP%20server%20for%20Chinese%20users&type=Commits)
+
+#### LineageOS - Pie source changes of 11-26-2019 End.
+
+11-25-2019
+====================
+
+#### LineageOS - Pie source changes of 11-25-2019:
+
+#### lineage/mirror/
+* [Updated to 25-Nov-2019 01:00 UTC](https://github.com/search?q=Updated%20to%2025-Nov-2019%2001%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 11-25-2019 End.
+
+11-23-2019
+====================
+
+#### LineageOS - Pie source changes of 11-23-2019:
+
+#### lineage-sdk/
+* [sdk: Make phone a new compile target](https://github.com/search?q=sdk%3A%20Make%20phone%20a%20new%20compile%20target&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Fix conditional for devices without a screen](https://github.com/search?q=wiki%3A%20Fix%20conditional%20for%20devices%20without%20a%20screen&type=Commits)
+* [wiki: Display the screen size in deviceinfo sidebar](https://github.com/search?q=wiki%3A%20Display%20the%20screen%20size%20in%20deviceinfo%20sidebar&type=Commits)
+
+#### packages/services/Telecomm/
+* [Telecom: Adapt to the new location of SensitivePhoneNumbers](https://github.com/search?q=Telecom%3A%20Adapt%20to%20the%20new%20location%20of%20SensitivePhoneNumbers&type=Commits)
+
+#### LineageOS - Pie source changes of 11-23-2019 End.
+
+11-22-2019
+====================
+
+#### LineageOS - Pie source changes of 11-22-2019:
+
+#### lineage/mirror/
+* [Updated to 22-Nov-2019 01:00 UTC](https://github.com/search?q=Updated%20to%2022-Nov-2019%2001%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 11-22-2019 End.
+
+11-21-2019
+====================
+
+#### LineageOS - Pie source changes of 11-21-2019:
+
+#### lineage/wiki/
+* [wiki: Re-add recovery install template for Huawei](https://github.com/search?q=wiki%3A%20Re-add%20recovery%20install%20template%20for%20Huawei&type=Commits)
+
+#### packages/apps/Dialer/
+* [Enable call recording for China](https://github.com/search?q=Enable%20call%20recording%20for%20China&type=Commits)
+
+#### LineageOS - Pie source changes of 11-21-2019 End.
+
+11-20-2019
+====================
+
+#### LineageOS - Pie source changes of 11-20-2019:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 20-Nov-2019 04:41 UTC](https://github.com/search?q=Updated%20to%2020-Nov-2019%2004%3A41%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 11-20-2019 End.
+
+11-17-2019
+====================
+
+#### LineageOS - Pie source changes of 11-17-2019:
+
+#### frameworks/base/
+* [PackageManager: Refactor en-/disabling of components](https://github.com/search?q=PackageManager%3A%20Refactor%20en-/disabling%20of%20components&type=Commits)
+
+#### lineage/wiki/
+* [Ignore more files for _site](https://github.com/search?q=Ignore%20more%20files%20for%20_site&type=Commits)
+* [wiki: Remove unsued file update.sh](https://github.com/search?q=wiki%3A%20Remove%20unsued%20file%20update.sh&type=Commits)
+
+#### LineageOS - Pie source changes of 11-17-2019 End.
+
+11-16-2019
+====================
+
+#### LineageOS - Pie source changes of 11-16-2019:
+
+#### lineage/wiki/
+* [wiki: river: Fix screen dimension validation](https://github.com/search?q=wiki%3A%20river%3A%20Fix%20screen%20dimension%20validation&type=Commits)
+* [wiki: Update jekyll to 3.8.5](https://github.com/search?q=wiki%3A%20Update%20jekyll%20to%203.8.5&type=Commits)
+* [wiki: Add dimension and network data validation](https://github.com/search?q=wiki%3A%20Add%20dimension%20and%20network%20data%20validation&type=Commits)
+
+#### LineageOS - Pie source changes of 11-16-2019 End.
+
+11-14-2019
+====================
+
+#### LineageOS - Pie source changes of 11-14-2019:
+
+#### lineage/wiki/
+* [wiki: Add moto G7 (river)](https://github.com/search?q=wiki%3A%20Add%20moto%20G7%20%28river%29&type=Commits)
+
+#### LineageOS - Pie source changes of 11-14-2019 End.
+
+11-13-2019
+====================
+
+#### LineageOS - Pie source changes of 11-13-2019:
+
+#### lineage/hudson/
+* [hudson: Add moto G7 (river)](https://github.com/search?q=hudson%3A%20Add%20moto%20G7%20%28river%29&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 13-Nov-2019 03:41 UTC](https://github.com/search?q=Updated%20to%2013-Nov-2019%2003%3A41%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 11-13-2019 End.
+
+11-12-2019
+====================
+
+#### LineageOS - Pie source changes of 11-12-2019:
+
+#### external/chromium-libpac/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### external/sqlite/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### external/v8/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### hardware/interfaces/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 78.0.3904.96](https://github.com/search?q=Update%20default%20webview%20to%2078.0.3904.96&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### packages/apps/Dialer/
+* [Base 'call recording allowed' decision on current country.](https://github.com/search?q=Base%20%27call%20recording%20allowed%27%20decision%20on%20current%20country.&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### system/nfc/
+* [Merge tag 'android-9.0.0_r50' into staging/lineage-16.0_merge-android-9.0.0_r50](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r50%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r50&type=Commits)
+
+#### LineageOS - Pie source changes of 11-12-2019 End.
+
+11-10-2019
+====================
+
+#### LineageOS - Pie source changes of 11-10-2019:
+
+#### packages/apps/Snap/
+* [Snap: Handle SDCard-removed case](https://github.com/search?q=Snap%3A%20Handle%20SDCard-removed%20case&type=Commits)
+* [Snap: Don't spam exceptions](https://github.com/search?q=Snap%3A%20Don%27t%20spam%20exceptions&type=Commits)
+
+#### LineageOS - Pie source changes of 11-10-2019 End.
+
+11-09-2019
+====================
+
+#### LineageOS - Pie source changes of 11-09-2019:
+
+#### build/make/
+* [Bump Security String to 2019-11-05](https://github.com/search?q=Bump%20Security%20String%20to%202019-11-05&type=Commits)
+
+#### LineageOS - Pie source changes of 11-09-2019 End.
+
+11-08-2019
+====================
+
+#### LineageOS - Pie source changes of 11-08-2019:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 78.0.3904.96](https://github.com/search?q=Update%20Chromium%20Webview%20to%2078.0.3904.96&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 08-Nov-2019 01:00 UTC](https://github.com/search?q=Updated%20to%2008-Nov-2019%2001%3A00%20UTC&type=Commits)
+
+#### LineageOS - Pie source changes of 11-08-2019 End.
+
+11-07-2019
+====================
+
+#### LineageOS - Pie source changes of 11-07-2019:
+
+#### lineage/hudson/
+* [hudson: Add Xperia Z3 Compact](https://github.com/search?q=hudson%3A%20Add%20Xperia%20Z3%20Compact&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Xperia Z3 Compact](https://github.com/search?q=wiki%3A%20Add%20Xperia%20Z3%20Compact&type=Commits)
+
+#### LineageOS - Pie source changes of 11-07-2019 End.
+
+11-06-2019
+====================
+
+#### LineageOS - Pie source changes of 11-06-2019:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### LineageOS - Pie source changes of 11-06-2019 End.
+
+11-05-2019
+====================
+
+#### LineageOS - Pie source changes of 11-05-2019:
+#### android/
+* [manifest: Updates for 2019-11 P ASB](https://github.com/search?q=manifest%3A%20Updates%20for%202019-11%20P%20ASB&type=Commits)
+
+#### LineageOS - Pie source changes of 11-05-2019 End.
+
+11-03-2019
+====================
+
+#### LineageOS - Pie source changes of 11-03-2019:
+
+#### lineage-sdk/
+* [SensitivePhoneNumbers: Load numbers only at first actual call to method](https://github.com/search?q=SensitivePhoneNumbers%3A%20Load%20numbers%20only%20at%20first%20actual%20call%20to%20method&type=Commits)
+* [SensitivePhoneNumbers: Convert to singleton class](https://github.com/search?q=SensitivePhoneNumbers%3A%20Convert%20to%20singleton%20class&type=Commits)
+* [SensitivePn: Also hide international numbers](https://github.com/search?q=SensitivePn%3A%20Also%20hide%20international%20numbers&type=Commits)
+* [SensitivePn: Take into account multiple SIMs for sensitive numbers](https://github.com/search?q=SensitivePn%3A%20Take%20into%20account%20multiple%20SIMs%20for%20sensitive%20numbers&type=Commits)
+* [sdk: Move SensitivePhoneNumbers to sdk [2/2]](https://github.com/search?q=sdk%3A%20Move%20SensitivePhoneNumbers%20to%20sdk%20[2/2]&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Promote Mido](https://github.com/search?q=hudson%3A%20Promote%20Mido&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 03-Nov-2019 03:52 UTC](https://github.com/search?q=Updated%20to%2003-Nov-2019%2003%3A52%20UTC&type=Commits)
+* [Updated to 03-Nov-2019 03:34 UTC](https://github.com/search?q=Updated%20to%2003-Nov-2019%2003%3A34%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Promote Mido](https://github.com/search?q=wiki%3A%20Promote%20Mido&type=Commits)
+
+#### packages/services/Telecomm/
+* [Telecom: Convert to using singleton class](https://github.com/search?q=Telecom%3A%20Convert%20to%20using%20singleton%20class&type=Commits)
+* [Telecom: Move SensitivePhoneNumbers to sdk [1/2]](https://github.com/search?q=Telecom%3A%20Move%20SensitivePhoneNumbers%20to%20sdk%20[1/2]&type=Commits)
+
+#### LineageOS - Pie source changes of 11-03-2019 End.
+
+11-02-2019
+====================
+
+#### LineageOS - Pie source changes of 11-02-2019:
+
+#### packages/apps/Settings/
+* [Settings: Move shortcut string to cm_strings](https://github.com/search?q=Settings%3A%20Move%20shortcut%20string%20to%20cm_strings&type=Commits)
+
+#### LineageOS - Pie source changes of 11-02-2019 End.
+
+10-31-2019
+====================
+
+#### LineageOS - Pie source changes of 10-31-2019:
+
+#### frameworks/base/
+* [PM: Allow disabling components per-device](https://github.com/search?q=PM%3A%20Allow%20disabling%20components%20per-device&type=Commits)
+
+#### hardware/qcom/power/
+* [apq8084: revert interactive boost to msm8974 settings](https://github.com/search?q=apq8084%3A%20revert%20interactive%20boost%20to%20msm8974%20settings&type=Commits)
+
+#### vendor/lineage/
+* [vendor: Rename config_disabledComponents](https://github.com/search?q=vendor%3A%20Rename%20config_disabledComponents&type=Commits)
+* [vendor: Add messaging app to power whitelist](https://github.com/search?q=vendor%3A%20Add%20messaging%20app%20to%20power%20whitelist&type=Commits)
+
+#### LineageOS - Pie source changes of 10-31-2019 End.
+
+10-30-2019
+====================
+
+#### LineageOS - Pie source changes of 10-30-2019:
+
+#### build/make/
+* [Default TARGET_COPY_OUT_ODM to $(TARGET_COPY_OUT_VENDOR)/odm](https://github.com/search?q=Default%20TARGET_COPY_OUT_ODM%20to%20$%28TARGET_COPY_OUT_VENDOR%29/odm&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Update discovery maintainers list](https://github.com/search?q=wiki%3A%20Update%20discovery%20maintainers%20list&type=Commits)
+
+#### LineageOS - Pie source changes of 10-30-2019 End.
+
+10-29-2019
+====================
+
+#### LineageOS - Pie source changes of 10-29-2019:
+
+#### lineage/hudson/
+* [hudson: add s3ve3gxx and s3ve3gjv](https://github.com/search?q=hudson%3A%20add%20s3ve3gxx%20and%20s3ve3gjv&type=Commits)
+
+#### lineage/wiki/
+* [wiki: add Samsung S3NEO (s3ve3gxx and s3ve3gjv)](https://github.com/search?q=wiki%3A%20add%20Samsung%20S3NEO%20%28s3ve3gxx%20and%20s3ve3gjv%29&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Allow adding a shortcut for mobile network settings](https://github.com/search?q=Settings%3A%20Allow%20adding%20a%20shortcut%20for%20mobile%20network%20settings&type=Commits)
+
+#### packages/services/Telephony/
+* [NetworkSelection: Use the actual selection, not the first or last one found](https://github.com/search?q=NetworkSelection%3A%20Use%20the%20actual%20selection,%20not%20the%20first%20or%20last%20one%20found&type=Commits)
+
+#### LineageOS - Pie source changes of 10-29-2019 End.
+
+10-28-2019
+====================
+
+#### LineageOS - Pie source changes of 10-28-2019:
+
+#### packages/services/Telephony/
+* [Telephony: Display forbidden networks last](https://github.com/search?q=Telephony%3A%20Display%20forbidden%20networks%20last&type=Commits)
+
+#### LineageOS - Pie source changes of 10-28-2019 End.
+
+10-24-2019
+====================
+
+#### LineageOS - Pie source changes of 10-24-2019:
+
+#### hardware/qcom/fm/
+* [FM: Add backward compatiblity support for oreo FM configs](https://github.com/search?q=FM%3A%20Add%20backward%20compatiblity%20support%20for%20oreo%20FM%20configs&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add Yandex Phone (Amber)](https://github.com/search?q=hudson%3A%20Add%20Yandex%20Phone%20%28Amber%29&type=Commits)
+* [Revert "hudson: Disable discovery for now"](https://github.com/search?q=Revert%20"hudson%3A%20Disable%20discovery%20for%20now"&type=Commits)
+
+#### lineage/wiki/
+* [devices: Add Yandex Phone (Amber)](https://github.com/search?q=devices%3A%20Add%20Yandex%20Phone%20%28Amber%29&type=Commits)
+* [Revert "wiki: Mark discovery as discontinued"](https://github.com/search?q=Revert%20"wiki%3A%20Mark%20discovery%20as%20discontinued"&type=Commits)
+
+#### LineageOS - Pie source changes of 10-24-2019 End.
+
+10-23-2019
+====================
+
+#### LineageOS - Pie source changes of 10-23-2019:
+
+#### lineage/hudson/
+* [hudson: Disable lettuce](https://github.com/search?q=hudson%3A%20Disable%20lettuce&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 23-Oct-2019 03:32 UTC](https://github.com/search?q=Updated%20to%2023-Oct-2019%2003%3A32%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [Remove myself from msm8916 devices](https://github.com/search?q=Remove%20myself%20from%20msm8916%20devices&type=Commits)
+
+#### LineageOS - Pie source changes of 10-23-2019 End.
+
 10-21-2019
 ====================
 
