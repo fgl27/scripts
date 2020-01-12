@@ -241,6 +241,8 @@ npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" > ~/.profile
 npm install js-beautify jshint uglify-js html-minifier crass -g
 ```
+
+curl https://www.npmjs.com/install.sh | sudo sh
 ##  nodejs end
 
 ## install tizen start
