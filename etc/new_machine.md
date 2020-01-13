@@ -292,7 +292,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 #### Automatic installation
 
-	sudo ubuntu-drivers autoinstall 
+	sudo ubuntu-drivers autoinstall
 
 #### If the above doesn't work try, disable default Nvidia "nouveau" ubuntu driver in order to install the official Nvidia one
 

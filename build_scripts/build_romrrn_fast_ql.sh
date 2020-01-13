@@ -7,9 +7,7 @@ START2="$(date)";
 echo -e "\n build start $(date)\n";
 
 #source tree folder yours machine source folder
-#source tree folder yours machine source folder
-FOLDER_RR=~/android/rrp;
-FOLDER_L=~/android/P;
+FOLDER_L=~/android/Q;
 
 echo -e "\nCommit?\n 1 = Yes\n"
 read -r input1
@@ -57,6 +55,16 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder || exit;
 	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-16.0-caf-8084  && git cherry-pick 1b209940f1e72e247d1c627479e0b517aa62083f
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	#change rom type name
+	folder="vendor/lineage";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_vendor_resurrection/ lineage-16.0_test  && git cherry-pick fc0d0a362c5b665896a75f539a66930cb276e885
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
