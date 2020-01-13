@@ -69,6 +69,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="build/make";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_build/ lineage-17.1 && git cherry-pick 11e66bd490fb38b1c4ed1ab16abc03453fa21657^..da6edfd8d41393a689a6fe0664ceab57805c3837
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Fix sepolicy
 	folder="device/qcom/sepolicy-legacy";
 	echo -e "\\n	In Folder $folder \\n"
