@@ -27,6 +27,24 @@ if [ "$input1" == "1" ]; then
 
 	# changes to make the ROM the way I prefer
 
+	folder="frameworks/base/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 79ea94f03b6f830278ddc315eb7f6c2a4c5ebf95^..5978e01a538b936ea5956c9a5f40a6a5536862de
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	folder="packages/apps/Settings";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_packages_apps_Settings/ lineage-17.1 && git cherry-pick eb0197525076336b874fc8cfdc1b0a021a20092c^..b083dab2371bb996728c4e4e73449b1850448f55
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Disable nfc by default
 	
 	folder="packages/apps/Nfc";
