@@ -113,16 +113,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	#Gps fixes
-	folder="hardware/qcom/gps";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_hardware_qcom_gps lineage-17.1 && git cherry-pick 9baa90e4811e5405c183eb890726d74d9e74f513
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 fi
 
 #Set Branch and update kernel and vendor before build
