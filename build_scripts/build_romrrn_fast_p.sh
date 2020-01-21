@@ -103,6 +103,26 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#Media updates
+	folder="hardware/qcom/media-caf/apq8084";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-16.0-caf-8084  && git cherry-pick 1b209940f1e72e247d1c627479e0b517aa62083f
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+	#Gps fixes
+	folder="hardware/qcom/gps";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_hardware_qcom_gps lineage-17.1 && git cherry-pick aaff30667c6c4baf4fc23cf6d4d18abf64e1d726
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 fi
 
 #Set Branch and update kernel and vendor before build
