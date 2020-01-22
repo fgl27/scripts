@@ -1,9 +1,9 @@
 #!/bin/bash
 # simple build sh ... alias bt='$HOME/user/source_folder/build_TWRP.sh'
 
-export TW_DEVICE_VERSION=mod_4;
+export TW_DEVICE_VERSION=mod_1;
 
-folder="$HOME/android/or/";
+folder="$HOME/android/P/";
 
 cd $folder
 TWRP_V=$(grep '#define TW_MAIN_VERSION_STR       "' bootable/recovery/variables.h | head -1 | awk '{print $3}' | sed 's/\"//g');
@@ -15,10 +15,7 @@ export WITH_ROOT_METHOD="rootless"
 export WITH_SU=true
 
 . build/envsetup.sh
-export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
-./prebuilts/sdk/tools/jack-admin kill-server
-./prebuilts/sdk/tools/jack-admin start-server
-lunch rr_quark-userdebug
+lunch lineage_quark-eng
 
 make clean
 time make recoveryimage -j8 2>&1 | tee twrp.txt
