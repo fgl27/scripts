@@ -1,6 +1,410 @@
 LineageOS - Pie source and Quark Changelog:
 ============================================================
 
+01-22-2020
+====================
+
+#### Device specific Changes of 01-22-2020 Start:
+
+#### Device/Quark/
+* [Revert "Quark: gps: Import CAF HAL"](https://github.com/search?q=Revert%20"Quark%3A%20gps%3A%20Import%20CAF%20HAL"&type=Commits)
+* [Quark: fix voice_processing build](https://github.com/search?q=Quark%3A%20fix%20voice_processing%20build&type=Commits)
+* [Quark: gps: Import CAF HAL](https://github.com/search?q=Quark%3A%20gps%3A%20Import%20CAF%20HAL&type=Commits)
+
+#### Vendor/Quark/
+* [Revert "Quark: build gps libs from source"](https://github.com/search?q=Revert%20"Quark%3A%20build%20gps%20libs%20from%20source"&type=Commits)
+* [Quark: build gps libs from source](https://github.com/search?q=Quark%3A%20build%20gps%20libs%20from%20source&type=Commits)
+
+#### Device specific Changes of 01-22-2020 End.
+
+***
+
+01-20-2020
+====================
+
+#### Device specific Changes of 01-20-2020 Start:
+
+#### Kernel/Quark/
+* [mm: fix prctl_set_vma_anon_name](https://github.com/search?q=mm%3A%20fix%20prctl_set_vma_anon_name&type=Commits)
+* [mm: add a field to store names for private anonymous memory](https://github.com/search?q=mm%3A%20add%20a%20field%20to%20store%20names%20for%20private%20anonymous%20memory&type=Commits)
+
+#### Device specific Changes of 01-20-2020 End.
+
+***
+
+01-19-2020
+====================
+
+#### Device specific Changes of 01-19-2020 Start:
+
+#### Device/Quark/
+* [Quark: clean up media_codecs_performance.xml](https://github.com/search?q=Quark%3A%20clean%20up%20media_codecs_performance.xml&type=Commits)
+
+#### Device specific Changes of 01-19-2020 End.
+
+***
+
+#### LineageOS - Pie source changes of 01-19-2020:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/crowdin/
+* [config: Add 17.1 support](https://github.com/search?q=config%3A%20Add%2017.1%20support&type=Commits)
+* [crowdin: Improve console output](https://github.com/search?q=crowdin%3A%20Improve%20console%20output&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - Pie source changes of 01-19-2020 End.
+
+01-18-2020
+====================
+
+#### LineageOS - Pie source changes of 01-18-2020:
+
+#### lineage/wiki/
+* [nash: Update instructions to clarify finding hardware SKU](https://github.com/search?q=nash%3A%20Update%20instructions%20to%20clarify%20finding%20hardware%20SKU&type=Commits)
+* [wiki: templates: ab_copypartitions: Add a note that it isn't signed](https://github.com/search?q=wiki%3A%20templates%3A%20ab_copypartitions%3A%20Add%20a%20note%20that%20it%20isn%27t%20signed&type=Commits)
+
+#### LineageOS - Pie source changes of 01-18-2020 End.
+
+01-17-2020
+====================
+
+#### LineageOS - Pie source changes of 01-17-2020:
+
+#### lineage-sdk/
+* [PerformanceManager: Fix applying power profile in low power mode](https://github.com/search?q=PerformanceManager%3A%20Fix%20applying%20power%20profile%20in%20low%20power%20mode&type=Commits)
+
+#### LineageOS - Pie source changes of 01-17-2020 End.
+
+01-15-2020
+====================
+
+#### LineageOS - Pie source changes of 01-15-2020:
+
+#### device/lineage/sepolicy/
+* [sepolicy: Label ro.telephony.use_old_mnc_mcc_format](https://github.com/search?q=sepolicy%3A%20Label%20ro.telephony.use_old_mnc_mcc_format&type=Commits)
+
+#### frameworks/opt/telephony/
+* [RIL: Fix manual network selection with old modem](https://github.com/search?q=RIL%3A%20Fix%20manual%20network%20selection%20with%20old%20modem&type=Commits)
+
+#### hardware/qcom/fm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Fix recovery links for zangya and zangyapro.](https://github.com/search?q=wiki%3A%20Fix%20recovery%20links%20for%20zangya%20and%20zangyapro.&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Backgrounds/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - Pie source changes of 01-15-2020 End.
+
+01-14-2020
+====================
+
+#### LineageOS - Pie source changes of 01-14-2020:
+
+#### lineage/wiki/
+* [nash: Move from required_bootloader to before_install](https://github.com/search?q=nash%3A%20Move%20from%20required_bootloader%20to%20before_install&type=Commits)
+
+#### LineageOS - Pie source changes of 01-14-2020 End.
+
+01-13-2020
+====================
+
+#### LineageOS - Pie source changes of 01-13-2020:
+
+#### build/make/
+* [Bump Security String to 2020-01-05](https://github.com/search?q=Bump%20Security%20String%20to%202020-01-05&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8916/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8952/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8960/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8974/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8994/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8996/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/msm8998/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/sdm845/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### hardware/qcom/audio-caf/sm8150/
+* [audio: free and assign NULL to global static device pointer](https://github.com/search?q=audio%3A%20free%20and%20assign%20NULL%20to%20global%20static%20device%20pointer&type=Commits)
+
+#### LineageOS - Pie source changes of 01-13-2020 End.
+
+01-12-2020
+====================
+
+#### Device specific Changes of 01-12-2020 Start:
+
+#### Device/Quark/
+* [Quark: Disable network scan via TelephonyManager](https://github.com/search?q=Quark%3A%20Disable%20network%20scan%20via%20TelephonyManager&type=Commits)
+
+#### Kernel/Quark/
+* [ASoC: msm: acquire lock in ioctl](https://github.com/search?q=ASoC%3A%20msm%3A%20acquire%20lock%20in%20ioctl&type=Commits)
+* [ASoC: msm-lsm-client: free lsm client data in msm_lsm_close](https://github.com/search?q=ASoC%3A%20msm-lsm-client%3A%20free%20lsm%20client%20data%20in%20msm_lsm_close&type=Commits)
+* [ASoC: msm-lsm-client: Add contraints for hardware params](https://github.com/search?q=ASoC%3A%20msm-lsm-client%3A%20Add%20contraints%20for%20hardware%20params&type=Commits)
+* [ASoC: qdsp6v2: Add support for LSM_SET_PARAMS](https://github.com/search?q=ASoC%3A%20qdsp6v2%3A%20Add%20support%20for%20LSM_SET_PARAMS&type=Commits)
+* [ASoC: msm-lsm-client: Handle close gracefully](https://github.com/search?q=ASoC%3A%20msm-lsm-client%3A%20Handle%20close%20gracefully&type=Commits)
+* [ASoC: wcd_cpe_core: Add support to set confidence levels](https://github.com/search?q=ASoC%3A%20wcd_cpe_core%3A%20Add%20support%20to%20set%20confidence%20levels&type=Commits)
+* [ASoC: msm-cpe-lsm: userspace interaction cleanup for IOCTL](https://github.com/search?q=ASoC%3A%20msm-cpe-lsm%3A%20userspace%20interaction%20cleanup%20for%20IOCTL&type=Commits)
+* [ASoC: msm-cpe-lsm: Fix NULL checks](https://github.com/search?q=ASoC%3A%20msm-cpe-lsm%3A%20Fix%20NULL%20checks&type=Commits)
+* [uapi: lsm_params: Add API to explicitly set LSM params](https://github.com/search?q=uapi%3A%20lsm_params%3A%20Add%20API%20to%20explicitly%20set%20LSM%20params&type=Commits)
+* [ASoC: msm: qdsp6v2: avoid null pointer dereference](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20avoid%20null%20pointer%20dereference&type=Commits)
+* [ARM: wire up memfd_create syscall](https://github.com/search?q=ARM%3A%20wire%20up%20memfd_create%20syscall&type=Commits)
+* [mm: shmem: Reschedule by unlocking and relocking RCU because of missing API](https://github.com/search?q=mm%3A%20shmem%3A%20Reschedule%20by%20unlocking%20and%20relocking%20RCU%20because%20of%20missing%20API&type=Commits)
+* [shm: wait for pins to be released when sealing](https://github.com/search?q=shm%3A%20wait%20for%20pins%20to%20be%20released%20when%20sealing&type=Commits)
+* [mm: allow drivers to prevent new writable mappings](https://github.com/search?q=mm%3A%20allow%20drivers%20to%20prevent%20new%20writable%20mappings&type=Commits)
+* [mm: mmap_region: kill correct_wcount/inode, use allow_write_access()](https://github.com/search?q=mm%3A%20mmap_region%3A%20kill%20correct_wcount/inode,%20use%20allow_write_access%28%29&type=Commits)
+* [mm: do_mmap_pgoff: cleanup the usage of file_inode()](https://github.com/search?q=mm%3A%20do_mmap_pgoff%3A%20cleanup%20the%20usage%20of%20file_inode%28%29&type=Commits)
+* [mm: shift VM_GROWS* check from mmap_region() to do_mmap_pgoff()](https://github.com/search?q=mm%3A%20shift%20VM_GROWS*%20check%20from%20mmap_region%28%29%20to%20do_mmap_pgoff%28%29&type=Commits)
+* [mm: mempolicy: turn vma_set_policy() into vma_dup_policy()](https://github.com/search?q=mm%3A%20mempolicy%3A%20turn%20vma_set_policy%28%29%20into%20vma_dup_policy%28%29&type=Commits)
+* [shm: add sealing API](https://github.com/search?q=shm%3A%20add%20sealing%20API&type=Commits)
+* [asm-generic: add memfd_create system call to unistd.h](https://github.com/search?q=asm-generic%3A%20add%20memfd_create%20system%20call%20to%20unistd.h&type=Commits)
+* [shm: add memfd_create() syscall](https://github.com/search?q=shm%3A%20add%20memfd_create%28%29%20syscall&type=Commits)
+* [nl80211: validate beacon head](https://github.com/search?q=nl80211%3A%20validate%20beacon%20head&type=Commits)
+* [cfg80211: Use const more consistently in for_each_element macros](https://github.com/search?q=cfg80211%3A%20Use%20const%20more%20consistently%20in%20for_each_element%20macros&type=Commits)
+* [cfg80211: add and use strongly typed element iteration macros](https://github.com/search?q=cfg80211%3A%20add%20and%20use%20strongly%20typed%20element%20iteration%20macros&type=Commits)
+* [scripts/gen_initramfs_list.sh: fix flags for initramfs LZ4 compression](https://github.com/search?q=scripts/gen_initramfs_list.sh%3A%20fix%20flags%20for%20initramfs%20LZ4%20compression&type=Commits)
+* [initramfs: read CONFIG_RD_ variables for initramfs compression](https://github.com/search?q=initramfs%3A%20read%20CONFIG_RD_%20variables%20for%20initramfs%20compression&type=Commits)
+* [arm: add support for LZ4-compressed kernel](https://github.com/search?q=arm%3A%20add%20support%20for%20LZ4-compressed%20kernel&type=Commits)
+
+#### Device specific Changes of 01-12-2020 End.
+
+***
+
+#### LineageOS - Pie source changes of 01-12-2020:
+
+#### lineage/hudson/
+* [hudson: Opt-in to Lineage Recovery for x2 and zl1](https://github.com/search?q=hudson%3A%20Opt-in%20to%20Lineage%20Recovery%20for%20x2%20and%20zl1&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Opt-in to Lineage Recovery for x2 and zl1](https://github.com/search?q=wiki%3A%20devices%3A%20Opt-in%20to%20Lineage%20Recovery%20for%20x2%20and%20zl1&type=Commits)
+
+#### LineageOS - Pie source changes of 01-12-2020 End.
+
+01-11-2020
+====================
+
+#### LineageOS - Pie source changes of 01-11-2020:
+
+#### lineage/scripts/
+* [Update default webview to 79.0.3945.116](https://github.com/search?q=Update%20default%20webview%20to%2079.0.3945.116&type=Commits)
+
+#### LineageOS - Pie source changes of 01-11-2020 End.
+
+01-10-2020
+====================
+
+#### LineageOS - Pie source changes of 01-10-2020:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 79.0.3945.116](https://github.com/search?q=Update%20Chromium%20Webview%20to%2079.0.3945.116&type=Commits)
+
+#### lineage/contributors-cloud-generator/
+* [Bump DEFAULT_SIZE to 1944](https://github.com/search?q=Bump%20DEFAULT_SIZE%20to%201944&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+
+#### LineageOS - Pie source changes of 01-10-2020 End.
+
+01-09-2020
+====================
+
+#### LineageOS - Pie source changes of 01-09-2020:
+
+#### lineage/website/
+* [add discord link](https://github.com/search?q=add%20discord%20link&type=Commits)
+
+#### LineageOS - Pie source changes of 01-09-2020 End.
+
+01-08-2020
+====================
+
+#### LineageOS - Pie source changes of 01-08-2020:
+
+#### lineage/scripts/
+* [aosp-merger: Correct README](https://github.com/search?q=aosp-merger%3A%20Correct%20README&type=Commits)
+
+#### LineageOS - Pie source changes of 01-08-2020 End.
+
+01-07-2020
+====================
+
+#### LineageOS - Pie source changes of 01-07-2020:
+#### android/
+* [manifest: Updates for 2020-01 P ASB](https://github.com/search?q=manifest%3A%20Updates%20for%202020-01%20P%20ASB&type=Commits)
+
+#### external/libavc/
+* [Merge tag 'android-9.0.0_r52' into staging/lineage-16.0_merge-android-9.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r52%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r52&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-9.0.0_r52' into staging/lineage-16.0_merge-android-9.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r52%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r52&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-9.0.0_r52' into staging/lineage-16.0_merge-android-9.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r52%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r52&type=Commits)
+
+#### lineage/scripts/
+* [Add emoji-updater script](https://github.com/search?q=Add%20emoji-updater%20script&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-9.0.0_r52' into staging/lineage-16.0_merge-android-9.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r52%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r52&type=Commits)
+
+#### system/core/
+* [Merge tag 'android-9.0.0_r52' into staging/lineage-16.0_merge-android-9.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r52%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r52&type=Commits)
+
+#### system/nfc/
+* [Merge tag 'android-9.0.0_r52' into staging/lineage-16.0_merge-android-9.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-9.0.0_r52%27%20into%20staging/lineage-16.0_merge-android-9.0.0_r52&type=Commits)
+
+#### LineageOS - Pie source changes of 01-07-2020 End.
+
+12-31-2019
+====================
+
+#### LineageOS - Pie source changes of 12-31-2019:
+
+#### lineage/wiki/
+* [wiki: fix brotli command](https://github.com/search?q=wiki%3A%20fix%20brotli%20command&type=Commits)
+
+#### LineageOS - Pie source changes of 12-31-2019 End.
+
+12-28-2019
+====================
+
+#### LineageOS - Pie source changes of 12-28-2019:
+
+#### lineage/wiki/
+* [wiki: gapps: Fix version syntax](https://github.com/search?q=wiki%3A%20gapps%3A%20Fix%20version%20syntax&type=Commits)
+* [wiki: Convert relevant before_installs into before_lineage_installs](https://github.com/search?q=wiki%3A%20Convert%20relevant%20before_installs%20into%20before_lineage_installs&type=Commits)
+
+#### LineageOS - Pie source changes of 12-28-2019 End.
+
+12-25-2019
+====================
+
+#### LineageOS - Pie source changes of 12-25-2019:
+
+#### lineage/wiki/
+* [wiki: Add OpenGApps package size support notice](https://github.com/search?q=wiki%3A%20Add%20OpenGApps%20package%20size%20support%20notice&type=Commits)
+
+#### LineageOS - Pie source changes of 12-25-2019 End.
+
+12-24-2019
+====================
+
+#### LineageOS - Pie source changes of 12-24-2019:
+
+#### lineage/wiki/
+* [Promote s2 to 16.0](https://github.com/search?q=Promote%20s2%20to%2016.0&type=Commits)
+* [wiki: Add note recommending bash](https://github.com/search?q=wiki%3A%20Add%20note%20recommending%20bash&type=Commits)
+
+#### LineageOS - Pie source changes of 12-24-2019 End.
+
+12-23-2019
+====================
+
+#### LineageOS - Pie source changes of 12-23-2019:
+
+#### frameworks/base/
+* [Allow tuning of heaptargetutilization](https://github.com/search?q=Allow%20tuning%20of%20heaptargetutilization&type=Commits)
+
+#### frameworks/native/
+* [Add dalvik-heap device-configs for 4/6GB devices](https://github.com/search?q=Add%20dalvik-heap%20device-configs%20for%204/6GB%20devices&type=Commits)
+
+#### lineage/hudson/
+* [Promote s2 to 16.0](https://github.com/search?q=Promote%20s2%20to%2016.0&type=Commits)
+
+#### lineage/wiki/
+* [wiki: before_install_a5y17lte_and_a7y17lte: Correct wording](https://github.com/search?q=wiki%3A%20before_install_a5y17lte_and_a7y17lte%3A%20Correct%20wording&type=Commits)
+* [wiki: victara: Fix recovery-boot key choice](https://github.com/search?q=wiki%3A%20victara%3A%20Fix%20recovery-boot%20key%20choice&type=Commits)
+* [wiki: a5y17lte and a7y17lte: Use before_install instead of required_bootloader](https://github.com/search?q=wiki%3A%20a5y17lte%20and%20a7y17lte%3A%20Use%20before_install%20instead%20of%20required_bootloader&type=Commits)
+
+#### LineageOS - Pie source changes of 12-23-2019 End.
+
+12-20-2019
+====================
+
+#### LineageOS - Pie source changes of 12-20-2019:
+
+#### lineage/wiki/
+* [templates: device_specific: Add copy-partitions before_install](https://github.com/search?q=templates%3A%20device_specific%3A%20Add%20copy-partitions%20before_install&type=Commits)
+
+#### LineageOS - Pie source changes of 12-20-2019 End.
+
 12-13-2019
 ====================
 
