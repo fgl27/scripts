@@ -117,6 +117,16 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#Fix gps for old blobs
+	folder="hardware/interfaces";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch "https://github.com/LineageOS/android_hardware_interfaces" refs/changes/24/259824/2 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 fi
 
 #Set Branch and update kernel and vendor before build
