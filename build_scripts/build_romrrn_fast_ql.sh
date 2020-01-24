@@ -154,8 +154,8 @@ git pull origin Q
 cd - &> /dev/null || exit;
 
 cd vendor/motorola/
-git checkout P
-git pull origin P
+git checkout Q
+git pull origin Q
 cd - &> /dev/null || exit;
 
 # build SU
