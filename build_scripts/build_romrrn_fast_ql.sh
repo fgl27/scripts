@@ -127,6 +127,16 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#prevent spam logs from wifi
+	folder="system/connectivity/wificond/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/system_connectivity_wificond/ master && git cherry-pick 95f35dd9ea309b1a544d762ac7e7b886a182fa54
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Temp Fix WFD
 	folder="frameworks/av";
 	echo -e "\\n	In Folder $folder \\n"
