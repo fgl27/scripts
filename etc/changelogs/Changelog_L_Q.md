@@ -9,7 +9,7 @@ LineageOS - 17.1 source and Quark Changelog:
 
 #### Device/Quark/
 * [Quark: Implement Vibrator 1.1 HAL](https://github.com/search?q=Quark%3A%20Implement%20Vibrator%201.1%20HAL&type=Commits)
-* [Quark: improve vibrator service from shamu](https://github.com/search?q=Quark%3A%20improve%20vibrator%20service%20from%20shamu&type=Commits)
+* [Quark: import vibrator service from shamu](https://github.com/search?q=Quark%3A%20import%20vibrator%20service%20from%20shamu&type=Commits)
 * [Quark: lineageactions prevent IllegalArgumentException from Vibrator](https://github.com/search?q=Quark%3A%20lineageactions%20prevent%20IllegalArgumentException%20from%20Vibrator&type=Commits)
 * [Quark: Build Clearkey 1.2 plugin and update vintf](https://github.com/search?q=Quark%3A%20Build%20Clearkey%201.2%20plugin%20and%20update%20vintf&type=Commits)
 * [Quark: clean up ueventd.qcom.rc entry for msm_camera](https://github.com/search?q=Quark%3A%20clean%20up%20ueventd.qcom.rc%20entry%20for%20msm_camera&type=Commits)
