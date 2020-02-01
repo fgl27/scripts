@@ -137,6 +137,16 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#Sepolicy unmerged fix
+	folder="system/sepolicy/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch "https://github.com/LineageOS/android_system_sepolicy" refs/changes/15/267315/5 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Temp Fix WFD
 	folder="frameworks/av";
 	echo -e "\\n	In Folder $folder \\n"
@@ -170,6 +180,8 @@ cd - &> /dev/null || exit;
 
 # build SU
 #export WITH_SU=true
+export BUILD_USERNAME="fgl27";
+export BUILD_HOSTNAME="The_South_Moon";
 
 # Start the build
 . build/envsetup.sh
