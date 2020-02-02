@@ -180,8 +180,11 @@ cd - &> /dev/null || exit;
 
 # build SU
 #export WITH_SU=true
-export BUILD_USERNAME="fgl27";
-export BUILD_HOSTNAME="The_South_Moon";
+export BUILD_USERNAME="fgl";
+export BUILD_HOSTNAME="27";
+
+export KBUILD_BUILD_USER="$BUILD_USERNAME"
+export KBUILD_BUILD_HOST="$BUILD_HOSTNAME"
 
 # Start the build
 . build/envsetup.sh
