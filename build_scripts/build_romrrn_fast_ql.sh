@@ -86,8 +86,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	echo -e "\\n	out Folder $folder"
-
 	#change rom type name
 	folder="vendor/lineage";
 	echo -e "\\n	In Folder $folder \\n"
