@@ -247,7 +247,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 nvm ls-remote
 npm cache clean -f
 nvm install  v13.8.0
-
+nvm ls
+nvm use v13.8.0
+nvm alias default v13.8.0
 ##  nodejs end
 
 ## install tizen start
