@@ -243,6 +243,11 @@ npm install js-beautify jshint uglify-js html-minifier crass -g
 ```
 
 curl https://www.npmjs.com/install.sh | sudo sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+nvm ls-remote
+npm cache clean -f
+nvm install  v13.8.0
+
 ##  nodejs end
 
 ## install tizen start
