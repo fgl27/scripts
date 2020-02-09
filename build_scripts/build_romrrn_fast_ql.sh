@@ -105,6 +105,15 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	folder="lineage-sdk";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_lineage-sdk/ lineage-17.1 && git cherry-pick 505a29852a9c85c4d72bcb8dfe506f1fe3c2b8cb
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#prevent spam logs from wifi
 	folder="system/connectivity/wificond/";
 	echo -e "\\n	In Folder $folder \\n"
