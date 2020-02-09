@@ -3,6 +3,53 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+02-09-2020
+====================
+
+* [build improve update-binary](https://github.com/bhb27/BHB27Kernel/search?q=build%20improve%20update-binary&type=Commits)
+
+***
+
+02-08-2020
+====================
+
+* [Update build](https://github.com/bhb27/BHB27Kernel/search?q=Update%20build&type=Commits)
+* [Fix kernel name](https://github.com/bhb27/BHB27Kernel/search?q=Fix%20kernel%20name&type=Commits)
+* [FIx build drivers/usb/gadget/f_hid.c](https://github.com/bhb27/BHB27Kernel/search?q=FIx%20build%20drivers/usb/gadget/f_hid.c&type=Commits)
+* [sound: fix a memory leak bug](https://github.com/bhb27/BHB27Kernel/search?q=sound%3A%20fix%20a%20memory%20leak%20bug&type=Commits)
+* [USB: gadget: android: Integrate f_midi USB MIDI gadget driver part deux](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20gadget%3A%20android%3A%20Integrate%20f_midi%20USB%20MIDI%20gadget%20driver%20part%20deux&type=Commits)
+* [net/wireguard: add wireguard importer](https://github.com/bhb27/BHB27Kernel/search?q=net/wireguard%3A%20add%20wireguard%20importer&type=Commits)
+* [Revert "clean up net/Makefile"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"clean%20up%20net/Makefile"&type=Commits)
+* [Up version](https://github.com/bhb27/BHB27Kernel/search?q=Up%20version&type=Commits)
+* [Revert "Don't build wireguard for now"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"Don%27t%20build%20wireguard%20for%20now"&type=Commits)
+* [defconfig up kernel name](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20up%20kernel%20name&type=Commits)
+* [Revert "update build and kernel name"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"update%20build%20and%20kernel%20name"&type=Commits)
+* [Revert "temp build fx"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"temp%20build%20fx"&type=Commits)
+* [clean up net/Makefile](https://github.com/bhb27/BHB27Kernel/search?q=clean%20up%20net/Makefile&type=Commits)
+* [build update update-binary](https://github.com/bhb27/BHB27Kernel/search?q=build%20update%20update-binary&type=Commits)
+
+***
+
+02-01-2020
+====================
+
+* [memfd: Use radix_tree_deref_slot_protected to avoid the warning.](https://github.com/bhb27/BHB27Kernel/search?q=memfd%3A%20Use%20radix_tree_deref_slot_protected%20to%20avoid%20the%20warning.&type=Commits)
+* [Backport minimal compiler_attributes.h to support GCC 9](https://github.com/bhb27/BHB27Kernel/search?q=Backport%20minimal%20compiler_attributes.h%20to%20support%20GCC%209&type=Commits)
+* [branch-check: fix long->int truncation when profiling branches](https://github.com/bhb27/BHB27Kernel/search?q=branch-check%3A%20fix%20long->int%20truncation%20when%20profiling%20branches&type=Commits)
+* [bug.h: work around GCC PR82365 in BUG()](https://github.com/bhb27/BHB27Kernel/search?q=bug.h%3A%20work%20around%20GCC%20PR82365%20in%20BUG%28%29&type=Commits)
+* [ARM: 7992/1: boot: compressed: ignore bswapsdi2.S](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207992/1%3A%20boot%3A%20compressed%3A%20ignore%20bswapsdi2.S&type=Commits)
+* [ARM: 7877/1: use built-in byte swap function](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207877/1%3A%20use%20built-in%20byte%20swap%20function&type=Commits)
+* [mm: showmem: make the notifiers atomic](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20showmem%3A%20make%20the%20notifiers%20atomic&type=Commits)
+* [ARM: mm: fix alignment handler faults under memory pressure](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20mm%3A%20fix%20alignment%20handler%20faults%20under%20memory%20pressure&type=Commits)
+* [ARM: alignment: correctly decode instructions in BE8 mode.](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20alignment%3A%20correctly%20decode%20instructions%20in%20BE8%20mode.&type=Commits)
+* [mm/shmem.c: cast the type of unmap_start to u64](https://github.com/bhb27/BHB27Kernel/search?q=mm/shmem.c%3A%20cast%20the%20type%20of%20unmap_start%20to%20u64&type=Commits)
+* [memfd: Fix locking when tagging pins](https://github.com/bhb27/BHB27Kernel/search?q=memfd%3A%20Fix%20locking%20when%20tagging%20pins&type=Commits)
+* [alarmtimer: Change remaining ENOTSUPP to EOPNOTSUPP](https://github.com/bhb27/BHB27Kernel/search?q=alarmtimer%3A%20Change%20remaining%20ENOTSUPP%20to%20EOPNOTSUPP&type=Commits)
+* [alarmtimer: Use EOPNOTSUPP instead of ENOTSUPP](https://github.com/bhb27/BHB27Kernel/search?q=alarmtimer%3A%20Use%20EOPNOTSUPP%20instead%20of%20ENOTSUPP&type=Commits)
+* [cpufreq: Register drivers only after CPU devices have been registered](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Register%20drivers%20only%20after%20CPU%20devices%20have%20been%20registered&type=Commits)
+
+***
+
 01-22-2020
 ====================
 

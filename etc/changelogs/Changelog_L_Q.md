@@ -2,14 +2,314 @@
 LineageOS - 17.1 source and Quark Changelog:
 ============================================================
 
+02-09-2020
+====================
+
+#### Device specific Changes of 02-09-2020 Start:
+
+#### Device/Quark/
+* [Quark: clean up file_contexts](https://github.com/search?q=Quark%3A%20clean%20up%20file_contexts&type=Commits)
+
+#### Device specific Changes of 02-09-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-09-2020:
+
+#### build/make/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### hardware/libhardware/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-10.0.0_r27' into lineage-17.1-android-10.0.0_r27](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r27%27%20into%20lineage-17.1-android-10.0.0_r27&type=Commits)
+
+#### system/core/
+* [adb: host: Fix windows build after 5c0999c](https://github.com/search?q=adb%3A%20host%3A%20Fix%20windows%20build%20after%205c0999c&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-09-2020 End.
+
+02-08-2020
+====================
+
+#### Device specific Changes of 02-08-2020 Start:
+
+#### Device/Quark/
+* [Quark: gps: Handle race condition in HAL post SSR](https://github.com/search?q=Quark%3A%20gps%3A%20Handle%20race%20condition%20in%20HAL%20post%20SSR&type=Commits)
+* [Quark: gps: Add libprocessgroup dependency to set_sched_policy users](https://github.com/search?q=Quark%3A%20gps%3A%20Add%20libprocessgroup%20dependency%20to%20set_sched_policy%20users&type=Commits)
+* [Quark: update power profile related](https://github.com/search?q=Quark%3A%20update%20power%20profile%20related&type=Commits)
+
+#### Kernel/Quark/
+* [FIx build drivers/usb/gadget/f_hid.c](https://github.com/search?q=FIx%20build%20drivers/usb/gadget/f_hid.c&type=Commits)
+* [sound: fix a memory leak bug](https://github.com/search?q=sound%3A%20fix%20a%20memory%20leak%20bug&type=Commits)
+* [USB: gadget: android: Integrate f_midi USB MIDI gadget driver part deux](https://github.com/search?q=USB%3A%20gadget%3A%20android%3A%20Integrate%20f_midi%20USB%20MIDI%20gadget%20driver%20part%20deux&type=Commits)
+* [ALSA: compress: Add ioctl declaration for gapless -Add ioctl declaration of SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM](https://github.com/search?q=ALSA%3A%20compress%3A%20Add%20ioctl%20declaration%20for%20gapless%20-Add%20ioctl%20declaration%20of%20SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM&type=Commits)
+* [clean up net/Makefile](https://github.com/search?q=clean%20up%20net/Makefile&type=Commits)
+* [Don't build wireguard for now](https://github.com/search?q=Don%27t%20build%20wireguard%20for%20now&type=Commits)
+* [Up kernel name](https://github.com/search?q=Up%20kernel%20name&type=Commits)
+* [clean up arch/arm/configs/](https://github.com/search?q=clean%20up%20arch/arm/configs/&type=Commits)
+* [memfd: Use radix_tree_deref_slot_protected to avoid the warning.](https://github.com/search?q=memfd%3A%20Use%20radix_tree_deref_slot_protected%20to%20avoid%20the%20warning.&type=Commits)
+* [Backport minimal compiler_attributes.h to support GCC 9](https://github.com/search?q=Backport%20minimal%20compiler_attributes.h%20to%20support%20GCC%209&type=Commits)
+* [branch-check: fix long->int truncation when profiling branches](https://github.com/search?q=branch-check%3A%20fix%20long->int%20truncation%20when%20profiling%20branches&type=Commits)
+* [bug.h: work around GCC PR82365 in BUG()](https://github.com/search?q=bug.h%3A%20work%20around%20GCC%20PR82365%20in%20BUG%28%29&type=Commits)
+* [ARM: 7992/1: boot: compressed: ignore bswapsdi2.S](https://github.com/search?q=ARM%3A%207992/1%3A%20boot%3A%20compressed%3A%20ignore%20bswapsdi2.S&type=Commits)
+* [ARM: 7877/1: use built-in byte swap function](https://github.com/search?q=ARM%3A%207877/1%3A%20use%20built-in%20byte%20swap%20function&type=Commits)
+* [mm: showmem: make the notifiers atomic](https://github.com/search?q=mm%3A%20showmem%3A%20make%20the%20notifiers%20atomic&type=Commits)
+* [ARM: mm: fix alignment handler faults under memory pressure](https://github.com/search?q=ARM%3A%20mm%3A%20fix%20alignment%20handler%20faults%20under%20memory%20pressure&type=Commits)
+* [ARM: alignment: correctly decode instructions in BE8 mode.](https://github.com/search?q=ARM%3A%20alignment%3A%20correctly%20decode%20instructions%20in%20BE8%20mode.&type=Commits)
+* [mm/shmem.c: cast the type of unmap_start to u64](https://github.com/search?q=mm/shmem.c%3A%20cast%20the%20type%20of%20unmap_start%20to%20u64&type=Commits)
+* [memfd: Fix locking when tagging pins](https://github.com/search?q=memfd%3A%20Fix%20locking%20when%20tagging%20pins&type=Commits)
+* [alarmtimer: Change remaining ENOTSUPP to EOPNOTSUPP](https://github.com/search?q=alarmtimer%3A%20Change%20remaining%20ENOTSUPP%20to%20EOPNOTSUPP&type=Commits)
+* [alarmtimer: Use EOPNOTSUPP instead of ENOTSUPP](https://github.com/search?q=alarmtimer%3A%20Use%20EOPNOTSUPP%20instead%20of%20ENOTSUPP&type=Commits)
+* [cpufreq: Register drivers only after CPU devices have been registered](https://github.com/search?q=cpufreq%3A%20Register%20drivers%20only%20after%20CPU%20devices%20have%20been%20registered&type=Commits)
+* [LSA: compress: allow writes in SNDRV_PCM_STATE_PREPARED state](https://github.com/search?q=LSA%3A%20compress%3A%20allow%20writes%20in%20SNDRV_PCM_STATE_PREPARED%20state&type=Commits)
+* [ALSA: compress: Add support to send codec specific data](https://github.com/search?q=ALSA%3A%20compress%3A%20Add%20support%20to%20send%20codec%20specific%20data&type=Commits)
+* [ALSA: Refactor slot assignment code](https://github.com/search?q=ALSA%3A%20Refactor%20slot%20assignment%20code&type=Commits)
+* [ALSA: bits vs bytes bug in snd_card_create()](https://github.com/search?q=ALSA%3A%20bits%20vs%20bytes%20bug%20in%20snd_card_create%28%29&type=Commits)
+* [ALSA: core: Fix card races between register and disconnect](https://github.com/search?q=ALSA%3A%20core%3A%20Fix%20card%20races%20between%20register%20and%20disconnect&type=Commits)
+* [ALSA: Add kconfig to specify the max card numbers](https://github.com/search?q=ALSA%3A%20Add%20kconfig%20to%20specify%20the%20max%20card%20numbers&type=Commits)
+* [nl80211: fix null pointer dereference](https://github.com/search?q=nl80211%3A%20fix%20null%20pointer%20dereference&type=Commits)
+* [tcp: make sure EPOLLOUT wont be missed](https://github.com/search?q=tcp%3A%20make%20sure%20EPOLLOUT%20wont%20be%20missed&type=Commits)
+* [qcacld 2.0: Fix deadlock condition inside tlshim_mgmt_rx_process](https://github.com/search?q=qcacld%202.0%3A%20Fix%20deadlock%20condition%20inside%20tlshim_mgmt_rx_process&type=Commits)
+* [qcacld-2.0: Fix multiple length definition issue in WLAN FW message](https://github.com/search?q=qcacld-2.0%3A%20Fix%20multiple%20length%20definition%20issue%20in%20WLAN%20FW%20message&type=Commits)
+* [qcacld-2.0: Fix tx pause count and unpause count different](https://github.com/search?q=qcacld-2.0%3A%20Fix%20tx%20pause%20count%20and%20unpause%20count%20different&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in HTT MSG handling](https://github.com/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20HTT%20MSG%20handling&type=Commits)
+* [ASoC: compress: fix unsigned integer overflow check](https://github.com/search?q=ASoC%3A%20compress%3A%20fix%20unsigned%20integer%20overflow%20check&type=Commits)
+* [staging: android: ashmem: Disallow ashmem memory from being remapped](https://github.com/search?q=staging%3A%20android%3A%20ashmem%3A%20Disallow%20ashmem%20memory%20from%20being%20remapped&type=Commits)
+* [tcp: fix tcp_rtx_queue_tail in case of empty retransmit queue](https://github.com/search?q=tcp%3A%20fix%20tcp_rtx_queue_tail%20in%20case%20of%20empty%20retransmit%20queue&type=Commits)
+
+#### Device specific Changes of 02-08-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-08-2020:
+
+#### packages/apps/LineageParts/
+* [LineageParts: Fix KeyHandler for opening messaging app](https://github.com/search?q=LineageParts%3A%20Fix%20KeyHandler%20for%20opening%20messaging%20app&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-08-2020 End.
+
+02-07-2020
+====================
+
+#### Device specific Changes of 02-07-2020 Start:
+
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: use GPS blobs from bacon](https://github.com/search?q=Quark%3A%20use%20GPS%20blobs%20from%20bacon&type=Commits)
+* [Quark: use MSM8974 gps hall](https://github.com/search?q=Quark%3A%20use%20MSM8974%20gps%20hall&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: use GPS blobs from MSM8974 bacon](https://github.com/search?q=Quark%3A%20use%20GPS%20blobs%20from%20MSM8974%20bacon&type=Commits)
+
+#### Device specific Changes of 02-07-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-07-2020:
+
+#### frameworks/base/
+* [FODCircleView: disable touch detection on screen off](https://github.com/search?q=FODCircleView%3A%20disable%20touch%20detection%20on%20screen%20off&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add Xperia Z3](https://github.com/search?q=hudson%3A%20Add%20Xperia%20Z3&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 07-Feb-2020 00:11 UTC](https://github.com/search?q=Updated%20to%2007-Feb-2020%2000%3A11%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-07-2020 End.
+
+02-05-2020
+====================
+
+#### LineageOS - 17.1 source changes of 02-05-2020:
+
+#### device/lineage/sepolicy/
+* [snap_app: Allow binder call with gpuservice](https://github.com/search?q=snap_app%3A%20Allow%20binder%20call%20with%20gpuservice&type=Commits)
+
+#### hardware/qcom-caf/sm8150/audio/
+* [audio_extn: Allow skipping compilation of audio HAL extensions](https://github.com/search?q=audio_extn%3A%20Allow%20skipping%20compilation%20of%20audio%20HAL%20extensions&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 05-Feb-2020 14:31 UTC](https://github.com/search?q=Updated%20to%2005-Feb-2020%2014%3A31%20UTC&type=Commits)
+
+#### packages/apps/Updater/
+* [Fix export of zip](https://github.com/search?q=Fix%20export%20of%20zip&type=Commits)
+
+#### system/sepolicy/
+* [sepolicy: Address denials for legacy last_kmsg file](https://github.com/search?q=sepolicy%3A%20Address%20denials%20for%20legacy%20last_kmsg%20file&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-05-2020 End.
+
+02-04-2020
+====================
+
+#### LineageOS - 17.1 source changes of 02-04-2020:
+#### android/
+* [manifest: Move from android-10.0.0_r23 to android-10.0.0_r27](https://github.com/search?q=manifest%3A%20Move%20from%20android-10.0.0_r23%20to%20android-10.0.0_r27&type=Commits)
+
+#### frameworks/av/
+* [libstagefright: Fix memory leak due to lock timeout](https://github.com/search?q=libstagefright%3A%20Fix%20memory%20leak%20due%20to%20lock%20timeout&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds](https://github.com/search?q=SystemUI%3A%20Only%20add%20GarbageMonitor%20tile%20to%20default%20tiles%20on%20ENG%20builds&type=Commits)
+
+#### hardware/qcom-caf/msm8996/audio/
+* [Merge tag 'LA.UM.8.6.r1-02900-89xx.0' of https://source.codeaurora.cn/quic/la/platform/hardware/qcom/audio into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.8.6.r1-02900-89xx.0%27%20of%20https%3A//source.codeaurora.cn/quic/la/platform/hardware/qcom/audio%20into%20HEAD&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 79.0.3945.136](https://github.com/search?q=Update%20default%20webview%20to%2079.0.3945.136&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: catch NumberFormatException in getDeviceSocId](https://github.com/search?q=Snap%3A%20catch%20NumberFormatException%20in%20getDeviceSocId&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-04-2020 End.
+
+02-03-2020
+====================
+
+#### LineageOS - 17.1 source changes of 02-03-2020:
+
+#### frameworks/av/
+* [Revert "cameraservice: Resolve message vs start/stop preview races"](https://github.com/search?q=Revert%20"cameraservice%3A%20Resolve%20message%20vs%20start/stop%20preview%20races"&type=Commits)
+
+#### frameworks/base/
+* [GlobalScreenshot: do not capture multiple screenshots simultaneously](https://github.com/search?q=GlobalScreenshot%3A%20do%20not%20capture%20multiple%20screenshots%20simultaneously&type=Commits)
+* [SystemUI: block gestural navigation when using partial screenshot](https://github.com/search?q=SystemUI%3A%20block%20gestural%20navigation%20when%20using%20partial%20screenshot&type=Commits)
+* [Updates to various icons:](https://github.com/search?q=Updates%20to%20various%20icons%3A&type=Commits)
+
+#### packages/apps/Settings/
+* [Use IEC units in app info data usage.](https://github.com/search?q=Use%20IEC%20units%20in%20app%20info%20data%20usage.&type=Commits)
+
+#### vendor/lineage/
+* [backuptool: Execute check_blacklist from the current directory](https://github.com/search?q=backuptool%3A%20Execute%20check_blacklist%20from%20the%20current%20directory&type=Commits)
+* [backuptool: Run check_{black, white}list with proper system path](https://github.com/search?q=backuptool%3A%20Run%20check_{black,%20white}list%20with%20proper%20system%20path&type=Commits)
+* [backuptool: Fix addon.d version check for A-only](https://github.com/search?q=backuptool%3A%20Fix%20addon.d%20version%20check%20for%20A-only&type=Commits)
+* [default-permissions: Don't grant custom permission by default](https://github.com/search?q=default-permissions%3A%20Don%27t%20grant%20custom%20permission%20by%20default&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-03-2020 End.
+
+02-02-2020
+====================
+
+#### Device specific Changes of 02-02-2020 Start:
+
+#### Device/Quark/
+* [Quark: update livedisplay interfaces and add sepolicy](https://github.com/search?q=Quark%3A%20update%20livedisplay%20interfaces%20and%20add%20sepolicy&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: Update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20Update%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 02-02-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-02-2020:
+
+#### build/soong/
+* [Uncompress dex in unbundled privileged apps](https://github.com/search?q=Uncompress%20dex%20in%20unbundled%20privileged%20apps&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: Pass correct NetworkTemplate to CellularTile detail view](https://github.com/search?q=SystemUI%3A%20Pass%20correct%20NetworkTemplate%20to%20CellularTile%20detail%20view&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom-caf/sdm845/audio/
+* [audio_extn: Allow skipping compilation of audio HAL extensions](https://github.com/search?q=audio_extn%3A%20Allow%20skipping%20compilation%20of%20audio%20HAL%20extensions&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Xperia Z3](https://github.com/search?q=wiki%3A%20Add%20Xperia%20Z3&type=Commits)
+* [Convert z3c specific requirements into shinano common requirements](https://github.com/search?q=Convert%20z3c%20specific%20requirements%20into%20shinano%20common%20requirements&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/UnifiedEmail/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-02-2020 End.
+
+01-31-2020
+====================
+
+#### LineageOS - 17.1 source changes of 01-31-2020:
+
+#### frameworks/base/
+* [ScreenshotSelector: mark externally unused functions as private](https://github.com/search?q=ScreenshotSelector%3A%20mark%20externally%20unused%20functions%20as%20private&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-31-2020 End.
+
+01-30-2020
+====================
+
+#### Device specific Changes of 01-30-2020 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: Implement Vibrator 1.1 HAL](https://github.com/search?q=Quark%3A%20Implement%20Vibrator%201.1%20HAL&type=Commits)
+* [Quark: import vibrator service from shamu](https://github.com/search?q=Quark%3A%20import%20vibrator%20service%20from%20shamu&type=Commits)
+
+#### Device specific Changes of 01-30-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 01-30-2020:
+
+#### build/make/
+* [releasetools: Use the first entry of a mount point when reading fstab](https://github.com/search?q=releasetools%3A%20Use%20the%20first%20entry%20of%20a%20mount%20point%20when%20reading%20fstab&type=Commits)
+* [releasetools: Add script to sign zips](https://github.com/search?q=releasetools%3A%20Add%20script%20to%20sign%20zips&type=Commits)
+* [releasetools: support reading release keys out of some sort of command](https://github.com/search?q=releasetools%3A%20support%20reading%20release%20keys%20out%20of%20some%20sort%20of%20command&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Gallery: Editor: View full picture when applying filters](https://github.com/search?q=Gallery%3A%20Editor%3A%20View%20full%20picture%20when%20applying%20filters&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-30-2020 End.
+
 01-29-2020
 ====================
 
 #### Device specific Changes of 01-29-2020 Start:
 
 #### Device/Quark/
-* [Quark: Implement Vibrator 1.1 HAL](https://github.com/search?q=Quark%3A%20Implement%20Vibrator%201.1%20HAL&type=Commits)
-* [Quark: import vibrator service from shamu](https://github.com/search?q=Quark%3A%20import%20vibrator%20service%20from%20shamu&type=Commits)
 * [Quark: lineageactions prevent IllegalArgumentException from Vibrator](https://github.com/search?q=Quark%3A%20lineageactions%20prevent%20IllegalArgumentException%20from%20Vibrator&type=Commits)
 * [Quark: Build Clearkey 1.2 plugin and update vintf](https://github.com/search?q=Quark%3A%20Build%20Clearkey%201.2%20plugin%20and%20update%20vintf&type=Commits)
 * [Quark: clean up ueventd.qcom.rc entry for msm_camera](https://github.com/search?q=Quark%3A%20clean%20up%20ueventd.qcom.rc%20entry%20for%20msm_camera&type=Commits)
@@ -28,66 +328,8 @@ LineageOS - 17.1 source and Quark Changelog:
 * [updater: Fix lost capabilities of set_metadata](https://github.com/search?q=updater%3A%20Fix%20lost%20capabilities%20of%20set_metadata&type=Commits)
 * [recovery: sdcard is data/media/0](https://github.com/search?q=recovery%3A%20sdcard%20is%20data/media/0&type=Commits)
 
-#### build/make/
-* [envsetup: Automatically set CCACHE_EXEC to the system's ccache](https://github.com/search?q=envsetup%3A%20Automatically%20set%20CCACHE_EXEC%20to%20the%20system%27s%20ccache&type=Commits)
-* [Use 'release-keys' for build tag](https://github.com/search?q=Use%20%27release-keys%27%20for%20build%20tag&type=Commits)
-
-#### device/qcom/sepolicy-legacy/
-* [Remove sysfs_disk_stat labels](https://github.com/search?q=Remove%20sysfs_disk_stat%20labels&type=Commits)
-
-#### frameworks/av/
-* [audioflinger: Fix audio for WifiDisplay](https://github.com/search?q=audioflinger%3A%20Fix%20audio%20for%20WifiDisplay&type=Commits)
-* [Remove libmediaextractor dependency from libstagefright_wfd and SurfaceMediaSource_test](https://github.com/search?q=Remove%20libmediaextractor%20dependency%20from%20libstagefright_wfd%20and%20SurfaceMediaSource_test&type=Commits)
-* [Revert "Move unused classes out of stagefright foundataion"](https://github.com/search?q=Revert%20"Move%20unused%20classes%20out%20of%20stagefright%20foundataion"&type=Commits)
-* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
-* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
-* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
-* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
-* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
-* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
-
-#### frameworks/base/
-* [QS: Add CPUInfo toggle tile](https://github.com/search?q=QS%3A%20Add%20CPUInfo%20toggle%20tile&type=Commits)
-* [DNM: HAX: Allow third party apps to access identifiers](https://github.com/search?q=DNM%3A%20HAX%3A%20Allow%20third%20party%20apps%20to%20access%20identifiers&type=Commits)
-* [Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
-* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
-* [base: Show fast charging on lockscreen witout checking amperage](https://github.com/search?q=base%3A%20Show%20fast%20charging%20on%20lockscreen%20witout%20checking%20amperage&type=Commits)
-* [Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
-* [CPUInfoService add quark improves](https://github.com/search?q=CPUInfoService%20add%20quark%20improves&type=Commits)
-* [Base: config_appTransitionAnimationDurationScaleDefault 0.5](https://github.com/search?q=Base%3A%20config_appTransitionAnimationDurationScaleDefault%200.5&type=Commits)
-* [base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
-* [base: add CPU info overlay](https://github.com/search?q=base%3A%20add%20CPU%20info%20overlay&type=Commits)
-
-#### hardware/interfaces/
-* [gnss: properly terminate nmea-messages if they aren't already](https://github.com/search?q=gnss%3A%20properly%20terminate%20nmea-messages%20if%20they%20aren%27t%20already&type=Commits)
-
-#### hardware/qcom-caf/apq8084/media/
-* [libOmxVdec allow profile level up to 5.2](https://github.com/search?q=libOmxVdec%20allow%20profile%20level%20up%20to%205.2&type=Commits)
-
-#### packages/apps/Dialer/
-* [Dialer: prevent touch events when the screen is off](https://github.com/search?q=Dialer%3A%20prevent%20touch%20events%20when%20the%20screen%20is%20off&type=Commits)
-
-#### packages/apps/Nfc/
-* [Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
-
-#### packages/apps/Settings/
-* [Settings: hardcoded TapToWakePreferece to read state from the path](https://github.com/search?q=Settings%3A%20hardcoded%20TapToWakePreferece%20to%20read%20state%20from%20the%20path&type=Commits)
-* [Developer: set default writeAnimationScaleOption to 0.5](https://github.com/search?q=Developer%3A%20set%20default%20writeAnimationScaleOption%20to%200.5&type=Commits)
-
 #### packages/apps/Trebuchet/
 * [Trebuchet: Replace LockClock widget with DeskClock](https://github.com/search?q=Trebuchet%3A%20Replace%20LockClock%20widget%20with%20DeskClock&type=Commits)
-
-#### packages/apps/Updater/
-* [Update](https://github.com/search?q=Update&type=Commits)
-
-#### system/connectivity/wificond/
-* [wificond stop log spaming](https://github.com/search?q=wificond%20stop%20log%20spaming&type=Commits)
-
-#### system/sepolicy/
-* [Allow init to write to /proc/cpu/alignment](https://github.com/search?q=Allow%20init%20to%20write%20to%20/proc/cpu/alignment&type=Commits)
-
-#### vendor/lineage/
-* [Mod build](https://github.com/search?q=Mod%20build&type=Commits)
 
 #### LineageOS - 17.1 source changes of 01-29-2020 End.
 
@@ -112,6 +354,9 @@ LineageOS - 17.1 source and Quark Changelog:
 #### packages/apps/Exchange/
 * [Exchange: bump target sdk to 23](https://github.com/search?q=Exchange%3A%20bump%20target%20sdk%20to%2023&type=Commits)
 
+#### system/sepolicy/
+* [Allow init to write to /proc/cpu/alignment](https://github.com/search?q=Allow%20init%20to%20write%20to%20/proc/cpu/alignment&type=Commits)
+
 #### vendor/lineage/
 * [default-permissions: Grant default permissions to com.android.exchange](https://github.com/search?q=default-permissions%3A%20Grant%20default%20permissions%20to%20com.android.exchange&type=Commits)
 
@@ -122,11 +367,164 @@ LineageOS - 17.1 source and Quark Changelog:
 
 #### LineageOS - 17.1 source changes of 01-27-2020:
 
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/crowdin/
+* [config: 17.1: Remove devicesettings/FlipFlap](https://github.com/search?q=config%3A%2017.1%3A%20Remove%20devicesettings/FlipFlap&type=Commits)
+
 #### lineage/wiki/
 * [wiki: Add before_install for enchilada/fajita/guacamole](https://github.com/search?q=wiki%3A%20Add%20before_install%20for%20enchilada/fajita/guacamole&type=Commits)
 
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Calendar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PermissionController/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Profiles/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ThemePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/apps/UnifiedEmail/
 * [Fix notification timestamp behavior.](https://github.com/search?q=Fix%20notification%20timestamp%20behavior.&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/modules/CaptivePortalLogin/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BookmarkProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CallLogProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/UserDictionaryProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Mms/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### LineageOS - 17.1 source changes of 01-27-2020 End.
 
