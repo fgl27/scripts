@@ -124,6 +124,16 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#Missing old ril changes
+	folder="hardware/ril";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/LineageOS/android_hardware_ril lineage-16.0-caf && git cherry-pick b475875975d1b576511df391f75125593b3353ac
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Temp Fix WFD
 	folder="frameworks/av";
 	echo -e "\\n	In Folder $folder \\n"
