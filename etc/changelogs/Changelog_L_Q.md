@@ -2,6 +2,179 @@
 LineageOS - 17.1 source and Quark Changelog:
 ============================================================
 
+02-16-2020
+====================
+
+#### Device specific Changes of 02-16-2020 Start:
+
+#### Device/Quark/
+* [Quark: improve loggy.sh](https://github.com/search?q=Quark%3A%20improve%20loggy.sh&type=Commits)
+* [Quark: device.mk use TARGET_COPY_OUT_SYSTEM](https://github.com/search?q=Quark%3A%20device.mk%20use%20TARGET_COPY_OUT_SYSTEM&type=Commits)
+* [Quark: use custom charger images and animation](https://github.com/search?q=Quark%3A%20use%20custom%20charger%20images%20and%20animation&type=Commits)
+* [Quark: remove charger workaround and clen up moto charger](https://github.com/search?q=Quark%3A%20remove%20charger%20workaround%20and%20clen%20up%20moto%20charger&type=Commits)
+
+#### Device specific Changes of 02-16-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-16-2020:
+#### android/
+* [lineage: Readd Backgrounds](https://github.com/search?q=lineage%3A%20Readd%20Backgrounds&type=Commits)
+
+#### hardware/qcom-caf/sm8150/display/
+* [gralloc: Add option for unaligned YCrCb pixel format](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20unaligned%20YCrCb%20pixel%20format&type=Commits)
+* [gralloc: Add option for unaligned NV21_ZSL pixel format](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20unaligned%20NV21_ZSL%20pixel%20format&type=Commits)
+* [gralloc: Add option for YCrCb venus camera preview](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20YCrCb%20venus%20camera%20preview&type=Commits)
+* [gralloc: Allow devices to opt-in for YCrCb camera preview](https://github.com/search?q=gralloc%3A%20Allow%20devices%20to%20opt-in%20for%20YCrCb%20camera%20preview&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 15-Feb-2020 20:50 UTC](https://github.com/search?q=Updated%20to%2015-Feb-2020%2020%3A50%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-16-2020 End.
+
+02-15-2020
+====================
+
+#### Device specific Changes of 02-15-2020 Start:
+
+#### Vendor/Quark/
+* [Quark: remove charge_only_mode](https://github.com/search?q=Quark%3A%20remove%20charge_only_mode&type=Commits)
+
+#### Device specific Changes of 02-15-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-15-2020:
+
+#### tools/repohooks/
+* [README: fix up a few header levels](https://github.com/search?q=README%3A%20fix%20up%20a%20few%20header%20levels&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-15-2020 End.
+
+02-14-2020
+====================
+
+#### LineageOS - 17.1 source changes of 02-14-2020:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### tools/repohooks/
+* [pre-upload: start warning about older Python 3 versions](https://github.com/search?q=pre-upload%3A%20start%20warning%20about%20older%20Python%203%20versions&type=Commits)
+
+#### vendor/lineage/
+* [config: Add Trebuchet to PRODUCT_DEXPREOPT_SPEED_APPS](https://github.com/search?q=config%3A%20Add%20Trebuchet%20to%20PRODUCT_DEXPREOPT_SPEED_APPS&type=Commits)
+* [config: Dexpreopt speed compile SystemUI instead of SystemUIGoogle](https://github.com/search?q=config%3A%20Dexpreopt%20speed%20compile%20SystemUI%20instead%20of%20SystemUIGoogle&type=Commits)
+* [config: Add SysUI to PRODUCT_DEXPREOPT_SPEED_APPS](https://github.com/search?q=config%3A%20Add%20SysUI%20to%20PRODUCT_DEXPREOPT_SPEED_APPS&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-14-2020 End.
+
+02-13-2020
+====================
+
+#### LineageOS - 17.1 source changes of 02-13-2020:
+#### android/
+* [manifest: Track own external/toybox](https://github.com/search?q=manifest%3A%20Track%20own%20external/toybox&type=Commits)
+
+#### frameworks/base/
+* [Add upgrade step to fix system sounds issue](https://github.com/search?q=Add%20upgrade%20step%20to%20fix%20system%20sounds%20issue&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add Nubia Z17 (nx563j)](https://github.com/search?q=hudson%3A%20Add%20Nubia%20Z17%20%28nx563j%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Add Nubia Z17 (nx563j)](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Nubia%20Z17%20%28nx563j%29&type=Commits)
+* [wiki: Add  realme 3 Pro (RMX1851)](https://github.com/search?q=wiki%3A%20Add%20%20realme%203%20Pro%20%28RMX1851%29&type=Commits)
+
+#### packages/apps/Messaging/
+* [Fix android.os.strictmode.LeakedClosableViolation](https://github.com/search?q=Fix%20android.os.strictmode.LeakedClosableViolation&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Move string for translation once again](https://github.com/search?q=Move%20string%20for%20translation%20once%20again&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-13-2020 End.
+
+02-12-2020
+====================
+
+#### Device specific Changes of 02-12-2020 Start:
+
+#### Device/Quark/
+* [Quark: clean up TARGET_RIL_VARIANT](https://github.com/search?q=Quark%3A%20clean%20up%20TARGET_RIL_VARIANT&type=Commits)
+
+#### Kernel/Quark/
+* [netfilter: ctnetlink: netns exit must wait for callbacks](https://github.com/search?q=netfilter%3A%20ctnetlink%3A%20netns%20exit%20must%20wait%20for%20callbacks&type=Commits)
+
+#### Device specific Changes of 02-12-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-12-2020:
+
+#### bootable/recovery/
+* [recovery: Mark as Lineage Recovery](https://github.com/search?q=recovery%3A%20Mark%20as%20Lineage%20Recovery&type=Commits)
+
+#### frameworks/base/
+* [base: Use ro.build.date to clear cache dirs on update](https://github.com/search?q=base%3A%20Use%20ro.build.date%20to%20clear%20cache%20dirs%20on%20update&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add realme 3 Pro](https://github.com/search?q=hudson%3A%20Add%20realme%203%20Pro&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 12-Feb-2020 00:40 UTC](https://github.com/search?q=Updated%20to%2012-Feb-2020%2000%3A40%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Update discovery cameras](https://github.com/search?q=wiki%3A%20Update%20discovery%20cameras&type=Commits)
+
+#### packages/apps/Messaging/
+* [Register implicit broadcasts at runtime for updating widgets](https://github.com/search?q=Register%20implicit%20broadcasts%20at%20runtime%20for%20updating%20widgets&type=Commits)
+* [Fix to show PersonItemView for TYPE_CHOOSER_GRID correctly](https://github.com/search?q=Fix%20to%20show%20PersonItemView%20for%20TYPE_CHOOSER_GRID%20correctly&type=Commits)
+* [Fix covering issue for video thumbnails on widget view](https://github.com/search?q=Fix%20covering%20issue%20for%20video%20thumbnails%20on%20widget%20view&type=Commits)
+* [Fix wrong margin on widget conversation view](https://github.com/search?q=Fix%20wrong%20margin%20on%20widget%20conversation%20view&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Fix QRCamera crash](https://github.com/search?q=Settings%3A%20Fix%20QRCamera%20crash&type=Commits)
+* [Bug:PreferredNetworkModePreferenceController.java not being refreshed](https://github.com/search?q=Bug%3APreferredNetworkModePreferenceController.java%20not%20being%20refreshed&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-12-2020 End.
+
+02-11-2020
+====================
+
+#### LineageOS - 17.1 source changes of 02-11-2020:
+
+#### hardware/lineage/interfaces/
+* [aw2013: Fix typo in condition line](https://github.com/search?q=aw2013%3A%20Fix%20typo%20in%20condition%20line&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 11-Feb-2020 02:13 UTC](https://github.com/search?q=Updated%20to%2011-Feb-2020%2002%3A13%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-11-2020 End.
+
+02-10-2020
+====================
+
+#### Device specific Changes of 02-10-2020 Start:
+
+#### Kernel/Quark/
+* [msm: vidc: Avoid information leak while accessing the packet](https://github.com/search?q=msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet&type=Commits)
+* [net: fix possible overflow in __sk_mem_raise_allocated()](https://github.com/search?q=net%3A%20fix%20possible%20overflow%20in%20__sk_mem_raise_allocated%28%29&type=Commits)
+* [net: dev: Use unsigned integer as an argument to left-shift](https://github.com/search?q=net%3A%20dev%3A%20Use%20unsigned%20integer%20as%20an%20argument%20to%20left-shift&type=Commits)
+* [ext4: work around deleting a file with i_nlink == 0 safely](https://github.com/search?q=ext4%3A%20work%20around%20deleting%20a%20file%20with%20i_nlink%20==%200%20safely&type=Commits)
+
+#### Device specific Changes of 02-10-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 02-10-2020:
+
+#### frameworks/base/
+* [Change layout of ToggleAction for GlobalActionsDialog](https://github.com/search?q=Change%20layout%20of%20ToggleAction%20for%20GlobalActionsDialog&type=Commits)
+* [Context-aware Bluetooth airplane mode](https://github.com/search?q=Context-aware%20Bluetooth%20airplane%20mode&type=Commits)
+* [SystemUI: handle camera launch gesture from keyhandler](https://github.com/search?q=SystemUI%3A%20handle%20camera%20launch%20gesture%20from%20keyhandler&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-10-2020 End.
+
 02-09-2020
 ====================
 
