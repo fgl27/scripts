@@ -3,6 +3,30 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+02-16-2020
+====================
+
+* [version 9.38](https://github.com/bhb27/BHB27Kernel/search?q=version%209.38&type=Commits)
+
+***
+
+02-13-2020
+====================
+
+* [netfilter: ctnetlink: netns exit must wait for callbacks](https://github.com/bhb27/BHB27Kernel/search?q=netfilter%3A%20ctnetlink%3A%20netns%20exit%20must%20wait%20for%20callbacks&type=Commits)
+
+***
+
+02-10-2020
+====================
+
+* [msm: vidc: Avoid information leak while accessing the packet](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet&type=Commits)
+* [net: fix possible overflow in __sk_mem_raise_allocated()](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20fix%20possible%20overflow%20in%20__sk_mem_raise_allocated%28%29&type=Commits)
+* [net: dev: Use unsigned integer as an argument to left-shift](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20dev%3A%20Use%20unsigned%20integer%20as%20an%20argument%20to%20left-shift&type=Commits)
+* [ext4: work around deleting a file with i_nlink == 0 safely](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20work%20around%20deleting%20a%20file%20with%20i_nlink%20==%200%20safely&type=Commits)
+
+***
+
 02-09-2020
 ====================
 
