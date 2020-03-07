@@ -3,6 +3,20 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+03-07-2020
+====================
+
+* [kernel V9.39](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.39&type=Commits)
+* [qcacld-2.0: Fix logic to drop duplicate deauth/disassoc frames](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20logic%20to%20drop%20duplicate%20deauth/disassoc%20frames&type=Commits)
+* [qcacld-2.0: Fix 80211 frame subtype value in DoS attacks check](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%2080211%20frame%20subtype%20value%20in%20DoS%20attacks%20check&type=Commits)
+* [qcacld-2.0: Fix layering violation while handling management frames](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20layering%20violation%20while%20handling%20management%20frames&type=Commits)
+* [qcacld-2.0: Add max index check for dscp_to_up_map array](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20max%20index%20check%20for%20dscp_to_up_map%20array&type=Commits)
+* [qcacld-2.0: Avoid queuing multiple WM status change cmd for same peer](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20queuing%20multiple%20WM%20status%20change%20cmd%20for%20same%20peer&type=Commits)
+* [qcacld-2.0: Do not trigger del sta if it is already in progress](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Do%20not%20trigger%20del%20sta%20if%20it%20is%20already%20in%20progress&type=Commits)
+* [qcacld-2.0: fix buffer overflow in psessionEntry->pSchBeaconFrameBegin](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20fix%20buffer%20overflow%20in%20psessionEntry->pSchBeaconFrameBegin&type=Commits)
+
+***
+
 02-16-2020
 ====================
 
