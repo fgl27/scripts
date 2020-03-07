@@ -124,16 +124,6 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-	#Temp Missing sepolicy
-	folder="device/qcom/sepolicy-legacy";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch "https://github.com/LineageOS/android_device_qcom_sepolicy" refs/changes/19/268119/1 && git cherry-pick FETCH_HEAD
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
 	#Temp Fix WFD
 	folder="frameworks/av";
 	echo -e "\\n	In Folder $folder \\n"
