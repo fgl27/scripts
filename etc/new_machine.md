@@ -82,6 +82,9 @@ Deleting the old Home
 
 	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted dconf-tools samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch xserver-xorg-input-synaptics-hwe-18.04
 
+	sudo add-apt-repository ppa:papirus/papirus
+	sudo apt-get install papirus-icon-theme
+
 #### libreoffice start
 
 	sudo add-apt-repository ppa:libreoffice/ppa
@@ -246,10 +249,10 @@ curl https://www.npmjs.com/install.sh | sudo sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 nvm ls-remote
 npm cache clean -f
-nvm install  v13.8.0
+nvm install  v13.11.0
 nvm ls
-nvm use v13.8.0
-nvm alias default v13.8.0
+nvm use v13.11.0
+nvm alias default v13.11.0
 ##  nodejs end
 
 ## install tizen start
@@ -382,3 +385,6 @@ check:
 	sudo apt-get install zram-config
 
 #Zram end
+
+
+sudo ./install-java.sh -f '/home/fgl27/Downloads/jre-8u241-linux-x64.tar.gz' 

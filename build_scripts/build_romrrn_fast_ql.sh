@@ -124,6 +124,16 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#prevent spam logs from wifi
+	folder="hardware/ril/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_hardware_ril lineage-17.1 && git cherry-pick f8ad7e7ab4f9d91e165957d802837533ee508e64
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#Temp Fix WFD
 	folder="frameworks/av";
 	echo -e "\\n	In Folder $folder \\n"
