@@ -31,7 +31,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 79ea94f03b6f830278ddc315eb7f6c2a4c5ebf95^..0bd3bbd8fd4df54f8b03a8ddc75d0ef593134e3b
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 57d16b7c87c5a4750d8ec4547a01383ae806a918^..5c98025bdd13355ae2671b6345049866d149bd54
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -120,16 +120,6 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder || exit;
 	git fetch https://github.com/fgl27/system_connectivity_wificond/ master && git cherry-pick 95f35dd9ea309b1a544d762ac7e7b886a182fa54
-	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
-	#prevent spam logs from wifi
-	folder="hardware/ril/";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_hardware_ril lineage-17.1 && git cherry-pick f8ad7e7ab4f9d91e165957d802837533ee508e64
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
