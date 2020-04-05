@@ -3,6 +3,28 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+03-30-2020
+====================
+
+* [kernel v 3.40](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20v%203.40&type=Commits)
+* [Update net/wireless/db.txt](https://github.com/bhb27/BHB27Kernel/search?q=Update%20net/wireless/db.txt&type=Commits)
+
+***
+
+03-29-2020
+====================
+
+* [msm: vidc: avoid OOB write while accessing memory](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20avoid%20OOB%20write%20while%20accessing%20memory&type=Commits)
+* [inet: update the IP ID generation algorithm to higher standards.](https://github.com/bhb27/BHB27Kernel/search?q=inet%3A%20update%20the%20IP%20ID%20generation%20algorithm%20to%20higher%20standards.&type=Commits)
+* [netns: provide pure entropy for net_hash_mix()](https://github.com/bhb27/BHB27Kernel/search?q=netns%3A%20provide%20pure%20entropy%20for%20net_hash_mix%28%29&type=Commits)
+* [cfg80211: wext: Reject malformed SSID elements](https://github.com/bhb27/BHB27Kernel/search?q=cfg80211%3A%20wext%3A%20Reject%20malformed%20SSID%20elements&type=Commits)
+* [soc: msm-pcm: Add missing mutex lock to protect prvt data](https://github.com/bhb27/BHB27Kernel/search?q=soc%3A%20msm-pcm%3A%20Add%20missing%20mutex%20lock%20to%20protect%20prvt%20data&type=Commits)
+* [qcacld-2.0: Remove off-by-one write condition in schBeaconProcess](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20off-by-one%20write%20condition%20in%20schBeaconProcess&type=Commits)
+* [USB: core: Fix races in character device registration and deregistraion](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20core%3A%20Fix%20races%20in%20character%20device%20registration%20and%20deregistraion&type=Commits)
+* [HID: hiddev: do cleanup in failure of opening a device](https://github.com/bhb27/BHB27Kernel/search?q=HID%3A%20hiddev%3A%20do%20cleanup%20in%20failure%20of%20opening%20a%20device&type=Commits)
+
+***
+
 03-07-2020
 ====================
 
