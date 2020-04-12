@@ -3,6 +3,31 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+04-12-2020
+====================
+
+* [kernel v 9.41](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20v%209.41&type=Commits)
+* [asoc: msm-pcm: Added lock in controls _put() and _get() callback](https://github.com/bhb27/BHB27Kernel/search?q=asoc%3A%20msm-pcm%3A%20Added%20lock%20in%20controls%20_put%28%29%20and%20_get%28%29%20callback&type=Commits)
+* [dsp: q6voice: Check size of payload before access](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20q6voice%3A%20Check%20size%20of%20payload%20before%20access&type=Commits)
+* [diag: Reallocate dci buffer with proper required capacity](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Reallocate%20dci%20buffer%20with%20proper%20required%20capacity&type=Commits)
+* [diag: dci: Copy the complete response coming from peripheral](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20dci%3A%20Copy%20the%20complete%20response%20coming%20from%20peripheral&type=Commits)
+* [diag: Make DCI change not to access info from a dangling pointer](https://github.com/bhb27/BHB27Kernel/search?q=diag%3A%20Make%20DCI%20change%20not%20to%20access%20info%20from%20a%20dangling%20pointer&type=Commits)
+* [ALSA: timer: Fix mutex deadlock at releasing card](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Fix%20mutex%20deadlock%20at%20releasing%20card&type=Commits)
+* [ALSA: timer: Fix incorrectly assigned timer instance](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Fix%20incorrectly%20assigned%20timer%20instance&type=Commits)
+* [ALSA: timer: Simplify error path in snd_timer_open()](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Simplify%20error%20path%20in%20snd_timer_open%28%29&type=Commits)
+* [ALSA: timer: Fix UBSAN warning at SNDRV_TIMER_IOCTL_NEXT_DEVICE ioctl](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Fix%20UBSAN%20warning%20at%20SNDRV_TIMER_IOCTL_NEXT_DEVICE%20ioctl&type=Commits)
+* [ALSA: timer: Fix pause event notification](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Fix%20pause%20event%20notification&type=Commits)
+* [ALSA: timer: Limit max instances per timer](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Limit%20max%20instances%20per%20timer&type=Commits)
+* [ALSA: timer: Protect the whole snd_timer_close() with open race](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20timer%3A%20Protect%20the%20whole%20snd_timer_close%28%29%20with%20open%20race&type=Commits)
+* [HID: Fix assumption that devices have inputs](https://github.com/bhb27/BHB27Kernel/search?q=HID%3A%20Fix%20assumption%20that%20devices%20have%20inputs&type=Commits)
+* [Input: ff-memless - kill timer in destroy()](https://github.com/bhb27/BHB27Kernel/search?q=Input%3A%20ff-memless%20-%20kill%20timer%20in%20destroy%28%29&type=Commits)
+* [ALSA: usb-audio: Fix an OOB bug in parse_audio_mixer_unit](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20Fix%20an%20OOB%20bug%20in%20parse_audio_mixer_unit&type=Commits)
+* [qcacld-2.0: Fix integer overflow in rrmFillBeaconIes()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20integer%20overflow%20in%20rrmFillBeaconIes%28%29&type=Commits)
+* [qcacld-2.0: Validate assoc response IE len before copy](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Validate%20assoc%20response%20IE%20len%20before%20copy&type=Commits)
+* [qcacld-2.0: Validate assoc response IE len before copy](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Validate%20assoc%20response%20IE%20len%20before%20copy&type=Commits)
+
+***
+
 03-30-2020
 ====================
 

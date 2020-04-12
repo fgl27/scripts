@@ -84,9 +84,9 @@ contains() {
 }
 
 git_log_repo() {
-    repo forall -pc 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
+    repo forall -c 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
         project=0;
-                temp_test="$string"
+        temp_test="$string";
         contains "$temp_test" "project" && project=1;
         if [ -n "${string##+([:space:])}" ]; then
             if [ "$project" == 0 ]; then
@@ -112,17 +112,17 @@ git_log_repo() {
     echo >> $Changelog;
 }
 
-for i in $(seq $days_to_log);
-do    
-export After_Date=`date --date="$i days ago" +%m-%d-%Y`
-k=$(expr $i - 1)
+for i in $(seq $days_to_log); do
+
+    export After_Date=`date --date="$i days ago" +%m-%d-%Y`
+    k=$(expr $i - 1)
     export Until_Date=`date --date="$k days ago" +%m-%d-%Y`
 
     echo "Generating Day number:$i $Until_Date..."
     device=$(cd $device_tree && git log --oneline --after=$After_Date --until=$Until_Date);
     kernel=$(cd $kernel_tree && git log --oneline --after=$After_Date --until=$Until_Date);
     vendor=$(cd $vendor_tree && git log --oneline --after=$After_Date --until=$Until_Date);
-    source=$(repo forall -pc 'git log --oneline --after=$After_Date --until=$Until_Date');
+    source=$(repo forall -c 'git log --oneline --after=$After_Date --until=$Until_Date');
 
     if [ -n "${device##+([:space:])}" ] || [ -n "${kernel##+([:space:])}" ] || [ -n "${vendor##+([:space:])}" ] || [ -n "${source##+([:space:])}" ]; then
         # Line with after --- until was too long for a small ListView
@@ -138,17 +138,17 @@ k=$(expr $i - 1)
 
     if [ -n "${device##+([:space:])}" ]; then
         echo "#### Device/$device_name/" >>  $Changelog;
-                git_log_tree $device_tree $After_Date $Until_Date
+        git_log_tree $device_tree $After_Date $Until_Date
     fi
 
     if [ -n "${kernel##+([:space:])}" ]; then
         echo "#### Kernel/$device_name/" >>  $Changelog;
-                git_log_tree $kernel_tree $After_Date $Until_Date
+        git_log_tree $kernel_tree $After_Date $Until_Date
     fi
 
     if [ -n "${vendor##+([:space:])}" ]; then
         echo "#### Vendor/$device_name/" >>  $Changelog;
-                git_log_tree $vendor_tree $After_Date $Until_Date
+        git_log_tree $vendor_tree $After_Date $Until_Date
     fi
 
 
@@ -161,7 +161,7 @@ k=$(expr $i - 1)
 
     if [ -n "${source##+([:space:])}" ]; then
         echo "#### $source_name source changes of $Until_Date:" >>  $Changelog;
-                git_log_repo $After_Date $Until_Date
+        git_log_repo $After_Date $Until_Date
     fi
 
 done
