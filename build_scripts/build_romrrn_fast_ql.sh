@@ -21,6 +21,10 @@ echo -e "\nMake boot or a ROM?\n 1 = Boot\n"
 read -r input4
 echo -e "\nYou choose: $input4"
 
+echo -e "\nShutdown after?\n 1 = Yes\n"
+read -r input5
+echo -e "\nYou choose: $input5"
+
 cd $FOLDER_L || exit;
 
 if [ "$input1" == "1" ]; then
@@ -183,3 +187,7 @@ END=$(date +%s.%N);
 echo -e "\nBuild start $START2";
 echo -e "Build end   $END2 \n";
 echo -e "\nTotal time elapsed: $(echo "($END - $START) / 60"|bc ):$(echo "(($END - $START) - (($END - $START) / 60) * 60)"|bc ) (minutes:seconds). \n";
+
+if [ "$input5" == "1" ]; then
+	sudo shutdown -h now;
+fi
