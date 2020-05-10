@@ -118,6 +118,17 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+	#adb improve
+	folder="system/core/";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch "https://github.com/LineageOS/android_system_core" refs/changes/80/273280/4 && git cherry-pick FETCH_HEAD
+	git fetch "https://github.com/LineageOS/android_system_core" refs/changes/79/273279/5 && git cherry-pick FETCH_HEAD
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
 	#prevent spam logs from wifi
 	folder="system/connectivity/wificond/";
 	echo -e "\\n	In Folder $folder \\n"
