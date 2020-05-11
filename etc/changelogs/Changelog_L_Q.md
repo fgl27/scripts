@@ -1,6 +1,672 @@
-
 LineageOS - 17.1 source and Quark Changelog:
 ============================================================
+
+05-10-2020
+====================
+
+#### Device specific Changes of 05-10-2020 Start:
+
+#### Device/Quark/
+* [Quark: Quark: power improve profiles values](https://github.com/search?q=Quark%3A%20Quark%3A%20power%20improve%20profiles%20values&type=Commits)
+* [Quark: init.qcom.post_boot don't change max freq](https://github.com/search?q=Quark%3A%20init.qcom.post_boot%20don%27t%20change%20max%20freq&type=Commits)
+
+#### Kernel/Quark/
+* [apq8084.dtsi: improve bcl values trye 2](https://github.com/search?q=apq8084.dtsi%3A%20improve%20bcl%20values%20trye%202&type=Commits)
+* [ARM: 8654/1: decompressor: add strlen prototype](https://github.com/search?q=ARM%3A%208654/1%3A%20decompressor%3A%20add%20strlen%20prototype&type=Commits)
+
+#### Device specific Changes of 05-10-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-10-2020:
+* [manifest: Use our forks of e/{cldr,icu} and s/timezone](https://github.com/search?q=manifest%3A%20Use%20our%20forks%20of%20e/{cldr,icu}%20and%20s/timezone&type=Commits)
+* [Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r35%27%20into%20lineage-17.1-android-10.0.0_r35&type=Commits)
+* [LineageParts: Add privapp permissions xml](https://github.com/search?q=LineageParts%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [Messaging: Add sysconfig whitelist xml](https://github.com/search?q=Messaging%3A%20Add%20sysconfig%20whitelist%20xml&type=Commits)
+* [config: Move permission xml to apps](https://github.com/search?q=config%3A%20Move%20permission%20xml%20to%20apps&type=Commits)
+* [config: Remove unused Recorder privapp permissions](https://github.com/search?q=config%3A%20Remove%20unused%20Recorder%20privapp%20permissions&type=Commits)
+* [Revert "Add rules for non platform apps that use hidden APIs"](https://github.com/search?q=Revert%20"Add%20rules%20for%20non%20platform%20apps%20that%20use%20hidden%20APIs"&type=Commits)
+* [config: Don't copy weather permission xml](https://github.com/search?q=config%3A%20Don%27t%20copy%20weather%20permission%20xml&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-10-2020 End.
+
+05-09-2020
+====================
+
+#### Device specific Changes of 05-09-2020 Start:
+
+#### Device/Quark/
+* [Quark: rootdir: Start qseecom daemon early](https://github.com/search?q=Quark%3A%20rootdir%3A%20Start%20qseecom%20daemon%20early&type=Commits)
+* [Quark: rootdir: Update qseecom daemon service name](https://github.com/search?q=Quark%3A%20rootdir%3A%20Update%20qseecom%20daemon%20service%20name&type=Commits)
+* [Quark: sepolicy: Fix bootloop on TWRP restore](https://github.com/search?q=Quark%3A%20sepolicy%3A%20Fix%20bootloop%20on%20TWRP%20restore&type=Commits)
+* [Quark: Switch to cryptfshw HIDL](https://github.com/search?q=Quark%3A%20Switch%20to%20cryptfshw%20HIDL&type=Commits)
+* [Quark: init move cpu online related from rc to sh](https://github.com/search?q=Quark%3A%20init%20move%20cpu%20online%20related%20from%20rc%20to%20sh&type=Commits)
+* [Quark: update sepolicy/init.te](https://github.com/search?q=Quark%3A%20update%20sepolicy/init.te&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig enable CONFIG_CPU_FREQ_DEFAULT_GOV_CONSERVATIVE](https://github.com/search?q=defconfig%20enable%20CONFIG_CPU_FREQ_DEFAULT_GOV_CONSERVATIVE&type=Commits)
+
+#### Device specific Changes of 05-09-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-09-2020:
+* [privapp_permissions: Check product privapp_permissions](https://github.com/search?q=privapp_permissions%3A%20Check%20product%20privapp_permissions&type=Commits)
+* [bashrc: Add `ll` alias](https://github.com/search?q=bashrc%3A%20Add%20%60ll%60%20alias&type=Commits)
+* [lineage: Add flag for skipping EV_REL input in recovery](https://github.com/search?q=lineage%3A%20Add%20flag%20for%20skipping%20EV_REL%20input%20in%20recovery&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-09-2020 End.
+
+05-08-2020
+====================
+
+#### Device specific Changes of 05-08-2020 Start:
+
+#### Device/Quark/
+* [Revert "Revert "Quark: sepolicy: Allow init to mounton system_file""](https://github.com/search?q=Revert%20"Revert%20"Quark%3A%20sepolicy%3A%20Allow%20init%20to%20mounton%20system_file""&type=Commits)
+* [Revert "Revert "Quark: Add /apex/com.android.runtime/${LIB} to runtime search path.""](https://github.com/search?q=Revert%20"Revert%20"Quark%3A%20Add%20/apex/com.android.runtime/${LIB}%20to%20runtime%20search%20path.""&type=Commits)
+* [Revert "Revert "Quark: Extend sphal search paths for media swcodec""](https://github.com/search?q=Revert%20"Revert%20"Quark%3A%20Extend%20sphal%20search%20paths%20for%20media%20swcodec""&type=Commits)
+* [Revert "Revert "Quark: Import and bind mount loader config for media swcodec""](https://github.com/search?q=Revert%20"Revert%20"Quark%3A%20Import%20and%20bind%20mount%20loader%20config%20for%20media%20swcodec""&type=Commits)
+
+#### Device specific Changes of 05-08-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-08-2020:
+* [wifi_hal: add slsi wifi hal support](https://github.com/search?q=wifi_hal%3A%20add%20slsi%20wifi%20hal%20support&type=Commits)
+* [Eleven: Move to /product](https://github.com/search?q=Eleven%3A%20Move%20to%20/product&type=Commits)
+* [Eleven: Add privapp permissions xml](https://github.com/search?q=Eleven%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [Exchange: Add default permissions xml](https://github.com/search?q=Exchange%3A%20Add%20default%20permissions%20xml&type=Commits)
+* [Move Snap and its libs to /product](https://github.com/search?q=Move%20Snap%20and%20its%20libs%20to%20/product&type=Commits)
+* [Snap: Add privapp permissions xml](https://github.com/search?q=Snap%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [Trebuchet: Add extra privapp permissions xml](https://github.com/search?q=Trebuchet%3A%20Add%20extra%20privapp%20permissions%20xml&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-08-2020 End.
+
+05-07-2020
+====================
+
+#### Device specific Changes of 05-07-2020 Start:
+
+#### Device/Quark/
+* [Quark: init.qcom.power.rc add comment](https://github.com/search?q=Quark%3A%20init.qcom.power.rc%20add%20comment&type=Commits)
+* [Quark: init: Tweak mpdecision parameters for better battery life](https://github.com/search?q=Quark%3A%20init%3A%20Tweak%20mpdecision%20parameters%20for%20better%20battery%20life&type=Commits)
+* [Quark: improve init.qcom.power.rc](https://github.com/search?q=Quark%3A%20improve%20init.qcom.power.rc&type=Commits)
+* [Quark: Resolve denials from setting swappiness](https://github.com/search?q=Quark%3A%20Resolve%20denials%20from%20setting%20swappiness&type=Commits)
+* [Quark: init update adspd service](https://github.com/search?q=Quark%3A%20init%20update%20adspd%20service&type=Commits)
+* [Quark: init update mpdecision service](https://github.com/search?q=Quark%3A%20init%20update%20mpdecision%20service&type=Commits)
+
+#### Device specific Changes of 05-07-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-07-2020:
+* [minui: Allow skipping EV_REL input devices.](https://github.com/search?q=minui%3A%20Allow%20skipping%20EV_REL%20input%20devices.&type=Commits)
+* [LineageParts: Profiles: Even more improvements](https://github.com/search?q=LineageParts%3A%20Profiles%3A%20Even%20more%20improvements&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-07-2020 End.
+
+05-06-2020
+====================
+
+#### Device specific Changes of 05-06-2020 Start:
+
+#### Device/Quark/
+* [Quark: Unbreak DRM and make at least L3 work](https://github.com/search?q=Quark%3A%20Unbreak%20DRM%20and%20make%20at%20least%20L3%20work&type=Commits)
+
+#### Device specific Changes of 05-06-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-06-2020:
+* [SF:Report active config to java framework](https://github.com/search?q=SF%3AReport%20active%20config%20to%20java%20framework&type=Commits)
+* [LineageSettingsProvider: Add privapp permissions xml](https://github.com/search?q=LineageSettingsProvider%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [sdk: Remove weather from default services](https://github.com/search?q=sdk%3A%20Remove%20weather%20from%20default%20services&type=Commits)
+* [wiki: devices: lake: Add support for REVVRY+](https://github.com/search?q=wiki%3A%20devices%3A%20lake%3A%20Add%20support%20for%20REVVRY+&type=Commits)
+* [AudioFX: Add privapp permissions xml](https://github.com/search?q=AudioFX%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [DeskClock: Add sysconfig whitelist xml](https://github.com/search?q=DeskClock%3A%20Add%20sysconfig%20whitelist%20xml&type=Commits)
+* [Dialer: Add extra privapp permissions xml](https://github.com/search?q=Dialer%3A%20Add%20extra%20privapp%20permissions%20xml&type=Commits)
+* [FlipFlap: Add privapp permissions xml](https://github.com/search?q=FlipFlap%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [Gallery2: Add privapp permissions xml](https://github.com/search?q=Gallery2%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [SetupWizard: Add privapp permissions xml](https://github.com/search?q=SetupWizard%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [Updater: Add privapp permissions xml](https://github.com/search?q=Updater%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-06-2020 End.
+
+05-05-2020
+====================
+
+#### Device specific Changes of 05-05-2020 Start:
+
+#### Device/Quark/
+* [Quark: Remove /tombstones symlink creation](https://github.com/search?q=Quark%3A%20Remove%20/tombstones%20symlink%20creation&type=Commits)
+* [Quark: Fixup kernel trace/dmesg permissions](https://github.com/search?q=Quark%3A%20Fixup%20kernel%20trace/dmesg%20permissions&type=Commits)
+* [Quark: rootdir: Assign gps group to camera](https://github.com/search?q=Quark%3A%20rootdir%3A%20Assign%20gps%20group%20to%20camera&type=Commits)
+* [Quark: Make Android.mk search recursive](https://github.com/search?q=Quark%3A%20Make%20Android.mk%20search%20recursive&type=Commits)
+
+#### Device specific Changes of 05-05-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-05-2020:
+* [manifest: Move from android-10.0.0_r33 to android-10.0.0_r35](https://github.com/search?q=manifest%3A%20Move%20from%20android-10.0.0_r33%20to%20android-10.0.0_r35&type=Commits)
+* [manifest: Sync vendor/qcom/opensource/vibrator](https://github.com/search?q=manifest%3A%20Sync%20vendor/qcom/opensource/vibrator&type=Commits)
+* [Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r35%27%20into%20lineage-17.1-android-10.0.0_r35&type=Commits)
+* [Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r35%27%20into%20lineage-17.1-android-10.0.0_r35&type=Commits)
+* [PowerManager: Move custom API definition to end of AIDL](https://github.com/search?q=PowerManager%3A%20Move%20custom%20API%20definition%20to%20end%20of%20AIDL&type=Commits)
+* [Correct PowerManager transaction IDs. These transaction IDs must be kept in sync with the method order from IPowerManager.aidl.](https://github.com/search?q=Correct%20PowerManager%20transaction%20IDs.%20These%20transaction%20IDs%20must%20be%20kept%20in%20sync%20with%20the%20method%20order%20from%20IPowerManager.aidl.&type=Commits)
+* [Updated to 05-May-2020 14:21 UTC](https://github.com/search?q=Updated%20to%2005-May-2020%2014%3A21%20UTC&type=Commits)
+* [wiki: correct guacamole storage specification](https://github.com/search?q=wiki%3A%20correct%20guacamole%20storage%20specification&type=Commits)
+* [wiki: reboot to recovery with shell command when installing via dd](https://github.com/search?q=wiki%3A%20reboot%20to%20recovery%20with%20shell%20command%20when%20installing%20via%20dd&type=Commits)
+* [wiki: Promote jason to 17.1](https://github.com/search?q=wiki%3A%20Promote%20jason%20to%2017.1&type=Commits)
+* [wiki: Add twolip](https://github.com/search?q=wiki%3A%20Add%20twolip&type=Commits)
+* [wiki: Add Redmi Note 7 (lavender)](https://github.com/search?q=wiki%3A%20Add%20Redmi%20Note%207%20%28lavender%29&type=Commits)
+* [wiki: Add wayne/jasmine_sprout](https://github.com/search?q=wiki%3A%20Add%20wayne/jasmine_sprout&type=Commits)
+* [Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r35%27%20into%20lineage-17.1-android-10.0.0_r35&type=Commits)
+* [Settings: Hide carrier settings version if empty](https://github.com/search?q=Settings%3A%20Hide%20carrier%20settings%20version%20if%20empty&type=Commits)
+* [Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r35%27%20into%20lineage-17.1-android-10.0.0_r35&type=Commits)
+* [Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r35%27%20into%20lineage-17.1-android-10.0.0_r35&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-05-2020 End.
+
+05-04-2020
+====================
+
+#### Device specific Changes of 05-04-2020 Start:
+
+#### Device/Quark/
+* [Quark: add missing sepolicy/file_contexts for power service](https://github.com/search?q=Quark%3A%20add%20missing%20sepolicy/file_contexts%20for%20power%20service&type=Commits)
+* [Quark: Build Trust HAL](https://github.com/search?q=Quark%3A%20Build%20Trust%20HAL&type=Commits)
+* [Quark: update sepolicy/charger.te](https://github.com/search?q=Quark%3A%20update%20sepolicy/charger.te&type=Commits)
+* [Quark: overlay: Enable haptic text cursor](https://github.com/search?q=Quark%3A%20overlay%3A%20Enable%20haptic%20text%20cursor&type=Commits)
+* [Quark: Move GNSS HIDL HAL to hwbinder](https://github.com/search?q=Quark%3A%20Move%20GNSS%20HIDL%20HAL%20to%20hwbinder&type=Commits)
+* [Quark: wifi: Disable BSS flush](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20BSS%20flush&type=Commits)
+* [Quark: wifi: Increase max bss count](https://github.com/search?q=Quark%3A%20wifi%3A%20Increase%20max%20bss%20count&type=Commits)
+* [Quark: wifi: Add parameters for Hotspot 2.0](https://github.com/search?q=Quark%3A%20wifi%3A%20Add%20parameters%20for%20Hotspot%202.0&type=Commits)
+* [Quark: import power hall from shamu](https://github.com/search?q=Quark%3A%20import%20power%20hall%20from%20shamu&type=Commits)
+
+#### Kernel/Quark/
+* [qcacld-2.0: tune firmware_bin/WCNSS_qcom_cfg.ini](https://github.com/search?q=qcacld-2.0%3A%20tune%20firmware_bin/WCNSS_qcom_cfg.ini&type=Commits)
+* [apq8084.dtsi: improve bcl values](https://github.com/search?q=apq8084.dtsi%3A%20improve%20bcl%20values&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
+
+#### Device specific Changes of 05-04-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-04-2020:
+* [fw/b: adb network tile: Don't make ConnectionManager get calls from callback](https://github.com/search?q=fw/b%3A%20adb%20network%20tile%3A%20Don%27t%20make%20ConnectionManager%20get%20calls%20from%20callback&type=Commits)
+* [Trust: Actually cancel notification if the setting is disabled](https://github.com/search?q=Trust%3A%20Actually%20cancel%20notification%20if%20the%20setting%20is%20disabled&type=Commits)
+* [lineage-sdk: NetworkTraffic: Cleanup network callback](https://github.com/search?q=lineage-sdk%3A%20NetworkTraffic%3A%20Cleanup%20network%20callback&type=Commits)
+* [wiki: devices: victara: Add me as a maintianer](https://github.com/search?q=wiki%3A%20devices%3A%20victara%3A%20Add%20me%20as%20a%20maintianer&type=Commits)
+* [wiki: victara: Remove myself as maintainer](https://github.com/search?q=wiki%3A%20victara%3A%20Remove%20myself%20as%20maintainer&type=Commits)
+* [Trust: Request removal of the notification when disabling the preference](https://github.com/search?q=Trust%3A%20Request%20removal%20of%20the%20notification%20when%20disabling%20the%20preference&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-04-2020 End.
+
+05-03-2020
+====================
+
+#### Device specific Changes of 05-03-2020 Start:
+
+#### Device/Quark/
+* [Quark: set TARGET_FLATTEN_APEX := true](https://github.com/search?q=Quark%3A%20set%20TARGET_FLATTEN_APEX%20%3A=%20true&type=Commits)
+* [Quark: Disable DiscoveryService](https://github.com/search?q=Quark%3A%20Disable%20DiscoveryService&type=Commits)
+
+#### Device specific Changes of 05-03-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-03-2020:
+* [fw/b data restrictions: Don't call getNetworkCapabilities() in the callback](https://github.com/search?q=fw/b%20data%20restrictions%3A%20Don%27t%20call%20getNetworkCapabilities%28%29%20in%20the%20callback&type=Commits)
+* [fs_mgr: skip setting rootfs block as ro during mount_all in recovery](https://github.com/search?q=fs_mgr%3A%20skip%20setting%20rootfs%20block%20as%20ro%20during%20mount_all%20in%20recovery&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-03-2020 End.
+
+05-02-2020
+====================
+
+#### LineageOS - 17.1 source changes of 05-02-2020:
+* [qcom: Add legacymm livedisplay sepolicy](https://github.com/search?q=qcom%3A%20Add%20legacymm%20livedisplay%20sepolicy&type=Commits)
+* [base: SystemUI: fix NPE in PowerShareTile](https://github.com/search?q=base%3A%20SystemUI%3A%20fix%20NPE%20in%20PowerShareTile&type=Commits)
+* [Update well known accounts](https://github.com/search?q=Update%20well%20known%20accounts&type=Commits)
+* [hudson: Promote jason to 17.1](https://github.com/search?q=hudson%3A%20Promote%20jason%20to%2017.1&type=Commits)
+* [hudson: Add wayne/jasmine_sprout/lavender/twolip to 17.1](https://github.com/search?q=hudson%3A%20Add%20wayne/jasmine_sprout/lavender/twolip%20to%2017.1&type=Commits)
+* [wiki: Correct build channels](https://github.com/search?q=wiki%3A%20Correct%20build%20channels&type=Commits)
+* [Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-02-2020 End.
+
+05-01-2020
+====================
+
+#### LineageOS - 17.1 source changes of 05-01-2020:
+* [manifest: Track additional Pixel 4{,XL} hardware repo](https://github.com/search?q=manifest%3A%20Track%20additional%20Pixel%204{,XL}%20hardware%20repo&type=Commits)
+* [recovery: handle interrupts in apply update menu](https://github.com/search?q=recovery%3A%20handle%20interrupts%20in%20apply%20update%20menu&type=Commits)
+* [CLDR-13739 tzdata2020a updates (#440) [Q]](https://github.com/search?q=CLDR-13739%20tzdata2020a%20updates%20%28%23440%29%20[Q]&type=Commits)
+* [CLDR-13029 Update windowsZones.xml to 2019b level (#139)](https://github.com/search?q=CLDR-13029%20Update%20windowsZones.xml%20to%202019b%20level%20%28%23139%29&type=Commits)
+* [Update Android to tzdb 2020a [Q branch]](https://github.com/search?q=Update%20Android%20to%20tzdb%202020a%20[Q%20branch]&type=Commits)
+* [Track CLDR-13029 / 2019b changes](https://github.com/search?q=Track%20CLDR-13029%20/%202019b%20changes&type=Commits)
+* [Add isApplicationOnUicc API](https://github.com/search?q=Add%20isApplicationOnUicc%20API&type=Commits)
+* [GlobalActions: Fix Airplane mode toggle](https://github.com/search?q=GlobalActions%3A%20Fix%20Airplane%20mode%20toggle&type=Commits)
+* [base: SystemUI: add qs powershare tile](https://github.com/search?q=base%3A%20SystemUI%3A%20add%20qs%20powershare%20tile&type=Commits)
+* [lineage-sdk: add powershare qs tile](https://github.com/search?q=lineage-sdk%3A%20add%20powershare%20qs%20tile&type=Commits)
+* [Updated to 01-May-2020 16:55 UTC](https://github.com/search?q=Updated%20to%2001-May-2020%2016%3A55%20UTC&type=Commits)
+* [Revert "AOSP/Calendar - Minimal calendar app."](https://github.com/search?q=Revert%20"AOSP/Calendar%20-%20Minimal%20calendar%20app."&type=Commits)
+* [Revert "AOSP/Calendar - Fix the crash bug. Deleted a code fragment that remained that was selecting and viewing of the calendar events.."](https://github.com/search?q=Revert%20"AOSP/Calendar%20-%20Fix%20the%20crash%20bug.%20Deleted%20a%20code%20fragment%20that%20remained%20that%20was%20selecting%20and%20viewing%20of%20the%20calendar%20events.."&type=Commits)
+* [Revert "Calendar: Drop no longer existing activity from manifest"](https://github.com/search?q=Revert%20"Calendar%3A%20Drop%20no%20longer%20existing%20activity%20from%20manifest"&type=Commits)
+* [LineageParts: Remove obselete PreferenceCategory for LiveDisplay](https://github.com/search?q=LineageParts%3A%20Remove%20obselete%20PreferenceCategory%20for%20LiveDisplay&type=Commits)
+* [fixup! Add isApplicationOnUicc API](https://github.com/search?q=fixup!%20Add%20isApplicationOnUicc%20API&type=Commits)
+* [Update Android to tzdb 2020a [Q branch]](https://github.com/search?q=Update%20Android%20to%20tzdb%202020a%20[Q%20branch]&type=Commits)
+* [Track CLDR-13029 / 2019b changes](https://github.com/search?q=Track%20CLDR-13029%20/%202019b%20changes&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-01-2020 End.
+
+04-30-2020
+====================
+
+#### Device specific Changes of 04-30-2020 Start:
+
+#### Device/Quark/
+* [Quark: sepolicy: Label qcril.db as radio_data_file](https://github.com/search?q=Quark%3A%20sepolicy%3A%20Label%20qcril.db%20as%20radio_data_file&type=Commits)
+* [Quark: Reduce hwbinder buffer size for vibrator HAL](https://github.com/search?q=Quark%3A%20Reduce%20hwbinder%20buffer%20size%20for%20vibrator%20HAL&type=Commits)
+* [Quark: sepolicy: Grant cnd and rild access to wifi_prop](https://github.com/search?q=Quark%3A%20sepolicy%3A%20Grant%20cnd%20and%20rild%20access%20to%20wifi_prop&type=Commits)
+* [Quark: Add msm_irqbalance and configuration](https://github.com/search?q=Quark%3A%20Add%20msm_irqbalance%20and%20configuration&type=Commits)
+
+#### Kernel/Quark/
+* [usr/gen_init_cpio.c: Fix -Wstringop-truncation warnings](https://github.com/search?q=usr/gen_init_cpio.c%3A%20Fix%20-Wstringop-truncation%20warnings&type=Commits)
+* [kconfig: Avoid format overflow warning from GCC 8.1](https://github.com/search?q=kconfig%3A%20Avoid%20format%20overflow%20warning%20from%20GCC%208.1&type=Commits)
+* [defconfig add CONFIG_SND_MAX_CARDS](https://github.com/search?q=defconfig%20add%20CONFIG_SND_MAX_CARDS&type=Commits)
+* [msm: mdss: change retire fence signaling](https://github.com/search?q=msm%3A%20mdss%3A%20change%20retire%20fence%20signaling&type=Commits)
+* [net: wireless: bcmdhd: Fix compilation for netdev_notifier_info use](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20Fix%20compilation%20for%20netdev_notifier_info%20use&type=Commits)
+* [CHROMIUM: net: wireless: bcmdhd: Fix argument to wl_cfg80211_netdev_notifier_call](https://github.com/search?q=CHROMIUM%3A%20net%3A%20wireless%3A%20bcmdhd%3A%20Fix%20argument%20to%20wl_cfg80211_netdev_notifier_call&type=Commits)
+* [CHROMIUM: net: wireless: bcmdhd: use per DHD-instance notifier](https://github.com/search?q=CHROMIUM%3A%20net%3A%20wireless%3A%20bcmdhd%3A%20use%20per%20DHD-instance%20notifier&type=Commits)
+* [net: wireless: bcmdhd: avoid using global pointer to prevent memory corruption](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20avoid%20using%20global%20pointer%20to%20prevent%20memory%20corruption&type=Commits)
+* [msm: camera: Avoid deadlock for vb2 operations using separate lock](https://github.com/search?q=msm%3A%20camera%3A%20Avoid%20deadlock%20for%20vb2%20operations%20using%20separate%20lock&type=Commits)
+* [msm: camera_v2: Increase event timeout](https://github.com/search?q=msm%3A%20camera_v2%3A%20Increase%20event%20timeout&type=Commits)
+* [Revert "Revert "msm: camera: isp: Avoid information leak in ISPIF""](https://github.com/search?q=Revert%20"Revert%20"msm%3A%20camera%3A%20isp%3A%20Avoid%20information%20leak%20in%20ISPIF""&type=Commits)
+* [Revert "Revert "msm: sensor: Validationg function pointers before using them""](https://github.com/search?q=Revert%20"Revert%20"msm%3A%20sensor%3A%20Validationg%20function%20pointers%20before%20using%20them""&type=Commits)
+* [msm: Camera buffer overflow fix](https://github.com/search?q=msm%3A%20Camera%20buffer%20overflow%20fix&type=Commits)
+* [msm: camera: change config params and max delay time for CCI](https://github.com/search?q=msm%3A%20camera%3A%20change%20config%20params%20and%20max%20delay%20time%20for%20CCI&type=Commits)
+* [ASoC: msm: Fix error check in external EC](https://github.com/search?q=ASoC%3A%20msm%3A%20Fix%20error%20check%20in%20external%20EC&type=Commits)
+* [ASoC: msm: qdsp6v2: Fix FE id check in routing driver](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20FE%20id%20check%20in%20routing%20driver&type=Commits)
+* [qseecom : Clear client handle after unmap the resources](https://github.com/search?q=qseecom%20%3A%20Clear%20client%20handle%20after%20unmap%20the%20resources&type=Commits)
+* [qcacld-2.0: Fix while condition in rrm_fill_beacon_ies()](https://github.com/search?q=qcacld-2.0%3A%20Fix%20while%20condition%20in%20rrm_fill_beacon_ies%28%29&type=Commits)
+* [KEYS: Don't permit request_key() to construct a new keyring](https://github.com/search?q=KEYS%3A%20Don%27t%20permit%20request_key%28%29%20to%20construct%20a%20new%20keyring&type=Commits)
+
+#### Device specific Changes of 04-30-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 04-30-2020:
+* [recovery: fix volmgr cleaning up](https://github.com/search?q=recovery%3A%20fix%20volmgr%20cleaning%20up&type=Commits)
+* [inputrc: Import from Ubuntu](https://github.com/search?q=inputrc%3A%20Import%20from%20Ubuntu&type=Commits)
+* [FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern()](https://github.com/search?q=FODCircleView%3A%20Let%20us%20call%20show%28%29%20when%20mIsBouncer%28%29%20&&%20!isPinOrPattern%28%29&type=Commits)
+* [Fix WebView vulnerability by disallowing file access](https://github.com/search?q=Fix%20WebView%20vulnerability%20by%20disallowing%20file%20access&type=Commits)
+* [msm8084: libhwcomposer fix some warnings](https://github.com/search?q=msm8084%3A%20libhwcomposer%20fix%20some%20warnings&type=Commits)
+* [Make hwc_vsync thread realtime](https://github.com/search?q=Make%20hwc_vsync%20thread%20realtime&type=Commits)
+* [msm8084: Deprecate usage of cutils/log.h](https://github.com/search?q=msm8084%3A%20Deprecate%20usage%20of%20cutils/log.h&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-30-2020 End.
+
+04-29-2020
+====================
+
+#### Device specific Changes of 04-29-2020 Start:
+
+#### Vendor/Quark/
+* [Quark: Add msm_irqbalance](https://github.com/search?q=Quark%3A%20Add%20msm_irqbalance&type=Commits)
+
+#### Device specific Changes of 04-29-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 04-29-2020:
+* [recovery: apply new design to menu padding, color and arrow](https://github.com/search?q=recovery%3A%20apply%20new%20design%20to%20menu%20padding,%20color%20and%20arrow&type=Commits)
+* [PerfProfileSettings: Hide from search results when there are no profiles](https://github.com/search?q=PerfProfileSettings%3A%20Hide%20from%20search%20results%20when%20there%20are%20no%20profiles&type=Commits)
+* [TouchscreenGestureSettings: Hide from search results if unsupported](https://github.com/search?q=TouchscreenGestureSettings%3A%20Hide%20from%20search%20results%20if%20unsupported&type=Commits)
+* [MediaProvider: Less spam](https://github.com/search?q=MediaProvider%3A%20Less%20spam&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-29-2020 End.
+
+04-28-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-28-2020:
+* [recovery: add new recovery and fastbootd logos](https://github.com/search?q=recovery%3A%20add%20new%20recovery%20and%20fastbootd%20logos&type=Commits)
+* [hudson: I'm Essential](https://github.com/search?q=hudson%3A%20I%27m%20Essential&type=Commits)
+* [Update default webview to 81.0.4044.117](https://github.com/search?q=Update%20default%20webview%20to%2081.0.4044.117&type=Commits)
+* [wiki: gapps: Remove duplicated, wrong installation instructions](https://github.com/search?q=wiki%3A%20gapps%3A%20Remove%20duplicated,%20wrong%20installation%20instructions&type=Commits)
+* [wiki: templates: Some backup solutions aren't available on Lineage](https://github.com/search?q=wiki%3A%20templates%3A%20Some%20backup%20solutions%20aren%27t%20available%20on%20Lineage&type=Commits)
+* [wiki: templates: Sunshine only works on some devices/firmwares](https://github.com/search?q=wiki%3A%20templates%3A%20Sunshine%20only%20works%20on%20some%20devices/firmwares&type=Commits)
+* [wiki: Promote Essential Phone](https://github.com/search?q=wiki%3A%20Promote%20Essential%20Phone&type=Commits)
+* [ButtonSettings: Hide unsupported settings from search results](https://github.com/search?q=ButtonSettings%3A%20Hide%20unsupported%20settings%20from%20search%20results&type=Commits)
+* [BasebandVersionPreferenceController: Trim baseband if needed](https://github.com/search?q=BasebandVersionPreferenceController%3A%20Trim%20baseband%20if%20needed&type=Commits)
+* [Add isApplicationOnUicc API](https://github.com/search?q=Add%20isApplicationOnUicc%20API&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-28-2020 End.
+
+04-27-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-27-2020:
+* [recovery_ui: Tell the user they're actually formatting](https://github.com/search?q=recovery_ui%3A%20Tell%20the%20user%20they%27re%20actually%20formatting&type=Commits)
+* [Clean up duplicated uses-permission](https://github.com/search?q=Clean%20up%20duplicated%20uses-permission&type=Commits)
+* [Camera: Rename prevent power key permission](https://github.com/search?q=Camera%3A%20Rename%20prevent%20power%20key%20permission&type=Commits)
+* [fixup! lockscreen: Add support for showing unlock screen directly](https://github.com/search?q=fixup!%20lockscreen%3A%20Add%20support%20for%20showing%20unlock%20screen%20directly&type=Commits)
+* [Don't destroy ART profiles after package move.](https://github.com/search?q=Don%27t%20destroy%20ART%20profiles%20after%20package%20move.&type=Commits)
+* [hudson: (Temp) Drop kuntao](https://github.com/search?q=hudson%3A%20%28Temp%29%20Drop%20kuntao&type=Commits)
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [device-deps: Drop 15.1](https://github.com/search?q=device-deps%3A%20Drop%2015.1&type=Commits)
+* [wiki: templates: device_build: Minor fixes](https://github.com/search?q=wiki%3A%20templates%3A%20device_build%3A%20Minor%20fixes&type=Commits)
+* [wiki: templates: Lineage Recovery says format now](https://github.com/search?q=wiki%3A%20templates%3A%20Lineage%20Recovery%20says%20format%20now&type=Commits)
+* [wiki: templates: device_build: A/B devices have boot, not recovery](https://github.com/search?q=wiki%3A%20templates%3A%20device_build%3A%20A/B%20devices%20have%20boot,%20not%20recovery&type=Commits)
+* [ButtonSettings: Rework key disabler related code](https://github.com/search?q=ButtonSettings%3A%20Rework%20key%20disabler%20related%20code&type=Commits)
+* [DeviceUtils: Add helper methods to retrieve device's key capabilities](https://github.com/search?q=DeviceUtils%3A%20Add%20helper%20methods%20to%20retrieve%20device%27s%20key%20capabilities&type=Commits)
+* [StatusBarSettings: Fix NW traffic not being properly hidden from search](https://github.com/search?q=StatusBarSettings%3A%20Fix%20NW%20traffic%20not%20being%20properly%20hidden%20from%20search&type=Commits)
+* [Snap: Rename prevent power key permission](https://github.com/search?q=Snap%3A%20Rename%20prevent%20power%20key%20permission&type=Commits)
+* [Merge "Add rustfmt checks"](https://github.com/search?q=Merge%20"Add%20rustfmt%20checks"&type=Commits)
+* [Add rustfmt checks](https://github.com/search?q=Add%20rustfmt%20checks&type=Commits)
+* [privapp-permissions: Update PREVENT_POWER_KEY permission for Camera](https://github.com/search?q=privapp-permissions%3A%20Update%20PREVENT_POWER_KEY%20permission%20for%20Camera&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-27-2020 End.
+
+04-26-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-26-2020:
+* [FODCircleView: Show while bouncer is requesting Pattern or PIN](https://github.com/search?q=FODCircleView%3A%20Show%20while%20bouncer%20is%20requesting%20Pattern%20or%20PIN&type=Commits)
+* [wiki: templates: device_build: Have users configure their git identity](https://github.com/search?q=wiki%3A%20templates%3A%20device_build%3A%20Have%20users%20configure%20their%20git%20identity&type=Commits)
+* [wiki: templates: device_build: Note that platform tools zip name may vary](https://github.com/search?q=wiki%3A%20templates%3A%20device_build%3A%20Note%20that%20platform%20tools%20zip%20name%20may%20vary&type=Commits)
+* [wiki: Drop battery[fastcharging] parameter](https://github.com/search?q=wiki%3A%20Drop%20battery[fastcharging]%20parameter&type=Commits)
+* [DeviceUtils: Drop useless cast when calling getSystemService](https://github.com/search?q=DeviceUtils%3A%20Drop%20useless%20cast%20when%20calling%20getSystemService&type=Commits)
+* [Add product_launched_with_j{,_mr1,mr2}.mk](https://github.com/search?q=Add%20product_launched_with_j{,_mr1,mr2}.mk&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-26-2020 End.
+
+04-25-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-25-2020:
+* [sepolicy: add hal_lineage_powershare](https://github.com/search?q=sepolicy%3A%20add%20hal_lineage_powershare&type=Commits)
+* [lineage/interfaces: add powershare HAL](https://github.com/search?q=lineage/interfaces%3A%20add%20powershare%20HAL&type=Commits)
+* [Eleven: Remove casts from calls to getSystemService](https://github.com/search?q=Eleven%3A%20Remove%20casts%20from%20calls%20to%20getSystemService&type=Commits)
+* [Eleven: Retrieve ShakeToPlay user pref using dedicated method](https://github.com/search?q=Eleven%3A%20Retrieve%20ShakeToPlay%20user%20pref%20using%20dedicated%20method&type=Commits)
+* [Eleven: Bind settings fragment to music playback service](https://github.com/search?q=Eleven%3A%20Bind%20settings%20fragment%20to%20music%20playback%20service&type=Commits)
+* [Jelly: Set query text only if values are valid](https://github.com/search?q=Jelly%3A%20Set%20query%20text%20only%20if%20values%20are%20valid&type=Commits)
+* [LineageParts: Drop no longer necessary casts when calling findPreference()](https://github.com/search?q=LineageParts%3A%20Drop%20no%20longer%20necessary%20casts%20when%20calling%20findPreference%28%29&type=Commits)
+* [extract_utils: Handle Brotli compressed block image](https://github.com/search?q=extract_utils%3A%20Handle%20Brotli%20compressed%20block%20image&type=Commits)
+* [extract_utils: Support odm/product/vendor partition for zip extract](https://github.com/search?q=extract_utils%3A%20Support%20odm/product/vendor%20partition%20for%20zip%20extract&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-25-2020 End.
+
+04-24-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-24-2020:
+* [Eleven: Get rid of lockscreen media art option](https://github.com/search?q=Eleven%3A%20Get%20rid%20of%20lockscreen%20media%20art%20option&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-24-2020 End.
+
+04-23-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-23-2020:
+* [manifest: Track packages/inputmethods/LeanbackIME](https://github.com/search?q=manifest%3A%20Track%20packages/inputmethods/LeanbackIME&type=Commits)
+* [android_getaddrinfo_proxy: fix memory leak on failure.](https://github.com/search?q=android_getaddrinfo_proxy%3A%20fix%20memory%20leak%20on%20failure.&type=Commits)
+* [sepolicy: qcom: Label custom FM Radio property](https://github.com/search?q=sepolicy%3A%20qcom%3A%20Label%20custom%20FM%20Radio%20property&type=Commits)
+* [Update Chromium Webview to 81.0.4044.117](https://github.com/search?q=Update%20Chromium%20Webview%20to%2081.0.4044.117&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [crowdin: Fix submitting](https://github.com/search?q=crowdin%3A%20Fix%20submitting&type=Commits)
+* [hudson: Promote kuntao to 17.1](https://github.com/search?q=hudson%3A%20Promote%20kuntao%20to%2017.1&type=Commits)
+* [Revert "hudson: (Temp) Drop exynos 9810 devices"](https://github.com/search?q=Revert%20"hudson%3A%20%28Temp%29%20Drop%20exynos%209810%20devices"&type=Commits)
+* [hudson: (Temp) Drop exynos 9810 devices](https://github.com/search?q=hudson%3A%20%28Temp%29%20Drop%20exynos%209810%20devices&type=Commits)
+* [wiki: Promote kuntao to 17.1](https://github.com/search?q=wiki%3A%20Promote%20kuntao%20to%2017.1&type=Commits)
+* [build: Update required packages for Ubuntu 20.04 LTS](https://github.com/search?q=build%3A%20Update%20required%20packages%20for%20Ubuntu%2020.04%20LTS&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [atv: Build LeanbackIME](https://github.com/search?q=atv%3A%20Build%20LeanbackIME&type=Commits)
+* [jni: Resolve property isolation issues](https://github.com/search?q=jni%3A%20Resolve%20property%20isolation%20issues&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [libfmjni: Resolve property isolation issues](https://github.com/search?q=libfmjni%3A%20Resolve%20property%20isolation%20issues&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-23-2020 End.
+
+04-22-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-22-2020:
+* [fixup! SystemUI: Allow translucent notifications background on lockscreen [1/3]](https://github.com/search?q=fixup!%20SystemUI%3A%20Allow%20translucent%20notifications%20background%20on%20lockscreen%20[1/3]&type=Commits)
+* [Multiply the total memory by mem_unit](https://github.com/search?q=Multiply%20the%20total%20memory%20by%20mem_unit&type=Commits)
+* [Profiles: Work with a list of subscriptions](https://github.com/search?q=Profiles%3A%20Work%20with%20a%20list%20of%20subscriptions&type=Commits)
+* [hudson: Promote zl1 to 17.1](https://github.com/search?q=hudson%3A%20Promote%20zl1%20to%2017.1&type=Commits)
+* [Updated to 22-Apr-2020 12:21 UTC](https://github.com/search?q=Updated%20to%2022-Apr-2020%2012%3A21%20UTC&type=Commits)
+* [wiki: Promote zl1 to 17.1](https://github.com/search?q=wiki%3A%20Promote%20zl1%20to%2017.1&type=Commits)
+* [wiki: update block-based steps for vendor.img OTA](https://github.com/search?q=wiki%3A%20update%20block-based%20steps%20for%20vendor.img%20OTA&type=Commits)
+* [utils: sudo_run: delete](https://github.com/search?q=utils%3A%20sudo_run%3A%20delete&type=Commits)
+* [Split mobile and tv configs](https://github.com/search?q=Split%20mobile%20and%20tv%20configs&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-22-2020 End.
+
+04-21-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-21-2020:
+* [SystemUI: Allow translucent notifications background on lockscreen [1/3]](https://github.com/search?q=SystemUI%3A%20Allow%20translucent%20notifications%20background%20on%20lockscreen%20[1/3]&type=Commits)
+* [Use generated kernel headers](https://github.com/search?q=Use%20generated%20kernel%20headers&type=Commits)
+* [hwc: wait for commit finish when unset overlay](https://github.com/search?q=hwc%3A%20wait%20for%20commit%20finish%20when%20unset%20overlay&type=Commits)
+* [hardware: display: fix KW issues](https://github.com/search?q=hardware%3A%20display%3A%20fix%20KW%20issues&type=Commits)
+* [sdk: Allow translucent notifications background on lockscreen [2/3]](https://github.com/search?q=sdk%3A%20Allow%20translucent%20notifications%20background%20on%20lockscreen%20[2/3]&type=Commits)
+* [lineage-sdk: Update path for custom charging sound](https://github.com/search?q=lineage-sdk%3A%20Update%20path%20for%20custom%20charging%20sound&type=Commits)
+* [profiles: Fix typo in static variable naming](https://github.com/search?q=profiles%3A%20Fix%20typo%20in%20static%20variable%20naming&type=Commits)
+* [wiki: templates: Resolve adb sideload tropes](https://github.com/search?q=wiki%3A%20templates%3A%20Resolve%20adb%20sideload%20tropes&type=Commits)
+* [build: Instruct people to export CCACHE_EXEC environment variable](https://github.com/search?q=build%3A%20Instruct%20people%20to%20export%20CCACHE_EXEC%20environment%20variable&type=Commits)
+* [wiki: Readability improvements](https://github.com/search?q=wiki%3A%20Readability%20improvements&type=Commits)
+* [Jelly: set WebView focusable](https://github.com/search?q=Jelly%3A%20set%20WebView%20focusable&type=Commits)
+* [ButtonSettings: Bring back navbar inverted layout unconditionally](https://github.com/search?q=ButtonSettings%3A%20Bring%20back%20navbar%20inverted%20layout%20unconditionally&type=Commits)
+* [Parts: Convert charging sound path to uri](https://github.com/search?q=Parts%3A%20Convert%20charging%20sound%20path%20to%20uri&type=Commits)
+* [Settings: Allow translucent notifications background on lockscreen [3/3]](https://github.com/search?q=Settings%3A%20Allow%20translucent%20notifications%20background%20on%20lockscreen%20[3/3]&type=Commits)
+* [libfmjni: add vendor tag for vendor property value](https://github.com/search?q=libfmjni%3A%20add%20vendor%20tag%20for%20vendor%20property%20value&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-21-2020 End.
+
+04-20-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-20-2020:
+* [power: Re-introduce custom charging sounds](https://github.com/search?q=power%3A%20Re-introduce%20custom%20charging%20sounds&type=Commits)
+* [profiles: Account for deprecated location API methods](https://github.com/search?q=profiles%3A%20Account%20for%20deprecated%20location%20API%20methods&type=Commits)
+* [hudson: Say hello to Xperia XA2 Plus ^.^](https://github.com/search?q=hudson%3A%20Say%20hello%20to%20Xperia%20XA2%20Plus%20^.^&type=Commits)
+* [Updated to 20-Apr-2020 14:20 UTC](https://github.com/search?q=Updated%20to%2020-Apr-2020%2014%3A20%20UTC&type=Commits)
+* [wiki: Add voyager](https://github.com/search?q=wiki%3A%20Add%20voyager&type=Commits)
+* [profiles: Goodbye GPS, welcome Location services](https://github.com/search?q=profiles%3A%20Goodbye%20GPS,%20welcome%20Location%20services&type=Commits)
+* [ButtonSettings: Avoid leaving the navbar preference category empty](https://github.com/search?q=ButtonSettings%3A%20Avoid%20leaving%20the%20navbar%20preference%20category%20empty&type=Commits)
+* [ButtonSettings: Also hide inverted layout while in gestural mode](https://github.com/search?q=ButtonSettings%3A%20Also%20hide%20inverted%20layout%20while%20in%20gestural%20mode&type=Commits)
+* [ButtonSettings: Use existing logic to hide navbar arrow keys](https://github.com/search?q=ButtonSettings%3A%20Use%20existing%20logic%20to%20hide%20navbar%20arrow%20keys&type=Commits)
+* [Settings: Add LineageParts charging sound settings preference](https://github.com/search?q=Settings%3A%20Add%20LineageParts%20charging%20sound%20settings%20preference&type=Commits)
+* [Settings: Only show gesture navigation if device has a software nav bar](https://github.com/search?q=Settings%3A%20Only%20show%20gesture%20navigation%20if%20device%20has%20a%20software%20nav%20bar&type=Commits)
+* [Button text for app space management is overwritten](https://github.com/search?q=Button%20text%20for%20app%20space%20management%20is%20overwritten&type=Commits)
+* [Telephony: Upgrade: Also migrate empty strings](https://github.com/search?q=Telephony%3A%20Upgrade%3A%20Also%20migrate%20empty%20strings&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-20-2020 End.
+
+04-19-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-19-2020:
+* [recovery: go back to standard adb root prop](https://github.com/search?q=recovery%3A%20go%20back%20to%20standard%20adb%20root%20prop&type=Commits)
+* [recovery: fixup `EmulatedVolume creating`](https://github.com/search?q=recovery%3A%20fixup%20%60EmulatedVolume%20creating%60&type=Commits)
+* [recovery: volmgr: remove filesystem checks](https://github.com/search?q=recovery%3A%20volmgr%3A%20remove%20filesystem%20checks&type=Commits)
+* [recovery: volmgr: remove unused IsSupported](https://github.com/search?q=recovery%3A%20volmgr%3A%20remove%20unused%20IsSupported&type=Commits)
+* [sepolicy: allow adbroot service to change adb root status](https://github.com/search?q=sepolicy%3A%20allow%20adbroot%20service%20to%20change%20adb%20root%20status&type=Commits)
+* [Revert "common: Allow adbd to set a system_prop"](https://github.com/search?q=Revert%20"common%3A%20Allow%20adbd%20to%20set%20a%20system_prop"&type=Commits)
+* [NavigationBarView: Fix cursor keys visibility with gestural mode enabled](https://github.com/search?q=NavigationBarView%3A%20Fix%20cursor%20keys%20visibility%20with%20gestural%20mode%20enabled&type=Commits)
+* [hudson: Promote nx563j to 17.1](https://github.com/search?q=hudson%3A%20Promote%20nx563j%20to%2017.1&type=Commits)
+* [wiki: Promote nx563j to 17.1](https://github.com/search?q=wiki%3A%20Promote%20nx563j%20to%2017.1&type=Commits)
+* [ButtonSettings: Hide arrow keys option if gestural mode is enabled](https://github.com/search?q=ButtonSettings%3A%20Hide%20arrow%20keys%20option%20if%20gestural%20mode%20is%20enabled&type=Commits)
+* [LocationSettingsActivity: Account for deprecated location modes](https://github.com/search?q=LocationSettingsActivity%3A%20Account%20for%20deprecated%20location%20modes&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-19-2020 End.
+
+04-18-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-18-2020:
+* [lineage: Assign bash the same label as the default shell](https://github.com/search?q=lineage%3A%20Assign%20bash%20the%20same%20label%20as%20the%20default%20shell&type=Commits)
+* [SystemUI: Expose camera, location and microphone icons to Tuner](https://github.com/search?q=SystemUI%3A%20Expose%20camera,%20location%20and%20microphone%20icons%20to%20Tuner&type=Commits)
+* [Jelly: Invert check](https://github.com/search?q=Jelly%3A%20Invert%20check&type=Commits)
+* [Jelly: Make sure constraint isn't null](https://github.com/search?q=Jelly%3A%20Make%20sure%20constraint%20isn%27t%20null&type=Commits)
+* [adb: go back to standard adb root prop](https://github.com/search?q=adb%3A%20go%20back%20to%20standard%20adb%20root%20prop&type=Commits)
+* [adb: Look for shell executable in alternate places](https://github.com/search?q=adb%3A%20Look%20for%20shell%20executable%20in%20alternate%20places&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-18-2020 End.
+
+04-17-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-17-2020:
+* [Revert "SystemUI: Advanced location tile"](https://github.com/search?q=Revert%20"SystemUI%3A%20Advanced%20location%20tile"&type=Commits)
+* [Fix build errors.](https://github.com/search?q=Fix%20build%20errors.&type=Commits)
+* [wifi: Add logic to create secondary interface for STA mode too.](https://github.com/search?q=wifi%3A%20Add%20logic%20to%20create%20secondary%20interface%20for%20STA%20mode%20too.&type=Commits)
+* [wifi: Add provision to create/remove dynamic interface(s).](https://github.com/search?q=wifi%3A%20Add%20provision%20to%20create/remove%20dynamic%20interface%28s%29.&type=Commits)
+* [wifi: Fetch softap interface name for creating ap_iface operations.](https://github.com/search?q=wifi%3A%20Fetch%20softap%20interface%20name%20for%20creating%20ap_iface%20operations.&type=Commits)
+* [.gitignore: ignore export folders when generating APKs](https://github.com/search?q=.gitignore%3A%20ignore%20export%20folders%20when%20generating%20APKs&type=Commits)
+* [Eleven: remove search feature](https://github.com/search?q=Eleven%3A%20remove%20search%20feature&type=Commits)
+* [Eleven: fix popup menu positioning](https://github.com/search?q=Eleven%3A%20fix%20popup%20menu%20positioning&type=Commits)
+* [menu: clean up playlist helpers](https://github.com/search?q=menu%3A%20clean%20up%20playlist%20helpers&type=Commits)
+* [AudioPlayer: convert headerbar into toolbar](https://github.com/search?q=AudioPlayer%3A%20convert%20headerbar%20into%20toolbar&type=Commits)
+* [Settings: convert to PreferenceFragmentCompat](https://github.com/search?q=Settings%3A%20convert%20to%20PreferenceFragmentCompat&type=Commits)
+* [Move to AppCompat theme](https://github.com/search?q=Move%20to%20AppCompat%20theme&type=Commits)
+* [layouts: right/left -> start/end](https://github.com/search?q=layouts%3A%20right/left%20->%20start/end&type=Commits)
+* [Add gradient option for album art and use it by default](https://github.com/search?q=Add%20gradient%20option%20for%20album%20art%20and%20use%20it%20by%20default&type=Commits)
+* [Hide search and back button for player and queue screens](https://github.com/search?q=Hide%20search%20and%20back%20button%20for%20player%20and%20queue%20screens&type=Commits)
+* [Start revamping the player UI](https://github.com/search?q=Start%20revamping%20the%20player%20UI&type=Commits)
+* [Fix some lint issues in MusicPlaybackService.](https://github.com/search?q=Fix%20some%20lint%20issues%20in%20MusicPlaybackService.&type=Commits)
+* [Don't update notification twice on play start.](https://github.com/search?q=Don%27t%20update%20notification%20twice%20on%20play%20start.&type=Commits)
+* [Avoid usage of deprecated APIs in MusicPlaybackService.](https://github.com/search?q=Avoid%20usage%20of%20deprecated%20APIs%20in%20MusicPlaybackService.&type=Commits)
+* [Refactor AUDIO_BECOMING_NOISY broadcast handling.](https://github.com/search?q=Refactor%20AUDIO_BECOMING_NOISY%20broadcast%20handling.&type=Commits)
+* [Simplify queue change notification handling.](https://github.com/search?q=Simplify%20queue%20change%20notification%20handling.&type=Commits)
+* [Bind/unbind service on start/stop instead of create/destroy.](https://github.com/search?q=Bind/unbind%20service%20on%20start/stop%20instead%20of%20create/destroy.&type=Commits)
+* [Stop playback button updates when playback fragment is stopped.](https://github.com/search?q=Stop%20playback%20button%20updates%20when%20playback%20fragment%20is%20stopped.&type=Commits)
+* [Fix notification foreground tracking behavior](https://github.com/search?q=Fix%20notification%20foreground%20tracking%20behavior&type=Commits)
+* [Use SystemClock.elapsedRealtime() for notification tracking time](https://github.com/search?q=Use%20SystemClock.elapsedRealtime%28%29%20for%20notification%20tracking%20time&type=Commits)
+* [Refactor music playback service binding logic.](https://github.com/search?q=Refactor%20music%20playback%20service%20binding%20logic.&type=Commits)
+* [gradle: update plugin and wrapper](https://github.com/search?q=gradle%3A%20update%20plugin%20and%20wrapper&type=Commits)
+* [Jelly: Enforce pattern to be matching](https://github.com/search?q=Jelly%3A%20Enforce%20pattern%20to%20be%20matching&type=Commits)
+* [Jelly: Replace ProgressDialog with an AlertDialog](https://github.com/search?q=Jelly%3A%20Replace%20ProgressDialog%20with%20an%20AlertDialog&type=Commits)
+* [Jelly: Suppress warning on Q deprecation](https://github.com/search?q=Jelly%3A%20Suppress%20warning%20on%20Q%20deprecation&type=Commits)
+* [Jelly: Don't use LocalBroadcastManager](https://github.com/search?q=Jelly%3A%20Don%27t%20use%20LocalBroadcastManager&type=Commits)
+* [Jelly: Bump Sdk version to 29](https://github.com/search?q=Jelly%3A%20Bump%20Sdk%20version%20to%2029&type=Commits)
+* [Jelly: Fix some cast warnings](https://github.com/search?q=Jelly%3A%20Fix%20some%20cast%20warnings&type=Commits)
+* [Jelly: Import ContentProvider.requireContext from R](https://github.com/search?q=Jelly%3A%20Import%20ContentProvider.requireContext%20from%20R&type=Commits)
+* [Jelly: Switch to androidx preference](https://github.com/search?q=Jelly%3A%20Switch%20to%20androidx%20preference&type=Commits)
+* [Jelly: Switch to androidx loader](https://github.com/search?q=Jelly%3A%20Switch%20to%20androidx%20loader&type=Commits)
+* [tasks: kernel: Clarify prebuilt kernel deprecation notice](https://github.com/search?q=tasks%3A%20kernel%3A%20Clarify%20prebuilt%20kernel%20deprecation%20notice&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-17-2020 End.
+
+04-15-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-15-2020:
+* [Snap: quickreader: Don't allow insecure actions](https://github.com/search?q=Snap%3A%20quickreader%3A%20Don%27t%20allow%20insecure%20actions&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-15-2020 End.
+
+04-14-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-14-2020:
+* [manifest: Track our own external/ppp](https://github.com/search?q=manifest%3A%20Track%20our%20own%20external/ppp&type=Commits)
+* [fw/b: Prevent double interface restriction remove on interface name change](https://github.com/search?q=fw/b%3A%20Prevent%20double%20interface%20restriction%20remove%20on%20interface%20name%20change&type=Commits)
+* [config: lineage-17.1: Update repositories](https://github.com/search?q=config%3A%20lineage-17.1%3A%20Update%20repositories&type=Commits)
+* [hudson: Add exynos 9810 devices](https://github.com/search?q=hudson%3A%20Add%20exynos%209810%20devices&type=Commits)
+* [One does not simply become a Developer](https://github.com/search?q=One%20does%20not%20simply%20become%20a%20Developer&type=Commits)
+* [Allow adb start/stop mdnsd via ctl.start/stop](https://github.com/search?q=Allow%20adb%20start/stop%20mdnsd%20via%20ctl.start/stop&type=Commits)
+* [sepolicy: Relabel wifi. properties as wifi_prop](https://github.com/search?q=sepolicy%3A%20Relabel%20wifi.%20properties%20as%20wifi_prop&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-14-2020 End.
+
+04-13-2020
+====================
+
+#### LineageOS - 17.1 source changes of 04-13-2020:
+* [sepolicy: recovery: fix neverallows](https://github.com/search?q=sepolicy%3A%20recovery%3A%20fix%20neverallows&type=Commits)
+* [sepolicy: recovery: allow reading fbe key version](https://github.com/search?q=sepolicy%3A%20recovery%3A%20allow%20reading%20fbe%20key%20version&type=Commits)
+* [sepolicy: recovery: allow mounting of internal storage](https://github.com/search?q=sepolicy%3A%20recovery%3A%20allow%20mounting%20of%20internal%20storage&type=Commits)
+* [sepolicy: recovery: allow mounting of usb storage](https://github.com/search?q=sepolicy%3A%20recovery%3A%20allow%20mounting%20of%20usb%20storage&type=Commits)
+* [sepolicy: recovery: Allow volume manager write to /sys/*/uevent](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Allow%20volume%20manager%20write%20to%20/sys/*/uevent&type=Commits)
+* [sepolicy: recovery: Add policy for /dev/block/volmgr](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Add%20policy%20for%20/dev/block/volmgr&type=Commits)
+* [sepolicy: recovery: Fix the volume manager blkid.tab denial](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Fix%20the%20volume%20manager%20blkid.tab%20denial&type=Commits)
+* [sepolicy: recovery: Allow reading proc_filesystems](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Allow%20reading%20proc_filesystems&type=Commits)
+* [sepolicy: recovery: Add policy for volume manager](https://github.com/search?q=sepolicy%3A%20recovery%3A%20Add%20policy%20for%20volume%20manager&type=Commits)
+* [Do not clean up ART profiles during OTAs](https://github.com/search?q=Do%20not%20clean%20up%20ART%20profiles%20during%20OTAs&type=Commits)
+* [Add a separate flag in the installer for keeping ART profiles](https://github.com/search?q=Add%20a%20separate%20flag%20in%20the%20installer%20for%20keeping%20ART%20profiles&type=Commits)
+* [wiki: Bring back exynos 9810 to life](https://github.com/search?q=wiki%3A%20Bring%20back%20exynos%209810%20to%20life&type=Commits)
+* [LineageParts: Add ACTION_AMBIENT_DISPLAY icon](https://github.com/search?q=LineageParts%3A%20Add%20ACTION_AMBIENT_DISPLAY%20icon&type=Commits)
+* [development: Add setting for updating recovery](https://github.com/search?q=development%3A%20Add%20setting%20for%20updating%20recovery&type=Commits)
+* [sepolicy: Allow recovery to alter /](https://github.com/search?q=sepolicy%3A%20Allow%20recovery%20to%20alter%20/&type=Commits)
+* [sepolicy: whitelist recovery from node creation neverallow](https://github.com/search?q=sepolicy%3A%20whitelist%20recovery%20from%20node%20creation%20neverallow&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-13-2020 End.
 
 04-12-2020
 ====================
