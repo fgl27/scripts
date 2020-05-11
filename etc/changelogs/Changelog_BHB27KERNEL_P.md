@@ -3,6 +3,69 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+05-10-2020
+====================
+
+* [Update build/changelog.sh](https://github.com/bhb27/BHB27Kernel/search?q=Update%20build/changelog.sh&type=Commits)
+* [apq8084.dtsi: improve bcl values trye 2](https://github.com/bhb27/BHB27Kernel/search?q=apq8084.dtsi%3A%20improve%20bcl%20values%20trye%202&type=Commits)
+* [ARM: 8654/1: decompressor: add strlen prototype](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208654/1%3A%20decompressor%3A%20add%20strlen%20prototype&type=Commits)
+
+***
+
+05-09-2020
+====================
+
+* [defconfig enable CONFIG_CPU_FREQ_DEFAULT_GOV_CONSERVATIVE](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20enable%20CONFIG_CPU_FREQ_DEFAULT_GOV_CONSERVATIVE&type=Commits)
+
+***
+
+05-04-2020
+====================
+
+* [qcacld-2.0: tune firmware_bin/WCNSS_qcom_cfg.ini](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20tune%20firmware_bin/WCNSS_qcom_cfg.ini&type=Commits)
+* [apq8084.dtsi: improve bcl values](https://github.com/bhb27/BHB27Kernel/search?q=apq8084.dtsi%3A%20improve%20bcl%20values&type=Commits)
+
+***
+
+05-03-2020
+====================
+
+* [Update build](https://github.com/bhb27/BHB27Kernel/search?q=Update%20build&type=Commits)
+
+***
+
+04-30-2020
+====================
+
+* [usr/gen_init_cpio.c: Fix -Wstringop-truncation warnings](https://github.com/bhb27/BHB27Kernel/search?q=usr/gen_init_cpio.c%3A%20Fix%20-Wstringop-truncation%20warnings&type=Commits)
+* [kconfig: Avoid format overflow warning from GCC 8.1](https://github.com/bhb27/BHB27Kernel/search?q=kconfig%3A%20Avoid%20format%20overflow%20warning%20from%20GCC%208.1&type=Commits)
+* [defconfig add CONFIG_SND_MAX_CARDS](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20add%20CONFIG_SND_MAX_CARDS&type=Commits)
+* [msm: mdss: change retire fence signaling](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20mdss%3A%20change%20retire%20fence%20signaling&type=Commits)
+* [net: wireless: bcmdhd: Fix compilation for netdev_notifier_info use](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20Fix%20compilation%20for%20netdev_notifier_info%20use&type=Commits)
+* [CHROMIUM: net: wireless: bcmdhd: Fix argument to wl_cfg80211_netdev_notifier_call](https://github.com/bhb27/BHB27Kernel/search?q=CHROMIUM%3A%20net%3A%20wireless%3A%20bcmdhd%3A%20Fix%20argument%20to%20wl_cfg80211_netdev_notifier_call&type=Commits)
+* [CHROMIUM: net: wireless: bcmdhd: use per DHD-instance notifier](https://github.com/bhb27/BHB27Kernel/search?q=CHROMIUM%3A%20net%3A%20wireless%3A%20bcmdhd%3A%20use%20per%20DHD-instance%20notifier&type=Commits)
+* [net: wireless: bcmdhd: avoid using global pointer to prevent memory corruption](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20avoid%20using%20global%20pointer%20to%20prevent%20memory%20corruption&type=Commits)
+
+***
+
+04-29-2020
+====================
+
+* [kernel V9.42](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.42&type=Commits)
+* [msm: camera: Avoid deadlock for vb2 operations using separate lock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Avoid%20deadlock%20for%20vb2%20operations%20using%20separate%20lock&type=Commits)
+* [msm: camera_v2: Increase event timeout](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera_v2%3A%20Increase%20event%20timeout&type=Commits)
+* [Revert "Revert "msm: camera: isp: Avoid information leak in ISPIF""](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"Revert%20"msm%3A%20camera%3A%20isp%3A%20Avoid%20information%20leak%20in%20ISPIF""&type=Commits)
+* [Revert "Revert "msm: sensor: Validationg function pointers before using them""](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"Revert%20"msm%3A%20sensor%3A%20Validationg%20function%20pointers%20before%20using%20them""&type=Commits)
+* [msm: Camera buffer overflow fix](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20Camera%20buffer%20overflow%20fix&type=Commits)
+* [msm: camera: change config params and max delay time for CCI](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20change%20config%20params%20and%20max%20delay%20time%20for%20CCI&type=Commits)
+* [ASoC: msm: Fix error check in external EC](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Fix%20error%20check%20in%20external%20EC&type=Commits)
+* [ASoC: msm: qdsp6v2: Fix FE id check in routing driver](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Fix%20FE%20id%20check%20in%20routing%20driver&type=Commits)
+* [qseecom : Clear client handle after unmap the resources](https://github.com/bhb27/BHB27Kernel/search?q=qseecom%20%3A%20Clear%20client%20handle%20after%20unmap%20the%20resources&type=Commits)
+* [qcacld-2.0: Fix while condition in rrm_fill_beacon_ies()](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20while%20condition%20in%20rrm_fill_beacon_ies%28%29&type=Commits)
+* [KEYS: Don't permit request_key() to construct a new keyring](https://github.com/bhb27/BHB27Kernel/search?q=KEYS%3A%20Don%27t%20permit%20request_key%28%29%20to%20construct%20a%20new%20keyring&type=Commits)
+
+***
+
 04-12-2020
 ====================
 
