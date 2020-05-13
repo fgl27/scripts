@@ -1,6 +1,54 @@
 LineageOS - 17.1 source and Quark Changelog:
 ============================================================
 
+05-13-2020
+====================
+
+#### Device specific Changes of 05-13-2020 Start:
+
+#### Device/Quark/
+* [Revert "Quark: Add msm_irqbalance and configuration"](https://github.com/search?q=Revert%20"Quark%3A%20Add%20msm_irqbalance%20and%20configuration"&type=Commits)
+
+#### Vendor/Quark/
+* [Revert "Quark: Add msm_irqbalance"](https://github.com/search?q=Revert%20"Quark%3A%20Add%20msm_irqbalance"&type=Commits)
+
+#### Device specific Changes of 05-13-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 05-13-2020:
+* [hudson: (moto) X gon give it to ya](https://github.com/search?q=hudson%3A%20%28moto%29%20X%20gon%20give%20it%20to%20ya&type=Commits)
+* [wiki: devices: mata: Update bootloader unlock command](https://github.com/search?q=wiki%3A%20devices%3A%20mata%3A%20Update%20bootloader%20unlock%20command&type=Commits)
+* [wiki: templates: Don't tell users to format system on A/B devices](https://github.com/search?q=wiki%3A%20templates%3A%20Don%27t%20tell%20users%20to%20format%20system%20on%20A/B%20devices&type=Commits)
+* [wiki: devices: Promote victara to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20victara%20to%2017.1&type=Commits)
+* [LanguageAndInputSettings: Hide touch hovering from search if needed](https://github.com/search?q=LanguageAndInputSettings%3A%20Hide%20touch%20hovering%20from%20search%20if%20needed&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-13-2020 End.
+
+05-12-2020
+====================
+
+#### LineageOS - 17.1 source changes of 05-12-2020:
+* [LTE+ indicator not shown when attached to CA network](https://github.com/search?q=LTE+%20indicator%20not%20shown%20when%20attached%20to%20CA%20network&type=Commits)
+* [hudson: Promote crackling to 17.1](https://github.com/search?q=hudson%3A%20Promote%20crackling%20to%2017.1&type=Commits)
+* [wiki: Promote crackling to 17.1](https://github.com/search?q=wiki%3A%20Promote%20crackling%20to%2017.1&type=Commits)
+* [wiki: Promote wt88047 to 17.1](https://github.com/search?q=wiki%3A%20Promote%20wt88047%20to%2017.1&type=Commits)
+* [Revert "ScreenService: start recording on a background Thread"](https://github.com/search?q=Revert%20"ScreenService%3A%20start%20recording%20on%20a%20background%20Thread"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-12-2020 End.
+
+05-11-2020
+====================
+
+
+#### LineageOS - 17.1 source changes of 05-11-2020:
+* [config-fs-gen: Fix "is" with a literal syntax warning](https://github.com/search?q=config-fs-gen%3A%20Fix%20"is"%20with%20a%20literal%20syntax%20warning&type=Commits)
+* [config-fs-gen: Add requirements.txt](https://github.com/search?q=config-fs-gen%3A%20Add%20requirements.txt&type=Commits)
+* [LineageParts: Add privapp permissions xml](https://github.com/search?q=LineageParts%3A%20Add%20privapp%20permissions%20xml&type=Commits)
+* [config: Move permission xml to apps](https://github.com/search?q=config%3A%20Move%20permission%20xml%20to%20apps&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-11-2020 End.
+
 05-10-2020
 ====================
 
