@@ -80,12 +80,14 @@ Deleting the old Home
 
 #### Personal installation list (things only really related to my personal use of a computer)
 
-	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted dconf-tools samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar
+	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar
 
 	sudo add-apt-repository ppa:papirus/papirus
 	sudo apt-get install papirus-icon-theme
 	wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
 	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
+	sudo apt-get install github-desktop
+
 
 #### libreoffice start
 
@@ -105,7 +107,7 @@ Deleting the old Home
 
 	sudo add-apt-repository ppa:openjdk-r/ppa
 
-	sudo apt-get -y install openjdk-8-jdk git gitk libwebkitgtk-1.0-0 rpm2cpio expect python2.7 ruby curl android-tools-adb p7zip-full fastboot apktool
+	sudo apt-get -y install openjdk-8-jdk git rpm2cpio expect python2.7 ruby curl android-tools-adb p7zip-full fastboot apktool
 
 	sudo curl --create-dirs -L -o /etc/udev/rules.d/51-android.rules -O -L https://raw.githubusercontent.com/snowdream/51-android/master/51-android.rules
 	sudo chmod 644   /etc/udev/rules.d/51-android.rules
