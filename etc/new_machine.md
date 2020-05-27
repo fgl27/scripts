@@ -84,6 +84,8 @@ Deleting the old Home
 
 	sudo add-apt-repository ppa:papirus/papirus
 	sudo apt-get install papirus-icon-theme
+	wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
+	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 
 #### libreoffice start
 
