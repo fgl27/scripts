@@ -31,15 +31,17 @@ if [ "$input1" == "1" ]; then
 
 	# changes to make the ROM the way I prefer
 
+    #general cutomizations to looks, add cpu service plus um-merged fixes
 	folder="frameworks/base/";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 89b93b37df3834b270564bfad4dfb575d0173a2c^..378c76e31859810180df33c51ec33db6799b1c7f
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 89b93b37df3834b270564bfad4dfb575d0173a2c^..fc65bf7a7f0337ba87da1d04920d1e57ce6a8544
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
 
+    #minor improves to ROM looks
 	folder="packages/apps/Settings";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -49,6 +51,7 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+    #allow to update from my sourceforge
 	folder="packages/apps/Updater";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -59,7 +62,6 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	out Folder $folder"
 
 	#Disable nfc by default
-	
 	folder="packages/apps/Nfc";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -70,12 +72,21 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	out Folder $folder"
 
 	#Dialer: prevent touch events when the screen is off
-	
 	folder="packages/apps/Dialer";
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
 	git fetch https://github.com/fgl27/android_packages_apps_Dialer-1/ lineage-16.0 && git cherry-pick e04721c759828361ca243a021433146d51ed32bf
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
+    #topic:ten-qc-telephony-fix https://review.lineageos.org/q/topic:%22ten-qc-telephony-fix%22+(status:open%20OR%20status:merged)
+	folder="frameworks/opt/telephony";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_frameworks_opt_telephony/ lineage-17.1 && git cherry-pick a24765ceb95b18b6d3efbd35f3c636d336b64757^..2efeb15d84a897228444abd5420ec84723f276c3
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -100,6 +111,7 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+    #minor customizations chage to release keys and enable cache
 	folder="build/make";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -109,6 +121,7 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+    #improve to outdoor display mode
 	folder="lineage-sdk";
 	echo -e "\\n	In Folder $folder \\n"
 
