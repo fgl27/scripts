@@ -3,6 +3,60 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+06-02-2020
+====================
+
+* [dsp: adm: Add error check to avoid memory overread](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20adm%3A%20Add%20error%20check%20to%20avoid%20memory%20overread&type=Commits)
+* [dsp: adm: Fix to avoid memory overread in adm callback](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20adm%3A%20Fix%20to%20avoid%20memory%20overread%20in%20adm%20callback&type=Commits)
+* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: fix bounds checking for ADM get params](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20fix%20bounds%20checking%20for%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: Fix ADM GET PARAM callback](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Fix%20ADM%20GET%20PARAM%20callback&type=Commits)
+* [Revert "ASoC: msm: Add bounds checking to ADM get params"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params"&type=Commits)
+* [msm: adm: validate ADSP payload size before access](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20adm%3A%20validate%20ADSP%20payload%20size%20before%20access&type=Commits)
+* [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
+* [ANDROID: uid_sys_stats: check previous uid_entry before call find_or_register_uid](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20uid_sys_stats%3A%20check%20previous%20uid_entry%20before%20call%20find_or_register_uid&type=Commits)
+* [fs/namespace.c: fix mountpoint reference counter race](https://github.com/bhb27/BHB27Kernel/search?q=fs/namespace.c%3A%20fix%20mountpoint%20reference%20counter%20race&type=Commits)
+* [can: peak_usb: pcan_usb_pro: Fix info-leaks to USB devices](https://github.com/bhb27/BHB27Kernel/search?q=can%3A%20peak_usb%3A%20pcan_usb_pro%3A%20Fix%20info-leaks%20to%20USB%20devices&type=Commits)
+* [fix ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=fix%20ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [signal: Extend exec_id to 64bits](https://github.com/bhb27/BHB27Kernel/search?q=signal%3A%20Extend%20exec_id%20to%2064bits&type=Commits)
+* [Revert "sound soc msn check dif with"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"sound%20soc%20msn%20check%20dif%20with"&type=Commits)
+* [sound soc msn check dif with](https://github.com/bhb27/BHB27Kernel/search?q=sound%20soc%20msn%20check%20dif%20with&type=Commits)
+* [Revert "sound soc msn check dif with"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"sound%20soc%20msn%20check%20dif%20with"&type=Commits)
+* [sound soc msn check dif with](https://github.com/bhb27/BHB27Kernel/search?q=sound%20soc%20msn%20check%20dif%20with&type=Commits)
+* [net: ipc_router: Do not allow change of default security rule](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20ipc_router%3A%20Do%20not%20allow%20change%20of%20default%20security%20rule&type=Commits)
+* [qcacld-2.0: Avoid possible buffer over-read in wma_wow_wakeup_host_event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20over-read%20in%20wma_wow_wakeup_host_event&type=Commits)
+* [qcacld-2.0: Add sanity check for buf pkt len to prevent OOB access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20buf%20pkt%20len%20to%20prevent%20OOB%20access&type=Commits)
+* [apq8084: qcacld-2.0: move driver to net/wireless dir](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20qcacld-2.0%3A%20move%20driver%20to%20net/wireless%20dir&type=Commits)
+* [kernel V9.43](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.43&type=Commits)
+
+***
+
+06-01-2020
+====================
+
+* [esoc: Make <linux/esoc_client.h> self-contained](https://github.com/bhb27/BHB27Kernel/search?q=esoc%3A%20Make%20<linux/esoc_client.h>%20self-contained&type=Commits)
+* [defconfig disable some debug](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20some%20debug&type=Commits)
+
+***
+
+05-19-2020
+====================
+
+* [apq8084.dtsi: qcom,bcl max freq to 1958Mhz](https://github.com/bhb27/BHB27Kernel/search?q=apq8084.dtsi%3A%20qcom,bcl%20max%20freq%20to%201958Mhz&type=Commits)
+
+***
+
+05-11-2020
+====================
+
+* [Update build/changelog.sh](https://github.com/bhb27/BHB27Kernel/search?q=Update%20build/changelog.sh&type=Commits)
+* [apq8084.dtsi: improve bcl values trye 2](https://github.com/bhb27/BHB27Kernel/search?q=apq8084.dtsi%3A%20improve%20bcl%20values%20trye%202&type=Commits)
+
+***
+
 05-10-2020
 ====================
 
