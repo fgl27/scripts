@@ -36,7 +36,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 89b93b37df3834b270564bfad4dfb575d0173a2c^..fc65bf7a7f0337ba87da1d04920d1e57ce6a8544
+	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 89b93b37df3834b270564bfad4dfb575d0173a2c^..6b6b4c3f6c79affbcbbdeaf9b1ae3332762ca6eb
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
