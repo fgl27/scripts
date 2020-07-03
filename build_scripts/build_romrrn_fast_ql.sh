@@ -31,7 +31,7 @@ if [ "$input1" == "1" ]; then
 
 	# changes to make the ROM the way I prefer
 
-    #general cutomizations to looks, add cpu service plus um-merged fixes
+    #general customization to looks, add cpu service plus um-merged fixes
 	folder="frameworks/base/";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -111,7 +111,7 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-    #minor customizations chage to release keys and enable cache
+    #minor customization change to release keys and enable cache
 	folder="build/make";
 	echo -e "\\n	In Folder $folder \\n"
 
@@ -172,7 +172,7 @@ if [ "$input1" == "1" ]; then
 
 fi
 
-#Set Branch and update kernel and vendor before build
+#Set Branch and Update local cloned folders
 cd kernel/motorola/apq8084/
 git checkout Q
 git pull origin Q
@@ -183,8 +183,10 @@ git checkout Q
 git pull origin Q
 cd - &> /dev/null || exit;
 
-# build SU
-#export WITH_SU=true
+#Fix build new hw qcom folders conflict with apq8084 folder
+#hardware/qcom-caf/apq8084/display/libqdutils: MODULE.TARGET.SHARED_LIBRARIES.libqdutils already defined by hardware/qcom-caf/sm8250/display/libqdutils.
+rm -rf hardware/qcom-caf/sm8250/
+
 export BUILD_USERNAME="fgl";
 export BUILD_HOSTNAME="27";
 
