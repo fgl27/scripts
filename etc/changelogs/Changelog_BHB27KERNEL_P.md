@@ -3,6 +3,108 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+07-13-2020
+====================
+
+* [Input: add safety guards to input_set_keycode()](https://github.com/bhb27/BHB27Kernel/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
+* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
+* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
+* [cpufreq: Reformat printk() statements](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
+* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
+* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
+* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/bhb27/BHB27Kernel/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
+
+***
+
+07-10-2020
+====================
+
+* [msm: ispif: Remove handling of SD_SHUTDOWN](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ispif%3A%20Remove%20handling%20of%20SD_SHUTDOWN&type=Commits)
+* [ASoC: core: Don't assign an out-of-bounds address to rtd_aux](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20core%3A%20Don%27t%20assign%20an%20out-of-bounds%20address%20to%20rtd_aux&type=Commits)
+* [[BACKPORT]ARM: fix oops when using older ARMv4T CPUs](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%20fix%20oops%20when%20using%20older%20ARMv4T%20CPUs&type=Commits)
+* [[BACKPORT]ARM: 8196/1: vfp: Workaround bad MVFR1 register on some Kraits](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208196/1%3A%20vfp%3A%20Workaround%20bad%20MVFR1%20register%20on%20some%20Kraits&type=Commits)
+* [[BACKPORT]ARM: 8635/1: nommu: allow enabling REMAP_VECTORS_TO_RAM](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208635/1%3A%20nommu%3A%20allow%20enabling%20REMAP_VECTORS_TO_RAM&type=Commits)
+* [[BACKPORT]ARM: 8720/1: ensure dump_instr() checks addr_limit](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208720/1%3A%20ensure%20dump_instr%28%29%20checks%20addr_limit&type=Commits)
+* [[BACKPORT]ARM: dma-mapping: disallow dma_get_sgtable() for non-kernel managed memory](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%20dma-mapping%3A%20disallow%20dma_get_sgtable%28%29%20for%20non-kernel%20managed%20memory&type=Commits)
+* [[BACKPORT]ARM: 8814/1: mm: improve/fix ARM v7_dma_inv_range() unaligned address handling](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208814/1%3A%20mm%3A%20improve/fix%20ARM%20v7_dma_inv_range%28%29%20unaligned%20address%20handling&type=Commits)
+* [sched/sysctl: Check user input value of sysctl_sched_time_avg](https://github.com/bhb27/BHB27Kernel/search?q=sched/sysctl%3A%20Check%20user%20input%20value%20of%20sysctl_sched_time_avg&type=Commits)
+* [kernel/signal.c: remove the no longer needed SIGNAL_UNKILLABLE check in complete_signal()](https://github.com/bhb27/BHB27Kernel/search?q=kernel/signal.c%3A%20remove%20the%20no%20longer%20needed%20SIGNAL_UNKILLABLE%20check%20in%20complete_signal%28%29&type=Commits)
+* [kernel/signal.c: protect the SIGNAL_UNKILLABLE tasks from !sig_kernel_only() signals](https://github.com/bhb27/BHB27Kernel/search?q=kernel/signal.c%3A%20protect%20the%20SIGNAL_UNKILLABLE%20tasks%20from%20!sig_kernel_only%28%29%20signals&type=Commits)
+* [kernel/signal.c: protect the traced SIGNAL_UNKILLABLE tasks from SIGKILL](https://github.com/bhb27/BHB27Kernel/search?q=kernel/signal.c%3A%20protect%20the%20traced%20SIGNAL_UNKILLABLE%20tasks%20from%20SIGKILL&type=Commits)
+* [signal: Only reschedule timers on signals timers have sent](https://github.com/bhb27/BHB27Kernel/search?q=signal%3A%20Only%20reschedule%20timers%20on%20signals%20timers%20have%20sent&type=Commits)
+* [ptrace: change __ptrace_unlink() to clear ->ptrace under ->siglock](https://github.com/bhb27/BHB27Kernel/search?q=ptrace%3A%20change%20__ptrace_unlink%28%29%20to%20clear%20->ptrace%20under%20->siglock&type=Commits)
+* [sched/cputime: Fix cpu_timer_sample_group() double accounting](https://github.com/bhb27/BHB27Kernel/search?q=sched/cputime%3A%20Fix%20cpu_timer_sample_group%28%29%20double%20accounting&type=Commits)
+* [pid_ns: Sleep in TASK_INTERRUPTIBLE in zap_pid_ns_processes](https://github.com/bhb27/BHB27Kernel/search?q=pid_ns%3A%20Sleep%20in%20TASK_INTERRUPTIBLE%20in%20zap_pid_ns_processes&type=Commits)
+* [hrtimer: Ensure POSIX compliance (relative CLOCK_REALTIME hrtimers)](https://github.com/bhb27/BHB27Kernel/search?q=hrtimer%3A%20Ensure%20POSIX%20compliance%20%28relative%20CLOCK_REALTIME%20hrtimers%29&type=Commits)
+* [ktime: Fix ktime_divns to do signed division](https://github.com/bhb27/BHB27Kernel/search?q=ktime%3A%20Fix%20ktime_divns%20to%20do%20signed%20division&type=Commits)
+* [hrtimer: Allow concurrent hrtimer_start() for self restarting timers](https://github.com/bhb27/BHB27Kernel/search?q=hrtimer%3A%20Allow%20concurrent%20hrtimer_start%28%29%20for%20self%20restarting%20timers&type=Commits)
+* [ktime: Optimize ktime_divns for constant divisors](https://github.com/bhb27/BHB27Kernel/search?q=ktime%3A%20Optimize%20ktime_divns%20for%20constant%20divisors&type=Commits)
+* [ktime: Sanitize ktime_to_us/ms conversion](https://github.com/bhb27/BHB27Kernel/search?q=ktime%3A%20Sanitize%20ktime_to_us/ms%20conversion&type=Commits)
+* [audit: Fix use after free in audit_remove_watch_rule()](https://github.com/bhb27/BHB27Kernel/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
+* [kernel/acct.c: fix the acct->needcheck check in check_free_space()](https://github.com/bhb27/BHB27Kernel/search?q=kernel/acct.c%3A%20fix%20the%20acct->needcheck%20check%20in%20check_free_space%28%29&type=Commits)
+* [kernel/async.c: revert "async: simplify lowest_in_progress()"](https://github.com/bhb27/BHB27Kernel/search?q=kernel/async.c%3A%20revert%20"async%3A%20simplify%20lowest_in_progress%28%29"&type=Commits)
+* [tracing: Fix crash when it fails to alloc ring buffer](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Fix%20crash%20when%20it%20fails%20to%20alloc%20ring%20buffer&type=Commits)
+* [tracing: Remove extra zeroing out of the ring buffer page](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Remove%20extra%20zeroing%20out%20of%20the%20ring%20buffer%20page&type=Commits)
+* [tracing: Fix trace_pipe behavior for instance traces](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Fix%20trace_pipe%20behavior%20for%20instance%20traces&type=Commits)
+* [tracing: Use SOFTIRQ_OFFSET for softirq dectection for more accurate results](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Use%20SOFTIRQ_OFFSET%20for%20softirq%20dectection%20for%20more%20accurate%20results&type=Commits)
+* [perf: Remove useless atomic_t](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Remove%20useless%20atomic_t&type=Commits)
+* [perf/core: Correct event creation with PERF_FORMAT_GROUP](https://github.com/bhb27/BHB27Kernel/search?q=perf/core%3A%20Correct%20event%20creation%20with%20PERF_FORMAT_GROUP&type=Commits)
+* [perf: Use hrtimers for event multiplexing](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Use%20hrtimers%20for%20event%20multiplexing&type=Commits)
+* [perf: Optimize group_sched_in()](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Optimize%20group_sched_in%28%29&type=Commits)
+* [perf: Fix corruption of sibling list with hotplug](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Fix%20corruption%20of%20sibling%20list%20with%20hotplug&type=Commits)
+* [perf: Disable IRQs across RCU RS CS that acquires scheduler lock](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Disable%20IRQs%20across%20RCU%20RS%20CS%20that%20acquires%20scheduler%20lock&type=Commits)
+* [perf: Cure event->pending_disable race](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Cure%20event->pending_disable%20race&type=Commits)
+* [mm, page_alloc: double zone's batchsize](https://github.com/bhb27/BHB27Kernel/search?q=mm,%20page_alloc%3A%20double%20zone%27s%20batchsize&type=Commits)
+* [init/main.c: add sync point between each level](https://github.com/bhb27/BHB27Kernel/search?q=init/main.c%3A%20add%20sync%20point%20between%20each%20level&type=Commits)
+* [proc: much faster /proc/vmstat](https://github.com/bhb27/BHB27Kernel/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
+* [BACKPORT: msm: vidc: Ensure validity of shared Q indices](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20msm%3A%20vidc%3A%20Ensure%20validity%20of%20shared%20Q%20indices&type=Commits)
+* [binder: Reserve caches for small, high-frequency memory allocations](https://github.com/bhb27/BHB27Kernel/search?q=binder%3A%20Reserve%20caches%20for%20small,%20high-frequency%20memory%20allocations&type=Commits)
+* [apq8084: defconfig: Tone down rootwait polling to 10](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20defconfig%3A%20Tone%20down%20rootwait%20polling%20to%2010&type=Commits)
+* [init: do_mounts: make the rootwait polling configurable](https://github.com/bhb27/BHB27Kernel/search?q=init%3A%20do_mounts%3A%20make%20the%20rootwait%20polling%20configurable&type=Commits)
+* [nohz: Fix local_timer_softirq_pending()](https://github.com/bhb27/BHB27Kernel/search?q=nohz%3A%20Fix%20local_timer_softirq_pending%28%29&type=Commits)
+* [sched_clock: Prevent callers from seeing half-updated data](https://github.com/bhb27/BHB27Kernel/search?q=sched_clock%3A%20Prevent%20callers%20from%20seeing%20half-updated%20data&type=Commits)
+* [nohz: Avoid tick's double reprogramming in highres mode](https://github.com/bhb27/BHB27Kernel/search?q=nohz%3A%20Avoid%20tick%27s%20double%20reprogramming%20in%20highres%20mode&type=Commits)
+* [tick-sched: Don't call update_wall_time() when delta is lesser than tick_period](https://github.com/bhb27/BHB27Kernel/search?q=tick-sched%3A%20Don%27t%20call%20update_wall_time%28%29%20when%20delta%20is%20lesser%20than%20tick_period&type=Commits)
+* [nohz: Fix !HIGH_RES_TIMERS hang](https://github.com/bhb27/BHB27Kernel/search?q=nohz%3A%20Fix%20!HIGH_RES_TIMERS%20hang&type=Commits)
+* [clocksource: Fix abs() usage w/ 64bit values](https://github.com/bhb27/BHB27Kernel/search?q=clocksource%3A%20Fix%20abs%28%29%20usage%20w/%2064bit%20values&type=Commits)
+* [sched, smp: Correctly deal with nested sleeps](https://github.com/bhb27/BHB27Kernel/search?q=sched,%20smp%3A%20Correctly%20deal%20with%20nested%20sleeps&type=Commits)
+* [timekeeping: Simplify arch_gettimeoffset()](https://github.com/bhb27/BHB27Kernel/search?q=timekeeping%3A%20Simplify%20arch_gettimeoffset%28%29&type=Commits)
+
+***
+
+06-30-2020
+====================
+
+* [kernek V9.44](https://github.com/bhb27/BHB27Kernel/search?q=kernek%20V9.44&type=Commits)
+* [Revert "msm: vidc: Avoid information leak while accessing the packet"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet"&type=Commits)
+* [msm: vidc: Don't query the V4L2 ctrl framework for checking thumbnail mode](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Don%27t%20query%20the%20V4L2%20ctrl%20framework%20for%20checking%20thumbnail%20mode&type=Commits)
+* [msm: vidc: Increase the MIN DRAIN RATE when DCVS is enabled](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Increase%20the%20MIN%20DRAIN%20RATE%20when%20DCVS%20is%20enabled&type=Commits)
+* [msm: vidc: Protect suspend operation with core lock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Protect%20suspend%20operation%20with%20core%20lock&type=Commits)
+* [msm: vidc: Fix session error handling](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Fix%20session%20error%20handling&type=Commits)
+* [msm: vidc: Increase firmware unload delay](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Increase%20firmware%20unload%20delay&type=Commits)
+* [msm: vidc: Unload firmware immediately after sys error](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Unload%20firmware%20immediately%20after%20sys%20error&type=Commits)
+* [msm/vidc/msm_vidc_common fix identation](https://github.com/bhb27/BHB27Kernel/search?q=msm/vidc/msm_vidc_common%20fix%20identation&type=Commits)
+* [msm: vidc: Validate buffer prior to releasing reference](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Validate%20buffer%20prior%20to%20releasing%20reference&type=Commits)
+* [msm: camera: Add dynamic logging feature in camera](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Add%20dynamic%20logging%20feature%20in%20camera&type=Commits)
+* [msm: camera: Return EINVAL when msm_get_session fails](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Return%20EINVAL%20when%20msm_get_session%20fails&type=Commits)
+* [msm: camera: Instead of read_lock use read_lock_irqsave.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Instead%20of%20read_lock%20use%20read_lock_irqsave.&type=Commits)
+* [msm: camera: Retelimit log in msm_vb2_buf_cleanup.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Retelimit%20log%20in%20msm_vb2_buf_cleanup.&type=Commits)
+* [dsp: avtimer: validate payload size before memory copy](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20avtimer%3A%20validate%20payload%20size%20before%20memory%20copy&type=Commits)
+* [ext4: add more paranoia checking in ext4_expand_extra_isize handling](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20more%20paranoia%20checking%20in%20ext4_expand_extra_isize%20handling&type=Commits)
+* [ext4: Introduce ext4_clamp_want_extra_isize()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20Introduce%20ext4_clamp_want_extra_isize%28%29&type=Commits)
+* [vt: selection, close sel_buffer race](https://github.com/bhb27/BHB27Kernel/search?q=vt%3A%20selection,%20close%20sel_buffer%20race&type=Commits)
+* [vt: selection, handle pending signals in paste_selection](https://github.com/bhb27/BHB27Kernel/search?q=vt%3A%20selection,%20handle%20pending%20signals%20in%20paste_selection&type=Commits)
+* [ALSA: usb-audio: Fix a stack buffer overflow bug in check_input_term](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20Fix%20a%20stack%20buffer%20overflow%20bug%20in%20check_input_term&type=Commits)
+
+***
+
+06-28-2020
+====================
+
+* [Update arch/arm/configs/twrp_defconfigo](https://github.com/bhb27/BHB27Kernel/search?q=Update%20arch/arm/configs/twrp_defconfigo&type=Commits)
+
+***
+
 06-02-2020
 ====================
 

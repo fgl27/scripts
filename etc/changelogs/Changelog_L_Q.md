@@ -1,6 +1,592 @@
 LineageOS - 17.1 source and Quark Changelog:
 ===========================================================
 
+07-13-2020
+====================
+
+#### Device specific Changes of 07-13-2020 Start:
+
+#### Kernel/Quark/
+* [Input: add safety guards to input_set_keycode()](https://github.com/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
+* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
+* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
+* [cpufreq: Reformat printk() statements](https://github.com/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
+* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
+* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
+* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
+* [msm: ispif: Remove handling of SD_SHUTDOWN](https://github.com/search?q=msm%3A%20ispif%3A%20Remove%20handling%20of%20SD_SHUTDOWN&type=Commits)
+* [ASoC: core: Don't assign an out-of-bounds address to rtd_aux](https://github.com/search?q=ASoC%3A%20core%3A%20Don%27t%20assign%20an%20out-of-bounds%20address%20to%20rtd_aux&type=Commits)
+* [[BACKPORT]ARM: fix oops when using older ARMv4T CPUs](https://github.com/search?q=[BACKPORT]ARM%3A%20fix%20oops%20when%20using%20older%20ARMv4T%20CPUs&type=Commits)
+* [[BACKPORT]ARM: 8196/1: vfp: Workaround bad MVFR1 register on some Kraits](https://github.com/search?q=[BACKPORT]ARM%3A%208196/1%3A%20vfp%3A%20Workaround%20bad%20MVFR1%20register%20on%20some%20Kraits&type=Commits)
+* [[BACKPORT]ARM: 8635/1: nommu: allow enabling REMAP_VECTORS_TO_RAM](https://github.com/search?q=[BACKPORT]ARM%3A%208635/1%3A%20nommu%3A%20allow%20enabling%20REMAP_VECTORS_TO_RAM&type=Commits)
+* [[BACKPORT]ARM: 8720/1: ensure dump_instr() checks addr_limit](https://github.com/search?q=[BACKPORT]ARM%3A%208720/1%3A%20ensure%20dump_instr%28%29%20checks%20addr_limit&type=Commits)
+* [[BACKPORT]ARM: dma-mapping: disallow dma_get_sgtable() for non-kernel managed memory](https://github.com/search?q=[BACKPORT]ARM%3A%20dma-mapping%3A%20disallow%20dma_get_sgtable%28%29%20for%20non-kernel%20managed%20memory&type=Commits)
+* [[BACKPORT]ARM: 8814/1: mm: improve/fix ARM v7_dma_inv_range() unaligned address handling](https://github.com/search?q=[BACKPORT]ARM%3A%208814/1%3A%20mm%3A%20improve/fix%20ARM%20v7_dma_inv_range%28%29%20unaligned%20address%20handling&type=Commits)
+* [sched/sysctl: Check user input value of sysctl_sched_time_avg](https://github.com/search?q=sched/sysctl%3A%20Check%20user%20input%20value%20of%20sysctl_sched_time_avg&type=Commits)
+* [kernel/signal.c: remove the no longer needed SIGNAL_UNKILLABLE check in complete_signal()](https://github.com/search?q=kernel/signal.c%3A%20remove%20the%20no%20longer%20needed%20SIGNAL_UNKILLABLE%20check%20in%20complete_signal%28%29&type=Commits)
+* [kernel/signal.c: protect the SIGNAL_UNKILLABLE tasks from !sig_kernel_only() signals](https://github.com/search?q=kernel/signal.c%3A%20protect%20the%20SIGNAL_UNKILLABLE%20tasks%20from%20!sig_kernel_only%28%29%20signals&type=Commits)
+* [kernel/signal.c: protect the traced SIGNAL_UNKILLABLE tasks from SIGKILL](https://github.com/search?q=kernel/signal.c%3A%20protect%20the%20traced%20SIGNAL_UNKILLABLE%20tasks%20from%20SIGKILL&type=Commits)
+* [signal: Only reschedule timers on signals timers have sent](https://github.com/search?q=signal%3A%20Only%20reschedule%20timers%20on%20signals%20timers%20have%20sent&type=Commits)
+* [ptrace: change __ptrace_unlink() to clear ->ptrace under ->siglock](https://github.com/search?q=ptrace%3A%20change%20__ptrace_unlink%28%29%20to%20clear%20->ptrace%20under%20->siglock&type=Commits)
+* [sched/cputime: Fix cpu_timer_sample_group() double accounting](https://github.com/search?q=sched/cputime%3A%20Fix%20cpu_timer_sample_group%28%29%20double%20accounting&type=Commits)
+* [pid_ns: Sleep in TASK_INTERRUPTIBLE in zap_pid_ns_processes](https://github.com/search?q=pid_ns%3A%20Sleep%20in%20TASK_INTERRUPTIBLE%20in%20zap_pid_ns_processes&type=Commits)
+* [hrtimer: Ensure POSIX compliance (relative CLOCK_REALTIME hrtimers)](https://github.com/search?q=hrtimer%3A%20Ensure%20POSIX%20compliance%20%28relative%20CLOCK_REALTIME%20hrtimers%29&type=Commits)
+* [ktime: Fix ktime_divns to do signed division](https://github.com/search?q=ktime%3A%20Fix%20ktime_divns%20to%20do%20signed%20division&type=Commits)
+* [hrtimer: Allow concurrent hrtimer_start() for self restarting timers](https://github.com/search?q=hrtimer%3A%20Allow%20concurrent%20hrtimer_start%28%29%20for%20self%20restarting%20timers&type=Commits)
+* [ktime: Optimize ktime_divns for constant divisors](https://github.com/search?q=ktime%3A%20Optimize%20ktime_divns%20for%20constant%20divisors&type=Commits)
+* [ktime: Sanitize ktime_to_us/ms conversion](https://github.com/search?q=ktime%3A%20Sanitize%20ktime_to_us/ms%20conversion&type=Commits)
+* [audit: Fix use after free in audit_remove_watch_rule()](https://github.com/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
+* [kernel/acct.c: fix the acct->needcheck check in check_free_space()](https://github.com/search?q=kernel/acct.c%3A%20fix%20the%20acct->needcheck%20check%20in%20check_free_space%28%29&type=Commits)
+* [kernel/async.c: revert "async: simplify lowest_in_progress()"](https://github.com/search?q=kernel/async.c%3A%20revert%20"async%3A%20simplify%20lowest_in_progress%28%29"&type=Commits)
+* [tracing: Fix crash when it fails to alloc ring buffer](https://github.com/search?q=tracing%3A%20Fix%20crash%20when%20it%20fails%20to%20alloc%20ring%20buffer&type=Commits)
+* [tracing: Remove extra zeroing out of the ring buffer page](https://github.com/search?q=tracing%3A%20Remove%20extra%20zeroing%20out%20of%20the%20ring%20buffer%20page&type=Commits)
+* [tracing: Fix trace_pipe behavior for instance traces](https://github.com/search?q=tracing%3A%20Fix%20trace_pipe%20behavior%20for%20instance%20traces&type=Commits)
+* [tracing: Use SOFTIRQ_OFFSET for softirq dectection for more accurate results](https://github.com/search?q=tracing%3A%20Use%20SOFTIRQ_OFFSET%20for%20softirq%20dectection%20for%20more%20accurate%20results&type=Commits)
+* [perf: Remove useless atomic_t](https://github.com/search?q=perf%3A%20Remove%20useless%20atomic_t&type=Commits)
+* [perf/core: Correct event creation with PERF_FORMAT_GROUP](https://github.com/search?q=perf/core%3A%20Correct%20event%20creation%20with%20PERF_FORMAT_GROUP&type=Commits)
+* [perf: Use hrtimers for event multiplexing](https://github.com/search?q=perf%3A%20Use%20hrtimers%20for%20event%20multiplexing&type=Commits)
+* [perf: Optimize group_sched_in()](https://github.com/search?q=perf%3A%20Optimize%20group_sched_in%28%29&type=Commits)
+* [perf: Fix corruption of sibling list with hotplug](https://github.com/search?q=perf%3A%20Fix%20corruption%20of%20sibling%20list%20with%20hotplug&type=Commits)
+* [perf: Disable IRQs across RCU RS CS that acquires scheduler lock](https://github.com/search?q=perf%3A%20Disable%20IRQs%20across%20RCU%20RS%20CS%20that%20acquires%20scheduler%20lock&type=Commits)
+* [perf: Cure event->pending_disable race](https://github.com/search?q=perf%3A%20Cure%20event->pending_disable%20race&type=Commits)
+* [mm, page_alloc: double zone's batchsize](https://github.com/search?q=mm,%20page_alloc%3A%20double%20zone%27s%20batchsize&type=Commits)
+* [init/main.c: add sync point between each level](https://github.com/search?q=init/main.c%3A%20add%20sync%20point%20between%20each%20level&type=Commits)
+* [proc: much faster /proc/vmstat](https://github.com/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
+* [BACKPORT: msm: vidc: Ensure validity of shared Q indices](https://github.com/search?q=BACKPORT%3A%20msm%3A%20vidc%3A%20Ensure%20validity%20of%20shared%20Q%20indices&type=Commits)
+* [binder: Reserve caches for small, high-frequency memory allocations](https://github.com/search?q=binder%3A%20Reserve%20caches%20for%20small,%20high-frequency%20memory%20allocations&type=Commits)
+* [apq8084: defconfig: Tone down rootwait polling to 10](https://github.com/search?q=apq8084%3A%20defconfig%3A%20Tone%20down%20rootwait%20polling%20to%2010&type=Commits)
+* [init: do_mounts: make the rootwait polling configurable](https://github.com/search?q=init%3A%20do_mounts%3A%20make%20the%20rootwait%20polling%20configurable&type=Commits)
+* [nohz: Fix local_timer_softirq_pending()](https://github.com/search?q=nohz%3A%20Fix%20local_timer_softirq_pending%28%29&type=Commits)
+* [sched_clock: Prevent callers from seeing half-updated data](https://github.com/search?q=sched_clock%3A%20Prevent%20callers%20from%20seeing%20half-updated%20data&type=Commits)
+* [nohz: Avoid tick's double reprogramming in highres mode](https://github.com/search?q=nohz%3A%20Avoid%20tick%27s%20double%20reprogramming%20in%20highres%20mode&type=Commits)
+* [tick-sched: Don't call update_wall_time() when delta is lesser than tick_period](https://github.com/search?q=tick-sched%3A%20Don%27t%20call%20update_wall_time%28%29%20when%20delta%20is%20lesser%20than%20tick_period&type=Commits)
+* [nohz: Fix !HIGH_RES_TIMERS hang](https://github.com/search?q=nohz%3A%20Fix%20!HIGH_RES_TIMERS%20hang&type=Commits)
+* [clocksource: Fix abs() usage w/ 64bit values](https://github.com/search?q=clocksource%3A%20Fix%20abs%28%29%20usage%20w/%2064bit%20values&type=Commits)
+* [sched, smp: Correctly deal with nested sleeps](https://github.com/search?q=sched,%20smp%3A%20Correctly%20deal%20with%20nested%20sleeps&type=Commits)
+* [timekeeping: Simplify arch_gettimeoffset()](https://github.com/search?q=timekeeping%3A%20Simplify%20arch_gettimeoffset%28%29&type=Commits)
+
+#### Device specific Changes of 07-13-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 07-13-2020:
+* [wiki: Include 17.1 in java version requirements for building](https://github.com/search?q=wiki%3A%20Include%2017.1%20in%20java%20version%20requirements%20for%20building&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-13-2020 End.
+
+07-12-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-12-2020:
+* [wiki: Correct the CPU info of Redmi 7](https://github.com/search?q=wiki%3A%20Correct%20the%20CPU%20info%20of%20Redmi%207&type=Commits)
+* [wiki: cpu: Add Kryo 250](https://github.com/search?q=wiki%3A%20cpu%3A%20Add%20Kryo%20250&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-12-2020 End.
+
+07-11-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-11-2020:
+* [Updated to 11-Jul-2020 13:33 UTC](https://github.com/search?q=Updated%20to%2011-Jul-2020%2013%3A33%20UTC&type=Commits)
+* [Clean up duplicate uses-permission entries](https://github.com/search?q=Clean%20up%20duplicate%20uses-permission%20entries&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-11-2020 End.
+
+07-09-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-09-2020:
+* [gralloc: Add option for unaligned YCrCb pixel format](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20unaligned%20YCrCb%20pixel%20format&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-09-2020 End.
+
+07-08-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-08-2020:
+* [sepolicy: cnd: Fix wifi_prop neverallow for compatible props](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Fix%20wifi_prop%20neverallow%20for%20compatible%20props&type=Commits)
+* [Fix typos related to sortSelectionIndices](https://github.com/search?q=Fix%20typos%20related%20to%20sortSelectionIndices&type=Commits)
+* [Fix app crash if the selection is from reverse direction.](https://github.com/search?q=Fix%20app%20crash%20if%20the%20selection%20is%20from%20reverse%20direction.&type=Commits)
+* [Updated to 07-Jul-2020 19:36 UTC](https://github.com/search?q=Updated%20to%2007-Jul-2020%2019%3A36%20UTC&type=Commits)
+* [Dialer: Use a DayNight launch theme](https://github.com/search?q=Dialer%3A%20Use%20a%20DayNight%20launch%20theme&type=Commits)
+* [Merge "Messaging: Use a DayNight launch theme" into lineage-17.1](https://github.com/search?q=Merge%20"Messaging%3A%20Use%20a%20DayNight%20launch%20theme"%20into%20lineage-17.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-08-2020 End.
+
+07-07-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-07-2020:
+* [manifest: android-10.0.0_r37 -> android-10.0.0_r40](https://github.com/search?q=manifest%3A%20android-10.0.0_r37%20->%20android-10.0.0_r40&type=Commits)
+* [Merge tag 'android-10.0.0_r40' into staging/lineage-17.1_merge-android-10.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r40%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r40&type=Commits)
+* [SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification](https://github.com/search?q=SystemUI%3A%20Call%20setOnlyAlertOnce%28true%29%20for%20PowerShare%20notification&type=Commits)
+* [Merge tag 'android-10.0.0_r40' into staging/lineage-17.1_merge-android-10.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r40%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r40&type=Commits)
+* [wiki: Fix zadig typos in heimdall template](https://github.com/search?q=wiki%3A%20Fix%20zadig%20typos%20in%20heimdall%20template&type=Commits)
+* [Merge tag 'android-10.0.0_r40' into staging/lineage-17.1_merge-android-10.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r40%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r40&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-07-2020 End.
+
+07-06-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-06-2020:
+* [sepolicy: cnd: Allow access to wifi_prop](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Allow%20access%20to%20wifi_prop&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-06-2020 End.
+
+07-05-2020
+====================
+
+#### Device specific Changes of 07-05-2020 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+
+#### Device specific Changes of 07-05-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 07-05-2020:
+* [BLE: Fix NPE during start advertising](https://github.com/search?q=BLE%3A%20Fix%20NPE%20during%20start%20advertising&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-05-2020 End.
+
+07-04-2020
+====================
+
+#### Device specific Changes of 07-04-2020 Start:
+
+#### Device/Quark/
+* [Quark: Update sepolicy](https://github.com/search?q=Quark%3A%20Update%20sepolicy&type=Commits)
+* [Quark: BoardConfig clean up](https://github.com/search?q=Quark%3A%20BoardConfig%20clean%20up&type=Commits)
+* [Quark: gps: Correct week rollover timestamps](https://github.com/search?q=Quark%3A%20gps%3A%20Correct%20week%20rollover%20timestamps&type=Commits)
+* [Quark: enable bcl hotplug to core 2 and 3](https://github.com/search?q=Quark%3A%20enable%20bcl%20hotplug%20to%20core%202%20and%203&type=Commits)
+
+#### Device specific Changes of 07-04-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 07-04-2020:
+* [Updated to 03-Jul-2020 23:24 UTC](https://github.com/search?q=Updated%20to%2003-Jul-2020%2023%3A24%20UTC&type=Commits)
+* [Updated to 03-Jul-2020 23:12 UTC](https://github.com/search?q=Updated%20to%2003-Jul-2020%2023%3A12%20UTC&type=Commits)
+* [Update readme (#728)](https://github.com/search?q=Update%20readme%20%28%23728%29&type=Commits)
+* [Release new 1.0.22 version (#725)](https://github.com/search?q=Release%20new%201.0.22%20version%20%28%23725%29&type=Commits)
+* [Make use of system theme setting on android 10 (#715)](https://github.com/search?q=Make%20use%20of%20system%20theme%20setting%20on%20android%2010%20%28%23715%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-04-2020 End.
+
+07-03-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-03-2020:
+* [Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.](https://github.com/search?q=Explicitly%20grant%20START_ACTIVITIES_FROM_BACKGROUND%20to%20com.android.phone.&type=Commits)
+* [update submodules](https://github.com/search?q=update%20submodules&type=Commits)
+* [Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.](https://github.com/search?q=Explicitly%20grant%20START_ACTIVITIES_FROM_BACKGROUND%20to%20com.android.phone.&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-03-2020 End.
+
+07-02-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-02-2020:
+* [Drop RMX1851 for now](https://github.com/search?q=Drop%20RMX1851%20for%20now&type=Commits)
+* [Drop RMX1851 for now](https://github.com/search?q=Drop%20RMX1851%20for%20now&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-02-2020 End.
+
+07-01-2020
+====================
+
+#### Device specific Changes of 07-01-2020 Start:
+
+#### Kernel/Quark/
+* [Revert "msm: vidc: Avoid information leak while accessing the packet"](https://github.com/search?q=Revert%20"msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet"&type=Commits)
+* [msm: vidc: Don't query the V4L2 ctrl framework for checking thumbnail mode](https://github.com/search?q=msm%3A%20vidc%3A%20Don%27t%20query%20the%20V4L2%20ctrl%20framework%20for%20checking%20thumbnail%20mode&type=Commits)
+* [msm: vidc: Increase the MIN DRAIN RATE when DCVS is enabled](https://github.com/search?q=msm%3A%20vidc%3A%20Increase%20the%20MIN%20DRAIN%20RATE%20when%20DCVS%20is%20enabled&type=Commits)
+* [msm: vidc: Protect suspend operation with core lock](https://github.com/search?q=msm%3A%20vidc%3A%20Protect%20suspend%20operation%20with%20core%20lock&type=Commits)
+* [msm: vidc: Fix session error handling](https://github.com/search?q=msm%3A%20vidc%3A%20Fix%20session%20error%20handling&type=Commits)
+* [msm: vidc: Increase firmware unload delay](https://github.com/search?q=msm%3A%20vidc%3A%20Increase%20firmware%20unload%20delay&type=Commits)
+* [msm: vidc: Unload firmware immediately after sys error](https://github.com/search?q=msm%3A%20vidc%3A%20Unload%20firmware%20immediately%20after%20sys%20error&type=Commits)
+* [msm/vidc/msm_vidc_common fix identation](https://github.com/search?q=msm/vidc/msm_vidc_common%20fix%20identation&type=Commits)
+* [msm: vidc: Validate buffer prior to releasing reference](https://github.com/search?q=msm%3A%20vidc%3A%20Validate%20buffer%20prior%20to%20releasing%20reference&type=Commits)
+* [msm: camera: Add dynamic logging feature in camera](https://github.com/search?q=msm%3A%20camera%3A%20Add%20dynamic%20logging%20feature%20in%20camera&type=Commits)
+* [msm: camera: Return EINVAL when msm_get_session fails](https://github.com/search?q=msm%3A%20camera%3A%20Return%20EINVAL%20when%20msm_get_session%20fails&type=Commits)
+* [msm: camera: Instead of read_lock use read_lock_irqsave.](https://github.com/search?q=msm%3A%20camera%3A%20Instead%20of%20read_lock%20use%20read_lock_irqsave.&type=Commits)
+* [msm: camera: Retelimit log in msm_vb2_buf_cleanup.](https://github.com/search?q=msm%3A%20camera%3A%20Retelimit%20log%20in%20msm_vb2_buf_cleanup.&type=Commits)
+* [dsp: avtimer: validate payload size before memory copy](https://github.com/search?q=dsp%3A%20avtimer%3A%20validate%20payload%20size%20before%20memory%20copy&type=Commits)
+* [ext4: add more paranoia checking in ext4_expand_extra_isize handling](https://github.com/search?q=ext4%3A%20add%20more%20paranoia%20checking%20in%20ext4_expand_extra_isize%20handling&type=Commits)
+* [ext4: Introduce ext4_clamp_want_extra_isize()](https://github.com/search?q=ext4%3A%20Introduce%20ext4_clamp_want_extra_isize%28%29&type=Commits)
+* [vt: selection, close sel_buffer race](https://github.com/search?q=vt%3A%20selection,%20close%20sel_buffer%20race&type=Commits)
+* [vt: selection, handle pending signals in paste_selection](https://github.com/search?q=vt%3A%20selection,%20handle%20pending%20signals%20in%20paste_selection&type=Commits)
+* [ALSA: usb-audio: Fix a stack buffer overflow bug in check_input_term](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20Fix%20a%20stack%20buffer%20overflow%20bug%20in%20check_input_term&type=Commits)
+
+#### Device specific Changes of 07-01-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 07-01-2020:
+* [manifest: Track AOSP TV app](https://github.com/search?q=manifest%3A%20Track%20AOSP%20TV%20app&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-01-2020 End.
+
+06-29-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-29-2020:
+* [Settings: Fix fallback summary for power_button_instantly_locks preference](https://github.com/search?q=Settings%3A%20Fix%20fallback%20summary%20for%20power_button_instantly_locks%20preference&type=Commits)
+* d97bfec6 repopick: Fallback to name when project path is empty
+* [AVRCP: Ignore AVRCP version when registering absolute volume feature](https://github.com/search?q=AVRCP%3A%20Ignore%20AVRCP%20version%20when%20registering%20absolute%20volume%20feature&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-29-2020 End.
+
+06-28-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-28-2020:
+* [manifest: Sync sm8250 HALs](https://github.com/search?q=manifest%3A%20Sync%20sm8250%20HALs&type=Commits)
+* [releasetools: support dynamic partitions for backuptool](https://github.com/search?q=releasetools%3A%20support%20dynamic%20partitions%20for%20backuptool&type=Commits)
+* [Generate block based OTA for product partitions](https://github.com/search?q=Generate%20block%20based%20OTA%20for%20product%20partitions&type=Commits)
+* [Export CAF msm-4.14 audio headers](https://github.com/search?q=Export%20CAF%20msm-4.14%20audio%20headers&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-28-2020 End.
+
+06-27-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-27-2020:
+* [lineage: Track QTI BT repos](https://github.com/search?q=lineage%3A%20Track%20QTI%20BT%20repos&type=Commits)
+* [Refactor how MODULES-IN-* is defined](https://github.com/search?q=Refactor%20how%20MODULES-IN-*%20is%20defined&type=Commits)
+* [base_rules.mk optimizations](https://github.com/search?q=base_rules.mk%20optimizations&type=Commits)
+* [Fix test suite data files issue.](https://github.com/search?q=Fix%20test%20suite%20data%20files%20issue.&type=Commits)
+* [Export list of "installable" files to soong_ui](https://github.com/search?q=Export%20list%20of%20"installable"%20files%20to%20soong_ui&type=Commits)
+* [sepolicy: cnd: Allow access to wifi_prop](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Allow%20access%20to%20wifi_prop&type=Commits)
+* [Fix build errors](https://github.com/search?q=Fix%20build%20errors&type=Commits)
+* [Fix BLE transport discovery scan filter](https://github.com/search?q=Fix%20BLE%20transport%20discovery%20scan%20filter&type=Commits)
+* [BT: Relocate A2DP codec strings for translation](https://github.com/search?q=BT%3A%20Relocate%20A2DP%20codec%20strings%20for%20translation&type=Commits)
+* [Enable codec change request when mode changes in aptX-adaptive](https://github.com/search?q=Enable%20codec%20change%20request%20when%20mode%20changes%20in%20aptX-adaptive&type=Commits)
+* [Keep a null check before accessing the BluetoothA2dpWrapper APIs.](https://github.com/search?q=Keep%20a%20null%20check%20before%20accessing%20the%20BluetoothA2dpWrapper%20APIs.&type=Commits)
+* [Bluetooth: Fix for out of bound exception](https://github.com/search?q=Bluetooth%3A%20Fix%20for%20out%20of%20bound%20exception&type=Commits)
+* [BT Dev: Increase array size for codec selection in Dev Op](https://github.com/search?q=BT%20Dev%3A%20Increase%20array%20size%20for%20codec%20selection%20in%20Dev%20Op&type=Commits)
+* [Keep the BluetoothHeadset finalize() method protected](https://github.com/search?q=Keep%20the%20BluetoothHeadset%20finalize%28%29%20method%20protected&type=Commits)
+* [Bluetooth: Fix for Global reference table overflow issue[1/2]](https://github.com/search?q=Bluetooth%3A%20Fix%20for%20Global%20reference%20table%20overflow%20issue[1/2]&type=Commits)
+* [BT: Add new intent to broadcast IOT device details](https://github.com/search?q=BT%3A%20Add%20new%20intent%20to%20broadcast%20IOT%20device%20details&type=Commits)
+* [BT_Audio: Updated Check for TWS+ switch](https://github.com/search?q=BT_Audio%3A%20Updated%20Check%20for%20TWS+%20switch&type=Commits)
+* [TWS_A2DP: Handle active device change between TWS+ earbuds](https://github.com/search?q=TWS_A2DP%3A%20Handle%20active%20device%20change%20between%20TWS+%20earbuds&type=Commits)
+* [audio: Add support for APTX TWSP audio codec](https://github.com/search?q=audio%3A%20Add%20support%20for%20APTX%20TWSP%20audio%20codec&type=Commits)
+* [audio: Add support for audio extended codecs](https://github.com/search?q=audio%3A%20Add%20support%20for%20audio%20extended%20codecs&type=Commits)
+* [Use BluetoothUtils instead of Utils](https://github.com/search?q=Use%20BluetoothUtils%20instead%20of%20Utils&type=Commits)
+* [GAP: Handle the race condition cases in auto connect logic](https://github.com/search?q=GAP%3A%20Handle%20the%20race%20condition%20cases%20in%20auto%20connect%20logic&type=Commits)
+* [Obex: Squashed commit of the following](https://github.com/search?q=Obex%3A%20Squashed%20commit%20of%20the%20following&type=Commits)
+* [Add scan filter for Transport Discovery data](https://github.com/search?q=Add%20scan%20filter%20for%20Transport%20Discovery%20data&type=Commits)
+* [Support CALLBACK_TYPE_SENSOR_ROUTING](https://github.com/search?q=Support%20CALLBACK_TYPE_SENSOR_ROUTING&type=Commits)
+* [Add support for Transport discovery AD type (1/2)](https://github.com/search?q=Add%20support%20for%20Transport%20discovery%20AD%20type%20%281/2%29&type=Commits)
+* [Bluetooth: TWSP: Support Battery Status information display](https://github.com/search?q=Bluetooth%3A%20TWSP%3A%20Support%20Battery%20Status%20information%20display&type=Commits)
+* [BT: Send info if call is CS type from telecomm service to BT apps.](https://github.com/search?q=BT%3A%20Send%20info%20if%20call%20is%20CS%20type%20from%20telecomm%20service%20to%20BT%20apps.&type=Commits)
+* [GAP: Reset bondingInitiatedLocally flag(1/3)](https://github.com/search?q=GAP%3A%20Reset%20bondingInitiatedLocally%20flag%281/3%29&type=Commits)
+* [Bluetooth-TWS: Disable outgoing connection to 2nd earbud](https://github.com/search?q=Bluetooth-TWS%3A%20Disable%20outgoing%20connection%20to%202nd%20earbud&type=Commits)
+* [Bluetooth-TWS: Disable outgoing connection for 2nd earbud.](https://github.com/search?q=Bluetooth-TWS%3A%20Disable%20outgoing%20connection%20for%202nd%20earbud.&type=Commits)
+* [Bluetooth: Rename bluetooth property to support new P Treble rules](https://github.com/search?q=Bluetooth%3A%20Rename%20bluetooth%20property%20to%20support%20new%20P%20Treble%20rules&type=Commits)
+* [Bluetooth: Unpair both earbuds on unpair.](https://github.com/search?q=Bluetooth%3A%20Unpair%20both%20earbuds%20on%20unpair.&type=Commits)
+* [Bluetooth: Add SDK API support for TWS feature (2)](https://github.com/search?q=Bluetooth%3A%20Add%20SDK%20API%20support%20for%20TWS%20feature%20%282%29&type=Commits)
+* [Revert the change: AudioService: remove dead BT code.](https://github.com/search?q=Revert%20the%20change%3A%20AudioService%3A%20remove%20dead%20BT%20code.&type=Commits)
+* [TWS-A2DP: Add TWS+ codec to DevUI support](https://github.com/search?q=TWS-A2DP%3A%20Add%20TWS+%20codec%20to%20DevUI%20support&type=Commits)
+* [BT: Adding aptX-Adaptive codec entry to Framework](https://github.com/search?q=BT%3A%20Adding%20aptX-Adaptive%20codec%20entry%20to%20Framework&type=Commits)
+* [Add BluetoothQualityReport class(1/2)](https://github.com/search?q=Add%20BluetoothQualityReport%20class%281/2%29&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [hal: msm8974: Use stereo recording depending on camera orientation](https://github.com/search?q=hal%3A%20msm8974%3A%20Use%20stereo%20recording%20depending%20on%20camera%20orientation&type=Commits)
+* [hal: msm8974: Fix the wrong device for AUDIO_SOURCE_CAMCORDER](https://github.com/search?q=hal%3A%20msm8974%3A%20Fix%20the%20wrong%20device%20for%20AUDIO_SOURCE_CAMCORDER&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [hudson: Promote tissot to 17.1](https://github.com/search?q=hudson%3A%20Promote%20tissot%20to%2017.1&type=Commits)
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [wiki: Promote tissot to 17.1](https://github.com/search?q=wiki%3A%20Promote%20tissot%20to%2017.1&type=Commits)
+* [Stub TWS related APIs](https://github.com/search?q=Stub%20TWS%20related%20APIs&type=Commits)
+* [GAP: Reset bondingInitiatedLocally flag(2/3)](https://github.com/search?q=GAP%3A%20Reset%20bondingInitiatedLocally%20flag%282/3%29&type=Commits)
+* [BT: API to update quiet mode status in Adapter service [1/3]](https://github.com/search?q=BT%3A%20API%20to%20update%20quiet%20mode%20status%20in%20Adapter%20service%20[1/3]&type=Commits)
+* [Bluetooth: Enable Hybrid Audio from App](https://github.com/search?q=Bluetooth%3A%20Enable%20Hybrid%20Audio%20from%20App&type=Commits)
+* [Add BLE Scan Phy parameter to scan API](https://github.com/search?q=Add%20BLE%20Scan%20Phy%20parameter%20to%20scan%20API&type=Commits)
+* [Fix translation of 'contacts' tab title and main menu.](https://github.com/search?q=Fix%20translation%20of%20%27contacts%27%20tab%20title%20and%20main%20menu.&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [BT: Use translated a2dp codec strings](https://github.com/search?q=BT%3A%20Use%20translated%20a2dp%20codec%20strings&type=Commits)
+* [codec support for DevUI am: f915bd9438](https://github.com/search?q=codec%20support%20for%20DevUI%20am%3A%20f915bd9438&type=Commits)
+* [BT Settings: Adding aptX Adaptive codec entry in Settings](https://github.com/search?q=BT%20Settings%3A%20Adding%20aptX%20Adaptive%20codec%20entry%20in%20Settings&type=Commits)
+* [Bluetooth-TWS: UI updates based on Filter matched](https://github.com/search?q=Bluetooth-TWS%3A%20UI%20updates%20based%20on%20Filter%20matched&type=Commits)
+* [Bluetooth-TWS: UI updates based on profile connection.](https://github.com/search?q=Bluetooth-TWS%3A%20UI%20updates%20based%20on%20profile%20connection.&type=Commits)
+* [Fix build error](https://github.com/search?q=Fix%20build%20error&type=Commits)
+* [Bluetooth-TWS: Filter TWS devices](https://github.com/search?q=Bluetooth-TWS%3A%20Filter%20TWS%20devices&type=Commits)
+* [Bluetooth: Create new catogory for earbuds](https://github.com/search?q=Bluetooth%3A%20Create%20new%20catogory%20for%20earbuds&type=Commits)
+* [Snap: Report device orientation to Audio HAL](https://github.com/search?q=Snap%3A%20Report%20device%20orientation%20to%20Audio%20HAL&type=Commits)
+* [Bluetooth: Support to know if there is High Def call](https://github.com/search?q=Bluetooth%3A%20Support%20to%20know%20if%20there%20is%20High%20Def%20call&type=Commits)
+* [GAP: Reset bondingInitiatedLocally flag(3/3)](https://github.com/search?q=GAP%3A%20Reset%20bondingInitiatedLocally%20flag%283/3%29&type=Commits)
+* [Bluetooth: Enable Hybrid Audio from stack](https://github.com/search?q=Bluetooth%3A%20Enable%20Hybrid%20Audio%20from%20stack&type=Commits)
+* [Add scan filter for Transport Discovery data](https://github.com/search?q=Add%20scan%20filter%20for%20Transport%20Discovery%20data&type=Commits)
+* [TWS-A2DP: Add TWS+ codec index](https://github.com/search?q=TWS-A2DP%3A%20Add%20TWS+%20codec%20index&type=Commits)
+* [Bluetooth: Support to know if there is High Def call](https://github.com/search?q=Bluetooth%3A%20Support%20to%20know%20if%20there%20is%20High%20Def%20call&type=Commits)
+* [BT: API to update quiet mode status in Adapter service [3/3]](https://github.com/search?q=BT%3A%20API%20to%20update%20quiet%20mode%20status%20in%20Adapter%20service%20[3/3]&type=Commits)
+* [BT: Adding APTX-Adaptive codec to BT HAL](https://github.com/search?q=BT%3A%20Adding%20APTX-Adaptive%20codec%20to%20BT%20HAL&type=Commits)
+* [Add BLE Scan Phy parameter to scan API](https://github.com/search?q=Add%20BLE%20Scan%20Phy%20parameter%20to%20scan%20API&type=Commits)
+* [Bluetooth: Add SDK API support for TWS feature (1)](https://github.com/search?q=Bluetooth%3A%20Add%20SDK%20API%20support%20for%20TWS%20feature%20%281%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-27-2020 End.
+
+06-26-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-26-2020:
+* [recovery: compute displayable item count while drawing](https://github.com/search?q=recovery%3A%20compute%20displayable%20item%20count%20while%20drawing&type=Commits)
+* [Avoid adding VINTF manifest fragment more than once.](https://github.com/search?q=Avoid%20adding%20VINTF%20manifest%20fragment%20more%20than%20once.&type=Commits)
+* [a2dp: Add a null check before iterating over a2dp.adev->usecase_list](https://github.com/search?q=a2dp%3A%20Add%20a%20null%20check%20before%20iterating%20over%20a2dp.adev->usecase_list&type=Commits)
+* [hal: Add missing includes](https://github.com/search?q=hal%3A%20Add%20missing%20includes&type=Commits)
+* [audio_extn: Allow skipping compilation of audio HAL extensions](https://github.com/search?q=audio_extn%3A%20Allow%20skipping%20compilation%20of%20audio%20HAL%20extensions&type=Commits)
+* [audio: Skip libhdmipassthru on OSS builds](https://github.com/search?q=audio%3A%20Skip%20libhdmipassthru%20on%20OSS%20builds&type=Commits)
+* 5644af12c audio: Use direct project pathmap
+* [gralloc: Add option for YCrCb venus camera preview](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20YCrCb%20venus%20camera%20preview&type=Commits)
+* [gralloc: Allow devices to opt-in for YCrCb camera preview](https://github.com/search?q=gralloc%3A%20Allow%20devices%20to%20opt-in%20for%20YCrCb%20camera%20preview&type=Commits)
+* [Add C2D_FORMAT_BT601_FULLRANGE to C2D_FORMAT_MODE](https://github.com/search?q=Add%20C2D_FORMAT_BT601_FULLRANGE%20to%20C2D_FORMAT_MODE&type=Commits)
+* [Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT](https://github.com/search?q=Add%20C2D_COLOR_FORMAT_420_TP10%20to%20C2D_YUV_FORMAT&type=Commits)
+* [Don't build lights module if vendor supplies it](https://github.com/search?q=Don%27t%20build%20lights%20module%20if%20vendor%20supplies%20it&type=Commits)
+* 29493687d display: Use project pathmap
+* [Add 'display-commonsys-intf/' from commit 'af08d2405c4961f5159e98dc7266753296874bbf'](https://github.com/search?q=Add%20%27display-commonsys-intf/%27%20from%20commit%20%27af08d2405c4961f5159e98dc7266753296874bbf%27&type=Commits)
+* [media: Exclude libplatformconfig from OSS builds](https://github.com/search?q=media%3A%20Exclude%20libplatformconfig%20from%20OSS%20builds&type=Commits)
+* [media: Include display_headers instead of display_intf_headers](https://github.com/search?q=media%3A%20Include%20display_headers%20instead%20of%20display_intf_headers&type=Commits)
+* [media: libOmxSw encoders require prop headers :(](https://github.com/search?q=media%3A%20libOmxSw%20encoders%20require%20prop%20headers%20%3A%28&type=Commits)
+* e7cd0ee7b media: Use project pathmap
+* [Messaging: Use a DayNight launch theme](https://github.com/search?q=Messaging%3A%20Use%20a%20DayNight%20launch%20theme&type=Commits)
+* [qcom: Add UM 4.19 platforms](https://github.com/search?q=qcom%3A%20Add%20UM%204.19%20platforms&type=Commits)
+* [qcom: Add atoll platform](https://github.com/search?q=qcom%3A%20Add%20atoll%20platform&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-26-2020 End.
+
+06-25-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-25-2020:
+* [manifest: Switch to our external/skia fork](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20external/skia%20fork&type=Commits)
+* [TextureVuew rebind GL texture, if AHB content has changed](https://github.com/search?q=TextureVuew%20rebind%20GL%20texture,%20if%20AHB%20content%20has%20changed&type=Commits)
+* [gps: Correct week rollover timestamps](https://github.com/search?q=gps%3A%20Correct%20week%20rollover%20timestamps&type=Commits)
+* [LineageSettingsService: prevent setting net.hostname to null](https://github.com/search?q=LineageSettingsService%3A%20prevent%20setting%20net.hostname%20to%20null&type=Commits)
+* [Fix errors caught by aapt2](https://github.com/search?q=Fix%20errors%20caught%20by%20aapt2&type=Commits)
+* [Allow app to upgrade database on install.](https://github.com/search?q=Allow%20app%20to%20upgrade%20database%20on%20install.&type=Commits)
+* [Force a manual, incremental sync one time, as early as possible.](https://github.com/search?q=Force%20a%20manual,%20incremental%20sync%20one%20time,%20as%20early%20as%20possible.&type=Commits)
+* [Abort onClick if no Window Focus](https://github.com/search?q=Abort%20onClick%20if%20no%20Window%20Focus&type=Commits)
+* [Remove negative margin fron all day label](https://github.com/search?q=Remove%20negative%20margin%20fron%20all%20day%20label&type=Commits)
+* [Call build() on the Builder, not the Style.](https://github.com/search?q=Call%20build%28%29%20on%20the%20Builder,%20not%20the%20Style.&type=Commits)
+* [Small workaround when text is slight bigger then all day event rect.](https://github.com/search?q=Small%20workaround%20when%20text%20is%20slight%20bigger%20then%20all%20day%20event%20rect.&type=Commits)
+* [Fix small typos in I9490f478681783200a5cb8309a58243723bda4c1.](https://github.com/search?q=Fix%20small%20typos%20in%20I9490f478681783200a5cb8309a58243723bda4c1.&type=Commits)
+* [Fix bug in recurrent event dialog picker when setting monthly day of the week.](https://github.com/search?q=Fix%20bug%20in%20recurrent%20event%20dialog%20picker%20when%20setting%20monthly%20day%20of%20the%20week.&type=Commits)
+* [Add in-memory cache to dismiss alerts that we haven't seen yet.](https://github.com/search?q=Add%20in-memory%20cache%20to%20dismiss%20alerts%20that%20we%20haven%27t%20seen%20yet.&type=Commits)
+* [Fix mokey NullPointerException when there is no colors to save.](https://github.com/search?q=Fix%20mokey%20NullPointerException%20when%20there%20is%20no%20colors%20to%20save.&type=Commits)
+* [Fixed ISE issue when subscribing to gcm groups from the main thread.](https://github.com/search?q=Fixed%20ISE%20issue%20when%20subscribing%20to%20gcm%20groups%20from%20the%20main%20thread.&type=Commits)
+* [Fix crash when dismissing notification.](https://github.com/search?q=Fix%20crash%20when%20dismissing%20notification.&type=Commits)
+* [Fix calander crash where getTimezone was call without a looper.](https://github.com/search?q=Fix%20calander%20crash%20where%20getTimezone%20was%20call%20without%20a%20looper.&type=Commits)
+* [Fix issue with error message being displayed on tablets.](https://github.com/search?q=Fix%20issue%20with%20error%20message%20being%20displayed%20on%20tablets.&type=Commits)
+* [Remove dead code in AlarmService.](https://github.com/search?q=Remove%20dead%20code%20in%20AlarmService.&type=Commits)
+* [Display error when a viewed event has been deleted.](https://github.com/search?q=Display%20error%20when%20a%20viewed%20event%20has%20been%20deleted.&type=Commits)
+* [Capitalize Noon and Midnight in event edit view.](https://github.com/search?q=Capitalize%20Noon%20and%20Midnight%20in%20event%20edit%20view.&type=Commits)
+* [Fixed leak cursor in AlertReciever](https://github.com/search?q=Fixed%20leak%20cursor%20in%20AlertReciever&type=Commits)
+* [DayView: Revert all whitespace changes](https://github.com/search?q=DayView%3A%20Revert%20all%20whitespace%20changes&type=Commits)
+* [Etar: Fix invalid string parameter](https://github.com/search?q=Etar%3A%20Fix%20invalid%20string%20parameter&type=Commits)
+* [config: Move default alarm/notification/ringtone sound props to /product](https://github.com/search?q=config%3A%20Move%20default%20alarm/notification/ringtone%20sound%20props%20to%20/product&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-25-2020 End.
+
+06-24-2020
+====================
+
+#### Device specific Changes of 06-24-2020 Start:
+
+#### Device/Quark/
+* [Quark: wifi: Disable auto tx power control](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control&type=Commits)
+
+#### Device specific Changes of 06-24-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 06-24-2020:
+* [Telephony: Add option for using regular poll state for airplane mode](https://github.com/search?q=Telephony%3A%20Add%20option%20for%20using%20regular%20poll%20state%20for%20airplane%20mode&type=Commits)
+* [Etar: Fix android:targetPackage for shortcut](https://github.com/search?q=Etar%3A%20Fix%20android%3AtargetPackage%20for%20shortcut&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-24-2020 End.
+
+06-23-2020
+====================
+
+#### Device specific Changes of 06-23-2020 Start:
+
+#### Device/Quark/
+* [Quark: Switch to TimeKeep](https://github.com/search?q=Quark%3A%20Switch%20to%20TimeKeep&type=Commits)
+
+#### Device specific Changes of 06-23-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 06-23-2020:
+* [SystemUI: QS Details: Fix layout issues](https://github.com/search?q=SystemUI%3A%20QS%20Details%3A%20Fix%20layout%20issues&type=Commits)
+* [SystemUI: Fix issue with Bluetooth tile](https://github.com/search?q=SystemUI%3A%20Fix%20issue%20with%20Bluetooth%20tile&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-23-2020 End.
+
+06-22-2020
+====================
+
+#### Device specific Changes of 06-22-2020 Start:
+
+#### Device/Quark/
+* [Quark: disable vsync for cpu rendered apps.](https://github.com/search?q=Quark%3A%20disable%20vsync%20for%20cpu%20rendered%20apps.&type=Commits)
+* [Quark: disable recompute crop change in SF](https://github.com/search?q=Quark%3A%20disable%20recompute%20crop%20change%20in%20SF&type=Commits)
+* [Quark: Disable backpressure propagation in SurfaceFlinger](https://github.com/search?q=Quark%3A%20Disable%20backpressure%20propagation%20in%20SurfaceFlinger&type=Commits)
+* [Quark: Enable PRODUCT_MINIMIZE_JAVA_DEBUG_INFO](https://github.com/search?q=Quark%3A%20Enable%20PRODUCT_MINIMIZE_JAVA_DEBUG_INFO&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: Switch to TimeKeep](https://github.com/search?q=Quark%3A%20Switch%20to%20TimeKeep&type=Commits)
+
+#### Device specific Changes of 06-22-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 06-22-2020:
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-22-2020 End.
+
+06-21-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-21-2020:
+* [recovery: menu wrapping fixes](https://github.com/search?q=recovery%3A%20menu%20wrapping%20fixes&type=Commits)
+* [build: Disable backuptool on user instead of GMS builds](https://github.com/search?q=build%3A%20Disable%20backuptool%20on%20user%20instead%20of%20GMS%20builds&type=Commits)
+* [hudson: Add Galaxy J7 2015 (j7elte)](https://github.com/search?q=hudson%3A%20Add%20Galaxy%20J7%202015%20%28j7elte%29&type=Commits)
+* [wiki: Add Galaxy J7 2015 (j7elte)](https://github.com/search?q=wiki%3A%20Add%20Galaxy%20J7%202015%20%28j7elte%29&type=Commits)
+* [Etar: String improvements](https://github.com/search?q=Etar%3A%20String%20improvements&type=Commits)
+* [Etar: Restore tests](https://github.com/search?q=Etar%3A%20Restore%20tests&type=Commits)
+* [AOSP/Calendar - Minimal calendar app.](https://github.com/search?q=AOSP/Calendar%20-%20Minimal%20calendar%20app.&type=Commits)
+* [Update code coverage filter](https://github.com/search?q=Update%20code%20coverage%20filter&type=Commits)
+* [Etar: Fix translatables](https://github.com/search?q=Etar%3A%20Fix%20translatables&type=Commits)
+* [Etar: Fix content provider rebrand](https://github.com/search?q=Etar%3A%20Fix%20content%20provider%20rebrand&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-21-2020 End.
+
+06-20-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-20-2020:
+* [SystemUI: Fix QS Detail Header](https://github.com/search?q=SystemUI%3A%20Fix%20QS%20Detail%20Header&type=Commits)
+* [Fix regex in commit_msg_relnote_for_current_txt repo hook](https://github.com/search?q=Fix%20regex%20in%20commit_msg_relnote_for_current_txt%20repo%20hook&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-20-2020 End.
+
+06-19-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-19-2020:
+* [Allow to rebind GL texture if AHB content has changed](https://github.com/search?q=Allow%20to%20rebind%20GL%20texture%20if%20AHB%20content%20has%20changed&type=Commits)
+* [Updated to 19-Jun-2020 13:15 UTC](https://github.com/search?q=Updated%20to%2019-Jun-2020%2013%3A15%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-19-2020 End.
+
+06-18-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-18-2020:
+* [Etar: Properly align preferences](https://github.com/search?q=Etar%3A%20Properly%20align%20preferences&type=Commits)
+* [Etar: Fix crash when opening "Quick responses"](https://github.com/search?q=Etar%3A%20Fix%20crash%20when%20opening%20"Quick%20responses"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-18-2020 End.
+
+06-17-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-17-2020:
+* [common: Move aux camera whitelist prop to vendor](https://github.com/search?q=common%3A%20Move%20aux%20camera%20whitelist%20prop%20to%20vendor&type=Commits)
+* [Add a LineageOS clock](https://github.com/search?q=Add%20a%20LineageOS%20clock&type=Commits)
+* [Jelly: Avoid unchecked cast warning](https://github.com/search?q=Jelly%3A%20Avoid%20unchecked%20cast%20warning&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-17-2020 End.
+
+06-16-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-16-2020:
+* [DeskClock: Remove notification sound from firing and snoozing channels](https://github.com/search?q=DeskClock%3A%20Remove%20notification%20sound%20from%20firing%20and%20snoozing%20channels&type=Commits)
+* [Recorder: Prevent running into out of memory exceptions](https://github.com/search?q=Recorder%3A%20Prevent%20running%20into%20out%20of%20memory%20exceptions&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-16-2020 End.
+
+06-15-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-15-2020:
+* [DeskClock: Replace ViewPager with manual fragment handling](https://github.com/search?q=DeskClock%3A%20Replace%20ViewPager%20with%20manual%20fragment%20handling&type=Commits)
+* [DeskClock: Fix german translation of "days"](https://github.com/search?q=DeskClock%3A%20Fix%20german%20translation%20of%20"days"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-15-2020 End.
+
+06-14-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-14-2020:
+* [Jelly: Sync color{Primary,PrimaryDark,Accent} with Recorder](https://github.com/search?q=Jelly%3A%20Sync%20color{Primary,PrimaryDark,Accent}%20with%20Recorder&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-14-2020 End.
+
+06-13-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-13-2020:
+* [Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds](https://github.com/search?q=Avoid%20SubscriptionManager%23getUriForSubscriptionId%20calls%20with%20invalid%20subIds&type=Commits)
+* [Remove setIsoCountryProperty method along with partially dead code](https://github.com/search?q=Remove%20setIsoCountryProperty%20method%20along%20with%20partially%20dead%20code&type=Commits)
+* [Revert "wiki: Remove support for XT1526(surnia)"](https://github.com/search?q=Revert%20"wiki%3A%20Remove%20support%20for%20XT1526%28surnia%29"&type=Commits)
+* [DeskClock: Properly align settings](https://github.com/search?q=DeskClock%3A%20Properly%20align%20settings&type=Commits)
+* [Messaging: Require external legacy storage](https://github.com/search?q=Messaging%3A%20Require%20external%20legacy%20storage&type=Commits)
+* [Fine tune blkio setting to improve boot time](https://github.com/search?q=Fine%20tune%20blkio%20setting%20to%20improve%20boot%20time&type=Commits)
+* [rootdir: init.rc: use default dirty writeout policy](https://github.com/search?q=rootdir%3A%20init.rc%3A%20use%20default%20dirty%20writeout%20policy&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-13-2020 End.
+
+06-12-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-12-2020:
+* [Merge 9a9efbe24529dd92301bf9b0dc081b59cf76ca4f on remote branch](https://github.com/search?q=Merge%209a9efbe24529dd92301bf9b0dc081b59cf76ca4f%20on%20remote%20branch&type=Commits)
+* [Merge 74087ead97da0619dc9217b763a90f18bb5f4366 on remote branch](https://github.com/search?q=Merge%2074087ead97da0619dc9217b763a90f18bb5f4366%20on%20remote%20branch&type=Commits)
+* [Merge 908bf4412ddb95d9fdbe6fbb4d8aa7c8fde4505f on remote branch](https://github.com/search?q=Merge%20908bf4412ddb95d9fdbe6fbb4d8aa7c8fde4505f%20on%20remote%20branch&type=Commits)
+* [timekeep: Move app back to system](https://github.com/search?q=timekeep%3A%20Move%20app%20back%20to%20system&type=Commits)
+* [wiki: Promote mi8996 except black sheep](https://github.com/search?q=wiki%3A%20Promote%20mi8996%20except%20black%20sheep&type=Commits)
+* [wiki: Add Teledurak to s3ve3g maintainers](https://github.com/search?q=wiki%3A%20Add%20Teledurak%20to%20s3ve3g%20maintainers&type=Commits)
+* [DeskClock: Move navigation bar to bottom](https://github.com/search?q=DeskClock%3A%20Move%20navigation%20bar%20to%20bottom&type=Commits)
+* [Display hour 00 label if there is room for it.](https://github.com/search?q=Display%20hour%2000%20label%20if%20there%20is%20room%20for%20it.&type=Commits)
+* [Don't mess with selected hour when scrolling](https://github.com/search?q=Don%27t%20mess%20with%20selected%20hour%20when%20scrolling&type=Commits)
+* [Fix issue #457 and remove other bounces](https://github.com/search?q=Fix%20issue%20%23457%20and%20remove%20other%20bounces&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-12-2020 End.
+
+06-11-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-11-2020:
+* [AODTile: Rewrite AOD setting handling](https://github.com/search?q=AODTile%3A%20Rewrite%20AOD%20setting%20handling&type=Commits)
+* [SystemUI: set no hint overlay to highest priority](https://github.com/search?q=SystemUI%3A%20set%20no%20hint%20overlay%20to%20highest%20priority&type=Commits)
+* [hudson: Promote mi8996 except black sheep](https://github.com/search?q=hudson%3A%20Promote%20mi8996%20except%20black%20sheep&type=Commits)
+* [wiki: Remove support for XT1526(surnia)](https://github.com/search?q=wiki%3A%20Remove%20support%20for%20XT1526%28surnia%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-11-2020 End.
+
 06-10-2020
 ====================
 
