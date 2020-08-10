@@ -1,4 +1,4 @@
-LineageOS - 17.1 - Android 10 source and Quark Changelog:
+LineageOS - 17.1 - Android 10 source Changelog Moto MAXX (Quark) only:
 ============================================================
 
 08-10-2020
