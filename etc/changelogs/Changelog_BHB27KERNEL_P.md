@@ -3,82 +3,10 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
-07-20-2020
+08-10-2020
 ====================
 
-* [scsi: devinfo: Fix incorrect strncpy usage](https://github.com/bhb27/BHB27Kernel/search?q=scsi%3A%20devinfo%3A%20Fix%20incorrect%20strncpy%20usage&type=Commits)
-* [configfs: replace strncpy with memcpy](https://github.com/bhb27/BHB27Kernel/search?q=configfs%3A%20replace%20strncpy%20with%20memcpy&type=Commits)
-* [AIO: Don't plug the I/O queue in do_io_submit()](https://github.com/bhb27/BHB27Kernel/search?q=AIO%3A%20Don%27t%20plug%20the%20I/O%20queue%20in%20do_io_submit%28%29&type=Commits)
-* [Revert "fs: Async I/O latency to a ssd greatly increased"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"fs%3A%20Async%20I/O%20latency%20to%20a%20ssd%20greatly%20increased"&type=Commits)
-* [kobject: Replace strncpy with memcpy](https://github.com/bhb27/BHB27Kernel/search?q=kobject%3A%20Replace%20strncpy%20with%20memcpy&type=Commits)
-* [msm: Fix high load average from uninterruptible waits](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20Fix%20high%20load%20average%20from%20uninterruptible%20waits&type=Commits)
-* [exec: Always set cap_ambient in cap_bprm_set_creds](https://github.com/bhb27/BHB27Kernel/search?q=exec%3A%20Always%20set%20cap_ambient%20in%20cap_bprm_set_creds&type=Commits)
-* [include/asm-generic/topology.h: guard cpumask_of_node() macro argument](https://github.com/bhb27/BHB27Kernel/search?q=include/asm-generic/topology.h%3A%20guard%20cpumask_of_node%28%29%20macro%20argument&type=Commits)
-* [cpumask: fix spurious cpumask_of_node() on non-NUMA multi-node configs](https://github.com/bhb27/BHB27Kernel/search?q=cpumask%3A%20fix%20spurious%20cpumask_of_node%28%29%20on%20non-NUMA%20multi-node%20configs&type=Commits)
-* [iommu: Fix reference count leak in iommu_group_alloc.](https://github.com/bhb27/BHB27Kernel/search?q=iommu%3A%20Fix%20reference%20count%20leak%20in%20iommu_group_alloc.&type=Commits)
-* [block: nr_sects_write(): Disable preemption on seqcount write](https://github.com/bhb27/BHB27Kernel/search?q=block%3A%20nr_sects_write%28%29%3A%20Disable%20preemption%20on%20seqcount%20write&type=Commits)
-* [crypto: algboss - don't wait during notifier callback](https://github.com/bhb27/BHB27Kernel/search?q=crypto%3A%20algboss%20-%20don%27t%20wait%20during%20notifier%20callback&type=Commits)
-* [kprobes: Fix to protect kick_kprobe_optimizer() by kprobe_mutex](https://github.com/bhb27/BHB27Kernel/search?q=kprobes%3A%20Fix%20to%20protect%20kick_kprobe_optimizer%28%29%20by%20kprobe_mutex&type=Commits)
-* [slob: Rework #ifdeffery in slab.h](https://github.com/bhb27/BHB27Kernel/search?q=slob%3A%20Rework%20%23ifdeffery%20in%20slab.h&type=Commits)
-* [mm, slab_common: add 'unlikely' to size check of kmalloc_slab()](https://github.com/bhb27/BHB27Kernel/search?q=mm,%20slab_common%3A%20add%20%27unlikely%27%20to%20size%20check%20of%20kmalloc_slab%28%29&type=Commits)
-* [drivers: base: Fix NULL pointer exception in __platform_driver_probe() if a driver developer is foolish](https://github.com/bhb27/BHB27Kernel/search?q=drivers%3A%20base%3A%20Fix%20NULL%20pointer%20exception%20in%20__platform_driver_probe%28%29%20if%20a%20driver%20developer%20is%20foolish&type=Commits)
-* [zram: remove obsolete ZRAM_DEBUG option](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20remove%20obsolete%20ZRAM_DEBUG%20option&type=Commits)
-* [lib/zlib: remove outdated and incorrect pre-increment optimization](https://github.com/bhb27/BHB27Kernel/search?q=lib/zlib%3A%20remove%20outdated%20and%20incorrect%20pre-increment%20optimization&type=Commits)
-* [staging: android: ion: use vmap instead of vm_map_ram](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20ion%3A%20use%20vmap%20instead%20of%20vm_map_ram&type=Commits)
-* [Bluetooth: Add SCO fallback for invalid LMP parameters error](https://github.com/bhb27/BHB27Kernel/search?q=Bluetooth%3A%20Add%20SCO%20fallback%20for%20invalid%20LMP%20parameters%20error&type=Commits)
-* [xhci: Remove BUG_ON in xhci_get_input_control_ctx.](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx.&type=Commits)
-* [Revert "xhci: Remove BUG_ON in xhci_get_input_control_ctx."](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx."&type=Commits)
-* [block: Fix use-after-free in blkdev_get()](https://github.com/bhb27/BHB27Kernel/search?q=block%3A%20Fix%20use-after-free%20in%20blkdev_get%28%29&type=Commits)
-* [cpuidle: Fix three reference count leaks](https://github.com/bhb27/BHB27Kernel/search?q=cpuidle%3A%20Fix%20three%20reference%20count%20leaks&type=Commits)
-* [l2tp: Allow duplicate session creation with UDP](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20Allow%20duplicate%20session%20creation%20with%20UDP&type=Commits)
-* [ip_tunnel: fix use-after-free in ip_tunnel_lookup()](https://github.com/bhb27/BHB27Kernel/search?q=ip_tunnel%3A%20fix%20use-after-free%20in%20ip_tunnel_lookup%28%29&type=Commits)
-* [tcp_cubic: fix spurious HYSTART_DELAY exit upon drop in min RTT](https://github.com/bhb27/BHB27Kernel/search?q=tcp_cubic%3A%20fix%20spurious%20HYSTART_DELAY%20exit%20upon%20drop%20in%20min%20RTT&type=Commits)
-* [ALSA: usb-audio: uac1: Invalidate ctl on interrupt](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20uac1%3A%20Invalidate%20ctl%20on%20interrupt&type=Commits)
-* [xhci: Fix enumeration issue when setting max packet size for FS devices.](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Fix%20enumeration%20issue%20when%20setting%20max%20packet%20size%20for%20FS%20devices.&type=Commits)
-* [xhci: Fix incorrect EP_STATE_MASK](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Fix%20incorrect%20EP_STATE_MASK&type=Commits)
-* [sctp: Don't advertise IPv4 addresses if ipv6only is set on the socket](https://github.com/bhb27/BHB27Kernel/search?q=sctp%3A%20Don%27t%20advertise%20IPv4%20addresses%20if%20ipv6only%20is%20set%20on%20the%20socket&type=Commits)
-* [net: Do not clear the sock TX queue in sk_set_socket()](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20Do%20not%20clear%20the%20sock%20TX%20queue%20in%20sk_set_socket%28%29&type=Commits)
-* [net: core: reduce recursion limit value](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20core%3A%20reduce%20recursion%20limit%20value&type=Commits)
-* [mm/slab: use memzero_explicit() in kzfree()](https://github.com/bhb27/BHB27Kernel/search?q=mm/slab%3A%20use%20memzero_explicit%28%29%20in%20kzfree%28%29&type=Commits)
-* [net: core: device_rename: Use rwsem instead of a seqcount](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20core%3A%20device_rename%3A%20Use%20rwsem%20instead%20of%20a%20seqcount&type=Commits)
-* [selinux: fix double free](https://github.com/bhb27/BHB27Kernel/search?q=selinux%3A%20fix%20double%20free&type=Commits)
-* [net: fix memleak in register_netdevice()](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20fix%20memleak%20in%20register_netdevice%28%29&type=Commits)
-* [qseecom: don't unregister listener when data->released is true](https://github.com/bhb27/BHB27Kernel/search?q=qseecom%3A%20don%27t%20unregister%20listener%20when%20data->released%20is%20true&type=Commits)
-* [Kernel V9.45](https://github.com/bhb27/BHB27Kernel/search?q=Kernel%20V9.45&type=Commits)
-* [Input: add safety guards to input_set_keycode()](https://github.com/bhb27/BHB27Kernel/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
-* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
-* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
-* [cpufreq: Reformat printk() statements](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
-* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
-* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
-* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/bhb27/BHB27Kernel/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
-* [proc: much faster /proc/vmstat](https://github.com/bhb27/BHB27Kernel/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
-
-***
-
-07-01-2020
-====================
-
-* [kernek V9.44](https://github.com/bhb27/BHB27Kernel/search?q=kernek%20V9.44&type=Commits)
-* [Revert "msm: vidc: Avoid information leak while accessing the packet"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet"&type=Commits)
-* [msm: vidc: Don't query the V4L2 ctrl framework for checking thumbnail mode](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Don%27t%20query%20the%20V4L2%20ctrl%20framework%20for%20checking%20thumbnail%20mode&type=Commits)
-* [msm: vidc: Increase the MIN DRAIN RATE when DCVS is enabled](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Increase%20the%20MIN%20DRAIN%20RATE%20when%20DCVS%20is%20enabled&type=Commits)
-* [msm: vidc: Protect suspend operation with core lock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Protect%20suspend%20operation%20with%20core%20lock&type=Commits)
-* [msm: vidc: Fix session error handling](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Fix%20session%20error%20handling&type=Commits)
-* [msm: vidc: Increase firmware unload delay](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Increase%20firmware%20unload%20delay&type=Commits)
-* [msm: vidc: Unload firmware immediately after sys error](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Unload%20firmware%20immediately%20after%20sys%20error&type=Commits)
-* [msm/vidc/msm_vidc_common fix identation](https://github.com/bhb27/BHB27Kernel/search?q=msm/vidc/msm_vidc_common%20fix%20identation&type=Commits)
-* [msm: vidc: Validate buffer prior to releasing reference](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Validate%20buffer%20prior%20to%20releasing%20reference&type=Commits)
-* [msm: camera: Add dynamic logging feature in camera](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Add%20dynamic%20logging%20feature%20in%20camera&type=Commits)
-* [msm: camera: Return EINVAL when msm_get_session fails](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Return%20EINVAL%20when%20msm_get_session%20fails&type=Commits)
-* [msm: camera: Instead of read_lock use read_lock_irqsave.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Instead%20of%20read_lock%20use%20read_lock_irqsave.&type=Commits)
-* [msm: camera: Retelimit log in msm_vb2_buf_cleanup.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Retelimit%20log%20in%20msm_vb2_buf_cleanup.&type=Commits)
-* [dsp: avtimer: validate payload size before memory copy](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20avtimer%3A%20validate%20payload%20size%20before%20memory%20copy&type=Commits)
-* [ext4: add more paranoia checking in ext4_expand_extra_isize handling](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20more%20paranoia%20checking%20in%20ext4_expand_extra_isize%20handling&type=Commits)
-* [ext4: Introduce ext4_clamp_want_extra_isize()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20Introduce%20ext4_clamp_want_extra_isize%28%29&type=Commits)
-* [vt: selection, close sel_buffer race](https://github.com/bhb27/BHB27Kernel/search?q=vt%3A%20selection,%20close%20sel_buffer%20race&type=Commits)
-* [vt: selection, handle pending signals in paste_selection](https://github.com/bhb27/BHB27Kernel/search?q=vt%3A%20selection,%20handle%20pending%20signals%20in%20paste_selection&type=Commits)
-* [ALSA: usb-audio: Fix a stack buffer overflow bug in check_input_term](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20Fix%20a%20stack%20buffer%20overflow%20bug%20in%20check_input_term&type=Commits)
+* [Kernel v 9.46](https://github.com/bhb27/BHB27Kernel/search?q=Kernel%20v%209.46&type=Commits)
 
 ***
 

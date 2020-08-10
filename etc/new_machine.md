@@ -392,3 +392,5 @@ check:
 
 
 sudo ./install-java.sh -f '/home/fgl27/Downloads/jre-8u241-linux-x64.tar.gz' 
+
+./sdb connect 192.168.1.230:26101

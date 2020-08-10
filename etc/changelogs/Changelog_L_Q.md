@@ -1,59 +1,242 @@
 07-20-2020
 ====================
 
+08-10-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-10-2020:
+* [hudson: Ship Pixel 3/3 XL (blueline/crosshatch)](https://github.com/search?q=hudson%3A%20Ship%20Pixel%203/3%20XL%20%28blueline/crosshatch%29&type=Commits)
+* [hudson: Sup a7xelte.](https://github.com/search?q=hudson%3A%20Sup%20a7xelte.&type=Commits)
+* [wiki: Add Galaxy A7 2016 (a7xelte).](https://github.com/search?q=wiki%3A%20Add%20Galaxy%20A7%202016%20%28a7xelte%29.&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-10-2020 End.
+
+08-09-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-09-2020:
+* [webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well](https://github.com/search?q=webkit%3A%20SystemImpl%3A%20Make%20systemIsDebuggable%28%29%20check%20IS_ENG%20as%20well&type=Commits)
+* [Revert "DO NOT MERGE Revert Privacy Indicators to P"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Revert%20Privacy%20Indicators%20to%20P"&type=Commits)
+* [Fix theme for PostCallActivity](https://github.com/search?q=Fix%20theme%20for%20PostCallActivity&type=Commits)
+* [Messaging: fix launch screen status bar color](https://github.com/search?q=Messaging%3A%20fix%20launch%20screen%20status%20bar%20color&type=Commits)
+* [repopick: Address PEP8 warnings regarding indentations and variable naming](https://github.com/search?q=repopick%3A%20Address%20PEP8%20warnings%20regarding%20indentations%20and%20variable%20naming&type=Commits)
+* [repopick: Use empty metavar parameter to fix help's indentation](https://github.com/search?q=repopick%3A%20Use%20empty%20metavar%20parameter%20to%20fix%20help%27s%20indentation&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-09-2020 End.
+
+08-08-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-08-2020:
+* [Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT](https://github.com/search?q=Add%20C2D_COLOR_FORMAT_420_P010%20to%20C2D_YUV_FORMAT&type=Commits)
+* [Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-08-2020 End.
+
+08-07-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-07-2020:
+* [wiki: devices: pro1: Use correct bootloader unlock command](https://github.com/search?q=wiki%3A%20devices%3A%20pro1%3A%20Use%20correct%20bootloader%20unlock%20command&type=Commits)
+* [kernel: Bail-out if kernel config isn't set](https://github.com/search?q=kernel%3A%20Bail-out%20if%20kernel%20config%20isn%27t%20set&type=Commits)
+* [kernel: Add support for module aliases](https://github.com/search?q=kernel%3A%20Add%20support%20for%20module%20aliases&type=Commits)
+* [kernel: Allow installing modules on vendor_overlay](https://github.com/search?q=kernel%3A%20Allow%20installing%20modules%20on%20vendor_overlay&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-07-2020 End.
+
+08-06-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-06-2020:
+* [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+* [Allow graceful degradation of MediaProfile with broken configuration.](https://github.com/search?q=Allow%20graceful%20degradation%20of%20MediaProfile%20with%20broken%20configuration.&type=Commits)
+* [wiki: Add Android 10 FW requirement for I01WD](https://github.com/search?q=wiki%3A%20Add%20Android%2010%20FW%20requirement%20for%20I01WD&type=Commits)
+* [wiki: Use proper before_install template for I001D](https://github.com/search?q=wiki%3A%20Use%20proper%20before_install%20template%20for%20I001D&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-06-2020 End.
+
+08-05-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-05-2020:
+* [Ship I001D](https://github.com/search?q=Ship%20I001D&type=Commits)
+* [Updated to 05-Aug-2020 14:16 UTC](https://github.com/search?q=Updated%20to%2005-Aug-2020%2014%3A16%20UTC&type=Commits)
+* [wiki: Add ROG Phone 2 (I001D)](https://github.com/search?q=wiki%3A%20Add%20ROG%20Phone%202%20%28I001D%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-05-2020 End.
+
+08-04-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-04-2020:
+* [manifest: android-10.0.0_r40 -> android-10.0.0_r41](https://github.com/search?q=manifest%3A%20android-10.0.0_r40%20->%20android-10.0.0_r41&type=Commits)
+* [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+* [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+* [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+* [crowdin: Improve error handling when push fails](https://github.com/search?q=crowdin%3A%20Improve%20error%20handling%20when%20push%20fails&type=Commits)
+* [crowdin: Enforce py3 and align style of strings](https://github.com/search?q=crowdin%3A%20Enforce%20py3%20and%20align%20style%20of%20strings&type=Commits)
+* [Settings: Fix icon size for ring volume](https://github.com/search?q=Settings%3A%20Fix%20icon%20size%20for%20ring%20volume&type=Commits)
+* [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-04-2020 End.
+
+08-02-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-02-2020:
+* [VolumeDialog: Prevent hiding the ally stream](https://github.com/search?q=VolumeDialog%3A%20Prevent%20hiding%20the%20ally%20stream&type=Commits)
+* [VolumeDialog: Implement expand/collapse animation](https://github.com/search?q=VolumeDialog%3A%20Implement%20expand/collapse%20animation&type=Commits)
+* [VolumeDialog: Move the media output selector next to the expandable indicator](https://github.com/search?q=VolumeDialog%3A%20Move%20the%20media%20output%20selector%20next%20to%20the%20expandable%20indicator&type=Commits)
+* [VolumeDialog: Treat ring volume the same as others on icon tap](https://github.com/search?q=VolumeDialog%3A%20Treat%20ring%20volume%20the%20same%20as%20others%20on%20icon%20tap&type=Commits)
+* [VolumeDialog: Fix muting streams with a minimal volume of 1](https://github.com/search?q=VolumeDialog%3A%20Fix%20muting%20streams%20with%20a%20minimal%20volume%20of%201&type=Commits)
+* [VolumeDialog: Hide the music row if there is an ally stream](https://github.com/search?q=VolumeDialog%3A%20Hide%20the%20music%20row%20if%20there%20is%20an%20ally%20stream&type=Commits)
+* [VolumeDialog: Set the gravity and rotation based on the panels location](https://github.com/search?q=VolumeDialog%3A%20Set%20the%20gravity%20and%20rotation%20based%20on%20the%20panels%20location&type=Commits)
+* [VolumeDialog: Show the notification stream when unlinked](https://github.com/search?q=VolumeDialog%3A%20Show%20the%20notification%20stream%20when%20unlinked&type=Commits)
+* [VolumeDialog: Convert CustomDialog to a View and configure ViewTreeObserver](https://github.com/search?q=VolumeDialog%3A%20Convert%20CustomDialog%20to%20a%20View%20and%20configure%20ViewTreeObserver&type=Commits)
+* [VolumeDialog: Redo expanded volume panel](https://github.com/search?q=VolumeDialog%3A%20Redo%20expanded%20volume%20panel&type=Commits)
+* [VolumeDialog: notifyVisible after the volume panel is fully hidden](https://github.com/search?q=VolumeDialog%3A%20notifyVisible%20after%20the%20volume%20panel%20is%20fully%20hidden&type=Commits)
+* [VolumeDialog: display default row when active row is notification](https://github.com/search?q=VolumeDialog%3A%20display%20default%20row%20when%20active%20row%20is%20notification&type=Commits)
+* [SystemUI: fix size of icon of vibrate ringer mode](https://github.com/search?q=SystemUI%3A%20fix%20size%20of%20icon%20of%20vibrate%20ringer%20mode&type=Commits)
+* [crowdin: Fix for unicode](https://github.com/search?q=crowdin%3A%20Fix%20for%20unicode&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-02-2020 End.
+
+08-01-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-01-2020:
+* [git: simplify commit message extraction command](https://github.com/search?q=git%3A%20simplify%20commit%20message%20extraction%20command&type=Commits)
+* [pre-upload: use first-parent diff for list of affected files](https://github.com/search?q=pre-upload%3A%20use%20first-parent%20diff%20for%20list%20of%20affected%20files&type=Commits)
+* [git: use "git rev-list" to get a revision listing](https://github.com/search?q=git%3A%20use%20"git%20rev-list"%20to%20get%20a%20revision%20listing&type=Commits)
+* [prebuilt: Clean up lineage-system.rc](https://github.com/search?q=prebuilt%3A%20Clean%20up%20lineage-system.rc&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-01-2020 End.
+
+07-31-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-31-2020:
+* [Failed to show hold call when user click swap and merge simultaneously](https://github.com/search?q=Failed%20to%20show%20hold%20call%20when%20user%20click%20swap%20and%20merge%20simultaneously&type=Commits)
+* [Revert "Remove application/SDP from Gallery2's ACTION_VIEW and REVIEW filters."](https://github.com/search?q=Revert%20"Remove%20application/SDP%20from%20Gallery2%27s%20ACTION_VIEW%20and%20REVIEW%20filters."&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-31-2020 End.
+
+07-30-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-30-2020:
+* [Add isFaceAuthEnabledForUser checks in KeyguardLiftController](https://github.com/search?q=Add%20isFaceAuthEnabledForUser%20checks%20in%20KeyguardLiftController&type=Commits)
+* [livedisplay: sysfs: Add generic implementation for simple sysfs modes](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Add%20generic%20implementation%20for%20simple%20sysfs%20modes&type=Commits)
+* [livedisplay: sysfs: Modularize all components](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Modularize%20all%20components&type=Commits)
+* [livedisplay: sysfs: Refine interface registration](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Refine%20interface%20registration&type=Commits)
+* [livedisplay: sysfs: Miscellaneous clean-ups](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Miscellaneous%20clean-ups&type=Commits)
+* [livedisplay: sysfs: Use POSIX api to check file access](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Use%20POSIX%20api%20to%20check%20file%20access&type=Commits)
+* [livedisplay: sysfs: Move string literals to anonymous namespace](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Move%20string%20literals%20to%20anonymous%20namespace&type=Commits)
+* [livedisplay: sysfs: Follow naming rules of Google C++ Style Guide](https://github.com/search?q=livedisplay%3A%20sysfs%3A%20Follow%20naming%20rules%20of%20Google%20C++%20Style%20Guide&type=Commits)
+* [livedisplay: sdm: Modularize all components](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Modularize%20all%20components&type=Commits)
+* [livedisplay: sdm: Fix a mismatched data type](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Fix%20a%20mismatched%20data%20type&type=Commits)
+* [livedisplay: sdm: Miscellaneous clean-ups](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Miscellaneous%20clean-ups&type=Commits)
+* [livedisplay: sdm: Improve SendDppsCommand](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Improve%20SendDppsCommand&type=Commits)
+* [livedisplay: sdm: Move constants and helpers to anonymous namespace](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Move%20constants%20and%20helpers%20to%20anonymous%20namespace&type=Commits)
+* [livedisplay: sdm: Move SDM feature version check to utils](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Move%20SDM%20feature%20version%20check%20to%20utils&type=Commits)
+* [livedisplay: sdm: Convert Utils class to namespace](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Convert%20Utils%20class%20to%20namespace&type=Commits)
+* [livedisplay: sdm: Use default member initializers](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Use%20default%20member%20initializers&type=Commits)
+* [livedisplay: sdm: Follow naming rules of Google C++ Style Guide](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Follow%20naming%20rules%20of%20Google%20C++%20Style%20Guide&type=Commits)
+* [livedisplay: sdm: Implement a sane callback to update default PA](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Implement%20a%20sane%20callback%20to%20update%20default%20PA&type=Commits)
+* [livedisplay: sdm: Restart when any QDCM backend not ready](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Restart%20when%20any%20QDCM%20backend%20not%20ready&type=Commits)
+* [livedisplay: sdm: Use RAII semantics where possible](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Use%20RAII%20semantics%20where%20possible&type=Commits)
+* [Pull upstream cpplint.py from github.com/google/styleguide](https://github.com/search?q=Pull%20upstream%20cpplint.py%20from%20github.com/google/styleguide&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-30-2020 End.
+
+07-28-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-28-2020:
+* [wiki: Add pre-install instructions for Xperia XZ2/XZ2c devices](https://github.com/search?q=wiki%3A%20Add%20pre-install%20instructions%20for%20Xperia%20XZ2/XZ2c%20devices&type=Commits)
+* [wiki: Merge all 'before_install_needs_android_{}_fw' templates](https://github.com/search?q=wiki%3A%20Merge%20all%20%27before_install_needs_android_{}_fw%27%20templates&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-28-2020 End.
+
+07-27-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-27-2020:
+* [update-payload-extractor: Remove dynamic partition support](https://github.com/search?q=update-payload-extractor%3A%20Remove%20dynamic%20partition%20support&type=Commits)
+* [update-payload-extractor: Switch to env python](https://github.com/search?q=update-payload-extractor%3A%20Switch%20to%20env%20python&type=Commits)
+* [update-payload-extractor: Import master update_payload](https://github.com/search?q=update-payload-extractor%3A%20Import%20master%20update_payload&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-27-2020 End.
+
+07-26-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-26-2020:
+* [hudson: mmmm bacon](https://github.com/search?q=hudson%3A%20mmmm%20bacon&type=Commits)
+* [Updated to 26-Jul-2020 13:22 UTC](https://github.com/search?q=Updated%20to%2026-Jul-2020%2013%3A22%20UTC&type=Commits)
+* [wiki: devices: Promote bacon to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20bacon%20to%2017.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-26-2020 End.
+
+07-25-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-25-2020:
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [hudson: Add Sony Xperia XZ2 (akari)](https://github.com/search?q=hudson%3A%20Add%20Sony%20Xperia%20XZ2%20%28akari%29&type=Commits)
+* [hudson: Add Sony Xperia XZ2 Compact (xz2c)](https://github.com/search?q=hudson%3A%20Add%20Sony%20Xperia%20XZ2%20Compact%20%28xz2c%29&type=Commits)
+* [wiki: Add Sony Xperia XZ2 Compact (xz2c)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ2%20Compact%20%28xz2c%29&type=Commits)
+* [wiki: Add Sony Xperia XZ2 (akari)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ2%20%28akari%29&type=Commits)
+* [Messaging: Fix quick reply choices on wearable devices](https://github.com/search?q=Messaging%3A%20Fix%20quick%20reply%20choices%20on%20wearable%20devices&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-25-2020 End.
+
+07-24-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-24-2020:
+* [DeskClock: Fix alarm clock screen show black  when screen locked;](https://github.com/search?q=DeskClock%3A%20Fix%20alarm%20clock%20screen%20show%20black%20%20when%20screen%20locked;&type=Commits)
+* [AOSP/DeskClock - Call executePendingTransactions only if mFragmentManager is not destroyed. Fixes the crash bug. Code matches internal code.](https://github.com/search?q=AOSP/DeskClock%20-%20Call%20executePendingTransactions%20only%20if%20mFragmentManager%20is%20not%20destroyed.%20Fixes%20the%20crash%20bug.%20Code%20matches%20internal%20code.&type=Commits)
+* [Messaging: Fix quick reply feature on non wearable devices](https://github.com/search?q=Messaging%3A%20Fix%20quick%20reply%20feature%20on%20non%20wearable%20devices&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-24-2020 End.
+
+07-23-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-23-2020:
+* [recovery: fixup `compute displayable item count while drawing`](https://github.com/search?q=recovery%3A%20fixup%20%60compute%20displayable%20item%20count%20while%20drawing%60&type=Commits)
+* [wiki: Fix F(x)tec Pro¹ branding](https://github.com/search?q=wiki%3A%20Fix%20F%28x%29tec%20Pro¹%20branding&type=Commits)
+* [Fix voicemail for Bouygues Telecom France](https://github.com/search?q=Fix%20voicemail%20for%20Bouygues%20Telecom%20France&type=Commits)
+* [Dialer: Fix launch screen status bar color](https://github.com/search?q=Dialer%3A%20Fix%20launch%20screen%20status%20bar%20color&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-23-2020 End.
+
+07-22-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-22-2020:
+* [Purge unused native memory before Zygote fork events](https://github.com/search?q=Purge%20unused%20native%20memory%20before%20Zygote%20fork%20events&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-22-2020 End.
+
+07-21-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-21-2020:
+* [Fix color mismatch of pointers](https://github.com/search?q=Fix%20color%20mismatch%20of%20pointers&type=Commits)
+* [repopick: Use upstream instead of revision to determine branch](https://github.com/search?q=repopick%3A%20Use%20upstream%20instead%20of%20revision%20to%20determine%20branch&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-21-2020 End.
+
+07-20-2020
+====================
+
 #### Device specific Changes of 07-20-2020 Start:
 
 #### Device/Quark/
 * [Quark: Update hardware HEVC decoder quirks and limits](https://github.com/search?q=Quark%3A%20Update%20hardware%20HEVC%20decoder%20quirks%20and%20limits&type=Commits)
 * [Quark: power: Ignore interaction boost sequence in a short period](https://github.com/search?q=Quark%3A%20power%3A%20Ignore%20interaction%20boost%20sequence%20in%20a%20short%20period&type=Commits)
-
-#### Kernel/Quark/
-* [scsi: devinfo: Fix incorrect strncpy usage](https://github.com/search?q=scsi%3A%20devinfo%3A%20Fix%20incorrect%20strncpy%20usage&type=Commits)
-* [configfs: replace strncpy with memcpy](https://github.com/search?q=configfs%3A%20replace%20strncpy%20with%20memcpy&type=Commits)
-* [AIO: Don't plug the I/O queue in do_io_submit()](https://github.com/search?q=AIO%3A%20Don%27t%20plug%20the%20I/O%20queue%20in%20do_io_submit%28%29&type=Commits)
-* [Revert "fs: Async I/O latency to a ssd greatly increased"](https://github.com/search?q=Revert%20"fs%3A%20Async%20I/O%20latency%20to%20a%20ssd%20greatly%20increased"&type=Commits)
-* [kobject: Replace strncpy with memcpy](https://github.com/search?q=kobject%3A%20Replace%20strncpy%20with%20memcpy&type=Commits)
-* [msm: Fix high load average from uninterruptible waits](https://github.com/search?q=msm%3A%20Fix%20high%20load%20average%20from%20uninterruptible%20waits&type=Commits)
-* [exec: Always set cap_ambient in cap_bprm_set_creds](https://github.com/search?q=exec%3A%20Always%20set%20cap_ambient%20in%20cap_bprm_set_creds&type=Commits)
-* [include/asm-generic/topology.h: guard cpumask_of_node() macro argument](https://github.com/search?q=include/asm-generic/topology.h%3A%20guard%20cpumask_of_node%28%29%20macro%20argument&type=Commits)
-* [cpumask: fix spurious cpumask_of_node() on non-NUMA multi-node configs](https://github.com/search?q=cpumask%3A%20fix%20spurious%20cpumask_of_node%28%29%20on%20non-NUMA%20multi-node%20configs&type=Commits)
-* [iommu: Fix reference count leak in iommu_group_alloc.](https://github.com/search?q=iommu%3A%20Fix%20reference%20count%20leak%20in%20iommu_group_alloc.&type=Commits)
-* [block: nr_sects_write(): Disable preemption on seqcount write](https://github.com/search?q=block%3A%20nr_sects_write%28%29%3A%20Disable%20preemption%20on%20seqcount%20write&type=Commits)
-* [crypto: algboss - don't wait during notifier callback](https://github.com/search?q=crypto%3A%20algboss%20-%20don%27t%20wait%20during%20notifier%20callback&type=Commits)
-* [kprobes: Fix to protect kick_kprobe_optimizer() by kprobe_mutex](https://github.com/search?q=kprobes%3A%20Fix%20to%20protect%20kick_kprobe_optimizer%28%29%20by%20kprobe_mutex&type=Commits)
-* [slob: Rework #ifdeffery in slab.h](https://github.com/search?q=slob%3A%20Rework%20%23ifdeffery%20in%20slab.h&type=Commits)
-* [mm, slab_common: add 'unlikely' to size check of kmalloc_slab()](https://github.com/search?q=mm,%20slab_common%3A%20add%20%27unlikely%27%20to%20size%20check%20of%20kmalloc_slab%28%29&type=Commits)
-* [drivers: base: Fix NULL pointer exception in __platform_driver_probe() if a driver developer is foolish](https://github.com/search?q=drivers%3A%20base%3A%20Fix%20NULL%20pointer%20exception%20in%20__platform_driver_probe%28%29%20if%20a%20driver%20developer%20is%20foolish&type=Commits)
-* [zram: remove obsolete ZRAM_DEBUG option](https://github.com/search?q=zram%3A%20remove%20obsolete%20ZRAM_DEBUG%20option&type=Commits)
-* [lib/zlib: remove outdated and incorrect pre-increment optimization](https://github.com/search?q=lib/zlib%3A%20remove%20outdated%20and%20incorrect%20pre-increment%20optimization&type=Commits)
-* [staging: android: ion: use vmap instead of vm_map_ram](https://github.com/search?q=staging%3A%20android%3A%20ion%3A%20use%20vmap%20instead%20of%20vm_map_ram&type=Commits)
-* [Bluetooth: Add SCO fallback for invalid LMP parameters error](https://github.com/search?q=Bluetooth%3A%20Add%20SCO%20fallback%20for%20invalid%20LMP%20parameters%20error&type=Commits)
-* [xhci: Remove BUG_ON in xhci_get_input_control_ctx.](https://github.com/search?q=xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx.&type=Commits)
-* [Revert "xhci: Remove BUG_ON in xhci_get_input_control_ctx."](https://github.com/search?q=Revert%20"xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx."&type=Commits)
-* [block: Fix use-after-free in blkdev_get()](https://github.com/search?q=block%3A%20Fix%20use-after-free%20in%20blkdev_get%28%29&type=Commits)
-* [cpuidle: Fix three reference count leaks](https://github.com/search?q=cpuidle%3A%20Fix%20three%20reference%20count%20leaks&type=Commits)
-* [l2tp: Allow duplicate session creation with UDP](https://github.com/search?q=l2tp%3A%20Allow%20duplicate%20session%20creation%20with%20UDP&type=Commits)
-* [ip_tunnel: fix use-after-free in ip_tunnel_lookup()](https://github.com/search?q=ip_tunnel%3A%20fix%20use-after-free%20in%20ip_tunnel_lookup%28%29&type=Commits)
-* [tcp_cubic: fix spurious HYSTART_DELAY exit upon drop in min RTT](https://github.com/search?q=tcp_cubic%3A%20fix%20spurious%20HYSTART_DELAY%20exit%20upon%20drop%20in%20min%20RTT&type=Commits)
-* [ALSA: usb-audio: uac1: Invalidate ctl on interrupt](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20uac1%3A%20Invalidate%20ctl%20on%20interrupt&type=Commits)
-* [xhci: Fix enumeration issue when setting max packet size for FS devices.](https://github.com/search?q=xhci%3A%20Fix%20enumeration%20issue%20when%20setting%20max%20packet%20size%20for%20FS%20devices.&type=Commits)
-* [xhci: Fix incorrect EP_STATE_MASK](https://github.com/search?q=xhci%3A%20Fix%20incorrect%20EP_STATE_MASK&type=Commits)
-* [sctp: Don't advertise IPv4 addresses if ipv6only is set on the socket](https://github.com/search?q=sctp%3A%20Don%27t%20advertise%20IPv4%20addresses%20if%20ipv6only%20is%20set%20on%20the%20socket&type=Commits)
-* [net: Do not clear the sock TX queue in sk_set_socket()](https://github.com/search?q=net%3A%20Do%20not%20clear%20the%20sock%20TX%20queue%20in%20sk_set_socket%28%29&type=Commits)
-* [net: core: reduce recursion limit value](https://github.com/search?q=net%3A%20core%3A%20reduce%20recursion%20limit%20value&type=Commits)
-* [mm/slab: use memzero_explicit() in kzfree()](https://github.com/search?q=mm/slab%3A%20use%20memzero_explicit%28%29%20in%20kzfree%28%29&type=Commits)
-* [net: core: device_rename: Use rwsem instead of a seqcount](https://github.com/search?q=net%3A%20core%3A%20device_rename%3A%20Use%20rwsem%20instead%20of%20a%20seqcount&type=Commits)
-* [selinux: fix double free](https://github.com/search?q=selinux%3A%20fix%20double%20free&type=Commits)
-* [net: fix memleak in register_netdevice()](https://github.com/search?q=net%3A%20fix%20memleak%20in%20register_netdevice%28%29&type=Commits)
-* [qseecom: don't unregister listener when data->released is true](https://github.com/search?q=qseecom%3A%20don%27t%20unregister%20listener%20when%20data->released%20is%20true&type=Commits)
-* [Input: add safety guards to input_set_keycode()](https://github.com/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
-* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
-* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
-* [cpufreq: Reformat printk() statements](https://github.com/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
-* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
-* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
-* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
-* [proc: much faster /proc/vmstat](https://github.com/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
 
 #### Device specific Changes of 07-20-2020 End.
 
