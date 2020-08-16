@@ -84,7 +84,7 @@ contains() {
 }
 
 git_log_repo() {
-    repo forall -c 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
+    repo forall -pc 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
         project=0;
         temp_test="$string";
         contains "$temp_test" "project" && project=1;
@@ -122,7 +122,7 @@ for i in $(seq $days_to_log); do
     device=$(cd $device_tree && git log --oneline --after=$After_Date --until=$Until_Date);
     kernel=$(cd $kernel_tree && git log --oneline --after=$After_Date --until=$Until_Date);
     vendor=$(cd $vendor_tree && git log --oneline --after=$After_Date --until=$Until_Date);
-    source=$(repo forall -c 'git log --oneline --after=$After_Date --until=$Until_Date');
+    source=$(repo forall -pc 'git log --oneline --after=$After_Date --until=$Until_Date');
 
     if [ -n "${device##+([:space:])}" ] || [ -n "${kernel##+([:space:])}" ] || [ -n "${vendor##+([:space:])}" ] || [ -n "${source##+([:space:])}" ]; then
         # Line with after --- until was too long for a small ListView

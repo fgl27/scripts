@@ -84,6 +84,7 @@ Deleting the old Home
 
 	sudo add-apt-repository ppa:papirus/papirus
 	sudo apt-get install papirus-icon-theme
+	
 	wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
 	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 	sudo apt-get install github-desktop
@@ -92,7 +93,7 @@ Deleting the old Home
 #### libreoffice start
 
 	sudo add-apt-repository ppa:libreoffice/ppa
-	libreoffice libreoffice-lightproof-pt-br libreoffice-help-pt-br  libreoffice-l10n-pt-br hunspell-pt-br
+	sudo apt-get -y install libreoffice libreoffice-lightproof-pt-br libreoffice-help-pt-br  libreoffice-l10n-pt-br hunspell-pt-br
 
 #### teamviewer access
 
