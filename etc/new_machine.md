@@ -243,21 +243,19 @@ SystemMaxUse=100M
 ##  nodejs start
 
 ```bash
-sudo apt-get -y install npm
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+# setup_14.x change to latest version from https://nodejs.org/en/
+
+# Fix install permission
+```bash
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
-echo "export PATH=~/.npm-global/bin:$PATH" > ~/.profile
+echo "export PATH=~/.npm-global/bin:$PATH" > ~/.bashrc
 npm install js-beautify jshint uglify-js html-minifier crass -g
 ```
 
-curl https://www.npmjs.com/install.sh | sudo sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
-nvm ls-remote
-npm cache clean -f
-nvm install  v13.11.0
-nvm ls
-nvm use v13.11.0
-nvm alias default v13.11.0
 ##  nodejs end
 
 ## install tizen start
