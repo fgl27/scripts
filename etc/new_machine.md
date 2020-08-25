@@ -80,7 +80,7 @@ Deleting the old Home
 
 #### Personal installation list (things only really related to my personal use of a computer)
 
-	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar
+	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar baobab stacer
 
 	sudo add-apt-repository ppa:papirus/papirus
 	sudo apt-get install papirus-icon-theme
@@ -253,7 +253,7 @@ sudo apt-get install -y nodejs
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" > ~/.bashrc
-npm install js-beautify jshint uglify-js html-minifier crass -g
+npm install js-beautify jshint uglify-js html-minifier crass http-server -g
 ```
 
 ##  nodejs end
