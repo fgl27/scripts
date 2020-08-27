@@ -99,6 +99,11 @@ Deleting the old Home
 
 	wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 	sudo dpkg -i teamviewer_amd64.deb
+	
+#### enable ssh
+
+    sudo apt install ssh
+    sudo systemctl enable --now ssh
 
 #### Purge part, some default Ubuntu drivers are not supported on my computer
 
@@ -120,6 +125,9 @@ Deleting the old Home
 #### For extra android ROM and Kernel builds do the above and the bellow
 
 	sudo apt-get -y install bc git-core gnupg flex bison gperf libsdl1.2-dev squashfs-tools zip libncurses5-dev zlib1g-dev schedtool libxml2 libxml2-utils xsltproc lzop liblz4-* lzma* liblzma* libc6-dev g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp lib32stdc++6 ccache alien
+	
+#### fix `/usr/bin/env: ‘python’: No such file or directory`
+	sudo ln -s /usr/bin/python3 /usr/bin/python
 
 #### Repo
 	cd
@@ -271,18 +279,25 @@ Extension SDK Install Samsung Certificate Extension, and under TV Extension Tool
 
 ## iso to bootable USB start
 
+sudo apt install usb-creator-gtk
+
 list
 
 	sudo fdisk -l
-	umount /dev/sdb
+	umount /dev/sdb1
 
 copy
 
-	sudo dd if=filename.iso of=/dev/sdb bs=4M 
+	sudo dd if=/home/fgl27/Downloads/torrents/ubuntu-20.04.1-desktop-amd64.iso of=/dev/sdb1 bs=4M 
+
+x-special/nautilus-clipboard
+copy
+file:///home/fgl27/Downloads/torrents/ubuntu-20.04.1-desktop-amd64.iso
+
 
 sync
 
-	sudo eject /dev/sdb
+	sudo eject /dev/sdb1
 
 ## iso to bootable USB end
 
