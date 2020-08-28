@@ -81,9 +81,6 @@ Deleting the old Home
 #### Personal installation list (things only really related to my personal use of a computer)
 
 	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar baobab stacer vino remmina
-
-	sudo add-apt-repository ppa:papirus/papirus
-	sudo apt-get install papirus-icon-theme
 	
 	wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
 	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
@@ -127,7 +124,7 @@ Deleting the old Home
 
 #### For extra android ROM and Kernel builds do the above and the bellow
 
-	sudo apt-get -y install bc git-core gnupg flex bison gperf libsdl1.2-dev squashfs-tools zip libncurses5-dev zlib1g-dev schedtool libxml2 libxml2-utils xsltproc lzop liblz4-* lzma* liblzma* libc6-dev g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp lib32stdc++6 ccache alien
+	sudo apt-get -y install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev libwxgtk3.0-gtk3-dev
 	
 #### fix `/usr/bin/env: ‘python’: No such file or directory`
 	sudo ln -s /usr/bin/python3 /usr/bin/python
