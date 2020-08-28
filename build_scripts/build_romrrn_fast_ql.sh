@@ -7,7 +7,7 @@ START2="$(date)";
 echo -e "\n build start $(date)\n";
 
 #source tree folder yours machine source folder
-FOLDER_L=~/android/Q;
+FOLDER_L=~/android/q;
 
 echo -e "\nCommit?\n 1 = Yes\n"
 read -r input1

@@ -80,7 +80,7 @@ Deleting the old Home
 
 #### Personal installation list (things only really related to my personal use of a computer)
 
-	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar baobab stacer
+	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar baobab stacer vino remmina
 
 	sudo add-apt-repository ppa:papirus/papirus
 	sudo apt-get install papirus-icon-theme
@@ -89,6 +89,9 @@ Deleting the old Home
 	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 	sudo apt-get install github-desktop
 
+#### allow conect from android via vnc app using ubuntu vino sharing option
+
+	gsettings set org.gnome.Vino require-encryption false
 
 #### libreoffice start
 
