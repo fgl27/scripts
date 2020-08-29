@@ -81,13 +81,13 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
-    #topic:ten-qc-telephony-fix https://review.lineageos.org/q/topic:%22ten-qc-telephony-fix%22+(status:open%20OR%20status:merged)
-	folder="frameworks/opt/telephony";
-	echo -e "\\n	In Folder $folder \\n"
-
-	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_opt_telephony/ lineage-17.1 && git cherry-pick a24765ceb95b18b6d3efbd35f3c636d336b64757^..2efeb15d84a897228444abd5420ec84723f276c3
-	cd - &> /dev/null || exit;
+#	topic:ten-qc-telephony-fix https://review.lineageos.org/q/topic:%22ten-qc-telephony-fix%22+(status:open%20OR%20status:merged)
+#	folder="frameworks/opt/telephony";
+#	echo -e "\\n	In Folder $folder \\n"
+#
+#	cd $folder || exit;
+#	git fetch https://github.com/fgl27/android_frameworks_opt_telephony/ lineage-17.1 && git cherry-pick a24765ceb95b18b6d3efbd35f3c636d336b64757^..2efeb15d84a897228444abd5420ec84723f276c3
+#	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
 
