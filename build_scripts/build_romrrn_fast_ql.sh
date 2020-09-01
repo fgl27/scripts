@@ -51,6 +51,16 @@ if [ "$input1" == "1" ]; then
 
 	echo -e "\\n	out Folder $folder"
 
+    #minor improves to parts
+	folder="packages/apps/LineageParts";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_packages_apps_LineageParts-1 lineage-17.1 && git cherry-pick dbbac83769e94ec84662b036cfe5de40fd72d726
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
+
     #allow to update from my sourceforge
 	folder="packages/apps/Updater";
 	echo -e "\\n	In Folder $folder \\n"
