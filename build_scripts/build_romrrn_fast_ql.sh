@@ -172,17 +172,6 @@ if [ "$input1" == "1" ]; then
 
 fi
 
-#Set Branch and Update local cloned folders
-cd kernel/motorola/apq8084/
-git checkout Q
-git pull origin Q
-cd - &> /dev/null || exit;
-
-cd vendor/motorola/
-git checkout Q
-git pull origin Q
-cd - &> /dev/null || exit;
-
 #Fix build new hw qcom folders conflict with apq8084 folder
 #hardware/qcom-caf/apq8084/display/libqdutils: MODULE.TARGET.SHARED_LIBRARIES.libqdutils already defined by hardware/qcom-caf/sm8250/display/libqdutils.
 rm -rf hardware/qcom-caf/sm8250/
