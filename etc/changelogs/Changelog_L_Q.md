@@ -1,6 +1,6 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
-
+	
 09-03-2020
 ====================
 

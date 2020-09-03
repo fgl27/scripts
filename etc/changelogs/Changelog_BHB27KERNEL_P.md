@@ -3,56 +3,221 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
-08-10-2020
+09-01-2020
 ====================
 
-* [Kernel v 9.46](https://github.com/bhb27/BHB27Kernel/search?q=Kernel%20v%209.46&type=Commits)
-
-***
-
-06-28-2020
-====================
-
-* [Update arch/arm/configs/twrp_defconfigo](https://github.com/bhb27/BHB27Kernel/search?q=Update%20arch/arm/configs/twrp_defconfigo&type=Commits)
-
-***
-
-06-02-2020
-====================
-
+* [kernel V9.49](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.49&type=Commits)
+* [fix ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=fix%20ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
 * [dsp: adm: Add error check to avoid memory overread](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20adm%3A%20Add%20error%20check%20to%20avoid%20memory%20overread&type=Commits)
 * [dsp: adm: Fix to avoid memory overread in adm callback](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20adm%3A%20Fix%20to%20avoid%20memory%20overread%20in%20adm%20callback&type=Commits)
 * [ASoC: msm: Add bounds checking to ADM get params](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
 * [ASoC: msm: fix bounds checking for ADM get params](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20fix%20bounds%20checking%20for%20ADM%20get%20params&type=Commits)
-* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
-* [ASoC: msm: Fix ADM GET PARAM callback](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20Fix%20ADM%20GET%20PARAM%20callback&type=Commits)
-* [Revert "ASoC: msm: Add bounds checking to ADM get params"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params"&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
 * [msm: adm: validate ADSP payload size before access](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20adm%3A%20validate%20ADSP%20payload%20size%20before%20access&type=Commits)
+* [power: battery_current_limit: Remove hotplug control completely](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely&type=Commits)
+* [Revert "bcl: allow to write to bcl_hotplug_mask"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"bcl%3A%20allow%20to%20write%20to%20bcl_hotplug_mask"&type=Commits)
 * [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
+* [msm: subsystem_restart: Add workqueue for device restart](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20subsystem_restart%3A%20Add%20workqueue%20for%20device%20restart&type=Commits)
+* [msm: subsystem-restart: Replace using wake lock APIs](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20subsystem-restart%3A%20Replace%20using%20wake%20lock%20APIs&type=Commits)
+* [msm: ssr: Add notification to indicate a device restart](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ssr%3A%20Add%20notification%20to%20indicate%20a%20device%20restart&type=Commits)
+* [msm: Move PIL and SSR drivers to drivers/soc/msm](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20Move%20PIL%20and%20SSR%20drivers%20to%20drivers/soc/msm&type=Commits)
+* [soc: qcom: bam_dmux: Replace wake locks with wakeup sources](https://github.com/bhb27/BHB27Kernel/search?q=soc%3A%20qcom%3A%20bam_dmux%3A%20Replace%20wake%20locks%20with%20wakeup%20sources&type=Commits)
+* [char: msm_smd_pkt: flush pending work on release](https://github.com/bhb27/BHB27Kernel/search?q=char%3A%20msm_smd_pkt%3A%20flush%20pending%20work%20on%20release&type=Commits)
+* [char: msm_smd_pkt: Remove hexdump of userspace read/write buffers](https://github.com/bhb27/BHB27Kernel/search?q=char%3A%20msm_smd_pkt%3A%20Remove%20hexdump%20of%20userspace%20read/write%20buffers&type=Commits)
+* [char: msm_smd_pkt: Rate limit error logs in smd pkt functions](https://github.com/bhb27/BHB27Kernel/search?q=char%3A%20msm_smd_pkt%3A%20Rate%20limit%20error%20logs%20in%20smd%20pkt%20functions&type=Commits)
+* [char: msm_smd_pkt: Add warning to driver removal function](https://github.com/bhb27/BHB27Kernel/search?q=char%3A%20msm_smd_pkt%3A%20Add%20warning%20to%20driver%20removal%20function&type=Commits)
+* [ALSA: info: Drop WARN_ON() from buffer NULL sanity check](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20info%3A%20Drop%20WARN_ON%28%29%20from%20buffer%20NULL%20sanity%20check&type=Commits)
+* [i2c: dev: Fix the race between the release of i2c_dev and cdev](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20dev%3A%20Fix%20the%20race%20between%20the%20release%20of%20i2c_dev%20and%20cdev&type=Commits)
+* [i2c-dev: don't get i2c adapter via i2c_dev](https://github.com/bhb27/BHB27Kernel/search?q=i2c-dev%3A%20don%27t%20get%20i2c%20adapter%20via%20i2c_dev&type=Commits)
+* [i2c: dev: use after free in detach](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20dev%3A%20use%20after%20free%20in%20detach&type=Commits)
+* [i2c: dev: don't start function name with 'return'](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20dev%3A%20don%27t%20start%20function%20name%20with%20%27return%27&type=Commits)
+* [i2c: dev: switch from register_chrdev to cdev API](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20dev%3A%20switch%20from%20register_chrdev%20to%20cdev%20API&type=Commits)
+* [i2c: dev: fix potential memory leak in i2cdev_ioctl_rdwr](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20dev%3A%20fix%20potential%20memory%20leak%20in%20i2cdev_ioctl_rdwr&type=Commits)
+* [i2c: dev: prevent adapter retries and timeout being set as minus value](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20dev%3A%20prevent%20adapter%20retries%20and%20timeout%20being%20set%20as%20minus%20value&type=Commits)
+* [i2c: remove FSF address](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20remove%20FSF%20address&type=Commits)
+* [i2c: i2c-dev: Create 'name' attribute automatically](https://github.com/bhb27/BHB27Kernel/search?q=i2c%3A%20i2c-dev%3A%20Create%20%27name%27%20attribute%20automatically&type=Commits)
+* [sysfs: add more helper macro's for (bin_)attribute(_groups)](https://github.com/bhb27/BHB27Kernel/search?q=sysfs%3A%20add%20more%20helper%20macro%27s%20for%20%28bin_%29attribute%28_groups%29&type=Commits)
+* [sysfs.h: add BIN_ATTR macro](https://github.com/bhb27/BHB27Kernel/search?q=sysfs.h%3A%20add%20BIN_ATTR%20macro&type=Commits)
+* [sysfs.h: add ATTRIBUTE_GROUPS() macro](https://github.com/bhb27/BHB27Kernel/search?q=sysfs.h%3A%20add%20ATTRIBUTE_GROUPS%28%29%20macro&type=Commits)
+* [sysfs.h: add __ATTR_RW() macro](https://github.com/bhb27/BHB27Kernel/search?q=sysfs.h%3A%20add%20__ATTR_RW%28%29%20macro&type=Commits)
+* [driver core: add default groups to struct class](https://github.com/bhb27/BHB27Kernel/search?q=driver%20core%3A%20add%20default%20groups%20to%20struct%20class&type=Commits)
+* [chardev: add helper function to register char devs with a struct device](https://github.com/bhb27/BHB27Kernel/search?q=chardev%3A%20add%20helper%20function%20to%20register%20char%20devs%20with%20a%20struct%20device&type=Commits)
+* [driver core: create write-only attribute macros for devices and drivers](https://github.com/bhb27/BHB27Kernel/search?q=driver%20core%3A%20create%20write-only%20attribute%20macros%20for%20devices%20and%20drivers&type=Commits)
+* [driver core: device.h: add RW and RO attribute macros](https://github.com/bhb27/BHB27Kernel/search?q=driver%20core%3A%20device.h%3A%20add%20RW%20and%20RO%20attribute%20macros&type=Commits)
+* [msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20use%20%pK%20instead%20of%20%p%20which%20respects%20kptr_restrict%20sysctl&type=Commits)
+* [msm: vidc: fix a race condition in OCMEM free function](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20fix%20a%20race%20condition%20in%20OCMEM%20free%20function&type=Commits)
+* [msm: vidc: Cancel pending power collapse works in core_release](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Cancel%20pending%20power%20collapse%20works%20in%20core_release&type=Commits)
+* [msm: vidc: Handle the dangling sessions in hfi sessions list](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Handle%20the%20dangling%20sessions%20in%20hfi%20sessions%20list&type=Commits)
+* [msm: vidc: Error handling when core is in bad state](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Error%20handling%20when%20core%20is%20in%20bad%20state&type=Commits)
+* [msm: vidc: WARN_ON() reveals fuction addresses](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20WARN_ON%28%29%20reveals%20fuction%20addresses&type=Commits)
+* [msm: vidc: Convert macros into inline functions](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Convert%20macros%20into%20inline%20functions&type=Commits)
+* [ANDROID: fix a bug in quota2](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20fix%20a%20bug%20in%20quota2&type=Commits)
+* [USB: core: Fix free-while-in-use bug in the USB S-Glibrary](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20core%3A%20Fix%20free-while-in-use%20bug%20in%20the%20USB%20S-Glibrary&type=Commits)
+* [drivers: usb: core: Minimize irq disabling in usb_sg_cancel()](https://github.com/bhb27/BHB27Kernel/search?q=drivers%3A%20usb%3A%20core%3A%20Minimize%20irq%20disabling%20in%20usb_sg_cancel%28%29&type=Commits)
+* [drivers: usb: core: Don't disable irqs in usb_sg_wait() during URB submit.](https://github.com/bhb27/BHB27Kernel/search?q=drivers%3A%20usb%3A%20core%3A%20Don%27t%20disable%20irqs%20in%20usb_sg_wait%28%29%20during%20URB%20submit.&type=Commits)
+* [USB: core: Fix misleading driver bug report](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20core%3A%20Fix%20misleading%20driver%20bug%20report&type=Commits)
+* [USB: simplify the interface of usb_get_status()](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20simplify%20the%20interface%20of%20usb_get_status%28%29&type=Commits)
+* [usb: core: log higher level message on malformed LANGID descriptor](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20core%3A%20log%20higher%20level%20message%20on%20malformed%20LANGID%20descriptor&type=Commits)
+* [usb: message: Fixed error: 'no space before bracket'](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20message%3A%20Fixed%20error%3A%20%27no%20space%20before%20bracket%27&type=Commits)
+* [usb: message: Fixed parenthesis error in sizeof function.](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20message%3A%20Fixed%20parenthesis%20error%20in%20sizeof%20function.&type=Commits)
+* [usb: fix some scripts/kernel-doc warnings](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20fix%20some%20scripts/kernel-doc%20warnings&type=Commits)
+* [USB: core: Fix unterminated string returned by usb_string()](https://github.com/bhb27/BHB27Kernel/search?q=USB%3A%20core%3A%20Fix%20unterminated%20string%20returned%20by%20usb_string%28%29&type=Commits)
+* [selinux: properly handle multiple messages in selinux_netlink_send()](https://github.com/bhb27/BHB27Kernel/search?q=selinux%3A%20properly%20handle%20multiple%20messages%20in%20selinux_netlink_send%28%29&type=Commits)
+* [selinux: rate-limit netlink message warnings in selinux_nlmsg_perm()](https://github.com/bhb27/BHB27Kernel/search?q=selinux%3A%20rate-limit%20netlink%20message%20warnings%20in%20selinux_nlmsg_perm%28%29&type=Commits)
+* [selinux: Print 'sclass' as string when unrecognized netlink message occurs](https://github.com/bhb27/BHB27Kernel/search?q=selinux%3A%20Print%20%27sclass%27%20as%20string%20when%20unrecognized%20netlink%20message%20occurs&type=Commits)
+* [scsi: devinfo: Fix incorrect strncpy usage](https://github.com/bhb27/BHB27Kernel/search?q=scsi%3A%20devinfo%3A%20Fix%20incorrect%20strncpy%20usage&type=Commits)
+* [configfs: replace strncpy with memcpy](https://github.com/bhb27/BHB27Kernel/search?q=configfs%3A%20replace%20strncpy%20with%20memcpy&type=Commits)
+* [AIO: Don't plug the I/O queue in do_io_submit()](https://github.com/bhb27/BHB27Kernel/search?q=AIO%3A%20Don%27t%20plug%20the%20I/O%20queue%20in%20do_io_submit%28%29&type=Commits)
+* [Revert "fs: Async I/O latency to a ssd greatly increased"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"fs%3A%20Async%20I/O%20latency%20to%20a%20ssd%20greatly%20increased"&type=Commits)
+* [kobject: Replace strncpy with memcpy](https://github.com/bhb27/BHB27Kernel/search?q=kobject%3A%20Replace%20strncpy%20with%20memcpy&type=Commits)
+* [msm: Fix high load average from uninterruptible waits](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20Fix%20high%20load%20average%20from%20uninterruptible%20waits&type=Commits)
+* [exec: Always set cap_ambient in cap_bprm_set_creds](https://github.com/bhb27/BHB27Kernel/search?q=exec%3A%20Always%20set%20cap_ambient%20in%20cap_bprm_set_creds&type=Commits)
+* [include/asm-generic/topology.h: guard cpumask_of_node() macro argument](https://github.com/bhb27/BHB27Kernel/search?q=include/asm-generic/topology.h%3A%20guard%20cpumask_of_node%28%29%20macro%20argument&type=Commits)
+* [cpumask: fix spurious cpumask_of_node() on non-NUMA multi-node configs](https://github.com/bhb27/BHB27Kernel/search?q=cpumask%3A%20fix%20spurious%20cpumask_of_node%28%29%20on%20non-NUMA%20multi-node%20configs&type=Commits)
+* [iommu: Fix reference count leak in iommu_group_alloc.](https://github.com/bhb27/BHB27Kernel/search?q=iommu%3A%20Fix%20reference%20count%20leak%20in%20iommu_group_alloc.&type=Commits)
+* [block: nr_sects_write(): Disable preemption on seqcount write](https://github.com/bhb27/BHB27Kernel/search?q=block%3A%20nr_sects_write%28%29%3A%20Disable%20preemption%20on%20seqcount%20write&type=Commits)
+* [crypto: algboss - don't wait during notifier callback](https://github.com/bhb27/BHB27Kernel/search?q=crypto%3A%20algboss%20-%20don%27t%20wait%20during%20notifier%20callback&type=Commits)
+* [kprobes: Fix to protect kick_kprobe_optimizer() by kprobe_mutex](https://github.com/bhb27/BHB27Kernel/search?q=kprobes%3A%20Fix%20to%20protect%20kick_kprobe_optimizer%28%29%20by%20kprobe_mutex&type=Commits)
+* [slob: Rework #ifdeffery in slab.h](https://github.com/bhb27/BHB27Kernel/search?q=slob%3A%20Rework%20%23ifdeffery%20in%20slab.h&type=Commits)
+* [mm, slab_common: add 'unlikely' to size check of kmalloc_slab()](https://github.com/bhb27/BHB27Kernel/search?q=mm,%20slab_common%3A%20add%20%27unlikely%27%20to%20size%20check%20of%20kmalloc_slab%28%29&type=Commits)
+* [drivers: base: Fix NULL pointer exception in __platform_driver_probe() if a driver developer is foolish](https://github.com/bhb27/BHB27Kernel/search?q=drivers%3A%20base%3A%20Fix%20NULL%20pointer%20exception%20in%20__platform_driver_probe%28%29%20if%20a%20driver%20developer%20is%20foolish&type=Commits)
+* [zram: remove obsolete ZRAM_DEBUG option](https://github.com/bhb27/BHB27Kernel/search?q=zram%3A%20remove%20obsolete%20ZRAM_DEBUG%20option&type=Commits)
+* [lib/zlib: remove outdated and incorrect pre-increment optimization](https://github.com/bhb27/BHB27Kernel/search?q=lib/zlib%3A%20remove%20outdated%20and%20incorrect%20pre-increment%20optimization&type=Commits)
+* [staging: android: ion: use vmap instead of vm_map_ram](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20ion%3A%20use%20vmap%20instead%20of%20vm_map_ram&type=Commits)
+* [Bluetooth: Add SCO fallback for invalid LMP parameters error](https://github.com/bhb27/BHB27Kernel/search?q=Bluetooth%3A%20Add%20SCO%20fallback%20for%20invalid%20LMP%20parameters%20error&type=Commits)
+* [xhci: Remove BUG_ON in xhci_get_input_control_ctx.](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx.&type=Commits)
+* [Revert "xhci: Remove BUG_ON in xhci_get_input_control_ctx."](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx."&type=Commits)
+* [block: Fix use-after-free in blkdev_get()](https://github.com/bhb27/BHB27Kernel/search?q=block%3A%20Fix%20use-after-free%20in%20blkdev_get%28%29&type=Commits)
+* [cpuidle: Fix three reference count leaks](https://github.com/bhb27/BHB27Kernel/search?q=cpuidle%3A%20Fix%20three%20reference%20count%20leaks&type=Commits)
+* [l2tp: Allow duplicate session creation with UDP](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20Allow%20duplicate%20session%20creation%20with%20UDP&type=Commits)
+* [ip_tunnel: fix use-after-free in ip_tunnel_lookup()](https://github.com/bhb27/BHB27Kernel/search?q=ip_tunnel%3A%20fix%20use-after-free%20in%20ip_tunnel_lookup%28%29&type=Commits)
+* [tcp_cubic: fix spurious HYSTART_DELAY exit upon drop in min RTT](https://github.com/bhb27/BHB27Kernel/search?q=tcp_cubic%3A%20fix%20spurious%20HYSTART_DELAY%20exit%20upon%20drop%20in%20min%20RTT&type=Commits)
+* [ALSA: usb-audio: uac1: Invalidate ctl on interrupt](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20uac1%3A%20Invalidate%20ctl%20on%20interrupt&type=Commits)
+* [xhci: Fix enumeration issue when setting max packet size for FS devices.](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Fix%20enumeration%20issue%20when%20setting%20max%20packet%20size%20for%20FS%20devices.&type=Commits)
+* [xhci: Fix incorrect EP_STATE_MASK](https://github.com/bhb27/BHB27Kernel/search?q=xhci%3A%20Fix%20incorrect%20EP_STATE_MASK&type=Commits)
+* [sctp: Don't advertise IPv4 addresses if ipv6only is set on the socket](https://github.com/bhb27/BHB27Kernel/search?q=sctp%3A%20Don%27t%20advertise%20IPv4%20addresses%20if%20ipv6only%20is%20set%20on%20the%20socket&type=Commits)
+* [net: Do not clear the sock TX queue in sk_set_socket()](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20Do%20not%20clear%20the%20sock%20TX%20queue%20in%20sk_set_socket%28%29&type=Commits)
+* [net: core: reduce recursion limit value](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20core%3A%20reduce%20recursion%20limit%20value&type=Commits)
+* [mm/slab: use memzero_explicit() in kzfree()](https://github.com/bhb27/BHB27Kernel/search?q=mm/slab%3A%20use%20memzero_explicit%28%29%20in%20kzfree%28%29&type=Commits)
+* [net: core: device_rename: Use rwsem instead of a seqcount](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20core%3A%20device_rename%3A%20Use%20rwsem%20instead%20of%20a%20seqcount&type=Commits)
+* [selinux: fix double free](https://github.com/bhb27/BHB27Kernel/search?q=selinux%3A%20fix%20double%20free&type=Commits)
+* [net: fix memleak in register_netdevice()](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20fix%20memleak%20in%20register_netdevice%28%29&type=Commits)
+* [qseecom: don't unregister listener when data->released is true](https://github.com/bhb27/BHB27Kernel/search?q=qseecom%3A%20don%27t%20unregister%20listener%20when%20data->released%20is%20true&type=Commits)
+* [Input: add safety guards to input_set_keycode()](https://github.com/bhb27/BHB27Kernel/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
+* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
+* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
+* [cpufreq: Reformat printk() statements](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
+* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
+* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
+* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/bhb27/BHB27Kernel/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
+* [msm: ispif: Remove handling of SD_SHUTDOWN](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20ispif%3A%20Remove%20handling%20of%20SD_SHUTDOWN&type=Commits)
+* [ASoC: core: Don't assign an out-of-bounds address to rtd_aux](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20core%3A%20Don%27t%20assign%20an%20out-of-bounds%20address%20to%20rtd_aux&type=Commits)
+* [[BACKPORT]ARM: fix oops when using older ARMv4T CPUs](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%20fix%20oops%20when%20using%20older%20ARMv4T%20CPUs&type=Commits)
+* [[BACKPORT]ARM: 8196/1: vfp: Workaround bad MVFR1 register on some Kraits](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208196/1%3A%20vfp%3A%20Workaround%20bad%20MVFR1%20register%20on%20some%20Kraits&type=Commits)
+* [[BACKPORT]ARM: 8635/1: nommu: allow enabling REMAP_VECTORS_TO_RAM](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208635/1%3A%20nommu%3A%20allow%20enabling%20REMAP_VECTORS_TO_RAM&type=Commits)
+* [[BACKPORT]ARM: 8720/1: ensure dump_instr() checks addr_limit](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208720/1%3A%20ensure%20dump_instr%28%29%20checks%20addr_limit&type=Commits)
+* [[BACKPORT]ARM: dma-mapping: disallow dma_get_sgtable() for non-kernel managed memory](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%20dma-mapping%3A%20disallow%20dma_get_sgtable%28%29%20for%20non-kernel%20managed%20memory&type=Commits)
+* [[BACKPORT]ARM: 8814/1: mm: improve/fix ARM v7_dma_inv_range() unaligned address handling](https://github.com/bhb27/BHB27Kernel/search?q=[BACKPORT]ARM%3A%208814/1%3A%20mm%3A%20improve/fix%20ARM%20v7_dma_inv_range%28%29%20unaligned%20address%20handling&type=Commits)
+* [sched/sysctl: Check user input value of sysctl_sched_time_avg](https://github.com/bhb27/BHB27Kernel/search?q=sched/sysctl%3A%20Check%20user%20input%20value%20of%20sysctl_sched_time_avg&type=Commits)
+* [kernel/signal.c: remove the no longer needed SIGNAL_UNKILLABLE check in complete_signal()](https://github.com/bhb27/BHB27Kernel/search?q=kernel/signal.c%3A%20remove%20the%20no%20longer%20needed%20SIGNAL_UNKILLABLE%20check%20in%20complete_signal%28%29&type=Commits)
+* [kernel/signal.c: protect the SIGNAL_UNKILLABLE tasks from !sig_kernel_only() signals](https://github.com/bhb27/BHB27Kernel/search?q=kernel/signal.c%3A%20protect%20the%20SIGNAL_UNKILLABLE%20tasks%20from%20!sig_kernel_only%28%29%20signals&type=Commits)
+* [kernel/signal.c: protect the traced SIGNAL_UNKILLABLE tasks from SIGKILL](https://github.com/bhb27/BHB27Kernel/search?q=kernel/signal.c%3A%20protect%20the%20traced%20SIGNAL_UNKILLABLE%20tasks%20from%20SIGKILL&type=Commits)
+* [signal: Only reschedule timers on signals timers have sent](https://github.com/bhb27/BHB27Kernel/search?q=signal%3A%20Only%20reschedule%20timers%20on%20signals%20timers%20have%20sent&type=Commits)
+* [ptrace: change __ptrace_unlink() to clear ->ptrace under ->siglock](https://github.com/bhb27/BHB27Kernel/search?q=ptrace%3A%20change%20__ptrace_unlink%28%29%20to%20clear%20->ptrace%20under%20->siglock&type=Commits)
+* [sched/cputime: Fix cpu_timer_sample_group() double accounting](https://github.com/bhb27/BHB27Kernel/search?q=sched/cputime%3A%20Fix%20cpu_timer_sample_group%28%29%20double%20accounting&type=Commits)
+* [pid_ns: Sleep in TASK_INTERRUPTIBLE in zap_pid_ns_processes](https://github.com/bhb27/BHB27Kernel/search?q=pid_ns%3A%20Sleep%20in%20TASK_INTERRUPTIBLE%20in%20zap_pid_ns_processes&type=Commits)
+* [hrtimer: Ensure POSIX compliance (relative CLOCK_REALTIME hrtimers)](https://github.com/bhb27/BHB27Kernel/search?q=hrtimer%3A%20Ensure%20POSIX%20compliance%20%28relative%20CLOCK_REALTIME%20hrtimers%29&type=Commits)
+* [ktime: Fix ktime_divns to do signed division](https://github.com/bhb27/BHB27Kernel/search?q=ktime%3A%20Fix%20ktime_divns%20to%20do%20signed%20division&type=Commits)
+* [hrtimer: Allow concurrent hrtimer_start() for self restarting timers](https://github.com/bhb27/BHB27Kernel/search?q=hrtimer%3A%20Allow%20concurrent%20hrtimer_start%28%29%20for%20self%20restarting%20timers&type=Commits)
+* [ktime: Optimize ktime_divns for constant divisors](https://github.com/bhb27/BHB27Kernel/search?q=ktime%3A%20Optimize%20ktime_divns%20for%20constant%20divisors&type=Commits)
+* [ktime: Sanitize ktime_to_us/ms conversion](https://github.com/bhb27/BHB27Kernel/search?q=ktime%3A%20Sanitize%20ktime_to_us/ms%20conversion&type=Commits)
+* [audit: Fix use after free in audit_remove_watch_rule()](https://github.com/bhb27/BHB27Kernel/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
+* [kernel/acct.c: fix the acct->needcheck check in check_free_space()](https://github.com/bhb27/BHB27Kernel/search?q=kernel/acct.c%3A%20fix%20the%20acct->needcheck%20check%20in%20check_free_space%28%29&type=Commits)
+* [kernel/async.c: revert "async: simplify lowest_in_progress()"](https://github.com/bhb27/BHB27Kernel/search?q=kernel/async.c%3A%20revert%20"async%3A%20simplify%20lowest_in_progress%28%29"&type=Commits)
+* [tracing: Fix crash when it fails to alloc ring buffer](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Fix%20crash%20when%20it%20fails%20to%20alloc%20ring%20buffer&type=Commits)
+* [tracing: Remove extra zeroing out of the ring buffer page](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Remove%20extra%20zeroing%20out%20of%20the%20ring%20buffer%20page&type=Commits)
+* [tracing: Fix trace_pipe behavior for instance traces](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Fix%20trace_pipe%20behavior%20for%20instance%20traces&type=Commits)
+* [tracing: Use SOFTIRQ_OFFSET for softirq dectection for more accurate results](https://github.com/bhb27/BHB27Kernel/search?q=tracing%3A%20Use%20SOFTIRQ_OFFSET%20for%20softirq%20dectection%20for%20more%20accurate%20results&type=Commits)
+* [perf: Remove useless atomic_t](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Remove%20useless%20atomic_t&type=Commits)
+* [perf/core: Correct event creation with PERF_FORMAT_GROUP](https://github.com/bhb27/BHB27Kernel/search?q=perf/core%3A%20Correct%20event%20creation%20with%20PERF_FORMAT_GROUP&type=Commits)
+* [perf: Use hrtimers for event multiplexing](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Use%20hrtimers%20for%20event%20multiplexing&type=Commits)
+* [perf: Optimize group_sched_in()](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Optimize%20group_sched_in%28%29&type=Commits)
+* [perf: Fix corruption of sibling list with hotplug](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Fix%20corruption%20of%20sibling%20list%20with%20hotplug&type=Commits)
+* [perf: Disable IRQs across RCU RS CS that acquires scheduler lock](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Disable%20IRQs%20across%20RCU%20RS%20CS%20that%20acquires%20scheduler%20lock&type=Commits)
+* [perf: Cure event->pending_disable race](https://github.com/bhb27/BHB27Kernel/search?q=perf%3A%20Cure%20event->pending_disable%20race&type=Commits)
+* [mm, page_alloc: double zone's batchsize](https://github.com/bhb27/BHB27Kernel/search?q=mm,%20page_alloc%3A%20double%20zone%27s%20batchsize&type=Commits)
+* [init/main.c: add sync point between each level](https://github.com/bhb27/BHB27Kernel/search?q=init/main.c%3A%20add%20sync%20point%20between%20each%20level&type=Commits)
+* [proc: much faster /proc/vmstat](https://github.com/bhb27/BHB27Kernel/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
+* [BACKPORT: msm: vidc: Ensure validity of shared Q indices](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20msm%3A%20vidc%3A%20Ensure%20validity%20of%20shared%20Q%20indices&type=Commits)
+* [binder: Reserve caches for small, high-frequency memory allocations](https://github.com/bhb27/BHB27Kernel/search?q=binder%3A%20Reserve%20caches%20for%20small,%20high-frequency%20memory%20allocations&type=Commits)
+* [apq8084: defconfig: Tone down rootwait polling to 10](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20defconfig%3A%20Tone%20down%20rootwait%20polling%20to%2010&type=Commits)
+* [init: do_mounts: make the rootwait polling configurable](https://github.com/bhb27/BHB27Kernel/search?q=init%3A%20do_mounts%3A%20make%20the%20rootwait%20polling%20configurable&type=Commits)
+* [nohz: Fix local_timer_softirq_pending()](https://github.com/bhb27/BHB27Kernel/search?q=nohz%3A%20Fix%20local_timer_softirq_pending%28%29&type=Commits)
+* [sched_clock: Prevent callers from seeing half-updated data](https://github.com/bhb27/BHB27Kernel/search?q=sched_clock%3A%20Prevent%20callers%20from%20seeing%20half-updated%20data&type=Commits)
+* [nohz: Avoid tick's double reprogramming in highres mode](https://github.com/bhb27/BHB27Kernel/search?q=nohz%3A%20Avoid%20tick%27s%20double%20reprogramming%20in%20highres%20mode&type=Commits)
+* [tick-sched: Don't call update_wall_time() when delta is lesser than tick_period](https://github.com/bhb27/BHB27Kernel/search?q=tick-sched%3A%20Don%27t%20call%20update_wall_time%28%29%20when%20delta%20is%20lesser%20than%20tick_period&type=Commits)
+* [nohz: Fix !HIGH_RES_TIMERS hang](https://github.com/bhb27/BHB27Kernel/search?q=nohz%3A%20Fix%20!HIGH_RES_TIMERS%20hang&type=Commits)
+* [clocksource: Fix abs() usage w/ 64bit values](https://github.com/bhb27/BHB27Kernel/search?q=clocksource%3A%20Fix%20abs%28%29%20usage%20w/%2064bit%20values&type=Commits)
+* [sched, smp: Correctly deal with nested sleeps](https://github.com/bhb27/BHB27Kernel/search?q=sched,%20smp%3A%20Correctly%20deal%20with%20nested%20sleeps&type=Commits)
+* [timekeeping: Simplify arch_gettimeoffset()](https://github.com/bhb27/BHB27Kernel/search?q=timekeeping%3A%20Simplify%20arch_gettimeoffset%28%29&type=Commits)
+* [Revert "msm: vidc: Avoid information leak while accessing the packet"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet"&type=Commits)
+* [msm: vidc: Don't query the V4L2 ctrl framework for checking thumbnail mode](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Don%27t%20query%20the%20V4L2%20ctrl%20framework%20for%20checking%20thumbnail%20mode&type=Commits)
+* [msm: vidc: Increase the MIN DRAIN RATE when DCVS is enabled](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Increase%20the%20MIN%20DRAIN%20RATE%20when%20DCVS%20is%20enabled&type=Commits)
+* [msm: vidc: Protect suspend operation with core lock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Protect%20suspend%20operation%20with%20core%20lock&type=Commits)
+* [msm: vidc: Fix session error handling](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Fix%20session%20error%20handling&type=Commits)
+* [msm: vidc: Increase firmware unload delay](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Increase%20firmware%20unload%20delay&type=Commits)
+* [msm: vidc: Unload firmware immediately after sys error](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Unload%20firmware%20immediately%20after%20sys%20error&type=Commits)
+* [msm/vidc/msm_vidc_common fix identation](https://github.com/bhb27/BHB27Kernel/search?q=msm/vidc/msm_vidc_common%20fix%20identation&type=Commits)
+* [msm: vidc: Validate buffer prior to releasing reference](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20vidc%3A%20Validate%20buffer%20prior%20to%20releasing%20reference&type=Commits)
+* [msm: camera: Add dynamic logging feature in camera](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Add%20dynamic%20logging%20feature%20in%20camera&type=Commits)
+* [msm: camera: Return EINVAL when msm_get_session fails](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Return%20EINVAL%20when%20msm_get_session%20fails&type=Commits)
+* [msm: camera: Instead of read_lock use read_lock_irqsave.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Instead%20of%20read_lock%20use%20read_lock_irqsave.&type=Commits)
+* [msm: camera: Retelimit log in msm_vb2_buf_cleanup.](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Retelimit%20log%20in%20msm_vb2_buf_cleanup.&type=Commits)
+* [dsp: avtimer: validate payload size before memory copy](https://github.com/bhb27/BHB27Kernel/search?q=dsp%3A%20avtimer%3A%20validate%20payload%20size%20before%20memory%20copy&type=Commits)
+* [ext4: add more paranoia checking in ext4_expand_extra_isize handling](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20more%20paranoia%20checking%20in%20ext4_expand_extra_isize%20handling&type=Commits)
+* [ext4: Introduce ext4_clamp_want_extra_isize()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20Introduce%20ext4_clamp_want_extra_isize%28%29&type=Commits)
+* [vt: selection, close sel_buffer race](https://github.com/bhb27/BHB27Kernel/search?q=vt%3A%20selection,%20close%20sel_buffer%20race&type=Commits)
+* [vt: selection, handle pending signals in paste_selection](https://github.com/bhb27/BHB27Kernel/search?q=vt%3A%20selection,%20handle%20pending%20signals%20in%20paste_selection&type=Commits)
+* [ALSA: usb-audio: Fix a stack buffer overflow bug in check_input_term](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20usb-audio%3A%20Fix%20a%20stack%20buffer%20overflow%20bug%20in%20check_input_term&type=Commits)
+* [Update arch/arm/configs/twrp_defconfigo](https://github.com/bhb27/BHB27Kernel/search?q=Update%20arch/arm/configs/twrp_defconfigo&type=Commits)
 * [ANDROID: uid_sys_stats: check previous uid_entry before call find_or_register_uid](https://github.com/bhb27/BHB27Kernel/search?q=ANDROID%3A%20uid_sys_stats%3A%20check%20previous%20uid_entry%20before%20call%20find_or_register_uid&type=Commits)
 * [fs/namespace.c: fix mountpoint reference counter race](https://github.com/bhb27/BHB27Kernel/search?q=fs/namespace.c%3A%20fix%20mountpoint%20reference%20counter%20race&type=Commits)
 * [can: peak_usb: pcan_usb_pro: Fix info-leaks to USB devices](https://github.com/bhb27/BHB27Kernel/search?q=can%3A%20peak_usb%3A%20pcan_usb_pro%3A%20Fix%20info-leaks%20to%20USB%20devices&type=Commits)
-* [fix ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=fix%20ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
-* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
-* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
 * [signal: Extend exec_id to 64bits](https://github.com/bhb27/BHB27Kernel/search?q=signal%3A%20Extend%20exec_id%20to%2064bits&type=Commits)
-* [Revert "sound soc msn check dif with"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"sound%20soc%20msn%20check%20dif%20with"&type=Commits)
-* [sound soc msn check dif with](https://github.com/bhb27/BHB27Kernel/search?q=sound%20soc%20msn%20check%20dif%20with&type=Commits)
-* [Revert "sound soc msn check dif with"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"sound%20soc%20msn%20check%20dif%20with"&type=Commits)
-* [sound soc msn check dif with](https://github.com/bhb27/BHB27Kernel/search?q=sound%20soc%20msn%20check%20dif%20with&type=Commits)
 * [net: ipc_router: Do not allow change of default security rule](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20ipc_router%3A%20Do%20not%20allow%20change%20of%20default%20security%20rule&type=Commits)
 * [qcacld-2.0: Avoid possible buffer over-read in wma_wow_wakeup_host_event](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20over-read%20in%20wma_wow_wakeup_host_event&type=Commits)
 * [qcacld-2.0: Add sanity check for buf pkt len to prevent OOB access](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20buf%20pkt%20len%20to%20prevent%20OOB%20access&type=Commits)
 * [apq8084: qcacld-2.0: move driver to net/wireless dir](https://github.com/bhb27/BHB27Kernel/search?q=apq8084%3A%20qcacld-2.0%3A%20move%20driver%20to%20net/wireless%20dir&type=Commits)
-* [kernel V9.43](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.43&type=Commits)
+* [esoc: Make <linux/esoc_client.h> self-contained](https://github.com/bhb27/BHB27Kernel/search?q=esoc%3A%20Make%20<linux/esoc_client.h>%20self-contained&type=Commits)
+* [defconfig disable some debug](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20some%20debug&type=Commits)
+* [Revert "apq8084.dtsi: qcom,bcl max freq to 1958Mhz"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"apq8084.dtsi%3A%20qcom,bcl%20max%20freq%20to%201958Mhz"&type=Commits)
+* [apq8084.dtsi: disable bcl hotplug by default](https://github.com/bhb27/BHB27Kernel/search?q=apq8084.dtsi%3A%20disable%20bcl%20hotplug%20by%20default&type=Commits)
+* [kernel V9.48](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.48&type=Commits)
+* [bcl: allow to write to bcl_hotplug_mask](https://github.com/bhb27/BHB27Kernel/search?q=bcl%3A%20allow%20to%20write%20to%20bcl_hotplug_mask&type=Commits)
+* [bcl: use strncmp for checks](https://github.com/bhb27/BHB27Kernel/search?q=bcl%3A%20use%20strncmp%20for%20checks&type=Commits)
+* [bcl: don't mitigate freq when disable](https://github.com/bhb27/BHB27Kernel/search?q=bcl%3A%20don%27t%20mitigate%20freq%20when%20disable&type=Commits)
+* [power: bcl vph_low/high_store check with is high/low before store](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%20vph_low/high_store%20check%20with%20is%20high/low%20before%20store&type=Commits)
 
 ***
 
-06-01-2020
+08-31-2020
 ====================
 
-* [esoc: Make <linux/esoc_client.h> self-contained](https://github.com/bhb27/BHB27Kernel/search?q=esoc%3A%20Make%20<linux/esoc_client.h>%20self-contained&type=Commits)
-* [defconfig disable some debug](https://github.com/bhb27/BHB27Kernel/search?q=defconfig%20disable%20some%20debug&type=Commits)
+* [power: bcl: Fix store of wr functions](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%3A%20Fix%20store%20of%20wr%20functions&type=Commits)
+* [power: bcl: Fix store max freq](https://github.com/bhb27/BHB27Kernel/search?q=power%3A%20bcl%3A%20Fix%20store%20max%20freq&type=Commits)
+* [reset drivers/power/battery_current_limit.c](https://github.com/bhb27/BHB27Kernel/search?q=reset%20drivers/power/battery_current_limit.c&type=Commits)
+* [Revert "reset drivers/power/battery_current_limit.c"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"reset%20drivers/power/battery_current_limit.c"&type=Commits)
+* [reset drivers/power/battery_current_limit.c](https://github.com/bhb27/BHB27Kernel/search?q=reset%20drivers/power/battery_current_limit.c&type=Commits)
+
+***
+
+08-28-2020
+====================
+
+* [gcc-wrapper: python3 compat](https://github.com/bhb27/BHB27Kernel/search?q=gcc-wrapper%3A%20python3%20compat&type=Commits)
+* [Build: update CROSS_COMPILE path](https://github.com/bhb27/BHB27Kernel/search?q=Build%3A%20update%20CROSS_COMPILE%20path&type=Commits)
+* [kernel version V9.47](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20version%20V9.47&type=Commits)
 
 ***
 
@@ -74,8 +239,6 @@ BHB27KERNEL Pie source Changelog:
 05-10-2020
 ====================
 
-* [Update build/changelog.sh](https://github.com/bhb27/BHB27Kernel/search?q=Update%20build/changelog.sh&type=Commits)
-* [apq8084.dtsi: improve bcl values trye 2](https://github.com/bhb27/BHB27Kernel/search?q=apq8084.dtsi%3A%20improve%20bcl%20values%20trye%202&type=Commits)
 * [ARM: 8654/1: decompressor: add strlen prototype](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208654/1%3A%20decompressor%3A%20add%20strlen%20prototype&type=Commits)
 
 ***
@@ -113,12 +276,6 @@ BHB27KERNEL Pie source Changelog:
 * [CHROMIUM: net: wireless: bcmdhd: Fix argument to wl_cfg80211_netdev_notifier_call](https://github.com/bhb27/BHB27Kernel/search?q=CHROMIUM%3A%20net%3A%20wireless%3A%20bcmdhd%3A%20Fix%20argument%20to%20wl_cfg80211_netdev_notifier_call&type=Commits)
 * [CHROMIUM: net: wireless: bcmdhd: use per DHD-instance notifier](https://github.com/bhb27/BHB27Kernel/search?q=CHROMIUM%3A%20net%3A%20wireless%3A%20bcmdhd%3A%20use%20per%20DHD-instance%20notifier&type=Commits)
 * [net: wireless: bcmdhd: avoid using global pointer to prevent memory corruption](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20avoid%20using%20global%20pointer%20to%20prevent%20memory%20corruption&type=Commits)
-
-***
-
-04-29-2020
-====================
-
 * [kernel V9.42](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.42&type=Commits)
 * [msm: camera: Avoid deadlock for vb2 operations using separate lock](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera%3A%20Avoid%20deadlock%20for%20vb2%20operations%20using%20separate%20lock&type=Commits)
 * [msm: camera_v2: Increase event timeout](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20camera_v2%3A%20Increase%20event%20timeout&type=Commits)
@@ -195,14 +352,14 @@ BHB27KERNEL Pie source Changelog:
 
 ***
 
-02-16-2020
+02-15-2020
 ====================
 
 * [version 9.38](https://github.com/bhb27/BHB27Kernel/search?q=version%209.38&type=Commits)
 
 ***
 
-02-13-2020
+02-12-2020
 ====================
 
 * [netfilter: ctnetlink: netns exit must wait for callbacks](https://github.com/bhb27/BHB27Kernel/search?q=netfilter%3A%20ctnetlink%3A%20netns%20exit%20must%20wait%20for%20callbacks&type=Commits)
@@ -260,15 +417,40 @@ BHB27KERNEL Pie source Changelog:
 * [ARM: alignment: correctly decode instructions in BE8 mode.](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20alignment%3A%20correctly%20decode%20instructions%20in%20BE8%20mode.&type=Commits)
 * [mm/shmem.c: cast the type of unmap_start to u64](https://github.com/bhb27/BHB27Kernel/search?q=mm/shmem.c%3A%20cast%20the%20type%20of%20unmap_start%20to%20u64&type=Commits)
 * [memfd: Fix locking when tagging pins](https://github.com/bhb27/BHB27Kernel/search?q=memfd%3A%20Fix%20locking%20when%20tagging%20pins&type=Commits)
+
+***
+
+01-31-2020
+====================
+
 * [alarmtimer: Change remaining ENOTSUPP to EOPNOTSUPP](https://github.com/bhb27/BHB27Kernel/search?q=alarmtimer%3A%20Change%20remaining%20ENOTSUPP%20to%20EOPNOTSUPP&type=Commits)
 * [alarmtimer: Use EOPNOTSUPP instead of ENOTSUPP](https://github.com/bhb27/BHB27Kernel/search?q=alarmtimer%3A%20Use%20EOPNOTSUPP%20instead%20of%20ENOTSUPP&type=Commits)
 * [cpufreq: Register drivers only after CPU devices have been registered](https://github.com/bhb27/BHB27Kernel/search?q=cpufreq%3A%20Register%20drivers%20only%20after%20CPU%20devices%20have%20been%20registered&type=Commits)
 
 ***
 
-01-22-2020
+01-23-2020
 ====================
 
+* [LSA: compress: allow writes in SNDRV_PCM_STATE_PREPARED state](https://github.com/bhb27/BHB27Kernel/search?q=LSA%3A%20compress%3A%20allow%20writes%20in%20SNDRV_PCM_STATE_PREPARED%20state&type=Commits)
+* [ALSA: compress: Add support to send codec specific data](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20compress%3A%20Add%20support%20to%20send%20codec%20specific%20data&type=Commits)
+* [ALSA: Refactor slot assignment code](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20Refactor%20slot%20assignment%20code&type=Commits)
+* [ALSA: bits vs bytes bug in snd_card_create()](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20bits%20vs%20bytes%20bug%20in%20snd_card_create%28%29&type=Commits)
+* [ALSA: core: Fix card races between register and disconnect](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20core%3A%20Fix%20card%20races%20between%20register%20and%20disconnect&type=Commits)
+* [ALSA: Add kconfig to specify the max card numbers](https://github.com/bhb27/BHB27Kernel/search?q=ALSA%3A%20Add%20kconfig%20to%20specify%20the%20max%20card%20numbers&type=Commits)
+* [nl80211: fix null pointer dereference](https://github.com/bhb27/BHB27Kernel/search?q=nl80211%3A%20fix%20null%20pointer%20dereference&type=Commits)
+* [tcp: make sure EPOLLOUT wont be missed](https://github.com/bhb27/BHB27Kernel/search?q=tcp%3A%20make%20sure%20EPOLLOUT%20wont%20be%20missed&type=Commits)
+* [qcacld 2.0: Fix deadlock condition inside tlshim_mgmt_rx_process](https://github.com/bhb27/BHB27Kernel/search?q=qcacld%202.0%3A%20Fix%20deadlock%20condition%20inside%20tlshim_mgmt_rx_process&type=Commits)
+* [qcacld-2.0: Fix multiple length definition issue in WLAN FW message](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20multiple%20length%20definition%20issue%20in%20WLAN%20FW%20message&type=Commits)
+* [qcacld-2.0: Fix tx pause count and unpause count different](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20tx%20pause%20count%20and%20unpause%20count%20different&type=Commits)
+* [qcacld-2.0: Fix buffer overflow in HTT MSG handling](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20buffer%20overflow%20in%20HTT%20MSG%20handling&type=Commits)
+* [ASoC: compress: fix unsigned integer overflow check](https://github.com/bhb27/BHB27Kernel/search?q=ASoC%3A%20compress%3A%20fix%20unsigned%20integer%20overflow%20check&type=Commits)
+* [staging: android: ashmem: Disallow ashmem memory from being remapped](https://github.com/bhb27/BHB27Kernel/search?q=staging%3A%20android%3A%20ashmem%3A%20Disallow%20ashmem%20memory%20from%20being%20remapped&type=Commits)
+* [tcp: fix tcp_rtx_queue_tail in case of empty retransmit queue](https://github.com/bhb27/BHB27Kernel/search?q=tcp%3A%20fix%20tcp_rtx_queue_tail%20in%20case%20of%20empty%20retransmit%20queue&type=Commits)
+* [usb: gadget: f_mtp: Fix issue of NULL pointer access in mtp_read](https://github.com/bhb27/BHB27Kernel/search?q=usb%3A%20gadget%3A%20f_mtp%3A%20Fix%20issue%20of%20NULL%20pointer%20access%20in%20mtp_read&type=Commits)
+* [configs restore twrp_defconfig](https://github.com/bhb27/BHB27Kernel/search?q=configs%20restore%20twrp_defconfig&type=Commits)
+* [update build and kernel name](https://github.com/bhb27/BHB27Kernel/search?q=update%20build%20and%20kernel%20name&type=Commits)
+* [clean up not use configs arch/arm/configs/](https://github.com/bhb27/BHB27Kernel/search?q=clean%20up%20not%20use%20configs%20arch/arm/configs/&type=Commits)
 * [Update arch/arm/configs/twrp_defconfig](https://github.com/bhb27/BHB27Kernel/search?q=Update%20arch/arm/configs/twrp_defconfig&type=Commits)
 
 ***
@@ -278,6 +460,14 @@ BHB27KERNEL Pie source Changelog:
 
 * [mm: fix prctl_set_vma_anon_name](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20fix%20prctl_set_vma_anon_name&type=Commits)
 * [mm: add a field to store names for private anonymous memory](https://github.com/bhb27/BHB27Kernel/search?q=mm%3A%20add%20a%20field%20to%20store%20names%20for%20private%20anonymous%20memory&type=Commits)
+
+***
+
+01-15-2020
+====================
+
+* [temp build fx](https://github.com/bhb27/BHB27Kernel/search?q=temp%20build%20fx&type=Commits)
+* [Don't build wireguard for now](https://github.com/bhb27/BHB27Kernel/search?q=Don%27t%20build%20wireguard%20for%20now&type=Commits)
 
 ***
 
