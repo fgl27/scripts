@@ -1,6 +1,767 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+09-03-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-03-2020:
+
+#### build/make/
+* [envsetup: Automatically set CCACHE_EXEC to the system's ccache](https://github.com/search?q=envsetup%3A%20Automatically%20set%20CCACHE_EXEC%20to%20the%20system%27s%20ccache&type=Commits)
+* [Use 'release-keys' for build tag](https://github.com/search?q=Use%20%27release-keys%27%20for%20build%20tag&type=Commits)
+
+#### frameworks/av/
+* [audioflinger: Fix audio for WifiDisplay](https://github.com/search?q=audioflinger%3A%20Fix%20audio%20for%20WifiDisplay&type=Commits)
+* [Remove libmediaextractor dependency from libstagefright_wfd and SurfaceMediaSource_test](https://github.com/search?q=Remove%20libmediaextractor%20dependency%20from%20libstagefright_wfd%20and%20SurfaceMediaSource_test&type=Commits)
+* [Revert "Move unused classes out of stagefright foundataion"](https://github.com/search?q=Revert%20"Move%20unused%20classes%20out%20of%20stagefright%20foundataion"&type=Commits)
+* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
+* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
+* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
+* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
+* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
+* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
+
+#### frameworks/base/
+* [CPUInfoService: add used memory percentage to RAM](https://github.com/search?q=CPUInfoService%3A%20add%20used%20memory%20percentage%20to%20RAM&type=Commits)
+* [base: Update CPU info overlay](https://github.com/search?q=base%3A%20Update%20CPU%20info%20overlay&type=Commits)
+* [telephony: URI cannot be created with negative subIds](https://github.com/search?q=telephony%3A%20URI%20cannot%20be%20created%20with%20negative%20subIds&type=Commits)
+* [QS: Add CPUInfo toggle tile](https://github.com/search?q=QS%3A%20Add%20CPUInfo%20toggle%20tile&type=Commits)
+* [Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
+* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
+* [base: Show fast charging on lockscreen witout checking amperage](https://github.com/search?q=base%3A%20Show%20fast%20charging%20on%20lockscreen%20witout%20checking%20amperage&type=Commits)
+* [Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
+* [CPUInfoService add quark improves](https://github.com/search?q=CPUInfoService%20add%20quark%20improves&type=Commits)
+* [Base: config_appTransitionAnimationDurationScaleDefault 0.5](https://github.com/search?q=Base%3A%20config_appTransitionAnimationDurationScaleDefault%200.5&type=Commits)
+* [base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
+* [base: add CPU info overlay](https://github.com/search?q=base%3A%20add%20CPU%20info%20overlay&type=Commits)
+* [VolumeDialog: Don't change the background of the expandable indicator](https://github.com/search?q=VolumeDialog%3A%20Don%27t%20change%20the%20background%20of%20the%20expandable%20indicator&type=Commits)
+
+#### hardware/qcom-caf/apq8084/media/
+* [libOmxVdec allow profile level up to 5.2](https://github.com/search?q=libOmxVdec%20allow%20profile%20level%20up%20to%205.2&type=Commits)
+
+#### lineage-sdk/
+* [Outdoor mode skipe check if is nigth as this is not perfect at all](https://github.com/search?q=Outdoor%20mode%20skipe%20check%20if%20is%20nigth%20as%20this%20is%20not%20perfect%20at%20all&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Promote Pixel 2 / 2 XL to 17.1 (taimen/walleye)](https://github.com/search?q=hudson%3A%20Promote%20Pixel%202%20/%202%20XL%20to%2017.1%20%28taimen/walleye%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add support for AB + /recovery](https://github.com/search?q=wiki%3A%20Add%20support%20for%20AB%20+%20/recovery&type=Commits)
+* [wiki: Update copy-partitions.zip](https://github.com/search?q=wiki%3A%20Update%20copy-partitions.zip&type=Commits)
+* [wiki: Promote Pixel 2 / 2 XL to 17.1 (taimen/walleye)](https://github.com/search?q=wiki%3A%20Promote%20Pixel%202%20/%202%20XL%20to%2017.1%20%28taimen/walleye%29&type=Commits)
+
+#### packages/apps/Dialer/
+* [Dialer: prevent touch events when the screen is off](https://github.com/search?q=Dialer%3A%20prevent%20touch%20events%20when%20the%20screen%20is%20off&type=Commits)
+
+#### packages/apps/LineageParts/
+* [auto_power_save array add more values](https://github.com/search?q=auto_power_save%20array%20add%20more%20values&type=Commits)
+
+#### packages/apps/Nfc/
+* [Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: hardcoded TapToWakePreferece to read state from the path](https://github.com/search?q=Settings%3A%20hardcoded%20TapToWakePreferece%20to%20read%20state%20from%20the%20path&type=Commits)
+* [Developer: set default writeAnimationScaleOption to 0.5](https://github.com/search?q=Developer%3A%20set%20default%20writeAnimationScaleOption%20to%200.5&type=Commits)
+* [Settings: Account more 5G network modes](https://github.com/search?q=Settings%3A%20Account%20more%205G%20network%20modes&type=Commits)
+
+#### packages/apps/Updater/
+* [Update](https://github.com/search?q=Update&type=Commits)
+
+#### system/connectivity/wificond/
+* [wificond stop log spaming](https://github.com/search?q=wificond%20stop%20log%20spaming&type=Commits)
+
+#### system/core/
+* [liblog: Always report as debuggable when building userdebug/eng](https://github.com/search?q=liblog%3A%20Always%20report%20as%20debuggable%20when%20building%20userdebug/eng&type=Commits)
+* [fs_mgr: Allow remounts with Magisk installed](https://github.com/search?q=fs_mgr%3A%20Allow%20remounts%20with%20Magisk%20installed&type=Commits)
+
+#### vendor/lineage/
+* [Mod build](https://github.com/search?q=Mod%20build&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-03-2020 End.
+
+09-02-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-02-2020:
+
+#### build/soong/
+* [Add support for macOS 11 SDK](https://github.com/search?q=Add%20support%20for%20macOS%2011%20SDK&type=Commits)
+* [Add support for 10.15 SDK](https://github.com/search?q=Add%20support%20for%2010.15%20SDK&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add Huawei P Smart (figo)](https://github.com/search?q=hudson%3A%20Add%20Huawei%20P%20Smart%20%28figo%29&type=Commits)
+* [hudson: Add P20 Lite (anne)](https://github.com/search?q=hudson%3A%20Add%20P20%20Lite%20%28anne%29&type=Commits)
+* [hudson: The budget Pixel family deserves love too](https://github.com/search?q=hudson%3A%20The%20budget%20Pixel%20family%20deserves%20love%20too&type=Commits)
+* [hudson: Pixel 5 minus 1](https://github.com/search?q=hudson%3A%20Pixel%205%20minus%201&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Huawei P Smart (figo)](https://github.com/search?q=wiki%3A%20Add%20Huawei%20P%20Smart%20%28figo%29&type=Commits)
+* [wiki: Add Huawei P20 Lite (anne)](https://github.com/search?q=wiki%3A%20Add%20Huawei%20P20%20Lite%20%28anne%29&type=Commits)
+* [wiki: devices: Add Google Pixel 3a {,XL}](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Google%20Pixel%203a%20{,XL}&type=Commits)
+* [wiki: devices: Add Google Pixel 4 {,XL}](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Google%20Pixel%204%20{,XL}&type=Commits)
+
+#### prebuilts/tools-lineage/
+* [tools-lineage: Add prebuilt DTC](https://github.com/search?q=tools-lineage%3A%20Add%20prebuilt%20DTC&type=Commits)
+
+#### system/sepolicy/
+* [Fix sepolicy_tests on Mac 10.15](https://github.com/search?q=Fix%20sepolicy_tests%20on%20Mac%2010.15&type=Commits)
+
+#### tools/repohooks/
+* [drop python2 testing entirely](https://github.com/search?q=drop%20python2%20testing%20entirely&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Use CPATH for including host headers](https://github.com/search?q=kernel%3A%20Use%20CPATH%20for%20including%20host%20headers&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-02-2020 End.
+
+09-01-2020
+====================
+
+#### Device specific Changes of 09-01-2020 Start:
+
+#### Device/Quark/
+* [Quark: power-8084 allow only 2 enabled cores for power save profile](https://github.com/search?q=Quark%3A%20power-8084%20allow%20only%202%20enabled%20cores%20for%20power%20save%20profile&type=Commits)
+* [Quark: init don't change bcl](https://github.com/search?q=Quark%3A%20init%20don%27t%20change%20bcl&type=Commits)
+* [Quark: disable vsync for cpu rendered apps.](https://github.com/search?q=Quark%3A%20disable%20vsync%20for%20cpu%20rendered%20apps.&type=Commits)
+* [Quark: disable recompute crop change in SF](https://github.com/search?q=Quark%3A%20disable%20recompute%20crop%20change%20in%20SF&type=Commits)
+* [Quark: Disable backpressure propagation in SurfaceFlinger](https://github.com/search?q=Quark%3A%20Disable%20backpressure%20propagation%20in%20SurfaceFlinger&type=Commits)
+* [Quark: wifi: Disable auto tx power control](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control&type=Commits)
+* [Quark: Build common legacy gnss hal](https://github.com/search?q=Quark%3A%20Build%20common%20legacy%20gnss%20hal&type=Commits)
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Revert "Quark: enable bcl hotplug to core 2 and 3"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20bcl%20hotplug%20to%20core%202%20and%203"&type=Commits)
+
+#### Kernel/Quark/
+* [fix ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=fix%20ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [dsp: adm: Add error check to avoid memory overread](https://github.com/search?q=dsp%3A%20adm%3A%20Add%20error%20check%20to%20avoid%20memory%20overread&type=Commits)
+* [dsp: adm: Fix to avoid memory overread in adm callback](https://github.com/search?q=dsp%3A%20adm%3A%20Fix%20to%20avoid%20memory%20overread%20in%20adm%20callback&type=Commits)
+* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: fix bounds checking for ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20fix%20bounds%20checking%20for%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [msm: adm: validate ADSP payload size before access](https://github.com/search?q=msm%3A%20adm%3A%20validate%20ADSP%20payload%20size%20before%20access&type=Commits)
+* [power: battery_current_limit: Remove hotplug control completely](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely&type=Commits)
+* [Revert "bcl: allow to write to bcl_hotplug_mask"](https://github.com/search?q=Revert%20"bcl%3A%20allow%20to%20write%20to%20bcl_hotplug_mask"&type=Commits)
+* [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
+* [msm: subsystem_restart: Add workqueue for device restart](https://github.com/search?q=msm%3A%20subsystem_restart%3A%20Add%20workqueue%20for%20device%20restart&type=Commits)
+* [msm: subsystem-restart: Replace using wake lock APIs](https://github.com/search?q=msm%3A%20subsystem-restart%3A%20Replace%20using%20wake%20lock%20APIs&type=Commits)
+* [msm: ssr: Add notification to indicate a device restart](https://github.com/search?q=msm%3A%20ssr%3A%20Add%20notification%20to%20indicate%20a%20device%20restart&type=Commits)
+* [msm: Move PIL and SSR drivers to drivers/soc/msm](https://github.com/search?q=msm%3A%20Move%20PIL%20and%20SSR%20drivers%20to%20drivers/soc/msm&type=Commits)
+* [soc: qcom: bam_dmux: Replace wake locks with wakeup sources](https://github.com/search?q=soc%3A%20qcom%3A%20bam_dmux%3A%20Replace%20wake%20locks%20with%20wakeup%20sources&type=Commits)
+* [char: msm_smd_pkt: flush pending work on release](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20flush%20pending%20work%20on%20release&type=Commits)
+* [char: msm_smd_pkt: Remove hexdump of userspace read/write buffers](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20Remove%20hexdump%20of%20userspace%20read/write%20buffers&type=Commits)
+* [char: msm_smd_pkt: Rate limit error logs in smd pkt functions](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20Rate%20limit%20error%20logs%20in%20smd%20pkt%20functions&type=Commits)
+* [char: msm_smd_pkt: Add warning to driver removal function](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20Add%20warning%20to%20driver%20removal%20function&type=Commits)
+* [ALSA: info: Drop WARN_ON() from buffer NULL sanity check](https://github.com/search?q=ALSA%3A%20info%3A%20Drop%20WARN_ON%28%29%20from%20buffer%20NULL%20sanity%20check&type=Commits)
+* [i2c: dev: Fix the race between the release of i2c_dev and cdev](https://github.com/search?q=i2c%3A%20dev%3A%20Fix%20the%20race%20between%20the%20release%20of%20i2c_dev%20and%20cdev&type=Commits)
+* [i2c-dev: don't get i2c adapter via i2c_dev](https://github.com/search?q=i2c-dev%3A%20don%27t%20get%20i2c%20adapter%20via%20i2c_dev&type=Commits)
+* [i2c: dev: use after free in detach](https://github.com/search?q=i2c%3A%20dev%3A%20use%20after%20free%20in%20detach&type=Commits)
+* [i2c: dev: don't start function name with 'return'](https://github.com/search?q=i2c%3A%20dev%3A%20don%27t%20start%20function%20name%20with%20%27return%27&type=Commits)
+* [i2c: dev: switch from register_chrdev to cdev API](https://github.com/search?q=i2c%3A%20dev%3A%20switch%20from%20register_chrdev%20to%20cdev%20API&type=Commits)
+* [i2c: dev: fix potential memory leak in i2cdev_ioctl_rdwr](https://github.com/search?q=i2c%3A%20dev%3A%20fix%20potential%20memory%20leak%20in%20i2cdev_ioctl_rdwr&type=Commits)
+* [i2c: dev: prevent adapter retries and timeout being set as minus value](https://github.com/search?q=i2c%3A%20dev%3A%20prevent%20adapter%20retries%20and%20timeout%20being%20set%20as%20minus%20value&type=Commits)
+* [i2c: remove FSF address](https://github.com/search?q=i2c%3A%20remove%20FSF%20address&type=Commits)
+* [i2c: i2c-dev: Create 'name' attribute automatically](https://github.com/search?q=i2c%3A%20i2c-dev%3A%20Create%20%27name%27%20attribute%20automatically&type=Commits)
+* [sysfs: add more helper macro's for (bin_)attribute(_groups)](https://github.com/search?q=sysfs%3A%20add%20more%20helper%20macro%27s%20for%20%28bin_%29attribute%28_groups%29&type=Commits)
+* [sysfs.h: add BIN_ATTR macro](https://github.com/search?q=sysfs.h%3A%20add%20BIN_ATTR%20macro&type=Commits)
+* [sysfs.h: add ATTRIBUTE_GROUPS() macro](https://github.com/search?q=sysfs.h%3A%20add%20ATTRIBUTE_GROUPS%28%29%20macro&type=Commits)
+* [sysfs.h: add __ATTR_RW() macro](https://github.com/search?q=sysfs.h%3A%20add%20__ATTR_RW%28%29%20macro&type=Commits)
+* [driver core: add default groups to struct class](https://github.com/search?q=driver%20core%3A%20add%20default%20groups%20to%20struct%20class&type=Commits)
+* [chardev: add helper function to register char devs with a struct device](https://github.com/search?q=chardev%3A%20add%20helper%20function%20to%20register%20char%20devs%20with%20a%20struct%20device&type=Commits)
+* [driver core: create write-only attribute macros for devices and drivers](https://github.com/search?q=driver%20core%3A%20create%20write-only%20attribute%20macros%20for%20devices%20and%20drivers&type=Commits)
+* [driver core: device.h: add RW and RO attribute macros](https://github.com/search?q=driver%20core%3A%20device.h%3A%20add%20RW%20and%20RO%20attribute%20macros&type=Commits)
+* [msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl](https://github.com/search?q=msm%3A%20vidc%3A%20use%20%pK%20instead%20of%20%p%20which%20respects%20kptr_restrict%20sysctl&type=Commits)
+* [msm: vidc: fix a race condition in OCMEM free function](https://github.com/search?q=msm%3A%20vidc%3A%20fix%20a%20race%20condition%20in%20OCMEM%20free%20function&type=Commits)
+* [msm: vidc: Cancel pending power collapse works in core_release](https://github.com/search?q=msm%3A%20vidc%3A%20Cancel%20pending%20power%20collapse%20works%20in%20core_release&type=Commits)
+* [msm: vidc: Handle the dangling sessions in hfi sessions list](https://github.com/search?q=msm%3A%20vidc%3A%20Handle%20the%20dangling%20sessions%20in%20hfi%20sessions%20list&type=Commits)
+* [msm: vidc: Error handling when core is in bad state](https://github.com/search?q=msm%3A%20vidc%3A%20Error%20handling%20when%20core%20is%20in%20bad%20state&type=Commits)
+* [msm: vidc: WARN_ON() reveals fuction addresses](https://github.com/search?q=msm%3A%20vidc%3A%20WARN_ON%28%29%20reveals%20fuction%20addresses&type=Commits)
+* [msm: vidc: Convert macros into inline functions](https://github.com/search?q=msm%3A%20vidc%3A%20Convert%20macros%20into%20inline%20functions&type=Commits)
+* [ANDROID: fix a bug in quota2](https://github.com/search?q=ANDROID%3A%20fix%20a%20bug%20in%20quota2&type=Commits)
+* [USB: core: Fix free-while-in-use bug in the USB S-Glibrary](https://github.com/search?q=USB%3A%20core%3A%20Fix%20free-while-in-use%20bug%20in%20the%20USB%20S-Glibrary&type=Commits)
+* [drivers: usb: core: Minimize irq disabling in usb_sg_cancel()](https://github.com/search?q=drivers%3A%20usb%3A%20core%3A%20Minimize%20irq%20disabling%20in%20usb_sg_cancel%28%29&type=Commits)
+* [drivers: usb: core: Don't disable irqs in usb_sg_wait() during URB submit.](https://github.com/search?q=drivers%3A%20usb%3A%20core%3A%20Don%27t%20disable%20irqs%20in%20usb_sg_wait%28%29%20during%20URB%20submit.&type=Commits)
+* [USB: core: Fix misleading driver bug report](https://github.com/search?q=USB%3A%20core%3A%20Fix%20misleading%20driver%20bug%20report&type=Commits)
+* [USB: simplify the interface of usb_get_status()](https://github.com/search?q=USB%3A%20simplify%20the%20interface%20of%20usb_get_status%28%29&type=Commits)
+* [usb: core: log higher level message on malformed LANGID descriptor](https://github.com/search?q=usb%3A%20core%3A%20log%20higher%20level%20message%20on%20malformed%20LANGID%20descriptor&type=Commits)
+* [usb: message: Fixed error: 'no space before bracket'](https://github.com/search?q=usb%3A%20message%3A%20Fixed%20error%3A%20%27no%20space%20before%20bracket%27&type=Commits)
+* [usb: message: Fixed parenthesis error in sizeof function.](https://github.com/search?q=usb%3A%20message%3A%20Fixed%20parenthesis%20error%20in%20sizeof%20function.&type=Commits)
+* [usb: fix some scripts/kernel-doc warnings](https://github.com/search?q=usb%3A%20fix%20some%20scripts/kernel-doc%20warnings&type=Commits)
+* [USB: core: Fix unterminated string returned by usb_string()](https://github.com/search?q=USB%3A%20core%3A%20Fix%20unterminated%20string%20returned%20by%20usb_string%28%29&type=Commits)
+* [selinux: properly handle multiple messages in selinux_netlink_send()](https://github.com/search?q=selinux%3A%20properly%20handle%20multiple%20messages%20in%20selinux_netlink_send%28%29&type=Commits)
+* [selinux: rate-limit netlink message warnings in selinux_nlmsg_perm()](https://github.com/search?q=selinux%3A%20rate-limit%20netlink%20message%20warnings%20in%20selinux_nlmsg_perm%28%29&type=Commits)
+* [selinux: Print 'sclass' as string when unrecognized netlink message occurs](https://github.com/search?q=selinux%3A%20Print%20%27sclass%27%20as%20string%20when%20unrecognized%20netlink%20message%20occurs&type=Commits)
+* [scsi: devinfo: Fix incorrect strncpy usage](https://github.com/search?q=scsi%3A%20devinfo%3A%20Fix%20incorrect%20strncpy%20usage&type=Commits)
+* [configfs: replace strncpy with memcpy](https://github.com/search?q=configfs%3A%20replace%20strncpy%20with%20memcpy&type=Commits)
+* [AIO: Don't plug the I/O queue in do_io_submit()](https://github.com/search?q=AIO%3A%20Don%27t%20plug%20the%20I/O%20queue%20in%20do_io_submit%28%29&type=Commits)
+* [Revert "fs: Async I/O latency to a ssd greatly increased"](https://github.com/search?q=Revert%20"fs%3A%20Async%20I/O%20latency%20to%20a%20ssd%20greatly%20increased"&type=Commits)
+* [kobject: Replace strncpy with memcpy](https://github.com/search?q=kobject%3A%20Replace%20strncpy%20with%20memcpy&type=Commits)
+* [msm: Fix high load average from uninterruptible waits](https://github.com/search?q=msm%3A%20Fix%20high%20load%20average%20from%20uninterruptible%20waits&type=Commits)
+* [exec: Always set cap_ambient in cap_bprm_set_creds](https://github.com/search?q=exec%3A%20Always%20set%20cap_ambient%20in%20cap_bprm_set_creds&type=Commits)
+* [include/asm-generic/topology.h: guard cpumask_of_node() macro argument](https://github.com/search?q=include/asm-generic/topology.h%3A%20guard%20cpumask_of_node%28%29%20macro%20argument&type=Commits)
+* [cpumask: fix spurious cpumask_of_node() on non-NUMA multi-node configs](https://github.com/search?q=cpumask%3A%20fix%20spurious%20cpumask_of_node%28%29%20on%20non-NUMA%20multi-node%20configs&type=Commits)
+* [iommu: Fix reference count leak in iommu_group_alloc.](https://github.com/search?q=iommu%3A%20Fix%20reference%20count%20leak%20in%20iommu_group_alloc.&type=Commits)
+* [block: nr_sects_write(): Disable preemption on seqcount write](https://github.com/search?q=block%3A%20nr_sects_write%28%29%3A%20Disable%20preemption%20on%20seqcount%20write&type=Commits)
+* [crypto: algboss - don't wait during notifier callback](https://github.com/search?q=crypto%3A%20algboss%20-%20don%27t%20wait%20during%20notifier%20callback&type=Commits)
+* [kprobes: Fix to protect kick_kprobe_optimizer() by kprobe_mutex](https://github.com/search?q=kprobes%3A%20Fix%20to%20protect%20kick_kprobe_optimizer%28%29%20by%20kprobe_mutex&type=Commits)
+* [slob: Rework #ifdeffery in slab.h](https://github.com/search?q=slob%3A%20Rework%20%23ifdeffery%20in%20slab.h&type=Commits)
+* [mm, slab_common: add 'unlikely' to size check of kmalloc_slab()](https://github.com/search?q=mm,%20slab_common%3A%20add%20%27unlikely%27%20to%20size%20check%20of%20kmalloc_slab%28%29&type=Commits)
+* [drivers: base: Fix NULL pointer exception in __platform_driver_probe() if a driver developer is foolish](https://github.com/search?q=drivers%3A%20base%3A%20Fix%20NULL%20pointer%20exception%20in%20__platform_driver_probe%28%29%20if%20a%20driver%20developer%20is%20foolish&type=Commits)
+* [zram: remove obsolete ZRAM_DEBUG option](https://github.com/search?q=zram%3A%20remove%20obsolete%20ZRAM_DEBUG%20option&type=Commits)
+* [lib/zlib: remove outdated and incorrect pre-increment optimization](https://github.com/search?q=lib/zlib%3A%20remove%20outdated%20and%20incorrect%20pre-increment%20optimization&type=Commits)
+* [staging: android: ion: use vmap instead of vm_map_ram](https://github.com/search?q=staging%3A%20android%3A%20ion%3A%20use%20vmap%20instead%20of%20vm_map_ram&type=Commits)
+* [Bluetooth: Add SCO fallback for invalid LMP parameters error](https://github.com/search?q=Bluetooth%3A%20Add%20SCO%20fallback%20for%20invalid%20LMP%20parameters%20error&type=Commits)
+* [xhci: Remove BUG_ON in xhci_get_input_control_ctx.](https://github.com/search?q=xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx.&type=Commits)
+* [Revert "xhci: Remove BUG_ON in xhci_get_input_control_ctx."](https://github.com/search?q=Revert%20"xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx."&type=Commits)
+* [block: Fix use-after-free in blkdev_get()](https://github.com/search?q=block%3A%20Fix%20use-after-free%20in%20blkdev_get%28%29&type=Commits)
+* [cpuidle: Fix three reference count leaks](https://github.com/search?q=cpuidle%3A%20Fix%20three%20reference%20count%20leaks&type=Commits)
+* [l2tp: Allow duplicate session creation with UDP](https://github.com/search?q=l2tp%3A%20Allow%20duplicate%20session%20creation%20with%20UDP&type=Commits)
+* [ip_tunnel: fix use-after-free in ip_tunnel_lookup()](https://github.com/search?q=ip_tunnel%3A%20fix%20use-after-free%20in%20ip_tunnel_lookup%28%29&type=Commits)
+* [tcp_cubic: fix spurious HYSTART_DELAY exit upon drop in min RTT](https://github.com/search?q=tcp_cubic%3A%20fix%20spurious%20HYSTART_DELAY%20exit%20upon%20drop%20in%20min%20RTT&type=Commits)
+* [ALSA: usb-audio: uac1: Invalidate ctl on interrupt](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20uac1%3A%20Invalidate%20ctl%20on%20interrupt&type=Commits)
+* [xhci: Fix enumeration issue when setting max packet size for FS devices.](https://github.com/search?q=xhci%3A%20Fix%20enumeration%20issue%20when%20setting%20max%20packet%20size%20for%20FS%20devices.&type=Commits)
+* [xhci: Fix incorrect EP_STATE_MASK](https://github.com/search?q=xhci%3A%20Fix%20incorrect%20EP_STATE_MASK&type=Commits)
+* [sctp: Don't advertise IPv4 addresses if ipv6only is set on the socket](https://github.com/search?q=sctp%3A%20Don%27t%20advertise%20IPv4%20addresses%20if%20ipv6only%20is%20set%20on%20the%20socket&type=Commits)
+* [net: Do not clear the sock TX queue in sk_set_socket()](https://github.com/search?q=net%3A%20Do%20not%20clear%20the%20sock%20TX%20queue%20in%20sk_set_socket%28%29&type=Commits)
+* [net: core: reduce recursion limit value](https://github.com/search?q=net%3A%20core%3A%20reduce%20recursion%20limit%20value&type=Commits)
+* [mm/slab: use memzero_explicit() in kzfree()](https://github.com/search?q=mm/slab%3A%20use%20memzero_explicit%28%29%20in%20kzfree%28%29&type=Commits)
+* [net: core: device_rename: Use rwsem instead of a seqcount](https://github.com/search?q=net%3A%20core%3A%20device_rename%3A%20Use%20rwsem%20instead%20of%20a%20seqcount&type=Commits)
+* [selinux: fix double free](https://github.com/search?q=selinux%3A%20fix%20double%20free&type=Commits)
+* [net: fix memleak in register_netdevice()](https://github.com/search?q=net%3A%20fix%20memleak%20in%20register_netdevice%28%29&type=Commits)
+* [qseecom: don't unregister listener when data->released is true](https://github.com/search?q=qseecom%3A%20don%27t%20unregister%20listener%20when%20data->released%20is%20true&type=Commits)
+* [Input: add safety guards to input_set_keycode()](https://github.com/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
+* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
+* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
+* [cpufreq: Reformat printk() statements](https://github.com/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
+* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
+* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
+* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
+* [msm: ispif: Remove handling of SD_SHUTDOWN](https://github.com/search?q=msm%3A%20ispif%3A%20Remove%20handling%20of%20SD_SHUTDOWN&type=Commits)
+* [ASoC: core: Don't assign an out-of-bounds address to rtd_aux](https://github.com/search?q=ASoC%3A%20core%3A%20Don%27t%20assign%20an%20out-of-bounds%20address%20to%20rtd_aux&type=Commits)
+* [[BACKPORT]ARM: fix oops when using older ARMv4T CPUs](https://github.com/search?q=[BACKPORT]ARM%3A%20fix%20oops%20when%20using%20older%20ARMv4T%20CPUs&type=Commits)
+* [[BACKPORT]ARM: 8196/1: vfp: Workaround bad MVFR1 register on some Kraits](https://github.com/search?q=[BACKPORT]ARM%3A%208196/1%3A%20vfp%3A%20Workaround%20bad%20MVFR1%20register%20on%20some%20Kraits&type=Commits)
+* [[BACKPORT]ARM: 8635/1: nommu: allow enabling REMAP_VECTORS_TO_RAM](https://github.com/search?q=[BACKPORT]ARM%3A%208635/1%3A%20nommu%3A%20allow%20enabling%20REMAP_VECTORS_TO_RAM&type=Commits)
+* [[BACKPORT]ARM: 8720/1: ensure dump_instr() checks addr_limit](https://github.com/search?q=[BACKPORT]ARM%3A%208720/1%3A%20ensure%20dump_instr%28%29%20checks%20addr_limit&type=Commits)
+* [[BACKPORT]ARM: dma-mapping: disallow dma_get_sgtable() for non-kernel managed memory](https://github.com/search?q=[BACKPORT]ARM%3A%20dma-mapping%3A%20disallow%20dma_get_sgtable%28%29%20for%20non-kernel%20managed%20memory&type=Commits)
+* [[BACKPORT]ARM: 8814/1: mm: improve/fix ARM v7_dma_inv_range() unaligned address handling](https://github.com/search?q=[BACKPORT]ARM%3A%208814/1%3A%20mm%3A%20improve/fix%20ARM%20v7_dma_inv_range%28%29%20unaligned%20address%20handling&type=Commits)
+* [sched/sysctl: Check user input value of sysctl_sched_time_avg](https://github.com/search?q=sched/sysctl%3A%20Check%20user%20input%20value%20of%20sysctl_sched_time_avg&type=Commits)
+* [kernel/signal.c: remove the no longer needed SIGNAL_UNKILLABLE check in complete_signal()](https://github.com/search?q=kernel/signal.c%3A%20remove%20the%20no%20longer%20needed%20SIGNAL_UNKILLABLE%20check%20in%20complete_signal%28%29&type=Commits)
+* [kernel/signal.c: protect the SIGNAL_UNKILLABLE tasks from !sig_kernel_only() signals](https://github.com/search?q=kernel/signal.c%3A%20protect%20the%20SIGNAL_UNKILLABLE%20tasks%20from%20!sig_kernel_only%28%29%20signals&type=Commits)
+* [kernel/signal.c: protect the traced SIGNAL_UNKILLABLE tasks from SIGKILL](https://github.com/search?q=kernel/signal.c%3A%20protect%20the%20traced%20SIGNAL_UNKILLABLE%20tasks%20from%20SIGKILL&type=Commits)
+* [signal: Only reschedule timers on signals timers have sent](https://github.com/search?q=signal%3A%20Only%20reschedule%20timers%20on%20signals%20timers%20have%20sent&type=Commits)
+* [ptrace: change __ptrace_unlink() to clear ->ptrace under ->siglock](https://github.com/search?q=ptrace%3A%20change%20__ptrace_unlink%28%29%20to%20clear%20->ptrace%20under%20->siglock&type=Commits)
+* [sched/cputime: Fix cpu_timer_sample_group() double accounting](https://github.com/search?q=sched/cputime%3A%20Fix%20cpu_timer_sample_group%28%29%20double%20accounting&type=Commits)
+* [pid_ns: Sleep in TASK_INTERRUPTIBLE in zap_pid_ns_processes](https://github.com/search?q=pid_ns%3A%20Sleep%20in%20TASK_INTERRUPTIBLE%20in%20zap_pid_ns_processes&type=Commits)
+* [hrtimer: Ensure POSIX compliance (relative CLOCK_REALTIME hrtimers)](https://github.com/search?q=hrtimer%3A%20Ensure%20POSIX%20compliance%20%28relative%20CLOCK_REALTIME%20hrtimers%29&type=Commits)
+* [ktime: Fix ktime_divns to do signed division](https://github.com/search?q=ktime%3A%20Fix%20ktime_divns%20to%20do%20signed%20division&type=Commits)
+* [hrtimer: Allow concurrent hrtimer_start() for self restarting timers](https://github.com/search?q=hrtimer%3A%20Allow%20concurrent%20hrtimer_start%28%29%20for%20self%20restarting%20timers&type=Commits)
+* [ktime: Optimize ktime_divns for constant divisors](https://github.com/search?q=ktime%3A%20Optimize%20ktime_divns%20for%20constant%20divisors&type=Commits)
+* [ktime: Sanitize ktime_to_us/ms conversion](https://github.com/search?q=ktime%3A%20Sanitize%20ktime_to_us/ms%20conversion&type=Commits)
+* [audit: Fix use after free in audit_remove_watch_rule()](https://github.com/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
+* [kernel/acct.c: fix the acct->needcheck check in check_free_space()](https://github.com/search?q=kernel/acct.c%3A%20fix%20the%20acct->needcheck%20check%20in%20check_free_space%28%29&type=Commits)
+* [kernel/async.c: revert "async: simplify lowest_in_progress()"](https://github.com/search?q=kernel/async.c%3A%20revert%20"async%3A%20simplify%20lowest_in_progress%28%29"&type=Commits)
+* [tracing: Fix crash when it fails to alloc ring buffer](https://github.com/search?q=tracing%3A%20Fix%20crash%20when%20it%20fails%20to%20alloc%20ring%20buffer&type=Commits)
+* [tracing: Remove extra zeroing out of the ring buffer page](https://github.com/search?q=tracing%3A%20Remove%20extra%20zeroing%20out%20of%20the%20ring%20buffer%20page&type=Commits)
+* [tracing: Fix trace_pipe behavior for instance traces](https://github.com/search?q=tracing%3A%20Fix%20trace_pipe%20behavior%20for%20instance%20traces&type=Commits)
+* [tracing: Use SOFTIRQ_OFFSET for softirq dectection for more accurate results](https://github.com/search?q=tracing%3A%20Use%20SOFTIRQ_OFFSET%20for%20softirq%20dectection%20for%20more%20accurate%20results&type=Commits)
+* [perf: Remove useless atomic_t](https://github.com/search?q=perf%3A%20Remove%20useless%20atomic_t&type=Commits)
+* [perf/core: Correct event creation with PERF_FORMAT_GROUP](https://github.com/search?q=perf/core%3A%20Correct%20event%20creation%20with%20PERF_FORMAT_GROUP&type=Commits)
+* [perf: Use hrtimers for event multiplexing](https://github.com/search?q=perf%3A%20Use%20hrtimers%20for%20event%20multiplexing&type=Commits)
+* [perf: Optimize group_sched_in()](https://github.com/search?q=perf%3A%20Optimize%20group_sched_in%28%29&type=Commits)
+* [perf: Fix corruption of sibling list with hotplug](https://github.com/search?q=perf%3A%20Fix%20corruption%20of%20sibling%20list%20with%20hotplug&type=Commits)
+* [perf: Disable IRQs across RCU RS CS that acquires scheduler lock](https://github.com/search?q=perf%3A%20Disable%20IRQs%20across%20RCU%20RS%20CS%20that%20acquires%20scheduler%20lock&type=Commits)
+* [perf: Cure event->pending_disable race](https://github.com/search?q=perf%3A%20Cure%20event->pending_disable%20race&type=Commits)
+* [mm, page_alloc: double zone's batchsize](https://github.com/search?q=mm,%20page_alloc%3A%20double%20zone%27s%20batchsize&type=Commits)
+* [init/main.c: add sync point between each level](https://github.com/search?q=init/main.c%3A%20add%20sync%20point%20between%20each%20level&type=Commits)
+* [proc: much faster /proc/vmstat](https://github.com/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
+* [BACKPORT: msm: vidc: Ensure validity of shared Q indices](https://github.com/search?q=BACKPORT%3A%20msm%3A%20vidc%3A%20Ensure%20validity%20of%20shared%20Q%20indices&type=Commits)
+* [binder: Reserve caches for small, high-frequency memory allocations](https://github.com/search?q=binder%3A%20Reserve%20caches%20for%20small,%20high-frequency%20memory%20allocations&type=Commits)
+* [apq8084: defconfig: Tone down rootwait polling to 10](https://github.com/search?q=apq8084%3A%20defconfig%3A%20Tone%20down%20rootwait%20polling%20to%2010&type=Commits)
+* [init: do_mounts: make the rootwait polling configurable](https://github.com/search?q=init%3A%20do_mounts%3A%20make%20the%20rootwait%20polling%20configurable&type=Commits)
+* [nohz: Fix local_timer_softirq_pending()](https://github.com/search?q=nohz%3A%20Fix%20local_timer_softirq_pending%28%29&type=Commits)
+* [sched_clock: Prevent callers from seeing half-updated data](https://github.com/search?q=sched_clock%3A%20Prevent%20callers%20from%20seeing%20half-updated%20data&type=Commits)
+* [nohz: Avoid tick's double reprogramming in highres mode](https://github.com/search?q=nohz%3A%20Avoid%20tick%27s%20double%20reprogramming%20in%20highres%20mode&type=Commits)
+* [tick-sched: Don't call update_wall_time() when delta is lesser than tick_period](https://github.com/search?q=tick-sched%3A%20Don%27t%20call%20update_wall_time%28%29%20when%20delta%20is%20lesser%20than%20tick_period&type=Commits)
+* [nohz: Fix !HIGH_RES_TIMERS hang](https://github.com/search?q=nohz%3A%20Fix%20!HIGH_RES_TIMERS%20hang&type=Commits)
+* [clocksource: Fix abs() usage w/ 64bit values](https://github.com/search?q=clocksource%3A%20Fix%20abs%28%29%20usage%20w/%2064bit%20values&type=Commits)
+* [sched, smp: Correctly deal with nested sleeps](https://github.com/search?q=sched,%20smp%3A%20Correctly%20deal%20with%20nested%20sleeps&type=Commits)
+* [timekeeping: Simplify arch_gettimeoffset()](https://github.com/search?q=timekeeping%3A%20Simplify%20arch_gettimeoffset%28%29&type=Commits)
+* [Revert "msm: vidc: Avoid information leak while accessing the packet"](https://github.com/search?q=Revert%20"msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet"&type=Commits)
+* [msm: vidc: Don't query the V4L2 ctrl framework for checking thumbnail mode](https://github.com/search?q=msm%3A%20vidc%3A%20Don%27t%20query%20the%20V4L2%20ctrl%20framework%20for%20checking%20thumbnail%20mode&type=Commits)
+* [msm: vidc: Increase the MIN DRAIN RATE when DCVS is enabled](https://github.com/search?q=msm%3A%20vidc%3A%20Increase%20the%20MIN%20DRAIN%20RATE%20when%20DCVS%20is%20enabled&type=Commits)
+* [msm: vidc: Protect suspend operation with core lock](https://github.com/search?q=msm%3A%20vidc%3A%20Protect%20suspend%20operation%20with%20core%20lock&type=Commits)
+* [msm: vidc: Fix session error handling](https://github.com/search?q=msm%3A%20vidc%3A%20Fix%20session%20error%20handling&type=Commits)
+* [msm: vidc: Increase firmware unload delay](https://github.com/search?q=msm%3A%20vidc%3A%20Increase%20firmware%20unload%20delay&type=Commits)
+* [msm: vidc: Unload firmware immediately after sys error](https://github.com/search?q=msm%3A%20vidc%3A%20Unload%20firmware%20immediately%20after%20sys%20error&type=Commits)
+* [msm/vidc/msm_vidc_common fix identation](https://github.com/search?q=msm/vidc/msm_vidc_common%20fix%20identation&type=Commits)
+* [msm: vidc: Validate buffer prior to releasing reference](https://github.com/search?q=msm%3A%20vidc%3A%20Validate%20buffer%20prior%20to%20releasing%20reference&type=Commits)
+* [msm: camera: Add dynamic logging feature in camera](https://github.com/search?q=msm%3A%20camera%3A%20Add%20dynamic%20logging%20feature%20in%20camera&type=Commits)
+* [msm: camera: Return EINVAL when msm_get_session fails](https://github.com/search?q=msm%3A%20camera%3A%20Return%20EINVAL%20when%20msm_get_session%20fails&type=Commits)
+* [msm: camera: Instead of read_lock use read_lock_irqsave.](https://github.com/search?q=msm%3A%20camera%3A%20Instead%20of%20read_lock%20use%20read_lock_irqsave.&type=Commits)
+* [msm: camera: Retelimit log in msm_vb2_buf_cleanup.](https://github.com/search?q=msm%3A%20camera%3A%20Retelimit%20log%20in%20msm_vb2_buf_cleanup.&type=Commits)
+* [dsp: avtimer: validate payload size before memory copy](https://github.com/search?q=dsp%3A%20avtimer%3A%20validate%20payload%20size%20before%20memory%20copy&type=Commits)
+* [ext4: add more paranoia checking in ext4_expand_extra_isize handling](https://github.com/search?q=ext4%3A%20add%20more%20paranoia%20checking%20in%20ext4_expand_extra_isize%20handling&type=Commits)
+* [ext4: Introduce ext4_clamp_want_extra_isize()](https://github.com/search?q=ext4%3A%20Introduce%20ext4_clamp_want_extra_isize%28%29&type=Commits)
+* [vt: selection, close sel_buffer race](https://github.com/search?q=vt%3A%20selection,%20close%20sel_buffer%20race&type=Commits)
+* [vt: selection, handle pending signals in paste_selection](https://github.com/search?q=vt%3A%20selection,%20handle%20pending%20signals%20in%20paste_selection&type=Commits)
+* [ALSA: usb-audio: Fix a stack buffer overflow bug in check_input_term](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20Fix%20a%20stack%20buffer%20overflow%20bug%20in%20check_input_term&type=Commits)
+* [ANDROID: uid_sys_stats: check previous uid_entry before call find_or_register_uid](https://github.com/search?q=ANDROID%3A%20uid_sys_stats%3A%20check%20previous%20uid_entry%20before%20call%20find_or_register_uid&type=Commits)
+* [fs/namespace.c: fix mountpoint reference counter race](https://github.com/search?q=fs/namespace.c%3A%20fix%20mountpoint%20reference%20counter%20race&type=Commits)
+* [can: peak_usb: pcan_usb_pro: Fix info-leaks to USB devices](https://github.com/search?q=can%3A%20peak_usb%3A%20pcan_usb_pro%3A%20Fix%20info-leaks%20to%20USB%20devices&type=Commits)
+* [signal: Extend exec_id to 64bits](https://github.com/search?q=signal%3A%20Extend%20exec_id%20to%2064bits&type=Commits)
+* [net: ipc_router: Do not allow change of default security rule](https://github.com/search?q=net%3A%20ipc_router%3A%20Do%20not%20allow%20change%20of%20default%20security%20rule&type=Commits)
+* [qcacld-2.0: Avoid possible buffer over-read in wma_wow_wakeup_host_event](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20over-read%20in%20wma_wow_wakeup_host_event&type=Commits)
+* [qcacld-2.0: Add sanity check for buf pkt len to prevent OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20buf%20pkt%20len%20to%20prevent%20OOB%20access&type=Commits)
+* [apq8084: qcacld-2.0: move driver to net/wireless dir](https://github.com/search?q=apq8084%3A%20qcacld-2.0%3A%20move%20driver%20to%20net/wireless%20dir&type=Commits)
+* [esoc: Make <linux/esoc_client.h> self-contained](https://github.com/search?q=esoc%3A%20Make%20<linux/esoc_client.h>%20self-contained&type=Commits)
+* [defconfig disable some debug](https://github.com/search?q=defconfig%20disable%20some%20debug&type=Commits)
+* [Revert "apq8084.dtsi: qcom,bcl max freq to 1958Mhz"](https://github.com/search?q=Revert%20"apq8084.dtsi%3A%20qcom,bcl%20max%20freq%20to%201958Mhz"&type=Commits)
+* [apq8084.dtsi: disable bcl hotplug by default](https://github.com/search?q=apq8084.dtsi%3A%20disable%20bcl%20hotplug%20by%20default&type=Commits)
+* [bcl: allow to write to bcl_hotplug_mask](https://github.com/search?q=bcl%3A%20allow%20to%20write%20to%20bcl_hotplug_mask&type=Commits)
+* [bcl: use strncmp for checks](https://github.com/search?q=bcl%3A%20use%20strncmp%20for%20checks&type=Commits)
+* [bcl: don't mitigate freq when disable](https://github.com/search?q=bcl%3A%20don%27t%20mitigate%20freq%20when%20disable&type=Commits)
+* [power: bcl vph_low/high_store check with is high/low before store](https://github.com/search?q=power%3A%20bcl%20vph_low/high_store%20check%20with%20is%20high/low%20before%20store&type=Commits)
+* [power: bcl: Fix store of wr functions](https://github.com/search?q=power%3A%20bcl%3A%20Fix%20store%20of%20wr%20functions&type=Commits)
+* [power: bcl: Fix store max freq](https://github.com/search?q=power%3A%20bcl%3A%20Fix%20store%20max%20freq&type=Commits)
+* [reset drivers/power/battery_current_limit.c](https://github.com/search?q=reset%20drivers/power/battery_current_limit.c&type=Commits)
+
+#### Device specific Changes of 09-01-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-01-2020:
+
+#### device/motorola/quark/
+* [Quark: power-8084 allow only 2 enabled cores for power save profile](https://github.com/search?q=Quark%3A%20power-8084%20allow%20only%202%20enabled%20cores%20for%20power%20save%20profile&type=Commits)
+* [Quark: init don't change bcl](https://github.com/search?q=Quark%3A%20init%20don%27t%20change%20bcl&type=Commits)
+* [Quark: disable vsync for cpu rendered apps.](https://github.com/search?q=Quark%3A%20disable%20vsync%20for%20cpu%20rendered%20apps.&type=Commits)
+* [Quark: disable recompute crop change in SF](https://github.com/search?q=Quark%3A%20disable%20recompute%20crop%20change%20in%20SF&type=Commits)
+* [Quark: Disable backpressure propagation in SurfaceFlinger](https://github.com/search?q=Quark%3A%20Disable%20backpressure%20propagation%20in%20SurfaceFlinger&type=Commits)
+* [Quark: wifi: Disable auto tx power control](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control&type=Commits)
+* [Quark: Build common legacy gnss hal](https://github.com/search?q=Quark%3A%20Build%20common%20legacy%20gnss%20hal&type=Commits)
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Revert "Quark: enable bcl hotplug to core 2 and 3"](https://github.com/search?q=Revert%20"Quark%3A%20enable%20bcl%20hotplug%20to%20core%202%20and%203"&type=Commits)
+
+#### frameworks/base/
+* [Fix CDM.requestNotificationAccess() in profile.](https://github.com/search?q=Fix%20CDM.requestNotificationAccess%28%29%20in%20profile.&type=Commits)
+
+#### kernel/motorola/apq8084/
+* [fix ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=fix%20ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [dsp: adm: Add error check to avoid memory overread](https://github.com/search?q=dsp%3A%20adm%3A%20Add%20error%20check%20to%20avoid%20memory%20overread&type=Commits)
+* [dsp: adm: Fix to avoid memory overread in adm callback](https://github.com/search?q=dsp%3A%20adm%3A%20Fix%20to%20avoid%20memory%20overread%20in%20adm%20callback&type=Commits)
+* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: fix bounds checking for ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20fix%20bounds%20checking%20for%20ADM%20get%20params&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
+* [msm: adm: validate ADSP payload size before access](https://github.com/search?q=msm%3A%20adm%3A%20validate%20ADSP%20payload%20size%20before%20access&type=Commits)
+* [power: battery_current_limit: Remove hotplug control completely](https://github.com/search?q=power%3A%20battery_current_limit%3A%20Remove%20hotplug%20control%20completely&type=Commits)
+* [Revert "bcl: allow to write to bcl_hotplug_mask"](https://github.com/search?q=Revert%20"bcl%3A%20allow%20to%20write%20to%20bcl_hotplug_mask"&type=Commits)
+* [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
+* [msm: subsystem_restart: Add workqueue for device restart](https://github.com/search?q=msm%3A%20subsystem_restart%3A%20Add%20workqueue%20for%20device%20restart&type=Commits)
+* [msm: subsystem-restart: Replace using wake lock APIs](https://github.com/search?q=msm%3A%20subsystem-restart%3A%20Replace%20using%20wake%20lock%20APIs&type=Commits)
+* [msm: ssr: Add notification to indicate a device restart](https://github.com/search?q=msm%3A%20ssr%3A%20Add%20notification%20to%20indicate%20a%20device%20restart&type=Commits)
+* [msm: Move PIL and SSR drivers to drivers/soc/msm](https://github.com/search?q=msm%3A%20Move%20PIL%20and%20SSR%20drivers%20to%20drivers/soc/msm&type=Commits)
+* [soc: qcom: bam_dmux: Replace wake locks with wakeup sources](https://github.com/search?q=soc%3A%20qcom%3A%20bam_dmux%3A%20Replace%20wake%20locks%20with%20wakeup%20sources&type=Commits)
+* [char: msm_smd_pkt: flush pending work on release](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20flush%20pending%20work%20on%20release&type=Commits)
+* [char: msm_smd_pkt: Remove hexdump of userspace read/write buffers](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20Remove%20hexdump%20of%20userspace%20read/write%20buffers&type=Commits)
+* [char: msm_smd_pkt: Rate limit error logs in smd pkt functions](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20Rate%20limit%20error%20logs%20in%20smd%20pkt%20functions&type=Commits)
+* [char: msm_smd_pkt: Add warning to driver removal function](https://github.com/search?q=char%3A%20msm_smd_pkt%3A%20Add%20warning%20to%20driver%20removal%20function&type=Commits)
+* [ALSA: info: Drop WARN_ON() from buffer NULL sanity check](https://github.com/search?q=ALSA%3A%20info%3A%20Drop%20WARN_ON%28%29%20from%20buffer%20NULL%20sanity%20check&type=Commits)
+* [i2c: dev: Fix the race between the release of i2c_dev and cdev](https://github.com/search?q=i2c%3A%20dev%3A%20Fix%20the%20race%20between%20the%20release%20of%20i2c_dev%20and%20cdev&type=Commits)
+* [i2c-dev: don't get i2c adapter via i2c_dev](https://github.com/search?q=i2c-dev%3A%20don%27t%20get%20i2c%20adapter%20via%20i2c_dev&type=Commits)
+* [i2c: dev: use after free in detach](https://github.com/search?q=i2c%3A%20dev%3A%20use%20after%20free%20in%20detach&type=Commits)
+* [i2c: dev: don't start function name with 'return'](https://github.com/search?q=i2c%3A%20dev%3A%20don%27t%20start%20function%20name%20with%20%27return%27&type=Commits)
+* [i2c: dev: switch from register_chrdev to cdev API](https://github.com/search?q=i2c%3A%20dev%3A%20switch%20from%20register_chrdev%20to%20cdev%20API&type=Commits)
+* [i2c: dev: fix potential memory leak in i2cdev_ioctl_rdwr](https://github.com/search?q=i2c%3A%20dev%3A%20fix%20potential%20memory%20leak%20in%20i2cdev_ioctl_rdwr&type=Commits)
+* [i2c: dev: prevent adapter retries and timeout being set as minus value](https://github.com/search?q=i2c%3A%20dev%3A%20prevent%20adapter%20retries%20and%20timeout%20being%20set%20as%20minus%20value&type=Commits)
+* [i2c: remove FSF address](https://github.com/search?q=i2c%3A%20remove%20FSF%20address&type=Commits)
+* [i2c: i2c-dev: Create 'name' attribute automatically](https://github.com/search?q=i2c%3A%20i2c-dev%3A%20Create%20%27name%27%20attribute%20automatically&type=Commits)
+* [sysfs: add more helper macro's for (bin_)attribute(_groups)](https://github.com/search?q=sysfs%3A%20add%20more%20helper%20macro%27s%20for%20%28bin_%29attribute%28_groups%29&type=Commits)
+* [sysfs.h: add BIN_ATTR macro](https://github.com/search?q=sysfs.h%3A%20add%20BIN_ATTR%20macro&type=Commits)
+* [sysfs.h: add ATTRIBUTE_GROUPS() macro](https://github.com/search?q=sysfs.h%3A%20add%20ATTRIBUTE_GROUPS%28%29%20macro&type=Commits)
+* [sysfs.h: add __ATTR_RW() macro](https://github.com/search?q=sysfs.h%3A%20add%20__ATTR_RW%28%29%20macro&type=Commits)
+* [driver core: add default groups to struct class](https://github.com/search?q=driver%20core%3A%20add%20default%20groups%20to%20struct%20class&type=Commits)
+* [chardev: add helper function to register char devs with a struct device](https://github.com/search?q=chardev%3A%20add%20helper%20function%20to%20register%20char%20devs%20with%20a%20struct%20device&type=Commits)
+* [driver core: create write-only attribute macros for devices and drivers](https://github.com/search?q=driver%20core%3A%20create%20write-only%20attribute%20macros%20for%20devices%20and%20drivers&type=Commits)
+* [driver core: device.h: add RW and RO attribute macros](https://github.com/search?q=driver%20core%3A%20device.h%3A%20add%20RW%20and%20RO%20attribute%20macros&type=Commits)
+* [msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl](https://github.com/search?q=msm%3A%20vidc%3A%20use%20%pK%20instead%20of%20%p%20which%20respects%20kptr_restrict%20sysctl&type=Commits)
+* [msm: vidc: fix a race condition in OCMEM free function](https://github.com/search?q=msm%3A%20vidc%3A%20fix%20a%20race%20condition%20in%20OCMEM%20free%20function&type=Commits)
+* [msm: vidc: Cancel pending power collapse works in core_release](https://github.com/search?q=msm%3A%20vidc%3A%20Cancel%20pending%20power%20collapse%20works%20in%20core_release&type=Commits)
+* [msm: vidc: Handle the dangling sessions in hfi sessions list](https://github.com/search?q=msm%3A%20vidc%3A%20Handle%20the%20dangling%20sessions%20in%20hfi%20sessions%20list&type=Commits)
+* [msm: vidc: Error handling when core is in bad state](https://github.com/search?q=msm%3A%20vidc%3A%20Error%20handling%20when%20core%20is%20in%20bad%20state&type=Commits)
+* [msm: vidc: WARN_ON() reveals fuction addresses](https://github.com/search?q=msm%3A%20vidc%3A%20WARN_ON%28%29%20reveals%20fuction%20addresses&type=Commits)
+* [msm: vidc: Convert macros into inline functions](https://github.com/search?q=msm%3A%20vidc%3A%20Convert%20macros%20into%20inline%20functions&type=Commits)
+* [ANDROID: fix a bug in quota2](https://github.com/search?q=ANDROID%3A%20fix%20a%20bug%20in%20quota2&type=Commits)
+* [USB: core: Fix free-while-in-use bug in the USB S-Glibrary](https://github.com/search?q=USB%3A%20core%3A%20Fix%20free-while-in-use%20bug%20in%20the%20USB%20S-Glibrary&type=Commits)
+* [drivers: usb: core: Minimize irq disabling in usb_sg_cancel()](https://github.com/search?q=drivers%3A%20usb%3A%20core%3A%20Minimize%20irq%20disabling%20in%20usb_sg_cancel%28%29&type=Commits)
+* [drivers: usb: core: Don't disable irqs in usb_sg_wait() during URB submit.](https://github.com/search?q=drivers%3A%20usb%3A%20core%3A%20Don%27t%20disable%20irqs%20in%20usb_sg_wait%28%29%20during%20URB%20submit.&type=Commits)
+* [USB: core: Fix misleading driver bug report](https://github.com/search?q=USB%3A%20core%3A%20Fix%20misleading%20driver%20bug%20report&type=Commits)
+* [USB: simplify the interface of usb_get_status()](https://github.com/search?q=USB%3A%20simplify%20the%20interface%20of%20usb_get_status%28%29&type=Commits)
+* [usb: core: log higher level message on malformed LANGID descriptor](https://github.com/search?q=usb%3A%20core%3A%20log%20higher%20level%20message%20on%20malformed%20LANGID%20descriptor&type=Commits)
+* [usb: message: Fixed error: 'no space before bracket'](https://github.com/search?q=usb%3A%20message%3A%20Fixed%20error%3A%20%27no%20space%20before%20bracket%27&type=Commits)
+* [usb: message: Fixed parenthesis error in sizeof function.](https://github.com/search?q=usb%3A%20message%3A%20Fixed%20parenthesis%20error%20in%20sizeof%20function.&type=Commits)
+* [usb: fix some scripts/kernel-doc warnings](https://github.com/search?q=usb%3A%20fix%20some%20scripts/kernel-doc%20warnings&type=Commits)
+* [USB: core: Fix unterminated string returned by usb_string()](https://github.com/search?q=USB%3A%20core%3A%20Fix%20unterminated%20string%20returned%20by%20usb_string%28%29&type=Commits)
+* [selinux: properly handle multiple messages in selinux_netlink_send()](https://github.com/search?q=selinux%3A%20properly%20handle%20multiple%20messages%20in%20selinux_netlink_send%28%29&type=Commits)
+* [selinux: rate-limit netlink message warnings in selinux_nlmsg_perm()](https://github.com/search?q=selinux%3A%20rate-limit%20netlink%20message%20warnings%20in%20selinux_nlmsg_perm%28%29&type=Commits)
+* [selinux: Print 'sclass' as string when unrecognized netlink message occurs](https://github.com/search?q=selinux%3A%20Print%20%27sclass%27%20as%20string%20when%20unrecognized%20netlink%20message%20occurs&type=Commits)
+* [scsi: devinfo: Fix incorrect strncpy usage](https://github.com/search?q=scsi%3A%20devinfo%3A%20Fix%20incorrect%20strncpy%20usage&type=Commits)
+* [configfs: replace strncpy with memcpy](https://github.com/search?q=configfs%3A%20replace%20strncpy%20with%20memcpy&type=Commits)
+* [AIO: Don't plug the I/O queue in do_io_submit()](https://github.com/search?q=AIO%3A%20Don%27t%20plug%20the%20I/O%20queue%20in%20do_io_submit%28%29&type=Commits)
+* [Revert "fs: Async I/O latency to a ssd greatly increased"](https://github.com/search?q=Revert%20"fs%3A%20Async%20I/O%20latency%20to%20a%20ssd%20greatly%20increased"&type=Commits)
+* [kobject: Replace strncpy with memcpy](https://github.com/search?q=kobject%3A%20Replace%20strncpy%20with%20memcpy&type=Commits)
+* [msm: Fix high load average from uninterruptible waits](https://github.com/search?q=msm%3A%20Fix%20high%20load%20average%20from%20uninterruptible%20waits&type=Commits)
+* [exec: Always set cap_ambient in cap_bprm_set_creds](https://github.com/search?q=exec%3A%20Always%20set%20cap_ambient%20in%20cap_bprm_set_creds&type=Commits)
+* [include/asm-generic/topology.h: guard cpumask_of_node() macro argument](https://github.com/search?q=include/asm-generic/topology.h%3A%20guard%20cpumask_of_node%28%29%20macro%20argument&type=Commits)
+* [cpumask: fix spurious cpumask_of_node() on non-NUMA multi-node configs](https://github.com/search?q=cpumask%3A%20fix%20spurious%20cpumask_of_node%28%29%20on%20non-NUMA%20multi-node%20configs&type=Commits)
+* [iommu: Fix reference count leak in iommu_group_alloc.](https://github.com/search?q=iommu%3A%20Fix%20reference%20count%20leak%20in%20iommu_group_alloc.&type=Commits)
+* [block: nr_sects_write(): Disable preemption on seqcount write](https://github.com/search?q=block%3A%20nr_sects_write%28%29%3A%20Disable%20preemption%20on%20seqcount%20write&type=Commits)
+* [crypto: algboss - don't wait during notifier callback](https://github.com/search?q=crypto%3A%20algboss%20-%20don%27t%20wait%20during%20notifier%20callback&type=Commits)
+* [kprobes: Fix to protect kick_kprobe_optimizer() by kprobe_mutex](https://github.com/search?q=kprobes%3A%20Fix%20to%20protect%20kick_kprobe_optimizer%28%29%20by%20kprobe_mutex&type=Commits)
+* [slob: Rework #ifdeffery in slab.h](https://github.com/search?q=slob%3A%20Rework%20%23ifdeffery%20in%20slab.h&type=Commits)
+* [mm, slab_common: add 'unlikely' to size check of kmalloc_slab()](https://github.com/search?q=mm,%20slab_common%3A%20add%20%27unlikely%27%20to%20size%20check%20of%20kmalloc_slab%28%29&type=Commits)
+* [drivers: base: Fix NULL pointer exception in __platform_driver_probe() if a driver developer is foolish](https://github.com/search?q=drivers%3A%20base%3A%20Fix%20NULL%20pointer%20exception%20in%20__platform_driver_probe%28%29%20if%20a%20driver%20developer%20is%20foolish&type=Commits)
+* [zram: remove obsolete ZRAM_DEBUG option](https://github.com/search?q=zram%3A%20remove%20obsolete%20ZRAM_DEBUG%20option&type=Commits)
+* [lib/zlib: remove outdated and incorrect pre-increment optimization](https://github.com/search?q=lib/zlib%3A%20remove%20outdated%20and%20incorrect%20pre-increment%20optimization&type=Commits)
+* [staging: android: ion: use vmap instead of vm_map_ram](https://github.com/search?q=staging%3A%20android%3A%20ion%3A%20use%20vmap%20instead%20of%20vm_map_ram&type=Commits)
+* [Bluetooth: Add SCO fallback for invalid LMP parameters error](https://github.com/search?q=Bluetooth%3A%20Add%20SCO%20fallback%20for%20invalid%20LMP%20parameters%20error&type=Commits)
+* [xhci: Remove BUG_ON in xhci_get_input_control_ctx.](https://github.com/search?q=xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx.&type=Commits)
+* [Revert "xhci: Remove BUG_ON in xhci_get_input_control_ctx."](https://github.com/search?q=Revert%20"xhci%3A%20Remove%20BUG_ON%20in%20xhci_get_input_control_ctx."&type=Commits)
+* [block: Fix use-after-free in blkdev_get()](https://github.com/search?q=block%3A%20Fix%20use-after-free%20in%20blkdev_get%28%29&type=Commits)
+* [cpuidle: Fix three reference count leaks](https://github.com/search?q=cpuidle%3A%20Fix%20three%20reference%20count%20leaks&type=Commits)
+* [l2tp: Allow duplicate session creation with UDP](https://github.com/search?q=l2tp%3A%20Allow%20duplicate%20session%20creation%20with%20UDP&type=Commits)
+* [ip_tunnel: fix use-after-free in ip_tunnel_lookup()](https://github.com/search?q=ip_tunnel%3A%20fix%20use-after-free%20in%20ip_tunnel_lookup%28%29&type=Commits)
+* [tcp_cubic: fix spurious HYSTART_DELAY exit upon drop in min RTT](https://github.com/search?q=tcp_cubic%3A%20fix%20spurious%20HYSTART_DELAY%20exit%20upon%20drop%20in%20min%20RTT&type=Commits)
+* [ALSA: usb-audio: uac1: Invalidate ctl on interrupt](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20uac1%3A%20Invalidate%20ctl%20on%20interrupt&type=Commits)
+* [xhci: Fix enumeration issue when setting max packet size for FS devices.](https://github.com/search?q=xhci%3A%20Fix%20enumeration%20issue%20when%20setting%20max%20packet%20size%20for%20FS%20devices.&type=Commits)
+* [xhci: Fix incorrect EP_STATE_MASK](https://github.com/search?q=xhci%3A%20Fix%20incorrect%20EP_STATE_MASK&type=Commits)
+* [sctp: Don't advertise IPv4 addresses if ipv6only is set on the socket](https://github.com/search?q=sctp%3A%20Don%27t%20advertise%20IPv4%20addresses%20if%20ipv6only%20is%20set%20on%20the%20socket&type=Commits)
+* [net: Do not clear the sock TX queue in sk_set_socket()](https://github.com/search?q=net%3A%20Do%20not%20clear%20the%20sock%20TX%20queue%20in%20sk_set_socket%28%29&type=Commits)
+* [net: core: reduce recursion limit value](https://github.com/search?q=net%3A%20core%3A%20reduce%20recursion%20limit%20value&type=Commits)
+* [mm/slab: use memzero_explicit() in kzfree()](https://github.com/search?q=mm/slab%3A%20use%20memzero_explicit%28%29%20in%20kzfree%28%29&type=Commits)
+* [net: core: device_rename: Use rwsem instead of a seqcount](https://github.com/search?q=net%3A%20core%3A%20device_rename%3A%20Use%20rwsem%20instead%20of%20a%20seqcount&type=Commits)
+* [selinux: fix double free](https://github.com/search?q=selinux%3A%20fix%20double%20free&type=Commits)
+* [net: fix memleak in register_netdevice()](https://github.com/search?q=net%3A%20fix%20memleak%20in%20register_netdevice%28%29&type=Commits)
+* [qseecom: don't unregister listener when data->released is true](https://github.com/search?q=qseecom%3A%20don%27t%20unregister%20listener%20when%20data->released%20is%20true&type=Commits)
+* [Input: add safety guards to input_set_keycode()](https://github.com/search?q=Input%3A%20add%20safety%20guards%20to%20input_set_keycode%28%29&type=Commits)
+* [net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds](https://github.com/search?q=net%3A%20wireless%3A%20bcmdhd%3A%20remove%20SDIO%20debug%20IOVARs%20causing%20out%20of%20bounds&type=Commits)
+* [cpufreq: Add NULL checks to show() and store() methods of cpufreq](https://github.com/search?q=cpufreq%3A%20Add%20NULL%20checks%20to%20show%28%29%20and%20store%28%29%20methods%20of%20cpufreq&type=Commits)
+* [cpufreq: Reformat printk() statements](https://github.com/search?q=cpufreq%3A%20Reformat%20printk%28%29%20statements&type=Commits)
+* [cpufreq: Replace strnicmp with strncasecmp](https://github.com/search?q=cpufreq%3A%20Replace%20strnicmp%20with%20strncasecmp&type=Commits)
+* [cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled](https://github.com/search?q=cpufreq%3A%20Fix%20timer/workqueue%20corruption%20by%20protecting%20reading%20governor_enabled&type=Commits)
+* [mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()](https://github.com/search?q=mm/vmalloc.c%3A%20don%27t%20dereference%20possible%20NULL%20pointer%20in%20__vunmap%28%29&type=Commits)
+* [msm: ispif: Remove handling of SD_SHUTDOWN](https://github.com/search?q=msm%3A%20ispif%3A%20Remove%20handling%20of%20SD_SHUTDOWN&type=Commits)
+* [ASoC: core: Don't assign an out-of-bounds address to rtd_aux](https://github.com/search?q=ASoC%3A%20core%3A%20Don%27t%20assign%20an%20out-of-bounds%20address%20to%20rtd_aux&type=Commits)
+* [[BACKPORT]ARM: fix oops when using older ARMv4T CPUs](https://github.com/search?q=[BACKPORT]ARM%3A%20fix%20oops%20when%20using%20older%20ARMv4T%20CPUs&type=Commits)
+* [[BACKPORT]ARM: 8196/1: vfp: Workaround bad MVFR1 register on some Kraits](https://github.com/search?q=[BACKPORT]ARM%3A%208196/1%3A%20vfp%3A%20Workaround%20bad%20MVFR1%20register%20on%20some%20Kraits&type=Commits)
+* [[BACKPORT]ARM: 8635/1: nommu: allow enabling REMAP_VECTORS_TO_RAM](https://github.com/search?q=[BACKPORT]ARM%3A%208635/1%3A%20nommu%3A%20allow%20enabling%20REMAP_VECTORS_TO_RAM&type=Commits)
+* [[BACKPORT]ARM: 8720/1: ensure dump_instr() checks addr_limit](https://github.com/search?q=[BACKPORT]ARM%3A%208720/1%3A%20ensure%20dump_instr%28%29%20checks%20addr_limit&type=Commits)
+* [[BACKPORT]ARM: dma-mapping: disallow dma_get_sgtable() for non-kernel managed memory](https://github.com/search?q=[BACKPORT]ARM%3A%20dma-mapping%3A%20disallow%20dma_get_sgtable%28%29%20for%20non-kernel%20managed%20memory&type=Commits)
+* [[BACKPORT]ARM: 8814/1: mm: improve/fix ARM v7_dma_inv_range() unaligned address handling](https://github.com/search?q=[BACKPORT]ARM%3A%208814/1%3A%20mm%3A%20improve/fix%20ARM%20v7_dma_inv_range%28%29%20unaligned%20address%20handling&type=Commits)
+* [sched/sysctl: Check user input value of sysctl_sched_time_avg](https://github.com/search?q=sched/sysctl%3A%20Check%20user%20input%20value%20of%20sysctl_sched_time_avg&type=Commits)
+* [kernel/signal.c: remove the no longer needed SIGNAL_UNKILLABLE check in complete_signal()](https://github.com/search?q=kernel/signal.c%3A%20remove%20the%20no%20longer%20needed%20SIGNAL_UNKILLABLE%20check%20in%20complete_signal%28%29&type=Commits)
+* [kernel/signal.c: protect the SIGNAL_UNKILLABLE tasks from !sig_kernel_only() signals](https://github.com/search?q=kernel/signal.c%3A%20protect%20the%20SIGNAL_UNKILLABLE%20tasks%20from%20!sig_kernel_only%28%29%20signals&type=Commits)
+* [kernel/signal.c: protect the traced SIGNAL_UNKILLABLE tasks from SIGKILL](https://github.com/search?q=kernel/signal.c%3A%20protect%20the%20traced%20SIGNAL_UNKILLABLE%20tasks%20from%20SIGKILL&type=Commits)
+* [signal: Only reschedule timers on signals timers have sent](https://github.com/search?q=signal%3A%20Only%20reschedule%20timers%20on%20signals%20timers%20have%20sent&type=Commits)
+* [ptrace: change __ptrace_unlink() to clear ->ptrace under ->siglock](https://github.com/search?q=ptrace%3A%20change%20__ptrace_unlink%28%29%20to%20clear%20->ptrace%20under%20->siglock&type=Commits)
+* [sched/cputime: Fix cpu_timer_sample_group() double accounting](https://github.com/search?q=sched/cputime%3A%20Fix%20cpu_timer_sample_group%28%29%20double%20accounting&type=Commits)
+* [pid_ns: Sleep in TASK_INTERRUPTIBLE in zap_pid_ns_processes](https://github.com/search?q=pid_ns%3A%20Sleep%20in%20TASK_INTERRUPTIBLE%20in%20zap_pid_ns_processes&type=Commits)
+* [hrtimer: Ensure POSIX compliance (relative CLOCK_REALTIME hrtimers)](https://github.com/search?q=hrtimer%3A%20Ensure%20POSIX%20compliance%20%28relative%20CLOCK_REALTIME%20hrtimers%29&type=Commits)
+* [ktime: Fix ktime_divns to do signed division](https://github.com/search?q=ktime%3A%20Fix%20ktime_divns%20to%20do%20signed%20division&type=Commits)
+* [hrtimer: Allow concurrent hrtimer_start() for self restarting timers](https://github.com/search?q=hrtimer%3A%20Allow%20concurrent%20hrtimer_start%28%29%20for%20self%20restarting%20timers&type=Commits)
+* [ktime: Optimize ktime_divns for constant divisors](https://github.com/search?q=ktime%3A%20Optimize%20ktime_divns%20for%20constant%20divisors&type=Commits)
+* [ktime: Sanitize ktime_to_us/ms conversion](https://github.com/search?q=ktime%3A%20Sanitize%20ktime_to_us/ms%20conversion&type=Commits)
+* [audit: Fix use after free in audit_remove_watch_rule()](https://github.com/search?q=audit%3A%20Fix%20use%20after%20free%20in%20audit_remove_watch_rule%28%29&type=Commits)
+* [kernel/acct.c: fix the acct->needcheck check in check_free_space()](https://github.com/search?q=kernel/acct.c%3A%20fix%20the%20acct->needcheck%20check%20in%20check_free_space%28%29&type=Commits)
+* [kernel/async.c: revert "async: simplify lowest_in_progress()"](https://github.com/search?q=kernel/async.c%3A%20revert%20"async%3A%20simplify%20lowest_in_progress%28%29"&type=Commits)
+* [tracing: Fix crash when it fails to alloc ring buffer](https://github.com/search?q=tracing%3A%20Fix%20crash%20when%20it%20fails%20to%20alloc%20ring%20buffer&type=Commits)
+* [tracing: Remove extra zeroing out of the ring buffer page](https://github.com/search?q=tracing%3A%20Remove%20extra%20zeroing%20out%20of%20the%20ring%20buffer%20page&type=Commits)
+* [tracing: Fix trace_pipe behavior for instance traces](https://github.com/search?q=tracing%3A%20Fix%20trace_pipe%20behavior%20for%20instance%20traces&type=Commits)
+* [tracing: Use SOFTIRQ_OFFSET for softirq dectection for more accurate results](https://github.com/search?q=tracing%3A%20Use%20SOFTIRQ_OFFSET%20for%20softirq%20dectection%20for%20more%20accurate%20results&type=Commits)
+* [perf: Remove useless atomic_t](https://github.com/search?q=perf%3A%20Remove%20useless%20atomic_t&type=Commits)
+* [perf/core: Correct event creation with PERF_FORMAT_GROUP](https://github.com/search?q=perf/core%3A%20Correct%20event%20creation%20with%20PERF_FORMAT_GROUP&type=Commits)
+* [perf: Use hrtimers for event multiplexing](https://github.com/search?q=perf%3A%20Use%20hrtimers%20for%20event%20multiplexing&type=Commits)
+* [perf: Optimize group_sched_in()](https://github.com/search?q=perf%3A%20Optimize%20group_sched_in%28%29&type=Commits)
+* [perf: Fix corruption of sibling list with hotplug](https://github.com/search?q=perf%3A%20Fix%20corruption%20of%20sibling%20list%20with%20hotplug&type=Commits)
+* [perf: Disable IRQs across RCU RS CS that acquires scheduler lock](https://github.com/search?q=perf%3A%20Disable%20IRQs%20across%20RCU%20RS%20CS%20that%20acquires%20scheduler%20lock&type=Commits)
+* [perf: Cure event->pending_disable race](https://github.com/search?q=perf%3A%20Cure%20event->pending_disable%20race&type=Commits)
+* [mm, page_alloc: double zone's batchsize](https://github.com/search?q=mm,%20page_alloc%3A%20double%20zone%27s%20batchsize&type=Commits)
+* [init/main.c: add sync point between each level](https://github.com/search?q=init/main.c%3A%20add%20sync%20point%20between%20each%20level&type=Commits)
+* [proc: much faster /proc/vmstat](https://github.com/search?q=proc%3A%20much%20faster%20/proc/vmstat&type=Commits)
+* [BACKPORT: msm: vidc: Ensure validity of shared Q indices](https://github.com/search?q=BACKPORT%3A%20msm%3A%20vidc%3A%20Ensure%20validity%20of%20shared%20Q%20indices&type=Commits)
+* [binder: Reserve caches for small, high-frequency memory allocations](https://github.com/search?q=binder%3A%20Reserve%20caches%20for%20small,%20high-frequency%20memory%20allocations&type=Commits)
+* [apq8084: defconfig: Tone down rootwait polling to 10](https://github.com/search?q=apq8084%3A%20defconfig%3A%20Tone%20down%20rootwait%20polling%20to%2010&type=Commits)
+* [init: do_mounts: make the rootwait polling configurable](https://github.com/search?q=init%3A%20do_mounts%3A%20make%20the%20rootwait%20polling%20configurable&type=Commits)
+* [nohz: Fix local_timer_softirq_pending()](https://github.com/search?q=nohz%3A%20Fix%20local_timer_softirq_pending%28%29&type=Commits)
+* [sched_clock: Prevent callers from seeing half-updated data](https://github.com/search?q=sched_clock%3A%20Prevent%20callers%20from%20seeing%20half-updated%20data&type=Commits)
+* [nohz: Avoid tick's double reprogramming in highres mode](https://github.com/search?q=nohz%3A%20Avoid%20tick%27s%20double%20reprogramming%20in%20highres%20mode&type=Commits)
+* [tick-sched: Don't call update_wall_time() when delta is lesser than tick_period](https://github.com/search?q=tick-sched%3A%20Don%27t%20call%20update_wall_time%28%29%20when%20delta%20is%20lesser%20than%20tick_period&type=Commits)
+* [nohz: Fix !HIGH_RES_TIMERS hang](https://github.com/search?q=nohz%3A%20Fix%20!HIGH_RES_TIMERS%20hang&type=Commits)
+* [clocksource: Fix abs() usage w/ 64bit values](https://github.com/search?q=clocksource%3A%20Fix%20abs%28%29%20usage%20w/%2064bit%20values&type=Commits)
+* [sched, smp: Correctly deal with nested sleeps](https://github.com/search?q=sched,%20smp%3A%20Correctly%20deal%20with%20nested%20sleeps&type=Commits)
+* [timekeeping: Simplify arch_gettimeoffset()](https://github.com/search?q=timekeeping%3A%20Simplify%20arch_gettimeoffset%28%29&type=Commits)
+* [Revert "msm: vidc: Avoid information leak while accessing the packet"](https://github.com/search?q=Revert%20"msm%3A%20vidc%3A%20Avoid%20information%20leak%20while%20accessing%20the%20packet"&type=Commits)
+* [msm: vidc: Don't query the V4L2 ctrl framework for checking thumbnail mode](https://github.com/search?q=msm%3A%20vidc%3A%20Don%27t%20query%20the%20V4L2%20ctrl%20framework%20for%20checking%20thumbnail%20mode&type=Commits)
+* [msm: vidc: Increase the MIN DRAIN RATE when DCVS is enabled](https://github.com/search?q=msm%3A%20vidc%3A%20Increase%20the%20MIN%20DRAIN%20RATE%20when%20DCVS%20is%20enabled&type=Commits)
+* [msm: vidc: Protect suspend operation with core lock](https://github.com/search?q=msm%3A%20vidc%3A%20Protect%20suspend%20operation%20with%20core%20lock&type=Commits)
+* [msm: vidc: Fix session error handling](https://github.com/search?q=msm%3A%20vidc%3A%20Fix%20session%20error%20handling&type=Commits)
+* [msm: vidc: Increase firmware unload delay](https://github.com/search?q=msm%3A%20vidc%3A%20Increase%20firmware%20unload%20delay&type=Commits)
+* [msm: vidc: Unload firmware immediately after sys error](https://github.com/search?q=msm%3A%20vidc%3A%20Unload%20firmware%20immediately%20after%20sys%20error&type=Commits)
+* [msm/vidc/msm_vidc_common fix identation](https://github.com/search?q=msm/vidc/msm_vidc_common%20fix%20identation&type=Commits)
+* [msm: vidc: Validate buffer prior to releasing reference](https://github.com/search?q=msm%3A%20vidc%3A%20Validate%20buffer%20prior%20to%20releasing%20reference&type=Commits)
+* [msm: camera: Add dynamic logging feature in camera](https://github.com/search?q=msm%3A%20camera%3A%20Add%20dynamic%20logging%20feature%20in%20camera&type=Commits)
+* [msm: camera: Return EINVAL when msm_get_session fails](https://github.com/search?q=msm%3A%20camera%3A%20Return%20EINVAL%20when%20msm_get_session%20fails&type=Commits)
+* [msm: camera: Instead of read_lock use read_lock_irqsave.](https://github.com/search?q=msm%3A%20camera%3A%20Instead%20of%20read_lock%20use%20read_lock_irqsave.&type=Commits)
+* [msm: camera: Retelimit log in msm_vb2_buf_cleanup.](https://github.com/search?q=msm%3A%20camera%3A%20Retelimit%20log%20in%20msm_vb2_buf_cleanup.&type=Commits)
+* [dsp: avtimer: validate payload size before memory copy](https://github.com/search?q=dsp%3A%20avtimer%3A%20validate%20payload%20size%20before%20memory%20copy&type=Commits)
+* [ext4: add more paranoia checking in ext4_expand_extra_isize handling](https://github.com/search?q=ext4%3A%20add%20more%20paranoia%20checking%20in%20ext4_expand_extra_isize%20handling&type=Commits)
+* [ext4: Introduce ext4_clamp_want_extra_isize()](https://github.com/search?q=ext4%3A%20Introduce%20ext4_clamp_want_extra_isize%28%29&type=Commits)
+* [vt: selection, close sel_buffer race](https://github.com/search?q=vt%3A%20selection,%20close%20sel_buffer%20race&type=Commits)
+* [vt: selection, handle pending signals in paste_selection](https://github.com/search?q=vt%3A%20selection,%20handle%20pending%20signals%20in%20paste_selection&type=Commits)
+* [ALSA: usb-audio: Fix a stack buffer overflow bug in check_input_term](https://github.com/search?q=ALSA%3A%20usb-audio%3A%20Fix%20a%20stack%20buffer%20overflow%20bug%20in%20check_input_term&type=Commits)
+* [ANDROID: uid_sys_stats: check previous uid_entry before call find_or_register_uid](https://github.com/search?q=ANDROID%3A%20uid_sys_stats%3A%20check%20previous%20uid_entry%20before%20call%20find_or_register_uid&type=Commits)
+* [fs/namespace.c: fix mountpoint reference counter race](https://github.com/search?q=fs/namespace.c%3A%20fix%20mountpoint%20reference%20counter%20race&type=Commits)
+* [can: peak_usb: pcan_usb_pro: Fix info-leaks to USB devices](https://github.com/search?q=can%3A%20peak_usb%3A%20pcan_usb_pro%3A%20Fix%20info-leaks%20to%20USB%20devices&type=Commits)
+* [signal: Extend exec_id to 64bits](https://github.com/search?q=signal%3A%20Extend%20exec_id%20to%2064bits&type=Commits)
+* [net: ipc_router: Do not allow change of default security rule](https://github.com/search?q=net%3A%20ipc_router%3A%20Do%20not%20allow%20change%20of%20default%20security%20rule&type=Commits)
+* [qcacld-2.0: Avoid possible buffer over-read in wma_wow_wakeup_host_event](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20over-read%20in%20wma_wow_wakeup_host_event&type=Commits)
+* [qcacld-2.0: Add sanity check for buf pkt len to prevent OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20buf%20pkt%20len%20to%20prevent%20OOB%20access&type=Commits)
+* [apq8084: qcacld-2.0: move driver to net/wireless dir](https://github.com/search?q=apq8084%3A%20qcacld-2.0%3A%20move%20driver%20to%20net/wireless%20dir&type=Commits)
+* [esoc: Make <linux/esoc_client.h> self-contained](https://github.com/search?q=esoc%3A%20Make%20<linux/esoc_client.h>%20self-contained&type=Commits)
+* [defconfig disable some debug](https://github.com/search?q=defconfig%20disable%20some%20debug&type=Commits)
+* [Revert "apq8084.dtsi: qcom,bcl max freq to 1958Mhz"](https://github.com/search?q=Revert%20"apq8084.dtsi%3A%20qcom,bcl%20max%20freq%20to%201958Mhz"&type=Commits)
+* [apq8084.dtsi: disable bcl hotplug by default](https://github.com/search?q=apq8084.dtsi%3A%20disable%20bcl%20hotplug%20by%20default&type=Commits)
+* [bcl: allow to write to bcl_hotplug_mask](https://github.com/search?q=bcl%3A%20allow%20to%20write%20to%20bcl_hotplug_mask&type=Commits)
+* [bcl: use strncmp for checks](https://github.com/search?q=bcl%3A%20use%20strncmp%20for%20checks&type=Commits)
+* [bcl: don't mitigate freq when disable](https://github.com/search?q=bcl%3A%20don%27t%20mitigate%20freq%20when%20disable&type=Commits)
+* [power: bcl vph_low/high_store check with is high/low before store](https://github.com/search?q=power%3A%20bcl%20vph_low/high_store%20check%20with%20is%20high/low%20before%20store&type=Commits)
+* [power: bcl: Fix store of wr functions](https://github.com/search?q=power%3A%20bcl%3A%20Fix%20store%20of%20wr%20functions&type=Commits)
+* [power: bcl: Fix store max freq](https://github.com/search?q=power%3A%20bcl%3A%20Fix%20store%20max%20freq&type=Commits)
+* [reset drivers/power/battery_current_limit.c](https://github.com/search?q=reset%20drivers/power/battery_current_limit.c&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: i9300: Update TWRP link](https://github.com/search?q=wiki%3A%20devices%3A%20i9300%3A%20Update%20TWRP%20link&type=Commits)
+* [wiki: Nice order](https://github.com/search?q=wiki%3A%20Nice%20order&type=Commits)
+
+#### tools/repohooks/
+* [config: refactor PreUploadSettingsTests](https://github.com/search?q=config%3A%20refactor%20PreUploadSettingsTests&type=Commits)
+* [config: add {Local,Global}PreUploadFile classes](https://github.com/search?q=config%3A%20add%20{Local,Global}PreUploadFile%20classes&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-01-2020 End.
+
+08-31-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-31-2020:
+
+#### frameworks/base/
+* [FODCircleView: Add support for custom FP pressed icon](https://github.com/search?q=FODCircleView%3A%20Add%20support%20for%20custom%20FP%20pressed%20icon&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Ship 16.0 for Pixel 2 / 2 XL (taimen/walleye)](https://github.com/search?q=hudson%3A%20Ship%2016.0%20for%20Pixel%202%20/%202%20XL%20%28taimen/walleye%29&type=Commits)
+
+#### lineage/wiki/
+* [fixup! wiki: how-tos: logcat: 17.1 has no AddonSU](https://github.com/search?q=fixup!%20wiki%3A%20how-tos%3A%20logcat%3A%2017.1%20has%20no%20AddonSU&type=Commits)
+* [wiki: how-tos: logcat: 17.1 has no AddonSU](https://github.com/search?q=wiki%3A%20how-tos%3A%20logcat%3A%2017.1%20has%20no%20AddonSU&type=Commits)
+* [wiki: Add Pixel 2 / 2 XL (taimen/walleye)](https://github.com/search?q=wiki%3A%20Add%20Pixel%202%20/%202%20XL%20%28taimen/walleye%29&type=Commits)
+
+#### tools/repohooks/
+* [pre-upload: drop support for Python 2](https://github.com/search?q=pre-upload%3A%20drop%20support%20for%20Python%202&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-31-2020 End.
+
+08-30-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-30-2020:
+
+#### system/libufdt/
+* [mkdtboimg: Sanitize dt filename](https://github.com/search?q=mkdtboimg%3A%20Sanitize%20dt%20filename&type=Commits)
+* [mkdtboimg: Allow specifying full path for dtb](https://github.com/search?q=mkdtboimg%3A%20Allow%20specifying%20full%20path%20for%20dtb&type=Commits)
+
+#### vendor/lineage/
+* [kernel: prevent additional config from being always rebuilt](https://github.com/search?q=kernel%3A%20prevent%20additional%20config%20from%20being%20always%20rebuilt&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-30-2020 End.
+
+08-29-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-29-2020:
+
+#### lineage/hudson/
+* [hudson: Ship Motorola G7 Play (channel)](https://github.com/search?q=hudson%3A%20Ship%20Motorola%20G7%20Play%20%28channel%29&type=Commits)
+* [hudson: Ship Motorola G7 Power (ocean)](https://github.com/search?q=hudson%3A%20Ship%20Motorola%20G7%20Power%20%28ocean%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Motorola G7 Play (channel)](https://github.com/search?q=wiki%3A%20Add%20Motorola%20G7%20Play%20%28channel%29&type=Commits)
+* [wiki: Add Motorola G7 Power (ocean)](https://github.com/search?q=wiki%3A%20Add%20Motorola%20G7%20Power%20%28ocean%29&type=Commits)
+
+#### packages/apps/LineageParts/
+* [LineageParts: Discard all invalid bits when setting TRUST_WARNINGS value](https://github.com/search?q=LineageParts%3A%20Discard%20all%20invalid%20bits%20when%20setting%20TRUST_WARNINGS%20value&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-29-2020 End.
+
+08-27-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-27-2020:
+
+#### bootable/recovery/
+* [recovery: Stop showing fastbootd logo for devices without it](https://github.com/search?q=recovery%3A%20Stop%20showing%20fastbootd%20logo%20for%20devices%20without%20it&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 27-Aug-2020 04:19 UTC](https://github.com/search?q=Updated%20to%2027-Aug-2020%2004%3A19%20UTC&type=Commits)
+* [Updated to 27-Aug-2020 00:30 UTC](https://github.com/search?q=Updated%20to%2027-Aug-2020%2000%3A30%20UTC&type=Commits)
+
+#### tools/repohooks/
+* [config: refactor file management](https://github.com/search?q=config%3A%20refactor%20file%20management&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-27-2020 End.
+
+08-26-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-26-2020:
+
+#### lineage/wiki/
+* [wiki: devices: jfltespr: Reflect discontinuation of builds](https://github.com/search?q=wiki%3A%20devices%3A%20jfltespr%3A%20Reflect%20discontinuation%20of%20builds&type=Commits)
+
+#### system/netd/
+* [netd: Sort and cache hosts file data for fast lookup](https://github.com/search?q=netd%3A%20Sort%20and%20cache%20hosts%20file%20data%20for%20fast%20lookup&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-26-2020 End.
+
+08-25-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-25-2020:
+
+#### frameworks/base/
+* [PackageInstaller: Fix crash when uninstalling apps with fragile data](https://github.com/search?q=PackageInstaller%3A%20Fix%20crash%20when%20uninstalling%20apps%20with%20fragile%20data&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Inform user about expected signature verification failure](https://github.com/search?q=wiki%3A%20Inform%20user%20about%20expected%20signature%20verification%20failure&type=Commits)
+
+#### tools/repohooks/
+* [config: add Python 3 compat APIs](https://github.com/search?q=config%3A%20add%20Python%203%20compat%20APIs&type=Commits)
+* [config: fix handling of optional args](https://github.com/search?q=config%3A%20fix%20handling%20of%20optional%20args&type=Commits)
+* [config: pull valid sections into a class constant](https://github.com/search?q=config%3A%20pull%20valid%20sections%20into%20a%20class%20constant&type=Commits)
+
+#### vendor/lineage/
+* [vendor: kernel: Add back support for custom dtboimg makefile](https://github.com/search?q=vendor%3A%20kernel%3A%20Add%20back%20support%20for%20custom%20dtboimg%20makefile&type=Commits)
+* [Revert "kernel: Set full path to DTC"](https://github.com/search?q=Revert%20"kernel%3A%20Set%20full%20path%20to%20DTC"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-25-2020 End.
+
+08-24-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-24-2020:
+
+#### lineage/hudson/
+* [hudson: Drop S4 Sprint (jfltespr)](https://github.com/search?q=hudson%3A%20Drop%20S4%20Sprint%20%28jfltespr%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-24-2020 End.
+
+08-23-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-23-2020:
+
+#### frameworks/base/
+* [Skip screen on animation when wake and unlock via biometrics](https://github.com/search?q=Skip%20screen%20on%20animation%20when%20wake%20and%20unlock%20via%20biometrics&type=Commits)
+
+#### lineage/wiki/
+* [wiki: replace s2 maintainer RK with tImI](https://github.com/search?q=wiki%3A%20replace%20s2%20maintainer%20RK%20with%20tImI&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [btconfigstore: Get rid of additional android.hidl.base@1.0](https://github.com/search?q=btconfigstore%3A%20Get%20rid%20of%20additional%20android.hidl.base%401.0&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Clean up duplicate uses-permission entries](https://github.com/search?q=Clean%20up%20duplicate%20uses-permission%20entries&type=Commits)
+* [BT: Prefer LDAC over aptX family](https://github.com/search?q=BT%3A%20Prefer%20LDAC%20over%20aptX%20family&type=Commits)
+* [Bluetooth string: removed id="sender" in bt_sm_2_1_](https://github.com/search?q=Bluetooth%20string%3A%20removed%20id="sender"%20in%20bt_sm_2_1_&type=Commits)
+* [translate="false" -> translatable="false"](https://github.com/search?q=translate="false"%20->%20translatable="false"&type=Commits)
+* [Remove intent filter without any action](https://github.com/search?q=Remove%20intent%20filter%20without%20any%20action&type=Commits)
+* [Delete unused common.android.emailcommon package.](https://github.com/search?q=Delete%20unused%20common.android.emailcommon%20package.&type=Commits)
+* [Fix null pointer exception on AvrcpTargetService](https://github.com/search?q=Fix%20null%20pointer%20exception%20on%20AvrcpTargetService&type=Commits)
+* [Bluetooth: Remove unused string resources](https://github.com/search?q=Bluetooth%3A%20Remove%20unused%20string%20resources&type=Commits)
+* [Rebrand to BluetoothQti](https://github.com/search?q=Rebrand%20to%20BluetoothQti&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [bt: Rename QTI stack config to avoid conflict w/ AOSP one](https://github.com/search?q=bt%3A%20Rename%20QTI%20stack%20config%20to%20avoid%20conflict%20w/%20AOSP%20one&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-23-2020 End.
+
+08-22-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-22-2020:
+
+#### system/libufdt/
+* [mkdtboimg: Add support to V0 DTBO image creation](https://github.com/search?q=mkdtboimg%3A%20Add%20support%20to%20V0%20DTBO%20image%20creation&type=Commits)
+* [mkdtboimg: Make filepath search recursive](https://github.com/search?q=mkdtboimg%3A%20Make%20filepath%20search%20recursive&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Add support for mkdtimg cfg_create](https://github.com/search?q=kernel%3A%20Add%20support%20for%20mkdtimg%20cfg_create&type=Commits)
+* [kernel: Switch to mkdtboimg.py](https://github.com/search?q=kernel%3A%20Switch%20to%20mkdtboimg.py&type=Commits)
+* [kernel: Rework how DTB/DTBO are built](https://github.com/search?q=kernel%3A%20Rework%20how%20DTB/DTBO%20are%20built&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-22-2020 End.
+
+08-21-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-21-2020:
+
+#### packages/apps/Settings/
+* [Add NR network type to "Global" mode preference](https://github.com/search?q=Add%20NR%20network%20type%20to%20"Global"%20mode%20preference&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-21-2020 End.
+
+08-20-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-20-2020:
+
+#### vendor/lineage/
+* [vendor: apns-conf: Add Hits APN](https://github.com/search?q=vendor%3A%20apns-conf%3A%20Add%20Hits%20APN&type=Commits)
+* [overlay: Remove voicemail number configs](https://github.com/search?q=overlay%3A%20Remove%20voicemail%20number%20configs&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-20-2020 End.
+
+08-19-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-19-2020:
+
+#### tools/repohooks/
+* [hooks: rustfmt: handle multiple commits](https://github.com/search?q=hooks%3A%20rustfmt%3A%20handle%20multiple%20commits&type=Commits)
+
+#### vendor/lineage/
+* [Revert "overlay: Enable Visual Voicemail for Verizon devices"](https://github.com/search?q=Revert%20"overlay%3A%20Enable%20Visual%20Voicemail%20for%20Verizon%20devices"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-19-2020 End.
+
+08-17-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-17-2020:
+
+#### vendor/lineage/
+* [vendor: Drop verity tool](https://github.com/search?q=vendor%3A%20Drop%20verity%20tool&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Merge b1f1ac7fa309e24e904af71203195d6a6563c1e7 on remote branch](https://github.com/search?q=Merge%20b1f1ac7fa309e24e904af71203195d6a6563c1e7%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge 7cbccaa751edaec9cc5c3379613859398dca179d on remote branch](https://github.com/search?q=Merge%207cbccaa751edaec9cc5c3379613859398dca179d%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge e8d1240183132e10006bac7a8cfd24826b25f609 on remote branch](https://github.com/search?q=Merge%20e8d1240183132e10006bac7a8cfd24826b25f609%20on%20remote%20branch&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-17-2020 End.
+
 08-16-2020
 ====================
 
@@ -24,81 +785,33 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 08-16-2020:
 
-#### build/make/
-* [envsetup: Automatically set CCACHE_EXEC to the system's ccache](https://github.com/search?q=envsetup%3A%20Automatically%20set%20CCACHE_EXEC%20to%20the%20system%27s%20ccache&type=Commits)
-* [Use 'release-keys' for build tag](https://github.com/search?q=Use%20%27release-keys%27%20for%20build%20tag&type=Commits)
-
-#### frameworks/av/
-* [audioflinger: Fix audio for WifiDisplay](https://github.com/search?q=audioflinger%3A%20Fix%20audio%20for%20WifiDisplay&type=Commits)
-* [Remove libmediaextractor dependency from libstagefright_wfd and SurfaceMediaSource_test](https://github.com/search?q=Remove%20libmediaextractor%20dependency%20from%20libstagefright_wfd%20and%20SurfaceMediaSource_test&type=Commits)
-* [Revert "Move unused classes out of stagefright foundataion"](https://github.com/search?q=Revert%20"Move%20unused%20classes%20out%20of%20stagefright%20foundataion"&type=Commits)
-* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
-* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
-* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
-* [libstagefright_wfd: libmediaplayer2: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20libmediaplayer2%3A%20compilation%20fixes&type=Commits)
-* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
-* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
+#### device/motorola/quark/
+* [Revert "Quark: Disable backpressure propagation in SurfaceFlinger"](https://github.com/search?q=Revert%20"Quark%3A%20Disable%20backpressure%20propagation%20in%20SurfaceFlinger"&type=Commits)
+* [Revert "Quark: disable recompute crop change in SF"](https://github.com/search?q=Revert%20"Quark%3A%20disable%20recompute%20crop%20change%20in%20SF"&type=Commits)
+* [Revert "Quark: disable vsync for cpu rendered apps."](https://github.com/search?q=Revert%20"Quark%3A%20disable%20vsync%20for%20cpu%20rendered%20apps."&type=Commits)
+* [Quark: Update sepolicy](https://github.com/search?q=Quark%3A%20Update%20sepolicy&type=Commits)
+* [Revert "Quark: Update sepolicy"](https://github.com/search?q=Revert%20"Quark%3A%20Update%20sepolicy"&type=Commits)
+* [Revert "Quark: update sepolicy"](https://github.com/search?q=Revert%20"Quark%3A%20update%20sepolicy"&type=Commits)
+* [Revert "Quark: wifi: Disable auto tx power control"](https://github.com/search?q=Revert%20"Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control"&type=Commits)
 
 #### frameworks/base/
-* [base: Update CPU info overlay](https://github.com/search?q=base%3A%20Update%20CPU%20info%20overlay&type=Commits)
-* [telephony: URI cannot be created with negative subIds](https://github.com/search?q=telephony%3A%20URI%20cannot%20be%20created%20with%20negative%20subIds&type=Commits)
-* [QS: Add CPUInfo toggle tile](https://github.com/search?q=QS%3A%20Add%20CPUInfo%20toggle%20tile&type=Commits)
-* [Base: prevent haptic feedback if screen is not fully on](https://github.com/search?q=Base%3A%20prevent%20haptic%20feedback%20if%20screen%20is%20not%20fully%20on&type=Commits)
-* [Base: Statusbar use screenBrightnessSettingMinimum for mMinBrightness](https://github.com/search?q=Base%3A%20Statusbar%20use%20screenBrightnessSettingMinimum%20for%20mMinBrightness&type=Commits)
-* [base: Show fast charging on lockscreen witout checking amperage](https://github.com/search?q=base%3A%20Show%20fast%20charging%20on%20lockscreen%20witout%20checking%20amperage&type=Commits)
-* [Base: Display Screen Brightness Dim Config 1/2 of curren user Brightness](https://github.com/search?q=Base%3A%20Display%20Screen%20Brightness%20Dim%20Config%201/2%20of%20curren%20user%20Brightness&type=Commits)
-* [CPUInfoService add quark improves](https://github.com/search?q=CPUInfoService%20add%20quark%20improves&type=Commits)
-* [Base: config_appTransitionAnimationDurationScaleDefault 0.5](https://github.com/search?q=Base%3A%20config_appTransitionAnimationDurationScaleDefault%200.5&type=Commits)
-* [base: set default animation scaling to 0.5](https://github.com/search?q=base%3A%20set%20default%20animation%20scaling%20to%200.5&type=Commits)
-* [base: add CPU info overlay](https://github.com/search?q=base%3A%20add%20CPU%20info%20overlay&type=Commits)
+* [WifiManager: Add StaState API [1/2]](https://github.com/search?q=WifiManager%3A%20Add%20StaState%20API%20[1/2]&type=Commits)
 
-#### frameworks/opt/telephony/
-* [Fix the deregistration which happens soon after registration.](https://github.com/search?q=Fix%20the%20deregistration%20which%20happens%20soon%20after%20registration.&type=Commits)
-* [Delay intialization of subscription listener](https://github.com/search?q=Delay%20intialization%20of%20subscription%20listener&type=Commits)
-* [Fix to release partial wakelock for SRVCC handover.](https://github.com/search?q=Fix%20to%20release%20partial%20wakelock%20for%20SRVCC%20handover.&type=Commits)
-* [Use tcp buffer values for rat LTE_CA](https://github.com/search?q=Use%20tcp%20buffer%20values%20for%20rat%20LTE_CA&type=Commits)
-* [Add check for CSIM application presence](https://github.com/search?q=Add%20check%20for%20CSIM%20application%20presence&type=Commits)
-* [Fix data deactivate issue due to intermediate network requests](https://github.com/search?q=Fix%20data%20deactivate%20issue%20due%20to%20intermediate%20network%20requests&type=Commits)
-* [Telephony: Get SIM card capacity of SMS](https://github.com/search?q=Telephony%3A%20Get%20SIM%20card%20capacity%20of%20SMS&type=Commits)
-* [Emergency Number Implementation for SS & DS](https://github.com/search?q=Emergency%20Number%20Implementation%20for%20SS%20&%20DS&type=Commits)
-* [Fix iccid issue during android upgrade.](https://github.com/search?q=Fix%20iccid%20issue%20during%20android%20upgrade.&type=Commits)
-* [Add Null check to getIccId.](https://github.com/search?q=Add%20Null%20check%20to%20getIccId.&type=Commits)
-* [Fix attach issue due to wrong attach apn](https://github.com/search?q=Fix%20attach%20issue%20due%20to%20wrong%20attach%20apn&type=Commits)
-* [Set service class with SERVICE_CLASS_NONE over CS](https://github.com/search?q=Set%20service%20class%20with%20SERVICE_CLASS_NONE%20over%20CS&type=Commits)
-* [Fix non-roaming overlay not work issue.](https://github.com/search?q=Fix%20non-roaming%20overlay%20not%20work%20issue.&type=Commits)
-* [Reset preferred APN setting after restoring default APNs](https://github.com/search?q=Reset%20preferred%20APN%20setting%20after%20restoring%20default%20APNs&type=Commits)
-* [Fix to block data call request for no change in Data RAT](https://github.com/search?q=Fix%20to%20block%20data%20call%20request%20for%20no%20change%20in%20Data%20RAT&type=Commits)
-* [Don't unregister supplementary service notification.](https://github.com/search?q=Don%27t%20unregister%20supplementary%20service%20notification.&type=Commits)
-* [Refresh SIM operator numeric for multi-mode SIM](https://github.com/search?q=Refresh%20SIM%20operator%20numeric%20for%20multi-mode%20SIM&type=Commits)
+#### frameworks/opt/net/wifi/
+* [wifi: Add StaState API [2/2]](https://github.com/search?q=wifi%3A%20Add%20StaState%20API%20[2/2]&type=Commits)
 
-#### hardware/qcom-caf/apq8084/media/
-* [libOmxVdec allow profile level up to 5.2](https://github.com/search?q=libOmxVdec%20allow%20profile%20level%20up%20to%205.2&type=Commits)
+#### lineage/hudson/
+* [hudson: Welcome RMX1801 to lineage-17.1](https://github.com/search?q=hudson%3A%20Welcome%20RMX1801%20to%20lineage-17.1&type=Commits)
 
-#### lineage-sdk/
-* [Outdoor mode skipe check if is nigth as this is not perfect at all](https://github.com/search?q=Outdoor%20mode%20skipe%20check%20if%20is%20nigth%20as%20this%20is%20not%20perfect%20at%20all&type=Commits)
-
-#### packages/apps/Dialer/
-* [Dialer: prevent touch events when the screen is off](https://github.com/search?q=Dialer%3A%20prevent%20touch%20events%20when%20the%20screen%20is%20off&type=Commits)
-
-#### packages/apps/Nfc/
-* [Nfc: Disable NFC by default](https://github.com/search?q=Nfc%3A%20Disable%20NFC%20by%20default&type=Commits)
-
-#### packages/apps/Settings/
-* [Settings: hardcoded TapToWakePreferece to read state from the path](https://github.com/search?q=Settings%3A%20hardcoded%20TapToWakePreferece%20to%20read%20state%20from%20the%20path&type=Commits)
-* [Developer: set default writeAnimationScaleOption to 0.5](https://github.com/search?q=Developer%3A%20set%20default%20writeAnimationScaleOption%20to%200.5&type=Commits)
-
-#### packages/apps/Updater/
-* [Update](https://github.com/search?q=Update&type=Commits)
-
-#### system/connectivity/wificond/
-* [wificond stop log spaming](https://github.com/search?q=wificond%20stop%20log%20spaming&type=Commits)
-
-#### system/core/
-* [liblog: Always report as debuggable when building userdebug/eng](https://github.com/search?q=liblog%3A%20Always%20report%20as%20debuggable%20when%20building%20userdebug/eng&type=Commits)
-* [fs_mgr: Allow remounts with Magisk installed](https://github.com/search?q=fs_mgr%3A%20Allow%20remounts%20with%20Magisk%20installed&type=Commits)
+#### lineage/wiki/
+* [wiki: Welcome RMX1801 to lineage-17.1](https://github.com/search?q=wiki%3A%20Welcome%20RMX1801%20to%20lineage-17.1&type=Commits)
 
 #### vendor/lineage/
-* [Mod build](https://github.com/search?q=Mod%20build&type=Commits)
+* [kernel: Set full path to DTC](https://github.com/search?q=kernel%3A%20Set%20full%20path%20to%20DTC&type=Commits)
+* [kernel: Make dtb.img depend on dtc and dtbo.img on mkdtimg](https://github.com/search?q=kernel%3A%20Make%20dtb.img%20depend%20on%20dtc%20and%20dtbo.img%20on%20mkdtimg&type=Commits)
+
+#### vendor/motorola/
+* [Revert "Quark: Switch to TimeKeep"](https://github.com/search?q=Revert%20"Quark%3A%20Switch%20to%20TimeKeep"&type=Commits)
 
 #### LineageOS - 17.1 source changes of 08-16-2020 End.
 
@@ -109,6 +822,10 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### frameworks/base/
 * [Show the nearby chip for images and files too.](https://github.com/search?q=Show%20the%20nearby%20chip%20for%20images%20and%20files%20too.&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [HDM: Resolve concurrent access issue - defer execution](https://github.com/search?q=HDM%3A%20Resolve%20concurrent%20access%20issue%20-%20defer%20execution&type=Commits)
+* [[HDM] Fix concurrency failure](https://github.com/search?q=[HDM]%20Fix%20concurrency%20failure&type=Commits)
 
 #### tools/repohooks/
 * [hooks: use dedicated None asserts](https://github.com/search?q=hooks%3A%20use%20dedicated%20None%20asserts&type=Commits)
@@ -197,6 +914,8 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ====================
 
 #### LineageOS - 17.1 source changes of 08-09-2020:
+#### android/
+* [Switch to our system/libufdt fork](https://github.com/search?q=Switch%20to%20our%20system/libufdt%20fork&type=Commits)
 
 #### frameworks/base/
 * [webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well](https://github.com/search?q=webkit%3A%20SystemImpl%3A%20Make%20systemIsDebuggable%28%29%20check%20IS_ENG%20as%20well&type=Commits)
@@ -208,9 +927,8 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/Messaging/
 * [Messaging: fix launch screen status bar color](https://github.com/search?q=Messaging%3A%20fix%20launch%20screen%20status%20bar%20color&type=Commits)
 
-#### vendor/lineage/
-* [repopick: Address PEP8 warnings regarding indentations and variable naming](https://github.com/search?q=repopick%3A%20Address%20PEP8%20warnings%20regarding%20indentations%20and%20variable%20naming&type=Commits)
-* [repopick: Use empty metavar parameter to fix help's indentation](https://github.com/search?q=repopick%3A%20Use%20empty%20metavar%20parameter%20to%20fix%20help%27s%20indentation&type=Commits)
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Snap for 6748571 from 677ab566b988a49df146c027f604fb7336875956 to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206748571%20from%20677ab566b988a49df146c027f604fb7336875956%20to%20q-keystone-qcom-release&type=Commits)
 
 #### LineageOS - 17.1 source changes of 08-09-2020 End.
 
@@ -221,6 +939,13 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### packages/apps/Settings/
 * [Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
+
+#### vendor/lineage/
+* [repopick: Address PEP8 warnings regarding indentations and variable naming](https://github.com/search?q=repopick%3A%20Address%20PEP8%20warnings%20regarding%20indentations%20and%20variable%20naming&type=Commits)
+* [repopick: Use empty metavar parameter to fix help's indentation](https://github.com/search?q=repopick%3A%20Use%20empty%20metavar%20parameter%20to%20fix%20help%27s%20indentation&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge "Update SCO disconnection to MM audio early." into q-keystone-qcom-dev](https://github.com/search?q=Merge%20"Update%20SCO%20disconnection%20to%20MM%20audio%20early."%20into%20q-keystone-qcom-dev&type=Commits)
 
 #### LineageOS - 17.1 source changes of 08-08-2020 End.
 
@@ -244,7 +969,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### frameworks/av/
 * [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
-* [Allow graceful degradation of MediaProfile with broken configuration.](https://github.com/search?q=Allow%20graceful%20degradation%20of%20MediaProfile%20with%20broken%20configuration.&type=Commits)
 
 #### lineage/wiki/
 * [wiki: Add Android 10 FW requirement for I01WD](https://github.com/search?q=wiki%3A%20Add%20Android%2010%20FW%20requirement%20for%20I01WD&type=Commits)
@@ -255,12 +979,18 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [kernel: Add support for module aliases](https://github.com/search?q=kernel%3A%20Add%20support%20for%20module%20aliases&type=Commits)
 * [kernel: Allow installing modules on vendor_overlay](https://github.com/search?q=kernel%3A%20Allow%20installing%20modules%20on%20vendor_overlay&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Update SCO disconnection to MM audio early.](https://github.com/search?q=Update%20SCO%20disconnection%20to%20MM%20audio%20early.&type=Commits)
+
 #### LineageOS - 17.1 source changes of 08-06-2020 End.
 
 08-05-2020
 ====================
 
 #### LineageOS - 17.1 source changes of 08-05-2020:
+
+#### frameworks/av/
+* [Allow graceful degradation of MediaProfile with broken configuration.](https://github.com/search?q=Allow%20graceful%20degradation%20of%20MediaProfile%20with%20broken%20configuration.&type=Commits)
 
 #### lineage/hudson/
 * [Ship I001D](https://github.com/search?q=Ship%20I001D&type=Commits)
@@ -277,6 +1007,21 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ====================
 
 #### LineageOS - 17.1 source changes of 08-04-2020:
+
+#### packages/apps/Settings/
+* [Settings: Fix icon size for ring volume](https://github.com/search?q=Settings%3A%20Fix%20icon%20size%20for%20ring%20volume&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge "AVDTP: Prevent OOB read when parsing rejected response" into bt.lnx.5.0](https://github.com/search?q=Merge%20"AVDTP%3A%20Prevent%20OOB%20read%20when%20parsing%20rejected%20response"%20into%20bt.lnx.5.0&type=Commits)
+* [DO NOT MERGE Fix potential overflow in btif_rc](https://github.com/search?q=DO%20NOT%20MERGE%20Fix%20potential%20overflow%20in%20btif_rc&type=Commits)
+* [AVDTP: Prevent OOB read when parsing rejected response](https://github.com/search?q=AVDTP%3A%20Prevent%20OOB%20read%20when%20parsing%20rejected%20response&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-04-2020 End.
+
+08-03-2020
+====================
+
+#### LineageOS - 17.1 source changes of 08-03-2020:
 #### android/
 * [manifest: android-10.0.0_r40 -> android-10.0.0_r41](https://github.com/search?q=manifest%3A%20android-10.0.0_r40%20->%20android-10.0.0_r41&type=Commits)
 
@@ -293,13 +1038,13 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [crowdin: Improve error handling when push fails](https://github.com/search?q=crowdin%3A%20Improve%20error%20handling%20when%20push%20fails&type=Commits)
 * [crowdin: Enforce py3 and align style of strings](https://github.com/search?q=crowdin%3A%20Enforce%20py3%20and%20align%20style%20of%20strings&type=Commits)
 
-#### packages/apps/Settings/
-* [Settings: Fix icon size for ring volume](https://github.com/search?q=Settings%3A%20Fix%20icon%20size%20for%20ring%20volume&type=Commits)
-
 #### packages/services/Telephony/
 * [Merge tag 'android-10.0.0_r41' into staging/lineage-17.1_merge-android-10.0.0_r41](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r41%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r41&type=Commits)
 
-#### LineageOS - 17.1 source changes of 08-04-2020 End.
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Snap for 6730735 from 38198d27b499c78c4593f1b7570c51276e6703ba to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206730735%20from%2038198d27b499c78c4593f1b7570c51276e6703ba%20to%20q-keystone-qcom-release&type=Commits)
+
+#### LineageOS - 17.1 source changes of 08-03-2020 End.
 
 08-02-2020
 ====================
@@ -383,6 +1128,15 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [livedisplay: sdm: Restart when any QDCM backend not ready](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Restart%20when%20any%20QDCM%20backend%20not%20ready&type=Commits)
 * [livedisplay: sdm: Use RAII semantics where possible](https://github.com/search?q=livedisplay%3A%20sdm%3A%20Use%20RAII%20semantics%20where%20possible&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Merge ed55aa5a619eb66b72badeccf9c72e3400acda71 on remote branch](https://github.com/search?q=Merge%20ed55aa5a619eb66b72badeccf9c72e3400acda71%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge 0272134ade7bc77fdd29965827aeab32d32389cf on remote branch](https://github.com/search?q=Merge%200272134ade7bc77fdd29965827aeab32d32389cf%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge c56f827094370952ad36feba92637e818225231b on remote branch](https://github.com/search?q=Merge%20c56f827094370952ad36feba92637e818225231b%20on%20remote%20branch&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-30-2020 End.
 
 07-29-2020
@@ -393,6 +1147,10 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### tools/repohooks/
 * [Pull upstream cpplint.py from github.com/google/styleguide](https://github.com/search?q=Pull%20upstream%20cpplint.py%20from%20github.com/google/styleguide&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Revert "Register with AudioManager only once for AudioServer state"](https://github.com/search?q=Revert%20"Register%20with%20AudioManager%20only%20once%20for%20AudioServer%20state"&type=Commits)
+* [Network reset: Move network reset handling to BT frameworks[2/2]](https://github.com/search?q=Network%20reset%3A%20Move%20network%20reset%20handling%20to%20BT%20frameworks[2/2]&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-29-2020 End.
 
 07-28-2020
@@ -402,7 +1160,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### lineage/wiki/
 * [wiki: Add pre-install instructions for Xperia XZ2/XZ2c devices](https://github.com/search?q=wiki%3A%20Add%20pre-install%20instructions%20for%20Xperia%20XZ2/XZ2c%20devices&type=Commits)
-* [wiki: Merge all 'before_install_needs_android_{}_fw' templates](https://github.com/search?q=wiki%3A%20Merge%20all%20%27before_install_needs_android_{}_fw%27%20templates&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-28-2020 End.
 
@@ -416,6 +1173,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [update-payload-extractor: Switch to env python](https://github.com/search?q=update-payload-extractor%3A%20Switch%20to%20env%20python&type=Commits)
 * [update-payload-extractor: Import master update_payload](https://github.com/search?q=update-payload-extractor%3A%20Import%20master%20update_payload&type=Commits)
 
+#### lineage/wiki/
+* [wiki: Merge all 'before_install_needs_android_{}_fw' templates](https://github.com/search?q=wiki%3A%20Merge%20all%20%27before_install_needs_android_{}_fw%27%20templates&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-27-2020 End.
 
 07-26-2020
@@ -423,14 +1183,8 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 07-26-2020:
 
-#### lineage/hudson/
-* [hudson: mmmm bacon](https://github.com/search?q=hudson%3A%20mmmm%20bacon&type=Commits)
-
 #### lineage/mirror/
 * [Updated to 26-Jul-2020 13:22 UTC](https://github.com/search?q=Updated%20to%2026-Jul-2020%2013%3A22%20UTC&type=Commits)
-
-#### lineage/wiki/
-* [wiki: devices: Promote bacon to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20bacon%20to%2017.1&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-26-2020 End.
 
@@ -440,11 +1194,11 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 07-25-2020:
 
 #### lineage/hudson/
+* [hudson: mmmm bacon](https://github.com/search?q=hudson%3A%20mmmm%20bacon&type=Commits)
 * [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
 
 #### lineage/wiki/
-* [wiki: Add Sony Xperia XZ2 Compact (xz2c)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ2%20Compact%20%28xz2c%29&type=Commits)
-* [wiki: Add Sony Xperia XZ2 (akari)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ2%20%28akari%29&type=Commits)
+* [wiki: devices: Promote bacon to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20bacon%20to%2017.1&type=Commits)
 
 #### packages/apps/Messaging/
 * [Messaging: Fix quick reply choices on wearable devices](https://github.com/search?q=Messaging%3A%20Fix%20quick%20reply%20choices%20on%20wearable%20devices&type=Commits)
@@ -456,9 +1210,17 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 07-24-2020:
 
+#### external/toybox/
+* [Fix cp -r dir/. symlink child.](https://github.com/search?q=Fix%20cp%20-r%20dir/.%20symlink%20child.&type=Commits)
+* [Add failing test for cp -r dir/. symlink child.](https://github.com/search?q=Add%20failing%20test%20for%20cp%20-r%20dir/.%20symlink%20child.&type=Commits)
+
 #### lineage/hudson/
 * [hudson: Add Sony Xperia XZ2 (akari)](https://github.com/search?q=hudson%3A%20Add%20Sony%20Xperia%20XZ2%20%28akari%29&type=Commits)
 * [hudson: Add Sony Xperia XZ2 Compact (xz2c)](https://github.com/search?q=hudson%3A%20Add%20Sony%20Xperia%20XZ2%20Compact%20%28xz2c%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Sony Xperia XZ2 Compact (xz2c)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ2%20Compact%20%28xz2c%29&type=Commits)
+* [wiki: Add Sony Xperia XZ2 (akari)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ2%20%28akari%29&type=Commits)
 
 #### packages/apps/DeskClock/
 * [DeskClock: Fix alarm clock screen show black  when screen locked;](https://github.com/search?q=DeskClock%3A%20Fix%20alarm%20clock%20screen%20show%20black%20%20when%20screen%20locked;&type=Commits)
@@ -477,7 +1239,11 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### bootable/recovery/
 * [recovery: fixup `compute displayable item count while drawing`](https://github.com/search?q=recovery%3A%20fixup%20%60compute%20displayable%20item%20count%20while%20drawing%60&type=Commits)
 
-#### lineage/wiki/
+#### packages/apps/CarrierConfig/
+* [Fix voicemail for Bouygues Telecom France](https://github.com/search?q=Fix%20voicemail%20for%20Bouygues%20Telecom%20France&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Snap for 6700848 from 8aa76e64f94c9d83af90c6f71482378eed629e6d to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206700848%20from%208aa76e64f94c9d83af90c6f71482378eed629e6d%20to%20q-keystone-qcom-release&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-23-2020 End.
 
@@ -489,6 +1255,16 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### frameworks/base/
 * [Purge unused native memory before Zygote fork events](https://github.com/search?q=Purge%20unused%20native%20memory%20before%20Zygote%20fork%20events&type=Commits)
 
+#### lineage/wiki/
+* [wiki: Fix F(x)tec Pro¹ branding](https://github.com/search?q=wiki%3A%20Fix%20F%28x%29tec%20Pro¹%20branding&type=Commits)
+
+#### packages/apps/Dialer/
+* [Dialer: Fix launch screen status bar color](https://github.com/search?q=Dialer%3A%20Fix%20launch%20screen%20status%20bar%20color&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge "Register with AudioManager only once for AudioServer state" into q-keystone-qcom-dev](https://github.com/search?q=Merge%20"Register%20with%20AudioManager%20only%20once%20for%20AudioServer%20state"%20into%20q-keystone-qcom-dev&type=Commits)
+* [Snap for 6699052 from 40f99cab940a29592ea551b74d665fe77f98bb07 to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206699052%20from%2040f99cab940a29592ea551b74d665fe77f98bb07%20to%20q-keystone-qcom-release&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-22-2020 End.
 
 07-21-2020
@@ -499,8 +1275,12 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### frameworks/base/
 * [Fix color mismatch of pointers](https://github.com/search?q=Fix%20color%20mismatch%20of%20pointers&type=Commits)
 
-#### vendor/lineage/
-* [repopick: Use upstream instead of revision to determine branch](https://github.com/search?q=repopick%3A%20Use%20upstream%20instead%20of%20revision%20to%20determine%20branch&type=Commits)
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Register with AudioManager only once for AudioServer state](https://github.com/search?q=Register%20with%20AudioManager%20only%20once%20for%20AudioServer%20state&type=Commits)
+* [Register with AudioManager only once for AudioServer state](https://github.com/search?q=Register%20with%20AudioManager%20only%20once%20for%20AudioServer%20state&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [btm: fixing oob write in multi-adv SetData.](https://github.com/search?q=btm%3A%20fixing%20oob%20write%20in%20multi-adv%20SetData.&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-21-2020 End.
 
@@ -519,8 +1299,21 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 07-20-2020:
 
+#### device/motorola/quark/
+* [Quark: Update hardware HEVC decoder quirks and limits](https://github.com/search?q=Quark%3A%20Update%20hardware%20HEVC%20decoder%20quirks%20and%20limits&type=Commits)
+* [Quark: power: Ignore interaction boost sequence in a short period](https://github.com/search?q=Quark%3A%20power%3A%20Ignore%20interaction%20boost%20sequence%20in%20a%20short%20period&type=Commits)
+
 #### lineage/scripts/
 * [Update default webview to 84.0.4147.89](https://github.com/search?q=Update%20default%20webview%20to%2084.0.4147.89&type=Commits)
+
+#### vendor/lineage/
+* [repopick: Use upstream instead of revision to determine branch](https://github.com/search?q=repopick%3A%20Use%20upstream%20instead%20of%20revision%20to%20determine%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [AVRCP: Add only Whitelisted players in Browsable List](https://github.com/search?q=AVRCP%3A%20Add%20only%20Whitelisted%20players%20in%20Browsable%20List&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [GAP: Use local variable to update write link policy](https://github.com/search?q=GAP%3A%20Use%20local%20variable%20to%20update%20write%20link%20policy&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-20-2020 End.
 
@@ -553,7 +1346,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Adjusts the USAP pool refill mechanism.](https://github.com/search?q=Adjusts%20the%20USAP%20pool%20refill%20mechanism.&type=Commits)
 * [Change USAP name to application name as soon as possible.](https://github.com/search?q=Change%20USAP%20name%20to%20application%20name%20as%20soon%20as%20possible.&type=Commits)
 * [SystemUI: Use regular global_actions_column layout for layout-sw600dp-land](https://github.com/search?q=SystemUI%3A%20Use%20regular%20global_actions_column%20layout%20for%20layout-sw600dp-land&type=Commits)
-* [SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod](https://github.com/search?q=SystemUI%3A%20use%20DOUBLE_TAP_TO_WAKE%20setting%20also%20for%20wake%20from%20aod&type=Commits)
 
 #### lineage/wiki/
 * [wiki: Add fastboot connection tip](https://github.com/search?q=wiki%3A%20Add%20fastboot%20connection%20tip&type=Commits)
@@ -569,11 +1361,17 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### external/chromium-webview/
 * [Upgrade Chromium Webview to 84.0.4147.89](https://github.com/search?q=Upgrade%20Chromium%20Webview%20to%2084.0.4147.89&type=Commits)
 
+#### frameworks/base/
+* [SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod](https://github.com/search?q=SystemUI%3A%20use%20DOUBLE_TAP_TO_WAKE%20setting%20also%20for%20wake%20from%20aod&type=Commits)
+
 #### lineage/wiki/
 * [wiki: Add pro1 (FxTec Pro1)](https://github.com/search?q=wiki%3A%20Add%20pro1%20%28FxTec%20Pro1%29&type=Commits)
 
 #### packages/apps/Jelly/
 * [Jelly: Fix find in page functionality](https://github.com/search?q=Jelly%3A%20Fix%20find%20in%20page%20functionality&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge 96df729c628074efd3c0dfdc2c77436c30336408 on remote branch](https://github.com/search?q=Merge%2096df729c628074efd3c0dfdc2c77436c30336408%20on%20remote%20branch&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-17-2020 End.
 
@@ -588,8 +1386,14 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### hardware/qcom-caf/sdm845/display/
 * [gralloc: Add option for unaligned YCrCb/YCbCr pixel format height](https://github.com/search?q=gralloc%3A%20Add%20option%20for%20unaligned%20YCrCb/YCbCr%20pixel%20format%20height&type=Commits)
 
+#### packages/apps/Camera2/
+* [AOSP/Camera2: there is no camera icon shown if have no camera in first boot up](https://github.com/search?q=AOSP/Camera2%3A%20there%20is%20no%20camera%20icon%20shown%20if%20have%20no%20camera%20in%20first%20boot%20up&type=Commits)
+
 #### packages/apps/Settings/
 * [Settings: Add support for per app network isolation](https://github.com/search?q=Settings%3A%20Add%20support%20for%20per%20app%20network%20isolation&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Fix potential OOB vulnerability when an HCI event is received](https://github.com/search?q=Fix%20potential%20OOB%20vulnerability%20when%20an%20HCI%20event%20is%20received&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-16-2020 End.
 
@@ -597,9 +1401,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ====================
 
 #### LineageOS - 17.1 source changes of 07-15-2020:
-
-#### packages/apps/DeskClock/
-* [DeskClock: Setup data model before calling super.onStart()](https://github.com/search?q=DeskClock%3A%20Setup%20data%20model%20before%20calling%20super.onStart%28%29&type=Commits)
 
 #### tools/repohooks/
 * [pre-upload: drop support for Python 3.4](https://github.com/search?q=pre-upload%3A%20drop%20support%20for%20Python%203.4&type=Commits)
@@ -615,13 +1416,16 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 07-14-2020:
 
 #### packages/apps/DeskClock/
-* [DeskClock: Fix FAB not being shown everytime](https://github.com/search?q=DeskClock%3A%20Fix%20FAB%20not%20being%20shown%20everytime&type=Commits)
+* [DeskClock: Setup data model before calling super.onStart()](https://github.com/search?q=DeskClock%3A%20Setup%20data%20model%20before%20calling%20super.onStart%28%29&type=Commits)
 
 #### packages/apps/Settings/
 * [fixup! BasebandVersionPreferenceController: Trim baseband if needed](https://github.com/search?q=fixup!%20BasebandVersionPreferenceController%3A%20Trim%20baseband%20if%20needed&type=Commits)
 
-#### vendor/lineage/
-* [lineage: update GMS updater component disable list](https://github.com/search?q=lineage%3A%20update%20GMS%20updater%20component%20disable%20list&type=Commits)
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [A2dpSrc: Fix deadlock between btif thread and A2dpService thread](https://github.com/search?q=A2dpSrc%3A%20Fix%20deadlock%20between%20btif%20thread%20and%20A2dpService%20thread&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [BT snoop: Handle integer overflow in snoop timestamp](https://github.com/search?q=BT%20snoop%3A%20Handle%20integer%20overflow%20in%20snoop%20timestamp&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-14-2020 End.
 
@@ -631,12 +1435,16 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 07-13-2020:
 
 #### packages/apps/DeskClock/
+* [DeskClock: Fix FAB not being shown everytime](https://github.com/search?q=DeskClock%3A%20Fix%20FAB%20not%20being%20shown%20everytime&type=Commits)
 * [DeskClock: Remove unused imports from NotificationUtils](https://github.com/search?q=DeskClock%3A%20Remove%20unused%20imports%20from%20NotificationUtils&type=Commits)
 * [DeskClock: Stop depending on platform APIs](https://github.com/search?q=DeskClock%3A%20Stop%20depending%20on%20platform%20APIs&type=Commits)
 * [DeskClock: Remove references to org.lineageos.platform.internal](https://github.com/search?q=DeskClock%3A%20Remove%20references%20to%20org.lineageos.platform.internal&type=Commits)
 
 #### vendor/lineage/
-* [Remove deprecated backup overlay](https://github.com/search?q=Remove%20deprecated%20backup%20overlay&type=Commits)
+* [lineage: update GMS updater component disable list](https://github.com/search?q=lineage%3A%20update%20GMS%20updater%20component%20disable%20list&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Reject AT+BCC if call is not present](https://github.com/search?q=Reject%20AT+BCC%20if%20call%20is%20not%20present&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-13-2020 End.
 
@@ -653,6 +1461,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/DeskClock/
 * [DeskClock: Don't rely on framework](https://github.com/search?q=DeskClock%3A%20Don%27t%20rely%20on%20framework&type=Commits)
 
+#### vendor/lineage/
+* [Remove deprecated backup overlay](https://github.com/search?q=Remove%20deprecated%20backup%20overlay&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-12-2020 End.
 
 07-11-2020
@@ -660,16 +1471,23 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 07-11-2020:
 
-#### lineage/hudson/
-* [hudson: Add pro1 (FxTec Pro1)](https://github.com/search?q=hudson%3A%20Add%20pro1%20%28FxTec%20Pro1%29&type=Commits)
-
 #### lineage/mirror/
 * [Updated to 11-Jul-2020 13:33 UTC](https://github.com/search?q=Updated%20to%2011-Jul-2020%2013%3A33%20UTC&type=Commits)
 
-#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
-* [Clean up duplicate uses-permission entries](https://github.com/search?q=Clean%20up%20duplicate%20uses-permission%20entries&type=Commits)
-
 #### LineageOS - 17.1 source changes of 07-11-2020 End.
+
+07-10-2020
+====================
+
+#### LineageOS - 17.1 source changes of 07-10-2020:
+
+#### lineage/hudson/
+* [hudson: Add pro1 (FxTec Pro1)](https://github.com/search?q=hudson%3A%20Add%20pro1%20%28FxTec%20Pro1%29&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Add remote mono headset address to INTEROP_DISABLE_ROLE_SWITCH BL](https://github.com/search?q=Add%20remote%20mono%20headset%20address%20to%20INTEROP_DISABLE_ROLE_SWITCH%20BL&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-10-2020 End.
 
 07-09-2020
 ====================
@@ -681,6 +1499,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### packages/apps/Contacts/
 * [Contacts: Make the launch screen follow the system theme](https://github.com/search?q=Contacts%3A%20Make%20the%20launch%20screen%20follow%20the%20system%20theme&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Snap for 6665474 from c27487819eed5c4a2d3ab43fe00d40c182d5629c to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206665474%20from%20c27487819eed5c4a2d3ab43fe00d40c182d5629c%20to%20q-keystone-qcom-release&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-09-2020 End.
 
@@ -698,9 +1519,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### frameworks/base/
 * [Fix typos related to sortSelectionIndices](https://github.com/search?q=Fix%20typos%20related%20to%20sortSelectionIndices&type=Commits)
 * [Fix app crash if the selection is from reverse direction.](https://github.com/search?q=Fix%20app%20crash%20if%20the%20selection%20is%20from%20reverse%20direction.&type=Commits)
-
-#### lineage/mirror/
-* [Updated to 07-Jul-2020 19:36 UTC](https://github.com/search?q=Updated%20to%2007-Jul-2020%2019%3A36%20UTC&type=Commits)
 
 #### packages/apps/Dialer/
 * [Dialer: Use a DayNight launch theme](https://github.com/search?q=Dialer%3A%20Use%20a%20DayNight%20launch%20theme&type=Commits)
@@ -729,11 +1547,17 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### frameworks/native/
 * [Merge tag 'android-10.0.0_r40' into staging/lineage-17.1_merge-android-10.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r40%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r40&type=Commits)
 
+#### lineage/mirror/
+* [Updated to 07-Jul-2020 19:36 UTC](https://github.com/search?q=Updated%20to%2007-Jul-2020%2019%3A36%20UTC&type=Commits)
+
 #### lineage/wiki/
 * [wiki: Fix zadig typos in heimdall template](https://github.com/search?q=wiki%3A%20Fix%20zadig%20typos%20in%20heimdall%20template&type=Commits)
 
 #### packages/services/Telephony/
 * [Merge tag 'android-10.0.0_r40' into staging/lineage-17.1_merge-android-10.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r40%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r40&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [BT logging: Added gmt offset in snoop time stamp](https://github.com/search?q=BT%20logging%3A%20Added%20gmt%20offset%20in%20snoop%20time%20stamp&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-07-2020 End.
 
@@ -742,24 +1566,18 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 07-06-2020:
 
-#### device/qcom/sepolicy-legacy-um/
-* [sepolicy: cnd: Allow access to wifi_prop](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Allow%20access%20to%20wifi_prop&type=Commits)
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [GAP: Use proper page scan rep mode for connection.](https://github.com/search?q=GAP%3A%20Use%20proper%20page%20scan%20rep%20mode%20for%20connection.&type=Commits)
 
 #### LineageOS - 17.1 source changes of 07-06-2020 End.
 
 07-05-2020
 ====================
 
-#### Device specific Changes of 07-05-2020 Start:
-
-#### Device/Quark/
-* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
-
-#### Device specific Changes of 07-05-2020 End.
-
-***
-
 #### LineageOS - 17.1 source changes of 07-05-2020:
+
+#### device/qcom/sepolicy-legacy-um/
+* [sepolicy: cnd: Allow access to wifi_prop](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Allow%20access%20to%20wifi_prop&type=Commits)
 
 #### frameworks/base/
 * [BLE: Fix NPE during start advertising](https://github.com/search?q=BLE%3A%20Fix%20NPE%20during%20start%20advertising&type=Commits)
@@ -772,6 +1590,7 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### Device specific Changes of 07-04-2020 Start:
 
 #### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
 * [Quark: Update sepolicy](https://github.com/search?q=Quark%3A%20Update%20sepolicy&type=Commits)
 * [Quark: BoardConfig clean up](https://github.com/search?q=Quark%3A%20BoardConfig%20clean%20up&type=Commits)
 * [Quark: gps: Correct week rollover timestamps](https://github.com/search?q=Quark%3A%20gps%3A%20Correct%20week%20rollover%20timestamps&type=Commits)
@@ -782,6 +1601,13 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ***
 
 #### LineageOS - 17.1 source changes of 07-04-2020:
+
+#### device/motorola/quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: Update sepolicy](https://github.com/search?q=Quark%3A%20Update%20sepolicy&type=Commits)
+* [Quark: BoardConfig clean up](https://github.com/search?q=Quark%3A%20BoardConfig%20clean%20up&type=Commits)
+* [Quark: gps: Correct week rollover timestamps](https://github.com/search?q=Quark%3A%20gps%3A%20Correct%20week%20rollover%20timestamps&type=Commits)
+* [Quark: enable bcl hotplug to core 2 and 3](https://github.com/search?q=Quark%3A%20enable%20bcl%20hotplug%20to%20core%202%20and%203&type=Commits)
 
 #### lineage/mirror/
 * [Updated to 03-Jul-2020 23:24 UTC](https://github.com/search?q=Updated%20to%2003-Jul-2020%2023%3A24%20UTC&type=Commits)
@@ -805,6 +1631,16 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/services/Telephony/
 * [Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone.](https://github.com/search?q=Explicitly%20grant%20START_ACTIVITIES_FROM_BACKGROUND%20to%20com.android.phone.&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Merge c320019fd34e11d843e74c0fee27e766c94bfa1b on remote branch](https://github.com/search?q=Merge%20c320019fd34e11d843e74c0fee27e766c94bfa1b%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge 212d2ec8b463ce536099516dad484cd2d2cd14e6 on remote branch](https://github.com/search?q=Merge%20212d2ec8b463ce536099516dad484cd2d2cd14e6%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [[IOT WAR]Process less than 8 bytes info rsp of fixed channels](https://github.com/search?q=[IOT%20WAR]Process%20less%20than%208%20bytes%20info%20rsp%20of%20fixed%20channels&type=Commits)
+* [Merge 2137d2f3eeabcf8283997848c7f317967b648781 on remote branch](https://github.com/search?q=Merge%202137d2f3eeabcf8283997848c7f317967b648781%20on%20remote%20branch&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-03-2020 End.
 
 07-02-2020
@@ -821,19 +1657,38 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/Etar/
 * [update submodules](https://github.com/search?q=update%20submodules&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [A2DP: Ensure reset remote started flag & alarm together](https://github.com/search?q=A2DP%3A%20Ensure%20reset%20remote%20started%20flag%20&%20alarm%20together&type=Commits)
+
 #### LineageOS - 17.1 source changes of 07-02-2020 End.
 
 07-01-2020
 ====================
 
 #### LineageOS - 17.1 source changes of 07-01-2020:
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Avrcp: cache playback state](https://github.com/search?q=Avrcp%3A%20cache%20playback%20state&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge SPL-2020-06-05](https://github.com/search?q=Merge%20SPL-2020-06-05&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [BT: Fix opp file transfer failure.](https://github.com/search?q=BT%3A%20Fix%20opp%20file%20transfer%20failure.&type=Commits)
+
+#### LineageOS - 17.1 source changes of 07-01-2020 End.
+
+06-30-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-30-2020:
 #### android/
 * [manifest: Track AOSP TV app](https://github.com/search?q=manifest%3A%20Track%20AOSP%20TV%20app&type=Commits)
 
 #### system/core/
 * [Allow to drop existing fd cache of cgroup path](https://github.com/search?q=Allow%20to%20drop%20existing%20fd%20cache%20of%20cgroup%20path&type=Commits)
 
-#### LineageOS - 17.1 source changes of 07-01-2020 End.
+#### LineageOS - 17.1 source changes of 06-30-2020 End.
 
 06-29-2020
 ====================
@@ -842,12 +1697,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### packages/apps/Settings/
 * [Settings: Fix fallback summary for power_button_instantly_locks preference](https://github.com/search?q=Settings%3A%20Fix%20fallback%20summary%20for%20power_button_instantly_locks%20preference&type=Commits)
-
-#### vendor/lineage/
-* d97bfec6 repopick: Fallback to name when project path is empty
-
-#### vendor/qcom/opensource/commonsys/system/bt/
-* [AVRCP: Ignore AVRCP version when registering absolute volume feature](https://github.com/search?q=AVRCP%3A%20Ignore%20AVRCP%20version%20when%20registering%20absolute%20volume%20feature&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-29-2020 End.
 
@@ -861,6 +1710,7 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Generate block based OTA for product partitions](https://github.com/search?q=Generate%20block%20based%20OTA%20for%20product%20partitions&type=Commits)
 
 #### vendor/lineage/
+* d97bfec6 repopick: Fallback to name when project path is empty
 * [Export CAF msm-4.14 audio headers](https://github.com/search?q=Export%20CAF%20msm-4.14%20audio%20headers&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-28-2020 End.
@@ -871,6 +1721,20 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 06-27-2020:
 #### android/
 * [manifest: Sync sm8250 HALs](https://github.com/search?q=manifest%3A%20Sync%20sm8250%20HALs&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [sepolicy: cnd: Allow access to wifi_prop](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Allow%20access%20to%20wifi_prop&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Promote tissot to 17.1](https://github.com/search?q=hudson%3A%20Promote%20tissot%20to%2017.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-27-2020 End.
+
+06-26-2020
+====================
+
+#### LineageOS - 17.1 source changes of 06-26-2020:
+#### android/
 * [lineage: Track QTI BT repos](https://github.com/search?q=lineage%3A%20Track%20QTI%20BT%20repos&type=Commits)
 
 #### build/make/
@@ -878,9 +1742,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [base_rules.mk optimizations](https://github.com/search?q=base_rules.mk%20optimizations&type=Commits)
 * [Fix test suite data files issue.](https://github.com/search?q=Fix%20test%20suite%20data%20files%20issue.&type=Commits)
 * [Export list of "installable" files to soong_ui](https://github.com/search?q=Export%20list%20of%20"installable"%20files%20to%20soong_ui&type=Commits)
-
-#### device/qcom/sepolicy-legacy/
-* [sepolicy: cnd: Allow access to wifi_prop](https://github.com/search?q=sepolicy%3A%20cnd%3A%20Allow%20access%20to%20wifi_prop&type=Commits)
 
 #### frameworks/base/
 * [Fix build errors](https://github.com/search?q=Fix%20build%20errors&type=Commits)
@@ -915,9 +1776,16 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [TWS-A2DP: Add TWS+ codec to DevUI support](https://github.com/search?q=TWS-A2DP%3A%20Add%20TWS+%20codec%20to%20DevUI%20support&type=Commits)
 * [BT: Adding aptX-Adaptive codec entry to Framework](https://github.com/search?q=BT%3A%20Adding%20aptX-Adaptive%20codec%20entry%20to%20Framework&type=Commits)
 * [Add BluetoothQualityReport class(1/2)](https://github.com/search?q=Add%20BluetoothQualityReport%20class%281/2%29&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom-caf/msm8998/audio/
+* [hal: msm8974: Use stereo recording depending on camera orientation](https://github.com/search?q=hal%3A%20msm8974%3A%20Use%20stereo%20recording%20depending%20on%20camera%20orientation&type=Commits)
+* [hal: msm8974: Fix the wrong device for AUDIO_SOURCE_CAMCORDER](https://github.com/search?q=hal%3A%20msm8974%3A%20Fix%20the%20wrong%20device%20for%20AUDIO_SOURCE_CAMCORDER&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### lineage/hudson/
-* [hudson: Promote tissot to 17.1](https://github.com/search?q=hudson%3A%20Promote%20tissot%20to%2017.1&type=Commits)
 * [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
 
 #### lineage/wiki/
@@ -930,6 +1798,12 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Bluetooth: Enable Hybrid Audio from App](https://github.com/search?q=Bluetooth%3A%20Enable%20Hybrid%20Audio%20from%20App&type=Commits)
 * [Add BLE Scan Phy parameter to scan API](https://github.com/search?q=Add%20BLE%20Scan%20Phy%20parameter%20to%20scan%20API&type=Commits)
 
+#### packages/apps/Dialer/
+* [Fix translation of 'contacts' tab title and main menu.](https://github.com/search?q=Fix%20translation%20of%20%27contacts%27%20tab%20title%20and%20main%20menu.&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/apps/Settings/
 * [BT: Use translated a2dp codec strings](https://github.com/search?q=BT%3A%20Use%20translated%20a2dp%20codec%20strings&type=Commits)
 * [codec support for DevUI am: f915bd9438](https://github.com/search?q=codec%20support%20for%20DevUI%20am%3A%20f915bd9438&type=Commits)
@@ -939,6 +1813,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Fix build error](https://github.com/search?q=Fix%20build%20error&type=Commits)
 * [Bluetooth-TWS: Filter TWS devices](https://github.com/search?q=Bluetooth-TWS%3A%20Filter%20TWS%20devices&type=Commits)
 * [Bluetooth: Create new catogory for earbuds](https://github.com/search?q=Bluetooth%3A%20Create%20new%20catogory%20for%20earbuds&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: Report device orientation to Audio HAL](https://github.com/search?q=Snap%3A%20Report%20device%20orientation%20to%20Audio%20HAL&type=Commits)
 
 #### packages/services/Telecomm/
 * [Bluetooth: Support to know if there is High Def call](https://github.com/search?q=Bluetooth%3A%20Support%20to%20know%20if%20there%20is%20High%20Def%20call&type=Commits)
@@ -954,39 +1831,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Add BLE Scan Phy parameter to scan API](https://github.com/search?q=Add%20BLE%20Scan%20Phy%20parameter%20to%20scan%20API&type=Commits)
 * [Bluetooth: Add SDK API support for TWS feature (1)](https://github.com/search?q=Bluetooth%3A%20Add%20SDK%20API%20support%20for%20TWS%20feature%20%281%29&type=Commits)
 
-#### LineageOS - 17.1 source changes of 06-27-2020 End.
-
-06-26-2020
-====================
-
-#### LineageOS - 17.1 source changes of 06-26-2020:
-
-#### bootable/recovery/
-* [recovery: compute displayable item count while drawing](https://github.com/search?q=recovery%3A%20compute%20displayable%20item%20count%20while%20drawing&type=Commits)
-
-#### frameworks/base/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### hardware/qcom-caf/msm8998/audio/
-* [hal: msm8974: Use stereo recording depending on camera orientation](https://github.com/search?q=hal%3A%20msm8974%3A%20Use%20stereo%20recording%20depending%20on%20camera%20orientation&type=Commits)
-* [hal: msm8974: Fix the wrong device for AUDIO_SOURCE_CAMCORDER](https://github.com/search?q=hal%3A%20msm8974%3A%20Fix%20the%20wrong%20device%20for%20AUDIO_SOURCE_CAMCORDER&type=Commits)
-
-#### lineage-sdk/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Dialer/
-* [Fix translation of 'contacts' tab title and main menu.](https://github.com/search?q=Fix%20translation%20of%20%27contacts%27%20tab%20title%20and%20main%20menu.&type=Commits)
-
-#### packages/apps/Etar/
-* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
-
-#### packages/apps/Snap/
-* [Snap: Report device orientation to Audio HAL](https://github.com/search?q=Snap%3A%20Report%20device%20orientation%20to%20Audio%20HAL&type=Commits)
-
-#### vendor/lineage/
-* [qcom: Add UM 4.19 platforms](https://github.com/search?q=qcom%3A%20Add%20UM%204.19%20platforms&type=Commits)
-* [qcom: Add atoll platform](https://github.com/search?q=qcom%3A%20Add%20atoll%20platform&type=Commits)
-
 #### vendor/qcom/opensource/power/
 * [power: Ignore interaction boost sequence in a short period](https://github.com/search?q=power%3A%20Ignore%20interaction%20boost%20sequence%20in%20a%20short%20period&type=Commits)
 
@@ -998,6 +1842,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 06-25-2020:
 #### android/
 * [manifest: Switch to our external/skia fork](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20external/skia%20fork&type=Commits)
+
+#### bootable/recovery/
+* [recovery: compute displayable item count while drawing](https://github.com/search?q=recovery%3A%20compute%20displayable%20item%20count%20while%20drawing&type=Commits)
 
 #### build/make/
 * [Avoid adding VINTF manifest fragment more than once.](https://github.com/search?q=Avoid%20adding%20VINTF%20manifest%20fragment%20more%20than%20once.&type=Commits)
@@ -1032,24 +1879,18 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Capitalize Noon and Midnight in event edit view.](https://github.com/search?q=Capitalize%20Noon%20and%20Midnight%20in%20event%20edit%20view.&type=Commits)
 * [Fixed leak cursor in AlertReciever](https://github.com/search?q=Fixed%20leak%20cursor%20in%20AlertReciever&type=Commits)
 * [DayView: Revert all whitespace changes](https://github.com/search?q=DayView%3A%20Revert%20all%20whitespace%20changes&type=Commits)
-* [Etar: Fix invalid string parameter](https://github.com/search?q=Etar%3A%20Fix%20invalid%20string%20parameter&type=Commits)
 
 #### packages/apps/Messaging/
 * [Messaging: Use a DayNight launch theme](https://github.com/search?q=Messaging%3A%20Use%20a%20DayNight%20launch%20theme&type=Commits)
+
+#### vendor/lineage/
+* [qcom: Add UM 4.19 platforms](https://github.com/search?q=qcom%3A%20Add%20UM%204.19%20platforms&type=Commits)
+* [qcom: Add atoll platform](https://github.com/search?q=qcom%3A%20Add%20atoll%20platform&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-25-2020 End.
 
 06-24-2020
 ====================
-
-#### Device specific Changes of 06-24-2020 Start:
-
-#### Device/Quark/
-* [Quark: wifi: Disable auto tx power control](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control&type=Commits)
-
-#### Device specific Changes of 06-24-2020 End.
-
-***
 
 #### LineageOS - 17.1 source changes of 06-24-2020:
 
@@ -1057,21 +1898,43 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Telephony: Add option for using regular poll state for airplane mode](https://github.com/search?q=Telephony%3A%20Add%20option%20for%20using%20regular%20poll%20state%20for%20airplane%20mode&type=Commits)
 
 #### packages/apps/Etar/
+* [Etar: Fix invalid string parameter](https://github.com/search?q=Etar%3A%20Fix%20invalid%20string%20parameter&type=Commits)
 * [Etar: Fix android:targetPackage for shortcut](https://github.com/search?q=Etar%3A%20Fix%20android%3AtargetPackage%20for%20shortcut&type=Commits)
 
 #### vendor/lineage/
 * [config: Move default alarm/notification/ringtone sound props to /product](https://github.com/search?q=config%3A%20Move%20default%20alarm/notification/ringtone%20sound%20props%20to%20/product&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Snap for 6619791 from f35850ffc7c8ac0cfdb5b55700b1293c04553b74 to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206619791%20from%20f35850ffc7c8ac0cfdb5b55700b1293c04553b74%20to%20q-keystone-qcom-release&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [BT: Fix incorrect socket release issue](https://github.com/search?q=BT%3A%20Fix%20incorrect%20socket%20release%20issue&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-24-2020 End.
 
 06-23-2020
 ====================
 
+#### Device specific Changes of 06-23-2020 Start:
+
+#### Device/Quark/
+* [Quark: wifi: Disable auto tx power control](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control&type=Commits)
+
+#### Device specific Changes of 06-23-2020 End.
+
+***
+
 #### LineageOS - 17.1 source changes of 06-23-2020:
+
+#### device/motorola/quark/
+* [Quark: wifi: Disable auto tx power control](https://github.com/search?q=Quark%3A%20wifi%3A%20Disable%20auto%20tx%20power%20control&type=Commits)
 
 #### frameworks/base/
 * [SystemUI: QS Details: Fix layout issues](https://github.com/search?q=SystemUI%3A%20QS%20Details%3A%20Fix%20layout%20issues&type=Commits)
 * [SystemUI: Fix issue with Bluetooth tile](https://github.com/search?q=SystemUI%3A%20Fix%20issue%20with%20Bluetooth%20tile&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [AVRCP: If setActive is null reset isActive before updating to MM](https://github.com/search?q=AVRCP%3A%20If%20setActive%20is%20null%20reset%20isActive%20before%20updating%20to%20MM&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-23-2020 End.
 
@@ -1096,6 +1959,13 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 06-22-2020:
 
+#### device/motorola/quark/
+* [Quark: Switch to TimeKeep](https://github.com/search?q=Quark%3A%20Switch%20to%20TimeKeep&type=Commits)
+* [Quark: disable vsync for cpu rendered apps.](https://github.com/search?q=Quark%3A%20disable%20vsync%20for%20cpu%20rendered%20apps.&type=Commits)
+* [Quark: disable recompute crop change in SF](https://github.com/search?q=Quark%3A%20disable%20recompute%20crop%20change%20in%20SF&type=Commits)
+* [Quark: Disable backpressure propagation in SurfaceFlinger](https://github.com/search?q=Quark%3A%20Disable%20backpressure%20propagation%20in%20SurfaceFlinger&type=Commits)
+* [Quark: Enable PRODUCT_MINIMIZE_JAVA_DEBUG_INFO](https://github.com/search?q=Quark%3A%20Enable%20PRODUCT_MINIMIZE_JAVA_DEBUG_INFO&type=Commits)
+
 #### packages/apps/Bluetooth/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
@@ -1109,6 +1979,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FMRadio/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/apps/FlipFlap/
@@ -1141,11 +2014,17 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/Trebuchet/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
+#### packages/apps/TvSettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
 #### packages/resources/devicesettings/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### packages/services/BuiltInPrintService/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/motorola/
+* [Quark: Switch to TimeKeep](https://github.com/search?q=Quark%3A%20Switch%20to%20TimeKeep&type=Commits)
 
 #### vendor/qcom/opensource/fm-commonsys/
 * [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
@@ -1159,9 +2038,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### bootable/recovery/
 * [recovery: menu wrapping fixes](https://github.com/search?q=recovery%3A%20menu%20wrapping%20fixes&type=Commits)
-
-#### build/make/
-* [build: Disable backuptool on user instead of GMS builds](https://github.com/search?q=build%3A%20Disable%20backuptool%20on%20user%20instead%20of%20GMS%20builds&type=Commits)
 
 #### lineage/wiki/
 * [wiki: Add Galaxy J7 2015 (j7elte)](https://github.com/search?q=wiki%3A%20Add%20Galaxy%20J7%202015%20%28j7elte%29&type=Commits)
@@ -1180,6 +2056,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ====================
 
 #### LineageOS - 17.1 source changes of 06-20-2020:
+
+#### build/make/
+* [build: Disable backuptool on user instead of GMS builds](https://github.com/search?q=build%3A%20Disable%20backuptool%20on%20user%20instead%20of%20GMS%20builds&type=Commits)
 
 #### frameworks/base/
 * [SystemUI: Fix QS Detail Header](https://github.com/search?q=SystemUI%3A%20Fix%20QS%20Detail%20Header&type=Commits)
@@ -1205,27 +2084,17 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 06-19-2020 End.
 
-06-18-2020
-====================
-
-#### LineageOS - 17.1 source changes of 06-18-2020:
-
-#### packages/apps/Etar/
-* [Etar: Properly align preferences](https://github.com/search?q=Etar%3A%20Properly%20align%20preferences&type=Commits)
-* [Etar: Fix crash when opening "Quick responses"](https://github.com/search?q=Etar%3A%20Fix%20crash%20when%20opening%20"Quick%20responses"&type=Commits)
-
-#### LineageOS - 17.1 source changes of 06-18-2020 End.
-
 06-17-2020
 ====================
 
 #### LineageOS - 17.1 source changes of 06-17-2020:
 
-#### device/lineage/sepolicy/
-* [common: Move aux camera whitelist prop to vendor](https://github.com/search?q=common%3A%20Move%20aux%20camera%20whitelist%20prop%20to%20vendor&type=Commits)
-
 #### frameworks/base/
 * [Add a LineageOS clock](https://github.com/search?q=Add%20a%20LineageOS%20clock&type=Commits)
+
+#### packages/apps/Etar/
+* [Etar: Properly align preferences](https://github.com/search?q=Etar%3A%20Properly%20align%20preferences&type=Commits)
+* [Etar: Fix crash when opening "Quick responses"](https://github.com/search?q=Etar%3A%20Fix%20crash%20when%20opening%20"Quick%20responses"&type=Commits)
 
 #### packages/apps/Jelly/
 * [Jelly: Avoid unchecked cast warning](https://github.com/search?q=Jelly%3A%20Avoid%20unchecked%20cast%20warning&type=Commits)
@@ -1237,11 +2106,12 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 06-16-2020:
 
-#### packages/apps/DeskClock/
-* [DeskClock: Remove notification sound from firing and snoozing channels](https://github.com/search?q=DeskClock%3A%20Remove%20notification%20sound%20from%20firing%20and%20snoozing%20channels&type=Commits)
+#### device/lineage/sepolicy/
+* [common: Move aux camera whitelist prop to vendor](https://github.com/search?q=common%3A%20Move%20aux%20camera%20whitelist%20prop%20to%20vendor&type=Commits)
 
-#### packages/apps/Recorder/
-* [Recorder: Prevent running into out of memory exceptions](https://github.com/search?q=Recorder%3A%20Prevent%20running%20into%20out%20of%20memory%20exceptions&type=Commits)
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [A2DP: NPE Fix due to memcpy on incorrect destination](https://github.com/search?q=A2DP%3A%20NPE%20Fix%20due%20to%20memcpy%20on%20incorrect%20destination&type=Commits)
+* [Check for call's presence before changing sniff policy](https://github.com/search?q=Check%20for%20call%27s%20presence%20before%20changing%20sniff%20policy&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-16-2020 End.
 
@@ -1251,8 +2121,13 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 06-15-2020:
 
 #### packages/apps/DeskClock/
-* [DeskClock: Replace ViewPager with manual fragment handling](https://github.com/search?q=DeskClock%3A%20Replace%20ViewPager%20with%20manual%20fragment%20handling&type=Commits)
-* [DeskClock: Fix german translation of "days"](https://github.com/search?q=DeskClock%3A%20Fix%20german%20translation%20of%20"days"&type=Commits)
+* [DeskClock: Remove notification sound from firing and snoozing channels](https://github.com/search?q=DeskClock%3A%20Remove%20notification%20sound%20from%20firing%20and%20snoozing%20channels&type=Commits)
+
+#### packages/apps/Recorder/
+* [Recorder: Prevent running into out of memory exceptions](https://github.com/search?q=Recorder%3A%20Prevent%20running%20into%20out%20of%20memory%20exceptions&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Update disconnect to MM after removing active device](https://github.com/search?q=Update%20disconnect%20to%20MM%20after%20removing%20active%20device&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-15-2020 End.
 
@@ -1260,6 +2135,10 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ====================
 
 #### LineageOS - 17.1 source changes of 06-14-2020:
+
+#### packages/apps/DeskClock/
+* [DeskClock: Replace ViewPager with manual fragment handling](https://github.com/search?q=DeskClock%3A%20Replace%20ViewPager%20with%20manual%20fragment%20handling&type=Commits)
+* [DeskClock: Fix german translation of "days"](https://github.com/search?q=DeskClock%3A%20Fix%20german%20translation%20of%20"days"&type=Commits)
 
 #### packages/apps/Jelly/
 * [Jelly: Sync color{Primary,PrimaryDark,Accent} with Recorder](https://github.com/search?q=Jelly%3A%20Sync%20color{Primary,PrimaryDark,Accent}%20with%20Recorder&type=Commits)
@@ -1273,9 +2152,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### lineage/wiki/
 * [Revert "wiki: Remove support for XT1526(surnia)"](https://github.com/search?q=Revert%20"wiki%3A%20Remove%20support%20for%20XT1526%28surnia%29"&type=Commits)
-
-#### packages/apps/DeskClock/
-* [DeskClock: Properly align settings](https://github.com/search?q=DeskClock%3A%20Properly%20align%20settings&type=Commits)
 
 #### packages/apps/Messaging/
 * [Messaging: Require external legacy storage](https://github.com/search?q=Messaging%3A%20Require%20external%20legacy%20storage&type=Commits)
@@ -1295,20 +2171,19 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds](https://github.com/search?q=Avoid%20SubscriptionManager%23getUriForSubscriptionId%20calls%20with%20invalid%20subIds&type=Commits)
 * [Remove setIsoCountryProperty method along with partially dead code](https://github.com/search?q=Remove%20setIsoCountryProperty%20method%20along%20with%20partially%20dead%20code&type=Commits)
 
-#### hardware/sony/timekeep/
-* [timekeep: Move app back to system](https://github.com/search?q=timekeep%3A%20Move%20app%20back%20to%20system&type=Commits)
-
 #### lineage/wiki/
 * [wiki: Promote mi8996 except black sheep](https://github.com/search?q=wiki%3A%20Promote%20mi8996%20except%20black%20sheep&type=Commits)
-* [wiki: Add Teledurak to s3ve3g maintainers](https://github.com/search?q=wiki%3A%20Add%20Teledurak%20to%20s3ve3g%20maintainers&type=Commits)
 
 #### packages/apps/DeskClock/
-* [DeskClock: Move navigation bar to bottom](https://github.com/search?q=DeskClock%3A%20Move%20navigation%20bar%20to%20bottom&type=Commits)
+* [DeskClock: Properly align settings](https://github.com/search?q=DeskClock%3A%20Properly%20align%20settings&type=Commits)
 
 #### packages/apps/Etar/
 * [Display hour 00 label if there is room for it.](https://github.com/search?q=Display%20hour%2000%20label%20if%20there%20is%20room%20for%20it.&type=Commits)
 * [Don't mess with selected hour when scrolling](https://github.com/search?q=Don%27t%20mess%20with%20selected%20hour%20when%20scrolling&type=Commits)
 * [Fix issue #457 and remove other bounces](https://github.com/search?q=Fix%20issue%20%23457%20and%20remove%20other%20bounces&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Merge b2c72007e038749fd46fb286db6801254a326f39 on remote branch](https://github.com/search?q=Merge%20b2c72007e038749fd46fb286db6801254a326f39%20on%20remote%20branch&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-12-2020 End.
 
@@ -1328,6 +2203,18 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### lineage/hudson/
 * [hudson: Promote mi8996 except black sheep](https://github.com/search?q=hudson%3A%20Promote%20mi8996%20except%20black%20sheep&type=Commits)
 
+#### lineage/wiki/
+* [wiki: Add Teledurak to s3ve3g maintainers](https://github.com/search?q=wiki%3A%20Add%20Teledurak%20to%20s3ve3g%20maintainers&type=Commits)
+
+#### packages/apps/DeskClock/
+* [DeskClock: Move navigation bar to bottom](https://github.com/search?q=DeskClock%3A%20Move%20navigation%20bar%20to%20bottom&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Snap for 6577145 from 3f10cc2a2b24dbcdcadeabacfbecfa48e0475140 to q-keystone-qcom-release](https://github.com/search?q=Snap%20for%206577145%20from%203f10cc2a2b24dbcdcadeabacfbecfa48e0475140%20to%20q-keystone-qcom-release&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [AVDTP: NPE Fix during Discover rsp parsing after Abort](https://github.com/search?q=AVDTP%3A%20NPE%20Fix%20during%20Discover%20rsp%20parsing%20after%20Abort&type=Commits)
+
 #### LineageOS - 17.1 source changes of 06-11-2020 End.
 
 06-10-2020
@@ -1338,31 +2225,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### Device/Quark/
 * [Quark: move wifi firmware to wifi folder of device tree](https://github.com/search?q=Quark%3A%20move%20wifi%20firmware%20to%20wifi%20folder%20of%20device%20tree&type=Commits)
 
-#### Kernel/Quark/
-* [qcacld-2.0: move firmware_bin to device tree](https://github.com/search?q=qcacld-2.0%3A%20move%20firmware_bin%20to%20device%20tree&type=Commits)
-* [dsp: adm: Add error check to avoid memory overread](https://github.com/search?q=dsp%3A%20adm%3A%20Add%20error%20check%20to%20avoid%20memory%20overread&type=Commits)
-* [dsp: adm: Fix to avoid memory overread in adm callback](https://github.com/search?q=dsp%3A%20adm%3A%20Fix%20to%20avoid%20memory%20overread%20in%20adm%20callback&type=Commits)
-* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
-* [ASoC: msm: fix bounds checking for ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20fix%20bounds%20checking%20for%20ADM%20get%20params&type=Commits)
-* [ASoC: msm: Add bounds checking to ADM get params](https://github.com/search?q=ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params&type=Commits)
-* [ASoC: msm: Fix ADM GET PARAM callback](https://github.com/search?q=ASoC%3A%20msm%3A%20Fix%20ADM%20GET%20PARAM%20callback&type=Commits)
-* [Revert "ASoC: msm: Add bounds checking to ADM get params"](https://github.com/search?q=Revert%20"ASoC%3A%20msm%3A%20Add%20bounds%20checking%20to%20ADM%20get%20params"&type=Commits)
-* [msm: adm: validate ADSP payload size before access](https://github.com/search?q=msm%3A%20adm%3A%20validate%20ADSP%20payload%20size%20before%20access&type=Commits)
-* [ASoC: msm: qdsp6v2: Change audio drivers to use %pK](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20Change%20audio%20drivers%20to%20use%20%pK&type=Commits)
-* [ANDROID: uid_sys_stats: check previous uid_entry before call find_or_register_uid](https://github.com/search?q=ANDROID%3A%20uid_sys_stats%3A%20check%20previous%20uid_entry%20before%20call%20find_or_register_uid&type=Commits)
-* [fs/namespace.c: fix mountpoint reference counter race](https://github.com/search?q=fs/namespace.c%3A%20fix%20mountpoint%20reference%20counter%20race&type=Commits)
-* [can: peak_usb: pcan_usb_pro: Fix info-leaks to USB devices](https://github.com/search?q=can%3A%20peak_usb%3A%20pcan_usb_pro%3A%20Fix%20info-leaks%20to%20USB%20devices&type=Commits)
-* [fix ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=fix%20ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
-* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
-* [ASoC: msm: qdsp6v2: fix incorrect packet size calculation](https://github.com/search?q=ASoC%3A%20msm%3A%20qdsp6v2%3A%20fix%20incorrect%20packet%20size%20calculation&type=Commits)
-* [signal: Extend exec_id to 64bits](https://github.com/search?q=signal%3A%20Extend%20exec_id%20to%2064bits&type=Commits)
-* [net: ipc_router: Do not allow change of default security rule](https://github.com/search?q=net%3A%20ipc_router%3A%20Do%20not%20allow%20change%20of%20default%20security%20rule&type=Commits)
-* [qcacld-2.0: Avoid possible buffer over-read in wma_wow_wakeup_host_event](https://github.com/search?q=qcacld-2.0%3A%20Avoid%20possible%20buffer%20over-read%20in%20wma_wow_wakeup_host_event&type=Commits)
-* [qcacld-2.0: Add sanity check for buf pkt len to prevent OOB access](https://github.com/search?q=qcacld-2.0%3A%20Add%20sanity%20check%20for%20buf%20pkt%20len%20to%20prevent%20OOB%20access&type=Commits)
-* [apq8084: qcacld-2.0: move driver to net/wireless dir](https://github.com/search?q=apq8084%3A%20qcacld-2.0%3A%20move%20driver%20to%20net/wireless%20dir&type=Commits)
-* [esoc: Make <linux/esoc_client.h> self-contained](https://github.com/search?q=esoc%3A%20Make%20<linux/esoc_client.h>%20self-contained&type=Commits)
-* [defconfig disable some debug](https://github.com/search?q=defconfig%20disable%20some%20debug&type=Commits)
-
 #### Device specific Changes of 06-10-2020 End.
 
 ***
@@ -1372,6 +2234,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### build/make/
 * [Make change and version bump to QQ3A.200801.001](https://github.com/search?q=Make%20change%20and%20version%20bump%20to%20QQ3A.200801.001&type=Commits)
 * [Update Security String to 2020-08-01](https://github.com/search?q=Update%20Security%20String%20to%202020-08-01&type=Commits)
+
+#### device/motorola/quark/
+* [Quark: move wifi firmware to wifi folder of device tree](https://github.com/search?q=Quark%3A%20move%20wifi%20firmware%20to%20wifi%20folder%20of%20device%20tree&type=Commits)
 
 #### external/gptfdisk/
 * [Merge cherrypicks of [11816540, 11816001, 11816620, 11816559, 11816541, 11816621, 11815640, 11816506, 11816507, 11816508, 11816586, 11816587, 11816588, 11816589, 11816520, 11816173, 11816590, 11816591, 11816395, 11816003, 11816698, 11815507] into qt-qpr3-release](https://github.com/search?q=Merge%20cherrypicks%20of%20[11816540,%2011816001,%2011816620,%2011816559,%2011816541,%2011816621,%2011815640,%2011816506,%2011816507,%2011816508,%2011816586,%2011816587,%2011816588,%2011816589,%2011816520,%2011816173,%2011816590,%2011816591,%2011816395,%2011816003,%2011816698,%2011815507]%20into%20qt-qpr3-release&type=Commits)
@@ -1423,6 +2288,12 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [spdif: fix possible buffer overflow](https://github.com/search?q=spdif%3A%20fix%20possible%20buffer%20overflow&type=Commits)
 * [audio_utils: test SPDIFEncoder](https://github.com/search?q=audio_utils%3A%20test%20SPDIFEncoder&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [OPP: Updated NFC failed status during the turn of BT](https://github.com/search?q=OPP%3A%20Updated%20NFC%20failed%20status%20during%20the%20turn%20of%20BT&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [PAN: Fix disconnect stuck issue during multi device use case.](https://github.com/search?q=PAN%3A%20Fix%20disconnect%20stuck%20issue%20during%20multi%20device%20use%20case.&type=Commits)
+
 #### LineageOS - 17.1 source changes of 06-10-2020 End.
 
 06-09-2020
@@ -1445,10 +2316,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### lineage/wiki/
 * [wiki: Remove deprecated channels](https://github.com/search?q=wiki%3A%20Remove%20deprecated%20channels&type=Commits)
-
-#### packages/inputmethods/LatinIME/
-* [Fix NPE in KeyboardTheme](https://github.com/search?q=Fix%20NPE%20in%20KeyboardTheme&type=Commits)
-* [Merge 'lineage-17.1' into 10.0](https://github.com/search?q=Merge%20%27lineage-17.1%27%20into%2010.0&type=Commits)
 
 #### packages/providers/MediaProvider/
 * [MediaProvider: Fix sorting by DATE_TAKEN](https://github.com/search?q=MediaProvider%3A%20Fix%20sorting%20by%20DATE_TAKEN&type=Commits)
@@ -1488,11 +2355,18 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### lineage/wiki/
 * [wiki: devices: Promote osprey,merlin,lux,surnia,harpia to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20osprey,merlin,lux,surnia,harpia%20to%2017.1&type=Commits)
 
+#### packages/inputmethods/LatinIME/
+* [Fix NPE in KeyboardTheme](https://github.com/search?q=Fix%20NPE%20in%20KeyboardTheme&type=Commits)
+* [Merge 'lineage-17.1' into 10.0](https://github.com/search?q=Merge%20%27lineage-17.1%27%20into%2010.0&type=Commits)
+
 #### system/sepolicy/
 * [Export missing audio volume properties](https://github.com/search?q=Export%20missing%20audio%20volume%20properties&type=Commits)
 
 #### vendor/lineage/
 * [Update Bulgarian dictionary](https://github.com/search?q=Update%20Bulgarian%20dictionary&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [PBAP: Send proper sdp length during search attribute req.](https://github.com/search?q=PBAP%3A%20Send%20proper%20sdp%20length%20during%20search%20attribute%20req.&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-08-2020 End.
 
@@ -1542,9 +2416,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### hardware/interfaces/
 * [Add interface info in boot@1.0-service.rc](https://github.com/search?q=Add%20interface%20info%20in%20boot%401.0-service.rc&type=Commits)
 
-#### lineage/wiki/
-* [wiki: Avoid showing `adb reboot` on last step of install/upgrade page on A/B](https://github.com/search?q=wiki%3A%20Avoid%20showing%20%60adb%20reboot%60%20on%20last%20step%20of%20install/upgrade%20page%20on%20A/B&type=Commits)
-
 #### packages/apps/LineageParts/
 * [KeyHandler: Use VibrationEffect](https://github.com/search?q=KeyHandler%3A%20Use%20VibrationEffect&type=Commits)
 
@@ -1578,11 +2449,11 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### lineage/crowdin/
 * [config: 17.1: Add hardware/sony/SonyOpenTelephony/ModemConfig](https://github.com/search?q=config%3A%2017.1%3A%20Add%20hardware/sony/SonyOpenTelephony/ModemConfig&type=Commits)
 
-#### lineage/hudson/
-* [[TMP] hudson: Move all versions to weeklies](https://github.com/search?q=[TMP]%20hudson%3A%20Move%20all%20versions%20to%20weeklies&type=Commits)
-
 #### lineage/scripts/
 * [Update default webview to 83.0.4103.96](https://github.com/search?q=Update%20default%20webview%20to%2083.0.4103.96&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Avoid showing `adb reboot` on last step of install/upgrade page on A/B](https://github.com/search?q=wiki%3A%20Avoid%20showing%20%60adb%20reboot%60%20on%20last%20step%20of%20install/upgrade%20page%20on%20A/B&type=Commits)
 
 #### packages/apps/DeskClock/
 * [Revert "Remove max aspect ratio."](https://github.com/search?q=Revert%20"Remove%20max%20aspect%20ratio."&type=Commits)
@@ -1590,15 +2461,14 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/Dialer/
 * [Iterate old recordings properly when migrating call recording data.](https://github.com/search?q=Iterate%20old%20recordings%20properly%20when%20migrating%20call%20recording%20data.&type=Commits)
 
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Add AirPods Pro to AAC support white list](https://github.com/search?q=Add%20AirPods%20Pro%20to%20AAC%20support%20white%20list&type=Commits)
+
 #### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
-* [BT: Prefer LDAC over aptX family](https://github.com/search?q=BT%3A%20Prefer%20LDAC%20over%20aptX%20family&type=Commits)
-* [Bluetooth string: removed id="sender" in bt_sm_2_1_](https://github.com/search?q=Bluetooth%20string%3A%20removed%20id="sender"%20in%20bt_sm_2_1_&type=Commits)
-* [translate="false" -> translatable="false"](https://github.com/search?q=translate="false"%20->%20translatable="false"&type=Commits)
-* [Remove intent filter without any action](https://github.com/search?q=Remove%20intent%20filter%20without%20any%20action&type=Commits)
-* [Delete unused common.android.emailcommon package.](https://github.com/search?q=Delete%20unused%20common.android.emailcommon%20package.&type=Commits)
-* [Fix null pointer exception on AvrcpTargetService](https://github.com/search?q=Fix%20null%20pointer%20exception%20on%20AvrcpTargetService&type=Commits)
-* [Bluetooth: Remove unused string resources](https://github.com/search?q=Bluetooth%3A%20Remove%20unused%20string%20resources&type=Commits)
-* [Rebrand to BluetoothQti](https://github.com/search?q=Rebrand%20to%20BluetoothQti&type=Commits)
+* [Merge ac16296e6d8846b3e84dd838fa873529511fbb68 on remote branch](https://github.com/search?q=Merge%20ac16296e6d8846b3e84dd838fa873529511fbb68%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge a149b7b3b3056928f789658a0606a7a6dc13f298 on remote branch](https://github.com/search?q=Merge%20a149b7b3b3056928f789658a0606a7a6dc13f298%20on%20remote%20branch&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-05-2020 End.
 
@@ -1607,11 +2477,11 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### LineageOS - 17.1 source changes of 06-04-2020:
 
+#### lineage/hudson/
+* [[TMP] hudson: Move all versions to weeklies](https://github.com/search?q=[TMP]%20hudson%3A%20Move%20all%20versions%20to%20weeklies&type=Commits)
+
 #### lineage/mirror/
 * [Updated to 04-Jun-2020 13:37 UTC](https://github.com/search?q=Updated%20to%2004-Jun-2020%2013%3A37%20UTC&type=Commits)
-
-#### lineage/wiki/
-* [wiki: Fix bootloader unlocking info for jasmine_sprout](https://github.com/search?q=wiki%3A%20Fix%20bootloader%20unlocking%20info%20for%20jasmine_sprout&type=Commits)
 
 #### packages/apps/Dialer/
 * [Refactor call recording to use MediaProvider.](https://github.com/search?q=Refactor%20call%20recording%20to%20use%20MediaProvider.&type=Commits)
@@ -1630,6 +2500,7 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [SystemUI: QQS brightness: get container padding directly](https://github.com/search?q=SystemUI%3A%20QQS%20brightness%3A%20get%20container%20padding%20directly&type=Commits)
 
 #### lineage/wiki/
+* [wiki: Fix bootloader unlocking info for jasmine_sprout](https://github.com/search?q=wiki%3A%20Fix%20bootloader%20unlocking%20info%20for%20jasmine_sprout&type=Commits)
 * [wiki: Remove custom TWRP for crackling](https://github.com/search?q=wiki%3A%20Remove%20custom%20TWRP%20for%20crackling&type=Commits)
 
 #### packages/apps/Trebuchet/
@@ -1732,9 +2603,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/Settings/
 * [Merge tag 'android-10.0.0_r37' into staging/lineage-17.1_merge-android-10.0.0_r37](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r37%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r37&type=Commits)
 
-#### packages/apps/SetupWizard/
-* [tests: Add privapp permissions whitelist](https://github.com/search?q=tests%3A%20Add%20privapp%20permissions%20whitelist&type=Commits)
-
 #### packages/apps/StorageManager/
 * [Merge tag 'android-10.0.0_r37' into staging/lineage-17.1_merge-android-10.0.0_r37](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r37%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r37&type=Commits)
 
@@ -1742,6 +2610,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Merge tag 'android-10.0.0_r37' into staging/lineage-17.1_merge-android-10.0.0_r37](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r37%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r37&type=Commits)
 
 #### packages/apps/Traceur/
+* [Merge tag 'android-10.0.0_r37' into staging/lineage-17.1_merge-android-10.0.0_r37](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r37%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r37&type=Commits)
+
+#### packages/apps/TvSettings/
 * [Merge tag 'android-10.0.0_r37' into staging/lineage-17.1_merge-android-10.0.0_r37](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r37%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r37&type=Commits)
 
 #### packages/inputmethods/LatinIME/
@@ -1810,21 +2681,27 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### android/
 * [manifest: Switch to our external/libtextclassifier fork](https://github.com/search?q=manifest%3A%20Switch%20to%20our%20external/libtextclassifier%20fork&type=Commits)
 
+#### device/motorola/quark/
+* [Quark: remove dead overlay](https://github.com/search?q=Quark%3A%20remove%20dead%20overlay&type=Commits)
+
 #### frameworks/base/
 * [SystemUI: Don't forcefully convert wallpaper to SRGB](https://github.com/search?q=SystemUI%3A%20Don%27t%20forcefully%20convert%20wallpaper%20to%20SRGB&type=Commits)
 * [Implement quick QS brightness slider [1/3]](https://github.com/search?q=Implement%20quick%20QS%20brightness%20slider%20[1/3]&type=Commits)
 
+#### kernel/motorola/apq8084/
+* [apq8084.dtsi: qcom,bcl max freq to 1958Mhz](https://github.com/search?q=apq8084.dtsi%3A%20qcom,bcl%20max%20freq%20to%201958Mhz&type=Commits)
+
 #### lineage-sdk/
 * [Implement quick QS brightness slider [3/3]](https://github.com/search?q=Implement%20quick%20QS%20brightness%20slider%20[3/3]&type=Commits)
-
-#### lineage/hudson/
-* [Revert "hudson: (Temp) Drop kuntao"](https://github.com/search?q=Revert%20"hudson%3A%20%28Temp%29%20Drop%20kuntao"&type=Commits)
 
 #### packages/apps/Gallery2/
 * [Revert "Gallery2: Sort media by DATE_ADDED"](https://github.com/search?q=Revert%20"Gallery2%3A%20Sort%20media%20by%20DATE_ADDED"&type=Commits)
 
 #### packages/apps/LineageParts/
 * [Implement quick QS brightness slider [2/3]](https://github.com/search?q=Implement%20quick%20QS%20brightness%20slider%20[2/3]&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [tests: Add privapp permissions whitelist](https://github.com/search?q=tests%3A%20Add%20privapp%20permissions%20whitelist&type=Commits)
 
 #### packages/apps/Snap/
 * [Snap: remove duplicate pause button](https://github.com/search?q=Snap%3A%20remove%20duplicate%20pause%20button&type=Commits)
@@ -1836,6 +2713,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### vendor/lineage/
 * [partner_gms: Support TV GMS](https://github.com/search?q=partner_gms%3A%20Support%20TV%20GMS&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [AVRCP_Browse: Send valid rsp when item_len & len_left are same](https://github.com/search?q=AVRCP_Browse%3A%20Send%20valid%20rsp%20when%20item_len%20&%20len_left%20are%20same&type=Commits)
 
 #### LineageOS - 17.1 source changes of 06-01-2020 End.
 
@@ -1862,6 +2742,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Revert "FODCircleView: dispatch onPress to HAL only after dimming is applied"](https://github.com/search?q=Revert%20"FODCircleView%3A%20dispatch%20onPress%20to%20HAL%20only%20after%20dimming%20is%20applied"&type=Commits)
 * [MTP: Fix MTP SD card issue](https://github.com/search?q=MTP%3A%20Fix%20MTP%20SD%20card%20issue&type=Commits)
 
+#### lineage/hudson/
+* [Revert "hudson: (Temp) Drop kuntao"](https://github.com/search?q=Revert%20"hudson%3A%20%28Temp%29%20Drop%20kuntao"&type=Commits)
+
 #### lineage/wiki/
 * [wiki: Fix note content for oneplus2](https://github.com/search?q=wiki%3A%20Fix%20note%20content%20for%20oneplus2&type=Commits)
 * [wiki: Switch {discovery, kirin, mermaid, pioneer, voyager} to LineageOS recovery](https://github.com/search?q=wiki%3A%20Switch%20{discovery,%20kirin,%20mermaid,%20pioneer,%20voyager}%20to%20LineageOS%20recovery&type=Commits)
@@ -1874,6 +2757,10 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### vendor/lineage/
 * [soong: Add flag for fod extension](https://github.com/search?q=soong%3A%20Add%20flag%20for%20fod%20extension&type=Commits)
+
+#### vendor/motorola/
+* [Quark: update KernelAdiutor.apk](https://github.com/search?q=Quark%3A%20update%20KernelAdiutor.apk&type=Commits)
+* [Quark: update iSu app](https://github.com/search?q=Quark%3A%20update%20iSu%20app&type=Commits)
 
 #### LineageOS - 17.1 source changes of 05-31-2020 End.
 
@@ -1894,10 +2781,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### packages/apps/Recorder/
 * [Recorder: Stop service after stopping casting](https://github.com/search?q=Recorder%3A%20Stop%20service%20after%20stopping%20casting&type=Commits)
 
-#### packages/apps/Settings/
-* [Settings: Add notification log to search index](https://github.com/search?q=Settings%3A%20Add%20notification%20log%20to%20search%20index&type=Commits)
-* [Settings: Add notification log to 'App notifications' menu](https://github.com/search?q=Settings%3A%20Add%20notification%20log%20to%20%27App%20notifications%27%20menu&type=Commits)
-
 #### LineageOS - 17.1 source changes of 05-30-2020 End.
 
 05-29-2020
@@ -1907,11 +2790,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### lineage/hudson/
 * [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
-* [hudson: Add Redmi 7 (onclite)](https://github.com/search?q=hudson%3A%20Add%20Redmi%207%20%28onclite%29&type=Commits)
 
 #### lineage/wiki/
 * [wiki: update ms013g informations](https://github.com/search?q=wiki%3A%20update%20ms013g%20informations&type=Commits)
-* [wiki: Add Redmi 7 (onclite)](https://github.com/search?q=wiki%3A%20Add%20Redmi%207%20%28onclite%29&type=Commits)
 
 #### packages/apps/Etar/
 * [Strike through title of canceled events in all views (#278)](https://github.com/search?q=Strike%20through%20title%20of%20canceled%20events%20in%20all%20views%20%28%23278%29&type=Commits)
@@ -1919,6 +2800,8 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [Correct a typo](https://github.com/search?q=Correct%20a%20typo&type=Commits)
 
 #### packages/apps/Settings/
+* [Settings: Add notification log to search index](https://github.com/search?q=Settings%3A%20Add%20notification%20log%20to%20search%20index&type=Commits)
+* [Settings: Add notification log to 'App notifications' menu](https://github.com/search?q=Settings%3A%20Add%20notification%20log%20to%20%27App%20notifications%27%20menu&type=Commits)
 * [Fix NPE if default supervisor is not defined](https://github.com/search?q=Fix%20NPE%20if%20default%20supervisor%20is%20not%20defined&type=Commits)
 
 #### vendor/lineage/
@@ -1933,17 +2816,18 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### LineageOS - 17.1 source changes of 05-28-2020:
 
 #### lineage/hudson/
+* [hudson: Add Redmi 7 (onclite)](https://github.com/search?q=hudson%3A%20Add%20Redmi%207%20%28onclite%29&type=Commits)
 * [hudson: Promote whyred to 17.1](https://github.com/search?q=hudson%3A%20Promote%20whyred%20to%2017.1&type=Commits)
 
 #### lineage/mirror/
 * [Updated to 28-May-2020 13:29 UTC](https://github.com/search?q=Updated%20to%2028-May-2020%2013%3A29%20UTC&type=Commits)
 
 #### lineage/wiki/
+* [wiki: Add Redmi 7 (onclite)](https://github.com/search?q=wiki%3A%20Add%20Redmi%207%20%28onclite%29&type=Commits)
 * [wiki: Promote whyred to 17.1](https://github.com/search?q=wiki%3A%20Promote%20whyred%20to%2017.1&type=Commits)
 
-#### packages/apps/Etar/
-* [Etar: Don't optimize out no-arg Fragment constructors](https://github.com/search?q=Etar%3A%20Don%27t%20optimize%20out%20no-arg%20Fragment%20constructors&type=Commits)
-* [Etar: Enable usage of local proguard.flags file](https://github.com/search?q=Etar%3A%20Enable%20usage%20of%20local%20proguard.flags%20file&type=Commits)
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Disable role switch policy with JBL Charge 2+](https://github.com/search?q=Disable%20role%20switch%20policy%20with%20JBL%20Charge%202+&type=Commits)
 
 #### LineageOS - 17.1 source changes of 05-28-2020 End.
 
@@ -1955,14 +2839,9 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### frameworks/base/
 * [Implement hide gestural navigation hint bar [1/5]](https://github.com/search?q=Implement%20hide%20gestural%20navigation%20hint%20bar%20[1/5]&type=Commits)
 * [SystemUI: Do not convert application name to ISO-8859-15](https://github.com/search?q=SystemUI%3A%20Do%20not%20convert%20application%20name%20to%20ISO-8859-15&type=Commits)
-* [SystemUI: support black theme for dark mode [1/4]](https://github.com/search?q=SystemUI%3A%20support%20black%20theme%20for%20dark%20mode%20[1/4]&type=Commits)
-* [SystemUI: add top exclusion to the back gesture](https://github.com/search?q=SystemUI%3A%20add%20top%20exclusion%20to%20the%20back%20gesture&type=Commits)
-* [SystemUI: Brightness slider: Always show the brightness icon](https://github.com/search?q=SystemUI%3A%20Brightness%20slider%3A%20Always%20show%20the%20brightness%20icon&type=Commits)
 
 #### lineage-sdk/
 * [Implement hide gestural navigation hint bar [3/5]](https://github.com/search?q=Implement%20hide%20gestural%20navigation%20hint%20bar%20[3/5]&type=Commits)
-* [lineage-sdk: add black theme for dark mode [4/4]](https://github.com/search?q=lineage-sdk%3A%20add%20black%20theme%20for%20dark%20mode%20[4/4]&type=Commits)
-* [sdk: add top exclusion to the back gesture](https://github.com/search?q=sdk%3A%20add%20top%20exclusion%20to%20the%20back%20gesture&type=Commits)
 
 #### lineage/hudson/
 * [hudson: Promote oneplus2 to 17.1](https://github.com/search?q=hudson%3A%20Promote%20oneplus2%20to%2017.1&type=Commits)
@@ -1971,6 +2850,8 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 * [wiki: Promote oneplus2 to 17.1](https://github.com/search?q=wiki%3A%20Promote%20oneplus2%20to%2017.1&type=Commits)
 
 #### packages/apps/Etar/
+* [Etar: Don't optimize out no-arg Fragment constructors](https://github.com/search?q=Etar%3A%20Don%27t%20optimize%20out%20no-arg%20Fragment%20constructors&type=Commits)
+* [Etar: Enable usage of local proguard.flags file](https://github.com/search?q=Etar%3A%20Enable%20usage%20of%20local%20proguard.flags%20file&type=Commits)
 * [Accept "application/ics" in ImportActivity intent-filter](https://github.com/search?q=Accept%20"application/ics"%20in%20ImportActivity%20intent-filter&type=Commits)
 * [Use correct app bar color](https://github.com/search?q=Use%20correct%20app%20bar%20color&type=Commits)
 
@@ -1992,7 +2873,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 
 #### packages/apps/Settings/
 * [Implement hide gestural navigation hint bar [2/5]](https://github.com/search?q=Implement%20hide%20gestural%20navigation%20hint%20bar%20[2/5]&type=Commits)
-* [Settings: add top exclusion to the back gesture](https://github.com/search?q=Settings%3A%20add%20top%20exclusion%20to%20the%20back%20gesture&type=Commits)
 
 #### packages/overlays/Lineage/
 * [Implement hide gestural navigation hint bar [4/5]](https://github.com/search?q=Implement%20hide%20gestural%20navigation%20hint%20bar%20[4/5]&type=Commits)
