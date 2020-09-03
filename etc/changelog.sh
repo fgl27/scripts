@@ -84,12 +84,13 @@ contains() {
 }
 
 git_log_repo() {
+    skip=0;
     repo forall -pc 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
         project=0;
         temp_test="$string";
         contains "$temp_test" "project" && project=1;
-        if [ -n "${string##+([:space:])}" ]; then
-            if [ "$project" == 0 ]; then
+        if [ -n "${string##+([:space:])}" ] ; then
+            if [ "$project" == 0 ] && [ "$skip" == 0 ]; then
                 temp_one=$(echo "$string" | sed 's/^[^ ]* //g')
                 temp_two="${temp_one// /%20}"
                 temp_two="${temp_two//(/%28}"
@@ -100,13 +101,20 @@ git_log_repo() {
                 temp_two="${temp_two//\'/%27}"
                 temp_two="${temp_two//\`/%60}"
                 echo "* [$temp_one](https://github.com/search?q=${temp_two}&type=Commits)" >> $Changelog;
-            else
-                echo "* $string" >> $Changelog;
-            fi;
+            elif [ "$project" == 1 ]; then
+                #skip specifc device folder even if they are part of the repo manifest, as they are sorted separated
+                if [[ $string == *"$device_tree"* ]] || [[ $string == *"$kernel_tree"* ]] || [[ $string == *"$vendor_tree"* ]]; then
+                    skip=1;
                 else
+                    echo "* $string" >> $Changelog;
+                    skip=0;
+                fi;
+            fi;
+        else
             echo >> $Changelog;
         fi
-        done
+    done
+        
     echo >> $Changelog;
     echo "#### $source_name source changes of $Until_Date End." >>  $Changelog;
     echo >> $Changelog;
