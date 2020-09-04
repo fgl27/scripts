@@ -3,6 +3,12 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+09-04-2020
+====================
+
+* [kernel V9.50](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.50&type=Commits)
+* [Build the dtb inside zImage](https://github.com/bhb27/BHB27Kernel/search?q=Build%20the%20dtb%20inside%20zImage&type=Commits)
+
 09-01-2020
 ====================
 
