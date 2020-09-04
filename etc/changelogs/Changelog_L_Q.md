@@ -1,6 +1,43 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+09-04-2020
+====================
+
+#### Device specific Changes of 09-04-2020 Start:
+
+#### Device/Quark/
+* [Revert "Quark: sepolicy add su workaround"](https://github.com/search?q=Revert%20"Quark%3A%20sepolicy%20add%20su%20workaround"&type=Commits)
+* [Quark: late mount data and start boot service early](https://github.com/search?q=Quark%3A%20late%20mount%20data%20and%20start%20boot%20service%20early&type=Commits)
+* [Quark: update BoardConfig.mk kernel flags](https://github.com/search?q=Quark%3A%20update%20BoardConfig.mk%20kernel%20flags&type=Commits)
+
+#### Kernel/Quark/
+* [defconfig enable CONFIG_BUILD_ARM_APPENDED_DTB_IMAGE](https://github.com/search?q=defconfig%20enable%20CONFIG_BUILD_ARM_APPENDED_DTB_IMAGE&type=Commits)
+
+#### Vendor/Quark/
+* [Quark: remove Adaway and iSu](https://github.com/search?q=Quark%3A%20remove%20Adaway%20and%20iSu&type=Commits)
+
+#### Device specific Changes of 09-04-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-04-2020:
+
+
+#### frameworks/base/
+* [SystemUI: Use TaskStackChangeListener API for contextual screenshot package name](https://github.com/search?q=SystemUI%3A%20Use%20TaskStackChangeListener%20API%20for%20contextual%20screenshot%20package%20name&type=Commits)
+
+
+#### lineage/wiki/
+* [devices: channel: Use custom TWRP](https://github.com/search?q=devices%3A%20channel%3A%20Use%20custom%20TWRP&type=Commits)
+* [images: Use the correct image for ocean](https://github.com/search?q=images%3A%20Use%20the%20correct%20image%20for%20ocean&type=Commits)
+
+#### vendor/lineage/
+* [Revert "kernel: prevent additional config from being always rebuilt"](https://github.com/search?q=Revert%20"kernel%3A%20prevent%20additional%20config%20from%20being%20always%20rebuilt"&type=Commits)
+
+
+#### LineageOS - 17.1 source changes of 09-04-2020 End.
+
 09-03-2020
 ====================
 
