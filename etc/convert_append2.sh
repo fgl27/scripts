@@ -63,7 +63,7 @@ if [ "$size_png" == "1" ] && [ ! "$exitpng" == 1 ]; then
 			let three=c+2
 			let four=c+3
 			convert $(printf "%04d.png" "$c") $(printf "%04d.png" "$two") $(printf "%04d.png" "$three") $(printf "%04d.png" "$four") +append "A$file_name";
-			pngquant --ext .png --force --quality=54-90 --speed 1 "A$file_name";
+			#pngquant --ext .png --force --quality=54-90 --speed 1 "A$file_name";
 			ready=1
 		fi;
 
@@ -73,7 +73,7 @@ if [ "$size_png" == "1" ] && [ ! "$exitpng" == 1 ]; then
 			let two=c+1
 			let three=c+2
 			convert $(printf "%04d.png" "$c") $(printf "%04d.png" "$two") $(printf "%04d.png" "$three") +append "A$file_name";
-			pngquant --ext .png --force --quality=54-90 --speed 1 "A$file_name";
+			#pngquant --ext .png --force --quality=54-90 --speed 1 "A$file_name";
 			ready=1
 		fi;
 
@@ -82,7 +82,7 @@ if [ "$size_png" == "1" ] && [ ! "$exitpng" == 1 ]; then
 			how_many=2
 			let two=c+1
 			convert $(printf "%04d.png" "$c") $(printf "%04d.png" "$two") +append "A$file_name";
-			pngquant --ext .png --force --quality=54-90 --speed 1 "A$file_name";
+			#pngquant --ext .png --force --quality=54-90 --speed 1 "A$file_name";
 			ready=1
 		fi;
 
