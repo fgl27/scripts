@@ -3,11 +3,36 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+09-14-2020
+====================
+
+* [Kernel V9.51](https://github.com/bhb27/BHB27Kernel/search?q=Kernel%20V9.51&type=Commits)
+* [qcacld-2.0: Initialize preauth node](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Initialize%20preauth%20node&type=Commits)
+* [qcacld-2.0: Remove unused gLimSendDisassocFrameThresholdTimer timer](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20unused%20gLimSendDisassocFrameThresholdTimer%20timer&type=Commits)
+* [qcacld-2.0: Don't re-initialize timer if initialization is evaluated to zero](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Don%27t%20re-initialize%20timer%20if%20initialization%20is%20evaluated%20to%20zero&type=Commits)
+* [qcacld-2.0: Remove redundant MTRACE logs](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Remove%20redundant%20MTRACE%20logs&type=Commits)
+* [qcacld-2.0: Fix memory leak for lim preauth timers at driver unload](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20for%20lim%20preauth%20timers%20at%20driver%20unload&type=Commits)
+* [qcacld-2.0: Proper mem allocation for lim, pre auth timers](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Proper%20mem%20allocation%20for%20lim,%20pre%20auth%20timers&type=Commits)
+* [qcacld-2.0: Node number are not correct initialized](https://github.com/bhb27/BHB27Kernel/search?q=qcacld-2.0%3A%20Node%20number%20are%20not%20correct%20initialized&type=Commits)
+* [HID: hid-input: clear unmapped usages](https://github.com/bhb27/BHB27Kernel/search?q=HID%3A%20hid-input%3A%20clear%20unmapped%20usages&type=Commits)
+* [net: l2tp: Make l2tp_ip6 namespace aware](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20l2tp%3A%20Make%20l2tp_ip6%20namespace%20aware&type=Commits)
+* [l2tp: Correctly return -EBADF from pppol2tp_getname.](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20Correctly%20return%20-EBADF%20from%20pppol2tp_getname.&type=Commits)
+* [l2tp: ensure session can't get removed during pppol2tp_session_ioctl()](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20ensure%20session%20can%27t%20get%20removed%20during%20pppol2tp_session_ioctl%28%29&type=Commits)
+* [l2tp: ensure sessions are freed after their PPPOL2TP socket](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20ensure%20sessions%20are%20freed%20after%20their%20PPPOL2TP%20socket&type=Commits)
+* [l2tp: Refactor the codes with existing macros instead of literal number](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20Refactor%20the%20codes%20with%20existing%20macros%20instead%20of%20literal%20number&type=Commits)
+* [l2tp: fix race between l2tp_session_delete() and l2tp_tunnel_closeall()](https://github.com/bhb27/BHB27Kernel/search?q=l2tp%3A%20fix%20race%20between%20l2tp_session_delete%28%29%20and%20l2tp_tunnel_closeall%28%29&type=Commits)
+* [soc: qcom: smem: validate fields of shared structures](https://github.com/bhb27/BHB27Kernel/search?q=soc%3A%20qcom%3A%20smem%3A%20validate%20fields%20of%20shared%20structures&type=Commits)
+* [media: uvcvideo: Avoid cyclic entity chains due to malformed USB descriptors](https://github.com/bhb27/BHB27Kernel/search?q=media%3A%20uvcvideo%3A%20Avoid%20cyclic%20entity%20chains%20due%20to%20malformed%20USB%20descriptors&type=Commits)
+
+***
+
 09-04-2020
 ====================
 
 * [kernel V9.50](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.50&type=Commits)
 * [Build the dtb inside zImage](https://github.com/bhb27/BHB27Kernel/search?q=Build%20the%20dtb%20inside%20zImage&type=Commits)
+
+***
 
 09-01-2020
 ====================

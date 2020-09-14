@@ -1,6 +1,339 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+09-14-2020
+====================
+
+#### Device specific Changes of 09-14-2020 Start:
+
+#### Device/Quark/
+* [Quark: SysInfoService update default offline color plus improve defaults](https://github.com/search?q=Quark%3A%20SysInfoService%20update%20default%20offline%20color%20plus%20improve%20defaults&type=Commits)
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: clean up sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20sepolicy&type=Commits)
+* [Quark: sepolicy add su workaround](https://github.com/search?q=Quark%3A%20sepolicy%20add%20su%20workaround&type=Commits)
+* [Quark: SysInfoService add text size option](https://github.com/search?q=Quark%3A%20SysInfoService%20add%20text%20size%20option&type=Commits)
+* [Quark: SysInfoService add some color options](https://github.com/search?q=Quark%3A%20SysInfoService%20add%20some%20color%20options&type=Commits)
+* [Quark: add SysInfoService](https://github.com/search?q=Quark%3A%20add%20SysInfoService&type=Commits)
+
+#### Kernel/Quark/
+* [qcacld-2.0: Initialize preauth node](https://github.com/search?q=qcacld-2.0%3A%20Initialize%20preauth%20node&type=Commits)
+* [qcacld-2.0: Remove unused gLimSendDisassocFrameThresholdTimer timer](https://github.com/search?q=qcacld-2.0%3A%20Remove%20unused%20gLimSendDisassocFrameThresholdTimer%20timer&type=Commits)
+* [qcacld-2.0: Don't re-initialize timer if initialization is evaluated to zero](https://github.com/search?q=qcacld-2.0%3A%20Don%27t%20re-initialize%20timer%20if%20initialization%20is%20evaluated%20to%20zero&type=Commits)
+* [qcacld-2.0: Remove redundant MTRACE logs](https://github.com/search?q=qcacld-2.0%3A%20Remove%20redundant%20MTRACE%20logs&type=Commits)
+* [qcacld-2.0: Fix memory leak for lim preauth timers at driver unload](https://github.com/search?q=qcacld-2.0%3A%20Fix%20memory%20leak%20for%20lim%20preauth%20timers%20at%20driver%20unload&type=Commits)
+* [qcacld-2.0: Proper mem allocation for lim, pre auth timers](https://github.com/search?q=qcacld-2.0%3A%20Proper%20mem%20allocation%20for%20lim,%20pre%20auth%20timers&type=Commits)
+* [qcacld-2.0: Node number are not correct initialized](https://github.com/search?q=qcacld-2.0%3A%20Node%20number%20are%20not%20correct%20initialized&type=Commits)
+* [HID: hid-input: clear unmapped usages](https://github.com/search?q=HID%3A%20hid-input%3A%20clear%20unmapped%20usages&type=Commits)
+* [net: l2tp: Make l2tp_ip6 namespace aware](https://github.com/search?q=net%3A%20l2tp%3A%20Make%20l2tp_ip6%20namespace%20aware&type=Commits)
+* [l2tp: Correctly return -EBADF from pppol2tp_getname.](https://github.com/search?q=l2tp%3A%20Correctly%20return%20-EBADF%20from%20pppol2tp_getname.&type=Commits)
+* [l2tp: ensure session can't get removed during pppol2tp_session_ioctl()](https://github.com/search?q=l2tp%3A%20ensure%20session%20can%27t%20get%20removed%20during%20pppol2tp_session_ioctl%28%29&type=Commits)
+* [l2tp: ensure sessions are freed after their PPPOL2TP socket](https://github.com/search?q=l2tp%3A%20ensure%20sessions%20are%20freed%20after%20their%20PPPOL2TP%20socket&type=Commits)
+* [l2tp: Refactor the codes with existing macros instead of literal number](https://github.com/search?q=l2tp%3A%20Refactor%20the%20codes%20with%20existing%20macros%20instead%20of%20literal%20number&type=Commits)
+* [l2tp: fix race between l2tp_session_delete() and l2tp_tunnel_closeall()](https://github.com/search?q=l2tp%3A%20fix%20race%20between%20l2tp_session_delete%28%29%20and%20l2tp_tunnel_closeall%28%29&type=Commits)
+* [soc: qcom: smem: validate fields of shared structures](https://github.com/search?q=soc%3A%20qcom%3A%20smem%3A%20validate%20fields%20of%20shared%20structures&type=Commits)
+* [media: uvcvideo: Avoid cyclic entity chains due to malformed USB descriptors](https://github.com/search?q=media%3A%20uvcvideo%3A%20Avoid%20cyclic%20entity%20chains%20due%20to%20malformed%20USB%20descriptors&type=Commits)
+
+#### Device specific Changes of 09-14-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-14-2020:
+
+
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-17.1' into 10.0](https://github.com/search?q=Merge%20%27lineage-17.1%27%20into%2010.0&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-14-2020 End.
+
+09-13-2020
+====================
+
+#### Device specific Changes of 09-13-2020 Start:
+
+#### Device/Quark/
+* [Revert "Quark: Switch to TimeKeep"](https://github.com/search?q=Revert%20"Quark%3A%20Switch%20to%20TimeKeep"&type=Commits)
+
+#### Device specific Changes of 09-13-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-13-2020:
+
+#### build/make/
+* [Bump Security String to 2020-09-05](https://github.com/search?q=Bump%20Security%20String%20to%202020-09-05&type=Commits)
+
+
+#### frameworks/base/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### lineage/crowdin/
+* [crowdin_sync: Allow specifying an owner of the commits to submit](https://github.com/search?q=crowdin_sync%3A%20Allow%20specifying%20an%20owner%20of%20the%20commits%20to%20submit&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [LatinIME: Move keyboard height setting from debug to advanced](https://github.com/search?q=LatinIME%3A%20Move%20keyboard%20height%20setting%20from%20debug%20to%20advanced&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-13-2020 End.
+
+09-12-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-12-2020:
+
+#### build/make/
+* [sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well](https://github.com/search?q=sign_target_apks%3A%20Replace%20update-payload-key.pub.pem%20in%20RECOVERY%20as%20well&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [lineage-sdk: Fix typo for filterDisplayModes comment](https://github.com/search?q=lineage-sdk%3A%20Fix%20typo%20for%20filterDisplayModes%20comment&type=Commits)
+
+#### lineage/wiki/
+* [devices: victara: No longer require format on upgrade](https://github.com/search?q=devices%3A%20victara%3A%20No%20longer%20require%20format%20on%20upgrade&type=Commits)
+* [fixup! wiki: Set ccache compression in ccache config instead of env](https://github.com/search?q=fixup!%20wiki%3A%20Set%20ccache%20compression%20in%20ccache%20config%20instead%20of%20env&type=Commits)
+* [wiki: Set ccache compression in ccache config instead of env](https://github.com/search?q=wiki%3A%20Set%20ccache%20compression%20in%20ccache%20config%20instead%20of%20env&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-12-2020 End.
+
+09-11-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-11-2020:
+
+#### device/lineage/atv/
+* [Enable bluetooth remote pairing in Setupwraith](https://github.com/search?q=Enable%20bluetooth%20remote%20pairing%20in%20Setupwraith&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Use FLAG_IMMUTABLE for MultiSimSettingController](https://github.com/search?q=Use%20FLAG_IMMUTABLE%20for%20MultiSimSettingController&type=Commits)
+
+#### lineage/crowdin/
+* [crowdin: fix _COMMITS_CREATED references](https://github.com/search?q=crowdin%3A%20fix%20_COMMITS_CREATED%20references&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [ATV: Disable custom SUW if GMS SetupWraith is available](https://github.com/search?q=ATV%3A%20Disable%20custom%20SUW%20if%20GMS%20SetupWraith%20is%20available&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-11-2020 End.
+
+09-10-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-10-2020:
+#### android/
+* [Track our own sonivox](https://github.com/search?q=Track%20our%20own%20sonivox&type=Commits)
+
+#### lineage/crowdin/
+* [crowdin: Don't require global installation of crowdin](https://github.com/search?q=crowdin%3A%20Don%27t%20require%20global%20installation%20of%20crowdin&type=Commits)
+* [crowdin: Add requirements.txt](https://github.com/search?q=crowdin%3A%20Add%20requirements.txt&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-10-2020 End.
+
+09-09-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-09-2020:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 85.0.4183.101](https://github.com/search?q=Update%20Chromium%20Webview%20to%2085.0.4183.101&type=Commits)
+
+#### external/sonivox/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 09-Sep-2020 08:14 UTC](https://github.com/search?q=Updated%20to%2009-Sep-2020%2008%3A14%20UTC&type=Commits)
+* [Updated to 08-Sep-2020 23:05 UTC](https://github.com/search?q=Updated%20to%2008-Sep-2020%2023%3A05%20UTC&type=Commits)
+* [Updated to 08-Sep-2020 20:05 UTC](https://github.com/search?q=Updated%20to%2008-Sep-2020%2020%3A05%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 85.0.4183.101](https://github.com/search?q=Update%20default%20webview%20to%2085.0.4183.101&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Fix NoSuchMethodError for getTypeInfo()](https://github.com/search?q=Fix%20NoSuchMethodError%20for%20getTypeInfo%28%29&type=Commits)
+* [Remove advanced category if no preference](https://github.com/search?q=Remove%20advanced%20category%20if%20no%20preference&type=Commits)
+* [AOSP/Messaging - Changed minSdkVersion to 19.](https://github.com/search?q=AOSP/Messaging%20-%20Changed%20minSdkVersion%20to%2019.&type=Commits)
+* [Fix SecurityException at getActiveSubscriptionInfoList() on N and O](https://github.com/search?q=Fix%20SecurityException%20at%20getActiveSubscriptionInfoList%28%29%20on%20N%20and%20O&type=Commits)
+* [Fix app initialization issue if no permissions](https://github.com/search?q=Fix%20app%20initialization%20issue%20if%20no%20permissions&type=Commits)
+* [AOSP/Messaging - Changed midSdkVersion to 14 and reverted to using Telephony.Carriers.CONTENT_URI instead of  Telephony.Carriers.SIM_APN_URI.](https://github.com/search?q=AOSP/Messaging%20-%20Changed%20midSdkVersion%20to%2014%20and%20reverted%20to%20using%20Telephony.Carriers.CONTENT_URI%20instead%20of%20%20Telephony.Carriers.SIM_APN_URI.&type=Commits)
+* [Fix handling format based on API level accordingly.](https://github.com/search?q=Fix%20handling%20format%20based%20on%20API%20level%20accordingly.&type=Commits)
+* [Remove only one Lambda Exp for JAVA 7](https://github.com/search?q=Remove%20only%20one%20Lambda%20Exp%20for%20JAVA%207&type=Commits)
+* [Fix creating ConnectivityUtil to work on any platform](https://github.com/search?q=Fix%20creating%20ConnectivityUtil%20to%20work%20on%20any%20platform&type=Commits)
+* [Fix missing computeIfAbsent() method in L_MR1 and M](https://github.com/search?q=Fix%20missing%20computeIfAbsent%28%29%20method%20in%20L_MR1%20and%20M&type=Commits)
+* [Remove unnecessary methods from MmsUtils](https://github.com/search?q=Remove%20unnecessary%20methods%20from%20MmsUtils&type=Commits)
+* [Allow call to phone numbers or voice mail numbers only](https://github.com/search?q=Allow%20call%20to%20phone%20numbers%20or%20voice%20mail%20numbers%20only&type=Commits)
+* [Check CONFIG_SEND_MULTIPART_SMS_AS_SEPARATE_MESSAGES always](https://github.com/search?q=Check%20CONFIG_SEND_MULTIPART_SMS_AS_SEPARATE_MESSAGES%20always&type=Commits)
+* [Fix ConcurrentModificationException](https://github.com/search?q=Fix%20ConcurrentModificationException&type=Commits)
+* [Parse recipients from RESPOND_VIA_MESSAGE correctly](https://github.com/search?q=Parse%20recipients%20from%20RESPOND_VIA_MESSAGE%20correctly&type=Commits)
+* [Disallow making a call to emergency numbers](https://github.com/search?q=Disallow%20making%20a%20call%20to%20emergency%20numbers&type=Commits)
+* [Auto re-sending MMS for all the transient failures](https://github.com/search?q=Auto%20re-sending%20MMS%20for%20all%20the%20transient%20failures&type=Commits)
+* [Remove dead code](https://github.com/search?q=Remove%20dead%20code&type=Commits)
+* [Check whether dialable only](https://github.com/search?q=Check%20whether%20dialable%20only&type=Commits)
+
+#### packages/apps/PermissionController/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+* [Remove useless png and add vector drawable](https://github.com/search?q=Remove%20useless%20png%20and%20add%20vector%20drawable&type=Commits)
+* [Remove "storage type" preference from Settings](https://github.com/search?q=Remove%20"storage%20type"%20preference%20from%20Settings&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### system/bt/
+* [Changed HID_DEV_MTU_SIZE from 64 to 512](https://github.com/search?q=Changed%20HID_DEV_MTU_SIZE%20from%2064%20to%20512&type=Commits)
+
+#### system/core/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### system/sepolicy/
+* [Merge tag 'android-10.0.0_r46' into staging/lineage-17.1_merge-android-10.0.0_r46](https://github.com/search?q=Merge%20tag%20%27android-10.0.0_r46%27%20into%20staging/lineage-17.1_merge-android-10.0.0_r46&type=Commits)
+
+#### tools/repohooks/
+* [tools: switch all our tools to python3 shebang](https://github.com/search?q=tools%3A%20switch%20all%20our%20tools%20to%20python3%20shebang&type=Commits)
+
+#### vendor/lineage/
+* [extract_utils: Add support for system_ext](https://github.com/search?q=extract_utils%3A%20Add%20support%20for%20system_ext&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Changed HID_DEV_MTU_SIZE from 64 to 512](https://github.com/search?q=Changed%20HID_DEV_MTU_SIZE%20from%2064%20to%20512&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-09-2020 End.
+
+09-08-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-08-2020:
+
+#### lineage/mirror/
+* [Updated to 08-Sep-2020 12:35 UTC](https://github.com/search?q=Updated%20to%2008-Sep-2020%2012%3A35%20UTC&type=Commits)
+
+#### tools/repohooks/
+* [Add [Builtin Hooks Exclude Paths] section am: ea52820de8](https://github.com/search?q=Add%20[Builtin%20Hooks%20Exclude%20Paths]%20section%20am%3A%20ea52820de8&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-08-2020 End.
+
+09-07-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-07-2020:
+
+#### build/make/
+* [build_image: Allow disabling custom inode count calculation](https://github.com/search?q=build_image%3A%20Allow%20disabling%20custom%20inode%20count%20calculation&type=Commits)
+
+#### lineage/hudson/
+* [Galaxy S5e -> Galaxy Tab S5e](https://github.com/search?q=Galaxy%20S5e%20->%20Galaxy%20Tab%20S5e&type=Commits)
+* [Sync updater/devices.json with lineage-build-targets](https://github.com/search?q=Sync%20updater/devices.json%20with%20lineage-build-targets&type=Commits)
+* [hudson: Ship $(echo 686f74646f670a | xxd -r -p)](https://github.com/search?q=hudson%3A%20Ship%20$%28echo%20686f74646f670a%20|%20xxd%20-r%20-p%29&type=Commits)
+* [hudson: Promote Sony Xperia Z3 series to 17.1](https://github.com/search?q=hudson%3A%20Promote%20Sony%20Xperia%20Z3%20series%20to%2017.1&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add OnePlus 7T Pro (hotdog)](https://github.com/search?q=wiki%3A%20Add%20OnePlus%207T%20Pro%20%28hotdog%29&type=Commits)
+* [wiki: Set supported models for guacamole](https://github.com/search?q=wiki%3A%20Set%20supported%20models%20for%20guacamole&type=Commits)
+* [wiki: device: Promote Sony Xperia Z3 series to 17.1](https://github.com/search?q=wiki%3A%20device%3A%20Promote%20Sony%20Xperia%20Z3%20series%20to%2017.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-07-2020 End.
+
 09-04-2020
 ====================
 
