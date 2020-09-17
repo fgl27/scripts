@@ -1,6 +1,19 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+09-16-2020
+====================
+
+#### Device specific Changes of 09-16-2020 Start:
+
+#### Device/Quark/
+* [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
+* [Quark: sepolicy properly label root folders](https://github.com/search?q=Quark%3A%20sepolicy%20properly%20label%20root%20folders&type=Commits)
+* [Quark: clean up sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20sepolicy&type=Commits)
+* [Quark: remove defcontext from fstab persist](https://github.com/search?q=Quark%3A%20remove%20defcontext%20from%20fstab%20persist&type=Commits)
+
+#### Device specific Changes of 09-16-2020 End.
+
 09-14-2020
 ====================
 
@@ -38,8 +51,6 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 ***
 
 #### LineageOS - 17.1 source changes of 09-14-2020:
-
-
 
 #### packages/inputmethods/LatinIME/
 * [Merge 'lineage-17.1' into 10.0](https://github.com/search?q=Merge%20%27lineage-17.1%27%20into%2010.0&type=Commits)

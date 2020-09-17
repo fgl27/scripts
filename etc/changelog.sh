@@ -6,29 +6,15 @@
 
 # input variables set the below the rest must be automatic
 source_tree_lq="$HOME/android/q"; #path here must be inside your home directory
-source_tree_lp="$HOME/android/P"; #path here must be inside your home directory
 device_tree="device/motorola/quark/"; #path here must be inside of source tree
 kernel_tree="kernel/motorola/apq8084/"; #path here must be inside of source tree
 vendor_tree="vendor/motorola/"; #path here must be inside of source tree
 device_name="Quark"
 source_name_lq="LineageOS - 17.1"
-source_name_lp="LineageOS - Pie"
 # input variables end
 
-echo -e "\nlp, lq?\n"
-read -r rom
-echo -e "\nYou choose: $rom"
-export rom
-if [ ! "$rom" == "lp" ] && [ ! "$rom" == "lq" ]; then
-    echo -e "\nNO CHANGE FOR YOU\n";
-    exit;
-elif [ "$rom" == "lp" ]; then
-    source_tree=$source_tree_lp
-    source_name=$source_name_lp
-elif [ "$rom" == "lq" ]; then
-    source_tree=$source_tree_lq
-    source_name=$source_name_lq
-fi;
+source_tree=$source_tree_lq
+source_name=$source_name_lq
 
 export Changelog=$source_tree/Changelog.md
 
@@ -85,6 +71,8 @@ contains() {
 
 git_log_repo() {
     skip=0;
+    printedtitle=0;
+
     repo forall -pc 'git log --oneline --after='$1' --until='$2 | sed 's/^$/#EL /' | sed 's/^/* /' | sed 's/* #EL //' | sed 's/* //' | while read string; do
         project=0;
         temp_test="$string";
@@ -106,6 +94,10 @@ git_log_repo() {
                 if [[ $string == *"$device_tree"* ]] || [[ $string == *"$kernel_tree"* ]] || [[ $string == *"$vendor_tree"* ]]; then
                     skip=1;
                 else
+                    if [ "$printedtitle" == 0 ]; then
+                        echo "#### $source_name source changes of $Until_Date:" >>  $Changelog;
+                        printedtitle=1;
+                    fi;
                     echo "* $string" >> $Changelog;
                     skip=0;
                 fi;
@@ -114,10 +106,12 @@ git_log_repo() {
             echo >> $Changelog;
         fi
     done
-        
-    echo >> $Changelog;
-    echo "#### $source_name source changes of $Until_Date End." >>  $Changelog;
-    echo >> $Changelog;
+
+    if [ "$printedtitle" == 1 ]; then
+        echo >> $Changelog;
+        echo "#### $source_name source changes of $Until_Date End." >>  $Changelog;
+        echo >> $Changelog;
+    fi;
 }
 
 for i in $(seq $days_to_log); do
@@ -168,7 +162,6 @@ for i in $(seq $days_to_log); do
     fi
 
     if [ -n "${source##+([:space:])}" ]; then
-        echo "#### $source_name source changes of $Until_Date:" >>  $Changelog;
         git_log_repo $After_Date $Until_Date
     fi
 
