@@ -20,6 +20,7 @@ LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark)
 #### Device specific Changes of 09-14-2020 Start:
 
 #### Device/Quark/
+* [Quark: SysInfoService add Celsius to Fahrenheit option](https://github.com/search?q=Quark%3A%20SysInfoService%20add%20Celsius%20to%20Fahrenheit%20option&type=Commits)
 * [Quark: SysInfoService update default offline color plus improve defaults](https://github.com/search?q=Quark%3A%20SysInfoService%20update%20default%20offline%20color%20plus%20improve%20defaults&type=Commits)
 * [Quark: update sepolicy](https://github.com/search?q=Quark%3A%20update%20sepolicy&type=Commits)
 * [Quark: clean up sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20sepolicy&type=Commits)
