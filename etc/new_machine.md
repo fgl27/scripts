@@ -410,7 +410,9 @@ sudo ./install-java.sh -f '/home/fgl27/Downloads/jre-8u241-linux-x64.tar.gz'
 ./sdb connect 192.168.1.230:26101
 
 
-#Slow input from keyboard
+#Desktop briefly becomes unresponsive when typing on 2 keyboards at the same time (keyboard + g700)
+
+https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1777708
 
 A workaround to solve the problem is:
 
@@ -425,3 +427,7 @@ modifier_map Mod3 { Scroll_Lock };
 3) Logged out and logged in again or run command setxkbmap.
 
 These steps are specific for the Brazilian Portuguese ABNT2 Layout and may not work for other layouts, but it can help you find a similar solution.
+
+# Logitech G700s extra G buttons don't work in wireless mode
+
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1875408
