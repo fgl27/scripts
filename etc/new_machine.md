@@ -414,11 +414,9 @@ sudo ./install-java.sh -f '/home/fgl27/Downloads/jre-8u241-linux-x64.tar.gz'
 
 https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1777708
 
-A workaround to solve the problem is:
+1) open
 
-1) Opened the keyboard layout file for my language, in my case:
-
-sudo nano /usr/share/X11/xkb/symbols/br
+    sudo gedit /usr/share/X11/xkb/symbols/br
 
 2) Commented the line:
 
@@ -426,8 +424,18 @@ modifier_map Mod3 { Scroll_Lock };
 
 3) Logged out and logged in again or run command setxkbmap.
 
+    sudo setxkbmap
+
 These steps are specific for the Brazilian Portuguese ABNT2 Layout and may not work for other layouts, but it can help you find a similar solution.
 
 # Logitech G700s extra G buttons don't work in wireless mode
 
 https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1875408
+
+	sudo echo '
+	blacklist hid_logitech_hidpp
+    blacklist hid_logitech_dj' > /etc/modprobe.d/blacklist-hid_logitech.conf
+    
+    sudo update-initramfs -u -k all
+
+
