@@ -80,11 +80,37 @@ Deleting the old Home
 
 #### Personal installation list (things only really related to my personal use of a computer)
 
-	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool vlc thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar baobab stacer vino remmina
+	sudo apt-get -y install dkms build-essential aspell-pt-br gnome-tweak-tool thunderbird deluge gedit-plugins shotwell pinta gparted samba jpegoptim pngquant pngcrush ttf-mscorefonts-installer net-tools lm-sensors chrome-gnome-shell speedcrunch unrar baobab stacer vino remmina gimp preload
 	
 	wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
 	sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 	sudo apt-get install github-desktop
+	
+### VS code deb
+	
+	https://code.visualstudio.com/docs/setup/linux
+
+### lower swap use
+
+    sudo gedit /etc/sysctl.conf
+
+add to the end
+
+    vm.swappiness=10
+
+### Lower SSD write 
+
+    sudo gedit /etc/fstab
+
+add to sdd partitions 
+
+    noatime,
+
+### install ubuntu-cleaner
+
+    sudo add-apt-repository ppa:gerardpuig/ppa
+
+    sudo apt install ubuntu-cleaner
 
 #### allow conect from android via vnc app using ubuntu vino sharing option
 
@@ -416,15 +442,15 @@ https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1777708
 
 1) open
 
-    sudo gedit /usr/share/X11/xkb/symbols/br
+	`sudo gedit /usr/share/X11/xkb/symbols/br`
 
 2) Commented the line:
 
-modifier_map Mod3 { Scroll_Lock };
+	**modifier_map Mod3 { Scroll_Lock };**
 
 3) Logged out and logged in again or run command setxkbmap.
 
-    sudo setxkbmap
+	`sudo setxkbmap`
 
 These steps are specific for the Brazilian Portuguese ABNT2 Layout and may not work for other layouts, but it can help you find a similar solution.
 
@@ -438,4 +464,11 @@ https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1875408
     
     sudo update-initramfs -u -k all
 
+### fix hdmi audio not set as default on it boot
+
+https://unix.stackexchange.com/a/62846
+
+    add a startup cmd
+    
+    pacmd set-card-profile 0 output:hdmi-stereo+input:analog-stereo
 
