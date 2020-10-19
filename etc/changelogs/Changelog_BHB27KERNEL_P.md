@@ -3,6 +3,76 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+10-19-2020
+====================
+
+* [kernel V9.52](https://github.com/bhb27/BHB27Kernel/search?q=kernel%20V9.52&type=Commits)
+
+***
+
+09-25-2020
+====================
+
+* [Wireguard: don't enable CONFIG_ZINC_ARCH_ARM](https://github.com/bhb27/BHB27Kernel/search?q=Wireguard%3A%20don%27t%20enable%20CONFIG_ZINC_ARCH_ARM&type=Commits)
+* [Build wiregurd from source](https://github.com/bhb27/BHB27Kernel/search?q=Build%20wiregurd%20from%20source&type=Commits)
+* [Update defconfig](https://github.com/bhb27/BHB27Kernel/search?q=Update%20defconfig&type=Commits)
+* [arm: irq: Notify affinity change when migrating IRQs during hotplug](https://github.com/bhb27/BHB27Kernel/search?q=arm%3A%20irq%3A%20Notify%20affinity%20change%20when%20migrating%20IRQs%20during%20hotplug&type=Commits)
+* [ARM: 8073/1: unwind: Use arm_get_current_stackframe](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208073/1%3A%20unwind%3A%20Use%20arm_get_current_stackframe&type=Commits)
+* [ARM: 8070/1: Introduce arm_get_current_stack_frame()](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208070/1%3A%20Introduce%20arm_get_current_stack_frame%28%29&type=Commits)
+* [arm, unwind, LLVMLinux: Enable clang to be used for unwinding the stack](https://github.com/bhb27/BHB27Kernel/search?q=arm,%20unwind,%20LLVMLinux%3A%20Enable%20clang%20to%20be%20used%20for%20unwinding%20the%20stack&type=Commits)
+* [ARM: 8052/1: unwind: Fix handling of "Pop r4-r[4+nnn],r14" opcode](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208052/1%3A%20unwind%3A%20Fix%20handling%20of%20"Pop%20r4-r[4+nnn],r14"%20opcode&type=Commits)
+* [ARM: 7987/1: ARM : unwinder : Prevent data abort due to stack overflow](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207987/1%3A%20ARM%20%3A%20unwinder%20%3A%20Prevent%20data%20abort%20due%20to%20stack%20overflow&type=Commits)
+* [ARM: 8091/2: add get_user() support for 8 byte types](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208091/2%3A%20add%20get_user%28%29%20support%20for%208%20byte%20types&type=Commits)
+* [Revert "BACKPORT: ARM: 8091/2: add get_user() support for 8 byte types"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"BACKPORT%3A%20ARM%3A%208091/2%3A%20add%20get_user%28%29%20support%20for%208%20byte%20types"&type=Commits)
+* [BACKPORT: ARM: convert all "mov.* pc, reg" to "bx reg" for ARMv6+](https://github.com/bhb27/BHB27Kernel/search?q=BACKPORT%3A%20ARM%3A%20convert%20all%20"mov.*%20pc,%20reg"%20to%20"bx%20reg"%20for%20ARMv6+&type=Commits)
+* [ARM: 8018/1: Add {inc,dec}_preempt_count asm macros](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208018/1%3A%20Add%20{inc,dec}_preempt_count%20asm%20macros&type=Commits)
+* [ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208036/1%3A%20Enable%20IRQs%20before%20attempting%20to%20read%20user%20space%20in%20__und_usr&type=Commits)
+* [ARM: 8035/1: Disable preemption in crunch_task_enable()](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208035/1%3A%20Disable%20preemption%20in%20crunch_task_enable%28%29&type=Commits)
+* [ARM: nommu: add entry point for secondary CPUs to head-nommu.S](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20nommu%3A%20add%20entry%20point%20for%20secondary%20CPUs%20to%20head-nommu.S&type=Commits)
+* [ARM: consolidate last remaining open-coded alignment trap enable](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20consolidate%20last%20remaining%20open-coded%20alignment%20trap%20enable&type=Commits)
+* [ARM: 8017/1: Move asm macro get_thread_info to asm/assembler.h](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%208017/1%3A%20Move%20asm%20macro%20get_thread_info%20to%20asm/assembler.h&type=Commits)
+* [ARM: 7984/1: prefetch: add prefetchw invocations for barriered atomics](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207984/1%3A%20prefetch%3A%20add%20prefetchw%20invocations%20for%20barriered%20atomics&type=Commits)
+* [ARM: 7853/1: cmpxchg: implement cmpxchg64_relaxed](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207853/1%3A%20cmpxchg%3A%20implement%20cmpxchg64_relaxed&type=Commits)
+* [ARM: 7852/1: cmpxchg: implement barrier-less cmpxchg64_local](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207852/1%3A%20cmpxchg%3A%20implement%20barrier-less%20cmpxchg64_local&type=Commits)
+* [ARM: make kernel oops easier to read](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20make%20kernel%20oops%20easier%20to%20read&type=Commits)
+* [ARM: 7877/1: use built-in byte swap function](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207877/1%3A%20use%20built-in%20byte%20swap%20function&type=Commits)
+* [Revert "ARM: 7877/1: use built-in byte swap function"](https://github.com/bhb27/BHB27Kernel/search?q=Revert%20"ARM%3A%207877/1%3A%20use%20built-in%20byte%20swap%20function"&type=Commits)
+* [ARM: delete mach-shark](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20delete%20mach-shark&type=Commits)
+* [ARM: 7919/1: mm: refactor v7 cache cleaning ops to use way/index sequence](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%207919/1%3A%20mm%3A%20refactor%20v7%20cache%20cleaning%20ops%20to%20use%20way/index%20sequence&type=Commits)
+* [ARM: mm: use inner-shareable barriers for TLB and user cache operations](https://github.com/bhb27/BHB27Kernel/search?q=ARM%3A%20mm%3A%20use%20inner-shareable%20barriers%20for%20TLB%20and%20user%20cache%20operations&type=Commits)
+* [fs/coredump: prevent fsuid=0 dumps into user-controlled directories](https://github.com/bhb27/BHB27Kernel/search?q=fs/coredump%3A%20prevent%20fsuid=0%20dumps%20into%20user-controlled%20directories&type=Commits)
+* [access: avoid the RCU grace period for the temporary subjective credentials](https://github.com/bhb27/BHB27Kernel/search?q=access%3A%20avoid%20the%20RCU%20grace%20period%20for%20the%20temporary%20subjective%20credentials&type=Commits)
+* [pinctrl: sink pinctrldev_list_mutex](https://github.com/bhb27/BHB27Kernel/search?q=pinctrl%3A%20sink%20pinctrldev_list_mutex&type=Commits)
+
+***
+
+09-18-2020
+====================
+
+* [pinctrl: msm: Free mapping table entries of PIN_MAP_TYPE_MUX_GROUP type](https://github.com/bhb27/BHB27Kernel/search?q=pinctrl%3A%20msm%3A%20Free%20mapping%20table%20entries%20of%20PIN_MAP_TYPE_MUX_GROUP%20type&type=Commits)
+* [pinctrl: Quiet logging about missing DT nodes when not using DT](https://github.com/bhb27/BHB27Kernel/search?q=pinctrl%3A%20Quiet%20logging%20about%20missing%20DT%20nodes%20when%20not%20using%20DT&type=Commits)
+* [mm/mmap.c: Add cond_resched() for exit_mmap() CPU stalls](https://github.com/bhb27/BHB27Kernel/search?q=mm/mmap.c%3A%20Add%20cond_resched%28%29%20for%20exit_mmap%28%29%20CPU%20stalls&type=Commits)
+* [ext4: add cond_resched() to __ext4_find_entry()](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20add%20cond_resched%28%29%20to%20__ext4_find_entry%28%29&type=Commits)
+* [ext4: set error return correctly when ext4_htree_store_dirent fails](https://github.com/bhb27/BHB27Kernel/search?q=ext4%3A%20set%20error%20return%20correctly%20when%20ext4_htree_store_dirent%20fails&type=Commits)
+* [mm/page_alloc.c: fix coding style and spelling](https://github.com/bhb27/BHB27Kernel/search?q=mm/page_alloc.c%3A%20fix%20coding%20style%20and%20spelling&type=Commits)
+* [soc: qcom: smem: use remote spinlock try lock](https://github.com/bhb27/BHB27Kernel/search?q=soc%3A%20qcom%3A%20smem%3A%20use%20remote%20spinlock%20try%20lock&type=Commits)
+* [packet: fix a couple of cppcheck warnings](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20fix%20a%20couple%20of%20cppcheck%20warnings&type=Commits)
+* [packet: remove deprecated syststamp timestamp](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20remove%20deprecated%20syststamp%20timestamp&type=Commits)
+* [packet: don't unconditionally schedule() in case of MSG_DONTWAIT](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20don%27t%20unconditionally%20schedule%28%29%20in%20case%20of%20MSG_DONTWAIT&type=Commits)
+* [net: dev: move inline skb_needs_linearize helper to header](https://github.com/bhb27/BHB27Kernel/search?q=net%3A%20dev%3A%20move%20inline%20skb_needs_linearize%20helper%20to%20header&type=Commits)
+* [packet: fix "foo * bar" and "(foo*)" problems](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20fix%20"foo%20*%20bar"%20and%20"%28foo*%29"%20problems&type=Commits)
+* [packet: deliver VLAN TPID to userspace](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20deliver%20VLAN%20TPID%20to%20userspace&type=Commits)
+* [packet: fill the gap of TPACKET_ALIGNMENT with zeros](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20fill%20the%20gap%20of%20TPACKET_ALIGNMENT%20with%20zeros&type=Commits)
+* [packet: make aligned size of struct tpacket{2,3}_hdr clear](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20make%20aligned%20size%20of%20struct%20tpacket{2,3}_hdr%20clear&type=Commits)
+* [packet: fix using smp_processor_id() in preemptible code](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20fix%20using%20smp_processor_id%28%29%20in%20preemptible%20code&type=Commits)
+* [packet: introduce PACKET_QDISC_BYPASS socket option](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20introduce%20PACKET_QDISC_BYPASS%20socket%20option&type=Commits)
+* [packet: use macro GET_PBDQC_FROM_RB to simplify the codes](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20use%20macro%20GET_PBDQC_FROM_RB%20to%20simplify%20the%20codes&type=Commits)
+* [af_packet: tone down the Tx-ring unsupported spew.](https://github.com/bhb27/BHB27Kernel/search?q=af_packet%3A%20tone%20down%20the%20Tx-ring%20unsupported%20spew.&type=Commits)
+* [packet: fix use-after-free in prb_retire_rx_blk_timer_expired()](https://github.com/bhb27/BHB27Kernel/search?q=packet%3A%20fix%20use-after-free%20in%20prb_retire_rx_blk_timer_expired%28%29&type=Commits)
+* [af_packet: fix sparse warning](https://github.com/bhb27/BHB27Kernel/search?q=af_packet%3A%20fix%20sparse%20warning&type=Commits)
+
+***
+
 09-14-2020
 ====================
 

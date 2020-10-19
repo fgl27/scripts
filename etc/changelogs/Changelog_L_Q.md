@@ -1,6 +1,688 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+10-19-2020
+====================
+
+#### Device specific Changes of 10-19-2020 Start:
+
+#### Kernel/Quark/
+* [Update defconfig](https://github.com/search?q=Update%20defconfig&type=Commits)
+* [arm: irq: Notify affinity change when migrating IRQs during hotplug](https://github.com/search?q=arm%3A%20irq%3A%20Notify%20affinity%20change%20when%20migrating%20IRQs%20during%20hotplug&type=Commits)
+* [ARM: 8073/1: unwind: Use arm_get_current_stackframe](https://github.com/search?q=ARM%3A%208073/1%3A%20unwind%3A%20Use%20arm_get_current_stackframe&type=Commits)
+* [ARM: 8070/1: Introduce arm_get_current_stack_frame()](https://github.com/search?q=ARM%3A%208070/1%3A%20Introduce%20arm_get_current_stack_frame%28%29&type=Commits)
+* [arm, unwind, LLVMLinux: Enable clang to be used for unwinding the stack](https://github.com/search?q=arm,%20unwind,%20LLVMLinux%3A%20Enable%20clang%20to%20be%20used%20for%20unwinding%20the%20stack&type=Commits)
+* [ARM: 8052/1: unwind: Fix handling of "Pop r4-r[4+nnn],r14" opcode](https://github.com/search?q=ARM%3A%208052/1%3A%20unwind%3A%20Fix%20handling%20of%20"Pop%20r4-r[4+nnn],r14"%20opcode&type=Commits)
+* [ARM: 7987/1: ARM : unwinder : Prevent data abort due to stack overflow](https://github.com/search?q=ARM%3A%207987/1%3A%20ARM%20%3A%20unwinder%20%3A%20Prevent%20data%20abort%20due%20to%20stack%20overflow&type=Commits)
+* [ARM: 8091/2: add get_user() support for 8 byte types](https://github.com/search?q=ARM%3A%208091/2%3A%20add%20get_user%28%29%20support%20for%208%20byte%20types&type=Commits)
+* [Revert "BACKPORT: ARM: 8091/2: add get_user() support for 8 byte types"](https://github.com/search?q=Revert%20"BACKPORT%3A%20ARM%3A%208091/2%3A%20add%20get_user%28%29%20support%20for%208%20byte%20types"&type=Commits)
+* [BACKPORT: ARM: convert all "mov.* pc, reg" to "bx reg" for ARMv6+](https://github.com/search?q=BACKPORT%3A%20ARM%3A%20convert%20all%20"mov.*%20pc,%20reg"%20to%20"bx%20reg"%20for%20ARMv6+&type=Commits)
+* [ARM: 8018/1: Add {inc,dec}_preempt_count asm macros](https://github.com/search?q=ARM%3A%208018/1%3A%20Add%20{inc,dec}_preempt_count%20asm%20macros&type=Commits)
+* [ARM: 8036/1: Enable IRQs before attempting to read user space in __und_usr](https://github.com/search?q=ARM%3A%208036/1%3A%20Enable%20IRQs%20before%20attempting%20to%20read%20user%20space%20in%20__und_usr&type=Commits)
+* [ARM: 8035/1: Disable preemption in crunch_task_enable()](https://github.com/search?q=ARM%3A%208035/1%3A%20Disable%20preemption%20in%20crunch_task_enable%28%29&type=Commits)
+* [ARM: nommu: add entry point for secondary CPUs to head-nommu.S](https://github.com/search?q=ARM%3A%20nommu%3A%20add%20entry%20point%20for%20secondary%20CPUs%20to%20head-nommu.S&type=Commits)
+* [ARM: consolidate last remaining open-coded alignment trap enable](https://github.com/search?q=ARM%3A%20consolidate%20last%20remaining%20open-coded%20alignment%20trap%20enable&type=Commits)
+* [ARM: 8017/1: Move asm macro get_thread_info to asm/assembler.h](https://github.com/search?q=ARM%3A%208017/1%3A%20Move%20asm%20macro%20get_thread_info%20to%20asm/assembler.h&type=Commits)
+* [ARM: 7984/1: prefetch: add prefetchw invocations for barriered atomics](https://github.com/search?q=ARM%3A%207984/1%3A%20prefetch%3A%20add%20prefetchw%20invocations%20for%20barriered%20atomics&type=Commits)
+* [ARM: 7853/1: cmpxchg: implement cmpxchg64_relaxed](https://github.com/search?q=ARM%3A%207853/1%3A%20cmpxchg%3A%20implement%20cmpxchg64_relaxed&type=Commits)
+* [ARM: 7852/1: cmpxchg: implement barrier-less cmpxchg64_local](https://github.com/search?q=ARM%3A%207852/1%3A%20cmpxchg%3A%20implement%20barrier-less%20cmpxchg64_local&type=Commits)
+* [ARM: make kernel oops easier to read](https://github.com/search?q=ARM%3A%20make%20kernel%20oops%20easier%20to%20read&type=Commits)
+* [ARM: 7877/1: use built-in byte swap function](https://github.com/search?q=ARM%3A%207877/1%3A%20use%20built-in%20byte%20swap%20function&type=Commits)
+* [Revert "ARM: 7877/1: use built-in byte swap function"](https://github.com/search?q=Revert%20"ARM%3A%207877/1%3A%20use%20built-in%20byte%20swap%20function"&type=Commits)
+* [ARM: delete mach-shark](https://github.com/search?q=ARM%3A%20delete%20mach-shark&type=Commits)
+* [ARM: 7919/1: mm: refactor v7 cache cleaning ops to use way/index sequence](https://github.com/search?q=ARM%3A%207919/1%3A%20mm%3A%20refactor%20v7%20cache%20cleaning%20ops%20to%20use%20way/index%20sequence&type=Commits)
+* [ARM: mm: use inner-shareable barriers for TLB and user cache operations](https://github.com/search?q=ARM%3A%20mm%3A%20use%20inner-shareable%20barriers%20for%20TLB%20and%20user%20cache%20operations&type=Commits)
+* [fs/coredump: prevent fsuid=0 dumps into user-controlled directories](https://github.com/search?q=fs/coredump%3A%20prevent%20fsuid=0%20dumps%20into%20user-controlled%20directories&type=Commits)
+* [access: avoid the RCU grace period for the temporary subjective credentials](https://github.com/search?q=access%3A%20avoid%20the%20RCU%20grace%20period%20for%20the%20temporary%20subjective%20credentials&type=Commits)
+* [pinctrl: sink pinctrldev_list_mutex](https://github.com/search?q=pinctrl%3A%20sink%20pinctrldev_list_mutex&type=Commits)
+* [pinctrl: msm: Free mapping table entries of PIN_MAP_TYPE_MUX_GROUP type](https://github.com/search?q=pinctrl%3A%20msm%3A%20Free%20mapping%20table%20entries%20of%20PIN_MAP_TYPE_MUX_GROUP%20type&type=Commits)
+* [pinctrl: Quiet logging about missing DT nodes when not using DT](https://github.com/search?q=pinctrl%3A%20Quiet%20logging%20about%20missing%20DT%20nodes%20when%20not%20using%20DT&type=Commits)
+* [mm/mmap.c: Add cond_resched() for exit_mmap() CPU stalls](https://github.com/search?q=mm/mmap.c%3A%20Add%20cond_resched%28%29%20for%20exit_mmap%28%29%20CPU%20stalls&type=Commits)
+* [ext4: add cond_resched() to __ext4_find_entry()](https://github.com/search?q=ext4%3A%20add%20cond_resched%28%29%20to%20__ext4_find_entry%28%29&type=Commits)
+* [ext4: set error return correctly when ext4_htree_store_dirent fails](https://github.com/search?q=ext4%3A%20set%20error%20return%20correctly%20when%20ext4_htree_store_dirent%20fails&type=Commits)
+* [mm/page_alloc.c: fix coding style and spelling](https://github.com/search?q=mm/page_alloc.c%3A%20fix%20coding%20style%20and%20spelling&type=Commits)
+* [soc: qcom: smem: use remote spinlock try lock](https://github.com/search?q=soc%3A%20qcom%3A%20smem%3A%20use%20remote%20spinlock%20try%20lock&type=Commits)
+* [packet: fix a couple of cppcheck warnings](https://github.com/search?q=packet%3A%20fix%20a%20couple%20of%20cppcheck%20warnings&type=Commits)
+* [packet: remove deprecated syststamp timestamp](https://github.com/search?q=packet%3A%20remove%20deprecated%20syststamp%20timestamp&type=Commits)
+* [packet: don't unconditionally schedule() in case of MSG_DONTWAIT](https://github.com/search?q=packet%3A%20don%27t%20unconditionally%20schedule%28%29%20in%20case%20of%20MSG_DONTWAIT&type=Commits)
+* [net: dev: move inline skb_needs_linearize helper to header](https://github.com/search?q=net%3A%20dev%3A%20move%20inline%20skb_needs_linearize%20helper%20to%20header&type=Commits)
+* [packet: fix "foo * bar" and "(foo*)" problems](https://github.com/search?q=packet%3A%20fix%20"foo%20*%20bar"%20and%20"%28foo*%29"%20problems&type=Commits)
+* [packet: deliver VLAN TPID to userspace](https://github.com/search?q=packet%3A%20deliver%20VLAN%20TPID%20to%20userspace&type=Commits)
+* [packet: fill the gap of TPACKET_ALIGNMENT with zeros](https://github.com/search?q=packet%3A%20fill%20the%20gap%20of%20TPACKET_ALIGNMENT%20with%20zeros&type=Commits)
+* [packet: make aligned size of struct tpacket{2,3}_hdr clear](https://github.com/search?q=packet%3A%20make%20aligned%20size%20of%20struct%20tpacket{2,3}_hdr%20clear&type=Commits)
+* [packet: fix using smp_processor_id() in preemptible code](https://github.com/search?q=packet%3A%20fix%20using%20smp_processor_id%28%29%20in%20preemptible%20code&type=Commits)
+* [packet: introduce PACKET_QDISC_BYPASS socket option](https://github.com/search?q=packet%3A%20introduce%20PACKET_QDISC_BYPASS%20socket%20option&type=Commits)
+* [packet: use macro GET_PBDQC_FROM_RB to simplify the codes](https://github.com/search?q=packet%3A%20use%20macro%20GET_PBDQC_FROM_RB%20to%20simplify%20the%20codes&type=Commits)
+* [af_packet: tone down the Tx-ring unsupported spew.](https://github.com/search?q=af_packet%3A%20tone%20down%20the%20Tx-ring%20unsupported%20spew.&type=Commits)
+* [packet: fix use-after-free in prb_retire_rx_blk_timer_expired()](https://github.com/search?q=packet%3A%20fix%20use-after-free%20in%20prb_retire_rx_blk_timer_expired%28%29&type=Commits)
+* [af_packet: fix sparse warning](https://github.com/search?q=af_packet%3A%20fix%20sparse%20warning&type=Commits)
+
+#### Device specific Changes of 10-19-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 10-19-2020:
+
+#### device/qcom/sepolicy-legacy-um/
+* [common: Generate contexts for rtc](https://github.com/search?q=common%3A%20Generate%20contexts%20for%20rtc&type=Commits)
+
+
+#### LineageOS - 17.1 source changes of 10-19-2020 End.
+
+10-18-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-18-2020:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 17-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2017-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Revert "Provider: Initialize createEmptyRowOnFirstScreen without QSB"](https://github.com/search?q=Revert%20"Provider%3A%20Initialize%20createEmptyRowOnFirstScreen%20without%20QSB"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-18-2020 End.
+
+10-17-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-17-2020:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 16-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2016-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: MIUI dev -> MIUI weekly](https://github.com/search?q=wiki%3A%20MIUI%20dev%20->%20MIUI%20weekly&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Settings: Replace local string res with the ones from the SDK](https://github.com/search?q=Settings%3A%20Replace%20local%20string%20res%20with%20the%20ones%20from%20the%20SDK&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-17-2020 End.
+
+10-16-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-16-2020:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 15-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2015-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/Basic/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-16-2020 End.
+
+10-15-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-15-2020:
+
+#### frameworks/opt/telephony/
+* [Remove stray checkThread()](https://github.com/search?q=Remove%20stray%20checkThread%28%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-15-2020 End.
+
+10-14-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-14-2020:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 13-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2013-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-14-2020 End.
+
+10-11-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-11-2020:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 10-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2010-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [aosp-merger: Adapt for new default manifest location](https://github.com/search?q=aosp-merger%3A%20Adapt%20for%20new%20default%20manifest%20location&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-11-2020 End.
+
+10-10-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-10-2020:
+
+#### device/qcom/sepolicy-legacy-um/
+* [sepolicy-legacy-um: Add sepolices to update engine domain.](https://github.com/search?q=sepolicy-legacy-um%3A%20Add%20sepolices%20to%20update%20engine%20domain.&type=Commits)
+
+#### lineage/hudson/
+* [updater: Fix broken json](https://github.com/search?q=updater%3A%20Fix%20broken%20json&type=Commits)
+* [hudson: Next best thing after the 3310](https://github.com/search?q=hudson%3A%20Next%20best%20thing%20after%20the%203310&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 09-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2009-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Nokia 6.1 (PL2)](https://github.com/search?q=wiki%3A%20Add%20Nokia%206.1%20%28PL2%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-10-2020 End.
+
+10-08-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-08-2020:
+
+#### build/make/
+* [Bump Security String to 2020-10-05](https://github.com/search?q=Bump%20Security%20String%20to%202020-10-05&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Add check for CSIM application presence](https://github.com/search?q=Add%20check%20for%20CSIM%20application%20presence&type=Commits)
+
+#### lineage/hudson/
+* [Revert "hudson: Drop S4 Sprint (jfltespr)"](https://github.com/search?q=Revert%20"hudson%3A%20Drop%20S4%20Sprint%20%28jfltespr%29"&type=Commits)
+* [hudson: Samsung msm8974, come on down](https://github.com/search?q=hudson%3A%20Samsung%20msm8974,%20come%20on%20down&type=Commits)
+
+#### lineage/wiki/
+* [Revert "wiki: devices: jfltespr: Reflect discontinuation of builds"](https://github.com/search?q=Revert%20"wiki%3A%20devices%3A%20jfltespr%3A%20Reflect%20discontinuation%20of%20builds"&type=Commits)
+* [wiki: devices: Promote hlte* devices to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20hlte*%20devices%20to%2017.1&type=Commits)
+* [wiki: devices: Promote klte* devices to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20klte*%20devices%20to%2017.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-08-2020 End.
+
+10-07-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-07-2020:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 06-Oct-2020 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2006-Oct-2020%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add davinci](https://github.com/search?q=wiki%3A%20Add%20davinci&type=Commits)
+
+#### vendor/lineage/
+* [extract_utils: Set `filename_from_src: true` for `CLASS=ETC` targets](https://github.com/search?q=extract_utils%3A%20Set%20%60filename_from_src%3A%20true%60%20for%20%60CLASS=ETC%60%20targets&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-07-2020 End.
+
+10-06-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-06-2020:
+
+#### bootable/recovery/
+* [recovery: Always use the text menu for rescue party](https://github.com/search?q=recovery%3A%20Always%20use%20the%20text%20menu%20for%20rescue%20party&type=Commits)
+* [recovery: Draw header lines with less padding](https://github.com/search?q=recovery%3A%20Draw%20header%20lines%20with%20less%20padding&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-06-2020 End.
+
+10-05-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-05-2020:
+
+#### lineage/mirror/
+* [Updated lineage-minimal to 05-Oct-2020 00:50 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2005-Oct-2020%2000%3A50%20UTC&type=Commits)
+* [Updated lineage-minimal to 04-Oct-2020 18:14 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2004-Oct-2020%2018%3A14%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-05-2020 End.
+
+10-02-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-02-2020:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### hardware/qcom-caf/msm8916/display/
+* [Gralloc: Validate buffer parameters during importBuffer call](https://github.com/search?q=Gralloc%3A%20Validate%20buffer%20parameters%20during%20importBuffer%20call&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add davinci](https://github.com/search?q=hudson%3A%20Add%20davinci&type=Commits)
+
+#### lineage/wiki/
+* [Adding chil360 as osprey maintainer](https://github.com/search?q=Adding%20chil360%20as%20osprey%20maintainer&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Camera2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Email/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-02-2020 End.
+
+10-01-2020
+====================
+
+#### LineageOS - 17.1 source changes of 10-01-2020:
+
+#### lineage/wiki/
+* [wiki: Update system requirements for building](https://github.com/search?q=wiki%3A%20Update%20system%20requirements%20for%20building&type=Commits)
+
+#### LineageOS - 17.1 source changes of 10-01-2020 End.
+
+09-30-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-30-2020:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### lineage/mirror/
+* [Add a script to generate a LineageOS platform mirror](https://github.com/search?q=Add%20a%20script%20to%20generate%20a%20LineageOS%20platform%20mirror&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-30-2020 End.
+
+09-29-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-29-2020:
+
+#### hardware/qcom-caf/msm8974/display/
+* [copybit: Export c2d header](https://github.com/search?q=copybit%3A%20Export%20c2d%20header&type=Commits)
+
+#### hardware/qcom-caf/msm8974/media/
+* [libc2dcolorconvert: Remove dependency on stagefright](https://github.com/search?q=libc2dcolorconvert%3A%20Remove%20dependency%20on%20stagefright&type=Commits)
+* 88a2c357a media: change way of accessing aosp project headers
+* [mm-video: remove hevc sw decoder files](https://github.com/search?q=mm-video%3A%20remove%20hevc%20sw%20decoder%20files&type=Commits)
+* [mm-video: Remove old decoder test apps](https://github.com/search?q=mm-video%3A%20Remove%20old%20decoder%20test%20apps&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 29-Sep-2020 04:55 UTC](https://github.com/search?q=Updated%20to%2029-Sep-2020%2004%3A55%20UTC&type=Commits)
+* [Updated to 29-Sep-2020 04:38 UTC](https://github.com/search?q=Updated%20to%2029-Sep-2020%2004%3A38%20UTC&type=Commits)
+
+#### vendor/qcom/opensource/data-ipa-cfg-mgr/
+* [ipacm: Fix the RT rule blow-up issue.](https://github.com/search?q=ipacm%3A%20Fix%20the%20RT%20rule%20blow-up%20issue.&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-29-2020 End.
+
+09-28-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-28-2020:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 27-Sep-2020 22:18 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2027-Sep-2020%2022%3A18%20UTC&type=Commits)
+* [Add a script to generate a minimal AOSP mirror](https://github.com/search?q=Add%20a%20script%20to%20generate%20a%20minimal%20AOSP%20mirror&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Zangya/Zangya Pro are A/B devices.](https://github.com/search?q=wiki%3A%20devices%3A%20Zangya/Zangya%20Pro%20are%20A/B%20devices.&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Add Hardslog light theme](https://github.com/search?q=Add%20Hardslog%20light%20theme&type=Commits)
+* [New theme: BLACKOUT](https://github.com/search?q=New%20theme%3A%20BLACKOUT&type=Commits)
+* [Add new hardslog_dark theme](https://github.com/search?q=Add%20new%20hardslog_dark%20theme&type=Commits)
+* [Revert "LatinIME: Do we really still want Holo?"](https://github.com/search?q=Revert%20"LatinIME%3A%20Do%20we%20really%20still%20want%20Holo?"&type=Commits)
+* [Merge 'lineage-17.1' into 10.0](https://github.com/search?q=Merge%20%27lineage-17.1%27%20into%2010.0&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-28-2020 End.
+
+09-27-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-27-2020:
+
+#### build/make/
+* [backuptool: do not unmap dynamic partition after finished](https://github.com/search?q=backuptool%3A%20do%20not%20unmap%20dynamic%20partition%20after%20finished&type=Commits)
+
+#### hardware/libhardware/
+* [audio_amplifier: Add new hook for setting amp feedback](https://github.com/search?q=audio_amplifier%3A%20Add%20new%20hook%20for%20setting%20amp%20feedback&type=Commits)
+
+#### hardware/qcom-caf/sm8150/audio/
+* [audio_amplifier: Add new hook for setting amp feedback](https://github.com/search?q=audio_amplifier%3A%20Add%20new%20hook%20for%20setting%20amp%20feedback&type=Commits)
+* [hal: Support the audio amplifier hook](https://github.com/search?q=hal%3A%20Support%20the%20audio%20amplifier%20hook&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-27-2020 End.
+
+09-26-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-26-2020:
+
+#### lineage-sdk/
+* [sdk: Add overlay for disabling livedisplay](https://github.com/search?q=sdk%3A%20Add%20overlay%20for%20disabling%20livedisplay&type=Commits)
+
+#### packages/apps/LineageParts/
+* [LineageParts: Allow removing livedisplay pref screen with config_enableLiveDisplay](https://github.com/search?q=LineageParts%3A%20Allow%20removing%20livedisplay%20pref%20screen%20with%20config_enableLiveDisplay&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Allow removing livedisplay pref screen with config_enableLiveDisplay](https://github.com/search?q=Settings%3A%20Allow%20removing%20livedisplay%20pref%20screen%20with%20config_enableLiveDisplay&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-26-2020 End.
+
+09-25-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-25-2020:
+
+#### vendor/lineage/
+* [backuptool_ab: Use mv instead of cp for restore step](https://github.com/search?q=backuptool_ab%3A%20Use%20mv%20instead%20of%20cp%20for%20restore%20step&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-25-2020 End.
+
+09-24-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-24-2020:
+
+#### hardware/qcom-caf/msm8960/display/
+* [Revert "Don't force GPU composite for older devices"](https://github.com/search?q=Revert%20"Don%27t%20force%20GPU%20composite%20for%20older%20devices"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-24-2020 End.
+
+09-23-2020
+====================
+
+#### Device specific Changes of 09-23-2020 Start:
+
+#### Device/Quark/
+* [Quark: SysInfoService use CYAN as default offline color](https://github.com/search?q=Quark%3A%20SysInfoService%20use%20CYAN%20as%20default%20offline%20color&type=Commits)
+
+#### Device specific Changes of 09-23-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-23-2020:
+
+#### device/google/atv/
+* [Disable Traceur on userdebug](https://github.com/search?q=Disable%20Traceur%20on%20userdebug&type=Commits)
+
+#### frameworks/base/
+* [core: Move context-aware Bluetooth airplane mode string for translations](https://github.com/search?q=core%3A%20Move%20context-aware%20Bluetooth%20airplane%20mode%20string%20for%20translations&type=Commits)
+
+#### hardware/qcom/display/
+* [msm8084: hwcomposer: Fix unused parameter build warning](https://github.com/search?q=msm8084%3A%20hwcomposer%3A%20Fix%20unused%20parameter%20build%20warning&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Add rooted development option](https://github.com/search?q=Add%20rooted%20development%20option&type=Commits)
+
+#### vendor/lineage/
+* [apns: Enable IPV6 for China Telecom](https://github.com/search?q=apns%3A%20Enable%20IPV6%20for%20China%20Telecom&type=Commits)
+* [apns: Enable IPV6 for China Unicom](https://github.com/search?q=apns%3A%20Enable%20IPV6%20for%20China%20Unicom&type=Commits)
+* [apns: Enable IPV6 for China Mobile](https://github.com/search?q=apns%3A%20Enable%20IPV6%20for%20China%20Mobile&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-23-2020 End.
+
+09-22-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-22-2020:
+
+#### android/
+* [Sync Lineage Customizer](https://github.com/search?q=Sync%20Lineage%20Customizer&type=Commits)
+* [Switch to our device/google/atv fork](https://github.com/search?q=Switch%20to%20our%20device/google/atv%20fork&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add Redmi Note 8 / 8T (ginkgo)](https://github.com/search?q=hudson%3A%20Add%20Redmi%20Note%208%20/%208T%20%28ginkgo%29&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 21-Sep-2020 12:48 UTC](https://github.com/search?q=Updated%20to%2021-Sep-2020%2012%3A48%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Require 10 on dynamic retrofit Pixel devices](https://github.com/search?q=wiki%3A%20devices%3A%20Require%2010%20on%20dynamic%20retrofit%20Pixel%20devices&type=Commits)
+* [wiki: Add Redmi Note 8 / 8T (ginkgo)](https://github.com/search?q=wiki%3A%20Add%20Redmi%20Note%208%20/%208T%20%28ginkgo%29&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Launcher3: categorize settings](https://github.com/search?q=Launcher3%3A%20categorize%20settings&type=Commits)
+* [Launcher3: improve protected app names style](https://github.com/search?q=Launcher3%3A%20improve%20protected%20app%20names%20style&type=Commits)
+* [Launcher3: Add support for icon packs](https://github.com/search?q=Launcher3%3A%20Add%20support%20for%20icon%20packs&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Add Lineage advanced reboot options](https://github.com/search?q=Add%20Lineage%20advanced%20reboot%20options&type=Commits)
+* [Show Trust in security settings](https://github.com/search?q=Show%20Trust%20in%20security%20settings&type=Commits)
+* [Add button to shut down device](https://github.com/search?q=Add%20button%20to%20shut%20down%20device&type=Commits)
+* [Settings: Implement ADB over network](https://github.com/search?q=Settings%3A%20Implement%20ADB%20over%20network&type=Commits)
+* [Settings: Add intent to launch LineageOS platlogo upon multiple taps](https://github.com/search?q=Settings%3A%20Add%20intent%20to%20launch%20LineageOS%20platlogo%20upon%20multiple%20taps&type=Commits)
+* [Add build date (ro.build.date from build.prop) to About screen.](https://github.com/search?q=Add%20build%20date%20%28ro.build.date%20from%20build.prop%29%20to%20About%20screen.&type=Commits)
+* [One does not simply become a Developer](https://github.com/search?q=One%20does%20not%20simply%20become%20a%20Developer&type=Commits)
+* [Add LineageOS version to the About screen](https://github.com/search?q=Add%20LineageOS%20version%20to%20the%20About%20screen&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-22-2020 End.
+
+09-21-2020
+====================
+
+#### Device specific Changes of 09-21-2020 Start:
+
+#### Device/Quark/
+* [Quark: remove not needed prop](https://github.com/search?q=Quark%3A%20remove%20not%20needed%20prop&type=Commits)
+* [Quark: clean up not used prop](https://github.com/search?q=Quark%3A%20clean%20up%20not%20used%20prop&type=Commits)
+* [Quark: clean up sepolicy](https://github.com/search?q=Quark%3A%20clean%20up%20sepolicy&type=Commits)
+
+#### Device specific Changes of 09-21-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-21-2020:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 20-Sep-2020 17:39 UTC](https://github.com/search?q=Updated%20to%2020-Sep-2020%2017%3A39%20UTC&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Exchange/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/HTMLViewer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SafetyRegulatoryInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/lineage/
+* [Update APNs for O2 Germany & E-Plus](https://github.com/search?q=Update%20APNs%20for%20O2%20Germany%20&%20E-Plus&type=Commits)
+
+#### vendor/qcom/opensource/data-ipa-cfg-mgr/
+* [ipacm: V6 filter count mismatch causing udp failures](https://github.com/search?q=ipacm%3A%20V6%20filter%20count%20mismatch%20causing%20udp%20failures&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-21-2020 End.
+
+09-20-2020
+====================
+
+#### LineageOS - 17.1 source changes of 09-20-2020:
+
+#### lineage/wiki/
+* [wiki: Assign page.title when device.codename is empty](https://github.com/search?q=wiki%3A%20Assign%20page.title%20when%20device.codename%20is%20empty&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-20-2020 End.
+
+09-18-2020
+====================
+
+#### Device specific Changes of 09-18-2020 Start:
+
+#### Device/Quark/
+* [Quark: clean up not used init](https://github.com/search?q=Quark%3A%20clean%20up%20not%20used%20init&type=Commits)
+
+#### Device specific Changes of 09-18-2020 End.
+
+***
+
+#### LineageOS - 17.1 source changes of 09-18-2020:
+
+#### packages/apps/Trebuchet/
+* [Trebuchet: optimization of searching apps in Chinese](https://github.com/search?q=Trebuchet%3A%20optimization%20of%20searching%20apps%20in%20Chinese&type=Commits)
+
+#### LineageOS - 17.1 source changes of 09-18-2020 End.
+
 09-16-2020
 ====================
 
