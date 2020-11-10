@@ -36,9 +36,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick e18b812dcd2703daf3e47cf96c76dadbd1034d79^..6a53c28eb0d37ffd06013ddb8d141c1afa7e3df1
-    git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick 15b5b6a852f81f365f4aeb79ae127236d6a17c35^..bce18d53ba317d13eb34b60c22882eac2cfc3947
-    git fetch https://github.com/fgl27/android_frameworks_base/ lineage-17.1 && git cherry-pick fc65bf7a7f0337ba87da1d04920d1e57ce6a8544
+	git fetch https://github.com/fgl27/android_frameworks_base lineage-17.1 && git cherry-pick bca735587b0f5683efc17c6a588f3b8c5b470563^..2364844b1bfae7cebe8f2bc2ad76634306f198f3
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -58,7 +56,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_packages_apps_LineageParts-1 lineage-17.1 && git cherry-pick 8fb3edda86aff68db539a17ed9dfdbd24425f349
+	git fetch https://github.com/fgl27/android_packages_apps_LineageParts lineage-17.1 && git cherry-pick 8fb3edda86aff68db539a17ed9dfdbd24425f349
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -68,7 +66,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_packages_apps_Updater/ lineage-17.1 && git cherry-pick 3eb8c4d89efde0a8676f11bff68d33fa5475da6e
+	git fetch https://github.com/fgl27/android_packages_apps_Updater lineage-17.1 && git cherry-pick 49ec0d5db329824a54c81ea78aaa2809e1d6c893
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -78,7 +76,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_packages_apps_Nfc/ cm-14.1 && git cherry-pick 8314ecd4ff33f8d51228314849b6b9f88fae34cd
+	git fetch https://github.com/fgl27/android_packages_apps_Nfc lineage-17.1 && git cherry-pick ef6559ff42011f6f041b3902816f8202ab04a6ea
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -88,18 +86,8 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_packages_apps_Dialer-1/ lineage-16.0 && git cherry-pick e04721c759828361ca243a021433146d51ed32bf
+	git fetch https://github.com/fgl27/android_packages_apps_Dialer lineage-16.0 && git cherry-pick e04721c759828361ca243a021433146d51ed32bf
 	cd - &> /dev/null || exit;
-
-	echo -e "\\n	out Folder $folder"
-
-#	topic:ten-qc-telephony-fix https://review.lineageos.org/q/topic:%22ten-qc-telephony-fix%22+(status:open%20OR%20status:merged)
-#	folder="frameworks/opt/telephony";
-#	echo -e "\\n	In Folder $folder \\n"
-#
-#	cd $folder || exit;
-#	git fetch https://github.com/fgl27/android_frameworks_opt_telephony/ lineage-17.1 && git cherry-pick a24765ceb95b18b6d3efbd35f3c636d336b64757^..2efeb15d84a897228444abd5420ec84723f276c3
-#	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
 
@@ -108,7 +96,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-16.0-caf-8084 && git cherry-pick 1b209940f1e72e247d1c627479e0b517aa62083f
+	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-17.1-caf-apq8084 && git cherry-pick efd4fd850c712bc43b2462b2ad3d753a8e0af043
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -118,7 +106,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_vendor_resurrection/ lineage-16.0_test  && git cherry-pick fc0d0a362c5b665896a75f539a66930cb276e885
+	git fetch https://github.com/fgl27/android_vendor_lineage lineage-17.1 && git cherry-pick 8c3969e85b63e24df22cb0f55008d7e99874993b
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -128,7 +116,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_build/ lineage-17.1 && git cherry-pick 11e66bd490fb38b1c4ed1ab16abc03453fa21657^..da6edfd8d41393a689a6fe0664ceab57805c3837
+	git fetch https://github.com/fgl27/android_build lineage-17.1 && git cherry-pick 40501adcd346690327b77066c80625ec1065e8c0^..c25b684572e42e663eae6aa3ab5cc3f26913c630
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
