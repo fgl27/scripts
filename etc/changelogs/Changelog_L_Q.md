@@ -1,6 +1,403 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+02-15-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-15-2021:
+
+#### lineage/hudson/
+* [hudson: Promote ls990 to 17.1](https://github.com/search?q=hudson%3A%20Promote%20ls990%20to%2017.1&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Promote ls990 to 17.1](https://github.com/search?q=wiki%3A%20Promote%20ls990%20to%2017.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-15-2021 End.
+
+02-14-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-14-2021:
+
+#### lineage/wiki/
+* [d803: Bring instructions up to date with other g2 variants](https://github.com/search?q=d803%3A%20Bring%20instructions%20up%20to%20date%20with%20other%20g2%20variants&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-14-2021 End.
+
+02-13-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-13-2021:
+
+#### lineage/mirror/
+* [Updated to 12-Feb-2021 16:20 UTC](https://github.com/search?q=Updated%20to%2012-Feb-2021%2016%3A20%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-13-2021 End.
+
+02-12-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-12-2021:
+
+#### external/chromium-webview/
+* [Chomium Webview repository administrative note](https://github.com/search?q=Chomium%20Webview%20repository%20administrative%20note&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 11-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2011-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### system/bt/
+* [Interop Workaround: Add Joy-Con](https://github.com/search?q=Interop%20Workaround%3A%20Add%20Joy-Con&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-12-2021 End.
+
+02-11-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-11-2021:
+
+#### lineage/hudson/
+* [hudson: Introduce the Motorola Edge](https://github.com/search?q=hudson%3A%20Introduce%20the%20Motorola%20Edge&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 10-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2010-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Motorola Edge (racer)](https://github.com/search?q=wiki%3A%20Add%20Motorola%20Edge%20%28racer%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-11-2021 End.
+
+02-10-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-10-2021:
+
+#### frameworks/base/
+* [Add uhid group to system_server](https://github.com/search?q=Add%20uhid%20group%20to%20system_server&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Trebuchet: Show labels in landscape by default on tablets](https://github.com/search?q=Trebuchet%3A%20Show%20labels%20in%20landscape%20by%20default%20on%20tablets&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-10-2021 End.
+
+02-09-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-09-2021:
+
+#### lineage/mirror/
+* [Updated to 08-Feb-2021 20:50 UTC](https://github.com/search?q=Updated%20to%2008-Feb-2021%2020%3A50%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-09-2021 End.
+
+02-08-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-08-2021:
+
+#### build/make/
+* [build tools: Fix TypeError when signing builds with Python3](https://github.com/search?q=build%20tools%3A%20Fix%20TypeError%20when%20signing%20builds%20with%20Python3&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-08-2021 End.
+
+02-07-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-07-2021:
+
+#### frameworks/base/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/frameworks/base into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/frameworks/base%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### system/core/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/system/core into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/system/core%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-07-2021 End.
+
+02-06-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-06-2021:
+
+#### build/make/
+* [Bump Security String to 2021-02-05](https://github.com/search?q=Bump%20Security%20String%20to%202021-02-05&type=Commits)
+
+#### external/cldr/
+* [DO NOT MERGE Cherry-pick CLDR-14434: Update Android CLDR tzdata from 2020f to 2021a. [Q]](https://github.com/search?q=DO%20NOT%20MERGE%20Cherry-pick%20CLDR-14434%3A%20Update%20Android%20CLDR%20tzdata%20from%202020f%20to%202021a.%20[Q]&type=Commits)
+
+#### external/icu/
+* [DO NOT MERGE Update Android ICU tzdata from 2020f to 2021a. [Q]](https://github.com/search?q=DO%20NOT%20MERGE%20Update%20Android%20ICU%20tzdata%20from%202020f%20to%202021a.%20[Q]&type=Commits)
+
+#### system/timezone/
+* [DO NOT MERGE Update Android TZDB from 2020f to 2021a. [Q]](https://github.com/search?q=DO%20NOT%20MERGE%20Update%20Android%20TZDB%20from%202020f%20to%202021a.%20[Q]&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-06-2021 End.
+
+02-05-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-05-2021:
+
+#### frameworks/base/
+* [Partially revert "Wake up to lock screen when bouncer is visible"](https://github.com/search?q=Partially%20revert%20"Wake%20up%20to%20lock%20screen%20when%20bouncer%20is%20visible"&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 88.0.4324.152](https://github.com/search?q=Update%20default%20webview%20to%2088.0.4324.152&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-05-2021 End.
+
+02-04-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-04-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 03-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2003-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### system/core/
+* [fs_mgr: Allow remounts with Magisk installed](https://github.com/search?q=fs_mgr%3A%20Allow%20remounts%20with%20Magisk%20installed&type=Commits)
+* [liblog: Always report as debuggable when building userdebug/eng](https://github.com/search?q=liblog%3A%20Always%20report%20as%20debuggable%20when%20building%20userdebug/eng&type=Commits)
+
+#### vendor/lineage/
+* [Dialer: Add visual voicemail configs from Google Dialer](https://github.com/search?q=Dialer%3A%20Add%20visual%20voicemail%20configs%20from%20Google%20Dialer&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-04-2021 End.
+
+02-03-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-03-2021:
+
+#### android/
+* [Track our own fork(s) for 2021-02 ASB patching](https://github.com/search?q=Track%20our%20own%20fork%28s%29%20for%202021-02%20ASB%20patching&type=Commits)
+
+#### external/libavc/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/external/libavc into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/external/libavc%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### external/wpa_supplicant_8/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/external/wpa_supplicant_8 into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/external/wpa_supplicant_8%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/frameworks/native into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/frameworks/native%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### libcore/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/libcore into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/libcore%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 02-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2002-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/packages/apps/Bluetooth into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Bluetooth%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/packages/apps/Settings into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/packages/apps/Settings%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Merge tag 'android-security-10.0.0_r51' of https://android.googlesource.com/platform/packages/providers/MediaProvider into staging/lineage-17.1_merge_android-security-10.0.0_r51](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r51%27%20of%20https%3A//android.googlesource.com/platform/packages/providers/MediaProvider%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r51&type=Commits)
+
+#### tools/repohooks/
+* [android_test_mapping_format: drop Python 2 support](https://github.com/search?q=android_test_mapping_format%3A%20drop%20Python%202%20support&type=Commits)
+
+#### vendor/lineage/
+* [qcom: Add bengal platform](https://github.com/search?q=qcom%3A%20Add%20bengal%20platform&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Check permission before sending batch scan result](https://github.com/search?q=Check%20permission%20before%20sending%20batch%20scan%20result&type=Commits)
+* [Check if advertiserId value matches valid advertiser](https://github.com/search?q=Check%20if%20advertiserId%20value%20matches%20valid%20advertiser&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-03-2021 End.
+
+02-02-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-02-2021:
+
+#### lineage/hudson/
+* [hudson: Promote s2 to 17.1](https://github.com/search?q=hudson%3A%20Promote%20s2%20to%2017.1&type=Commits)
+
+#### lineage/mirror/
+* [aosp-minimal: Always add platform/manifest](https://github.com/search?q=aosp-minimal%3A%20Always%20add%20platform/manifest&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Correct d803 architecture](https://github.com/search?q=wiki%3A%20Correct%20d803%20architecture&type=Commits)
+* [wiki: Add my name to lavender](https://github.com/search?q=wiki%3A%20Add%20my%20name%20to%20lavender&type=Commits)
+
+#### tools/repohooks/
+* [config: switch to stdlib get() fallback logic](https://github.com/search?q=config%3A%20switch%20to%20stdlib%20get%28%29%20fallback%20logic&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-02-2021 End.
+
+02-01-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-01-2021:
+
+#### lineage/hudson/
+* [hudson: Re-add Redmi Note 7 (lavender)](https://github.com/search?q=hudson%3A%20Re-add%20Redmi%20Note%207%20%28lavender%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Promote s2 to 17.1](https://github.com/search?q=wiki%3A%20Promote%20s2%20to%2017.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-01-2021 End.
+
+01-30-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-30-2021:
+
+#### lineage/hudson/
+* [hudson: Drop Redmi note 7 (lavender)](https://github.com/search?q=hudson%3A%20Drop%20Redmi%20note%207%20%28lavender%29&type=Commits)
+* [hudson: Drop exynos 9810 devices](https://github.com/search?q=hudson%3A%20Drop%20exynos%209810%20devices&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 29-Jan-2021 17:02 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2029-Jan-2021%2017%3A02%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Improve addon install terminology](https://github.com/search?q=wiki%3A%20Improve%20addon%20install%20terminology&type=Commits)
+* [wiki: Remove my name from ginkgo and lavender](https://github.com/search?q=wiki%3A%20Remove%20my%20name%20from%20ginkgo%20and%20lavender&type=Commits)
+* [wiki: Drop exynos 9810 devices](https://github.com/search?q=wiki%3A%20Drop%20exynos%209810%20devices&type=Commits)
+
+#### tools/repohooks/
+* [utils: drop Python 2 support](https://github.com/search?q=utils%3A%20drop%20Python%202%20support&type=Commits)
+* [config: drop Python 2 support](https://github.com/search?q=config%3A%20drop%20Python%202%20support&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-30-2021 End.
+
+01-29-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-29-2021:
+
+#### packages/apps/Email/
+* [Revert "Email: Fix leaked ServiceConnection"](https://github.com/search?q=Revert%20"Email%3A%20Fix%20leaked%20ServiceConnection"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-29-2021 End.
+
+01-25-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-25-2021:
+
+#### build/make/
+* [check_boot_jars: Add Nvidia services to whitelist](https://github.com/search?q=check_boot_jars%3A%20Add%20Nvidia%20services%20to%20whitelist&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-25-2021 End.
+
+01-23-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-23-2021:
+
+#### device/lineage/sepolicy/
+* [lineage: Make FastCharge service discoverable by Settings app](https://github.com/search?q=lineage%3A%20Make%20FastCharge%20service%20discoverable%20by%20Settings%20app&type=Commits)
+* [sepolicy: add hal_lineage_fastcharge](https://github.com/search?q=sepolicy%3A%20add%20hal_lineage_fastcharge&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Add FastCharge preference into Battery settings](https://github.com/search?q=Settings%3A%20Add%20FastCharge%20preference%20into%20Battery%20settings&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-23-2021 End.
+
+01-22-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-22-2021:
+
+#### lineage/wiki/
+* [wiki: Improve special boot mode naming](https://github.com/search?q=wiki%3A%20Improve%20special%20boot%20mode%20naming&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-22-2021 End.
+
+01-21-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-21-2021:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [hudson: Ship Moto G5S (montana)](https://github.com/search?q=hudson%3A%20Ship%20Moto%20G5S%20%28montana%29&type=Commits)
+* [hudson: Ship Moto G5 (cedric)](https://github.com/search?q=hudson%3A%20Ship%20Moto%20G5%20%28cedric%29&type=Commits)
+* [hudson: Ship Moto E5 Plus (ahannah/hannah/rhannah)](https://github.com/search?q=hudson%3A%20Ship%20Moto%20E5%20Plus%20%28ahannah/hannah/rhannah%29&type=Commits)
+* [hudson: Enter the ether](https://github.com/search?q=hudson%3A%20Enter%20the%20ether&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Moto G5S (montana)](https://github.com/search?q=wiki%3A%20Add%20Moto%20G5S%20%28montana%29&type=Commits)
+* [wiki: Add Moto G5 (cedric)](https://github.com/search?q=wiki%3A%20Add%20Moto%20G5%20%28cedric%29&type=Commits)
+* [wiki: Add Moto E5 Plus (ahannah/hannah/rhannah)](https://github.com/search?q=wiki%3A%20Add%20Moto%20E5%20Plus%20%28ahannah/hannah/rhannah%29&type=Commits)
+* [wiki: devices: Promote ether to 17.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20ether%20to%2017.1&type=Commits)
+
+#### tools/repohooks/
+* [Add aidl-format as a new builtin hook](https://github.com/search?q=Add%20aidl-format%20as%20a%20new%20builtin%20hook&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-21-2021 End.
+
+01-20-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-20-2021:
+
+#### lineage/mirror/
+* [Updated to 19-Jan-2021 14:02 UTC](https://github.com/search?q=Updated%20to%2019-Jan-2021%2014%3A02%20UTC&type=Commits)
+* [Updated to 19-Jan-2021 13:12 UTC](https://github.com/search?q=Updated%20to%2019-Jan-2021%2013%3A12%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Fix recovery mode boot steps on pixels](https://github.com/search?q=wiki%3A%20Fix%20recovery%20mode%20boot%20steps%20on%20pixels&type=Commits)
+
+#### vendor/lineage/
+* [Add nvidia product](https://github.com/search?q=Add%20nvidia%20product&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-20-2021 End.
+
+01-19-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-19-2021:
+
+#### lineage/mirror/
+* [Updated to 18-Jan-2021 13:01 UTC](https://github.com/search?q=Updated%20to%2018-Jan-2021%2013%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: payton: update maintainers](https://github.com/search?q=wiki%3A%20payton%3A%20update%20maintainers&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-17.1' into 10.0](https://github.com/search?q=Merge%20%27lineage-17.1%27%20into%2010.0&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-19-2021 End.
+
+01-17-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-17-2021:
+
+#### frameworks/base/
+* [Add nvcpl hook interfaces](https://github.com/search?q=Add%20nvcpl%20hook%20interfaces&type=Commits)
+* [Add nvidia profile manager](https://github.com/search?q=Add%20nvidia%20profile%20manager&type=Commits)
+* [NfcTile: Don't create an error when editing tiles](https://github.com/search?q=NfcTile%3A%20Don%27t%20create%20an%20error%20when%20editing%20tiles&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Drop find7](https://github.com/search?q=hudson%3A%20Drop%20find7&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Fix FP3 supported versions](https://github.com/search?q=wiki%3A%20Fix%20FP3%20supported%20versions&type=Commits)
+* [Remove myself from legacy devices](https://github.com/search?q=Remove%20myself%20from%20legacy%20devices&type=Commits)
+* [wiki: Update aleasto nickname](https://github.com/search?q=wiki%3A%20Update%20aleasto%20nickname&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Remove empty category from Security Settings](https://github.com/search?q=Settings%3A%20Remove%20empty%20category%20from%20Security%20Settings&type=Commits)
+
+#### packages/apps/Snap/
+* [Snap: Remove warnings for generated ids](https://github.com/search?q=Snap%3A%20Remove%20warnings%20for%20generated%20ids&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-17-2021 End.
+
+01-16-2021
+====================
+
+#### LineageOS - 17.1 source changes of 01-16-2021:
+
+#### lineage/wiki/
+* [wiki: devices: flox: Opt-in to fastboot boot requirement](https://github.com/search?q=wiki%3A%20devices%3A%20flox%3A%20Opt-in%20to%20fastboot%20boot%20requirement&type=Commits)
+* [wiki: templates: Add support for requiring fastboot boot](https://github.com/search?q=wiki%3A%20templates%3A%20Add%20support%20for%20requiring%20fastboot%20boot&type=Commits)
+
+#### LineageOS - 17.1 source changes of 01-16-2021 End.
+
 01-14-2021
 ====================
 
