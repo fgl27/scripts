@@ -1,10 +1,250 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+03-07-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-07-2021:
+
+#### lineage/wiki/
+* [wiki: g2: Instruct to exit adb shell after bootloader dd](https://github.com/search?q=wiki%3A%20g2%3A%20Instruct%20to%20exit%20adb%20shell%20after%20bootloader%20dd&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-07-2021 End.
+
+03-04-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-04-2021:
+
+#### android/
+* [Track our own fork(s) for 2021-03 ASB patching](https://github.com/search?q=Track%20our%20own%20fork%28s%29%20for%202021-03%20ASB%20patching&type=Commits)
+
+#### art/
+* [Merge tag 'android-security-10.0.0_r52' into staging/lineage-17.1_merge_android-security-10.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r52%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r52&type=Commits)
+
+#### build/make/
+* [Bump Security String to 2021-03-05](https://github.com/search?q=Bump%20Security%20String%20to%202021-03-05&type=Commits)
+
+#### external/v8/
+* [Merge tag 'android-security-10.0.0_r52' into staging/lineage-17.1_merge_android-security-10.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r52%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r52&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-security-10.0.0_r52' into staging/lineage-17.1_merge_android-security-10.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r52%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r52&type=Commits)
+
+#### frameworks/native/
+* [libbinder: readString*Inplace SafetyNet (II)](https://github.com/search?q=libbinder%3A%20readString*Inplace%20SafetyNet%20%28II%29&type=Commits)
+* [libbinder: check null bytes in readString*Inplace](https://github.com/search?q=libbinder%3A%20check%20null%20bytes%20in%20readString*Inplace&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge tag 'android-security-10.0.0_r52' into staging/lineage-17.1_merge_android-security-10.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r52%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r52&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-security-10.0.0_r52' into staging/lineage-17.1_merge_android-security-10.0.0_r52](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r52%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r52&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [SDP: Only start discovery once](https://github.com/search?q=SDP%3A%20Only%20start%20discovery%20once&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-04-2021 End.
+
+03-02-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-02-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 02-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2002-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-02-2021 End.
+
+03-01-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-01-2021:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FMRadio/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-01-2021 End.
+
+02-27-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-27-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 27-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2027-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-27-2021 End.
+
+02-26-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-26-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 26-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2026-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-26-2021 End.
+
+02-25-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-25-2021:
+
+#### lineage/website/
+* [Engineering: Basics of Working with SELinux on Android](https://github.com/search?q=Engineering%3A%20Basics%20of%20Working%20with%20SELinux%20on%20Android&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-25-2021 End.
+
+02-24-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-24-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 24-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2024-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### vendor/lineage/
+* [Enable IPV4V6 for APN Yesss](https://github.com/search?q=Enable%20IPV4V6%20for%20APN%20Yesss&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-24-2021 End.
+
+02-23-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-23-2021:
+
+#### lineage/mirror/
+* [Updated lineage-minimal to 23-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2023-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-23-2021 End.
+
+02-21-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-21-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 21-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2021-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-21-2021 End.
+
+02-19-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-19-2021:
+
+#### vendor/lineage/
+* [apns: Add Belong](https://github.com/search?q=apns%3A%20Add%20Belong&type=Commits)
+* [apns: Fix giffgaff](https://github.com/search?q=apns%3A%20Fix%20giffgaff&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-19-2021 End.
+
+02-18-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-18-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 18-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2018-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-18-2021 End.
+
+02-17-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-17-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 17-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2017-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Mark remaining 16.0 devices discontinued](https://github.com/search?q=wiki%3A%20Mark%20remaining%2016.0%20devices%20discontinued&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-17-2021 End.
+
+02-16-2021
+====================
+
+#### LineageOS - 17.1 source changes of 02-16-2021:
+
+#### lineage/hudson/
+* [Add experimental build targets](https://github.com/search?q=Add%20experimental%20build%20targets&type=Commits)
+* [Drop 16.0](https://github.com/search?q=Drop%2016.0&type=Commits)
+
+#### lineage/wiki/
+* [Lineage is finally legal!](https://github.com/search?q=Lineage%20is%20finally%20legal!&type=Commits)
+
+#### LineageOS - 17.1 source changes of 02-16-2021 End.
+
 02-15-2021
 ====================
 
 #### LineageOS - 17.1 source changes of 02-15-2021:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 15-Feb-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2015-Feb-2021%2013%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Restore note for LG recovery boot](https://github.com/search?q=wiki%3A%20Restore%20note%20for%20LG%20recovery%20boot&type=Commits)
+* [Revert "d803: Bring instructions up to date with other g2 variants"](https://github.com/search?q=Revert%20"d803%3A%20Bring%20instructions%20up%20to%20date%20with%20other%20g2%20variants"&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
 
 #### lineage/hudson/
 * [hudson: Promote ls990 to 17.1](https://github.com/search?q=hudson%3A%20Promote%20ls990%20to%2017.1&type=Commits)

@@ -310,11 +310,11 @@ sudo apt install usb-creator-gtk
 list
 
 	sudo fdisk -l
-	umount /dev/sdb1
+	umount /dev/sdc
 
 copy
 
-	sudo dd if=/home/fgl27/Downloads/torrents/ubuntu-20.04.1-desktop-amd64.iso of=/dev/sdb1 bs=4M 
+	sudo dd if= of=/dev/sdc bs=4M 
 
 x-special/nautilus-clipboard
 copy
