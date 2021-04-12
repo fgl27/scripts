@@ -1,6 +1,528 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+04-12-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-12-2021:
+
+#### lineage/mirror/
+* [Updated lineage-minimal to 12-Apr-2021 12:01 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2012-Apr-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Promote jasmine_sprout to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20jasmine_sprout%20to%2018.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-12-2021 End.
+
+04-11-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-11-2021:
+
+#### lineage/wiki/
+* [wiki: Bump supported version on 18821](https://github.com/search?q=wiki%3A%20Bump%20supported%20version%20on%2018821&type=Commits)
+* [wiki: Various smaller fixes](https://github.com/search?q=wiki%3A%20Various%20smaller%20fixes&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-11-2021 End.
+
+04-10-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-10-2021:
+
+#### lineage/wiki/
+* [wiki: Switch away from payload-dumper-go](https://github.com/search?q=wiki%3A%20Switch%20away%20from%20payload-dumper-go&type=Commits)
+* [wiki: Provide firmware update pages for OnePlus SDM845 devices](https://github.com/search?q=wiki%3A%20Provide%20firmware%20update%20pages%20for%20OnePlus%20SDM845%20devices&type=Commits)
+* [wiki: Provide firmware update pages for OnePlus SM8150 devices](https://github.com/search?q=wiki%3A%20Provide%20firmware%20update%20pages%20for%20OnePlus%20SM8150%20devices&type=Commits)
+* [wiki: Provide firmware update pages for OnePlus SM8250 devices](https://github.com/search?q=wiki%3A%20Provide%20firmware%20update%20pages%20for%20OnePlus%20SM8250%20devices&type=Commits)
+* [wiki: Allow devices to provide firmware update instructions](https://github.com/search?q=wiki%3A%20Allow%20devices%20to%20provide%20firmware%20update%20instructions&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-10-2021 End.
+
+04-09-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-09-2021:
+
+#### lineage/mirror/
+* [Updated to 09-Apr-2021 15:56 UTC](https://github.com/search?q=Updated%20to%2009-Apr-2021%2015%3A56%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: jfvelte: Use Lineage Recovery](https://github.com/search?q=wiki%3A%20devices%3A%20jfvelte%3A%20Use%20Lineage%20Recovery&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-09-2021 End.
+
+04-08-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-08-2021:
+
+#### build/make/
+* [Bump Security String to 2021-04-05](https://github.com/search?q=Bump%20Security%20String%20to%202021-04-05&type=Commits)
+
+#### frameworks/av/
+* [Fix double free of play policy in a race condition.](https://github.com/search?q=Fix%20double%20free%20of%20play%20policy%20in%20a%20race%20condition.&type=Commits)
+* [Fix potential decrypt src pointer overflow.](https://github.com/search?q=Fix%20potential%20decrypt%20src%20pointer%20overflow.&type=Commits)
+
+#### hardware/interfaces/
+* [Fix potential decrypt src pointer overflow.](https://github.com/search?q=Fix%20potential%20decrypt%20src%20pointer%20overflow.&type=Commits)
+
+#### lineage/hudson/
+* [Promote jasmine_sprout to 18.1](https://github.com/search?q=Promote%20jasmine_sprout%20to%2018.1&type=Commits)
+
+#### packages/apps/Contacts/
+* [Prevent overlays on vCard import flows](https://github.com/search?q=Prevent%20overlays%20on%20vCard%20import%20flows&type=Commits)
+
+#### system/nfc/
+* [OOB Write in NFC stack when handling MIFARE Classic TLVs](https://github.com/search?q=OOB%20Write%20in%20NFC%20stack%20when%20handling%20MIFARE%20Classic%20TLVs&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [AVRCP: Use calloc to zero reserved fields](https://github.com/search?q=AVRCP%3A%20Use%20calloc%20to%20zero%20reserved%20fields&type=Commits)
+* [avrc_copy_packet: Zero initialize packet](https://github.com/search?q=avrc_copy_packet%3A%20Zero%20initialize%20packet&type=Commits)
+* [Legacy pairing: Reject device with same BD_ADDR](https://github.com/search?q=Legacy%20pairing%3A%20Reject%20device%20with%20same%20BD_ADDR&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-08-2021 End.
+
+04-07-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-07-2021:
+
+#### android/
+* [Track our own fork(s) for 2021-04 ASB patching](https://github.com/search?q=Track%20our%20own%20fork%28s%29%20for%202021-04%20ASB%20patching&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-security-10.0.0_r53' into staging/lineage-17.1_merge_android-security-10.0.0_r53](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r53%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r53&type=Commits)
+
+#### frameworks/hardware/interfaces/
+* [Merge tag 'android-security-10.0.0_r53' into staging/lineage-17.1_merge_android-security-10.0.0_r53](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r53%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r53&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge tag 'android-security-10.0.0_r53' into staging/lineage-17.1_merge_android-security-10.0.0_r53](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r53%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r53&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Promote whyred to 18.1](https://github.com/search?q=hudson%3A%20Promote%20whyred%20to%2018.1&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 07-Apr-2021 17:57 UTC](https://github.com/search?q=Updated%20to%2007-Apr-2021%2017%3A57%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Promote whyred to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20whyred%20to%2018.1&type=Commits)
+* [wiki: Fix spacing between conditional steps in gts4lv unlock template](https://github.com/search?q=wiki%3A%20Fix%20spacing%20between%20conditional%20steps%20in%20gts4lv%20unlock%20template&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge tag 'android-security-10.0.0_r53' into staging/lineage-17.1_merge_android-security-10.0.0_r53](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r53%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r53&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Merge tag 'android-security-10.0.0_r53' into staging/lineage-17.1_merge_android-security-10.0.0_r53](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r53%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r53&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-security-10.0.0_r53' into staging/lineage-17.1_merge_android-security-10.0.0_r53](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r53%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r53&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-07-2021 End.
+
+04-06-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-06-2021:
+
+#### lineage/wiki/
+* [wiki: devices: Flag the rest of my sw encrption devices format_on_upgrade](https://github.com/search?q=wiki%3A%20devices%3A%20Flag%20the%20rest%20of%20my%20sw%20encrption%20devices%20format_on_upgrade&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-06-2021 End.
+
+04-05-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-05-2021:
+
+#### android/
+* [manifest: Track Intel hardware repos (again)](https://github.com/search?q=manifest%3A%20Track%20Intel%20hardware%20repos%20%28again%29&type=Commits)
+
+#### lineage/hudson/
+* [wiki: Bump 18821 and 19801 to 18.1](https://github.com/search?q=wiki%3A%20Bump%2018821%20and%2019801%20to%2018.1&type=Commits)
+
+#### lineage/wiki/
+* [wiki: flox: Add format_on_upgrade flag](https://github.com/search?q=wiki%3A%20flox%3A%20Add%20format_on_upgrade%20flag&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-05-2021 End.
+
+04-03-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-03-2021:
+
+#### lineage/wiki/
+* [wiki: shamu: Add format_on_upgrade flag](https://github.com/search?q=wiki%3A%20shamu%3A%20Add%20format_on_upgrade%20flag&type=Commits)
+* [wiki: device_upgrade: Improve reboot to recovery steps](https://github.com/search?q=wiki%3A%20device_upgrade%3A%20Improve%20reboot%20to%20recovery%20steps&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-03-2021 End.
+
+04-02-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-02-2021:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### frameworks/native/
+* [SF: Correctly handle the LayerRequest bitfield](https://github.com/search?q=SF%3A%20Correctly%20handle%20the%20LayerRequest%20bitfield&type=Commits)
+
+#### hardware/intel/bootstub/
+* [bootstub: Import relevant definitions from bootimg.h](https://github.com/search?q=bootstub%3A%20Import%20relevant%20definitions%20from%20bootimg.h&type=Commits)
+
+#### hardware/intel/common/libmix/
+* [libmix: video{decoder,encoder}: Fix build errors](https://github.com/search?q=libmix%3A%20video{decoder,encoder}%3A%20Fix%20build%20errors&type=Commits)
+* [libmix: video{decoder,encoder}: Include appropriate header libraries](https://github.com/search?q=libmix%3A%20video{decoder,encoder}%3A%20Include%20appropriate%20header%20libraries&type=Commits)
+
+#### hardware/intel/common/omx-components/
+* [omx-components: Link against libstagefright_foundation_headers](https://github.com/search?q=omx-components%3A%20Link%20against%20libstagefright_foundation_headers&type=Commits)
+
+#### hardware/intel/img/hwcomposer/
+* [hwcomposer: Link against libion to pull the frozen version of ion.h](https://github.com/search?q=hwcomposer%3A%20Link%20against%20libion%20to%20pull%20the%20frozen%20version%20of%20ion.h&type=Commits)
+* [hwcomposer: Create header library instead of using copy headers](https://github.com/search?q=hwcomposer%3A%20Create%20header%20library%20instead%20of%20using%20copy%20headers&type=Commits)
+* [hwcomposer: Fix compile errors](https://github.com/search?q=hwcomposer%3A%20Fix%20compile%20errors&type=Commits)
+
+#### hardware/intel/img/psb_headers/
+* [psb_headers: Create header library instead of using copy headers](https://github.com/search?q=psb_headers%3A%20Create%20header%20library%20instead%20of%20using%20copy%20headers&type=Commits)
+
+#### hardware/intel/img/psb_video/
+* [psb_video: Fix build errors](https://github.com/search?q=psb_video%3A%20Fix%20build%20errors&type=Commits)
+* [psb_video: Include intel_hwcomposer_headers](https://github.com/search?q=psb_video%3A%20Include%20intel_hwcomposer_headers&type=Commits)
+* [psb_video: Include libion as a shared library](https://github.com/search?q=psb_video%3A%20Include%20libion%20as%20a%20shared%20library&type=Commits)
+* [psb_video: Include libva as a shared library](https://github.com/search?q=psb_video%3A%20Include%20libva%20as%20a%20shared%20library&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 02-Apr-2021 13:32 UTC](https://github.com/search?q=Updated%20to%2002-Apr-2021%2013%3A32%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Update 17.1 notes and future-proof](https://github.com/search?q=wiki%3A%20devices%3A%20Update%2017.1%20notes%20and%20future-proof&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Eleven: Deduplicate query selection/sorting logic](https://github.com/search?q=Eleven%3A%20Deduplicate%20query%20selection/sorting%20logic&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-02-2021 End.
+
+04-01-2021
+====================
+
+#### LineageOS - 17.1 source changes of 04-01-2021:
+
+#### lineage/hudson/
+* [X(2) just ain't gon' stop giving it to ya](https://github.com/search?q=X%282%29%20just%20ain%27t%20gon%27%20stop%20giving%20it%20to%20ya&type=Commits)
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [Revert "[temporary] Move 18.1 to nightly, pause 17.1"](https://github.com/search?q=Revert%20"[temporary]%20Move%2018.1%20to%20nightly,%20pause%2017.1"&type=Commits)
+* [[temporary] Move 18.1 to nightly, pause 17.1](https://github.com/search?q=[temporary]%20Move%2018.1%20to%20nightly,%20pause%2017.1&type=Commits)
+* [drop experimental 18.1 targets](https://github.com/search?q=drop%20experimental%2018.1%20targets&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 01-Apr-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2001-Apr-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [device-deps-regenerator: Add 18.1 branch](https://github.com/search?q=device-deps-regenerator%3A%20Add%2018.1%20branch&type=Commits)
+
+#### lineage/website/
+* [Changelog 25](https://github.com/search?q=Changelog%2025&type=Commits)
+
+#### lineage/wiki/
+* [devices: Remove format_on_upgrade where it isn't needed](https://github.com/search?q=devices%3A%20Remove%20format_on_upgrade%20where%20it%20isn%27t%20needed&type=Commits)
+* [wiki: devices: Promote the Moto X 2014 to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20the%20Moto%20X%202014%20to%2018.1&type=Commits)
+* [pages: gapps: Make AFH primary for MTG download](https://github.com/search?q=pages%3A%20gapps%3A%20Make%20AFH%20primary%20for%20MTG%20download&type=Commits)
+* [wiki: Upgrade guide: make use of format flag](https://github.com/search?q=wiki%3A%20Upgrade%20guide%3A%20make%20use%20of%20format%20flag&type=Commits)
+* [devices: moto_sdm632: Fix case of my username](https://github.com/search?q=devices%3A%20moto_sdm632%3A%20Fix%20case%20of%20my%20username&type=Commits)
+* [wiki: contributors: Add 18.1 device maintainers, remove 16.0](https://github.com/search?q=wiki%3A%20contributors%3A%20Add%2018.1%20device%20maintainers,%20remove%2016.0&type=Commits)
+* [pages: verifying_builds: Update to Python3](https://github.com/search?q=pages%3A%20verifying_builds%3A%20Update%20to%20Python3&type=Commits)
+* [wiki: Add Xiaomi Mi 8 Lite (platina)](https://github.com/search?q=wiki%3A%20Add%20Xiaomi%20Mi%208%20Lite%20%28platina%29&type=Commits)
+* [wiki: devices: Add Google Pixel 4a](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Google%20Pixel%204a&type=Commits)
+* [wiki: devices: Add Google Pixel 5, Pixel 4a 5G](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Google%20Pixel%205,%20Pixel%204a%205G&type=Commits)
+* [wiki: Add OnePlus 8 (instantnoodle)](https://github.com/search?q=wiki%3A%20Add%20OnePlus%208%20%28instantnoodle%29&type=Commits)
+* [wiki: Add OnePlus 8T (kebab)](https://github.com/search?q=wiki%3A%20Add%20OnePlus%208T%20%28kebab%29&type=Commits)
+* [wiki: Add OnePlus 8 Pro (instantnoodlep)](https://github.com/search?q=wiki%3A%20Add%20OnePlus%208%20Pro%20%28instantnoodlep%29&type=Commits)
+* [wiki: devices: Initial batch of 18.1 promotions](https://github.com/search?q=wiki%3A%20devices%3A%20Initial%20batch%20of%2018.1%20promotions&type=Commits)
+
+#### packages/apps/Eleven/
+* [Eleven: Fix sorting by track number in albums](https://github.com/search?q=Eleven%3A%20Fix%20sorting%20by%20track%20number%20in%20albums&type=Commits)
+
+#### LineageOS - 17.1 source changes of 04-01-2021 End.
+
+03-31-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-31-2021:
+
+#### lineage/website/
+* [blog: Fix Cymraeg typo](https://github.com/search?q=blog%3A%20Fix%20Cymraeg%20typo&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-31-2021 End.
+
+03-30-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-30-2021:
+
+#### lineage/hudson/
+* [hudson: Initial batch of 18.1 additions](https://github.com/search?q=hudson%3A%20Initial%20batch%20of%2018.1%20additions&type=Commits)
+* [hudson: Initial batch of 18.1 promotions](https://github.com/search?q=hudson%3A%20Initial%20batch%20of%2018.1%20promotions&type=Commits)
+* [hudson: Rename Moto E5 Plus variants](https://github.com/search?q=hudson%3A%20Rename%20Moto%20E5%20Plus%20variants&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: gta4xlwifi: update recovery boot instructions](https://github.com/search?q=wiki%3A%20devices%3A%20gta4xlwifi%3A%20update%20recovery%20boot%20instructions&type=Commits)
+* [wiki: Enable copy partitions step for FP3](https://github.com/search?q=wiki%3A%20Enable%20copy%20partitions%20step%20for%20FP3&type=Commits)
+* [devices: Resolve issues discovered](https://github.com/search?q=devices%3A%20Resolve%20issues%20discovered&type=Commits)
+* [wiki: devices: bacon: Update maintainer list](https://github.com/search?q=wiki%3A%20devices%3A%20bacon%3A%20Update%20maintainer%20list&type=Commits)
+* [wiki: Rename Moto E5 Plus variants](https://github.com/search?q=wiki%3A%20Rename%20Moto%20E5%20Plus%20variants&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-30-2021 End.
+
+03-28-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-28-2021:
+
+#### packages/apps/Nfc/
+* [NativeNfcTag: Treat MIFARE_CLASSIC same as NFC_A in getTechExtras()](https://github.com/search?q=NativeNfcTag%3A%20Treat%20MIFARE_CLASSIC%20same%20as%20NFC_A%20in%20getTechExtras%28%29&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [SetupWizard: Disable mobile data at least once](https://github.com/search?q=SetupWizard%3A%20Disable%20mobile%20data%20at%20least%20once&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-28-2021 End.
+
+03-27-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-27-2021:
+
+#### device/google/atv/
+* [Remove minimize debug symbol flags](https://github.com/search?q=Remove%20minimize%20debug%20symbol%20flags&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Set correct codename for ROG Phone 2](https://github.com/search?q=hudson%3A%20Set%20correct%20codename%20for%20ROG%20Phone%202&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Set correct codename for ROG Phone 2](https://github.com/search?q=wiki%3A%20Set%20correct%20codename%20for%20ROG%20Phone%202&type=Commits)
+
+#### packages/apps/Snap/
+* [SnapCam: Fix thumbnail not update](https://github.com/search?q=SnapCam%3A%20Fix%20thumbnail%20not%20update&type=Commits)
+* [Snap: Save SDCard photos to legacy path](https://github.com/search?q=Snap%3A%20Save%20SDCard%20photos%20to%20legacy%20path&type=Commits)
+* [Revert "Snap: Remove saving to sdcard"](https://github.com/search?q=Revert%20"Snap%3A%20Remove%20saving%20to%20sdcard"&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [MediaProvider: Fix insert fail while file saved in sdcard](https://github.com/search?q=MediaProvider%3A%20Fix%20insert%20fail%20while%20file%20saved%20in%20sdcard&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-27-2021 End.
+
+03-26-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-26-2021:
+
+#### bootable/recovery/
+* [roots: Correct mount flags in /etc/fstab](https://github.com/search?q=roots%3A%20Correct%20mount%20flags%20in%20/etc/fstab&type=Commits)
+
+#### lineage/wiki/
+* [wiki: templates: Add instructions for building emulator images](https://github.com/search?q=wiki%3A%20templates%3A%20Add%20instructions%20for%20building%20emulator%20images&type=Commits)
+* [wiki: devices: crackling: Instruct users to install required firmware](https://github.com/search?q=wiki%3A%20devices%3A%20crackling%3A%20Instruct%20users%20to%20install%20required%20firmware&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-26-2021 End.
+
+03-25-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-25-2021:
+
+#### bootable/recovery/
+* [Add controller support](https://github.com/search?q=Add%20controller%20support&type=Commits)
+
+#### build/make/
+* [soong: add TARGET_SPECIFIC_HEADER_PATH](https://github.com/search?q=soong%3A%20add%20TARGET_SPECIFIC_HEADER_PATH&type=Commits)
+
+#### build/soong/
+* [soong: allow overriding header files](https://github.com/search?q=soong%3A%20allow%20overriding%20header%20files&type=Commits)
+
+#### lineage/hudson/
+* [experimentals: Cover all test-cases](https://github.com/search?q=experimentals%3A%20Cover%20all%20test-cases&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-25-2021 End.
+
+03-24-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-24-2021:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 89.0.4389.105](https://github.com/search?q=Update%20Chromium%20Webview%20to%2089.0.4389.105&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-24-2021 End.
+
+03-23-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-23-2021:
+
+#### frameworks/base/
+* [VolumeDialogImpl: Don't vibrate when volume dialog is not visible](https://github.com/search?q=VolumeDialogImpl%3A%20Don%27t%20vibrate%20when%20volume%20dialog%20is%20not%20visible&type=Commits)
+
+#### lineage/wiki/
+* [wiki: templates: ab_copy_partitions: Remove mapper from the loop](https://github.com/search?q=wiki%3A%20templates%3A%20ab_copy_partitions%3A%20Remove%20mapper%20from%20the%20loop&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-23-2021 End.
+
+03-21-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-21-2021:
+
+#### lineage/wiki/
+* [wiki: Correct button combinations on espressowifi](https://github.com/search?q=wiki%3A%20Correct%20button%20combinations%20on%20espressowifi&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-21-2021 End.
+
+03-20-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-20-2021:
+
+#### lineage/wiki/
+* [wiki: contributors: Update Committers/Reviewers to match Gerrit](https://github.com/search?q=wiki%3A%20contributors%3A%20Update%20Committers/Reviewers%20to%20match%20Gerrit&type=Commits)
+* [wiki: contributors: Sort Committers](https://github.com/search?q=wiki%3A%20contributors%3A%20Sort%20Committers&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-20-2021 End.
+
+03-18-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-18-2021:
+
+#### lineage/wiki/
+* [Revert "devices: channel: Use custom TWRP"](https://github.com/search?q=Revert%20"devices%3A%20channel%3A%20Use%20custom%20TWRP"&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [SetupWizard: Remove libphonenumber dep](https://github.com/search?q=SetupWizard%3A%20Remove%20libphonenumber%20dep&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-18-2021 End.
+
+03-17-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-17-2021:
+
+#### lineage/mirror/
+* [Updated to 17-Mar-2021 13:52 UTC](https://github.com/search?q=Updated%20to%2017-Mar-2021%2013%3A52%20UTC&type=Commits)
+* [Updated aosp-minimal to 17-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2017-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-17-2021 End.
+
+03-16-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-16-2021:
+
+#### lineage/mirror/
+* [Updated to 16-Mar-2021 13:35 UTC](https://github.com/search?q=Updated%20to%2016-Mar-2021%2013%3A35%20UTC&type=Commits)
+* [Updated aosp-minimal to 16-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2016-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-16-2021 End.
+
+03-15-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-15-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 15-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2015-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-15-2021 End.
+
+03-13-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-13-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 13-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2013-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-13-2021 End.
+
+03-12-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-12-2021:
+
+#### lineage/wiki/
+* [wiki: Reorder gts4lv maintainers](https://github.com/search?q=wiki%3A%20Reorder%20gts4lv%20maintainers&type=Commits)
+
+#### packages/apps/Recorder/
+* [Recorder: Correct WAV header creation](https://github.com/search?q=Recorder%3A%20Correct%20WAV%20header%20creation&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-12-2021 End.
+
+03-11-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-11-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 11-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2011-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add remaining retail devices to gts4lv models](https://github.com/search?q=wiki%3A%20Add%20remaining%20retail%20devices%20to%20gts4lv%20models&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-11-2021 End.
+
+03-10-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-10-2021:
+
+#### lineage/hudson/
+* [hudson: Show Recovery on castor](https://github.com/search?q=hudson%3A%20Show%20Recovery%20on%20castor&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Sony Xperia Tablet Z2 LTE (castor)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20Tablet%20Z2%20LTE%20%28castor%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-10-2021 End.
+
+03-08-2021
+====================
+
+#### LineageOS - 17.1 source changes of 03-08-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 08-Mar-2021 13:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2008-Mar-2021%2013%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: before_lineage_install_flox: Format userdata at correct time](https://github.com/search?q=wiki%3A%20before_lineage_install_flox%3A%20Format%20userdata%20at%20correct%20time&type=Commits)
+
+#### packages/apps/Dialer/
+* [dialer: Allow Call Recording For Bangladesh](https://github.com/search?q=dialer%3A%20Allow%20Call%20Recording%20For%20Bangladesh&type=Commits)
+
+#### LineageOS - 17.1 source changes of 03-08-2021 End.
+
 03-07-2021
 ====================
 
