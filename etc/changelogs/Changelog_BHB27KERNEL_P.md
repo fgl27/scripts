@@ -3,6 +3,18 @@
 BHB27KERNEL Pie source Changelog:
 ============================================================
 
+04-30-2021
+====================
+
+* [Kernel V9.56](https://github.com/bhb27/BHB27Kernel/search?q=Kernel%20V9.56&type=Commits)
+* [squash revert UKSM driver](https://github.com/bhb27/BHB27Kernel/search?q=squash%20revert%20UKSM%20driver&type=Commits)
+* [msm: kgsl: Remove VM_MAYWRITE flag to restrict mprotect](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Remove%20VM_MAYWRITE%20flag%20to%20restrict%20mprotect&type=Commits)
+* [ipv6: check sk sk_type and protocol early in ip_mroute_set/getsockopt](https://github.com/bhb27/BHB27Kernel/search?q=ipv6%3A%20check%20sk%20sk_type%20and%20protocol%20early%20in%20ip_mroute_set/getsockopt&type=Commits)
+* [msm: kgsl: Correctly clean up dma buffer attachment in case of error](https://github.com/bhb27/BHB27Kernel/search?q=msm%3A%20kgsl%3A%20Correctly%20clean%20up%20dma%20buffer%20attachment%20in%20case%20of%20error&type=Commits)
+* [fs/binfmt_elf.c: allocate initialized memory in fill_thread_core_info()](https://github.com/bhb27/BHB27Kernel/search?q=fs/binfmt_elf.c%3A%20allocate%20initialized%20memory%20in%20fill_thread_core_info%28%29&type=Commits)
+
+***
+
 01-08-2021
 ====================
 
