@@ -97,7 +97,7 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder || exit;
 	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-17.1-caf-apq8084 && git cherry-pick efd4fd850c712bc43b2462b2ad3d753a8e0af043
-	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-18.1-caf-apq8084 && git cherry-pick 44e1c4dfd3f6cdaa1f4c4f8326fc4f6bd5c5dbfe^..44e1c4dfd3f6cdaa1f4c4f8326fc4f6bd5c5dbfe
+	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-18.1-caf-apq8084 && git cherry-pick 5cd7a23f4afe611a541ce4446068112ff6c8b513^..07ac1bde68b36a39356b41d5610c7c98c2f4f64c
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
