@@ -96,8 +96,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-17.1-caf-apq8084 && git cherry-pick efd4fd850c712bc43b2462b2ad3d753a8e0af043
-	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-18.1-caf-apq8084 && git cherry-pick 5cd7a23f4afe611a541ce4446068112ff6c8b513^..07ac1bde68b36a39356b41d5610c7c98c2f4f64c
+	git fetch https://github.com/fgl27/android_hardware_qcom_media lineage-18.1-caf-apq8084 && git cherry-pick efd4fd850c712bc43b2462b2ad3d753a8e0af043^..cfe448c898ee4c0cf7c98b873e789c0fd58e6675
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -107,7 +106,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_hardware_qcom_display lineage-18.1-caf-apq8084 && git cherry-pick 1c9813798cabc25aae611b938bb4790b55557f75
+	git fetch https://github.com/fgl27/android_hardware_qcom_display lineage-18.1-caf-apq8084 && git cherry-pick 2488ddb917b4fd36e25ad0fcd2bfe554e0357d42
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
