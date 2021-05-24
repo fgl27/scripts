@@ -36,7 +36,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_frameworks_base lineage-18.1 && git cherry-pick 0f78503bf685013030f1d2b088a801df815f606a^..94858a07ff141e88184a24893bb1c69ded52d479
+	git fetch https://github.com/fgl27/android_frameworks_base lineage-18.1 && git cherry-pick 0f78503bf685013030f1d2b088a801df815f606a^..c1c9ecce4959d39df70396e87acd768a250b43a8
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
@@ -66,7 +66,7 @@ if [ "$input1" == "1" ]; then
 	echo -e "\\n	In Folder $folder \\n"
 
 	cd $folder || exit;
-	git fetch https://github.com/fgl27/android_packages_apps_Updater lineage-17.1 && git cherry-pick 49ec0d5db329824a54c81ea78aaa2809e1d6c893
+	git fetch https://github.com/fgl27/android_packages_apps_Updater lineage-17.1 && git cherry-pick 49ec0d5db329824a54c81ea78aaa2809e1d6c893^..e0b02bebf1f902ad4952988b88b3da6fdc2016fb
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
