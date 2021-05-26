@@ -1,11 +1,11 @@
 {
 	"response": [{
-		"datetime": 1621930986,
-		"filename": "lineage-18.1-20210525-MOD-quark.zip",
-		"id": "230e8ae0549c7a1902b959a1d41d822134953c7052a475a2712eb39ec0f8b0f0",
+		"datetime": 1622034989,
+		"filename": "lineage-18.1-20210526-MOD-quark.zip",
+		"id": "e29a66235cc85a8d97517272d310c67323a01b5e435c395cd83961ab83789dfb",
 		"romtype": "MOD",
-		"size": 513651517,
-		"url": "https://downloads.sourceforge.net/project/fgl27/Android/Los/R/lineage-18.1-20210525-MOD-quark.zip",
+		"size": 513673809,
+		"url": "https://downloads.sourceforge.net/project/fgl27/Android/Los/R/lineage-18.1-20210526-MOD-quark.zip",
 		"version": "18.1"
 	}]
 }

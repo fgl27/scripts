@@ -29,5 +29,5 @@ scp $zip_path fgl27@frs.sourceforge.net:/home/frs/project/fgl27/Android/Los/R/
 
 #mv old file
 #ssh -t fgl27@shell.sourceforge.net create
-#cd /home/frs/project/fgl27/Android/Los/Q/
-#mv lineage-16.0-20190525-MOD-quark.zip Old_version/
+#cd /home/frs/project/fgl27/Android/Los/R/
+#mv ROM Old_version/
