@@ -1,6 +1,610 @@
 LineageOS - 18.1 - Android 11 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+06-16-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-16-2021:
+
+#### lineage/mirror/
+* [Updated to 16-Jun-2021 16:17 UTC](https://github.com/search?q=Updated%20to%2016-Jun-2021%2016%3A17%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Clarify which Xperia XZ2/3 models are supported](https://github.com/search?q=wiki%3A%20Clarify%20which%20Xperia%20XZ2/3%20models%20are%20supported&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-16-2021 End.
+
+06-15-2021
+====================
+
+#### Device specific Changes of 06-15-2021 Start:
+
+#### Device/Quark/
+* [Quark: Remove USE_XML_AUDIO_POLICY_CONF](https://github.com/search?q=Quark%3A%20Remove%20USE_XML_AUDIO_POLICY_CONF&type=Commits)
+* [Quark: use media_codecs_google_video_le](https://github.com/search?q=Quark%3A%20use%20media_codecs_google_video_le&type=Commits)
+
+#### Device specific Changes of 06-15-2021 End.
+
+***
+
+#### LineageOS - 18.1 source changes of 06-15-2021:
+
+#### frameworks/base/
+* [Add broadcast profile id](https://github.com/search?q=Add%20broadcast%20profile%20id&type=Commits)
+* [Bluetooth: Add BC profile entry](https://github.com/search?q=Bluetooth%3A%20Add%20BC%20profile%20entry&type=Commits)
+* [Enhanced Attribute protocol support](https://github.com/search?q=Enhanced%20Attribute%20protocol%20support&type=Commits)
+* [Periodic Advertisment Sync Transfer feature support](https://github.com/search?q=Periodic%20Advertisment%20Sync%20Transfer%20feature%20support&type=Commits)
+* [Revert "DO NOT MERGE Disable privacy indicators"](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Disable%20privacy%20indicators"&type=Commits)
+
+#### packages/apps/LineageParts/
+* [profiles: Add FLAG_IMMUTABLE flag for security purposes](https://github.com/search?q=profiles%3A%20Add%20FLAG_IMMUTABLE%20flag%20for%20security%20purposes&type=Commits)
+* [lineagestats: Use FLAG_IMMUTABLE for ReportingServiceManager](https://github.com/search?q=lineagestats%3A%20Use%20FLAG_IMMUTABLE%20for%20ReportingServiceManager&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/system/bt into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/system/bt%20into%20HEAD&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-15-2021 End.
+
+06-14-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-14-2021:
+
+#### android/
+* [manifest: Sync minimal GCC AS toolchain from aosp](https://github.com/search?q=manifest%3A%20Sync%20minimal%20GCC%20AS%20toolchain%20from%20aosp&type=Commits)
+
+#### bootable/recovery/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/device/qcom/sepolicy%20into%20HEAD&type=Commits)
+
+#### device/qcom/sepolicy_vndr/
+* [Merge tag 'LA.UM.9.12.r1-11500-SMxx50.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy_vndr into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.9.12.r1-11500-SMxx50.0%27%20of%20https%3A//source.codeaurora.org/quic/la/device/qcom/sepolicy_vndr%20into%20HEAD&type=Commits)
+
+#### frameworks/av/
+* [cameraservice: Avoid calling getSystemCameraKind if the camera was not mapped yet](https://github.com/search?q=cameraservice%3A%20Avoid%20calling%20getSystemCameraKind%20if%20the%20camera%20was%20not%20mapped%20yet&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+* [Revert "DO NOT MERGE Revert "Allow DeviceConfig to change display settings for high zone""](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Revert%20"Allow%20DeviceConfig%20to%20change%20display%20settings%20for%20high%20zone""&type=Commits)
+* [Revert "DO NOT MERGE Revert "Set fixed fps when ambient or display brightness is high""](https://github.com/search?q=Revert%20"DO%20NOT%20MERGE%20Revert%20"Set%20fixed%20fps%20when%20ambient%20or%20display%20brightness%20is%20high""&type=Commits)
+
+#### hardware/lineage/interfaces/
+* [livedisplay: 2.1: Fix interfaces order](https://github.com/search?q=livedisplay%3A%202.1%3A%20Fix%20interfaces%20order&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Support for broadcast active api](https://github.com/search?q=Support%20for%20broadcast%20active%20api&type=Commits)
+* [PAST feature implementation](https://github.com/search?q=PAST%20feature%20implementation&type=Commits)
+* [Enhanced Attribute protocol support](https://github.com/search?q=Enhanced%20Attribute%20protocol%20support&type=Commits)
+* [DeviceGroup: Add Binder method in Bluetooth App](https://github.com/search?q=DeviceGroup%3A%20Add%20Binder%20method%20in%20Bluetooth%20App&type=Commits)
+* [Periodic Sync Feature implementation](https://github.com/search?q=Periodic%20Sync%20Feature%20implementation&type=Commits)
+
+#### packages/apps/Etar/
+* [Add package "com.google.android.gm" to queries to avoid crash on api 30](https://github.com/search?q=Add%20package%20"com.google.android.gm"%20to%20queries%20to%20avoid%20crash%20on%20api%2030&type=Commits)
+* [Update dependencies](https://github.com/search?q=Update%20dependencies&type=Commits)
+* [Use switches instead of checkboxes and remove some lint errors](https://github.com/search?q=Use%20switches%20instead%20of%20checkboxes%20and%20remove%20some%20lint%20errors&type=Commits)
+* [Do not always recreate view when changing settings in "system pure black mode"](https://github.com/search?q=Do%20not%20always%20recreate%20view%20when%20changing%20settings%20in%20"system%20pure%20black%20mode"&type=Commits)
+* [Turkish metadata translations added](https://github.com/search?q=Turkish%20metadata%20translations%20added&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/services/Telephony/
+* [Removing dead code from Telephony which uses wakelock.](https://github.com/search?q=Removing%20dead%20code%20from%20Telephony%20which%20uses%20wakelock.&type=Commits)
+
+#### system/bt/
+* [Add broadcast active api](https://github.com/search?q=Add%20broadcast%20active%20api&type=Commits)
+* [BLE Broadcast Isochronous channel support](https://github.com/search?q=BLE%20Broadcast%20Isochronous%20channel%20support&type=Commits)
+* [DeviceGroup: Add new system API's to support Group UI.](https://github.com/search?q=DeviceGroup%3A%20Add%20new%20system%20API%27s%20to%20support%20Group%20UI.&type=Commits)
+* [Enhanced Attribute protocol support](https://github.com/search?q=Enhanced%20Attribute%20protocol%20support&type=Commits)
+* [Periodic Adv Sync Transfer feature support](https://github.com/search?q=Periodic%20Adv%20Sync%20Transfer%20feature%20support&type=Commits)
+
+#### vendor/lineage/
+* [Revert "soong: Add TARGET_QTI_USB_SUPPORTS_{AUDIO,DEBUG}_ACCESSORY flags"](https://github.com/search?q=Revert%20"soong%3A%20Add%20TARGET_QTI_USB_SUPPORTS_{AUDIO,DEBUG}_ACCESSORY%20flags"&type=Commits)
+
+#### vendor/qcom/opensource/commonsys-intf/bluetooth/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth-commonsys-intf into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth-commonsys-intf%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/commonsys-intf/display/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth_ext into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth_ext%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Don't print passkey to logcat on non-debug builds](https://github.com/search?q=Don%27t%20print%20passkey%20to%20logcat%20on%20non-debug%20builds&type=Commits)
+
+#### vendor/qcom/opensource/data-ipa-cfg-mgr/
+* [Merge tag 'LA.UM.9.12.r1-11500-SMxx50.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.9.12.r1-11500-SMxx50.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/fm-commonsys into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.QSSI.11.0.r1-12300-qssi.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/fm-commonsys%20into%20HEAD&type=Commits)
+
+#### vendor/qcom/opensource/usb/
+* [Merge tag 'LA.UM.9.12.r1-11500-SMxx50.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/usb into LA.UM.9.12.r1-11500-SMxx50.0](https://github.com/search?q=Merge%20tag%20%27LA.UM.9.12.r1-11500-SMxx50.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/usb%20into%20LA.UM.9.12.r1-11500-SMxx50.0&type=Commits)
+* [Revert "Allow enabling support for audio and debug accessories"](https://github.com/search?q=Revert%20"Allow%20enabling%20support%20for%20audio%20and%20debug%20accessories"&type=Commits)
+
+#### vendor/qcom/opensource/vibrator/
+* [Merge tag 'LA.UM.9.12.r1-11500-SMxx50.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/vibrator into HEAD](https://github.com/search?q=Merge%20tag%20%27LA.UM.9.12.r1-11500-SMxx50.0%27%20of%20https%3A//source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/vibrator%20into%20HEAD&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-14-2021 End.
+
+06-13-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-13-2021:
+
+#### packages/apps/SetupWizard/
+* [SetupWizard: LineageSettings: fix padding on summary](https://github.com/search?q=SetupWizard%3A%20LineageSettings%3A%20fix%20padding%20on%20summary&type=Commits)
+* [SetupWizard: LineageSettings: correct privacy policy link span](https://github.com/search?q=SetupWizard%3A%20LineageSettings%3A%20correct%20privacy%20policy%20link%20span&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-13-2021 End.
+
+06-12-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-12-2021:
+
+#### frameworks/base/
+* [IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data](https://github.com/search?q=IconPack{Sam,Victor}%3A%20Inverse%20vol%20collapse/expand%20anim%20path%20data&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Pass absolute path for KCONFIG_ALLCONFIG](https://github.com/search?q=kernel%3A%20Pass%20absolute%20path%20for%20KCONFIG_ALLCONFIG&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-12-2021 End.
+
+06-11-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-11-2021:
+
+#### lineage/mirror/
+* [Updated to 11-Jun-2021 16:56 UTC](https://github.com/search?q=Updated%20to%2011-Jun-2021%2016%3A56%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: "Enable adb" -> "Enable ADB"](https://github.com/search?q=wiki%3A%20"Enable%20adb"%20->%20"Enable%20ADB"&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Revert "Trebuchet: Remove workspaceStatusBarScrim"](https://github.com/search?q=Revert%20"Trebuchet%3A%20Remove%20workspaceStatusBarScrim"&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-11-2021 End.
+
+06-10-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-10-2021:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 91.0.4472.101](https://github.com/search?q=Update%20Chromium%20Webview%20to%2091.0.4472.101&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 91.0.4472.101](https://github.com/search?q=Update%20default%20webview%20to%2091.0.4472.101&type=Commits)
+
+#### system/core/
+* [Add exfat utilities for mkfs and fsck](https://github.com/search?q=Add%20exfat%20utilities%20for%20mkfs%20and%20fsck&type=Commits)
+
+#### vendor/lineage/
+* [common: Remove extra tools already shipped by default](https://github.com/search?q=common%3A%20Remove%20extra%20tools%20already%20shipped%20by%20default&type=Commits)
+* [config: Remove exfat tools](https://github.com/search?q=config%3A%20Remove%20exfat%20tools&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-10-2021 End.
+
+06-09-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-09-2021:
+
+#### android/
+* [manifest: android-11.0.0_r37 -> android-11.0.0_r38](https://github.com/search?q=manifest%3A%20android-11.0.0_r37%20->%20android-11.0.0_r38&type=Commits)
+
+#### bootable/recovery/
+* [recovery: make wiping dynamic partitions work](https://github.com/search?q=recovery%3A%20make%20wiping%20dynamic%20partitions%20work&type=Commits)
+
+#### packages/apps/LineageParts/
+* [trust: Fix case of details about vendor security patch](https://github.com/search?q=trust%3A%20Fix%20case%20of%20details%20about%20vendor%20security%20patch&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-09-2021 End.
+
+06-08-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-08-2021:
+
+#### art/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### build/soong/
+* [soong: Whitelist locale](https://github.com/search?q=soong%3A%20Whitelist%20locale&type=Commits)
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### device/google/atv/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge 56fa34f4fac606b5424671c4b950eccdd7f7baba on remote branch](https://github.com/search?q=Merge%2056fa34f4fac606b5424671c4b950eccdd7f7baba%20on%20remote%20branch&type=Commits)
+
+#### external/boringssl/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### external/cldr/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### external/icu/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### external/perfetto/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### frameworks/opt/net/wifi/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### frameworks/opt/timezonepicker/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/google/pixel/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/interfaces/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/nxp/nfc/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/qcom/audio/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/qcom/sm7250/display/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/qcom/sm7250/gps/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### hardware/qcom/sm8150/display/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Advertise "Qi reverse wireless charging" on the Pixel 5 page](https://github.com/search?q=wiki%3A%20Advertise%20"Qi%20reverse%20wireless%20charging"%20on%20the%20Pixel%205%20page&type=Commits)
+* [wiki: Advertise "Qi reverse wireless charging" on OnePlus 8 Pro/9 Pro pages](https://github.com/search?q=wiki%3A%20Advertise%20"Qi%20reverse%20wireless%20charging"%20on%20OnePlus%208%20Pro/9%20Pro%20pages&type=Commits)
+* [wiki: Add 'Qi reverse wireless charging' to schema](https://github.com/search?q=wiki%3A%20Add%20%27Qi%20reverse%20wireless%20charging%27%20to%20schema&type=Commits)
+* [wiki: Make kebab fw update work for DDR5 devices](https://github.com/search?q=wiki%3A%20Make%20kebab%20fw%20update%20work%20for%20DDR5%20devices&type=Commits)
+* [wiki: Add OnePlus 9 Pro](https://github.com/search?q=wiki%3A%20Add%20OnePlus%209%20Pro&type=Commits)
+* [wiki: device_specific: before_lineage_instal_flox: Fine tune](https://github.com/search?q=wiki%3A%20device_specific%3A%20before_lineage_instal_flox%3A%20Fine%20tune&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/CarrierConfig/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/PermissionController/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/Tag/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/ThemePicker/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/Traceur/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/modules/CaptivePortalLogin/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/providers/ContactsProvider/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/providers/TelephonyProvider/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/screensavers/PhotoTable/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/services/Mms/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/services/Telecomm/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### system/netd/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### system/sepolicy/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### system/timezone/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### system/update_engine/
+* [Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r38%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r38&type=Commits)
+
+#### vendor/nxp/opensource/pn5xx/halimpl/
+* [An info leak vuln caused by OOB read of nxp nfc hal library](https://github.com/search?q=An%20info%20leak%20vuln%20caused%20by%20OOB%20read%20of%20nxp%20nfc%20hal%20library&type=Commits)
+* [An integer underflow vuln of nxp nfc hal library](https://github.com/search?q=An%20integer%20underflow%20vuln%20of%20nxp%20nfc%20hal%20library&type=Commits)
+* [Multiple vulnerabilities in phNxpNciHal_print_res_status](https://github.com/search?q=Multiple%20vulnerabilities%20in%20phNxpNciHal_print_res_status&type=Commits)
+
+#### vendor/nxp/opensource/sn100x/halimpl/
+* [An info leak vuln caused by OOB read of nxp nfc hal library](https://github.com/search?q=An%20info%20leak%20vuln%20caused%20by%20OOB%20read%20of%20nxp%20nfc%20hal%20library&type=Commits)
+* [An integer underflow vuln of nxp nfc hal library](https://github.com/search?q=An%20integer%20underflow%20vuln%20of%20nxp%20nfc%20hal%20library&type=Commits)
+* [Multiple vulnerabilities in phNxpNciHal_print_res_status](https://github.com/search?q=Multiple%20vulnerabilities%20in%20phNxpNciHal_print_res_status&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge 4cbad7db752e2afab165106ef8b73c200de955eb on remote branch](https://github.com/search?q=Merge%204cbad7db752e2afab165106ef8b73c200de955eb%20on%20remote%20branch&type=Commits)
+* [RESTRICT AUTOMERGE Contain avrc_ctrl_pars_vendor_cmd OOB write](https://github.com/search?q=RESTRICT%20AUTOMERGE%20Contain%20avrc_ctrl_pars_vendor_cmd%20OOB%20write&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-08-2021 End.
+
+06-07-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-07-2021:
+
+#### lineage/hudson/
+* [Fire dragon now rests in peace](https://github.com/search?q=Fire%20dragon%20now%20rests%20in%20peace&type=Commits)
+
+#### lineage/wiki/
+* [wiki: RIP oneplus2](https://github.com/search?q=wiki%3A%20RIP%20oneplus2&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: use framework text colors for SwitchBar](https://github.com/search?q=Settings%3A%20use%20framework%20text%20colors%20for%20SwitchBar&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-07-2021 End.
+
+06-06-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-06-2021:
+
+#### external/exfatprogs/
+* [Merge branch 'master' of github.com:exfatprogs/exfatprogs into HEAD](https://github.com/search?q=Merge%20branch%20%27master%27%20of%20github.com%3Aexfatprogs/exfatprogs%20into%20HEAD&type=Commits)
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [Forgot to enable lineage recovery in 5cda145 ;(((](https://github.com/search?q=Forgot%20to%20enable%20lineage%20recovery%20in%205cda145%20;%28%28%28&type=Commits)
+* [This soon? How interesting...](https://github.com/search?q=This%20soon?%20How%20interesting...&type=Commits)
+* [Only REAL gamers will remember this](https://github.com/search?q=Only%20REAL%20gamers%20will%20remember%20this&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 06-Jun-2021 18:51 UTC](https://github.com/search?q=Updated%20to%2006-Jun-2021%2018%3A51%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Add the Razer Phone 2 (aura)](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20the%20Razer%20Phone%202%20%28aura%29&type=Commits)
+
+#### packages/apps/Recorder/
+* [SoundRecorderService: Flag all pending intents as immutable](https://github.com/search?q=SoundRecorderService%3A%20Flag%20all%20pending%20intents%20as%20immutable&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-06-2021 End.
+
+06-05-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-05-2021:
+
+#### lineage-sdk/
+* [LineageSettings: Mark lookup features as deprecated](https://github.com/search?q=LineageSettings%3A%20Mark%20lookup%20features%20as%20deprecated&type=Commits)
+
+#### lineage/hudson/
+* [They said it couldn't be done.](https://github.com/search?q=They%20said%20it%20couldn%27t%20be%20done.&type=Commits)
+
+#### lineage/wiki/
+* [devices: Stop recommending outdated TWRP images](https://github.com/search?q=devices%3A%20Stop%20recommending%20outdated%20TWRP%20images&type=Commits)
+* [wiki: devices: kuntao gets 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20kuntao%20gets%2018.1&type=Commits)
+
+#### vendor/lineage/
+* [config: Actually disable strict mode for non eng builds](https://github.com/search?q=config%3A%20Actually%20disable%20strict%20mode%20for%20non%20eng%20builds&type=Commits)
+* [Disable extra StrictMode features on all non-engineering builds](https://github.com/search?q=Disable%20extra%20StrictMode%20features%20on%20all%20non-engineering%20builds&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-05-2021 End.
+
+06-03-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-03-2021:
+
+#### frameworks/base/
+* [DozeSensors: only use proximity sensor if supported](https://github.com/search?q=DozeSensors%3A%20only%20use%20proximity%20sensor%20if%20supported&type=Commits)
+
+#### lineage-sdk/
+* [PerformanceManagerService: Account for QCOM perf HAL 2.1/2.2](https://github.com/search?q=PerformanceManagerService%3A%20Account%20for%20QCOM%20perf%20HAL%202.1/2.2&type=Commits)
+
+#### vendor/lineage/
+* [sensitive_pn: Add two numbers for Italy](https://github.com/search?q=sensitive_pn%3A%20Add%20two%20numbers%20for%20Italy&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-03-2021 End.
+
+06-02-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-02-2021:
+
+#### lineage/wiki/
+* [wiki: Add Kryo 240/465/468/490/570/670/680 to schema](https://github.com/search?q=wiki%3A%20Add%20Kryo%20240/465/468/490/570/670/680%20to%20schema&type=Commits)
+* [wiki: Add Bluetooth 5.2 to schema](https://github.com/search?q=wiki%3A%20Add%20Bluetooth%205.2%20to%20schema&type=Commits)
+* [wiki: Add Adreno 619/660/690 to schema](https://github.com/search?q=wiki%3A%20Add%20Adreno%20619/660/690%20to%20schema&type=Commits)
+
+#### packages/apps/Eleven/
+* [Eleven: remove custom gradle manifest](https://github.com/search?q=Eleven%3A%20remove%20custom%20gradle%20manifest&type=Commits)
+
+#### packages/apps/Recorder/
+* [Recorder: Add missing super call in onRequestPermissionsResult](https://github.com/search?q=Recorder%3A%20Add%20missing%20super%20call%20in%20onRequestPermissionsResult&type=Commits)
+* [Recorder: Resolve android studio layout warnings](https://github.com/search?q=Recorder%3A%20Resolve%20android%20studio%20layout%20warnings&type=Commits)
+* [Recorder: Update androidx gradle deps](https://github.com/search?q=Recorder%3A%20Update%20androidx%20gradle%20deps&type=Commits)
+* [Recorder: Remove screen recording leftover string](https://github.com/search?q=Recorder%3A%20Remove%20screen%20recording%20leftover%20string&type=Commits)
+* [Recorder: Remove values-*v29](https://github.com/search?q=Recorder%3A%20Remove%20values-*v29&type=Commits)
+* [Recorder: Move from jcenter to mavenCentral](https://github.com/search?q=Recorder%3A%20Move%20from%20jcenter%20to%20mavenCentral&type=Commits)
+* [Recorder: Update gradle version](https://github.com/search?q=Recorder%3A%20Update%20gradle%20version&type=Commits)
+* [Recorder: Remove hardcoded package name references](https://github.com/search?q=Recorder%3A%20Remove%20hardcoded%20package%20name%20references&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-02-2021 End.
+
+06-01-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-01-2021:
+
+#### lineage/charter/
+* [charter: Resolve markdown indentation issue on GitHub](https://github.com/search?q=charter%3A%20Resolve%20markdown%20indentation%20issue%20on%20GitHub&type=Commits)
+
+#### packages/apps/Eleven/
+* [Eleven: Fix adding a song to a playlist](https://github.com/search?q=Eleven%3A%20Fix%20adding%20a%20song%20to%20a%20playlist&type=Commits)
+* [Eleven: Fix renaming playlists](https://github.com/search?q=Eleven%3A%20Fix%20renaming%20playlists&type=Commits)
+* [Eleven: Fold values-v27 into values](https://github.com/search?q=Eleven%3A%20Fold%20values-v27%20into%20values&type=Commits)
+* [Eleven: Remove unused imports](https://github.com/search?q=Eleven%3A%20Remove%20unused%20imports&type=Commits)
+
+#### system/sepolicy/
+* [public/file.te: add 'allow proc_net proc:filesystem associate'](https://github.com/search?q=public/file.te%3A%20add%20%27allow%20proc_net%20proc%3Afilesystem%20associate%27&type=Commits)
+* [Export missing audio volume properties](https://github.com/search?q=Export%20missing%20audio%20volume%20properties&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-01-2021 End.
+
+05-31-2021
+====================
+
+#### LineageOS - 18.1 source changes of 05-31-2021:
+
+#### android/
+* [manifest: Sync SM8350 HALs](https://github.com/search?q=manifest%3A%20Sync%20SM8350%20HALs&type=Commits)
+
+#### device/qcom/sepolicy/
+* [Merge 2b829e198e0880e7c414c9d14fb7545de8494408 on remote branch](https://github.com/search?q=Merge%202b829e198e0880e7c414c9d14fb7545de8494408%20on%20remote%20branch&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 31-May-2021 19:30 UTC](https://github.com/search?q=Updated%20to%2031-May-2021%2019%3A30%20UTC&type=Commits)
+
+#### vendor/lineage/
+* [qcom: add lahaina platform](https://github.com/search?q=qcom%3A%20add%20lahaina%20platform&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/bluetooth_ext/
+* [Merge 68d745315cb45199592adcef3db4ef6db8ebcfe2 on remote branch](https://github.com/search?q=Merge%2068d745315cb45199592adcef3db4ef6db8ebcfe2%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Merge 6145687f13104b0c940a3ce462ccaea38f859274 on remote branch](https://github.com/search?q=Merge%206145687f13104b0c940a3ce462ccaea38f859274%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [Merge 0ea12d1bd6cfbabe5b23aedbcc8e4fcf812c7b15 on remote branch](https://github.com/search?q=Merge%200ea12d1bd6cfbabe5b23aedbcc8e4fcf812c7b15%20on%20remote%20branch&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [Merge 889b726a68e42329140fedabeaeeee35248baf55 on remote branch](https://github.com/search?q=Merge%20889b726a68e42329140fedabeaeeee35248baf55%20on%20remote%20branch&type=Commits)
+
+#### LineageOS - 18.1 source changes of 05-31-2021 End.
+
+05-30-2021
+====================
+
+#### LineageOS - 18.1 source changes of 05-30-2021:
+
+#### device/qcom/sepolicy_vndr/
+* [legacy: Add write permission to proc file system](https://github.com/search?q=legacy%3A%20Add%20write%20permission%20to%20proc%20file%20system&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: use matching padding on both sides of QS detail title](https://github.com/search?q=SystemUI%3A%20use%20matching%20padding%20on%20both%20sides%20of%20QS%20detail%20title&type=Commits)
+* [SystemUI: avoid double ripple in QS detail view](https://github.com/search?q=SystemUI%3A%20avoid%20double%20ripple%20in%20QS%20detail%20view&type=Commits)
+* [SystemUI: QS: minimize detail view to middle of the button](https://github.com/search?q=SystemUI%3A%20QS%3A%20minimize%20detail%20view%20to%20middle%20of%20the%20button&type=Commits)
+
+#### LineageOS - 18.1 source changes of 05-30-2021 End.
+
+05-28-2021
+====================
+
+#### LineageOS - 18.1 source changes of 05-28-2021:
+
+#### frameworks/base/
+* [SystemUI: Remove unused resources](https://github.com/search?q=SystemUI%3A%20Remove%20unused%20resources&type=Commits)
+
+#### hardware/qcom-caf/sm8350/audio/
+* [Remove log spam when placing power hint call](https://github.com/search?q=Remove%20log%20spam%20when%20placing%20power%20hint%20call&type=Commits)
+* [Probe PowerHAL HIDL first](https://github.com/search?q=Probe%20PowerHAL%20HIDL%20first&type=Commits)
+* [Support Power HAL AIDL service](https://github.com/search?q=Support%20Power%20HAL%20AIDL%20service&type=Commits)
+* [audio: Drop LOCAL_COPY_HEADERS usage](https://github.com/search?q=audio%3A%20Drop%20LOCAL_COPY_HEADERS%20usage&type=Commits)
+* [adsprpcd: Drop dependency on proprietary headers and fix build errors](https://github.com/search?q=adsprpcd%3A%20Drop%20dependency%20on%20proprietary%20headers%20and%20fix%20build%20errors&type=Commits)
+* [hal: Support the audio amplifier hook](https://github.com/search?q=hal%3A%20Support%20the%20audio%20amplifier%20hook&type=Commits)
+* [hal: Include pthread.h](https://github.com/search?q=hal%3A%20Include%20pthread.h&type=Commits)
+
+#### hardware/qcom-caf/sm8350/display/
+* [sdm: Annotate that kControlWithPostedStartDynSwitch is a fallthrough](https://github.com/search?q=sdm%3A%20Annotate%20that%20kControlWithPostedStartDynSwitch%20is%20a%20fallthrough&type=Commits)
+
+#### lineage-sdk/
+* [LineageSettingsProvider: Allow overriding volume panel default location](https://github.com/search?q=LineageSettingsProvider%3A%20Allow%20overriding%20volume%20panel%20default%20location&type=Commits)
+
+#### lineage/crowdin/
+* [crowdin: Add helpline strings and categories to translation files](https://github.com/search?q=crowdin%3A%20Add%20helpline%20strings%20and%20categories%20to%20translation%20files&type=Commits)
+
+#### packages/apps/Dialer/
+* [Dialer: Helplines: Fix a few casing issues](https://github.com/search?q=Dialer%3A%20Helplines%3A%20Fix%20a%20few%20casing%20issues&type=Commits)
+* [Dialer: Helplines: Use a webview dialog](https://github.com/search?q=Dialer%3A%20Helplines%3A%20Use%20a%20webview%20dialog&type=Commits)
+
+#### vendor/lineage/
+* [generated_kernel_headers: Also add usr/include/audio to include path](https://github.com/search?q=generated_kernel_headers%3A%20Also%20add%20usr/include/audio%20to%20include%20path&type=Commits)
+
+#### LineageOS - 18.1 source changes of 05-28-2021 End.
+
 05-26-2021
 ====================
 
