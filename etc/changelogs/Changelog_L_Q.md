@@ -1,6 +1,285 @@
 LineageOS - 17.1 - Android 10 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+06-16-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-16-2021:
+
+#### lineage/mirror/
+* [Updated to 16-Jun-2021 16:17 UTC](https://github.com/search?q=Updated%20to%2016-Jun-2021%2016%3A17%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Clarify which Xperia XZ2/3 models are supported](https://github.com/search?q=wiki%3A%20Clarify%20which%20Xperia%20XZ2/3%20models%20are%20supported&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-16-2021 End.
+
+06-11-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-11-2021:
+
+#### art/
+* [Fix dm-test invocation](https://github.com/search?q=Fix%20dm-test%20invocation&type=Commits)
+
+#### build/make/
+* [Bump Security String to 2021-06-05](https://github.com/search?q=Bump%20Security%20String%20to%202021-06-05&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 11-Jun-2021 16:56 UTC](https://github.com/search?q=Updated%20to%2011-Jun-2021%2016%3A56%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: "Enable adb" -> "Enable ADB"](https://github.com/search?q=wiki%3A%20"Enable%20adb"%20->%20"Enable%20ADB"&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-11-2021 End.
+
+06-10-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-10-2021:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 91.0.4472.101](https://github.com/search?q=Update%20Chromium%20Webview%20to%2091.0.4472.101&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 91.0.4472.101](https://github.com/search?q=Update%20default%20webview%20to%2091.0.4472.101&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [RESTRICT AUTOMERGE Contain avrc_ctrl_pars_vendor_cmd OOB write](https://github.com/search?q=RESTRICT%20AUTOMERGE%20Contain%20avrc_ctrl_pars_vendor_cmd%20OOB%20write&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-10-2021 End.
+
+06-09-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-09-2021:
+
+#### android/
+* [Track our own fork(s) for 2021-06 ASB patching](https://github.com/search?q=Track%20our%20own%20fork%28s%29%20for%202021-06%20ASB%20patching&type=Commits)
+
+#### art/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### external/chromium-libpac/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### external/libavc/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### external/v8/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### external/wpa_supplicant_8/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### frameworks/av/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### hardware/interfaces/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### packages/apps/LineageParts/
+* [trust: Fix case of details about vendor security patch](https://github.com/search?q=trust%3A%20Fix%20case%20of%20details%20about%20vendor%20security%20patch&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-security-10.0.0_r55' into staging/lineage-17.1_merge_android-security-10.0.0_r55](https://github.com/search?q=Merge%20tag%20%27android-security-10.0.0_r55%27%20into%20staging/lineage-17.1_merge_android-security-10.0.0_r55&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-09-2021 End.
+
+06-08-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-08-2021:
+
+#### lineage/wiki/
+* [wiki: Advertise "Qi reverse wireless charging" on the Pixel 5 page](https://github.com/search?q=wiki%3A%20Advertise%20"Qi%20reverse%20wireless%20charging"%20on%20the%20Pixel%205%20page&type=Commits)
+* [wiki: Advertise "Qi reverse wireless charging" on OnePlus 8 Pro/9 Pro pages](https://github.com/search?q=wiki%3A%20Advertise%20"Qi%20reverse%20wireless%20charging"%20on%20OnePlus%208%20Pro/9%20Pro%20pages&type=Commits)
+* [wiki: Add 'Qi reverse wireless charging' to schema](https://github.com/search?q=wiki%3A%20Add%20%27Qi%20reverse%20wireless%20charging%27%20to%20schema&type=Commits)
+* [wiki: Make kebab fw update work for DDR5 devices](https://github.com/search?q=wiki%3A%20Make%20kebab%20fw%20update%20work%20for%20DDR5%20devices&type=Commits)
+* [wiki: Add OnePlus 9 Pro](https://github.com/search?q=wiki%3A%20Add%20OnePlus%209%20Pro&type=Commits)
+* [wiki: device_specific: before_lineage_instal_flox: Fine tune](https://github.com/search?q=wiki%3A%20device_specific%3A%20before_lineage_instal_flox%3A%20Fine%20tune&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-08-2021 End.
+
+06-07-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-07-2021:
+
+#### lineage/hudson/
+* [Fire dragon now rests in peace](https://github.com/search?q=Fire%20dragon%20now%20rests%20in%20peace&type=Commits)
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+* [Forgot to enable lineage recovery in 5cda145 ;(((](https://github.com/search?q=Forgot%20to%20enable%20lineage%20recovery%20in%205cda145%20;%28%28%28&type=Commits)
+
+#### lineage/wiki/
+* [wiki: RIP oneplus2](https://github.com/search?q=wiki%3A%20RIP%20oneplus2&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-07-2021 End.
+
+06-06-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-06-2021:
+
+#### lineage/hudson/
+* [This soon? How interesting...](https://github.com/search?q=This%20soon?%20How%20interesting...&type=Commits)
+* [Only REAL gamers will remember this](https://github.com/search?q=Only%20REAL%20gamers%20will%20remember%20this&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 06-Jun-2021 18:51 UTC](https://github.com/search?q=Updated%20to%2006-Jun-2021%2018%3A51%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Add the Razer Phone 2 (aura)](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20the%20Razer%20Phone%202%20%28aura%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-06-2021 End.
+
+06-05-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-05-2021:
+
+#### lineage/hudson/
+* [They said it couldn't be done.](https://github.com/search?q=They%20said%20it%20couldn%27t%20be%20done.&type=Commits)
+
+#### lineage/wiki/
+* [devices: Stop recommending outdated TWRP images](https://github.com/search?q=devices%3A%20Stop%20recommending%20outdated%20TWRP%20images&type=Commits)
+* [wiki: devices: kuntao gets 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20kuntao%20gets%2018.1&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-05-2021 End.
+
+06-02-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-02-2021:
+
+#### lineage/wiki/
+* [wiki: Add Kryo 240/465/468/490/570/670/680 to schema](https://github.com/search?q=wiki%3A%20Add%20Kryo%20240/465/468/490/570/670/680%20to%20schema&type=Commits)
+* [wiki: Add Bluetooth 5.2 to schema](https://github.com/search?q=wiki%3A%20Add%20Bluetooth%205.2%20to%20schema&type=Commits)
+* [wiki: Add Adreno 619/660/690 to schema](https://github.com/search?q=wiki%3A%20Add%20Adreno%20619/660/690%20to%20schema&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-02-2021 End.
+
+06-01-2021
+====================
+
+#### LineageOS - 17.1 source changes of 06-01-2021:
+
+#### lineage/charter/
+* [charter: Resolve markdown indentation issue on GitHub](https://github.com/search?q=charter%3A%20Resolve%20markdown%20indentation%20issue%20on%20GitHub&type=Commits)
+
+#### LineageOS - 17.1 source changes of 06-01-2021 End.
+
+05-31-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-31-2021:
+
+#### lineage/mirror/
+* [Updated to 31-May-2021 19:30 UTC](https://github.com/search?q=Updated%20to%2031-May-2021%2019%3A30%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-31-2021 End.
+
+05-28-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-28-2021:
+
+#### lineage/crowdin/
+* [crowdin: Add helpline strings and categories to translation files](https://github.com/search?q=crowdin%3A%20Add%20helpline%20strings%20and%20categories%20to%20translation%20files&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-28-2021 End.
+
+05-26-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-26-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 26-May-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2026-May-2021%2012%3A01%20UTC&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-26-2021 End.
+
+05-25-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-25-2021:
+
+#### lineage/wiki/
+* [templates: device_specific: Revamp nash's before_install](https://github.com/search?q=templates%3A%20device_specific%3A%20Revamp%20nash%27s%20before_install&type=Commits)
+* [templates: device_install: Add before_recovery_install support](https://github.com/search?q=templates%3A%20device_install%3A%20Add%20before_recovery_install%20support&type=Commits)
+* [templates: device_install: Move before_install after ADB configuration](https://github.com/search?q=templates%3A%20device_install%3A%20Move%20before_install%20after%20ADB%20configuration&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-25-2021 End.
+
+05-23-2021
+====================
+
+#### Device specific Changes of 05-23-2021 Start:
+
+#### Vendor/Quark/
+* [Quark: update TurboToast.apk](https://github.com/search?q=Quark%3A%20update%20TurboToast.apk&type=Commits)
+
+#### Device specific Changes of 05-23-2021 End.
+
+05-22-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-22-2021:
+
+#### lineage/hudson/
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 22-May-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2022-May-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [device-deps-regenerator: End json file with newline](https://github.com/search?q=device-deps-regenerator%3A%20End%20json%20file%20with%20newline&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [FlipFlap: Respect correct setting](https://github.com/search?q=FlipFlap%3A%20Respect%20correct%20setting&type=Commits)
+* [FlipFlap: Code maintenance](https://github.com/search?q=FlipFlap%3A%20Code%20maintenance&type=Commits)
+* [FlipFlap: Fix small CircleView](https://github.com/search?q=FlipFlap%3A%20Fix%20small%20CircleView&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-22-2021 End.
+
+05-21-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-21-2021:
+
+#### lineage/hudson/
+* [Promote lavender to 18.1](https://github.com/search?q=Promote%20lavender%20to%2018.1&type=Commits)
+* [hudson: Promote Xperia XZ2/3 family to 18.1](https://github.com/search?q=hudson%3A%20Promote%20Xperia%20XZ2/3%20family%20to%2018.1&type=Commits)
+* [Promote xiaomi msm8998 family to 18.1](https://github.com/search?q=Promote%20xiaomi%20msm8998%20family%20to%2018.1&type=Commits)
+* [Hudson: Add Lenovo Z6 Pro (zippo)](https://github.com/search?q=Hudson%3A%20Add%20Lenovo%20Z6%20Pro%20%28zippo%29&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Promote lavender to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20lavender%20to%2018.1&type=Commits)
+* [wiki: Promote Xperia XZ2/3 family to 18.1](https://github.com/search?q=wiki%3A%20Promote%20Xperia%20XZ2/3%20family%20to%2018.1&type=Commits)
+* [wiki: Add Sony Xperia XZ3 (akatsuki)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20XZ3%20%28akatsuki%29&type=Commits)
+* [wiki: devices: Promote xiaomi msm8998 family to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20xiaomi%20msm8998%20family%20to%2018.1&type=Commits)
+* [wiki: Drop irc/hangouts info from submitting device page](https://github.com/search?q=wiki%3A%20Drop%20irc/hangouts%20info%20from%20submitting%20device%20page&type=Commits)
+* [wiki: Add Lenovo Z6 Pro (zippo)](https://github.com/search?q=wiki%3A%20Add%20Lenovo%20Z6%20Pro%20%28zippo%29&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-21-2021 End.
+
+05-20-2021
+====================
+
+#### LineageOS - 17.1 source changes of 05-20-2021:
+
+#### lineage/wiki/
+* [wiki: Remove non-retail variants from guacamole](https://github.com/search?q=wiki%3A%20Remove%20non-retail%20variants%20from%20guacamole&type=Commits)
+* [wiki: Add danascape as ginkgo co-maintainer](https://github.com/search?q=wiki%3A%20Add%20danascape%20as%20ginkgo%20co-maintainer&type=Commits)
+
+#### LineageOS - 17.1 source changes of 05-20-2021 End.
+
 05-16-2021
 ====================
 
