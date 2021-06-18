@@ -130,6 +130,15 @@ if [ "$input1" == "1" ]; then
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
+	
+	folder="build/soong";
+	echo -e "\\n	In Folder $folder \\n"
+
+	cd $folder || exit;
+	git fetch https://github.com/fgl27/android_build_soong lineage-18.1 && git cherry-pick 486b296973e348f2189164fc2b3deb501f23238f
+	cd - &> /dev/null || exit;
+
+	echo -e "\\n	out Folder $folder"
 
     #improve to outdoor display mode
 	folder="lineage-sdk";
