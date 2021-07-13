@@ -1,6 +1,227 @@
 LineageOS - 18.1 - Android 11 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+07-12-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-12-2021:
+
+#### frameworks/base/
+* [BiometricPrompt: Automatically add padding to incorporate FOD](https://github.com/search?q=BiometricPrompt%3A%20Automatically%20add%20padding%20to%20incorporate%20FOD&type=Commits)
+
+#### packages/apps/TvSettings/
+* [HDMI CEC: Add volume preference](https://github.com/search?q=HDMI%20CEC%3A%20Add%20volume%20preference&type=Commits)
+* [Show input settings on cec playback devices](https://github.com/search?q=Show%20input%20settings%20on%20cec%20playback%20devices&type=Commits)
+* [TvSettings: Default to not showing bug-report quick setting](https://github.com/search?q=TvSettings%3A%20Default%20to%20not%20showing%20bug-report%20quick%20setting&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-18.1' into 11.0](https://github.com/search?q=Merge%20%27lineage-18.1%27%20into%2011.0&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-11.0.0_r39' of https://android.googlesource.com/platform/system/bt into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20of%20https%3A//android.googlesource.com/platform/system/bt%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### vendor/lineage/
+* [lineage: partner_gms: Correctly guard ATV GMS](https://github.com/search?q=lineage%3A%20partner_gms%3A%20Correctly%20guard%20ATV%20GMS&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-12-2021 End.
+
+07-11-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-11-2021:
+
+#### packages/apps/Eleven/
+* [Eleven: remove double-ripple from list item more-button](https://github.com/search?q=Eleven%3A%20remove%20double-ripple%20from%20list%20item%20more-button&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-11-2021 End.
+
+07-10-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-10-2021:
+
+#### packages/apps/LineageParts/
+* [LineageParts: improve Notification light settings actionbar](https://github.com/search?q=LineageParts%3A%20improve%20Notification%20light%20settings%20actionbar&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-10-2021 End.
+
+07-08-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-08-2021:
+
+#### android/
+* [manifest: android-11.0.0_r38 -> android-11.0.0_r39](https://github.com/search?q=manifest%3A%20android-11.0.0_r38%20->%20android-11.0.0_r39&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### frameworks/native/
+* [Properly scale touch input window through resolution changes](https://github.com/search?q=Properly%20scale%20touch%20input%20window%20through%20resolution%20changes&type=Commits)
+
+#### hardware/interfaces/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 08-Jul-2021 12:28 UTC](https://github.com/search?q=Updated%20to%2008-Jul-2021%2012%3A28%20UTC&type=Commits)
+* [Updated to 08-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20to%2008-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### packages/apps/Contacts/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-11.0.0_r39' into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/
+* [Forbid content from MmsFileProvider in Bluetooth Share](https://github.com/search?q=Forbid%20content%20from%20MmsFileProvider%20in%20Bluetooth%20Share&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-08-2021 End.
+
+07-05-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-05-2021:
+
+#### frameworks/base/
+* [CarSystemUI: Pass FODCircleView to StatusBar constructor](https://github.com/search?q=CarSystemUI%3A%20Pass%20FODCircleView%20to%20StatusBar%20constructor&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-05-2021 End.
+
+07-03-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-03-2021:
+
+#### frameworks/base/
+* [SystemUI: Don't enable FOD when strong auth is required](https://github.com/search?q=SystemUI%3A%20Don%27t%20enable%20FOD%20when%20strong%20auth%20is%20required&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-03-2021 End.
+
+06-28-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-28-2021:
+
+#### lineage/mirror/
+* [Updated lineage-minimal to 28-Jun-2021 14:48 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2028-Jun-2021%2014%3A48%20UTC&type=Commits)
+* [Updated aosp-minimal to 28-Jun-2021 14:43 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2028-Jun-2021%2014%3A43%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-28-2021 End.
+
+06-27-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-27-2021:
+
+#### packages/apps/DeskClock/
+* [DeskClock: Snooze: Mimic dismiss reveal](https://github.com/search?q=DeskClock%3A%20Snooze%3A%20Mimic%20dismiss%20reveal&type=Commits)
+* [DeskClock: Set dark gray as dismiss animation](https://github.com/search?q=DeskClock%3A%20Set%20dark%20gray%20as%20dismiss%20animation&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Fix the check for official builds](https://github.com/search?q=kernel%3A%20Fix%20the%20check%20for%20official%20builds&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-27-2021 End.
+
+06-26-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-26-2021:
+
+#### lineage/hudson/
+* [hudson: ship Xiaomi Mi 10T / Mi 10T Pro / Redmi K30S Ultra](https://github.com/search?q=hudson%3A%20ship%20Xiaomi%20Mi%2010T%20/%20Mi%2010T%20Pro%20/%20Redmi%20K30S%20Ultra&type=Commits)
+
+#### packages/apps/FlipFlap/
+* [FlipFlap: Don't interrupt](https://github.com/search?q=FlipFlap%3A%20Don%27t%20interrupt&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-26-2021 End.
+
+06-25-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-25-2021:
+
+#### lineage/wiki/
+* [wiki: devices: Add Xiaomi Mi 10T / Mi 10T Pro / Redmi K30S Ultra](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Xiaomi%20Mi%2010T%20/%20Mi%2010T%20Pro%20/%20Redmi%20K30S%20Ultra&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-25-2021 End.
+
+06-24-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-24-2021:
+
+#### build/make/
+* [build: Exclude generic libnfc-nci.conf](https://github.com/search?q=build%3A%20Exclude%20generic%20libnfc-nci.conf&type=Commits)
+
+#### frameworks/base/
+* [IconPack{Kai,Victor}: Fix clock icon](https://github.com/search?q=IconPack{Kai,Victor}%3A%20Fix%20clock%20icon&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Add TARGET_FORCE_PREBUILT_KERNEL flag](https://github.com/search?q=kernel%3A%20Add%20TARGET_FORCE_PREBUILT_KERNEL%20flag&type=Commits)
+* [lineage: Add double quote in custom APN name check](https://github.com/search?q=lineage%3A%20Add%20double%20quote%20in%20custom%20APN%20name%20check&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-24-2021 End.
+
+06-20-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-20-2021:
+
+#### lineage/mirror/
+* [Updated to 20-Jun-2021 03:18 UTC](https://github.com/search?q=Updated%20to%2020-Jun-2021%2003%3A18%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-20-2021 End.
+
+06-19-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-19-2021:
+
+#### android/
+* [lineage: Sync QCOM ST-HAL](https://github.com/search?q=lineage%3A%20Sync%20QCOM%20ST-HAL&type=Commits)
+
+#### frameworks/base/
+* [Allow screen unpinning on devices without navbar](https://github.com/search?q=Allow%20screen%20unpinning%20on%20devices%20without%20navbar&type=Commits)
+* [SystemUI: Expose location icon to Tuner](https://github.com/search?q=SystemUI%3A%20Expose%20location%20icon%20to%20Tuner&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 19-Jun-2021 13:47 UTC](https://github.com/search?q=Updated%20to%2019-Jun-2021%2013%3A47%20UTC&type=Commits)
+
+#### vendor/qcom/opensource/audio-hal/st-hal/
+* [st-hal: Add missing struct definitions](https://github.com/search?q=st-hal%3A%20Add%20missing%20struct%20definitions&type=Commits)
+* [st-hal: Drop unnecessary COPY_HEADERS](https://github.com/search?q=st-hal%3A%20Drop%20unnecessary%20COPY_HEADERS&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-19-2021 End.
+
+06-18-2021
+====================
+
+#### Device specific Changes of 06-18-2021 Start:
+
+#### Kernel/Quark/
+* [Update kernel name](https://github.com/search?q=Update%20kernel%20name&type=Commits)
+
+#### Device specific Changes of 06-18-2021 End.
+
+06-17-2021
+====================
+
+#### LineageOS - 18.1 source changes of 06-17-2021:
+
+#### lineage-sdk/
+* [lineage-sdk: Mark all pending intents as immutable](https://github.com/search?q=lineage-sdk%3A%20Mark%20all%20pending%20intents%20as%20immutable&type=Commits)
+
+#### LineageOS - 18.1 source changes of 06-17-2021 End.
+
 06-16-2021
 ====================
 
