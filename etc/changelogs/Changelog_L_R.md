@@ -1,6 +1,514 @@
 LineageOS - 18.1 - Android 11 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+08-06-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-06-2021:
+
+#### lineage/hudson/
+* [hudson: Add m20lte](https://github.com/search?q=hudson%3A%20Add%20m20lte&type=Commits)
+* [hudson: Exynos 7880 lives on!](https://github.com/search?q=hudson%3A%20Exynos%207880%20lives%20on!&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Add m20lte](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20m20lte&type=Commits)
+* [wiki: Promote a5y17lte and a7y17lte to 18.1](https://github.com/search?q=wiki%3A%20Promote%20a5y17lte%20and%20a7y17lte%20to%2018.1&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-06-2021 End.
+
+08-05-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-05-2021:
+
+#### lineage/mirror/
+* [Updated to 05-Aug-2021 03:25 UTC](https://github.com/search?q=Updated%20to%2005-Aug-2021%2003%3A25%20UTC&type=Commits)
+* [Updated aosp-minimal to 04-Aug-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2004-Aug-2021%2012%3A01%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-05-2021 End.
+
+08-04-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-04-2021:
+
+#### android/
+* [manifest: android-11.0.0_r39 -> android-11.0.0_r40](https://github.com/search?q=manifest%3A%20android-11.0.0_r39%20->%20android-11.0.0_r40&type=Commits)
+
+#### build/make/
+* [Merge tag 'android-11.0.0_r40' into staging/lineage-18.1_merge-android-11.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r40%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r40&type=Commits)
+
+#### frameworks/base/
+* [Merge tag 'android-11.0.0_r40' into staging/lineage-18.1_merge-android-11.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r40%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r40&type=Commits)
+
+#### frameworks/opt/telephony/
+* [Merge tag 'android-11.0.0_r40' into staging/lineage-18.1_merge-android-11.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r40%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r40&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 03-Aug-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2003-Aug-2021%2012%3A01%20UTC&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-11.0.0_r40' into staging/lineage-18.1_merge-android-11.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r40%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r40&type=Commits)
+
+#### packages/services/Telephony/
+* [Merge tag 'android-11.0.0_r40' into staging/lineage-18.1_merge-android-11.0.0_r40](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r40%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r40&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-04-2021 End.
+
+08-03-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-03-2021:
+
+#### android/
+* [manifest: Track system HIDL tools.](https://github.com/search?q=manifest%3A%20Track%20system%20HIDL%20tools.&type=Commits)
+
+#### vendor/lineage/
+* [lineage: Don't enforce inclusion of common compatibility matrix](https://github.com/search?q=lineage%3A%20Don%27t%20enforce%20inclusion%20of%20common%20compatibility%20matrix&type=Commits)
+* [lineage: Add framework compatibility matrix for Lineage HALs.](https://github.com/search?q=lineage%3A%20Add%20framework%20compatibility%20matrix%20for%20Lineage%20HALs.&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-03-2021 End.
+
+08-02-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-02-2021:
+
+#### system/tools/hidl/
+* [prebuilt_hidl_interfaces](https://github.com/search?q=prebuilt_hidl_interfaces&type=Commits)
+* [hidl_metadata_test](https://github.com/search?q=hidl_metadata_test&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-02-2021 End.
+
+08-01-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-01-2021:
+
+#### lineage/contributors-cloud-generator/
+* [Update dependencies](https://github.com/search?q=Update%20dependencies&type=Commits)
+* [Bump DEFAULT_CLOUD_SIZE to 2024](https://github.com/search?q=Bump%20DEFAULT_CLOUD_SIZE%20to%202024&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Promote bardock/bardockpro to 18.1](https://github.com/search?q=hudson%3A%20Promote%20bardock/bardockpro%20to%2018.1&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 31-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2031-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [devices: Promote bardock/bardockpro to 18.1](https://github.com/search?q=devices%3A%20Promote%20bardock/bardockpro%20to%2018.1&type=Commits)
+* [Fix device name in build instruction page](https://github.com/search?q=Fix%20device%20name%20in%20build%20instruction%20page&type=Commits)
+* [wiki: devices: Add POCO F3 / Redmi K40 / Mi 11X](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20POCO%20F3%20/%20Redmi%20K40%20/%20Mi%2011X&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Regenerate contributors cloud](https://github.com/search?q=Regenerate%20contributors%20cloud&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-01-2021 End.
+
+07-31-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-31-2021:
+
+#### lineage/hudson/
+* [Promote FP3 to 18.1](https://github.com/search?q=Promote%20FP3%20to%2018.1&type=Commits)
+* [Regenerate device dependency mappings](https://github.com/search?q=Regenerate%20device%20dependency%20mappings&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 30-Jul-2021 22:30 UTC](https://github.com/search?q=Updated%20to%2030-Jul-2021%2022%3A30%20UTC&type=Commits)
+* [Updated to 30-Jul-2021 20:25 UTC](https://github.com/search?q=Updated%20to%2030-Jul-2021%2020%3A25%20UTC&type=Commits)
+* [Updated to 30-Jul-2021 20:19 UTC](https://github.com/search?q=Updated%20to%2030-Jul-2021%2020%3A19%20UTC&type=Commits)
+* [Updated aosp-minimal to 30-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2030-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Promote FP3 to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20FP3%20to%2018.1&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-31-2021 End.
+
+07-30-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-30-2021:
+
+#### frameworks/base/
+* [Revert "InputManagerService: Flag when an injected event is a real input"](https://github.com/search?q=Revert%20"InputManagerService%3A%20Flag%20when%20an%20injected%20event%20is%20a%20real%20input"&type=Commits)
+
+#### frameworks/native/
+* [Revert "Use the original device ID when the injected event is unchanged"](https://github.com/search?q=Revert%20"Use%20the%20original%20device%20ID%20when%20the%20injected%20event%20is%20unchanged"&type=Commits)
+
+#### vendor/lineage/
+* [roomservice: add repo to syncable repo list if dir doesn't exist](https://github.com/search?q=roomservice%3A%20add%20repo%20to%20syncable%20repo%20list%20if%20dir%20doesn%27t%20exist&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-30-2021 End.
+
+07-28-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-28-2021:
+
+#### frameworks/base/
+* [BACKPORT: Fix initialization of USER_ROTATION setting.](https://github.com/search?q=BACKPORT%3A%20Fix%20initialization%20of%20USER_ROTATION%20setting.&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-28-2021 End.
+
+07-27-2021
+====================
+
+#### Device specific Changes of 07-27-2021 Start:
+
+#### Vendor/Quark/
+* [Quark: update KA abd TT apk](https://github.com/search?q=Quark%3A%20update%20KA%20abd%20TT%20apk&type=Commits)
+
+#### Device specific Changes of 07-27-2021 End.
+
+***
+
+#### LineageOS - 18.1 source changes of 07-27-2021:
+
+#### frameworks/base/
+* [fixup! InputManagerService: Flag when an injected event is a real input](https://github.com/search?q=fixup!%20InputManagerService%3A%20Flag%20when%20an%20injected%20event%20is%20a%20real%20input&type=Commits)
+
+#### lineage/hudson/
+* [hudson: ship POCO F3 / Redmi K40 / Mi 11X](https://github.com/search?q=hudson%3A%20ship%20POCO%20F3%20/%20Redmi%20K40%20/%20Mi%2011X&type=Commits)
+
+#### tools/repohooks/
+* [cpplint: switch to open source community fork](https://github.com/search?q=cpplint%3A%20switch%20to%20open%20source%20community%20fork&type=Commits)
+
+
+#### LineageOS - 18.1 source changes of 07-27-2021 End.
+
+07-26-2021
+====================
+
+#### Device specific Changes of 07-26-2021 Start:
+
+#### Device/Quark/
+* [Quark: lineageactions update theme for 11 and add icons](https://github.com/search?q=Quark%3A%20lineageactions%20update%20theme%20for%2011%20and%20add%20icons&type=Commits)
+* [Quark: SysInfoService update settings title postion](https://github.com/search?q=Quark%3A%20SysInfoService%20update%20settings%20title%20postion&type=Commits)
+
+#### Device specific Changes of 07-26-2021 End.
+
+***
+
+#### LineageOS - 18.1 source changes of 07-26-2021:
+
+#### lineage/hudson/
+* [fixup! hudson: add Galaxy S10/Note10 Series](https://github.com/search?q=fixup!%20hudson%3A%20add%20Galaxy%20S10/Note10%20Series&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-26-2021 End.
+
+07-25-2021
+====================
+
+#### Device specific Changes of 07-25-2021 Start:
+
+#### Device/Quark/
+* [Quark: Remove now unused voice processing descriptors](https://github.com/search?q=Quark%3A%20Remove%20now%20unused%20voice%20processing%20descriptors&type=Commits)
+* [Quark: Disable qcom AEC and NS effects.](https://github.com/search?q=Quark%3A%20Disable%20qcom%20AEC%20and%20NS%20effects.&type=Commits)
+
+#### Kernel/Quark/
+* [seq_file: disallow extremely large seq buffer allocations](https://github.com/search?q=seq_file%3A%20disallow%20extremely%20large%20seq%20buffer%20allocations&type=Commits)
+* [fs, seqfile: always allow oom killer](https://github.com/search?q=fs,%20seqfile%3A%20always%20allow%20oom%20killer&type=Commits)
+* [fs, seq_file: fallback to vmalloc instead of oom kill processes](https://github.com/search?q=fs,%20seq_file%3A%20fallback%20to%20vmalloc%20instead%20of%20oom%20kill%20processes&type=Commits)
+* [seq_file: Rename seq_overflow() to seq_has_overflowed() and make public](https://github.com/search?q=seq_file%3A%20Rename%20seq_overflow%28%29%20to%20seq_has_overflowed%28%29%20and%20make%20public&type=Commits)
+* [Revert "fs/seq_file: Use vmalloc by default for allocations > PAGE_SIZE"](https://github.com/search?q=Revert%20"fs/seq_file%3A%20Use%20vmalloc%20by%20default%20for%20allocations%20>%20PAGE_SIZE"&type=Commits)
+* [softirq: Use _RET_IP_](https://github.com/search?q=softirq%3A%20Use%20_RET_IP_&type=Commits)
+* [crypto: sha256/arm - fix crash bug in Thumb2 build](https://github.com/search?q=crypto%3A%20sha256/arm%20-%20fix%20crash%20bug%20in%20Thumb2%20build&type=Commits)
+* [timerfd: Reject ALARM timerfds without CAP_WAKE_ALARM](https://github.com/search?q=timerfd%3A%20Reject%20ALARM%20timerfds%20without%20CAP_WAKE_ALARM&type=Commits)
+* [ext4: fix error code in ext4_commit_super](https://github.com/search?q=ext4%3A%20fix%20error%20code%20in%20ext4_commit_super&type=Commits)
+* [ext4: fix check to prevent false positive report of incorrect used inodes](https://github.com/search?q=ext4%3A%20fix%20check%20to%20prevent%20false%20positive%20report%20of%20incorrect%20used%20inodes&type=Commits)
+* [ALSA: core: remove redundant spin_lock pair in snd_card_disconnect](https://github.com/search?q=ALSA%3A%20core%3A%20remove%20redundant%20spin_lock%20pair%20in%20snd_card_disconnect&type=Commits)
+* [cpufreq: governor: remove copy_prev_load from 'struct cpu_dbs_common_info'](https://github.com/search?q=cpufreq%3A%20governor%3A%20remove%20copy_prev_load%20from%20%27struct%20cpu_dbs_common_info%27&type=Commits)
+* [cpufreq: governor: Be friendly towards latency-sensitive bursty workloads](https://github.com/search?q=cpufreq%3A%20governor%3A%20Be%20friendly%20towards%20latency-sensitive%20bursty%20workloads&type=Commits)
+* [cpufreq: remove race while accessing cur_policy](https://github.com/search?q=cpufreq%3A%20remove%20race%20while%20accessing%20cur_policy&type=Commits)
+* [ANDROID: xt_qtaguid: fix UAF race](https://github.com/search?q=ANDROID%3A%20xt_qtaguid%3A%20fix%20UAF%20race&type=Commits)
+* [netfilter: x_tables: fix compat match/target pad out-of-bound write](https://github.com/search?q=netfilter%3A%20x_tables%3A%20fix%20compat%20match/target%20pad%20out-of-bound%20write&type=Commits)
+* [mm: fix race by making init_zero_pfn() early_initcall](https://github.com/search?q=mm%3A%20fix%20race%20by%20making%20init_zero_pfn%28%29%20early_initcall&type=Commits)
+* [Update quark_defconfig](https://github.com/search?q=Update%20quark_defconfig&type=Commits)
+* [Revert "video:msm experimental quintuple frame buffer"](https://github.com/search?q=Revert%20"video%3Amsm%20experimental%20quintuple%20frame%20buffer"&type=Commits)
+
+#### Device specific Changes of 07-25-2021 End.
+
+***
+
+#### LineageOS - 18.1 source changes of 07-25-2021:
+
+#### lineage/hudson/
+* [hudson: add Galaxy S10/Note10 Series](https://github.com/search?q=hudson%3A%20add%20Galaxy%20S10/Note10%20Series&type=Commits)
+
+#### lineage/wiki/
+* [wiki: add Galaxy S10/Note10 Series](https://github.com/search?q=wiki%3A%20add%20Galaxy%20S10/Note10%20Series&type=Commits)
+* [wiki: devices: Yeet lmi in](https://github.com/search?q=wiki%3A%20devices%3A%20Yeet%20lmi%20in&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-25-2021 End.
+
+07-24-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-24-2021:
+
+#### frameworks/base/
+* [InputManagerService: Flag when an injected event is a real input](https://github.com/search?q=InputManagerService%3A%20Flag%20when%20an%20injected%20event%20is%20a%20real%20input&type=Commits)
+
+#### frameworks/native/
+* [Use the original device ID when the injected event is unchanged](https://github.com/search?q=Use%20the%20original%20device%20ID%20when%20the%20injected%20event%20is%20unchanged&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 23-Jul-2021 18:12 UTC](https://github.com/search?q=Updated%20to%2023-Jul-2021%2018%3A12%20UTC&type=Commits)
+* [Updated to 23-Jul-2021 15:15 UTC](https://github.com/search?q=Updated%20to%2023-Jul-2021%2015%3A15%20UTC&type=Commits)
+* [Updated to 23-Jul-2021 14:54 UTC](https://github.com/search?q=Updated%20to%2023-Jul-2021%2014%3A54%20UTC&type=Commits)
+* [Updated lineage-minimal to 23-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2023-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Specify required firmware for klte* builds using M RIL](https://github.com/search?q=wiki%3A%20Specify%20required%20firmware%20for%20klte*%20builds%20using%20M%20RIL&type=Commits)
+* [wiki: Specify required firmware for gta4xlwifi](https://github.com/search?q=wiki%3A%20Specify%20required%20firmware%20for%20gta4xlwifi&type=Commits)
+
+#### vendor/lineage/
+* [Add generic targets for automotive](https://github.com/search?q=Add%20generic%20targets%20for%20automotive&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-24-2021 End.
+
+07-23-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-23-2021:
+
+#### lineage-sdk/
+* [Read sensitive_pn.xml from product partition](https://github.com/search?q=Read%20sensitive_pn.xml%20from%20product%20partition&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Yeet lmi in](https://github.com/search?q=hudson%3A%20Yeet%20lmi%20in&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 22-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2022-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [fixup! wiki: Add OpenGapps to list of Android 11 compatible gapps packages](https://github.com/search?q=fixup!%20wiki%3A%20Add%20OpenGapps%20to%20list%20of%20Android%2011%20compatible%20gapps%20packages&type=Commits)
+
+#### packages/apps/Recorder/
+* [Recorder: Add share selected list items](https://github.com/search?q=Recorder%3A%20Add%20share%20selected%20list%20items&type=Commits)
+* [Recorder: Add delete selected list items](https://github.com/search?q=Recorder%3A%20Add%20delete%20selected%20list%20items&type=Commits)
+* [Recorder: Add "Delete all" to the recording list](https://github.com/search?q=Recorder%3A%20Add%20"Delete%20all"%20to%20the%20recording%20list&type=Commits)
+
+#### packages/services/Car/
+* [Hardcode default pattern size](https://github.com/search?q=Hardcode%20default%20pattern%20size&type=Commits)
+
+#### vendor/lineage/
+* [Move sensitive_pn.xml to product partition](https://github.com/search?q=Move%20sensitive_pn.xml%20to%20product%20partition&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-23-2021 End.
+
+07-22-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-22-2021:
+
+#### build/make/
+* [Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk](https://github.com/search?q=Fix%20PRODUCT_PROPERTY_OVERRIDES%20usage%20in%20full_base_telephony.mk&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 21-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2021-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### packages/services/Car/
+* [Exclude Home app from automotive builds](https://github.com/search?q=Exclude%20Home%20app%20from%20automotive%20builds&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-22-2021 End.
+
+07-21-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-21-2021:
+
+#### packages/services/Car/
+* [Don't copy Car specific boot animation for Lineage builds](https://github.com/search?q=Don%27t%20copy%20Car%20specific%20boot%20animation%20for%20Lineage%20builds&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-21-2021 End.
+
+07-20-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-20-2021:
+
+#### android/
+* [Track forks for Automotive repos](https://github.com/search?q=Track%20forks%20for%20Automotive%20repos&type=Commits)
+
+#### device/qcom/sepolicy-legacy-um/
+* [sepolicy-legacy-um: Add sepolicy support for FM domain switch](https://github.com/search?q=sepolicy-legacy-um%3A%20Add%20sepolicy%20support%20for%20FM%20domain%20switch&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Promote FP2 to 18.1](https://github.com/search?q=wiki%3A%20devices%3A%20Promote%20FP2%20to%2018.1&type=Commits)
+* [wiki: Add OpenGapps to list of Android 11 compatible gapps packages](https://github.com/search?q=wiki%3A%20Add%20OpenGapps%20to%20list%20of%20Android%2011%20compatible%20gapps%20packages&type=Commits)
+
+#### packages/apps/Car/Settings/
+* [Hardcode default pattern size](https://github.com/search?q=Hardcode%20default%20pattern%20size&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [LatinIME: Add libjni_latinimegoogle for swype](https://github.com/search?q=LatinIME%3A%20Add%20libjni_latinimegoogle%20for%20swype&type=Commits)
+
+#### vendor/lineage/
+* [soong: Add TARGET_CAMERA_BOOTTIME_TIMESTAMP conditional](https://github.com/search?q=soong%3A%20Add%20TARGET_CAMERA_BOOTTIME_TIMESTAMP%20conditional&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-20-2021 End.
+
+07-19-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-19-2021:
+
+#### device/lineage/atv/
+* [atv: Disable RRO overlays on device/google/atv](https://github.com/search?q=atv%3A%20Disable%20RRO%20overlays%20on%20device/google/atv&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: Expose camera and microphone icons to Tuner](https://github.com/search?q=SystemUI%3A%20Expose%20camera%20and%20microphone%20icons%20to%20Tuner&type=Commits)
+
+#### lineage/hudson/
+* [Promote FP2 to 18.1](https://github.com/search?q=Promote%20FP2%20to%2018.1&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-19-2021 End.
+
+07-18-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-18-2021:
+
+#### android/
+* [manifest: Track external/wpa_supplicant_8](https://github.com/search?q=manifest%3A%20Track%20external/wpa_supplicant_8&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 17-Jul-2021 21:15 UTC](https://github.com/search?q=Updated%20to%2017-Jul-2021%2021%3A15%20UTC&type=Commits)
+* [Updated to 17-Jul-2021 20:43 UTC](https://github.com/search?q=Updated%20to%2017-Jul-2021%2020%3A43%20UTC&type=Commits)
+* [Updated aosp-minimal to 17-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2017-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: extract_blobs: Mount system_ext too](https://github.com/search?q=wiki%3A%20extract_blobs%3A%20Mount%20system_ext%20too&type=Commits)
+* [wiki: extract_blobs: Mount system images as RO](https://github.com/search?q=wiki%3A%20extract_blobs%3A%20Mount%20system%20images%20as%20RO&type=Commits)
+
+#### packages/apps/Messaging/
+* [Messaging: allow selecting text inside the selected message](https://github.com/search?q=Messaging%3A%20allow%20selecting%20text%20inside%20the%20selected%20message&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [fmapp2: don't destroy notification channel on stop](https://github.com/search?q=fmapp2%3A%20don%27t%20destroy%20notification%20channel%20on%20stop&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-18-2021 End.
+
+07-17-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-17-2021:
+
+#### device/qcom/sepolicy/
+* [Revert "sepolicy: Label vendor.qcom.bluetooth props"](https://github.com/search?q=Revert%20"sepolicy%3A%20Label%20vendor.qcom.bluetooth%20props"&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [sepolicy-legacy: Add sepolicy support for FM domain switch](https://github.com/search?q=sepolicy-legacy%3A%20Add%20sepolicy%20support%20for%20FM%20domain%20switch&type=Commits)
+
+#### device/qcom/sepolicy-legacy-um/
+* [Revert "sepolicy-legacy-um: Add sepolicy support for FM domain switch"](https://github.com/search?q=Revert%20"sepolicy-legacy-um%3A%20Add%20sepolicy%20support%20for%20FM%20domain%20switch"&type=Commits)
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 91.0.4472.164](https://github.com/search?q=Update%20Chromium%20Webview%20to%2091.0.4472.164&type=Commits)
+
+#### lineage/hudson/
+* [RIP GPE - it was a cool program](https://github.com/search?q=RIP%20GPE%20-%20it%20was%20a%20cool%20program&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 16-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2016-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [devices: jfltexx: Kill GPE support](https://github.com/search?q=devices%3A%20jfltexx%3A%20Kill%20GPE%20support&type=Commits)
+* [wiki: update path to Gerrit SSH settings](https://github.com/search?q=wiki%3A%20update%20path%20to%20Gerrit%20SSH%20settings&type=Commits)
+
+#### vendor/lineage/
+* [apns: Add IPV4V6 to EE (UK)](https://github.com/search?q=apns%3A%20Add%20IPV4V6%20to%20EE%20%28UK%29&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-17-2021 End.
+
+07-16-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-16-2021:
+
+#### device/lineage/car/
+* [Basic configuration for automotive builds](https://github.com/search?q=Basic%20configuration%20for%20automotive%20builds&type=Commits)
+
+#### device/qcom/sepolicy/
+* [sepolicy: Label vendor.qcom.bluetooth props](https://github.com/search?q=sepolicy%3A%20Label%20vendor.qcom.bluetooth%20props&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [sepolicy-legacy: Label vendor.qcom.bluetooth props](https://github.com/search?q=sepolicy-legacy%3A%20Label%20vendor.qcom.bluetooth%20props&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 15-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2015-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 91.0.4472.164](https://github.com/search?q=Update%20default%20webview%20to%2091.0.4472.164&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-16-2021 End.
+
+07-15-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-15-2021:
+
+#### android/
+* [manifest: Add cuttlefish and kernel prebuilts](https://github.com/search?q=manifest%3A%20Add%20cuttlefish%20and%20kernel%20prebuilts&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: VolumeDialogImpl: Fix volume panel permanently visible](https://github.com/search?q=SystemUI%3A%20VolumeDialogImpl%3A%20Fix%20volume%20panel%20permanently%20visible&type=Commits)
+* [CarSystemUI: Exclude FODCircleViewImpl from UI components](https://github.com/search?q=CarSystemUI%3A%20Exclude%20FODCircleViewImpl%20from%20UI%20components&type=Commits)
+
+#### lineage/mirror/
+* [Updated lineage-minimal to 14-Jul-2021 12:01 UTC](https://github.com/search?q=Updated%20lineage-minimal%20to%2014-Jul-2021%2012%3A01%20UTC&type=Commits)
+
+#### tools/extract-utils/
+* [extract_utils: Add "check_elf_files: false" also for binaries](https://github.com/search?q=extract_utils%3A%20Add%20"check_elf_files%3A%20false"%20also%20for%20binaries&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-15-2021 End.
+
+07-14-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-14-2021:
+
+#### lineage/mirror/
+* [Updated to 13-Jul-2021 12:38 UTC](https://github.com/search?q=Updated%20to%2013-Jul-2021%2012%3A38%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-14-2021 End.
+
+07-13-2021
+====================
+
+#### LineageOS - 18.1 source changes of 07-13-2021:
+
+#### frameworks/base/
+* [BiometricPrompt: Automatically add padding to incorporate FOD](https://github.com/search?q=BiometricPrompt%3A%20Automatically%20add%20padding%20to%20incorporate%20FOD&type=Commits)
+
+#### lineage/wiki/
+* [Promote Sony Xperia Z3 and Z3 Compact to 18.1](https://github.com/search?q=Promote%20Sony%20Xperia%20Z3%20and%20Z3%20Compact%20to%2018.1&type=Commits)
+
+#### packages/apps/Dialer/
+* [Dialer: improve search bar](https://github.com/search?q=Dialer%3A%20improve%20search%20bar&type=Commits)
+* [Dialer: set statusbar color same as activity background](https://github.com/search?q=Dialer%3A%20set%20statusbar%20color%20same%20as%20activity%20background&type=Commits)
+* [Dialer: update ripple color](https://github.com/search?q=Dialer%3A%20update%20ripple%20color&type=Commits)
+* [Dialer: update dark theme colors](https://github.com/search?q=Dialer%3A%20update%20dark%20theme%20colors&type=Commits)
+* [Dialer: correct the expanded search bar height](https://github.com/search?q=Dialer%3A%20correct%20the%20expanded%20search%20bar%20height&type=Commits)
+
+#### packages/apps/TvSettings/
+* [HDMI CEC: Add volume preference](https://github.com/search?q=HDMI%20CEC%3A%20Add%20volume%20preference&type=Commits)
+* [Show input settings on cec playback devices](https://github.com/search?q=Show%20input%20settings%20on%20cec%20playback%20devices&type=Commits)
+* [TvSettings: Default to not showing bug-report quick setting](https://github.com/search?q=TvSettings%3A%20Default%20to%20not%20showing%20bug-report%20quick%20setting&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-18.1' into 11.0](https://github.com/search?q=Merge%20%27lineage-18.1%27%20into%2011.0&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-11.0.0_r39' of https://android.googlesource.com/platform/system/bt into staging/lineage-18.1_merge-android-11.0.0_r39](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r39%27%20of%20https%3A//android.googlesource.com/platform/system/bt%20into%20staging/lineage-18.1_merge-android-11.0.0_r39&type=Commits)
+
+#### vendor/lineage/
+* [lineage: partner_gms: Correctly guard ATV GMS](https://github.com/search?q=lineage%3A%20partner_gms%3A%20Correctly%20guard%20ATV%20GMS&type=Commits)
+
+#### LineageOS - 18.1 source changes of 07-13-2021 End.
+
 07-12-2021
 ====================
 
