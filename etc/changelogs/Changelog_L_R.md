@@ -1,6 +1,751 @@
 LineageOS - 18.1 - Android 11 source Changelog - Moto MAXX - DROID Turbo (Quark) only:
 ============================================================
 
+09-18-2021
+====================
+
+#### Device specific Changes of 09-18-2021 Start:
+
+#### Device/Quark/
+* [Quark: update README.md](https://github.com/search?q=Quark%3A%20update%20README.md&type=Commits)
+* [Quark: fix duplicated bool](https://github.com/search?q=Quark%3A%20fix%20duplicated%20bool&type=Commits)
+
+#### Device specific Changes of 09-18-2021 End.
+
+09-17-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-17-2021:
+
+#### lineage/hudson/
+* [hudson: Add miatoll](https://github.com/search?q=hudson%3A%20Add%20miatoll&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Add miatoll](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20miatoll&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-17-2021 End.
+
+09-16-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-16-2021:
+
+#### external/chromium-webview/
+* [Update Chromium Webview to 93.0.4577.82](https://github.com/search?q=Update%20Chromium%20Webview%20to%2093.0.4577.82&type=Commits)
+
+#### lineage/hudson/
+* [Non-QCOM master-race](https://github.com/search?q=Non-QCOM%20master-race&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 93.0.4577.82](https://github.com/search?q=Update%20default%20webview%20to%2093.0.4577.82&type=Commits)
+
+#### lineage/wiki/
+* [wiki: devices: Add Moto-Exynos-9610 family](https://github.com/search?q=wiki%3A%20devices%3A%20Add%20Moto-Exynos-9610%20family&type=Commits)
+* [Explicitly select the container registry in Dockerfiles](https://github.com/search?q=Explicitly%20select%20the%20container%20registry%20in%20Dockerfiles&type=Commits)
+
+#### packages/apps/TvSettings/
+* [TvSettings: fix double ripple in Wifi selection](https://github.com/search?q=TvSettings%3A%20fix%20double%20ripple%20in%20Wifi%20selection&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-16-2021 End.
+
+09-15-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-15-2021:
+
+#### lineage/hudson/
+* [hudson: Start builds for surya!](https://github.com/search?q=hudson%3A%20Start%20builds%20for%20surya!&type=Commits)
+
+#### lineage/wiki/
+* [wiki: add surya](https://github.com/search?q=wiki%3A%20add%20surya&type=Commits)
+* [Add the `export LC_ALL=C` workaround to the build page](https://github.com/search?q=Add%20the%20%60export%20LC_ALL=C%60%20workaround%20to%20the%20build%20page&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-15-2021 End.
+
+09-14-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-14-2021:
+
+#### lineage/hudson/
+* [hudson: add SHIFT6mq (axolotl)](https://github.com/search?q=hudson%3A%20add%20SHIFT6mq%20%28axolotl%29&type=Commits)
+* [hudson: Add Lenovo Z5 Pro GT (heart)](https://github.com/search?q=hudson%3A%20Add%20Lenovo%20Z5%20Pro%20GT%20%28heart%29&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 14-Sep-2021 03:00 UTC](https://github.com/search?q=Updated%20to%2014-Sep-2021%2003%3A00%20UTC&type=Commits)
+* [Updated to 13-Sep-2021 22:29 UTC](https://github.com/search?q=Updated%20to%2013-Sep-2021%2022%3A29%20UTC&type=Commits)
+* [Updated to 13-Sep-2021 22:12 UTC](https://github.com/search?q=Updated%20to%2013-Sep-2021%2022%3A12%20UTC&type=Commits)
+* [Updated to 13-Sep-2021 21:45 UTC](https://github.com/search?q=Updated%20to%2013-Sep-2021%2021%3A45%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: add axolotl](https://github.com/search?q=wiki%3A%20add%20axolotl&type=Commits)
+* [wiki: Add Lenovo Z5 Pro GT (heart)](https://github.com/search?q=wiki%3A%20Add%20Lenovo%20Z5%20Pro%20GT%20%28heart%29&type=Commits)
+
+#### packages/apps/Updater/
+* [Updater: follow TwoPanelSettings styling](https://github.com/search?q=Updater%3A%20follow%20TwoPanelSettings%20styling&type=Commits)
+* [Updater: initial layout for TV](https://github.com/search?q=Updater%3A%20initial%20layout%20for%20TV&type=Commits)
+
+#### vendor/lineage/
+* [apns: Update Vodafone NL](https://github.com/search?q=apns%3A%20Update%20Vodafone%20NL&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-14-2021 End.
+
+09-13-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-13-2021:
+
+#### lineage/hudson/
+* [hudson: Asus -> ASUS](https://github.com/search?q=hudson%3A%20Asus%20->%20ASUS&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 13-Sep-2021 12:52 UTC](https://github.com/search?q=Updated%20to%2013-Sep-2021%2012%3A52%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add ASUS ZenFone 8 (sake)](https://github.com/search?q=wiki%3A%20Add%20ASUS%20ZenFone%208%20%28sake%29&type=Commits)
+* [wiki: Account for devices with vendor_boot partitions.](https://github.com/search?q=wiki%3A%20Account%20for%20devices%20with%20vendor_boot%20partitions.&type=Commits)
+* [wiki: Asus -> ASUS](https://github.com/search?q=wiki%3A%20Asus%20->%20ASUS&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-13-2021 End.
+
+09-12-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-12-2021:
+
+#### build/make/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### frameworks/base/
+* [SystemUI: Unblock gestural navigation on clearScreenshot()](https://github.com/search?q=SystemUI%3A%20Unblock%20gestural%20navigation%20on%20clearScreenshot%28%29&type=Commits)
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+* [Revert "Revert "Detects all activities for whether showing work challenge""](https://github.com/search?q=Revert%20"Revert%20"Detects%20all%20activities%20for%20whether%20showing%20work%20challenge""&type=Commits)
+* [Disallow click to partial screenshot right after screenshot is taken](https://github.com/search?q=Disallow%20click%20to%20partial%20screenshot%20right%20after%20screenshot%20is%20taken&type=Commits)
+
+#### packages/apps/Seedvault/
+* [Only treat eng builds as debug](https://github.com/search?q=Only%20treat%20eng%20builds%20as%20debug&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Merge 'lineage-18.1' into 11.0](https://github.com/search?q=Merge%20%27lineage-18.1%27%20into%2011.0&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-12-2021 End.
+
+09-10-2021
+====================
+
+#### Device specific Changes of 09-10-2021 Start:
+
+#### Device/Quark/
+* [Quark: Enable Wi-Fi Display](https://github.com/search?q=Quark%3A%20Enable%20Wi-Fi%20Display&type=Commits)
+
+#### Device specific Changes of 09-10-2021 End.
+
+***
+
+#### LineageOS - 18.1 source changes of 09-10-2021:
+
+#### vendor/lineage/
+* [apns: Update APNs for Chinese carriers](https://github.com/search?q=apns%3A%20Update%20APNs%20for%20Chinese%20carriers&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-10-2021 End.
+
+09-09-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-09-2021:
+
+#### lineage/wiki/
+* [wiki: contributors: Update Committers/Reviewers to match Gerrit](https://github.com/search?q=wiki%3A%20contributors%3A%20Update%20Committers/Reviewers%20to%20match%20Gerrit&type=Commits)
+
+#### tools/extract-utils/
+* [extract_utils: Don't fixup pinned files when they are supposed to be kept](https://github.com/search?q=extract_utils%3A%20Don%27t%20fixup%20pinned%20files%20when%20they%20are%20supposed%20to%20be%20kept&type=Commits)
+* [extract_utils: Display the fixup hash when keeping pinned files](https://github.com/search?q=extract_utils%3A%20Display%20the%20fixup%20hash%20when%20keeping%20pinned%20files&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-09-2021 End.
+
+09-08-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-08-2021:
+
+#### android/
+* [manifest: android-11.0.0_r40 -> android-11.0.0_r43](https://github.com/search?q=manifest%3A%20android-11.0.0_r40%20->%20android-11.0.0_r43&type=Commits)
+
+#### build/make/
+* [Add support for separate kernels for boot and recovery [2/2]](https://github.com/search?q=Add%20support%20for%20separate%20kernels%20for%20boot%20and%20recovery%20[2/2]&type=Commits)
+
+#### device/qcom/sepolicy-legacy/
+* [sepolicy-legacy: Restore fm radio permissions for system_app](https://github.com/search?q=sepolicy-legacy%3A%20Restore%20fm%20radio%20permissions%20for%20system_app&type=Commits)
+
+#### frameworks/base/
+* [Fixed a crash in settings in tts engine selection screen.](https://github.com/search?q=Fixed%20a%20crash%20in%20settings%20in%20tts%20engine%20selection%20screen.&type=Commits)
+
+#### frameworks/native/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### lineage/wiki/
+* [wiki: templates: Update ADB sideload alert tip.](https://github.com/search?q=wiki%3A%20templates%3A%20Update%20ADB%20sideload%20alert%20tip.&type=Commits)
+
+#### packages/apps/Nfc/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### packages/apps/Settings/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### system/bt/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### system/sepolicy/
+* [Merge tag 'android-11.0.0_r43' into staging/lineage-18.1_merge-android-11.0.0_r43](https://github.com/search?q=Merge%20tag%20%27android-11.0.0_r43%27%20into%20staging/lineage-18.1_merge-android-11.0.0_r43&type=Commits)
+
+#### vendor/lineage/
+* [Add support for separate kernels for boot and recovery [1/2]](https://github.com/search?q=Add%20support%20for%20separate%20kernels%20for%20boot%20and%20recovery%20[1/2]&type=Commits)
+
+#### vendor/qcom/opensource/commonsys/system/bt/
+* [SMP: Reject pairing if public_key.x match](https://github.com/search?q=SMP%3A%20Reject%20pairing%20if%20public_key.x%20match&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-08-2021 End.
+
+09-07-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-07-2021:
+
+#### frameworks/base/
+* [fixup! SystemUI: Show bluetooth battery level when available](https://github.com/search?q=fixup!%20SystemUI%3A%20Show%20bluetooth%20battery%20level%20when%20available&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Bump required FW version for enchilada](https://github.com/search?q=wiki%3A%20Bump%20required%20FW%20version%20for%20enchilada&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-07-2021 End.
+
+09-05-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-05-2021:
+
+#### lineage/hudson/
+* [hudson: Time to bake sake](https://github.com/search?q=hudson%3A%20Time%20to%20bake%20sake&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [SUW: Move re-enabling of status bar to FinishActivity](https://github.com/search?q=SUW%3A%20Move%20re-enabling%20of%20status%20bar%20to%20FinishActivity&type=Commits)
+* [SUW: restore: Handle RESULT_SKIP from Seedvault](https://github.com/search?q=SUW%3A%20restore%3A%20Handle%20RESULT_SKIP%20from%20Seedvault&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-05-2021 End.
+
+09-04-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-04-2021:
+
+#### build/make/
+* [Check for vintf compatiblity early in generation process](https://github.com/search?q=Check%20for%20vintf%20compatiblity%20early%20in%20generation%20process&type=Commits)
+
+#### frameworks/av/
+* [audioflinger: Fix audio for WifiDisplay](https://github.com/search?q=audioflinger%3A%20Fix%20audio%20for%20WifiDisplay&type=Commits)
+* [stagefright: Fix buffer handle retrieval in signalBufferReturned](https://github.com/search?q=stagefright%3A%20Fix%20buffer%20handle%20retrieval%20in%20signalBufferReturned&type=Commits)
+* [stagefright: Fix SurfaceMediaSource getting handle from wrong position issue](https://github.com/search?q=stagefright%3A%20Fix%20SurfaceMediaSource%20getting%20handle%20from%20wrong%20position%20issue&type=Commits)
+* [libstagefright_wfd: video encoder does not actually release MediaBufferBase when done](https://github.com/search?q=libstagefright_wfd%3A%20video%20encoder%20does%20not%20actually%20release%20MediaBufferBase%20when%20done&type=Commits)
+* [libstagefright_wfd: compilation fixes](https://github.com/search?q=libstagefright_wfd%3A%20compilation%20fixes&type=Commits)
+* [Partial revert "Move unused classes out of stagefright foundataion"](https://github.com/search?q=Partial%20revert%20"Move%20unused%20classes%20out%20of%20stagefright%20foundataion"&type=Commits)
+* [Revert "stagefright: remove Miracast sender code"](https://github.com/search?q=Revert%20"stagefright%3A%20remove%20Miracast%20sender%20code"&type=Commits)
+* [Revert "Removed unused class and its test"](https://github.com/search?q=Revert%20"Removed%20unused%20class%20and%20its%20test"&type=Commits)
+
+#### lineage/mirror/
+* [Updated to 04-Sep-2021 14:46 UTC](https://github.com/search?q=Updated%20to%2004-Sep-2021%2014%3A46%20UTC&type=Commits)
+* [Updated to 04-Sep-2021 14:19 UTC](https://github.com/search?q=Updated%20to%2004-Sep-2021%2014%3A19%20UTC&type=Commits)
+* [Updated to 04-Sep-2021 14:03 UTC](https://github.com/search?q=Updated%20to%2004-Sep-2021%2014%3A03%20UTC&type=Commits)
+* [Updated to 04-Sep-2021 13:51 UTC](https://github.com/search?q=Updated%20to%2004-Sep-2021%2013%3A51%20UTC&type=Commits)
+
+#### vendor/lineage/
+* [backuptool: Support tab-delimited fstab](https://github.com/search?q=backuptool%3A%20Support%20tab-delimited%20fstab&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-04-2021 End.
+
+09-03-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-03-2021:
+
+#### frameworks/base/
+* [fixup! AutoBrightness: Add support for one shot auto-brightness:](https://github.com/search?q=fixup!%20AutoBrightness%3A%20Add%20support%20for%20one%20shot%20auto-brightness%3A&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Welcome to POCO X3 Pro](https://github.com/search?q=wiki%3A%20Welcome%20to%20POCO%20X3%20Pro&type=Commits)
+* [wiki: Fix OCD (.. -> ...)](https://github.com/search?q=wiki%3A%20Fix%20OCD%20%28..%20->%20...%29&type=Commits)
+
+#### packages/apps/Seedvault/
+* [Seedvault: redesign SUW activities](https://github.com/search?q=Seedvault%3A%20redesign%20SUW%20activities&type=Commits)
+* [Don't hide navigation bar in setup wizard](https://github.com/search?q=Don%27t%20hide%20navigation%20bar%20in%20setup%20wizard&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Adjust one shot auto-brightness strings](https://github.com/search?q=Settings%3A%20Adjust%20one%20shot%20auto-brightness%20strings&type=Commits)
+* [fixup! Settings: Add preference for one shot auto-brightness](https://github.com/search?q=fixup!%20Settings%3A%20Add%20preference%20for%20one%20shot%20auto-brightness&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [SUW: FinishActivity: hide navigation bar & statusbar before animation](https://github.com/search?q=SUW%3A%20FinishActivity%3A%20hide%20navigation%20bar%20&%20statusbar%20before%20animation&type=Commits)
+* [SUW: Intent changes for new Wi-Fi setup flow](https://github.com/search?q=SUW%3A%20Intent%20changes%20for%20new%20Wi-Fi%20setup%20flow&type=Commits)
+* [The big code style cleanup](https://github.com/search?q=The%20big%20code%20style%20cleanup&type=Commits)
+* [Remove whitespace](https://github.com/search?q=Remove%20whitespace&type=Commits)
+* [Ensure all files have a newline at the end](https://github.com/search?q=Ensure%20all%20files%20have%20a%20newline%20at%20the%20end&type=Commits)
+* [SUW: add accessibility settings to welcome page](https://github.com/search?q=SUW%3A%20add%20accessibility%20settings%20to%20welcome%20page&type=Commits)
+* [SUW: rearrange welcome activity](https://github.com/search?q=SUW%3A%20rearrange%20welcome%20activity&type=Commits)
+* [SetupWizard: Fix status bar managing workflow](https://github.com/search?q=SetupWizard%3A%20Fix%20status%20bar%20managing%20workflow&type=Commits)
+* [SUW: use standard navigation method](https://github.com/search?q=SUW%3A%20use%20standard%20navigation%20method&type=Commits)
+* [SUW: use GLIF v3 light -theme](https://github.com/search?q=SUW%3A%20use%20GLIF%20v3%20light%20-theme&type=Commits)
+* [SUW: Cleanup intent extras](https://github.com/search?q=SUW%3A%20Cleanup%20intent%20extras&type=Commits)
+* [SUW: use setupdesign layout & theming](https://github.com/search?q=SUW%3A%20use%20setupdesign%20layout%20&%20theming&type=Commits)
+* [Replace LOCAL_MAC_ADDRESS with NETWORK_SETTINGS](https://github.com/search?q=Replace%20LOCAL_MAC_ADDRESS%20with%20NETWORK_SETTINGS&type=Commits)
+
+#### packages/apps/TvSettings/
+* [TwoPanelSettings: fix double ripple in Wifi selection](https://github.com/search?q=TwoPanelSettings%3A%20fix%20double%20ripple%20in%20Wifi%20selection&type=Commits)
+* [TwoPanelSettings: bring back ripple](https://github.com/search?q=TwoPanelSettings%3A%20bring%20back%20ripple&type=Commits)
+* [TwoPanelSettings: improve category title text appearance](https://github.com/search?q=TwoPanelSettings%3A%20improve%20category%20title%20text%20appearance&type=Commits)
+
+#### vendor/lineage/
+* [overlay: follow system accent in setupdesign](https://github.com/search?q=overlay%3A%20follow%20system%20accent%20in%20setupdesign&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-03-2021 End.
+
+09-02-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-02-2021:
+
+#### frameworks/base/
+* [Make battery clickable again in quick QS status](https://github.com/search?q=Make%20battery%20clickable%20again%20in%20quick%20QS%20status&type=Commits)
+
+#### lineage/hudson/
+* [hudson: Add castor_windy to 17.1](https://github.com/search?q=hudson%3A%20Add%20castor_windy%20to%2017.1&type=Commits)
+* [hudson: Add Support for Sony Xperia Z2](https://github.com/search?q=hudson%3A%20Add%20Support%20for%20Sony%20Xperia%20Z2&type=Commits)
+
+#### lineage/wiki/
+* [wiki: Add Sony Xperia Tablet Z2 WiFi (castor_windy)](https://github.com/search?q=wiki%3A%20Add%20Sony%20Xperia%20Tablet%20Z2%20WiFi%20%28castor_windy%29&type=Commits)
+* [wiki: Bump required FW version for fajita](https://github.com/search?q=wiki%3A%20Bump%20required%20FW%20version%20for%20fajita&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Disable ChooseDataSimActivity if single SIM detected](https://github.com/search?q=Disable%20ChooseDataSimActivity%20if%20single%20SIM%20detected&type=Commits)
+* [Fix SimMissingActivity never showing](https://github.com/search?q=Fix%20SimMissingActivity%20never%20showing&type=Commits)
+* [Rework isMultiSimDevice check](https://github.com/search?q=Rework%20isMultiSimDevice%20check&type=Commits)
+* [SetupWizard: Use SettingsLib for Timezones](https://github.com/search?q=SetupWizard%3A%20Use%20SettingsLib%20for%20Timezones&type=Commits)
+
+#### tools/repohooks/
+* [android_test_mapping_format: updated the code to match the internal version.](https://github.com/search?q=android_test_mapping_format%3A%20updated%20the%20code%20to%20match%20the%20internal%20version.&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-02-2021 End.
+
+09-01-2021
+====================
+
+#### LineageOS - 18.1 source changes of 09-01-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 01-Sep-2021 12:02 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2001-Sep-2021%2012%3A02%20UTC&type=Commits)
+
+#### lineage/wiki/
+* [Add support for Sony Xperia Z2](https://github.com/search?q=Add%20support%20for%20Sony%20Xperia%20Z2&type=Commits)
+
+#### LineageOS - 18.1 source changes of 09-01-2021 End.
+
+08-31-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-31-2021:
+
+#### lineage/scripts/
+* [aidl-gen: Initial release](https://github.com/search?q=aidl-gen%3A%20Initial%20release&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-31-2021 End.
+
+08-30-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-30-2021:
+
+#### system/update_engine/
+* [Check allocatable space correctly when sideloading on VAB](https://github.com/search?q=Check%20allocatable%20space%20correctly%20when%20sideloading%20on%20VAB&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-30-2021 End.
+
+08-29-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-29-2021:
+
+#### lineage-sdk/
+* [fixup! lineage-sdk: Add preference keys for one shot auto-brightness](https://github.com/search?q=fixup!%20lineage-sdk%3A%20Add%20preference%20keys%20for%20one%20shot%20auto-brightness&type=Commits)
+
+#### vendor/lineage/
+* [overlay: tv: default to night mode](https://github.com/search?q=overlay%3A%20tv%3A%20default%20to%20night%20mode&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-29-2021 End.
+
+08-28-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-28-2021:
+
+#### lineage/wiki/
+* [wiki: Use correct closing tags in _includes/deviceinfo.html](https://github.com/search?q=wiki%3A%20Use%20correct%20closing%20tags%20in%20_includes/deviceinfo.html&type=Commits)
+
+#### packages/apps/Seedvault/
+* [Merge branch 'master' of https://github.com/seedvault-app/seedvault into lineage-18.1](https://github.com/search?q=Merge%20branch%20%27master%27%20of%20https%3A//github.com/seedvault-app/seedvault%20into%20lineage-18.1&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Wi-Fi picker UI changes for SUW](https://github.com/search?q=Settings%3A%20Wi-Fi%20picker%20UI%20changes%20for%20SUW&type=Commits)
+* [Settings: use Glif themed button bar](https://github.com/search?q=Settings%3A%20use%20Glif%20themed%20button%20bar&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-28-2021 End.
+
+08-27-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-27-2021:
+
+#### lineage/hudson/
+* [hudson: Welcome to POCO X3 Pro](https://github.com/search?q=hudson%3A%20Welcome%20to%20POCO%20X3%20Pro&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 27-Aug-2021 12:02 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2027-Aug-2021%2012%3A02%20UTC&type=Commits)
+
+#### packages/apps/Seedvault/
+* [Move LocalContactsBackup to product partition](https://github.com/search?q=Move%20LocalContactsBackup%20to%20product%20partition&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: default to GlifV3Theme](https://github.com/search?q=Settings%3A%20default%20to%20GlifV3Theme&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-27-2021 End.
+
+08-25-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-25-2021:
+
+#### packages/apps/Etar/
+* [Divider color fixes (#973)](https://github.com/search?q=Divider%20color%20fixes%20%28%23973%29&type=Commits)
+* [Fixed crash of WeekView, Agenda, Settings & MonthView screens when calendar permission is not given (#965)](https://github.com/search?q=Fixed%20crash%20of%20WeekView,%20Agenda,%20Settings%20&%20MonthView%20screens%20when%20calendar%20permission%20is%20not%20given%20%28%23965%29&type=Commits)
+* [updated build settings for more aggressive CPU and memory utilization](https://github.com/search?q=updated%20build%20settings%20for%20more%20aggressive%20CPU%20and%20memory%20utilization&type=Commits)
+* [Bugfix Release](https://github.com/search?q=Bugfix%20Release&type=Commits)
+* [Refresh view only when themePref "system" is selected (#941)](https://github.com/search?q=Refresh%20view%20only%20when%20themePref%20"system"%20is%20selected%20%28%23941%29&type=Commits)
+* [Home time zone setting grayed out if not enabled](https://github.com/search?q=Home%20time%20zone%20setting%20grayed%20out%20if%20not%20enabled&type=Commits)
+* [Bump kotlinx-coroutines-core from 1.5.0 to 1.5.1](https://github.com/search?q=Bump%20kotlinx-coroutines-core%20from%201.5.0%20to%201.5.1&type=Commits)
+* [Bump kotlinx-coroutines-android from 1.5.0 to 1.5.1](https://github.com/search?q=Bump%20kotlinx-coroutines-android%20from%201.5.0%20to%201.5.1&type=Commits)
+* [Bump gradle from 4.2.1 to 4.2.2](https://github.com/search?q=Bump%20gradle%20from%204.2.1%20to%204.2.2&type=Commits)
+* [Bump material from 1.3.0 to 1.4.0](https://github.com/search?q=Bump%20material%20from%201.3.0%20to%201.4.0&type=Commits)
+* [Bump kotlin_version from 1.5.0 to 1.5.20](https://github.com/search?q=Bump%20kotlin_version%20from%201.5.0%20to%201.5.20&type=Commits)
+* [Replace dip with sp in event info text size](https://github.com/search?q=Replace%20dip%20with%20sp%20in%20event%20info%20text%20size&type=Commits)
+* [Avoid text overlapping in start, end date fields (#946)](https://github.com/search?q=Avoid%20text%20overlapping%20in%20start,%20end%20date%20fields%20%28%23946%29&type=Commits)
+* [Update submodules](https://github.com/search?q=Update%20submodules&type=Commits)
+
+#### packages/apps/Seedvault/
+* [Merge pull request #291 from luca020400/patch-1](https://github.com/search?q=Merge%20pull%20request%20%23291%20from%20luca020400/patch-1&type=Commits)
+* [Don't backup on metered networks](https://github.com/search?q=Don%27t%20backup%20on%20metered%20networks&type=Commits)
+* [Merge branch 'android11' of https://github.com/seedvault-app/seedvault into lineage-18.1](https://github.com/search?q=Merge%20branch%20%27android11%27%20of%20https%3A//github.com/seedvault-app/seedvault%20into%20lineage-18.1&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-25-2021 End.
+
+08-24-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-24-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 24-Aug-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2024-Aug-2021%2012%3A01%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-24-2021 End.
+
+08-23-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-23-2021:
+
+#### frameworks/base/
+* [AutoBrightness: Add support for one shot auto-brightness:](https://github.com/search?q=AutoBrightness%3A%20Add%20support%20for%20one%20shot%20auto-brightness%3A&type=Commits)
+
+#### lineage-sdk/
+* [lineage-sdk: Add preference keys for one shot auto-brightness](https://github.com/search?q=lineage-sdk%3A%20Add%20preference%20keys%20for%20one%20shot%20auto-brightness&type=Commits)
+
+#### packages/apps/Messaging/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Settings: Add preference for one shot auto-brightness](https://github.com/search?q=Settings%3A%20Add%20preference%20for%20one%20shot%20auto-brightness&type=Commits)
+
+#### tools/extract-utils/
+* [fixup! extract_utils: Add support for overriding packages](https://github.com/search?q=fixup!%20extract_utils%3A%20Add%20support%20for%20overriding%20packages&type=Commits)
+* [extract_utils: Add support for overriding packages](https://github.com/search?q=extract_utils%3A%20Add%20support%20for%20overriding%20packages&type=Commits)
+* [extract_utils: Skip colored echo when piped](https://github.com/search?q=extract_utils%3A%20Skip%20colored%20echo%20when%20piped&type=Commits)
+* [extract_utils: Add a bit of color to the output](https://github.com/search?q=extract_utils%3A%20Add%20a%20bit%20of%20color%20to%20the%20output&type=Commits)
+* [extract_utils: Introduce colored echo helper function](https://github.com/search?q=extract_utils%3A%20Introduce%20colored%20echo%20helper%20function&type=Commits)
+
+#### vendor/lineage/
+* [kernel: Fix vdso32 building for 4.19+ kernels](https://github.com/search?q=kernel%3A%20Fix%20vdso32%20building%20for%204.19+%20kernels&type=Commits)
+
+#### vendor/qcom/opensource/usb/
+* [usb: Add USB Soong namespace to product makefile.](https://github.com/search?q=usb%3A%20Add%20USB%20Soong%20namespace%20to%20product%20makefile.&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-23-2021 End.
+
+08-22-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-22-2021:
+
+#### vendor/lineage/
+* [lineage: config: DEVICE_PACKAGE_OVERLAYS -> PRODUCT_PACKAGE_OVERLAYS](https://github.com/search?q=lineage%3A%20config%3A%20DEVICE_PACKAGE_OVERLAYS%20->%20PRODUCT_PACKAGE_OVERLAYS&type=Commits)
+* [lineage: overlay: Remove MMS user agent URL](https://github.com/search?q=lineage%3A%20overlay%3A%20Remove%20MMS%20user%20agent%20URL&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-22-2021 End.
+
+08-21-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-21-2021:
+
+#### frameworks/base/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage-sdk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### lineage/crowdin/
+* [config: 18.1: Add ElmyraService](https://github.com/search?q=config%3A%2018.1%3A%20Add%20ElmyraService&type=Commits)
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 21-Aug-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2021-Aug-2021%2012%3A01%20UTC&type=Commits)
+
+#### packages/apps/AudioFX/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Bluetooth/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CellBroadcastReceiver/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/CertInstaller/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Contacts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DeskClock/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Dialer/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/DocumentsUI/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Eleven/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/EmergencyInfo/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Etar/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ExactCalculator/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/FMRadio/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Gallery2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Jelly/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/KeyChain/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/LineageParts/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ManagedProvisioning/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Nfc/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PermissionController/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/PhoneCommon/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Recorder/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Settings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/SetupWizard/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Snap/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Stk/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/StorageManager/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Tag/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Terminal/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/ThemePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Trebuchet/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/TvSettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/Updater/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/apps/WallpaperPicker2/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/inputmethods/LatinIME/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/modules/CaptivePortalLogin/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/BlockedNumberProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/CalendarProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/DownloadProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/providers/MediaProvider/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/resources/devicesettings/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/BuiltInPrintService/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telecomm/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/services/Telephony/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### packages/wallpapers/LivePicker/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### vendor/qcom/opensource/fm-commonsys/
+* [Automatic translation import](https://github.com/search?q=Automatic%20translation%20import&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-21-2021 End.
+
+08-19-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-19-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 19-Aug-2021 12:02 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2019-Aug-2021%2012%3A02%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-19-2021 End.
+
+08-18-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-18-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 18-Aug-2021 01:08 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2018-Aug-2021%2001%3A08%20UTC&type=Commits)
+
+#### lineage/scripts/
+* [Update default webview to 92.0.4515.159](https://github.com/search?q=Update%20default%20webview%20to%2092.0.4515.159&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-18-2021 End.
+
+08-15-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-15-2021:
+
+#### lineage/wiki/
+* [wiki: zippo: Add required Android 11 FW](https://github.com/search?q=wiki%3A%20zippo%3A%20Add%20required%20Android%2011%20FW&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-15-2021 End.
+
+08-14-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-14-2021:
+
+#### lineage/wiki/
+* [wiki: Mention supported firmware version in firmware_update_oneplus_fastbootd](https://github.com/search?q=wiki%3A%20Mention%20supported%20firmware%20version%20in%20firmware_update_oneplus_fastbootd&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-14-2021 End.
+
+08-12-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-12-2021:
+
+#### lineage/wiki/
+* [signing_builds: migration: Correct the command to run the script](https://github.com/search?q=signing_builds%3A%20migration%3A%20Correct%20the%20command%20to%20run%20the%20script&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-12-2021 End.
+
+08-09-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-09-2021:
+
+#### lineage/wiki/
+* [wiki: Set has_recovery_partition=true for hotdogb](https://github.com/search?q=wiki%3A%20Set%20has_recovery_partition=true%20for%20hotdogb&type=Commits)
+* [Add link to FAQ on start page](https://github.com/search?q=Add%20link%20to%20FAQ%20on%20start%20page&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-09-2021 End.
+
+08-08-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-08-2021:
+
+#### build/soong/
+* [cleanbuild: Add `recovery_kernel` to installclean files](https://github.com/search?q=cleanbuild%3A%20Add%20%60recovery_kernel%60%20to%20installclean%20files&type=Commits)
+* [soong: move header override to compiler.go](https://github.com/search?q=soong%3A%20move%20header%20override%20to%20compiler.go&type=Commits)
+
+#### vendor/qcom/opensource/commonsys-intf/bluetooth/
+* [bt: Use device name as BT device name.](https://github.com/search?q=bt%3A%20Use%20device%20name%20as%20BT%20device%20name.&type=Commits)
+* [bt: Only build test apps on eng builds.](https://github.com/search?q=bt%3A%20Only%20build%20test%20apps%20on%20eng%20builds.&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-08-2021 End.
+
+08-07-2021
+====================
+
+#### LineageOS - 18.1 source changes of 08-07-2021:
+
+#### lineage/mirror/
+* [Updated aosp-minimal to 07-Aug-2021 12:01 UTC](https://github.com/search?q=Updated%20aosp-minimal%20to%2007-Aug-2021%2012%3A01%20UTC&type=Commits)
+
+#### LineageOS - 18.1 source changes of 08-07-2021 End.
+
 08-06-2021
 ====================
 
