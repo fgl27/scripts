@@ -117,6 +117,7 @@ if [ "$input1" == "1" ]; then
 
 	cd $folder || exit;
 	git fetch https://github.com/fgl27/android_vendor_lineage lineage-17.1 && git cherry-pick 8c3969e85b63e24df22cb0f55008d7e99874993b
+	git revert --no-edit f88090b17af333120d3c7ac5eb7b2367e5c78531
 	cd - &> /dev/null || exit;
 
 	echo -e "\\n	out Folder $folder"
