@@ -287,7 +287,7 @@ sudo apt-get install -y nodejs
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" > ~/.bashrc
-npm install js-beautify jshint uglify-js html-minifier crass http-server -g
+npm install js-beautify jshint uglify-js html-minifier crass http-server firebase-tools -g
 ```
 
 ##  nodejs end
@@ -472,3 +472,15 @@ https://unix.stackexchange.com/a/62846
     
     pacmd set-card-profile 0 output:hdmi-stereo+input:analog-stereo
 
+### fix ubuntu share folder from vmware
+
+Check if folders are created
+
+    sudo mkdir -p /mnt/hgfs/
+    sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs/ -o subtype=vmhgfs-fuse,allow_other
+
+Solve the issue
+
+    vmhgfs-fuse   /mnt/hgfs    fuse    defaults,allow_other    0    0
+
+Check the folder /mnt/hgfs VM share must show
